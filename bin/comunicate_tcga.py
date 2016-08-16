@@ -44,13 +44,19 @@ class Query_TCGA:
 
     def query_by_filter(self, filtList, filtTypeList, returnType):
 
+        fieldsDict = {"disease": "disease_type", "studyType": "experimental_strategy"}
+
         # Validate entry
-        if filtTypeList not in ["disease", "studyType"]:
-            return "Please enter a valid filter type ('disease' or 'studyType')"
+        for filt in filtTypeList:
+            if filt not in ["disease", "studyType"]:
+                print "Please enter a valid filter type ('disease' or 'studyType')"
+                return
         if returnType not in ["project", "files", "case"]:
-            return "Please enter a valid return type ('project', 'files' or 'case')"
+            print "Please enter a valid return type ('project', 'files' or 'case')"
+            return
         if len(filtList) != len(filtTypeList):
-            return "Please enter in the same number of filer terms and filter types"
+            print "Please enter in the same number of filer terms and filter types"
+            return
 
         # query the correct type
         if returnType == "project":
@@ -58,30 +64,31 @@ class Query_TCGA:
         elif returnType == "files":
             url = 'https://gdc-api.nci.nih.gov/files'
         else:
-            url = url = 'https://gdc-api.nci.nih.gov/cases'
+            url = 'https://gdc-api.nci.nih.gov/cases'
 
-        # set up query parameters
-        filterParams = {}
-        for i in range(len(filtList)):
-            val = filtList[i]
-            if filtTypeList[i] == "disase":
-                field = "disease_type"
-            else:
-                field = "experimental_strategy"
-
-            # if the first parameter
-            if filterParams == {}:
-                filt = {"op"="=",
+        if len(filtList) == 1:
+            field = fieldsDict[filtTypeList[0]]
+            filterParams = {"op": "=",
                         "content": {
                             "field": field,
                             "value": [val]
                             }
                         }
-            else:
-                
-                 
+        else:
+            contentList = []
+            for i in range(len(filtList)):
+                val = filtList[i]
+                field = fieldsDict[filtTypeList[i]]
+                contentList += [{ "op":"=",
+                    "content": {
+                    "field": field,
+                    "value": [val]
+                    }}]
+            filterParams = {"op": "and",
+                            "content": contentList}
 
-
+        
+        print filterParams
         params = {'pretty': 'true',
                   'filters': json.dumps(filterParams)}
 
@@ -126,8 +133,9 @@ def main():
         tcga.query_by_project('TCGA-LUAD')
         tcga.query_by_file('000225ad-497b-4a8c-967e-a72159c9b3c9')
         tcga.query_by_sample('1f601832-eee3-48fb-acf5-80c4a454f26e')
-        tcga.query_projects_by_disease("Breast Invasive Carcinoma")
-        tcga.query_projects_by_type("WXS")
+        tcga.query_by_filter(["Lung Adenocarcinoma", "WXS"], ["disease", "studyType"], "case")
+        #tcga.query_projects_by_disease("Breast Invasive Carcinoma")
+        #tcga.query_projects_by_type("WXS")
         
     else:
         print "TCGA is not responding"
