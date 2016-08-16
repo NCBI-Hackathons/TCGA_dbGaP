@@ -44,15 +44,16 @@ class Query_TCGA:
 
     def query_by_filter(self, filtList, filtTypeList, returnType):
 
-        fieldsDict = {"disease": "disease_type", "studyType": "experimental_strategy"}
+        fieldsDict = {"disease": {"project":"disease_type", "file":"cases.project.disease_type", "case": "project.disease_type"},
+                      "studyType": {"project":"summary.experimental_strategies.experimental_strategy", "file":"experimental_strategy", "case":"files.experimental_strategy"}}
 
         # Validate entry
         for filt in filtTypeList:
             if filt not in ["disease", "studyType"]:
                 print "Please enter a valid filter type ('disease' or 'studyType')"
                 return
-        if returnType not in ["project", "files", "case"]:
-            print "Please enter a valid return type ('project', 'files' or 'case')"
+        if returnType not in ["project", "file", "case"]:
+            print "Please enter a valid return type ('project', 'file' or 'case')"
             return
         if len(filtList) != len(filtTypeList):
             print "Please enter in the same number of filer terms and filter types"
@@ -67,7 +68,7 @@ class Query_TCGA:
             url = 'https://gdc-api.nci.nih.gov/cases'
 
         if len(filtList) == 1:
-            field = fieldsDict[filtTypeList[0]]
+            field = fieldsDict[filtTypeList[0]][returnType]
             filterParams = {"op": "=",
                         "content": {
                             "field": field,
@@ -78,7 +79,7 @@ class Query_TCGA:
             contentList = []
             for i in range(len(filtList)):
                 val = filtList[i]
-                field = fieldsDict[filtTypeList[i]]
+                field = fieldsDict[filtTypeList[i]][returnType]
                 contentList += [{ "op":"=",
                     "content": {
                     "field": field,
