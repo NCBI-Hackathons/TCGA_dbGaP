@@ -1,0 +1,635 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./datadict_v2.xsl"?>
+<data_table id="pht000328.v1" study_id="phs000086.v1" participant_set="1" date_created="Thu Jan 29 15:38:22 2009">
+
+<variable id="phv00049448.v1">
+	<name>clinic</name>
+	<description>A1. Identifying information: de-identified EDIC clinic number</description>
+	<type>byte</type>
+</variable>
+
+<variable id="phv00049447.v1">
+	<name>form</name>
+	<description>EDIC form number</description>
+	<type>byte</type>
+</variable>
+
+<variable id="phv00049526.v1">
+	<name>fsasdate</name>
+	<description>A4. Identifying information. De-identified form date</description>
+	<type>int</type>
+</variable>
+
+<variable id="phv00049527.v1">
+	<name>mask_pat</name>
+	<description>A2. Identifying information. De-identified patient ID</description>
+	<type>int</type>
+</variable>
+
+<variable id="phv00049449.v1">
+	<name>odb1</name>
+	<description>B1. Current medication: patient used over-the-counter medications</description>
+	<type>byte</type>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+</variable>
+
+<variable id="phv00049485.v1">
+	<name>odb10</name>
+	<description>B10. Current medication: specify - has the patient taken coronary vasodilators?</description>
+	<type>byte</type>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+</variable>
+
+<variable id="phv00049486.v1">
+	<name>odb10stp</name>
+	<description>B10. Current medication:  if the patient uses no other prescription or non-prescription medication check here and STOP.</description>
+	<type>byte</type>
+	<value code="1">Stopped</value>
+</variable>
+
+<variable id="phv00049487.v1">
+	<name>odb11</name>
+	<description>B11. Current medication: has the patient taken digitalis?</description>
+	<type>byte</type>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+</variable>
+
+<variable id="phv00049488.v1">
+	<name>odb11stp</name>
+	<description>B11. Current medication:  if the patient uses no other prescription or non-prescription medication check here and STOP.</description>
+	<type>byte</type>
+	<value code="1">Stopped</value>
+	<value code="2">Missing data</value>
+</variable>
+
+<variable id="phv00049489.v1">
+	<name>odb12</name>
+	<description>B12. Current medication: has the patient taken antihypsarrythmic medications?</description>
+	<type>byte</type>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+</variable>
+
+<variable id="phv00049490.v1">
+	<name>odb12a</name>
+	<description>B12a. Current medication: has the patient taken quinidine?</description>
+	<type>byte</type>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+</variable>
+
+<variable id="phv00049491.v1">
+	<name>odb12b</name>
+	<description>B12b. Current medication: has the patient taken procaine amide?</description>
+	<type>byte</type>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+</variable>
+
+<variable id="phv00049492.v1">
+	<name>odb12c</name>
+	<description>B12c. Current medication: has the patient taken DPH (diphenylhydantoin)?</description>
+	<type>byte</type>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+</variable>
+
+<variable id="phv00049493.v1">
+	<name>odb12d</name>
+	<description>B12d. Current medication: specify - has the patient taken other antiarrythmic medication?</description>
+	<type>byte</type>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+</variable>
+
+<variable id="phv00049494.v1">
+	<name>odb12stp</name>
+	<description>B12. Current medication:  if the patient uses no other prescription or non-prescription medication check here and STOP.</description>
+	<type>byte</type>
+	<value code="1">Stopped</value>
+	<value code="2">Missing data</value>
+</variable>
+
+<variable id="phv00049495.v1">
+	<name>odb13</name>
+	<description>B13. Current medication: has the patient taken ACE inhibitors?</description>
+	<type>byte</type>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+</variable>
+
+<variable id="phv00049496.v1">
+	<name>odb13stp</name>
+	<description>B13. Current medication:  if the patient uses no other prescription or non-prescription medication check here and STOP.</description>
+	<type>byte</type>
+	<value code="1">Stopped</value>
+	<value code="2">Missing data</value>
+</variable>
+
+<variable id="phv00049497.v1">
+	<name>odb14</name>
+	<description>B14. Current medication: has the patient taken antihypertensives?</description>
+	<type>byte</type>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+</variable>
+
+<variable id="phv00049498.v1">
+	<name>odb14a</name>
+	<description>B14a. Current medication: has the patient taken diuretics</description>
+	<type>byte</type>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+</variable>
+
+<variable id="phv00049499.v1">
+	<name>odb14a1</name>
+	<description>B14a1. Current medication: has the patient taken hydrochlorothiazide</description>
+	<type>byte</type>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+</variable>
+
+<variable id="phv00049500.v1">
+	<name>odb14a2</name>
+	<description>B14a2. Current medication: specify - has the patient taken other thiazide diuretics?</description>
+	<type>byte</type>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+</variable>
+
+<variable id="phv00049501.v1">
+	<name>odb14a3</name>
+	<description>B14a3. Current medication: has the patient taken furosemide?</description>
+	<type>byte</type>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+</variable>
+
+<variable id="phv00049502.v1">
+	<name>odb14a4</name>
+	<description>B14a4. Current medication: specify - has the patient taken other loop diuretics?</description>
+	<type>byte</type>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+</variable>
+
+<variable id="phv00049503.v1">
+	<name>odb14a5</name>
+	<description>B14a5. Current medication: has the patient taken Metolazone</description>
+	<type>byte</type>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+</variable>
+
+<variable id="phv00049504.v1">
+	<name>odb14b</name>
+	<description>B14b. Current medication: specify - has the patient taken beta blockers?</description>
+	<type>byte</type>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+</variable>
+
+<variable id="phv00049505.v1">
+	<name>odb14c</name>
+	<description>B14c. Current medication: has the patient taken Labetalol?</description>
+	<type>byte</type>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+</variable>
+
+<variable id="phv00049506.v1">
+	<name>odb14d</name>
+	<description>B14d. Current medication: has the patient taken Prazosin-like agents?</description>
+	<type>byte</type>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+</variable>
+
+<variable id="phv00049507.v1">
+	<name>odb14e</name>
+	<description>B14e. Current medication: has the patient taken Hydralazine?</description>
+	<type>byte</type>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+</variable>
+
+<variable id="phv00049508.v1">
+	<name>odb14f</name>
+	<description>B14f. Current medication: has the patient taken Guanabenz?</description>
+	<type>byte</type>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+</variable>
+
+<variable id="phv00049509.v1">
+	<name>odb14g</name>
+	<description>B14g. Current medication: has the patient taken Clonidine?</description>
+	<type>byte</type>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+</variable>
+
+<variable id="phv00049510.v1">
+	<name>odb14h</name>
+	<description>B14h. Current medication: has the patient taken Methyldopa?</description>
+	<type>byte</type>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+</variable>
+
+<variable id="phv00049511.v1">
+	<name>odb14i</name>
+	<description>B14j. Current medication: has the patient taken Minoxidil?</description>
+	<type>byte</type>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+</variable>
+
+<variable id="phv00049512.v1">
+	<name>odb14j</name>
+	<description>B14j. Current medication: has the patient taken calcium channel blockers</description>
+	<type>byte</type>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+</variable>
+
+<variable id="phv00049513.v1">
+	<name>odb14k</name>
+	<description>B14k. Current medication: specify - has the patient taken other beta blockers?</description>
+	<type>byte</type>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+</variable>
+
+<variable id="phv00049514.v1">
+	<name>odb14stp</name>
+	<description>B14. Current medication: if the patient uses no other prescription or non-prescription medication check here and STOP.</description>
+	<type>byte</type>
+	<value code="1">Stopped</value>
+	<value code="2">Missing data</value>
+</variable>
+
+<variable id="phv00049518.v1">
+	<name>odb15ale</name>
+	<description>B15. Current medication: has the patient used ocular  medication which require prescription? (steroid drops-left eye)</description>
+	<type>byte</type>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+</variable>
+
+<variable id="phv00049517.v1">
+	<name>odb15are</name>
+	<description>B15. Current medication: has the patient used ocular  medication which require prescription? (steroid drops-right eye)</description>
+	<type>byte</type>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+</variable>
+
+<variable id="phv00049520.v1">
+	<name>odb15ble</name>
+	<description>B15. Current medication: has the patient used ocular  medication which require prescription? (glaucoma drops-left eye)</description>
+	<type>byte</type>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+</variable>
+
+<variable id="phv00049519.v1">
+	<name>odb15bre</name>
+	<description>B15. Current medication: has the patient used ocular  medication which require prescription? (glaucoma drops - right eye)</description>
+	<type>byte</type>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+</variable>
+
+<variable id="phv00049522.v1">
+	<name>odb15cle</name>
+	<description>B15. Current medication: has the patient used ocular  medication which require prescription? (mydriatics, left eye)</description>
+	<type>byte</type>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+</variable>
+
+<variable id="phv00049521.v1">
+	<name>odb15cre</name>
+	<description>B15. Current medication: has the patient used ocular  medication which require prescription? (glaucoma, dropsmydriatics, right eye)</description>
+	<type>byte</type>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+</variable>
+
+<variable id="phv00049524.v1">
+	<name>odb15dle</name>
+	<description>B15. Current medication:  specify - has the patient used ocular  medication which require prescription? (other ocular medication, left eye)</description>
+	<type>byte</type>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+</variable>
+
+<variable id="phv00049523.v1">
+	<name>odb15dre</name>
+	<description>B15. Current medication: specify - has the patient used ocular  medication which require prescription? (other ocular medication, right eye)</description>
+	<type>byte</type>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+</variable>
+
+<variable id="phv00049516.v1">
+	<name>odb15le</name>
+	<description>B15le. Current medication: has the patient used ocular  medication which require prescription? (left eye)</description>
+	<type>byte</type>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+</variable>
+
+<variable id="phv00049515.v1">
+	<name>odb15re</name>
+	<description>B15re. Current medication: has the patient used ocular  medication which require prescription? (right eye)</description>
+	<type>byte</type>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+</variable>
+
+<variable id="phv00049525.v1">
+	<name>odb16</name>
+	<description>B16. Current medication: specify - has the patient used ocular  medication which require prescription? (other medications)</description>
+	<type>byte</type>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+</variable>
+
+<variable id="phv00049450.v1">
+	<name>odb1a1</name>
+	<description>B1a1. Current medication: during the last month has the patient taken any aspirin?</description>
+	<type>byte</type>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+</variable>
+
+<variable id="phv00049451.v1">
+	<name>odb1a2</name>
+	<description>B1a2. Current medication: how many days during the last month has the patient taken aspirin?</description>
+	<type>byte</type>
+	<unit>Days</unit>
+</variable>
+
+<variable id="phv00049452.v1">
+	<name>odb1a3</name>
+	<description>B1a3. Current medication: how many tablets of aspirin has the patient taken during the last month?</description>
+	<type>int</type>
+	<unit>Tablets</unit>
+</variable>
+
+<variable id="phv00049453.v1">
+	<name>odb1b</name>
+	<description>B1b. Current medication: over-the-counter- Tylenol, Advil , Motrin</description>
+	<type>byte</type>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+</variable>
+
+<variable id="phv00049454.v1">
+	<name>odb1c</name>
+	<description>B1c. Current medication: over-the-counter - cold medications</description>
+	<type>byte</type>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+</variable>
+
+<variable id="phv00049455.v1">
+	<name>odb1d</name>
+	<description>B1d. Current medication: specify - other over - the counter medication</description>
+	<type>byte</type>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+</variable>
+
+<variable id="phv00049456.v1">
+	<name>odb1stp</name>
+	<description>B1. Current medication: if the patient uses no other prescription or non-prescription medication check here and STOP.</description>
+	<type>byte</type>
+	<value code="1">Stopped</value>
+</variable>
+
+<variable id="phv00049457.v1">
+	<name>odb2</name>
+	<description>B2. Current medication: used vitamin/mineral or supplements on a regular basis</description>
+	<type>byte</type>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+</variable>
+
+<variable id="phv00049458.v1">
+	<name>odb2stp</name>
+	<description>B2. Current medication: if the patient uses no other prescription or non-prescription medication check here and STOP.</description>
+	<type>byte</type>
+	<value code="1">Stopped</value>
+</variable>
+
+<variable id="phv00049459.v1">
+	<name>odb3a</name>
+	<description>B3a. Current medication: has the patient taken non-steroidal anti-inflammatory medication during last month ?</description>
+	<type>byte</type>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+</variable>
+
+<variable id="phv00049460.v1">
+	<name>odb3a1</name>
+	<description>B3a1. Current medication: how many days has the patient taken non-steroidal anti-inflammatory medication during the last month?</description>
+	<type>byte</type>
+	<unit>Days</unit>
+</variable>
+
+<variable id="phv00049461.v1">
+	<name>odb3a2</name>
+	<description>B3a2. Current medication: which medication has taken during the last month?</description>
+	<type>byte</type>
+	<value code="1">Clinoril</value>
+	<value code="2">Dolobid</value>
+	<value code="3">Feldene</value>
+	<value code="4">Indocin</value>
+	<value code="5">Meclomin</value>
+	<value code="6">Advil, Medipren, Motrin, or Nuprin</value>
+	<value code="7">Naprosyn or Anoprox</value>
+	<value code="8">Other, (specify)</value>
+</variable>
+
+<variable id="phv00049462.v1">
+	<name>odb3stp</name>
+	<description>B3. Current medication:  if the patient uses no other prescription or non-prescription medication check here and STOP.</description>
+	<type>byte</type>
+	<value code="1">Stopped</value>
+</variable>
+
+<variable id="phv00049463.v1">
+	<name>odb4</name>
+	<description>B4. Current medication: specify - has the patient taken medication for pain?</description>
+	<type>byte</type>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+</variable>
+
+<variable id="phv00049464.v1">
+	<name>odb4stp</name>
+	<description>B4. Current medication:  if the patient uses no other prescription or non-prescription medication check here and STOP.</description>
+	<type>byte</type>
+	<value code="1">Stopped</value>
+</variable>
+
+<variable id="phv00049465.v1">
+	<name>odb5a</name>
+	<description>B5a. Current medication. Female: has the patient used oral contraceptives since the last visit?</description>
+	<type>byte</type>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+</variable>
+
+<variable id="phv00049466.v1">
+	<name>odb5a1</name>
+	<description>B5a1. Current medication: how long has the patient taking oral contraceptives? (years)</description>
+	<type>byte</type>
+	<unit>Years</unit>
+</variable>
+
+<variable id="phv00049467.v1">
+	<name>odb5a2</name>
+	<description>B5a2. Current medication: how long has the patient taking oral contraceptives? (months)</description>
+	<type>byte</type>
+	<unit>Months</unit>
+</variable>
+
+<variable id="phv00049468.v1">
+	<name>odb5b</name>
+	<description>B5b. Current medication: has the patient taken hormone replacement therapy?</description>
+	<type>byte</type>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+</variable>
+
+<variable id="phv00049469.v1">
+	<name>odb5b1</name>
+	<description>B5b1. Current medication. Years: how long has the patient taken HTR (hormone replacement therapy)?</description>
+	<type>byte</type>
+	<unit>Years</unit>
+</variable>
+
+<variable id="phv00049470.v1">
+	<name>odb5b2</name>
+	<description>B5b2. Current medication. Months: how long has the patient taken HTR (hormone replacement therapy)?</description>
+	<type>byte</type>
+	<unit>Months</unit>
+</variable>
+
+<variable id="phv00049471.v1">
+	<name>odb5b3</name>
+	<description>B5b3. Current medication: does the hormone replacement therapy include a progestational agent?</description>
+	<type>byte</type>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+	<value code="3">Unsure</value>
+</variable>
+
+<variable id="phv00049472.v1">
+	<name>odb5stp</name>
+	<description>B5. Current medication:  if the patient uses no other prescription or non-prescription medication check here and STOP.</description>
+	<type>byte</type>
+	<value code="1">Stopped</value>
+</variable>
+
+<variable id="phv00049473.v1">
+	<name>odb6</name>
+	<description>B6. Current medication: has the patient taken hormones?</description>
+	<type>byte</type>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+</variable>
+
+<variable id="phv00049474.v1">
+	<name>odb6a</name>
+	<description>B6a. Current medication: has the patient taken hormones? Specify - thyroid</description>
+	<type>byte</type>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+</variable>
+
+<variable id="phv00049475.v1">
+	<name>odb6b</name>
+	<description>B6b. Current medication: has the patient taken hormones? (glucocorticoids)</description>
+	<type>byte</type>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+</variable>
+
+<variable id="phv00049476.v1">
+	<name>odb6c</name>
+	<description>B6c. Current medication: has the patient taken hormones? Specify - other hormones (excluding thyroid or/and glucocorticoids)</description>
+	<type>byte</type>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+</variable>
+
+<variable id="phv00049477.v1">
+	<name>odb6stp</name>
+	<description>B6. Current medication:  if the patient uses no other prescription or non-prescription medication check here and STOP.</description>
+	<type>byte</type>
+	<value code="1">Stopped</value>
+</variable>
+
+<variable id="phv00049478.v1">
+	<name>odb7</name>
+	<description>B7. Current medication: specify - has the patient taken lipid lowering medications?</description>
+	<type>byte</type>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+</variable>
+
+<variable id="phv00049479.v1">
+	<name>odb7stp</name>
+	<description>B7. Current medication:  if the patient uses no other prescription or non-prescription medication check here and STOP.</description>
+	<type>byte</type>
+	<value code="1">Stopped</value>
+</variable>
+
+<variable id="phv00049480.v1">
+	<name>odb8</name>
+	<description>B8. Current medication: specify - has the patient taken anticoagulants?</description>
+	<type>byte</type>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+</variable>
+
+<variable id="phv00049481.v1">
+	<name>odb8stp</name>
+	<description>B8. Current medication:  if the patient uses no other prescription or non-prescription medication check here and STOP.</description>
+	<type>byte</type>
+	<value code="1">Stopped</value>
+</variable>
+
+<variable id="phv00049482.v1">
+	<name>odb9a</name>
+	<description>B9a. Current medication:  has the patient taken tranquilizers regularly?</description>
+	<type>byte</type>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+</variable>
+
+<variable id="phv00049483.v1">
+	<name>odb9b</name>
+	<description>B9b. Current medication: has the patient taken antidepressants regularly?</description>
+	<type>byte</type>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+</variable>
+
+<variable id="phv00049484.v1">
+	<name>odb9stp</name>
+	<description>B9. Current medication:  if the patient uses no other prescription or non-prescription medication check here and STOP.</description>
+	<type>byte</type>
+	<value code="1">Stopped</value>
+</variable>
+
+</data_table>

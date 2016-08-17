@@ -1,0 +1,527 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./datadict_v2.xsl"?>
+<data_table id="pht000707.v1" study_id="phs000168.v1" participant_set="1" date_created="Fri Sep 18 11:27:40 2009">
+
+<variable id="phv00071265.v1">
+	<name>SUBJ_NO</name>
+	<description>Subject ID</description>
+	<type>integer</type>
+	<comment>De-identified ID, unique subject ID for dbGaP</comment>
+</variable>
+
+<variable id="phv00071268.v1">
+	<name>SEX</name>
+	<description>Gender: male or female</description>
+	<type>encoded value</type>
+	<value code="1">Male</value>
+	<value code="2">Female</value>
+</variable>
+
+<variable id="phv00071269.v1">
+	<name>BirthYr</name>
+	<description>Subject&#39;s year of birth</description>
+	<type>year</type>
+	<unit>Year</unit>
+	<value code="9999">Missing/unknown</value>
+</variable>
+
+<variable id="phv00071270.v1">
+	<name>VitalSt</name>
+	<description>The subject&#39;s last known vital status was: alive or dead?</description>
+	<type>integer</type>
+	<value code="1">Alive</value>
+	<value code="2">Dead</value>
+	<value code="9">Missing/unknown</value>
+</variable>
+
+<variable id="phv00071271.v1">
+	<name>AgeDeath</name>
+	<description>At what age did the subject die?</description>
+	<type>integer</type>
+	<unit>Years old</unit>
+	<value code="999">Missing/unknown</value>
+</variable>
+
+<variable id="phv00071272.v1">
+	<name>Autopsy</name>
+	<description>Has an autopsy been performed?</description>
+	<type>encoded value</type>
+	<value code="1">Yes</value>
+	<value code="2">No</value>
+	<value code="9">Missing/unknown</value>
+</variable>
+
+<variable id="phv00071273.v1">
+	<name>Race</name>
+	<description>Subject&#39;s race</description>
+	<type>encoded value</type>
+	<value code="1">White</value>
+	<value code="2">Black</value>
+	<value code="3">American Indian or Alaskan Native</value>
+	<value code="4">Asian or Pacific Islander</value>
+	<value code="50">Other</value>
+	<value code="99">Missing/ unknown</value>
+</variable>
+
+<variable id="phv00071274.v1">
+	<name>Hispanic</name>
+	<description>Is the subject Spanish/Hispanic/Latino?</description>
+	<type>encoded value</type>
+	<value code="1">Yes</value>
+	<value code="2">No</value>
+	<value code="9">Missing/unknown</value>
+</variable>
+
+<variable id="phv00071275.v1">
+	<name>Educ</name>
+	<description>Subject&#39;s education:  highest grade or number of years of school completed</description>
+	<type>integer</type>
+	<value code="99">Missing/unknown</value>
+</variable>
+
+<variable id="phv00071276.v1">
+	<name>EvalTest</name>
+	<description>Was cognitive testing administered to the subject?</description>
+	<type>encoded value</type>
+	<value code="1">Yes</value>
+	<value code="2">No</value>
+	<value code="9">Missing/unknown</value>
+</variable>
+
+<variable id="phv00071277.v1">
+	<name>NeuroIM</name>
+	<description>Has brain imaging been performed?</description>
+	<type>encoded value</type>
+	<value code="1">Yes</value>
+	<value code="2">No</value>
+	<value code="9">Missing/unknown</value>
+</variable>
+
+<variable id="phv00071278.v1">
+	<name>ClinDem</name>
+	<description>Is the subject demented?</description>
+	<type>encoded value</type>
+	<value code="1">Yes</value>
+	<value code="2">No</value>
+	<value code="9">Missing/unknown</value>
+</variable>
+
+<variable id="phv00071279.v1">
+	<name>NotDemCi</name>
+	<description>If the subject does not meet criteria for dementia, what is the diagnosis?</description>
+	<type>encoded value</type>
+	<value code="1">Not demented, no neurological disorder</value>
+	<value code="2">Not demented, but has other neurological disorder (such as Parkinson disease, MS, etc.)</value>
+	<value code="3">Questionable dementia (e.g., CDR equals 0.5) or cognitive impairment (MCI, AAMI)</value>
+	<value code="4">Down syndrome, but not demented</value>
+	<value code="5">Other</value>
+	<value code="6">No diagnosis made</value>
+	<value code="9">Missing/unknown</value>
+</variable>
+
+<variable id="phv00071280.v1">
+	<name>DemDx</name>
+	<description>Is the primary clinical dementia diagnosis Alzheimer&#39;s disease (AD)?</description>
+	<type>encoded value</type>
+	<value code="1">Definite AD (autopsy confirmed)</value>
+	<value code="2">Probable AD</value>
+	<value code="3">Possible AD</value>
+	<value code="4">Dementia, unspecified</value>
+	<value code="5">Non-Alzheimer&#39;s Dementia</value>
+	<value code="6">Dementia by family report</value>
+	<value code="9">Missing/unknown</value>
+</variable>
+
+<variable id="phv00071281.v1">
+	<name>AgeDem</name>
+	<description>At what age did the subject develop dementia symptoms?</description>
+	<type>years</type>
+	<unit>Years old</unit>
+	<value code="999">Missing/unknown</value>
+</variable>
+
+<variable id="phv00071282.v1">
+	<name>AgeDxDem</name>
+	<description>At what age was the subject diagnosed with Alzheimer&#39;s disease or other non-Alzheimer&#39;s dementia?</description>
+	<type>years</type>
+	<unit>Years old</unit>
+	<value code="999">Missing/unknown</value>
+</variable>
+
+<variable id="phv00071283.v1">
+	<name>Stroke</name>
+	<description>Does the subject have a history of stroke(s)?</description>
+	<type>integer, encoded value</type>
+	<value code="1">Yes</value>
+	<value code="2">No</value>
+	<value code="9">Missing/unknown</value>
+</variable>
+
+<variable id="phv00071284.v1">
+	<name>StrokeTy</name>
+	<description>What type of stroke did the subject have?</description>
+	<type>integer, encoded value</type>
+	<value code="1">Ischemic</value>
+	<value code="2">Hemorrhagic</value>
+	<value code="9">Missing/unknown</value>
+</variable>
+
+<variable id="phv00071285.v1">
+	<name>StrokeAge</name>
+	<description>At what age did the subject have a stroke?</description>
+	<type>integer</type>
+	<unit>Years old</unit>
+	<value code="999">Missing/unknown</value>
+</variable>
+
+<variable id="phv00071286.v1">
+	<name>Hyperten</name>
+	<description>Does the subject have a history of hypertension?</description>
+	<type>integer, encoded value</type>
+	<value code="1">Yes</value>
+	<value code="2">No</value>
+	<value code="9">Missing/unknown</value>
+</variable>
+
+<variable id="phv00071287.v1">
+	<name>HyperAge</name>
+	<description>At what age was the subject diagnosed with hypertension?</description>
+	<type>integer</type>
+	<unit>Years old</unit>
+	<value code="999">Missing/unknown</value>
+</variable>
+
+<variable id="phv00071288.v1">
+	<name>Heart</name>
+	<description>Does the subject have a history of heart disease?</description>
+	<type>integer, encoded value</type>
+	<value code="1">Yes</value>
+	<value code="2">No</value>
+	<value code="9">Missing/unknown</value>
+</variable>
+
+<variable id="phv00071289.v1">
+	<name>HeartAge</name>
+	<description>At what age was the subject diagnosed with heart disease?</description>
+	<type>integer</type>
+	<unit>Years old</unit>
+	<value code="999">Missing/unknown</value>
+</variable>
+
+<variable id="phv00071290.v1">
+	<name>Diabetes</name>
+	<description>Does the subject have a history of diabetes?</description>
+	<type>integer, encoded value</type>
+	<value code="1">Yes</value>
+	<value code="2">No</value>
+	<value code="9">Missing/unknown</value>
+</variable>
+
+<variable id="phv00071291.v1">
+	<name>DiabetAg</name>
+	<description>At what age was the subject diagnosed with diabetes?</description>
+	<type>integer</type>
+	<unit>Years old</unit>
+	<value code="999">Missing/unknown</value>
+</variable>
+
+<variable id="phv00071292.v1">
+	<name>DiabeTx</name>
+	<description>Has the subject undergone treatment for diabetes?</description>
+	<type>integer, encoded value</type>
+	<value code="1">Yes, diet alone</value>
+	<value code="2">Yes, hypoglycemic</value>
+	<value code="3">Yes, insulin</value>
+	<value code="4">Yes, both hypoglycemic and insulin</value>
+	<value code="5">No</value>
+	<value code="9">Missing/unknown</value>
+</variable>
+
+<variable id="phv00071293.v1">
+	<name>PDNoDem</name>
+	<description>Does the subject have a history of Parkinson disease?</description>
+	<type>integer, encoded value</type>
+	<value code="1">Yes</value>
+	<value code="2">No</value>
+	<value code="9">Missing/unknown</value>
+</variable>
+
+<variable id="phv00071294.v1">
+	<name>PDClinDx</name>
+	<description>What category of Parkinson disease was the subject diagnosed with?</description>
+	<type>integer, encoded value</type>
+	<value code="1">Definite PD (autopsy confirmed)</value>
+	<value code="2">Probable PD</value>
+	<value code="3">Possible PD</value>
+	<value code="9">Missing/unknown</value>
+</variable>
+
+<variable id="phv00071295.v1">
+	<name>PDAge</name>
+	<description>At what age was the subject diagnosed with Parkinson disease?</description>
+	<type>integer</type>
+	<unit>Years old</unit>
+	<value code="999">Missing/unknown</value>
+</variable>
+
+<variable id="phv00071296.v1">
+	<name>Depr</name>
+	<description>Does the subject have a history of depression?</description>
+	<type>integer, encoded value</type>
+	<value code="1">Yes</value>
+	<value code="2">No</value>
+	<value code="9">Missing/unknown</value>
+</variable>
+
+<variable id="phv00071297.v1">
+	<name>DeprTx</name>
+	<description>Has the subject undergone treatment for depression?</description>
+	<type>integer, encoded value</type>
+	<value code="1">Yes, therapy alone</value>
+	<value code="2">Yes, antidepressants with or without therapy</value>
+	<value code="3">Yes, electroconvulsive therapy with or without antidepressants/therapy</value>
+	<value code="4">No</value>
+	<value code="9">Missing/unknown</value>
+</variable>
+
+<variable id="phv00071298.v1">
+	<name>DeprAge</name>
+	<description>At what age was the subject diagnosed with depression?</description>
+	<type>integer</type>
+	<unit>Years old</unit>
+	<value code="999">Missing/unknown</value>
+</variable>
+
+<variable id="phv00071299.v1">
+	<name>HeadInj</name>
+	<description>Does the subject have a history of head injury?</description>
+	<type>integer, encoded value</type>
+	<value code="1">Yes</value>
+	<value code="2">No</value>
+	<value code="9">Missing/unknown</value>
+</variable>
+
+<variable id="phv00071300.v1">
+	<name>HeadAge</name>
+	<description>At what age did the subject have the head injury?</description>
+	<type>integer</type>
+	<unit>Years old</unit>
+	<value code="999">Missing/unknown</value>
+</variable>
+
+<variable id="phv00071301.v1">
+	<name>AlcDrug</name>
+	<description>Does the subject have a history of alcohol or drug abuse?</description>
+	<type>integer, encoded value</type>
+	<value code="1">Yes</value>
+	<value code="2">No</value>
+	<value code="9">Missing/unknown</value>
+</variable>
+
+<variable id="phv00071302.v1">
+	<name>AbuseAge</name>
+	<description>At what age was the subject initially diagnosed with alcohol or drug abuse?</description>
+	<type>integer</type>
+	<unit>Years old</unit>
+	<value code="999">Missing/unknown</value>
+</variable>
+
+<variable id="phv00071303.v1">
+	<name>Story</name>
+	<description>Logical Memory IA -  Story Score</description>
+	<type>integer</type>
+	<unit>Story Score</unit>
+	<logical_min>0</logical_min>
+	<logical_max>25</logical_max>
+	<value code="96">Physical problem</value>
+	<value code="97">Cognitive/behavioral problem</value>
+	<value code="98">Other problem</value>
+	<value code="99">verbal refusal</value>
+</variable>
+
+<variable id="phv00071304.v1">
+	<name>DigFor</name>
+	<description>Digit Span Forward Score</description>
+	<type>integer</type>
+	<unit>Forward Score</unit>
+	<logical_min>0</logical_min>
+	<logical_max>12</logical_max>
+	<value code="96">Physical problem</value>
+	<value code="97">Cognitive/behavioral problem</value>
+	<value code="98">Other problem</value>
+	<value code="99">Verbal refusal</value>
+</variable>
+
+<variable id="phv00071305.v1">
+	<name>DigBak</name>
+	<description>Digit Span Backward Score</description>
+	<type>integer</type>
+	<unit>Backward Score</unit>
+	<logical_min>0</logical_min>
+	<logical_max>12</logical_max>
+	<value code="96">Physical problem</value>
+	<value code="97">Cognitive/behavioral problem</value>
+	<value code="98">Other problem</value>
+	<value code="99">Verbal refusal</value>
+</variable>
+
+<variable id="phv00071306.v1">
+	<name>Animals</name>
+	<description>Category Fluency -  Animals Score</description>
+	<type>integer</type>
+	<unit>Animals Score</unit>
+	<logical_min>0</logical_min>
+	<logical_max>75</logical_max>
+	<value code="96">Physical problem</value>
+	<value code="97">Cognitive/behavioral problem</value>
+	<value code="98">Other problem</value>
+	<value code="99">Verbal refusal</value>
+</variable>
+
+<variable id="phv00071307.v1">
+	<name>Fruits</name>
+	<description>Category Fluency - Fruits and Vegetables Score</description>
+	<type>integer</type>
+	<unit>Fruits and Vegetables Score</unit>
+	<logical_min>0</logical_min>
+	<logical_max>75</logical_max>
+	<value code="96">Physical problem</value>
+	<value code="97">Cognitive/behavioral problem</value>
+	<value code="98">Other problem</value>
+	<value code="99">Verbal refusal</value>
+</variable>
+
+<variable id="phv00071308.v1">
+	<name>DigOrd</name>
+	<description>Digit Ordering Score</description>
+	<type>integer</type>
+	<unit>Ordering Score</unit>
+	<logical_min>0</logical_min>
+	<logical_max>16</logical_max>
+	<value code="96">Physical problem</value>
+	<value code="97">Cognitive/behavioral problem</value>
+	<value code="98">Other problem</value>
+	<value code="99">Verbal refusal</value>
+</variable>
+
+<variable id="phv00071309.v1">
+	<name>Delay</name>
+	<description>Logical Memory IIA -  Story Score</description>
+	<type>integer</type>
+	<unit>Story Score</unit>
+	<logical_min>0</logical_min>
+	<logical_max>25</logical_max>
+	<value code="96">Physical problem</value>
+	<value code="97">Cognitive/behavioral problem</value>
+	<value code="98">Other problem</value>
+	<value code="99">Verbal refusal</value>
+</variable>
+
+<variable id="phv00071310.v1">
+	<name>Veg</name>
+	<description>Category Fluency - Vegetable Score</description>
+	<type>integer</type>
+	<unit>Vegetable Score</unit>
+	<logical_min>0</logical_min>
+	<logical_max>99</logical_max>
+	<value code="96">Physical problem</value>
+	<value code="97">Cognitive/behavioral problem</value>
+	<value code="98">Other problem</value>
+	<value code="99">Verbal refusal</value>
+</variable>
+
+<variable id="phv00071311.v1">
+	<name>Case_Control</name>
+	<description>Affection status (strict; collapsed from &quot;Dx_Level&quot; variable)</description>
+	<value code="0">Neurologically evaluated control</value>
+	<value code="1">Alzheimer disease</value>
+</variable>
+
+<variable id="phv00071312.v1">
+	<name>ConType</name>
+	<description>Type of control</description>
+	<type>encoded value</type>
+	<value code="1">Unaffected spouse</value>
+	<value code="2">Population control</value>
+	<value code="3">Convenience control</value>
+	<value code="9">Missing/unknown</value>
+</variable>
+
+<variable id="phv00076307.v1">
+	<name>Dx_Level</name>
+	<description>Diagnosis level (determined from the combination of CLINDEM, DEMDX, and NOTDEMCI)</description>
+	<value code="1">Definite AD</value>
+	<value code="2">Probable AD</value>
+	<value code="3">Possible AD</value>
+	<value code="5">Unspecified dementia or Dementia by family report</value>
+	<value code="7">Neurologically evaluated control</value>
+	<value code="9">Missing data, Unconfirmed control, Control with another neurological disease, Down syndrome, Mild Cognitive Impairment, Other</value>
+</variable>
+
+<variable id="phv00076308.v1">
+	<name>RecruitedAsControl</name>
+	<description>Subject was recruited as a control (some have since converted; see &quot;Dx_Level&quot; variable)</description>
+	<value code="1">Recruited as a control</value>
+	<value code="2">Not recruited as a control</value>
+</variable>
+
+<variable id="phv00076309.v1">
+	<name>AgeAtLastEval</name>
+	<description>Subject&#39;s age at last evaluation</description>
+</variable>
+
+<variable id="phv00076310.v1">
+	<name>AllEthnicity_PC1</name>
+	<description>Principal Component 1 when clustering one individual per family regardless of ethnicity</description>
+</variable>
+
+<variable id="phv00076311.v1">
+	<name>AllEthnicity_PC2</name>
+	<description>Principal Component 2 when clustering one individual per family regardless of ethnicity</description>
+</variable>
+
+<variable id="phv00076312.v1">
+	<name>AllEthnicity_PC3</name>
+	<description>Principal Component 3 when clustering one individual per family regardless of ethnicity</description>
+</variable>
+
+<variable id="phv00076313.v1">
+	<name>AllEthnicity_PC4</name>
+	<description>Principal Component 4 when clustering one individual per family regardless of ethnicity</description>
+</variable>
+
+<variable id="phv00076314.v1">
+	<name>EthnicCluster</name>
+	<description>Ethnic group with which the individual clusters using PC1 and PC2</description>
+	<value code="1">Non-Hispanic Caucasian</value>
+	<value code="2">Hispanic Caucasian</value>
+	<value code="3">Hispanic Black</value>
+	<value code="4">Non-Hispanic Black</value>
+	<value code="5">Asian or Pacific Islander</value>
+</variable>
+
+<variable id="phv00076315.v1">
+	<name>CaucasianCluster</name>
+	<description>Individual clusters in the main non-Hispanic Caucasian cluster</description>
+	<value code="0">Not Non-Hispanic Caucasian</value>
+	<value code="1">Non-Hispanic Caucasian</value>
+</variable>
+
+<variable id="phv00076316.v1">
+	<name>Caucasian_PC1</name>
+	<description>Principal Component 1 when clustering one individual from each non-Hispanic Caucasian family</description>
+</variable>
+
+<variable id="phv00076317.v1">
+	<name>Caucasian_PC2</name>
+	<description>Principal Component 2 when clustering one individual from each non-Hispanic Caucasian family</description>
+</variable>
+
+<variable id="phv00076318.v1">
+	<name>UsedInPrecomputes</name>
+	<description>Used in one per family precomputed analysis</description>
+	<value code="0">Not used</value>
+	<value code="1">Used</value>
+</variable>
+
+</data_table>

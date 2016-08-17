@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./datadict_v2.xsl"?>
+<data_table id="pht000371.v1" study_id="phs000001.v2" participant_set="1" date_created="Fri Dec  5 14:54:06 2008">
+
+<variable id="phv00053743.v1">
+	<name>AMDSTAT</name>
+	<description>FINAL AMD PHENOTYPE (ALL PARTICIPANTS)</description>
+	<type>enumerated integer</type>
+	<value code="1">Control</value>
+	<value code="10">Questionable AMD</value>
+	<value code="11">NV AMD</value>
+	<value code="12">GA (Geographic Atrophy)</value>
+	<value code="13">Both NV AMD and GA</value>
+	<value code="14">Other non-control phenotype</value>
+	<value code="2">Control Questionable 1</value>
+	<value code="3">Control Questionable 2</value>
+	<value code="4">Control Questionable 3</value>
+	<value code="5">Control Questionable 4</value>
+	<value code="6">Large Drusen</value>
+	<value code="7">Large Drusen Questionable 1</value>
+	<value code="8">Large Drusen Questionable 2</value>
+	<value code="9">Large Drusen Questionable 3</value>
+</variable>
+
+<variable id="phv00053756.v1">
+	<name>CATARACT</name>
+	<description>FINAL CATARACT PHENOTYPE (ALL PARTICIPANTS)</description>
+	<type>enumerated integer</type>
+	<value code="1">Absent</value>
+	<value code="10">Questionable</value>
+	<value code="2">Nuclear alone</value>
+	<value code="3">Cortical alone</value>
+	<value code="4">PSC alone</value>
+	<value code="5">Nuclear/Cortical</value>
+	<value code="6">Nuclear/PSC</value>
+	<value code="7">Cortical/PSC</value>
+	<value code="8">Nuclear/Cortical/PSC</value>
+	<value code="9">Cataract Surgery/No specific type</value>
+</variable>
+
+<variable id="phv00053762.v1">
+	<name>COR</name>
+	<description>FINAL CORTICAL OPACITY PHENOTYPE - PERSON (ALL PARTICIPANTS)</description>
+	<type>enumerated integer</type>
+	<value code="0">Absent</value>
+	<value code="1">Present</value>
+	<value code="2">Cataract Surgery</value>
+	<value code="3">Questionable</value>
+</variable>
+
+<variable id="phv00070989.v1">
+	<name>HASGENSP</name>
+	<description>HAS GENETIC SPECIMEN (ALL PARTICIPANTS)</description>
+	<type>enumerated integer</type>
+	<value code="N">No</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00053742.v1">
+	<name>ID</name>
+	<description>DUMMY ID NUMBER</description>
+	<type>string</type>
+</variable>
+
+<variable id="phv00053761.v1">
+	<name>LCOR</name>
+	<description>FINAL CORTICAL OPACITY PHENOTYPE - LEFT EYE (ALL PARTICIPANTS)</description>
+	<type>enumerated integer</type>
+	<value code="COR-A">Absent</value>
+	<value code="COR-B">Present</value>
+	<value code="COR-C">Cataract Surgery</value>
+	<value code="COR-D">Questionable</value>
+</variable>
+
+<variable id="phv00053749.v1">
+	<name>LCORBASE</name>
+	<description>BASELINE CORTICAL OPACITY PERCENTAGE FULL VISIBLE LENS - LEFT EYE (ALL PARTICIPANTS)</description>
+	<type>decimal</type>
+	<unit>percent</unit>
+	<logical_min>0</logical_min>
+	<logical_max>100</logical_max>
+</variable>
+
+<variable id="phv00053751.v1">
+	<name>LCORSCORE</name>
+	<description>FINAL PREDICTED CORTICAL OPACITY PERCENTAGE: FULL VISIBLE LENS - LEFT EYE (ALL PARTICIPANTS)</description>
+	<type>decimal</type>
+	<unit>percent</unit>
+	<logical_min>0</logical_min>
+	<logical_max>100</logical_max>
+</variable>
+
+<variable id="phv00053758.v1">
+	<name>LNUC</name>
+	<description>FINAL NUCLEAR OPACITY PHENOTYPE - LEFT EYE (ALL PARTICIPANTS)</description>
+	<type>enumerated integer</type>
+	<value code="NUC-A">Absent</value>
+	<value code="NUC-B">Present</value>
+	<value code="NUC-C">Cataract Surgery</value>
+	<value code="NUC-D">Questionable</value>
+</variable>
+
+<variable id="phv00053745.v1">
+	<name>LNUCBASE</name>
+	<description>BASELINE NUCLEAR OPACITY SCORE: LEFT EYE - RESCALED (ALL PARTICIPANTS)</description>
+	<type>decimal</type>
+	<logical_min>1</logical_min>
+	<logical_max>5</logical_max>
+</variable>
+
+<variable id="phv00053747.v1">
+	<name>LNUCSCORE</name>
+	<description>FINAL PREDICTED NUCLEAR OPACITY SCORE: LEFT EYE (ALL PARTICIPANTS)</description>
+	<type>decimal</type>
+	<logical_min>1.1</logical_min>
+	<logical_max>6.15</logical_max>
+</variable>
+
+<variable id="phv00053764.v1">
+	<name>LPSC</name>
+	<description>FINAL PSC OPACITY PHENOTYPE - LEFT EYE (ALL PARTICIPANTS)</description>
+	<type>enumerated integer</type>
+	<value code="PSC-A">Absent</value>
+	<value code="PSC-B">Present</value>
+	<value code="PSC-C">Cataract Surgery</value>
+	<value code="PSC-D">Questionable</value>
+</variable>
+
+<variable id="phv00053753.v1">
+	<name>LPSCBASE</name>
+	<description>BASELINE PSC OPACITY PERCENTAGE: CENTRAL 5 MM - LEFT EYE (ALL PARTICIPANTS)</description>
+	<type>decimal</type>
+	<unit>percent</unit>
+	<logical_min>0</logical_min>
+	<logical_max>100</logical_max>
+</variable>
+
+<variable id="phv00053755.v1">
+	<name>LPSCSCORE</name>
+	<description>FINAL PREDICTED PSC OPACITY: PERCENTAGE CENTRAL 5 MM - LEFT EYE (ALL PARTICIPANTS)</description>
+	<type>decimal</type>
+	<unit>percent</unit>
+	<logical_min>0</logical_min>
+	<logical_max>100</logical_max>
+</variable>
+
+<variable id="phv00053759.v1">
+	<name>NUC</name>
+	<description>FINAL NUCLEAR OPACITY PHENOTYPE - PERSON (ALL PARTICIPANTS)</description>
+	<type>enumerated integer</type>
+	<value code="0">Absent</value>
+	<value code="1">Present</value>
+	<value code="2">Cataract Surgery</value>
+	<value code="3">Questionable</value>
+</variable>
+
+<variable id="phv00053765.v1">
+	<name>PSC</name>
+	<description>FINAL PSC OPACITY PHENOTYPE - PERSON (ALL PARTICIPANTS)</description>
+	<type>enumerated integer</type>
+	<value code="0">Absent</value>
+	<value code="1">Present</value>
+	<value code="2">Cataract Surgery</value>
+	<value code="3">Questionable</value>
+</variable>
+
+<variable id="phv00053760.v1">
+	<name>RCOR</name>
+	<description>FINAL CORTICAL OPACITY PHENOTYPE - RIGHT EYE (ALL PARTICIPANTS)</description>
+	<type>enumerated integer</type>
+	<value code="COR-A">Absent</value>
+	<value code="COR-B">Present</value>
+	<value code="COR-C">Cataract Surgery</value>
+	<value code="COR-D">Questionable</value>
+</variable>
+
+<variable id="phv00053748.v1">
+	<name>RCORBASE</name>
+	<description>BASELINE CORTICAL OPACITY PERCENTAGE FULL VISIBLE LENS - RIGHT EYE (ALL PARTICIPANTS)</description>
+	<type>decimal</type>
+	<unit>percent</unit>
+	<logical_min>0</logical_min>
+	<logical_max>100</logical_max>
+</variable>
+
+<variable id="phv00053750.v1">
+	<name>RCORSCORE</name>
+	<description>FINAL PREDICTED CORTICAL OPACITY PERCENTAGE: FULL VISIBLE LENS - RIGHT EYE (ALL PARTICIPANTS)</description>
+	<type>decimal</type>
+	<unit>percent</unit>
+	<logical_min>0</logical_min>
+	<logical_max>100</logical_max>
+</variable>
+
+<variable id="phv00053757.v1">
+	<name>RNUC</name>
+	<description>FINAL NUCLEAR OPACITY PHENOTYPE - RIGHT EYE (ALL PARTICIPANTS)</description>
+	<type>enumerated integer</type>
+	<value code="NUC-A">Absent</value>
+	<value code="NUC-B">Present</value>
+	<value code="NUC-C">Cataract Surgery</value>
+	<value code="NUC-D">Questionable</value>
+</variable>
+
+<variable id="phv00053744.v1">
+	<name>RNUCBASE</name>
+	<description>BASELINE NUCLEAR OPACITY SCORE: RIGHT EYE - RESCALED (ALL PARTICIPANTS)</description>
+	<type>decimal</type>
+	<logical_min>1</logical_min>
+	<logical_max>5.2</logical_max>
+</variable>
+
+<variable id="phv00053746.v1">
+	<name>RNUCSCORE</name>
+	<description>FINAL PREDICTED NUCLEAR OPACITY SCORE: RIGHT EYE (ALL PARTICIPANTS)</description>
+	<type>decimal</type>
+	<logical_min>1.1</logical_min>
+	<logical_max>5.66</logical_max>
+</variable>
+
+<variable id="phv00053763.v1">
+	<name>RPSC</name>
+	<description>FINAL PSC OPACITY PHENOTYPE - RIGHT EYE (ALL PARTICIPANTS)</description>
+	<type>enumerated integer</type>
+	<value code="PSC-A">Absent</value>
+	<value code="PSC-B">Present</value>
+	<value code="PSC-C">Cataract Surgery</value>
+	<value code="PSC-D">Questionable</value>
+</variable>
+
+<variable id="phv00053752.v1">
+	<name>RPSCBASE</name>
+	<description>BASELINE PSC OPACITY PERCENTAGE: CENTRAL 5 MM - RIGHT EYE (ALL PARTICIPANTS)</description>
+	<type>decimal</type>
+	<unit>percent</unit>
+	<logical_min>0</logical_min>
+	<logical_max>100</logical_max>
+</variable>
+
+<variable id="phv00053754.v1">
+	<name>RPSCSCORE</name>
+	<description>FINAL PREDICTED PSC OPACITY PERCENTAGE: CENTRAL 5 MM - RIGHT EYE (ALL PARTICIPANTS)</description>
+	<type>decimal</type>
+	<unit>percent</unit>
+	<logical_min>0</logical_min>
+	<logical_max>100</logical_max>
+</variable>
+
+</data_table>

@@ -1,0 +1,393 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GaPExchange xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="./dbGaPEx2.1.5.xsd">
+
+<MetaVariables>
+	<Submitter/>
+	<Method/>
+</MetaVariables>
+<MetaLinks/>
+
+<Projects>
+	<Project/>
+</Projects>
+
+<Studies>
+
+<Study source="dbGaP" accession="phs000222.v3.p2" parentStudy="phs000222.v3.p2" createDate="2013-08-01" modDate="2013-08-27">
+
+<Configuration>
+	<Data_Provider><![CDATA[
+		<table border="1">
+		<tr><th>Title</th><th>Name</th><th>Institute</th></tr>
+		<tr><td>Principal Investigator</td><td>Jane Paulsen, PhD</td><td>University of Iowa, Iowa City, IA, USA</td></tr>
+		<tr><td>Funding Source</td><td>R01 NS0440068</td><td>National Institutes of Health, Bethesda, MD, USA</td></tr>
+		</table>
+	]]></Data_Provider>
+	<StudyNameEntrez>PREDICT-HD Huntington Disease Study</StudyNameEntrez>
+	<StudyNameReportPage>PREDICT-HD Huntington Disease Study</StudyNameReportPage>
+	<StudyTypes>
+		<StudyType>Observational</StudyType>
+		<StudyType>Longitudinal</StudyType>
+	</StudyTypes>
+	<Description><![CDATA[
+<p>The purpose of this project is to make clinical measurements from the PREDICT-HD consortium available through the dbGaP mechanism. The phenotype data will first be converted into a community open standard and subsequently exported to dbGaP for archival and open access distribution of the results of the studies. This will permit members of the scientific community to utilize a permanent resource for investigating the interactions of phenotypes upon an international cohort of early Huntington&#39;s Disease.</p> <p>In the <b>version 2</b> cut of the data we have provided HD CAG repeat lengths for both alleles as well as enrollment age of all participants. We have also generated unique identifiers prospectively compatible with the larger initiative GWAS in the Huntington&#39;s Disease project (also on DbGaP). As such, the version 1 cut of the data was mainly proof of concept and should be deprecated. Going forward, all updates will add-on to the version 2 cut of the data.</p> <p>In the <b>version 3</b> cut of the data, we have provided baseline or the first usable MRI T1-weighted imaging analysis of subcortical and cortical segmentations and cortical parcellations based on a customized Freesurfer 5.2 pipeline developed at The University of Iowa. The customizations to the standard pipeline were mainly to improve bias field correction and image normalization such that segmentation of gray, white, internal CSF, dura and surface CSF are optimized for the Freesurfer pipeline. There are n=1109 subjects with results in this data release.</p> <p><b>Please note</b>: Freesurfer provides a family of analyses (we have divided each of these components into separate datasets). A useful resource and overview of the tool can be found at this <a href="http://surfer.nmr.mgh.harvard.edu/fswiki/FreeSurferWiki">link</a>. The submitted aseg.txt data set provides both subcortical and cortical volumetric segmentations. The analysis pipeline also produces cortical surface area parcellation for two different brain atlases: The submitted lh_aparc_area.txt and rh_aparc_area.txt data sets represent the Desikan-Killiany Atlas cortical surface area measurements summarized for either hemisphere, while the lh_aparc.a2009s_area.txt and rh_aparc.a2009s_area.txt data sets represent the Destrieux Atlas cortical surface area measurements summarized for either hemisphere. Differences between the two atlases are summarized <a href="http://ftp.nmr.mgh.harvard.edu/fswiki/CorticalParcellation">here</a>. Finally, cortical white matter volume parcellations are summarized in the wm_parc.txt data-set. </p> <p>Future data releases will include longitudinal results and additional subjects as data become available.</p> <p>For sample information please link to: <a href="http://ccr.coriell.org/Sections/Collections/NINDS/PredictHD.aspx?PgId=746&coll=ND">PREDICT-HD Biospecimen Resources</a> </p>]]>
+	</Description>
+	<StudyInEx><![CDATA[
+<p><b>INCLUSION:</b> <ul> <li>The participant completed predictive testing, and CAG is known.</li> <li>The participant is 18 years of age or older at the Screening/Baseline Visit (enrollment).</li> <li>The participant has a support person that will accompany them to all visits.</li> <li>The participant is willing and able to comply with study procedures and give written informed consent.</li> <li>The participant&#39;s primary language is English.</li> </ul> </p> <p><b>EXCLUSION:</b> <ul> <li>The participant has been previously diagnosed with manifest HD.</li> <li>The participant is currently or has in the past 6 months been on antipsychotic medications. This includes typical neuroleptics such as haloperidol, as well as atypical neuroleptics (e.g. Risperidone, clozapine, quetiapine and olanzapine).</li> <li>The participant uses prochlorperazine metoclopramide, promethazine, or Inapsine more than three times/month.</li> <li> The participant exhibits or reports clinical evidence of an unstable or psychiatric illness.</li> <li>The participant has a history of serious alcohol or drug abuse within the past year.</li> <li>The participant has a history of or has a current diagnosis of CNS disorder, including developmental, acquired and/or degenerative syndromes/diseases.</li> <li>The participant has been diagnosed with mental retardation.</li> <li>The participant was always in Special Education for reading or math. Specifically, Special Education relating to learning problems not only behavioral problems.</li> <li>The participant has a history of significant head trauma that required hospitalization.</li> <li>The participant has metallic implants (pacemaker, defibrillator, vagal nerve stimulator, aneurysm clips, metal shrapnel).</li> </ul> </p>]]>
+	</StudyInEx>
+	<StudyProjects>
+		<Project/>
+	</StudyProjects>
+	<Publications>
+		<Publication>
+			<Pubmed pmid="19548255"/>
+		</Publication>
+		<Publication>
+			<Pubmed pmid="19562761"/>
+		</Publication>
+		<Publication>
+			<Pubmed pmid="19188573"/>
+		</Publication>
+		<Publication>
+			<Pubmed pmid="19484645"/>
+		</Publication>
+		<Publication>
+			<Pubmed pmid="20463114"/>
+		</Publication>
+		<Publication>
+			<Pubmed pmid="18347962"/>
+		</Publication>
+		<Publication>
+			<Pubmed pmid="18175350"/>
+		</Publication>
+		<Publication>
+			<Pubmed pmid="18096682"/>
+		</Publication>
+		<Publication>
+			<Pubmed pmid="18068955"/>
+		</Publication>
+		<Publication>
+			<Pubmed pmid="17957229"/>
+		</Publication>
+		<Publication>
+			<Pubmed pmid="19012814"/>
+		</Publication>
+		<Publication>
+			<Pubmed pmid="18091069"/>
+		</Publication>
+		<Publication>
+			<Pubmed pmid="17303196"/>
+		</Publication>
+		<Publication>
+			<Pubmed pmid="17948904"/>
+		</Publication>
+		<Publication>
+			<Pubmed pmid="17728429"/>
+		</Publication>
+		<Publication>
+			<Pubmed pmid="17210818"/>
+		</Publication>
+		<Publication>
+			<Pubmed pmid="17502553"/>
+		</Publication>
+		<Publication>
+			<Pubmed pmid="17321554"/>
+		</Publication>
+		<Publication>
+			<Pubmed pmid="17847637"/>
+		</Publication>
+		<Publication>
+			<Pubmed pmid="17481592"/>
+		</Publication>
+		<Publication>
+			<Pubmed pmid="17309644"/>
+		</Publication>
+		<Publication>
+			<Pubmed pmid="17352939"/>
+		</Publication>
+		<Publication>
+			<Pubmed pmid="16914400"/>
+		</Publication>
+		<Publication>
+			<Pubmed pmid="16112655"/>
+		</Publication>
+		<Publication>
+			<Pubmed pmid="16769871"/>
+		</Publication>
+		<Publication>
+			<Pubmed pmid="16990826"/>
+		</Publication>
+		<Publication>
+			<Pubmed pmid="16631385"/>
+		</Publication>
+		<Publication>
+			<Pubmed pmid="16855205"/>
+		</Publication>
+		<Publication>
+			<Pubmed pmid="16131418"/>
+		</Publication>
+		<Publication>
+			<Pubmed pmid="16199141"/>
+		</Publication>
+		<Publication>
+			<Pubmed pmid="16685851"/>
+		</Publication>
+		<Publication>
+			<Pubmed pmid="15174024"/>
+		</Publication>
+		<Publication>
+			<Pubmed pmid="15025718"/>
+		</Publication>
+		<Publication>
+			<Pubmed pmid="15039038"/>
+		</Publication>
+		<Publication>
+			<Pubmed pmid="15358067"/>
+		</Publication>
+		<Publication>
+			<Pubmed pmid="15249612"/>
+		</Publication>
+		<Publication>
+			<Pubmed pmid="14502670"/>
+		</Publication>
+		<Publication>
+			<Pubmed pmid="14638387"/>
+		</Publication>
+		<Publication>
+			<Journal authors="Magnotta VA, Kim J, Koscik T, Beglinger LJ, Espinso D, Langbehn DR, et al" title="Diffusion Tensor Imaging in Preclinical Huntington&#39;s Disease." journal="Brain Imaging and Behavior. 2009;3(1):77-84."/>
+		</Publication>
+		<Publication>
+			<Journal authors="Stout JC, Wylie SA, Siemers ER" title="Influence of competing distractors on response selection in Huntington&#39;s disease and Parkinson&#39;s disease." journal="Cognitive Neuropsychology. 2001;18(7):643-53."/>
+		</Publication>
+	</Publications>
+	<Diseases>
+		<Disease vocab_source="MESH" vocab_term="Huntington Disease"/>
+	</Diseases>
+	<Attributions>
+		<Header title="Principal Investigator">
+			<AttName>Jane Paulsen, PhD</AttName>
+			<Institution>University of Iowa, Iowa City, IA, USA</Institution>
+		</Header>
+		<Header title="Funding Source">
+			<AttName>R01 NS0440068</AttName>
+			<Institution>National Institutes of Health, Bethesda, MD, USA</Institution>
+		</Header>
+	</Attributions>
+	<DisplayPublicSummary>yes</DisplayPublicSummary>
+	<StudyURLs>
+		<Url name="PREDICT-HD" url="http://www.PREDICT-HD.net"/>
+	</StudyURLs>
+	<StudyHistory><![CDATA[
+<p>The PREDICT-HD study is a 32-site observational study of persons who have the gene expansion for Huntington Disease (HD), but do not have symptoms of disease warranting a diagnosis. In this regard, the PREDICT-HD study cohort and database have become international resources and offer an unprecedented opportunity to further examine early HD. The goals of the PREDICT-HD study involve laying the groundwork for the initiation of neuroprotective therapy in order to delay or conceivably prevent the onset of disease. The specific aims were designed to 1) improve prediction of disease diagnosis in healthy individuals using longitudinal measures of plasma, imaging, cognitive performances, motor ratings and psychiatric measures; 2) identify markers of disease progression prior to the clinical diagnosis and to characterize their natural history; and 3) improve the validity and reliability of disease measures upon which the power and sensitivity of multi-site trials and studies depend. Given the worldwide distinctiveness of the study and its importance to the advancement of knowledge in HD and other brain diseases, the improved availability and the dissemination of its data is an important emphasis.</p> <p>This project proposes to create an extended electronic data capture and data sharing infrastructure to expand data acquisition and distribution procedures that are expected to improve quality control and data usability. The primary aims of the chosen projects are to 1) provide better user experience for participants and clinicians, and 2) streamline data collection, digital curation, and distribution procedures for researchers external to the core PREDICT-HD project. With future versions of this database, we plan to integrate existing clinical trials management software with medical imaging data repositories.</p>]]>
+	</StudyHistory>
+	<ConsentGroups>
+		<ConsentGroup groupNum="1" shortName="GRU" longName="General Research Use"/>
+	</ConsentGroups>
+</Configuration>
+
+  <AuthorizedAccess>
+    <DacInfo ssDacId="0">
+      <DacName>NINDS</DacName>
+      <DacFullName>National Institute of Neurological Disorders and Stroke</DacFullName>
+      <DacEmail>0</DacEmail>
+      <DacPhone></DacPhone>
+      <DacUrl></DacUrl>
+    </DacInfo>
+    <Policy Policy_ID="phs000222.v3.p2_policy" ref_ssDacId="0">
+      <DisplayResearchStatement>yes</DisplayResearchStatement>
+      <DisplayPublicSummary>yes</DisplayPublicSummary>
+      <EmbargoLength>12</EmbargoLength>
+      <YearsUntilRenewal>1</YearsUntilRenewal>
+      <WeeksCancelRequest>8</WeeksCancelRequest>
+      <PdfSupplementReqired>no</PdfSupplementReqired>
+      <AcknowledgementText>
+        <para>
+          http://dbgap.ncbi.nlm.nih.gov/aa/wga.cgi?page=DUC&amp;view_pdf&amp;stacc=phs000222.v3.p2
+        </para>
+      </AcknowledgementText>
+      <DocumentSet>
+        <DataUseCertificate Label="Data Use Certificate" FilePath="https://dbgap.ncbi.nlm.nih.gov/aa/wga.cgi?page=DUC&amp;view_pdf&amp;stacc=phs000222.v3.p2" FileName="DUC_Predict_HD.pdf"/>
+      </DocumentSet>
+    </Policy>
+    <ConsentGroups>
+      <ParticipantSet groupNum-REF="1">
+        <ConsentName>General Research Use</ConsentName>
+        <ConsentAbbrev>GRU</ConsentAbbrev>
+        <UseLimitation>Use of the data is limited only by the terms of the model Data Use Certification.
+Access to the Predict HD dataset is solely for research purposes.</UseLimitation>
+        <IrbRequired>No</IrbRequired>
+      </ParticipantSet>
+    </ConsentGroups>
+  </AuthorizedAccess>
+  <Documents>
+    <Document phd="phd002384.2" type="questionnaire" createDate="2012-08-14" modDate="2012-08-15" urlToXml="http://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/GetDocumentXml.cgi?document_id=phd002384.2" urlToHtml="http://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/document.cgi?study_id=phs000222.v3.p2&amp;phd=2384">
+      <OrigName>04 - medical history PREDICT 07-18-02.pdf</OrigName>
+      <DisplayName>Medical History/Demographics (DEMO)</DisplayName>
+      <Description>Medical History/Demographics (DEMO)</Description>
+      <displayStatus>public</displayStatus>
+      <xmlStatus>public</xmlStatus>
+    </Document>
+    <Document phd="phd002387.2" type="questionnaire" createDate="2012-08-14" modDate="2012-08-15" urlToXml="http://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/GetDocumentXml.cgi?document_id=phd002387.2" urlToHtml="http://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/document.cgi?study_id=phs000222.v3.p2&amp;phd=2387">
+      <OrigName>08 - UHDRS PREDICT 07-18-02.pdf</OrigName>
+      <DisplayName>Modified Unified Huntington's Disease Rating Scale '99 (UHDRS)</DisplayName>
+      <Description>Modified Unified Huntington's Disease Rating Scale '99 (UHDRS)</Description>
+      <displayStatus>public</displayStatus>
+      <xmlStatus>public</xmlStatus>
+    </Document>
+    <Document phd="phd002397.2" type="questionnaire" createDate="2012-08-14" modDate="2012-08-15" urlToXml="http://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/GetDocumentXml.cgi?document_id=phd002397.2" urlToHtml="http://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/document.cgi?study_id=phs000222.v3.p2&amp;phd=2397">
+      <OrigName>60 -  UHDRS part III part- PREDICT07-18-2002.pdf</OrigName>
+      <DisplayName>Modified UHDRS Part III - Participant</DisplayName>
+      <Description>Modified UHDRS Part III - Participant</Description>
+      <displayStatus>public</displayStatus>
+      <xmlStatus>public</xmlStatus>
+    </Document>
+    <Document phd="phd002398.2" type="questionnaire" createDate="2012-08-14" modDate="2012-08-15" urlToXml="http://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/GetDocumentXml.cgi?document_id=phd002398.2" urlToHtml="http://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/document.cgi?study_id=phs000222.v3.p2&amp;phd=2398">
+      <OrigName>62 - UHDRS part III companion PREDICT07-18-2002.pdf</OrigName>
+      <DisplayName>Modified UHDRS Part III - Companion</DisplayName>
+      <Description>Modified UHDRS Part III - Companion</Description>
+      <displayStatus>public</displayStatus>
+      <xmlStatus>public</xmlStatus>
+    </Document>
+    <Document phd="phd002400.2" type="questionnaire" createDate="2012-08-14" modDate="2012-08-15" urlToXml="http://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/GetDocumentXml.cgi?document_id=phd002400.2" urlToHtml="http://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/document.cgi?study_id=phs000222.v3.p2&amp;phd=2400">
+      <OrigName>CAS.pdf</OrigName>
+      <DisplayName>Cognitive Assessment Summary Sheet - Visit 1</DisplayName>
+      <Description>Cognitive Assessment Summary Sheet - Visit 1</Description>
+      <displayStatus>public</displayStatus>
+      <xmlStatus>public</xmlStatus>
+    </Document>
+    <Document phd="phd002412.2" type="protocol" createDate="2013-03-14" modDate="2013-03-14" urlToXml="http://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/GetDocumentXml.cgi?document_id=phd002412.2" urlToHtml="http://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/document.cgi?study_id=phs000222.v3.p2&amp;phd=2412">
+      <OrigName>Section 05 Psychiatric Assessments rvsd.pdf</OrigName>
+      <DisplayName>Section V Psychiatric Assessments</DisplayName>
+      <Description>Section V Psychiatric Assessments</Description>
+      <displayStatus>public</displayStatus>
+      <xmlStatus>public</xmlStatus>
+    </Document>
+    <Document phd="phd002414.2" type="protocol" createDate="2012-08-15" modDate="2012-08-15" urlToXml="http://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/GetDocumentXml.cgi?document_id=phd002414.2" urlToHtml="http://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/document.cgi?study_id=phs000222.v3.p2&amp;phd=2414">
+      <OrigName>Section 07 UHDRS.pdf</OrigName>
+      <DisplayName>Section VII UHDRS</DisplayName>
+      <Description>Section VII UHDRS</Description>
+      <displayStatus>public</displayStatus>
+      <xmlStatus>public</xmlStatus>
+    </Document>
+    <Document phd="phd004082.1" type="consent-form" createDate="2012-08-14" modDate="2012-08-15" urlToXml="http://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/GetDocumentXml.cgi?document_id=phd004082.1" urlToHtml="http://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/document.cgi?study_id=phs000222.v3.p2&amp;phd=4082">
+      <OrigName>Model_Participant_IC_07012010.pdf</OrigName>
+      <DisplayName>MODEL PARTICIPANT INFORMED CONSENT</DisplayName>
+      <Description>MODEL PARTICIPANT INFORMED CONSENT</Description>
+      <displayStatus>public</displayStatus>
+      <xmlStatus>public</xmlStatus>
+    </Document>
+  </Documents>
+
+  <Annotations>
+    <DocumentPart phd="phd002384.2" sectionId="V5">
+      <phvList>
+        <phvRef variableId="172060"/>
+      </phvList>
+    </DocumentPart>
+    <DocumentPart phd="phd002384.2" sectionId="V6">
+      <phvList>
+        <phvRef variableId="172057"/>
+      </phvList>
+    </DocumentPart>
+    <DocumentPart phd="phd002384.2" sectionId="V7">
+      <phvList>
+        <phvRef variableId="172059"/>
+      </phvList>
+    </DocumentPart>
+    <DocumentPart phd="phd002384.2" sectionId="V8">
+      <phvList>
+        <phvRef variableId="172058"/>
+      </phvList>
+    </DocumentPart>
+    <DocumentPart phd="phd002384.2" sectionId="V9">
+      <phvList>
+        <phvRef variableId="172067"/>
+      </phvList>
+    </DocumentPart>
+    <DocumentPart phd="phd002387.2" sectionId="V46">
+      <phvList>
+        <phvRef variableId="172084"/>
+      </phvList>
+    </DocumentPart>
+    <DocumentPart phd="phd002387.2" sectionId="sec3">
+      <phvList>
+        <phvRef variableId="172083"/>
+      </phvList>
+    </DocumentPart>
+    <DocumentPart phd="phd002387.2" sectionId="sec9">
+      <phvList>
+        <phvRef variableId="172075"/>
+      </phvList>
+    </DocumentPart>
+    <DocumentPart phd="phd002397.2" sectionId="sec3">
+      <phvList>
+        <phvRef variableId="172106"/>
+      </phvList>
+    </DocumentPart>
+    <DocumentPart phd="phd002398.2" sectionId="phd002398">
+      <phvList>
+        <phvRef variableId="172093"/>
+      </phvList>
+    </DocumentPart>
+    <DocumentPart phd="phd002400.2" sectionId="V13">
+      <phvList>
+        <phvRef variableId="172046"/>
+      </phvList>
+    </DocumentPart>
+    <DocumentPart phd="phd002400.2" sectionId="V17">
+      <phvList>
+        <phvRef variableId="172047"/>
+      </phvList>
+    </DocumentPart>
+    <DocumentPart phd="phd002400.2" sectionId="V18">
+      <phvList>
+        <phvRef variableId="172048"/>
+      </phvList>
+    </DocumentPart>
+    <DocumentPart phd="phd002400.2" sectionId="V19">
+      <phvList>
+        <phvRef variableId="172049"/>
+      </phvList>
+    </DocumentPart>
+    <DocumentPart phd="phd002412.2" sectionId="p1">
+      <phvList>
+        <phvRef variableId="172094"/>
+        <phvRef variableId="172095"/>
+        <phvRef variableId="172096"/>
+        <phvRef variableId="172097"/>
+        <phvRef variableId="172107"/>
+        <phvRef variableId="172108"/>
+        <phvRef variableId="172109"/>
+        <phvRef variableId="172110"/>
+      </phvList>
+    </DocumentPart>
+    <DocumentPart phd="phd002412.2" sectionId="sec4b">
+      <phvList>
+        <phvRef variableId="172098"/>
+        <phvRef variableId="172111"/>
+      </phvList>
+    </DocumentPart>
+    <DocumentPart phd="phd002414.2" sectionId="li17">
+      <phvList>
+        <phvRef variableId="172084"/>
+      </phvList>
+    </DocumentPart>
+    <DocumentPart phd="phd002414.2" sectionId="sec1">
+      <phvList>
+        <phvRef variableId="172083"/>
+      </phvList>
+    </DocumentPart>
+    <DocumentPart phd="phd002414.2" sectionId="sec9">
+      <phvList>
+        <phvRef variableId="172075"/>
+      </phvList>
+    </DocumentPart>
+  </Annotations>
+
+
+
+</Study>
+
+</Studies>
+
+</GaPExchange>

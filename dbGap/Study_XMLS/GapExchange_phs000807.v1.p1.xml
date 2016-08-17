@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GaPExchange xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="./dbGaPEx2.1.5.xsd">
+
+<MetaVariables>
+	<Submitter/>
+	<Method/>
+</MetaVariables>
+<MetaLinks/>
+
+<Projects>
+	<Project/>
+</Projects>
+
+<Studies>
+
+<Study source="dbGaP" accession="phs000807.v1.p1" parentStudy="phs000807.v1.p1" createDate="2014-09-29" modDate="2014-09-29">
+
+<Configuration>
+	<Data_Provider><![CDATA[
+		<table border="1">
+		<tr><th>Title</th><th>Name</th><th>Institute</th></tr>
+		<tr><td>Principal Investigator</td><td>Lawrence N. Shulman</td><td>Dana-Farber Cancer Institute</td></tr>
+		</table>
+	]]></Data_Provider>
+	<StudyNameEntrez>Breast Cancer Study</StudyNameEntrez>
+	<StudyNameReportPage>Study on longer adjuvant chemotherapy in Women with Early Breast Cancer</StudyNameReportPage>
+	<StudyTypes>
+		<StudyType>Cohort</StudyType>
+	</StudyTypes>
+	<Description><![CDATA[
+<p>The Cancer and Leukemia Group B (CALGB) 40101 trial compared four and six cycles of AC or single-agent paclitaxel in early breast cancer. The study was a 2X2 factorial design trial that also examined the effects of AC vs singleagent paclitaxel. </p>]]>
+	</Description>
+	<StudyInEx><![CDATA[
+<p>CALGB 40101 enrolled over 3000 women with operable primary breast cancer and zero to three positive nodes between 2002 and 2008. Patients were randomly assigned to receive four cycles of AC, six cycles of AC, four cycles of paclitaxel, or six cycles of paclitaxel.</p>]]>
+	</StudyInEx>
+	<StudyProjects>
+		<Project/>
+	</StudyProjects>
+	<Publications>
+		<Publication>
+			<Pubmed pmid="24513692"/>
+		</Publication>
+		<Publication>
+			<Pubmed pmid="23204130"/>
+		</Publication>
+		<Publication>
+			<Pubmed pmid="22843789"/>
+		</Publication>
+		<Publication>
+			<Pubmed pmid="22826271"/>
+		</Publication>
+	</Publications>
+	<Diseases>
+		<Disease vocab_source="MESH" vocab_term="Breast Neoplasms"/>
+		<Disease vocab_source="MESH" vocab_term="Neutropenia"/>
+	</Diseases>
+	<Attributions>
+		<Header title="Principal Investigator">
+			<AttName>Lawrence N. Shulman</AttName>
+			<Institution>Dana-Farber Cancer Institute</Institution>
+		</Header>
+	</Attributions>
+	<DisplayPublicSummary>yes</DisplayPublicSummary>
+	<StudyURLs>
+		<Url name="CALGB 40101" url="http://www.ascopost.com/issues/september-1-2012/no-advantage-to-longer-adjuvant-chemotherapy-in-women-with-early-breast-cancer-calgb-40101-trial.aspx"/>
+	</StudyURLs>
+	<ConsentGroups>
+		<ConsentGroup groupNum="1" shortName="APTC" longName="For the use in future research to learn about, prevent or treat cancer"/>
+	</ConsentGroups>
+</Configuration>
+
+  <AuthorizedAccess>
+    <DacInfo ssDacId="0">
+      <DacName>NIGMS</DacName>
+      <DacFullName>National Institute of General Medical Sciences DAC</DacFullName>
+      <DacEmail>0</DacEmail>
+      <DacPhone></DacPhone>
+      <DacUrl></DacUrl>
+    </DacInfo>
+    <Policy Policy_ID="phs000807.v1.p1_policy" ref_ssDacId="0">
+      <DisplayResearchStatement>yes</DisplayResearchStatement>
+      <DisplayPublicSummary>yes</DisplayPublicSummary>
+      <EmbargoLength>12</EmbargoLength>
+      <YearsUntilRenewal>1</YearsUntilRenewal>
+      <WeeksCancelRequest>8</WeeksCancelRequest>
+      <PdfSupplementReqired>no</PdfSupplementReqired>
+      <AcknowledgementText>
+        <para>
+          http://dbgap.ncbi.nlm.nih.gov/aa/wga.cgi?page=DUC&amp;view_pdf&amp;stacc=phs000807.v1.p1
+        </para>
+      </AcknowledgementText>
+      <DocumentSet>
+        <DataUseCertificate Label="Data Use Certificate" FilePath="https://dbgap.ncbi.nlm.nih.gov/aa/wga.cgi?page=DUC&amp;view_pdf&amp;stacc=phs000807.v1.p1" FileName="CALGB40101.draft_duc.pdf"/>
+      </DocumentSet>
+    </Policy>
+    <ConsentGroups>
+      <ParticipantSet groupNum-REF="1">
+        <ConsentName>For the use in future research to learn about, prevent or treat cancer</ConsentName>
+        <ConsentAbbrev>APTC</ConsentAbbrev>
+        <UseLimitation>Data may be used only for genetic studies to learn about, prevent or treat cancer.  Investigators must state in their DAR their intention to publish or otherwise broadly share any findings from their study with the scientific community.</UseLimitation>
+        <IrbRequired>No</IrbRequired>
+      </ParticipantSet>
+    </ConsentGroups>
+  </AuthorizedAccess>
+
+
+</Study>
+
+</Studies>
+
+</GaPExchange>

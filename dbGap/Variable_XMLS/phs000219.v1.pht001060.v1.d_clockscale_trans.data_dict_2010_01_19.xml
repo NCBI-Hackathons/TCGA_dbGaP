@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./datadict_v2.xsl"?>
+<data_table id="pht001060.v1" study_id="phs000219.v1" participant_set="1" date_created="Tue Jan 19 13:07:09 2010">
+
+<unique_key phv="00081275" version="1">SUBJID</unique_key>
+<unique_key phv="00081279" version="1">VISIT</unique_key>
+
+<variable id="phv00081275.v1">
+	<name>SUBJID</name>
+	<description>Subject&#39;s ID</description>
+	<type>String</type>
+</variable>
+
+<variable id="phv00081276.v1">
+	<name>CASE_CONTROL</name>
+	<description>Subject type</description>
+	<type>Encoded value</type>
+	<value code="ADP">AD Participant</value>
+	<value code="CASE">Case</value>
+	<value code="CCCS">Control with Change in Cognitive Status</value>
+	<value code="CNTL">Control</value>
+	<value code="FAM">Family member</value>
+	<value code="UASB">Unaffected Sibling</value>
+</variable>
+
+<variable id="phv00081277.v1">
+	<name>INV</name>
+	<description>Investigator&#39;s ID</description>
+	<type>String</type>
+</variable>
+
+<variable id="phv00081278.v1">
+	<name>INVSITE</name>
+	<description>Investigator site ID</description>
+	<type>String</type>
+</variable>
+
+<variable id="phv00081279.v1">
+	<name>VISIT</name>
+	<description>Visit name</description>
+	<type>String</type>
+</variable>
+
+<variable id="phv00081280.v1">
+	<name>VISIT_DATE</name>
+	<description>Visit date</description>
+	<type>Date</type>
+	<comment>Truncated to YYYY</comment>
+</variable>
+
+<variable id="phv00081281.v1">
+	<name>ASDT</name>
+	<description>Assessment Date</description>
+	<type>Date</type>
+	<comment>Truncated to YYYY</comment>
+</variable>
+
+<variable id="phv00081282.v1">
+	<name>TSTRE</name>
+	<description>Total clock scale (x/20)</description>
+	<type>String</type>
+</variable>
+
+<variable id="phv00081283.v1">
+	<name>INTEGRITY_CLKCMD</name>
+	<description>INTEGRITY OF THE CLOCKFACE (0-2 EACH) - Clock Command</description>
+	<type>Integer</type>
+</variable>
+
+<variable id="phv00081284.v1">
+	<name>INTEGRITY_CLKCPY</name>
+	<description>INTEGRITY OF THE CLOCKFACE (0-2 EACH) - Clock Copy</description>
+	<type>Integer</type>
+</variable>
+
+<variable id="phv00081285.v1">
+	<name>HANDS_CLKCMD</name>
+	<description>PRESENCE AND PLACEMENT OF HANDS (0-4 EACH) - Clock Command</description>
+	<type>Integer</type>
+</variable>
+
+<variable id="phv00081286.v1">
+	<name>HANDS_CLKCPY</name>
+	<description>PRESENCE AND PLACEMENT OF HANDS (0-4 EACH) - Clock Copy</description>
+	<type>Integer</type>
+</variable>
+
+<variable id="phv00081287.v1">
+	<name>NUMBERS_CLKCMD</name>
+	<description>PRESENCE AND SEQUENCING OF NUMBERS (0-4 EACH) - Clock Command</description>
+	<type>Integer</type>
+</variable>
+
+<variable id="phv00081288.v1">
+	<name>NUMBERS_CLKCPY</name>
+	<description>PRESENCE AND SEQUENCING OF NUMBERS (0-4 EACH) - Clock Copy</description>
+	<type>Integer</type>
+</variable>
+
+<variable id="phv00081289.v1">
+	<name>TOTAL_CLKCMD</name>
+	<description>TOTAL - Clock Command</description>
+	<type>Integer</type>
+</variable>
+
+<variable id="phv00081290.v1">
+	<name>TOTAL_CLKCPY</name>
+	<description>TOTAL - Clock Copy</description>
+	<type>Integer</type>
+</variable>
+
+</data_table>

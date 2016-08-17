@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./datadict_v2.xsl"?>
+<data_table id="pht000985.v1" study_id="phs000200.v1" participant_set="1" date_created="Thu Dec 17 19:19:08 2009">
+
+<unique_key phv="00077338" version="1">SHAREID</unique_key>
+<unique_key phv="00077339" version="1">WBVTYP</unique_key>
+<unique_key phv="00077340" version="1">WBVY</unique_key>
+
+<variable id="phv00077338.v1">
+	<name>SHAREID</name>
+	<description>WHI SHARe ID</description>
+	<type>integer</type>
+</variable>
+
+<variable id="phv00077339.v1">
+	<name>WBVTYP</name>
+	<description>Whole body scan visit type</description>
+	<type>encoded value</type>
+	<value code="1">Screening</value>
+	<value code="2">Semi-Annual</value>
+	<value code="3">Annual</value>
+	<value code="4">Non-Routine</value>
+</variable>
+
+<variable id="phv00077340.v1">
+	<name>WBVY</name>
+	<description>Whole body visit year</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>11</logical_max>
+	<comment>Visit year for which this BMD scan was collected.</comment>
+</variable>
+
+<variable id="phv00077341.v1">
+	<name>WBDAYS</name>
+	<description>Whole body scan days from randomization/enrollment</description>
+	<type>integer</type>
+	<unit>days</unit>
+	<logical_min>-791</logical_min>
+	<logical_max>4002</logical_max>
+</variable>
+
+<variable id="phv00077342.v1">
+	<name>WBLFLEGFAT</name>
+	<description>Fat mass of the left leg (grams)</description>
+	<type>decimal</type>
+	<unit>g</unit>
+	<logical_min>934</logical_min>
+	<logical_max>18435</logical_max>
+</variable>
+
+<variable id="phv00077343.v1">
+	<name>WBLFLEGFFM</name>
+	<description>Fat free mass of the left leg (grams)</description>
+	<type>decimal</type>
+	<unit>g</unit>
+	<logical_min>3092</logical_min>
+	<logical_max>15072</logical_max>
+</variable>
+
+<variable id="phv00077344.v1">
+	<name>WBLFLEGLEN</name>
+	<description>Lean mass of the left leg (grams)</description>
+	<type>decimal</type>
+	<unit>g</unit>
+	<logical_min>2881</logical_min>
+	<logical_max>14398</logical_max>
+</variable>
+
+<variable id="phv00077345.v1">
+	<name>WBRTLEGFAT</name>
+	<description>Fat mass of the right leg (grams)</description>
+	<type>decimal</type>
+	<unit>g</unit>
+	<logical_min>984</logical_min>
+	<logical_max>18680</logical_max>
+</variable>
+
+<variable id="phv00077346.v1">
+	<name>WBRTLEGFFM</name>
+	<description>Fat free mass of the right leg (grams)</description>
+	<type>decimal</type>
+	<unit>g</unit>
+	<logical_min>3135</logical_min>
+	<logical_max>15868</logical_max>
+</variable>
+
+<variable id="phv00077347.v1">
+	<name>WBRTLEGLEN</name>
+	<description>Lean mass of the right leg (grams)</description>
+	<type>decimal</type>
+	<unit>g</unit>
+	<logical_min>2829</logical_min>
+	<logical_max>15371</logical_max>
+</variable>
+
+<variable id="phv00077348.v1">
+	<name>WBTRUNKFAT</name>
+	<description>Fat mass of the trunk (grams)</description>
+	<type>decimal</type>
+	<unit>g</unit>
+	<logical_min>1350</logical_min>
+	<logical_max>43627</logical_max>
+</variable>
+
+<variable id="phv00077349.v1">
+	<name>WBTRUNKFFM</name>
+	<description>Fat free mass of the trunk (grams)</description>
+	<type>decimal</type>
+	<unit>g</unit>
+	<logical_min>10506</logical_min>
+	<logical_max>34862</logical_max>
+</variable>
+
+<variable id="phv00077350.v1">
+	<name>WBTRUNKLEN</name>
+	<description>Lean mass of the trunk (grams)</description>
+	<type>decimal</type>
+	<unit>g</unit>
+	<logical_min>10174</logical_min>
+	<logical_max>34000</logical_max>
+</variable>
+
+<variable id="phv00077351.v1">
+	<name>WBFATCOR</name>
+	<description>Whole body fat mass (corrected) (grams)</description>
+	<type>decimal</type>
+	<unit>g</unit>
+	<logical_min>5864</logical_min>
+	<logical_max>84430</logical_max>
+	<comment>Corrected fat mass value is based on recommendations from the UCSF quality assurance report.  For details see the Data Preparation document.</comment>
+</variable>
+
+<variable id="phv00077352.v1">
+	<name>WBFFMCOR</name>
+	<description>Whole body fat free mass (corrected) (grams)</description>
+	<type>decimal</type>
+	<unit>g</unit>
+	<logical_min>21833</logical_min>
+	<logical_max>73340</logical_max>
+	<comment>Corrected fat free mass value is based on recommendations from the UCSF quality assurance report.  For details see the Data Preparation document.</comment>
+</variable>
+
+<variable id="phv00077353.v1">
+	<name>WBLEANCOR</name>
+	<description>Whole body lean mass (corrected) (grams)</description>
+	<type>decimal</type>
+	<unit>g</unit>
+	<logical_min>20561</logical_min>
+	<logical_max>70363</logical_max>
+	<comment>Corrected lean mass value is based on recommendations from the UCSF quality assurance report.  For details see the Data Preparation document.</comment>
+</variable>
+
+<variable id="phv00077354.v1">
+	<name>WBMASSCOR</name>
+	<description>Whole body mass (corrected) (grams)</description>
+	<type>decimal</type>
+	<unit>g</unit>
+	<logical_min>35416</logical_min>
+	<logical_max>137306</logical_max>
+	<comment>Corrected mass value is based on recommendations from the UCSF quality assurance report.  For details see the Data Preparation document.</comment>
+</variable>
+
+<variable id="phv00077355.v1">
+	<name>WBPCTCOR</name>
+	<description>Whole body percent fat (corrected)</description>
+	<type>decimal</type>
+	<unit>%</unit>
+	<logical_min>15</logical_min>
+	<logical_max>65.5</logical_max>
+	<comment>Corrected pct fat value is based on recommendations from the UCSF quality assurance report.  For details see the Data Preparation document.</comment>
+</variable>
+
+<variable id="phv00077356.v1">
+	<name>WBAREACOR</name>
+	<description>Whole body area (corrected) (cm squared)</description>
+	<type>decimal</type>
+	<unit>cm squared</unit>
+	<logical_min>1086.739</logical_min>
+	<logical_max>2845.103</logical_max>
+	<comment>Corrected area value is based on recommendations from the UCSF quality assurance report.  For details see the Data Preparation document.</comment>
+</variable>
+
+<variable id="phv00077357.v1">
+	<name>WBMCCOR</name>
+	<description>Whole body BMC (corrected) (grams)</description>
+	<type>decimal</type>
+	<unit>g</unit>
+	<logical_min>877.3</logical_min>
+	<logical_max>3815.76</logical_max>
+	<comment>Corrected BMC value is based on recommendations from the UCSF quality assurance report.  For details see the Data Preparation document.</comment>
+</variable>
+
+<variable id="phv00077358.v1">
+	<name>WBBMDCOR</name>
+	<description>Whole body BMD (corrected) (g/cm sq)</description>
+	<type>decimal</type>
+	<unit>g/cm squared</unit>
+	<logical_min>0.732</logical_min>
+	<logical_max>1.731</logical_max>
+	<comment>Corrected BMD value is based on recommendations from the UCSF quality assurance report.  For details see the Data Preparation document.</comment>
+</variable>
+
+<variable id="phv00077359.v1">
+	<name>WBSID</name>
+	<description>Whole body scanner ID</description>
+	<type>encoded value</type>
+	<value code="1">Scanner 1</value>
+	<value code="2">Scanner 2</value>
+	<value code="3">Scanner 3</value>
+	<value code="4">Scanner 4</value>
+	<value code="5">Scanner 5</value>
+	<value code="6">Scanner 6</value>
+	<value code="7">Scanner 7</value>
+</variable>
+
+</data_table>

@@ -1,0 +1,533 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./datadict_v2.xsl"?>
+<data_table id="pht001013.v1" study_id="phs000200.v1" participant_set="1" date_created="Thu Dec 17 19:19:41 2009">
+
+<unique_key phv="00079497" version="1">SHAREID</unique_key>
+<unique_key phv="00079498" version="1">F45VTYP</unique_key>
+<unique_key phv="00079499" version="1">F45VY</unique_key>
+
+<variable id="phv00079497.v1">
+	<name>SHAREID</name>
+	<description>WHI SHARe ID</description>
+	<type>integer</type>
+</variable>
+
+<variable id="phv00079498.v1">
+	<name>F45VTYP</name>
+	<description>Visit type</description>
+	<type>encoded value</type>
+	<value code="1">Screening Visit</value>
+	<value code="2">Semi-Annual Visit</value>
+	<value code="3">Annual Visit</value>
+	<value code="4">Non-Routine Visit</value>
+</variable>
+
+<variable id="phv00079499.v1">
+	<name>F45VY</name>
+	<description>Visit year</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>9</logical_max>
+	<comment>Visit year for which this form was collected.</comment>
+</variable>
+
+<variable id="phv00079500.v1">
+	<name>F45DAYS</name>
+	<description>F45 Days since randomization/enrollment</description>
+	<type>integer</type>
+	<unit>days</unit>
+	<logical_min>-466</logical_min>
+	<logical_max>3580</logical_max>
+</variable>
+
+<variable id="phv00079501.v1">
+	<name>F45VITA</name>
+	<description>Supplemental Vitamin A, mcg RE</description>
+	<type>decimal</type>
+	<unit>mcg RE</unit>
+	<logical_min>0</logical_min>
+	<logical_max>125025</logical_max>
+	<comment>Average daily supplemental vitamin A, mcg RE</comment>
+</variable>
+
+<variable id="phv00079502.v1">
+	<name>F45VITE</name>
+	<description>Supplemental Alpha-tocopherol, IU</description>
+	<type>decimal</type>
+	<unit>IU</unit>
+	<logical_min>0</logical_min>
+	<logical_max>16000</logical_max>
+	<comment>Average daily supplemental alpha-tocopherol, IU</comment>
+</variable>
+
+<variable id="phv00079503.v1">
+	<name>F45VITB1</name>
+	<description>Supplemental Vitamin B1 (Thiamine), mg</description>
+	<type>decimal</type>
+	<unit>mg</unit>
+	<logical_min>0</logical_min>
+	<logical_max>1000</logical_max>
+	<comment>Average daily supplemental vitamin B1 (Thiamine), mg</comment>
+</variable>
+
+<variable id="phv00079504.v1">
+	<name>F45VTB12</name>
+	<description>Supplemental Vitamin B12, mcg</description>
+	<type>decimal</type>
+	<unit>mcg</unit>
+	<logical_min>0</logical_min>
+	<logical_max>3006</logical_max>
+	<comment>Average daily supplemental vitamin B12, mcg</comment>
+</variable>
+
+<variable id="phv00079505.v1">
+	<name>F45VITB2</name>
+	<description>Supplemental Vitamin B2 (Riboflavin), mg</description>
+	<type>decimal</type>
+	<unit>mg</unit>
+	<logical_min>0</logical_min>
+	<logical_max>1000</logical_max>
+	<comment>Average daily supplemental vitamin B2 (Riboflavin), mg</comment>
+</variable>
+
+<variable id="phv00079506.v1">
+	<name>F45VITB6</name>
+	<description>Supplemental Vitamin B6, mg</description>
+	<type>decimal</type>
+	<unit>mg</unit>
+	<logical_min>0</logical_min>
+	<logical_max>1157.143</logical_max>
+	<comment>Average daily supplemental vitamin B6, mg</comment>
+</variable>
+
+<variable id="phv00079507.v1">
+	<name>F45BETA</name>
+	<description>Supplemental Beta-carotene, mcg</description>
+	<type>decimal</type>
+	<unit>mcg</unit>
+	<logical_min>0</logical_min>
+	<logical_max>500000</logical_max>
+	<comment>Average daily supplemental beta-carotene, mcg</comment>
+</variable>
+
+<variable id="phv00079508.v1">
+	<name>F45BIOT</name>
+	<description>Supplemental Biotin, mcg</description>
+	<type>decimal</type>
+	<unit>mcg</unit>
+	<logical_min>0</logical_min>
+	<logical_max>3000</logical_max>
+	<comment>Average daily supplemental biotin, mcg</comment>
+</variable>
+
+<variable id="phv00079509.v1">
+	<name>F45VITC</name>
+	<description>Supplemental Vitamin C, mg</description>
+	<type>decimal</type>
+	<unit>mg</unit>
+	<logical_min>0</logical_min>
+	<logical_max>15270</logical_max>
+	<comment>Average daily supplemental vitamin C, mg</comment>
+</variable>
+
+<variable id="phv00079510.v1">
+	<name>F45CALC</name>
+	<description>Supplemental Calcium, mg</description>
+	<type>decimal</type>
+	<unit>mg</unit>
+	<logical_min>0</logical_min>
+	<logical_max>27714.286</logical_max>
+	<comment>Average daily supplemental calcium, mg</comment>
+</variable>
+
+<variable id="phv00079511.v1">
+	<name>F45CHROM</name>
+	<description>Supplemental Chromium, mcg</description>
+	<type>decimal</type>
+	<unit>mcg</unit>
+	<logical_min>0</logical_min>
+	<logical_max>3500</logical_max>
+	<comment>Average daily supplemental chromium, mcg</comment>
+</variable>
+
+<variable id="phv00079512.v1">
+	<name>F45COPP</name>
+	<description>Supplemental Copper, mg</description>
+	<type>decimal</type>
+	<unit>mg</unit>
+	<logical_min>0</logical_min>
+	<logical_max>60</logical_max>
+	<comment>Average daily supplemental copper, mg</comment>
+</variable>
+
+<variable id="phv00079513.v1">
+	<name>F45VITD</name>
+	<description>Supplemental Vitamin D, mcg</description>
+	<type>decimal</type>
+	<unit>mcg</unit>
+	<logical_min>0</logical_min>
+	<logical_max>120</logical_max>
+	<comment>Average daily supplemental vitamin D, mcg</comment>
+</variable>
+
+<variable id="phv00079514.v1">
+	<name>F45FOLIC</name>
+	<description>Supplemental Folic Acid, mcg</description>
+	<type>decimal</type>
+	<unit>mcg</unit>
+	<logical_min>0</logical_min>
+	<logical_max>6914.286</logical_max>
+	<comment>Average daily supplemental folic acid, mcg</comment>
+</variable>
+
+<variable id="phv00079515.v1">
+	<name>F45IRON</name>
+	<description>Supplemental Iron, mg</description>
+	<type>decimal</type>
+	<unit>mg</unit>
+	<logical_min>0</logical_min>
+	<logical_max>1902.857</logical_max>
+	<comment>Average daily supplemental iron, mg</comment>
+</variable>
+
+<variable id="phv00079516.v1">
+	<name>F45MAGN</name>
+	<description>Supplemental Magnesium, mg</description>
+	<type>decimal</type>
+	<unit>mg</unit>
+	<logical_min>0</logical_min>
+	<logical_max>8142.857</logical_max>
+	<comment>Average daily supplemental magnesium, mg</comment>
+</variable>
+
+<variable id="phv00079517.v1">
+	<name>F45MANG</name>
+	<description>Supplemental Manganese, mg</description>
+	<type>decimal</type>
+	<unit>mg</unit>
+	<logical_min>0</logical_min>
+	<logical_max>150</logical_max>
+	<comment>Average daily supplemental manganese, mg</comment>
+</variable>
+
+<variable id="phv00079518.v1">
+	<name>F45MOLYB</name>
+	<description>Supplemental Molybdenum, mcg</description>
+	<type>decimal</type>
+	<unit>mcg</unit>
+	<logical_min>0</logical_min>
+	<logical_max>300</logical_max>
+	<comment>Average daily supplemental molybdenum, mcg</comment>
+</variable>
+
+<variable id="phv00079519.v1">
+	<name>F45NIAC</name>
+	<description>Supplemental Niacin, mg</description>
+	<type>decimal</type>
+	<unit>mg</unit>
+	<logical_min>0</logical_min>
+	<logical_max>5000</logical_max>
+	<comment>Average daily supplemental niacin, mg</comment>
+</variable>
+
+<variable id="phv00079520.v1">
+	<name>F45PANTO</name>
+	<description>Supplemental Pantothenic Acid, mg</description>
+	<type>decimal</type>
+	<unit>mg</unit>
+	<logical_min>0</logical_min>
+	<logical_max>2000</logical_max>
+	<comment>Average daily supplemental pantothenic acid, mg</comment>
+</variable>
+
+<variable id="phv00079521.v1">
+	<name>F45PHOS</name>
+	<description>Supplemental Phosphorus, mg</description>
+	<type>decimal</type>
+	<unit>mg</unit>
+	<logical_min>0</logical_min>
+	<logical_max>327</logical_max>
+	<comment>Average daily supplemental phosphorus, mg</comment>
+</variable>
+
+<variable id="phv00079522.v1">
+	<name>F45POTAS</name>
+	<description>Supplemental Potassium, mg</description>
+	<type>decimal</type>
+	<unit>mg</unit>
+	<logical_min>0</logical_min>
+	<logical_max>120</logical_max>
+	<comment>Average daily supplemental potassium, mg</comment>
+</variable>
+
+<variable id="phv00079523.v1">
+	<name>F45RETIN</name>
+	<description>Supplemental Retinol, mcg</description>
+	<type>decimal</type>
+	<unit>mcg</unit>
+	<logical_min>0</logical_min>
+	<logical_max>18000</logical_max>
+	<comment>Average daily supplemental retinol, mcg</comment>
+</variable>
+
+<variable id="phv00079524.v1">
+	<name>F45SELEN</name>
+	<description>Supplemental Selenium, mcg</description>
+	<type>decimal</type>
+	<unit>mcg</unit>
+	<logical_min>0</logical_min>
+	<logical_max>1050</logical_max>
+	<comment>Average daily supplemental selenium, mcg</comment>
+</variable>
+
+<variable id="phv00079525.v1">
+	<name>F45ZINC</name>
+	<description>Supplemental Zinc, mg</description>
+	<type>decimal</type>
+	<unit>mg</unit>
+	<logical_min>0</logical_min>
+	<logical_max>535.714</logical_max>
+	<comment>Average daily supplemental zinc, mg</comment>
+</variable>
+
+<variable id="phv00079526.v1">
+	<name>F45MULTI</name>
+	<description>Multivitamin without Minerals</description>
+	<type>encoded value</type>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00079527.v1">
+	<name>F45MVMIN</name>
+	<description>Multivitamin with Minerals</description>
+	<type>encoded value</type>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00079528.v1">
+	<name>F45STRES</name>
+	<description>Stress Formula Pills</description>
+	<type>encoded value</type>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00079529.v1">
+	<name>F45OTHCM</name>
+	<description>Other Comb Pill (not multivit/stress)</description>
+	<type>encoded value</type>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00079530.v1">
+	<name>F45COMBP</name>
+	<description>Any Combination Pill</description>
+	<type>encoded value</type>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00079531.v1">
+	<name>TKVITA</name>
+	<description>F45 Taking vitamin A from single sup</description>
+	<type>encoded value</type>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00079532.v1">
+	<name>TKVITE</name>
+	<description>F45 Taking alpha-toco from single sup</description>
+	<type>encoded value</type>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00079533.v1">
+	<name>TKVITB1</name>
+	<description>F45 Taking vitamin B1 from single sup</description>
+	<type>encoded value</type>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00079534.v1">
+	<name>TKVITB12</name>
+	<description>F45 Taking vitamin B12 from single sup</description>
+	<type>encoded value</type>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00079535.v1">
+	<name>TKVITB2</name>
+	<description>F45 Taking vitamin B2 from single sup</description>
+	<type>encoded value</type>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00079536.v1">
+	<name>TKVITB6</name>
+	<description>F45 Taking vitamin B6 from single sup</description>
+	<type>encoded value</type>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00079537.v1">
+	<name>TKBETA</name>
+	<description>F45 Taking beta-carotene from single sup</description>
+	<type>encoded value</type>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00079538.v1">
+	<name>TKBIOT</name>
+	<description>F45 Taking biotin from single sup</description>
+	<type>encoded value</type>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00079539.v1">
+	<name>TKVITC</name>
+	<description>F45 Taking vitamin C from single sup</description>
+	<type>encoded value</type>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00079540.v1">
+	<name>TKCALC</name>
+	<description>F45 Taking calcium from single sup</description>
+	<type>encoded value</type>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00079541.v1">
+	<name>TKCHROM</name>
+	<description>F45 Taking chromium from single sup</description>
+	<type>encoded value</type>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00079542.v1">
+	<name>TKCOPP</name>
+	<description>F45 Taking copper from single sup</description>
+	<type>encoded value</type>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00079543.v1">
+	<name>TKVITD</name>
+	<description>F45 Taking vitamin D from single sup</description>
+	<type>encoded value</type>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00079544.v1">
+	<name>TKFOLIC</name>
+	<description>F45 Taking folic acid from single sup</description>
+	<type>encoded value</type>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00079545.v1">
+	<name>TKIRON</name>
+	<description>F45 Taking iron from single sup</description>
+	<type>encoded value</type>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00079546.v1">
+	<name>TKMAGN</name>
+	<description>F45 Taking magnesium from single sup</description>
+	<type>encoded value</type>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00079547.v1">
+	<name>TKMANG</name>
+	<description>F45 Taking manganese from single sup</description>
+	<type>encoded value</type>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00079548.v1">
+	<name>TKMOLYB</name>
+	<description>F45 Taking molybdenum from single sup</description>
+	<type>encoded value</type>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00079549.v1">
+	<name>TKNIAC</name>
+	<description>F45 Taking niacin from single sup</description>
+	<type>encoded value</type>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00079550.v1">
+	<name>TKPANTO</name>
+	<description>F45 Taking pantothenic acid from single sup</description>
+	<type>encoded value</type>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00079551.v1">
+	<name>TKPHOS</name>
+	<description>F45 Taking phosphorus from single sup</description>
+	<type>encoded value</type>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00079552.v1">
+	<name>TKPOTAS</name>
+	<description>F45 Taking potassium from single sup</description>
+	<type>encoded value</type>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00079553.v1">
+	<name>TKRETIN</name>
+	<description>F45 Taking retinol from single sup</description>
+	<type>encoded value</type>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00079554.v1">
+	<name>TKSELEN</name>
+	<description>F45 Taking selenium from single sup</description>
+	<type>encoded value</type>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00079555.v1">
+	<name>TKZINC</name>
+	<description>F45 Taking zinc from single sup</description>
+	<type>encoded value</type>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+</data_table>

@@ -1,0 +1,866 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./datadict_v2.xsl"?>
+<data_table id="pht001907.v1" study_id="phs000304.v1" participant_set="1" date_created="Thu Oct 21 11:26:05 2010">
+
+<variable id="phv00124349.v1">
+	<name>Family Id</name>
+	<description>De-identified sibship ID number</description>
+	<type>integer</type>
+</variable>
+
+<variable id="phv00124350.v1">
+	<name>Geneva Id</name>
+	<description>De-identified Geneva consortium subject ID number</description>
+	<type>integer</type>
+</variable>
+
+<variable id="phv00124351.v1">
+	<name>Age</name>
+	<description>Participant age at enrollment</description>
+	<type>integer</type>
+	<logical_min>14</logical_min>
+	<logical_max>36</logical_max>
+</variable>
+
+<variable id="phv00124352.v1">
+	<name>Sex</name>
+	<description>Participant gender</description>
+	<type>encoded integer</type>
+	<logical_min>1</logical_min>
+	<logical_max>2</logical_max>
+	<value code="1">Male</value>
+	<value code="2">Female</value>
+</variable>
+
+<variable id="phv00124353.v1">
+	<name>Weight</name>
+	<description>Participant weight at time of registration</description>
+	<type>integer</type>
+	<unit>pounds</unit>
+	<logical_min>80</logical_min>
+</variable>
+
+<variable id="phv00124354.v1">
+	<name>Height</name>
+	<description>Participant height at time of registration</description>
+	<type>integer</type>
+	<unit>inches</unit>
+	<logical_min>54</logical_min>
+	<logical_max>92</logical_max>
+</variable>
+
+<variable id="phv00124355.v1">
+	<name>Ancestry Type</name>
+	<description>Self reported ethnicity</description>
+	<type>encoded integer</type>
+	<logical_min>1</logical_min>
+	<logical_max>99</logical_max>
+	<value code="1">Spanish, Hispanic or Latino</value>
+	<value code="2">Non-Hispanic White, European or European American</value>
+	<value code="3">Non-Hispanic Black, African or African American</value>
+	<value code="4">American Indian or Alaska American</value>
+	<value code="5">Asian Indian</value>
+	<value code="6">Chinese</value>
+	<value code="7">Filipino</value>
+	<value code="8">Japanese</value>
+	<value code="9">Korean</value>
+	<value code="10">Vietnamese</value>
+	<value code="11">Other Asian</value>
+	<value code="12">Native Hawaiian</value>
+	<value code="13">Guamanian or Chamorro</value>
+	<value code="14">Samoan</value>
+	<value code="15">Other Pacific Islander</value>
+	<value code="16">Some other group not listed above</value>
+	<value code="20">Unknown</value>
+	<value code="99">Prefer not to answer</value>
+</variable>
+
+<variable id="phv00124356.v1">
+	<name>Ancestry-2</name>
+	<description>Self reported ethnicity if more than one</description>
+	<type>encoded integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>16</logical_max>
+	<value code="0">No response</value>
+	<value code="1">Spanish, Hispanic or Latino</value>
+	<value code="2">Non-Hispanic White, European or European American</value>
+	<value code="3">Non-Hispanic Black, African or African American</value>
+	<value code="4">American Indian or Alaska American</value>
+	<value code="5">Asian Indian</value>
+	<value code="6">Chinese</value>
+	<value code="7">Filipino</value>
+	<value code="8">Japanese</value>
+	<value code="9">Korean</value>
+	<value code="10">Vietnamese</value>
+	<value code="11">Other Asian</value>
+	<value code="12">Native Hawaiian</value>
+	<value code="13">Guamanian or Chamorro</value>
+	<value code="14">Samoan</value>
+	<value code="15">Other Pacific Islander</value>
+	<value code="16">Some other group not listed above</value>
+	<value code="20">Unknown</value>
+	<value code="99">Prefer not to answer</value>
+</variable>
+
+<variable id="phv00124357.v1">
+	<name>Ancestry Description</name>
+	<description>Self reported description of ethnicity</description>
+	<type>String</type>
+</variable>
+
+<variable id="phv00124358.v1">
+	<name>Ancestry Description 2</name>
+	<description>Self report description of ethnicity if more than two</description>
+	<type>String, encoded integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>0</logical_max>
+	<value code="0">No response</value>
+</variable>
+
+<variable id="phv00124359.v1">
+	<name>Consent Time</name>
+	<description>Elapsed time between online informed consent document page loading and clicking &quot;Agree&quot; button</description>
+	<type>integer</type>
+	<unit>seconds</unit>
+	<logical_min>1</logical_min>
+	<logical_max>111771</logical_max>
+</variable>
+
+<variable id="phv00124360.v1">
+	<name>Cigarette smoke</name>
+	<description>Do you currently smoke cigarettes?</description>
+	<type>encoded integer</type>
+	<logical_min>1</logical_min>
+	<logical_max>3</logical_max>
+	<value code="1">No</value>
+	<value code="2">Less than one pack a day</value>
+	<value code="3">One or More pack(s) a day</value>
+</variable>
+
+<variable id="phv00124362.v1">
+	<name>Immunization</name>
+	<description>Have you been immunized (received a vaccine shot) in the last month?</description>
+	<type>encoded integer</type>
+	<logical_min>1</logical_min>
+	<logical_max>3</logical_max>
+	<value code="1">Yes</value>
+	<value code="2">No</value>
+	<value code="3">Do not know</value>
+</variable>
+
+<variable id="phv00124363.v1">
+	<name>Medications</name>
+	<description>Please check all the medications listed below that you have used more than twice in the past month.</description>
+	<type>encoded integer</type>
+	<logical_min>1</logical_min>
+	<logical_max>5</logical_max>
+	<value code="1">Cough Medicines</value>
+	<value code="2">Herbal Medications</value>
+	<value code="3">Medications for migraines</value>
+	<value code="4">Other Medications</value>
+	<value code="5">No Medications</value>
+</variable>
+
+<variable id="phv00124364.v1">
+	<name>Lifetime nosebleed</name>
+	<description>How many spontaneous (that seem to happen for no reason) nosebleeds would you estimate you have had in your entire life?</description>
+	<type>encoded integer</type>
+	<logical_min>1</logical_min>
+	<logical_max>5</logical_max>
+	<value code="1">None</value>
+	<value code="2">1-4</value>
+	<value code="3">5-9</value>
+	<value code="4">10-19</value>
+	<value code="5">Greater than 20</value>
+</variable>
+
+<variable id="phv00124365.v1">
+	<name>Comparative bleeding</name>
+	<description>Compared to other people, when you get a minor cut or nose bleed, do you think that you bleed less, about the same, or more?  Please consider the amount of bleeding and the length of time you bleed.</description>
+	<type>encoded integer</type>
+	<logical_min>1</logical_min>
+	<logical_max>3</logical_max>
+	<value code="1">Less</value>
+	<value code="2">About the same</value>
+	<value code="3">More</value>
+</variable>
+
+<variable id="phv00124366.v1">
+	<name>Spontaneous Bruising</name>
+	<description>How often do you bruise without trauma or injury?  In other words, how often do you get bruises that seem to happen for no reason?</description>
+	<type>encoded integer</type>
+	<logical_min>1</logical_min>
+	<logical_max>6</logical_max>
+	<value code="1">Everyday</value>
+	<value code="2">Most days</value>
+	<value code="3">At least once a week</value>
+	<value code="4">At least once a month</value>
+	<value code="5">Several times a year</value>
+	<value code="6">Less than once a year</value>
+</variable>
+
+<variable id="phv00124367.v1">
+	<name>Gum Bleeding</name>
+	<description>When you brush your teeth how often do you notice bleeding from your gums?</description>
+	<type>encoded integer</type>
+	<logical_min>1</logical_min>
+	<logical_max>6</logical_max>
+	<value code="1">Everyday</value>
+	<value code="2">Most days</value>
+	<value code="3">At least once a week</value>
+	<value code="4">At least once a month</value>
+	<value code="5">Several times a year</value>
+	<value code="6">Less than once a year</value>
+</variable>
+
+<variable id="phv00124368.v1">
+	<name>Tooth extraction</name>
+	<description>Have you ever had a tooth extracted (pulled out) or any other dental surgery?</description>
+	<type>encoded integer</type>
+	<logical_min>1</logical_min>
+	<logical_max>6</logical_max>
+	<value code="1">Yes</value>
+	<value code="2">No</value>
+	<value code="3">Do not know</value>
+</variable>
+
+<variable id="phv00124369.v1">
+	<name>Bleeding with Tooth extraction</name>
+	<description>When you had your tooth pulled (or had other dental surgery), did you have a problem with too much bleeding?</description>
+	<type>encoded integer</type>
+	<logical_min>1</logical_min>
+	<logical_max>3</logical_max>
+	<value code="1">Yes</value>
+	<value code="2">No</value>
+	<value code="3">Do not know</value>
+</variable>
+
+<variable id="phv00124370.v1">
+	<name>Bleeding treatment with Tooth extraction</name>
+	<description>When you had your tooth pulled (or had other dental surgery), did your doctor or you have to do something to stop the bleeding?</description>
+	<type>encoded integer</type>
+	<logical_min>1</logical_min>
+	<logical_max>3</logical_max>
+	<value code="1">Yes</value>
+	<value code="2">No</value>
+	<value code="3">Do not know</value>
+</variable>
+
+<variable id="phv00124371.v1">
+	<name>Surgery</name>
+	<description>Have you ever had surgery or any other operation not including dental surgery?</description>
+	<type>encoded integer</type>
+	<logical_min>1</logical_min>
+	<logical_max>3</logical_max>
+	<value code="1">Yes</value>
+	<value code="2">No</value>
+	<value code="3">Do not know</value>
+</variable>
+
+<variable id="phv00124372.v1">
+	<name>Bleeding with Surgery</name>
+	<description>Have you ever had problems with bleeding following any surgery?</description>
+	<type>encoded integer</type>
+	<logical_min>1</logical_min>
+	<logical_max>3</logical_max>
+	<value code="1">Yes</value>
+	<value code="2">No</value>
+	<value code="3">Do not know</value>
+</variable>
+
+<variable id="phv00124373.v1">
+	<name>Bleeding treatment with surgery</name>
+	<description>Has your doctor or you ever had to do something to stop bleeding after surgery?</description>
+	<type>encoded integer</type>
+	<logical_min>1</logical_min>
+	<logical_max>3</logical_max>
+	<value code="1">Yes</value>
+	<value code="2">No</value>
+	<value code="3">Do not know</value>
+</variable>
+
+<variable id="phv00124374.v1">
+	<name>Bleeding treatment, non-surgical</name>
+	<description>Have you ever had medical treatment to stop bleeding that was not associated with surgery?  This includes incidents when you may have injured yourself, received vaccinations or injections, or had any part of your body pierced.</description>
+	<type>encoded integer</type>
+	<logical_min>1</logical_min>
+	<logical_max>3</logical_max>
+	<value code="1">Yes</value>
+	<value code="2">No</value>
+	<value code="3">Do not know</value>
+</variable>
+
+<variable id="phv00124375.v1">
+	<name>Comparative dental bleeding</name>
+	<description>When you go to the dentist, about how much do you bleed from your gums?  Would you say it is more, about the same, or less than most people your age?</description>
+	<type>encoded integer</type>
+	<logical_min>1</logical_min>
+	<logical_max>7</logical_max>
+	<value code="1">More</value>
+	<value code="2">About the same</value>
+	<value code="3">Less</value>
+	<value code="4">Do not know</value>
+</variable>
+
+<variable id="phv00124376.v1">
+	<name>Menarche</name>
+	<description>At what age did you have your first period?</description>
+	<type>integer</type>
+	<logical_min>7</logical_min>
+	<logical_max>20</logical_max>
+</variable>
+
+<variable id="phv00124377.v1">
+	<name>Menstrual duration</name>
+	<description>On average, how many days do your periods last?</description>
+	<type>encoded integer</type>
+	<logical_min>1</logical_min>
+	<logical_max>4</logical_max>
+	<value code="1">Do not have periods</value>
+	<value code="2">1-7 days</value>
+	<value code="3">More than 7 days</value>
+	<value code="4">Do not know</value>
+</variable>
+
+<variable id="phv00124378.v1">
+	<name>Menstrual heaviness</name>
+	<description>How frequently do you change pads/tampons on the heaviest days of your periods?</description>
+	<type>encoded integer</type>
+	<logical_min>1</logical_min>
+	<logical_max>4</logical_max>
+	<value code="1">Do not have periods</value>
+	<value code="2">6 or more times a day</value>
+	<value code="3">Fewer that 6 times a day</value>
+	<value code="4">Do not know</value>
+</variable>
+
+<variable id="phv00124379.v1">
+	<name>Hormonal birth control</name>
+	<description>Do you use hormonal birth control (pill, patch, ring, or shot)?</description>
+	<type>encoded integer</type>
+	<logical_min>1</logical_min>
+	<logical_max>3</logical_max>
+	<value code="1">Yes</value>
+	<value code="2">No</value>
+	<value code="3">Do not know</value>
+</variable>
+
+<variable id="phv00124380.v1">
+	<name>Skin tags</name>
+	<description>Skin tags are small, normal extra pieces of skin most commonly found on the neck or under arm.  How many skin tags do you have?</description>
+	<type>encoded integer</type>
+	<logical_min>1</logical_min>
+	<logical_max>4</logical_max>
+	<comment>Used illustration</comment>
+	<value code="1">None</value>
+	<value code="2">1-5</value>
+	<value code="3">6-25</value>
+	<value code="4">Greater than 25</value>
+</variable>
+
+<variable id="phv00124381.v1">
+	<name>Acne</name>
+	<description>Many people have some acne during their teenage years.  Which picture best describes your acne as a teenager?</description>
+	<type>encoded integer</type>
+	<logical_min>1</logical_min>
+	<logical_max>5</logical_max>
+	<comment>Used illustration</comment>
+	<value code="1">None</value>
+	<value code="2">Mild</value>
+	<value code="3">Moderate</value>
+	<value code="4">Severe</value>
+	<value code="5">Cystic</value>
+</variable>
+
+<variable id="phv00124382.v1">
+	<name>Eye color</name>
+	<description>Which picture best describes your natural eye color?</description>
+	<type>encoded integer</type>
+	<logical_min>1</logical_min>
+	<logical_max>5</logical_max>
+	<comment>Used illustration</comment>
+	<value code="1">Brown</value>
+	<value code="2">Blue</value>
+	<value code="3">Green</value>
+	<value code="4">Hazel</value>
+	<value code="5">Black</value>
+</variable>
+
+<variable id="phv00124383.v1">
+	<name>Hair color</name>
+	<description>Which picture best describes your natural hair color (prior to graying)?</description>
+	<type>encoded integer</type>
+	<logical_min>1</logical_min>
+	<logical_max>4</logical_max>
+	<comment>Used illustration</comment>
+	<value code="1">Red</value>
+	<value code="2">Blond</value>
+	<value code="3">Brown</value>
+	<value code="4">Black</value>
+</variable>
+
+<variable id="phv00124384.v1">
+	<name>Hair line</name>
+	<description>Which picture best describes your current hair line?</description>
+	<type>encoded integer</type>
+	<logical_min>1</logical_min>
+	<logical_max>8</logical_max>
+	<comment>Used illustration</comment>
+	<value code="1">A</value>
+	<value code="2">B</value>
+	<value code="3">C</value>
+	<value code="4">D</value>
+	<value code="5">E</value>
+	<value code="6">F</value>
+	<value code="7">G</value>
+	<value code="8">H</value>
+	<value code="9">I</value>
+	<value code="10">J</value>
+</variable>
+
+<variable id="phv00124385.v1">
+	<name>Skin sensitivity to sun</name>
+	<description>What would happen to your skin if it were exposed to bright sunlight for the first time in summer for one hour at noon without protection?  Would your skin become:</description>
+	<type>encoded integer</type>
+	<logical_min>1</logical_min>
+	<logical_max>5</logical_max>
+	<comment>Used illustration</comment>
+	<value code="1">Severly burnt with blistering</value>
+	<value code="2">Burnt with peeling</value>
+	<value code="3">Burnt followed by tanning</value>
+	<value code="4">Tan</value>
+	<value code="5">Do not know</value>
+</variable>
+
+<variable id="phv00124386.v1">
+	<name>Tanning</name>
+	<description>What would happen to your skin if it was repeatedly exposed to bright sunlight without protection? Would your skin become:</description>
+	<type>encoded integer</type>
+	<logical_min>1</logical_min>
+	<logical_max>5</logical_max>
+	<comment>Used illustration</comment>
+	<value code="1">Deeply tanned</value>
+	<value code="2">Moderately tanned</value>
+	<value code="3">Mildly tanned</value>
+	<value code="4">No suntan</value>
+	<value code="5">Do not know</value>
+</variable>
+
+<variable id="phv00124387.v1">
+	<name>Skin color</name>
+	<description>Which best describes the color of the skin on the inside of your upper arm?  In other words, what is your natural skin color without any tanning?</description>
+	<type>encoded integer</type>
+	<logical_min>1</logical_min>
+	<logical_max>5</logical_max>
+	<comment>Used illustration</comment>
+	<value code="1">Very fair</value>
+	<value code="2">Fair</value>
+	<value code="3">Light olive</value>
+	<value code="4">Olive</value>
+	<value code="5">Very brown or black</value>
+</variable>
+
+<variable id="phv00124388.v1">
+	<name>Freckles</name>
+	<description>Which picture best describes the amount of freckles you have?</description>
+	<type>encoded integer</type>
+	<logical_min>1</logical_min>
+	<logical_max>4</logical_max>
+	<comment>Used illustration</comment>
+	<value code="1">None</value>
+	<value code="2">Little</value>
+	<value code="3">Moderate</value>
+	<value code="4">A lot</value>
+</variable>
+
+<variable id="phv00124389.v1">
+	<name>Ear lobe creased</name>
+	<description>Are your ear lobes creased?</description>
+	<type>encoded integer</type>
+	<logical_min>1</logical_min>
+	<logical_max>3</logical_max>
+	<comment>Used illustration</comment>
+	<value code="1">Earlobes creased</value>
+	<value code="2">Earlobes not creased</value>
+	<value code="3">Do not know</value>
+</variable>
+
+<variable id="phv00124390.v1">
+	<name>Ear lobe attachment</name>
+	<description>Which word best describes your ear lobes -- free or attached?</description>
+	<type>encoded integer</type>
+	<logical_min>1</logical_min>
+	<logical_max>2</logical_max>
+	<comment>Used illustration</comment>
+	<value code="1">Free</value>
+	<value code="2">Attached</value>
+</variable>
+
+<variable id="phv00124391.v1">
+	<name>Tongue roll</name>
+	<description>Can you roll your tongue?</description>
+	<type>encoded integer</type>
+	<logical_min>1</logical_min>
+	<logical_max>3</logical_max>
+	<comment>Used illustration</comment>
+	<value code="1">I can roll my tongue</value>
+	<value code="2">I cannot roll my tongue</value>
+	<value code="3">Do not know</value>
+</variable>
+
+<variable id="phv00124392.v1">
+	<name>Dimples</name>
+	<description>Do you have dimples on your face?</description>
+	<type>encoded integer</type>
+	<logical_min>1</logical_min>
+	<logical_max>3</logical_max>
+	<comment>Used illustration</comment>
+	<value code="1">I have dimples</value>
+	<value code="2">I do not have dimples</value>
+	<value code="3">Do not know</value>
+</variable>
+
+<variable id="phv00124393.v1">
+	<name>Dyslexia</name>
+	<description>Do you have dyslexia (difficulty with reading)?</description>
+	<type>encoded integer</type>
+	<logical_min>1</logical_min>
+	<logical_max>5</logical_max>
+	<value code="1">No</value>
+	<value code="2">Yes, self-diagnosis</value>
+	<value code="3">Yes, diagnosed by physician</value>
+	<value code="4">Yes, diagnosed by physician and treated</value>
+	<value code="5">Do not know</value>
+</variable>
+
+<variable id="phv00124394.v1">
+	<name>Dental caries</name>
+	<description>How many dental cavities have you ever had?</description>
+	<type>encoded integer</type>
+	<logical_min>1</logical_min>
+	<logical_max>6</logical_max>
+	<value code="1">None</value>
+	<value code="2">1-5</value>
+	<value code="3">6-10</value>
+	<value code="4">11-15</value>
+	<value code="5">16-20</value>
+	<value code="6">Greater than 20</value>
+</variable>
+
+<variable id="phv00124395.v1">
+	<name>Migraines</name>
+	<description>Have you been diagnosed with migraines by a physician?</description>
+	<type>encoded integer</type>
+	<logical_min>1</logical_min>
+	<logical_max>3</logical_max>
+	<value code="1">Yes</value>
+	<value code="2">No</value>
+	<value code="3">Do not know</value>
+</variable>
+
+<variable id="phv00124396.v1">
+	<name>Stuttering speech</name>
+	<description>Have you ever been treated for stuttering by a speech therapist?</description>
+	<type>encoded integer</type>
+	<logical_min>1</logical_min>
+	<logical_max>3</logical_max>
+	<value code="1">Yes</value>
+	<value code="2">No</value>
+	<value code="3">Do not know</value>
+</variable>
+
+<variable id="phv00124397.v1">
+	<name>Seasonal allergies</name>
+	<description>Do you have itchy eyes, runny or stuffy nose, or sneezing in the fall or spring?</description>
+	<type>encoded integer</type>
+	<logical_min>1</logical_min>
+	<logical_max>3</logical_max>
+	<value code="1">Yes, rarely</value>
+	<value code="2">Yes, frequently</value>
+	<value code="3">No</value>
+</variable>
+
+<variable id="phv00124398.v1">
+	<name>Vision correction</name>
+	<description>Do you wear prescription eye glasses or contact lenses?</description>
+	<type>encoded integer</type>
+	<logical_min>1</logical_min>
+	<logical_max>3</logical_max>
+	<value code="1">No</value>
+	<value code="2">I use prescription eye glasses/contact lenses just for reading or driving</value>
+	<value code="3">I use prescription eye glasses/contact lenses all the time</value>
+</variable>
+
+<variable id="phv00124399.v1">
+	<name>Shoe Size</name>
+	<description>What is your US shoe size?</description>
+	<type>decimal</type>
+	<logical_min>4</logical_min>
+	<logical_max>14.5</logical_max>
+</variable>
+
+<variable id="phv00124400.v1">
+	<name>Flat feet</name>
+	<description>Do you have flat feet?</description>
+	<type>encoded integer</type>
+	<logical_min>1</logical_min>
+	<logical_max>3</logical_max>
+	<value code="1">I have flat feet</value>
+	<value code="2">I have arched feet</value>
+	<value code="3">Do not know</value>
+</variable>
+
+<variable id="phv00124401.v1">
+	<name>Favorite color</name>
+	<description>Of the following colors, which is your favorite color?</description>
+	<type>encoded integer</type>
+	<logical_min>1</logical_min>
+	<logical_max>10</logical_max>
+	<comment>Used illustration</comment>
+	<value code="1">Red</value>
+	<value code="2">Black</value>
+	<value code="3">Blue</value>
+	<value code="4">Yellow</value>
+	<value code="5">Orange</value>
+	<value code="6">Purple</value>
+	<value code="7">White</value>
+	<value code="8">Brown</value>
+	<value code="9">Pink</value>
+	<value code="10">Green</value>
+</variable>
+
+<variable id="phv00124402.v1">
+	<name>Eating Sweets</name>
+	<description>How much do you like to eat sweets?</description>
+	<type>encoded integer</type>
+	<logical_min>1</logical_min>
+	<logical_max>4</logical_max>
+	<value code="1">Not at all</value>
+	<value code="2">A little</value>
+	<value code="3">Somewhat</value>
+	<value code="4">A lot</value>
+</variable>
+
+<variable id="phv00124403.v1">
+	<name>Eating salty food</name>
+	<description>How much do you like to eat salty foods?</description>
+	<type>encoded integer</type>
+	<logical_min>1</logical_min>
+	<logical_max>4</logical_max>
+	<value code="1">Not at all</value>
+	<value code="2">A little</value>
+	<value code="3">Somewhat</value>
+	<value code="4">A lot</value>
+</variable>
+
+<variable id="phv00124404.v1">
+	<name>Athletic ability</name>
+	<description>How would you describe your athletic ability?</description>
+	<type>encoded integer</type>
+	<logical_min>1</logical_min>
+	<logical_max>3</logical_max>
+	<value code="1">Better than most people</value>
+	<value code="2">About the same as most people</value>
+	<value code="3">Worse than most people</value>
+</variable>
+
+<variable id="phv00124405.v1">
+	<name>Handedness</name>
+	<description>With which hand do you write best?</description>
+	<type>encoded integer</type>
+	<logical_min>1</logical_min>
+	<logical_max>3</logical_max>
+	<value code="1">Left</value>
+	<value code="2">Right</value>
+	<value code="3">Both equally well</value>
+</variable>
+
+<variable id="phv00124406.v1">
+	<name>Photic sneeze</name>
+	<description>Do you often feel like sneezing or sneeze upon walking out into bright sunlight?</description>
+	<type>encoded integer</type>
+	<logical_min>1</logical_min>
+	<logical_max>3</logical_max>
+	<value code="1">Yes</value>
+	<value code="2">No</value>
+	<value code="3">Do not know</value>
+</variable>
+
+<variable id="phv00124407.v1">
+	<name>Brain freeze</name>
+	<description>Do you experience a brief intense headache if you drink an icy beverage or eat ice cream too fast? AKA &quot;brain freeze&quot;</description>
+	<type>encoded integer</type>
+	<logical_min>1</logical_min>
+	<logical_max>3</logical_max>
+	<value code="1">Yes</value>
+	<value code="2">No</value>
+	<value code="3">Do not know</value>
+</variable>
+
+<variable id="phv00124408.v1">
+	<name>Vulcan greeting</name>
+	<description>Can you easily separate your fingers as shown in this picture?</description>
+	<type>encoded integer</type>
+	<logical_min>1</logical_min>
+	<logical_max>3</logical_max>
+	<comment>Used illustration</comment>
+	<value code="1">Yes</value>
+	<value code="2">No</value>
+	<value code="3">Do not know</value>
+</variable>
+
+<variable id="phv00124409.v1">
+	<name>Interlocking fingers</name>
+	<description>Interlock your fingers as shown in the picture.  Which position feels comfortable to you?</description>
+	<type>encoded integer</type>
+	<logical_min>1</logical_min>
+	<logical_max>2</logical_max>
+	<comment>Used illustration</comment>
+	<value code="1">Right thumb over left thumb</value>
+	<value code="2">Left thumb over right thumb</value>
+</variable>
+
+<variable id="phv00124410.v1">
+	<name>5th digit clinodactyly</name>
+	<description>Does the tip of your little finger (5th digit) bend toward your other fingers?</description>
+	<type>encoded integer</type>
+	<logical_min>1</logical_min>
+	<logical_max>2</logical_max>
+	<comment>Used illustration</comment>
+	<value code="1">Bent little finger</value>
+	<value code="2">Straight little finger</value>
+</variable>
+
+<variable id="phv00124411.v1">
+	<name>Nosebleeds per year</name>
+	<description>How many spontaneous (that seem to happen for no reason) nosebleeds would you estimate you have per year?</description>
+	<type>encoded integer</type>
+	<logical_min>1</logical_min>
+	<logical_max>4</logical_max>
+	<value code="1">&lt;1</value>
+	<value code="2">1-5</value>
+	<value code="3">6-12</value>
+	<value code="4">&gt;12</value>
+</variable>
+
+<variable id="phv00124412.v1">
+	<name>Aphthous ulcers</name>
+	<description>How often do you get apthous ulcers (canker sores)?</description>
+	<type>encoded integer</type>
+	<logical_min>1</logical_min>
+	<logical_max>4</logical_max>
+	<comment>Used illustration</comment>
+	<value code="1">Never</value>
+	<value code="2">Once every 1-3 months</value>
+	<value code="3">Every month</value>
+	<value code="4">Every week</value>
+</variable>
+
+<variable id="phv00124413.v1">
+	<name>RBC (x10E06cells/microliter)</name>
+	<description>Red blood cell count per microliter of whole blood</description>
+	<type>decimal</type>
+	<unit>x10E06cells/microliter</unit>
+	<logical_min>3.29</logical_min>
+	<logical_max>6.5</logical_max>
+</variable>
+
+<variable id="phv00124414.v1">
+	<name>HCT (%)</name>
+	<description>Hematocrit, percent of blood that is contained in the red blood cell pellet</description>
+	<type>decimal</type>
+	<unit>%</unit>
+	<logical_min>27.5</logical_min>
+	<logical_max>54.3</logical_max>
+</variable>
+
+<variable id="phv00124415.v1">
+	<name>MCV (fL)</name>
+	<description>Mean corpuscular volume in femtoliters</description>
+	<type>decimal</type>
+	<unit>femtoliters</unit>
+	<logical_min>58.1</logical_min>
+	<logical_max>107.4</logical_max>
+</variable>
+
+<variable id="phv00124416.v1">
+	<name>MCH (pg)</name>
+	<description>Mean corpuscular hemoglobin in picograms</description>
+	<type>decimal</type>
+	<unit>picograms</unit>
+	<logical_min>18.9</logical_min>
+	<logical_max>39.7</logical_max>
+</variable>
+
+<variable id="phv00124417.v1">
+	<name>MCHC (g/dL)</name>
+	<description>Mean corpuscular hemoglobin concentration in grams per deciliter</description>
+	<type>decimal</type>
+	<unit>grams per deciliter</unit>
+	<logical_min>27.3</logical_min>
+	<logical_max>48.8</logical_max>
+</variable>
+
+<variable id="phv00124418.v1">
+	<name>RDW (%)</name>
+	<description>Red blood cell width distribution, variance in percentage</description>
+	<type>decimal</type>
+	<unit>%</unit>
+	<logical_min>11.15</logical_min>
+	<logical_max>19.1</logical_max>
+</variable>
+
+<variable id="phv00124419.v1">
+	<name>WBC (x10E03cells/microliter)</name>
+	<description>White blood cell count per microliter of whole blood</description>
+	<type>decimal</type>
+	<unit>x10E03cells/microliter</unit>
+	<logical_min>2.01</logical_min>
+	<logical_max>11.93</logical_max>
+</variable>
+
+<variable id="phv00124420.v1">
+	<name>HGB (g/dL)</name>
+	<description>Hemoglobin concentration in grams per deciliter of whole blood</description>
+	<type>decimal</type>
+	<unit>grams per deciliter</unit>
+	<logical_min>7.65</logical_min>
+	<logical_max>19.5</logical_max>
+</variable>
+
+<variable id="phv00124421.v1">
+	<name>PLT (x10E03cells/microliter)</name>
+	<description>Platelet cell count per microliter of whole blood</description>
+	<type>decimal</type>
+	<unit>x10E03cells/microliter</unit>
+	<logical_min>12</logical_min>
+	<logical_max>360.5</logical_max>
+</variable>
+
+<variable id="phv00124422.v1">
+	<name>MPV (fL)</name>
+	<description>Mean Platelet Volume</description>
+	<type>decimal</type>
+	<unit>femtoliters</unit>
+	<logical_min>8.1</logical_min>
+	<logical_max>15.3</logical_max>
+</variable>
+
+<variable id="phv00124423.v1">
+	<name>VWF(%)</name>
+	<description>Von Willebrand Factor antigen level, percentage compared to laboratory standard</description>
+	<type>decimal</type>
+	<unit>%</unit>
+	<logical_min>25.75</logical_min>
+	<logical_max>409.5</logical_max>
+</variable>
+
+<variable id="phv00124424.v1">
+	<name>VWF Std Dev</name>
+	<description>Standard deviation of von Willebrand Factor antigen level</description>
+	<type>decimal</type>
+	<logical_min>0</logical_min>
+	<logical_max>46.026186813165</logical_max>
+</variable>
+
+</data_table>

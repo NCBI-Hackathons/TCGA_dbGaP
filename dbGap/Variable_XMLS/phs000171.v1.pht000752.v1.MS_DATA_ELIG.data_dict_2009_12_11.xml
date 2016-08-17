@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./datadict_v2.xsl"?>
+<data_table id="pht000752.v1" study_id="phs000171.v1" participant_set="1" date_created="Fri Dec 11 14:12:35 2009">
+
+<variable id="phv00072752.v1">
+	<name>SUBJID</name>
+	<description>Subject&#39;s ID</description>
+	<type>string</type>
+</variable>
+
+<variable id="phv00072753.v1">
+	<name>CASE_CONTROL</name>
+	<description>Type of subject</description>
+	<type>string, encoded values</type>
+	<value code="CASE">Affected subject per Protocol</value>
+	<value code="CNTL">Control subject per Protocol</value>
+</variable>
+
+<variable id="phv00072754.v1">
+	<name>STUDY</name>
+	<description>Study identifyer</description>
+	<type>string</type>
+</variable>
+
+<variable id="phv00072755.v1">
+	<name>INVSITE</name>
+	<description>Investigator site ID</description>
+	<type>string</type>
+	<comment>Numeric code identifying the site (for internal use)</comment>
+</variable>
+
+<variable id="phv00072756.v1">
+	<name>INV</name>
+	<description>Investigator ID</description>
+	<type>string</type>
+	<comment>Numeric code identifying the investigator (for internal use)</comment>
+</variable>
+
+<variable id="phv00072757.v1">
+	<name>VISIT</name>
+	<description>Visit name</description>
+	<type>string</type>
+	<value code="CSA">Common Subject Assessment</value>
+	<value code="ELIGIBILITY">Eligibility questionnaire</value>
+	<value code="BASELINE">Baseline assessment questionnaire</value>
+	<value code="LAB WBC">Lab results</value>
+	<value code="SELF REPORT">Subject completed self report questionnaire</value>
+</variable>
+
+<variable id="phv00072758.v1">
+	<name>VISIT_DATE</name>
+	<description>Visit date</description>
+	<type>string</type>
+	<comment>Truncated to YYYY</comment>
+</variable>
+
+<variable id="phv00072759.v1">
+	<name>INC1_01</name>
+	<description>Inclusion criterion 1 - case</description>
+	<type>encoded value</type>
+	<comment>Is the participant between 18 and 65 years of age at the time of entering the study?</comment>
+	<value code="Y">YES</value>
+	<value code="N">NO</value>
+</variable>
+
+<variable id="phv00072760.v1">
+	<name>INC1_02</name>
+	<description>Inclusion criterion 2 - case</description>
+	<type>encoded value</type>
+	<comment>Is the participant Caucasian? (&gt;/= 3 out of 4 grandparents must be caucasian as per CSA)?</comment>
+	<value code="Y">YES</value>
+	<value code="N">NO</value>
+</variable>
+
+<variable id="phv00072761.v1">
+	<name>INC1_03</name>
+	<description>Inclusion criterion 3 - case</description>
+	<type>encoded value</type>
+	<comment>Has the participant given voluntary written consent to  participate in the GeneMSA study?</comment>
+	<value code="Y">YES</value>
+	<value code="N">NO</value>
+</variable>
+
+<variable id="phv00072762.v1">
+	<name>INC1_04</name>
+	<description>Inclusion criterion 4 - case</description>
+	<type>encoded value</type>
+	<comment>Is the participant diagnosed with MS or CIS according to the protocol (with no relapses within the 4 weeks prior to screening)?</comment>
+	<value code="Y">YES</value>
+	<value code="N">NO</value>
+</variable>
+
+<variable id="phv00072763.v1">
+	<name>INC1_05</name>
+	<description>Inclusion criterion 5 - case</description>
+	<type>encoded value</type>
+	<comment>Does the participant have an EDSS (Expanded Disability Status Scale) score between 0 and 7.5?</comment>
+	<value code="Y">YES</value>
+	<value code="N">NO</value>
+</variable>
+
+<variable id="phv00072764.v1">
+	<name>INC1_06</name>
+	<description>Inclusion criterion 6 - case</description>
+	<type>encoded value</type>
+	<comment>Is the participant able and willing to return to the center after 12 months for the second investigation?</comment>
+	<value code="Y">YES</value>
+	<value code="N">NO</value>
+	<value code="X">NA</value>
+</variable>
+
+<variable id="phv00072765.v1">
+	<name>INC1_07</name>
+	<description>Inclusion criterion 7 - case</description>
+	<type>encoded value</type>
+	<comment>If a sibling, does the participant meet the case inclusion criteria?</comment>
+	<value code="Y">YES</value>
+	<value code="N">NO</value>
+	<value code="X">NA</value>
+</variable>
+
+<variable id="phv00072766.v1">
+	<name>INC2_01</name>
+	<description>Inclusion criterion 1 - control</description>
+	<type>encoded value</type>
+	<comment>Is the participant between 18 and 65 years of age at the time of entering the study?</comment>
+	<value code="Y">YES</value>
+	<value code="N">NO</value>
+</variable>
+
+<variable id="phv00072767.v1">
+	<name>INC2_02</name>
+	<description>Inclusion criterion 2 - control</description>
+	<type>encoded value</type>
+	<comment>Is the participant Caucasian? (&gt;/= 3 out of 4 grandparents must be caucasian as per CSA)?</comment>
+	<value code="Y">YES</value>
+	<value code="N">NO</value>
+</variable>
+
+<variable id="phv00072768.v1">
+	<name>INC2_03</name>
+	<description>Inclusion criterion 3 - control</description>
+	<type>encoded value</type>
+	<comment>Has the participant given voluntary written consent to  participate in the GeneMSA study?</comment>
+	<value code="Y">YES</value>
+	<value code="N">NO</value>
+</variable>
+
+<variable id="phv00072769.v1">
+	<name>INC2_04</name>
+	<description>Inclusion criterion 4 - control</description>
+	<type>encoded value</type>
+	<comment>Is the participant devoid of any history or family history of MS?</comment>
+	<value code="Y">YES</value>
+	<value code="N">NO</value>
+</variable>
+
+<variable id="phv00072770.v1">
+	<name>EXC1_01</name>
+	<description>Exclusion criterion 1 - case</description>
+	<type>encoded value</type>
+	<comment>Has the participant received any corticosteroids within 4 weeks of screening for treatment of MS? 
+		If non-systemic steroids are being used for other chronic inflammatory conditions, subjects may be included at the discretion of the investigator. </comment>
+	<value code="Y">YES</value>
+	<value code="N">NO</value>
+</variable>
+
+<variable id="phv00072771.v1">
+	<name>EXC1_02</name>
+	<description>Exclusion criterion 2 - case</description>
+	<type>encoded value</type>
+	<comment>Does the participant have a history or suspicion of current drug abuse or alcohol abuse within the last 6 months?</comment>
+	<value code="Y">YES</value>
+	<value code="N">NO</value>
+</variable>
+
+<variable id="phv00072772.v1">
+	<name>EXC1_03</name>
+	<description>Exclusion criterion 3 - case</description>
+	<type>encoded value</type>
+	<comment>Has the participant had any concurrent illness, disability or clinically significant abnormality that may prevent him/her from safely completing the assessments required by protocol?</comment>
+	<value code="Y">YES</value>
+	<value code="N">NO</value>
+</variable>
+
+<variable id="phv00072773.v1">
+	<name>EXC1_04</name>
+	<description>Exclusion criterion 4 - case</description>
+	<type>encoded value</type>
+	<comment>Does the participant have a condition which in the opinion of the investigator would render the patient unsuitable for a MRI?</comment>
+	<value code="Y">YES</value>
+	<value code="N">NO</value>
+</variable>
+
+<variable id="phv00072774.v1">
+	<name>EXC1_05</name>
+	<description>Exclusion criterion 5 - case</description>
+	<type>encoded value</type>
+	<comment>Is the patient participating in ongoing MS Clinical Trials with non-approved drugs?</comment>
+	<value code="Y">YES</value>
+	<value code="N">NO</value>
+</variable>
+
+<variable id="phv00072775.v1">
+	<name>EXC2_01</name>
+	<description>Exclusion criterion 1 - control</description>
+	<type>encoded value</type>
+	<comment>Does the participant have a past history or current diagnosis of MS?</comment>
+	<value code="Y">YES</value>
+	<value code="N">NO</value>
+</variable>
+
+<variable id="phv00072776.v1">
+	<name>EXC2_02</name>
+	<description>Exclusion criterion 2 - control</description>
+	<type>encoded value</type>
+	<comment>Is the participant related to a case or another control?</comment>
+	<value code="Y">YES</value>
+	<value code="N">NO</value>
+</variable>
+
+</data_table>

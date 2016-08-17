@@ -1,0 +1,573 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./datadict_v2.xsl"?>
+<data_table id="pht001486.v1" study_id="phs000287.v1" participant_set="1" date_created="Thu Jul 22 17:50:26 2010">
+
+<variable id="phv00103680.v1">
+	<name>Individual_ID</name>
+	<description>Subject Identifier</description>
+	<type>string</type>
+</variable>
+
+<variable id="phv00103681.v1">
+	<name>GNHLTH32</name>
+	<description>GENERAL HEALTH</description>
+	<type>encoded</type>
+	<comment><![CDATA[Dictionaries were submitted w/some SAS file derived code definitions (extracted by T.Y. - BROAD Institute); where possible, additional code meanings were extracted from submitted document: <a href="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" onclick="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" oncontextmenu="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;">VALUELBL</a> (or document &#39;CALCULATED VARIABLES&#39; [phd002771]), and inserted.]]></comment>
+	<value code="1">EXCELLENT</value>
+	<value code="2">VERY GOOD</value>
+	<value code="3">GOOD</value>
+	<value code="4">FAIR</value>
+	<value code="5">POOR</value>
+	<value code="9">REFUSED, DON&#39;T KNOW</value>
+	<value code=".">Missing</value>
+</variable>
+
+<variable id="phv00103682.v1">
+	<name>CMHLTH32</name>
+	<description>HEALTH COMPARED TO OTHERS SAME AGE</description>
+	<type>encoded</type>
+	<comment><![CDATA[Dictionaries were submitted w/some SAS file derived code definitions (extracted by T.Y. - BROAD Institute); where possible, additional code meanings were extracted from submitted document: <a href="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" onclick="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" oncontextmenu="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;">VALUELBL</a> (or document &#39;CALCULATED VARIABLES&#39; [phd002771]), and inserted.]]></comment>
+	<value code="1">BETTER</value>
+	<value code="2">SAME</value>
+	<value code="3">WORSE</value>
+	<value code="9">DON&#39;T KNOW</value>
+	<value code=".">Missing</value>
+</variable>
+
+<variable id="phv00103683.v1">
+	<name>CHHLTH32</name>
+	<description>HOW HEALTH CHANGED IN PAST 6 MONTHS</description>
+	<type>encoded</type>
+	<comment><![CDATA[Dictionaries were submitted w/some SAS file derived code definitions (extracted by T.Y. - BROAD Institute); where possible, additional code meanings were extracted from submitted document: <a href="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" onclick="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" oncontextmenu="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;">VALUELBL</a> (or document &#39;CALCULATED VARIABLES&#39; [phd002771]), and inserted.]]></comment>
+	<value code="1">BETTER</value>
+	<value code="2">SAME</value>
+	<value code="3">WORSE</value>
+	<value code="9">DON&#39;T KNOW</value>
+	<value code=".">Missing</value>
+</variable>
+
+<variable id="phv00103684.v1">
+	<name>DAYBED32</name>
+	<description>DAYS IN BED FOR ILLNESS OR INJURY</description>
+	<type>encoded</type>
+	<comment><![CDATA[Dictionaries were submitted w/some SAS file derived code definitions (extracted by T.Y. - BROAD Institute); where possible, additional code meanings were extracted from submitted document: <a href="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" onclick="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" oncontextmenu="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;">VALUELBL</a> (or document &#39;CALCULATED VARIABLES&#39; [phd002771]), and inserted.]]></comment>
+	<value code=".">Missing</value>
+</variable>
+
+<variable id="phv00103685.v1">
+	<name>MD32</name>
+	<description>NUMBER/TIMES SAW DOCTOR</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>91</logical_max>
+	<comment><![CDATA[Dictionaries were submitted w/some SAS file derived code definitions (extracted by T.Y. - BROAD Institute); where possible, additional code meanings were extracted from submitted document: <a href="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" onclick="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" oncontextmenu="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;">VALUELBL</a> (or document &#39;CALCULATED VARIABLES&#39; [phd002771]), and inserted.]]></comment>
+</variable>
+
+<variable id="phv00103686.v1">
+	<name>HSTIME32</name>
+	<description>NUMBER/TIMES ADMITTED TO HOSPITAL</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>60</logical_max>
+	<comment><![CDATA[Dictionaries were submitted w/some SAS file derived code definitions (extracted by T.Y. - BROAD Institute); where possible, additional code meanings were extracted from submitted document: <a href="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" onclick="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" oncontextmenu="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;">VALUELBL</a> (or document &#39;CALCULATED VARIABLES&#39; [phd002771]), and inserted.]]></comment>
+</variable>
+
+<variable id="phv00103687.v1">
+	<name>NURSHM32</name>
+	<description>OVERNIGHT AS PATIENT IN NURSING HOME</description>
+	<type>encoded</type>
+	<comment><![CDATA[Dictionaries were submitted w/some SAS file derived code definitions (extracted by T.Y. - BROAD Institute); where possible, additional code meanings were extracted from submitted document: <a href="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" onclick="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" oncontextmenu="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;">VALUELBL</a> (or document &#39;CALCULATED VARIABLES&#39; [phd002771]), and inserted.]]></comment>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+	<value code=".">Missing</value>
+</variable>
+
+<variable id="phv00103688.v1">
+	<name>HIGHBP32</name>
+	<description>TOLD BY MD YOU HAD HIGH BLOOD PRESSURE</description>
+	<type>encoded</type>
+	<comment><![CDATA[Dictionaries were submitted w/some SAS file derived code definitions (extracted by T.Y. - BROAD Institute); where possible, additional code meanings were extracted from submitted document: <a href="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" onclick="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" oncontextmenu="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;">VALUELBL</a> (or document &#39;CALCULATED VARIABLES&#39; [phd002771]), and inserted.]]></comment>
+	<value code="1">NEVER TOLD</value>
+	<value code="2">TOLD DURING THE PAST YEAR</value>
+	<value code="3">TOLD MORE THAN 1 YEAR AGO</value>
+	<value code=".">Missing</value>
+</variable>
+
+<variable id="phv00103689.v1">
+	<name>ASTHMA32</name>
+	<description>TOLD BY MD YOU HAD ASTHMA</description>
+	<type>encoded</type>
+	<comment><![CDATA[Dictionaries were submitted w/some SAS file derived code definitions (extracted by T.Y. - BROAD Institute); where possible, additional code meanings were extracted from submitted document: <a href="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" onclick="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" oncontextmenu="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;">VALUELBL</a> (or document &#39;CALCULATED VARIABLES&#39; [phd002771]), and inserted.]]></comment>
+	<value code="1">NEVER TOLD</value>
+	<value code="2">TOLD DURING THE PAST YEAR</value>
+	<value code="3">TOLD MORE THAN 1 YEAR AGO</value>
+	<value code=".">Missing</value>
+</variable>
+
+<variable id="phv00103690.v1">
+	<name>AFIB32</name>
+	<description>TOLD BY MD YOU HAD ATRIAL FIBRILLATION</description>
+	<type>encoded</type>
+	<comment><![CDATA[Dictionaries were submitted w/some SAS file derived code definitions (extracted by T.Y. - BROAD Institute); where possible, additional code meanings were extracted from submitted document: <a href="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" onclick="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" oncontextmenu="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;">VALUELBL</a> (or document &#39;CALCULATED VARIABLES&#39; [phd002771]), and inserted.]]></comment>
+	<value code="1">NEVER TOLD</value>
+	<value code="2">TOLD DURING THE PAST YEAR</value>
+	<value code="3">TOLD MORE THAN 1 YEAR AGO</value>
+	<value code=".">Missing</value>
+</variable>
+
+<variable id="phv00103691.v1">
+	<name>DVT32</name>
+	<description>TOLD BY MD YOU HAD DEEP VEIN THROMBOSIS</description>
+	<type>encoded</type>
+	<comment><![CDATA[Dictionaries were submitted w/some SAS file derived code definitions (extracted by T.Y. - BROAD Institute); where possible, additional code meanings were extracted from submitted document: <a href="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" onclick="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" oncontextmenu="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;">VALUELBL</a> (or document &#39;CALCULATED VARIABLES&#39; [phd002771]), and inserted.]]></comment>
+	<value code="1">NEVER TOLD</value>
+	<value code="2">TOLD DURING THE PAST YEAR</value>
+	<value code="3">TOLD MORE THAN 1 YEAR AGO</value>
+	<value code=".">Missing</value>
+</variable>
+
+<variable id="phv00103692.v1">
+	<name>RHEU32</name>
+	<description>TOLD BY MD YOU HAD RHEUMATIC FEVER</description>
+	<type>encoded</type>
+	<comment><![CDATA[Dictionaries were submitted w/some SAS file derived code definitions (extracted by T.Y. - BROAD Institute); where possible, additional code meanings were extracted from submitted document: <a href="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" onclick="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" oncontextmenu="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;">VALUELBL</a> (or document &#39;CALCULATED VARIABLES&#39; [phd002771]), and inserted.]]></comment>
+	<value code="1">NEVER TOLD</value>
+	<value code="2">TOLD DURING THE PAST YEAR</value>
+	<value code="3">TOLD MORE THAN 1 YEAR AGO</value>
+	<value code=".">Missing</value>
+</variable>
+
+<variable id="phv00103693.v1">
+	<name>EMPHYS32</name>
+	<description>TOLD BY MD YOU HAD EMPHYSEMA</description>
+	<type>encoded</type>
+	<comment><![CDATA[Dictionaries were submitted w/some SAS file derived code definitions (extracted by T.Y. - BROAD Institute); where possible, additional code meanings were extracted from submitted document: <a href="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" onclick="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" oncontextmenu="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;">VALUELBL</a> (or document &#39;CALCULATED VARIABLES&#39; [phd002771]), and inserted.]]></comment>
+	<value code="1">NEVER TOLD</value>
+	<value code="2">TOLD DURING THE PAST YEAR</value>
+	<value code="3">TOLD MORE THAN 1 YEAR AGO</value>
+	<value code=".">Missing</value>
+</variable>
+
+<variable id="phv00103694.v1">
+	<name>DIABET32</name>
+	<description>TOLD BY MD YOU HAD DIABETES</description>
+	<type>encoded</type>
+	<comment><![CDATA[Dictionaries were submitted w/some SAS file derived code definitions (extracted by T.Y. - BROAD Institute); where possible, additional code meanings were extracted from submitted document: <a href="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" onclick="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" oncontextmenu="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;">VALUELBL</a> (or document &#39;CALCULATED VARIABLES&#39; [phd002771]), and inserted.]]></comment>
+	<value code="1">NEVER TOLD</value>
+	<value code="2">TOLD DURING THE PAST YEAR</value>
+	<value code="3">TOLD MORE THAN 1 YEAR AGO</value>
+	<value code=".">Missing</value>
+</variable>
+
+<variable id="phv00103695.v1">
+	<name>FOOTUL32</name>
+	<description>EVER HAD FOOT ULCERS OR SORES ON FEET</description>
+	<type>encoded</type>
+	<comment><![CDATA[Dictionaries were submitted w/some SAS file derived code definitions (extracted by T.Y. - BROAD Institute); where possible, additional code meanings were extracted from submitted document: <a href="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" onclick="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" oncontextmenu="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;">VALUELBL</a> (or document &#39;CALCULATED VARIABLES&#39; [phd002771]), and inserted.]]></comment>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+	<value code="9">UNKNOWN</value>
+	<value code=".">Missing</value>
+</variable>
+
+<variable id="phv00103696.v1">
+	<name>HIBSUG32</name>
+	<description>EVER HAD HIGH BLOOD SUGAR</description>
+	<type>encoded</type>
+	<comment><![CDATA[Dictionaries were submitted w/some SAS file derived code definitions (extracted by T.Y. - BROAD Institute); where possible, additional code meanings were extracted from submitted document: <a href="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" onclick="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" oncontextmenu="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;">VALUELBL</a> (or document &#39;CALCULATED VARIABLES&#39; [phd002771]), and inserted.]]></comment>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+	<value code="9">UNKNOWN</value>
+	<value code=".">Missing</value>
+</variable>
+
+<variable id="phv00103697.v1">
+	<name>LOBSUG32</name>
+	<description>EVER HAD LOW BLOOD SUGAR</description>
+	<type>encoded</type>
+	<comment><![CDATA[Dictionaries were submitted w/some SAS file derived code definitions (extracted by T.Y. - BROAD Institute); where possible, additional code meanings were extracted from submitted document: <a href="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" onclick="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" oncontextmenu="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;">VALUELBL</a> (or document &#39;CALCULATED VARIABLES&#39; [phd002771]), and inserted.]]></comment>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+	<value code="9">UNKNOWN</value>
+	<value code=".">Missing</value>
+</variable>
+
+<variable id="phv00103698.v1">
+	<name>FAINT32</name>
+	<description>EVER FAINTED OR PASSED OUT</description>
+	<type>encoded</type>
+	<comment><![CDATA[Dictionaries were submitted w/some SAS file derived code definitions (extracted by T.Y. - BROAD Institute); where possible, additional code meanings were extracted from submitted document: <a href="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" onclick="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" oncontextmenu="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;">VALUELBL</a> (or document &#39;CALCULATED VARIABLES&#39; [phd002771]), and inserted.]]></comment>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+	<value code="9">UNKNOWN</value>
+	<value code=".">Missing</value>
+</variable>
+
+<variable id="phv00103699.v1">
+	<name>EYEPRB32</name>
+	<description>EVER HAD EYE PROBLEMS</description>
+	<type>encoded</type>
+	<comment><![CDATA[Dictionaries were submitted w/some SAS file derived code definitions (extracted by T.Y. - BROAD Institute); where possible, additional code meanings were extracted from submitted document: <a href="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" onclick="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" oncontextmenu="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;">VALUELBL</a> (or document &#39;CALCULATED VARIABLES&#39; [phd002771]), and inserted.]]></comment>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+	<value code="9">UNKNOWN</value>
+	<value code=".">Missing</value>
+</variable>
+
+<variable id="phv00103700.v1">
+	<name>DIABTR32</name>
+	<description>HOW ARE YOU TREATED FOR DIABETES</description>
+	<type>encoded</type>
+	<comment><![CDATA[Dictionaries were submitted w/some SAS file derived code definitions (extracted by T.Y. - BROAD Institute); where possible, additional code meanings were extracted from submitted document: <a href="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" onclick="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" oncontextmenu="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;">VALUELBL</a> (or document &#39;CALCULATED VARIABLES&#39; [phd002771]), and inserted.]]></comment>
+	<value code="1">INSULIN</value>
+	<value code="2">ORAL HYPOGLYCEMIC AGENT</value>
+	<value code="3">OTHER (SPECIFY)</value>
+	<value code=".">Missing</value>
+</variable>
+
+<variable id="phv00103701.v1">
+	<name>DIFWKHML</name>
+	<description>Do you have any difficulty walking half a mile</description>
+	<type>encoded</type>
+	<comment><![CDATA[Dictionaries were submitted w/some SAS file derived code definitions (extracted by T.Y. - BROAD Institute); where possible, additional code meanings were extracted from submitted document: <a href="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" onclick="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" oncontextmenu="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;">VALUELBL</a> (or document &#39;CALCULATED VARIABLES&#39; [phd002771]), and inserted.]]></comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+	<value code="2">Could do but didn&#39;t</value>
+	<value code="9">Don&#39;t Know</value>
+	<value code=".">Missing</value>
+</variable>
+
+<variable id="phv00103702.v1">
+	<name>MCHWKHML</name>
+	<description>Walking half a mile: How much difficulty</description>
+	<type>encoded</type>
+	<comment><![CDATA[Dictionaries were submitted w/some SAS file derived code definitions (extracted by T.Y. - BROAD Institute); where possible, additional code meanings were extracted from submitted document: <a href="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" onclick="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" oncontextmenu="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;">VALUELBL</a> (or document &#39;CALCULATED VARIABLES&#39; [phd002771]), and inserted.]]></comment>
+	<value code="1">Some</value>
+	<value code="2">A lot</value>
+	<value code="3">Unable to do</value>
+	<value code="9">Don&#39;t Know</value>
+	<value code=".">Missing</value>
+</variable>
+
+<variable id="phv00103703.v1">
+	<name>DIFWKHOM</name>
+	<description>Do you have any difficulty walking around</description>
+	<type>encoded</type>
+	<comment><![CDATA[Dictionaries were submitted w/some SAS file derived code definitions (extracted by T.Y. - BROAD Institute); where possible, additional code meanings were extracted from submitted document: <a href="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" onclick="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" oncontextmenu="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;">VALUELBL</a> (or document &#39;CALCULATED VARIABLES&#39; [phd002771]), and inserted.]]></comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+	<value code="2">Could do but didn&#39;t</value>
+	<value code="9">Don&#39;t Know</value>
+	<value code=".">Missing</value>
+</variable>
+
+<variable id="phv00103704.v1">
+	<name>MCHWKHOM</name>
+	<description>Walking around your home: How much difficulty</description>
+	<type>encoded</type>
+	<comment><![CDATA[Dictionaries were submitted w/some SAS file derived code definitions (extracted by T.Y. - BROAD Institute); where possible, additional code meanings were extracted from submitted document: <a href="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" onclick="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" oncontextmenu="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;">VALUELBL</a> (or document &#39;CALCULATED VARIABLES&#39; [phd002771]), and inserted.]]></comment>
+	<value code="1">Some</value>
+	<value code="2">A lot</value>
+	<value code="3">Unable to do</value>
+	<value code="9">Don&#39;t Know</value>
+	<value code=".">Missing</value>
+</variable>
+
+<variable id="phv00103705.v1">
+	<name>DIFBEDCH</name>
+	<description>Do you have any difficulty getting out of chair/bed</description>
+	<type>encoded</type>
+	<comment><![CDATA[Dictionaries were submitted w/some SAS file derived code definitions (extracted by T.Y. - BROAD Institute); where possible, additional code meanings were extracted from submitted document: <a href="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" onclick="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" oncontextmenu="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;">VALUELBL</a> (or document &#39;CALCULATED VARIABLES&#39; [phd002771]), and inserted.]]></comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+	<value code="2">Could do but didn&#39;t</value>
+	<value code="9">Don&#39;t Know</value>
+	<value code=".">Missing</value>
+</variable>
+
+<variable id="phv00103706.v1">
+	<name>MCHBEDCH</name>
+	<description>Getting out of bed or a chair: How much difficulty</description>
+	<type>encoded</type>
+	<comment><![CDATA[Dictionaries were submitted w/some SAS file derived code definitions (extracted by T.Y. - BROAD Institute); where possible, additional code meanings were extracted from submitted document: <a href="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" onclick="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" oncontextmenu="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;">VALUELBL</a> (or document &#39;CALCULATED VARIABLES&#39; [phd002771]), and inserted.]]></comment>
+	<value code="1">Some</value>
+	<value code="2">A lot</value>
+	<value code="3">Unable to do</value>
+	<value code="9">Don&#39;t Know</value>
+	<value code=".">Missing</value>
+</variable>
+
+<variable id="phv00103707.v1">
+	<name>DIF10STP</name>
+	<description>Do you have any difficulty walking up 10 steps</description>
+	<type>encoded</type>
+	<comment><![CDATA[Dictionaries were submitted w/some SAS file derived code definitions (extracted by T.Y. - BROAD Institute); where possible, additional code meanings were extracted from submitted document: <a href="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" onclick="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" oncontextmenu="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;">VALUELBL</a> (or document &#39;CALCULATED VARIABLES&#39; [phd002771]), and inserted.]]></comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+	<value code="2">Could do but didn&#39;t</value>
+	<value code="9">Don&#39;t Know</value>
+	<value code=".">Missing</value>
+</variable>
+
+<variable id="phv00103708.v1">
+	<name>MCH10STP</name>
+	<description>Walking up 10 steps: How much difficulty</description>
+	<type>encoded</type>
+	<comment><![CDATA[Dictionaries were submitted w/some SAS file derived code definitions (extracted by T.Y. - BROAD Institute); where possible, additional code meanings were extracted from submitted document: <a href="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" onclick="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" oncontextmenu="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;">VALUELBL</a> (or document &#39;CALCULATED VARIABLES&#39; [phd002771]), and inserted.]]></comment>
+	<value code="1">Some</value>
+	<value code="2">A lot</value>
+	<value code="3">Unable to do</value>
+	<value code="9">Don&#39;t Know</value>
+	<value code=".">Missing</value>
+</variable>
+
+<variable id="phv00103709.v1">
+	<name>DIFHHWK</name>
+	<description>Do you have any difficulty or are you unable to do heavy housework</description>
+	<type>encoded</type>
+	<comment><![CDATA[Dictionaries were submitted w/some SAS file derived code definitions (extracted by T.Y. - BROAD Institute); where possible, additional code meanings were extracted from submitted document: <a href="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" onclick="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" oncontextmenu="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;">VALUELBL</a> (or document &#39;CALCULATED VARIABLES&#39; [phd002771]), and inserted.]]></comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+	<value code="2">Could do but didn&#39;t</value>
+	<value code="9">Don&#39;t Know</value>
+	<value code=".">Missing</value>
+</variable>
+
+<variable id="phv00103710.v1">
+	<name>MCHHHWK</name>
+	<description>Heavy housework: How much difficulty</description>
+	<type>encoded</type>
+	<comment><![CDATA[Dictionaries were submitted w/some SAS file derived code definitions (extracted by T.Y. - BROAD Institute); where possible, additional code meanings were extracted from submitted document: <a href="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" onclick="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" oncontextmenu="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;">VALUELBL</a> (or document &#39;CALCULATED VARIABLES&#39; [phd002771]), and inserted.]]></comment>
+	<value code="1">Some</value>
+	<value code="2">A lot</value>
+	<value code="3">Unable to do</value>
+	<value code="9">Don&#39;t Know</value>
+	<value code=".">Missing</value>
+</variable>
+
+<variable id="phv00103711.v1">
+	<name>DIFLHWK</name>
+	<description>Because of health, do you have any difficulty to do light house work</description>
+	<type>encoded</type>
+	<comment><![CDATA[Dictionaries were submitted w/some SAS file derived code definitions (extracted by T.Y. - BROAD Institute); where possible, additional code meanings were extracted from submitted document: <a href="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" onclick="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" oncontextmenu="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;">VALUELBL</a> (or document &#39;CALCULATED VARIABLES&#39; [phd002771]), and inserted.]]></comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+	<value code="2">Could do but didn&#39;t</value>
+	<value code="9">Don&#39;t Know</value>
+	<value code=".">Missing</value>
+</variable>
+
+<variable id="phv00103712.v1">
+	<name>MCHLHWK</name>
+	<description>Light housework: How much difficulty</description>
+	<type>encoded</type>
+	<comment><![CDATA[Dictionaries were submitted w/some SAS file derived code definitions (extracted by T.Y. - BROAD Institute); where possible, additional code meanings were extracted from submitted document: <a href="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" onclick="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" oncontextmenu="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;">VALUELBL</a> (or document &#39;CALCULATED VARIABLES&#39; [phd002771]), and inserted.]]></comment>
+	<value code="1">Some</value>
+	<value code="2">A lot</value>
+	<value code="3">Unable to do</value>
+	<value code="9">Don&#39;t Know</value>
+	<value code=".">Missing</value>
+</variable>
+
+<variable id="phv00103713.v1">
+	<name>DIFSHOP</name>
+	<description>Because of health, do you have any difficulty to shop for personal items</description>
+	<type>encoded</type>
+	<comment><![CDATA[Dictionaries were submitted w/some SAS file derived code definitions (extracted by T.Y. - BROAD Institute); where possible, additional code meanings were extracted from submitted document: <a href="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" onclick="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" oncontextmenu="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;">VALUELBL</a> (or document &#39;CALCULATED VARIABLES&#39; [phd002771]), and inserted.]]></comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+	<value code="2">Could do but didn&#39;t</value>
+	<value code="9">Don&#39;t Know</value>
+	<value code=".">Missing</value>
+</variable>
+
+<variable id="phv00103714.v1">
+	<name>MCHSHOP</name>
+	<description>Shop for personal items: How much difficulty</description>
+	<type>encoded</type>
+	<comment><![CDATA[Dictionaries were submitted w/some SAS file derived code definitions (extracted by T.Y. - BROAD Institute); where possible, additional code meanings were extracted from submitted document: <a href="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" onclick="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" oncontextmenu="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;">VALUELBL</a> (or document &#39;CALCULATED VARIABLES&#39; [phd002771]), and inserted.]]></comment>
+	<value code="1">Some</value>
+	<value code="2">A lot</value>
+	<value code="3">Unable to do</value>
+	<value code="9">Don&#39;t Know</value>
+	<value code=".">Missing</value>
+</variable>
+
+<variable id="phv00103715.v1">
+	<name>DIFPRPML</name>
+	<description>Because of health, do you have any difficulty to prepare own meals</description>
+	<type>encoded</type>
+	<comment><![CDATA[Dictionaries were submitted w/some SAS file derived code definitions (extracted by T.Y. - BROAD Institute); where possible, additional code meanings were extracted from submitted document: <a href="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" onclick="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" oncontextmenu="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;">VALUELBL</a> (or document &#39;CALCULATED VARIABLES&#39; [phd002771]), and inserted.]]></comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+	<value code="2">Could do but didn&#39;t</value>
+	<value code="9">Don&#39;t Know</value>
+	<value code=".">Missing</value>
+</variable>
+
+<variable id="phv00103716.v1">
+	<name>MCHPRPML</name>
+	<description>Prepare your own meals: How much difficulty</description>
+	<type>encoded</type>
+	<comment><![CDATA[Dictionaries were submitted w/some SAS file derived code definitions (extracted by T.Y. - BROAD Institute); where possible, additional code meanings were extracted from submitted document: <a href="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" onclick="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" oncontextmenu="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;">VALUELBL</a> (or document &#39;CALCULATED VARIABLES&#39; [phd002771]), and inserted.]]></comment>
+	<value code="1">Some</value>
+	<value code="2">A lot</value>
+	<value code="3">Unable to do</value>
+	<value code="9">Don&#39;t Know</value>
+	<value code=".">Missing</value>
+</variable>
+
+<variable id="phv00103717.v1">
+	<name>DIFPAYBL</name>
+	<description>Because of health, do you have any difficulty to manage your money</description>
+	<type>encoded</type>
+	<comment><![CDATA[Dictionaries were submitted w/some SAS file derived code definitions (extracted by T.Y. - BROAD Institute); where possible, additional code meanings were extracted from submitted document: <a href="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" onclick="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" oncontextmenu="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;">VALUELBL</a> (or document &#39;CALCULATED VARIABLES&#39; [phd002771]), and inserted.]]></comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+	<value code="2">Could do but didn&#39;t</value>
+	<value code="9">Don&#39;t Know</value>
+	<value code=".">Missing</value>
+</variable>
+
+<variable id="phv00103718.v1">
+	<name>MCHPAYBL</name>
+	<description>Manage money: How much difficulty</description>
+	<type>encoded</type>
+	<comment><![CDATA[Dictionaries were submitted w/some SAS file derived code definitions (extracted by T.Y. - BROAD Institute); where possible, additional code meanings were extracted from submitted document: <a href="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" onclick="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" oncontextmenu="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;">VALUELBL</a> (or document &#39;CALCULATED VARIABLES&#39; [phd002771]), and inserted.]]></comment>
+	<value code="1">Some</value>
+	<value code="2">A lot</value>
+	<value code="3">Unable to do</value>
+	<value code="9">Don&#39;t Know</value>
+	<value code=".">Missing</value>
+</variable>
+
+<variable id="phv00103719.v1">
+	<name>DIFPHONE</name>
+	<description>Because of health, do you have any difficulty using the phone</description>
+	<type>encoded</type>
+	<comment><![CDATA[Dictionaries were submitted w/some SAS file derived code definitions (extracted by T.Y. - BROAD Institute); where possible, additional code meanings were extracted from submitted document: <a href="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" onclick="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" oncontextmenu="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;">VALUELBL</a> (or document &#39;CALCULATED VARIABLES&#39; [phd002771]), and inserted.]]></comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+	<value code="2">Could do but didn&#39;t</value>
+	<value code="9">Don&#39;t Know</value>
+	<value code=".">Missing</value>
+</variable>
+
+<variable id="phv00103720.v1">
+	<name>MCHPHONE</name>
+	<description>Use the telephone: How much difficulty</description>
+	<type>encoded</type>
+	<comment><![CDATA[Dictionaries were submitted w/some SAS file derived code definitions (extracted by T.Y. - BROAD Institute); where possible, additional code meanings were extracted from submitted document: <a href="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" onclick="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" oncontextmenu="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;">VALUELBL</a> (or document &#39;CALCULATED VARIABLES&#39; [phd002771]), and inserted.]]></comment>
+	<value code="1">Some</value>
+	<value code="2">A lot</value>
+	<value code="3">Unable to do</value>
+	<value code="9">Don&#39;t Know</value>
+	<value code=".">Missing</value>
+</variable>
+
+<variable id="phv00103721.v1">
+	<name>DIFEAT</name>
+	<description>Because of health, do you have any difficulty eating</description>
+	<type>encoded</type>
+	<comment><![CDATA[Dictionaries were submitted w/some SAS file derived code definitions (extracted by T.Y. - BROAD Institute); where possible, additional code meanings were extracted from submitted document: <a href="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" onclick="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" oncontextmenu="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;">VALUELBL</a> (or document &#39;CALCULATED VARIABLES&#39; [phd002771]), and inserted.]]></comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+	<value code="2">Could do but didn&#39;t</value>
+	<value code="9">Don&#39;t Know</value>
+	<value code=".">Missing</value>
+</variable>
+
+<variable id="phv00103722.v1">
+	<name>MCHEAT</name>
+	<description>Eating: How much difficulty do you have?</description>
+	<type>encoded</type>
+	<comment><![CDATA[Dictionaries were submitted w/some SAS file derived code definitions (extracted by T.Y. - BROAD Institute); where possible, additional code meanings were extracted from submitted document: <a href="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" onclick="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" oncontextmenu="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;">VALUELBL</a> (or document &#39;CALCULATED VARIABLES&#39; [phd002771]), and inserted.]]></comment>
+	<value code="1">Some</value>
+	<value code="2">A lot</value>
+	<value code="3">Unable to do</value>
+	<value code="9">Don&#39;t Know</value>
+	<value code=".">Missing</value>
+</variable>
+
+<variable id="phv00103723.v1">
+	<name>DIFDRESS</name>
+	<description>Because of health, do you have any difficulty dressing yourself</description>
+	<type>encoded</type>
+	<comment><![CDATA[Dictionaries were submitted w/some SAS file derived code definitions (extracted by T.Y. - BROAD Institute); where possible, additional code meanings were extracted from submitted document: <a href="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" onclick="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" oncontextmenu="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;">VALUELBL</a> (or document &#39;CALCULATED VARIABLES&#39; [phd002771]), and inserted.]]></comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+	<value code="2">Could do but didn&#39;t</value>
+	<value code="9">Don&#39;t Know</value>
+	<value code=".">Missing</value>
+</variable>
+
+<variable id="phv00103724.v1">
+	<name>MCHDRESS</name>
+	<description>Dressing yourself: How much difficulty</description>
+	<type>encoded</type>
+	<comment><![CDATA[Dictionaries were submitted w/some SAS file derived code definitions (extracted by T.Y. - BROAD Institute); where possible, additional code meanings were extracted from submitted document: <a href="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" onclick="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" oncontextmenu="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;">VALUELBL</a> (or document &#39;CALCULATED VARIABLES&#39; [phd002771]), and inserted.]]></comment>
+	<value code="1">Some</value>
+	<value code="2">A lot</value>
+	<value code="3">Unable to do</value>
+	<value code="9">Don&#39;t Know</value>
+	<value code=".">Missing</value>
+</variable>
+
+<variable id="phv00103725.v1">
+	<name>DIFBATHE</name>
+	<description>Because of health, do you have any difficulty bathing/taking a shower</description>
+	<type>encoded</type>
+	<comment><![CDATA[Dictionaries were submitted w/some SAS file derived code definitions (extracted by T.Y. - BROAD Institute); where possible, additional code meanings were extracted from submitted document: <a href="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" onclick="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" oncontextmenu="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;">VALUELBL</a> (or document &#39;CALCULATED VARIABLES&#39; [phd002771]), and inserted.]]></comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+	<value code="2">Could do but didn&#39;t</value>
+	<value code="9">Don&#39;t Know</value>
+	<value code=".">Missing</value>
+</variable>
+
+<variable id="phv00103726.v1">
+	<name>MCHBATHE</name>
+	<description>Bathe or shower: How much difficulty do you have</description>
+	<type>encoded</type>
+	<comment><![CDATA[Dictionaries were submitted w/some SAS file derived code definitions (extracted by T.Y. - BROAD Institute); where possible, additional code meanings were extracted from submitted document: <a href="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" onclick="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" oncontextmenu="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;">VALUELBL</a> (or document &#39;CALCULATED VARIABLES&#39; [phd002771]), and inserted.]]></comment>
+	<value code="1">Some</value>
+	<value code="2">A lot</value>
+	<value code="3">Unable to do</value>
+	<value code="9">Don&#39;t Know</value>
+	<value code=".">Missing</value>
+</variable>
+
+<variable id="phv00103727.v1">
+	<name>DIFTOILT</name>
+	<description>Because of health, do you have any difficulty using the toilet</description>
+	<type>encoded</type>
+	<comment><![CDATA[Dictionaries were submitted w/some SAS file derived code definitions (extracted by T.Y. - BROAD Institute); where possible, additional code meanings were extracted from submitted document: <a href="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" onclick="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" oncontextmenu="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;">VALUELBL</a> (or document &#39;CALCULATED VARIABLES&#39; [phd002771]), and inserted.]]></comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+	<value code="2">Could do but didn&#39;t</value>
+	<value code="9">Don&#39;t Know</value>
+	<value code=".">Missing</value>
+</variable>
+
+<variable id="phv00103728.v1">
+	<name>MCHTOILT</name>
+	<description>Use the toilet: How much difficulty do you have</description>
+	<type>encoded</type>
+	<comment><![CDATA[Dictionaries were submitted w/some SAS file derived code definitions (extracted by T.Y. - BROAD Institute); where possible, additional code meanings were extracted from submitted document: <a href="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" onclick="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" oncontextmenu="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;">VALUELBL</a> (or document &#39;CALCULATED VARIABLES&#39; [phd002771]), and inserted.]]></comment>
+	<value code="1">Some</value>
+	<value code="2">A lot</value>
+	<value code="3">Unable to do</value>
+	<value code="9">Don&#39;t Know</value>
+	<value code=".">Missing</value>
+</variable>
+
+<variable id="phv00103729.v1">
+	<name>STDYTIME</name>
+	<description>TIME SINCE ENTRY (DAYS)</description>
+	<type>integer</type>
+	<logical_min>4038</logical_min>
+	<logical_max>5867</logical_max>
+	<comment><![CDATA[Dictionaries were submitted w/some SAS file derived code definitions (extracted by T.Y. - BROAD Institute); where possible, additional code meanings were extracted from submitted document: <a href="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" onclick="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" oncontextmenu="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;">VALUELBL</a> (or document &#39;CALCULATED VARIABLES&#39; [phd002771]), and inserted.]]></comment>
+</variable>
+
+</data_table>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./datadict_v2.xsl"?>
+<data_table id="pht000180.v1" study_id="phs000019.v1" participant_set="1" date_created="Tue Aug 12 13:54:47 2008">
+
+<variable id="phv00024049.v1">
+	<name>FAMILY</name>
+	<description>Family identifier: value 1 means Family 1; value 2 means Family 2, et al.</description>
+</variable>
+
+<variable id="phv00024051.v1">
+	<name>FATHER</name>
+	<description>Father identifier (if available) within a family</description>
+	<value code="0">Data not available</value>
+	<value code="2">Person 2 in the same family is this person&#39;s father</value>
+	<value code="3">Person 3 in the same family is this person&#39;s father</value>
+</variable>
+
+<variable id="phv00024053.v1">
+	<name>GENDER</name>
+	<description>Sex for trios</description>
+	<type>String</type>
+	<value code="F">Female</value>
+	<value code="M">Male</value>
+</variable>
+
+<variable id="phv00024054.v1">
+	<name>INSTITUTION</name>
+	<description>Sample origin for trios</description>
+	<type>String</type>
+	<value code="UM">University of Michigan</value>
+	<value code="UU">The University of Utah</value>
+	<value code="WU">Washington University</value>
+</variable>
+
+<variable id="phv00024052.v1">
+	<name>MOTHER</name>
+	<description>Mother identifier (if available) within a family</description>
+	<value code="0">Data not available</value>
+	<value code="2">Person 2 in the same family is this person&#39;s mother</value>
+	<value code="3">Person 3 in the same family is this person&#39;s mother</value>
+</variable>
+
+<variable id="phv00024050.v1">
+	<name>PERSON</name>
+	<description>Individual identifier within a family: value 1 means Person 1 in certain family, et al.</description>
+</variable>
+
+<variable id="phv00024048.v1">
+	<name>STUDY_ID</name>
+	<description>Identifier within Collaborative Association Study of Psoriasis for trios</description>
+</variable>
+
+</data_table>

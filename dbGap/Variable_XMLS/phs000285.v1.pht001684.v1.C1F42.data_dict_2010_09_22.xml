@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./datadict_v2.xsl"?>
+<data_table id="pht001684.v1" study_id="phs000285.v1" participant_set="1" date_created="Wed Sep 22 11:09:45 2010">
+
+<variable id="phv00116206.v1">
+	<name>Individual_ID</name>
+	<description>Subject Identifier</description>
+	<type>string</type>
+</variable>
+
+<variable id="phv00116207.v1">
+	<name>C42_OBSN</name>
+	<description>OBSERVATION NUMBER WITHIN ID</description>
+	<type>string</type>
+</variable>
+
+<variable id="phv00116208.v1">
+	<name>C42_CC1</name>
+	<description>1ST CONDITION CODE</description>
+	<type>encoded</type>
+	<comment>Please find encoded value descriptions in associated documents. Some of the values might be encoded and code descriptions have not been submitted at this time.</comment>
+	<value code="r">r</value>
+	<value code="t">t</value>
+</variable>
+
+<variable id="phv00116209.v1">
+	<name>C42_DATE</name>
+	<description>OBS DATE, ABP MONITOR (SAS FMT)</description>
+	<type>integer</type>
+	<logical_min>51</logical_min>
+	<logical_max>79</logical_max>
+</variable>
+
+<variable id="phv00116210.v1">
+	<name>C42_TIME</name>
+	<description>OBS TIME, ABP MONITOR (SAS FMT)</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>86040</logical_max>
+</variable>
+
+<variable id="phv00116211.v1">
+	<name>C42_CC2</name>
+	<description>2ND CONDITION CODE</description>
+	<type>encoded</type>
+	<comment>Please find encoded value descriptions in associated documents. Some of the values might be encoded and code descriptions have not been submitted at this time.</comment>
+	<value code="+">+</value>
+	<value code="-">-</value>
+</variable>
+
+<variable id="phv00116212.v1">
+	<name>C42_CC3</name>
+	<description>3RD CONDITION CODE</description>
+	<type>encoded</type>
+	<comment>Please find encoded value descriptions in associated documents. Some of the values might be encoded and code descriptions have not been submitted at this time.</comment>
+	<value code="-">-</value>
+</variable>
+
+<variable id="phv00116213.v1">
+	<name>C42_SBP</name>
+	<description>SBP, ABP MONITOR</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>249</logical_max>
+</variable>
+
+<variable id="phv00116214.v1">
+	<name>C42_DBP</name>
+	<description>DBP, ABP MONITOR</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>210</logical_max>
+</variable>
+
+<variable id="phv00116215.v1">
+	<name>C42_MAP</name>
+	<description>MEAN ARTERIAL PR, ABP MONITOR</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>210</logical_max>
+</variable>
+
+<variable id="phv00116216.v1">
+	<name>C42_HRTE</name>
+	<description>HEART RATE, ABP MONITOR</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>199</logical_max>
+</variable>
+
+<variable id="phv00116217.v1">
+	<name>C42_TC</name>
+	<description>ALL TEST CODES</description>
+	<type>string</type>
+</variable>
+
+<variable id="phv00116218.v1">
+	<name>C42_TC1</name>
+	<description>1ST TEST CODE</description>
+	<type>encoded</type>
+	<comment>Please find encoded value descriptions in associated documents. Some of the values might be encoded and code descriptions have not been submitted at this time.</comment>
+	<value code="1">1</value>
+	<value code="2">2</value>
+	<value code="3">3</value>
+	<value code="4">4</value>
+	<value code="5">5</value>
+	<value code="6">6</value>
+	<value code="7">7</value>
+	<value code="T">T</value>
+</variable>
+
+<variable id="phv00116219.v1">
+	<name>C42_TC2</name>
+	<description>2ND TEST CODE</description>
+	<type>encoded</type>
+	<comment>Please find encoded value descriptions in associated documents. Some of the values might be encoded and code descriptions have not been submitted at this time.</comment>
+	<value code="1">1</value>
+	<value code="2">2</value>
+	<value code="3">3</value>
+	<value code="4">4</value>
+	<value code="5">5</value>
+</variable>
+
+<variable id="phv00116220.v1">
+	<name>C42_TC3</name>
+	<description>3RD TEST CODE</description>
+	<type>encoded</type>
+	<comment>Please find encoded value descriptions in associated documents. Some of the values might be encoded and code descriptions have not been submitted at this time.</comment>
+	<value code="2">2</value>
+	<value code="3">3</value>
+	<value code="L">L</value>
+</variable>
+
+<variable id="phv00116221.v1">
+	<name>C42_QC</name>
+	<description>QC REJECTION CODE, ABP MONITOR</description>
+	<type>string</type>
+</variable>
+
+<variable id="phv00116222.v1">
+	<name>C42_CMMT</name>
+	<description>COMMENT FIELD, ABP MONITOR</description>
+	<type>encoded</type>
+	<comment>Please find encoded value descriptions in associated documents. Some of the values might be encoded and code descriptions have not been submitted at this time.</comment>
+</variable>
+
+</data_table>

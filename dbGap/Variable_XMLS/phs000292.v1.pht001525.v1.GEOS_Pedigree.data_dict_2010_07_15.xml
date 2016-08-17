@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./datadict_v2.xsl"?>
+<data_table id="pht001525.v1" study_id="phs000292.v1" participant_set="1" date_created="Thu Jul 15 15:04:02 2010">
+
+<variable id="phv00111913.v1">
+	<name>FAMID</name>
+	<description>Family ID</description>
+	<type>integer</type>
+</variable>
+
+<variable id="phv00111914.v1">
+	<name>SUBJID</name>
+	<description>Subject ID</description>
+	<type>integer</type>
+	<comment>Nine-digit number = GENEVA.ID</comment>
+</variable>
+
+<variable id="phv00111915.v1">
+	<name>FATHER</name>
+	<description>Father ID</description>
+	<type>integer</type>
+	<comment>Nine-digit number = GENEVA.ID</comment>
+	<value code="0">Unknown</value>
+</variable>
+
+<variable id="phv00111916.v1">
+	<name>MOTHER</name>
+	<description>Mother ID</description>
+	<type>integer</type>
+	<comment>Nine-digit number = GENEVA.ID</comment>
+	<value code="0">Unknown</value>
+</variable>
+
+<variable id="phv00111917.v1">
+	<name>SEX</name>
+	<description>Subject&#39;s sex</description>
+	<type>encoded integer</type>
+	<value code="1">Male</value>
+	<value code="2">Female</value>
+</variable>
+
+<variable id="phv00111918.v1">
+	<name>PED.NOTE</name>
+	<description>Pedigree note</description>
+	<type>encoded string</type>
+	<value code="HS-like">Ambiguous half-sib-like relationship (i.e. half-sib, avuncular, or grandparent-grandchild)</value>
+	<value code="NA">Not Applicable</value>
+</variable>
+
+</data_table>

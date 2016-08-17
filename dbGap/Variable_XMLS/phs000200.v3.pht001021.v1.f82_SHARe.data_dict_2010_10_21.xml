@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./datadict_v2.xsl"?>
+<data_table id="pht001021.v1" study_id="phs000200.v3" participant_set="1" date_created="Thu Oct 21 09:31:59 2010">
+
+<unique_key phv="00079907" version="1">SHAREID</unique_key>
+<unique_key phv="00079908" version="1">F82VTYP</unique_key>
+<unique_key phv="00079909" version="1">F82VY</unique_key>
+<unique_key phv="00079910" version="1">F82DAYS</unique_key>
+<unique_key phv="00079911" version="1">ENDODY</unique_key>
+
+<variable id="phv00079907.v1">
+	<name>SHAREID</name>
+	<description>WHI SHARe ID</description>
+	<type>integer</type>
+</variable>
+
+<variable id="phv00079908.v1">
+	<name>F82VTYP</name>
+	<description>Visit type</description>
+	<type>encoded value</type>
+	<value code="1">Screening Visit</value>
+	<value code="2">Semi-Annual Visit</value>
+	<value code="3">Annual Visit</value>
+	<value code="4">Non-Routine Visit</value>
+</variable>
+
+<variable id="phv00079909.v1">
+	<name>F82VY</name>
+	<description>Visit year</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>7</logical_max>
+	<comment>Visit year for which this form was collected.</comment>
+</variable>
+
+<variable id="phv00079910.v1">
+	<name>F82DAYS</name>
+	<description>F82 Days since randomization</description>
+	<type>integer</type>
+	<unit>days</unit>
+	<logical_min>-254</logical_min>
+	<logical_max>3093</logical_max>
+	<comment>Days between randomization and initiation of form</comment>
+</variable>
+
+<variable id="phv00079911.v1">
+	<name>ENDODY</name>
+	<description>Days from randomization to endometrial aspiration</description>
+	<type>integer</type>
+	<unit>days</unit>
+	<logical_min>-465</logical_min>
+	<logical_max>3087</logical_max>
+</variable>
+
+<variable id="phv00079912.v1">
+	<name>EAPOSS</name>
+	<description>Endometrial Aspiration (EA) - Entry possible</description>
+	<type>encoded value</type>
+	<comment>Was entry into uterus possible?</comment>
+	<value code="1">Yes</value>
+	<value code="2">No, entry into the uterus not possible</value>
+	<value code="3">No, participant refused</value>
+	<value code="4">No, other</value>
+	<value code="5">No, D&amp;C results obtained</value>
+</variable>
+
+<variable id="phv00079913.v1">
+	<name>EADEPTH</name>
+	<description>Depth of uterus (cm)</description>
+	<type>decimal</type>
+	<unit>cm</unit>
+	<logical_min>2</logical_min>
+	<logical_max>12</logical_max>
+	<comment>Depth of uterus (cm)</comment>
+</variable>
+
+<variable id="phv00079914.v1">
+	<name>EAFLUID</name>
+	<description>Significant cavity fluid</description>
+	<type>encoded value</type>
+	<comment>Was significant endometrial cavity fluid found?
+		Not collected on all versions of Form 82. </comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00079915.v1">
+	<name>EAREVDY</name>
+	<description>Days from randomization to endometrial aspiration report review</description>
+	<type>integer</type>
+	<unit>days</unit>
+	<logical_min>-390</logical_min>
+	<logical_max>3102</logical_max>
+</variable>
+
+<variable id="phv00079916.v1">
+	<name>EASUMM</name>
+	<description>Summary of endometrial aspiration report</description>
+	<type>encoded value</type>
+	<comment>Summary of endometrial aspiration report</comment>
+	<value code="0">No endometrial tissue identified</value>
+	<value code="1">Insufficient specimen</value>
+	<value code="2">Normal atrophic endometrium</value>
+	<value code="3">Normal secretory endometrium</value>
+	<value code="4">Normal proliferative endometrium</value>
+	<value code="5">Cystic (simple) hyperplasia present</value>
+	<value code="6">Cystic (simple) hyperplasia with atypia</value>
+	<value code="7">Adenomatous hyperplasia present</value>
+	<value code="8">Adenomatous hyperplasia with atypia</value>
+	<value code="9">Atypia present</value>
+	<value code="10">Cancer present</value>
+	<value code="11">Other</value>
+</variable>
+
+<variable id="phv00079917.v1">
+	<name>EAREFER</name>
+	<description>Endometrial Aspiration (EA) - Referral made for follow-up care</description>
+	<type>encoded value</type>
+	<comment>Was a referral made for follow-up care (EA)?</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00079918.v1">
+	<name>EAREFDY</name>
+	<description>Days from randomization to endometrial aspiration referral</description>
+	<type>integer</type>
+	<unit>days</unit>
+	<logical_min>-44</logical_min>
+	<logical_max>2920</logical_max>
+	<comment>Sub-question of F82 V2 Q13 &#39;Referral made&#39;.</comment>
+</variable>
+
+<variable id="phv00079919.v1">
+	<name>EAFURES</name>
+	<description>Endometrial aspiration follow-up results</description>
+	<type>encoded value</type>
+	<comment>Endometiral aspiration follow-up results
+		Sub-question of F82 V2 Q13 &#39;Referral made&#39;. </comment>
+	<value code="0">Normal</value>
+	<value code="1">Hyperplasia</value>
+	<value code="2">Cancer</value>
+</variable>
+
+<variable id="phv00079920.v1">
+	<name>CNTRDY</name>
+	<description>Days from randomization to central lab endometrial aspiration review</description>
+	<type>integer</type>
+	<unit>days</unit>
+	<logical_min>-88</logical_min>
+	<logical_max>2159</logical_max>
+</variable>
+
+<variable id="phv00079921.v1">
+	<name>CNTRSUMM</name>
+	<description>Central lab endometrial aspiration report summary</description>
+	<type>encoded value</type>
+	<comment>Summary of central lab endometrial aspiration report</comment>
+	<value code="0">No endometrial tissue identified</value>
+	<value code="1">Insufficient specimen</value>
+	<value code="2">Normal atrophic endometrium</value>
+	<value code="3">Normal secretory endometrium</value>
+	<value code="4">Normal proliferative endometrium</value>
+	<value code="5">Cystic (simple) hyperplasia present</value>
+	<value code="6">Cystic (simple) hyperplasia with atypia</value>
+	<value code="7">Adenomatous hyperplasia present</value>
+	<value code="8">Adenomatous hyperplasia with atypia</value>
+	<value code="9">Atypia present</value>
+	<value code="10">Cancer present</value>
+	<value code="11">Other</value>
+</variable>
+
+</data_table>

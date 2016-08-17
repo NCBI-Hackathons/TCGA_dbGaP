@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./datadict_v2.xsl"?>
+<data_table id="pht000224.v1" study_id="phs000086.v2" participant_set="1" date_created="Wed Feb  3 09:17:55 2010">
+
+<variable id="phv00027078.v1">
+	<name>GROUP</name>
+	<description>Randomization group</description>
+	<type>str12</type>
+	<value code="EXPERIMENTAL">INTENSIVE TREATMENT</value>
+	<value code="STANDARD">CONVENTIONAL TREATMENT</value>
+</variable>
+
+<variable id="phv00027079.v1">
+	<name>INSTUDY</name>
+	<description>Length of time in the DCCT (days)</description>
+	<type>int</type>
+	<unit>DAYS</unit>
+</variable>
+
+<variable id="phv00027080.v1">
+	<name>MVA</name>
+	<description>Did a motor vehicle accident occur</description>
+	<type>byte</type>
+	<value code="0">NONE</value>
+	<value code="1">DRIVER</value>
+	<value code="2">PASSENGER</value>
+</variable>
+
+<variable id="phv00027081.v1">
+	<name>DEATH1</name>
+	<description>Death occurred by motor vehicle accident (MVA)</description>
+	<type>byte</type>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00027082.v1">
+	<name>DEATH2</name>
+	<description>Death did not occur by motor vehicle accident (NON-MVA)</description>
+	<type>byte</type>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00027084.v1">
+	<name>CATAS1</name>
+	<description>MVA: major accident occurred due to hypoglycemia</description>
+	<type>byte</type>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00027085.v1">
+	<name>CATAS2</name>
+	<description>NON-MVA: major accident occurred due to hypoglycemia</description>
+	<type>byte</type>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00027086.v1">
+	<name>BOCX</name>
+	<description>Major accident occurred (hospitalization)</description>
+	<type>byte</type>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00027087.v1">
+	<name>BOCX1</name>
+	<description>MVA: major accident occurred (hospitalization)</description>
+	<type>byte</type>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00027088.v1">
+	<name>BOCX2</name>
+	<description>NON-MVA: major accident occurred (hospitalization)</description>
+	<type>byte</type>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00027089.v1">
+	<name>MM</name>
+	<description>Reviewed by M&amp;M (morbidity and mortality review committee)</description>
+	<type>byte</type>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00027090.v1">
+	<name>MORB</name>
+	<description>MVA: major accident occurred</description>
+	<type>byte</type>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00027091.v1">
+	<name>MORB2</name>
+	<description>NON-MVA: major accident occurred</description>
+	<type>byte</type>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00027092.v1">
+	<name>MORB1</name>
+	<description>Major accident occurred (1=MVA)</description>
+	<type>byte</type>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00027093.v1">
+	<name>ACCIDENT</name>
+	<description>Major accident occurred</description>
+	<type>byte</type>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00027094.v1">
+	<name>ACCDTH</name>
+	<description>Death by accident</description>
+	<type>byte</type>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00027095.v1">
+	<name>HYP</name>
+	<description>Hypoglycemia as principal cause of death</description>
+	<type>byte</type>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00027096.v1">
+	<name>ACCTYPE</name>
+	<description>Type of accident</description>
+	<type>byte</type>
+	<value code="1">FALL</value>
+	<value code="2">AUTO/CAR</value>
+	<value code="3">FIRE</value>
+	<value code="4">SPORTS</value>
+	<value code="5">BIKING</value>
+	<value code="6">POWER EQUIPMENT</value>
+	<value code="7">OTHER ACCIDENTS</value>
+</variable>
+
+<variable id="phv00027097.v1">
+	<name>MASK_PAT</name>
+	<description>Patient ID number</description>
+	<type>int</type>
+</variable>
+
+</data_table>

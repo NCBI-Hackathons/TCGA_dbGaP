@@ -1,0 +1,342 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./datadict_v2.xsl"?>
+<data_table id="pht001072.v1" study_id="phs000219.v1" participant_set="1" date_created="Tue Jan 19 13:07:26 2010">
+
+<variable id="phv00081661.v1">
+	<name>SUBJID</name>
+	<description>Subject&#39;s ID</description>
+	<type>String</type>
+</variable>
+
+<variable id="phv00081662.v1">
+	<name>CASE_CONTROL</name>
+	<description>Subject type</description>
+	<type>Encoded value</type>
+	<value code="ADP">AD Participant</value>
+	<value code="CASE">Case</value>
+	<value code="CCCS">Control with Change in Cognitive Status</value>
+	<value code="CNTL">Control</value>
+	<value code="FAM">Family member</value>
+	<value code="UASB">Unaffected Sibling</value>
+</variable>
+
+<variable id="phv00081663.v1">
+	<name>INV</name>
+	<description>Investigator&#39;s ID</description>
+	<type>String</type>
+</variable>
+
+<variable id="phv00081664.v1">
+	<name>INVSITE</name>
+	<description>Investigator site ID</description>
+	<type>String</type>
+</variable>
+
+<variable id="phv00081665.v1">
+	<name>VISIT</name>
+	<description>Visit name</description>
+	<type>String</type>
+</variable>
+
+<variable id="phv00081666.v1">
+	<name>VISIT_DATE</name>
+	<description>Visit date</description>
+	<type>Date</type>
+	<comment>Truncated to YYYY</comment>
+</variable>
+
+<variable id="phv00081667.v1">
+	<name>DGTX</name>
+	<description>Drugs causing allergies</description>
+	<type>String</type>
+</variable>
+
+<variable id="phv00081668.v1">
+	<name>ALDR_SBHS</name>
+	<description>DRUG ALLERGY: Subject history of disease</description>
+	<type>Encoded Value</type>
+	<value code="K">Don&#39;t Know</value>
+	<value code="N">No</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00081669.v1">
+	<name>ALDR_FAMHS</name>
+	<description>DRUG ALLERGY: Family history of disease</description>
+	<type>Encoded Value</type>
+	<value code="K">Don&#39;t Know</value>
+	<value code="N">No</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00081670.v1">
+	<name>ALDR_FAMNO</name>
+	<description>DRUG ALLERGY: Number of family members with history of disease</description>
+	<type>Integer</type>
+</variable>
+
+<variable id="phv00081671.v1">
+	<name>ARHF_SBHS</name>
+	<description>HAYFEVER: Subject history of disease</description>
+	<type>Encoded Value</type>
+	<value code="K">Don&#39;t Know</value>
+	<value code="N">No</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00081672.v1">
+	<name>ARHF_FAMHS</name>
+	<description>HAYFEVER: Family history of disease</description>
+	<type>Encoded Value</type>
+	<value code="K">Don&#39;t Know</value>
+	<value code="N">No</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00081673.v1">
+	<name>ARHF_FAMNO</name>
+	<description>HAYFEVER: Number of family members with history of disease</description>
+	<type>Integer</type>
+</variable>
+
+<variable id="phv00081674.v1">
+	<name>ARTO_SBHS</name>
+	<description>OTHER ARTHRITIS: Subject history of disease</description>
+	<type>Encoded Value</type>
+	<value code="K">Don&#39;t Know</value>
+	<value code="N">No</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00081675.v1">
+	<name>ARTO_FAMHS</name>
+	<description>OTHER ARTHRITIS: Family history of disease</description>
+	<type>Encoded Value</type>
+	<value code="K">Don&#39;t Know</value>
+	<value code="N">No</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00081676.v1">
+	<name>ARTO_FAMNO</name>
+	<description>OTHER ARTHRITIS: Number of family members with history of disease</description>
+	<type>Integer</type>
+</variable>
+
+<variable id="phv00081677.v1">
+	<name>ATH_SBHS</name>
+	<description>ASTHMA: Subject history of disease</description>
+	<type>Encoded Value</type>
+	<value code="K">Don&#39;t Know</value>
+	<value code="N">No</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00081678.v1">
+	<name>ATH_FAMHS</name>
+	<description>ASTHMA: Family history of disease</description>
+	<type>Encoded Value</type>
+	<value code="K">Don&#39;t Know</value>
+	<value code="N">No</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00081679.v1">
+	<name>ATH_FAMNO</name>
+	<description>ASTHMA: Number of family members with history of disease</description>
+	<type>Integer</type>
+</variable>
+
+<variable id="phv00081680.v1">
+	<name>ECB_SBHS</name>
+	<description>EMPHYSEMA OR CHRONIC BRONCHITIS: Subject history of disease</description>
+	<type>Encoded Value</type>
+	<value code="K">Don&#39;t Know</value>
+	<value code="N">No</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00081681.v1">
+	<name>ECB_FAMHS</name>
+	<description>EMPHYSEMA OR CHRONIC BRONCHITIS: Family history of disease</description>
+	<type>Encoded Value</type>
+	<value code="K">Don&#39;t Know</value>
+	<value code="N">No</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00081682.v1">
+	<name>ECB_FAMNO</name>
+	<description>EMPHYSEMA OR CHRONIC BRONCHITIS: Number of family members with history of disease</description>
+	<type>Integer</type>
+</variable>
+
+<variable id="phv00081683.v1">
+	<name>HBP_SBHS</name>
+	<description>HIGH BLOOD PRESSURE: Subject history of disease</description>
+	<type>Encoded Value</type>
+	<value code="K">Don&#39;t Know</value>
+	<value code="N">No</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00081684.v1">
+	<name>HBP_FAMHS</name>
+	<description>HIGH BLOOD PRESSURE: Family history of disease</description>
+	<type>Encoded Value</type>
+	<value code="K">Don&#39;t Know</value>
+	<value code="N">No</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00081685.v1">
+	<name>HBP_FAMNO</name>
+	<description>HIGH BLOOD PRESSURE: Number of family members with history of disease</description>
+	<type>Integer</type>
+</variable>
+
+<variable id="phv00081686.v1">
+	<name>HCL_SBHS</name>
+	<description>HIGH BLOOD CHOLESTEROL: Subject history of disease</description>
+	<type>Encoded Value</type>
+	<value code="K">Don&#39;t Know</value>
+	<value code="N">No</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00081687.v1">
+	<name>HCL_FAMHS</name>
+	<description>HIGH BLOOD CHOLESTEROL: Family history of disease</description>
+	<type>Encoded Value</type>
+	<value code="K">Don&#39;t Know</value>
+	<value code="N">No</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00081688.v1">
+	<name>HCL_FAMNO</name>
+	<description>HIGH BLOOD CHOLESTEROL: Number of family members with history of disease</description>
+	<type>Integer</type>
+</variable>
+
+<variable id="phv00081689.v1">
+	<name>MIAN_SBHS</name>
+	<description>HEART ATTACK, ANGINA: Subject history of disease</description>
+	<type>Encoded Value</type>
+	<value code="K">Don&#39;t Know</value>
+	<value code="N">No</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00081690.v1">
+	<name>MIAN_FAMHS</name>
+	<description>HEART ATTACK, ANGINA: Family history of disease</description>
+	<type>Encoded Value</type>
+	<value code="K">Don&#39;t Know</value>
+	<value code="N">No</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00081691.v1">
+	<name>MIAN_FAMNO</name>
+	<description>HEART ATTACK, ANGINA: Number of family members with history of disease</description>
+	<type>Integer</type>
+</variable>
+
+<variable id="phv00081692.v1">
+	<name>ODB_SBHS</name>
+	<description>OSTEOPOROSIS OR &#39;THIN&#39; BONES: Subject history of disease</description>
+	<type>Encoded Value</type>
+	<value code="K">Don&#39;t Know</value>
+	<value code="N">No</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00081693.v1">
+	<name>ODB_FAMHS</name>
+	<description>OSTEOPOROSIS OR &#39;THIN&#39; BONES: Family history of disease</description>
+	<type>Encoded Value</type>
+	<value code="K">Don&#39;t Know</value>
+	<value code="N">No</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00081694.v1">
+	<name>ODB_FAMNO</name>
+	<description>OSTEOPOROSIS OR &#39;THIN&#39; BONES: Number of family members with history of disease</description>
+	<type>Integer</type>
+</variable>
+
+<variable id="phv00081695.v1">
+	<name>OSA_SBHS</name>
+	<description>OSTEOARTHRITIS: Subject history of disease</description>
+	<type>Encoded Value</type>
+	<value code="K">Don&#39;t Know</value>
+	<value code="N">No</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00081696.v1">
+	<name>OSA_FAMHS</name>
+	<description>OSTEOARTHRITIS: Family history of disease</description>
+	<type>Encoded Value</type>
+	<value code="K">Don&#39;t Know</value>
+	<value code="N">No</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00081697.v1">
+	<name>OSA_FAMNO</name>
+	<description>OSTEOARTHRITIS: Number of family members with history of disease</description>
+	<type>Integer</type>
+</variable>
+
+<variable id="phv00081698.v1">
+	<name>RART_SBHS</name>
+	<description>RHEUMATOID ARTHRITIS: Subject history of disease</description>
+	<type>Encoded Value</type>
+	<value code="K">Don&#39;t Know</value>
+	<value code="N">No</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00081699.v1">
+	<name>RART_FAMHS</name>
+	<description>RHEUMATOID ARTHRITIS: Family history of disease</description>
+	<type>Encoded Value</type>
+	<value code="K">Don&#39;t Know</value>
+	<value code="N">No</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00081700.v1">
+	<name>RART_FAMNO</name>
+	<description>RHEUMATOID ARTHRITIS: Number of family members with history of disease</description>
+	<type>Integer</type>
+</variable>
+
+<variable id="phv00081701.v1">
+	<name>ST_SBHS</name>
+	<description>STROKE: Subject history of disease</description>
+	<type>Encoded Value</type>
+	<value code="K">Don&#39;t Know</value>
+	<value code="N">No</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00081702.v1">
+	<name>ST_FAMHS</name>
+	<description>STROKE: Family history of disease</description>
+	<type>Encoded Value</type>
+	<value code="K">Don&#39;t Know</value>
+	<value code="N">No</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00081703.v1">
+	<name>ST_FAMNO</name>
+	<description>STROKE: Number of family members with history of disease</description>
+	<type>Integer</type>
+</variable>
+
+</data_table>

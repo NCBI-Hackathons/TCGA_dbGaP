@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./datadict_v2.xsl"?>
+<data_table id="pht002481.v1" study_id="phs000429.v1" participant_set="1" date_created="Fri Feb 24 11:41:09 2012">
+
+<variable id="phv00164690.v1">
+	<name>SUBJID</name>
+	<description>Subject deidentified AREDS study id</description>
+	<type>integer</type>
+	<comment><![CDATA[dbGaP AREDS <a href="javascript:getPage(this, &#39;variable.cgi&#39;, 54118);return true;" onclick="javascript:getPage(this, &#39;variable.cgi&#39;, 54118);return true;" oncontextmenu="javascript:getPage(this, &#39;variable.cgi&#39;, 54118);return true;">phv00054118.v2.p1</a>]]></comment>
+</variable>
+
+<variable id="phv00164691.v1">
+	<name>case_control</name>
+	<description>Case or control?</description>
+	<type>encoded value</type>
+	<comment>All subjects are controls.</comment>
+	<value code="0">Control from original AREDS study</value>
+</variable>
+
+<variable id="phv00164692.v1">
+	<name>SEX</name>
+	<description>Sex of participant</description>
+	<type>integer</type>
+	<comment><![CDATA[dbGaP AREDS <a href="javascript:getPage(this, &#39;variable.cgi&#39;, 53854);return true;" onclick="javascript:getPage(this, &#39;variable.cgi&#39;, 53854);return true;" oncontextmenu="javascript:getPage(this, &#39;variable.cgi&#39;, 53854);return true;">phv00053854.v2.p1</a>]]></comment>
+	<value code="1">Male</value>
+	<value code="2">Female</value>
+</variable>
+
+<variable id="phv00164693.v1">
+	<name>SCHOOL</name>
+	<description>Level of education</description>
+	<type>encoded value</type>
+	<comment><![CDATA[dbGaP AREDS <a href="javascript:getPage(this, &#39;variable.cgi&#39;, 53856);return true;" onclick="javascript:getPage(this, &#39;variable.cgi&#39;, 53856);return true;" oncontextmenu="javascript:getPage(this, &#39;variable.cgi&#39;, 53856);return true;">phv00053856.v2.p1</a>]]></comment>
+	<value code="1">Grade 11 or less</value>
+	<value code="2">High school graduate</value>
+	<value code="3">Some college or associate degree</value>
+	<value code="4">Bachelor&#39;s degree</value>
+	<value code="5">Postgraduate work</value>
+	<value code="6">Refused to answer</value>
+</variable>
+
+<variable id="phv00164694.v1">
+	<name>ENROLLAGE</name>
+	<description>Age of participant</description>
+	<type>decimal</type>
+	<comment><![CDATA[dbGaP AREDS <a href="javascript:getPage(this, &#39;variable.cgi&#39;, 53914);return true;" onclick="javascript:getPage(this, &#39;variable.cgi&#39;, 53914);return true;" oncontextmenu="javascript:getPage(this, &#39;variable.cgi&#39;, 53914);return true;">phv00053914.v2.p1</a>]]></comment>
+</variable>
+
+<variable id="phv00164695.v1">
+	<name>WHITE</name>
+	<description>Race of participant</description>
+	<type>encoded value</type>
+	<value code="1">White</value>
+	<value code="0">Other (non-white)</value>
+</variable>
+
+<variable id="phv00164696.v1">
+	<name>axisrr</name>
+	<description>Baseline right axis</description>
+	<type>integer</type>
+	<unit>Degrees</unit>
+</variable>
+
+<variable id="phv00164697.v1">
+	<name>axisrl</name>
+	<description>Baseline left axis</description>
+	<type>integer</type>
+	<unit>Degrees</unit>
+</variable>
+
+<variable id="phv00164698.v1">
+	<name>resphnum</name>
+	<description>Baseline right sphere number</description>
+	<type>decimal</type>
+	<unit>Diopter</unit>
+</variable>
+
+<variable id="phv00164699.v1">
+	<name>lesphnum</name>
+	<description>Baseline left sphere number</description>
+	<type>decimal</type>
+	<unit>Diopter</unit>
+</variable>
+
+<variable id="phv00164700.v1">
+	<name>recylnum</name>
+	<description>Baseline right cylinder number</description>
+	<type>decimal</type>
+	<unit>Diopter</unit>
+</variable>
+
+<variable id="phv00164701.v1">
+	<name>lecylnum</name>
+	<description>Baseline left cylinder number</description>
+	<type>decimal</type>
+	<unit>Diopter</unit>
+</variable>
+
+<variable id="phv00164702.v1">
+	<name>RE_ERR_R</name>
+	<description>Baseline right refractive error = resphnum + (0.5 * recylnum)</description>
+	<type>decimal</type>
+	<comment><![CDATA[dbGaP AREDS <a href="javascript:getPage(this, &#39;variable.cgi&#39;, 53919);return true;" onclick="javascript:getPage(this, &#39;variable.cgi&#39;, 53919);return true;" oncontextmenu="javascript:getPage(this, &#39;variable.cgi&#39;, 53919);return true;">phv00053919.v2.p1</a>]]></comment>
+</variable>
+
+<variable id="phv00164703.v1">
+	<name>LE_ERR_R</name>
+	<description>Baseline left refractive error   = lesphnum + (0.5 * lecylnum)</description>
+	<type>decimal</type>
+	<comment><![CDATA[dbGaP AREDS <a href="javascript:getPage(this, &#39;variable.cgi&#39;, 53920);return true;" onclick="javascript:getPage(this, &#39;variable.cgi&#39;, 53920);return true;" oncontextmenu="javascript:getPage(this, &#39;variable.cgi&#39;, 53920);return true;">phv00053920.v2.p1</a>]]></comment>
+</variable>
+
+<variable id="phv00164704.v1">
+	<name>AVG_ERR_R</name>
+	<description>Average of RE_ERR_R and LE_ERR_R</description>
+	<type>decimal</type>
+</variable>
+
+</data_table>

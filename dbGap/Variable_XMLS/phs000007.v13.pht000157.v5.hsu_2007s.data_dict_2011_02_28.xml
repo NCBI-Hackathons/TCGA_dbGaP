@@ -1,0 +1,812 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./datadict_v2.xsl"?>
+<data_table id="pht000157.v5" study_id="phs000007.v13" participant_set="5" date_created="Mon Feb 28 17:30:12 2011">
+
+<unique_key phv="00023633" version="4">IDTYPE</unique_key>
+<unique_key phv="00023709" version="4">hudate</unique_key>
+<unique_key phv="00023710" version="4">shareid</unique_key>
+
+<variable id="phv00023633.v4">
+	<name>IDTYPE</name>
+	<description>COHORT IDENTIFIER</description>
+	<type> </type>
+	<value code="0">ORIGINAL COHORT GROUP</value>
+	<value code="1">OFFSPRING GROUP</value>
+	<value code="2">NEW OFFSPRING SPOUSE</value>
+	<value code="3">GENERATION 3</value>
+</variable>
+
+<variable id="phv00023634.v4">
+	<name>TYPE</name>
+	<description>TYPE</description>
+	<type> </type>
+	<value code="1">TELEPHONE</value>
+	<value code="2">MAILER</value>
+	<value code="3">ONSITE BONE STUDY</value>
+	<value code="88">OTHER</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00023635.v4">
+	<name>TEL_INT</name>
+	<description>TELEPHONE INTERVIEW</description>
+	<type> </type>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00023636.v4">
+	<name>MAILER</name>
+	<description>MAILER</description>
+	<type> </type>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00023637.v4">
+	<name>CYCLE</name>
+	<description>EXAM CYCLE</description>
+	<type> </type>
+	<value code="2">GEN 3, NEW OFFSPRING SPOUSE</value>
+	<value code="7">OFFSPRING</value>
+	<value code="8">OFFSPRING</value>
+	<value code="9">OFFSPRING</value>
+	<value code="26">COHORT</value>
+	<value code="27">COHORT</value>
+	<value code="28">COHORT</value>
+	<value code="29">COHORT</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00023638.v4">
+	<name>HU01</name>
+	<description>(1.A) FIRST, PLEASE TELL US WHO IS COMPLETING THIS FORM? - FRAMINGHAM HEART STUDY PARTICIPANT WHOSE NAME IS ABOVE</description>
+	<type> </type>
+	<value code="0">NO (BOX NOT CHECKED)</value>
+	<value code="1">YES (BOX CHECKED)</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00023639.v4">
+	<name>HU02</name>
+	<description>(1.A) FIRST, PLEASE TELL US WHO IS COMPLETING THIS FORM? -  SPOUSE</description>
+	<type> </type>
+	<value code="0">NO (BOX NOT CHECKED)</value>
+	<value code="1">YES (BOX CHECKED)</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00023640.v4">
+	<name>HU03</name>
+	<description>(1.A) FIRST, PLEASE TELL US WHO IS COMPLETING THIS FORM? - FAMILY MEMBER OTHER THAN SPOUSE</description>
+	<type> </type>
+	<value code="0">NO (BOX NOT CHECKED)</value>
+	<value code="1">YES (BOX CHECKED)</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00023641.v4">
+	<name>HU04</name>
+	<description>(1.A) FIRST, PLEASE TELL US WHO IS COMPLETING THIS FORM? - FRIEND</description>
+	<type> </type>
+	<value code="0">NO (BOX NOT CHECKED)</value>
+	<value code="1">YES (BOX CHECKED)</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00023642.v4">
+	<name>HU05</name>
+	<description>(1.A) FIRST, PLEASE TELL US WHO IS COMPLETING THIS FORM? - HEALTH CARE PROVIDER FOR FHS PARTICIPANT</description>
+	<type> </type>
+	<value code="0">NO (BOX NOT CHECKED)</value>
+	<value code="1">YES (BOX CHECKED)</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00023643.v4">
+	<name>HU06</name>
+	<description>(1.A) FIRST, PLEASE TELL US WHO IS COMPLETING THIS FORM? - OTHER</description>
+	<type> </type>
+	<value code="0">NO (BOX NOT CHECKED)</value>
+	<value code="1">YES (BOX CHECKED)</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00023644.v4">
+	<name>HU07</name>
+	<description>(1.C) HOW LONG HAVE YOU KNOWN THE PARTICIPANT? - YEARS</description>
+	<type> </type>
+	<unit>YEARS</unit>
+	<value code="0">HU08 FILLED IN BUT HU07 MISSING/UNKNOWN</value>
+	<value code=".">BOTH HU07 AND HU08 UNKNOWN OR</value>
+</variable>
+
+<variable id="phv00023645.v4">
+	<name>HU08</name>
+	<description>(1.C) HOW LONG HAVE YOU KNOWN THE PARTICIPANT? - MONTHS</description>
+	<type> </type>
+	<unit>MONTHS</unit>
+	<value code="0">HU07 FILLED IN BUT HU08 MISSING/UNKNOWN</value>
+	<value code=".">BOTH HU07 AND HU08 UNKNOWN OR FHS PARTICIPANT COMPLETED THIS FORM</value>
+</variable>
+
+<variable id="phv00023646.v4">
+	<name>HU09</name>
+	<description>(1.D) ARE YOU CURRENTLY LIVING IN THE SAME HOUSEHOLD WITH THE PARTICIPANT?</description>
+	<type> </type>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+	<value code=".">UNKNOWN OR FHS PARTICIPANT COMPLETED THIS FORM</value>
+</variable>
+
+<variable id="phv00023647.v4">
+	<name>HU10</name>
+	<description>(1.E) HOW OFTEN DID YOU TALK WITH THE PARTICIPANT DURING THE PRIOR 11 MONTHS? - ALMOST EVERY DAY</description>
+	<type> </type>
+	<unit>MONTHS</unit>
+	<value code="0">NO (BOX NOT CHECKED)</value>
+	<value code="1">YES (BOX CHECKED)</value>
+	<value code=".">UNKNOWN OR FHS PARTICIPANT COMPLETED THIS FORM</value>
+</variable>
+
+<variable id="phv00023648.v4">
+	<name>HU11</name>
+	<description>(1.E) HOW OFTEN DID YOU TALK WITH THE PARTICIPANT DURING THE PRIOR 11 MONTHS? - SEVERAL TIMES A WEEK</description>
+	<type> </type>
+	<unit>MONTHS</unit>
+	<value code="0">NO (BOX NOT CHECKED)</value>
+	<value code="1">YES (BOX CHECKED)</value>
+	<value code=".">UNKNOWN OR FHS PARTICIPANT COMPLETED THIS FORM</value>
+</variable>
+
+<variable id="phv00023649.v4">
+	<name>HU12</name>
+	<description>(1.E) HOW OFTEN DID YOU TALK WITH THE PARTICIPANT DURING THE PRIOR 11 MONTH? - ONCE A WEEK</description>
+	<type> </type>
+	<value code="0">NO (BOX NOT CHECKED)</value>
+	<value code="1">YES (BOX CHECKED)</value>
+	<value code=".">UNKNOWN OR FHS PARTICIPANT COMPLETED THIS FORM</value>
+</variable>
+
+<variable id="phv00023650.v4">
+	<name>HU13</name>
+	<description>(1.E) HOW OFTEN DID YOU TALK WITH THE PARTICIPANT DURING THE PRIOR 11 MONTH? - 1 TO 3 TIMES PER MONTH</description>
+	<type> </type>
+	<value code="0">NO (BOX NOT CHECKED)</value>
+	<value code="1">YES (BOX CHECKED)</value>
+	<value code=".">UNKNOWN OR FHS PARTICIPANT COMPLETED THIS FORM</value>
+</variable>
+
+<variable id="phv00023651.v4">
+	<name>HU14</name>
+	<description>(1.E) HOW OFTEN DID YOU TALK WITH THE PARTICIPANT DURING THE PRIOR 11 MONTH? - LESS THAN ONCE A MONTH</description>
+	<type> </type>
+	<value code="0">NO (BOX NOT CHECKED)</value>
+	<value code="1">YES (BOX CHECKED)</value>
+	<value code=".">UNKNOWN OR FHS PARTICIPANT COMPLETED THIS FORM</value>
+</variable>
+
+<variable id="phv00023652.v4">
+	<name>HU15</name>
+	<description>(1.E) HOW OFTEN DID YOU TALK WITH THE PARTICIPANT DURING THE PRIOR 11 MONTH? - UNKNOWN / N/A</description>
+	<type> </type>
+	<value code="0">NO (BOX NOT CHECKED)</value>
+	<value code="1">YES (BOX CHECKED)</value>
+	<value code=".">UNKNOWN OR FHS PARTICIPANT COMPLETED THIS FORM</value>
+</variable>
+
+<variable id="phv00023653.v4">
+	<name>HU16</name>
+	<description>HAVE YOU NOTICE THAT HE/SHE HAD ANY MEMORY PROBLEMS OR CHANGE IN PERSONALITY?</description>
+	<type> </type>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+	<value code=".">UNKNOWN OR FHS PARTICIPANT COMPLETED THIS FORM</value>
+</variable>
+
+<variable id="phv00023654.v4">
+	<name>HU17</name>
+	<description>(2.A) HAS THERE BEEN A DIAGNOSIS OF DEMENTIA OR ALZHEIMER&#39;S DISEASE MADE BY A DOCTOR?</description>
+	<type> </type>
+	<value code="0">NO OR NOT NOTICED THAT HE/SHE HAD ANY MEMORY PROBLEMS OR CHANGE IN PERSONALITY (HU16   0)</value>
+	<value code="1">YES</value>
+	<value code=".">UNKNOWN OR FHS PARTICIPANT COMPLETED THIS FORM</value>
+</variable>
+
+<variable id="phv00023655.v4">
+	<name>HU18</name>
+	<description>SINCE THE DATE OF THE LAST FRAMINGHAM HEART STUDY EXAM OR UPDATE ON THE TOP OF PAGE 1, HAVE YOU SEEN A DOCTOR OR BEEN HOSPITALIZED?</description>
+	<type> </type>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00023656.v4">
+	<name>HU19</name>
+	<description>(3.A) IF YES (TO HU18), DID YOU HAVE ANY OF THE FOLLOWING PROBLEMS? HEART PROBLEMS, SUCH AS - CHEST PAIN, ANGINA OR ANGINA PECTORIS</description>
+	<type> </type>
+	<value code="0">NO OR HASN&#39;T SEEN A DOCTOR OR BEEN HOSPITALIZED SINCE LAST FHS EXAM OR UPDATE (HU18   0)</value>
+	<value code="1">YES</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00023657.v4">
+	<name>HU20</name>
+	<description>(3.A) IF YES (TO HU18), DID YOU HAVE ANY OF THE FOLLOWING PROBLEMS? HEART PROBLEMS, SUCH AS - HEART ATTACK OR MYOCARDIAL INFARCTION OR MI</description>
+	<type> </type>
+	<value code="0">NO OR HASN&#39;T SEEN A DOCTOR OR BEEN HOSPITALIZED SINCE LAST FHS EXAM OR UPDATE (HU18   0)</value>
+	<value code="1">YES</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00023658.v4">
+	<name>HU21</name>
+	<description>(3.A) IF YES (TO HU18), DID YOU HAVE ANY OF THE FOLLOWING PROBLEMS? HEART PROBLEMS, SUCH AS - HEART FAILURE OR CONGESTIVE HEART FAILURE OR CHF</description>
+	<type> </type>
+	<value code="0">NO OR HASN&#39;T SEEN A DOCTOR OR BEEN HOSPITALIZED SINCE LAST FHS EXAM OR UPDATE (HU18   0)</value>
+	<value code="1">YES</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00023659.v4">
+	<name>HU22</name>
+	<description>(3.A) IF YES (TO HU18), DID YOU HAVE ANY OF THE FOLLOWING PROBLEMS? HEART PROBLEMS, SUCH AS - HEART CATHETERIZATION OR CARDIAC CATHETERIZATION</description>
+	<type> </type>
+	<value code="0">NO OR HASN&#39;T SEEN A DOCTOR OR BEEN HOSPITALIZED SINCE LAST FHS EXAM OR UPDATE (HU18   0)</value>
+	<value code="1">YES</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00023660.v4">
+	<name>HU23</name>
+	<description>(3.A) IF YES (TO HU18), DID YOU HAVE ANY OF THE FOLLOWING PROBLEMS? HEART PROBLEMS, SUCH AS - HEART BYPASS OPERATION OR CORONARY BYPASS SURGERY OR CABG</description>
+	<type> </type>
+	<value code="0">NO OR HASN&#39;T SEEN A DOCTOR OR BEEN HOSPITALIZED SINCE LAST FHS EXAM OR UPDATE (HU18   0)</value>
+	<value code="1">YES</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00023661.v4">
+	<name>HU24</name>
+	<description>(3.A) IF YES (TO HU18), DID YOU HAVE ANY OF THE FOLLOWING PROBLEMS? HEART PROBLEMS, SUCH AS - PROCEDURE TO UNBLOCK NARROWED VESSELS TO YOUR HEART MUSCLES (PCTA, CORONARY ANGIOPLASTRY, OR CORONARY STENT)</description>
+	<type> </type>
+	<value code="0">NO OR HASN&#39;T SEEN A DOCTOR OR BEEN HOSPITALIZED SINCE LAST FHS EXAM OR UPDATE (HU18   0)</value>
+	<value code="1">YES</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00023662.v4">
+	<name>HU25</name>
+	<description>(3.A) IF YES (TO HU18), DID YOU HAVE ANY OF THE FOLLOWING PROBLEMS? HEART PROBLEMS, SUCH AS - OTHER HEART PROBLEM (PACE MAKER, VALVE PROBLEM, AORTA SURGERY, RHYTHM PROBLEM, ATRIAL FIBRILLATION, VENTICULAR TACHYCARDIA)</description>
+	<type> </type>
+	<value code="0">NO OR HASN&#39;T SEEN A DOCTOR OR BEEN HOSPITALIZED SINCE LAST FHS EXAM OR UPDATE (HU18   0)</value>
+	<value code="1">YES</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00023663.v4">
+	<name>HU26</name>
+	<description>(3.B) IF YES (TO HU18), DID YOU HAVE ANY OF THE FOLLOWING PROBLEMS? CIRCULATORY PROBLEMS, SUCH AS - STROKE, TIA(TRANSIENT ISCHEMIC ATTACK), SUDDEEN PARALYSIS, VISION LOSS,INABILITY TO SPEAK</description>
+	<type> </type>
+	<value code="0">NO OR HASN&#39;T SEEN A DOCTOR OR BEEN HOSPITALIZED SINCE LAST FHS EXAM OR UPDATE (HU18   0)</value>
+	<value code="1">YES</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00023664.v4">
+	<name>HU27</name>
+	<description>(3.B) IF YES (TO HU18), DID YOU HAVE ANY OF THE FOLLOWING PROBLEMS? CIRCULATORY PROBLEMS, SUCH AS - PROCEDURE TO UNBLOCK NARROWED VESSELS IN YOUR NECK (CAROTID ENDARECTOMY,CAROTID AGIOPLASTRY)</description>
+	<type> </type>
+	<value code="0">NO OR HASN&#39;T SEEN A DOCTOR OR BEEN HOSPITALIZED SINCE LAST FHS EXAM OR UPDATE (HU18   0)</value>
+	<value code="1">YES</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00023665.v4">
+	<name>HU28</name>
+	<description>(3.B) IF YES (TO HU18), DID YOU HAVE ANY OF THE FOLLOWING PROBLEMS? CIRCULATORY PROBLEMS, SUCH AS - POOR BLOOD CIRCULATION OR BLOCKED OR NARROWED BLOOD VESSELS TO THE LEGS OR FEET, (CLAUDICATION, PERIPHERAL ARTERIAL DISEASE, GANGRENE)</description>
+	<type> </type>
+	<unit>FEET</unit>
+	<value code="0">NO OR HASN&#39;T SEEN A DOCTOR OR BEEN HOSPITALIZED SINCE LAST FHS EXAM OR UPDATE (HU18   0)</value>
+	<value code="1">YES</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00023666.v4">
+	<name>HU29</name>
+	<description>(3.B) IF YES (TO HU18), DID YOU HAVE ANY OF THE FOLLOWING PROBLEMS? CIRCULATORY PROBLEMS, SUCH AS - AMPUTATION OF PART OF A LEG OR TOES, BECAUSE OF POOR CIRCULATION OR GANGARENE</description>
+	<type> </type>
+	<value code="0">NO OR HASN&#39;T SEEN A DOCTOR OR BEEN HOSPITALIZED SINCE LAST FHS EXAM OR UPDATE (HU18   0)</value>
+	<value code="1">YES</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00023667.v4">
+	<name>HU30</name>
+	<description>(3.B) IF YES (TO HU18), DID YOU HAVE ANY OF THE FOLLOWING PROBLEMS? CIRCULATORY PROBLEMS, SUCH AS - BLOOD CLOT OR EMBOLISM IN LEG OR LUNG</description>
+	<type> </type>
+	<value code="0">NO OR HASN&#39;T SEEN A DOCTOR OR BEEN HOSPITALIZED SINCE LAST FHS EXAM OR UPDATE (HU18   0)</value>
+	<value code="1">YES</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00023668.v4">
+	<name>HU31</name>
+	<description>(3.B) IF YES (TO HU18), DID YOU HAVE ANY OF THE FOLLOWING PROBLEMS? CIRCULATORY PROBLEMS, SUCH AS - OTHER CIRCULATORY PROBLEM</description>
+	<type> </type>
+	<value code="0">NO OR HASN&#39;T SEEN A DOCTOR OR BEEN HOSPITALIZED SINCE LAST FHS EXAM OR UPDATE (HU18   0)</value>
+	<value code="1">YES</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00023669.v4">
+	<name>HU32</name>
+	<description>(3.D) IF YES (TO HU18), DID YOU HAVE ANY OF THE FOLLOWING PROBLEMS? OTHER PROBLEMS, SUCH AS - CANCER</description>
+	<type> </type>
+	<value code="0">NO OR HASN&#39;T SEEN A DOCTOR OR BEEN HOSPITALIZED SINCE
+ LAST FHS EXAM OR UPDATE (HU18   0)</value>
+	<value code="1">YES</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00023670.v4">
+	<name>HU33</name>
+	<description>(3.D) IF YES (TO HU18), DID YOU HAVE ANY OF THE FOLLOWING PROBLEMS?  OTHER PROBLEMS, SUCH AS - FRACTURE, BROKEN BONE</description>
+	<type> </type>
+	<value code="0">NO OR HASN&#39;T SEEN A DOCTOR OR BEEN HOSPITALIZED SINCE LAST FHS EXAM OR UPDATE (HU18   0)</value>
+	<value code="1">YES</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00023671.v4">
+	<name>HU34</name>
+	<description>(3.D) IF YES (TO HU18), DID YOU HAVE ANY OF THE FOLLOWING PROBLEMS? OTHER PROBLEMS, SUCH AS - OTHER</description>
+	<type> </type>
+	<value code="0">NO OR HASN&#39;T SEEN A DOCTOR OR BEEN HOSPITALIZED SINCE LAST FHS EXAM OR UPDATE (HU18   0)</value>
+	<value code="1">YES</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00023672.v4">
+	<name>HU35</name>
+	<description>SINCE THE DATE OF YOUR LAST FRAMINGHAM HEART STUDY EXAM OR UPDATE (LHUDATE), HAVE YOU BEEN ADMITTED TO A HOSPITAL OR GONE TO AN EMERGENCY ROOM OR SEEN A PHYSICIAN FOR OTHER THAN A ROUTINE EXAMINATION?</description>
+	<type> </type>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00023673.v4">
+	<name>HU39</name>
+	<description>(4.A) IF YES (TO HU35):
+ &quot;TYPE&quot; PARTICIPANT WAS ADMITTED TO A HOSPITAL OR GONE TO AN EMERGENCY ROOM OR SEEN A PHYSICIAN SINCE LAST FHS EXAM OR UPDATE</description>
+	<type> </type>
+	<value code="1">OVERNIGHT ADMISSION</value>
+	<value code="2">EMERGENCY ROOM VISIT</value>
+	<value code="3">DAY SURGERY / PROCEDURE</value>
+	<value code="4">M.D. VISIT</value>
+	<value code=".">UNKNOWN OR</value>
+</variable>
+
+<variable id="phv00023674.v4">
+	<name>HU40</name>
+	<description>(4.A) IF YES (TO HU35):
+ &quot;REASON&quot; PARTICIPANT WAS ADMITTED TO A HOSPITAL OR GONE TO AN EMERGENCY ROOM OR SEEN A PHYSICIAN SINCE LAST FHS EXAM OR UPDATE</description>
+	<type> </type>
+	<value code="1">HEART PROBLEMS</value>
+	<value code="2">STROKE OR TRANSIENT ISCHEMIC ATTACK (TIA), SUDDEN PARALYSIS, VISION LOSS, INABILITY TO SPEAK</value>
+	<value code="3">BROKEN, CRUSHED OR FRACTURED BONES</value>
+	<value code="4">CANCER OR MALIGNANT TUMOR</value>
+	<value code="5">CIRCULATION PROBLEM, OR BLOOD CLOTS</value>
+	<value code="6">OTHER REASONS</value>
+	<value code=".">UNKNOWN OR</value>
+</variable>
+
+<variable id="phv00023675.v4">
+	<name>HU44</name>
+	<description>(4.B) IF YES (TO HU35):
+ &quot;TYPE&quot; PARTICIPANT WAS ADMITTED TO A HOSPITAL OR GONE TO AN EMERGENCY ROOM OR SEEN A PHYSICIAN SINCE LAST FHS EXAM OR UPDATE</description>
+	<type> </type>
+	<value code="1">OVERNIGHT ADMISSION</value>
+	<value code="2">EMERGENCY ROOM VISIT</value>
+	<value code="3">DAY SURGERY / PROCEDURE</value>
+	<value code="4">M.D. VISIT</value>
+	<value code=".">UNKNOWN OR</value>
+</variable>
+
+<variable id="phv00023676.v4">
+	<name>HU45</name>
+	<description>(4.B) IF YES (TO HU35):
+ &quot;REASON&quot; PARTICIPANT WAS ADMITTED TO A HOSPITAL OR GONE TO AN EMERGENCY ROOM OR SEEN A PHYSICIAN SINCE LAST FHS EXAM OR UPDATE</description>
+	<type> </type>
+	<value code="1">HEART PROBLEMS</value>
+	<value code="2">STROKE OR TRANSIENT ISCHEMIC ATTACK (TIA), SUDDEN PARALYSIS, VISION LOSS, INABILITY TO SPEAK</value>
+	<value code="3">BROKEN, CRUSHED OR FRACTURED BONES</value>
+	<value code="4">CANCER OR MALIGNANT TUMOR</value>
+	<value code="5">CIRCULATION PROBLEM, OR BLOOD CLOTS</value>
+	<value code="6">OTHER REASONS</value>
+	<value code=".">UNKNOWN OR</value>
+</variable>
+
+<variable id="phv00023677.v4">
+	<name>HU49</name>
+	<description>(4.C) IF YES (TO HU35):
+ &quot;TYPE&quot; PARTICIPANT WAS ADMITTED TO A HOSPITAL OR GONE TO AN EMERGENCY ROOM OR SEEN A PHYSICIAN SINCE LAST FHS EXAM OR UPDATE</description>
+	<type> </type>
+	<value code="1">OVERNIGHT ADMISSION</value>
+	<value code="2">EMERGENCY ROOM VISIT</value>
+	<value code="3">DAY SURGERY / PROCEDURE</value>
+	<value code="4">M.D. VISIT</value>
+	<value code=".">UNKNOWN OR</value>
+</variable>
+
+<variable id="phv00023678.v4">
+	<name>HU50</name>
+	<description>(4.C) IF YES (TO HU35):
+ &quot;REASON&quot; PARTICIPANT WAS ADMITTED TO A HOSPITAL OR GONE TO AN EMERGENCY ROOM OR SEEN A PHYSICIAN SINCE LAST FHS EXAM OR UPDATE</description>
+	<type> </type>
+	<value code="1">HEART PROBLEMS</value>
+	<value code="2">STROKE OR TRANSIENT ISCHEMIC ATTACK (TIA), SUDDEN PARALYSIS, VISION LOSS, INABILITY TO SPEAK</value>
+	<value code="3">BROKEN, CRUSHED OR FRACTURED BONES</value>
+	<value code="4">CANCER OR MALIGNANT TUMOR</value>
+	<value code="5">CIRCULATION PROBLEM, OR BLOOD CLOTS</value>
+	<value code="6">OTHER REASONS</value>
+	<value code=".">UNKNOWN OR</value>
+</variable>
+
+<variable id="phv00023679.v4">
+	<name>HU54</name>
+	<description>(4.D) IF YES (TO HU35):
+ &quot;TYPE&quot; PARTICIPANT WAS ADMITTED TO A HOSPITAL OR GONE TO AN EMERGENCY ROOM OR SEEN A PHYSICIAN SINCE LAST FHS EXAM OR UPDATE</description>
+	<type> </type>
+	<value code="1">OVERNIGHT ADMISSION</value>
+	<value code="2">EMERGENCY ROOM VISIT</value>
+	<value code="3">DAY SURGERY / PROCEDURE</value>
+	<value code="4">M.D. VISIT</value>
+	<value code=".">UNKNOWN OR</value>
+</variable>
+
+<variable id="phv00023680.v4">
+	<name>HU55</name>
+	<description>(4.D) IF YES (TO HU35):
+ &quot;REASON&quot; PARTICIPANT WAS ADMITTED TO A HOSPITAL OR GONE TO AN EMERGENCY ROOM OR SEEN A PHYSICIAN SINCE LAST FHS EXAM OR UPDATE</description>
+	<type> </type>
+	<value code="1">HEART PROBLEMS</value>
+	<value code="2">STROKE OR TRANSIENT ISCHEMIC ATTACK (TIA), SUDDEN PARALYSIS, VISION LOSS, INABILITY TO SPEAK</value>
+	<value code="3">BROKEN, CRUSHED OR FRACTURED BONES</value>
+	<value code="4">CANCER OR MALIGNANT TUMOR</value>
+	<value code="5">CIRCULATION PROBLEM, OR BLOOD CLOTS</value>
+	<value code="6">OTHER REASONS</value>
+	<value code=".">UNKNOWN OR</value>
+</variable>
+
+<variable id="phv00023681.v4">
+	<name>HU59</name>
+	<description>(4.E) IF YES (TO HU35):
+ &quot;TYPE&quot; PARTICIPANT WAS ADMITTED TO A HOSPITAL OR GONE TO AN EMERGENCY ROOM OR SEEN A PHYSICIAN SINCE LAST FHS EXAM OR UPDATE</description>
+	<type> </type>
+	<value code="1">OVERNIGHT ADMISSION</value>
+	<value code="2">EMERGENCY ROOM VISIT</value>
+	<value code="3">DAY SURGERY / PROCEDURE</value>
+	<value code="4">M.D. VISIT</value>
+	<value code=".">UNKNOWN OR</value>
+</variable>
+
+<variable id="phv00023682.v4">
+	<name>HU60</name>
+	<description>(4.E) IF YES (TO HU35):
+ &quot;REASON&quot; PARTICIPANT WAS ADMITTED TO A HOSPITAL OR GONE TO AN EMERGENCY ROOM OR SEEN A PHYSICIAN SINCE LAST FHS EXAM OR UPDATE</description>
+	<type> </type>
+	<value code="1">HEART PROBLEMS</value>
+	<value code="2">STROKE OR TRANSIENT ISCHEMIC ATTACK (TIA), SUDDEN PARALYSIS, VISION LOSS, INABILITY TO SPEAK</value>
+	<value code="3">BROKEN, CRUSHED OR FRACTURED BONES</value>
+	<value code="4">CANCER OR MALIGNANT TUMOR</value>
+	<value code="5">CIRCULATION PROBLEM, OR BLOOD CLOTS</value>
+	<value code="6">OTHER REASONS</value>
+	<value code=".">UNKNOWN OR</value>
+</variable>
+
+<variable id="phv00023683.v4">
+	<name>HU64</name>
+	<description>(4.F) IF YES (TO HU35):
+ &quot;TYPE&quot; PARTICIPANT WAS ADMITTED TO A HOSPITAL OR GONE TO AN EMERGENCY ROOM OR SEEN A PHYSICIAN SINCE LAST FHS EXAM OR UPDATE</description>
+	<type> </type>
+	<value code="1">OVERNIGHT ADMISSION</value>
+	<value code="2">EMERGENCY ROOM VISIT</value>
+	<value code="3">DAY SURGERY / PROCEDURE</value>
+	<value code="4">M.D. VISIT</value>
+	<value code=".">UNKNOWN OR</value>
+</variable>
+
+<variable id="phv00023684.v4">
+	<name>HU65</name>
+	<description>(4.F) IF YES (TO HU35):
+ &quot;REASON&quot; PARTICIPANT WAS ADMITTED TO A HOSPITAL OR GONE TO AN EMERGENCY ROOM OR SEEN A PHYSICIAN SINCE LAST FHS EXAM OR UPDATE</description>
+	<type> </type>
+	<value code="1">HEART PROBLEMS</value>
+	<value code="2">STROKE OR TRANSIENT ISCHEMIC ATTACK (TIA), SUDDEN PARALYSIS, VISION LOSS, INABILITY TO SPEAK</value>
+	<value code="3">BROKEN, CRUSHED OR FRACTURED BONES</value>
+	<value code="4">CANCER OR MALIGNANT TUMOR</value>
+	<value code="5">CIRCULATION PROBLEM, OR BLOOD CLOTS</value>
+	<value code="6">OTHER REASONS</value>
+	<value code=".">UNKNOWN OR</value>
+</variable>
+
+<variable id="phv00023685.v4">
+	<name>HU69</name>
+	<description>(4.G) IF YES (TO HU35):
+ &quot;TYPE&quot; PARTICIPANT WAS ADMITTED TO A HOSPITAL OR GONE TO AN EMERGENCY ROOM OR SEEN A PHYSICIAN SINCE LAST FHS EXAM OR UPDATE</description>
+	<type> </type>
+	<value code="1">OVERNIGHT ADMISSION</value>
+	<value code="2">EMERGENCY ROOM VISIT</value>
+	<value code="3">DAY SURGERY / PROCEDURE</value>
+	<value code="4">M.D. VISIT</value>
+	<value code=".">UNKNOWN OR</value>
+</variable>
+
+<variable id="phv00023686.v4">
+	<name>HU70</name>
+	<description>(4.G) IF YES (TO HU35):
+ &quot;REASON&quot; PARTICIPANT WAS ADMITTED TO A HOSPITAL OR GONE TO AN EMERGENCY ROOM OR SEEN A PHYSICIAN SINCE LAST FHS EXAM OR UPDATE</description>
+	<type> </type>
+	<value code="1">HEART PROBLEMS</value>
+	<value code="2">STROKE OR TRANSIENT ISCHEMIC ATTACK (TIA), SUDDEN PARALYSIS, VISION LOSS, INABILITY TO SPEAK</value>
+	<value code="3">BROKEN, CRUSHED OR FRACTURED BONES</value>
+	<value code="4">CANCER OR MALIGNANT TUMOR</value>
+	<value code="5">CIRCULATION PROBLEM, OR BLOOD CLOTS</value>
+	<value code="6">OTHER REASONS</value>
+	<value code=".">UNKNOWN OR</value>
+</variable>
+
+<variable id="phv00023687.v4">
+	<name>HU74</name>
+	<description>(4.H) IF YES (TO HU35):
+ &quot;TYPE&quot; PARTICIPANT WAS ADMITTED TO A HOSPITAL OR GONE TO AN EMERGENCY ROOM OR SEEN A PHYSICIAN SINCE LAST FHS EXAM OR UPDATE</description>
+	<type> </type>
+	<value code="1">OVERNIGHT ADMISSION</value>
+	<value code="2">EMERGENCY ROOM VISIT</value>
+	<value code="3">DAY SURGERY / PROCEDURE</value>
+	<value code="4">M.D. VISIT</value>
+	<value code=".">UNKNOWN OR</value>
+</variable>
+
+<variable id="phv00023688.v4">
+	<name>HU75</name>
+	<description>(4.H) IF YES (TO HU35):
+ &quot;REASON&quot; PARTICIPANT WAS ADMITTED TO A HOSPITAL OR GONE TO AN EMERGENCY ROOM OR SEEN A PHYSICIAN SINCE LAST FHS EXAM OR UPDATE</description>
+	<type> </type>
+	<value code="1">HEART PROBLEMS</value>
+	<value code="2">STROKE OR TRANSIENT ISCHEMIC ATTACK (TIA), SUDDEN PARALYSIS, VISION LOSS, INABILITY TO SPEAK</value>
+	<value code="3">BROKEN, CRUSHED OR FRACTURED BONES</value>
+	<value code="4">CANCER OR MALIGNANT TUMOR</value>
+	<value code="5">CIRCULATION PROBLEM, OR BLOOD CLOTS</value>
+	<value code="6">OTHER REASONS</value>
+	<value code=".">UNKNOWN OR</value>
+</variable>
+
+<variable id="phv00023689.v4">
+	<name>HU79</name>
+	<description>(4.I) IF YES (TO HU35): &quot;TYPE&quot; PARTICIPANT WAS ADMITTED TO A HOSPITAL OR GONE TO AN EMERGENCY ROOM OR SEEN A PHYSICIAN SINCE LAST FHS EXAM OR UPDATE</description>
+	<type> </type>
+	<value code="1">OVERNIGHT ADMISSION</value>
+	<value code="2">EMERGENCY ROOM VISIT</value>
+	<value code="3">DAY SURGERY / PROCEDURE</value>
+	<value code="4">M.D. VISIT</value>
+	<value code=".">UNKNOWN OR</value>
+</variable>
+
+<variable id="phv00023690.v4">
+	<name>HU80</name>
+	<description>(4.I) IF YES (TO HU35): &quot;REASON&quot; PARTICIPANT WAS ADMITTED TO A HOSPITAL OR GONE TO AN EMERGENCY ROOM OR SEEN A PHYSICIAN SINCE LAST FHS EXAM OR UPDATE</description>
+	<type> </type>
+	<value code="1">HEART PROBLEMS</value>
+	<value code="2">STROKE OR TRANSIENT ISCHEMIC ATTACK (TIA), SUDDEN
+ PARALYSIS, VISION LOSS, INABILITY TO SPEAK</value>
+	<value code="3">BROKEN, CRUSHED OR FRACTURED BONES</value>
+	<value code="4">CANCER OR MALIGNANT TUMOR</value>
+	<value code="5">CIRCULATION PROBLEM, OR BLOOD CLOTS</value>
+	<value code="6">OTHER REASONS</value>
+	<value code=".">UNKNOWN OR</value>
+</variable>
+
+<variable id="phv00023691.v4">
+	<name>HU89</name>
+	<description>WHAT IS YOUR CURRENT MARITAL STATUS? CHECK ONE  - MARRIED</description>
+	<type> </type>
+	<value code="0">NO (BOX NOT CHECKED)</value>
+	<value code="1">YES (BOX CHECKED)</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00023692.v4">
+	<name>HU90</name>
+	<description>WHAT IS YOUR CURRENT MARITAL STATUS? CHECK ONE - WIDOWED</description>
+	<type> </type>
+	<value code="0">NO (BOX NOT CHECKED)</value>
+	<value code="1">YES (BOX CHECKED)</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00023693.v4">
+	<name>HU91</name>
+	<description>WHAT IS YOUR CURRENT MARITAL STATUS? CHECK ONE - DIVORCED</description>
+	<type> </type>
+	<value code="0">NO (BOX NOT CHECKED)</value>
+	<value code="1">YES (BOX CHECKED)</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00023694.v4">
+	<name>HU92</name>
+	<description>WHAT IS YOUR CURRENT MARITAL STATUS? CHECK ONE - SEPARATED</description>
+	<type> </type>
+	<value code="0">NO (BOX NOT CHECKED)</value>
+	<value code="1">YES (BOX CHECKED)</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00023695.v4">
+	<name>HU93</name>
+	<description>WHAT IS YOUR CURRENT MARITAL STATUS? CHECK ONE - SINGLE, NEVER MARRIED</description>
+	<type> </type>
+	<value code="0">NO (BOX NOT CHECKED)</value>
+	<value code="1">YES (BOX CHECKED)</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00023696.v4">
+	<name>HU94</name>
+	<description>IN GENERAL, HOW IS YOUR HEALTH NOW: - EXCELLENT</description>
+	<type> </type>
+	<value code="0">NO (BOX NOT CHECKED)</value>
+	<value code="1">YES (BOX CHECKED)</value>
+	<value code=".">UNKNOWN OR NOT FHS PARTICIPANT COMPLETED THIS FORM</value>
+</variable>
+
+<variable id="phv00023697.v4">
+	<name>HU95</name>
+	<description>IN GENERAL, HOW IS YOUR HEALTH NOW: - FAIR</description>
+	<type> </type>
+	<value code="0">NO (BOX NOT CHECKED)</value>
+	<value code="1">YES (BOX CHECKED)</value>
+	<value code=".">UNKNOWN OR NOT FHS PARTICIPANT COMPLETED THIS FORM</value>
+</variable>
+
+<variable id="phv00023698.v4">
+	<name>HU96</name>
+	<description>IN GENERAL, HOW IS YOUR HEALTH NOW: - POOR</description>
+	<type> </type>
+	<value code="0">NO (BOX NOT CHECKED)</value>
+	<value code="1">YES (BOX CHECKED)</value>
+	<value code=".">UNKNOWN OR NOT FHS PARTICIPANT COMPLETED THIS FORM</value>
+</variable>
+
+<variable id="phv00023699.v4">
+	<name>HU97</name>
+	<description>IN GENERAL, HOW IS YOUR HEALTH NOW: - GOOD</description>
+	<type> </type>
+	<value code="0">NO (BOX NOT CHECKED)</value>
+	<value code="1">YES (BOX CHECKED)</value>
+	<value code=".">UKNOWN OR NOT FHS PARTICIPANT COMPLETED THIS FORM</value>
+</variable>
+
+<variable id="phv00023700.v4">
+	<name>HU98</name>
+	<description>IN GENERAL, HOW IS YOUR HEALTH NOW: - DON&#39;T KNOW</description>
+	<type> </type>
+	<value code="0">NO (BOX NOT CHECKED)</value>
+	<value code="1">YES (BOX CHECKED)</value>
+	<value code=".">UNKNOWN OR NOT FHS PARTICIPANT COMPLETED THIS FORM</value>
+</variable>
+
+<variable id="phv00023701.v4">
+	<name>HU99</name>
+	<description>(10)  COMPARE YOUR HEALTH TO MOST PEOPLE YOUR OWN AGE. WOULD YOU SAY YOUR HEALTH IS: - BETTER</description>
+	<type> </type>
+	<value code="0">NO (BOX NOT CHECKED)</value>
+	<value code="1">YES (BOX CHECKED)</value>
+	<value code=".">UNKNOWN OR NOT FHS PARTICIPANT COMPLETED THIS FORM</value>
+</variable>
+
+<variable id="phv00023702.v4">
+	<name>HU100</name>
+	<description>(10)  COMPARE YOUR HEALTH TO MOST PEOPLE YOUR OWN AGE. WOULD YOU SAY YOUR HEALTH IS: - WORSE THAN MOST PEOPLE</description>
+	<type> </type>
+	<value code="0">NO (BOX NOT CHECKED)</value>
+	<value code="1">YES (BOX CHECKED)</value>
+	<value code=".">UNKNOWN OR NOT FHS PARTICIPANT COMPLETED THIS FORM</value>
+</variable>
+
+<variable id="phv00023703.v4">
+	<name>HU101</name>
+	<description>(10)  COMPARE YOUR HEALTH TO MOST PEOPLE YOUR OWN AGE. WOULD YOU SAY YOUR HEALTH IS: - ABOUT THE SAME</description>
+	<type> </type>
+	<value code="0">NO (BOX NOT CHECKED)</value>
+	<value code="1">YES (BOX CHECKED)</value>
+	<value code=".">UNKNOWN OR NOT FHS PARTICIPANT COMPLETED THIS FORM</value>
+</variable>
+
+<variable id="phv00023704.v4">
+	<name>HU102</name>
+	<description>(10)  COMPARE YOUR HEALTH TO MOST PEOPLE YOUR OWN AGE. WOULD YOU SAY YOUR HEALTH IS: - DON&#39;T KNOW</description>
+	<type> </type>
+	<value code="0">NO (BOX NOT CHECKED)</value>
+	<value code="1">YES (BOX CHECKED)</value>
+	<value code=".">UNKNOWN OR NOT FHS PARTICIPANT COMPLETED THIS FORM</value>
+</variable>
+
+<variable id="phv00023705.v4">
+	<name>HU103</name>
+	<description>(3.C) IF YES (TO HU18), DID YOU HAVE ANY OF THE FOLLOWING PROBLEMS? OTHER NEUROLOGICAL PROBLEMS, SUCH AS - MEMORY PROBLEMS</description>
+	<type> </type>
+	<value code="0">NO OR HASN&#39;T SEEN A DOCTOR OR BEEN HOSPITALIZED SINCE LAST FHS EXAM OR UPDATE (HU18   0)</value>
+	<value code="1">YES</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00023706.v4">
+	<name>HU104</name>
+	<description>(3.C) IF YES (TO HU18), DID YOU HAVE ANY OF THE FOLLOWING PROBLEMS? OTHER NEUROLOGICAL PROBLEMS, SUCH AS PARKINSON&#39;S, MULTIPLE SCLEROSIS, SEIZURES, HEAD INJURY</description>
+	<type> </type>
+	<value code="0">NO OR HASN&#39;T SEEN A DOCTOR OR BEEN HOSPITALIZED SINCE LAST FHS EXAM OR UPDATE (HU18   0)</value>
+	<value code="1">YES</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00023707.v4">
+	<name>HU105</name>
+	<description>(3.C) IF YES (TO HU18), DID YOU HAVE ANY OF THE FOLLOWING PROBLEMS? OTHER NEUROLOGICAL PROBLEMS, SUCH AS HAD AN MRI SCAN OF YOUR HEAD</description>
+	<type> </type>
+	<value code="0">NO OR HASN&#39;T SEEN A DOCTOR OR BEEN HOSPITALIZED SINCE LAST FHS EXAM OR UPDATE (HU18   0)</value>
+	<value code="1">YES</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00023708.v4">
+	<name>VERSION</name>
+	<description>VERSION OF THE FORM</description>
+	<type> </type>
+	<value code="3">VERSION 3</value>
+	<value code="4">VERSION 4</value>
+	<value code="5">VERSION 5</value>
+	<value code="6">VERSION 6</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00064584.v3">
+	<name>HU106</name>
+	<description>(3.D) IF YES (TO HU18), DID YOU HAVE ANY OF THE FOLLOWING PROBLEMS? OTHER PROBLEMS, SUCH AS - DIABETES</description>
+	<type> </type>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00064585.v3">
+	<name>HU107</name>
+	<description>(3.D) IF YES TO 106, PLEASE LIST MEDICATIONS 1 YOU TAKE FOR DIABETES</description>
+	<type> </type>
+</variable>
+
+<variable id="phv00064586.v3">
+	<name>HU108</name>
+	<description>(3.D) IF YES TO 106, PLEASE LIST MEDICATIONS 2 YOU TAKE FOR DIABETES</description>
+	<type> </type>
+</variable>
+
+<variable id="phv00023709.v4">
+	<name>hudate</name>
+	<description>DATE COMPLETED, NUMBER OF DAYS SINCE EXAM 1</description>
+	<type> </type>
+	<unit>DAYS</unit>
+</variable>
+
+<variable id="phv00023710.v4">
+	<name>shareid</name>
+	<description>UNIQUE PARTICIPANT ID</description>
+	<type> </type>
+</variable>
+
+</data_table>

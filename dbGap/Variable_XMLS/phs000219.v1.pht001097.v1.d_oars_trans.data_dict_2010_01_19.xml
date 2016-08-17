@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./datadict_v2.xsl"?>
+<data_table id="pht001097.v1" study_id="phs000219.v1" participant_set="1" date_created="Tue Jan 19 13:07:20 2010">
+
+<unique_key phv="00082287" version="1">SUBJID</unique_key>
+<unique_key phv="00082291" version="1">VISIT</unique_key>
+
+<variable id="phv00082287.v1">
+	<name>SUBJID</name>
+	<description>Subject&#39;s ID</description>
+	<type>String</type>
+</variable>
+
+<variable id="phv00082288.v1">
+	<name>CASE_CONTROL</name>
+	<description>Subject type</description>
+	<type>Encoded value</type>
+	<value code="ADP">AD Participant</value>
+	<value code="CASE">Case</value>
+	<value code="CCCS">Control with Change in Cognitive Status</value>
+	<value code="CNTL">Control</value>
+	<value code="FAM">Family member</value>
+	<value code="UASB">Unaffected Sibling</value>
+</variable>
+
+<variable id="phv00082289.v1">
+	<name>INV</name>
+	<description>Investigator&#39;s ID</description>
+	<type>String</type>
+</variable>
+
+<variable id="phv00082290.v1">
+	<name>INVSITE</name>
+	<description>Investigator site ID</description>
+	<type>String</type>
+</variable>
+
+<variable id="phv00082291.v1">
+	<name>VISIT</name>
+	<description>Visit name</description>
+	<type>String</type>
+</variable>
+
+<variable id="phv00082292.v1">
+	<name>VISIT_DATE</name>
+	<description>Visit date</description>
+	<type>Date</type>
+	<comment>Truncated to YYYY</comment>
+</variable>
+
+<variable id="phv00082293.v1">
+	<name>ASDT</name>
+	<description>Assessment date</description>
+	<type>Date</type>
+	<comment>Truncated to YYYY</comment>
+</variable>
+
+<variable id="phv00082294.v1">
+	<name>OARS</name>
+	<description>Total score</description>
+	<type>String</type>
+</variable>
+
+<variable id="phv00082295.v1">
+	<name>OTHRN</name>
+	<description>Other reason?</description>
+	<type>Encoded Value</type>
+	<value code="N">No</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00082296.v1">
+	<name>OTHTX</name>
+	<description>Other reason text</description>
+	<type>String</type>
+</variable>
+
+<variable id="phv00082297.v1">
+	<name>PHYDIS</name>
+	<description>Unable to demonstrate due to physical disability?</description>
+	<type>Encoded Value</type>
+	<value code="N">No</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00082298.v1">
+	<name>PRVSC</name>
+	<description>Total Previous Score</description>
+	<type>Integer</type>
+</variable>
+
+<variable id="phv00082299.v1">
+	<name>TELEPHONE_TODAY</name>
+	<description>CAN YOU USE THE TELEPHONE - Today&#39;s score</description>
+	<type>Encoded Value</type>
+	<value code="0">Completely Unable</value>
+	<value code="1">With Some Help</value>
+	<value code="2">Without Help</value>
+</variable>
+
+<variable id="phv00082300.v1">
+	<name>TELEPHONE_PREVIOUS</name>
+	<description>CAN YOU USE THE TELEPHONE - Previous score (If available)</description>
+	<type>Encoded Value</type>
+	<value code="N">No</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00082301.v1">
+	<name>WALKING_TODAY</name>
+	<description>CAN YOU GET TO PLACES OUT OF WALKING DISTANCE - Today&#39;s score</description>
+	<type>Encoded Value</type>
+	<value code="0">Completely Unable</value>
+	<value code="1">With Some Help</value>
+	<value code="2">Without Help</value>
+</variable>
+
+<variable id="phv00082302.v1">
+	<name>WALKING_PREVIOUS</name>
+	<description>CAN YOU GET TO PLACES OUT OF WALKING DISTANCE - Previous score (If available)</description>
+	<type>Encoded Value</type>
+	<value code="N">No</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00082303.v1">
+	<name>SHOPPING_TODAY</name>
+	<description>CAN YOU GO SHOPPING FOR YOUR GROCERIES OR CLOTHES - Today&#39;s score</description>
+	<type>Encoded Value</type>
+	<value code="0">Completely Unable</value>
+	<value code="1">With Some Help</value>
+	<value code="2">Without Help</value>
+</variable>
+
+<variable id="phv00082304.v1">
+	<name>SHOPPING_PREVIOUS</name>
+	<description>CAN YOU GO SHOPPING FOR YOUR GROCERIES OR CLOTHES - Previous score (If available)</description>
+	<type>Encoded Value</type>
+	<value code="N">No</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00082305.v1">
+	<name>MEALS_TODAY</name>
+	<description>CAN YOU PREPARE YOUR OWN MEALS - Today&#39;s score</description>
+	<type>Encoded Value</type>
+	<value code="0">Completely Unable</value>
+	<value code="1">With Some Help</value>
+	<value code="2">Without Help</value>
+</variable>
+
+<variable id="phv00082306.v1">
+	<name>MEALS_PREVIOUS</name>
+	<description>CAN YOU PREPARE YOUR OWN MEALS - Previous score (If available)</description>
+	<type>Encoded Value</type>
+	<value code="N">No</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00082307.v1">
+	<name>HOUSEWORK_TODAY</name>
+	<description>CAN YOU DO YOUR HOUSEWORK - Today&#39;s score</description>
+	<type>Encoded Value</type>
+	<value code="0">Completely Unable</value>
+	<value code="1">With Some Help</value>
+	<value code="2">Without Help</value>
+</variable>
+
+<variable id="phv00082308.v1">
+	<name>HOUSEWORK_PREVIOUS</name>
+	<description>CAN YOU DO YOUR HOUSEWORK - Previous score (If available)</description>
+	<type>Encoded Value</type>
+	<value code="N">No</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00082309.v1">
+	<name>MEDICINE_TODAY</name>
+	<description>CAN YOU TAKE YOUR OWN MEDICINE - Today&#39;s score</description>
+	<type>Encoded Value</type>
+	<value code="0">Completely Unable</value>
+	<value code="1">With Some Help</value>
+	<value code="2">Without Help</value>
+</variable>
+
+<variable id="phv00082310.v1">
+	<name>MEDICINE_PREVIOUS</name>
+	<description>CAN YOU TAKE YOUR OWN MEDICINE - Previous score (If available)</description>
+	<type>Encoded Value</type>
+	<value code="N">No</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00082311.v1">
+	<name>MONEY_TODAY</name>
+	<description>CAN YOU HANDLE YOUR OWN MONEY - Today&#39;s score</description>
+	<type>Encoded Value</type>
+	<value code="0">Completely Unable</value>
+	<value code="1">With Some Help</value>
+	<value code="2">Without Help</value>
+</variable>
+
+<variable id="phv00082312.v1">
+	<name>MONEY_PREVIOUS</name>
+	<description>CAN YOU HANDLE YOUR OWN MONEY - Previous score (If available)</description>
+	<type>Encoded Value</type>
+	<value code="N">No</value>
+	<value code="Y">Yes</value>
+</variable>
+
+</data_table>

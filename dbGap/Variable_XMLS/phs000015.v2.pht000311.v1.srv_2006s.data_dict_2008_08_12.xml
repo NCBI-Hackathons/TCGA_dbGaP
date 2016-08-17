@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./datadict_v2.xsl"?>
+<data_table id="pht000311.v1" study_id="phs000015.v2" participant_set="1" date_created="Tue Aug 12 14:09:49 2008">
+
+<variable id="phv00036478.v1">
+	<name>CVD</name>
+	<description>CARIOVASCULAR DISEASE (CVD) STATUS</description>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00036481.v1">
+	<name>CVDTIME</name>
+	<description>NUMBER OF DAYS BETWEEN EXAM 1 AND CVDDATE (DATE OF CARDIOVASCULAR DISEASE STATUS)</description>
+	<unit>DAYS</unit>
+</variable>
+
+<variable id="phv00036479.v1">
+	<name>DTHRVWD</name>
+	<description>DEATH REVIEWED STATUS</description>
+	<value code=".">IF NOT DEAD</value>
+	<value code="0">DEATH WAS NOT REVIEWED</value>
+	<value code="1">DEATH WAS REVIEWED</value>
+</variable>
+
+<variable id="phv00036482.v1">
+	<name>DTHTIME</name>
+	<description>NUMBER OF DAYS BETWEEN EXAM 1 AND DATEDTH (DATE OF DEATH)</description>
+	<unit>DAYS</unit>
+</variable>
+
+<variable id="phv00036480.v1">
+	<name>IDTYPE</name>
+	<description>COHORT IDENTIFIER</description>
+	<value code="0">ORIGINAL COHORT GROUP</value>
+	<value code="1">OFFSPRING GROUP</value>
+	<value code="3">GENERATION 3</value>
+</variable>
+
+<variable id="phv00036483.v1">
+	<name>LATTTIME</name>
+	<description>NUMBER OF DAYS BETWEEN EXAM 1 AND LASTATT (DATE OF LAST EXAM ATTENDED (THROUGH EXAM 7 OFFSPRING AND EXAM 28 FOR ORIGINAL COHORT)</description>
+	<unit>DAYS</unit>
+</variable>
+
+<variable id="phv00036484.v1">
+	<name>LCONTIME</name>
+	<description>NUMBER OF DAYS BETWEEN EXAM 1 AND LASTCON (DATE OF LAST CONTACT THROUGH 2006)</description>
+	<unit>DAYS</unit>
+</variable>
+
+<variable id="phv00036485.v1">
+	<name>LSOETIME</name>
+	<description>NUMBER OF DAYS BETWEEN EXAM 1 AND LASTSOE (DATE OF THE LATEST RECORD IN THE SOE 2006 FILE)</description>
+	<unit>DAYS</unit>
+</variable>
+
+<variable id="phv00036486.v1">
+	<name>shareid</name>
+	<description>UNIQUE PARTICIPANT ID</description>
+</variable>
+
+</data_table>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./datadict_v2.xsl"?>
+<data_table id="pht002166.v1" study_id="phs000268.v1" participant_set="1" date_created="Thu Feb 24 13:35:32 2011">
+
+<variable id="phv00158855.v1">
+	<name>SAMPID</name>
+	<description>Sample ID</description>
+	<type>string</type>
+</variable>
+
+<variable id="phv00158856.v1">
+	<name>SEX</name>
+	<description>Gender of participant</description>
+	<type>encoded value</type>
+	<value code="1">Male</value>
+	<value code="2">Female</value>
+</variable>
+
+<variable id="phv00158857.v1">
+	<name>AGE</name>
+	<description>Age at time of sample collection</description>
+	<type>integer</type>
+	<unit>Years old</unit>
+	<logical_min>5</logical_min>
+</variable>
+
+<variable id="phv00158858.v1">
+	<name>COUNTRY</name>
+	<description>Country of origin [United State,  France, Venezuela]</description>
+	<type>string</type>
+</variable>
+
+</data_table>

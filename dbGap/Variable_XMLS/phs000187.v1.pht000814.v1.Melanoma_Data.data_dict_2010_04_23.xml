@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./datadict_v2.xsl"?>
+<data_table id="pht000814.v1" study_id="phs000187.v1" participant_set="1" date_created="Fri Apr 23 15:10:55 2010">
+
+<variable id="phv00073645.v1">
+	<name>Geneva_ID_</name>
+	<description>De-identified subject&#39;s ID</description>
+	<type>Integer</type>
+</variable>
+
+<variable id="phv00073646.v1">
+	<name>Gender_</name>
+	<description>Patient&#39;s gender</description>
+	<type>String</type>
+	<comment>Derived from questionnaire for cases or controls</comment>
+	<value code="F">Female</value>
+	<value code="M">Male</value>
+</variable>
+
+<variable id="phv00073647.v1">
+	<name>case_control</name>
+	<description>References if subject is a case or control</description>
+	<type>Encoded integer</type>
+	<logical_min>1</logical_min>
+	<logical_max>3</logical_max>
+	<value code="1">Case</value>
+	<value code="2">Control</value>
+	<value code="3">Other</value>
+</variable>
+
+<variable id="phv00073648.v1">
+	<name>Race_</name>
+	<description>Patient&#39;s race [white]</description>
+	<type>String</type>
+	<comment>Derived from questionnaire for cases or controls</comment>
+</variable>
+
+<variable id="phv00073649.v1">
+	<name>moles</name>
+	<description>Indicator of the presence of moles</description>
+	<type>Encoded integer</type>
+	<logical_min>1</logical_min>
+	<logical_max>1000</logical_max>
+	<value code="1">Yes</value>
+	<value code="2">No</value>
+	<value code="1000">Unknown</value>
+</variable>
+
+<variable id="phv00073650.v1">
+	<name>dysplastic_nevi</name>
+	<description>Indicator of the presence of dysplastic nevi</description>
+	<type>Encoded integer</type>
+	<logical_min>1</logical_min>
+	<logical_max>1000</logical_max>
+	<value code="1">Yes</value>
+	<value code="2">No</value>
+	<value code="1000">Unknown</value>
+</variable>
+
+<variable id="phv00073651.v1">
+	<name>skin_color</name>
+	<description>Subjective grading of the skin color: 1=lightest; 10=Darkest. [How would you grade your skin color on a scale of 1 (very fair) to 10 (dark brown)? (Circle one)]</description>
+	<type>Encoded integer</type>
+	<logical_min>1</logical_min>
+	<logical_max>1000</logical_max>
+	<value code="99">Missing</value>
+	<value code="1000">Unknown</value>
+</variable>
+
+<variable id="phv00073652.v1">
+	<name>eye_color</name>
+	<description>Eye color</description>
+	<type>Encoded integer</type>
+	<logical_min>1</logical_min>
+	<logical_max>1000</logical_max>
+	<value code="1">Blue</value>
+	<value code="2">Green</value>
+	<value code="3">Grey</value>
+	<value code="4">Brown</value>
+	<value code="5">Hazel</value>
+	<value code="9">Missing</value>
+	<value code="1000">Unknown</value>
+</variable>
+
+<variable id="phv00073653.v1">
+	<name>hair_color</name>
+	<description>Hair color</description>
+	<type>Encoded integer</type>
+	<logical_min>1</logical_min>
+	<logical_max>1000</logical_max>
+	<value code="1">Blonde</value>
+	<value code="2">Red</value>
+	<value code="3">Brown</value>
+	<value code="4">Black</value>
+	<value code="5">Other</value>
+	<value code="9">Missing</value>
+	<value code="1000">Unknown</value>
+</variable>
+
+<variable id="phv00073654.v1">
+	<name>sunburn</name>
+	<description>Indicator of the presence of severe blistering before age 16</description>
+	<type>Encoded integer</type>
+	<logical_min>1</logical_min>
+	<logical_max>1000</logical_max>
+	<value code="1">Yes</value>
+	<value code="2">No</value>
+	<value code="9">Missing</value>
+	<value code="1000">Unknown</value>
+</variable>
+
+<variable id="phv00073655.v1">
+	<name>freckle</name>
+	<description>Indicator of freckling when out in the sun</description>
+	<type>Encoded integer</type>
+	<logical_min>1</logical_min>
+	<logical_max>1000</logical_max>
+	<value code="1">Yes</value>
+	<value code="2">No</value>
+	<value code="9">Missing</value>
+	<value code="1000">Unknown</value>
+</variable>
+
+<variable id="phv00073656.v1">
+	<name>untanned</name>
+	<description>Indicator on the presence of a tan  after exposure to the sun for 30-40 minutes</description>
+	<type>Encoded integer</type>
+	<logical_min>1</logical_min>
+	<logical_max>1000</logical_max>
+	<value code="1">Always</value>
+	<value code="2">Usually</value>
+	<value code="3">Moderate</value>
+	<value code="4">Minimal</value>
+	<value code="5">Rarely/ never</value>
+	<value code="6">Don&#39;t know</value>
+	<value code="9">Missing</value>
+	<value code="1000">Unknown</value>
+</variable>
+
+<variable id="phv00073657.v1">
+	<name>family_history</name>
+	<description>Indicator of any cancer history in the 1st degree relatives (parents, siblings, children)</description>
+	<type>Encoded integer</type>
+	<logical_min>1</logical_min>
+	<logical_max>1000</logical_max>
+	<comment>The &quot;family_history&quot; field is a concatenation of responses to questions 23-28 in which a positive response to cancer in any first degree relative is cited as being positive for family history of cancer.</comment>
+	<value code="1">Yes</value>
+	<value code="2">No</value>
+	<value code="1000">Unknown</value>
+</variable>
+
+<variable id="phv00073662.v1">
+	<name>stage_cat</name>
+	<description>Patient&#39;s stage at initial diagnosis including stage I, I/II, III, IV, and in-situ</description>
+	<type>String</type>
+	<comment>Only recorded for case patients</comment>
+</variable>
+
+<variable id="phv00076208.v1">
+	<name>Age_at_DX</name>
+	<description>Patient&#39;s age at diagnosis of melanoma</description>
+	<type>Integer, decimal</type>
+	<unit>Years</unit>
+	<logical_min>14.884932</logical_min>
+	<logical_max>94.063014</logical_max>
+	<comment>Available for case patients only</comment>
+</variable>
+
+<variable id="phv00089291.v1">
+	<name>State_</name>
+	<description>Patient&#39;s State of residence including Alabama, Alaska, Arizona, Arkansas, California, Colorado, Delaware, Florida, Georgia, Hawaii, Idaho, Illinois, Indiana, Iowa, Kansas, Kentucky, Louisiana, Michigan, Minnesota, Mississippi, Missouri, Montana, Nebraska, Nebraska, New Jersey, New Mexico, North Carolina, North Dakota, Ohio, Oklahoma, Oregon, Pennsylvania, South Carolina, Tennessee, Texas, Virginia, Washington, Wisconsin, Wyoming, or other</description>
+	<type>String</type>
+	<comment>Only recorded for case patients</comment>
+	<value code=".">missing</value>
+</variable>
+
+<variable id="phv00089292.v1">
+	<name>Country_</name>
+	<description>Patient&#39;s  country of residence including Bolivia, Brazil, Canada, Colombia, Costa Rica, Ecuador, Turkey, United States, Uruguay, Venezuela, other, or unknown</description>
+	<type>String</type>
+	<comment>Only recorded for case patients</comment>
+	<value code=".">missing</value>
+</variable>
+
+<variable id="phv00089293.v1">
+	<name>Control_Age_at_DX</name>
+	<description>Patient&#39;s age as recorded</description>
+	<type>Integer</type>
+	<unit>Years</unit>
+	<logical_min>18</logical_min>
+	<logical_max>87</logical_max>
+	<comment>Available for control patients only</comment>
+</variable>
+
+<variable id="phv00089295.v1">
+	<name>Breslow_tumor_thickness</name>
+	<description>The Breslow Thickness expressed in millimeters based on all MDACC [MD Anderson Cancer Center] pathology reviews</description>
+	<type>decimal, encoded string</type>
+	<unit>mm</unit>
+	<logical_min>0.1</logical_min>
+	<logical_max>35</logical_max>
+	<comment>Only recorded for case patients</comment>
+	<value code="-">Not stated in pathology report</value>
+	<value code=".">No prognostic factors available</value>
+	<value code="NA">Not applicable per pathology report for the lesion</value>
+</variable>
+
+<variable id="phv00089296.v1">
+	<name>Clark_level</name>
+	<description>The Clark Level based on all MDACC [MD Anderson Cancer Center] pathology reviews</description>
+	<type>Encoded integer</type>
+	<logical_min>1</logical_min>
+	<logical_max>5</logical_max>
+	<comment>Only recorded for case patients</comment>
+	<value code="1">Level 1</value>
+	<value code="2">Level 2</value>
+	<value code="3">Level 3</value>
+	<value code="4">Level 4</value>
+	<value code="5">Level 5</value>
+	<value code=".">Clark level not stated on pathology report or there were not any prognostic factors available for the lesion</value>
+</variable>
+
+<variable id="phv00089297.v1">
+	<name>Ulceration_</name>
+	<description>Indicator of the presence of ulceration in the primary lesion</description>
+	<type>encoded string</type>
+	<comment>Only recorded for case patients</comment>
+	<value code="- Not Stated">Presence or absence was not stated in the lesions&#39;s pathology report</value>
+	<value code=".">No prognostic factors were available or ulceration was inevaluable at time of pathology review</value>
+	<value code="Not Identified">No, ulceration present</value>
+	<value code="Present">Yes, ulceration is present</value>
+</variable>
+
+<variable id="phv00089298.v1">
+	<name>Blood_Draw_Date_</name>
+	<description>De-identified date of patient&#39;s blood draw</description>
+	<type>Integer</type>
+	<logical_min>1993</logical_min>
+	<logical_max>2009</logical_max>
+	<comment>Derived from questionnaire for cases or controls</comment>
+</variable>
+
+<variable id="phv00089299.v1">
+	<name>Months_follow_up</name>
+	<description>The months of follow up recorded from date of diagnosis to most recently recorded vital status follow up date.</description>
+	<type>Integer, decimal</type>
+	<unit>Months</unit>
+	<logical_min>0.6</logical_min>
+	<logical_max>635.0666667</logical_max>
+	<comment>Only recorded for case patients</comment>
+</variable>
+
+<variable id="phv00089300.v1">
+	<name>vital_status_</name>
+	<description>Patient&#39;s vital status at the time the most current follow up was  conducted [alive, dead]</description>
+	<type>String</type>
+	<comment>Only recorded for case patients</comment>
+</variable>
+
+</data_table>

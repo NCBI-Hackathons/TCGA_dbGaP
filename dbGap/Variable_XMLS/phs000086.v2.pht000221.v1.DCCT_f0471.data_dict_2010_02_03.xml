@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./datadict_v2.xsl"?>
+<data_table id="pht000221.v1" study_id="phs000086.v2" participant_set="1" date_created="Wed Feb  3 09:16:48 2010">
+
+<variable id="phv00026941.v1">
+	<name>FSASDATE</name>
+	<description>Form date as SAS date value</description>
+	<type>long</type>
+</variable>
+
+<variable id="phv00026942.v1">
+	<name>FORM</name>
+	<description>DCCT form number</description>
+	<type>int</type>
+	<unit>FORM NUMBER</unit>
+</variable>
+
+<variable id="phv00026943.v1">
+	<name>DGB1A</name>
+	<description>Patient has plans to move soon</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+	<value code="3">NOT CERTAIN</value>
+</variable>
+
+<variable id="phv00026944.v1">
+	<name>DGB1B</name>
+	<description>Month and year of intended move</description>
+	<type>int</type>
+	<unit>MONTH/YEAR</unit>
+</variable>
+
+<variable id="phv00026945.v1">
+	<name>DGB1C</name>
+	<description>Patient is able to visit once a week after move if required</description>
+	<type>byte</type>
+	<value code="1">YES</value>
+	<value code="2">NO</value>
+	<value code="3">NOT CERTAIN</value>
+</variable>
+
+<variable id="phv00026946.v1">
+	<name>DGB1D</name>
+	<description>Patient thinks he/she would continue clinic visits at another clinic</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+	<value code="3">NOT CERTAIN</value>
+</variable>
+
+<variable id="phv00026947.v1">
+	<name>DGB2</name>
+	<description>Patient is able to visit once a week now if required</description>
+	<type>byte</type>
+	<value code="1">YES</value>
+	<value code="2">NO</value>
+	<value code="3">NOT CERTAIN</value>
+</variable>
+
+<variable id="phv00026948.v1">
+	<name>DGB3</name>
+	<description>Patient got to clinic today by (car, Taxi, bus, walked, other)</description>
+	<type>byte</type>
+	<value code="1">CAR</value>
+	<value code="2">TAXI</value>
+	<value code="3">BUS</value>
+	<value code="4">WALKING</value>
+	<value code="5">OTHER TRANSPORTATION (SPECIFIED)</value>
+</variable>
+
+<variable id="phv00026949.v1">
+	<name>DGB4</name>
+	<description>Patient had trouble getting to clinic today</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+</variable>
+
+<variable id="phv00026950.v1">
+	<name>DGB5</name>
+	<description>Patient has any transportation problems (ever)</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+</variable>
+
+<variable id="phv00026951.v1">
+	<name>DGB6A</name>
+	<description>Patient has children</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+</variable>
+
+<variable id="phv00026952.v1">
+	<name>DGB6B</name>
+	<description>Patient has problems getting childcare (ever)</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+</variable>
+
+<variable id="phv00026953.v1">
+	<name>DGB8</name>
+	<description>Employer&#39;s flexibility about giving time off for doctor&#39;s appointments</description>
+	<type>byte</type>
+	<value code="1">FAIRLY FLEXIBLE</value>
+	<value code="2">FAIRLY INFLEXIBLE</value>
+	<value code="3">N/A</value>
+</variable>
+
+<variable id="phv00026954.v1">
+	<name>DGB9</name>
+	<description>Patient needs to take vacation or sick time</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+	<value code="3">N/A</value>
+</variable>
+
+<variable id="phv00026955.v1">
+	<name>DGB10</name>
+	<description>Patient has day-time telephone number</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+</variable>
+
+<variable id="phv00026956.v1">
+	<name>DGC2</name>
+	<description>How often did patient not follow insulin injection plan during last month</description>
+	<type>byte</type>
+	<value code="1">NEVER</value>
+	<value code="2">&lt;10%</value>
+	<value code="3">10-44%</value>
+	<value code="4">45-55%</value>
+	<value code="5">56-90%</value>
+	<value code="6">&gt;90%</value>
+	<value code="7">ALWAYS</value>
+</variable>
+
+<variable id="phv00026957.v1">
+	<name>DGC3</name>
+	<description>How often did patient decide not to take insulin injection during last month</description>
+	<type>byte</type>
+	<value code="1">NEVER</value>
+	<value code="2">&lt;10%</value>
+	<value code="3">10-44%</value>
+	<value code="4">45-55%</value>
+	<value code="5">56-90%</value>
+	<value code="6">&gt;90%</value>
+	<value code="7">ALWAYS</value>
+</variable>
+
+<variable id="phv00026958.v1">
+	<name>DGC4</name>
+	<description>How often did patient decide not to follow glucose testing (blood/urine) schedule during last month</description>
+	<type>byte</type>
+	<value code="1">NEVER</value>
+	<value code="2">&lt;10%</value>
+	<value code="3">10-44%</value>
+	<value code="4">45-55%</value>
+	<value code="5">56-90%</value>
+	<value code="6">&gt;90%</value>
+	<value code="7">ALWAYS</value>
+</variable>
+
+<variable id="phv00026959.v1">
+	<name>DGC5</name>
+	<description>How often did patient go through a day without glucose testing (blood/urine) during last month</description>
+	<type>byte</type>
+	<value code="1">NEVER</value>
+	<value code="2">&lt;10%</value>
+	<value code="3">10-44%</value>
+	<value code="4">45-55%</value>
+	<value code="5">56-90%</value>
+	<value code="6">&gt;90%</value>
+	<value code="7">ALWAYS</value>
+</variable>
+
+<variable id="phv00026960.v1">
+	<name>DGC6</name>
+	<description>How often during last month did patient not follow his/her meal plan</description>
+	<type>byte</type>
+	<value code="1">NEVER</value>
+	<value code="2">&lt;10%</value>
+	<value code="3">10-44%</value>
+	<value code="4">45-55%</value>
+	<value code="5">56-90%</value>
+	<value code="6">&gt;90%</value>
+	<value code="7">ALWAYS</value>
+</variable>
+
+<variable id="phv00026961.v1">
+	<name>DGC7</name>
+	<description>How often during last month did patient decide not to follow his/her meal plan</description>
+	<type>byte</type>
+	<value code="1">NEVER</value>
+	<value code="2">&lt;10%</value>
+	<value code="3">10-44%</value>
+	<value code="4">45-55%</value>
+	<value code="5">56-90%</value>
+	<value code="6">&gt;90%</value>
+	<value code="7">ALWAYS</value>
+</variable>
+
+<variable id="phv00026962.v1">
+	<name>DGC8</name>
+	<description>Work or school interfere with adherence to treatment plan</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+</variable>
+
+<variable id="phv00026963.v1">
+	<name>DGC9</name>
+	<description>Vacation interferes with following treatment plan</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+</variable>
+
+<variable id="phv00026964.v1">
+	<name>DGC10</name>
+	<description>Social situations interfere with adherence to treatment plan</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+</variable>
+
+<variable id="phv00026965.v1">
+	<name>DGC11</name>
+	<description>Family life interferes with adherence to treatment plan</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+</variable>
+
+<variable id="phv00026966.v1">
+	<name>DGC12</name>
+	<description>How often during past year did patient not follow treatment plan because of illness</description>
+	<type>byte</type>
+	<value code="1">NEVER</value>
+	<value code="2">&lt;10%</value>
+	<value code="3">10-44%</value>
+	<value code="4">45-55%</value>
+	<value code="5">56-90%</value>
+	<value code="6">&gt;90%</value>
+	<value code="7">ALWAYS</value>
+</variable>
+
+<variable id="phv00026967.v1">
+	<name>DGD1</name>
+	<description>Patient has strong preference for one or other treatment group</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES/STANDARD GROUP</value>
+	<value code="3">YES/EXPERIMENTAL GROUP</value>
+</variable>
+
+<variable id="phv00026968.v1">
+	<name>DGD2</name>
+	<description>Patient is willing to accept random treatment group assignment</description>
+	<type>byte</type>
+	<value code="1">YES/CERTAINLY</value>
+	<value code="2">YES/PROBABLY</value>
+	<value code="3">NO</value>
+</variable>
+
+<variable id="phv00026969.v1">
+	<name>DGD3A</name>
+	<description>Expected gains from participating in DCCT: expected blood sugar changes</description>
+	<type>byte</type>
+	<value code="1">REALISTIC</value>
+	<value code="2">SOMEWHAT UNREALISTIC</value>
+	<value code="3">VERY UNREALISTIC</value>
+</variable>
+
+<variable id="phv00026970.v1">
+	<name>DGD3B</name>
+	<description>Expected gains from participating in DCCT: expected complications</description>
+	<type>byte</type>
+	<value code="1">REALISTIC</value>
+	<value code="2">SOMEWHAT UNREALISTIC</value>
+	<value code="3">VERY UNREALISTIC</value>
+</variable>
+
+<variable id="phv00026971.v1">
+	<name>DGD3C</name>
+	<description>Expected gains from participating in DCCT: expected general well-being</description>
+	<type>byte</type>
+	<value code="1">REALISTIC</value>
+	<value code="2">SOMEWHAT UNREALISTIC</value>
+	<value code="3">VERY UNREALISTIC</value>
+</variable>
+
+<variable id="phv00026972.v1">
+	<name>DGD4</name>
+	<description>Patient&#39;s attitude toward public use of necessary medical equipment</description>
+	<type>byte</type>
+	<value code="1">DOES NOT MIND</value>
+	<value code="2">SOMEWHAT MINDS</value>
+	<value code="3">VERY MUCH MINDS</value>
+</variable>
+
+<variable id="phv00026973.v1">
+	<name>DGD5</name>
+	<description>Expected DCCT effect on current daily routine</description>
+	<type>byte</type>
+	<value code="1">MINIMAL ADVERSE EFFECT</value>
+	<value code="2">CONSIDERABLE ADVERSE EFFECT</value>
+	<value code="3">POSITIVE EFFECT</value>
+</variable>
+
+<variable id="phv00026974.v1">
+	<name>DGD6</name>
+	<description>Expected DCCT effect on family</description>
+	<type>byte</type>
+	<value code="1">MINIMAL ADVERSE EFFECT</value>
+	<value code="2">CONSIDERABLE ADVERSE EFFECT</value>
+	<value code="3">POSITIVE EFFECT</value>
+</variable>
+
+<variable id="phv00026975.v1">
+	<name>MASK_PAT</name>
+	<description>Patient ID number</description>
+	<type>int</type>
+</variable>
+
+</data_table>

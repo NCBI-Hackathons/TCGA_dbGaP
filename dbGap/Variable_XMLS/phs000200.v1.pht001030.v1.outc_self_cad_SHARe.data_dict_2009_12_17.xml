@@ -1,0 +1,508 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./datadict_v2.xsl"?>
+<data_table id="pht001030.v1" study_id="phs000200.v1" participant_set="1" date_created="Thu Dec 17 19:19:53 2009">
+
+<variable id="phv00080365.v1">
+	<name>SHAREID</name>
+	<description>WHI SHARe ID</description>
+	<type>integer</type>
+</variable>
+
+<variable id="phv00080366.v1">
+	<name>F33DVT</name>
+	<description>F33 Deep Vein Thrombosis</description>
+	<type>encoded value</type>
+	<comment>Inpatient DVT</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00080367.v1">
+	<name>F33DVTDY</name>
+	<description>Days CaD randomization to F33 deep vein thrombosis</description>
+	<type>integer</type>
+	<unit>days</unit>
+	<logical_min>92</logical_min>
+	<logical_max>3298</logical_max>
+</variable>
+
+<variable id="phv00080368.v1">
+	<name>F33PE</name>
+	<description>F33 Pulmonary embolism</description>
+	<type>encoded value</type>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00080369.v1">
+	<name>F33PEDY</name>
+	<description>Days CaD randomization to F33 pulmonary embolism</description>
+	<type>integer</type>
+	<unit>days</unit>
+	<logical_min>143</logical_min>
+	<logical_max>3298</logical_max>
+</variable>
+
+<variable id="phv00080370.v1">
+	<name>F33ANYFX</name>
+	<description>F33 Any Fracture</description>
+	<type>encoded value</type>
+	<comment>Any fracture from F33/33D</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00080371.v1">
+	<name>F33ANYFXDY</name>
+	<description>Days CaD randomization to F33 any fracture</description>
+	<type>integer</type>
+	<unit>days</unit>
+	<logical_min>122</logical_min>
+	<logical_max>3374</logical_max>
+	<comment>Earliest fracture of any type from F33/33D</comment>
+</variable>
+
+<variable id="phv00080372.v1">
+	<name>F33BKULEG</name>
+	<description>F33 Broken Upper Leg</description>
+	<type>encoded value</type>
+	<comment>Not collected on all versions of Form 33</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00080373.v1">
+	<name>F33BKULEGDY</name>
+	<description>Days CaD randomization to F33 Broken Upper Leg</description>
+	<type>integer</type>
+	<unit>days</unit>
+	<logical_min>1065</logical_min>
+	<logical_max>2229</logical_max>
+</variable>
+
+<variable id="phv00080374.v1">
+	<name>F33BKPELV</name>
+	<description>F33 Broken Pelvis</description>
+	<type>encoded value</type>
+	<comment>Not collected on all versions of Form 33</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00080375.v1">
+	<name>F33BKPELVDY</name>
+	<description>Days CaD randomization to F33 Broken Pelvis</description>
+	<type>integer</type>
+	<unit>days</unit>
+	<logical_min>347</logical_min>
+	<logical_max>2192</logical_max>
+</variable>
+
+<variable id="phv00080376.v1">
+	<name>F33BKKNEE</name>
+	<description>F33 Broken Knee</description>
+	<type>encoded value</type>
+	<comment>Not collected on all versions of Form 33</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00080377.v1">
+	<name>F33BKKNEEDY</name>
+	<description>Days CaD randomization to F33 Broken Knee</description>
+	<type>integer</type>
+	<unit>days</unit>
+	<logical_min>180</logical_min>
+	<logical_max>2632</logical_max>
+</variable>
+
+<variable id="phv00080378.v1">
+	<name>F33BKSPINE</name>
+	<description>F33 Broken Spine</description>
+	<type>encoded value</type>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00080379.v1">
+	<name>F33BKSPINEDY</name>
+	<description>Days CaD randomization to F33 Broken Spine</description>
+	<type>integer</type>
+	<unit>days</unit>
+	<logical_min>376</logical_min>
+	<logical_max>2905</logical_max>
+</variable>
+
+<variable id="phv00080380.v1">
+	<name>F33BKUARM</name>
+	<description>F33 Broken Upper Arm</description>
+	<type>encoded value</type>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00080381.v1">
+	<name>F33BKUARMDY</name>
+	<description>Days CaD randomization to F33 Broken Upper Arm</description>
+	<type>integer</type>
+	<unit>days</unit>
+	<logical_min>147</logical_min>
+	<logical_max>2901</logical_max>
+</variable>
+
+<variable id="phv00080382.v1">
+	<name>F33BKLARM</name>
+	<description>F33 Broken Lower Arm</description>
+	<type>encoded value</type>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00080383.v1">
+	<name>F33BKLARMDY</name>
+	<description>Days CaD randomization to F33 Broken Lower Arm</description>
+	<type>integer</type>
+	<unit>days</unit>
+	<logical_min>342</logical_min>
+	<logical_max>3374</logical_max>
+</variable>
+
+<variable id="phv00080384.v1">
+	<name>F33BKHAND</name>
+	<description>F33 Broken Hand</description>
+	<type>encoded value</type>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00080385.v1">
+	<name>F33BKHANDDY</name>
+	<description>Days CaD randomization to F33 Broken Hand</description>
+	<type>integer</type>
+	<unit>days</unit>
+	<logical_min>413</logical_min>
+	<logical_max>2620</logical_max>
+</variable>
+
+<variable id="phv00080386.v1">
+	<name>F33BKLLEG</name>
+	<description>F33 Broken Lower Leg</description>
+	<type>encoded value</type>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00080387.v1">
+	<name>F33BKLLEGDY</name>
+	<description>Days CaD randomization to F33 Broken Lower Leg</description>
+	<type>integer</type>
+	<unit>days</unit>
+	<logical_min>122</logical_min>
+	<logical_max>3442</logical_max>
+</variable>
+
+<variable id="phv00080388.v1">
+	<name>F33BKFOOT</name>
+	<description>F33 Broken Foot</description>
+	<type>encoded value</type>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00080389.v1">
+	<name>F33BKFOOTDY</name>
+	<description>Days CaD randomization to F33 Broken Foot</description>
+	<type>integer</type>
+	<unit>days</unit>
+	<logical_min>128</logical_min>
+	<logical_max>3094</logical_max>
+</variable>
+
+<variable id="phv00080390.v1">
+	<name>F33BKTAILBN</name>
+	<description>F33 Broken Tailbone</description>
+	<type>encoded value</type>
+	<comment>Not collected on all versions of Form 33</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00080391.v1">
+	<name>F33BKTAILBNDY</name>
+	<description>Days CaD randomization to F33 Broken Tailbone</description>
+	<type>integer</type>
+	<unit>days</unit>
+	<logical_min>448</logical_min>
+	<logical_max>1993</logical_max>
+</variable>
+
+<variable id="phv00080392.v1">
+	<name>F33BKELBOW</name>
+	<description>F33 Broken Elbow</description>
+	<type>encoded value</type>
+	<comment>Not collected on all versions of Form 33</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00080393.v1">
+	<name>F33BKELBOWDY</name>
+	<description>Days CaD randomization to F33 Broken Elbow</description>
+	<type>integer</type>
+	<unit>days</unit>
+	<logical_min>181</logical_min>
+	<logical_max>2616</logical_max>
+</variable>
+
+<variable id="phv00080394.v1">
+	<name>F33BKOTHBN</name>
+	<description>F33 Broken Other Bone</description>
+	<type>encoded value</type>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00080395.v1">
+	<name>F33BKOTHBNDY</name>
+	<description>Days CaD randomization to F33 Broken Other Bone</description>
+	<type>integer</type>
+	<unit>days</unit>
+	<logical_min>147</logical_min>
+	<logical_max>2781</logical_max>
+</variable>
+
+<variable id="phv00080396.v1">
+	<name>F33HYST</name>
+	<description>F33 Hysterectomy Ever</description>
+	<type>encoded value</type>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00080397.v1">
+	<name>F33HYSTDY</name>
+	<description>Days CaD randomization to F33 Hysterectomy Ever</description>
+	<type>integer</type>
+	<unit>days</unit>
+	<logical_min>132</logical_min>
+	<logical_max>2892</logical_max>
+</variable>
+
+<variable id="phv00080398.v1">
+	<name>F33GALL</name>
+	<description>F33 Gallbladder Disease</description>
+	<type>encoded value</type>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00080399.v1">
+	<name>F33GALLDY</name>
+	<description>Days CaD randomization to F33 Gallbladder Disease</description>
+	<type>integer</type>
+	<unit>days</unit>
+	<logical_min>145</logical_min>
+	<logical_max>3482</logical_max>
+</variable>
+
+<variable id="phv00080400.v1">
+	<name>F33GLAUCOMA</name>
+	<description>F33 Glaucoma</description>
+	<type>encoded value</type>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00080401.v1">
+	<name>F33GLAUCOMADY</name>
+	<description>Days CaD randomization to F33 Glaucoma</description>
+	<type>integer</type>
+	<unit>days</unit>
+	<logical_min>112</logical_min>
+	<logical_max>3427</logical_max>
+</variable>
+
+<variable id="phv00080402.v1">
+	<name>F33OSTEOP</name>
+	<description>F33 Osteoporosis</description>
+	<type>encoded value</type>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00080403.v1">
+	<name>F33OSTEOPDY</name>
+	<description>Days CaD randomization to F33 Osteoporosis</description>
+	<type>integer</type>
+	<unit>days</unit>
+	<logical_min>101</logical_min>
+	<logical_max>3427</logical_max>
+</variable>
+
+<variable id="phv00080404.v1">
+	<name>F33OSTEAR</name>
+	<description>F33 Osteoarthritis</description>
+	<type>encoded value</type>
+	<comment>Not collected on all versions of Form 33</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00080405.v1">
+	<name>F33OSTEARDY</name>
+	<description>Days CaD randomization to F33 Osteoarthritis</description>
+	<type>integer</type>
+	<unit>days</unit>
+	<logical_min>105</logical_min>
+	<logical_max>3433</logical_max>
+</variable>
+
+<variable id="phv00080406.v1">
+	<name>F33RHEUM</name>
+	<description>F33 Rheumatoid Arthritis</description>
+	<type>encoded value</type>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00080407.v1">
+	<name>F33RHEUMDY</name>
+	<description>Days CaD randomization to F33 Rheumatoid Arthritis</description>
+	<type>integer</type>
+	<unit>days</unit>
+	<logical_min>112</logical_min>
+	<logical_max>3417</logical_max>
+</variable>
+
+<variable id="phv00080408.v1">
+	<name>F33INTPOLYP</name>
+	<description>F33 Intestinal Polyps</description>
+	<type>encoded value</type>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00080409.v1">
+	<name>F33INTPOLYPDY</name>
+	<description>Days CaD randomization to F33 Intestinal Polyps</description>
+	<type>integer</type>
+	<unit>days</unit>
+	<logical_min>131</logical_min>
+	<logical_max>3295</logical_max>
+</variable>
+
+<variable id="phv00080410.v1">
+	<name>F33KIDNEYST</name>
+	<description>F33 Kidney Stones</description>
+	<type>encoded value</type>
+	<comment>Not collected on all versions of Form 33</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00080411.v1">
+	<name>F33KIDNEYSTDY</name>
+	<description>Days CaD randomization to F33 Kidney Stones</description>
+	<type>integer</type>
+	<unit>days</unit>
+	<logical_min>170</logical_min>
+	<logical_max>3046</logical_max>
+</variable>
+
+<variable id="phv00080412.v1">
+	<name>F33LUPUS</name>
+	<description>F33 Lupus</description>
+	<type>encoded value</type>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00080413.v1">
+	<name>F33LUPUSDY</name>
+	<description>Days CaD randomization to F33 Lupus</description>
+	<type>integer</type>
+	<unit>days</unit>
+	<logical_min>130</logical_min>
+	<logical_max>2910</logical_max>
+</variable>
+
+<variable id="phv00080414.v1">
+	<name>F33CATARACT</name>
+	<description>F33 Cataracts</description>
+	<type>encoded value</type>
+	<comment>Not collected on all versions of Form 33</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00080415.v1">
+	<name>F33CATARACTDY</name>
+	<description>Days CaD randomization to F33 Cataracts</description>
+	<type>integer</type>
+	<unit>days</unit>
+	<logical_min>89</logical_min>
+	<logical_max>3310</logical_max>
+</variable>
+
+<variable id="phv00080416.v1">
+	<name>F33PILLSHYP</name>
+	<description>F33 Pills For Hypertension</description>
+	<type>encoded value</type>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00080417.v1">
+	<name>F33PILLSHYPDY</name>
+	<description>Days CaD randomization to F33 Pills For Hypertension</description>
+	<type>integer</type>
+	<unit>days</unit>
+	<logical_min>62</logical_min>
+	<logical_max>3328</logical_max>
+	<comment>Days CaD randomization to F33 Pills For Hypertension</comment>
+</variable>
+
+<variable id="phv00080418.v1">
+	<name>F33DIABETES</name>
+	<description>F33 Diabetes Treated</description>
+	<type>encoded value</type>
+	<comment>Pills or insulin shots</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00080419.v1">
+	<name>F33DIABETESDY</name>
+	<description>Days CaD randomization to F33 Diabetes Treated</description>
+	<type>integer</type>
+	<unit>days</unit>
+	<logical_min>62</logical_min>
+	<logical_max>3190</logical_max>
+</variable>
+
+<variable id="phv00080420.v1">
+	<name>LAST33DY</name>
+	<description>Days CaD randomization to last 33/33D</description>
+	<type>integer</type>
+	<unit>days</unit>
+	<logical_min>179</logical_min>
+	<logical_max>3526</logical_max>
+</variable>
+
+<variable id="phv00080421.v1">
+	<name>F33HOSP</name>
+	<description>F33 Hospitalized Ever</description>
+	<type>encoded value</type>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00080422.v1">
+	<name>F33HOSPTIMES</name>
+	<description>F33 Number of Hospitalizations</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>26</logical_max>
+</variable>
+
+</data_table>

@@ -1,0 +1,1199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GaPExchange xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="dbGaPEx2.1.5.xsd">
+
+<MetaVariables>
+	<Submitter/>
+	<Method/>
+</MetaVariables>
+<MetaLinks/>
+
+<Projects>
+	<Project/>
+</Projects>
+
+<Studies>
+
+<Study source="dbGaP" accession="phs000345.v1.p1" parentStudy="phs000345.v1.p1" createDate="2011-03-02" modDate="2011-09-16">
+
+<Configuration>
+	<Data_Provider><![CDATA[
+		<table border="1">
+		<tr><th>Title</th><th>Name</th><th>Institute</th></tr>
+		<tr><td>Principal Investigator</td><td>Judy Cho, MD</td><td>Department of Medicine, Yale University, New Haven, CT, USA</td></tr>
+		<tr><td>Funding Source</td><td>DK62431 (Steven R. Brant)</td><td>National Institute of Diabetes and Digestive and Kidney Diseases, National Institutes of Health, Bethesda, MD, USA</td></tr>
+		<tr><td>Funding Source</td><td>DK62422 (Judy H. Cho)</td><td>National Institute of Diabetes and Digestive and Kidney Diseases, National Institutes of Health, Bethesda, MD, USA</td></tr>
+		<tr><td>Funding Source</td><td>DK62420 (Richard H. Duerr)</td><td>National Institute of Diabetes and Digestive and Kidney Diseases, National Institutes of Health, Bethesda, MD, USA</td></tr>
+		<tr><td>Funding Source</td><td>DK62432 (John D. Rioux)</td><td>National Institute of Diabetes and Digestive and Kidney Diseases, National Institutes of Health, Bethesda, MD, USA</td></tr>
+		</table>
+	]]></Data_Provider>
+	<StudyNameEntrez>NIDDK IBD Genetics Consortium Ulcerative Colitis Genome-Wide Association Study</StudyNameEntrez>
+	<StudyNameReportPage>NIDDK IBD Genetics Consortium Ulcerative Colitis Genome-Wide Association Study</StudyNameReportPage>
+	<StudyTypes>
+		<StudyType>Case-Control</StudyType>
+	</StudyTypes>
+	<Description><![CDATA[
+<p>This dataset contains data for 1,028 white, non-Hispanic, European ancestry individuals with ulcerative colitis who were included 	in a genome-wide association study published by Silverberg et al. (2009). These individuals were ascertained in North America and 	selected to have either left-sided or  extensive disease (i.e., individuals with proctitis only were excluded). Genotyping was 	performed using the Illumina HumanHap300v2 (n = 540) and HumanHap550v3 (n = 488) Genotyping BeadChips at the Feinstein Institute 	for Medical Research. Control data (not included) were obtained from the <a href="./study.cgi?id=phs000130">NIDDK IBD Genetics Consortium&#39;s Crohn&#39;s Disease GWAS</a> 	(available from dbGaP) and from studies 64 and 65 deposited in the Illumina iControlDB.</p> 	<p>Seven hundred eighty individuals in this dataset were taken from the NIDDK IBD Genetics Consortium cell line repository 	(<a href="http://www.niddkrepository.org" target="_blank">http://www.niddkrepository.org</a>). These individuals are identified 	in the file dbGaP_SubjectDS.txt. The subject IDs for these individuals may be used to request corresponding samples for follow-up 	research through the repository. In addition, complete phenotype data for these individuals are included, collected using the 	Consortium&#39;s forms and phenotyping manual (both included). The remaining 248 individuals were identified from pre-existing 	collections ascertained by members of the Consortium or their collaborators. For these samples, several of the items in the 	phenotype file are incomplete.</p> 	<p>Those who wish to replicate the results in Silverberg et al. should note that 6 individuals with missing genotype rates &gt; 0.07 	were excluded from that analysis (leaving 1,022 affected samples total). In addition, the minor allele frequencies (MAFs) reported 	in the publication were calculated using only those individuals who were included in the allelic association tests 	(n = 977 for SNPs included in the HumanHap300 and n = 476 for SNPs included only in the HumanHap550). These tests were 	performed using conditional logistic regression on gender-ancestry strata; individuals who were not placed in a stratum 	(using the procedure described in the supplementary information for Silverberg et al.) were excluded. The indicator 	variables hh300 and hh550 in the file dbGaP_PhenotypeDS.txt identify the samples included in the allelic association tests, 	and may be used to replicate the published MAFs among affected individuals.</p>]]>
+	</Description>
+	<StudyInEx><![CDATA[
+<p>Independent (i.e., unrelated) individuals were included who had ulcerative colitis with either left-sided or extensive 	disease (i.e., those with proctitis only were excluded); for further details on the precise definitions used, see the 	accompanying phenotyping manual (phenotyping-manual.pdf). Since the publication of Silverberg et al., we have learned that 	one individual had indeterminate colitis instead of ulcerative colitis (this individual was included in the 	published allelic association tests).</p> 	<p>Individuals were also selected to be white, non-Hispanic of European ancestry. However, since the publication of Silverberg et al., 	we have learned that one individual was Trinidadian (this individual was not placed in an ancestry stratum and was 	therefore excluded from the allelic association tests).</p>]]>
+	</StudyInEx>
+	<StudyProjects>
+		<Project/>
+	</StudyProjects>
+	<Publications>
+		<Publication>
+			<Pubmed pmid="19122664"/>
+		</Publication>
+	</Publications>
+	<Diseases>
+		<Disease vocab_source="MESH" vocab_term="Colitis, Ulcerative"/>
+		<Disease vocab_source="MESH" vocab_term="Inflammatory Bowel Diseases"/>
+	</Diseases>
+	<Attributions>
+		<Header title="Principal Investigator">
+			<AttName>Judy Cho, MD</AttName>
+			<Institution>Department of Medicine, Yale University, New Haven, CT, USA</Institution>
+		</Header>
+		<Header title="Funding Source">
+			<AttName>DK62431 (Steven R. Brant)</AttName>
+			<Institution>National Institute of Diabetes and Digestive and Kidney Diseases, National Institutes of Health, Bethesda, MD, USA</Institution>
+		</Header>
+		<Header title="Funding Source">
+			<AttName>DK62422 (Judy H. Cho)</AttName>
+			<Institution>National Institute of Diabetes and Digestive and Kidney Diseases, National Institutes of Health, Bethesda, MD, USA</Institution>
+		</Header>
+		<Header title="Funding Source">
+			<AttName>DK62420 (Richard H. Duerr)</AttName>
+			<Institution>National Institute of Diabetes and Digestive and Kidney Diseases, National Institutes of Health, Bethesda, MD, USA</Institution>
+		</Header>
+		<Header title="Funding Source">
+			<AttName>DK62432 (John D. Rioux)</AttName>
+			<Institution>National Institute of Diabetes and Digestive and Kidney Diseases, National Institutes of Health, Bethesda, MD, USA</Institution>
+		</Header>
+		<Header title="Funding Source">
+			<AttName>DK62423 (Mark S. Silverberg)</AttName>
+			<Institution>National Institute of Diabetes and Digestive and Kidney Diseases, National Institutes of Health, Bethesda, MD, USA</Institution>
+		</Header>
+		<Header title="Funding Source">
+			<AttName>DK62413 (Kent D. Taylor)</AttName>
+			<Institution>National Institute of Diabetes and Digestive and Kidney Diseases, National Institutes of Health, Bethesda, MD, USA</Institution>
+		</Header>
+		<Header title="Funding Source">
+			<AttName>DK62429 (Judy H. Cho)</AttName>
+			<Institution>National Institute of Diabetes and Digestive and Kidney Diseases, National Institutes of Health, Bethesda, MD, USA</Institution>
+		</Header>
+	</Attributions>
+	<DisplayPublicSummary>yes</DisplayPublicSummary>
+	<ConsentGroups>
+		<ConsentGroup groupNum="1" shortName="GRU" longName="General Research Use"/>
+		<ConsentGroup groupNum="2" shortName="IBDO" longName="Inflammatory Bowel Disease Only"/>
+	</ConsentGroups>
+</Configuration>
+
+  <AuthorizedAccess>
+    <DacInfo ssDacId="0">
+      <DacName>NIDDK</DacName>
+      <DacFullName>NIDDK Central Repository GWAS Data Access Committee</DacFullName>
+      <DacEmail>niddk-dac@mail.nih.gov</DacEmail>
+      <DacPhone></DacPhone>
+      <DacFax>301-480-3510</DacFax>
+      <DacUrl>http://www3.niddk.nih.gov/researchprograms/repositories/FAQ.shtml</DacUrl>
+    </DacInfo>
+    <Policy Policy_ID="phs000345.v1.p1_policy" ref_ssDacId="0">
+      <DisplayResearchStatement>yes</DisplayResearchStatement>
+      <DisplayPublicSummary>yes</DisplayPublicSummary>
+      <EmbargoLength>0</EmbargoLength>
+      <YearsUntilRenewal>1</YearsUntilRenewal>
+      <WeeksCancelRequest>8</WeeksCancelRequest>
+      <PdfSupplementReqired>yes</PdfSupplementReqired>
+      <AcknowledgementText>
+        <para>
+          http://dbgap.ncbi.nlm.nih.gov/aa/wga.cgi?page=DUC&amp;view_pdf&amp;stacc=phs000345.v1.p1
+        </para>
+      </AcknowledgementText>
+      <DocumentSet>
+        <DataUseCertificate Label="Data Use Certificate" FilePath="https://dbgap.ncbi.nlm.nih.gov/aa/wga.cgi?page=DUC&amp;view_pdf&amp;stacc=phs000345.v1.p1" FileName="ModeNIDDKdbGaPlDUC_2010April7_FINAL.pdf"/>
+      </DocumentSet>
+    </Policy>
+    <ConsentGroups>
+      <ParticipantSet groupNum-REF="1">
+        <ConsentName>General Research Use</ConsentName>
+        <ConsentAbbrev>GRU</ConsentAbbrev>
+        <UseLimitation>General research use.</UseLimitation>
+        <IrbRequired>Yes</IrbRequired>
+      </ParticipantSet>
+      <ParticipantSet groupNum-REF="2">
+        <ConsentName>Inflammatory Bowel Disease Only</ConsentName>
+        <ConsentAbbrev>IBDO</ConsentAbbrev>
+        <UseLimitation>Research only on Inflammatory Bowel Disease and related conditions.</UseLimitation>
+        <IrbRequired>Yes</IrbRequired>
+      </ParticipantSet>
+    </ConsentGroups>
+  </AuthorizedAccess>
+  <Documents>
+    <Document phd="phd003698.1" type="questionnaire" createDate="2011-09-16" modDate="2011-09-16" urlToXml="http://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/GetDocumentXml.cgi?document_id=phd003698.1" urlToHtml="http://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/document.cgi?study_id=phs000345.v1.p1&amp;phd=3698">
+      <OrigName>phenotyping-forms.pdf</OrigName>
+      <DisplayName>NIDDK IBD Genetics Consortium: Phenotype Form</DisplayName>
+      <Description>NIDDK IBD Genetics Consortium: Phenotype Form</Description>
+      <displayStatus>public</displayStatus>
+      <xmlStatus>public</xmlStatus>
+    </Document>
+    <Document phd="phd003699.1" type="protocol" createDate="2011-09-16" modDate="2011-09-16" urlToXml="http://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/GetDocumentXml.cgi?document_id=phd003699.1" urlToHtml="http://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/document.cgi?study_id=phs000345.v1.p1&amp;phd=3699">
+      <OrigName>phenotyping-manual.pdf</OrigName>
+      <DisplayName>NIDDK IBD Genetics Consortium: Phenotype Operating Manual</DisplayName>
+      <Description>NIDDK IBD Genetics Consortium: Phenotype Operating Manual</Description>
+      <displayStatus>public</displayStatus>
+      <xmlStatus>public</xmlStatus>
+    </Document>
+  </Documents>
+
+  <Annotations>
+    <DocumentPart phd="phd003698.1" sectionId="V1">
+      <phvList>
+        <phvRef variableId="162967"/>
+      </phvList>
+    </DocumentPart>
+    <DocumentPart phd="phd003698.1" sectionId="V101">
+      <phvList>
+        <phvRef variableId="163028"/>
+      </phvList>
+    </DocumentPart>
+    <DocumentPart phd="phd003698.1" sectionId="V102">
+      <phvList>
+        <phvRef variableId="163029"/>
+      </phvList>
+    </DocumentPart>
+    <DocumentPart phd="phd003698.1" sectionId="V103">
+      <phvList>
+        <phvRef variableId="163030"/>
+      </phvList>
+    </DocumentPart>
+    <DocumentPart phd="phd003698.1" sectionId="V104">
+      <phvList>
+        <phvRef variableId="163031"/>
+      </phvList>
+    </DocumentPart>
+    <DocumentPart phd="phd003698.1" sectionId="V111">
+      <phvList>
+        <phvRef variableId="162967"/>
+      </phvList>
+    </DocumentPart>
+    <DocumentPart phd="phd003698.1" sectionId="V115">
+      <phvList>
+        <phvRef variableId="162975"/>
+      </phvList>
+    </DocumentPart>
+    <DocumentPart phd="phd003698.1" sectionId="V116">
+      <phvList>
+        <phvRef variableId="162976"/>
+      </phvList>
+    </DocumentPart>
+    <DocumentPart phd="phd003698.1" sectionId="V117">
+      <phvList>
+        <phvRef variableId="162977"/>
+      </phvList>
+    </DocumentPart>
+    <DocumentPart phd="phd003698.1" sectionId="V126">
+      <phvList>
+        <phvRef variableId="162979"/>
+      </phvList>
+    </DocumentPart>
+    <DocumentPart phd="phd003698.1" sectionId="V127">
+      <phvList>
+        <phvRef variableId="162980"/>
+      </phvList>
+    </DocumentPart>
+    <DocumentPart phd="phd003698.1" sectionId="V129">
+      <phvList>
+        <phvRef variableId="162981"/>
+      </phvList>
+    </DocumentPart>
+    <DocumentPart phd="phd003698.1" sectionId="V130">
+      <phvList>
+        <phvRef variableId="162982"/>
+      </phvList>
+    </DocumentPart>
+    <DocumentPart phd="phd003698.1" sectionId="V132">
+      <phvList>
+        <phvRef variableId="162983"/>
+      </phvList>
+    </DocumentPart>
+    <DocumentPart phd="phd003698.1" sectionId="V133">
+      <phvList>
+        <phvRef variableId="162984"/>
+      </phvList>
+    </DocumentPart>
+    <DocumentPart phd="phd003698.1" sectionId="V135">
+      <phvList>
+        <phvRef variableId="162985"/>
+      </phvList>
+    </DocumentPart>
+    <DocumentPart phd="phd003698.1" sectionId="V136">
+      <phvList>
+        <phvRef variableId="162986"/>
+      </phvList>
+    </DocumentPart>
+    <DocumentPart phd="phd003698.1" sectionId="V138">
+      <phvList>
+        <phvRef variableId="162987"/>
+      </phvList>
+    </DocumentPart>
+    <DocumentPart phd="phd003698.1" sectionId="V139">
+      <phvList>
+        <phvRef variableId="162988"/>
+      </phvList>
+    </DocumentPart>
+    <DocumentPart phd="phd003698.1" sectionId="V140">
+      <phvList>
+        <phvRef variableId="162978"/>
+      </phvList>
+    </DocumentPart>
+    <DocumentPart phd="phd003698.1" sectionId="V142">
+      <phvList>
+        <phvRef variableId="162989"/>
+      </phvList>
+    </DocumentPart>
+    <DocumentPart phd="phd003698.1" sectionId="V143">
+      <phvList>
+        <phvRef variableId="162990"/>
+      </phvList>
+    </DocumentPart>
+    <DocumentPart phd="phd003698.1" sectionId="V15">
+      <phvList>
+        <phvRef variableId="162979"/>
+      </phvList>
+    </DocumentPart>
+    <DocumentPart phd="phd003698.1" sectionId="V150">
+      <phvList>
+        <phvRef variableId="162991"/>
+      </phvList>
+    </DocumentPart>
+    <DocumentPart phd="phd003698.1" sectionId="V157">
+      <phvList>
+        <phvRef variableId="162992"/>
+      </phvList>
+    </DocumentPart>
+    <DocumentPart phd="phd003698.1" sectionId="V16">
+      <phvList>
+        <phvRef variableId="162980"/>
+      </phvList>
+    </DocumentPart>
+    <DocumentPart phd="phd003698.1" sectionId="V165">
+      <phvList>
+        <phvRef variableId="162993"/>
+      </phvList>
+    </DocumentPart>
+    <DocumentPart phd="phd003698.1" sectionId="V166">
+      <phvList>
+        <phvRef variableId="162994"/>
+      </phvList>
+    </DocumentPart>
+    <DocumentPart phd="phd003698.1" sectionId="V167">
+      <phvList>
+        <phvRef variableId="162995"/>
+      </phvList>
+    </DocumentPart>
+    <DocumentPart phd="phd003698.1" sectionId="V168">
+      <phvList>
+        <phvRef variableId="162996"/>
+      </phvList>
+    </DocumentPart>
+    <DocumentPart phd="phd003698.1" sectionId="V169">
+      <phvList>
+        <phvRef variableId="162997"/>
+      </phvList>
+    </DocumentPart>
+    <DocumentPart phd="phd003698.1" sectionId="V172">
+      <phvList>
+        <phvRef variableId="162998"/>
+      </phvList>
+    </DocumentPart>
+    <DocumentPart phd="phd003698.1" sectionId="V173">
+      <phvList>
+        <phvRef variableId="162999"/>
+      </phvList>
+    </DocumentPart>
+    <DocumentPart phd="phd003698.1" sectionId="V174">
+      <phvList>
+        <phvRef variableId="163000"/>
+      </phvList>
+    </DocumentPart>
+    <DocumentPart phd="phd003698.1" sectionId="V175">
+      <phvList>
+        <phvRef variableId="163001"/>
+      </phvList>
+    </DocumentPart>
+    <DocumentPart phd="phd003698.1" sectionId="V176">
+      <phvList>
+        <phvRef variableId="163002"/>
+      </phvList>
+    </DocumentPart>
+    <DocumentPart phd="phd003698.1" sectionId="V177">
+      <phvList>
+        <phvRef variableId="163003"/>
+      </phvList>
+    </DocumentPart>
+    <DocumentPart phd="phd003698.1" sectionId="V178">
+      <phvList>
+        <phvRef variableId="163004"/>
+      </phvList>
+    </DocumentPart>
+    <DocumentPart phd="phd003698.1" sectionId="V179">
+      <phvList>
+        <phvRef variableId="163005"/>
+      </phvList>
+    </DocumentPart>
+    <DocumentPart phd="phd003698.1" sectionId="V18">
+      <phvList>
+        <phvRef variableId="162981"/>
+      </phvList>
+    </DocumentPart>
+    <DocumentPart phd="phd003698.1" sectionId="V181">
+      <phvList>
+        <phvRef variableId="163006"/>
+      </phvList>
+    </DocumentPart>
+    <DocumentPart phd="phd003698.1" sectionId="V182">
+      <phvList>
+        <phvRef variableId="163007"/>
+      </phvList>
+    </DocumentPart>
+    <DocumentPart phd="phd003698.1" sectionId="V183">
+      <phvList>
+        <phvRef variableId="163008"/>
+      </phvList>
+    </DocumentPart>
+    <DocumentPart phd="phd003698.1" sectionId="V185">
+      <phvList>
+        <phvRef variableId="163009"/>
+      </phvList>
+    </DocumentPart>
+    <DocumentPart phd="phd003698.1" sectionId="V186">
+      <phvList>
+        <phvRef variableId="163010"/>
+      </phvList>
+    </DocumentPart>
+    <DocumentPart phd="phd003698.1" sectionId="V187">
+      <phvList>
+        <phvRef variableId="163011"/>
+      </phvList>
+    </DocumentPart>
+    <DocumentPart phd="phd003698.1" sectionId="V188">
+      <phvList>
+        <phvRef variableId="163012"/>
+      </phvList>
+    </DocumentPart>
+    <DocumentPart phd="phd003698.1" sectionId="V189">
+      <phvList>
+        <phvRef variableId="163013"/>
+      </phvList>
+    </DocumentPart>
+    <DocumentPart phd="phd003698.1" sectionId="V19">
+      <phvList>
+        <phvRef variableId="162982"/>
+      </phvList>
+    </DocumentPart>
+    <DocumentPart phd="phd003698.1" sectionId="V190">
+      <phvList>
+        <phvRef variableId="163015"/>
+      </phvList>
+    </DocumentPart>
+    <DocumentPart phd="phd003698.1" sectionId="V191">
+      <phvList>
+        <phvRef variableId="163016"/>
+      </phvList>
+    </DocumentPart>
+    <DocumentPart phd="phd003698.1" sectionId="V192">
+      <phvList>
+        <phvRef variableId="163017"/>
+      </phvList>
+    </DocumentPart>
+    <DocumentPart phd="phd003698.1" sectionId="V193">
+      <phvList>
+        <phvRef variableId="163014"/>
+      </phvList>
+    </DocumentPart>
+    <DocumentPart phd="phd003698.1" sectionId="V194">
+      <phvList>
+        <phvRef variableId="163018"/>
+      </phvList>
+    </DocumentPart>
+    <DocumentPart phd="phd003698.1" sectionId="V195">
+      <phvList>
+        <phvRef variableId="163019"/>
+      </phvList>
+    </DocumentPart>
+    <DocumentPart phd="phd003698.1" sectionId="V196">
+      <phvList>
+        <phvRef variableId="163020"/>
+      </phvList>
+    </DocumentPart>
+    <DocumentPart phd="phd003698.1" sectionId="V199">
+      <phvList>
+        <phvRef variableId="163021"/>
+      </phvList>
+    </DocumentPart>
+    <DocumentPart phd="phd003698.1" sectionId="V200">
+      <phvList>
+        <phvRef variableId="163022"/>
+      </phvList>
+    </DocumentPart>
+    <DocumentPart phd="phd003698.1" sectionId="V201">
+      <phvList>
+        <phvRef variableId="163023"/>
+      </phvList>
+    </DocumentPart>
+    <DocumentPart phd="phd003698.1" sectionId="V202">
+      <phvList>
+        <phvRef variableId="163024"/>
+      </phvList>
+    </DocumentPart>
+    <DocumentPart phd="phd003698.1" sectionId="V203">
+      <phvList>
+        <phvRef variableId="163025"/>
+      </phvList>
+    </DocumentPart>
+    <DocumentPart phd="phd003698.1" sectionId="V205">
+      <phvList>
+        <phvRef variableId="163026"/>
+      </phvList>
+    </DocumentPart>
+    <DocumentPart phd="phd003698.1" sectionId="V206">
+      <phvList>
+        <phvRef variableId="163027"/>
+      </phvList>
+    </DocumentPart>
+    <DocumentPart phd="phd003698.1" sectionId="V208">
+      <phvList>
+        <phvRef variableId="163028"/>
+      </phvList>
+    </DocumentPart>
+    <DocumentPart phd="phd003698.1" sectionId="V209">
+      <phvList>
+        <phvRef variableId="163029"/>
+      </phvList>
+    </DocumentPart>
+    <DocumentPart phd="phd003698.1" sectionId="V21">
+      <phvList>
+        <phvRef variableId="162983"/>
+      </phvList>
+    </DocumentPart>
+    <DocumentPart phd="phd003698.1" sectionId="V210">
+      <phvList>
+        <phvRef variableId="163030"/>
+      </phvList>
+    </DocumentPart>
+    <DocumentPart phd="phd003698.1" sectionId="V211">
+      <phvList>
+        <phvRef variableId="163031"/>
+      </phvList>
+    </DocumentPart>
+    <DocumentPart phd="phd003698.1" sectionId="V218">
+      <phvList>
+        <phvRef variableId="162967"/>
+      </phvList>
+    </DocumentPart>
+    <DocumentPart phd="phd003698.1" sectionId="V22">
+      <phvList>
+        <phvRef variableId="162984"/>
+      </phvList>
+    </DocumentPart>
+    <DocumentPart phd="phd003698.1" sectionId="V220">
+      <phvList>
+        <phvRef variableId="162976"/>
+      </phvList>
+    </DocumentPart>
+    <DocumentPart phd="phd003698.1" sectionId="V221">
+      <phvList>
+        <phvRef variableId="162977"/>
+      </phvList>
+    </DocumentPart>
+    <DocumentPart phd="phd003698.1" sectionId="V232">
+      <phvList>
+        <phvRef variableId="162979"/>
+      </phvList>
+    </DocumentPart>
+    <DocumentPart phd="phd003698.1" sectionId="V233">
+      <phvList>
+        <phvRef variableId="162980"/>
+      </phvList>
+    </DocumentPart>
+    <DocumentPart phd="phd003698.1" sectionId="V235">
+      <phvList>
+        <phvRef variableId="162981"/>
+      </phvList>
+    </DocumentPart>
+    <DocumentPart phd="phd003698.1" sectionId="V236">
+      <phvList>
+        <phvRef variableId="162982"/>
+      </phvList>
+    </DocumentPart>
+    <DocumentPart phd="phd003698.1" sectionId="V238">
+      <phvList>
+        <phvRef variableId="162983"/>
+      </phvList>
+    </DocumentPart>
+    <DocumentPart phd="phd003698.1" sectionId="V239">
+      <phvList>
+        <phvRef variableId="162984"/>
+      </phvList>
+    </DocumentPart>
+    <DocumentPart phd="phd003698.1" sectionId="V24">
+      <phvList>
+        <phvRef variableId="162985"/>
+      </phvList>
+    </DocumentPart>
+    <DocumentPart phd="phd003698.1" sectionId="V241">
+      <phvList>
+        <phvRef variableId="162985"/>
+      </phvList>
+    </DocumentPart>
+    <DocumentPart phd="phd003698.1" sectionId="V242">
+      <phvList>
+        <phvRef variableId="162986"/>
+      </phvList>
+    </DocumentPart>
+    <DocumentPart phd="phd003698.1" sectionId="V244">
+      <phvList>
+        <phvRef variableId="162987"/>
+      </phvList>
+    </DocumentPart>
+    <DocumentPart phd="phd003698.1" sectionId="V245">
+      <phvList>
+        <phvRef variableId="162988"/>
+      </phvList>
+    </DocumentPart>
+    <DocumentPart phd="phd003698.1" sectionId="V246">
+      <phvList>
+        <phvRef variableId="162978"/>
+      </phvList>
+    </DocumentPart>
+    <DocumentPart phd="phd003698.1" sectionId="V25">
+      <phvList>
+        <phvRef variableId="162986"/>
+      </phvList>
+    </DocumentPart>
+    <DocumentPart phd="phd003698.1" sectionId="V250">
+      <phvList>
+        <phvRef variableId="163005"/>
+      </phvList>
+    </DocumentPart>
+    <DocumentPart phd="phd003698.1" sectionId="V252">
+      <phvList>
+        <phvRef variableId="163006"/>
+      </phvList>
+    </DocumentPart>
+    <DocumentPart phd="phd003698.1" sectionId="V253">
+      <phvList>
+        <phvRef variableId="163007"/>
+      </phvList>
+    </DocumentPart>
+    <DocumentPart phd="phd003698.1" sectionId="V254">
+      <phvList>
+        <phvRef variableId="163008"/>
+      </phvList>
+    </DocumentPart>
+    <DocumentPart phd="phd003698.1" sectionId="V256">
+      <phvList>
+        <phvRef variableId="163019"/>
+      </phvList>
+    </DocumentPart>
+    <DocumentPart phd="phd003698.1" sectionId="V257">
+      <phvList>
+        <phvRef variableId="163020"/>
+      </phvList>
+    </DocumentPart>
+    <DocumentPart phd="phd003698.1" sectionId="V27">
+      <phvList>
+        <phvRef variableId="162987"/>
+      </phvList>
+    </DocumentPart>
+    <DocumentPart phd="phd003698.1" sectionId="V28">
+      <phvList>
+        <phvRef variableId="162988"/>
+      </phvList>
+    </DocumentPart>
+    <DocumentPart phd="phd003698.1" sectionId="V29">
+      <phvList>
+        <phvRef variableId="162978"/>
+      </phvList>
+    </DocumentPart>
+    <DocumentPart phd="phd003698.1" sectionId="V31">
+      <phvList>
+        <phvRef variableId="162989"/>
+      </phvList>
+    </DocumentPart>
+    <DocumentPart phd="phd003698.1" sectionId="V32">
+      <phvList>
+        <phvRef variableId="162990"/>
+      </phvList>
+    </DocumentPart>
+    <DocumentPart phd="phd003698.1" sectionId="V39">
+      <phvList>
+        <phvRef variableId="162991"/>
+      </phvList>
+    </DocumentPart>
+    <DocumentPart phd="phd003698.1" sectionId="V46">
+      <phvList>
+        <phvRef variableId="162992"/>
+      </phvList>
+    </DocumentPart>
+    <DocumentPart phd="phd003698.1" sectionId="V5">
+      <phvList>
+        <phvRef variableId="162976"/>
+      </phvList>
+    </DocumentPart>
+    <DocumentPart phd="phd003698.1" sectionId="V54">
+      <phvList>
+        <phvRef variableId="162993"/>
+      </phvList>
+    </DocumentPart>
+    <DocumentPart phd="phd003698.1" sectionId="V55">
+      <phvList>
+        <phvRef variableId="162994"/>
+      </phvList>
+    </DocumentPart>
+    <DocumentPart phd="phd003698.1" sectionId="V56">
+      <phvList>
+        <phvRef variableId="162995"/>
+      </phvList>
+    </DocumentPart>
+    <DocumentPart phd="phd003698.1" sectionId="V57">
+      <phvList>
+        <phvRef variableId="162996"/>
+      </phvList>
+    </DocumentPart>
+    <DocumentPart phd="phd003698.1" sectionId="V58">
+      <phvList>
+        <phvRef variableId="162997"/>
+      </phvList>
+    </DocumentPart>
+    <DocumentPart phd="phd003698.1" sectionId="V61">
+      <phvList>
+        <phvRef variableId="162998"/>
+      </phvList>
+    </DocumentPart>
+    <DocumentPart phd="phd003698.1" sectionId="V62">
+      <phvList>
+        <phvRef variableId="162999"/>
+      </phvList>
+    </DocumentPart>
+    <DocumentPart phd="phd003698.1" sectionId="V63">
+      <phvList>
+        <phvRef variableId="163000"/>
+      </phvList>
+    </DocumentPart>
+    <DocumentPart phd="phd003698.1" sectionId="V64">
+      <phvList>
+        <phvRef variableId="163001"/>
+      </phvList>
+    </DocumentPart>
+    <DocumentPart phd="phd003698.1" sectionId="V65">
+      <phvList>
+        <phvRef variableId="163002"/>
+      </phvList>
+    </DocumentPart>
+    <DocumentPart phd="phd003698.1" sectionId="V66">
+      <phvList>
+        <phvRef variableId="163003"/>
+      </phvList>
+    </DocumentPart>
+    <DocumentPart phd="phd003698.1" sectionId="V67">
+      <phvList>
+        <phvRef variableId="163004"/>
+      </phvList>
+    </DocumentPart>
+    <DocumentPart phd="phd003698.1" sectionId="V68">
+      <phvList>
+        <phvRef variableId="163005"/>
+      </phvList>
+    </DocumentPart>
+    <DocumentPart phd="phd003698.1" sectionId="V70">
+      <phvList>
+        <phvRef variableId="163006"/>
+      </phvList>
+    </DocumentPart>
+    <DocumentPart phd="phd003698.1" sectionId="V71">
+      <phvList>
+        <phvRef variableId="163007"/>
+      </phvList>
+    </DocumentPart>
+    <DocumentPart phd="phd003698.1" sectionId="V72">
+      <phvList>
+        <phvRef variableId="163008"/>
+      </phvList>
+    </DocumentPart>
+    <DocumentPart phd="phd003698.1" sectionId="V8">
+      <phvList>
+        <phvRef variableId="162977"/>
+      </phvList>
+    </DocumentPart>
+    <DocumentPart phd="phd003698.1" sectionId="V80">
+      <phvList>
+        <phvRef variableId="163013"/>
+      </phvList>
+    </DocumentPart>
+    <DocumentPart phd="phd003698.1" sectionId="V85">
+      <phvList>
+        <phvRef variableId="163014"/>
+      </phvList>
+    </DocumentPart>
+    <DocumentPart phd="phd003698.1" sectionId="V88">
+      <phvList>
+        <phvRef variableId="163019"/>
+      </phvList>
+    </DocumentPart>
+    <DocumentPart phd="phd003698.1" sectionId="V89">
+      <phvList>
+        <phvRef variableId="163020"/>
+      </phvList>
+    </DocumentPart>
+    <DocumentPart phd="phd003698.1" sectionId="V92">
+      <phvList>
+        <phvRef variableId="163021"/>
+      </phvList>
+    </DocumentPart>
+    <DocumentPart phd="phd003698.1" sectionId="V93">
+      <phvList>
+        <phvRef variableId="163022"/>
+      </phvList>
+    </DocumentPart>
+    <DocumentPart phd="phd003698.1" sectionId="V94">
+      <phvList>
+        <phvRef variableId="163023"/>
+      </phvList>
+    </DocumentPart>
+    <DocumentPart phd="phd003698.1" sectionId="V95">
+      <phvList>
+        <phvRef variableId="163024"/>
+      </phvList>
+    </DocumentPart>
+    <DocumentPart phd="phd003698.1" sectionId="V96">
+      <phvList>
+        <phvRef variableId="163025"/>
+      </phvList>
+    </DocumentPart>
+    <DocumentPart phd="phd003698.1" sectionId="V98">
+      <phvList>
+        <phvRef variableId="163026"/>
+      </phvList>
+    </DocumentPart>
+    <DocumentPart phd="phd003698.1" sectionId="V99">
+      <phvList>
+        <phvRef variableId="163027"/>
+      </phvList>
+    </DocumentPart>
+    <DocumentPart phd="phd003698.1" sectionId="sec1">
+      <phvList>
+        <phvRef variableId="162975"/>
+      </phvList>
+    </DocumentPart>
+    <DocumentPart phd="phd003698.1" sectionId="sec15">
+      <phvList>
+        <phvRef variableId="162975"/>
+      </phvList>
+    </DocumentPart>
+    <DocumentPart phd="phd003698.1" sectionId="sec8">
+      <phvList>
+        <phvRef variableId="162975"/>
+      </phvList>
+    </DocumentPart>
+    <DocumentPart phd="phd003699.1" sectionId="g10">
+      <phvList>
+        <phvRef variableId="163005"/>
+      </phvList>
+    </DocumentPart>
+    <DocumentPart phd="phd003699.1" sectionId="g13">
+      <phvList>
+        <phvRef variableId="163005"/>
+      </phvList>
+    </DocumentPart>
+    <DocumentPart phd="phd003699.1" sectionId="g14">
+      <phvList>
+        <phvRef variableId="163025"/>
+      </phvList>
+    </DocumentPart>
+    <DocumentPart phd="phd003699.1" sectionId="g16">
+      <phvList>
+        <phvRef variableId="162978"/>
+        <phvRef variableId="162979"/>
+        <phvRef variableId="162980"/>
+      </phvList>
+    </DocumentPart>
+    <DocumentPart phd="phd003699.1" sectionId="g17">
+      <phvList>
+        <phvRef variableId="163031"/>
+      </phvList>
+    </DocumentPart>
+    <DocumentPart phd="phd003699.1" sectionId="g18">
+      <phvList>
+        <phvRef variableId="163027"/>
+      </phvList>
+    </DocumentPart>
+    <DocumentPart phd="phd003699.1" sectionId="g2">
+      <phvList>
+        <phvRef variableId="163023"/>
+      </phvList>
+    </DocumentPart>
+    <DocumentPart phd="phd003699.1" sectionId="g20">
+      <phvList>
+        <phvRef variableId="163024"/>
+      </phvList>
+    </DocumentPart>
+    <DocumentPart phd="phd003699.1" sectionId="g22">
+      <phvList>
+        <phvRef variableId="163005"/>
+      </phvList>
+    </DocumentPart>
+    <DocumentPart phd="phd003699.1" sectionId="g24">
+      <phvList>
+        <phvRef variableId="163030"/>
+      </phvList>
+    </DocumentPart>
+    <DocumentPart phd="phd003699.1" sectionId="g25">
+      <phvList>
+        <phvRef variableId="163028"/>
+      </phvList>
+    </DocumentPart>
+    <DocumentPart phd="phd003699.1" sectionId="g8">
+      <phvList>
+        <phvRef variableId="163029"/>
+      </phvList>
+    </DocumentPart>
+    <DocumentPart phd="phd003699.1" sectionId="g9">
+      <phvList>
+        <phvRef variableId="163026"/>
+      </phvList>
+    </DocumentPart>
+    <DocumentPart phd="phd003699.1" sectionId="li101">
+      <phvList>
+        <phvRef variableId="162967"/>
+      </phvList>
+    </DocumentPart>
+    <DocumentPart phd="phd003699.1" sectionId="li101a">
+      <phvList>
+        <phvRef variableId="162976"/>
+      </phvList>
+    </DocumentPart>
+    <DocumentPart phd="phd003699.1" sectionId="li102">
+      <phvList>
+        <phvRef variableId="162977"/>
+      </phvList>
+    </DocumentPart>
+    <DocumentPart phd="phd003699.1" sectionId="li103">
+      <phvList>
+        <phvRef variableId="162979"/>
+      </phvList>
+    </DocumentPart>
+    <DocumentPart phd="phd003699.1" sectionId="li104">
+      <phvList>
+        <phvRef variableId="162980"/>
+      </phvList>
+    </DocumentPart>
+    <DocumentPart phd="phd003699.1" sectionId="li105">
+      <phvList>
+        <phvRef variableId="162978"/>
+      </phvList>
+    </DocumentPart>
+    <DocumentPart phd="phd003699.1" sectionId="li106">
+      <phvList>
+        <phvRef variableId="162989"/>
+      </phvList>
+    </DocumentPart>
+    <DocumentPart phd="phd003699.1" sectionId="li107">
+      <phvList>
+        <phvRef variableId="162990"/>
+      </phvList>
+    </DocumentPart>
+    <DocumentPart phd="phd003699.1" sectionId="li30">
+      <phvList>
+        <phvRef variableId="163009"/>
+      </phvList>
+    </DocumentPart>
+    <DocumentPart phd="phd003699.1" sectionId="li31">
+      <phvList>
+        <phvRef variableId="163010"/>
+      </phvList>
+    </DocumentPart>
+    <DocumentPart phd="phd003699.1" sectionId="li32">
+      <phvList>
+        <phvRef variableId="163011"/>
+      </phvList>
+    </DocumentPart>
+    <DocumentPart phd="phd003699.1" sectionId="li33">
+      <phvList>
+        <phvRef variableId="163012"/>
+      </phvList>
+    </DocumentPart>
+    <DocumentPart phd="phd003699.1" sectionId="li34">
+      <phvList>
+        <phvRef variableId="163013"/>
+      </phvList>
+    </DocumentPart>
+    <DocumentPart phd="phd003699.1" sectionId="li35">
+      <phvList>
+        <phvRef variableId="163015"/>
+      </phvList>
+    </DocumentPart>
+    <DocumentPart phd="phd003699.1" sectionId="li36">
+      <phvList>
+        <phvRef variableId="163016"/>
+      </phvList>
+    </DocumentPart>
+    <DocumentPart phd="phd003699.1" sectionId="li37">
+      <phvList>
+        <phvRef variableId="163017"/>
+      </phvList>
+    </DocumentPart>
+    <DocumentPart phd="phd003699.1" sectionId="li38">
+      <phvList>
+        <phvRef variableId="163014"/>
+      </phvList>
+    </DocumentPart>
+    <DocumentPart phd="phd003699.1" sectionId="li39">
+      <phvList>
+        <phvRef variableId="163018"/>
+      </phvList>
+    </DocumentPart>
+    <DocumentPart phd="phd003699.1" sectionId="li40">
+      <phvList>
+        <phvRef variableId="163019"/>
+      </phvList>
+    </DocumentPart>
+    <DocumentPart phd="phd003699.1" sectionId="li50">
+      <phvList>
+        <phvRef variableId="163021"/>
+      </phvList>
+    </DocumentPart>
+    <DocumentPart phd="phd003699.1" sectionId="li51">
+      <phvList>
+        <phvRef variableId="163022"/>
+      </phvList>
+    </DocumentPart>
+    <DocumentPart phd="phd003699.1" sectionId="li52">
+      <phvList>
+        <phvRef variableId="163023"/>
+      </phvList>
+    </DocumentPart>
+    <DocumentPart phd="phd003699.1" sectionId="li53">
+      <phvList>
+        <phvRef variableId="163024"/>
+      </phvList>
+    </DocumentPart>
+    <DocumentPart phd="phd003699.1" sectionId="li54">
+      <phvList>
+        <phvRef variableId="163025"/>
+      </phvList>
+    </DocumentPart>
+    <DocumentPart phd="phd003699.1" sectionId="li55">
+      <phvList>
+        <phvRef variableId="163026"/>
+      </phvList>
+    </DocumentPart>
+    <DocumentPart phd="phd003699.1" sectionId="li56">
+      <phvList>
+        <phvRef variableId="163027"/>
+      </phvList>
+    </DocumentPart>
+    <DocumentPart phd="phd003699.1" sectionId="li57">
+      <phvList>
+        <phvRef variableId="163028"/>
+      </phvList>
+    </DocumentPart>
+    <DocumentPart phd="phd003699.1" sectionId="li58">
+      <phvList>
+        <phvRef variableId="163029"/>
+      </phvList>
+    </DocumentPart>
+    <DocumentPart phd="phd003699.1" sectionId="li59">
+      <phvList>
+        <phvRef variableId="163030"/>
+      </phvList>
+    </DocumentPart>
+    <DocumentPart phd="phd003699.1" sectionId="li60">
+      <phvList>
+        <phvRef variableId="163031"/>
+      </phvList>
+    </DocumentPart>
+    <DocumentPart phd="phd003699.1" sectionId="li61">
+      <phvList>
+        <phvRef variableId="162967"/>
+      </phvList>
+    </DocumentPart>
+    <DocumentPart phd="phd003699.1" sectionId="li62">
+      <phvList>
+        <phvRef variableId="162976"/>
+      </phvList>
+    </DocumentPart>
+    <DocumentPart phd="phd003699.1" sectionId="li63">
+      <phvList>
+        <phvRef variableId="162977"/>
+      </phvList>
+    </DocumentPart>
+    <DocumentPart phd="phd003699.1" sectionId="li64">
+      <phvList>
+        <phvRef variableId="162979"/>
+      </phvList>
+    </DocumentPart>
+    <DocumentPart phd="phd003699.1" sectionId="li65">
+      <phvList>
+        <phvRef variableId="162980"/>
+      </phvList>
+    </DocumentPart>
+    <DocumentPart phd="phd003699.1" sectionId="li66">
+      <phvList>
+        <phvRef variableId="162978"/>
+      </phvList>
+    </DocumentPart>
+    <DocumentPart phd="phd003699.1" sectionId="li68">
+      <phvList>
+        <phvRef variableId="163005"/>
+      </phvList>
+    </DocumentPart>
+    <DocumentPart phd="phd003699.1" sectionId="li69">
+      <phvList>
+        <phvRef variableId="163006"/>
+        <phvRef variableId="163007"/>
+      </phvList>
+    </DocumentPart>
+    <DocumentPart phd="phd003699.1" sectionId="li70a">
+      <phvList>
+        <phvRef variableId="163019"/>
+        <phvRef variableId="163020"/>
+      </phvList>
+    </DocumentPart>
+    <DocumentPart phd="phd003699.1" sectionId="lia">
+      <phvList>
+        <phvRef variableId="163005"/>
+        <phvRef variableId="163006"/>
+        <phvRef variableId="163007"/>
+        <phvRef variableId="163008"/>
+      </phvList>
+    </DocumentPart>
+    <DocumentPart phd="phd003699.1" sectionId="lib">
+      <phvList>
+        <phvRef variableId="163005"/>
+        <phvRef variableId="163006"/>
+        <phvRef variableId="163007"/>
+        <phvRef variableId="163008"/>
+      </phvList>
+    </DocumentPart>
+    <DocumentPart phd="phd003699.1" sectionId="lic">
+      <phvList>
+        <phvRef variableId="163008"/>
+      </phvList>
+    </DocumentPart>
+    <DocumentPart phd="phd003699.1" sectionId="pr1">
+      <phvList>
+        <phvRef variableId="162991"/>
+      </phvList>
+    </DocumentPart>
+    <DocumentPart phd="phd003699.1" sectionId="pr2">
+      <phvList>
+        <phvRef variableId="162992"/>
+      </phvList>
+    </DocumentPart>
+    <DocumentPart phd="phd003699.1" sectionId="pr20">
+      <phvList>
+        <phvRef variableId="163020"/>
+      </phvList>
+    </DocumentPart>
+    <DocumentPart phd="phd003699.1" sectionId="pr200">
+      <phvList>
+        <phvRef variableId="162991"/>
+        <phvRef variableId="162992"/>
+      </phvList>
+    </DocumentPart>
+    <DocumentPart phd="phd003699.1" sectionId="pr201">
+      <phvList>
+        <phvRef variableId="162993"/>
+        <phvRef variableId="162994"/>
+        <phvRef variableId="162995"/>
+        <phvRef variableId="162996"/>
+        <phvRef variableId="162997"/>
+      </phvList>
+    </DocumentPart>
+    <DocumentPart phd="phd003699.1" sectionId="pr202">
+      <phvList>
+        <phvRef variableId="162998"/>
+        <phvRef variableId="162999"/>
+        <phvRef variableId="163000"/>
+        <phvRef variableId="163001"/>
+        <phvRef variableId="163002"/>
+      </phvList>
+    </DocumentPart>
+    <DocumentPart phd="phd003699.1" sectionId="pr203">
+      <phvList>
+        <phvRef variableId="163003"/>
+        <phvRef variableId="163004"/>
+      </phvList>
+    </DocumentPart>
+    <DocumentPart phd="phd003699.1" sectionId="pr3">
+      <phvList>
+        <phvRef variableId="163003"/>
+        <phvRef variableId="163004"/>
+      </phvList>
+    </DocumentPart>
+    <DocumentPart phd="phd003699.1" sectionId="pr4">
+      <phvList>
+        <phvRef variableId="162994"/>
+        <phvRef variableId="162995"/>
+        <phvRef variableId="162996"/>
+        <phvRef variableId="162997"/>
+        <phvRef variableId="162998"/>
+      </phvList>
+    </DocumentPart>
+    <DocumentPart phd="phd003699.1" sectionId="pr5">
+      <phvList>
+        <phvRef variableId="163009"/>
+        <phvRef variableId="163010"/>
+        <phvRef variableId="163011"/>
+        <phvRef variableId="163012"/>
+      </phvList>
+    </DocumentPart>
+    <DocumentPart phd="phd003699.1" sectionId="pr6">
+      <phvList>
+        <phvRef variableId="163013"/>
+        <phvRef variableId="163014"/>
+        <phvRef variableId="163015"/>
+        <phvRef variableId="163016"/>
+        <phvRef variableId="163017"/>
+        <phvRef variableId="163018"/>
+        <phvRef variableId="163019"/>
+        <phvRef variableId="163020"/>
+      </phvList>
+    </DocumentPart>
+    <DocumentPart phd="phd003699.1" sectionId="pr7">
+      <phvList>
+        <phvRef variableId="163021"/>
+        <phvRef variableId="163022"/>
+        <phvRef variableId="163023"/>
+        <phvRef variableId="163024"/>
+        <phvRef variableId="163025"/>
+        <phvRef variableId="163026"/>
+        <phvRef variableId="163027"/>
+        <phvRef variableId="163028"/>
+        <phvRef variableId="163029"/>
+        <phvRef variableId="163030"/>
+        <phvRef variableId="163031"/>
+      </phvList>
+    </DocumentPart>
+    <DocumentPart phd="phd003699.1" sectionId="sec5">
+      <phvList>
+        <phvRef variableId="162975"/>
+      </phvList>
+    </DocumentPart>
+    <DocumentPart phd="phd003699.1" sectionId="sec6">
+      <phvList>
+        <phvRef variableId="162975"/>
+      </phvList>
+    </DocumentPart>
+  </Annotations>
+
+
+
+</Study>
+
+</Studies>
+
+</GaPExchange>

@@ -1,0 +1,388 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./datadict_v2.xsl"?>
+<data_table id="pht000232.v1" study_id="phs000086.v1" participant_set="1" date_created="Thu Jan 29 15:38:38 2009">
+
+<variable id="phv00027934.v1">
+	<name>arrhythm</name>
+	<description>Summary: other arrhythmias</description>
+	<type>str38</type>
+	<unit>SUMMARY/OTHER ARRHYTHMIAS</unit>
+</variable>
+
+<variable id="phv00027930.v1">
+	<name>av_defct</name>
+	<description>Summary: AV conduction defects</description>
+	<type>str28</type>
+	<unit>SUMMARY/AV CONDUCTION DEFECT</unit>
+</variable>
+
+<variable id="phv00027957.v1">
+	<name>bdarr1</name>
+	<description>Arrhythmia: Minnesota code 8-1-x</description>
+	<type>byte</type>
+	<unit>MINNESOTA CODE/ARRHYTHMIA</unit>
+</variable>
+
+<variable id="phv00027958.v1">
+	<name>bdarr2</name>
+	<description>Arrhythmia: Minnesota code 8-2-x</description>
+	<type>byte</type>
+	<unit>MINNESOTA CODE/ARRHYTHMIA</unit>
+</variable>
+
+<variable id="phv00027959.v1">
+	<name>bdarr3</name>
+	<description>Arrhythmia: Minnesota code 8-3-x</description>
+	<type>byte</type>
+	<unit>MINNESOTA CODE/ARRHYTHMIA</unit>
+</variable>
+
+<variable id="phv00027960.v1">
+	<name>bdarr4</name>
+	<description>Arrhythmia: Minnesota code 8-4-x</description>
+	<type>byte</type>
+	<unit>MINNESOTA CODE/ARRHYTHMIA</unit>
+</variable>
+
+<variable id="phv00027961.v1">
+	<name>bdarr5</name>
+	<description>Arrhythmia: Minnesota code 8-5-x</description>
+	<type>byte</type>
+	<unit>MINNESOTA CODE/ARRHYTHMIA</unit>
+</variable>
+
+<variable id="phv00027962.v1">
+	<name>bdarr6</name>
+	<description>Arrhythmia: Minnesota code 8-6-x</description>
+	<type>byte</type>
+	<unit>MINNESOTA CODE/ARRHYTHMIA</unit>
+</variable>
+
+<variable id="phv00027955.v1">
+	<name>bdavcd</name>
+	<description>A-V conduction defect: Minnesota code 6-x-x</description>
+	<type>byte</type>
+	<unit>MINNESOTA CODE/A-V CONDUCTION DEFECT</unit>
+</variable>
+
+<variable id="phv00027978.v1">
+	<name>bdclear</name>
+	<description>Clear ECG: no Minnesota code found (1 = y)</description>
+	<type>byte</type>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+	<value code="2">ERROR/UNKNOWN</value>
+	<value code="6">ERROR VALUE</value>
+	<value code="9">UNKNOWN/ERROR</value>
+</variable>
+
+<variable id="phv00027963.v1">
+	<name>bdec1</name>
+	<description>Ectopic code: supraventricular premature beats</description>
+	<type>byte</type>
+	<unit>SUPRAVENTRICULAR PREMATURE BEATS</unit>
+</variable>
+
+<variable id="phv00027964.v1">
+	<name>bdec2</name>
+	<description>Ectopic code: ventricular premature beats</description>
+	<type>byte</type>
+	<unit>VENTRICULAR PREMATURE BEATS</unit>
+</variable>
+
+<variable id="phv00027965.v1">
+	<name>bdec3</name>
+	<description>Ectopic code: run or bigemeny</description>
+	<type>byte</type>
+	<unit>RUN OR BIGEMENY</unit>
+</variable>
+
+<variable id="phv00027966.v1">
+	<name>bdec4</name>
+	<description>Ectopic code: multi-form</description>
+	<type>byte</type>
+	<unit>MULTI-FORM</unit>
+</variable>
+
+<variable id="phv00027967.v1">
+	<name>bdec5</name>
+	<description>Ectopic code: T-R wave items</description>
+	<type>byte</type>
+	<unit>T-R WAVE ITEMS</unit>
+</variable>
+
+<variable id="phv00027939.v1">
+	<name>bdhrate</name>
+	<description>Heart rate</description>
+	<type>int</type>
+	<unit>BEATS/MINUTE</unit>
+</variable>
+
+<variable id="phv00027968.v1">
+	<name>bdmisc1</name>
+	<description>Miscellaneous items: Minnesota code 9-1</description>
+	<type>byte</type>
+	<unit>MINNESOTA CODE/MISCELLANEOUS ITEMS</unit>
+</variable>
+
+<variable id="phv00027969.v1">
+	<name>bdmisc2</name>
+	<description>Miscellaneous items: Minnesota code 9-3</description>
+	<type>byte</type>
+	<unit>MINNESOTA CODE/MISCELLANEOUS ITEMS</unit>
+</variable>
+
+<variable id="phv00027970.v1">
+	<name>bdmisc3</name>
+	<description>Miscellaneous items: Minnesota code 9-5</description>
+	<type>byte</type>
+	<unit>MINNESOTA CODE/MISCELLANEOUS ITEMS</unit>
+</variable>
+
+<variable id="phv00027971.v1">
+	<name>bdmisc4</name>
+	<description>Miscellaneous items: Minnesota code 9-4-x</description>
+	<type>byte</type>
+	<unit>MINNESOTA CODE/MISCELLANEOUS ITEMS</unit>
+</variable>
+
+<variable id="phv00027972.v1">
+	<name>bdmrh1</name>
+	<description>Maximum R height (mm), leads i, ii, iii</description>
+	<type>byte</type>
+	<unit>MM</unit>
+</variable>
+
+<variable id="phv00027973.v1">
+	<name>bdmrh2</name>
+	<description>Maximum R height (mm), leads v4, v5, v6</description>
+	<type>byte</type>
+	<unit>MM</unit>
+</variable>
+
+<variable id="phv00027974.v1">
+	<name>bdmsd1</name>
+	<description>Maximum S depth (mm), leads i, ii, iii</description>
+	<type>byte</type>
+	<unit>MM</unit>
+</variable>
+
+<variable id="phv00027975.v1">
+	<name>bdmsd2</name>
+	<description>Maximum S depth (mm), leads v1, v2, v3</description>
+	<type>byte</type>
+	<unit>MM</unit>
+</variable>
+
+<variable id="phv00027942.v1">
+	<name>bdqqs1</name>
+	<description>Q/QS patterns: code 1-x-x (i avl v6)</description>
+	<type>byte</type>
+	<unit>MINNESOTA CODE/Q-QS PATTERNS</unit>
+</variable>
+
+<variable id="phv00027943.v1">
+	<name>bdqqs2</name>
+	<description>Q/QS patterns: code 1-x-x (2 3 avf)</description>
+	<type>byte</type>
+	<unit>MINNESOTA CODE/Q-QS PATTERNS</unit>
+</variable>
+
+<variable id="phv00027944.v1">
+	<name>bdqqs3</name>
+	<description>Q/QS patterns: Minnesota code 1-x-x (v1-v5)</description>
+	<type>byte</type>
+	<unit>MINNESOTA CODE/Q-QS PATTERNS</unit>
+</variable>
+
+<variable id="phv00027940.v1">
+	<name>bdqrs</name>
+	<description>Q-S axis (degrees)</description>
+	<type>int</type>
+	<unit>DEGREES</unit>
+</variable>
+
+<variable id="phv00027954.v1">
+	<name>bdr3x</name>
+	<description>High-amplitude R wave: Minnesota code 3-x</description>
+	<type>byte</type>
+	<unit>MINNESOTA CODE/R-WAVE</unit>
+</variable>
+
+<variable id="phv00027976.v1">
+	<name>bdrh</name>
+	<description>R-wave height (mm), AVL lead</description>
+	<type>byte</type>
+	<unit>MM</unit>
+</variable>
+
+<variable id="phv00027945.v1">
+	<name>bdstsd1</name>
+	<description>S-T segment depression (4-x-x): i avl v6</description>
+	<type>byte</type>
+	<unit>MINNESOTA CODE/S-T SEGMENT</unit>
+</variable>
+
+<variable id="phv00027946.v1">
+	<name>bdstsd2</name>
+	<description>S-T segment depression (4-x-x): 2 3 avf</description>
+	<type>byte</type>
+	<unit>MINNESOTA CODE/S-T SEGMENT</unit>
+</variable>
+
+<variable id="phv00027947.v1">
+	<name>bdstsd3</name>
+	<description>S-T segment depression (4-x-x): v1-v5</description>
+	<type>byte</type>
+	<unit>MINNESOTA CODE/S-T SEGMENT</unit>
+</variable>
+
+<variable id="phv00027951.v1">
+	<name>bdstse1</name>
+	<description>S-T segment elevation (9-2-x): i avl v6</description>
+	<type>byte</type>
+	<unit>MINNESOTA CODE/S-T SEGMENT</unit>
+</variable>
+
+<variable id="phv00027952.v1">
+	<name>bdstse2</name>
+	<description>S-T segment elevation (9-2-x): 2, 3, avf</description>
+	<type>byte</type>
+	<unit>MINNESOTA CODE/S-T SEGMENT</unit>
+</variable>
+
+<variable id="phv00027953.v1">
+	<name>bdstse3</name>
+	<description>S-T segment elevation (9-2-x): v1-v5</description>
+	<type>byte</type>
+	<unit>MINNESOTA CODE/S-T SEGMENT</unit>
+</variable>
+
+<variable id="phv00027941.v1">
+	<name>bdth</name>
+	<description>T-wave height (mm), lead v5</description>
+	<type>int</type>
+	<unit>MM</unit>
+</variable>
+
+<variable id="phv00027977.v1">
+	<name>bdtp</name>
+	<description>Technical problem: 1=severe, 2=ECG codable</description>
+	<type>byte</type>
+	<value code="0">MISSING/ERROR VALUE</value>
+	<value code="1">SEVERE</value>
+	<value code="2">ECG CODABLE</value>
+	<value code="3">MISSING/ERROR VALUE</value>
+</variable>
+
+<variable id="phv00027948.v1">
+	<name>bdtwi1</name>
+	<description>T-wave items, Minnesota code 5-x: i avl v6</description>
+	<type>byte</type>
+	<unit>MINNESOTA CODE/T-WAVE</unit>
+</variable>
+
+<variable id="phv00027949.v1">
+	<name>bdtwi2</name>
+	<description>T-wave items, Minnesota code 5-x: 2, 3, avf</description>
+	<type>byte</type>
+	<unit>MINNESOTA CODE/T-WAVE</unit>
+</variable>
+
+<variable id="phv00027950.v1">
+	<name>bdtwi3</name>
+	<description>T-wave items, Minnesota code 5-x: v2-v5</description>
+	<type>byte</type>
+	<unit>MINNESOTA CODE/T-WAVE</unit>
+</variable>
+
+<variable id="phv00027956.v1">
+	<name>bdvcd</name>
+	<description>Ventricular conduction defect: Minnesota code 7-x-x</description>
+	<type>byte</type>
+	<unit>MINNESOTA CODE/VENTRICULAR CONDUCTION DEFECT</unit>
+</variable>
+
+<variable id="phv00027938.v1">
+	<name>form</name>
+	<description>DCCT form number</description>
+	<type>int</type>
+	<unit>FORM NUMBER</unit>
+</variable>
+
+<variable id="phv00027937.v1">
+	<name>fsasdate</name>
+	<description>ECG grading date as SAS date value</description>
+	<type>long</type>
+</variable>
+
+<variable id="phv00027936.v1">
+	<name>maj_abn</name>
+	<description>Summary: any major abnormality</description>
+	<type>str3</type>
+	<unit>SUMMARY/MAJOR ABNORMALITY</unit>
+</variable>
+
+<variable id="phv00027979.v1">
+	<name>mask_pat</name>
+	<description>Masked patient ID number</description>
+	<type>int</type>
+</variable>
+
+<variable id="phv00027933.v1">
+	<name>miscell</name>
+	<description>Summary: miscellaneous items</description>
+	<type>str36</type>
+	<unit>SUMMARY/MISCELLANEOUS ITEMS</unit>
+</variable>
+
+<variable id="phv00027932.v1">
+	<name>prematur</name>
+	<description>Summary: premature complexes</description>
+	<type>str36</type>
+	<unit>SUMMARY/PREMATURE COMPLEXES</unit>
+</variable>
+
+<variable id="phv00027926.v1">
+	<name>qqs_patt</name>
+	<description>Summary: Q/QS patterns</description>
+	<type>str25</type>
+	<unit>SUMMARY/Q-QS PATTERNS</unit>
+</variable>
+
+<variable id="phv00027929.v1">
+	<name>rwave</name>
+	<description>Summary: high-amplitude R waves</description>
+	<type>str31</type>
+	<unit>SUMMARY/HIGH-AMPLITUDE R WAVES</unit>
+</variable>
+
+<variable id="phv00027928.v1">
+	<name>st_depr</name>
+	<description>Summary: S-T depression</description>
+	<type>str29</type>
+	<unit>SUMMARY/S-T DEPRESSION</unit>
+</variable>
+
+<variable id="phv00027935.v1">
+	<name>st_elev</name>
+	<description>Summary: S-T elevation</description>
+	<type>str3</type>
+	<unit>SUMMARY/S-T ELEVATION</unit>
+</variable>
+
+<variable id="phv00027927.v1">
+	<name>twave</name>
+	<description>Summary: T-wave findings</description>
+	<type>str16</type>
+	<unit>SUMMARY/T-WAVES</unit>
+</variable>
+
+<variable id="phv00027931.v1">
+	<name>vent_def</name>
+	<description>Summary: ventricular conduction defects</description>
+	<type>str30</type>
+	<unit>SUMMARY/VENTRICULAR CONDUCTION DEFECTS</unit>
+</variable>
+
+</data_table>

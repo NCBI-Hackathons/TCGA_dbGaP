@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./datadict_v2.xsl"?>
+<data_table id="pht000352.v1" study_id="phs000086.v1" participant_set="1" date_created="Thu Jan 29 15:38:14 2009">
+
+<variable id="phv00051474.v1">
+	<name>clinic</name>
+	<description>A1. Identifying information. De-identified EDIC clinic number</description>
+	<type>byte</type>
+</variable>
+
+<variable id="phv00051473.v1">
+	<name>form</name>
+	<description>EDIC form number</description>
+	<type>int</type>
+</variable>
+
+<variable id="phv00051491.v1">
+	<name>fsasdate</name>
+	<description>A4. Identifying information. De-identified date form completed</description>
+	<type>int</type>
+</variable>
+
+<variable id="phv00051493.v1">
+	<name>idb1adat</name>
+	<description>B1a. Recognition event. De-identified date of occurrence</description>
+	<type>int</type>
+</variable>
+
+<variable id="phv00051475.v1">
+	<name>idb1b</name>
+	<description>B1b. Recognition event: check here if date uncertain</description>
+	<type>byte</type>
+	<value code="1">Date uncertain</value>
+</variable>
+
+<variable id="phv00051494.v1">
+	<name>idb2dat</name>
+	<description>B2. Recognition event. De-identified date clinic learned of the event</description>
+	<type>int</type>
+</variable>
+
+<variable id="phv00051476.v1">
+	<name>idb3</name>
+	<description>B3. Recognition event. How did clinic learn of the event</description>
+	<type>byte</type>
+	<value code="1">Annual medical history and physical exam</value>
+	<value code="2">Telephone call</value>
+	<value code="3">Patient/family notified clinic</value>
+	<value code="4">Third party notified clinic</value>
+	<value code="5">Clinic recognized event and informed patient</value>
+</variable>
+
+<variable id="phv00051477.v1">
+	<name>idc1a</name>
+	<description>C1a. Nature of event. Was the patient treated by: psychiatric social worker</description>
+	<type>byte</type>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+</variable>
+
+<variable id="phv00051478.v1">
+	<name>idc1b</name>
+	<description>C1b. Nature of event. Was the patient treated by: psychologist</description>
+	<type>byte</type>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+</variable>
+
+<variable id="phv00051479.v1">
+	<name>idc1c</name>
+	<description>C1c. Nature of event. Was the patient treated by: psychiatrist</description>
+	<type>byte</type>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+</variable>
+
+<variable id="phv00051480.v1">
+	<name>idc1d</name>
+	<description>C1d. Nature of event. Was the patient treated by: other</description>
+	<type>byte</type>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+</variable>
+
+<variable id="phv00051481.v1">
+	<name>idc1doth</name>
+	<description>C1d. Nature of event. Was the patient treated by: specify:</description>
+	<type>str20</type>
+</variable>
+
+<variable id="phv00051482.v1">
+	<name>idc2</name>
+	<description>C2. Nature of event. Patient received outpatient treatment</description>
+	<type>byte</type>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+</variable>
+
+<variable id="phv00051483.v1">
+	<name>idc2a</name>
+	<description>C2a. Nature of event. Patient received outpatient treatment in emergency room</description>
+	<type>byte</type>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+</variable>
+
+<variable id="phv00051484.v1">
+	<name>idc2b</name>
+	<description>C2b. Nature of event. Patient received outpatient treatment in office</description>
+	<type>byte</type>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+</variable>
+
+<variable id="phv00051485.v1">
+	<name>idc2c</name>
+	<description>C2c. Nature of event. Medical/surgical inpatient primary medical problem</description>
+	<type>byte</type>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+</variable>
+
+<variable id="phv00051486.v1">
+	<name>idc2d</name>
+	<description>C2d. Nature of event. Outpatient treatment, other</description>
+	<type>byte</type>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+</variable>
+
+<variable id="phv00051487.v1">
+	<name>idc2doth</name>
+	<description>C2d. Nature of event. Patient received outpatient treatment: specify</description>
+	<type>str20</type>
+</variable>
+
+<variable id="phv00051488.v1">
+	<name>idc3</name>
+	<description>C3. Nature of event. Patient received in-patient treatment</description>
+	<type>byte</type>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+</variable>
+
+<variable id="phv00051489.v1">
+	<name>idc4</name>
+	<description>C4. Nature of event. Using criteria in Diagnostic and Statistical Manual of Mental Disorders</description>
+	<type>byte</type>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+</variable>
+
+<variable id="phv00051490.v1">
+	<name>idcdiagn</name>
+	<description>C4. Nature of event. Specify the diagnosis</description>
+	<type>str40</type>
+</variable>
+
+<variable id="phv00051492.v1">
+	<name>mask_pat</name>
+	<description>A2. Identifying information. De-identified patient ID</description>
+	<type>int</type>
+</variable>
+
+</data_table>

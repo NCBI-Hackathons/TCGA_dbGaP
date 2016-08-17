@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./datadict_v2.xsl"?>
+<data_table id="pht000762.v1" study_id="phs000171.v1" participant_set="1" date_created="Fri Dec 11 14:12:55 2009">
+
+<variable id="phv00072927.v1">
+	<name>SUBJID</name>
+	<description>Subject&#39;s ID</description>
+	<type>integer</type>
+</variable>
+
+<variable id="phv00072928.v1">
+	<name>CASE_CONTROL</name>
+	<description>Type of subject</description>
+	<type>string, encoded values</type>
+	<value code="CASE">Affected subject per Protocol</value>
+	<value code="CNTL">Control subject per Protocol</value>
+</variable>
+
+<variable id="phv00072929.v1">
+	<name>STUDY</name>
+	<description>Study Identifier</description>
+	<type>string</type>
+	<comment>Always RES101833</comment>
+</variable>
+
+<variable id="phv00072930.v1">
+	<name>INVSITE</name>
+	<description>Investigator site ID</description>
+	<type>string</type>
+	<comment>Numeric code identifying the site (for internal use)</comment>
+</variable>
+
+<variable id="phv00072931.v1">
+	<name>INV</name>
+	<description>Investigator&#39;s ID</description>
+	<type>string</type>
+	<comment>Numeric code identifying the investigator (for internal use)</comment>
+</variable>
+
+<variable id="phv00072932.v1">
+	<name>VISIT</name>
+	<description>Visit name</description>
+	<type>string, encoded values</type>
+	<value code="CSA">Common Subject Assessment</value>
+	<value code="ELIGIBILITY">Eligibility questionnaire</value>
+	<value code="BASELINE">Baseline assessment questionnaire</value>
+	<value code="LAB WBC">Lab results</value>
+	<value code="SELF REPORT">Subject completed self report questionnaire</value>
+</variable>
+
+<variable id="phv00072933.v1">
+	<name>VISIT_DATE</name>
+	<description>Visit date</description>
+	<type>date</type>
+	<unit>Year</unit>
+	<comment>Truncated to YYYY</comment>
+</variable>
+
+<variable id="phv00072934.v1">
+	<name>ALCPUS</name>
+	<description>Did you ever in your life drink 5 or more drinks of any kind of alcohol almost every day?</description>
+	<type>string, encoded values</type>
+	<value code="K">Don&#39;t Know</value>
+	<value code="N">No</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00072935.v1">
+	<name>ALCUSE</name>
+	<description>Do you drink alcohol now?</description>
+	<type>string, encoded values</type>
+	<value code="N">No</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00072936.v1">
+	<name>ALCUSMN</name>
+	<description>During the past 30 days, on how many days did you have at least one alcohol drink?</description>
+	<type>string, encoded values</type>
+	<value code="NONE">None</value>
+	<value code="1B5D">1 to 5 days</value>
+	<value code="5B10D">5 to 10 days</value>
+	<value code="&gt;10&lt;DL">more than 10 days, but less than daily</value>
+	<value code="DL">Daily</value>
+</variable>
+
+<variable id="phv00072937.v1">
+	<name>QSMK</name>
+	<description>Subject has quit smoking for this time</description>
+	<type>decimal</type>
+</variable>
+
+<variable id="phv00072938.v1">
+	<name>QSMKU</name>
+	<description>Subject has quit smoking for this time - units</description>
+	<type>string</type>
+	<comment>Always &quot;Y&quot; for years</comment>
+</variable>
+
+<variable id="phv00072939.v1">
+	<name>SBSMK</name>
+	<description>Do you use tobacco products?</description>
+	<type>string, encoded values</type>
+	<value code="F">I don&#39;t smoke now</value>
+	<value code="N">I have never smoked</value>
+	<value code="S">I smoke now</value>
+</variable>
+
+<variable id="phv00072940.v1">
+	<name>SMKDUR</name>
+	<description>Duration of smoking</description>
+	<type>decimal</type>
+</variable>
+
+<variable id="phv00072941.v1">
+	<name>SMKDURU</name>
+	<description>Duration of smoking - units</description>
+	<type>string</type>
+	<comment>Always &quot;Y&quot; for years</comment>
+</variable>
+
+<variable id="phv00072942.v1">
+	<name>SMKNO</name>
+	<description>Number of cigarretes smoked per day</description>
+	<type>integer</type>
+</variable>
+
+<variable id="phv00072943.v1">
+	<name>SMKNOU</name>
+	<description>Number of cigarretes smoked - units</description>
+	<type>string, encoded values</type>
+	<value code="CD">Cigarettes per day</value>
+	<value code="PD">Packs per day</value>
+</variable>
+
+</data_table>

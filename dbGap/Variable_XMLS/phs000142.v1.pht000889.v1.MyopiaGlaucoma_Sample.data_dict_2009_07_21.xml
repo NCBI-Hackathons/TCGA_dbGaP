@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./datadict_v2.xsl"?>
+<data_table id="pht000889.v1" study_id="phs000142.v1" participant_set="1" date_created="Tue Jul 21 13:06:47 2009">
+
+<variable id="phv00076200.v1">
+	<name>SUBJID</name>
+	<description>Subject ID</description>
+	<type>string</type>
+</variable>
+
+<variable id="phv00076201.v1">
+	<name>SAMPID</name>
+	<description>Sample ID</description>
+	<type>string</type>
+</variable>
+
+<variable id="phv00076202.v1">
+	<name>DNA</name>
+	<description>Duplicate sample code</description>
+	<type>integer</type>
+	<value code="1">Primary genotyping</value>
+	<value code="2">Duplicate genotyping</value>
+</variable>
+
+<variable id="phv00076203.v1">
+	<name>IRB</name>
+	<description>Institution Review Board</description>
+	<type>text</type>
+</variable>
+
+<variable id="phv00076205.v1">
+	<name>dna_source</name>
+	<description>DNA source</description>
+	<type>text</type>
+</variable>
+
+<variable id="phv00076206.v1">
+	<name>dna_extmeth</name>
+	<description>DNA extraction method</description>
+	<type>text</type>
+</variable>
+
+<variable id="phv00076207.v1">
+	<name>include</name>
+	<description>Categories of samples to be considered in analysis</description>
+	<type>Integer</type>
+	<value code="0">Include in analysis</value>
+	<value code="1">Non-Caucasian</value>
+	<value code="2">Duplicate</value>
+	<value code="3">Second MZ twin</value>
+	<value code="5">50% related family member</value>
+</variable>
+
+</data_table>

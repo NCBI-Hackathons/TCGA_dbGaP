@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./datadict_v2.xsl"?>
+<data_table id="pht001084.v1" study_id="phs000219.v1" participant_set="1" date_created="Tue Jan 19 13:07:20 2010">
+
+<unique_key phv="00082020" version="1">SUBJID</unique_key>
+<unique_key phv="00082024" version="1">VISIT</unique_key>
+<unique_key phv="00082025" version="1">VISIT_DATE</unique_key>
+<unique_key phv="00082027" version="1">MRIDT</unique_key>
+
+<variable id="phv00082020.v1">
+	<name>SUBJID</name>
+	<description>Subject&#39;s ID</description>
+	<type>String</type>
+</variable>
+
+<variable id="phv00082021.v1">
+	<name>CASE_CONTROL</name>
+	<description>Subject type</description>
+	<type>Encoded value</type>
+	<value code="ADP">AD Participant</value>
+	<value code="CASE">Case</value>
+	<value code="CCCS">Control with Change in Cognitive Status</value>
+	<value code="CNTL">Control</value>
+	<value code="FAM">Family member</value>
+	<value code="UASB">Unaffected Sibling</value>
+</variable>
+
+<variable id="phv00082022.v1">
+	<name>INV</name>
+	<description>Investigator&#39;s ID</description>
+	<type>String</type>
+</variable>
+
+<variable id="phv00082023.v1">
+	<name>INVSITE</name>
+	<description>Investigator site ID</description>
+	<type>String</type>
+</variable>
+
+<variable id="phv00082024.v1">
+	<name>VISIT</name>
+	<description>Visit name</description>
+	<type>String</type>
+</variable>
+
+<variable id="phv00082025.v1">
+	<name>VISIT_DATE</name>
+	<description>Visit date</description>
+	<type>Date</type>
+	<comment>Truncated to YYYY</comment>
+</variable>
+
+<variable id="phv00082026.v1">
+	<name>CMTX</name>
+	<description>If &quot;NO&quot; please specify reason</description>
+	<type>String</type>
+</variable>
+
+<variable id="phv00082027.v1">
+	<name>MRIDT</name>
+	<description>Date of Baseline MRI scan/Most Informative CT/MRI scan</description>
+	<type>Date</type>
+	<comment>Truncated to YYYY</comment>
+</variable>
+
+<variable id="phv00082028.v1">
+	<name>MRIPFD</name>
+	<description>Has the participant completed the Baseline MRI Scan?</description>
+	<type>Encoded Value</type>
+	<value code="N">No</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00082029.v1">
+	<name>SCANTYPE</name>
+	<description>Imaging Scan Type</description>
+	<type>Encoded Value</type>
+	<value code="CT">CT</value>
+	<value code="MRI">MRI</value>
+</variable>
+
+<variable id="phv00082030.v1">
+	<name>ATRFCL</name>
+	<description>According to this scan, does the participant have Focal Atrophy?</description>
+	<type>Encoded Value</type>
+	<value code="K">Don&#39;t Know</value>
+	<value code="N">No</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00082031.v1">
+	<name>ATRYN</name>
+	<description>According to this scan, does the participant have Global Atrophy?</description>
+	<type>Encoded Value</type>
+	<value code="N">No</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00082032.v1">
+	<name>FCLOT</name>
+	<description>If (focal atrophy) YES, select:</description>
+	<type>Encoded Value</type>
+	<value code="BF">Bifrontal</value>
+	<value code="LO">Left Occipital</value>
+	<value code="LP">Left Parieto</value>
+	<value code="LT">Left Medial Temporal</value>
+	<value code="OTH">Other</value>
+	<value code="RO">Right Occipital</value>
+	<value code="RP">Right Parieto</value>
+	<value code="RT">Right Medial Temporal</value>
+</variable>
+
+<variable id="phv00082033.v1">
+	<name>IFCCRT</name>
+	<description>Infarct: Cortical</description>
+	<type>Encoded Value</type>
+	<value code="ML">Multiple</value>
+	<value code="NONE">None</value>
+	<value code="SG">Single</value>
+</variable>
+
+<variable id="phv00082034.v1">
+	<name>IFCLCN</name>
+	<description>Infarct: Lacunar/deep</description>
+	<type>Encoded Value</type>
+	<value code="ML">Multiple</value>
+	<value code="NONE">None</value>
+	<value code="SG">Single</value>
+</variable>
+
+<variable id="phv00082035.v1">
+	<name>IFCYN</name>
+	<description>According to this scan, does the participant have infarcts?</description>
+	<type>Encoded Value</type>
+	<value code="K">Don&#39;t Know</value>
+	<value code="N">No</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00082036.v1">
+	<name>WMCH</name>
+	<description>If (White Matter Changes) YES, please select:</description>
+	<type>Encoded Value</type>
+	<value code="CNF">Confluent</value>
+	<value code="DSC">Subcortical confluent</value>
+	<value code="OTH">Other</value>
+	<value code="PNC">Punctate</value>
+	<value code="PVT">Periventricular: Caps/rims</value>
+</variable>
+
+<variable id="phv00082037.v1">
+	<name>WMCYN</name>
+	<description>According to this scan, does the participant have White Matter Changes?</description>
+	<type>Encoded Value</type>
+	<value code="K">Don&#39;t Know</value>
+	<value code="N">No</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00082038.v1">
+	<name>OTHTST</name>
+	<description>Other - specify text</description>
+	<type>String</type>
+</variable>
+
+</data_table>

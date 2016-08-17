@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./datadict_v2.xsl"?>
+<data_table id="pht000623.v1" study_id="phs000139.v1" participant_set="1" date_created="Wed Nov 26 09:47:32 2008">
+
+<variable id="phv00065577.v1">
+	<name>AFFECTION_STATUS</name>
+	<description>Affection Status</description>
+	<type>encoded value</type>
+	<value code="0">Unknown</value>
+	<value code="1">Control</value>
+	<value code="2">Case</value>
+</variable>
+
+<variable id="phv00065574.v1">
+	<name>CONSENT</name>
+	<description>Consent group as determined by the Data Access Committee (DAC)</description>
+	<type>encoded value</type>
+	<value code="0">Subjects did not participate in the study, did not complete a consent document and are included only for the pedigree structure and/or genotype controls, such as HapMap subjects.</value>
+	<value code="1">Multiple Sclerosis and Related Disorders (MSRD)</value>
+	<value code="2">Multiple Sclerosis (MS)</value>
+	<value code="3">Non-Profit Use Only (NPU)</value>
+</variable>
+
+<variable id="phv00065576.v1">
+	<name>SOURCE_SUBJID</name>
+	<description>Subject ID used in the Source Repository</description>
+	<type>string, integer</type>
+</variable>
+
+<variable id="phv00065573.v1">
+	<name>SUBJID</name>
+	<description>Subject ID</description>
+	<type>integer</type>
+</variable>
+
+<variable id="phv00065575.v1">
+	<name>SUB_SOURCE</name>
+	<description>Source repository where subjects originate</description>
+	<type>string</type>
+	<value code="BWH">Brigham Women&#39;s Hospital</value>
+	<value code="CMS">Cambridge</value>
+	<value code="SLH">UCSF</value>
+</variable>
+
+</data_table>

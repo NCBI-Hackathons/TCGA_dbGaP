@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./datadict_v2.xsl"?>
+<data_table id="pht000836.v2" study_id="phs000153.v2" participant_set="2" date_created="Mon Mar 29 12:21:58 2010">
+
+<unique_key phv="00073869" version="2">ALTERTYPE</unique_key>
+<unique_key phv="00073870" version="2">CAUSEINIT</unique_key>
+<unique_key phv="00073871" version="2">CAUSESEVERED</unique_key>
+<unique_key phv="00073872" version="2">DISTMI1</unique_key>
+<unique_key phv="00073873" version="2">DISTMI2</unique_key>
+<unique_key phv="00073874" version="2">DISTMI3</unique_key>
+<unique_key phv="00073875" version="2">DISTMI4</unique_key>
+<unique_key phv="00073876" version="2">DISTMI5</unique_key>
+<unique_key phv="00073877" version="2">DISTMI6</unique_key>
+<unique_key phv="00073878" version="2">DISTMI7</unique_key>
+<unique_key phv="00073879" version="2">TREIMAN1</unique_key>
+<unique_key phv="00073880" version="2">TREIMAN2</unique_key>
+<unique_key phv="00073881" version="2">TREIMAN3</unique_key>
+<unique_key phv="00073882" version="2">TREIMAN4</unique_key>
+<unique_key phv="00073883" version="2">TREIMAN5</unique_key>
+<unique_key phv="00073884" version="2">TREIMAN6</unique_key>
+<unique_key phv="00073885" version="2">TREIMAN7</unique_key>
+<unique_key phv="00073886" version="2">SPELLBEGIN</unique_key>
+<unique_key phv="00073887" version="2">SPELLEND</unique_key>
+<unique_key phv="00073888" version="2">idtype</unique_key>
+<unique_key phv="00073889" version="2">alteridtype</unique_key>
+<unique_key phv="00073890" version="2">shareid</unique_key>
+<unique_key phv="00073891" version="2">sharealterid</unique_key>
+
+<variable id="phv00073869.v2">
+	<name>ALTERTYPE</name>
+	<description>Describes the relationship between the EGO and ALTER</description>
+	<type>encoded,string</type>
+	<coll_interval>Reviewed through 2005</coll_interval>
+	<value code="MOTHER">mother</value>
+	<value code="FATHER">father</value>
+	<value code="SISTER">sister</value>
+	<value code="BROTHER">brother</value>
+	<value code="CHILD">child</value>
+	<value code="CO-WORKER">co-worker</value>
+	<value code="FRIENDNR">nominated friend who is not a relative</value>
+	<value code="RELATIVENR">nominated relative who is not a relative</value>
+	<value code="INGHBRNREL">next door neighbor who is not a relative</value>
+	<value code="N100MNREL">non-relative neighbors within 100 meters of ego</value>
+	<value code="N25MNREL">non-relative neighbors within 25 meters of ego</value>
+	<value code="SAMEADNREL">non-relative neighbors living at the same address</value>
+	<value code="SPOUSE">spouse</value>
+</variable>
+
+<variable id="phv00073870.v2">
+	<name>CAUSEINIT</name>
+	<description>The reason the tie was initiated</description>
+	<type>encoded,string</type>
+	<coll_interval>Reviewed through 2005</coll_interval>
+	<value code="ALTER DOB">the alter is born</value>
+	<value code="NAMED">the alter is named by the ego</value>
+</variable>
+
+<variable id="phv00073871.v2">
+	<name>CAUSESEVERED</name>
+	<description>The reason the tie was severed</description>
+	<type>encoded,string</type>
+	<coll_interval>Reviewed through 2005</coll_interval>
+	<value code="ALTER ATTR">alter attrited</value>
+	<value code="ALTER DEATH">alter died</value>
+	<value code="BOTH DEATH">ego and alter died at the same time</value>
+	<value code="CENSORED">data ends (censored at 1/1/2005)</value>
+	<value code="EGO ATTRIT">ego attrited</value>
+	<value code="EGO DEATH">ego died</value>
+	<value code="not named">alter was no longer named by the ego</value>
+</variable>
+
+<variable id="phv00073872.v2">
+	<name>DISTMI1</name>
+	<description>Distance in miles between the ego and alter at the start of wave 1</description>
+	<type>integer, encoded</type>
+	<unit>miles</unit>
+	<logical_min>0</logical_min>
+	<logical_max>5360</logical_max>
+	<coll_interval>Reviewed through 2005</coll_interval>
+	<comment>For offspring alters only</comment>
+	<value code=".">Unknown</value>
+</variable>
+
+<variable id="phv00073873.v2">
+	<name>DISTMI2</name>
+	<description>Distance in miles between the ego and alter at the start of wave 2</description>
+	<type>integer, encoded</type>
+	<unit>miles</unit>
+	<logical_min>0</logical_min>
+	<logical_max>5905</logical_max>
+	<coll_interval>Reviewed through 2005</coll_interval>
+	<comment>For offspring alters only</comment>
+	<value code=".">Unknown</value>
+</variable>
+
+<variable id="phv00073874.v2">
+	<name>DISTMI3</name>
+	<description>Distance in miles between the ego and alter at the start of wave 3</description>
+	<type>integer, encoded</type>
+	<unit>miles</unit>
+	<logical_min>0</logical_min>
+	<logical_max>5905</logical_max>
+	<coll_interval>Reviewed through 2005</coll_interval>
+	<comment>For offspring alters only</comment>
+	<value code=".">Unknown</value>
+</variable>
+
+<variable id="phv00073875.v2">
+	<name>DISTMI4</name>
+	<description>Distance in miles between the ego and alter at the start of wave 4</description>
+	<type>integer, encoded</type>
+	<unit>miles</unit>
+	<logical_min>0</logical_min>
+	<logical_max>5899</logical_max>
+	<coll_interval>Reviewed through 2005</coll_interval>
+	<comment>For offspring alters only</comment>
+	<value code=".">Unknown</value>
+</variable>
+
+<variable id="phv00073876.v2">
+	<name>DISTMI5</name>
+	<description>Distance in miles between the ego and alter at the start of wave 5</description>
+	<type>integer, encoded</type>
+	<unit>miles</unit>
+	<logical_min>0</logical_min>
+	<logical_max>5899</logical_max>
+	<coll_interval>Reviewed through 2005</coll_interval>
+	<comment>For offspring alters only</comment>
+	<value code=".">Unknown</value>
+</variable>
+
+<variable id="phv00073877.v2">
+	<name>DISTMI6</name>
+	<description>Distance in miles between the ego and alter at the start of wave 6</description>
+	<type>integer, encoded</type>
+	<unit>miles</unit>
+	<logical_min>0</logical_min>
+	<logical_max>5899</logical_max>
+	<coll_interval>Reviewed through 2005</coll_interval>
+	<comment>For offspring alters only</comment>
+	<value code=".">Unknown</value>
+</variable>
+
+<variable id="phv00073878.v2">
+	<name>DISTMI7</name>
+	<description>Distance in miles between the ego and alter at the start of wave 7</description>
+	<type>integer, encoded</type>
+	<unit>miles</unit>
+	<logical_min>0</logical_min>
+	<logical_max>5899</logical_max>
+	<coll_interval>Reviewed through 2005</coll_interval>
+	<comment>For offspring alters only</comment>
+	<value code=".">Unknown or alter not an offspring</value>
+</variable>
+
+<variable id="phv00073879.v2">
+	<name>TREIMAN1</name>
+	<description>Ego occupational prestige score for wave 1</description>
+	<type>integer, encoded</type>
+	<logical_min>13</logical_min>
+	<logical_max>78</logical_max>
+	<coll_interval>Reviewed through 2005</coll_interval>
+	<value code=".">Unknown</value>
+</variable>
+
+<variable id="phv00073880.v2">
+	<name>TREIMAN2</name>
+	<description>Ego occupational prestige score for wave 2</description>
+	<type>integer, encoded</type>
+	<logical_min>13</logical_min>
+	<logical_max>78</logical_max>
+	<coll_interval>Reviewed through 2005</coll_interval>
+	<value code=".">Unknown</value>
+</variable>
+
+<variable id="phv00073881.v2">
+	<name>TREIMAN3</name>
+	<description>Ego occupational prestige score for wave 3</description>
+	<type>integer, encoded</type>
+	<logical_min>13</logical_min>
+	<logical_max>78</logical_max>
+	<coll_interval>Reviewed through 2005</coll_interval>
+	<value code=".">Unknown</value>
+</variable>
+
+<variable id="phv00073882.v2">
+	<name>TREIMAN4</name>
+	<description>Ego occupational prestige score for wave 4</description>
+	<type>integer, encoded</type>
+	<logical_min>13</logical_min>
+	<logical_max>78</logical_max>
+	<coll_interval>Reviewed through 2005</coll_interval>
+	<value code=".">Unknown</value>
+</variable>
+
+<variable id="phv00073883.v2">
+	<name>TREIMAN5</name>
+	<description>Ego occupational prestige score for wave 5</description>
+	<type>integer, encoded</type>
+	<logical_min>13</logical_min>
+	<logical_max>78</logical_max>
+	<coll_interval>Reviewed through 2005</coll_interval>
+	<value code=".">Unknown</value>
+</variable>
+
+<variable id="phv00073884.v2">
+	<name>TREIMAN6</name>
+	<description>Ego occupational prestige score for wave 6</description>
+	<type>integer, encoded</type>
+	<logical_min>13</logical_min>
+	<logical_max>78</logical_max>
+	<coll_interval>Reviewed through 2005</coll_interval>
+	<value code=".">Unknown</value>
+</variable>
+
+<variable id="phv00073885.v2">
+	<name>TREIMAN7</name>
+	<description>Ego occupational prestige score for wave 7</description>
+	<type>integer, encoded</type>
+	<logical_min>13</logical_min>
+	<logical_max>78</logical_max>
+	<coll_interval>Reviewed through 2005</coll_interval>
+	<value code=".">Unknown</value>
+</variable>
+
+<variable id="phv00073886.v2">
+	<name>SPELLBEGIN</name>
+	<description>The number of months between an arbitrary date and the date the tie was initiated.</description>
+	<type>integer, encoded</type>
+	<unit>months</unit>
+	<logical_min>1</logical_min>
+	<logical_max>380</logical_max>
+	<coll_interval>Reviewed through 2005</coll_interval>
+	<value code=".">Unknown</value>
+</variable>
+
+<variable id="phv00073887.v2">
+	<name>SPELLEND</name>
+	<description>The number of months between an arbitrary date and the date the tie was severed.</description>
+	<type>integer, encoded</type>
+	<unit>months</unit>
+	<logical_min>1</logical_min>
+	<logical_max>421</logical_max>
+	<coll_interval>Reviewed through 2005</coll_interval>
+	<value code=".">Unknown</value>
+</variable>
+
+<variable id="phv00073888.v2">
+	<name>idtype</name>
+	<description>Framingham Cohort Identifier</description>
+	<type>encoded</type>
+	<coll_interval>Reviewed through 2005</coll_interval>
+	<value code="0">Original Cohort (Gen1)</value>
+	<value code="1">First offspring recruits (Gen2)</value>
+	<value code="2">Spouses of first offspring recruits, aka NOS</value>
+	<value code="3">Second Offspring Recruits (Gen3)</value>
+</variable>
+
+<variable id="phv00073889.v2">
+	<name>alteridtype</name>
+	<description>Alter Cohort Identifier</description>
+	<type>encoded</type>
+	<coll_interval>Reviewed through 2005</coll_interval>
+	<value code="0">Original Cohort (Gen1)</value>
+	<value code="1">First offspring recruits (Gen2)</value>
+	<value code="2">Spouses of first offspring recruits, aka NOS</value>
+	<value code="3">Second Offspring Recruits (Gen3)</value>
+</variable>
+
+<variable id="phv00073890.v2">
+	<name>shareid</name>
+	<description>SHARe ID Number</description>
+	<type>integer</type>
+	<coll_interval>Reviewed through 2005</coll_interval>
+</variable>
+
+<variable id="phv00073891.v2">
+	<name>sharealterid</name>
+	<description>SHARe ID Number for Alter</description>
+	<type>integer</type>
+	<coll_interval>Reviewed through 2005</coll_interval>
+</variable>
+
+</data_table>

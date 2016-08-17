@@ -1,0 +1,731 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./datadict_v2.xsl"?>
+<data_table id="pht000244.v1" study_id="phs000086.v1" participant_set="1" date_created="Thu Jan 29 15:38:16 2009">
+
+<variable id="phv00029643.v1">
+	<name>form</name>
+	<description>DCCT form number</description>
+	<type>int</type>
+	<unit>FORM NUMBER</unit>
+</variable>
+
+<variable id="phv00029644.v1">
+	<name>fsasdate</name>
+	<description>Form date as SAS date value</description>
+	<type>long</type>
+</variable>
+
+<variable id="phv00029649.v1">
+	<name>hhabstr</name>
+	<description>Abstraction rating (1=above average functioning;2=average functioning;3=borderline - not definitely pathological;4=definite mild impairment;5=definite moderate impairment;6=definite severe impairment;7=not ratable; +/- indicates that the score is thought to be closer to the number above [+] or below  [-])</description>
+	<type>str2</type>
+	<value code="1">ABOVE AVERAGE FUNCTIONING</value>
+	<value code="1+">ABOVE AVERAGE FUNCTIONING (VALUE=1+)</value>
+	<value code="1-">ABOVE AVERAGE FUNCTIONING (VALUE=1-)</value>
+	<value code="2">AVERAGE FUNCTIONING</value>
+	<value code="2+">AVERAGE FUNCTIONING (VALUE=2+)</value>
+	<value code="2-">AVERAGE FUNCTIONING (VALUE=2-)</value>
+	<value code="3">BORDERLINE/NOT DEFINITELY PATHOLOGICAL</value>
+	<value code="3+">BORDERLINE/NOT DEFINITELY PATHOLOGICAL (VALUE=3+)</value>
+	<value code="3-">BORDERLINE/NOT DEFINITELY PATHOLOGICAL (VALUE=3-)</value>
+	<value code="4">DEFINITE MILD IMPAIRMENT</value>
+	<value code="4+">DEFINITE MILD IMPAIRMENT (VALUE=4+)</value>
+	<value code="4-">DEFINITE MILD IMPAIRMENT (VALUE=4-)</value>
+	<value code="5">DEFINITE MODERATE IMPAIRMENT</value>
+	<value code="5+">DEFINITE MODERATE IMPAIRMENT (VALUE=5+)</value>
+	<value code="5-">DEFINITE MODERATE IMPAIRMENT (VALUE=5-)</value>
+	<value code="6">DEFINITE SEVERE IMPAIRMENT</value>
+	<value code="6+">DEFINITE SEVERE IMPAIRMENT (VALUE=6+)</value>
+	<value code="6-">DEFINITE SEVERE IMPAIRMENT (VALUE=6-)</value>
+	<value code="7">NOT RATABLE</value>
+</variable>
+
+<variable id="phv00029659.v1">
+	<name>hhasym</name>
+	<description>Asymmetry rating</description>
+	<type>str2</type>
+	<value code="1">NONE</value>
+	<value code="1-">ERROR VALUE</value>
+	<value code="2">POSSIBLE LEFT DYSFUNCTION</value>
+	<value code="3">POSSIBLE RIGHT DYSFUNCTION</value>
+	<value code="4">DEFINITE LEFT DYSFUNCTION</value>
+	<value code="5">DEFINITE RIGHT DYSFUNCTION</value>
+	<value code="7">MISSING/ERROR VALUES</value>
+</variable>
+
+<variable id="phv00029656.v1">
+	<name>hhatten</name>
+	<description>Attention rating (1=above average functioning;2=average functioning;3=borderline - not definitely pathological;4=definite mild impairment;5=definite moderate impairment;6=definite severe impairment;7=not ratable; +/- indicates that the score is thought to be closer to the number above [+] or below  [-])</description>
+	<type>str2</type>
+	<value code="1">ABOVE AVERAGE FUNCTIONING</value>
+	<value code="1+">ABOVE AVERAGE FUNCTIONING (VALUE=1+)</value>
+	<value code="1-">ABOVE AVERAGE FUNCTIONING (VALUE=1-)</value>
+	<value code="2">AVERAGE FUNCTIONING</value>
+	<value code="2+">AVERAGE FUNCTIONING (VALUE=2+)</value>
+	<value code="2-">AVERAGE FUNCTIONING (VALUE=2-)</value>
+	<value code="3">BORDERLINE/NOT DEFINITELY PATHOLOGICAL</value>
+	<value code="3+">BORDERLINE/NOT DEFINITELY PATHOLOGICAL (VALUE=3+)</value>
+	<value code="3-">BORDERLINE/NOT DEFINITELY PATHOLOGICAL (VALUE=3-)</value>
+	<value code="4">DEFINITE MILD IMPAIRMENT</value>
+	<value code="4+">DEFINITE MILD IMPAIRMENT (VALUE=4+)</value>
+	<value code="4-">DEFINITE MILD IMPAIRMENT (VALUE=4-)</value>
+	<value code="5">DEFINITE MODERATE IMPAIRMENT</value>
+	<value code="5+">DEFINITE MODERATE IMPAIRMENT (VALUE=5+)</value>
+	<value code="5-">DEFINITE MODERATE IMPAIRMENT (VALUE=5-)</value>
+	<value code="6">DEFINITE SEVERE IMPAIRMENT</value>
+	<value code="6+">DEFINITE SEVERE IMPAIRMENT (VALUE=6+)</value>
+	<value code="6-">DEFINITE SEVERE IMPAIRMENT (VALUE=6-)</value>
+	<value code="7">NOT RATABLE</value>
+</variable>
+
+<variable id="phv00029650.v1">
+	<name>hhcalc</name>
+	<description>Calculation rating (1=above average functioning;2=average functioning;3=borderline - not definitely pathological;4=definite mild impairment;5=definite moderate impairment;6=definite severe impairment;7=not ratable; +/- indicates that the score is thought to be closer to the number above [+] or below  [-])</description>
+	<type>str2</type>
+	<value code="1">ABOVE AVERAGE FUNCTIONING</value>
+	<value code="1+">ABOVE AVERAGE FUNCTIONING (VALUE=1+)</value>
+	<value code="1-">ABOVE AVERAGE FUNCTIONING (VALUE=1-)</value>
+	<value code="2">AVERAGE FUNCTIONING</value>
+	<value code="2+">AVERAGE FUNCTIONING (VALUE=2+)</value>
+	<value code="2-">AVERAGE FUNCTIONING (VALUE=2-)</value>
+	<value code="3">BORDERLINE/NOT DEFINITELY PATHOLOGICAL</value>
+	<value code="3+">BORDERLINE/NOT DEFINITELY PATHOLOGICAL (VALUE=3+)</value>
+	<value code="3-">BORDERLINE/NOT DEFINITELY PATHOLOGICAL (VALUE=3-)</value>
+	<value code="4">DEFINITE MILD IMPAIRMENT</value>
+	<value code="4+">DEFINITE MILD IMPAIRMENT (VALUE=4+)</value>
+	<value code="4-">DEFINITE MILD IMPAIRMENT (VALUE=4-)</value>
+	<value code="5">DEFINITE MODERATE IMPAIRMENT</value>
+	<value code="5+">DEFINITE MODERATE IMPAIRMENT (VALUE=5+)</value>
+	<value code="5-">DEFINITE MODERATE IMPAIRMENT (VALUE=5-)</value>
+	<value code="6">DEFINITE SEVERE IMPAIRMENT</value>
+	<value code="6+">DEFINITE SEVERE IMPAIRMENT (VALUE=6+)</value>
+	<value code="6-">DEFINITE SEVERE IMPAIRMENT (VALUE=6-)</value>
+	<value code="7">NOT RATABLE</value>
+</variable>
+
+<variable id="phv00029661.v1">
+	<name>hhchange</name>
+	<description>Change from last assessment (+/- indicates that the score is thought to be closer to the number above [+] or below  [-])</description>
+	<type>str2</type>
+	<value code="1">SIGNIFICANTLY IMPROVED</value>
+	<value code="1+">SIGNIFICANTLY IMPROVED (VALUE=1+)</value>
+	<value code="1-">SIGNIFICANTLY IMPROVED (VALUE=1-)</value>
+	<value code="2">SLIGHTLY IMPROVED</value>
+	<value code="2+">SLIGHTLY IMPROVED (VALUE=2+)</value>
+	<value code="2-">SLIGHTLY IMPROVED (VALUE=2-)</value>
+	<value code="3">NO CHANGE</value>
+	<value code="3+">NO CHANGE (VALUE=3+)</value>
+	<value code="3-">NO CHANGE (VALUE=3-)</value>
+	<value code="4">SLIGHTLY WORSE</value>
+	<value code="4+">SLIGHTLY WORSE (VALUE=4+)</value>
+	<value code="4-">SLIGHTLY WORSE (VALUE=4-)</value>
+	<value code="5">SIGNIFICANTLY WORSE</value>
+	<value code="5+">SIGNIFICANTLY WORSE (VALUE=5+)</value>
+	<value code="5-">SIGNIFICANTLY WORSE (VALUE=5-)</value>
+</variable>
+
+<variable id="phv00029655.v1">
+	<name>hhconst</name>
+	<description>Constructional performance (1=above average functioning;2=average functioning;3=borderline - not definitely pathological;4=definite mild impairment;5=definite moderate impairment;6=definite severe impairment;7=not ratable; +/- indicates that the score is thought to be closer to the number above [+] or below  [-])</description>
+	<type>str2</type>
+	<value code="1">ABOVE AVERAGE FUNCTIONING</value>
+	<value code="1+">ABOVE AVERAGE FUNCTIONING (VALUE=1+)</value>
+	<value code="1-">ABOVE AVERAGE FUNCTIONING (VALUE=1-)</value>
+	<value code="2">AVERAGE FUNCTIONING</value>
+	<value code="2+">AVERAGE FUNCTIONING (VALUE=2+)</value>
+	<value code="2-">AVERAGE FUNCTIONING (VALUE=2-)</value>
+	<value code="3">BORDERLINE/NOT DEFINITELY PATHOLOGICAL</value>
+	<value code="3+">BORDERLINE/NOT DEFINITELY PATHOLOGICAL (VALUE=3+)</value>
+	<value code="3-">BORDERLINE/NOT DEFINITELY PATHOLOGICAL (VALUE=3-)</value>
+	<value code="4">DEFINITE MILD IMPAIRMENT</value>
+	<value code="4+">DEFINITE MILD IMPAIRMENT (VALUE=4+)</value>
+	<value code="4-">DEFINITE MILD IMPAIRMENT (VALUE=4-)</value>
+	<value code="5">DEFINITE MODERATE IMPAIRMENT</value>
+	<value code="5+">DEFINITE MODERATE IMPAIRMENT (VALUE=5+)</value>
+	<value code="5-">DEFINITE MODERATE IMPAIRMENT (VALUE=5-)</value>
+	<value code="6">DEFINITE SEVERE IMPAIRMENT</value>
+	<value code="6+">DEFINITE SEVERE IMPAIRMENT (VALUE=6+)</value>
+	<value code="6-">DEFINITE SEVERE IMPAIRMENT (VALUE=6-)</value>
+	<value code="7">NOT RATABLE</value>
+</variable>
+
+<variable id="phv00029660.v1">
+	<name>hhglobal</name>
+	<description>Global judgement (1=above average functioning;2=average functioning;3=borderline - not definitely pathological;4=definite mild impairment;5=definite moderate impairment;6=definite severe impairment;7=not ratable; +/- indicates that the score is thought to be closer to the number above [+] or below  [-])</description>
+	<type>str2</type>
+	<value code="1">ABOVE AVERAGE FUNCTIONING</value>
+	<value code="1+">ABOVE AVERAGE FUNCTIONING (VALUE=1+)</value>
+	<value code="1-">ABOVE AVERAGE FUNCTIONING (VALUE=1-)</value>
+	<value code="2">AVERAGE FUNCTIONING</value>
+	<value code="2+">AVERAGE FUNCTIONING (VALUE=2+)</value>
+	<value code="2-">AVERAGE FUNCTIONING (VALUE=2-)</value>
+	<value code="3">BORDERLINE/NOT DEFINITELY PATHOLOGICAL</value>
+	<value code="3+">BORDERLINE/NOT DEFINITELY PATHOLOGICAL (VALUE=3+)</value>
+	<value code="3-">BORDERLINE/NOT DEFINITELY PATHOLOGICAL (VALUE=3-)</value>
+	<value code="4">DEFINITE MILD IMPAIRMENT</value>
+	<value code="4+">DEFINITE MILD IMPAIRMENT (VALUE=4+)</value>
+	<value code="4-">DEFINITE MILD IMPAIRMENT (VALUE=4-)</value>
+	<value code="5">DEFINITE MODERATE IMPAIRMENT</value>
+	<value code="5+">DEFINITE MODERATE IMPAIRMENT (VALUE=5+)</value>
+	<value code="5-">DEFINITE MODERATE IMPAIRMENT (VALUE=5-)</value>
+	<value code="6">DEFINITE SEVERE IMPAIRMENT</value>
+	<value code="6+">DEFINITE SEVERE IMPAIRMENT (VALUE=6+)</value>
+	<value code="6-">DEFINITE SEVERE IMPAIRMENT (VALUE=6-)</value>
+	<value code="7">NOT RATABLE</value>
+</variable>
+
+<variable id="phv00029647.v1">
+	<name>hhintel</name>
+	<description>Intelligence rating (1=above average functioning;2=average functioning;3=borderline - not definitely pathological;4=definite mild impairment;5=definite moderate impairment;6=definite severe impairment;7=not ratable; +/- indicates that the score is thought to be closer to the number above [+] or below  [-])</description>
+	<type>str2</type>
+	<value code="1">ABOVE AVERAGE FUNCTIONING</value>
+	<value code="1+">ABOVE AVERAGE FUNCTIONING (VALUE=1+)</value>
+	<value code="1-">ABOVE AVERAGE FUNCTIONING (VALUE=1-)</value>
+	<value code="2">AVERAGE FUNCTIONING</value>
+	<value code="2+">AVERAGE FUNCTIONING (VALUE=2+)</value>
+	<value code="2-">AVERAGE FUNCTIONING (VALUE=2-)</value>
+	<value code="3">BORDERLINE/NOT DEFINITELY PATHOLOGICAL</value>
+	<value code="3+">BORDERLINE/NOT DEFINITELY PATHOLOGICAL (VALUE=3+)</value>
+	<value code="3-">BORDERLINE/NOT DEFINITELY PATHOLOGICAL (VALUE=3-)</value>
+	<value code="4">DEFINITE MILD IMPAIRMENT</value>
+	<value code="4+">DEFINITE MILD IMPAIRMENT (VALUE=4+)</value>
+	<value code="4-">DEFINITE MILD IMPAIRMENT (VALUE=4-)</value>
+	<value code="5">DEFINITE MODERATE IMPAIRMENT</value>
+	<value code="5+">DEFINITE MODERATE IMPAIRMENT (VALUE=5+)</value>
+	<value code="5-">DEFINITE MODERATE IMPAIRMENT (VALUE=5-)</value>
+	<value code="6">DEFINITE SEVERE IMPAIRMENT</value>
+	<value code="6+">DEFINITE SEVERE IMPAIRMENT (VALUE=6+)</value>
+	<value code="6-">DEFINITE SEVERE IMPAIRMENT (VALUE=6-)</value>
+	<value code="7">NOT RATABLE</value>
+</variable>
+
+<variable id="phv00029651.v1">
+	<name>hhlearn</name>
+	<description>Learning performance (1=above average functioning;2=average functioning;3=borderline - not definitely pathological;4=definite mild impairment;5=definite moderate impairment;6=definite severe impairment;7=not ratable; +/- indicates that the score is thought to be closer to the number above [+] or below  [-])</description>
+	<type>str2</type>
+	<value code="1">ABOVE AVERAGE FUNCTIONING</value>
+	<value code="1+">ABOVE AVERAGE FUNCTIONING (VALUE=1+)</value>
+	<value code="1-">ABOVE AVERAGE FUNCTIONING (VALUE=1-)</value>
+	<value code="2">AVERAGE FUNCTIONING</value>
+	<value code="2+">AVERAGE FUNCTIONING (VALUE=2+)</value>
+	<value code="2-">AVERAGE FUNCTIONING (VALUE=2-)</value>
+	<value code="3">BORDERLINE/NOT DEFINITELY PATHOLOGICAL</value>
+	<value code="3+">BORDERLINE/NOT DEFINITELY PATHOLOGICAL (VALUE=3+)</value>
+	<value code="3-">BORDERLINE/NOT DEFINITELY PATHOLOGICAL (VALUE=3-)</value>
+	<value code="4">DEFINITE MILD IMPAIRMENT</value>
+	<value code="4+">DEFINITE MILD IMPAIRMENT (VALUE=4+)</value>
+	<value code="4-">DEFINITE MILD IMPAIRMENT (VALUE=4-)</value>
+	<value code="5">DEFINITE MODERATE IMPAIRMENT</value>
+	<value code="5+">DEFINITE MODERATE IMPAIRMENT (VALUE=5+)</value>
+	<value code="5-">DEFINITE MODERATE IMPAIRMENT (VALUE=5-)</value>
+	<value code="6">DEFINITE SEVERE IMPAIRMENT</value>
+	<value code="6+">DEFINITE SEVERE IMPAIRMENT (VALUE=6+)</value>
+	<value code="6-">DEFINITE SEVERE IMPAIRMENT (VALUE=6-)</value>
+	<value code="7">NOT RATABLE</value>
+</variable>
+
+<variable id="phv00029653.v1">
+	<name>hhlongm</name>
+	<description>Long-term memory (1=above average functioning;2=average functioning;3=borderline - not definitely pathological;4=definite mild impairment;5=definite moderate impairment;6=definite severe impairment;7=not ratable; +/- indicates that the score is thought to be closer to the number above [+] or below  [-])</description>
+	<type>str2</type>
+	<value code="1">ABOVE AVERAGE FUNCTIONING</value>
+	<value code="1+">ABOVE AVERAGE FUNCTIONING (VALUE=1+)</value>
+	<value code="1-">ABOVE AVERAGE FUNCTIONING (VALUE=1-)</value>
+	<value code="2">AVERAGE FUNCTIONING</value>
+	<value code="2+">AVERAGE FUNCTIONING (VALUE=2+)</value>
+	<value code="2-">AVERAGE FUNCTIONING (VALUE=2-)</value>
+	<value code="3">BORDERLINE/NOT DEFINITELY PATHOLOGICAL</value>
+	<value code="3+">BORDERLINE/NOT DEFINITELY PATHOLOGICAL (VALUE=3+)</value>
+	<value code="3-">BORDERLINE/NOT DEFINITELY PATHOLOGICAL (VALUE=3-)</value>
+	<value code="4">DEFINITE MILD IMPAIRMENT</value>
+	<value code="4+">DEFINITE MILD IMPAIRMENT (VALUE=4+)</value>
+	<value code="4-">DEFINITE MILD IMPAIRMENT (VALUE=4-)</value>
+	<value code="5">DEFINITE MODERATE IMPAIRMENT</value>
+	<value code="5+">DEFINITE MODERATE IMPAIRMENT (VALUE=5+)</value>
+	<value code="5-">DEFINITE MODERATE IMPAIRMENT (VALUE=5-)</value>
+	<value code="6">DEFINITE SEVERE IMPAIRMENT</value>
+	<value code="6+">DEFINITE SEVERE IMPAIRMENT (VALUE=6+)</value>
+	<value code="6-">DEFINITE SEVERE IMPAIRMENT (VALUE=6-)</value>
+	<value code="7">NOT RATABLE</value>
+</variable>
+
+<variable id="phv00029657.v1">
+	<name>hhpercep</name>
+	<description>Perceptuomotor performance (1=above average functioning;2=average functioning;3=borderline - not definitely pathological;4=definite mild impairment;5=definite moderate impairment;6=definite severe impairment;7=not ratable; +/- indicates that the score is thought to be closer to the number above [+] or below  [-])</description>
+	<type>str2</type>
+	<value code="1">ABOVE AVERAGE FUNCTIONING</value>
+	<value code="1+">ABOVE AVERAGE FUNCTIONING (VALUE=1+)</value>
+	<value code="1-">ABOVE AVERAGE FUNCTIONING (VALUE=1-)</value>
+	<value code="2">AVERAGE FUNCTIONING</value>
+	<value code="2+">AVERAGE FUNCTIONING (VALUE=2+)</value>
+	<value code="2-">AVERAGE FUNCTIONING (VALUE=2-)</value>
+	<value code="3">BORDERLINE/NOT DEFINITELY PATHOLOGICAL</value>
+	<value code="3+">BORDERLINE/NOT DEFINITELY PATHOLOGICAL (VALUE=3+)</value>
+	<value code="3-">BORDERLINE/NOT DEFINITELY PATHOLOGICAL (VALUE=3-)</value>
+	<value code="4">DEFINITE MILD IMPAIRMENT</value>
+	<value code="4+">DEFINITE MILD IMPAIRMENT (VALUE=4+)</value>
+	<value code="4-">DEFINITE MILD IMPAIRMENT (VALUE=4-)</value>
+	<value code="5">DEFINITE MODERATE IMPAIRMENT</value>
+	<value code="5+">DEFINITE MODERATE IMPAIRMENT (VALUE=5+)</value>
+	<value code="5-">DEFINITE MODERATE IMPAIRMENT (VALUE=5-)</value>
+	<value code="6">DEFINITE SEVERE IMPAIRMENT</value>
+	<value code="6+">DEFINITE SEVERE IMPAIRMENT (VALUE=6+)</value>
+	<value code="6-">DEFINITE SEVERE IMPAIRMENT (VALUE=6-)</value>
+	<value code="7">NOT RATABLE</value>
+</variable>
+
+<variable id="phv00029645.v1">
+	<name>hhratedt</name>
+	<description>Date rated</description>
+	<type>str6</type>
+</variable>
+
+<variable id="phv00029677.v1">
+	<name>hhrater</name>
+	<description>Rater number</description>
+	<type>byte</type>
+</variable>
+
+<variable id="phv00029646.v1">
+	<name>hhratint</name>
+	<description>Rater&#39;s initials</description>
+	<type>str3</type>
+</variable>
+
+<variable id="phv00029652.v1">
+	<name>hhshortm</name>
+	<description>Short-term memory (1=above average functioning;2=average functioning;3=borderline - not definitely pathological;4=definite mild impairment;5=definite moderate impairment;6=definite severe impairment;7=not ratable; +/- indicates that the score is thought to be closer to the number above [+] or below  [-])</description>
+	<type>str2</type>
+	<value code="1">ABOVE AVERAGE FUNCTIONING</value>
+	<value code="1+">ABOVE AVERAGE FUNCTIONING (VALUE=1+)</value>
+	<value code="1-">ABOVE AVERAGE FUNCTIONING (VALUE=1-)</value>
+	<value code="2">AVERAGE FUNCTIONING</value>
+	<value code="2+">AVERAGE FUNCTIONING (VALUE=2+)</value>
+	<value code="2-">AVERAGE FUNCTIONING (VALUE=2-)</value>
+	<value code="3">BORDERLINE/NOT DEFINITELY PATHOLOGICAL</value>
+	<value code="3+">BORDERLINE/NOT DEFINITELY PATHOLOGICAL (VALUE=3+)</value>
+	<value code="3-">BORDERLINE/NOT DEFINITELY PATHOLOGICAL (VALUE=3-)</value>
+	<value code="4">DEFINITE MILD IMPAIRMENT</value>
+	<value code="4+">DEFINITE MILD IMPAIRMENT (VALUE=4+)</value>
+	<value code="4-">DEFINITE MILD IMPAIRMENT (VALUE=4-)</value>
+	<value code="5">DEFINITE MODERATE IMPAIRMENT</value>
+	<value code="5+">DEFINITE MODERATE IMPAIRMENT (VALUE=5+)</value>
+	<value code="5-">DEFINITE MODERATE IMPAIRMENT (VALUE=5-)</value>
+	<value code="6">DEFINITE SEVERE IMPAIRMENT</value>
+	<value code="6+">DEFINITE SEVERE IMPAIRMENT (VALUE=6+)</value>
+	<value code="6-">DEFINITE SEVERE IMPAIRMENT (VALUE=6-)</value>
+	<value code="7">NOT RATABLE</value>
+</variable>
+
+<variable id="phv00029658.v1">
+	<name>hhspeed</name>
+	<description>Speed and dexterity (1=above average functioning;2=average functioning;3=borderline - not definitely pathological;4=definite mild impairment;5=definite moderate impairment;6=definite severe impairment;7=not ratable; +/- indicates that the score is thought to be closer to the number above [+] or below  [-])</description>
+	<type>str2</type>
+	<value code="1">ABOVE AVERAGE FUNCTIONING</value>
+	<value code="1+">ABOVE AVERAGE FUNCTIONING (VALUE=1+)</value>
+	<value code="1-">ABOVE AVERAGE FUNCTIONING (VALUE=1-)</value>
+	<value code="2">AVERAGE FUNCTIONING</value>
+	<value code="2+">AVERAGE FUNCTIONING (VALUE=2+)</value>
+	<value code="2-">AVERAGE FUNCTIONING (VALUE=2-)</value>
+	<value code="3">BORDERLINE/NOT DEFINITELY PATHOLOGICAL</value>
+	<value code="3+">BORDERLINE/NOT DEFINITELY PATHOLOGICAL (VALUE=3+)</value>
+	<value code="3-">BORDERLINE/NOT DEFINITELY PATHOLOGICAL (VALUE=3-)</value>
+	<value code="4">DEFINITE MILD IMPAIRMENT</value>
+	<value code="4+">DEFINITE MILD IMPAIRMENT (VALUE=4+)</value>
+	<value code="4-">DEFINITE MILD IMPAIRMENT (VALUE=4-)</value>
+	<value code="5">DEFINITE MODERATE IMPAIRMENT</value>
+	<value code="5+">DEFINITE MODERATE IMPAIRMENT (VALUE=5+)</value>
+	<value code="5-">DEFINITE MODERATE IMPAIRMENT (VALUE=5-)</value>
+	<value code="6">DEFINITE SEVERE IMPAIRMENT</value>
+	<value code="6+">DEFINITE SEVERE IMPAIRMENT (VALUE=6+)</value>
+	<value code="6-">DEFINITE SEVERE IMPAIRMENT (VALUE=6-)</value>
+	<value code="7">NOT RATABLE</value>
+</variable>
+
+<variable id="phv00029648.v1">
+	<name>hhverbal</name>
+	<description>Verbal fluency (1=above average functioning;2=average functioning;3=borderline - not definitely pathological;4=definite mild impairment;5=definite moderate impairment;6=definite severe impairment;7=not ratable; +/- indicates that the score is thought to be closer to the number above [+] or below  [-])</description>
+	<type>str2</type>
+	<value code="1">ABOVE AVERAGE FUNCTIONING</value>
+	<value code="1+">ABOVE AVERAGE FUNCTIONING (VALUE=1+)</value>
+	<value code="1-">ABOVE AVERAGE FUNCTIONING (VALUE=1-)</value>
+	<value code="2">AVERAGE FUNCTIONING</value>
+	<value code="2+">AVERAGE FUNCTIONING (VALUE=2+)</value>
+	<value code="2-">AVERAGE FUNCTIONING (VALUE=2-)</value>
+	<value code="3">BORDERLINE/NOT DEFINITELY PATHOLOGICAL</value>
+	<value code="3+">BORDERLINE/NOT DEFINITELY PATHOLOGICAL (VALUE=3+)</value>
+	<value code="3-">BORDERLINE/NOT DEFINITELY PATHOLOGICAL (VALUE=3-)</value>
+	<value code="4">DEFINITE MILD IMPAIRMENT</value>
+	<value code="4+">DEFINITE MILD IMPAIRMENT (VALUE=4+)</value>
+	<value code="4-">DEFINITE MILD IMPAIRMENT (VALUE=4-)</value>
+	<value code="5">DEFINITE MODERATE IMPAIRMENT</value>
+	<value code="5+">DEFINITE MODERATE IMPAIRMENT (VALUE=5+)</value>
+	<value code="5-">DEFINITE MODERATE IMPAIRMENT (VALUE=5-)</value>
+	<value code="6">DEFINITE SEVERE IMPAIRMENT</value>
+	<value code="6+">DEFINITE SEVERE IMPAIRMENT (VALUE=6+)</value>
+	<value code="6-">DEFINITE SEVERE IMPAIRMENT (VALUE=6-)</value>
+	<value code="7">NOT RATABLE</value>
+</variable>
+
+<variable id="phv00029654.v1">
+	<name>hhvisuo</name>
+	<description>Visuospatial learning (1=above average functioning;2=average functioning;3=borderline - not definitely pathological;4=definite mild impairment;5=definite moderate impairment;6=definite severe impairment;7=not ratable; +/- indicates that the score is thought to be closer to the number above [+] or below  [-])</description>
+	<type>str2</type>
+	<value code="1">ABOVE AVERAGE FUNCTIONING</value>
+	<value code="1+">ABOVE AVERAGE FUNCTIONING (VALUE=1+)</value>
+	<value code="1-">ABOVE AVERAGE FUNCTIONING (VALUE=1-)</value>
+	<value code="2">AVERAGE FUNCTIONING</value>
+	<value code="2+">AVERAGE FUNCTIONING (VALUE=2+)</value>
+	<value code="2-">AVERAGE FUNCTIONING (VALUE=2-)</value>
+	<value code="3">BORDERLINE/NOT DEFINITELY PATHOLOGICAL</value>
+	<value code="3+">BORDERLINE/NOT DEFINITELY PATHOLOGICAL (VALUE=3+)</value>
+	<value code="3-">BORDERLINE/NOT DEFINITELY PATHOLOGICAL (VALUE=3-)</value>
+	<value code="4">DEFINITE MILD IMPAIRMENT</value>
+	<value code="4+">DEFINITE MILD IMPAIRMENT (VALUE=4+)</value>
+	<value code="4-">DEFINITE MILD IMPAIRMENT (VALUE=4-)</value>
+	<value code="5">DEFINITE MODERATE IMPAIRMENT</value>
+	<value code="5+">DEFINITE MODERATE IMPAIRMENT (VALUE=5+)</value>
+	<value code="5-">DEFINITE MODERATE IMPAIRMENT (VALUE=5-)</value>
+	<value code="6">DEFINITE SEVERE IMPAIRMENT</value>
+	<value code="6+">DEFINITE SEVERE IMPAIRMENT (VALUE=6+)</value>
+	<value code="6-">DEFINITE SEVERE IMPAIRMENT (VALUE=6-)</value>
+	<value code="7">NOT RATABLE</value>
+</variable>
+
+<variable id="phv00029676.v1">
+	<name>hhvsitno</name>
+	<description>Visit number</description>
+	<type>byte</type>
+	<unit>VISIT NUMBER</unit>
+</variable>
+
+<variable id="phv00029678.v1">
+	<name>mask_pat</name>
+	<description>Patient ID number</description>
+	<type>int</type>
+</variable>
+
+<variable id="phv00029664.v1">
+	<name>rkabstr</name>
+	<description>Rank: abstraction (1=above average functioning;2=average functioning;3=borderline - not definitely pathological;4=definite mild impairment;5=definite moderate impairment;6=definite severe impairment;7=not ratable; +/- indicates that the score is thought to be closer to the number above [+] or below  [-])</description>
+	<type>byte</type>
+	<value code="10">4</value>
+	<value code="11">4+</value>
+	<value code="12">5-</value>
+	<value code="13">5</value>
+	<value code="14">5+</value>
+	<value code="15">6-</value>
+	<value code="16">6</value>
+	<value code="17">6+</value>
+	<value code="18">7</value>
+	<value code="2">1+</value>
+	<value code="3">2-</value>
+	<value code="4">2</value>
+	<value code="5">2+</value>
+	<value code="6">3-</value>
+	<value code="7">3</value>
+	<value code="8">3+</value>
+	<value code="9">4-</value>
+</variable>
+
+<variable id="phv00029674.v1">
+	<name>rkasym</name>
+	<description>Rank: asymmetry (1=above average functioning;2=average functioning;3=borderline - not definitely pathological;4=definite mild impairment;5=definite moderate impairment;6=definite severe impairment;7=not ratable; +/- indicates that the score is thought to be closer to the number above [+] or below  [-])</description>
+	<type>byte</type>
+	<value code="10">4</value>
+	<value code="11">4+</value>
+	<value code="12">5-</value>
+	<value code="13">5</value>
+	<value code="14">5+</value>
+	<value code="15">6-</value>
+	<value code="16">6</value>
+	<value code="17">6+</value>
+	<value code="18">7</value>
+	<value code="2">1+</value>
+	<value code="3">2-</value>
+	<value code="4">2</value>
+	<value code="5">2+</value>
+	<value code="6">3-</value>
+	<value code="7">3</value>
+	<value code="8">3+</value>
+	<value code="9">4-</value>
+</variable>
+
+<variable id="phv00029671.v1">
+	<name>rkatten</name>
+	<description>Rank: attention (1=above average functioning;2=average functioning;3=borderline - not definitely pathological;4=definite mild impairment;5=definite moderate impairment;6=definite severe impairment;7=not ratable; +/- indicates that the score is thought to be closer to the number above [+] or below  [-])</description>
+	<type>byte</type>
+	<value code="10">4</value>
+	<value code="11">4+</value>
+	<value code="12">5-</value>
+	<value code="13">5</value>
+	<value code="14">5+</value>
+	<value code="15">6-</value>
+	<value code="16">6</value>
+	<value code="17">6+</value>
+	<value code="18">7</value>
+	<value code="2">1+</value>
+	<value code="3">2-</value>
+	<value code="4">2</value>
+	<value code="5">2+</value>
+	<value code="6">3-</value>
+	<value code="7">3</value>
+	<value code="8">3+</value>
+	<value code="9">4-</value>
+</variable>
+
+<variable id="phv00029665.v1">
+	<name>rkcalc</name>
+	<description>Rank: calculation (1=above average functioning;2=average functioning;3=borderline - not definitely pathological;4=definite mild impairment;5=definite moderate impairment;6=definite severe impairment;7=not ratable; +/- indicates that the score is thought to be closer to the number above [+] or below  [-])</description>
+	<type>byte</type>
+	<value code="10">4</value>
+	<value code="11">4+</value>
+	<value code="12">5-</value>
+	<value code="13">5</value>
+	<value code="14">5+</value>
+	<value code="15">6-</value>
+	<value code="16">6</value>
+	<value code="17">6+</value>
+	<value code="18">7</value>
+	<value code="2">1+</value>
+	<value code="3">2-</value>
+	<value code="4">2</value>
+	<value code="5">2+</value>
+	<value code="6">3-</value>
+	<value code="7">3</value>
+	<value code="8">3+</value>
+	<value code="9">4-</value>
+</variable>
+
+<variable id="phv00029670.v1">
+	<name>rkconst</name>
+	<description>Rank: constructional (1=above average functioning;2=average functioning;3=borderline - not definitely pathological;4=definite mild impairment;5=definite moderate impairment;6=definite severe impairment;7=not ratable; +/- indicates that the score is thought to be closer to the number above [+] or below  [-])</description>
+	<type>byte</type>
+	<value code="10">4</value>
+	<value code="11">4+</value>
+	<value code="12">5-</value>
+	<value code="13">5</value>
+	<value code="14">5+</value>
+	<value code="15">6-</value>
+	<value code="16">6</value>
+	<value code="17">6+</value>
+	<value code="18">7</value>
+	<value code="2">1+</value>
+	<value code="3">2-</value>
+	<value code="4">2</value>
+	<value code="5">2+</value>
+	<value code="6">3-</value>
+	<value code="7">3</value>
+	<value code="8">3+</value>
+	<value code="9">4-</value>
+</variable>
+
+<variable id="phv00029675.v1">
+	<name>rkglobal</name>
+	<description>Rank: global judgment (1=above average functioning;2=average functioning;3=borderline - not definitely pathological;4=definite mild impairment;5=definite moderate impairment;6=definite severe impairment;7=not ratable; +/- indicates that the score is thought to be closer to the number above [+] or below  [-])</description>
+	<type>byte</type>
+	<value code="10">4</value>
+	<value code="11">4+</value>
+	<value code="12">5-</value>
+	<value code="13">5</value>
+	<value code="14">5+</value>
+	<value code="15">6-</value>
+	<value code="16">6</value>
+	<value code="17">6+</value>
+	<value code="18">7</value>
+	<value code="2">1+</value>
+	<value code="3">2-</value>
+	<value code="4">2</value>
+	<value code="5">2+</value>
+	<value code="6">3-</value>
+	<value code="7">3</value>
+	<value code="8">3+</value>
+	<value code="9">4-</value>
+</variable>
+
+<variable id="phv00029662.v1">
+	<name>rkintel</name>
+	<description>Rank: intelligence (1=above average functioning;2=average functioning;3=borderline - not definitely pathological;4=definite mild impairment;5=definite moderate impairment;6=definite severe impairment;7=not ratable; +/- indicates that the score is thought to be closer to the number above [+] or below  [-])</description>
+	<type>byte</type>
+	<value code="10">4</value>
+	<value code="11">4+</value>
+	<value code="12">5-</value>
+	<value code="13">5</value>
+	<value code="14">5+</value>
+	<value code="15">6-</value>
+	<value code="16">6</value>
+	<value code="17">6+</value>
+	<value code="18">7</value>
+	<value code="2">1+</value>
+	<value code="3">2-</value>
+	<value code="4">2</value>
+	<value code="5">2+</value>
+	<value code="6">3-</value>
+	<value code="7">3</value>
+	<value code="8">3+</value>
+	<value code="9">4-</value>
+</variable>
+
+<variable id="phv00029666.v1">
+	<name>rklearn</name>
+	<description>Rank: learning (1=above average functioning;2=average functioning;3=borderline - not definitely pathological;4=definite mild impairment;5=definite moderate impairment;6=definite severe impairment;7=not ratable; +/- indicates that the score is thought to be closer to the number above [+] or below  [-])</description>
+	<type>byte</type>
+	<value code="10">4</value>
+	<value code="11">4+</value>
+	<value code="12">5-</value>
+	<value code="13">5</value>
+	<value code="14">5+</value>
+	<value code="15">6-</value>
+	<value code="16">6</value>
+	<value code="17">6+</value>
+	<value code="18">7</value>
+	<value code="2">1+</value>
+	<value code="3">2-</value>
+	<value code="4">2</value>
+	<value code="5">2+</value>
+	<value code="6">3-</value>
+	<value code="7">3</value>
+	<value code="8">3+</value>
+	<value code="9">4-</value>
+</variable>
+
+<variable id="phv00029668.v1">
+	<name>rklongm</name>
+	<description>Rank: long-term memory (1=above average functioning;2=average functioning;3=borderline - not definitely pathological;4=definite mild impairment;5=definite moderate impairment;6=definite severe impairment;7=not ratable; +/- indicates that the score is thought to be closer to the number above [+] or below  [-])</description>
+	<type>byte</type>
+	<value code="10">4</value>
+	<value code="11">4+</value>
+	<value code="12">5-</value>
+	<value code="13">5</value>
+	<value code="14">5+</value>
+	<value code="15">6-</value>
+	<value code="16">6</value>
+	<value code="17">6+</value>
+	<value code="18">7</value>
+	<value code="2">1+</value>
+	<value code="3">2-</value>
+	<value code="4">2</value>
+	<value code="5">2+</value>
+	<value code="6">3-</value>
+	<value code="7">3</value>
+	<value code="8">3+</value>
+	<value code="9">4-</value>
+</variable>
+
+<variable id="phv00029672.v1">
+	<name>rkpercep</name>
+	<description>Rank: perceptuo-motor (1=above average functioning;2=average functioning;3=borderline - not definitely pathological;4=definite mild impairment;5=definite moderate impairment;6=definite severe impairment;7=not ratable; +/- indicates that the score is thought to be closer to the number above [+] or below  [-])</description>
+	<type>byte</type>
+	<value code="10">4</value>
+	<value code="11">4+</value>
+	<value code="12">5-</value>
+	<value code="13">5</value>
+	<value code="14">5+</value>
+	<value code="15">6-</value>
+	<value code="16">6</value>
+	<value code="17">6+</value>
+	<value code="18">7</value>
+	<value code="2">1+</value>
+	<value code="3">2-</value>
+	<value code="4">2</value>
+	<value code="5">2+</value>
+	<value code="6">3-</value>
+	<value code="7">3</value>
+	<value code="8">3+</value>
+	<value code="9">4-</value>
+</variable>
+
+<variable id="phv00029667.v1">
+	<name>rkshortm</name>
+	<description>Rank: short-term memory (1=above average functioning;2=average functioning;3=borderline - not definitely pathological;4=definite mild impairment;5=definite moderate impairment;6=definite severe impairment;7=not ratable; +/- indicates that the score is thought to be closer to the number above [+] or below  [-])</description>
+	<type>byte</type>
+	<value code="10">4</value>
+	<value code="11">4+</value>
+	<value code="12">5-</value>
+	<value code="13">5</value>
+	<value code="14">5+</value>
+	<value code="15">6-</value>
+	<value code="16">6</value>
+	<value code="17">6+</value>
+	<value code="18">7</value>
+	<value code="2">1+</value>
+	<value code="3">2-</value>
+	<value code="4">2</value>
+	<value code="5">2+</value>
+	<value code="6">3-</value>
+	<value code="7">3</value>
+	<value code="8">3+</value>
+	<value code="9">4-</value>
+</variable>
+
+<variable id="phv00029673.v1">
+	<name>rkspeed</name>
+	<description>Rank: speed and dexterity (1=above average functioning;2=average functioning;3=borderline - not definitely pathological;4=definite mild impairment;5=definite moderate impairment;6=definite severe impairment;7=not ratable; +/- indicates that the score is thought to be closer to the number above [+] or below  [-])</description>
+	<type>byte</type>
+	<value code="1-">ERROR/UNKNOWN</value>
+	<value code="10">4</value>
+	<value code="11">4+</value>
+	<value code="12">5-</value>
+	<value code="13">5</value>
+	<value code="14">5+</value>
+	<value code="15">6-</value>
+	<value code="16">6</value>
+	<value code="17">6+</value>
+	<value code="18">7</value>
+	<value code="2">1+</value>
+	<value code="3">2-</value>
+	<value code="4">2</value>
+	<value code="5">2+</value>
+	<value code="6">3-</value>
+	<value code="7">3</value>
+	<value code="8">3+</value>
+	<value code="9">4-</value>
+</variable>
+
+<variable id="phv00029663.v1">
+	<name>rkverbal</name>
+	<description>Rank: verbal fluency (1=above average functioning;2=average functioning;3=borderline - not definitely pathological;4=definite mild impairment;5=definite moderate impairment;6=definite severe impairment;7=not ratable; +/- indicates that the score is thought to be closer to the number above [+] or below  [-])</description>
+	<type>byte</type>
+	<value code="10">4</value>
+	<value code="11">4+</value>
+	<value code="12">5-</value>
+	<value code="13">5</value>
+	<value code="14">5+</value>
+	<value code="15">6-</value>
+	<value code="16">6</value>
+	<value code="17">6+</value>
+	<value code="18">7</value>
+	<value code="2">1+</value>
+	<value code="3">2-</value>
+	<value code="4">2</value>
+	<value code="5">2+</value>
+	<value code="6">3-</value>
+	<value code="7">3</value>
+	<value code="8">3+</value>
+	<value code="9">4-</value>
+</variable>
+
+<variable id="phv00029669.v1">
+	<name>rkvisuo</name>
+	<description>Rank: visuo-spatial (1=above average functioning;2=average functioning;3=borderline - not definitely pathological;4=definite mild impairment;5=definite moderate impairment;6=definite severe impairment;7=not ratable; +/- indicates that the score is thought to be closer to the number above [+] or below  [-])</description>
+	<type>byte</type>
+	<value code="10">4</value>
+	<value code="11">4+</value>
+	<value code="12">5-</value>
+	<value code="13">5</value>
+	<value code="14">5+</value>
+	<value code="15">6-</value>
+	<value code="16">6</value>
+	<value code="17">6+</value>
+	<value code="18">7</value>
+	<value code="2">1+</value>
+	<value code="3">2-</value>
+	<value code="4">2</value>
+	<value code="5">2+</value>
+	<value code="6">3-</value>
+	<value code="7">3</value>
+	<value code="8">3+</value>
+	<value code="9">4-</value>
+</variable>
+
+</data_table>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./datadict_v2.xsl"?>
+<data_table id="pht000185.v1" study_id="phs000100.v1" participant_set="1" date_created="Tue Aug 12 13:49:25 2008">
+
+<variable id="phv00045164.v1">
+	<name>agecat</name>
+	<description>5-year age category (for each value of agecat, agecat &lt;= studyage &lt; agecat+5; in analyses, agecat= 80, 85, 90 [years] were lumped into one category.)</description>
+	<type>enumerated integer</type>
+	<unit>YEARS</unit>
+	<logical_min>40</logical_min>
+	<logical_max>90</logical_max>
+</variable>
+
+<variable id="phv00024098.v1">
+	<name>aoo</name>
+	<description>Participant&#39;s age at time of T2D diagnosis (in years)</description>
+	<type>integer</type>
+	<unit>YEARS</unit>
+</variable>
+
+<variable id="phv00024099.v1">
+	<name>birthplace</name>
+	<description>Historical province of birth</description>
+	<type>enumerated integer</type>
+	<value code="1">UUDENMAAN</value>
+	<value code="10">VASAAN</value>
+	<value code="11">OULUN</value>
+	<value code="12">LAPIN</value>
+	<value code="13">KARJALAN/VIIPURIN</value>
+	<value code="2">TURUN JA PORIN</value>
+	<value code="4">HAEMEEN</value>
+	<value code="5">KYMEN</value>
+	<value code="6">MIKKELIN</value>
+	<value code="7">POHJOIS-KARJALAN</value>
+	<value code="8">KUOPION</value>
+	<value code="9">KESKI-SUOMEN</value>
+</variable>
+
+<variable id="phv00024096.v1">
+	<name>bmi</name>
+	<description><![CDATA[Body mass index (in kg/m&#178;)]]></description>
+	<type>decimal</type>
+	<unit>KG/M2</unit>
+</variable>
+
+<variable id="phv00024097.v1">
+	<name>glu_fast</name>
+	<description>Fasting plasma glucose (in mmol/L)</description>
+	<type>decimal</type>
+	<unit>MMOL/L</unit>
+</variable>
+
+<variable id="phv00024094.v1">
+	<name>sex</name>
+	<description>Participant&#39;s gender</description>
+	<type>string</type>
+</variable>
+
+<variable id="phv00024095.v1">
+	<name>studyage</name>
+	<description>Participant&#39;s age at study exam (in years)</description>
+	<type>decimal</type>
+	<unit>YEARS</unit>
+</variable>
+
+<variable id="phv00045165.v1">
+	<name>T2D affection status</name>
+	<description>T2D cases were identified using WHO 1999 criteria of fasting plasma glucose &gt;/=7.0 mmol/l or 2-h plasma glucose &gt;/=11.1 mmol/l, by report of diabetes medication use, or based on medical record review.  NGT controls were identified using WHO 1999 criteria of fasting plasma glucose &lt;6.1 mmol/l and 2-h plasma glucose &lt;7.8 mmol/l.</description>
+</variable>
+
+</data_table>

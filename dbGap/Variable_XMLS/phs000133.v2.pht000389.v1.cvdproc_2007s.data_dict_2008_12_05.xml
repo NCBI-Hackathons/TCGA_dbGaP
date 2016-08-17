@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./datadict_v2.xsl"?>
+<data_table id="pht000389.v1" study_id="phs000133.v2" participant_set="2" date_created="Fri Dec  5 17:15:57 2008">
+
+<variable id="phv00054693.v1">
+	<name>IDTYPE</name>
+	<description>COHORT IDENTIFIER</description>
+	<value code="0">ORIGINAL COHORT GROUP</value>
+	<value code="1">OFFSPRING GROUP</value>
+	<value code="2">NEW OFFSPRING SPOUSE</value>
+	<value code="3">GENERATION 3</value>
+</variable>
+
+<variable id="phv00054694.v1">
+	<name>MISSDAY</name>
+	<description>MISSING DAY PART OF PROCEDURE DATE, SEE NOTE UNDER PROCDATE</description>
+	<value code="0">NOT MISSING DAY PART</value>
+	<value code="1">MISSING DAY PART</value>
+</variable>
+
+<variable id="phv00054695.v1">
+	<name>MISSMONTH</name>
+	<description>MISSING MONTH PART OF PROCEDURE DATE, SEE NOTE UNDER PROCDATE</description>
+	<value code="0">NOT MISSING MONTH PART</value>
+	<value code="1">MISSING MONTH PART</value>
+</variable>
+
+<variable id="phv00054696.v1">
+	<name>MISSYEAR</name>
+	<description>MISSING YEAR PART OF PROCEDURE DATE, SEE NOTE UNDER PROCDATE</description>
+	<value code="0">NOT MISSING YEAR PART</value>
+	<value code="1">MISSING YEAR PART</value>
+</variable>
+
+<variable id="phv00054697.v1">
+	<name>Procdate</name>
+	<description>DATE OF PROCEDURE: PROCMO/PROCDY/PROCYR, NUMBER OF DAYS SINCE EXAM 1 </description>
+	<comment>IF PROCMO WAS MISSING THEN 7 WAS ASSIGNED. IF PROCDY WAS MISSING THEN 15 WAS ASSIGNED. IF PROCYR WAS MISSING THEN PROCDATE IS MISSING. SEE MISSDAY MISSMONTH MISSYEAR TO DETERMINE WHEN. DATE PARTS WERE MISSING. </comment>
+	<unit>DAYS</unit>
+</variable>
+
+<variable id="phv00054692.v1">
+	<name>PROC_NO</name>
+	<description>PROCEDURE NUMBER</description>
+	<comment>* for cabg and heart valve surgery see separate data set: _m_2007cabg_007, codes of 141 and 143 are deleted here. </comment>
+	<value code="140">PCTA (PERCUTANEOUS TRANSLUMINAL CORONARY ANGIOPLASTY)</value>
+	<value code="141">CABG (CORONARY ARTERY BYPASS GRAFTING)</value>
+	<value code="142">PERMANENT PACEMAKER INSERTION</value>
+	<value code="143">HEART VALVE PROCEDURE</value>
+	<value code="144">OTHER CARDIAC SURGERY/PROCEEDURE</value>
+	<value code="145">CAROTID ARTERY SURGERY</value>
+	<value code="146">AORTA SURGERY</value>
+	<value code="147">FEMORAL OF LOWER EXTREMITY SURGERY</value>
+	<value code="148">SURGICAL AMPUTATION</value>
+	<value code="149">CARDIAC CATHETERIZATION</value>
+	<value code="150">CEREBRAL CAROTID VASCULAR IMAGING</value>
+	<value code="151">AOTA AND RENAL VASCULAR IMAGING</value>
+</variable>
+
+<variable id="phv00054698.v1">
+	<name>shareid</name>
+	<description>UNIQUE PARTICIPANT ID</description>
+</variable>
+
+</data_table>

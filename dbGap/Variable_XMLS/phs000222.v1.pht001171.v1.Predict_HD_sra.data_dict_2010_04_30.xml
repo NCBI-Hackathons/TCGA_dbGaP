@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./datadict_v2.xsl"?>
+<data_table id="pht001171.v1" study_id="phs000222.v1" participant_set="1" date_created="Fri Apr 30 17:43:20 2010">
+
+<unique_key phv="00089073" version="1">id</unique_key>
+<unique_key phv="00089076" version="1">sravisit</unique_key>
+
+<variable id="phv00089073.v1">
+	<name>id</name>
+	<description>Anonymized Participant ID</description>
+	<type>integer</type>
+</variable>
+
+<variable id="phv00089074.v1">
+	<name>status</name>
+	<description>Case/Control Status</description>
+	<type>string</type>
+	<value code="case">case</value>
+	<value code="cont">cont</value>
+</variable>
+
+<variable id="phv00089075.v1">
+	<name>sraage</name>
+	<description>Age at baseline SRA (Suicide Risk Assessment)</description>
+	<type>integer</type>
+	<unit>Years</unit>
+</variable>
+
+<variable id="phv00089076.v1">
+	<name>sravisit</name>
+	<description>Visit</description>
+	<type>integer</type>
+	<unit>Visits</unit>
+</variable>
+
+<variable id="phv00089077.v1">
+	<name>sradays</name>
+	<description>Days since last SRA (Suicide Risk Assessment)</description>
+	<type>integer</type>
+	<unit>Days</unit>
+</variable>
+
+<variable id="phv00089078.v1">
+	<name>sraa1</name>
+	<description>Endorse suicide ideation</description>
+	<type>encoded value</type>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00089079.v1">
+	<name>sraa2</name>
+	<description>Endorse hopelessness</description>
+	<type>encoded value</type>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00089080.v1">
+	<name>sraa3</name>
+	<description>Total BDI (Beck Depression Inventory)-II score greater than 13</description>
+	<type>encoded value</type>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00089081.v1">
+	<name>srab1</name>
+	<description>Total BHS (Beck Hopelessness Scale) score 9 or greater</description>
+	<type>encoded value</type>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00089082.v1">
+	<name>srac1</name>
+	<description>Endorse question 25a w/rating of &gt;=3</description>
+	<type>encoded value</type>
+	<comment><![CDATA[See document "UHDRS part III part- PREDICT07-18-2002" (<a href="javascript:getPage(this, &#39;document.cgi&#39;, 2397);return true;" onclick="javascript:getPage(this, &#39;document.cgi&#39;, 2397);return true;" oncontextmenu="javascript:getPage(this, &#39;document.cgi&#39;, 2397);return true;">phd002397</a>)]]></comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00089083.v1">
+	<name>srac2</name>
+	<description>Endorse question 25b w/rating of &gt;=3</description>
+	<type>encoded value</type>
+	<comment><![CDATA[See document "UHDRS part III part- PREDICT07-18-2002" (<a href="javascript:getPage(this, &#39;document.cgi&#39;, 2397);return true;" onclick="javascript:getPage(this, &#39;document.cgi&#39;, 2397);return true;" oncontextmenu="javascript:getPage(this, &#39;document.cgi&#39;, 2397);return true;">phd002397</a>)]]></comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00089084.v1">
+	<name>srac3</name>
+	<description>Endorse question 28a w/rating of &gt;=2</description>
+	<type>encoded value</type>
+	<comment><![CDATA[See document "UHDRS part III part- PREDICT07-18-2002" (<a href="javascript:getPage(this, &#39;document.cgi&#39;, 2397);return true;" onclick="javascript:getPage(this, &#39;document.cgi&#39;, 2397);return true;" oncontextmenu="javascript:getPage(this, &#39;document.cgi&#39;, 2397);return true;">phd002397</a>)]]></comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00089085.v1">
+	<name>srac4</name>
+	<description>Endorse question 28b w/rating of &gt;=2</description>
+	<type>encoded value</type>
+	<comment><![CDATA[See document "UHDRS part III part- PREDICT07-18-2002" (<a href="javascript:getPage(this, &#39;document.cgi&#39;, 2397);return true;" onclick="javascript:getPage(this, &#39;document.cgi&#39;, 2397);return true;" oncontextmenu="javascript:getPage(this, &#39;document.cgi&#39;, 2397);return true;">phd002397</a>)]]></comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00089086.v1">
+	<name>srasum</name>
+	<description>Suicide Risk Assessment</description>
+	<type>integer</type>
+</variable>
+
+</data_table>

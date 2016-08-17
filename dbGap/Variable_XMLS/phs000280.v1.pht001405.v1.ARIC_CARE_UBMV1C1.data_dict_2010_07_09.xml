@@ -1,0 +1,854 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./datadict_v2.xsl"?>
+<data_table id="pht001405.v1" study_id="phs000280.v1" participant_set="1" date_created="Fri Jul  9 11:27:56 2010">
+
+<variable id="phv00097588.v1">
+	<name>Individual_ID</name>
+	<description>Subject Identifier</description>
+	<type>string</type>
+</variable>
+
+<variable id="phv00097589.v1">
+	<name>UBMD01</name>
+	<description>TYPE OF STUDY</description>
+	<type>integer</type>
+	<value code=".">Missing</value>
+</variable>
+
+<variable id="phv00097590.v1">
+	<name>UBMD02</name>
+	<description>STUDY NUMBER (CONTACT YEAR) [1]</description>
+	<type>integer</type>
+	<unit>Year</unit>
+	<value code=".">Missing</value>
+</variable>
+
+<variable id="phv00097591.v1">
+	<name>UBMD06</name>
+	<description>LESION PRESENT?</description>
+	<type>encoded</type>
+	<value code="N">No</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00097592.v1">
+	<name>UBMD07</name>
+	<description>READING NUMBER - 01 FOR UBM</description>
+	<type>integer</type>
+	<unit>Reading number</unit>
+	<value code=".">Missing</value>
+</variable>
+
+<variable id="phv00097593.v1">
+	<name>QC01</name>
+	<description>SITE NAME OF QC REPEAT SCAN 01</description>
+	<type>string</type>
+</variable>
+
+<variable id="phv00097594.v1">
+	<name>QC02</name>
+	<description>SITE NAME OF QC REPEAT SCAN 02</description>
+	<type>string</type>
+</variable>
+
+<variable id="phv00097595.v1">
+	<name>QCCNT</name>
+	<description>NUMBER OF QC REPEAT SCANS</description>
+	<type>integer</type>
+	<unit>Scans</unit>
+	<value code=".">Missing</value>
+</variable>
+
+<variable id="phv00097596.v1">
+	<name>OUTRANGE</name>
+	<description>Spline value out of range, original used</description>
+	<type>encoded</type>
+	<comment>The encoded value descriptions were not submitted at this time. If you have any questions, please visit http://www.cscc.unc.edu/ARIC/pubuse/.</comment>
+	<value code=".">Missing</value>
+</variable>
+
+<variable id="phv00097597.v1">
+	<name>LPPAMX23</name>
+	<description>MAX NEAR WALL WIDTH(LT POPLITEAL)</description>
+	<type>decimal</type>
+	<logical_min>0.201</logical_min>
+	<logical_max>2.077</logical_max>
+</variable>
+
+<variable id="phv00097598.v1">
+	<name>LOPAMX23</name>
+	<description>MAX NEAR WALL WIDTH(LT COM CAR: OPT ANG)</description>
+	<type>decimal</type>
+	<logical_min>0.201</logical_min>
+	<logical_max>4.556</logical_max>
+</variable>
+
+<variable id="phv00097599.v1">
+	<name>LANAMX23</name>
+	<description>MAX NEAR WALL WIDTH(LT COM CAR: ANT ANG)</description>
+	<type>decimal</type>
+	<logical_min>0.201</logical_min>
+	<logical_max>4.02</logical_max>
+</variable>
+
+<variable id="phv00097600.v1">
+	<name>LPOAMX23</name>
+	<description>MAX NEAR WALL WIDTH(LT C OM CAR: PST ANG</description>
+	<type>decimal</type>
+	<logical_min>0.134</logical_min>
+	<logical_max>4.221</logical_max>
+</variable>
+
+<variable id="phv00097601.v1">
+	<name>LBIAMX23</name>
+	<description>MAX NEAR WALL WIDTH(LT BIF)</description>
+	<type>decimal</type>
+	<logical_min>0.067</logical_min>
+	<logical_max>6.566</logical_max>
+</variable>
+
+<variable id="phv00097602.v1">
+	<name>LINAMX23</name>
+	<description>MAX NEAR WALL WIDTH(LT INT CAROTID)</description>
+	<type>decimal</type>
+	<logical_min>0.134</logical_min>
+	<logical_max>5.36</logical_max>
+</variable>
+
+<variable id="phv00097603.v1">
+	<name>RPPAMX23</name>
+	<description>MAX NEAR WALL WIDTH(RT POPLITEAL)</description>
+	<type>decimal</type>
+	<logical_min>0.134</logical_min>
+	<logical_max>2.144</logical_max>
+</variable>
+
+<variable id="phv00097604.v1">
+	<name>ROPAMX23</name>
+	<description>MAX NEAR WALL WIDTH(RT COM CAR: OPT ANG)</description>
+	<type>decimal</type>
+	<logical_min>0.201</logical_min>
+	<logical_max>4.087</logical_max>
+</variable>
+
+<variable id="phv00097605.v1">
+	<name>RANAMX23</name>
+	<description>MAX NEAR WALL WIDTH(RT COM CAR: ANT ANG)</description>
+	<type>decimal</type>
+	<logical_min>0.201</logical_min>
+	<logical_max>2.948</logical_max>
+</variable>
+
+<variable id="phv00097606.v1">
+	<name>RPOAMX23</name>
+	<description>MAX NEAR WALL WIDTH(RT COM CAR: PST ANG)</description>
+	<type>decimal</type>
+	<logical_min>0.201</logical_min>
+	<logical_max>3.484</logical_max>
+</variable>
+
+<variable id="phv00097607.v1">
+	<name>RBIAMX23</name>
+	<description>MAX NEAR WALL WIDTH(RT BIF)</description>
+	<type>decimal</type>
+	<logical_min>0.201</logical_min>
+	<logical_max>6.097</logical_max>
+</variable>
+
+<variable id="phv00097608.v1">
+	<name>RINAMX23</name>
+	<description>MAX NEAR WALL WIDTH(RT INT CAROTID)</description>
+	<type>decimal</type>
+	<logical_min>0.201</logical_min>
+	<logical_max>7.906</logical_max>
+</variable>
+
+<variable id="phv00097609.v1">
+	<name>QC1AMX23</name>
+	<description>MAX NEAR WALL WIDTH(QC SCAN 0 1)</description>
+	<type>decimal</type>
+	<logical_min>0.201</logical_min>
+	<logical_max>6.231</logical_max>
+</variable>
+
+<variable id="phv00097610.v1">
+	<name>QC2AMX23</name>
+	<description>MAX NEAR WALL WIDTH(QC SCAN 02)</description>
+	<type>decimal</type>
+	<logical_min>0.201</logical_min>
+	<logical_max>2.412</logical_max>
+</variable>
+
+<variable id="phv00097611.v1">
+	<name>LPPAAV23</name>
+	<description>AVG NEAR WALL WIDTH(LT POPLITEAL)</description>
+	<type>decimal</type>
+	<logical_min>0.15075</logical_min>
+	<logical_max>1.7822</logical_max>
+</variable>
+
+<variable id="phv00097612.v1">
+	<name>LOPAAV23</name>
+	<description>AVG NEAR WALL WIDTH(LT COM CAR: OPT ANG)</description>
+	<type>decimal</type>
+	<logical_min>0.178667</logical_min>
+	<logical_max>2.957571</logical_max>
+</variable>
+
+<variable id="phv00097613.v1">
+	<name>LANAAV23</name>
+	<description>AVG NEAR WALL WIDTH(LT COM CAR: ANT ANG)</description>
+	<type>decimal</type>
+	<logical_min>0.15075</logical_min>
+	<logical_max>2.9145</logical_max>
+</variable>
+
+<variable id="phv00097614.v1">
+	<name>LPOAAV23</name>
+	<description>AVG NEAR WALL WIDTH(LT C OM CAR: PST ANG</description>
+	<type>decimal</type>
+	<logical_min>0.1206</logical_min>
+	<logical_max>3.240364</logical_max>
+</variable>
+
+<variable id="phv00097615.v1">
+	<name>LBIAAV23</name>
+	<description>AVG NEAR WALL WIDTH(LT BIF)</description>
+	<type>decimal</type>
+	<logical_min>0.067</logical_min>
+	<logical_max>4.879833</logical_max>
+</variable>
+
+<variable id="phv00097616.v1">
+	<name>LINAAV23</name>
+	<description>AVG NEAR WALL WIDTH(LT INT CAROTID)</description>
+	<type>decimal</type>
+	<logical_min>0.134</logical_min>
+	<logical_max>4.958</logical_max>
+</variable>
+
+<variable id="phv00097617.v1">
+	<name>RPPAAV23</name>
+	<description>AVG NEAR WALL WIDTH(RT POPLITEAL)</description>
+	<type>decimal</type>
+	<logical_min>0.089333</logical_min>
+	<logical_max>1.89275</logical_max>
+</variable>
+
+<variable id="phv00097618.v1">
+	<name>ROPAAV23</name>
+	<description>AVG NEAR WALL WIDTH(RT COM CAR: OPT ANG)</description>
+	<type>decimal</type>
+	<logical_min>0.1675</logical_min>
+	<logical_max>3.6515</logical_max>
+</variable>
+
+<variable id="phv00097619.v1">
+	<name>RANAAV23</name>
+	<description>AVG NEAR WALL WIDTH(RT COM CAR: ANT ANG)</description>
+	<type>decimal</type>
+	<logical_min>0.18425</logical_min>
+	<logical_max>2.814</logical_max>
+</variable>
+
+<variable id="phv00097620.v1">
+	<name>RPOAAV23</name>
+	<description>AVG NEAR WALL WIDTH(RT COM CAR: PST ANG)</description>
+	<type>decimal</type>
+	<logical_min>0.1407</logical_min>
+	<logical_max>2.576455</logical_max>
+</variable>
+
+<variable id="phv00097621.v1">
+	<name>RBIAAV23</name>
+	<description>AVG NEAR WALL WIDTH(RT BIF)</description>
+	<type>decimal</type>
+	<logical_min>0.201</logical_min>
+	<logical_max>4.511333</logical_max>
+</variable>
+
+<variable id="phv00097622.v1">
+	<name>RINAAV23</name>
+	<description>AVG NEAR WALL WIDTH(RT INT CAROTID)</description>
+	<type>decimal</type>
+	<logical_min>0.201</logical_min>
+	<logical_max>5.049364</logical_max>
+</variable>
+
+<variable id="phv00097623.v1">
+	<name>QC1AAV23</name>
+	<description>AVG NEAR WALL WIDTH(QC SCAN 0 1)</description>
+	<type>decimal</type>
+	<logical_min>0.201</logical_min>
+	<logical_max>6.231</logical_max>
+</variable>
+
+<variable id="phv00097624.v1">
+	<name>QC2AAV23</name>
+	<description>AVG NEAR WALL WIDTH(QC SCAN 02)</description>
+	<type>decimal</type>
+	<logical_min>0.201</logical_min>
+	<logical_max>1.973455</logical_max>
+</variable>
+
+<variable id="phv00097625.v1">
+	<name>LPPAMX45</name>
+	<description>MAX FAR WALL WIDTH(LT POPLITEAL)</description>
+	<type>decimal</type>
+	<logical_min>0.201</logical_min>
+	<logical_max>3.618</logical_max>
+</variable>
+
+<variable id="phv00097626.v1">
+	<name>LOPAMX45</name>
+	<description>MAX FAR WALL WIDTH(LT COM CAR: OPT ANG)</description>
+	<type>decimal</type>
+	<logical_min>0.268</logical_min>
+	<logical_max>3.417</logical_max>
+</variable>
+
+<variable id="phv00097627.v1">
+	<name>LANAMX45</name>
+	<description>MAX FAR WALL WIDTH(LT COM CAR: ANT ANG)</description>
+	<type>decimal</type>
+	<logical_min>0.134</logical_min>
+	<logical_max>3.417</logical_max>
+</variable>
+
+<variable id="phv00097628.v1">
+	<name>LPOAMX45</name>
+	<description>MAX FAR WALL WIDTH(LT C OM CAR: PST ANG)</description>
+	<type>decimal</type>
+	<logical_min>0.268</logical_min>
+	<logical_max>5.226</logical_max>
+</variable>
+
+<variable id="phv00097629.v1">
+	<name>LBIAMX45</name>
+	<description>MAX FAR WALL WIDTH(LT BIF)</description>
+	<type>decimal</type>
+	<logical_min>0.268</logical_min>
+	<logical_max>6.097</logical_max>
+</variable>
+
+<variable id="phv00097630.v1">
+	<name>LINAMX45</name>
+	<description>MAX FAR WALL WIDTH(LT INT CAROTID)</description>
+	<type>decimal</type>
+	<logical_min>0.201</logical_min>
+	<logical_max>5.494</logical_max>
+</variable>
+
+<variable id="phv00097631.v1">
+	<name>RPPAMX45</name>
+	<description>MAX FAR WALL WIDTH(RT POPLITEAL)</description>
+	<type>decimal</type>
+	<logical_min>0.268</logical_min>
+	<logical_max>3.015</logical_max>
+</variable>
+
+<variable id="phv00097632.v1">
+	<name>ROPAMX45</name>
+	<description>MAX FAR WALL WIDTH(RT COM CAR: OPT ANG)</description>
+	<type>decimal</type>
+	<logical_min>0.268</logical_min>
+	<logical_max>3.551</logical_max>
+</variable>
+
+<variable id="phv00097633.v1">
+	<name>RANAMX45</name>
+	<description>MAX FAR WALL WIDTH(RT COM CAR: ANT ANG)</description>
+	<type>decimal</type>
+	<logical_min>0.268</logical_min>
+	<logical_max>2.881</logical_max>
+</variable>
+
+<variable id="phv00097634.v1">
+	<name>RPOAMX45</name>
+	<description>MAX FAR WALL WIDTH(RT COM CAR: PST ANG)</description>
+	<type>decimal</type>
+	<logical_min>0.268</logical_min>
+	<logical_max>4.087</logical_max>
+</variable>
+
+<variable id="phv00097635.v1">
+	<name>RBIAMX45</name>
+	<description>MAX FAR WALL WIDTH(RT BIF)</description>
+	<type>decimal</type>
+	<logical_min>0.201</logical_min>
+	<logical_max>6.968</logical_max>
+</variable>
+
+<variable id="phv00097636.v1">
+	<name>RINAMX45</name>
+	<description>MAX FAR WALL WIDTH(RT INT CAROTID)</description>
+	<type>decimal</type>
+	<logical_min>0.201</logical_min>
+	<logical_max>5.829</logical_max>
+</variable>
+
+<variable id="phv00097637.v1">
+	<name>QC1AMX45</name>
+	<description>MAX FAR WALL WIDTH(QC SCAN 0 1)</description>
+	<type>decimal</type>
+	<logical_min>0.201</logical_min>
+	<logical_max>5.293</logical_max>
+</variable>
+
+<variable id="phv00097638.v1">
+	<name>QC2AMX45</name>
+	<description>MAX FAR WALL WIDTH(QC SCAN 02)</description>
+	<type>decimal</type>
+	<logical_min>0.268</logical_min>
+	<logical_max>3.953</logical_max>
+</variable>
+
+<variable id="phv00097639.v1">
+	<name>LPPAAV45</name>
+	<description>AVG FAR WALL WIDTH(LT POPLITEAL)</description>
+	<type>decimal</type>
+	<logical_min>0.1675</logical_min>
+	<logical_max>2.4589</logical_max>
+</variable>
+
+<variable id="phv00097640.v1">
+	<name>LOPAAV45</name>
+	<description>AVG FAR WALL WIDTH(LT COM CAR: OPT ANG)</description>
+	<type>decimal</type>
+	<logical_min>0.220143</logical_min>
+	<logical_max>2.698273</logical_max>
+</variable>
+
+<variable id="phv00097641.v1">
+	<name>LANAAV45</name>
+	<description>AVG FAR WALL WIDTH(LT COM CAR: ANT ANG)</description>
+	<type>decimal</type>
+	<logical_min>0.134</logical_min>
+	<logical_max>2.814</logical_max>
+</variable>
+
+<variable id="phv00097642.v1">
+	<name>LPOAAV45</name>
+	<description>AVG FAR WALL WIDTH(LT C OM CAR: PST ANG)</description>
+	<type>decimal</type>
+	<logical_min>0.201</logical_min>
+	<logical_max>3.33325</logical_max>
+</variable>
+
+<variable id="phv00097643.v1">
+	<name>LBIAAV45</name>
+	<description>AVG FAR WALL WIDTH(LT BIF)</description>
+	<type>decimal</type>
+	<logical_min>0.223333</logical_min>
+	<logical_max>4.198667</logical_max>
+</variable>
+
+<variable id="phv00097644.v1">
+	<name>LINAAV45</name>
+	<description>AVG FAR WALL WIDTH(LT INT CAROTID)</description>
+	<type>decimal</type>
+	<logical_min>0.201</logical_min>
+	<logical_max>5.270667</logical_max>
+</variable>
+
+<variable id="phv00097645.v1">
+	<name>RPPAAV45</name>
+	<description>AVG FAR WALL WIDTH(RT POPLITEAL)</description>
+	<type>decimal</type>
+	<logical_min>0.2345</logical_min>
+	<logical_max>2.724667</logical_max>
+</variable>
+
+<variable id="phv00097646.v1">
+	<name>ROPAAV45</name>
+	<description>AVG FAR WALL WIDTH(RT COM CAR: OPT ANG)</description>
+	<type>decimal</type>
+	<logical_min>0.223333</logical_min>
+	<logical_max>3.551</logical_max>
+</variable>
+
+<variable id="phv00097647.v1">
+	<name>RANAAV45</name>
+	<description>AVG FAR WALL WIDTH(RT COM CAR: ANT ANG)</description>
+	<type>decimal</type>
+	<logical_min>0.223333</logical_min>
+	<logical_max>2.76375</logical_max>
+</variable>
+
+<variable id="phv00097648.v1">
+	<name>RPOAAV45</name>
+	<description>AVG FAR WALL WIDTH(RT COM CAR: PST ANG)</description>
+	<type>decimal</type>
+	<logical_min>0.2345</logical_min>
+	<logical_max>3.216</logical_max>
+</variable>
+
+<variable id="phv00097649.v1">
+	<name>RBIAAV45</name>
+	<description>AVG FAR WALL WIDTH(RT BIF)</description>
+	<type>decimal</type>
+	<logical_min>0.156333</logical_min>
+	<logical_max>4.708273</logical_max>
+</variable>
+
+<variable id="phv00097650.v1">
+	<name>RINAAV45</name>
+	<description>AVG FAR WALL WIDTH(RT INT CAROTID)</description>
+	<type>decimal</type>
+	<logical_min>0.1675</logical_min>
+	<logical_max>5.695</logical_max>
+</variable>
+
+<variable id="phv00097651.v1">
+	<name>QC1AAV45</name>
+	<description>AVG FAR WALL WIDTH(QC SCAN 0 1)</description>
+	<type>decimal</type>
+	<logical_min>0.201</logical_min>
+	<logical_max>5.293</logical_max>
+</variable>
+
+<variable id="phv00097652.v1">
+	<name>QC2AAV45</name>
+	<description>AVG FAR WALL WIDTH(QC SCAN 02)</description>
+	<type>decimal</type>
+	<logical_min>0.268</logical_min>
+	<logical_max>2.2311</logical_max>
+</variable>
+
+<variable id="phv00097653.v1">
+	<name>LPPAMN34</name>
+	<description>MIN LUMEN DIAMETER(LT POPLITEAL)</description>
+	<type>decimal</type>
+	<logical_min>2.278</logical_min>
+	<logical_max>9.38</logical_max>
+</variable>
+
+<variable id="phv00097654.v1">
+	<name>LOPAMN34</name>
+	<description>MIN LUMEN DIAMETER(LT COM CAR: OPT ANG)</description>
+	<type>decimal</type>
+	<logical_min>0.804</logical_min>
+	<logical_max>11.658</logical_max>
+</variable>
+
+<variable id="phv00097655.v1">
+	<name>LANAMN34</name>
+	<description>MIN LUMEN DIAMETER(LT COM CAR: ANT ANG)</description>
+	<type>decimal</type>
+	<logical_min>3.015</logical_min>
+	<logical_max>11.323</logical_max>
+</variable>
+
+<variable id="phv00097656.v1">
+	<name>LPOAMN34</name>
+	<description>MIN LUMEN DIAMETER(LT C OM CAR: PST ANG)</description>
+	<type>decimal</type>
+	<logical_min>3.752</logical_min>
+	<logical_max>11.256</logical_max>
+</variable>
+
+<variable id="phv00097657.v1">
+	<name>LBIAMN34</name>
+	<description>MIN LUMEN DIAMETER(LT BIF)</description>
+	<type>decimal</type>
+	<logical_min>1.273</logical_min>
+	<logical_max>17.219</logical_max>
+</variable>
+
+<variable id="phv00097658.v1">
+	<name>LINAMN34</name>
+	<description>MIN LUMEN DIAMETER(LT INT CAROTID)</description>
+	<type>decimal</type>
+	<logical_min>0.67</logical_min>
+	<logical_max>12.998</logical_max>
+</variable>
+
+<variable id="phv00097659.v1">
+	<name>RPPAMN34</name>
+	<description>MIN LUMEN DIAMETER(RT POPLITEAL)</description>
+	<type>decimal</type>
+	<logical_min>1.34</logical_min>
+	<logical_max>8.911</logical_max>
+</variable>
+
+<variable id="phv00097660.v1">
+	<name>ROPAMN34</name>
+	<description>MIN LUMEN DIAMETER(RT COM CAR: OPT ANG)</description>
+	<type>decimal</type>
+	<logical_min>3.082</logical_min>
+	<logical_max>13.467</logical_max>
+</variable>
+
+<variable id="phv00097661.v1">
+	<name>RANAMN34</name>
+	<description>MIN LUMEN DIAMETER(RT COM CAR: ANT ANG)</description>
+	<type>decimal</type>
+	<logical_min>2.546</logical_min>
+	<logical_max>11.323</logical_max>
+</variable>
+
+<variable id="phv00097662.v1">
+	<name>RPOAMN34</name>
+	<description>MIN LUMEN DIAMETER(RT COM CAR: PST ANG)</description>
+	<type>decimal</type>
+	<logical_min>2.345</logical_min>
+	<logical_max>11.39</logical_max>
+</variable>
+
+<variable id="phv00097663.v1">
+	<name>RBIAMN34</name>
+	<description>MIN LUMEN DIAMETER(RT BIF)</description>
+	<type>decimal</type>
+	<logical_min>0.402</logical_min>
+	<logical_max>14.941</logical_max>
+</variable>
+
+<variable id="phv00097664.v1">
+	<name>RINAMN34</name>
+	<description>MIN LUMEN DIAMETER(RT INT CAROTID)</description>
+	<type>decimal</type>
+	<logical_min>0.335</logical_min>
+	<logical_max>10.921</logical_max>
+</variable>
+
+<variable id="phv00097665.v1">
+	<name>QC1AMN34</name>
+	<description>MIN LUMEN DIAMETER(QC SCAN 0 1)</description>
+	<type>decimal</type>
+	<logical_min>1.407</logical_min>
+	<logical_max>17.018</logical_max>
+</variable>
+
+<variable id="phv00097666.v1">
+	<name>QC2AMN34</name>
+	<description>MIN LUMEN DIAMETER(QC SCAN 02)</description>
+	<type>decimal</type>
+	<logical_min>2.144</logical_min>
+	<logical_max>10.117</logical_max>
+</variable>
+
+<variable id="phv00097667.v1">
+	<name>LPPAAV25</name>
+	<description>AVG ARTERY DIAMETER(LT POPLITEAL)</description>
+	<type>decimal</type>
+	<logical_min>2.434333</logical_min>
+	<logical_max>10.452</logical_max>
+</variable>
+
+<variable id="phv00097668.v1">
+	<name>LOPAAV25</name>
+	<description>AVG ARTERY DIAMETER(LT COM CAR: OPT ANG)</description>
+	<type>decimal</type>
+	<logical_min>4.1808</logical_min>
+	<logical_max>14.3581</logical_max>
+</variable>
+
+<variable id="phv00097669.v1">
+	<name>LANAAV25</name>
+	<description>AVG ARTERY DIAMETER(LT COM CAR: ANT ANG)</description>
+	<type>decimal</type>
+	<logical_min>4.013909</logical_min>
+	<logical_max>13.57867</logical_max>
+</variable>
+
+<variable id="phv00097670.v1">
+	<name>LPOAAV25</name>
+	<description>AVG ARTERY DIAMETER(LT C OM CAR: PST ANG</description>
+	<type>decimal</type>
+	<logical_min>3.886</logical_min>
+	<logical_max>14.98288</logical_max>
+</variable>
+
+<variable id="phv00097671.v1">
+	<name>LBIAAV25</name>
+	<description>AVG ARTERY DIAMETER(LT BIF)</description>
+	<type>decimal</type>
+	<logical_min>3.435273</logical_min>
+	<logical_max>20.8705</logical_max>
+</variable>
+
+<variable id="phv00097672.v1">
+	<name>LINAAV25</name>
+	<description>AVG ARTERY DIAMETER(LT INT CAROTID)</description>
+	<type>decimal</type>
+	<logical_min>3.739818</logical_min>
+	<logical_max>14.8405</logical_max>
+</variable>
+
+<variable id="phv00097673.v1">
+	<name>RPPAAV25</name>
+	<description>AVG ARTERY DIAMETER(RT POPLITEAL)</description>
+	<type>decimal</type>
+	<logical_min>2.019571</logical_min>
+	<logical_max>11.59844</logical_max>
+</variable>
+
+<variable id="phv00097674.v1">
+	<name>ROPAAV25</name>
+	<description>AVG ARTERY DIAMETER(RT COM CAR: OPT ANG)</description>
+	<type>decimal</type>
+	<logical_min>5.012818</logical_min>
+	<logical_max>13.05891</logical_max>
+</variable>
+
+<variable id="phv00097675.v1">
+	<name>RANAAV25</name>
+	<description>AVG ARTERY DIAMETER(RT COM CAR: ANT ANG)</description>
+	<type>decimal</type>
+	<logical_min>5.025</logical_min>
+	<logical_max>14.54509</logical_max>
+</variable>
+
+<variable id="phv00097676.v1">
+	<name>RPOAAV25</name>
+	<description>AVG ARTERY DIAMETER(RT COM CAR: PST ANG)</description>
+	<type>decimal</type>
+	<logical_min>4.757</logical_min>
+	<logical_max>13.10155</logical_max>
+</variable>
+
+<variable id="phv00097677.v1">
+	<name>RBIAAV25</name>
+	<description>AVG ARTERY DIAMETER(RT BIF)</description>
+	<type>decimal</type>
+	<logical_min>5.3198</logical_min>
+	<logical_max>20.301</logical_max>
+</variable>
+
+<variable id="phv00097678.v1">
+	<name>RINAAV25</name>
+	<description>AVG ARTERY DIAMETER(RT INT CAROTID)</description>
+	<type>decimal</type>
+	<logical_min>3.761571</logical_min>
+	<logical_max>16.884</logical_max>
+</variable>
+
+<variable id="phv00097679.v1">
+	<name>QC1AAV25</name>
+	<description>AVG ARTERY DIAMETER(QC SCAN 0 1)</description>
+	<type>decimal</type>
+	<logical_min>3.005429</logical_min>
+	<logical_max>17.93773</logical_max>
+</variable>
+
+<variable id="phv00097680.v1">
+	<name>QC2AAV25</name>
+	<description>AVG ARTERY DIAMETER(QC SCAN 02)</description>
+	<type>decimal</type>
+	<logical_min>4.6632</logical_min>
+	<logical_max>14.204</logical_max>
+</variable>
+
+<variable id="phv00097681.v1">
+	<name>LPPADEEP</name>
+	<description>DEPTH VARIABLE(LT POPLITEAL)</description>
+	<type>decimal</type>
+	<logical_min>130.2222</logical_min>
+	<logical_max>511</logical_max>
+</variable>
+
+<variable id="phv00097682.v1">
+	<name>LOPADEEP</name>
+	<description>DEPTH VARIABLE(LT COM CAR: OPT ANG)</description>
+	<type>decimal</type>
+	<logical_min>101.0909</logical_min>
+	<logical_max>510</logical_max>
+</variable>
+
+<variable id="phv00097683.v1">
+	<name>LANADEEP</name>
+	<description>DEPTH VARIABLE(LT COM CAR: ANT ANG)</description>
+	<type>decimal</type>
+	<logical_min>99.66667</logical_min>
+	<logical_max>511</logical_max>
+</variable>
+
+<variable id="phv00097684.v1">
+	<name>LPOADEEP</name>
+	<description>DEPTH VARIABLE(LT C OM CAR: PST ANG)</description>
+	<type>decimal</type>
+	<logical_min>125</logical_min>
+	<logical_max>511</logical_max>
+</variable>
+
+<variable id="phv00097685.v1">
+	<name>LBIADEEP</name>
+	<description>DEPTH VARIABLE(LT BIF)</description>
+	<type>decimal</type>
+	<logical_min>142.4545</logical_min>
+	<logical_max>510</logical_max>
+</variable>
+
+<variable id="phv00097686.v1">
+	<name>LINADEEP</name>
+	<description>DEPTH VARIABLE(LT INT CAROTID)</description>
+	<type>decimal</type>
+	<logical_min>122.3333</logical_min>
+	<logical_max>509.5</logical_max>
+</variable>
+
+<variable id="phv00097687.v1">
+	<name>RPPADEEP</name>
+	<description>DEPTH VARIABLE(RT POPLITEAL)</description>
+	<type>decimal</type>
+	<logical_min>151</logical_min>
+	<logical_max>511</logical_max>
+</variable>
+
+<variable id="phv00097688.v1">
+	<name>ROPADEEP</name>
+	<description>DEPTH VARIABLE(RT COM CAR: OPT ANG)</description>
+	<type>decimal</type>
+	<logical_min>136.7273</logical_min>
+	<logical_max>510.3333</logical_max>
+</variable>
+
+<variable id="phv00097689.v1">
+	<name>RANADEEP</name>
+	<description>DEPTH VARIABLE(RT COM CAR: ANT ANG)</description>
+	<type>decimal</type>
+	<logical_min>104.5556</logical_min>
+	<logical_max>510.875</logical_max>
+</variable>
+
+<variable id="phv00097690.v1">
+	<name>RPOADEEP</name>
+	<description>DEPTH VARIABLE(RT COM CAR: PST ANG)</description>
+	<type>decimal</type>
+	<logical_min>136.5455</logical_min>
+	<logical_max>511</logical_max>
+</variable>
+
+<variable id="phv00097691.v1">
+	<name>RBIADEEP</name>
+	<description>DEPTH VARIABLE(RT BIF)</description>
+	<type>decimal</type>
+	<logical_min>154.4444</logical_min>
+	<logical_max>511</logical_max>
+</variable>
+
+<variable id="phv00097692.v1">
+	<name>RINADEEP</name>
+	<description>DEPTH VARIABLE(RT INT CAROTID)</description>
+	<type>decimal</type>
+	<logical_min>133.5455</logical_min>
+	<logical_max>510</logical_max>
+</variable>
+
+<variable id="phv00097693.v1">
+	<name>DEPTH01</name>
+	<description>OVERALL AVERAGE DEPTH VARIABLE in pixels</description>
+	<type>decimal</type>
+	<logical_min>149.5455</logical_min>
+	<logical_max>508.5</logical_max>
+</variable>
+
+<variable id="phv00097694.v1">
+	<name>DEPTH02</name>
+	<description>OVERALL AVERAGE DEPTH VARIABLE in mm</description>
+	<type>decimal</type>
+	<logical_min>10.01955</logical_min>
+	<logical_max>34.0695</logical_max>
+</variable>
+
+</data_table>

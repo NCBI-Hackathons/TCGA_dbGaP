@@ -1,0 +1,779 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./datadict_v2.xsl"?>
+<data_table id="pht001301.v1" study_id="phs000280.v1" participant_set="1" date_created="Fri Jul  9 11:27:30 2010">
+
+<variable id="phv00092524.v1">
+	<name>Individual_ID</name>
+	<description>Subject Identifier</description>
+	<type>string</type>
+</variable>
+
+<variable id="phv00092525.v1">
+	<name>WORK_I03</name>
+	<description>WORK INDEX, DEFINITION 3</description>
+	<type>decimal</type>
+	<logical_min>1</logical_min>
+	<logical_max>4.875</logical_max>
+</variable>
+
+<variable id="phv00092526.v1">
+	<name>ELEVEL01</name>
+	<description>EDUCATION LEVEL, DEFINITION 1</description>
+	<type>encoded</type>
+	<value code="1">Never went to school</value>
+	<value code="2">Grades 1 to 3</value>
+	<value code="3">Grades 4 to 8</value>
+	<value code="4">Grades 9 to 11</value>
+	<value code="5">Grades 12</value>
+	<value code="6">GED</value>
+	<value code=".">Missing or did not ascertain</value>
+</variable>
+
+<variable id="phv00092527.v1">
+	<name>ELEVEL02</name>
+	<description>EDUCATION LEVEL, DEFINITION 2</description>
+	<type>encoded</type>
+	<value code="1">One or more years of Vocational or Professional School after High School</value>
+	<value code="2">One or more years of college</value>
+	<value code="3">One or more years of Graduate or Professional School after college</value>
+	<value code=".">Missing or did not ascertain</value>
+</variable>
+
+<variable id="phv00092528.v1">
+	<name>CHMA13</name>
+	<description>ALBUMIN (GM-DL)                     Q13</description>
+	<type>decimal</type>
+	<unit>GM/DL</unit>
+	<logical_min>2</logical_min>
+	<logical_max>5.1</logical_max>
+</variable>
+
+<variable id="phv00092529.v1">
+	<name>CHMA14</name>
+	<description>TOTAL PROTEIN (GM-DL)               Q14</description>
+	<type>decimal</type>
+	<unit>GM/DL</unit>
+	<logical_min>5.1</logical_min>
+	<logical_max>10.1</logical_max>
+</variable>
+
+<variable id="phv00092530.v1">
+	<name>DTIA39</name>
+	<description>CONSUMED CHOCOLATE BAR OR PIECES Q39</description>
+	<type>encoded</type>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002888.1">Exam 1 Dietary Intake.pdf</a>.]]></comment>
+	<value code="A">More then 6 per day</value>
+	<value code="B">4-6 per day</value>
+	<value code="C">2-3 per day</value>
+	<value code="D">1 per day</value>
+	<value code="E">5-6 per week</value>
+	<value code="F">2-4 per week</value>
+	<value code="G">1 per week</value>
+	<value code="H">1-3 per month</value>
+	<value code="I">Almost never</value>
+</variable>
+
+<variable id="phv00092531.v1">
+	<name>DTIA61</name>
+	<description>CONSUMED COFFEE [cups]Q61</description>
+	<type>encoded</type>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002888.1">Exam 1 Dietary Intake.pdf</a>.]]></comment>
+	<value code="A">More then 6 per day</value>
+	<value code="B">4-6 per day</value>
+	<value code="C">2-3 per day</value>
+	<value code="D">1 per day</value>
+	<value code="E">5-6 per week</value>
+	<value code="F">2-4 per week</value>
+	<value code="G">1 per week</value>
+	<value code="H">1-3 per month</value>
+	<value code="I">Almost never</value>
+</variable>
+
+<variable id="phv00092532.v1">
+	<name>DTIA62</name>
+	<description>CONSUMED HOT OR ICED TEA [cups] Q62</description>
+	<type>encoded</type>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002888.1">Exam 1 Dietary Intake.pdf</a>.]]></comment>
+	<value code="A">More then 6 per day</value>
+	<value code="B">4-6 per day</value>
+	<value code="C">2-3 per day</value>
+	<value code="D">1 per day</value>
+	<value code="E">5-6 per week</value>
+	<value code="F">2-4 per week</value>
+	<value code="G">1 per week</value>
+	<value code="H">1-3 per month</value>
+	<value code="I">Almost never</value>
+</variable>
+
+<variable id="phv00092533.v1">
+	<name>DTIA63</name>
+	<description>CONSUMED LOW CALORIE SOFT DRINKS [glass] Q63</description>
+	<type>encoded</type>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002888.1">Exam 1 Dietary Intake.pdf</a>.]]></comment>
+	<value code="A">More then 6 per day</value>
+	<value code="B">4-6 per day</value>
+	<value code="C">2-3 per day</value>
+	<value code="D">1 per day</value>
+	<value code="E">5-6 per week</value>
+	<value code="F">2-4 per week</value>
+	<value code="G">1 per week</value>
+	<value code="H">1-3 per month</value>
+	<value code="I">Almost never</value>
+</variable>
+
+<variable id="phv00092534.v1">
+	<name>DTIA64</name>
+	<description>CONSUMED REGULAR SOFT DRINKS [glass] Q64</description>
+	<type>encoded</type>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002888.1">Exam 1 Dietary Intake.pdf</a>.]]></comment>
+	<value code="A">More then 6 per day</value>
+	<value code="B">4-6 per day</value>
+	<value code="C">2-3 per day</value>
+	<value code="D">1 per day</value>
+	<value code="E">5-6 per week</value>
+	<value code="F">2-4 per week</value>
+	<value code="G">1 per week</value>
+	<value code="H">1-3 per month</value>
+	<value code="I">Almost never</value>
+</variable>
+
+<variable id="phv00092535.v1">
+	<name>DTIA65</name>
+	<description>CONSUMED FRUIT-FLAVORED PUNCH  [glass] Q65</description>
+	<type>encoded</type>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002888.1">Exam 1 Dietary Intake.pdf</a>.]]></comment>
+	<value code="A">More then 6 per day</value>
+	<value code="B">4-6 per day</value>
+	<value code="C">2-3 per day</value>
+	<value code="D">1 per day</value>
+	<value code="E">5-6 per week</value>
+	<value code="F">2-4 per week</value>
+	<value code="G">1 per week</value>
+	<value code="H">1-3 per month</value>
+	<value code="I">Almost never</value>
+</variable>
+
+<variable id="phv00092536.v1">
+	<name>DTIA90</name>
+	<description>DRINK ALCOHOLIC BEVERAGE Q90</description>
+	<type>encoded</type>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002888.1">Exam 1 Dietary Intake.pdf</a>.]]></comment>
+	<value code="N">No</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00092537.v1">
+	<name>DTIA91</name>
+	<description>CONSUMED ALCOHOLIC BEVERAGES Q91</description>
+	<type>encoded</type>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002888.1">Exam 1 Dietary Intake.pdf</a>.]]></comment>
+	<value code="N">No</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00092538.v1">
+	<name>DTIA92</name>
+	<description>NO OF YRS STOPPED DRINKING Q92</description>
+	<type>integer</type>
+	<unit>Years</unit>
+	<logical_min>0</logical_min>
+	<logical_max>50</logical_max>
+	<comment><![CDATA[The encoded value descriptions were not submitted at this time. If you have any questions, please visit http://www.cscc.unc.edu/ARIC/pubuse/.
+		For further information, consult the document <a href="GetPdf.cgi?id=phd002888.1">Exam 1 Dietary Intake.pdf</a>. ]]></comment>
+</variable>
+
+<variable id="phv00092539.v1">
+	<name>DTIA93</name>
+	<description>NO OF YEARS THAT YOU DRANK Q93</description>
+	<type>integer</type>
+	<unit>Years</unit>
+	<logical_min>0</logical_min>
+	<logical_max>50</logical_max>
+	<comment><![CDATA[The encoded value descriptions were not submitted at this time. If you have any questions, please visit http://www.cscc.unc.edu/ARIC/pubuse/.
+		For further information, consult the document <a href="GetPdf.cgi?id=phd002888.1">Exam 1 Dietary Intake.pdf</a>. ]]></comment>
+</variable>
+
+<variable id="phv00092540.v1">
+	<name>DTIA94A</name>
+	<description>DRINK WINE? Q94A</description>
+	<type>encoded</type>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002888.1">Exam 1 Dietary Intake.pdf</a>.]]></comment>
+	<value code="N">No</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00092541.v1">
+	<name>DTIA94B</name>
+	<description>DRIND BEER? Q94B</description>
+	<type>encoded</type>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002888.1">Exam 1 Dietary Intake.pdf</a>.]]></comment>
+	<value code="N">No</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00092542.v1">
+	<name>DTIA94C</name>
+	<description>DRINKS MADE FROM HARD LIQUOR? Q94C</description>
+	<type>encoded</type>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002888.1">Exam 1 Dietary Intake.pdf</a>.]]></comment>
+	<value code="N">No</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00092543.v1">
+	<name>DTIA94D</name>
+	<description>DRINK OTHERS Q94D</description>
+	<type>encoded</type>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002888.1">Exam 1 Dietary Intake.pdf</a>.]]></comment>
+	<value code="N">No</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00092544.v1">
+	<name>DTIA94E</name>
+	<description>LIST OTHER DRINKS Q94E</description>
+	<type>string</type>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002888.1">Exam 1 Dietary Intake.pdf</a>.]]></comment>
+</variable>
+
+<variable id="phv00092545.v1">
+	<name>DTIA95</name>
+	<description>NO OF DRINKS PER WK CONSUMED Q95</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>99</logical_max>
+	<comment><![CDATA[The encoded value descriptions were not submitted at this time. If you have any questions, please visit http://www.cscc.unc.edu/ARIC/pubuse/.
+		For further information, consult the document <a href="GetPdf.cgi?id=phd002888.1">Exam 1 Dietary Intake.pdf</a>. ]]></comment>
+</variable>
+
+<variable id="phv00092546.v1">
+	<name>DTIA96</name>
+	<description>NO OF GLASSES WINE CONSUMED P WK Q96</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>60</logical_max>
+	<comment><![CDATA[The encoded value descriptions were not submitted at this time. If you have any questions, please visit http://www.cscc.unc.edu/ARIC/pubuse/.
+		For further information, consult the document <a href="GetPdf.cgi?id=phd002888.1">Exam 1 Dietary Intake.pdf</a>. ]]></comment>
+</variable>
+
+<variable id="phv00092547.v1">
+	<name>DTIA97</name>
+	<description>NO OF CANS OF BEER CONSUMED P WK Q97</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>99</logical_max>
+	<comment><![CDATA[The encoded value descriptions were not submitted at this time. If you have any questions, please visit http://www.cscc.unc.edu/ARIC/pubuse/.
+		For further information, consult the document <a href="GetPdf.cgi?id=phd002888.1">Exam 1 Dietary Intake.pdf</a>. ]]></comment>
+</variable>
+
+<variable id="phv00092548.v1">
+	<name>DTIA98</name>
+	<description>NO OF HARD LIQUOR DRINKS PER WK Q98</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>99</logical_max>
+	<comment><![CDATA[The encoded value descriptions were not submitted at this time. If you have any questions, please visit http://www.cscc.unc.edu/ARIC/pubuse/.
+		For further information, consult the document <a href="GetPdf.cgi?id=phd002888.1">Exam 1 Dietary Intake.pdf</a>. ]]></comment>
+</variable>
+
+<variable id="phv00092549.v1">
+	<name>DTIA99</name>
+	<description>NUM OF DRINKS IN THE PAST 24 HRS Q99</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>32</logical_max>
+	<comment><![CDATA[The encoded value descriptions were not submitted at this time. If you have any questions, please visit http://www.cscc.unc.edu/ARIC/pubuse/.
+		For further information, consult the document <a href="GetPdf.cgi?id=phd002888.1">Exam 1 Dietary Intake.pdf</a>. ]]></comment>
+</variable>
+
+<variable id="phv00092550.v1">
+	<name>DTIA100A</name>
+	<description>DRANK WINE IN THE PAST 24 HRS Q100A</description>
+	<type>encoded</type>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002888.1">Exam 1 Dietary Intake.pdf</a>.]]></comment>
+	<value code="N">No</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00092551.v1">
+	<name>DTIA100B</name>
+	<description>DRANK BEER IN THE PAST 24 HRS Q100B</description>
+	<type>encoded</type>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002888.1">Exam 1 Dietary Intake.pdf</a>.]]></comment>
+	<value code="N">No</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00092552.v1">
+	<name>DTIA100C</name>
+	<description>DRANK LIQUOR IN THE PAST 24 HRS Q100C</description>
+	<type>encoded</type>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002888.1">Exam 1 Dietary Intake.pdf</a>.]]></comment>
+	<value code="N">No</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00092553.v1">
+	<name>DTIA101</name>
+	<description>WEIGHT AT THE AGE OF 25 Q101</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>360</logical_max>
+	<comment><![CDATA[The encoded value descriptions were not submitted at this time. If you have any questions, please visit http://www.cscc.unc.edu/ARIC/pubuse/.
+		For further information, consult the document <a href="GetPdf.cgi?id=phd002888.1">Exam 1 Dietary Intake.pdf</a>. ]]></comment>
+</variable>
+
+<variable id="phv00092554.v1">
+	<name>ECGRA078</name>
+	<description>Heart rate</description>
+	<type>integer</type>
+	<logical_min>34</logical_min>
+	<logical_max>161</logical_max>
+</variable>
+
+<variable id="phv00092555.v1">
+	<name>ECGRA275</name>
+	<description>Q-T interval</description>
+	<type>integer</type>
+	<logical_min>285</logical_min>
+	<logical_max>564</logical_max>
+</variable>
+
+<variable id="phv00092556.v1">
+	<name>HOM31</name>
+	<description>AGE STOPPED SMOKING CIGARETTES    Q31</description>
+	<type>integer</type>
+	<unit>Years old</unit>
+	<logical_min>12</logical_min>
+	<logical_max>65</logical_max>
+	<comment><![CDATA[The encoded value descriptions were not submitted at this time. If you have any questions, please visit http://www.cscc.unc.edu/ARIC/pubuse/.
+		For further information, consult the document <a href="GetPdf.cgi?id=phd002892.1">Exam 1 Home Interview.pdf</a>. ]]></comment>
+</variable>
+
+<variable id="phv00092557.v1">
+	<name>HOM32</name>
+	<description>NUMBER OF CIGARETTES PER DAY      Q32</description>
+	<type>integer</type>
+	<unit>Cigarettes per day</unit>
+	<logical_min>0</logical_min>
+	<logical_max>80</logical_max>
+	<comment><![CDATA[The encoded value descriptions were not submitted at this time. If you have any questions, please visit http://www.cscc.unc.edu/ARIC/pubuse/.
+		For further information, consult the document <a href="GetPdf.cgi?id=phd002892.1">Exam 1 Home Interview.pdf</a>. ]]></comment>
+</variable>
+
+<variable id="phv00092558.v1">
+	<name>BMI21</name>
+	<description>V2 body mass index in kg/m2</description>
+	<type>decimal</type>
+	<unit>kg/m2</unit>
+	<logical_min>13.66459</logical_min>
+	<logical_max>67.26245</logical_max>
+</variable>
+
+<variable id="phv00092559.v1">
+	<name>MNTRCP21</name>
+	<description>V2 mean triceps in mm</description>
+	<type>decimal</type>
+	<unit>mm</unit>
+	<logical_min>3</logical_min>
+	<logical_max>65</logical_max>
+</variable>
+
+<variable id="phv00092560.v1">
+	<name>MNSSCP21</name>
+	<description>V2 mean subscapular in mm</description>
+	<type>decimal</type>
+	<unit>mm</unit>
+	<logical_min>0</logical_min>
+	<logical_max>68</logical_max>
+</variable>
+
+<variable id="phv00092561.v1">
+	<name>WSTHPR21</name>
+	<description>V2 waist-hip ratio</description>
+	<type>decimal</type>
+	<logical_min>0.539007</logical_min>
+	<logical_max>1.388889</logical_max>
+</variable>
+
+<variable id="phv00092562.v1">
+	<name>ANTB01</name>
+	<description>WEIGHT TO NEAREST LB              Q1</description>
+	<type>integer</type>
+	<unit>LB</unit>
+	<logical_min>72</logical_min>
+	<logical_max>398</logical_max>
+	<comment><![CDATA[The encoded value descriptions were not submitted at this time. If you have any questions, please visit http://www.cscc.unc.edu/ARIC/pubuse/.
+		For further information, consult the document <a href="GetPdf.cgi?id=phd002887.1">Exam 1 Anthropometry.pdf</a>. ]]></comment>
+</variable>
+
+<variable id="phv00092563.v1">
+	<name>ANTB04A</name>
+	<description>WAIST GIRTH (NEAREST cm)          Q4A</description>
+	<type>integer</type>
+	<unit>cm</unit>
+	<logical_min>56</logical_min>
+	<logical_max>175</logical_max>
+	<comment><![CDATA[The encoded value descriptions were not submitted at this time. If you have any questions, please visit http://www.cscc.unc.edu/ARIC/pubuse/.
+		For further information, consult the document <a href="GetPdf.cgi?id=phd002887.1">Exam 1 Anthropometry.pdf</a>. ]]></comment>
+</variable>
+
+<variable id="phv00092564.v1">
+	<name>ANTB04B</name>
+	<description>HIP GIRTH (NEAREST cm)            Q4B</description>
+	<type>integer</type>
+	<unit>cm</unit>
+	<logical_min>63</logical_min>
+	<logical_max>184</logical_max>
+	<comment><![CDATA[The encoded value descriptions were not submitted at this time. If you have any questions, please visit http://www.cscc.unc.edu/ARIC/pubuse/.
+		For further information, consult the document <a href="GetPdf.cgi?id=phd002887.1">Exam 1 Anthropometry.pdf</a>. ]]></comment>
+</variable>
+
+<variable id="phv00092565.v1">
+	<name>CHMB08</name>
+	<description>CREATININE (mg per dL) DEC PT REQ Q8</description>
+	<type>decimal</type>
+	<unit>mg per dL</unit>
+	<logical_min>0.6</logical_min>
+	<logical_max>20.79999</logical_max>
+</variable>
+
+<variable id="phv00092566.v1">
+	<name>HHXB44</name>
+	<description>HAVE YOU EVER SMOKED CIGARETTES?    Q44</description>
+	<type>encoded</type>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002890.1">Exam 1 Health history.pdf</a>.]]></comment>
+	<value code="N">No</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00092567.v1">
+	<name>HHXB45</name>
+	<description>DO YOU NOW SMOKE CIGARETTES?        Q45</description>
+	<type>encoded</type>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002890.1">Exam 1 Health history.pdf</a>.]]></comment>
+	<value code="N">No</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00092568.v1">
+	<name>HHXB46</name>
+	<description>WHEN SMOKED LAST CIGARETTE?         Q46</description>
+	<type>encoded</type>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002890.1">Exam 1 Health history.pdf</a>.]]></comment>
+	<value code="A">Less than 2 months ago</value>
+	<value code="B">2-12 months ago</value>
+	<value code="C">13-24 months ago</value>
+	<value code="D">25-36 months ago</value>
+	<value code="E">More than 36 months ago</value>
+</variable>
+
+<variable id="phv00092569.v1">
+	<name>HHXB47</name>
+	<description>PRIOR QUITTING-# CIGARETTES A DAY   Q47</description>
+	<type>integer</type>
+	<unit>Cigarettes per day</unit>
+	<logical_min>0</logical_min>
+	<logical_max>99</logical_max>
+	<comment><![CDATA[The encoded value descriptions were not submitted at this time. If you have any questions, please visit http://www.cscc.unc.edu/ARIC/pubuse/.
+		For further information, consult the document <a href="GetPdf.cgi?id=phd002890.1">Exam 1 Health history.pdf</a>. ]]></comment>
+</variable>
+
+<variable id="phv00092570.v1">
+	<name>HHXB48</name>
+	<description># CIGARETTES SMOKED A DAY NOW       Q48</description>
+	<type>integer</type>
+	<unit>Cigarettes per day</unit>
+	<logical_min>0</logical_min>
+	<logical_max>80</logical_max>
+	<comment><![CDATA[The encoded value descriptions were not submitted at this time. If you have any questions, please visit http://www.cscc.unc.edu/ARIC/pubuse/.
+		For further information, consult the document <a href="GetPdf.cgi?id=phd002890.1">Exam 1 Health history.pdf</a>. ]]></comment>
+</variable>
+
+<variable id="phv00092571.v1">
+	<name>BMI32</name>
+	<description>Body Mass Index in kg/m**2</description>
+	<type>decimal</type>
+	<unit>kg/m**2</unit>
+	<logical_min>13.305</logical_min>
+	<logical_max>61.96084</logical_max>
+</variable>
+
+<variable id="phv00092572.v1">
+	<name>WSTHPR31</name>
+	<description>Waist-to-hip ratio</description>
+	<type>decimal</type>
+	<logical_min>0.5</logical_min>
+	<logical_max>1.980769</logical_max>
+</variable>
+
+<variable id="phv00092573.v1">
+	<name>ANTC1</name>
+	<description>STANDING HEIGHT TO NEAREST CM     Q1</description>
+	<type>integer</type>
+	<unit>cm</unit>
+	<logical_min>125</logical_min>
+	<logical_max>200</logical_max>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002887.1">Exam 1 Anthropometry.pdf</a>.]]></comment>
+</variable>
+
+<variable id="phv00092574.v1">
+	<name>ANTC2</name>
+	<description>WEIGHT TO NEAREST LB              Q2</description>
+	<type>integer</type>
+	<unit>LB</unit>
+	<logical_min>74</logical_min>
+	<logical_max>416</logical_max>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002887.1">Exam 1 Anthropometry.pdf</a>.]]></comment>
+</variable>
+
+<variable id="phv00092575.v1">
+	<name>ANTC3A</name>
+	<description>WAIST GIRTH (NEAREST cm)          Q3A</description>
+	<type>integer</type>
+	<unit>cm</unit>
+	<logical_min>52</logical_min>
+	<logical_max>175</logical_max>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002887.1">Exam 1 Anthropometry.pdf</a>.]]></comment>
+</variable>
+
+<variable id="phv00092576.v1">
+	<name>ANTC3B</name>
+	<description>HIP GIRTH (NEAREST cm)            Q3B</description>
+	<type>integer</type>
+	<unit>cm</unit>
+	<logical_min>51</logical_min>
+	<logical_max>186</logical_max>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002887.1">Exam 1 Anthropometry.pdf</a>.]]></comment>
+</variable>
+
+<variable id="phv00092577.v1">
+	<name>PHXA25</name>
+	<description>EVER SMOKE CIGARETTES                Q25</description>
+	<type>encoded</type>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002935.1">Exam 3 Personal History.pdf</a>.]]></comment>
+	<value code="N">No</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00092578.v1">
+	<name>PHXA27</name>
+	<description>DO YOU NOW SMOKE CIGARETTES          Q27</description>
+	<type>encoded</type>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002935.1">Exam 3 Personal History.pdf</a>.]]></comment>
+	<value code="N">No</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00092579.v1">
+	<name>PHXA28</name>
+	<description>WHEN DID YOU SMOKE LAST CIGARETTE    Q28</description>
+	<type>encoded</type>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002935.1">Exam 3 Personal History.pdf</a>.]]></comment>
+	<value code="A">Less then 2 months ago</value>
+	<value code="B">At least 2 months ago, but less then 12 months</value>
+	<value code="C">At least 12 months, but less than 24 months</value>
+	<value code="D">At least 24 months, but less than 36 months</value>
+	<value code="E">36 or more months ago</value>
+</variable>
+
+<variable id="phv00092580.v1">
+	<name>PHXA30</name>
+	<description>CIGARETTES NOW SMOKE PER DAY         Q30</description>
+	<type>integer</type>
+	<unit>Cigarettes per day</unit>
+	<logical_min>0</logical_min>
+	<logical_max>99</logical_max>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002935.1">Exam 3 Personal History.pdf</a>.]]></comment>
+</variable>
+
+<variable id="phv00092581.v1">
+	<name>PHXA29</name>
+	<description>PRIOR TO QUITTING, CIGARETTES/DAY    Q29</description>
+	<type>integer</type>
+	<unit>Cigarettes per day</unit>
+	<logical_min>0</logical_min>
+	<logical_max>99</logical_max>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002935.1">Exam 3 Personal History.pdf</a>.]]></comment>
+</variable>
+
+<variable id="phv00092582.v1">
+	<name>WSTHPR41</name>
+	<description>Waist-to-hip Ratio</description>
+	<type>decimal</type>
+	<logical_min>0.463636</logical_min>
+	<logical_max>1.90566</logical_max>
+</variable>
+
+<variable id="phv00092583.v1">
+	<name>ANTD1</name>
+	<description>STANDING HEIGHT TO NEAREST CM     Q1</description>
+	<type>integer</type>
+	<unit>cm</unit>
+	<logical_min>139</logical_min>
+	<logical_max>239</logical_max>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002887.1">Exam 1 Anthropometry.pdf</a>.]]></comment>
+</variable>
+
+<variable id="phv00092584.v1">
+	<name>ANTD2</name>
+	<description>WEIGHT TO NEAREST LB              Q2</description>
+	<type>integer</type>
+	<unit>LB</unit>
+	<logical_min>79</logical_min>
+	<logical_max>406</logical_max>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002887.1">Exam 1 Anthropometry.pdf</a>.]]></comment>
+</variable>
+
+<variable id="phv00092585.v1">
+	<name>ANTD3A</name>
+	<description>WAIST GIRTH (NEAREST cm)          Q3A</description>
+	<type>integer</type>
+	<unit>cm</unit>
+	<logical_min>51</logical_min>
+	<logical_max>169</logical_max>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002887.1">Exam 1 Anthropometry.pdf</a>.]]></comment>
+</variable>
+
+<variable id="phv00092586.v1">
+	<name>ANTD3B</name>
+	<description>HIP GIRTH (NEAREST cm)            Q3B</description>
+	<type>integer</type>
+	<unit>cm</unit>
+	<logical_min>51</logical_min>
+	<logical_max>252</logical_max>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002887.1">Exam 1 Anthropometry.pdf</a>.]]></comment>
+</variable>
+
+<variable id="phv00092587.v1">
+	<name>PHXB7</name>
+	<description>EVER SMOKE CIGARETTES                Q7</description>
+	<type>encoded</type>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002935.1">Exam 3 Personal History.pdf</a>.]]></comment>
+	<value code="N">No</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00092588.v1">
+	<name>PHXB8</name>
+	<description>DO YOU NOW SMOKE CIGARETTES          Q8</description>
+	<type>encoded</type>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002935.1">Exam 3 Personal History.pdf</a>.]]></comment>
+	<value code="N">No</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00092589.v1">
+	<name>PHXB9</name>
+	<description>WHEN DID YOU SMOKE LAST CIGARETTE    Q9</description>
+	<type>encoded</type>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002935.1">Exam 3 Personal History.pdf</a>.]]></comment>
+	<value code="A">Less than 2 months ago</value>
+	<value code="B">At least 2 months ago but less than 12 months ago</value>
+	<value code="C">At least 12 months ago but less than 24 months ago</value>
+	<value code="D">At least 24 months ago but less than 36 months ago</value>
+	<value code="E">More than 36 months ago (specify)</value>
+</variable>
+
+<variable id="phv00092590.v1">
+	<name>PHXB10</name>
+	<description>PRIOR TO QUITTING, CIGARETTES/DAY    Q10</description>
+	<type>integer</type>
+	<unit>Cigarettes per day</unit>
+	<logical_min>0</logical_min>
+	<logical_max>90</logical_max>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002935.1">Exam 3 Personal History.pdf</a>.]]></comment>
+</variable>
+
+<variable id="phv00092591.v1">
+	<name>PHXB11</name>
+	<description>CIGARETTES NOW SMOKE PER DAY         Q11</description>
+	<type>integer</type>
+	<unit>Cigarettes per day</unit>
+	<logical_min>0</logical_min>
+	<logical_max>99</logical_max>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002935.1">Exam 3 Personal History.pdf</a>.]]></comment>
+</variable>
+
+<variable id="phv00092592.v1">
+	<name>v1marital</name>
+	<description>Marital status at V1</description>
+	<type>encoded</type>
+	<value code="D">Divorced</value>
+	<value code="M">Married</value>
+	<value code="N">Never married</value>
+	<value code="S">Separated</value>
+	<value code="W">Widow/widower</value>
+</variable>
+
+<variable id="phv00092593.v1">
+	<name>WARFV1</name>
+	<description>ARIC: Warfarin use (Med Codes)  V1</description>
+	<type>encoded</type>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+	<value code=".">Missing or did not ascertain</value>
+</variable>
+
+<variable id="phv00092594.v1">
+	<name>WARFV2</name>
+	<description>ARIC: Warfarin use (Med Codes)  V2</description>
+	<type>encoded</type>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+	<value code=".">Missing or did not ascertain</value>
+</variable>
+
+<variable id="phv00092595.v1">
+	<name>WARFV3</name>
+	<description>ARIC: Warfarin use (Med Codes)  V3</description>
+	<type>encoded</type>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+	<value code=".">Missing or did not ascertain</value>
+</variable>
+
+<variable id="phv00092596.v1">
+	<name>WARFV4</name>
+	<description>ARIC: Warfarin use (Med Codes)  V4</description>
+	<type>encoded</type>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+	<value code=".">Missing or did not ascertain</value>
+</variable>
+
+<variable id="phv00092597.v1">
+	<name>birthyear</name>
+	<description>Year of birth</description>
+	<type>integer</type>
+	<logical_min>1920</logical_min>
+	<logical_max>1945</logical_max>
+</variable>
+
+<variable id="phv00092598.v1">
+	<name>afinc</name>
+	<description>Incident atrial fibrillation</description>
+	<type>encoded</type>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+	<value code=".">Missing or did not ascertain</value>
+</variable>
+
+<variable id="phv00092599.v1">
+	<name>afprev</name>
+	<description>Prevalent atrial fibrillation or missing ECG information at baseline</description>
+	<type>encoded</type>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00092600.v1">
+	<name>futimeaf</name>
+	<description>Follow-up time days</description>
+	<type>decimal</type>
+	<unit>Days</unit>
+	<logical_min>8</logical_min>
+	<logical_max>6970</logical_max>
+</variable>
+
+</data_table>

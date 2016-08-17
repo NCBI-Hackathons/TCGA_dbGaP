@@ -1,0 +1,1009 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./datadict_v2.xsl"?>
+<data_table id="pht001001.v1" study_id="phs000200.v2" participant_set="1" date_created="Sun Jul 11 18:40:34 2010">
+
+<variable id="phv00078666.v1">
+	<name>SHAREID</name>
+	<description>WHI SHARe ID</description>
+	<type>integer</type>
+</variable>
+
+<variable id="phv00078667.v1">
+	<name>F32DAYS</name>
+	<description>F32 Days since randomization/enrollment</description>
+	<type>integer</type>
+	<unit>days</unit>
+	<logical_min>-340</logical_min>
+	<logical_max>949</logical_max>
+</variable>
+
+<variable id="phv00078668.v1">
+	<name>SISTER</name>
+	<description>Have a sister who reached adulthood</description>
+	<type>encoded value</type>
+	<comment>Have you ever had any full-blooded sisters who reached adulthood (age 21)?</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+	<value code="9">Don&#39;t know</value>
+</variable>
+
+<variable id="phv00078669.v1">
+	<name>SISNUM</name>
+	<description>Number of sisters</description>
+	<type>encoded value</type>
+	<comment>How many sisters?
+		Sub-question of F32 V3 Q1 &#39;Sisters who reached adulthood&#39;. </comment>
+	<value code="1">1</value>
+	<value code="2">2</value>
+	<value code="3">3</value>
+	<value code="4">4</value>
+	<value code="5">5</value>
+	<value code="6">6</value>
+	<value code="7">7</value>
+	<value code="8">8</value>
+	<value code="9">9</value>
+	<value code="10">10 or more</value>
+</variable>
+
+<variable id="phv00078670.v1">
+	<name>BROTHER</name>
+	<description>Have a brother who reached adulthood</description>
+	<type>encoded value</type>
+	<comment>Have you ever had any full-blooded brothers who reached adulthood (age 21)?</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+	<value code="9">Don&#39;t know</value>
+</variable>
+
+<variable id="phv00078671.v1">
+	<name>BRONUM</name>
+	<description>Number of brothers</description>
+	<type>encoded value</type>
+	<comment>How many brothers?
+		Sub-question of F32 V3 Q2 &#39;Brothers who reached adulthood&#39;. </comment>
+	<value code="1">1</value>
+	<value code="2">2</value>
+	<value code="3">3</value>
+	<value code="4">4</value>
+	<value code="5">5</value>
+	<value code="6">6</value>
+	<value code="7">7</value>
+	<value code="8">8</value>
+	<value code="9">9</value>
+	<value code="10">10 or more</value>
+</variable>
+
+<variable id="phv00078672.v1">
+	<name>DAUGHTER</name>
+	<description>Have a daughter who reached adulthood</description>
+	<type>encoded value</type>
+	<comment>Have you ever had any daughters who reached adulthood (age 21)?</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+	<value code="9">Don&#39;t know</value>
+</variable>
+
+<variable id="phv00078673.v1">
+	<name>DAUNUM</name>
+	<description>Number of daughters</description>
+	<type>encoded value</type>
+	<comment>Sub-question of F32 V3 Q3 &#39;Daughters who reached adult&#39;.</comment>
+	<value code="1">1</value>
+	<value code="2">2</value>
+	<value code="3">3</value>
+	<value code="4">4</value>
+	<value code="5">5</value>
+	<value code="6">6</value>
+	<value code="7">7</value>
+	<value code="8">8</value>
+	<value code="9">9</value>
+	<value code="10">10 or more</value>
+</variable>
+
+<variable id="phv00078674.v1">
+	<name>SON</name>
+	<description>Have a son who reached adulthood</description>
+	<type>encoded value</type>
+	<comment>Have you ever had any sons who reached adulthood (age 21)?</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+	<value code="9">Don&#39;t know</value>
+</variable>
+
+<variable id="phv00078675.v1">
+	<name>SONNUM</name>
+	<description>Number of sons</description>
+	<type>encoded value</type>
+	<comment>How many sons?
+		Sub-question of F32 V3 Q4 &#39;Sons who reached adulthood&#39;. </comment>
+	<value code="1">1</value>
+	<value code="2">2</value>
+	<value code="3">3</value>
+	<value code="4">4</value>
+	<value code="5">5</value>
+	<value code="6">6</value>
+	<value code="7">7</value>
+	<value code="8">8</value>
+	<value code="9">9</value>
+	<value code="10">10 or more</value>
+</variable>
+
+<variable id="phv00078676.v1">
+	<name>MOMALIVE</name>
+	<description>Natural mother still alive</description>
+	<type>encoded value</type>
+	<comment>Is your natural mother still alive?</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+	<value code="9">Don&#39;t know</value>
+</variable>
+
+<variable id="phv00078677.v1">
+	<name>MOMDIEDA</name>
+	<description>Age natural mother died</description>
+	<type>encoded value</type>
+	<comment>How old was she when she died? (Please guess as closely as you can.)
+		Sub-question of F32 V3 Q5 &#39;Mother still alive&#39;. </comment>
+	<value code="1">Less than 40</value>
+	<value code="2">40-49</value>
+	<value code="3">50-59</value>
+	<value code="4">60-69</value>
+	<value code="5">70-79</value>
+	<value code="6">80-89</value>
+	<value code="7">90-99</value>
+	<value code="8">100 or older</value>
+</variable>
+
+<variable id="phv00078678.v1">
+	<name>MOMAGE</name>
+	<description>Natural mother&#39;s current age</description>
+	<type>encoded value</type>
+	<comment>How old is she now? (Please guess as closely as you can.)
+		Sub-question of F32 V3 Q5 &#39;Mother still alive&#39;. </comment>
+	<value code="1">Less than 70</value>
+	<value code="2">70-79</value>
+	<value code="3">80-89</value>
+	<value code="4">90-99</value>
+	<value code="5">100 or older</value>
+</variable>
+
+<variable id="phv00078679.v1">
+	<name>DADALIVE</name>
+	<description>Natural father still alive</description>
+	<type>encoded value</type>
+	<comment>Is your natural father still alive?</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+	<value code="9">Don&#39;t know</value>
+</variable>
+
+<variable id="phv00078680.v1">
+	<name>DADDIEDA</name>
+	<description>Age natural father died</description>
+	<type>encoded value</type>
+	<comment>How old was he when he died? (Please guess as closely as you can.)
+		Sub-question of F32 V3 Q6 &#39;Father still alive&#39;. </comment>
+	<value code="1">Less than 40</value>
+	<value code="2">40-49</value>
+	<value code="3">50-59</value>
+	<value code="4">60-69</value>
+	<value code="5">70-79</value>
+	<value code="6">80-89</value>
+	<value code="7">90-99</value>
+	<value code="8">100 or older</value>
+</variable>
+
+<variable id="phv00078681.v1">
+	<name>DADAGE</name>
+	<description>Natural father&#39;s current age</description>
+	<type>encoded value</type>
+	<comment>How old is he now? (Please guess as closely as you can.)
+		Sub-question of F32 V3 Q6 &#39;Father still alive&#39;. </comment>
+	<value code="1">Less than 70</value>
+	<value code="2">70-79</value>
+	<value code="3">80-89</value>
+	<value code="4">90-99</value>
+	<value code="5">100 or older</value>
+</variable>
+
+<variable id="phv00078682.v1">
+	<name>DIABREL</name>
+	<description>Relative had adult diabetes</description>
+	<type>encoded value</type>
+	<comment>Did your mother or father, or full-blooded sisters, full-blooded brothers, daughters, or sons ever have sugar diabetes or high blood sugar that first appeared as an adult?</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+	<value code="9">Don&#39;t know</value>
+</variable>
+
+<variable id="phv00078683.v1">
+	<name>DIABRELN</name>
+	<description>Number of relatives had adult diabetes</description>
+	<type>encoded value</type>
+	<comment>How many of these relatives had diabetes?
+		Sub-question of F32 V3 Q7 &#39;Relatives with diabetes&#39;. </comment>
+	<value code="1">1</value>
+	<value code="2">2</value>
+	<value code="3">3</value>
+	<value code="4">4 or more</value>
+</variable>
+
+<variable id="phv00078684.v1">
+	<name>MIREL</name>
+	<description>Relatives had heart attack</description>
+	<type>encoded value</type>
+	<comment>Did your mother or father or full-blooded sisters, full-blooded brothers, daughters, or sons ever have a heart attack or myocardial infarction?</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00078685.v1">
+	<name>MIMOM</name>
+	<description>Age mother had MI</description>
+	<type>encoded value</type>
+	<comment>Did this relative have a heart attack? Mother (If yes, how old was he or she when the heart attack first occurred?)
+		Sub-question of F32 V3 Q8 &#39;Relatives had heart attack&#39;.&lt;br/&gt;Not collected on all versions of Form 32. </comment>
+	<value code="0">No</value>
+	<value code="1">Yes, less than age 55</value>
+	<value code="2">Yes, age 55-64</value>
+	<value code="3">Yes, age 65 or older</value>
+	<value code="4">Yes, don&#39;t know age</value>
+	<value code="9">Don&#39;t know if he/she had heart attack</value>
+</variable>
+
+<variable id="phv00078686.v1">
+	<name>MIDAD</name>
+	<description>Age father had MI</description>
+	<type>encoded value</type>
+	<comment>Did this relative have a heart attack? Father (If yes, how old was he or she when the heart attack first occurred?)
+		Sub-question of F32 V3 Q8 &#39;Relatives had heart attack&#39;.&lt;br/&gt;Not collected on all versions of Form 32. </comment>
+	<value code="0">No</value>
+	<value code="1">Yes, less than age 55</value>
+	<value code="2">Yes, age 55-64</value>
+	<value code="3">Yes, age 65 or older</value>
+	<value code="4">Yes, don&#39;t know age</value>
+	<value code="9">Don&#39;t know if he/she had heart attack</value>
+</variable>
+
+<variable id="phv00078687.v1">
+	<name>MISIS1</name>
+	<description>Age sister (1) had MI</description>
+	<type>encoded value</type>
+	<comment>Did this relative have a heart attack? Sister (If yes, how old was he or she when the heart attack first occurred?)
+		Sub-question of F32 V3 Q8 &#39;Relatives had heart attack&#39;.&lt;br/&gt;Not collected on all versions of Form 32. </comment>
+	<value code="0">No</value>
+	<value code="1">Yes, less than age 55</value>
+	<value code="2">Yes, age 55-64</value>
+	<value code="3">Yes, age 65 or older</value>
+	<value code="4">Yes, don&#39;t know age</value>
+	<value code="9">Don&#39;t know if he/she had heart attack</value>
+</variable>
+
+<variable id="phv00078688.v1">
+	<name>MISIS2</name>
+	<description>Age sister (2) had MI</description>
+	<type>encoded value</type>
+	<comment>Did this relative have a heart attack? Sister (If yes, how old was he or she when the heart attack first occurred?)
+		Sub-question of F32 V3 Q8 &#39;Relatives had heart attack&#39;.&lt;br/&gt;Not collected on all versions of Form 32. </comment>
+	<value code="0">No</value>
+	<value code="1">Yes, less than age 55</value>
+	<value code="2">Yes, age 55-64</value>
+	<value code="3">Yes, age 65 or older</value>
+	<value code="4">Yes, don&#39;t know age</value>
+	<value code="9">Don&#39;t know if he/she had heart attack</value>
+</variable>
+
+<variable id="phv00078689.v1">
+	<name>MISIS3</name>
+	<description>Age sister (3) had MI</description>
+	<type>encoded value</type>
+	<comment>Did this relative have a heart attack? Sister (If yes, how old was he or she when the heart attack first occurred?)
+		Sub-question of F32 V3 Q8 &#39;Relatives had heart attack&#39;.&lt;br/&gt;Not collected on all versions of Form 32. </comment>
+	<value code="0">No</value>
+	<value code="1">Yes, less than age 55</value>
+	<value code="2">Yes, age 55-64</value>
+	<value code="3">Yes, age 65 or older</value>
+	<value code="4">Yes, don&#39;t know age</value>
+	<value code="9">Don&#39;t know if he/she had heart attack</value>
+</variable>
+
+<variable id="phv00078690.v1">
+	<name>MIBRO1</name>
+	<description>Age brother (1) had MI</description>
+	<type>encoded value</type>
+	<comment>Did this relative have a heart attack? Brother (If yes, how old was he or she when the heart attack first occurred?)
+		Sub-question of F32 V3 Q8 &#39;Relatives had heart attack&#39;.&lt;br/&gt;Not collected on all versions of Form 32. </comment>
+	<value code="0">No</value>
+	<value code="1">Yes, less than age 55</value>
+	<value code="2">Yes, age 55-64</value>
+	<value code="3">Yes, age 65 or older</value>
+	<value code="4">Yes, don&#39;t know age</value>
+	<value code="9">Don&#39;t know if he/she had heart attack</value>
+</variable>
+
+<variable id="phv00078691.v1">
+	<name>MIBRO2</name>
+	<description>Age brother (2) had MI</description>
+	<type>encoded value</type>
+	<comment>Did this relative have a heart attack? Brother (If yes, how old was he or she when the heart attack first occurred?)
+		Sub-question of F32 V3 Q8 &#39;Relatives had heart attack&#39;.&lt;br/&gt;Not collected on all versions of Form 32. </comment>
+	<value code="0">No</value>
+	<value code="1">Yes, less than age 55</value>
+	<value code="2">Yes, age 55-64</value>
+	<value code="3">Yes, age 65 or older</value>
+	<value code="4">Yes, don&#39;t know age</value>
+	<value code="9">Don&#39;t know if he/she had heart attack</value>
+</variable>
+
+<variable id="phv00078692.v1">
+	<name>MIBRO3</name>
+	<description>Age brother (3) had MI</description>
+	<type>encoded value</type>
+	<comment>Did this relative have a heart attack? Brother (If yes, how old was he or she when the heart attack first occurred?)
+		Sub-question of F32 V3 Q8 &#39;Relatives had heart attack&#39;.&lt;br/&gt;Not collected on all versions of Form 32. </comment>
+	<value code="0">No</value>
+	<value code="1">Yes, less than age 55</value>
+	<value code="2">Yes, age 55-64</value>
+	<value code="3">Yes, age 65 or older</value>
+	<value code="4">Yes, don&#39;t know age</value>
+	<value code="9">Don&#39;t know if he/she had heart attack</value>
+</variable>
+
+<variable id="phv00078693.v1">
+	<name>MIDAU1</name>
+	<description>Age daughter (1) had MI</description>
+	<type>encoded value</type>
+	<comment>Did this relative have a heart attack? Daughter (If yes, how old was he or she when the heart attack first occurred?)
+		Sub-question of F32 V3 Q8 &#39;Relatives had heart attack&#39;.&lt;br/&gt;Not collected on all versions of Form 32. </comment>
+	<value code="0">No</value>
+	<value code="1">Yes, less than age 55</value>
+	<value code="2">Yes, age 55-64</value>
+	<value code="3">Yes, age 65 or older</value>
+	<value code="4">Yes, don&#39;t know age</value>
+	<value code="9">Don&#39;t know if he/she had heart attack</value>
+</variable>
+
+<variable id="phv00078694.v1">
+	<name>MIDAU2</name>
+	<description>Age daughter (2) had MI</description>
+	<type>encoded value</type>
+	<comment>Did this relative have a heart attack? Daughter (If yes, how old was he or she when the heart attack first occurred?)
+		Sub-question of F32 V3 Q8 &#39;Relatives had heart attack&#39;.&lt;br/&gt;Not collected on all versions of Form 32. </comment>
+	<value code="0">No</value>
+	<value code="1">Yes, less than age 55</value>
+	<value code="2">Yes, age 55-64</value>
+	<value code="3">Yes, age 65 or older</value>
+	<value code="4">Yes, don&#39;t know age</value>
+	<value code="9">Don&#39;t know if he/she had heart attack</value>
+</variable>
+
+<variable id="phv00078695.v1">
+	<name>MISON1</name>
+	<description>Age son (1) had MI</description>
+	<type>encoded value</type>
+	<comment>Did this relative have a heart attack? Son (If yes, how old was he or she when the heart attack first occurred?)
+		Sub-question of F32 V3 Q8 &#39;Relatives had heart attack&#39;.&lt;br/&gt;Not collected on all versions of Form 32. </comment>
+	<value code="0">No</value>
+	<value code="1">Yes, less than age 55</value>
+	<value code="2">Yes, age 55-64</value>
+	<value code="3">Yes, age 65 or older</value>
+	<value code="4">Yes, don&#39;t know age</value>
+	<value code="9">Don&#39;t know if he/she had heart attack</value>
+</variable>
+
+<variable id="phv00078696.v1">
+	<name>MISON2</name>
+	<description>Age son (2) had MI</description>
+	<type>encoded value</type>
+	<comment>Did this relative have a heart attack? Son (If yes, how old was he or she when the heart attack first occurred?)
+		Sub-question of F32 V3 Q8 &#39;Relatives had heart attack&#39;.&lt;br/&gt;Not collected on all versions of Form 32. </comment>
+	<value code="0">No</value>
+	<value code="1">Yes, less than age 55</value>
+	<value code="2">Yes, age 55-64</value>
+	<value code="3">Yes, age 65 or older</value>
+	<value code="4">Yes, don&#39;t know age</value>
+	<value code="9">Don&#39;t know if he/she had heart attack</value>
+</variable>
+
+<variable id="phv00078697.v1">
+	<name>STRKREL</name>
+	<description>Relative had a stroke</description>
+	<type>encoded value</type>
+	<comment>Did your mother, father, full-blooded sisters, full-blooded brothers, daughters, or sons ever have a stroke?</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+	<value code="9">Don&#39;t know</value>
+</variable>
+
+<variable id="phv00078698.v1">
+	<name>STRKRELN</name>
+	<description>Number of relatives who had a stroke</description>
+	<type>encoded value</type>
+	<comment>How many of these relatives had a stroke?
+		Sub-question of F32 V3 Q9 &#39;Relative had stroke&#39;. </comment>
+	<value code="1">1</value>
+	<value code="2">2</value>
+	<value code="3">3</value>
+	<value code="4">4 or more</value>
+</variable>
+
+<variable id="phv00078699.v1">
+	<name>CANCFREL</name>
+	<description>Female relative had cancer</description>
+	<type>encoded value</type>
+	<comment>Did any of your female relatives ever have cancer? For female relatives, please answer about your mother, full-blooded sisters, daughters, and grandmothers. Do not include aunts, cousins, and nieces.</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00078700.v1">
+	<name>BRCAFREL</name>
+	<description>Female relative had breast cancer</description>
+	<type>encoded value</type>
+	<comment>Did your mother, full-blooded sisters, daughters, or grandmothers ever have breast cancer?
+		Sub-question of F32 V3 Q10 &#39;Female relative cancer ever&#39;. </comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00078701.v1">
+	<name>BRCAMOM</name>
+	<description>Age mother had breast cancer</description>
+	<type>encoded value</type>
+	<comment>Did this relative have breast cancer? Mother (If yes, how old was she when her breast cancer first occurred?)
+		Sub-question of F32 V3 Q10 &#39;Female relative cancer ever&#39; (skip pattern rule not applied).&lt;br/&gt;Sub-question of F32 V3 Q11 &#39;Female relative breast cancer&#39;. </comment>
+	<value code="0">No</value>
+	<value code="1">Yes, less than age 45</value>
+	<value code="2">Yes, age 45 or older</value>
+	<value code="3">Yes, don&#39;t know age</value>
+	<value code="9">Don&#39;t know if she had cancer</value>
+</variable>
+
+<variable id="phv00078702.v1">
+	<name>BRCASIS1</name>
+	<description>Age sister (1) had breast cancer</description>
+	<type>encoded value</type>
+	<comment>Did this relative have breast cancer? Sister (If yes, how old was she when her breast cancer first occurred?)
+		Sub-question of F32 V3 Q10 &#39;Female relative cancer ever&#39; (skip pattern rule not applied).&lt;br/&gt;Sub-question of F32 V3 Q11 &#39;Female relative breast cancer&#39;. </comment>
+	<value code="0">No</value>
+	<value code="1">Yes, less than age 45</value>
+	<value code="2">Yes, age 45 or older</value>
+	<value code="3">Yes, don&#39;t know age</value>
+	<value code="9">Don&#39;t know if she had cancer</value>
+</variable>
+
+<variable id="phv00078703.v1">
+	<name>BRCASIS2</name>
+	<description>Age sister (2) had breast cancer</description>
+	<type>encoded value</type>
+	<comment>Did this relative have breast cancer? Sister (If yes, how old was she when her breast cancer first occurred?)
+		Sub-question of F32 V3 Q10 &#39;Female relative cancer ever&#39; (skip pattern rule not applied).&lt;br/&gt;Sub-question of F32 V3 Q11 &#39;Female relative breast cancer&#39;. </comment>
+	<value code="0">No</value>
+	<value code="1">Yes, less than age 45</value>
+	<value code="2">Yes, age 45 or older</value>
+	<value code="3">Yes, don&#39;t know age</value>
+	<value code="9">Don&#39;t know if she had cancer</value>
+</variable>
+
+<variable id="phv00078704.v1">
+	<name>BRCASIS3</name>
+	<description>Age sister (3) had breast cancer</description>
+	<type>encoded value</type>
+	<comment>Did this relative have breast cancer? Sister (If yes, how old was she when her breast cancer first occurred?)
+		Sub-question of F32 V3 Q10 &#39;Female relative cancer ever&#39; (skip pattern rule not applied).&lt;br/&gt;Sub-question of F32 V3 Q11 &#39;Female relative breast cancer&#39;. </comment>
+	<value code="0">No</value>
+	<value code="1">Yes, less than age 45</value>
+	<value code="2">Yes, age 45 or older</value>
+	<value code="3">Yes, don&#39;t know age</value>
+	<value code="9">Don&#39;t know if she had cancer</value>
+</variable>
+
+<variable id="phv00078705.v1">
+	<name>BRCADAU1</name>
+	<description>Age daughter (1) had breast cancer</description>
+	<type>encoded value</type>
+	<comment>Did this relative have breast cancer? Daughter (If yes, how old was she when her breast cancer first occurred?)
+		Sub-question of F32 V3 Q10 &#39;Female relative cancer ever&#39; (skip pattern rule not applied).&lt;br/&gt;Sub-question of F32 V3 Q11 &#39;Female relative breast cancer&#39;. </comment>
+	<value code="0">No</value>
+	<value code="1">Yes, less than age 45</value>
+	<value code="2">Yes, age 45 or older</value>
+	<value code="3">Yes, don&#39;t know age</value>
+	<value code="9">Don&#39;t know if she had cancer</value>
+</variable>
+
+<variable id="phv00078706.v1">
+	<name>BRCADAU2</name>
+	<description>Age daughter (2) had breast cancer</description>
+	<type>encoded value</type>
+	<comment>Did this relative have breast cancer? Daughter (If yes, how old was she when her breast cancer first occurred?)
+		Sub-question of F32 V3 Q10 &#39;Female relative cancer ever&#39; (skip pattern rule not applied).&lt;br/&gt;Sub-question of F32 V3 Q11 &#39;Female relative breast cancer&#39;. </comment>
+	<value code="0">No</value>
+	<value code="1">Yes, less than age 45</value>
+	<value code="2">Yes, age 45 or older</value>
+	<value code="3">Yes, don&#39;t know age</value>
+	<value code="9">Don&#39;t know if she had cancer</value>
+</variable>
+
+<variable id="phv00078707.v1">
+	<name>BRCADAU3</name>
+	<description>Age daughter (3) had breast cancer</description>
+	<type>encoded value</type>
+	<comment>Did this relative have breast cancer? Daughter (If yes, how old was she when her breast cancer first occurred?)
+		Sub-question of F32 V3 Q10 &#39;Female relative cancer ever&#39; (skip pattern rule not applied).&lt;br/&gt;Sub-question of F32 V3 Q11 &#39;Female relative breast cancer&#39;. </comment>
+	<value code="0">No</value>
+	<value code="1">Yes, less than age 45</value>
+	<value code="2">Yes, age 45 or older</value>
+	<value code="3">Yes, don&#39;t know age</value>
+	<value code="9">Don&#39;t know if she had cancer</value>
+</variable>
+
+<variable id="phv00078708.v1">
+	<name>BRCAGMAM</name>
+	<description>Age mat. grandmother had breast cancer</description>
+	<type>encoded value</type>
+	<comment>Did this relative have breast cancer? Maternal grandmother (your mother&#39;s mother)  (If yes, how old was she when her breast cancer first occurred?)
+		Sub-question of F32 V3 Q10 &#39;Female relative cancer ever&#39; (skip pattern rule not applied).&lt;br/&gt;Sub-question of F32 V3 Q11 &#39;Female relative breast cancer&#39;. </comment>
+	<value code="0">No</value>
+	<value code="1">Yes, less than age 45</value>
+	<value code="2">Yes, age 45 or older</value>
+	<value code="3">Yes, don&#39;t know age</value>
+	<value code="9">Don&#39;t know if she had cancer</value>
+</variable>
+
+<variable id="phv00078709.v1">
+	<name>BRCAGMAP</name>
+	<description>Age pat. grandmother had breast cancer</description>
+	<type>encoded value</type>
+	<comment>Did this relative have breast cancer? Paternal grandmother (your father&#39;s mother)  (If yes, how old was she when her breast cancer first occurred?)
+		Sub-question of F32 V3 Q10 &#39;Female relative cancer ever&#39; (skip pattern rule not applied).&lt;br/&gt;Sub-question of F32 V3 Q11 &#39;Female relative breast cancer&#39;. </comment>
+	<value code="0">No</value>
+	<value code="1">Yes, less than age 45</value>
+	<value code="2">Yes, age 45 or older</value>
+	<value code="3">Yes, don&#39;t know age</value>
+	<value code="9">Don&#39;t know if she had cancer</value>
+</variable>
+
+<variable id="phv00078710.v1">
+	<name>COLOFREL</name>
+	<description>Female relative had colorectal cancer</description>
+	<type>encoded value</type>
+	<comment>Did you mother, full-blooded sisters, or daughters ever have cancer of the colon, rectum, intestine, or bowel?
+		Sub-question of F32 V3 Q10 &#39;Female relative cancer ever&#39;. </comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00078711.v1">
+	<name>COLOMOM</name>
+	<description>Age mother had colorectal cancer</description>
+	<type>encoded value</type>
+	<comment>Did this relative have cancer of the colon, rectum, intestine, or bowel? Mother (If yes, how old was she when her cancer of the colon, rectum, intestine, or bowel first occurred?)
+		Sub-question of F32 V3 Q10 &#39;Female relative cancer ever&#39; (skip pattern rule not applied).&lt;br/&gt;Sub-question of F32 V3 Q12 &#39;Female relatives colorectal cancer&#39;.&lt;br/&gt;Not collected on all versions of Form 32. </comment>
+	<value code="0">No</value>
+	<value code="1">Yes, less than age 55</value>
+	<value code="2">Yes, age 55 or older</value>
+	<value code="3">Yes, don&#39;t know age</value>
+	<value code="9">Don&#39;t know if she had cancer</value>
+</variable>
+
+<variable id="phv00078712.v1">
+	<name>COLOSIS1</name>
+	<description>Age sister (1) had colorectal cancer</description>
+	<type>encoded value</type>
+	<comment>Did this relative have cancer of the colon, rectum, intestine, or bowel? Sister (If yes, how old was she when her cancer of the colon, rectum, intestine, or bowel first occurred?)
+		Sub-question of F32 V3 Q10 &#39;Female relative cancer ever&#39; (skip pattern rule not applied).&lt;br/&gt;Sub-question of F32 V3 Q12 &#39;Female relatives colorectal cancer&#39;.&lt;br/&gt;Not collected on all versions of Form 32. </comment>
+	<value code="0">No</value>
+	<value code="1">Yes, less than age 55</value>
+	<value code="2">Yes, age 55 or older</value>
+	<value code="3">Yes, don&#39;t know age</value>
+	<value code="9">Don&#39;t know if she had cancer</value>
+</variable>
+
+<variable id="phv00078713.v1">
+	<name>COLOSIS2</name>
+	<description>Age sister (2) had colorectal cancer</description>
+	<type>encoded value</type>
+	<comment>Did this relative have cancer of the colon, rectum, intestine, or bowel? Sister (If yes, how old was she when her cancer of the colon, rectum, intestine, or bowel first occurred?)
+		Sub-question of F32 V3 Q10 &#39;Female relative cancer ever&#39; (skip pattern rule not applied).&lt;br/&gt;Sub-question of F32 V3 Q12 &#39;Female relatives colorectal cancer&#39;.&lt;br/&gt;Not collected on all versions of Form 32. </comment>
+	<value code="0">No</value>
+	<value code="1">Yes, less than age 55</value>
+	<value code="2">Yes, age 55 or older</value>
+	<value code="3">Yes, don&#39;t know age</value>
+	<value code="9">Don&#39;t know if she had cancer</value>
+</variable>
+
+<variable id="phv00078714.v1">
+	<name>COLOSIS3</name>
+	<description>Age sister (3) had colorectal cancer</description>
+	<type>encoded value</type>
+	<comment>Did this relative have cancer of the colon, rectum, intestine, or bowel? Sister (If yes, how old was she when her cancer of the colon, rectum, intestine, or bowel first occurred?)
+		Sub-question of F32 V3 Q10 &#39;Female relative cancer ever&#39; (skip pattern rule not applied).&lt;br/&gt;Sub-question of F32 V3 Q12 &#39;Female relatives colorectal cancer&#39;.&lt;br/&gt;Not collected on all versions of Form 32. </comment>
+	<value code="0">No</value>
+	<value code="1">Yes, less than age 55</value>
+	<value code="2">Yes, age 55 or older</value>
+	<value code="3">Yes, don&#39;t know age</value>
+	<value code="9">Don&#39;t know if she had cancer</value>
+</variable>
+
+<variable id="phv00078715.v1">
+	<name>COLODAU1</name>
+	<description>Age daughter (1) had colorectal cancer</description>
+	<type>encoded value</type>
+	<comment>Did this relative have cancer of the colon, rectum, intestine, or bowel? Daughter (If yes, how old was she when her cancer of the colon, rectum, intestine, or bowel first occurred?)
+		Sub-question of F32 V3 Q10 &#39;Female relative cancer ever&#39; (skip pattern rule not applied).&lt;br/&gt;Sub-question of F32 V3 Q12 &#39;Female relatives colorectal cancer&#39;.&lt;br/&gt;Not collected on all versions of Form 32. </comment>
+	<value code="0">No</value>
+	<value code="1">Yes, less than age 55</value>
+	<value code="2">Yes, age 55 or older</value>
+	<value code="3">Yes, don&#39;t know age</value>
+	<value code="9">Don&#39;t know if she had cancer</value>
+</variable>
+
+<variable id="phv00078716.v1">
+	<name>COLODAU2</name>
+	<description>Age daughter (2) had colorectal cancer</description>
+	<type>encoded value</type>
+	<comment>Did this relative have cancer of the colon, rectum, intestine, or bowel? Daughter (If yes, how old was she when her cancer of the colon, rectum, intestine, or bowel first occurred?)
+		Sub-question of F32 V3 Q10 &#39;Female relative cancer ever&#39; (skip pattern rule not applied).&lt;br/&gt;Sub-question of F32 V3 Q12 &#39;Female relatives colorectal cancer&#39;.&lt;br/&gt;Not collected on all versions of Form 32. </comment>
+	<value code="0">No</value>
+	<value code="1">Yes, less than age 55</value>
+	<value code="2">Yes, age 55 or older</value>
+	<value code="3">Yes, don&#39;t know age</value>
+	<value code="9">Don&#39;t know if she had cancer</value>
+</variable>
+
+<variable id="phv00078717.v1">
+	<name>CERVREL</name>
+	<description>Relative had cervical cancer</description>
+	<type>encoded value</type>
+	<comment>Did your mother, full-blooded sisters, or daughters ever have cancer of the cervix (opening to the womb)?
+		Sub-question of F32 V3 Q10 &#39;Female relative cancer ever&#39;. </comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+	<value code="9">Don&#39;t know</value>
+</variable>
+
+<variable id="phv00078718.v1">
+	<name>CERVRELN</name>
+	<description>Number of relatives had cervical cancer</description>
+	<type>encoded value</type>
+	<comment>How many of these relatives had cancer of the cervix?
+		Sub-question of F32 V3 Q10 &#39;Female relative cancer ever&#39; (skip pattern rule not applied).&lt;br/&gt;Sub-question of F32 V3 Q13 &#39;Female relatives cervical&#39;. </comment>
+	<value code="1">1</value>
+	<value code="2">2</value>
+	<value code="3">3</value>
+	<value code="4">4 or more</value>
+</variable>
+
+<variable id="phv00078719.v1">
+	<name>ENDOREL</name>
+	<description>Relative had endometrial cancer</description>
+	<type>encoded value</type>
+	<comment>Did your mother, full-blooded sisters, or daughters ever have cancer of the uterus, womb, or endometrium (lining of the womb)?
+		Sub-question of F32 V3 Q10 &#39;Female relative cancer ever&#39;. </comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+	<value code="9">Don&#39;t know</value>
+</variable>
+
+<variable id="phv00078720.v1">
+	<name>ENDORELN</name>
+	<description>Number of relatives had endomet. cancer</description>
+	<type>encoded value</type>
+	<comment>How many of these relatives had cancer of the uterus, womb, or endometrium?
+		Sub-question of F32 V3 Q10 &#39;Female relative cancer ever&#39; (skip pattern rule not applied).&lt;br/&gt;Sub-question of F32 V3 Q14 &#39;Female relatives endometrial&#39;. </comment>
+	<value code="1">1</value>
+	<value code="2">2</value>
+	<value code="3">3</value>
+	<value code="4">4 or more</value>
+</variable>
+
+<variable id="phv00078721.v1">
+	<name>OVARREL</name>
+	<description>Relative had ovarian cancer</description>
+	<type>encoded value</type>
+	<comment>Did your mother, full-blooded sisters, or daughters ever have cancer of the ovaries?
+		Sub-question of F32 V3 Q10 &#39;Female relative cancer ever&#39;. </comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+	<value code="9">Don&#39;t know</value>
+</variable>
+
+<variable id="phv00078722.v1">
+	<name>OVARRELN</name>
+	<description>Number of relatives had ovarian cancer</description>
+	<type>encoded value</type>
+	<comment>How many of these relatives had cancer of the ovaries?
+		Sub-question of F32 V3 Q10 &#39;Female relative cancer ever&#39; (skip pattern rule not applied).&lt;br/&gt;Sub-question of F32 V3 Q15 &#39;Female relatives ovarian&#39;. </comment>
+	<value code="1">1</value>
+	<value code="2">2</value>
+	<value code="3">3</value>
+	<value code="4">4 or more</value>
+</variable>
+
+<variable id="phv00078723.v1">
+	<name>CANCMREL</name>
+	<description>Immediate male blood relative had cancer</description>
+	<type>encoded value</type>
+	<comment>Did any of your male relatives ever have cancer? (For male relatives, please answer about your father, full-blooded brothers, and sons. Do not include uncles, cousins, and nephews.)</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00078724.v1">
+	<name>COLOMREL</name>
+	<description>Male relative had colorectal cancer</description>
+	<type>encoded value</type>
+	<comment>Did your father, full-blooded brothers, or sons ever have cancer of the colon, rectum, intestine, or bowel?
+		Sub-question of F32 V3 Q16 &#39;Male relatives cancer ever&#39;. </comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00078725.v1">
+	<name>COLODAD</name>
+	<description>Age father had colorectal cancer</description>
+	<type>encoded value</type>
+	<comment>Did this relative have cancer of the colon, rectum, intestine, or bowel? Father  (If yes, how old was he when his cancer of the colon, rectum, intestine, or bowel first occurred?)
+		Sub-question of F32 V3 Q16 &#39;Male relatives cancer ever&#39; (skip pattern rule not applied).&lt;br/&gt;Sub-question of F32 V3 Q17 &#39;Male relatives colorectal cancer&#39;.&lt;br/&gt;Not collected on all versions of Form 32. </comment>
+	<value code="0">No</value>
+	<value code="1">Yes, less than age 55</value>
+	<value code="2">Yes, age 55 or older</value>
+	<value code="3">Yes, don&#39;t know age</value>
+	<value code="9">Don&#39;t know if he had cancer</value>
+</variable>
+
+<variable id="phv00078726.v1">
+	<name>COLOBRO1</name>
+	<description>Age brother (1) had colorectal cancer</description>
+	<type>encoded value</type>
+	<comment>Did this relative have cancer of the colon, rectum, intestine, or bowel? Brother (If yes, how old was he when his cancer of the colon, rectum, intestine, or bowel first occurred?)
+		Sub-question of F32 V3 Q16 &#39;Male relatives cancer ever&#39; (skip pattern rule not applied).&lt;br/&gt;Sub-question of F32 V3 Q17 &#39;Male relatives colorectal cancer&#39;.&lt;br/&gt;Not collected on all versions of Form 32. </comment>
+	<value code="0">No</value>
+	<value code="1">Yes, less than age 55</value>
+	<value code="2">Yes, age 55 or older</value>
+	<value code="3">Yes, don&#39;t know age</value>
+	<value code="9">Don&#39;t know if he had cancer</value>
+</variable>
+
+<variable id="phv00078727.v1">
+	<name>COLOBRO2</name>
+	<description>Age brother (2) had colorectal cancer</description>
+	<type>encoded value</type>
+	<comment>Did this relative have cancer of the colon, rectum, intestine, or bowel? Brother  (If yes, how old was he when his cancer of the colon, rectum, intestine, or bowel first occurred?)
+		Sub-question of F32 V3 Q16 &#39;Male relatives cancer ever&#39; (skip pattern rule not applied).&lt;br/&gt;Sub-question of F32 V3 Q17 &#39;Male relatives colorectal cancer&#39;.&lt;br/&gt;Not collected on all versions of Form 32. </comment>
+	<value code="0">No</value>
+	<value code="1">Yes, less than age 55</value>
+	<value code="2">Yes, age 55 or older</value>
+	<value code="3">Yes, don&#39;t know age</value>
+	<value code="9">Don&#39;t know if he had cancer</value>
+</variable>
+
+<variable id="phv00078728.v1">
+	<name>COLOBRO3</name>
+	<description>Age brother (3) had colorectal cancer</description>
+	<type>encoded value</type>
+	<comment>Did this relative have cancer of the colon, rectum, intestine, or bowel? Brother  (If yes, how old was he when his cancer of the colon, rectum, intestine, or bowel first occurred?)
+		Sub-question of F32 V3 Q16 &#39;Male relatives cancer ever&#39; (skip pattern rule not applied).&lt;br/&gt;Sub-question of F32 V3 Q17 &#39;Male relatives colorectal cancer&#39;.&lt;br/&gt;Not collected on all versions of Form 32. </comment>
+	<value code="0">No</value>
+	<value code="1">Yes, less than age 55</value>
+	<value code="2">Yes, age 55 or older</value>
+	<value code="3">Yes, don&#39;t know age</value>
+	<value code="9">Don&#39;t know if he had cancer</value>
+</variable>
+
+<variable id="phv00078729.v1">
+	<name>COLOSON1</name>
+	<description>Age son (1) had colorectal cancer</description>
+	<type>encoded value</type>
+	<comment>Did this relative have cancer of the colon, rectum, intestine, or bowel? Son (If yes, how old was he when his cancer of the colon, rectum, intestine, or bowel first occurred?)
+		Sub-question of F32 V3 Q16 &#39;Male relatives cancer ever&#39; (skip pattern rule not applied).&lt;br/&gt;Sub-question of F32 V3 Q17 &#39;Male relatives colorectal cancer&#39;.&lt;br/&gt;Not collected on all versions of Form 32. </comment>
+	<value code="0">No</value>
+	<value code="1">Yes, less than age 55</value>
+	<value code="2">Yes, age 55 or older</value>
+	<value code="3">Yes, don&#39;t know age</value>
+	<value code="9">Don&#39;t know if he had cancer</value>
+</variable>
+
+<variable id="phv00078730.v1">
+	<name>COLOSON2</name>
+	<description>Age son (2) had colorectal cancer</description>
+	<type>encoded value</type>
+	<comment>Did this relative have cancer of the colon, rectum, intestine, or bowel? Son  (If yes, how old was he when his cancer of the colon, rectum, intestine, or bowel first occurred?)
+		Sub-question of F32 V3 Q16 &#39;Male relatives cancer ever&#39; (skip pattern rule not applied).&lt;br/&gt;Sub-question of F32 V3 Q17 &#39;Male relatives colorectal cancer&#39;.&lt;br/&gt;Not collected on all versions of Form 32. </comment>
+	<value code="0">No</value>
+	<value code="1">Yes, less than age 55</value>
+	<value code="2">Yes, age 55 or older</value>
+	<value code="3">Yes, don&#39;t know age</value>
+	<value code="9">Don&#39;t know if he had cancer</value>
+</variable>
+
+<variable id="phv00078731.v1">
+	<name>PROSREL</name>
+	<description>Relative had prostate cancer</description>
+	<type>encoded value</type>
+	<comment>Did your father, full-blooded brothers, or sons ever have cancer of the prostate (male gland)?
+		Sub-question of F32 V3 Q16 &#39;Male relatives cancer ever&#39;. </comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+	<value code="9">don&#39;t know</value>
+</variable>
+
+<variable id="phv00078732.v1">
+	<name>PROSRELN</name>
+	<description>Number of relatives had prostrate cancer</description>
+	<type>encoded value</type>
+	<comment>How many of these relatives had cancer of the prostate?
+		Sub-question of F32 V3 Q16 &#39;Male relatives cancer ever&#39; (skip pattern rule not applied).&lt;br/&gt;Sub-question of F32 V3 Q18 &#39;Male relatives prostate&#39;. </comment>
+	<value code="1">1</value>
+	<value code="2">2</value>
+	<value code="3">3</value>
+	<value code="4">4 or more</value>
+</variable>
+
+<variable id="phv00078733.v1">
+	<name>BKBONMOM</name>
+	<description>Mother broke a bone after age 40</description>
+	<type>encoded value</type>
+	<comment>Did your mother ever break or fracture a bone after she was 40 years old?</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00078734.v1">
+	<name>BKHIPMOM</name>
+	<description>Age mother broke hip</description>
+	<type>encoded value</type>
+	<comment>Did your mother break this bone? Hip (If yes, how old was she when the bone was first broken.)
+		Sub-question of F32 V3 Q19 &#39;Fracture after 40 - mother&#39;.&lt;br/&gt;Not collected on all versions of Form 32. </comment>
+	<value code="0">No</value>
+	<value code="1">Yes, age 40-55</value>
+	<value code="2">Yes, age 55 or older</value>
+	<value code="3">Yes, don&#39;t know age</value>
+	<value code="9">Don&#39;t know if she broke bone</value>
+</variable>
+
+<variable id="phv00078735.v1">
+	<name>BKBCKMOM</name>
+	<description>Age mother broke spine or back</description>
+	<type>encoded value</type>
+	<comment>Did your mother break this bone? Spine or back (Vertebra) (If yes, how old was she when the bone was first broken.)
+		Sub-question of F32 V3 Q19 &#39;Fracture after 40 - mother&#39;.&lt;br/&gt;Not collected on all versions of Form 32. </comment>
+	<value code="0">No</value>
+	<value code="1">Yes, age 40-55</value>
+	<value code="2">Yes, age 55 or older</value>
+	<value code="3">Yes, don&#39;t know age</value>
+	<value code="9">Don&#39;t know if she broke bone</value>
+</variable>
+
+<variable id="phv00078736.v1">
+	<name>BKUARMOM</name>
+	<description>Age mother broke upper arm</description>
+	<type>encoded value</type>
+	<comment>Did your mother break this bone? Upper arm (humerus)  (If yes, how old was she when the bone was first broken.)
+		Sub-question of F32 V3 Q19 &#39;Fracture after 40 - mother&#39;.&lt;br/&gt;Not collected on all versions of Form 32. </comment>
+	<value code="0">No</value>
+	<value code="1">Yes, age 40-55</value>
+	<value code="2">Yes, age 55 or older</value>
+	<value code="3">Yes, don&#39;t know age</value>
+	<value code="9">Don&#39;t know if she broke bone</value>
+</variable>
+
+<variable id="phv00078737.v1">
+	<name>BKLARMOM</name>
+	<description>Age mother broke lower arm</description>
+	<type>encoded value</type>
+	<comment>Did your mother break this bone? Lower arm or wrist (If yes, how old was she when the bone was first broken.)
+		Sub-question of F32 V3 Q19 &#39;Fracture after 40 - mother&#39;.&lt;br/&gt;Not collected on all versions of Form 32. </comment>
+	<value code="0">No</value>
+	<value code="1">Yes, age 40-55</value>
+	<value code="2">Yes, age 55 or older</value>
+	<value code="3">Yes, don&#39;t know age</value>
+	<value code="9">Don&#39;t know if she broke bone</value>
+</variable>
+
+<variable id="phv00078738.v1">
+	<name>BKOTHMOM</name>
+	<description>Age mother broke other than listed bone</description>
+	<type>encoded value</type>
+	<comment>Did your mother break this bone? Other (Specify)  (If yes, how old was she when the bone was first broken.)
+		Sub-question of F32 V3 Q19 &#39;Fracture after 40 - mother&#39;.&lt;br/&gt;Not collected on all versions of Form 32. </comment>
+	<value code="0">No</value>
+	<value code="1">Yes, age 40-55</value>
+	<value code="2">Yes, age 55 or older</value>
+	<value code="3">Yes, don&#39;t know age</value>
+	<value code="9">Don&#39;t know if she broke bone</value>
+</variable>
+
+<variable id="phv00078739.v1">
+	<name>BKBONDAD</name>
+	<description>Father broke a bone after age 40</description>
+	<type>encoded value</type>
+	<comment>Did your father ever break or fracture a bone after he was 40 years old?</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00078740.v1">
+	<name>BKHIPDAD</name>
+	<description>Age father broke hip</description>
+	<type>encoded value</type>
+	<comment>Did your father break this bone? Hip  (If yes, how old was he when the bone was first broken.)
+		Sub-question of F32 V3 Q20 &#39;Fracture after 40 - father&#39;.&lt;br/&gt;Not collected on all versions of Form 32. </comment>
+	<value code="0">No</value>
+	<value code="1">Yes, age 40-55</value>
+	<value code="2">Yes, age 55 or older</value>
+	<value code="3">Yes, don&#39;t know age</value>
+	<value code="9">Don&#39;t know if no broke bone</value>
+</variable>
+
+<variable id="phv00078741.v1">
+	<name>BKBCKDAD</name>
+	<description>Age father broke spine or back</description>
+	<type>encoded value</type>
+	<comment>Did your father break this bone? Spine or back (Vertebra) (If yes, how old was he when the bone was first broken.)
+		Sub-question of F32 V3 Q20 &#39;Fracture after 40 - father&#39;.&lt;br/&gt;Not collected on all versions of Form 32. </comment>
+	<value code="0">No</value>
+	<value code="1">Yes, age 40-55</value>
+	<value code="2">Yes, age 55 or older</value>
+	<value code="3">Yes, don&#39;t know age</value>
+	<value code="9">Don&#39;t know if no broke bone</value>
+</variable>
+
+<variable id="phv00078742.v1">
+	<name>BKUARDAD</name>
+	<description>Age father broke upper arm</description>
+	<type>encoded value</type>
+	<comment>Did your father break this bone? Upper arm (humerus) (If yes, how old was he when the bone was first broken.)
+		Sub-question of F32 V3 Q20 &#39;Fracture after 40 - father&#39;.&lt;br/&gt;Not collected on all versions of Form 32. </comment>
+	<value code="0">No</value>
+	<value code="1">Yes, age 40-55</value>
+	<value code="2">Yes, age 55 or older</value>
+	<value code="3">Yes, don&#39;t know age</value>
+	<value code="9">Don&#39;t know if no broke bone</value>
+</variable>
+
+<variable id="phv00078743.v1">
+	<name>BKLARDAD</name>
+	<description>Age father broke lower arm</description>
+	<type>encoded value</type>
+	<comment>Did your father break this bone? Lower arm or wrist (If yes, how old was he when the bone was first broken.)
+		Sub-question of F32 V3 Q20 &#39;Fracture after 40 - father&#39;.&lt;br/&gt;Not collected on all versions of Form 32. </comment>
+	<value code="0">No</value>
+	<value code="1">Yes, age 40-55</value>
+	<value code="2">Yes, age 55 or older</value>
+	<value code="3">Yes, don&#39;t know age</value>
+	<value code="9">Don&#39;t know if no broke bone</value>
+</variable>
+
+<variable id="phv00078744.v1">
+	<name>BKOTHDAD</name>
+	<description>Age father broke other than listed bone</description>
+	<type>encoded value</type>
+	<comment>Did your father break this bone? Other (Specify) (If yes, how old was he when the bone was first broken.)
+		Sub-question of F32 V3 Q20 &#39;Fracture after 40 - father&#39;.&lt;br/&gt;Not collected on all versions of Form 32. </comment>
+	<value code="0">No</value>
+	<value code="1">Yes, age 40-55</value>
+	<value code="2">Yes, age 55 or older</value>
+	<value code="3">Yes, don&#39;t know age</value>
+	<value code="9">Don&#39;t know if no broke bone</value>
+</variable>
+
+<variable id="phv00078745.v1">
+	<name>BKBONREL</name>
+	<description>Mom or dad broke bone after age 40</description>
+	<type>encoded value</type>
+	<comment>Computed from Form 32, questions 19 and 20.  Indicator for whether the participant&#39;s mother or father ever broke or fractured a bone after 40 years of age.</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00078746.v1">
+	<name>COLOREL</name>
+	<description>Male/Female relative had colorectal cancer</description>
+	<type>encoded value</type>
+	<comment>Computed from Form 32, questions 10, 12, 16, and 17.  Indicator variable of whether any of a participant&#39;s first degree relatives have had cancer of the colon, rectum, intestine or bowel.</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+</data_table>

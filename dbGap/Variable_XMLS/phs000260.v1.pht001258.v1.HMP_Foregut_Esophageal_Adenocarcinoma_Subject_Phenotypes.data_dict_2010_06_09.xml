@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./datadict_v2.xsl"?>
+<data_table id="pht001258.v1" study_id="phs000260.v1" participant_set="1" date_created="Wed Jun  9 15:59:42 2010">
+
+<variable id="phv00090618.v1">
+	<name>Patient_ID</name>
+	<description>Deidentified subject&#39;s ID</description>
+	<type>integer</type>
+</variable>
+
+<variable id="phv00090619.v1">
+	<name>Age_at_first_visit</name>
+	<description>Age of subject at date of study entry</description>
+	<type>integer</type>
+	<unit>years</unit>
+</variable>
+
+<variable id="phv00090620.v1">
+	<name>Gender</name>
+	<description>Gender of subject</description>
+	<type>encoded vaues</type>
+	<value code="1">Male</value>
+	<value code="2">Female</value>
+</variable>
+
+<variable id="phv00090621.v1">
+	<name>Race</name>
+	<description>Ethnicity of subject</description>
+	<type>encoded vaues</type>
+	<value code="1">White</value>
+	<value code="2">Black/African_American</value>
+	<value code="3">Asian</value>
+	<value code="4">American_Indian_or_Alaska_native</value>
+	<value code="5">Other</value>
+	<value code="999">NA</value>
+</variable>
+
+<variable id="phv00090622.v1">
+	<name>Other Race</name>
+	<description>Other ethnicity</description>
+	<type>string</type>
+</variable>
+
+<variable id="phv00090623.v1">
+	<name>Hispanic</name>
+	<description>Hispanic origin</description>
+	<type>encoded vaues</type>
+	<value code="1">Yes</value>
+	<value code="0">No</value>
+</variable>
+
+<variable id="phv00090624.v1">
+	<name>Smoking_status</name>
+	<description>Smoking history and status</description>
+	<type>encoded vaues</type>
+	<value code="1">Current_Smoker</value>
+	<value code="2">Former_Smoker</value>
+	<value code="3">Never_Smoker</value>
+</variable>
+
+<variable id="phv00090625.v1">
+	<name>Born_in_US</name>
+	<description>Country of birth</description>
+	<type>encoded vaues</type>
+	<value code="1">US</value>
+	<value code="2">Other</value>
+</variable>
+
+<variable id="phv00090626.v1">
+	<name>Other Country</name>
+	<description>Other country of birth</description>
+	<type>string</type>
+</variable>
+
+<variable id="phv00090627.v1">
+	<name>Alcohol Consumption</name>
+	<description>Alcohol consumption</description>
+	<type>encoded vaues</type>
+	<value code="1">Yes</value>
+	<value code="0">No</value>
+</variable>
+
+<variable id="phv00090628.v1">
+	<name>Diagnosis</name>
+	<description>Clinical diagnosis</description>
+	<type>encoded vaues</type>
+	<value code="1">Normal</value>
+	<value code="2">Reflux_Esophagitis</value>
+	<value code="3">Barrett&#39;s_Esophagus</value>
+	<value code="4">Esophageal_Adenocarcinoma</value>
+</variable>
+
+<variable id="phv00090629.v1">
+	<name>Visit Date</name>
+	<description>Day in study of first clinical visit</description>
+	<type>integer</type>
+	<unit>days</unit>
+</variable>
+
+<variable id="phv00090630.v1">
+	<name>time pH &lt; 4.0</name>
+	<description>Percentage of 48 hours that pH is &lt; 4.0</description>
+	<type>decimal</type>
+	<unit>percent</unit>
+	<value code="9999">NA</value>
+</variable>
+
+<variable id="phv00090631.v1">
+	<name>Heartburn</name>
+	<description>Subject experienced heartburn in past 2 montths</description>
+	<type>encoded vaues</type>
+	<value code="1">Yes</value>
+	<value code="2">No</value>
+	<value code="0">NA</value>
+</variable>
+
+<variable id="phv00090632.v1">
+	<name>Reflux</name>
+	<description>Acid or food reflux, sour taste</description>
+	<type>encoded vaues</type>
+	<value code="1">Yes</value>
+	<value code="2">No</value>
+	<value code="0">NA</value>
+</variable>
+
+<variable id="phv00090633.v1">
+	<name>Cold</name>
+	<description>Subject had a cold in past 1 month</description>
+	<type>encoded vaues</type>
+	<value code="1">Yes</value>
+	<value code="2">No</value>
+	<value code="0">NA</value>
+</variable>
+
+<variable id="phv00090634.v1">
+	<name>Asthma</name>
+	<description>Subject has chronic asthma</description>
+	<type>encoded vaues</type>
+	<value code="1">Never</value>
+	<value code="2">Chronic</value>
+	<value code="0">NA</value>
+</variable>
+
+<variable id="phv00090635.v1">
+	<name>FH-GERD</name>
+	<description>Family history of GERD</description>
+	<type>encoded vaues</type>
+	<value code="1">Yes</value>
+	<value code="2">No</value>
+	<value code="0">NA</value>
+</variable>
+
+<variable id="phv00090636.v1">
+	<name>FH-EA</name>
+	<description>Family history of Esophageal cancer</description>
+	<type>encoded vaues</type>
+	<value code="1">Yes</value>
+	<value code="2">No</value>
+	<value code="0">NA</value>
+</variable>
+
+<variable id="phv00090637.v1">
+	<name>Antacids</name>
+	<description>Use of antacids in past 3 months</description>
+	<type>encoded vaues</type>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00090638.v1">
+	<name>Steroids</name>
+	<description>Use of steroids in past 3 months</description>
+	<type>encoded vaues</type>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00090639.v1">
+	<name>Antibiotics</name>
+	<description>Use of antibiotics in past 3 months</description>
+	<type>encoded vaues</type>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00090640.v1">
+	<name>PPI</name>
+	<description>Use of proton pump inhibitors in past 3 months</description>
+	<type>encoded vaues</type>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00090641.v1">
+	<name>Aspirin</name>
+	<description>Use of aspirin in past 3 months</description>
+	<type>encoded vaues</type>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00090642.v1">
+	<name>H2 Blockers</name>
+	<description>Use of H2 blockers in past 3 months</description>
+	<type>encoded vaues</type>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+</data_table>

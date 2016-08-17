@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GaPExchange xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="dbGaPEx2.1.5.xsd">
+
+<MetaVariables>
+	<Submitter/>
+	<Method/>
+</MetaVariables>
+<MetaLinks/>
+
+<Projects>
+	<Project/>
+</Projects>
+
+<Studies>
+
+<Study source="dbGaP" accession="phs000333.v1.p1" parentStudy="phs000333.v1.p1" createDate="2010-12-09" modDate="2011-10-19">
+
+<Configuration>
+	<Data_Provider><![CDATA[
+		<table border="1">
+		<tr><th>Title</th><th>Name</th><th>Institute</th></tr>
+		<tr><td>Principal Investigators</td><td>Sudha K. Iyengar, PhD</td><td>Case Western Reserve University, Cleveland, OH, USA</td></tr>
+		<tr><td>Principal Investigators</td><td>Barry I. Freedman, MD</td><td>Wake Forest School of Medicine, Winston-Salem, NC, USA</td></tr>
+		</table>
+	]]></Data_Provider>
+	<StudyNameEntrez>Family Investigation of Nephropathy and Diabetes (FIND) Study</StudyNameEntrez>
+	<StudyNameReportPage>Family Investigation of Nephropathy and Diabetes (FIND) Study</StudyNameReportPage>
+	<StudyTypes>
+		<StudyType>Case-Control</StudyType>
+	</StudyTypes>
+	<Description><![CDATA[
+<p>The Family Investigation of Nephropathy and Diabetes (FIND) is a multicenter study designed to identify genetic determinants of     diabetic kidney disease.  Study subjects were recruited from eleven centers and in many ethnic groups throughout the United States.     A genome-wide association study (GWAS) was conducted with the Affymetrix 6.0 chip.</p>     <p>Subjects (index cases) with diabetes and kidney disease were initially recruited, and their parents and siblings were invited     to participate. Genetic material from these participants was used to genotype markers throughout the genome.</p>     <p>For association-based testing, a case-control design was implemented with study subjects selected primarily from the index     cases of the families.  Unrelated controls were selected from families where a case was not already selected.  Several study sites     also contributed non-FIND subjects, both cases and controls (consent forms for the release of FIND and non-FIND subjects/samples     are included in this dbGaP release).</p>     <p>Cases were selected if they met study criteria for diabetic nephropathy or met inclusion criteria based on elevated serum     creatinine levels and abnormal urine protein excretion.  Similarly, controls were long-term diabetics with otherwise normal     kidney function.  See inclusion/exclusion criteria section for a detailed description for the FIND study as a whole and this GWAS.</p>     <p>The goal of the FIND study is to identify genes that influence susceptibility to diabetic kidney disease, leading to a     better understanding of how kidney disease develops. In the long run, this may lead to improved treatment and prevention of     diabetic kidney disease.</p>]]>
+	</Description>
+	<StudyInEx><![CDATA[
+<p>Cases for the GWAS were selected from FIND probands or siblings (see Knowler, et al., PMID: <a href="http://www.ncbi.nlm.nih.gov/pubmed/15642484" target="_blank">15642484</a>).     The remaining cases, both FIND and non-FIND, were eligible if they had diabetic nephropathy or met one or more of the following criteria:</p>     <p>       <ol>         <li>Albumin-to-Creatinine ratio (ACR) &#8805; 0.3</li>         <li>Protein-Creatinine ratio (PCR) &#8805; 0.5</li>         <li>Glomerular Filtration Rate (MDRD formula) &#8804; 60</li>         <li>Serum Creatinine &#8805; 1.6 mg/dL for Males, or &#8805; 1.4 mg/dL for Females</li>       </ol>     </p>     <p>For the GWAS, the above criteria are considered to be the <i>strict</i> case inclusion criteria.  Additional subjects were included     in the GWAS, if they were azotemic and had normal proteinuria, based upon the following <i>loose</i> case criteria:</p>     <p>       <ol>         <li>ACR &#8804; 0.03</li>         <li>GFR &#8804; 60</li>         <li>Serum Creatinine &#8805; 1.6 mg/dL for Males, or &#8805; 1.4 mg/dL for Females</li>       </ol>     </p>     <p>Controls were selected from the remaining unrelated FIND family members, FIND controls, and contributed non-FIND subjects.  All     controls were long term (&#8805;10 years) diabetics with healthy kidney function based on one or more of the following criteria:</p>     <p>       <ol>         <li>ACR &#8804; 0.03</li>         <li>PCR &#8804; 0.05</li>         <li>GFR &#8805; 60</li>         <li>Serum Creatinine &#8804; 1.6 mg/dL for Males, or &#8804; 1.4mg/dL for Females</li>       </ol>     </p>     <p>Subjects meeting the above criteria are considered controls based on <i>strict</i> control inclusion criteria.  Several subjects were     allowed inclusion in the GWAS even if one or more of the above values was out of range.  If a subject met at least three of the above     criteria (or at least one of the above criteria in certain instances), the investigators reviewed the subject for further inclusion     in the GWAS.  If, based upon a full record review, the investigators determined the subject eligible for inclusion, the subject was allowed     inclusion based upon <i>loose</i> criteria.  Furthermore, all controls subjects, strict and loose, have had diabetes for at least 10 years.</p>     <p>DNA samples for eligible cases and controls were sent to Affymetrix for sample processing and genotype contrast QC.  Bird seed     call-rate QC was performed by TGEN.  Genotypes with call rates below 95% were re-genotyped and removed from further analysis if problems     persisted.</p>     <p>FIND statisticians then applied further QC measures which included sex verification, calculating the proportion of heterozygous     genotypes, duplicate sample concordance, and pairwise identity-by-descent (IBD) estimation.  Samples with minor errors are listed in     the "FIND_QC_ActionsForResolution" files included with this dataset.</p>]]>
+	</StudyInEx>
+	<StudyProjects>
+		<Project/>
+	</StudyProjects>
+	<Publications>
+		<Publication>
+			<Pubmed pmid="15642484"/>
+		</Publication>
+		<Publication>
+			<Pubmed pmid="16451674"/>
+		</Publication>
+		<Publication>
+			<Pubmed pmid="17363742"/>
+		</Publication>
+		<Publication>
+			<Pubmed pmid="17928473"/>
+		</Publication>
+		<Publication>
+			<Pubmed pmid="18003762"/>
+		</Publication>
+		<Publication>
+			<Pubmed pmid="18765632"/>
+		</Publication>
+		<Publication>
+			<Pubmed pmid="18794854"/>
+		</Publication>
+		<Publication>
+			<Pubmed pmid="20299368"/>
+		</Publication>
+		<Publication>
+			<Pubmed pmid="21454968"/>
+		</Publication>
+	</Publications>
+	<Diseases>
+		<Disease vocab_source="MESH" vocab_term="Diabetes Mellitus"/>
+		<Disease vocab_source="MESH" vocab_term="Kidney Diseases"/>
+		<Disease vocab_source="MESH" vocab_term="Diabetic Nephropathies"/>
+	</Diseases>
+	<Attributions>
+		<Header title="Principal Investigators">
+			<AttName>Sudha K. Iyengar, PhD</AttName>
+			<Institution>Case Western Reserve University, Cleveland, OH, USA</Institution>
+		</Header>
+		<Header title="Principal Investigators">
+			<AttName>Barry I. Freedman, MD</AttName>
+			<Institution>Wake Forest School of Medicine, Winston-Salem, NC, USA</Institution>
+		</Header>
+	</Attributions>
+	<DisplayPublicSummary>yes</DisplayPublicSummary>
+	<StudyHistory><![CDATA[
+<p>Please refer to the following URL: <a href="http://archives.niddk.nih.gov/patient/FIND/find.aspx" target="_blank">http://archives.niddk.nih.gov/patient/FIND/find.aspx</a></p>]]>
+	</StudyHistory>
+	<ConsentGroups>
+		<ConsentGroup groupNum="0" shortName="NRUP" longName="Subjects did not participate in the study, did not complete a consent document and are included only for the pedigree structure and/or genotype controls, such as HapMap subjects."/>
+		<ConsentGroup groupNum="1" shortName="DNAR" longName="Diabetes, Kidney Disease, Retinopathy and/or Related Diseases"/>
+	</ConsentGroups>
+</Configuration>
+
+  <AuthorizedAccess>
+    <DacInfo ssDacId="0">
+      <DacName>NIDDK</DacName>
+      <DacFullName>NIDDK Central Repository GWAS Data Access Committee</DacFullName>
+      <DacEmail>niddk-dac@mail.nih.gov</DacEmail>
+      <DacPhone></DacPhone>
+      <DacFax>301-480-3510</DacFax>
+      <DacUrl>http://www3.niddk.nih.gov/researchprograms/repositories/FAQ.shtml</DacUrl>
+    </DacInfo>
+    <Policy Policy_ID="phs000333.v1.p1_policy" ref_ssDacId="0">
+      <DisplayResearchStatement>yes</DisplayResearchStatement>
+      <DisplayPublicSummary>yes</DisplayPublicSummary>
+      <EmbargoLength>0</EmbargoLength>
+      <YearsUntilRenewal>3</YearsUntilRenewal>
+      <WeeksCancelRequest>8</WeeksCancelRequest>
+      <PdfSupplementReqired>yes</PdfSupplementReqired>
+      <AcknowledgementText>
+        <para>
+               http://dbgap.ncbi.nlm.nih.gov/aa/wga.cgi?page=DUC&amp;view_pdf&amp;stacc=phs000333.v1.p1
+            </para>
+      </AcknowledgementText>
+      <DocumentSet>
+        <DataUseCertificate Label="Data Use Certificate" FilePath="https://dbgap.ncbi.nlm.nih.gov/aa/wga.cgi?page=DUC&amp;view_pdf&amp;stacc=phs000333.v1.p1" FileName="NIDDK_NCBI_dbGaP_DUC_FINAL_8.22.08.pdf"/>
+      </DocumentSet>
+    </Policy>
+    <ConsentGroups>
+      <ParticipantSet groupNum-REF="1">
+        <ConsentName>Diabetes, Kidney Disease, Retinopathy and/or Related Diseases</ConsentName>
+        <ConsentAbbrev>DNAR</ConsentAbbrev>
+        <UseLimitation>These data may be used only for studies related to diabetes, kidney disease, retinopathy and/or related diseases. The data may not be bought and/or sold. All reasonable efforts must be made to secure the data with adequate security controls, maintain appropriate control over the dataset, and maintain the privacy of the participants.</UseLimitation>
+        <IrbRequired>Yes</IrbRequired>
+      </ParticipantSet>
+    </ConsentGroups>
+  </AuthorizedAccess>
+  <Documents>
+    <Document phd="phd003585.1" type="protocol" createDate="2011-06-28" modDate="2011-07-21" urlToXml="http://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/GetDocumentXml.cgi?document_id=phd003585.1" urlToHtml="http://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/document.cgi?study_id=phs000333.v1.p1&amp;phd=3585">
+      <OrigName>DataRelease_Certification.pdf</OrigName>
+      <DisplayName>Data Release Certification</DisplayName>
+      <Description>Data Release Certification</Description>
+      <displayStatus>public</displayStatus>
+      <xmlStatus>public</xmlStatus>
+    </Document>
+    <Document phd="phd003586.1" type="protocol" createDate="2011-06-28" modDate="2011-07-21" urlToXml="http://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/GetDocumentXml.cgi?document_id=phd003586.1" urlToHtml="http://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/document.cgi?study_id=phs000333.v1.p1&amp;phd=3586">
+      <OrigName>DataRelease_FIND.pdf</OrigName>
+      <DisplayName>Data Release: FIND</DisplayName>
+      <Description>Data Release: FIND</Description>
+      <displayStatus>public</displayStatus>
+      <xmlStatus>public</xmlStatus>
+    </Document>
+    <Document phd="phd003587.1" type="protocol" createDate="2011-06-28" modDate="2011-07-21" urlToXml="http://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/GetDocumentXml.cgi?document_id=phd003587.1" urlToHtml="http://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/document.cgi?study_id=phs000333.v1.p1&amp;phd=3587">
+      <OrigName>DataRelease_NonFIND_CWRU.pdf</OrigName>
+      <DisplayName>Data Release: CWRU</DisplayName>
+      <Description>Data Release: CWRU</Description>
+      <displayStatus>public</displayStatus>
+      <xmlStatus>public</xmlStatus>
+    </Document>
+    <Document phd="phd003588.1" type="protocol" createDate="2011-06-28" modDate="2011-07-21" urlToXml="http://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/GetDocumentXml.cgi?document_id=phd003588.1" urlToHtml="http://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/document.cgi?study_id=phs000333.v1.p1&amp;phd=3588">
+      <OrigName>DataRelease_NonFIND_HUCLA.pdf</OrigName>
+      <DisplayName>Data Release: Harbor-UCLA</DisplayName>
+      <Description>Data Release: Harbor-UCLA</Description>
+      <displayStatus>public</displayStatus>
+      <xmlStatus>public</xmlStatus>
+    </Document>
+    <Document phd="phd003589.1" type="protocol" createDate="2011-06-28" modDate="2011-07-21" urlToXml="http://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/GetDocumentXml.cgi?document_id=phd003589.1" urlToHtml="http://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/document.cgi?study_id=phs000333.v1.p1&amp;phd=3589">
+      <OrigName>DataRelease_NonFIND_UTHSCSA.pdf</OrigName>
+      <DisplayName>Data Release: UTHSCSA</DisplayName>
+      <Description>Data Release: UTHSCSA</Description>
+      <displayStatus>public</displayStatus>
+      <xmlStatus>public</xmlStatus>
+    </Document>
+    <Document phd="phd003590.1" type="protocol" createDate="2011-06-28" modDate="2011-07-21" urlToXml="http://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/GetDocumentXml.cgi?document_id=phd003590.1" urlToHtml="http://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/document.cgi?study_id=phs000333.v1.p1&amp;phd=3590">
+      <OrigName>DataRelease_NonFIND_WFU.pdf</OrigName>
+      <DisplayName>Data Release: WFU</DisplayName>
+      <Description>Data Release: WFU</Description>
+      <displayStatus>public</displayStatus>
+      <xmlStatus>public</xmlStatus>
+    </Document>
+  </Documents>
+
+
+
+</Study>
+
+</Studies>
+
+</GaPExchange>

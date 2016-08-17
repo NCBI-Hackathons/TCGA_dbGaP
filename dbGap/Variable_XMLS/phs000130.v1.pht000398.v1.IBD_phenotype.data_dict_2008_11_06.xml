@@ -1,0 +1,629 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./datadict_v2.xsl"?>
+<data_table id="pht000398.v1" study_id="phs000130.v1" participant_set="1" date_created="Thu Nov  6 14:28:21 2008">
+
+<variable id="phv00057988.v1">
+	<name>age_diag</name>
+	<description>Age at diagnosis (years)</description>
+	<type>integer</type>
+	<unit>years</unit>
+</variable>
+
+<variable id="phv00058046.v1">
+	<name>append</name>
+	<description>Appendectomy</description>
+	<type>encoded value</type>
+	<value code="1">Yes</value>
+	<value code="2">No</value>
+	<value code="3">Unknown</value>
+</variable>
+
+<variable id="phv00058047.v1">
+	<name>app_yr</name>
+	<description>Year of appendectomy</description>
+	<type>integer</type>
+</variable>
+
+<variable id="phv00058029.v1">
+	<name>behavior</name>
+	<description>CD disease behavior</description>
+	<type>encoded value</type>
+	<value code="1">B1: Nonstricturing, Nonpenetrating Disease</value>
+	<value code="2">B2: Stricturing Disease</value>
+	<value code="3">B3: Penetrating Disease</value>
+	<value code="4">Unknown</value>
+</variable>
+
+<variable id="phv00058045.v1">
+	<name>cancer</name>
+	<description>Diagnosis of dysplasia/cancer (UC/IC only)</description>
+	<type>encoded value</type>
+	<value code="1">Yes</value>
+	<value code="2">No</value>
+	<value code="3">Unknown</value>
+</variable>
+
+<variable id="phv00058013.v1">
+	<name>chld_cd</name>
+	<description>No. of children with CD</description>
+	<type>integer</type>
+</variable>
+
+<variable id="phv00058015.v1">
+	<name>chld_ibd</name>
+	<description>No. of children with IBD (type unclear)</description>
+	<type>integer</type>
+</variable>
+
+<variable id="phv00058014.v1">
+	<name>chld_uc</name>
+	<description>No. of children with UC</description>
+	<type>integer</type>
+</variable>
+
+<variable id="phv00058016.v1">
+	<name>chld_unf</name>
+	<description>No. of unaffected children</description>
+	<type>integer</type>
+</variable>
+
+<variable id="phv00058017.v1">
+	<name>chld_unk</name>
+	<description>No. of children with unknown status</description>
+	<type>integer</type>
+</variable>
+
+<variable id="phv00057991.v1">
+	<name>cohabit</name>
+	<description>If spouse/partner, duration of cohabitation (years)</description>
+	<type>integer</type>
+	<unit>years</unit>
+</variable>
+
+<variable id="phv00057986.v1">
+	<name>cohort</name>
+	<description>Study cohort (Jewish vs. non-Jewish)</description>
+	<type>encoded value</type>
+	<value code="1">Jewish</value>
+	<value code="2">non-Jewish</value>
+</variable>
+
+<variable id="phv00058027.v1">
+	<name>colorect</name>
+	<description>CD disease location: Colorectal</description>
+	<type>encoded value</type>
+	<value code="1">Yes</value>
+	<value code="2">No</value>
+	<value code="3">Unknown</value>
+</variable>
+
+<variable id="phv00057985.v1">
+	<name>control</name>
+	<description>Indicator for unrelated controls</description>
+	<type>integer</type>
+	<value code="0">IBD-affected case</value>
+	<value code="1">Unrelated control</value>
+</variable>
+
+<variable id="phv00057987.v1">
+	<name>diag</name>
+	<description>Disease type</description>
+	<type>encoded value</type>
+	<value code="1">Crohn&#39;s Disease</value>
+	<value code="2">Indeterminate Colitis</value>
+	<value code="3">Ulcerative Colitis</value>
+	<value code="4">Unaffected</value>
+</variable>
+
+<variable id="phv00058004.v1">
+	<name>diag_yr</name>
+	<description>Year of diagnosis</description>
+	<type>integer</type>
+</variable>
+
+<variable id="phv00058032.v1">
+	<name>extensiv</name>
+	<description>UC disease location: Extensive (beyond splenic flexure)</description>
+	<type>encoded value</type>
+	<value code="1">Yes</value>
+	<value code="2">No</value>
+	<value code="3">Unknown</value>
+</variable>
+
+<variable id="phv00058056.v1">
+	<name>eye_ep</name>
+	<description>Eyes: Episcleritis</description>
+	<type>encoded value</type>
+	<value code="1">Yes</value>
+	<value code="2">No</value>
+	<value code="3">Unknown</value>
+</variable>
+
+<variable id="phv00058057.v1">
+	<name>eye_uoi</name>
+	<description>Eyes: Undiagnosed ocular inflammation</description>
+	<type>encoded value</type>
+	<value code="1">Yes</value>
+	<value code="2">No</value>
+	<value code="3">Unknown</value>
+</variable>
+
+<variable id="phv00058055.v1">
+	<name>eye_uv</name>
+	<description>Eyes: Uveitis</description>
+	<type>encoded value</type>
+	<value code="1">Yes</value>
+	<value code="2">No</value>
+	<value code="3">Unknown</value>
+</variable>
+
+<variable id="phv00058018.v1">
+	<name>fam_hist</name>
+	<description>Family history of IBD in 2nd degree relatives</description>
+	<type>encoded value</type>
+	<value code="1">Yes</value>
+	<value code="2">No</value>
+	<value code="3">Unknown</value>
+</variable>
+
+<variable id="phv00058019.v1">
+	<name>fam_type</name>
+	<description>Family type (CD/UC/Mixed/Unknown)</description>
+	<type>encoded value</type>
+	<value code="1">Crohn&#39;s Disease</value>
+	<value code="2">Ulcerative Colitis</value>
+	<value code="3">Mixed</value>
+	<value code="4">Unknown</value>
+</variable>
+
+<variable id="phv00058006.v1">
+	<name>fthr_ibd</name>
+	<description>Father&#39;s IBD affection status</description>
+	<type>encoded value</type>
+	<value code="1">Crohn&#39;s Disease</value>
+	<value code="2">Ulcerative Colitis/Indeterminate Colitis</value>
+	<value code="3">IBD affected (type unclear)</value>
+	<value code="4">Unaffected</value>
+	<value code="5">Unknown</value>
+</variable>
+
+<variable id="phv00058025.v1">
+	<name>gi</name>
+	<description>CD disease location: Upper GI</description>
+	<type>encoded value</type>
+	<value code="1">Yes</value>
+	<value code="2">No</value>
+	<value code="3">Unknown</value>
+</variable>
+
+<variable id="phv00057994.v1">
+	<name>hispanic</name>
+	<description>Hispanic ethnicity (self-report)</description>
+	<type>encoded value</type>
+	<value code="1">Yes</value>
+	<value code="2">No</value>
+	<value code="3">Unknown</value>
+</variable>
+
+<variable id="phv00057989.v1">
+	<name>ileal</name>
+	<description>CD disease location: Ileal</description>
+	<type>encoded value</type>
+	<value code="1">Yes</value>
+	<value code="2">No</value>
+	<value code="3">Unknown</value>
+</variable>
+
+<variable id="phv00058026.v1">
+	<name>jejunal</name>
+	<description>CD disease location: Jejunal</description>
+	<type>encoded value</type>
+	<value code="1">Yes</value>
+	<value code="2">No</value>
+	<value code="3">Unknown</value>
+</variable>
+
+<variable id="phv00057995.v1">
+	<name>jewish</name>
+	<description>Jewish ethnicity (self-report)</description>
+	<type>encoded value</type>
+	<value code="1">Yes</value>
+	<value code="2">No</value>
+	<value code="3">Unknown</value>
+</variable>
+
+<variable id="phv00058050.v1">
+	<name>j_as</name>
+	<description>Joints: Ankylosing spondylitis</description>
+	<type>encoded value</type>
+	<value code="1">Yes</value>
+	<value code="2">No</value>
+	<value code="3">Unknown</value>
+</variable>
+
+<variable id="phv00058048.v1">
+	<name>j_large</name>
+	<description>Joints: Large joint related to disease activity</description>
+	<type>encoded value</type>
+	<value code="1">Yes</value>
+	<value code="2">No</value>
+	<value code="3">Unknown</value>
+</variable>
+
+<variable id="phv00058052.v1">
+	<name>j_nonsp</name>
+	<description>Joints: Non-specific joint inflammation</description>
+	<type>encoded value</type>
+	<value code="1">Yes</value>
+	<value code="2">No</value>
+	<value code="3">Unknown</value>
+</variable>
+
+<variable id="phv00058051.v1">
+	<name>j_si</name>
+	<description>Joints: Sacro-iliitis</description>
+	<type>encoded value</type>
+	<value code="1">Yes</value>
+	<value code="2">No</value>
+	<value code="3">Unknown</value>
+</variable>
+
+<variable id="phv00058049.v1">
+	<name>j_small</name>
+	<description>Joints: Small joint unrelated to disease activity</description>
+	<type>encoded value</type>
+	<value code="1">Yes</value>
+	<value code="2">No</value>
+	<value code="3">Unknown</value>
+</variable>
+
+<variable id="phv00058031.v1">
+	<name>left</name>
+	<description>UC disease location: Left-sided (to splenic flexure)</description>
+	<type>encoded value</type>
+	<value code="1">Yes</value>
+	<value code="2">No</value>
+	<value code="3">Unknown</value>
+</variable>
+
+<variable id="phv00058058.v1">
+	<name>liv_psc</name>
+	<description>Liver: Primary sclerosing cholangitis</description>
+	<type>encoded value</type>
+	<value code="1">Yes</value>
+	<value code="2">No</value>
+	<value code="3">Unknown</value>
+</variable>
+
+<variable id="phv00058001.v1">
+	<name>mgfthr_a</name>
+	<description>Ashkenazi materal grandfather</description>
+	<type>encoded value</type>
+	<value code="1">Yes</value>
+	<value code="2">No</value>
+	<value code="3">Unknown</value>
+</variable>
+
+<variable id="phv00058000.v1">
+	<name>mgfthr_j</name>
+	<description>Jewish maternal grandfather</description>
+	<type>encoded value</type>
+	<value code="1">Yes</value>
+	<value code="2">No</value>
+	<value code="3">Unknown</value>
+</variable>
+
+<variable id="phv00058003.v1">
+	<name>mgmthr_a</name>
+	<description>Ashkenazi maternal grandmother</description>
+	<type>encoded value</type>
+	<value code="1">Yes</value>
+	<value code="2">No</value>
+	<value code="3">Unknown</value>
+</variable>
+
+<variable id="phv00058002.v1">
+	<name>mgmthr_j</name>
+	<description>Jewish maternal grandmother</description>
+	<type>encoded value</type>
+	<value code="1">Yes</value>
+	<value code="2">No</value>
+	<value code="3">Unknown</value>
+</variable>
+
+<variable id="phv00058007.v1">
+	<name>mthr_ibd</name>
+	<description>Mother&#39;s IBD affection status</description>
+	<type>encoded value</type>
+	<value code="1">Crohn&#39;s Disease</value>
+	<value code="2">Ulcerative Colitis/Indeterminate Colitis</value>
+	<value code="3">IBD affected (type unclear)</value>
+	<value code="4">Unaffected</value>
+	<value code="5">Unknown</value>
+</variable>
+
+<variable id="phv00058024.v1">
+	<name>no_cigar</name>
+	<description>No. of cigarettes smoked per day</description>
+	<type>integer</type>
+</variable>
+
+<variable id="phv00058040.v1">
+	<name>op_ad</name>
+	<description>No. of operations for abdominal disease (CD only)</description>
+	<type>integer</type>
+</variable>
+
+<variable id="phv00058041.v1">
+	<name>op_pd</name>
+	<description>No. of operations for perineal disease (CD only)</description>
+	<type>integer</type>
+</variable>
+
+<variable id="phv00058028.v1">
+	<name>perianal</name>
+	<description>CD disease location: Perianal</description>
+	<type>encoded value</type>
+	<value code="1">Yes</value>
+	<value code="2">No</value>
+	<value code="3">Unknown</value>
+</variable>
+
+<variable id="phv00057997.v1">
+	<name>pgfthr_a</name>
+	<description>Ashkenazi paternal grandfather</description>
+	<type>encoded value</type>
+	<value code="1">Yes</value>
+	<value code="2">No</value>
+	<value code="3">Unknown</value>
+</variable>
+
+<variable id="phv00057996.v1">
+	<name>pgfthr_j</name>
+	<description>Jewish paternal grandfather</description>
+	<type>encoded value</type>
+	<value code="1">Yes</value>
+	<value code="2">No</value>
+	<value code="3">Unknown</value>
+</variable>
+
+<variable id="phv00057999.v1">
+	<name>pgmthr_a</name>
+	<description>Ashkenazi paternal grandmother</description>
+	<type>encoded value</type>
+	<value code="1">Yes</value>
+	<value code="2">No</value>
+	<value code="3">Unknown</value>
+</variable>
+
+<variable id="phv00057998.v1">
+	<name>pgmthr_j</name>
+	<description>Jewish paternal grandmother</description>
+	<type>encoded value</type>
+	<value code="1">Yes</value>
+	<value code="2">No</value>
+	<value code="3">Unknown</value>
+</variable>
+
+<variable id="phv00058033.v1">
+	<name>pi</name>
+	<description>UC disease location: Periappendiceal inflammation</description>
+	<type>encoded value</type>
+	<value code="1">Yes</value>
+	<value code="2">No</value>
+	<value code="3">Unknown</value>
+</variable>
+
+<variable id="phv00058030.v1">
+	<name>proctit</name>
+	<description>UC disease location: Proctitis</description>
+	<type>encoded value</type>
+	<value code="1">Yes</value>
+	<value code="2">No</value>
+	<value code="3">Unknown</value>
+</variable>
+
+<variable id="phv00057993.v1">
+	<name>race</name>
+	<description>Race (self-report)</description>
+	<type>encoded value</type>
+	<value code="1">White</value>
+	<value code="2">Black/African American</value>
+	<value code="3">Asian</value>
+	<value code="4">American Indian/Alaskan Native</value>
+	<value code="5">Native Hawaiian/Pacific Islander</value>
+	<value code="6">Other</value>
+	<value code="7">Unknown</value>
+</variable>
+
+<variable id="phv00058005.v1">
+	<name>review</name>
+	<description>Year of last clinical exam/encounter</description>
+	<type>integer</type>
+</variable>
+
+<variable id="phv00057984.v1">
+	<name>sex</name>
+	<description>Sex</description>
+	<type>encoded value</type>
+	<value code="1">Male</value>
+	<value code="2">Female</value>
+</variable>
+
+<variable id="phv00058008.v1">
+	<name>sib_cd</name>
+	<description>No. of siblings with CD</description>
+	<type>integer</type>
+</variable>
+
+<variable id="phv00058010.v1">
+	<name>sib_ibd</name>
+	<description>No. of siblings with IBD (type unclear)</description>
+	<type>integer</type>
+</variable>
+
+<variable id="phv00058009.v1">
+	<name>sib_uc</name>
+	<description>No. of siblings with UC/IC</description>
+	<type>integer</type>
+</variable>
+
+<variable id="phv00058011.v1">
+	<name>sib_unf</name>
+	<description>No. of unaffected siblings</description>
+	<type>integer</type>
+</variable>
+
+<variable id="phv00058012.v1">
+	<name>sib_unk</name>
+	<description>No. of siblings with unknown status</description>
+	<type>integer</type>
+</variable>
+
+<variable id="phv00058053.v1">
+	<name>skin_en</name>
+	<description>Skin: Erythema nodosum</description>
+	<type>encoded value</type>
+	<value code="1">Yes</value>
+	<value code="2">No</value>
+	<value code="3">Unknown</value>
+</variable>
+
+<variable id="phv00058054.v1">
+	<name>skin_py</name>
+	<description>Skin: Pyoderma</description>
+	<type>encoded value</type>
+	<value code="1">Yes</value>
+	<value code="2">No</value>
+	<value code="3">Unknown</value>
+</variable>
+
+<variable id="phv00058021.v1">
+	<name>smokecur</name>
+	<description>Current smoking status (unaffected individuals only)</description>
+	<type>encoded value</type>
+	<value code="1">Current smoker</value>
+	<value code="2">Ex-smoker</value>
+	<value code="3">Non-smoker</value>
+	<value code="4">Unknown</value>
+</variable>
+
+<variable id="phv00058020.v1">
+	<name>smoking</name>
+	<description>Smoking status at diagnosis</description>
+	<type>encoded value</type>
+	<value code="1">Current</value>
+	<value code="2">Ex-smoker</value>
+	<value code="3">No</value>
+	<value code="4">Unknown</value>
+</variable>
+
+<variable id="phv00058023.v1">
+	<name>smokstop</name>
+	<description>Year stopped smoking</description>
+	<type>integer</type>
+</variable>
+
+<variable id="phv00058022.v1">
+	<name>smokstrt</name>
+	<description>Year started smoking</description>
+	<type>integer</type>
+</variable>
+
+<variable id="phv00057990.v1">
+	<name>spouse</name>
+	<description>Subject ID of spouse/domestic partner</description>
+	<type>string</type>
+</variable>
+
+<variable id="phv00057983.v1">
+	<name>subject_id</name>
+	<description>Subject ID</description>
+	<type>string</type>
+</variable>
+
+<variable id="phv00058034.v1">
+	<name>surgery</name>
+	<description>Surgery for treatment of CD/UC</description>
+	<type>encoded value</type>
+	<value code="1">Yes</value>
+	<value code="2">No</value>
+	<value code="3">Unknown</value>
+</variable>
+
+<variable id="phv00058044.v1">
+	<name>surg_acu</name>
+	<description>Surgery for acute fulminant disease (UC/IC only)</description>
+	<type>encoded value</type>
+	<value code="1">Yes</value>
+	<value code="2">No</value>
+	<value code="3">Unknown</value>
+</variable>
+
+<variable id="phv00058038.v1">
+	<name>surg_af</name>
+	<description>Abdominal fistula/abscess (CD only)</description>
+	<type>encoded value</type>
+	<value code="1">Yes</value>
+	<value code="2">No</value>
+	<value code="3">Unknown</value>
+</variable>
+
+<variable id="phv00058036.v1">
+	<name>surg_br</name>
+	<description>Bowel resection/strictureplasty (CD only)</description>
+	<type>encoded value</type>
+	<value code="1">Yes</value>
+	<value code="2">No</value>
+	<value code="3">Unknown</value>
+</variable>
+
+<variable id="phv00058043.v1">
+	<name>surg_chr</name>
+	<description>Surgery for chronic continuous disease (UC/IC only)</description>
+	<type>encoded value</type>
+	<value code="1">Yes</value>
+	<value code="2">No</value>
+	<value code="3">Unknown</value>
+</variable>
+
+<variable id="phv00058037.v1">
+	<name>surg_div</name>
+	<description>Diversion (CD only)</description>
+	<type>encoded value</type>
+	<value code="1">Yes</value>
+	<value code="2">No</value>
+	<value code="3">Unknown</value>
+</variable>
+
+<variable id="phv00058042.v1">
+	<name>surg_dys</name>
+	<description>Surgery for dysplasia/cancer (UC/IC only)</description>
+	<type>encoded value</type>
+	<value code="1">Yes</value>
+	<value code="2">No</value>
+	<value code="3">Unknown</value>
+</variable>
+
+<variable id="phv00058039.v1">
+	<name>surg_pf</name>
+	<description>Perineal fistula/abscess (CD only)</description>
+	<type>encoded value</type>
+	<value code="1">Yes</value>
+	<value code="2">No</value>
+	<value code="3">Unknown</value>
+</variable>
+
+<variable id="phv00058035.v1">
+	<name>surg_yr</name>
+	<description>Year of first operation (CD) or colectomy (UC/IC)</description>
+	<type>integer</type>
+</variable>
+
+<variable id="phv00057992.v1">
+	<name>yob</name>
+	<description>Year of birth</description>
+	<type>integer</type>
+</variable>
+
+</data_table>

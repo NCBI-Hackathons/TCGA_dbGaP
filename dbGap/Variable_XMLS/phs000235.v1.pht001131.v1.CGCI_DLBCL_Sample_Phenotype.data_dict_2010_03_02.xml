@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./datadict_v2.xsl"?>
+<data_table id="pht001131.v1" study_id="phs000235.v1" participant_set="1" date_created="Tue Mar  2 15:19:39 2010">
+
+<variable id="phv00088031.v1">
+	<name>Sample Id</name>
+	<description>Sample_ID</description>
+	<type>string</type>
+</variable>
+
+<variable id="phv00088032.v1">
+	<name>Analyte</name>
+	<description>Analyte type</description>
+	<type>string</type>
+	<value code="DNA">DNA</value>
+	<value code="RNA">RNA</value>
+</variable>
+
+<variable id="phv00088033.v1">
+	<name>Library Type</name>
+	<description>Library type</description>
+	<type>string</type>
+	<value code="RNA-seq (polyA+)">RNA-seq (polyA+)</value>
+	<value code="Whole Genome Shot Gun">Whole Genome Shot Gun</value>
+</variable>
+
+<variable id="phv00088034.v1">
+	<name>Treatment status at sample acquisition</name>
+	<description>Treatment status at sample acquisition</description>
+	<type>string</type>
+	<value code="pre-treatment">pre-treatment</value>
+</variable>
+
+<variable id="phv00088035.v1">
+	<name>Tissue</name>
+	<description>Tissue</description>
+	<type>string</type>
+	<value code="BREAST">BREAST</value>
+	<value code="INTESTINE">INTESTINE</value>
+	<value code="LYMPH NODE">LYMPH NODE</value>
+	<value code="OVARY">OVARY</value>
+	<value code="SOFT TISSUE">SOFT TISSUE</value>
+	<value code="SPLEEN">SPLEEN</value>
+	<value code="TONSIL">TONSIL</value>
+</variable>
+
+<variable id="phv00088036.v1">
+	<name>Tissue Status</name>
+	<description>Tissue status</description>
+	<type>string</type>
+	<value code="Tumor">Tumor</value>
+</variable>
+
+<variable id="phv00088037.v1">
+	<name>Percent Tumor</name>
+	<description>Percent tumor</description>
+	<type>number</type>
+	<unit>percent</unit>
+	<logical_min>30</logical_min>
+	<logical_max>98</logical_max>
+</variable>
+
+</data_table>

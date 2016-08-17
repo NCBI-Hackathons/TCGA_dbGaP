@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./datadict_v2.xsl"?>
+<data_table id="pht002116.v1" study_id="phs000335.v1" participant_set="1" date_created="Wed Feb  2 15:10:13 2011">
+
+<unique_key phv="00154557" version="1">Individ1</unique_key>
+<unique_key phv="00154558" version="1">Individ2</unique_key>
+
+<variable id="phv00154555.v1">
+	<name>sample1</name>
+	<description>First sample ID of cryptic relatedness</description>
+</variable>
+
+<variable id="phv00154556.v1">
+	<name>sample2</name>
+	<description>Second sample ID of cryptic relatedness</description>
+</variable>
+
+<variable id="phv00154557.v1">
+	<name>Individ1</name>
+	<description>First GENEVA ID of cryptic relatedness</description>
+	<type>integer</type>
+</variable>
+
+<variable id="phv00154558.v1">
+	<name>Individ2</name>
+	<description>Second GENEVA ID of cryptic relatedness (HS-like)</description>
+	<type>integer</type>
+</variable>
+
+<variable id="phv00154559.v1">
+	<name>k0</name>
+	<description>K0 (probability of having zero pairs of IBD alleles) estimate</description>
+	<type>decimal</type>
+</variable>
+
+<variable id="phv00154560.v1">
+	<name>k1</name>
+	<description>K1 (probability of having one pairs of IBD alleles) estimate</description>
+	<type>decimal</type>
+</variable>
+
+<variable id="phv00154561.v1">
+	<name>KC</name>
+	<description>Kinship coefficient estimate</description>
+	<type>decimal</type>
+</variable>
+
+<variable id="phv00154562.v1">
+	<name>inferred.relationship</name>
+	<description>Inferred family relationship</description>
+	<type>encoded string</type>
+	<value code="FS">Full siblings</value>
+	<value code="HS">Half siblings</value>
+	<value code="PO">Parentoffspring</value>
+</variable>
+
+<variable id="phv00154563.v1">
+	<name>family</name>
+	<description>Family ID</description>
+	<type>integer</type>
+</variable>
+
+</data_table>

@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./datadict_v2.xsl"?>
+<data_table id="pht000977.v1" study_id="phs000188.v1" participant_set="1" date_created="Tue Oct  5 17:20:42 2010">
+
+<variable id="phv00077276.v1">
+	<name>SUBJID</name>
+	<description>Deidentified Subject&#39;s ID</description>
+	<type>integer</type>
+	<comment>Deidentified ID where the first two digits denote the origination site of the samples; site key:  Marshfield Clinic=16; Vanderbilt University=27; Group Health Cooperative=38; Mayo Clinic=49; Northwestern University=52</comment>
+</variable>
+
+<variable id="phv00077277.v1">
+	<name>SEX</name>
+	<description>Gender of participant</description>
+	<type>string, encoded value</type>
+	<comment><![CDATA[External variable resource: caBig; source ID: <a href="http://ncit.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI%20Thesaurus&code=C44177">C44177</a>
+		NOTE: The codes from NCI Thesaurus are based on the Version 10.07d (July 26, 2010). The source files can be accessed from: http://evs.nci.nih.gov/ftp1/NCI_Thesaurus. ]]></comment>
+	<value code=".">Missing</value>
+	<value code="C46109">Male</value>
+	<value code="C46110">Female</value>
+	<value code="NA">Not Assessed</value>
+	<value code="U">Unknown</value>
+</variable>
+
+<variable id="phv00077278.v1">
+	<name>RACE</name>
+	<description>Race of participant</description>
+	<type>integer, encoded value</type>
+	<comment><![CDATA[External variable resource: caBig; source ID: <a href="http://ncit.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI%20Thesaurus&code=C17049">C17049</a>
+		NOTE: The codes from NCI Thesaurus are based on the Version 10.07d (July 26, 2010). The source files can be accessed from: http://evs.nci.nih.gov/ftp1/NCI_Thesaurus. ]]></comment>
+	<value code="C16352">Black or African American</value>
+	<value code="C17998">Unknown</value>
+	<value code="C41219">Native Hawaiian or other Pacific Islander</value>
+	<value code="C41259">American Indian or Alaska Native</value>
+	<value code="C41260">Asian</value>
+	<value code="C41261">White</value>
+	<value code="C43234">Not reported</value>
+	<value code="NA">Not Assessed</value>
+</variable>
+
+<variable id="phv00077279.v1">
+	<name>YEAR_BIRTH</name>
+	<description>Participant&#39;s year of Birth</description>
+	<type>integer</type>
+	<unit>Year</unit>
+	<comment>Group patients &gt; 89 years of age into one decile denoted as 90</comment>
+	<value code=".">Missing</value>
+	<value code="NA">Not Assessed</value>
+</variable>
+
+<variable id="phv00077280.v1">
+	<name>HEART_RATE</name>
+	<description>Heart rate from first normal electrocardiogram</description>
+	<type>integer</type>
+	<unit>Beats/min</unit>
+	<logical_min>50</logical_min>
+	<logical_max>100</logical_max>
+	<comment><![CDATA[External variable resource: <a href="https://cdebrowser.nci.nih.gov">caDSR</a>; enter source ID: 2644397 (Public ID)]]></comment>
+	<value code=".">Missing</value>
+	<value code="NA">Not Assessed</value>
+</variable>
+
+<variable id="phv00077281.v1">
+	<name>QRS_COMPLEX_DURATION</name>
+	<description>QRS Duration from first normal electrocardiogram</description>
+	<type>integer</type>
+	<unit>Milliseconds</unit>
+	<logical_min>60</logical_min>
+	<logical_max>120</logical_max>
+	<comment>External variable resource: SNOMED; source ID: 251208001</comment>
+	<value code=".">Missing</value>
+	<value code="NA">Not Assessed</value>
+</variable>
+
+<variable id="phv00077282.v1">
+	<name>QTCB</name>
+	<description>QT interval, corrected for heart rate via Bazett&#39;s formula, from first normal electrocardiogram</description>
+	<type>integer</type>
+	<unit>Milliseconds</unit>
+	<logical_min>338</logical_min>
+	<logical_max>450</logical_max>
+	<comment><![CDATA[External variable resource: caBig; source ID: <a href="http://ncit.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI%20Thesaurus&code=C62112">C62112</a>]]></comment>
+	<value code=".">Missing</value>
+	<value code="NA">Not Assessed</value>
+</variable>
+
+<variable id="phv00077283.v1">
+	<name>ECG_IMPRESSION_TEXT</name>
+	<description>Cardiologist-generated free-text impression from first normal electrocardiogram</description>
+	<type>text</type>
+	<comment>Free text, cardiologist-generated ECG impression</comment>
+	<value code="NA">Not Assessed</value>
+</variable>
+
+<variable id="phv00077284.v1">
+	<name>AGE_FIRST_ECG</name>
+	<description>Patient&#39;s age at the time of the first electrocardiogram</description>
+	<type>integer</type>
+	<unit>Years</unit>
+	<logical_min>18</logical_min>
+	<logical_max>89</logical_max>
+	<comment>Age 90+ years denoted as 90</comment>
+	<value code=".">Missing</value>
+	<value code="NA">Not Assessed</value>
+</variable>
+
+<variable id="phv00077285.v1">
+	<name>TYPE_2_DIABETES</name>
+	<description>Diabetes status, as determined by the Northwestern T2D algorithm</description>
+	<type>string, encoded value</type>
+	<comment><![CDATA[Indication could be from a diagnosis code, medications, or lab values.
+		External variable resource: caBig; source ID: <a href="http://ncit.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI%20Thesaurus&code=C26747">C26747</a>   NOTE: The codes from NCI Thesaurus are based on the Version 10.07d (July 26, 2010). The source files can be accessed from: http://evs.nci.nih.gov/ftp1/NCI_Thesaurus. ]]></comment>
+	<value code="C49487">No (T2D control)</value>
+	<value code="C49488">Yes</value>
+	<value code="C82490">Possible</value>
+	<value code="NA">Not Assessed</value>
+	<value code="U">Uncertain or otherwise excluded as a case or a control; not enough information</value>
+</variable>
+
+<variable id="phv00077286.v1">
+	<name>AGE_TYPE_2_DIABETES</name>
+	<description>Age at the earliest indication of diabetes</description>
+	<type>integer</type>
+	<unit>Years</unit>
+	<comment>Age 90+ denoted as 90</comment>
+	<value code=".">Missing</value>
+	<value code="NA">Not Assessed</value>
+</variable>
+
+<variable id="phv00077287.v1">
+	<name>ABNORMAL_CARDIAC_CONDUCTION</name>
+	<description>Conduction abnormalities status at the time of the first electrocardiogram</description>
+	<type>string, encoded value</type>
+	<comment>External variable resource: SNOMED; source ID: 36358004</comment>
+	<value code="A">Asserted</value>
+	<value code="AR">At risk for</value>
+	<value code="N">Negated</value>
+	<value code="NA">Not Assessed</value>
+	<value code="NR">Not Recorded</value>
+	<value code="OE">Other Experiencer</value>
+	<value code="P">Possible</value>
+</variable>
+
+<variable id="phv00077288.v1">
+	<name>CONGESTIVE_HEART_FAILURE</name>
+	<description>Congestive heart failure status at the time of the first electrocardiogram</description>
+	<type>string, encoded value</type>
+	<comment><![CDATA[External variable resource: caBig; source ID: <a href="http://ncit.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI%20Thesaurus&code=C3080">C3080</a>]]></comment>
+	<value code="A">Asserted</value>
+	<value code="AR">At risk for</value>
+	<value code="N">Negated</value>
+	<value code="NA">Not Assessed</value>
+	<value code="NR">Not Recorded</value>
+	<value code="OE">Other Experiencer</value>
+	<value code="P">Possible</value>
+</variable>
+
+<variable id="phv00077289.v1">
+	<name>ARRHYTHMIA</name>
+	<description>Arrhythmia status at the time of the first electrocardiogram</description>
+	<type>string, encoded value</type>
+	<comment><![CDATA[External variable resource: caBig; source ID: <a href="http://ncit.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI%20Thesaurus&code=C2881">C2881</a>]]></comment>
+	<value code="A">Asserted</value>
+	<value code="AR">At risk for</value>
+	<value code="N">Negated</value>
+	<value code="NA">Not Assessed</value>
+	<value code="NR">Not Recorded</value>
+	<value code="OE">Other Experiencer</value>
+	<value code="P">Possible</value>
+</variable>
+
+<variable id="phv00077290.v1">
+	<name>LEFT_VENTRICULAR_HYPERTROPHY</name>
+	<description>Left Ventricular Hypertrophy status at the time of the first electrocardiogram</description>
+	<type>string, encoded value</type>
+	<comment><![CDATA[External variable resource: caBig; source ID: <a href="http://ncit.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI%20Thesaurus&code=C50631">C50631</a>]]></comment>
+	<value code="A">Asserted</value>
+	<value code="AR">At risk for</value>
+	<value code="N">Negated</value>
+	<value code="NA">Not Assessed</value>
+	<value code="NR">Not Recorded</value>
+	<value code="OE">Other Experiencer</value>
+	<value code="P">Possible</value>
+</variable>
+
+<variable id="phv00077291.v1">
+	<name>RIGHT_VENTRICULAR_HYPERTROPHY</name>
+	<description>Right Ventricular Hypertrophy status at the time of the first electrocardiogram</description>
+	<type>string, encoded value</type>
+	<comment><![CDATA[External variable resource: caBig; source ID: <a href="http://ncit.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI%20Thesaurus&code=C50734">C50734</a>]]></comment>
+	<value code="A">Asserted</value>
+	<value code="AR">At risk for</value>
+	<value code="N">Negated</value>
+	<value code="NA">Not Assessed</value>
+	<value code="NR">Not Recorded</value>
+	<value code="OE">Other Experiencer</value>
+	<value code="P">Possible</value>
+</variable>
+
+<variable id="phv00077292.v1">
+	<name>CORONARY_ARTERY_DISEASE</name>
+	<description>Any evidence of CAD, including bypass surgery and myocardial infarction or ischemia</description>
+	<type>string, encoded value</type>
+	<comment>External variable resource: SNOMED; source ID: 53741008</comment>
+	<value code="A">Asserted</value>
+	<value code="AR">At risk for</value>
+	<value code="N">Negated</value>
+	<value code="NA">Not Assessed</value>
+	<value code="NR">Not Recorded</value>
+	<value code="OE">Other Experiencer</value>
+	<value code="P">Possible</value>
+</variable>
+
+<variable id="phv00077293.v1">
+	<name>CARDIOMYOPATHY</name>
+	<description>Cardiomyopathy status at the time of the first electrocardiogram</description>
+	<type>string, encoded value</type>
+	<comment><![CDATA[External variable resource: caBig; source ID: <a href="http://ncit.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI%20Thesaurus&code=C34830">C34830</a>]]></comment>
+	<value code="A">Asserted</value>
+	<value code="AR">At risk for</value>
+	<value code="N">Negated</value>
+	<value code="NA">Not Assessed</value>
+	<value code="NR">Not Recorded</value>
+	<value code="OE">Other Experiencer</value>
+	<value code="P">Possible</value>
+</variable>
+
+</data_table>

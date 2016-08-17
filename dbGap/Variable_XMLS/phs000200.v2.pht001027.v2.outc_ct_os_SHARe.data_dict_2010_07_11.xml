@@ -1,0 +1,2681 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./datadict_v2.xsl"?>
+<data_table id="pht001027.v2" study_id="phs000200.v2" participant_set="1" date_created="Sun Jul 11 18:40:05 2010">
+
+<variable id="phv00080011.v2">
+	<name>SHAREID</name>
+	<description>WHI SHARe ID</description>
+	<type>integer</type>
+</variable>
+
+<variable id="phv00080024.v2">
+	<name>ANGINA</name>
+	<description>Angina</description>
+	<type>encoded value</type>
+	<comment>Angina is adjudicated for CT and OS participants. It was not adjudicated after the WHI study closeout. Angina occurring on or after a Clinical MI is not counted.</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00080025.v2">
+	<name>ANGINADY</name>
+	<description>Days enrollment to Angina</description>
+	<type>integer</type>
+	<unit>days</unit>
+	<logical_min>7</logical_min>
+	<logical_max>3479</logical_max>
+	<comment>Days from enrollment to first Angina</comment>
+</variable>
+
+<variable id="phv00110725.v1">
+	<name>ANGINASRC</name>
+	<description>Angina ascertainment source</description>
+	<type>encoded value</type>
+	<comment>Angina ascertainment source
+		Angina was only adjudicated locally. </comment>
+	<value code="0">Local adjudication - form 121</value>
+</variable>
+
+<variable id="phv00080016.v2">
+	<name>CABG</name>
+	<description>Coronary Artery Bypass Graft (CABG)</description>
+	<type>encoded value</type>
+	<comment>Coronary Artery Bypass Graft (CABG)
+		CABG is adjudicated for CT and OS participants. CABG occurring on or after a Clinical MI is not counted. </comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00080017.v2">
+	<name>CABGDY</name>
+	<description>Days enrollment to CABG</description>
+	<type>integer</type>
+	<unit>days</unit>
+	<logical_min>42</logical_min>
+	<logical_max>4894</logical_max>
+	<comment>Days from enrollment to first CABG</comment>
+</variable>
+
+<variable id="phv00110726.v1">
+	<name>CABGSRC</name>
+	<description>CABG ascertainment source</description>
+	<type>encoded value</type>
+	<comment>CABG ascertainment source
+		During the core WHI study, only local adjudications were done for CABG. After the WHI study closeout, all adjudications are done centrally. </comment>
+	<value code="0">Local adjudication - form 121</value>
+	<value code="1">Central adjudication - form 121</value>
+</variable>
+
+<variable id="phv00080026.v2">
+	<name>CAROTID</name>
+	<description>Carotid Artery Disease</description>
+	<type>encoded value</type>
+	<comment>Carotid Artery Disease is adjudicated for CT and OS participants. Carotid Artery Disease occurring on or after a Stroke is not counted.</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00080027.v2">
+	<name>CAROTIDDY</name>
+	<description>Days enrollment to Carotid Artery Disease</description>
+	<type>integer</type>
+	<unit>days</unit>
+	<logical_min>34</logical_min>
+	<logical_max>4891</logical_max>
+	<comment>Days from enrollment to first Carotid Artery Disease</comment>
+</variable>
+
+<variable id="phv00110727.v1">
+	<name>CAROTIDSRC</name>
+	<description>Carotid Artery Disease ascertainment source</description>
+	<type>encoded value</type>
+	<comment>Carotid Artery Disease ascertainment source
+		During the core WHI study, only local adjudications were done for Carotid Artery Disease. After the WHI study closeout, all adjudications are done centrally. </comment>
+	<value code="0">Local adjudication - form 121</value>
+	<value code="1">Central adjudication - form 121</value>
+	<value code="2">Central adjudication - form 132</value>
+</variable>
+
+<variable id="phv00110728.v1">
+	<name>CHD</name>
+	<description>Coronary Heart Disease (CHD)</description>
+	<type>encoded value</type>
+	<comment>Coronary Heart Disease (CHD)
+		Defined as the first occurence of Clinical MI, Definite Silent MI or a Death due to CHD (defined before 10/99), Definite CHD or Possible CHD.  Some of these outcomes are only adjudicated for a subset of WHI participants. </comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00110729.v1">
+	<name>CHDDY</name>
+	<description>Days enrollment to CHD</description>
+	<type>integer</type>
+	<unit>days</unit>
+	<logical_min>10</logical_min>
+	<logical_max>4874</logical_max>
+	<comment>Days from enrollment to first CHD</comment>
+</variable>
+
+<variable id="phv00110730.v1">
+	<name>CHDSRC</name>
+	<description>CHD ascertainment source</description>
+	<type>encoded value</type>
+	<comment>CHD ascertainment source
+		CHD is defined as the first occurence of Clinical MI, Definite Silent MI or a Death due to CHD (defined before 10/99), Definite CHD or Possible CHD. The ascertainment processes vary for these outcomes. Refer to their usage notes. </comment>
+	<value code="0">Local adjudication - form 121</value>
+	<value code="1">Central adjudication - form 121</value>
+	<value code="8">ECG</value>
+	<value code="9">Cause of Death</value>
+</variable>
+
+<variable id="phv00080022.v2">
+	<name>CHF</name>
+	<description>Congestive Heart Failure (CHF)</description>
+	<type>encoded value</type>
+	<comment>Congestive Heart Failure (CHF)
+		CHF is adjudicated for CT and OS participants. It was not adjudicated after the WHI study closeout. </comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00080023.v2">
+	<name>CHFDY</name>
+	<description>Days enrollment to CHF</description>
+	<type>integer</type>
+	<unit>days</unit>
+	<logical_min>0</logical_min>
+	<logical_max>3668</logical_max>
+	<comment>Days from enrollment to first CHF</comment>
+</variable>
+
+<variable id="phv00110731.v1">
+	<name>CHFSRC</name>
+	<description>CHF ascertainment source</description>
+	<type>encoded value</type>
+	<comment>CHF ascertainment source
+		CHF was only adjudicated locally. </comment>
+	<value code="0">Local adjudication - form 121</value>
+</variable>
+
+<variable id="phv00080012.v2">
+	<name>MI</name>
+	<description>Clinical MI</description>
+	<type>encoded value</type>
+	<comment>Clinical MI is adjudicated for CT and OS participants.</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00080013.v2">
+	<name>MIDY</name>
+	<description>Days enrollment to Clinical MI</description>
+	<type>integer</type>
+	<unit>days</unit>
+	<logical_min>10</logical_min>
+	<logical_max>4874</logical_max>
+	<comment>Days from enrollment to first Clinical MI</comment>
+</variable>
+
+<variable id="phv00110732.v1">
+	<name>MISRC</name>
+	<description>Clinical MI ascertainment source</description>
+	<type>encoded value</type>
+	<comment>Clinical MI ascertainment source
+		During the core WHI study, central adjudications of Clinical MI were only done for HT participants. Local adjudication data was used for other participants. After the WHI study closeout, all adjudications are done centrally. </comment>
+	<value code="0">Local adjudication - form 121</value>
+	<value code="1">Central adjudication - form 121</value>
+</variable>
+
+<variable id="phv00080028.v2">
+	<name>CREVASC</name>
+	<description>Coronary revascularization procedure (CABG or PTCA)</description>
+	<type>encoded value</type>
+	<comment>Coronary revascularization procedure (CABG or PTCA)
+		Defined as the first occurence of CABG or PTCA.  Coronary Revascularization is adjudicated for CT and OS participants. </comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00080029.v2">
+	<name>CREVASCDY</name>
+	<description>Days enrollment to Coronary Revascularization</description>
+	<type>integer</type>
+	<unit>days</unit>
+	<logical_min>12</logical_min>
+	<logical_max>4894</logical_max>
+	<comment>Days from enrollment to first Coronary Revascularization</comment>
+</variable>
+
+<variable id="phv00110733.v1">
+	<name>CREVASCSRC</name>
+	<description>Coronary Revascularization ascertainment source</description>
+	<type>encoded value</type>
+	<comment>Coronary Revascularization ascertainment source
+		Coronary Revascularization is defined as the first occurence of CABG or PTCA. During the core WHI study, only local adjudications were done for Coronary Revascularization. After the WHI study closeout, all adjudications are done centrally. </comment>
+	<value code="0">Local adjudication - form 121</value>
+	<value code="1">Central adjudication - form 121</value>
+</variable>
+
+<variable id="phv00110734.v1">
+	<name>DSMI</name>
+	<description>Definite Silent MI</description>
+	<type>encoded value</type>
+	<comment>Defined as an ECG with an evolving Q-wave MI based on an incident Novacode of 5.1 or 5.2. ECGs were collected for CT participants at baseline, av3, av6 and av9. Definite Silent MI occurring on or after a Clinical MI is not counted.</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00110735.v1">
+	<name>DSMIDY</name>
+	<description>Days enrollment to Definite Silent MI</description>
+	<type>integer</type>
+	<unit>days</unit>
+	<logical_min>1085</logical_min>
+	<logical_max>3274</logical_max>
+	<comment>Days from enrollment to first Definite Silent MI</comment>
+</variable>
+
+<variable id="phv00110736.v1">
+	<name>DSMISRC</name>
+	<description>Definite Silent MI ascertainment source</description>
+	<type>encoded value</type>
+	<comment>Definite Silent MI ascertainment source</comment>
+	<value code="8">ECG</value>
+</variable>
+
+<variable id="phv00080148.v2">
+	<name>DVT</name>
+	<description>Deep Vein Thrombosis (DVT)</description>
+	<type>encoded value</type>
+	<comment>Deep Vein Thrombosis (DVT)
+		DVT is adjudicated for HT participants only. </comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00080149.v2">
+	<name>DVTDY</name>
+	<description>Days enrollment to DVT</description>
+	<type>integer</type>
+	<unit>days</unit>
+	<logical_min>178</logical_min>
+	<logical_max>4303</logical_max>
+	<comment>Days from enrollment to first DVT</comment>
+</variable>
+
+<variable id="phv00080150.v2">
+	<name>DVTSRC</name>
+	<description>DVT ascertainment source</description>
+	<type>encoded value</type>
+	<comment>DVT ascertainment source
+		Central adjudications were done for all DVT. If the central adjudication is not complete, local adjudication data is used. </comment>
+	<value code="0">Local adjudication - form 126</value>
+	<value code="1">Central adjudication - form 126</value>
+</variable>
+
+<variable id="phv00110737.v1">
+	<name>STRKHEMO</name>
+	<description>Hemorrhagic Stroke</description>
+	<type>encoded value</type>
+	<comment>Defined as a Stroke where the diagnosis question indicates a hemorrhagic stroke. Hemorrhagic Stroke is adjudicated for CT and OS participants.  Form 121 and early versions of 132 were not able to record Hemorrhagic/Ischemic classification for procedure related Strokes.</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00110738.v1">
+	<name>STRKHEMODY</name>
+	<description>Days enrollment to Hemorrhagic Stroke</description>
+	<type>integer</type>
+	<unit>days</unit>
+	<logical_min>127</logical_min>
+	<logical_max>4926</logical_max>
+	<comment>Days from enrollment to first Hemorrhagic Stroke</comment>
+</variable>
+
+<variable id="phv00110739.v1">
+	<name>STRKHEMOSRC</name>
+	<description>Hemorrhagic Stroke ascertainment source</description>
+	<type>encoded value</type>
+	<comment>Hemorrhagic Stroke ascertainment source</comment>
+	<value code="0">Local adjudication - form 121</value>
+	<value code="1">Central adjudication - form 121</value>
+	<value code="2">Central adjudication - form 132</value>
+</variable>
+
+<variable id="phv00110740.v1">
+	<name>STRKISCH</name>
+	<description>Ischemic Stroke</description>
+	<type>encoded value</type>
+	<comment>Defined as a Stroke where the diagnosis question indicates an iscemic stroke. Ischemic Stroke is adjudicated for CT and OS participants.  Form 121 and early versions of 132 were not able to record Hemorrhagic/Ischemic classification for procedure related Strokes.</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00110741.v1">
+	<name>STRKISCHDY</name>
+	<description>Days enrollment to Ischemic Stroke</description>
+	<type>integer</type>
+	<unit>days</unit>
+	<logical_min>21</logical_min>
+	<logical_max>4772</logical_max>
+	<comment>Days from enrollment to first Ischemic Stroke</comment>
+</variable>
+
+<variable id="phv00110742.v1">
+	<name>STRKISCHSRC</name>
+	<description>Ischemic Stroke ascertainment source</description>
+	<type>encoded value</type>
+	<comment>Ischemic Stroke ascertainment source</comment>
+	<value code="0">Local adjudication - form 121</value>
+	<value code="1">Central adjudication - form 121</value>
+	<value code="2">Central adjudication - form 132</value>
+</variable>
+
+<variable id="phv00080030.v2">
+	<name>PERIPH</name>
+	<description>Peripheral Arterial Disease (PAD)</description>
+	<type>encoded value</type>
+	<comment>Peripheral Arterial Disease (PAD)
+		PAD is adjudicated for CT and OS participants. </comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00080031.v2">
+	<name>PERIPHDY</name>
+	<description>Days enrollment to PAD</description>
+	<type>integer</type>
+	<unit>days</unit>
+	<logical_min>41</logical_min>
+	<logical_max>4950</logical_max>
+	<comment>Days from enrollment to first PAD</comment>
+</variable>
+
+<variable id="phv00110743.v1">
+	<name>PERIPHSRC</name>
+	<description>PAD ascertainment source</description>
+	<type>encoded value</type>
+	<comment>PAD ascertainment source
+		During the core WHI study, only local adjudications were done for PAD. After the WHI study closeout, all adjudications are done centrally. </comment>
+	<value code="0">Local adjudication - form 121</value>
+	<value code="1">Central adjudication - form 121</value>
+</variable>
+
+<variable id="phv00080151.v2">
+	<name>PE</name>
+	<description>Pulmonary Embolism (PE)</description>
+	<type>encoded value</type>
+	<comment>Pulmonary Embolism (PE)
+		Defined as the first occurence of PE or a Death due to Pulmonary Embolism.  PE is adjudicated for HT participants only. </comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00080152.v2">
+	<name>PEDY</name>
+	<description>Days enrollment to PE</description>
+	<type>integer</type>
+	<unit>days</unit>
+	<logical_min>407</logical_min>
+	<logical_max>4214</logical_max>
+	<comment>Days from enrollment to first PE</comment>
+</variable>
+
+<variable id="phv00080153.v2">
+	<name>PESRC</name>
+	<description>PE ascertainment source</description>
+	<type>encoded value</type>
+	<comment>PE ascertainment source
+		PE is defined as the first occurence of PE or a Death due to Pulmonary Embolism. Central adjudications were done for all PE. If the central adjudication is not complete, local adjudication data is used. </comment>
+	<value code="0">Local adjudication - form 126</value>
+	<value code="1">Central adjudication - form 126</value>
+	<value code="9">Cause of Death</value>
+</variable>
+
+<variable id="phv00110744.v1">
+	<name>PSMI</name>
+	<description>Possible Silent MI</description>
+	<type>encoded value</type>
+	<comment>Defined as an ECG with an evolving Q-wave MI based on an incident Novacode of 5.3 or 5.4. ECGs were collected for CT participants at baseline, av3, av6 and av9. Possible Silent MI occurring on or after a Clinical MI or Definite Silent MI is not counted.</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00110745.v1">
+	<name>PSMIDY</name>
+	<description>Days enrollment to Possible Silent MI</description>
+	<type>integer</type>
+	<unit>days</unit>
+	<logical_min>1085</logical_min>
+	<logical_max>3298</logical_max>
+	<comment>Days from enrollment to first Possible Silent MI</comment>
+</variable>
+
+<variable id="phv00110746.v1">
+	<name>PSMISRC</name>
+	<description>Possible Silent MI ascertainment source</description>
+	<type>encoded value</type>
+	<comment>Possible Silent MI ascertainment source</comment>
+	<value code="8">ECG</value>
+</variable>
+
+<variable id="phv00080014.v2">
+	<name>PTCA</name>
+	<description>Percutaneous Transluminal Coronary Angioplasty (PTCA)</description>
+	<type>encoded value</type>
+	<comment>Percutaneous Transluminal Coronary Angioplasty (PTCA)
+		PTCA is adjudicated for CT and OS participants. PTCA occurring on or after a Clinical MI is not counted. </comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00080015.v2">
+	<name>PTCADY</name>
+	<description>Days enrollment to PTCA</description>
+	<type>integer</type>
+	<unit>days</unit>
+	<logical_min>12</logical_min>
+	<logical_max>4874</logical_max>
+	<comment>Days from enrollment to first PTCA</comment>
+</variable>
+
+<variable id="phv00110747.v1">
+	<name>PTCASRC</name>
+	<description>PTCA ascertainment source</description>
+	<type>encoded value</type>
+	<comment>PTCA ascertainment source
+		During the core WHI study, only local adjudications were done for PTCA. After the WHI study closeout, all adjudications are done centrally. </comment>
+	<value code="0">Local adjudication - form 121</value>
+	<value code="1">Central adjudication - form 121</value>
+</variable>
+
+<variable id="phv00080018.v2">
+	<name>STROKE</name>
+	<description>Stroke</description>
+	<type>encoded value</type>
+	<comment>Defined as the first occurence of Stroke or a Death due to Cerebrovascular.  Stroke is adjudicated for CT and OS participants.  In order to be able to classify strokes, WHI uses central adjudications if possible, even though Strokes were only fully centrally adjudicated in HT participants.</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00080019.v2">
+	<name>STROKEDY</name>
+	<description>Days enrollment to Stroke</description>
+	<type>integer</type>
+	<unit>days</unit>
+	<logical_min>21</logical_min>
+	<logical_max>4926</logical_max>
+	<comment>Days from enrollment to first Stroke</comment>
+</variable>
+
+<variable id="phv00110748.v1">
+	<name>STROKESRC</name>
+	<description>Stroke ascertainment source</description>
+	<type>encoded value</type>
+	<comment>Stroke ascertainment source
+		Stroke is defined as the first occurence of Stroke or a Death due to Cerebrovascular. These outcomes have different ascertaiment rules. Central adjudications were done for all Stroke. If the central adjudication is not complete, local adjudication data is used. During the core WHI Study, Death was adjudicated centrally in the CT and locally in the OS. </comment>
+	<value code="0">Local adjudication - form 121</value>
+	<value code="1">Central adjudication - form 121</value>
+	<value code="2">Central adjudication - form 132</value>
+	<value code="9">Cause of Death</value>
+</variable>
+
+<variable id="phv00080020.v2">
+	<name>TIA</name>
+	<description>Transient Ischemic Attack (TIA)</description>
+	<type>encoded value</type>
+	<comment>Transient Ischemic Attack (TIA)
+		TIA is adjudicated for CT and OS participants. It was not adjudicated after the WHI study closeout. TIA occurring on or after a Stroke is not counted. </comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00080021.v2">
+	<name>TIADY</name>
+	<description>Days enrollment to TIA</description>
+	<type>integer</type>
+	<unit>days</unit>
+	<logical_min>0</logical_min>
+	<logical_max>3669</logical_max>
+	<comment>Days from enrollment to first TIA</comment>
+</variable>
+
+<variable id="phv00110749.v1">
+	<name>TIASRC</name>
+	<description>TIA ascertainment source</description>
+	<type>encoded value</type>
+	<comment>TIA ascertainment source
+		During the core WHI study, central adjudications of TIA were only done for HT participants. Local adjudication data was used for other participants. After the WHI study closeout, all adjudications are done centrally. </comment>
+	<value code="0">Local adjudication - form 121</value>
+	<value code="1">Central adjudication - form 121</value>
+	<value code="2">Central adjudication - form 132</value>
+</variable>
+
+<variable id="phv00110750.v1">
+	<name>MITOTAL</name>
+	<description>Total MI</description>
+	<type>encoded value</type>
+	<comment>Defined as: For CT, the first occurrence of Clinical MI or Definite Silent MI. For OS, the first Clinical MI only.</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00110751.v1">
+	<name>MITOTALDY</name>
+	<description>Days enrollment to Total MI</description>
+	<type>integer</type>
+	<unit>days</unit>
+	<logical_min>10</logical_min>
+	<logical_max>4874</logical_max>
+	<comment>Days from enrollment to first Total MI</comment>
+</variable>
+
+<variable id="phv00110752.v1">
+	<name>MITOTALSRC</name>
+	<description>Total MI ascertainment source</description>
+	<type>encoded value</type>
+	<comment>Total MI ascertainment source
+		Total MI is defined as: For CT, the first occurrence of Clinical MI or Definite Silent MI. For OS, the first Clinical MI only. </comment>
+	<value code="0">Local adjudication - form 121</value>
+	<value code="1">Central adjudication - form 121</value>
+	<value code="8">ECG</value>
+</variable>
+
+<variable id="phv00080099.v2">
+	<name>ANYCANCER</name>
+	<description>Any Cancer</description>
+	<type>encoded value</type>
+	<comment>Defined as the first occurence of a non melanoma skin cancer or a Death due to cancer. Any Cancer is adjudicated for CT and OS participants.</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00080100.v2">
+	<name>ANYCANCERDY</name>
+	<description>Days enrollment to Any Cancer</description>
+	<type>integer</type>
+	<unit>days</unit>
+	<logical_min>7</logical_min>
+	<logical_max>5231</logical_max>
+	<comment>Days from enrollment to first Any Cancer</comment>
+</variable>
+
+<variable id="phv00110753.v1">
+	<name>ANYCANCERSRC</name>
+	<description>Any Cancer ascertainment source</description>
+	<type>encoded value</type>
+	<comment>Any Cancer ascertainment source
+		Any Cancer is defined as the first occurence of a non melanoma skin cancer or a Death due to cancer. The ascertainment processes vary for these outcomes. Refer to their usage notes. </comment>
+	<value code="0">Local adjudication - form 122</value>
+	<value code="1">Central adjudication - form 130</value>
+	<value code="9">Cause of Death</value>
+</variable>
+
+<variable id="phv00110754.v1">
+	<name>SINUS</name>
+	<description>Accessory Sinus Cancer</description>
+	<type>encoded value</type>
+	<comment>Accessory Sinus Cancer is adjudicated for CT and OS participants.</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00110755.v1">
+	<name>SINUSDY</name>
+	<description>Days enrollment to Accessory Sinus Cancer</description>
+	<type>integer</type>
+	<unit>days</unit>
+	<comment>Days from enrollment to first Accessory Sinus Cancer</comment>
+</variable>
+
+<variable id="phv00110756.v1">
+	<name>SINUSSRC</name>
+	<description>Accessory Sinus Cancer ascertainment source</description>
+	<type>encoded value</type>
+	<comment>Accessory Sinus Cancer ascertainment source
+		During the core WHI study, only local adjudications were done for Accessory Sinus Cancer. After the WHI study closeout, all adjudications are done centrally. </comment>
+	<value code="0">Local adjudication - form 122</value>
+	<value code="1">Central adjudication - form 130</value>
+</variable>
+
+<variable id="phv00110757.v1">
+	<name>ADRENAL</name>
+	<description>Adrenal Gland Cancer</description>
+	<type>encoded value</type>
+	<comment>Adrenal Gland Cancer is adjudicated for CT and OS participants.</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00110758.v1">
+	<name>ADRENALDY</name>
+	<description>Days enrollment to Adrenal Gland Cancer</description>
+	<type>integer</type>
+	<unit>days</unit>
+	<comment>Days from enrollment to first Adrenal Gland Cancer</comment>
+</variable>
+
+<variable id="phv00110759.v1">
+	<name>ADRENALSRC</name>
+	<description>Adrenal Gland Cancer ascertainment source</description>
+	<type>encoded value</type>
+	<comment>Adrenal Gland Cancer ascertainment source
+		During the core WHI study, only local adjudications were done for Adrenal Gland Cancer. After the WHI study closeout, all adjudications are done centrally. </comment>
+	<value code="0">Local adjudication - form 122</value>
+	<value code="1">Central adjudication - form 130</value>
+</variable>
+
+<variable id="phv00110760.v1">
+	<name>ANAL</name>
+	<description>Anus Cancer</description>
+	<type>encoded value</type>
+	<comment>Anus Cancer is adjudicated for CT and OS participants.</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00110761.v1">
+	<name>ANALDY</name>
+	<description>Days enrollment to Anus Cancer</description>
+	<type>integer</type>
+	<unit>days</unit>
+	<logical_min>3000</logical_min>
+	<logical_max>3696</logical_max>
+	<comment>Days from enrollment to first Anus Cancer</comment>
+</variable>
+
+<variable id="phv00110762.v1">
+	<name>ANALSRC</name>
+	<description>Anus Cancer ascertainment source</description>
+	<type>encoded value</type>
+	<comment>Anus Cancer ascertainment source
+		During the core WHI study, only local adjudications were done for Anus Cancer. After the WHI study closeout, all adjudications are done centrally. </comment>
+	<value code="0">Local adjudication - form 122</value>
+	<value code="1">Central adjudication - form 130</value>
+</variable>
+
+<variable id="phv00110763.v1">
+	<name>APPENDIX</name>
+	<description>Appendix Cancer</description>
+	<type>encoded value</type>
+	<comment>Appendix Cancer is adjudicated for CT and OS participants.</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00110764.v1">
+	<name>APPENDIXDY</name>
+	<description>Days enrollment to Appendix Cancer</description>
+	<type>integer</type>
+	<unit>days</unit>
+	<logical_min>2725</logical_min>
+	<logical_max>4301</logical_max>
+	<comment>Days from enrollment to first Appendix Cancer</comment>
+</variable>
+
+<variable id="phv00110765.v1">
+	<name>APPENDIXSRC</name>
+	<description>Appendix Cancer ascertainment source</description>
+	<type>encoded value</type>
+	<comment>Appendix Cancer ascertainment source
+		During the core WHI study, only local adjudications were done for Appendix Cancer. After the WHI study closeout, all adjudications are done centrally. </comment>
+	<value code="0">Local adjudication - form 122</value>
+	<value code="1">Central adjudication - form 130</value>
+</variable>
+
+<variable id="phv00080069.v2">
+	<name>BILARY</name>
+	<description>Biliary Tract Cancer</description>
+	<type>encoded value</type>
+	<comment>Biliary Tract Cancer is adjudicated for CT and OS participants.</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00080070.v2">
+	<name>BILARYDY</name>
+	<description>Days enrollment to Biliary Tract Cancer</description>
+	<type>integer</type>
+	<unit>days</unit>
+	<logical_min>1154</logical_min>
+	<logical_max>4226</logical_max>
+	<comment>Days from enrollment to first Biliary Tract Cancer</comment>
+</variable>
+
+<variable id="phv00110766.v1">
+	<name>BILARYSRC</name>
+	<description>Biliary Tract Cancer ascertainment source</description>
+	<type>encoded value</type>
+	<comment>Biliary Tract Cancer ascertainment source
+		During the core WHI study, only local adjudications were done for Biliary Tract Cancer. After the WHI study closeout, all adjudications are done centrally. </comment>
+	<value code="0">Local adjudication - form 122</value>
+	<value code="1">Central adjudication - form 130</value>
+</variable>
+
+<variable id="phv00080085.v2">
+	<name>BLADDER</name>
+	<description>Bladder Cancer</description>
+	<type>encoded value</type>
+	<comment>Bladder Cancer is adjudicated for CT and OS participants.</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00080086.v2">
+	<name>BLADDERDY</name>
+	<description>Days enrollment to Bladder Cancer</description>
+	<type>integer</type>
+	<unit>days</unit>
+	<logical_min>24</logical_min>
+	<logical_max>4474</logical_max>
+	<comment>Days from enrollment to first Bladder Cancer</comment>
+</variable>
+
+<variable id="phv00110767.v1">
+	<name>BLADDERSRC</name>
+	<description>Bladder Cancer ascertainment source</description>
+	<type>encoded value</type>
+	<comment>Bladder Cancer ascertainment source
+		During the core WHI study, only local adjudications were done for Bladder Cancer. After the WHI study closeout, all adjudications are done centrally. </comment>
+	<value code="0">Local adjudication - form 122</value>
+	<value code="1">Central adjudication - form 130</value>
+</variable>
+
+<variable id="phv00110768.v1">
+	<name>BONELIMB</name>
+	<description>Cancer of the bones, joints or cartilage of limbs (long bones)</description>
+	<type>encoded value</type>
+	<comment>Cancer of the bones, joints or cartilage of limbs (long bones)
+		Bone-Limb Cancer is adjudicated for CT and OS participants. </comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00110769.v1">
+	<name>BONELIMBDY</name>
+	<description>Days enrollment to Bone-Limb Cancer</description>
+	<type>integer</type>
+	<unit>days</unit>
+	<comment>Days from enrollment to first Bone-Limb Cancer</comment>
+</variable>
+
+<variable id="phv00110770.v1">
+	<name>BONELIMBSRC</name>
+	<description>Bone-Limb Cancer ascertainment source</description>
+	<type>encoded value</type>
+	<comment>Bone-Limb Cancer ascertainment source
+		During the core WHI study, only local adjudications were done for Bone-Limb Cancer. After the WHI study closeout, all adjudications are done centrally. </comment>
+	<value code="0">Local adjudication - form 122</value>
+	<value code="1">Central adjudication - form 130</value>
+</variable>
+
+<variable id="phv00110771.v1">
+	<name>BONENON</name>
+	<description>Cancer of the bones, joints or cartilage of non-limbs (face, head, torso, spine).</description>
+	<type>encoded value</type>
+	<comment>Cancer of the bones, joints or cartilage of non-limbs (face, head, torso, spine).
+		Bone-Non Limb Cancer is adjudicated for CT and OS participants. </comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00110772.v1">
+	<name>BONENONDY</name>
+	<description>Days enrollment to Bone-Non Limb Cancer</description>
+	<type>integer</type>
+	<unit>days</unit>
+	<comment>Days from enrollment to first Bone-Non Limb Cancer</comment>
+</variable>
+
+<variable id="phv00110773.v1">
+	<name>BONENONSRC</name>
+	<description>Bone-Non Limb Cancer ascertainment source</description>
+	<type>encoded value</type>
+	<comment>Bone-Non Limb Cancer ascertainment source
+		During the core WHI study, only local adjudications were done for Bone-Non Limb Cancer. After the WHI study closeout, all adjudications are done centrally. </comment>
+	<value code="0">Local adjudication - form 122</value>
+	<value code="1">Central adjudication - form 130</value>
+</variable>
+
+<variable id="phv00080087.v2">
+	<name>BRAIN</name>
+	<description>Brain Cancer</description>
+	<type>encoded value</type>
+	<comment>Brain Cancer is adjudicated for CT and OS participants.</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00080088.v2">
+	<name>BRAINDY</name>
+	<description>Days enrollment to Brain Cancer</description>
+	<type>integer</type>
+	<unit>days</unit>
+	<logical_min>420</logical_min>
+	<logical_max>3915</logical_max>
+	<comment>Days from enrollment to first Brain Cancer</comment>
+</variable>
+
+<variable id="phv00110774.v1">
+	<name>BRAINSRC</name>
+	<description>Brain Cancer ascertainment source</description>
+	<type>encoded value</type>
+	<comment>Brain Cancer ascertainment source
+		During the core WHI study, only local adjudications were done for Brain Cancer. After the WHI study closeout, all adjudications are done centrally. </comment>
+	<value code="0">Local adjudication - form 122</value>
+	<value code="1">Central adjudication - form 130</value>
+</variable>
+
+<variable id="phv00080032.v2">
+	<name>BREAST</name>
+	<description>Breast Cancer</description>
+	<type>encoded value</type>
+	<comment>Defined as the first occurence of Invasive or In Situ Breast Cancer. All Deaths due to breast cancer are considered Invasive Breast Cancers. Breast Cancer is adjudicated for CT and OS participants.</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00080033.v2">
+	<name>BREASTDY</name>
+	<description>Days enrollment to Breast Cancer</description>
+	<type>integer</type>
+	<unit>days</unit>
+	<logical_min>7</logical_min>
+	<logical_max>5126</logical_max>
+	<comment>Days from enrollment to first Breast Cancer</comment>
+</variable>
+
+<variable id="phv00110775.v1">
+	<name>BREASTSRC</name>
+	<description>Breast Cancer ascertainment source</description>
+	<type>encoded value</type>
+	<comment>Breast Cancer ascertainment source
+		Breast Cancer is defined as the first occurence of Invasive or In Situ Breast Cancer. All Deaths due to breast cancer are considered Invasive Breast Cancers. These outcomes have different ascertaiment rules. Central adjudications were done for all Breast Cancer. If the central adjudication is not complete, local adjudication data is used. During the core WHI Study, Death was adjudicated centrally in the CT and locally in the OS. </comment>
+	<value code="0">Local adjudication - form 122</value>
+	<value code="1">Central adjudication - form 130</value>
+	<value code="9">Cause of Death</value>
+</variable>
+
+<variable id="phv00080034.v2">
+	<name>BREASTINV</name>
+	<description>Breast Cancer Invasive</description>
+	<type>encoded value</type>
+	<comment>Defined as a breast cancer from a Death or the first adjudication where the form 122 or 130 details indicate an invasive cancer. Breast Cancer Invasive is adjudicated for CT and OS participants.  WHI adjudicated all reports of breast cancer for a ppt until the first invasive Breast Cancer.  i.e. The first Invasive Breast Cancer may not be the first Breast Cancer.</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00080035.v2">
+	<name>BREASTINVDY</name>
+	<description>Days enrollment to Breast Cancer Invasive</description>
+	<type>integer</type>
+	<unit>days</unit>
+	<logical_min>7</logical_min>
+	<logical_max>5126</logical_max>
+	<comment>Days from enrollment to first Breast Cancer Invasive</comment>
+</variable>
+
+<variable id="phv00080036.v2">
+	<name>BREASTINVSRC</name>
+	<description>Breast Cancer Invasive ascertainment source</description>
+	<type>encoded value</type>
+	<comment>Breast Cancer Invasive ascertainment source
+		Breast Cancer Invasive is defined as a breast cancer from a Death or the first adjudication where the form 122 or 130 details indicate an invasive cancer. These outcomes have different ascertaiment rules. Central adjudications were done for all Breast Cancer Invasive. If the central adjudication is not complete, local adjudication data is used. During the core WHI Study, Death was adjudicated centrally in the CT and locally in the OS. </comment>
+	<value code="0">Local adjudication - form 122</value>
+	<value code="1">Central adjudication - form 130</value>
+	<value code="9">Cause of Death</value>
+</variable>
+
+<variable id="phv00080037.v2">
+	<name>BREASTINSITU</name>
+	<description>Breast Cancer In Situ</description>
+	<type>encoded value</type>
+	<comment>Defined as the first breast cancer where the form 122 or 130 details indicate an in situ cancer. Breast Cancer In Situ is adjudicated for CT and OS participants. Breast Cancer In Situ occurring on or after a Breast Cancer Invasive is not counted.</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00080038.v2">
+	<name>BREASTINSITUDY</name>
+	<description>Days enrollment to Breast Cancer In Situ</description>
+	<type>integer</type>
+	<unit>days</unit>
+	<logical_min>7</logical_min>
+	<logical_max>4914</logical_max>
+	<comment>Days from enrollment to first Breast Cancer In Situ</comment>
+</variable>
+
+<variable id="phv00080039.v2">
+	<name>BREASTINSITUSRC</name>
+	<description>Breast Cancer In Situ ascertainment source</description>
+	<type>encoded value</type>
+	<comment>Breast Cancer In Situ ascertainment source
+		Central adjudications were done for all Breast Cancer In Situ. If the central adjudication is not complete, local adjudication data is used. </comment>
+	<value code="0">Local adjudication - form 122</value>
+	<value code="1">Central adjudication - form 130</value>
+</variable>
+
+<variable id="phv00110776.v1">
+	<name>CNSCA</name>
+	<description>Cancer of central nervous system (not brain)</description>
+	<type>encoded value</type>
+	<comment>Cancer of central nervous system (not brain)
+		Central Nervous System Cancer is adjudicated for CT and OS participants. </comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00110777.v1">
+	<name>CNSCADY</name>
+	<description>Days enrollment to Central Nervous System Cancer</description>
+	<type>integer</type>
+	<unit>days</unit>
+	<logical_min>786</logical_min>
+	<logical_max>786</logical_max>
+	<comment>Days from enrollment to first Central Nervous System Cancer</comment>
+</variable>
+
+<variable id="phv00110778.v1">
+	<name>CNSCASRC</name>
+	<description>Central Nervous System Cancer ascertainment source</description>
+	<type>encoded value</type>
+	<comment>Central Nervous System Cancer ascertainment source
+		During the core WHI study, only local adjudications were done for Central Nervous System Cancer. After the WHI study closeout, all adjudications are done centrally. </comment>
+	<value code="0">Local adjudication - form 122</value>
+	<value code="1">Central adjudication - form 130</value>
+</variable>
+
+<variable id="phv00080073.v2">
+	<name>CERVICAL</name>
+	<description>Cervix Cancer</description>
+	<type>encoded value</type>
+	<comment>Cervix Cancer is adjudicated for CT and OS participants.</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00080074.v2">
+	<name>CERVICALDY</name>
+	<description>Days enrollment to Cervix Cancer</description>
+	<type>integer</type>
+	<unit>days</unit>
+	<logical_min>273</logical_min>
+	<logical_max>2694</logical_max>
+	<comment>Days from enrollment to first Cervix Cancer</comment>
+</variable>
+
+<variable id="phv00110779.v1">
+	<name>CERVICALSRC</name>
+	<description>Cervix Cancer ascertainment source</description>
+	<type>encoded value</type>
+	<comment>Cervix Cancer ascertainment source
+		During the core WHI study, only local adjudications were done for Cervix Cancer. After the WHI study closeout, all adjudications are done centrally. </comment>
+	<value code="0">Local adjudication - form 122</value>
+	<value code="1">Central adjudication - form 130</value>
+</variable>
+
+<variable id="phv00080046.v2">
+	<name>COLON</name>
+	<description>Colon Cancer</description>
+	<type>encoded value</type>
+	<comment>Defined as the first occurence of Colon Cancer or a Death due to Colon Cancer.  Colon Cancer is adjudicated for CT and OS participants.</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00080047.v2">
+	<name>COLONDY</name>
+	<description>Days enrollment to Colon Cancer</description>
+	<type>integer</type>
+	<unit>days</unit>
+	<logical_min>20</logical_min>
+	<logical_max>4845</logical_max>
+	<comment>Days from enrollment to first Colon Cancer</comment>
+</variable>
+
+<variable id="phv00080048.v2">
+	<name>COLONSRC</name>
+	<description>Colon Cancer ascertainment source</description>
+	<type>encoded value</type>
+	<comment>Colon Cancer ascertainment source
+		Colon Cancer is defined as the first occurence of Colon Cancer or a Death due to Colon Cancer. These outcomes have different ascertaiment rules. Central adjudications were done for all Colon Cancer. If the central adjudication is not complete, local adjudication data is used. During the core WHI Study, Death was adjudicated centrally in the CT and locally in the OS. </comment>
+	<value code="0">Local adjudication - form 122</value>
+	<value code="1">Central adjudication - form 130</value>
+	<value code="9">Cause of Death</value>
+</variable>
+
+<variable id="phv00080095.v2">
+	<name>COLORECTAL</name>
+	<description>Colorectal Cancer</description>
+	<type>encoded value</type>
+	<comment>Defined as the first occurence of Colon Cancer, Rectosigmoid Cancer, Rectum Cancer or a Death due to Colon Cancer, Rectosigmoid Cancer or Rectum Cancer.  Colorectal Cancer is adjudicated for CT and OS participants.</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00080096.v2">
+	<name>COLORECTALDY</name>
+	<description>Days enrollment to Colorectal Cancer</description>
+	<type>integer</type>
+	<unit>days</unit>
+	<logical_min>20</logical_min>
+	<logical_max>4845</logical_max>
+	<comment>Days from enrollment to first Colorectal Cancer</comment>
+</variable>
+
+<variable id="phv00110780.v1">
+	<name>COLORECTALSRC</name>
+	<description>Colorectal Cancer ascertainment source</description>
+	<type>encoded value</type>
+	<comment>Colorectal Cancer ascertainment source
+		Colorectal Cancer is defined as the first occurence of Colon Cancer, Rectosigmoid Cancer, Rectum Cancer or a Death due to Colon Cancer, Rectosigmoid Cancer or Rectum Cancer. These outcomes have different ascertaiment rules. Central adjudications were done for all Colorectal Cancer. If the central adjudication is not complete, local adjudication data is used. During the core WHI Study, Death was adjudicated centrally in the CT and locally in the OS. </comment>
+	<value code="0">Local adjudication - form 122</value>
+	<value code="1">Central adjudication - form 130</value>
+	<value code="9">Cause of Death</value>
+</variable>
+
+<variable id="phv00080079.v2">
+	<name>CONNECTIVE</name>
+	<description>Cancer of connective, subcutaneous and soft tissues</description>
+	<type>encoded value</type>
+	<comment>Cancer of connective, subcutaneous and soft tissues
+		Connective Tissue Cancer is adjudicated for CT and OS participants. </comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00080080.v2">
+	<name>CONNECTIVEDY</name>
+	<description>Days enrollment to Connective Tissue Cancer</description>
+	<type>integer</type>
+	<unit>days</unit>
+	<logical_min>912</logical_min>
+	<logical_max>2367</logical_max>
+	<comment>Days from enrollment to first Connective Tissue Cancer</comment>
+</variable>
+
+<variable id="phv00110781.v1">
+	<name>CONNECTIVESRC</name>
+	<description>Connective Tissue Cancer ascertainment source</description>
+	<type>encoded value</type>
+	<comment>Connective Tissue Cancer ascertainment source
+		During the core WHI study, only local adjudications were done for Connective Tissue Cancer. After the WHI study closeout, all adjudications are done centrally. </comment>
+	<value code="0">Local adjudication - form 122</value>
+	<value code="1">Central adjudication - form 130</value>
+</variable>
+
+<variable id="phv00110782.v1">
+	<name>ENDOCRINE</name>
+	<description>Cancer of endocrine glands and related structures</description>
+	<type>encoded value</type>
+	<comment>Cancer of endocrine glands and related structures
+		Endocrine Glands Cancer is adjudicated for CT and OS participants. </comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00110783.v1">
+	<name>ENDOCRINEDY</name>
+	<description>Days enrollment to Endocrine Glands Cancer</description>
+	<type>integer</type>
+	<unit>days</unit>
+	<logical_min>1559</logical_min>
+	<logical_max>1559</logical_max>
+	<comment>Days from enrollment to first Endocrine Glands Cancer</comment>
+</variable>
+
+<variable id="phv00110784.v1">
+	<name>ENDOCRINESRC</name>
+	<description>Endocrine Glands Cancer ascertainment source</description>
+	<type>encoded value</type>
+	<comment>Endocrine Glands Cancer ascertainment source
+		During the core WHI study, only local adjudications were done for Endocrine Glands Cancer. After the WHI study closeout, all adjudications are done centrally. </comment>
+	<value code="0">Local adjudication - form 122</value>
+	<value code="1">Central adjudication - form 130</value>
+</variable>
+
+<variable id="phv00080043.v2">
+	<name>ENDMTRL</name>
+	<description>Endometrial Cancer</description>
+	<type>encoded value</type>
+	<comment>Defined as the first occurence of Endometrial Cancer or a Death due to Endometrial Cancer.  Endometrial Cancer is adjudicated for CT and OS participants.</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00080044.v2">
+	<name>ENDMTRLDY</name>
+	<description>Days enrollment to Endometrial Cancer</description>
+	<type>integer</type>
+	<unit>days</unit>
+	<logical_min>166</logical_min>
+	<logical_max>4515</logical_max>
+	<comment>Days from enrollment to first Endometrial Cancer</comment>
+</variable>
+
+<variable id="phv00080045.v2">
+	<name>ENDMTRLSRC</name>
+	<description>Endometrial Cancer ascertainment source</description>
+	<type>encoded value</type>
+	<comment>Endometrial Cancer ascertainment source
+		Endometrial Cancer is defined as the first occurence of Endometrial Cancer or a Death due to Endometrial Cancer. These outcomes have different ascertaiment rules. Central adjudications were done for all Endometrial Cancer. If the central adjudication is not complete, local adjudication data is used. During the core WHI Study, Death was adjudicated centrally in the CT and locally in the OS. </comment>
+	<value code="0">Local adjudication - form 122</value>
+	<value code="1">Central adjudication - form 130</value>
+	<value code="9">Cause of Death</value>
+</variable>
+
+<variable id="phv00080061.v2">
+	<name>ESOPHAGUS</name>
+	<description>Esophagus Cancer</description>
+	<type>encoded value</type>
+	<comment>Esophagus Cancer is adjudicated for CT and OS participants.</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00080062.v2">
+	<name>ESOPHAGUSDY</name>
+	<description>Days enrollment to Esophagus Cancer</description>
+	<type>integer</type>
+	<unit>days</unit>
+	<logical_min>2087</logical_min>
+	<logical_max>2897</logical_max>
+	<comment>Days from enrollment to first Esophagus Cancer</comment>
+</variable>
+
+<variable id="phv00110785.v1">
+	<name>ESOPHAGUSSRC</name>
+	<description>Esophagus Cancer ascertainment source</description>
+	<type>encoded value</type>
+	<comment>Esophagus Cancer ascertainment source
+		Central adjudications were done for all Esophagus Cancer. If the central adjudication is not complete, local adjudication data is used. </comment>
+	<value code="0">Local adjudication - form 122</value>
+	<value code="1">Central adjudication - form 130</value>
+</variable>
+
+<variable id="phv00110786.v1">
+	<name>EYE</name>
+	<description>Eye and Adnexa Cancer</description>
+	<type>encoded value</type>
+	<comment>Eye and Adnexa Cancer is adjudicated for CT and OS participants.</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00110787.v1">
+	<name>EYEDY</name>
+	<description>Days enrollment to Eye and Adnexa Cancer</description>
+	<type>integer</type>
+	<unit>days</unit>
+	<logical_min>110</logical_min>
+	<logical_max>2025</logical_max>
+	<comment>Days from enrollment to first Eye and Adnexa Cancer</comment>
+</variable>
+
+<variable id="phv00110788.v1">
+	<name>EYESRC</name>
+	<description>Eye and Adnexa Cancer ascertainment source</description>
+	<type>encoded value</type>
+	<comment>Eye and Adnexa Cancer ascertainment source
+		During the core WHI study, only local adjudications were done for Eye and Adnexa Cancer. After the WHI study closeout, all adjudications are done centrally. </comment>
+	<value code="0">Local adjudication - form 122</value>
+	<value code="1">Central adjudication - form 130</value>
+</variable>
+
+<variable id="phv00080081.v2">
+	<name>GENITAL</name>
+	<description>Cancer of genital organs, other or unspecified</description>
+	<type>encoded value</type>
+	<comment>Cancer of genital organs, other or unspecified
+		Genital Organs Cancer is adjudicated for CT and OS participants. </comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00080082.v2">
+	<name>GENITALDY</name>
+	<description>Days enrollment to Genital Organs Cancer</description>
+	<type>integer</type>
+	<unit>days</unit>
+	<logical_min>293</logical_min>
+	<logical_max>4689</logical_max>
+	<comment>Days from enrollment to first Genital Organs Cancer</comment>
+</variable>
+
+<variable id="phv00110789.v1">
+	<name>GENITALSRC</name>
+	<description>Genital Organs Cancer ascertainment source</description>
+	<type>encoded value</type>
+	<comment>Genital Organs Cancer ascertainment source
+		During the core WHI study, only local adjudications were done for Genital Organs Cancer. After the WHI study closeout, all adjudications are done centrally. </comment>
+	<value code="0">Local adjudication - form 122</value>
+	<value code="1">Central adjudication - form 130</value>
+</variable>
+
+<variable id="phv00080083.v2">
+	<name>KIDNEY</name>
+	<description>Kidney Cancer</description>
+	<type>encoded value</type>
+	<comment>Kidney Cancer is adjudicated for CT and OS participants.</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00080084.v2">
+	<name>KIDNEYDY</name>
+	<description>Days enrollment to Kidney Cancer</description>
+	<type>integer</type>
+	<unit>days</unit>
+	<logical_min>500</logical_min>
+	<logical_max>4043</logical_max>
+	<comment>Days from enrollment to first Kidney Cancer</comment>
+</variable>
+
+<variable id="phv00110790.v1">
+	<name>KIDNEYSRC</name>
+	<description>Kidney Cancer ascertainment source</description>
+	<type>encoded value</type>
+	<comment>Kidney Cancer ascertainment source
+		During the core WHI study, only local adjudications were done for Kidney Cancer. After the WHI study closeout, all adjudications are done centrally. </comment>
+	<value code="0">Local adjudication - form 122</value>
+	<value code="1">Central adjudication - form 130</value>
+</variable>
+
+<variable id="phv00110791.v1">
+	<name>LARYNX</name>
+	<description>Larynx Cancer</description>
+	<type>encoded value</type>
+	<comment>Larynx Cancer is adjudicated for CT and OS participants.</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00110792.v1">
+	<name>LARYNXDY</name>
+	<description>Days enrollment to Larynx Cancer</description>
+	<type>integer</type>
+	<unit>days</unit>
+	<logical_min>2392</logical_min>
+	<logical_max>2896</logical_max>
+	<comment>Days from enrollment to first Larynx Cancer</comment>
+</variable>
+
+<variable id="phv00110793.v1">
+	<name>LARYNXSRC</name>
+	<description>Larynx Cancer ascertainment source</description>
+	<type>encoded value</type>
+	<comment>Larynx Cancer ascertainment source
+		During the core WHI study, only local adjudications were done for Larynx Cancer. After the WHI study closeout, all adjudications are done centrally. </comment>
+	<value code="0">Local adjudication - form 122</value>
+	<value code="1">Central adjudication - form 130</value>
+</variable>
+
+<variable id="phv00080075.v2">
+	<name>LEUKEMIA</name>
+	<description>Leukemia Cancer</description>
+	<type>encoded value</type>
+	<comment>Leukemia Cancer is adjudicated for CT and OS participants.</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00080076.v2">
+	<name>LEUKEMIADY</name>
+	<description>Days enrollment to Leukemia Cancer</description>
+	<type>integer</type>
+	<unit>days</unit>
+	<logical_min>108</logical_min>
+	<logical_max>4656</logical_max>
+	<comment>Days from enrollment to first Leukemia Cancer</comment>
+</variable>
+
+<variable id="phv00110794.v1">
+	<name>LEUKEMIASRC</name>
+	<description>Leukemia Cancer ascertainment source</description>
+	<type>encoded value</type>
+	<comment>Leukemia Cancer ascertainment source
+		Central adjudications were done for all Leukemia Cancer. If the central adjudication is not complete, local adjudication data is used. </comment>
+	<value code="0">Local adjudication - form 122</value>
+	<value code="1">Central adjudication - form 130</value>
+</variable>
+
+<variable id="phv00080067.v2">
+	<name>LIVER</name>
+	<description>Liver Cancer</description>
+	<type>encoded value</type>
+	<comment>Liver Cancer is adjudicated for CT and OS participants.</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00080068.v2">
+	<name>LIVERDY</name>
+	<description>Days enrollment to Liver Cancer</description>
+	<type>integer</type>
+	<unit>days</unit>
+	<logical_min>568</logical_min>
+	<logical_max>4033</logical_max>
+	<comment>Days from enrollment to first Liver Cancer</comment>
+</variable>
+
+<variable id="phv00110795.v1">
+	<name>LIVERSRC</name>
+	<description>Liver Cancer ascertainment source</description>
+	<type>encoded value</type>
+	<comment>Liver Cancer ascertainment source
+		During the core WHI study, only local adjudications were done for Liver Cancer. After the WHI study closeout, all adjudications are done centrally. </comment>
+	<value code="0">Local adjudication - form 122</value>
+	<value code="1">Central adjudication - form 130</value>
+</variable>
+
+<variable id="phv00080065.v2">
+	<name>LUNG</name>
+	<description>Lung Cancer</description>
+	<type>encoded value</type>
+	<comment>Lung Cancer is adjudicated for CT and OS participants.</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00080066.v2">
+	<name>LUNGDY</name>
+	<description>Days enrollment to Lung Cancer</description>
+	<type>integer</type>
+	<unit>days</unit>
+	<logical_min>70</logical_min>
+	<logical_max>5041</logical_max>
+	<comment>Days from enrollment to first Lung Cancer</comment>
+</variable>
+
+<variable id="phv00110796.v1">
+	<name>LUNGSRC</name>
+	<description>Lung Cancer ascertainment source</description>
+	<type>encoded value</type>
+	<comment>Lung Cancer ascertainment source
+		Central adjudications were done for all Lung Cancer. If the central adjudication is not complete, local adjudication data is used. </comment>
+	<value code="0">Local adjudication - form 122</value>
+	<value code="1">Central adjudication - form 130</value>
+</variable>
+
+<variable id="phv00110797.v1">
+	<name>LYMPH</name>
+	<description>Lymph Node Cancer</description>
+	<type>encoded value</type>
+	<comment>Lymph Node Cancer is adjudicated for CT and OS participants.</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00110798.v1">
+	<name>LYMPHDY</name>
+	<description>Days enrollment to Lymph Node Cancer</description>
+	<type>integer</type>
+	<unit>days</unit>
+	<logical_min>62</logical_min>
+	<logical_max>62</logical_max>
+	<comment>Days from enrollment to first Lymph Node Cancer</comment>
+</variable>
+
+<variable id="phv00110799.v1">
+	<name>LYMPHSRC</name>
+	<description>Lymph Node Cancer ascertainment source</description>
+	<type>encoded value</type>
+	<comment>Lymph Node Cancer ascertainment source
+		During the core WHI study, only local adjudications were done for Lymph Node Cancer. After the WHI study closeout, all adjudications are done centrally. </comment>
+	<value code="0">Local adjudication - form 122</value>
+	<value code="1">Central adjudication - form 130</value>
+</variable>
+
+<variable id="phv00110800.v1">
+	<name>HODGKINS</name>
+	<description>Lymphoma Hodgkins</description>
+	<type>encoded value</type>
+	<comment>Lymphoma Hodgkins is adjudicated for CT and OS participants.</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00110801.v1">
+	<name>HODGKINSDY</name>
+	<description>Days enrollment to Lymphoma Hodgkins</description>
+	<type>integer</type>
+	<unit>days</unit>
+	<logical_min>1644</logical_min>
+	<logical_max>3495</logical_max>
+	<comment>Days from enrollment to first Lymphoma Hodgkins</comment>
+</variable>
+
+<variable id="phv00110802.v1">
+	<name>HODGKINSSRC</name>
+	<description>Lymphoma Hodgkins ascertainment source</description>
+	<type>encoded value</type>
+	<comment>Lymphoma Hodgkins ascertainment source
+		Central adjudications were done for all Lymphoma Hodgkins. If the central adjudication is not complete, local adjudication data is used. </comment>
+	<value code="0">Local adjudication - form 122</value>
+	<value code="1">Central adjudication - form 130</value>
+</variable>
+
+<variable id="phv00080091.v2">
+	<name>LYMPHOMA</name>
+	<description>Lymphoma Non Hodgkins</description>
+	<type>encoded value</type>
+	<comment>Lymphoma Non Hodgkins is adjudicated for CT and OS participants.</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00080092.v2">
+	<name>LYMPHOMADY</name>
+	<description>Days enrollment to Lymphoma Non Hodgkins</description>
+	<type>integer</type>
+	<unit>days</unit>
+	<logical_min>60</logical_min>
+	<logical_max>4492</logical_max>
+	<comment>Days from enrollment to first Lymphoma Non Hodgkins</comment>
+</variable>
+
+<variable id="phv00110803.v1">
+	<name>LYMPHOMASRC</name>
+	<description>Lymphoma Non Hodgkins ascertainment source</description>
+	<type>encoded value</type>
+	<comment>Lymphoma Non Hodgkins ascertainment source
+		Central adjudications were done for all Lymphoma Non Hodgkins. If the central adjudication is not complete, local adjudication data is used. </comment>
+	<value code="0">Local adjudication - form 122</value>
+	<value code="1">Central adjudication - form 130</value>
+</variable>
+
+<variable id="phv00080077.v2">
+	<name>MELANOMA</name>
+	<description>Melanoma of the Skin</description>
+	<type>encoded value</type>
+	<comment>Melanoma of the Skin is adjudicated for CT and OS participants.</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00080078.v2">
+	<name>MELANOMADY</name>
+	<description>Days enrollment to Melanoma of the Skin</description>
+	<type>integer</type>
+	<unit>days</unit>
+	<logical_min>539</logical_min>
+	<logical_max>4760</logical_max>
+	<comment>Days from enrollment to first Melanoma of the Skin</comment>
+</variable>
+
+<variable id="phv00110804.v1">
+	<name>MELANOMASRC</name>
+	<description>Melanoma of the Skin ascertainment source</description>
+	<type>encoded value</type>
+	<comment>Melanoma of the Skin ascertainment source
+		During the core WHI study, only local adjudications were done for Melanoma of the Skin. After the WHI study closeout, all adjudications are done centrally. </comment>
+	<value code="0">Local adjudication - form 122</value>
+	<value code="1">Central adjudication - form 130</value>
+</variable>
+
+<variable id="phv00080093.v2">
+	<name>MMYELOMA</name>
+	<description>Multiple Myeloma</description>
+	<type>encoded value</type>
+	<comment>Multiple Myeloma is adjudicated for CT and OS participants.</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00080094.v2">
+	<name>MMYELOMADY</name>
+	<description>Days enrollment to Multiple Myeloma</description>
+	<type>integer</type>
+	<unit>days</unit>
+	<logical_min>115</logical_min>
+	<logical_max>4420</logical_max>
+	<comment>Days from enrollment to first Multiple Myeloma</comment>
+</variable>
+
+<variable id="phv00110805.v1">
+	<name>MMYELOMASRC</name>
+	<description>Multiple Myeloma ascertainment source</description>
+	<type>encoded value</type>
+	<comment>Multiple Myeloma ascertainment source
+		Central adjudications were done for all Multiple Myeloma. If the central adjudication is not complete, local adjudication data is used. </comment>
+	<value code="0">Local adjudication - form 122</value>
+	<value code="1">Central adjudication - form 130</value>
+</variable>
+
+<variable id="phv00080059.v2">
+	<name>ORALUNSP</name>
+	<description>Oral cancer, mouth, other or unspecified</description>
+	<type>encoded value</type>
+	<comment>Oral cancer, mouth, other or unspecified
+		Oral (Mouth) Cancer is adjudicated for CT and OS participants. </comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00080060.v2">
+	<name>ORALUNSPDY</name>
+	<description>Days enrollment to Oral (Mouth) Cancer</description>
+	<type>integer</type>
+	<unit>days</unit>
+	<logical_min>1524</logical_min>
+	<logical_max>3303</logical_max>
+	<comment>Days from enrollment to first Oral (Mouth) Cancer</comment>
+</variable>
+
+<variable id="phv00110806.v1">
+	<name>ORALUNSPSRC</name>
+	<description>Oral (Mouth) Cancer ascertainment source</description>
+	<type>encoded value</type>
+	<comment>Oral (Mouth) Cancer ascertainment source
+		During the core WHI study, only local adjudications were done for Oral (Mouth) Cancer. After the WHI study closeout, all adjudications are done centrally. </comment>
+	<value code="0">Local adjudication - form 122</value>
+	<value code="1">Central adjudication - form 130</value>
+</variable>
+
+<variable id="phv00080040.v2">
+	<name>OVARY</name>
+	<description>Ovarian Cancer</description>
+	<type>encoded value</type>
+	<comment>Defined as the first occurence of Ovarian Cancer or a Death due to Ovarian Cancer.  Ovarian Cancer is adjudicated for CT and OS participants.</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00080041.v2">
+	<name>OVARYDY</name>
+	<description>Days enrollment to Ovarian Cancer</description>
+	<type>integer</type>
+	<unit>days</unit>
+	<logical_min>32</logical_min>
+	<logical_max>4879</logical_max>
+	<comment>Days from enrollment to first Ovarian Cancer</comment>
+</variable>
+
+<variable id="phv00080042.v2">
+	<name>OVARYSRC</name>
+	<description>Ovarian Cancer ascertainment source</description>
+	<type>encoded value</type>
+	<comment>Ovarian Cancer ascertainment source
+		Ovarian Cancer is defined as the first occurence of Ovarian Cancer or a Death due to Ovarian Cancer. These outcomes have different ascertaiment rules. Central adjudications were done for all Ovarian Cancer. If the central adjudication is not complete, local adjudication data is used. During the core WHI Study, Death was adjudicated centrally in the CT and locally in the OS. </comment>
+	<value code="0">Local adjudication - form 122</value>
+	<value code="1">Central adjudication - form 130</value>
+	<value code="9">Cause of Death</value>
+</variable>
+
+<variable id="phv00110807.v1">
+	<name>PALATE</name>
+	<description>Palate Cancer</description>
+	<type>encoded value</type>
+	<comment>Palate Cancer is adjudicated for CT and OS participants.</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00110808.v1">
+	<name>PALATEDY</name>
+	<description>Days enrollment to Palate Cancer</description>
+	<type>integer</type>
+	<unit>days</unit>
+	<comment>Days from enrollment to first Palate Cancer</comment>
+</variable>
+
+<variable id="phv00110809.v1">
+	<name>PALATESRC</name>
+	<description>Palate Cancer ascertainment source</description>
+	<type>encoded value</type>
+	<comment>Palate Cancer ascertainment source
+		During the core WHI study, only local adjudications were done for Palate Cancer. After the WHI study closeout, all adjudications are done centrally. </comment>
+	<value code="0">Local adjudication - form 122</value>
+	<value code="1">Central adjudication - form 130</value>
+</variable>
+
+<variable id="phv00080057.v2">
+	<name>PANCREAS</name>
+	<description>Pancreas Cancer</description>
+	<type>encoded value</type>
+	<comment>Pancreas Cancer is adjudicated for CT and OS participants.</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00080058.v2">
+	<name>PANCREASDY</name>
+	<description>Days enrollment to Pancreas Cancer</description>
+	<type>integer</type>
+	<unit>days</unit>
+	<logical_min>253</logical_min>
+	<logical_max>4432</logical_max>
+	<comment>Days from enrollment to first Pancreas Cancer</comment>
+</variable>
+
+<variable id="phv00110810.v1">
+	<name>PANCREASSRC</name>
+	<description>Pancreas Cancer ascertainment source</description>
+	<type>encoded value</type>
+	<comment>Pancreas Cancer ascertainment source
+		Central adjudications were done for all Pancreas Cancer. If the central adjudication is not complete, local adjudication data is used. </comment>
+	<value code="0">Local adjudication - form 122</value>
+	<value code="1">Central adjudication - form 130</value>
+</variable>
+
+<variable id="phv00110811.v1">
+	<name>PAROTID</name>
+	<description>Cancer of Parotid gland or Stensens duct</description>
+	<type>encoded value</type>
+	<comment>Cancer of Parotid gland or Stensens duct
+		Parotid Gland,Stensens Cancer is adjudicated for CT and OS participants. </comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00110812.v1">
+	<name>PAROTIDDY</name>
+	<description>Days enrollment to Parotid Gland,Stensens Cancer</description>
+	<type>integer</type>
+	<unit>days</unit>
+	<logical_min>2140</logical_min>
+	<logical_max>2990</logical_max>
+	<comment>Days from enrollment to first Parotid Gland,Stensens Cancer</comment>
+</variable>
+
+<variable id="phv00110813.v1">
+	<name>PAROTIDSRC</name>
+	<description>Parotid Gland,Stensens Cancer ascertainment source</description>
+	<type>encoded value</type>
+	<comment>Parotid Gland,Stensens Cancer ascertainment source
+		During the core WHI study, only local adjudications were done for Parotid Gland,Stensens Cancer. After the WHI study closeout, all adjudications are done centrally. </comment>
+	<value code="0">Local adjudication - form 122</value>
+	<value code="1">Central adjudication - form 130</value>
+</variable>
+
+<variable id="phv00110814.v1">
+	<name>PERIPHERAL</name>
+	<description>Cancer of Peripheral nerves and autonomic system</description>
+	<type>encoded value</type>
+	<comment>Cancer of Peripheral nerves and autonomic system
+		Peripheral Nerves Cancer is adjudicated for CT and OS participants. </comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00110815.v1">
+	<name>PERIPHERALDY</name>
+	<description>Days enrollment to Peripheral Nerves Cancer</description>
+	<type>integer</type>
+	<unit>days</unit>
+	<comment>Days from enrollment to first Peripheral Nerves Cancer</comment>
+</variable>
+
+<variable id="phv00110816.v1">
+	<name>PERIPHERALSRC</name>
+	<description>Peripheral Nerves Cancer ascertainment source</description>
+	<type>encoded value</type>
+	<comment>Peripheral Nerves Cancer ascertainment source
+		During the core WHI study, only local adjudications were done for Peripheral Nerves Cancer. After the WHI study closeout, all adjudications are done centrally. </comment>
+	<value code="0">Local adjudication - form 122</value>
+	<value code="1">Central adjudication - form 130</value>
+</variable>
+
+<variable id="phv00110817.v1">
+	<name>PYRIFORM</name>
+	<description>Pyriform Sinus Cancer</description>
+	<type>encoded value</type>
+	<comment>Pyriform Sinus Cancer is adjudicated for CT and OS participants.</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00110818.v1">
+	<name>PYRIFORMDY</name>
+	<description>Days enrollment to Pyriform Sinus Cancer</description>
+	<type>integer</type>
+	<unit>days</unit>
+	<comment>Days from enrollment to first Pyriform Sinus Cancer</comment>
+</variable>
+
+<variable id="phv00110819.v1">
+	<name>PYRIFORMSRC</name>
+	<description>Pyriform Sinus Cancer ascertainment source</description>
+	<type>encoded value</type>
+	<comment>Pyriform Sinus Cancer ascertainment source
+		During the core WHI study, only local adjudications were done for Pyriform Sinus Cancer. After the WHI study closeout, all adjudications are done centrally. </comment>
+	<value code="0">Local adjudication - form 122</value>
+	<value code="1">Central adjudication - form 130</value>
+</variable>
+
+<variable id="phv00080049.v2">
+	<name>RECTOSIG</name>
+	<description>Cancer of the rectosigmoid junction</description>
+	<type>encoded value</type>
+	<comment>Cancer of the rectosigmoid junction
+		Defined as the first occurence of Rectosigmoid Cancer or a Death due to Rectosigmoid Cancer.  Rectosigmoid Cancer is adjudicated for CT and OS participants. </comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00080050.v2">
+	<name>RECTOSIGDY</name>
+	<description>Days enrollment to Rectosigmoid Cancer</description>
+	<type>integer</type>
+	<unit>days</unit>
+	<logical_min>49</logical_min>
+	<logical_max>3930</logical_max>
+	<comment>Days from enrollment to first Rectosigmoid Cancer</comment>
+</variable>
+
+<variable id="phv00080051.v2">
+	<name>RECTOSIGSRC</name>
+	<description>Rectosigmoid Cancer ascertainment source</description>
+	<type>encoded value</type>
+	<comment>Rectosigmoid Cancer ascertainment source
+		Rectosigmoid Cancer is defined as the first occurence of Rectosigmoid Cancer or a Death due to Rectosigmoid Cancer. These outcomes have different ascertaiment rules. Central adjudications were done for all Rectosigmoid Cancer. If the central adjudication is not complete, local adjudication data is used. During the core WHI Study, Death was adjudicated centrally in the CT and locally in the OS. </comment>
+	<value code="0">Local adjudication - form 122</value>
+	<value code="1">Central adjudication - form 130</value>
+	<value code="9">Cause of Death</value>
+</variable>
+
+<variable id="phv00080052.v2">
+	<name>RECTUM</name>
+	<description>Rectum Cancer</description>
+	<type>encoded value</type>
+	<comment>Defined as the first occurence of Rectum Cancer or a Death due to Rectum Cancer.  Rectum Cancer is adjudicated for CT and OS participants.</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00080053.v2">
+	<name>RECTUMDY</name>
+	<description>Days enrollment to Rectum Cancer</description>
+	<type>integer</type>
+	<unit>days</unit>
+	<logical_min>209</logical_min>
+	<logical_max>3623</logical_max>
+	<comment>Days from enrollment to first Rectum Cancer</comment>
+</variable>
+
+<variable id="phv00080054.v2">
+	<name>RECTUMSRC</name>
+	<description>Rectum Cancer ascertainment source</description>
+	<type>encoded value</type>
+	<comment>Rectum Cancer ascertainment source
+		Rectum Cancer is defined as the first occurence of Rectum Cancer or a Death due to Rectum Cancer. These outcomes have different ascertaiment rules. Central adjudications were done for all Rectum Cancer. If the central adjudication is not complete, local adjudication data is used. During the core WHI Study, Death was adjudicated centrally in the CT and locally in the OS. </comment>
+	<value code="0">Local adjudication - form 122</value>
+	<value code="1">Central adjudication - form 130</value>
+	<value code="9">Cause of Death</value>
+</variable>
+
+<variable id="phv00110820.v1">
+	<name>RESP</name>
+	<description>Cancer of respiratory system and intrathoracic.</description>
+	<type>encoded value</type>
+	<comment>Cancer of respiratory system and intrathoracic.
+		Respiratory Cancer is adjudicated for CT and OS participants. </comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00110821.v1">
+	<name>RESPDY</name>
+	<description>Days enrollment to Respiratory Cancer</description>
+	<type>integer</type>
+	<unit>days</unit>
+	<comment>Days from enrollment to first Respiratory Cancer</comment>
+</variable>
+
+<variable id="phv00110822.v1">
+	<name>RESPSRC</name>
+	<description>Respiratory Cancer ascertainment source</description>
+	<type>encoded value</type>
+	<comment>Respiratory Cancer ascertainment source
+		During the core WHI study, only local adjudications were done for Respiratory Cancer. After the WHI study closeout, all adjudications are done centrally. </comment>
+	<value code="0">Local adjudication - form 122</value>
+	<value code="1">Central adjudication - form 130</value>
+</variable>
+
+<variable id="phv00110823.v1">
+	<name>SALIVARY</name>
+	<description>Cancer of salivary glands, major, other or unspecified.</description>
+	<type>encoded value</type>
+	<comment>Cancer of salivary glands, major, other or unspecified.
+		Salivary Glands Cancer is adjudicated for CT and OS participants. </comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00110824.v1">
+	<name>SALIVARYDY</name>
+	<description>Days enrollment to Salivary Glands Cancer</description>
+	<type>integer</type>
+	<unit>days</unit>
+	<comment>Days from enrollment to first Salivary Glands Cancer</comment>
+</variable>
+
+<variable id="phv00110825.v1">
+	<name>SALIVARYSRC</name>
+	<description>Salivary Glands Cancer ascertainment source</description>
+	<type>encoded value</type>
+	<comment>Salivary Glands Cancer ascertainment source
+		During the core WHI study, only local adjudications were done for Salivary Glands Cancer. After the WHI study closeout, all adjudications are done centrally. </comment>
+	<value code="0">Local adjudication - form 122</value>
+	<value code="1">Central adjudication - form 130</value>
+</variable>
+
+<variable id="phv00080063.v2">
+	<name>STOMACH</name>
+	<description>Stomach Cancer</description>
+	<type>encoded value</type>
+	<comment>Stomach Cancer is adjudicated for CT and OS participants.</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00080064.v2">
+	<name>STOMACHDY</name>
+	<description>Days enrollment to Stomach Cancer</description>
+	<type>integer</type>
+	<unit>days</unit>
+	<logical_min>41</logical_min>
+	<logical_max>3731</logical_max>
+	<comment>Days from enrollment to first Stomach Cancer</comment>
+</variable>
+
+<variable id="phv00110826.v1">
+	<name>STOMACHSRC</name>
+	<description>Stomach Cancer ascertainment source</description>
+	<type>encoded value</type>
+	<comment>Stomach Cancer ascertainment source
+		During the core WHI study, only local adjudications were done for Stomach Cancer. After the WHI study closeout, all adjudications are done centrally. </comment>
+	<value code="0">Local adjudication - form 122</value>
+	<value code="1">Central adjudication - form 130</value>
+</variable>
+
+<variable id="phv00080089.v2">
+	<name>THYROID</name>
+	<description>Thyroid Cancer</description>
+	<type>encoded value</type>
+	<comment>Thyroid Cancer is adjudicated for CT and OS participants.</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00080090.v2">
+	<name>THYROIDDY</name>
+	<description>Days enrollment to Thyroid Cancer</description>
+	<type>integer</type>
+	<unit>days</unit>
+	<logical_min>394</logical_min>
+	<logical_max>3500</logical_max>
+	<comment>Days from enrollment to first Thyroid Cancer</comment>
+</variable>
+
+<variable id="phv00110827.v1">
+	<name>THYROIDSRC</name>
+	<description>Thyroid Cancer ascertainment source</description>
+	<type>encoded value</type>
+	<comment>Thyroid Cancer ascertainment source
+		During the core WHI study, only local adjudications were done for Thyroid Cancer. After the WHI study closeout, all adjudications are done centrally. </comment>
+	<value code="0">Local adjudication - form 122</value>
+	<value code="1">Central adjudication - form 130</value>
+</variable>
+
+<variable id="phv00110828.v1">
+	<name>TONGUE</name>
+	<description>Cancer of tongue, other or unspecified part</description>
+	<type>encoded value</type>
+	<comment>Cancer of tongue, other or unspecified part
+		Tongue Cancer is adjudicated for CT and OS participants. </comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00110829.v1">
+	<name>TONGUEDY</name>
+	<description>Days enrollment to Tongue Cancer</description>
+	<type>integer</type>
+	<unit>days</unit>
+	<logical_min>554</logical_min>
+	<logical_max>3362</logical_max>
+	<comment>Days from enrollment to first Tongue Cancer</comment>
+</variable>
+
+<variable id="phv00110830.v1">
+	<name>TONGUESRC</name>
+	<description>Tongue Cancer ascertainment source</description>
+	<type>encoded value</type>
+	<comment>Tongue Cancer ascertainment source
+		During the core WHI study, only local adjudications were done for Tongue Cancer. After the WHI study closeout, all adjudications are done centrally. </comment>
+	<value code="0">Local adjudication - form 122</value>
+	<value code="1">Central adjudication - form 130</value>
+</variable>
+
+<variable id="phv00110831.v1">
+	<name>URINARY</name>
+	<description>Cancer of urinary organs, other or unspecified.</description>
+	<type>encoded value</type>
+	<comment>Cancer of urinary organs, other or unspecified.
+		Urinary Organs Cancer is adjudicated for CT and OS participants. </comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00110832.v1">
+	<name>URINARYDY</name>
+	<description>Days enrollment to Urinary Organs Cancer</description>
+	<type>integer</type>
+	<unit>days</unit>
+	<logical_min>358</logical_min>
+	<logical_max>358</logical_max>
+	<comment>Days from enrollment to first Urinary Organs Cancer</comment>
+</variable>
+
+<variable id="phv00110833.v1">
+	<name>URINARYSRC</name>
+	<description>Urinary Organs Cancer ascertainment source</description>
+	<type>encoded value</type>
+	<comment>Urinary Organs Cancer ascertainment source
+		During the core WHI study, only local adjudications were done for Urinary Organs Cancer. After the WHI study closeout, all adjudications are done centrally. </comment>
+	<value code="0">Local adjudication - form 122</value>
+	<value code="1">Central adjudication - form 130</value>
+</variable>
+
+<variable id="phv00080071.v2">
+	<name>UTERINE</name>
+	<description>Cancer of uterus, not otherwise specified</description>
+	<type>encoded value</type>
+	<comment>Cancer of uterus, not otherwise specified
+		Uterus, Not Spec. Cancer is adjudicated for CT and OS participants. </comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00080072.v2">
+	<name>UTERINEDY</name>
+	<description>Days enrollment to Uterus, Not Spec. Cancer</description>
+	<type>integer</type>
+	<unit>days</unit>
+	<logical_min>323</logical_min>
+	<logical_max>3758</logical_max>
+	<comment>Days from enrollment to first Uterus, Not Spec. Cancer</comment>
+</variable>
+
+<variable id="phv00110834.v1">
+	<name>UTERINESRC</name>
+	<description>Uterus, Not Spec. Cancer ascertainment source</description>
+	<type>encoded value</type>
+	<comment>Uterus, Not Spec. Cancer ascertainment source
+		During the core WHI study, only local adjudications were done for Uterus, Not Spec. Cancer. After the WHI study closeout, all adjudications are done centrally. </comment>
+	<value code="0">Local adjudication - form 122</value>
+	<value code="1">Central adjudication - form 130</value>
+</variable>
+
+<variable id="phv00110835.v1">
+	<name>CANCOTHER</name>
+	<description>Other/Unknown Cancer</description>
+	<type>encoded value</type>
+	<comment>Defined as an occurance of any cancer site not listed above. Other/Unknown Cancer is adjudicated for CT and OS participants.</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00110836.v1">
+	<name>CANCOTHERDY</name>
+	<description>Days enrollment to Other/Unknown Cancer</description>
+	<type>integer</type>
+	<unit>days</unit>
+	<logical_min>62</logical_min>
+	<logical_max>4301</logical_max>
+	<comment>Days from enrollment to first Other/Unknown Cancer</comment>
+</variable>
+
+<variable id="phv00110837.v1">
+	<name>CANCOTHERSRC</name>
+	<description>Other/Unknown Cancer ascertainment source</description>
+	<type>encoded value</type>
+	<comment>Other/Unknown Cancer ascertainment source
+		Other/Unknown Cancer is defined as an occurance of any cancer site not listed above. During the core WHI study, only local adjudications were done for Other/Unknown Cancer. After the WHI study closeout, all adjudications are done centrally. </comment>
+	<value code="0">Local adjudication - form 122</value>
+	<value code="1">Central adjudication - form 130</value>
+</variable>
+
+<variable id="phv00080146.v2">
+	<name>ANYFX</name>
+	<description>Any Adjudicated Fracture</description>
+	<type>encoded value</type>
+	<comment>Defined as the first fracture of Hip, upper leg, pelvis, knee, lower leg, ankle, foot(not toe), tailbone, spine or back, lower arm or wrist, hand (not finger), elbow, upper arm or shoulder and other. Some of these outcomes are only adjudicated for a subset of WHI participants.</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00080147.v2">
+	<name>ANYFXDY</name>
+	<description>Days enrollment to Any Adjudicated Fracture</description>
+	<type>integer</type>
+	<unit>days</unit>
+	<logical_min>4</logical_min>
+	<logical_max>4911</logical_max>
+	<comment>Days from enrollment to first Any Adjudicated Fracture</comment>
+</variable>
+
+<variable id="phv00110838.v1">
+	<name>ANYFXSRC</name>
+	<description>Any Adjudicated Fracture ascertainment source</description>
+	<type>encoded value</type>
+	<comment>Any Adjudicated Fracture ascertainment source
+		Any Adjudicated Fracture is defined as the first fracture of Hip, upper leg, pelvis, knee, lower leg, ankle, foot(not toe), tailbone, spine or back, lower arm or wrist, hand (not finger), elbow, upper arm or shoulder and other. The ascertainment processes vary for these outcomes. Refer to their usage notes. </comment>
+	<value code="0">Local adjudication - form 123</value>
+	<value code="1">Central adjudication - form 123</value>
+</variable>
+
+<variable id="phv00080124.v2">
+	<name>BKANKLE</name>
+	<description>Ankle Fracture</description>
+	<type>encoded value</type>
+	<comment>Ankle Fracture was adjudicated at all clinics for CT participants. It was only adjudicated at the bone density clinics for OS participants. It was not adjudicated after the WHI study closeout.  Ankle Fracture is not counted if pathologic.</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00080125.v2">
+	<name>BKANKLEDY</name>
+	<description>Days enrollment to Ankle Fracture</description>
+	<type>integer</type>
+	<unit>days</unit>
+	<logical_min>4</logical_min>
+	<logical_max>3160</logical_max>
+	<comment>Days from enrollment to first Ankle Fracture</comment>
+</variable>
+
+<variable id="phv00110839.v1">
+	<name>BKANKLESRC</name>
+	<description>Ankle Fracture ascertainment source</description>
+	<type>encoded value</type>
+	<comment>Ankle Fracture ascertainment source
+		Ankle Fracture was only adjudicated locally. </comment>
+	<value code="0">Local adjudication - form 123</value>
+</variable>
+
+<variable id="phv00110840.v1">
+	<name>BKCARPAL</name>
+	<description>Carpal bones in wrist</description>
+	<type>encoded value</type>
+	<comment>Carpal bones in wrist
+		Carpal Fracture was adjudicated at all clinics for CT participants. It was only adjudicated at the bone density clinics for OS participants. It was not adjudicated after the WHI study closeout.  Carpal Fracture is not counted if pathologic. </comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00110841.v1">
+	<name>BKCARPALDY</name>
+	<description>Days enrollment to Carpal Fracture</description>
+	<type>integer</type>
+	<unit>days</unit>
+	<logical_min>290</logical_min>
+	<logical_max>3401</logical_max>
+	<comment>Days from enrollment to first Carpal Fracture</comment>
+</variable>
+
+<variable id="phv00110842.v1">
+	<name>BKCARPALSRC</name>
+	<description>Carpal Fracture ascertainment source</description>
+	<type>encoded value</type>
+	<comment>Carpal Fracture ascertainment source
+		Carpal Fracture was only adjudicated locally. </comment>
+	<value code="0">Local adjudication - form 123</value>
+</variable>
+
+<variable id="phv00080138.v2">
+	<name>BKCLAVICLE</name>
+	<description>Clavical Fracture</description>
+	<type>encoded value</type>
+	<comment>Clavical Fracture was adjudicated at all clinics for CT participants. It was only adjudicated at the bone density clinics for OS participants. It was not adjudicated after the WHI study closeout.  Clavical Fracture is not counted if pathologic.</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00080139.v2">
+	<name>BKCLAVICLEDY</name>
+	<description>Days enrollment to Clavical Fracture</description>
+	<type>integer</type>
+	<unit>days</unit>
+	<logical_min>146</logical_min>
+	<logical_max>2971</logical_max>
+	<comment>Days from enrollment to first Clavical Fracture</comment>
+</variable>
+
+<variable id="phv00110843.v1">
+	<name>BKCLAVICLESRC</name>
+	<description>Clavical Fracture ascertainment source</description>
+	<type>encoded value</type>
+	<comment>Clavical Fracture ascertainment source
+		Clavical Fracture was only adjudicated locally. </comment>
+	<value code="0">Local adjudication - form 123</value>
+</variable>
+
+<variable id="phv00080108.v2">
+	<name>BKELBOWNOS</name>
+	<description>Elbow, not otherwise specified</description>
+	<type>encoded value</type>
+	<comment>Elbow, not otherwise specified
+		Elbow NOS Fracture was adjudicated at all clinics for CT participants. It was only adjudicated at the bone density clinics for OS participants. It was not adjudicated after the WHI study closeout.  Elbow NOS Fracture is not counted if pathologic. </comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00080109.v2">
+	<name>BKELBOWNOSDY</name>
+	<description>Days enrollment to Elbow NOS Fracture</description>
+	<type>integer</type>
+	<unit>days</unit>
+	<logical_min>1975</logical_min>
+	<logical_max>1975</logical_max>
+	<comment>Days from enrollment to first Elbow NOS Fracture</comment>
+</variable>
+
+<variable id="phv00110844.v1">
+	<name>BKELBOWNOSSRC</name>
+	<description>Elbow NOS Fracture ascertainment source</description>
+	<type>encoded value</type>
+	<comment>Elbow NOS Fracture ascertainment source
+		Elbow NOS Fracture was only adjudicated locally. </comment>
+	<value code="0">Local adjudication - form 123</value>
+</variable>
+
+<variable id="phv00080101.v2">
+	<name>BKHIP</name>
+	<description>Hip Fracture</description>
+	<type>encoded value</type>
+	<comment>Hip Fracture is adjudicated for CT and OS participants.</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00080102.v2">
+	<name>BKHIPDY</name>
+	<description>Days enrollment to Hip Fracture</description>
+	<type>integer</type>
+	<unit>days</unit>
+	<logical_min>56</logical_min>
+	<logical_max>4911</logical_max>
+	<comment>Days from enrollment to first Hip Fracture</comment>
+</variable>
+
+<variable id="phv00080103.v2">
+	<name>BKHIPSRC</name>
+	<description>Hip Fracture ascertainment source</description>
+	<type>encoded value</type>
+	<comment>Hip Fracture ascertainment source
+		Central adjudications were done for all Hip Fracture. If the central adjudication is not complete, local adjudication data is used. </comment>
+	<value code="0">Local adjudication - form 123</value>
+	<value code="1">Central adjudication - form 123</value>
+</variable>
+
+<variable id="phv00080104.v2">
+	<name>BKLELBOW</name>
+	<description>Lower End of Humerus Fracture</description>
+	<type>encoded value</type>
+	<comment>Lower End of Humerus Fracture was adjudicated at all clinics for CT participants. It was only adjudicated at the bone density clinics for OS participants. It was not adjudicated after the WHI study closeout.  Lower End of Humerus Fracture is not counted if pathologic.</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00080105.v2">
+	<name>BKLELBOWDY</name>
+	<description>Days enrollment to Lower End of Humerus Fracture</description>
+	<type>integer</type>
+	<unit>days</unit>
+	<logical_min>559</logical_min>
+	<logical_max>2919</logical_max>
+	<comment>Days from enrollment to first Lower End of Humerus Fracture</comment>
+</variable>
+
+<variable id="phv00110845.v1">
+	<name>BKLELBOWSRC</name>
+	<description>Lower End of Humerus Fracture ascertainment source</description>
+	<type>encoded value</type>
+	<comment>Lower End of Humerus Fracture ascertainment source
+		Lower End of Humerus Fracture was only adjudicated locally. </comment>
+	<value code="0">Local adjudication - form 123</value>
+</variable>
+
+<variable id="phv00080112.v2">
+	<name>BKHAND</name>
+	<description>Metacarpal Fracture</description>
+	<type>encoded value</type>
+	<comment>Metacarpal Fracture was adjudicated at all clinics for CT participants. It was only adjudicated at the bone density clinics for OS participants. It was not adjudicated after the WHI study closeout.  Metacarpal Fracture is not counted if pathologic.</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00080113.v2">
+	<name>BKHANDDY</name>
+	<description>Days enrollment to Metacarpal Fracture</description>
+	<type>integer</type>
+	<unit>days</unit>
+	<logical_min>395</logical_min>
+	<logical_max>3474</logical_max>
+	<comment>Days from enrollment to first Metacarpal Fracture</comment>
+</variable>
+
+<variable id="phv00110846.v1">
+	<name>BKHANDSRC</name>
+	<description>Metacarpal Fracture ascertainment source</description>
+	<type>encoded value</type>
+	<comment>Metacarpal Fracture ascertainment source
+		Metacarpal Fracture was only adjudicated locally. </comment>
+	<value code="0">Local adjudication - form 123</value>
+</variable>
+
+<variable id="phv00110847.v1">
+	<name>BKPATELLA</name>
+	<description>Patella Fracture</description>
+	<type>encoded value</type>
+	<comment>Patella Fracture was adjudicated at all clinics for CT participants. It was only adjudicated at the bone density clinics for OS participants. It was not adjudicated after the WHI study closeout.  Patella Fracture is not counted if pathologic.</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00110848.v1">
+	<name>BKPATELLADY</name>
+	<description>Days enrollment to Patella Fracture</description>
+	<type>integer</type>
+	<unit>days</unit>
+	<logical_min>212</logical_min>
+	<logical_max>3584</logical_max>
+	<comment>Days from enrollment to first Patella Fracture</comment>
+</variable>
+
+<variable id="phv00110849.v1">
+	<name>BKPATELLASRC</name>
+	<description>Patella Fracture ascertainment source</description>
+	<type>encoded value</type>
+	<comment>Patella Fracture ascertainment source
+		Patella Fracture was only adjudicated locally. </comment>
+	<value code="0">Local adjudication - form 123</value>
+</variable>
+
+<variable id="phv00080126.v2">
+	<name>BKPELVIS</name>
+	<description>Pelvis Fracture</description>
+	<type>encoded value</type>
+	<comment>Pelvis Fracture was adjudicated at all clinics for CT participants. It was only adjudicated at the bone density clinics for OS participants. It was not adjudicated after the WHI study closeout.  Pelvis Fracture is not counted if pathologic.</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00080127.v2">
+	<name>BKPELVISDY</name>
+	<description>Days enrollment to Pelvis Fracture</description>
+	<type>integer</type>
+	<unit>days</unit>
+	<logical_min>51</logical_min>
+	<logical_max>3218</logical_max>
+	<comment>Days from enrollment to first Pelvis Fracture</comment>
+</variable>
+
+<variable id="phv00110850.v1">
+	<name>BKPELVISSRC</name>
+	<description>Pelvis Fracture ascertainment source</description>
+	<type>encoded value</type>
+	<comment>Pelvis Fracture ascertainment source
+		Pelvis Fracture was only adjudicated locally. </comment>
+	<value code="0">Local adjudication - form 123</value>
+</variable>
+
+<variable id="phv00080118.v2">
+	<name>BKLARM</name>
+	<description>Radius or Ulna Fracture</description>
+	<type>encoded value</type>
+	<comment>Radius or Ulna Fracture was adjudicated at all clinics for CT participants. It was only adjudicated at the bone density clinics for OS participants. It was not adjudicated after the WHI study closeout.  Radius or Ulna Fracture is not counted if pathologic.</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00080119.v2">
+	<name>BKLARMDY</name>
+	<description>Days enrollment to Radius or Ulna Fracture</description>
+	<type>integer</type>
+	<unit>days</unit>
+	<logical_min>57</logical_min>
+	<logical_max>3576</logical_max>
+	<comment>Days from enrollment to first Radius or Ulna Fracture</comment>
+</variable>
+
+<variable id="phv00110851.v1">
+	<name>BKLARMSRC</name>
+	<description>Radius or Ulna Fracture ascertainment source</description>
+	<type>encoded value</type>
+	<comment>Radius or Ulna Fracture ascertainment source
+		Radius or Ulna Fracture was only adjudicated locally. </comment>
+	<value code="0">Local adjudication - form 123</value>
+</variable>
+
+<variable id="phv00080132.v2">
+	<name>BKCOCCYX</name>
+	<description>Sacrum or Coccyx Fracture</description>
+	<type>encoded value</type>
+	<comment>Sacrum or Coccyx Fracture was adjudicated at all clinics for CT participants. It was only adjudicated at the bone density clinics for OS participants. It was not adjudicated after the WHI study closeout.  Sacrum or Coccyx Fracture is not counted if pathologic.</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00080133.v2">
+	<name>BKCOCCYXDY</name>
+	<description>Days enrollment to Sacrum or Coccyx Fracture</description>
+	<type>integer</type>
+	<unit>days</unit>
+	<logical_min>225</logical_min>
+	<logical_max>2496</logical_max>
+	<comment>Days from enrollment to first Sacrum or Coccyx Fracture</comment>
+</variable>
+
+<variable id="phv00110852.v1">
+	<name>BKCOCCYXSRC</name>
+	<description>Sacrum or Coccyx Fracture ascertainment source</description>
+	<type>encoded value</type>
+	<comment>Sacrum or Coccyx Fracture ascertainment source
+		Sacrum or Coccyx Fracture was only adjudicated locally. </comment>
+	<value code="0">Local adjudication - form 123</value>
+</variable>
+
+<variable id="phv00080140.v2">
+	<name>BKSCAPULA</name>
+	<description>Scapula Fracture</description>
+	<type>encoded value</type>
+	<comment>Scapula Fracture was adjudicated at all clinics for CT participants. It was only adjudicated at the bone density clinics for OS participants. It was not adjudicated after the WHI study closeout.  Scapula Fracture is not counted if pathologic.</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00080141.v2">
+	<name>BKSCAPULADY</name>
+	<description>Days enrollment to Scapula Fracture</description>
+	<type>integer</type>
+	<unit>days</unit>
+	<logical_min>286</logical_min>
+	<logical_max>1976</logical_max>
+	<comment>Days from enrollment to first Scapula Fracture</comment>
+</variable>
+
+<variable id="phv00110853.v1">
+	<name>BKSCAPULASRC</name>
+	<description>Scapula Fracture ascertainment source</description>
+	<type>encoded value</type>
+	<comment>Scapula Fracture ascertainment source
+		Scapula Fracture was only adjudicated locally. </comment>
+	<value code="0">Local adjudication - form 123</value>
+</variable>
+
+<variable id="phv00110854.v1">
+	<name>BKUPPERLEG</name>
+	<description>Shaft of Femur Fracture</description>
+	<type>encoded value</type>
+	<comment>Shaft of Femur Fracture was adjudicated at all clinics for CT participants. It was only adjudicated at the bone density clinics for OS participants. It was not adjudicated after the WHI study closeout.  Shaft of Femur Fracture is not counted if pathologic.</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00110855.v1">
+	<name>BKUPPERLEGDY</name>
+	<description>Days enrollment to Shaft of Femur Fracture</description>
+	<type>integer</type>
+	<unit>days</unit>
+	<logical_min>196</logical_min>
+	<logical_max>1986</logical_max>
+	<comment>Days from enrollment to first Shaft of Femur Fracture</comment>
+</variable>
+
+<variable id="phv00110856.v1">
+	<name>BKUPPERLEGSRC</name>
+	<description>Shaft of Femur Fracture ascertainment source</description>
+	<type>encoded value</type>
+	<comment>Shaft of Femur Fracture ascertainment source
+		Shaft of Femur Fracture was only adjudicated locally. </comment>
+	<value code="0">Local adjudication - form 123</value>
+</variable>
+
+<variable id="phv00080136.v2">
+	<name>BKOHUMERUS</name>
+	<description>Fracture of humerus, shaft or unspecified part</description>
+	<type>encoded value</type>
+	<comment>Fracture of humerus, shaft or unspecified part
+		Shaft of Humerus Fracture was adjudicated at all clinics for CT participants. It was only adjudicated at the bone density clinics for OS participants. It was not adjudicated after the WHI study closeout.  Shaft of Humerus Fracture is not counted if pathologic. </comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00080137.v2">
+	<name>BKOHUMERUSDY</name>
+	<description>Days enrollment to Shaft of Humerus Fracture</description>
+	<type>integer</type>
+	<unit>days</unit>
+	<logical_min>1104</logical_min>
+	<logical_max>2713</logical_max>
+	<comment>Days from enrollment to first Shaft of Humerus Fracture</comment>
+</variable>
+
+<variable id="phv00110857.v1">
+	<name>BKOHUMERUSSRC</name>
+	<description>Shaft of Humerus Fracture ascertainment source</description>
+	<type>encoded value</type>
+	<comment>Shaft of Humerus Fracture ascertainment source
+		Shaft of Humerus Fracture was only adjudicated locally. </comment>
+	<value code="0">Local adjudication - form 123</value>
+</variable>
+
+<variable id="phv00080110.v2">
+	<name>BKFOOT</name>
+	<description>Tarsal or Metatarsal Fracture</description>
+	<type>encoded value</type>
+	<comment>Tarsal or Metatarsal Fracture was adjudicated at all clinics for CT participants. It was only adjudicated at the bone density clinics for OS participants. It was not adjudicated after the WHI study closeout.  Tarsal or Metatarsal Fracture is not counted if pathologic.</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00080111.v2">
+	<name>BKFOOTDY</name>
+	<description>Days enrollment to Tarsal or Metatarsal Fracture</description>
+	<type>integer</type>
+	<unit>days</unit>
+	<logical_min>48</logical_min>
+	<logical_max>3604</logical_max>
+	<comment>Days from enrollment to first Tarsal or Metatarsal Fracture</comment>
+</variable>
+
+<variable id="phv00110858.v1">
+	<name>BKFOOTSRC</name>
+	<description>Tarsal or Metatarsal Fracture ascertainment source</description>
+	<type>encoded value</type>
+	<comment>Tarsal or Metatarsal Fracture ascertainment source
+		Tarsal or Metatarsal Fracture was only adjudicated locally. </comment>
+	<value code="0">Local adjudication - form 123</value>
+</variable>
+
+<variable id="phv00110859.v1">
+	<name>BKTIBIAFIBULA</name>
+	<description>Tibia or Fibula Fracture</description>
+	<type>encoded value</type>
+	<comment>Tibia or Fibula Fracture was adjudicated at all clinics for CT participants. It was only adjudicated at the bone density clinics for OS participants. It was not adjudicated after the WHI study closeout.  Tibia or Fibula Fracture is not counted if pathologic.</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00110860.v1">
+	<name>BKTIBIAFIBULADY</name>
+	<description>Days enrollment to Tibia or Fibula Fracture</description>
+	<type>integer</type>
+	<unit>days</unit>
+	<logical_min>19</logical_min>
+	<logical_max>3234</logical_max>
+	<comment>Days from enrollment to first Tibia or Fibula Fracture</comment>
+</variable>
+
+<variable id="phv00110861.v1">
+	<name>BKTIBIAFIBULASRC</name>
+	<description>Tibia or Fibula Fracture ascertainment source</description>
+	<type>encoded value</type>
+	<comment>Tibia or Fibula Fracture ascertainment source
+		Tibia or Fibula Fracture was only adjudicated locally. </comment>
+	<value code="0">Local adjudication - form 123</value>
+</variable>
+
+<variable id="phv00080116.v2">
+	<name>BKTIBIAL</name>
+	<description>Tibial Plateau Fracture</description>
+	<type>encoded value</type>
+	<comment>Tibial Plateau Fracture was adjudicated at all clinics for CT participants. It was only adjudicated at the bone density clinics for OS participants. It was not adjudicated after the WHI study closeout.  Tibial Plateau Fracture is not counted if pathologic.</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00080117.v2">
+	<name>BKTIBIALDY</name>
+	<description>Days enrollment to Tibial Plateau Fracture</description>
+	<type>integer</type>
+	<unit>days</unit>
+	<logical_min>93</logical_min>
+	<logical_max>2293</logical_max>
+	<comment>Days from enrollment to first Tibial Plateau Fracture</comment>
+</variable>
+
+<variable id="phv00110862.v1">
+	<name>BKTIBIALSRC</name>
+	<description>Tibial Plateau Fracture ascertainment source</description>
+	<type>encoded value</type>
+	<comment>Tibial Plateau Fracture ascertainment source
+		Tibial Plateau Fracture was only adjudicated locally. </comment>
+	<value code="0">Local adjudication - form 123</value>
+</variable>
+
+<variable id="phv00080134.v2">
+	<name>BKUHUMERUS</name>
+	<description>Upper End of Humerus Fracture</description>
+	<type>encoded value</type>
+	<comment>Upper End of Humerus Fracture was adjudicated at all clinics for CT participants. It was only adjudicated at the bone density clinics for OS participants. It was not adjudicated after the WHI study closeout.  Upper End of Humerus Fracture is not counted if pathologic.</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00080135.v2">
+	<name>BKUHUMERUSDY</name>
+	<description>Days enrollment to Upper End of Humerus Fracture</description>
+	<type>integer</type>
+	<unit>days</unit>
+	<logical_min>50</logical_min>
+	<logical_max>3581</logical_max>
+	<comment>Days from enrollment to first Upper End of Humerus Fracture</comment>
+</variable>
+
+<variable id="phv00110863.v1">
+	<name>BKUHUMERUSSRC</name>
+	<description>Upper End of Humerus Fracture ascertainment source</description>
+	<type>encoded value</type>
+	<comment>Upper End of Humerus Fracture ascertainment source
+		Upper End of Humerus Fracture was only adjudicated locally. </comment>
+	<value code="0">Local adjudication - form 123</value>
+</variable>
+
+<variable id="phv00080106.v2">
+	<name>BKUELBOW</name>
+	<description>Upper Radius/Ulna Fracture</description>
+	<type>encoded value</type>
+	<comment>Upper Radius/Ulna Fracture was adjudicated at all clinics for CT participants. It was only adjudicated at the bone density clinics for OS participants. It was not adjudicated after the WHI study closeout.  Upper Radius/Ulna Fracture is not counted if pathologic.</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00080107.v2">
+	<name>BKUELBOWDY</name>
+	<description>Days enrollment to Upper Radius/Ulna Fracture</description>
+	<type>integer</type>
+	<unit>days</unit>
+	<logical_min>51</logical_min>
+	<logical_max>3179</logical_max>
+	<comment>Days from enrollment to first Upper Radius/Ulna Fracture</comment>
+</variable>
+
+<variable id="phv00110864.v1">
+	<name>BKUELBOWSRC</name>
+	<description>Upper Radius/Ulna Fracture ascertainment source</description>
+	<type>encoded value</type>
+	<comment>Upper Radius/Ulna Fracture ascertainment source
+		Upper Radius/Ulna Fracture was only adjudicated locally. </comment>
+	<value code="0">Local adjudication - form 123</value>
+</variable>
+
+<variable id="phv00110865.v1">
+	<name>BKSPINE</name>
+	<description>Vertebral Fracture</description>
+	<type>encoded value</type>
+	<comment>Defined as the first occurence of Lumbar Spine Fracture or Thoracic Spine Fracture.  Vertebral Fracture was adjudicated at all clinics for CT participants. It was only adjudicated at the bone density clinics for OS participants. It was not adjudicated after the WHI study closeout.  Does not include cervical fractures.</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00110866.v1">
+	<name>BKSPINEDY</name>
+	<description>Days enrollment to Vertebral Fracture</description>
+	<type>integer</type>
+	<unit>days</unit>
+	<logical_min>460</logical_min>
+	<logical_max>2851</logical_max>
+	<comment>Days from enrollment to first Vertebral Fracture</comment>
+</variable>
+
+<variable id="phv00110867.v1">
+	<name>BKSPINESRC</name>
+	<description>Vertebral Fracture ascertainment source</description>
+	<type>encoded value</type>
+	<comment>Vertebral Fracture ascertainment source
+		Vertebral Fracture is defined as the first occurence of Lumbar Spine Fracture or Thoracic Spine Fracture. Vertebral Fracture was only adjudicated locally. </comment>
+	<value code="0">Local adjudication - form 123</value>
+</variable>
+
+<variable id="phv00080156.v2">
+	<name>DEATH</name>
+	<description>Death</description>
+	<type>encoded value</type>
+	<comment>Death is adjudicated for CT and OS participants.</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00080158.v2">
+	<name>DEATHCAUSE</name>
+	<description>Cause of death</description>
+	<type>encoded value</type>
+	<comment>&#39;Not adjudicated&#39; are reported deaths that have not been adjudicated either because the adjudication is in proceses or WHI was unable to get sufficient documentation to perform an adjudication.</comment>
+	<value code="1">Breast Cancer</value>
+	<value code="2">Ovarian Cancer</value>
+	<value code="3">Endometrial Cancer</value>
+	<value code="4">Colon Cancer</value>
+	<value code="5">Rectosigmoid Cancer</value>
+	<value code="6">Rectum Cancer</value>
+	<value code="7">Uterine Cancer</value>
+	<value code="8">Other Cancer</value>
+	<value code="9">Unknown Cancer Site</value>
+	<value code="11">Definite CHD</value>
+	<value code="12">Cerebrovascular</value>
+	<value code="13">Pulmonary Embolism</value>
+	<value code="14">Possible CHD</value>
+	<value code="18">Other Cardiovascular</value>
+	<value code="19">Unknown Cardiovascular</value>
+	<value code="21">Homicide</value>
+	<value code="22">Accident</value>
+	<value code="23">Suicide</value>
+	<value code="28">Other Injury</value>
+	<value code="88">Other Known Cause</value>
+	<value code="99">Unknown Cause</value>
+	<value code="100">Not adjudicated</value>
+</variable>
+
+<variable id="phv00080157.v2">
+	<name>DEATHDY</name>
+	<description>Days enrollment to Death</description>
+	<type>integer</type>
+	<unit>days</unit>
+	<logical_min>1</logical_min>
+	<logical_max>5397</logical_max>
+	<comment>Days from enrollment to first Death</comment>
+</variable>
+
+<variable id="phv00110868.v1">
+	<name>DEATHSRC</name>
+	<description>Death ascertainment source</description>
+	<type>encoded value</type>
+	<comment>Death ascertainment source
+		During the core WHI study, central adjudications of Death were only done in the CT.  Local adjudication data was used for other participants. After the WHI study closeout, all adjudications are done centrally. </comment>
+	<value code="0">Local adjudication - form 124</value>
+	<value code="1">Central adjudication - form 124</value>
+	<value code="7">Initial report of death</value>
+</variable>
+
+<variable id="phv00080154.v2">
+	<name>HYST</name>
+	<description>Hysterectomy</description>
+	<type>encoded value</type>
+	<comment>Hysterectomy is adjudicated for HT participants only.</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00080155.v2">
+	<name>HYSTDY</name>
+	<description>Days enrollment to Hysterectomy</description>
+	<type>integer</type>
+	<unit>days</unit>
+	<logical_min>31</logical_min>
+	<logical_max>4856</logical_max>
+	<comment>Days from enrollment to first Hysterectomy</comment>
+</variable>
+
+<variable id="phv00110869.v1">
+	<name>HYSTSRC</name>
+	<description>Hysterectomy ascertainment source</description>
+	<type>encoded value</type>
+	<comment>Hysterectomy ascertainment source
+		During the core WHI study, only local adjudications were done for Hysterectomy. After the WHI study closeout, all adjudications are done centrally. </comment>
+	<value code="0">Local adjudication - form 131</value>
+	<value code="1">Central adjudication - form 131</value>
+</variable>
+
+</data_table>

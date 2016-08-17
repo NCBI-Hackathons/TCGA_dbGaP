@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./datadict_v2.xsl"?>
+<data_table id="pht000655.v1" study_id="phs000140.v1" participant_set="1" date_created="Wed Nov 24 11:08:18 2010">
+
+<variable id="phv00066575.v1">
+	<name>SUBJID</name>
+	<description>Subject ID</description>
+	<type>string or integer</type>
+</variable>
+
+<variable id="phv00066576.v1">
+	<name>SAMPID</name>
+	<description>Sample ID</description>
+	<type>string or integer</type>
+</variable>
+
+<variable id="phv00076461.v1">
+	<name>SAMP_SOURCE</name>
+	<description>Location of sample originated</description>
+	<type>string or integer</type>
+	<value code="WFU">Wake Forest University</value>
+</variable>
+
+<variable id="phv00076462.v1">
+	<name>SOURCE_SAMPID</name>
+	<description>Sample ID at source location</description>
+	<type>string or integer</type>
+</variable>
+
+<variable id="phv00076463.v1">
+	<name>Use in analysis</name>
+	<description>Was sample used in analysis?</description>
+	<type>string or integer</type>
+	<value code="no">Data removed from analysis</value>
+	<value code="yes">Data used in analysis</value>
+</variable>
+
+<variable id="phv00076464.v1">
+	<name>Reason</name>
+	<description>Why sample was not included in analysis?</description>
+	<type>integer</type>
+	<value code="1">T2DM only</value>
+	<value code="2">ESRD only</value>
+	<value code="3">Low African admixture</value>
+	<value code="4">Duplicate</value>
+</variable>
+
+</data_table>

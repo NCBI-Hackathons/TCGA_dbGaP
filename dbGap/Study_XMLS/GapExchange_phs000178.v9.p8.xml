@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GaPExchange xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="./dbGaPEx2.1.5.xsd">
+
+<MetaVariables>
+	<Submitter/>
+	<Method/>
+</MetaVariables>
+<MetaLinks/>
+
+<Projects>
+	<Project/>
+</Projects>
+
+<Studies>
+
+<Study source="dbGaP" accession="phs000178.v9.p8" parentStudy="phs000178.v9.p8" createDate="2015-01-07" modDate="2015-02-04">
+
+<Configuration>
+	<StudyNameEntrez>The Cancer Genome Atlas (TCGA)</StudyNameEntrez>
+	<StudyNameReportPage>National Institutes of Health The Cancer Genome Atlas (TCGA)</StudyNameReportPage>
+	<StudyTypes>
+		<StudyType>Tumor vs. Matched-Normal</StudyType>
+	</StudyTypes>
+	<Description><![CDATA[
+<p>The Cancer Genome Atlas (TCGA) is a comprehensive and coordinated effort to accelerate our understanding of the molecular basis of cancer through the application of genome analysis technologies, including large-scale genome sequencing. TCGA is a joint effort of the National Cancer Institute (NCI) and the National Human Genome Research Institute (NHGRI), which are both part of the National Institutes of Health, U.S. Department of Health and Human Services.</p> <p>TCGA projects are organized by cancer type or subtype. Click <a href="http://cancergenome.nih.gov/cancersselected" target="_blank">here</a> for a current list of cancer types selected for study in TCGA.</p> <p>Data from TCGA (e.g., gene expression, copy number variation and clinical information), are available via the <a href="https://tcga-data.nci.nih.gov/tcga/" target="_blank">TCGA Data Portal</a>, EXCEPT for the genomic sequence data (.bam files), which are hosted at the <a href="https://cghub.ucsc.edu/" target="_blank">Cancer Genomics Hub (CGHub)</a>.</p> <p>Data from TCGA projects are organized into two tiers: <b>Open Access and Controlled Access</b>. <ul> <li>Open Access data tier contains data that cannot be attributed to an individual research participant. The Open Access data tier does not require user certification. Data in Open Access tier are available in the TCGA Data Portal.</li> <li>Controlled Access data tier contains individual-level genotype data that are unique to an individual. Access to data in the Controlled Access data tier requires user certification through <a href="https://dbgap.ncbi.nlm.nih.gov/aa/wga.cgi?login=&page=login" target="_blank">dbGaP Authorized Access</a>.</li> <li>Controlled Access data types consist of the following: <ul> <li>Individual germline variant data (SNP .cel files)</li> <li>Primary sequence data (.bam files), which are available at CGHub</li> <li>Clinical free text fields</li> <li>Exon Array files (for Glioblastoma and Ovarian projects only)</li> </ul> </li> </ul> </p> <p><b>NOTE: TCGA strives to release most data in the open access tier. Individual genotype or sequence files are prominent exceptions. Commonly requested files such as descriptions of somatic mutations or clinical data are open access.</b></p> <p>Please go to this page: <a href="https://tcga-data.nci.nih.gov/docs/publications/" target="_blank">https://tcga-data.nci.nih.gov/docs/publications/</a> to access all data associated with TCGA tumor specific publications.</p> <p><b>The TCGA study is utilized in the following dbGaP substudies.</b> To view genotypes and other molecular data collected in these substudies, please click on the following substudies below or in the "Substudies" box located on the right hand side of this top-level study page phs000178 TCGA study. <ul> <li><a href="./study.cgi?study_id=phs000854">phs000854</a> Genome-wide Analysis of Noncoding Regulatory Mutations in Cancer</li> </ul> </p>]]>
+	</Description>
+	<StudyInEx><![CDATA[
+<p>TCGA utilizes a strict set of criteria for inclusion into the study due to the rigorous and comprehensive nature of the work being performed. Tumor samples and matched source of germline DNA are curated and processed by the <a href="http://cancergenome.nih.gov/abouttcga/overview/howitworks/bcr" target="_blank">Biospecimen Core Resource</a>, a centralized site that reviews sample data and processes all samples to ensure consistent pathology assessment and generation of molecular analytes (DNA and RNA).</p> <p>TCGA is focusing on primary untreated tumors that were snap frozen upon collection. All tumors must have a matched normal sample from the same patient. In many cases, the matched normal is a sample of the patient&#39;s blood.</p> <p>Once at the BCR, all samples are subjected to a quality control protocol before they are accepted for full analysis into the TCGA pipeline. Each sample is reviewed by a pathologist to confirm the diagnosis and that the sample meets inclusion criteria. Specifically, TCGA requires that samples contain at least 60% tumor nuclei and have less than 20% necrotic tissue. Once the sample passes the pathology review, nucleic acids are isolated and genotyping is performed so that each tumor sample is properly associated with the correct normal tissue. An important goal in establishing this central resource is to ensure that molecular analytes (i.e. DNA and RNA) extracted from tissue samples are of consistent and high quality. Next, these analytes, undergo a molecular quality control process and then are distributed to TCGA <a href="http://cancergenome.nih.gov/abouttcga/overview/howitworks/characterizationcenters" target="_blank">Cancer Genome Characterization Centers</a> and <a href="http://cancergenome.nih.gov/abouttcga/overview/howitworks/sequencingcenters" target="_blank">Genome Sequencing Centers</a> for genomic analysis.</p> <p>All samples in TCGA have been collected and utilized following strict <a href="http://cancergenome.nih.gov/abouttcga/policies/policiesguidelines" target="_blank">policies and guidelines</a> for the protection of human subjects, informed consent and IRB review of protocols.</p>]]>
+	</StudyInEx>
+	<StudyProjects>
+		<Project/>
+	</StudyProjects>
+	<Publications>
+		<Publication>
+			<Pubmed pmid="18772890"/>
+		</Publication>
+		<Publication>
+			<Pubmed pmid="17348159"/>
+		</Publication>
+		<Publication>
+			<Pubmed pmid="21720365"/>
+		</Publication>
+	</Publications>
+	<Diseases>
+		<Disease vocab_source="MESH" vocab_term="Neoplasms"/>
+		<Disease vocab_source="MESH" vocab_term="Adenocarcinoma"/>
+		<Disease vocab_source="MESH" vocab_term="Brain Neoplasms"/>
+		<Disease vocab_source="MESH" vocab_term="Carcinoma, Endometrioid"/>
+		<Disease vocab_source="MESH" vocab_term="Carcinoma, Hepatocellular"/>
+		<Disease vocab_source="MESH" vocab_term="Carcinoma, Squamous Cell"/>
+		<Disease vocab_source="MESH" vocab_term="Carcinoma, Thyroid"/>
+		<Disease vocab_source="MESH" vocab_term="Carcinoma, Transitional Cell"/>
+		<Disease vocab_source="MESH" vocab_term="Carcinoma, squamous cell of head and neck"/>
+		<Disease vocab_source="MESH" vocab_term="Chronic Lymphocytic Leukemia"/>
+		<Disease vocab_source="MESH" vocab_term="Clear Cell Renal Cell Carcinoma"/>
+		<Disease vocab_source="MESH" vocab_term="Colonic Neoplasms"/>
+		<Disease vocab_source="MESH" vocab_term="Cystadenocarcinoma, Serous"/>
+		<Disease vocab_source="MESH" vocab_term="Esophageal Neoplasms"/>
+		<Disease vocab_source="MESH" vocab_term="Glioblastoma"/>
+		<Disease vocab_source="MESH" vocab_term="Glioma"/>
+		<Disease vocab_source="MESH" vocab_term="Invasive Ductal Carcinoma, Breast"/>
+		<Disease vocab_source="MESH" vocab_term="Leukemia, Myeloid, Acute"/>
+		<Disease vocab_source="MESH" vocab_term="Lung Neoplasms"/>
+		<Disease vocab_source="MESH" vocab_term="Adenocarcinoma of lung"/>
+		<Disease vocab_source="MESH" vocab_term="Lymphoma, Large B-Cell, Diffuse"/>
+		<Disease vocab_source="MESH" vocab_term="Lymphoma, Non-Hodgkin"/>
+		<Disease vocab_source="MESH" vocab_term="Melanoma"/>
+		<Disease vocab_source="MESH" vocab_term="Pancreatic Neoplasms"/>
+		<Disease vocab_source="MESH" vocab_term="Papillary Renal Cell Carcinoma"/>
+		<Disease vocab_source="MESH" vocab_term="Prostatic Neoplasms"/>
+		<Disease vocab_source="MESH" vocab_term="Rectal Neoplasms"/>
+		<Disease vocab_source="MESH" vocab_term="Sarcoma"/>
+		<Disease vocab_source="MESH" vocab_term="Skin Neoplasms"/>
+		<Disease vocab_source="MESH" vocab_term="Squamous Cell Carcinoma"/>
+		<Disease vocab_source="MESH" vocab_term="Stomach Neoplasms"/>
+		<Disease vocab_source="MESH" vocab_term="Urinary Bladder Neoplasms"/>
+		<Disease vocab_source="MESH" vocab_term="Uterine Cervical Neoplasms"/>
+	</Diseases>
+	<DisplayPublicSummary>yes</DisplayPublicSummary>
+	<StudyURLs>
+		<Url name="The Cancer Genome Atlas" url="http://cancergenome.nih.gov"/>
+	</StudyURLs>
+	<StudyHistory><![CDATA[
+<p>For an updated history of the program, please see: <a href="http://cancergenome.nih.gov/abouttcga/overview/history" target="blank_">http://cancergenome.nih.gov/abouttcga/overview/history</a>.</p>]]>
+	</StudyHistory>
+	<ConsentGroups>
+		<ConsentGroup groupNum="1" shortName="GRU" longName="General Research Use"/>
+	</ConsentGroups>
+</Configuration>
+
+
+
+</Study>
+
+</Studies>
+
+</GaPExchange>

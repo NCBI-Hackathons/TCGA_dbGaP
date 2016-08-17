@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./datadict_v2.xsl"?>
+<data_table id="pht000793.v1" study_id="phs000181.v1" participant_set="1" date_created="Fri Dec 11 14:13:09 2009">
+
+<variable id="phv00073487.v1">
+	<name>subjid</name>
+	<description>Sample identification number (family id + idno)</description>
+	<type>continuous integer</type>
+</variable>
+
+<variable id="phv00073488.v1">
+	<name>age</name>
+	<description>Participant&#39;s age</description>
+	<type>continuous integer</type>
+	<unit>Years</unit>
+</variable>
+
+<variable id="phv00073489.v1">
+	<name>casestatus</name>
+	<description>DSM-IV Alcohol Dependence (AD) 1=yes, 0=no</description>
+	<type>enumerated integer</type>
+	<comment><![CDATA[Definition of DSM-IV Alcohol Dependence requires the presence of 3 dependence symptoms and the &#39;clustering&#39; of at least 3 symptoms within one year - see also variable &#39;<a href="javascript:getPage(this, &#39;variable.cgi&#39;, 73497);return true;" onclick="javascript:getPage(this, &#39;variable.cgi&#39;, 73497);return true;" oncontextmenu="javascript:getPage(this, &#39;variable.cgi&#39;, 73497);return true;">cluster</a>&#39;.]]></comment>
+	<value code="0">absent</value>
+	<value code="1">present</value>
+	<value code=".">missing</value>
+</variable>
+
+<variable id="phv00073490.v1">
+	<name>tolalc</name>
+	<description>DSM-IV Alcohol Dependence symptom  - tolerance</description>
+	<type>enumerated integer</type>
+	<value code="0">absent</value>
+	<value code="1">present</value>
+	<value code=".">missing</value>
+</variable>
+
+<variable id="phv00073491.v1">
+	<name>wdalc</name>
+	<description>DSM-IV Alcohol Dependence symptom  - withdrawal</description>
+	<type>enumerated integer</type>
+	<value code="0">absent</value>
+	<value code="1">present</value>
+	<value code=".">missing</value>
+</variable>
+
+<variable id="phv00073492.v1">
+	<name>intenalc</name>
+	<description>DSM-IV Alcohol Dependence symptom  -  used more alcohol/longer than intended</description>
+	<type>enumerated integer</type>
+	<value code="0">absent</value>
+	<value code="1">present</value>
+	<value code=".">missing</value>
+</variable>
+
+<variable id="phv00073493.v1">
+	<name>timealc</name>
+	<description>DSM-IV Alcohol Dependence symptom  - great deal time spent drinking or recovering from effects of alcohol</description>
+	<type>enumerated integer</type>
+	<value code="0">absent</value>
+	<value code="1">present</value>
+	<value code=".">missing</value>
+</variable>
+
+<variable id="phv00073494.v1">
+	<name>quitalc</name>
+	<description>DSM-IV Alcohol Dependence symptom  - persistent desire to quit drinking</description>
+	<type>enumerated integer</type>
+	<value code="0">absent</value>
+	<value code="1">present</value>
+	<value code=".">missing</value>
+</variable>
+
+<variable id="phv00073495.v1">
+	<name>actalc</name>
+	<description>DSM-IV Alcohol Dependence symptom  - dropped important activities while drinking</description>
+	<type>enumerated integer</type>
+	<value code="0">absent</value>
+	<value code="1">present</value>
+	<value code=".">missing</value>
+</variable>
+
+<variable id="phv00073496.v1">
+	<name>contalc</name>
+	<description>DSM-IV Alcohol Dependence symptom  - continued drinking despite known consequences</description>
+	<type>enumerated integer</type>
+	<value code="0">absent</value>
+	<value code="1">present</value>
+	<value code=".">missing</value>
+</variable>
+
+<variable id="phv00073497.v1">
+	<name>cluster</name>
+	<description>DSM-IV Alcohol Dependence - clustering 3+ symptoms in 1 year</description>
+	<type>enumerated integer</type>
+	<value code="0">absent</value>
+	<value code="1">present</value>
+	<value code=".">missing</value>
+</variable>
+
+<variable id="phv00073498.v1">
+	<name>alcfacscore</name>
+	<description>Alcohol consumption factor score</description>
+	<type>continuous decimal</type>
+	<value code=".">missing</value>
+</variable>
+
+<variable id="phv00073499.v1">
+	<name>maxdrink</name>
+	<description>Largest amount of alcohol consumed in 24 hours; alcohol factor score item</description>
+	<type>continuous decimal</type>
+	<unit>Standard drinks</unit>
+	<value code="98">&gt;=100 drinks</value>
+	<value code=".">missing</value>
+</variable>
+
+<variable id="phv00073500.v1">
+	<name>frqdrkmax</name>
+	<description>Frequency of 5+ drinks / day - during maximum drinking period; alcohol factor score item</description>
+	<type>enumerated text</type>
+	<unit>Standard drinks</unit>
+	<value code=".">Don&#39;t know/missing</value>
+	<value code="A">Every day</value>
+	<value code="B">5-6 days per week</value>
+	<value code="C">3-4 days per week</value>
+	<value code="F">2 days per week</value>
+	<value code="G">1 day per week</value>
+	<value code="H">2-3 days per month</value>
+	<value code="I">1 day per month</value>
+	<value code="J">3-11 days per year</value>
+	<value code="K">Less often</value>
+	<value code="L">Never</value>
+</variable>
+
+<variable id="phv00073501.v1">
+	<name>frqintoxmax</name>
+	<description>Frequency of intoxication - during maximum drinking period; alcohol factor score item</description>
+	<type>enumerated text</type>
+	<unit>Standard drinks</unit>
+	<value code=".">Don&#39;t know/missing</value>
+	<value code="A">Every day</value>
+	<value code="B">5-6 days per week</value>
+	<value code="C">3-4 days per week</value>
+	<value code="F">2 days per week</value>
+	<value code="G">1 day per week</value>
+	<value code="H">2-3 days per month</value>
+	<value code="I">1 day per month</value>
+	<value code="J">3-11 days per year</value>
+	<value code="K">Less often</value>
+	<value code="L">Never</value>
+</variable>
+
+<variable id="phv00073502.v1">
+	<name>frqdrkalc</name>
+	<description>Frequency of any alcoholic drink - during maximum drinking period</description>
+	<type>enumerated text</type>
+	<value code=".">Don&#39;t know/missing</value>
+	<value code="A">Every day</value>
+	<value code="B">5-6 days per week</value>
+	<value code="C">3-4 days per week</value>
+	<value code="F">2 days per week</value>
+	<value code="G">1 day per week</value>
+	<value code="H">2-3 days per month</value>
+	<value code="I">1 day per month</value>
+	<value code="J">3-11 days per year</value>
+	<value code="K">Less often</value>
+	<value code="L">Never</value>
+</variable>
+
+<variable id="phv00073503.v1">
+	<name>qtydrkalc</name>
+	<description>Amount of alcohol in a typical day - during maximum drinking period</description>
+	<type>enumerated text</type>
+	<unit>Standard drinks</unit>
+	<value code=".">Don&#39;t know</value>
+	<value code="N">1-2 drinks</value>
+	<value code="O">3-4 drinks</value>
+	<value code="P">5-6 drinks</value>
+	<value code="Q">7-8 drinks</value>
+	<value code="S">9-11 drinks</value>
+	<value code="T">12-15 drinks</value>
+	<value code="U">16-18 drinks</value>
+	<value code="W">19-24 drinks</value>
+	<value code="X">25-30 drinks</value>
+	<value code="Z">31 or more drinks</value>
+</variable>
+
+<variable id="phv00073504.v1">
+	<name>wkalcmx</name>
+	<description>Amount of alcohol in a typical week - during maximum drinking period; alcohol factor score item</description>
+	<type>continuous decimal</type>
+	<unit>Standard drinks</unit>
+</variable>
+
+<variable id="phv00073505.v1">
+	<name>nicdep4</name>
+	<description>DSM IV - Nicotine Dependence</description>
+	<type>enumerated integer</type>
+	<comment><![CDATA[See Support Document: Nicotine Addiction Genetics <a href="javascript:getPage(this, &#39;document.cgi&#39;, 1551);return true;" onclick="javascript:getPage(this, &#39;document.cgi&#39;, 1551);return true;" oncontextmenu="javascript:getPage(this, &#39;document.cgi&#39;, 1551);return true;">(phd001551</a>, page F11) for related interview questions.]]></comment>
+	<value code="0">Absent</value>
+	<value code="1">Present</value>
+	<value code=".">Missing</value>
+</variable>
+
+<variable id="phv00073506.v1">
+	<name>aspddx4</name>
+	<description>DSM IV- Anti-Social Personality Disorder</description>
+	<type>enumerated integer</type>
+	<comment><![CDATA[See Support Document: Nicotine Addiction Genetics <a href="javascript:getPage(this, &#39;document.cgi&#39;, 1551);return true;" onclick="javascript:getPage(this, &#39;document.cgi&#39;, 1551);return true;" oncontextmenu="javascript:getPage(this, &#39;document.cgi&#39;, 1551);return true;">(phd001551</a>, page N111) for related interview questions.]]></comment>
+	<value code="0">Absent</value>
+	<value code="1">Present</value>
+	<value code=".">Missing</value>
+</variable>
+
+<variable id="phv00073507.v1">
+	<name>depdx</name>
+	<description>DSM IV- Depression</description>
+	<type>enumerated integer</type>
+	<comment><![CDATA[See Support Document: Nicotine Addiction Genetics <a href="javascript:getPage(this, &#39;document.cgi&#39;, 1551);return true;" onclick="javascript:getPage(this, &#39;document.cgi&#39;, 1551);return true;" oncontextmenu="javascript:getPage(this, &#39;document.cgi&#39;, 1551);return true;">(phd001551</a>, page J76) for related interview questions.]]></comment>
+	<value code="0">Absent</value>
+	<value code="1">Present</value>
+	<value code=".">Missing</value>
+</variable>
+
+<variable id="phv00076240.v1">
+	<name>maxdrink_12month</name>
+	<description>Largest amount of alcohol in 24 hours - past 12 months</description>
+	<type>continuous decimal</type>
+	<unit>Standard drinks</unit>
+	<value code=".">missing</value>
+</variable>
+
+<variable id="phv00076241.v1">
+	<name>frqdrkmax_12month</name>
+	<description>Frequency of 5+ drinks / day - past 12 months</description>
+	<type>enumerated text</type>
+	<value code=".">Don&#39;t know/missing</value>
+	<value code="A">Every day</value>
+	<value code="B">5-6 days per week</value>
+	<value code="C">3-4 days per week</value>
+	<value code="F">2 days per week</value>
+	<value code="G">1 day per week</value>
+	<value code="H">2-3 days per month</value>
+	<value code="I">1 day per month</value>
+	<value code="J">3-11 days per year</value>
+	<value code="K">Less often</value>
+	<value code="L">Never</value>
+</variable>
+
+<variable id="phv00076242.v1">
+	<name>frqintoxmax_12month</name>
+	<description>Frequency of intoxication - past 12 months</description>
+	<type>enumerated text</type>
+	<value code=".">Don&#39;t know/missing</value>
+	<value code="A">Every day</value>
+	<value code="B">5-6 days per week</value>
+	<value code="C">3-4 days per week</value>
+	<value code="F">2 days per week</value>
+	<value code="G">1 day per week</value>
+	<value code="H">2-3 days per month</value>
+	<value code="I">1 day per month</value>
+	<value code="J">3-11 days per year</value>
+	<value code="K">Less often</value>
+	<value code="L">Never</value>
+</variable>
+
+<variable id="phv00076243.v1">
+	<name>frqdrkalc_12month</name>
+	<description>Frequency of any alcoholic drink - past 12 months</description>
+	<type>enumerated text</type>
+	<value code=".">Don&#39;t know/missing</value>
+	<value code="A">Every day</value>
+	<value code="B">5-6 days per week</value>
+	<value code="C">3-4 days per week</value>
+	<value code="F">2 days per week</value>
+	<value code="G">1 day per week</value>
+	<value code="H">2-3 days per month</value>
+	<value code="I">1 day per month</value>
+	<value code="J">3-11 days per year</value>
+	<value code="K">Less often</value>
+	<value code="L">Never</value>
+</variable>
+
+<variable id="phv00076244.v1">
+	<name>qtydrkalc_12month</name>
+	<description>Amount of alcohol during typical day - past 12 months</description>
+	<type>enumerated text</type>
+	<unit>Standard drinks</unit>
+	<value code=".">Don&#39;t know</value>
+	<value code="N">1-2 drinks</value>
+	<value code="O">3-4 drinks</value>
+	<value code="P">5-6 drinks</value>
+	<value code="Q">7-8 drinks</value>
+	<value code="S">9-11 drinks</value>
+	<value code="T">12-15 drinks</value>
+	<value code="U">16-18 drinks</value>
+	<value code="W">19-24 drinks</value>
+	<value code="X">25-30 drinks</value>
+	<value code="Z">31 or more drinks</value>
+</variable>
+
+</data_table>

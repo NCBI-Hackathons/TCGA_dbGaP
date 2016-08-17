@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./datadict_v2.xsl"?>
+<data_table id="pht001095.v1" study_id="phs000219.v1" participant_set="1" date_created="Tue Jan 19 13:07:30 2010">
+
+<variable id="phv00082202.v1">
+	<name>SUBJID</name>
+	<description>Subject&#39;s ID</description>
+	<type>String</type>
+</variable>
+
+<variable id="phv00082203.v1">
+	<name>CASE_CONTROL</name>
+	<description>Subject type</description>
+	<type>Encoded value</type>
+	<value code="ADP">AD Participant</value>
+	<value code="CASE">Case</value>
+	<value code="CCCS">Control with Change in Cognitive Status</value>
+	<value code="CNTL">Control</value>
+	<value code="FAM">Family member</value>
+	<value code="UASB">Unaffected Sibling</value>
+</variable>
+
+<variable id="phv00082204.v1">
+	<name>INV</name>
+	<description>Investigator&#39;s ID</description>
+	<type>String</type>
+</variable>
+
+<variable id="phv00082205.v1">
+	<name>INVSITE</name>
+	<description>Investigator site ID</description>
+	<type>String</type>
+</variable>
+
+<variable id="phv00082206.v1">
+	<name>VISIT</name>
+	<description>Visit name</description>
+	<type>String</type>
+</variable>
+
+<variable id="phv00082207.v1">
+	<name>VISIT_DATE</name>
+	<description>Visit date</description>
+	<type>Date</type>
+	<comment>Truncated to YYYY</comment>
+</variable>
+
+<variable id="phv00082208.v1">
+	<name>EXMDT</name>
+	<description>Examination date</description>
+	<type>Date</type>
+	<comment>Truncated to YYYY</comment>
+</variable>
+
+<variable id="phv00082209.v1">
+	<name>INVDT</name>
+	<description>Investigator signature date</description>
+	<type>Date</type>
+	<comment>Truncated to YYYY</comment>
+</variable>
+
+<variable id="phv00082210.v1">
+	<name>INVCODE</name>
+	<description>Unique code for Doctor&#39;s name</description>
+	<type>Integer</type>
+	<comment>Doctor&#39;s name not provided</comment>
+</variable>
+
+<variable id="phv00082211.v1">
+	<name>OTHTX</name>
+	<description>Other specify</description>
+	<type>String</type>
+</variable>
+
+<variable id="phv00082212.v1">
+	<name>ADPROB</name>
+	<description>Probable AD</description>
+	<type>Encoded Value</type>
+	<value code="N">No</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00082213.v1">
+	<name>COGFUNC</name>
+	<description>Is functionally and cognitively intact?</description>
+	<type>Encoded Value</type>
+	<value code="N">No</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00082214.v1">
+	<name>NEUEV_CB</name>
+	<description>Neurological examination: Carotid bruits</description>
+	<type>Encoded value</type>
+	<value code="A">Absent</value>
+	<value code="P">Present</value>
+</variable>
+
+<variable id="phv00082215.v1">
+	<name>NEURTX_CB</name>
+	<description>Specify, if Abnormal: Carotid bruits</description>
+	<type>String</type>
+</variable>
+
+<variable id="phv00082216.v1">
+	<name>NEUEV_RILP</name>
+	<description>Neurological examination: Paratonia</description>
+	<type>Encoded value</type>
+	<value code="A">Absent</value>
+	<value code="P">Present</value>
+</variable>
+
+<variable id="phv00082217.v1">
+	<name>NEURTX_RILP</name>
+	<description>Specify, if Abnormal: Paratonia</description>
+	<type>String</type>
+</variable>
+
+<variable id="phv00082218.v1">
+	<name>NEUEV_RILO</name>
+	<description>Neurological examination: Limb rigidity - Other</description>
+	<type>Encoded value</type>
+	<value code="A">Absent</value>
+	<value code="P">Present</value>
+</variable>
+
+<variable id="phv00082219.v1">
+	<name>NEURTX_RILO</name>
+	<description>Specify, if Abnormal: Limb rigidity - Other</description>
+	<type>String</type>
+</variable>
+
+<variable id="phv00082220.v1">
+	<name>NEUEV_FG</name>
+	<description>Neurological examination: Frontal gait</description>
+	<type>Encoded value</type>
+	<value code="A">Absent</value>
+	<value code="P">Present</value>
+</variable>
+
+<variable id="phv00082221.v1">
+	<name>NEURTX_FG</name>
+	<description>Specify, if Abnormal: Frontal gait</description>
+	<type>String</type>
+</variable>
+
+<variable id="phv00082222.v1">
+	<name>NEUEV_PRK</name>
+	<description>Neurological examination: Parkinsonism</description>
+	<type>Encoded value</type>
+	<value code="A">Absent</value>
+	<value code="P">Present</value>
+</variable>
+
+<variable id="phv00082223.v1">
+	<name>NEURTX_PRK</name>
+	<description>Specify, if Abnormal: Parkinsonism</description>
+	<type>String</type>
+</variable>
+
+<variable id="phv00082224.v1">
+	<name>NEUEV_GOTH</name>
+	<description>Neurological examination: Gait - Other</description>
+	<type>Encoded value</type>
+	<value code="A">Absent</value>
+	<value code="P">Present</value>
+</variable>
+
+<variable id="phv00082225.v1">
+	<name>NEURTX_GOTH</name>
+	<description>Specify, if Abnormal: Gait - Other</description>
+	<type>String</type>
+</variable>
+
+<variable id="phv00082226.v1">
+	<name>NEUEV_TRP</name>
+	<description>Neurological examination: Postural Tremor</description>
+	<type>Encoded value</type>
+	<value code="A">Absent</value>
+	<value code="P">Present</value>
+</variable>
+
+<variable id="phv00082227.v1">
+	<name>NEURTX_TRP</name>
+	<description>Specify, if Abnormal: Postural Tremor</description>
+	<type>String</type>
+</variable>
+
+<variable id="phv00082228.v1">
+	<name>NEUEV_TRR</name>
+	<description>Neurological examination: Resting Tremor</description>
+	<type>Encoded value</type>
+	<value code="A">Absent</value>
+	<value code="P">Present</value>
+</variable>
+
+<variable id="phv00082229.v1">
+	<name>NEURTX_TRR</name>
+	<description>Specify, if Abnormal: Resting Tremor</description>
+	<type>String</type>
+</variable>
+
+<variable id="phv00082230.v1">
+	<name>NEUEV_TRO</name>
+	<description>Neurological examination: Tremor - Other</description>
+	<type>Encoded value</type>
+	<value code="A">Absent</value>
+	<value code="P">Present</value>
+</variable>
+
+<variable id="phv00082231.v1">
+	<name>NEURTX_TRO</name>
+	<description>Specify, if Abnormal: Tremor - Other</description>
+	<type>String</type>
+</variable>
+
+<variable id="phv00082232.v1">
+	<name>NEUEV_FRSG</name>
+	<description>Neurological examination: Frontal release signs - Grasp</description>
+	<type>Encoded value</type>
+	<value code="A">Absent</value>
+	<value code="P">Present</value>
+</variable>
+
+<variable id="phv00082233.v1">
+	<name>NEURTX_FRSG</name>
+	<description>Specify, if Abnormal: Frontal release signs - Grasp</description>
+	<type>String</type>
+</variable>
+
+<variable id="phv00082234.v1">
+	<name>NEUEV_FRSO</name>
+	<description>Neurological examination: Frontal release signs - Other</description>
+	<type>Encoded value</type>
+	<value code="A">Absent</value>
+	<value code="P">Present</value>
+</variable>
+
+<variable id="phv00082235.v1">
+	<name>NEURTX_FRSO</name>
+	<description>Specify, if Abnormal: Frontal release signs - Other</description>
+	<type>String</type>
+</variable>
+
+<variable id="phv00082236.v1">
+	<name>NEUEV_OTH</name>
+	<description>Neurological examination: Other</description>
+	<type>Encoded value</type>
+	<value code="A">Absent</value>
+	<value code="P">Present</value>
+</variable>
+
+<variable id="phv00082237.v1">
+	<name>NEURTX_OTH</name>
+	<description>Specify, if Abnormal: Other</description>
+	<type>String</type>
+</variable>
+
+<variable id="phv00082238.v1">
+	<name>NEUEV_DTR</name>
+	<description>Neurological examination: Deep tendon reflexes</description>
+	<type>Encoded value</type>
+	<value code="A">Abnormal</value>
+	<value code="N">Normal</value>
+	<value code="ND">Not Done</value>
+</variable>
+
+<variable id="phv00082239.v1">
+	<name>NEURTX_DTR</name>
+	<description>Specify, if Abnormal: Deep tendon reflexes</description>
+	<type>String</type>
+</variable>
+
+<variable id="phv00082240.v1">
+	<name>NEUEV_PLR</name>
+	<description>Neurological examination: Plantar response</description>
+	<type>Encoded value</type>
+	<value code="A">Abnormal</value>
+	<value code="N">Normal</value>
+	<value code="ND">Not Done</value>
+</variable>
+
+<variable id="phv00082241.v1">
+	<name>NEURTX_PLR</name>
+	<description>Specify, if Abnormal: Plantar response</description>
+	<type>String</type>
+</variable>
+
+</data_table>

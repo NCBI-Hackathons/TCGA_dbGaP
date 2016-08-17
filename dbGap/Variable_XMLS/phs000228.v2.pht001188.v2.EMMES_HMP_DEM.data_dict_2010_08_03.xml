@@ -1,0 +1,442 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./datadict_v2.xsl"?>
+<data_table id="pht001188.v2" study_id="phs000228.v2" participant_set="1" date_created="Tue Aug  3 17:16:44 2010">
+
+<unique_key phv="00089453" version="2">PROT</unique_key>
+<unique_key phv="00089454" version="2">PROTSEG</unique_key>
+<unique_key phv="00089455" version="2">RANDSID</unique_key>
+<unique_key phv="00089459" version="2">SITE</unique_key>
+
+<variable id="phv00089453.v2">
+	<name>PROT</name>
+	<description>Protocol</description>
+	<type>Encoded</type>
+	<value code="7001">7001</value>
+</variable>
+
+<variable id="phv00089454.v2">
+	<name>PROTSEG</name>
+	<description>Protocol Segment</description>
+	<type>Encoded</type>
+	<value code="A">A</value>
+</variable>
+
+<variable id="phv00089455.v2">
+	<name>RANDSID</name>
+	<description>Random ID for Patid</description>
+	<type>Integer</type>
+</variable>
+
+<variable id="phv00089456.v2">
+	<name>GENDER</name>
+	<description>Gender</description>
+	<type>Integer, Encoded Value</type>
+	<logical_min>0</logical_min>
+	<logical_max>1</logical_max>
+	<value code="0">Male</value>
+	<value code="1">Female</value>
+</variable>
+
+<variable id="phv00089457.v2">
+	<name>AGEENR</name>
+	<description>Age at enrollment</description>
+	<type>Integer</type>
+	<unit>years</unit>
+	<logical_min>0</logical_min>
+</variable>
+
+<variable id="phv00089458.v2">
+	<name>ETHNIC</name>
+	<description>Ethnicity</description>
+	<type>Integer, Encoded Value</type>
+	<logical_min>1</logical_min>
+	<logical_max>2</logical_max>
+	<value code="01">Hispanic or Latino or Spanish</value>
+	<value code="02">Non-Hispanic or Non-Latino or Non-Spanish</value>
+</variable>
+
+<variable id="phv00089459.v2">
+	<name>SITE</name>
+	<description>Site</description>
+	<type>String</type>
+	<value code="Houston">Houston</value>
+	<value code="St. Louis">St. Louis</value>
+</variable>
+
+<variable id="phv00089460.v2">
+	<name>MEXICAN</name>
+	<description>Mexican</description>
+	<type>Integer, Encoded Value</type>
+	<logical_min>0</logical_min>
+	<logical_max>1</logical_max>
+	<comment>&#39;Gated field&#39;, defined as a data that will not be released to dbGaP until all subjects have been enrolled, and data is reviewed to confirm that there is no possibility of subject identification.</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00089461.v2">
+	<name>PUERTO</name>
+	<description>Puerto Rican</description>
+	<type>Integer, Encoded Value</type>
+	<logical_min>0</logical_min>
+	<logical_max>1</logical_max>
+	<comment>&#39;Gated field&#39;, defined as a data that will not be released to dbGaP until all subjects have been enrolled, and data is reviewed to confirm that there is no possibility of subject identification.</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00089462.v2">
+	<name>CUBAN</name>
+	<description>Cuban</description>
+	<type>Integer, Encoded Value</type>
+	<logical_min>0</logical_min>
+	<logical_max>1</logical_max>
+	<comment>&#39;Gated field&#39;, defined as a data that will not be released to dbGaP until all subjects have been enrolled, and data is reviewed to confirm that there is no possibility of subject identification.</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00089463.v2">
+	<name>OTHER</name>
+	<description>Other</description>
+	<type>Integer, Encoded Value</type>
+	<logical_min>0</logical_min>
+	<logical_max>1</logical_max>
+	<comment>&#39;Gated field&#39;, defined as a data that will not be released to dbGaP until all subjects have been enrolled, and data is reviewed to confirm that there is no possibility of subject identification.</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00089464.v2">
+	<name>OTHERSP</name>
+	<description>Other specify</description>
+	<type>String</type>
+	<comment>&#39;Gated field&#39;, defined as a data that will not be released to dbGaP until all subjects have been enrolled, and data is reviewed to confirm that there is no possibility of subject identification.</comment>
+</variable>
+
+<variable id="phv00089465.v2">
+	<name>UNKNWN</name>
+	<description>Unknown, subject refused</description>
+	<type>Integer, Encoded Value</type>
+	<logical_min>0</logical_min>
+	<logical_max>1</logical_max>
+	<comment>&#39;Gated field&#39;, defined as a data that will not be released to dbGaP until all subjects have been enrolled, and data is reviewed to confirm that there is no possibility of subject identification.</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00089466.v2">
+	<name>AMERIND</name>
+	<description>American Indian Alaska</description>
+	<type>Integer, Encoded Value</type>
+	<logical_min>0</logical_min>
+	<logical_max>1</logical_max>
+	<comment>&#39;Gated field&#39;, defined as a data that will not be released to dbGaP until all subjects have been enrolled, and data is reviewed to confirm that there is no possibility of subject identification.</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00089467.v2">
+	<name>ASIAN</name>
+	<description>Asian</description>
+	<type>Integer, Encoded Value</type>
+	<logical_min>0</logical_min>
+	<logical_max>1</logical_max>
+	<comment>&#39;Gated field&#39;, defined as a data that will not be released to dbGaP until all subjects have been enrolled, and data is reviewed to confirm that there is no possibility of subject identification.</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00089468.v2">
+	<name>PACIFIC</name>
+	<description>Hawaiian Pacific Islander</description>
+	<type>Integer, Encoded Value</type>
+	<logical_min>0</logical_min>
+	<logical_max>1</logical_max>
+	<comment>&#39;Gated field&#39;, defined as a data that will not be released to dbGaP until all subjects have been enrolled, and data is reviewed to confirm that there is no possibility of subject identification.</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00089469.v2">
+	<name>BLACK</name>
+	<description>African American</description>
+	<type>Integer, Encoded Value</type>
+	<logical_min>0</logical_min>
+	<logical_max>1</logical_max>
+	<comment>&#39;Gated field&#39;, defined as a data that will not be released to dbGaP until all subjects have been enrolled, and data is reviewed to confirm that there is no possibility of subject identification.</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00089470.v2">
+	<name>WHITE</name>
+	<description>White</description>
+	<type>Integer, Encoded Value</type>
+	<logical_min>0</logical_min>
+	<logical_max>1</logical_max>
+	<comment>&#39;Gated field&#39;, defined as a data that will not be released to dbGaP until all subjects have been enrolled, and data is reviewed to confirm that there is no possibility of subject identification.</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00089471.v2">
+	<name>BRTHCTRY</name>
+	<description>Subjects birth country</description>
+	<type>Integer, Encoded Value</type>
+	<logical_min>1</logical_min>
+	<logical_max>99</logical_max>
+	<comment>&#39;Gated field&#39;, defined as a data that will not be released to dbGaP until all subjects have been enrolled, and data is reviewed to confirm that there is no possibility of subject identification.</comment>
+	<value code="01">01 Afghanistan</value>
+	<value code="02">02 Anguilla</value>
+	<value code="03">03 Antigua and Barbuda</value>
+	<value code="04">04 Argentina</value>
+	<value code="05">05 Aruba</value>
+	<value code="06">06 Australia</value>
+	<value code="07">07 Austria</value>
+	<value code="08">08 Bangladesh</value>
+	<value code="09">09 Belgium</value>
+	<value code="10">10 Belize</value>
+	<value code="11">11 Bolivia</value>
+	<value code="12">12 Brazil</value>
+	<value code="13">13 Canada</value>
+	<value code="14">14 Chile</value>
+	<value code="15">15 China</value>
+	<value code="16">16 Colombia</value>
+	<value code="17">17 Costa Rica</value>
+	<value code="18">18 Cuba</value>
+	<value code="19">19 Czech Republic</value>
+	<value code="20">20 Denmark</value>
+	<value code="21">21 Dominican Republic</value>
+	<value code="22">22 Ecuador</value>
+	<value code="23">23 El Salvador</value>
+	<value code="24">24 Finland</value>
+	<value code="25">25 France</value>
+	<value code="26">26 Germany</value>
+	<value code="27">27 Great Britain</value>
+	<value code="28">28 Greece</value>
+	<value code="29">29 Guam</value>
+	<value code="30">30 Guatemala</value>
+	<value code="31">31 Haiti</value>
+	<value code="32">32 Holland</value>
+	<value code="33">33 Honduras</value>
+	<value code="34">34 Hungary</value>
+	<value code="35">35 India</value>
+	<value code="36">36 Indonesia</value>
+	<value code="37">37 Iran</value>
+	<value code="38">38 Iraq</value>
+	<value code="39">39 Ireland</value>
+	<value code="40">40 Israel</value>
+	<value code="41">41 Italy</value>
+	<value code="42">42 Japan</value>
+	<value code="43">43 Korea</value>
+	<value code="44">44 Lebanon</value>
+	<value code="45">45 Malaya</value>
+	<value code="46">46 Mexico</value>
+	<value code="47">47 New Zealand</value>
+	<value code="48">48 Nicaragua</value>
+	<value code="49">49 Norway</value>
+	<value code="50">50 Pakistan</value>
+	<value code="51">51 Panama</value>
+	<value code="52">52 Paraguay</value>
+	<value code="53">53 Peru</value>
+	<value code="54">54 Philippines</value>
+	<value code="55">55 Poland</value>
+	<value code="56">56 Portugal</value>
+	<value code="57">57 Puerto Rico</value>
+	<value code="58">58 Russia</value>
+	<value code="59">59 South Africa</value>
+	<value code="60">60 Spain</value>
+	<value code="61">61 Sweden</value>
+	<value code="62">62 Switzerland</value>
+	<value code="63">63 United States</value>
+	<value code="64">64 Uruguay</value>
+	<value code="65">65 Venezuela</value>
+	<value code="66">66 Virgin Islands</value>
+	<value code="67">67 Other</value>
+	<value code="99">99 Unknown/Refused</value>
+</variable>
+
+<variable id="phv00089472.v2">
+	<name>BRTHSP</name>
+	<description>Sub othr cntry specify</description>
+	<type>String</type>
+	<comment>&#39;Gated field&#39;, defined as a data that will not be released to dbGaP until all subjects have been enrolled, and data is reviewed to confirm that there is no possibility of subject identification.</comment>
+</variable>
+
+<variable id="phv00089473.v2">
+	<name>MOMCTRY</name>
+	<description>Mothers birth country</description>
+	<type>Integer, Encoded Value</type>
+	<logical_min>1</logical_min>
+	<logical_max>99</logical_max>
+	<comment>&#39;Gated field&#39;, defined as a data that will not be released to dbGaP until all subjects have been enrolled, and data is reviewed to confirm that there is no possibility of subject identification.</comment>
+	<value code="01">01 Afghanistan</value>
+	<value code="02">02 Anguilla</value>
+	<value code="03">03 Antigua and Barbuda</value>
+	<value code="04">04 Argentina</value>
+	<value code="05">05 Aruba</value>
+	<value code="06">06 Australia</value>
+	<value code="07">07 Austria</value>
+	<value code="08">08 Bangladesh</value>
+	<value code="09">09 Belgium</value>
+	<value code="10">10 Belize</value>
+	<value code="11">11 Bolivia</value>
+	<value code="12">12 Brazil</value>
+	<value code="13">13 Canada</value>
+	<value code="14">14 Chile</value>
+	<value code="15">15 China</value>
+	<value code="16">16 Colombia</value>
+	<value code="17">17 Costa Rica</value>
+	<value code="18">18 Cuba</value>
+	<value code="19">19 Czech Republic</value>
+	<value code="20">20 Denmark</value>
+	<value code="21">21 Dominican Republic</value>
+	<value code="22">22 Ecuador</value>
+	<value code="23">23 El Salvador</value>
+	<value code="24">24 Finland</value>
+	<value code="25">25 France</value>
+	<value code="26">26 Germany</value>
+	<value code="27">27 Great Britain</value>
+	<value code="28">28 Greece</value>
+	<value code="29">29 Guam</value>
+	<value code="30">30 Guatemala</value>
+	<value code="31">31 Haiti</value>
+	<value code="32">32 Holland</value>
+	<value code="33">33 Honduras</value>
+	<value code="34">34 Hungary</value>
+	<value code="35">35 India</value>
+	<value code="36">36 Indonesia</value>
+	<value code="37">37 Iran</value>
+	<value code="38">38 Iraq</value>
+	<value code="39">39 Ireland</value>
+	<value code="40">40 Israel</value>
+	<value code="41">41 Italy</value>
+	<value code="42">42 Japan</value>
+	<value code="43">43 Korea</value>
+	<value code="44">44 Lebanon</value>
+	<value code="45">45 Malaya</value>
+	<value code="46">46 Mexico</value>
+	<value code="47">47 New Zealand</value>
+	<value code="48">48 Nicaragua</value>
+	<value code="49">49 Norway</value>
+	<value code="50">50 Pakistan</value>
+	<value code="51">51 Panama</value>
+	<value code="52">52 Paraguay</value>
+	<value code="53">53 Peru</value>
+	<value code="54">54 Philippines</value>
+	<value code="55">55 Poland</value>
+	<value code="56">56 Portugal</value>
+	<value code="57">57 Puerto Rico</value>
+	<value code="58">58 Russia</value>
+	<value code="59">59 South Africa</value>
+	<value code="60">60 Spain</value>
+	<value code="61">61 Sweden</value>
+	<value code="62">62 Switzerland</value>
+	<value code="63">63 United States</value>
+	<value code="64">64 Uruguay</value>
+	<value code="65">65 Venezuela</value>
+	<value code="66">66 Virgin Islands</value>
+	<value code="67">67 Other</value>
+	<value code="99">99 Unknown/Refused</value>
+</variable>
+
+<variable id="phv00089474.v2">
+	<name>MOMSP</name>
+	<description>Mother othr cntry specify</description>
+	<type>String</type>
+	<comment>&#39;Gated field&#39;, defined as a data that will not be released to dbGaP until all subjects have been enrolled, and data is reviewed to confirm that there is no possibility of subject identification.</comment>
+</variable>
+
+<variable id="phv00089475.v2">
+	<name>DADCTRY</name>
+	<description>Dads birth country</description>
+	<type>Integer, Encoded Value</type>
+	<logical_min>1</logical_min>
+	<logical_max>99</logical_max>
+	<comment>&#39;Gated field&#39;, defined as a data that will not be released to dbGaP until all subjects have been enrolled, and data is reviewed to confirm that there is no possibility of subject identification.</comment>
+	<value code="01">01 Afghanistan</value>
+	<value code="02">02 Anguilla</value>
+	<value code="03">03 Antigua and Barbuda</value>
+	<value code="04">04 Argentina</value>
+	<value code="05">05 Aruba</value>
+	<value code="06">06 Australia</value>
+	<value code="07">07 Austria</value>
+	<value code="08">08 Bangladesh</value>
+	<value code="09">09 Belgium</value>
+	<value code="10">10 Belize</value>
+	<value code="11">11 Bolivia</value>
+	<value code="12">12 Brazil</value>
+	<value code="13">13 Canada</value>
+	<value code="14">14 Chile</value>
+	<value code="15">15 China</value>
+	<value code="16">16 Colombia</value>
+	<value code="17">17 Costa Rica</value>
+	<value code="18">18 Cuba</value>
+	<value code="19">19 Czech Republic</value>
+	<value code="20">20 Denmark</value>
+	<value code="21">21 Dominican Republic</value>
+	<value code="22">22 Ecuador</value>
+	<value code="23">23 El Salvador</value>
+	<value code="24">24 Finland</value>
+	<value code="25">25 France</value>
+	<value code="26">26 Germany</value>
+	<value code="27">27 Great Britain</value>
+	<value code="28">28 Greece</value>
+	<value code="29">29 Guam</value>
+	<value code="30">30 Guatemala</value>
+	<value code="31">31 Haiti</value>
+	<value code="32">32 Holland</value>
+	<value code="33">33 Honduras</value>
+	<value code="34">34 Hungary</value>
+	<value code="35">35 India</value>
+	<value code="36">36 Indonesia</value>
+	<value code="37">37 Iran</value>
+	<value code="38">38 Iraq</value>
+	<value code="39">39 Ireland</value>
+	<value code="40">40 Israel</value>
+	<value code="41">41 Italy</value>
+	<value code="42">42 Japan</value>
+	<value code="43">43 Korea</value>
+	<value code="44">44 Lebanon</value>
+	<value code="45">45 Malaya</value>
+	<value code="46">46 Mexico</value>
+	<value code="47">47 New Zealand</value>
+	<value code="48">48 Nicaragua</value>
+	<value code="49">49 Norway</value>
+	<value code="50">50 Pakistan</value>
+	<value code="51">51 Panama</value>
+	<value code="52">52 Paraguay</value>
+	<value code="53">53 Peru</value>
+	<value code="54">54 Philippines</value>
+	<value code="55">55 Poland</value>
+	<value code="56">56 Portugal</value>
+	<value code="57">57 Puerto Rico</value>
+	<value code="58">58 Russia</value>
+	<value code="59">59 South Africa</value>
+	<value code="60">60 Spain</value>
+	<value code="61">61 Sweden</value>
+	<value code="62">62 Switzerland</value>
+	<value code="63">63 United States</value>
+	<value code="64">64 Uruguay</value>
+	<value code="65">65 Venezuela</value>
+	<value code="66">66 Virgin Islands</value>
+	<value code="67">67 Other</value>
+	<value code="99">99 Unknown/Refused</value>
+</variable>
+
+<variable id="phv00089476.v2">
+	<name>DADSP</name>
+	<description>Dad othr cntry specify</description>
+	<type>String</type>
+	<comment>&#39;Gated field&#39;, defined as a data that will not be released to dbGaP until all subjects have been enrolled, and data is reviewed to confirm that there is no possibility of subject identification.</comment>
+</variable>
+
+<variable id="phv00089477.v2">
+	<name>COMM</name>
+	<description>Comments</description>
+	<type>String</type>
+	<comment>&#39;Gated field&#39;, defined as a data that will not be released to dbGaP until all subjects have been enrolled, and data is reviewed to confirm that there is no possibility of subject identification.</comment>
+</variable>
+
+</data_table>

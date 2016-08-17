@@ -1,0 +1,687 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./datadict_v2.xsl"?>
+<data_table id="pht001160.v1" study_id="phs000222.v1" participant_set="1" date_created="Fri Apr 30 17:43:30 2010">
+
+<unique_key phv="00088423" version="1">id</unique_key>
+<unique_key phv="00088426" version="1">frsvisit</unique_key>
+
+<variable id="phv00088423.v1">
+	<name>id</name>
+	<description>Anonymized Participant ID</description>
+	<type>integer</type>
+</variable>
+
+<variable id="phv00088424.v1">
+	<name>status</name>
+	<description>Case/Control Status</description>
+	<type>string</type>
+	<value code="case">case</value>
+	<value code="cont">cont</value>
+</variable>
+
+<variable id="phv00088425.v1">
+	<name>frsage</name>
+	<description>Age at baseline FRSBE (Frontal Systems Behavioral Scale)</description>
+	<type>integer</type>
+	<unit>Years</unit>
+</variable>
+
+<variable id="phv00088426.v1">
+	<name>frsvisit</name>
+	<description>Visit</description>
+	<type>integer</type>
+	<unit>Visits</unit>
+</variable>
+
+<variable id="phv00088427.v1">
+	<name>frsdays</name>
+	<description>Days since last FRSBE (Frontal Systems Behavioral Scale)</description>
+	<type>integer</type>
+	<unit>Days</unit>
+</variable>
+
+<variable id="phv00088428.v1">
+	<name>frseval</name>
+	<description>Evaluator</description>
+	<type>encoded value</type>
+	<value code="1">Participant</value>
+	<value code="2">Companion</value>
+</variable>
+
+<variable id="phv00088429.v1">
+	<name>frs1a</name>
+	<description>Repeats certain actions/gets stuck on certain ideas - Frequency</description>
+	<type>encoded value</type>
+	<value code="1">Almost never</value>
+	<value code="2">Seldom</value>
+	<value code="3">Sometimes</value>
+	<value code="4">Frequently</value>
+	<value code="5">Almost always</value>
+	<value code="N">Not Applicable</value>
+	<value code="U">Unavailable</value>
+</variable>
+
+<variable id="phv00088430.v1">
+	<name>frs1b</name>
+	<description>Repeats certain actions/gets stuck on certain ideas - Distress</description>
+	<type>encoded value</type>
+	<value code="1">Not at all distressing</value>
+	<value code="2">Mildly distressing</value>
+	<value code="3">Moderately distressing</value>
+	<value code="4">Severely distressing</value>
+	<value code="5">Extremely distressing or very severe</value>
+	<value code="N">Not Applicable</value>
+	<value code="U">Unavailable</value>
+</variable>
+
+<variable id="phv00088431.v1">
+	<name>frs2a</name>
+	<description>Does things impulsively - Frequency</description>
+	<type>encoded value</type>
+	<value code="1">Almost never</value>
+	<value code="2">Seldom</value>
+	<value code="3">Sometimes</value>
+	<value code="4">Frequently</value>
+	<value code="5">Almost always</value>
+	<value code="N">Not Applicable</value>
+	<value code="U">Unavailable</value>
+</variable>
+
+<variable id="phv00088432.v1">
+	<name>frs2b</name>
+	<description>Does things impulsively - Distress</description>
+	<type>encoded value</type>
+	<value code="1">Not at all distressing</value>
+	<value code="2">Mildly distressing</value>
+	<value code="3">Moderately distressing</value>
+	<value code="4">Severely distressing</value>
+	<value code="5">Extremely distressing or very severe</value>
+	<value code="N">Not Applicable</value>
+	<value code="U">Unavailable</value>
+</variable>
+
+<variable id="phv00088433.v1">
+	<name>frs3a</name>
+	<description>Mixes up sequence/gets confused doing things in row - Frequency</description>
+	<type>encoded value</type>
+	<value code="1">Almost never</value>
+	<value code="2">Seldom</value>
+	<value code="3">Sometimes</value>
+	<value code="4">Frequently</value>
+	<value code="5">Almost always</value>
+	<value code="N">Not Applicable</value>
+	<value code="U">Unavailable</value>
+</variable>
+
+<variable id="phv00088434.v1">
+	<name>frs3b</name>
+	<description>Mixes up sequence/gets confused doing things in row - Distress</description>
+	<type>encoded value</type>
+	<value code="1">Not at all distressing</value>
+	<value code="2">Mildly distressing</value>
+	<value code="3">Moderately distressing</value>
+	<value code="4">Severely distressing</value>
+	<value code="5">Extremely distressing or very severe</value>
+	<value code="N">Not Applicable</value>
+	<value code="U">Unavailable</value>
+</variable>
+
+<variable id="phv00088435.v1">
+	<name>frs4a</name>
+	<description>Makes same mistakes/does not learn from past experience - Frequency</description>
+	<type>encoded value</type>
+	<value code="1">Almost never</value>
+	<value code="2">Seldom</value>
+	<value code="3">Sometimes</value>
+	<value code="4">Frequently</value>
+	<value code="5">Almost always</value>
+	<value code="N">Not Applicable</value>
+	<value code="U">Unavailable</value>
+</variable>
+
+<variable id="phv00088436.v1">
+	<name>frs4b</name>
+	<description>Makes same mistakes/does not learn from past experience - Distress</description>
+	<type>encoded value</type>
+	<value code="1">Not at all distressing</value>
+	<value code="2">Mildly distressing</value>
+	<value code="3">Moderately distressing</value>
+	<value code="4">Severely distressing</value>
+	<value code="5">Extremely distressing or very severe</value>
+	<value code="N">Not Applicable</value>
+	<value code="U">Unavailable</value>
+</variable>
+
+<variable id="phv00088437.v1">
+	<name>frs5a</name>
+	<description>Inappropriate sexual comments/advances, too flirtatious - Frequency</description>
+	<type>encoded value</type>
+	<value code="1">Almost never</value>
+	<value code="2">Seldom</value>
+	<value code="3">Sometimes</value>
+	<value code="4">Frequently</value>
+	<value code="5">Almost always</value>
+	<value code="N">Not Applicable</value>
+	<value code="U">Unavailable</value>
+</variable>
+
+<variable id="phv00088438.v1">
+	<name>frs5b</name>
+	<description>Inappropriate sexual comments/advances, too flirtatious - Distress</description>
+	<type>encoded value</type>
+	<value code="1">Not at all distressing</value>
+	<value code="2">Mildly distressing</value>
+	<value code="3">Moderately distressing</value>
+	<value code="4">Severely distressing</value>
+	<value code="5">Extremely distressing or very severe</value>
+	<value code="N">Not Applicable</value>
+	<value code="U">Unavailable</value>
+</variable>
+
+<variable id="phv00088439.v1">
+	<name>frs6a</name>
+	<description>Does/says embarrassing things - Frequency</description>
+	<type>encoded value</type>
+	<value code="1">Almost never</value>
+	<value code="2">Seldom</value>
+	<value code="3">Sometimes</value>
+	<value code="4">Frequently</value>
+	<value code="5">Almost always</value>
+	<value code="N">Not Applicable</value>
+	<value code="U">Unavailable</value>
+</variable>
+
+<variable id="phv00088440.v1">
+	<name>frs6b</name>
+	<description>Does/says embarrassing things - Distress</description>
+	<type>encoded value</type>
+	<value code="1">Not at all distressing</value>
+	<value code="2">Mildly distressing</value>
+	<value code="3">Moderately distressing</value>
+	<value code="4">Severely distressing</value>
+	<value code="5">Extremely distressing or very severe</value>
+	<value code="N">Not Applicable</value>
+	<value code="U">Unavailable</value>
+</variable>
+
+<variable id="phv00088441.v1">
+	<name>frs7a</name>
+	<description>Denies having problems/unaware of problems or mistakes - Frequency</description>
+	<type>encoded value</type>
+	<value code="1">Almost never</value>
+	<value code="2">Seldom</value>
+	<value code="3">Sometimes</value>
+	<value code="4">Frequently</value>
+	<value code="5">Almost always</value>
+	<value code="N">Not Applicable</value>
+	<value code="U">Unavailable</value>
+</variable>
+
+<variable id="phv00088442.v1">
+	<name>frs7b</name>
+	<description>Denies having problems/unaware of problems or mistakes - Distress</description>
+	<type>encoded value</type>
+	<value code="1">Not at all distressing</value>
+	<value code="2">Mildly distressing</value>
+	<value code="3">Moderately distressing</value>
+	<value code="4">Severely distressing</value>
+	<value code="5">Extremely distressing or very severe</value>
+	<value code="N">Not Applicable</value>
+	<value code="U">Unavailable</value>
+</variable>
+
+<variable id="phv00088443.v1">
+	<name>frs8a</name>
+	<description>Sits around doing nothing - Frequency</description>
+	<type>encoded value</type>
+	<value code="1">Almost never</value>
+	<value code="2">Seldom</value>
+	<value code="3">Sometimes</value>
+	<value code="4">Frequently</value>
+	<value code="5">Almost always</value>
+	<value code="N">Not Applicable</value>
+	<value code="U">Unavailable</value>
+</variable>
+
+<variable id="phv00088444.v1">
+	<name>frs8b</name>
+	<description>Sits around doing nothing - Distress</description>
+	<type>encoded value</type>
+	<value code="1">Not at all distressing</value>
+	<value code="2">Mildly distressing</value>
+	<value code="3">Moderately distressing</value>
+	<value code="4">Severely distressing</value>
+	<value code="5">Extremely distressing or very severe</value>
+	<value code="N">Not Applicable</value>
+	<value code="U">Unavailable</value>
+</variable>
+
+<variable id="phv00088445.v1">
+	<name>frs9a</name>
+	<description>Disorganized - Frequency</description>
+	<type>encoded value</type>
+	<value code="1">Almost never</value>
+	<value code="2">Seldom</value>
+	<value code="3">Sometimes</value>
+	<value code="4">Frequently</value>
+	<value code="5">Almost always</value>
+	<value code="N">Not Applicable</value>
+	<value code="U">Unavailable</value>
+</variable>
+
+<variable id="phv00088446.v1">
+	<name>frs9b</name>
+	<description>Disorganized - Distress</description>
+	<type>encoded value</type>
+	<value code="1">Not at all distressing</value>
+	<value code="2">Mildly distressing</value>
+	<value code="3">Moderately distressing</value>
+	<value code="4">Severely distressing</value>
+	<value code="5">Extremely distressing or very severe</value>
+	<value code="N">Not Applicable</value>
+	<value code="U">Unavailable</value>
+</variable>
+
+<variable id="phv00088447.v1">
+	<name>frs10a</name>
+	<description>Talks out of turn/interrupts - Frequency</description>
+	<type>encoded value</type>
+	<value code="1">Almost never</value>
+	<value code="2">Seldom</value>
+	<value code="3">Sometimes</value>
+	<value code="4">Frequently</value>
+	<value code="5">Almost always</value>
+	<value code="N">Not Applicable</value>
+	<value code="U">Unavailable</value>
+</variable>
+
+<variable id="phv00088448.v1">
+	<name>frs10b</name>
+	<description>Talks out of turn/interrupts - Distress</description>
+	<type>encoded value</type>
+	<value code="1">Not at all distressing</value>
+	<value code="2">Mildly distressing</value>
+	<value code="3">Moderately distressing</value>
+	<value code="4">Severely distressing</value>
+	<value code="5">Extremely distressing or very severe</value>
+	<value code="N">Not Applicable</value>
+	<value code="U">Unavailable</value>
+</variable>
+
+<variable id="phv00088449.v1">
+	<name>frs11a</name>
+	<description>Poor judgement/poor problem solver - Frequency</description>
+	<type>encoded value</type>
+	<value code="1">Almost never</value>
+	<value code="2">Seldom</value>
+	<value code="3">Sometimes</value>
+	<value code="4">Frequently</value>
+	<value code="5">Almost always</value>
+	<value code="N">Not Applicable</value>
+	<value code="U">Unavailable</value>
+</variable>
+
+<variable id="phv00088450.v1">
+	<name>frs11b</name>
+	<description>Poor judgement/poor problem solver - Distress</description>
+	<type>encoded value</type>
+	<value code="1">Not at all distressing</value>
+	<value code="2">Mildly distressing</value>
+	<value code="3">Moderately distressing</value>
+	<value code="4">Severely distressing</value>
+	<value code="5">Extremely distressing or very severe</value>
+	<value code="N">Not Applicable</value>
+	<value code="U">Unavailable</value>
+</variable>
+
+<variable id="phv00088451.v1">
+	<name>frs12a</name>
+	<description>Lost interest in fun/important things - Frequency</description>
+	<type>encoded value</type>
+	<value code="1">Almost never</value>
+	<value code="2">Seldom</value>
+	<value code="3">Sometimes</value>
+	<value code="4">Frequently</value>
+	<value code="5">Almost always</value>
+	<value code="N">Not Applicable</value>
+	<value code="U">Unavailable</value>
+</variable>
+
+<variable id="phv00088452.v1">
+	<name>frs12b</name>
+	<description>Lost interest in fun/important things - Distress</description>
+	<type>encoded value</type>
+	<value code="1">Not at all distressing</value>
+	<value code="2">Mildly distressing</value>
+	<value code="3">Moderately distressing</value>
+	<value code="4">Severely distressing</value>
+	<value code="5">Extremely distressing or very severe</value>
+	<value code="N">Not Applicable</value>
+	<value code="U">Unavailable</value>
+</variable>
+
+<variable id="phv00088453.v1">
+	<name>frs13a</name>
+	<description>Shows little emotion/unconcerned, unresponsive - Frequency</description>
+	<type>encoded value</type>
+	<value code="1">Almost never</value>
+	<value code="2">Seldom</value>
+	<value code="3">Sometimes</value>
+	<value code="4">Frequently</value>
+	<value code="5">Almost always</value>
+	<value code="N">Not Applicable</value>
+	<value code="U">Unavailable</value>
+</variable>
+
+<variable id="phv00088454.v1">
+	<name>frs13b</name>
+	<description>Shows little emotion/unconcerned, unresponsive - Distress</description>
+	<type>encoded value</type>
+	<value code="1">Not at all distressing</value>
+	<value code="2">Mildly distressing</value>
+	<value code="3">Moderately distressing</value>
+	<value code="4">Severely distressing</value>
+	<value code="5">Extremely distressing or very severe</value>
+	<value code="N">Not Applicable</value>
+	<value code="U">Unavailable</value>
+</variable>
+
+<variable id="phv00088455.v1">
+	<name>frs14a</name>
+	<description>Forgets to do things/remembers when prompted or too late - Frequency</description>
+	<type>encoded value</type>
+	<value code="1">Almost never</value>
+	<value code="2">Seldom</value>
+	<value code="3">Sometimes</value>
+	<value code="4">Frequently</value>
+	<value code="5">Almost always</value>
+	<value code="N">Not Applicable</value>
+	<value code="U">Unavailable</value>
+</variable>
+
+<variable id="phv00088456.v1">
+	<name>frs14b</name>
+	<description>Forgets to do things/remebers when prompted or too late - Distress</description>
+	<type>encoded value</type>
+	<value code="1">Not at all distressing</value>
+	<value code="2">Mildly distressing</value>
+	<value code="3">Moderately distressing</value>
+	<value code="4">Severely distressing</value>
+	<value code="5">Extremely distressing or very severe</value>
+	<value code="N">Not Applicable</value>
+	<value code="U">Unavailable</value>
+</variable>
+
+<variable id="phv00088457.v1">
+	<name>frs15a</name>
+	<description>Inflexible/unable to change routines - Frequency</description>
+	<type>encoded value</type>
+	<value code="1">Almost never</value>
+	<value code="2">Seldom</value>
+	<value code="3">Sometimes</value>
+	<value code="4">Frequently</value>
+	<value code="5">Almost always</value>
+	<value code="N">Not Applicable</value>
+	<value code="U">Unavailable</value>
+</variable>
+
+<variable id="phv00088458.v1">
+	<name>frs15b</name>
+	<description>Inflexable/unable to change routines - Distress</description>
+	<type>encoded value</type>
+	<value code="1">Not at all distressing</value>
+	<value code="2">Mildly distressing</value>
+	<value code="3">Moderately distressing</value>
+	<value code="4">Severely distressing</value>
+	<value code="5">Extremely distressing or very severe</value>
+	<value code="N">Not Applicable</value>
+	<value code="U">Unavailable</value>
+</variable>
+
+<variable id="phv00088459.v1">
+	<name>frs16a</name>
+	<description>Slow moving/lacks energy, inactive - Frequency</description>
+	<type>encoded value</type>
+	<value code="1">Almost never</value>
+	<value code="2">Seldom</value>
+	<value code="3">Sometimes</value>
+	<value code="4">Frequently</value>
+	<value code="5">Almost always</value>
+	<value code="N">Not Applicable</value>
+	<value code="U">Unavailable</value>
+</variable>
+
+<variable id="phv00088460.v1">
+	<name>frs16b</name>
+	<description>Slow moving/lacks energy, inactive - Distress</description>
+	<type>encoded value</type>
+	<value code="1">Not at all distressing</value>
+	<value code="2">Mildly distressing</value>
+	<value code="3">Moderately distressing</value>
+	<value code="4">Severely distressing</value>
+	<value code="5">Extremely distressing or very severe</value>
+	<value code="N">Not Applicable</value>
+	<value code="U">Unavailable</value>
+</variable>
+
+<variable id="phv00088461.v1">
+	<name>frs17a</name>
+	<description>Overly silly/childish sense of humor - Frequency</description>
+	<type>encoded value</type>
+	<value code="1">Almost never</value>
+	<value code="2">Seldom</value>
+	<value code="3">Sometimes</value>
+	<value code="4">Frequently</value>
+	<value code="5">Almost always</value>
+	<value code="N">Not Applicable</value>
+	<value code="U">Unavailable</value>
+</variable>
+
+<variable id="phv00088462.v1">
+	<name>frs17b</name>
+	<description>Overly silly/childish sense of humor - Distress</description>
+	<type>encoded value</type>
+	<value code="1">Not at all distressing</value>
+	<value code="2">Mildly distressing</value>
+	<value code="3">Moderately distressing</value>
+	<value code="4">Severely distressing</value>
+	<value code="5">Extremely distressing or very severe</value>
+	<value code="N">Not Applicable</value>
+	<value code="U">Unavailable</value>
+</variable>
+
+<variable id="phv00088463.v1">
+	<name>frs18a</name>
+	<description>Swears - Frequency</description>
+	<type>encoded value</type>
+	<value code="1">Almost never</value>
+	<value code="2">Seldom</value>
+	<value code="3">Sometimes</value>
+	<value code="4">Frequently</value>
+	<value code="5">Almost always</value>
+	<value code="N">Not Applicable</value>
+	<value code="U">Unavailable</value>
+</variable>
+
+<variable id="phv00088464.v1">
+	<name>frs18b</name>
+	<description>Swears - Distress</description>
+	<type>encoded value</type>
+	<value code="1">Not at all distressing</value>
+	<value code="2">Mildly distressing</value>
+	<value code="3">Moderately distressing</value>
+	<value code="4">Severely distressing</value>
+	<value code="5">Extremely distressing or very severe</value>
+	<value code="N">Not Applicable</value>
+	<value code="U">Unavailable</value>
+</variable>
+
+<variable id="phv00088465.v1">
+	<name>frs19a</name>
+	<description>Cares about appearence - Frequency</description>
+	<type>encoded value</type>
+	<value code="1">Almost never</value>
+	<value code="2">Seldom</value>
+	<value code="3">Sometimes</value>
+	<value code="4">Frequently</value>
+	<value code="5">Almost always</value>
+	<value code="N">Not Applicable</value>
+	<value code="U">Unavailable</value>
+</variable>
+
+<variable id="phv00088466.v1">
+	<name>frs19b</name>
+	<description>Cares about appearence - Distress</description>
+	<type>encoded value</type>
+	<value code="1">Not at all distressing</value>
+	<value code="2">Mildly distressing</value>
+	<value code="3">Moderately distressing</value>
+	<value code="4">Severely distressing</value>
+	<value code="5">Extremely distressing or very severe</value>
+	<value code="N">Not Applicable</value>
+	<value code="U">Unavailable</value>
+</variable>
+
+<variable id="phv00088467.v1">
+	<name>frs20a</name>
+	<description>Involved w/activities spontaneously - Frequency</description>
+	<type>encoded value</type>
+	<value code="1">Almost never</value>
+	<value code="2">Seldom</value>
+	<value code="3">Sometimes</value>
+	<value code="4">Frequently</value>
+	<value code="5">Almost always</value>
+	<value code="N">Not Applicable</value>
+	<value code="U">Unavailable</value>
+</variable>
+
+<variable id="phv00088468.v1">
+	<name>frs20b</name>
+	<description>Involved w/activities spontaneously - Distress</description>
+	<type>encoded value</type>
+	<value code="1">Not at all distressing</value>
+	<value code="2">Mildly distressing</value>
+	<value code="3">Moderately distressing</value>
+	<value code="4">Severely distressing</value>
+	<value code="5">Extremely distressing or very severe</value>
+	<value code="N">Not Applicable</value>
+	<value code="U">Unavailable</value>
+</variable>
+
+<variable id="phv00088469.v1">
+	<name>frs21a</name>
+	<description>Does things w/out being requested - Frequency</description>
+	<type>encoded value</type>
+	<value code="1">Almost never</value>
+	<value code="2">Seldom</value>
+	<value code="3">Sometimes</value>
+	<value code="4">Frequently</value>
+	<value code="5">Almost always</value>
+	<value code="N">Not Applicable</value>
+	<value code="U">Unavailable</value>
+</variable>
+
+<variable id="phv00088470.v1">
+	<name>frs21b</name>
+	<description>Does things w/out being requested - Distress</description>
+	<type>encoded value</type>
+	<value code="1">Not at all distressing</value>
+	<value code="2">Mildly distressing</value>
+	<value code="3">Moderately distressing</value>
+	<value code="4">Severely distressing</value>
+	<value code="5">Extremely distressing or very severe</value>
+	<value code="N">Not Applicable</value>
+	<value code="U">Unavailable</value>
+</variable>
+
+<variable id="phv00088471.v1">
+	<name>frs22a</name>
+	<description>Gets along well w/others - Frequency</description>
+	<type>encoded value</type>
+	<value code="1">Almost never</value>
+	<value code="2">Seldom</value>
+	<value code="3">Sometimes</value>
+	<value code="4">Frequently</value>
+	<value code="5">Almost always</value>
+	<value code="N">Not Applicable</value>
+	<value code="U">Unavailable</value>
+</variable>
+
+<variable id="phv00088472.v1">
+	<name>frs22b</name>
+	<description>Gets along well w/others - Distress</description>
+	<type>encoded value</type>
+	<value code="1">Not at all distressing</value>
+	<value code="2">Mildly distressing</value>
+	<value code="3">Moderately distressing</value>
+	<value code="4">Severely distressing</value>
+	<value code="5">Extremely distressing or very severe</value>
+	<value code="N">Not Applicable</value>
+	<value code="U">Unavailable</value>
+</variable>
+
+<variable id="phv00088473.v1">
+	<name>frs23a</name>
+	<description>Acts appropriately for age - Frequency</description>
+	<type>encoded value</type>
+	<value code="1">Almost never</value>
+	<value code="2">Seldom</value>
+	<value code="3">Sometimes</value>
+	<value code="4">Frequently</value>
+	<value code="5">Almost always</value>
+	<value code="N">Not Applicable</value>
+	<value code="U">Unavailable</value>
+</variable>
+
+<variable id="phv00088474.v1">
+	<name>frs23b</name>
+	<description>Acts appropriately for age - Distress</description>
+	<type>encoded value</type>
+	<value code="1">Not at all distressing</value>
+	<value code="2">Mildly distressing</value>
+	<value code="3">Moderately distressing</value>
+	<value code="4">Severely distressing</value>
+	<value code="5">Extremely distressing or very severe</value>
+	<value code="N">Not Applicable</value>
+	<value code="U">Unavailable</value>
+</variable>
+
+<variable id="phv00088475.v1">
+	<name>frs24a</name>
+	<description>Starts conversations spontaneously - Frequency</description>
+	<type>encoded value</type>
+	<value code="1">Almost never</value>
+	<value code="2">Seldom</value>
+	<value code="3">Sometimes</value>
+	<value code="4">Frequently</value>
+	<value code="5">Almost always</value>
+	<value code="N">Not Applicable</value>
+	<value code="U">Unavailable</value>
+</variable>
+
+<variable id="phv00088476.v1">
+	<name>frs24b</name>
+	<description>Starts conversations spontaneously - Distress</description>
+	<type>encoded value</type>
+	<value code="1">Not at all distressing</value>
+	<value code="2">Mildly distressing</value>
+	<value code="3">Moderately distressing</value>
+	<value code="4">Severely distressing</value>
+	<value code="5">Extremely distressing or very severe</value>
+	<value code="N">Not Applicable</value>
+	<value code="U">Unavailable</value>
+</variable>
+
+<variable id="phv00088477.v1">
+	<name>frsfrq</name>
+	<description>Frequency - total</description>
+	<type>integer</type>
+</variable>
+
+<variable id="phv00088478.v1">
+	<name>frsdist</name>
+	<description>Distress - total</description>
+	<type>integer</type>
+</variable>
+
+</data_table>

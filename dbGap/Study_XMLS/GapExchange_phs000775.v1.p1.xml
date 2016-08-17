@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GaPExchange xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="./dbGaPEx2.1.5.xsd">
+
+<MetaVariables>
+	<Submitter/>
+	<Method/>
+</MetaVariables>
+<MetaLinks/>
+
+<Projects>
+	<Project/>
+</Projects>
+
+<Studies>
+
+<Study source="dbGaP" accession="phs000775.v1.p1" parentStudy="phs000775.v1.p1" createDate="2014-07-07" modDate="2014-07-07">
+
+<Configuration>
+	<Data_Provider><![CDATA[
+		<table border="1">
+		<tr><th>Title</th><th>Name</th><th>Institute</th></tr>
+		<tr><td>Principal Investigator</td><td>Alan R. Sanders, MD</td><td>NorthShore University HealthSystem, Evanston, IL, USA</td></tr>
+		<tr><td>Funding Source</td><td>RC2MH090030</td><td>National Institutes of Mental Health, Bethesda, MD, USA</td></tr>
+		</table>
+	]]></Data_Provider>
+	<StudyNameEntrez>Joint Genome-Wide Gene Expression and GWAS Mapping in the MGS Dataset</StudyNameEntrez>
+	<StudyNameReportPage>Transcriptome study of differential expression in schizophrenia</StudyNameReportPage>
+	<StudyTypes>
+		<StudyType>Case-Control</StudyType>
+	</StudyTypes>
+	<Description><![CDATA[
+<p>Schizophrenia is a common and severe psychotic disorder. While some common SNPs and rare copy number variants have been identified as being significantly associated with disease risk, the biological mechanisms remain undefined. To identify gene expression abnormalities in schizophrenia, we generated whole-genome gene expression profiles using microarrays on lymphoblastoid cell lines from a total of 413 cases and 446 controls. Regression analysis identified 95 transcripts differentially expressed by affection status at a genome-wide false discovery rate of 0.05, while simultaneously controlling for confounding effects. These transcripts represented 89 genes with functions such as neurotransmission, gene regulation, cell cycle progression, differentiation, apoptosis, and immunity. The observed differential expression of extended major histocompatibility complex region genes converges with the genetic evidence from schizophrenia genome-wide association studies, which find the same region to be the most significant schizophrenia susceptibility locus. Our analysis also provides novel candidate genes for further study to assess their potential contribution to schizophrenia.</p>]]>
+	</Description>
+	<StudyInEx><![CDATA[
+<p>These are described in detail in the following manuscript and its supplementary materials: Sanders AR, Goring HH, Duan J, Drigalenko EI, Moy W, Freda J, He D, Shi J; MGS, Gejman PV. Transcriptome study of differential expression in schizophrenia. Hum Mol Genet. 2013 Dec 15;22(24):5001-14. doi: 10.1093/hmg/ddt350. Epub 2013 Jul 30. PMID: 23904455 </p>]]>
+	</StudyInEx>
+	<StudyProjects>
+		<Project/>
+	</StudyProjects>
+	<Publications>
+		<Publication>
+			<Pubmed pmid="23904455"/>
+		</Publication>
+	</Publications>
+	<Diseases>
+		<Disease vocab_source="MESH" vocab_term="Schizophrenia"/>
+	</Diseases>
+	<Attributions>
+		<Header title="Principal Investigator">
+			<AttName>Alan R. Sanders, MD</AttName>
+			<Institution>NorthShore University HealthSystem, Evanston, IL, USA</Institution>
+		</Header>
+		<Header title="Funding Source">
+			<AttName>RC2MH090030</AttName>
+			<Institution>National Institutes of Mental Health, Bethesda, MD, USA</Institution>
+		</Header>
+	</Attributions>
+	<DisplayPublicSummary>yes</DisplayPublicSummary>
+	<ConsentGroups>
+		<ConsentGroup groupNum="1" shortName="GRU" longName="General Research Use"/>
+		<ConsentGroup groupNum="2" shortName="DS-PD-RSC" longName="Disease-Specific (Psychiatric Disorders and Related Somatic Conditions)"/>
+	</ConsentGroups>
+</Configuration>
+
+  <AuthorizedAccess>
+    <DacInfo ssDacId="0">
+      <DacName>NIMH</DacName>
+      <DacFullName>NIMH</DacFullName>
+      <DacEmail>0</DacEmail>
+      <DacPhone></DacPhone>
+      <DacUrl></DacUrl>
+    </DacInfo>
+    <Policy Policy_ID="phs000775.v1.p1_policy" ref_ssDacId="0">
+      <DisplayResearchStatement>yes</DisplayResearchStatement>
+      <DisplayPublicSummary>yes</DisplayPublicSummary>
+      <EmbargoLength>0</EmbargoLength>
+      <YearsUntilRenewal>1</YearsUntilRenewal>
+      <WeeksCancelRequest>8</WeeksCancelRequest>
+      <PdfSupplementReqired>no</PdfSupplementReqired>
+      <AcknowledgementText>
+        <para>
+          http://dbgap.ncbi.nlm.nih.gov/aa/wga.cgi?page=DUC&amp;view_pdf&amp;stacc=phs000775.v1.p1
+        </para>
+      </AcknowledgementText>
+      <DocumentSet>
+        <DataUseCertificate Label="Data Use Certificate" FilePath="https://dbgap.ncbi.nlm.nih.gov/aa/wga.cgi?page=DUC&amp;view_pdf&amp;stacc=phs000775.v1.p1" FileName="2014_0630_DUC_A-Sanders_RC2MH090030.pdf"/>
+      </DocumentSet>
+    </Policy>
+    <ConsentGroups>
+      <ParticipantSet groupNum-REF="1">
+        <ConsentName>General Research Use</ConsentName>
+        <ConsentAbbrev>GRU</ConsentAbbrev>
+        <UseLimitation>Use of the data is limited only by the terms of the model Data Use Certification.</UseLimitation>
+        <IrbRequired>No</IrbRequired>
+      </ParticipantSet>
+      <ParticipantSet groupNum-REF="2">
+        <ConsentName>Disease-Specific (Psychiatric Disorders and Related Somatic Conditions)</ConsentName>
+        <ConsentAbbrev>DS-PD-RSC</ConsentAbbrev>
+        <UseLimitation>Use of the data must be related to Psychiatric Disorders and Related Somatic Conditions.</UseLimitation>
+        <IrbRequired>No</IrbRequired>
+      </ParticipantSet>
+    </ConsentGroups>
+  </AuthorizedAccess>
+
+
+</Study>
+
+</Studies>
+
+</GaPExchange>

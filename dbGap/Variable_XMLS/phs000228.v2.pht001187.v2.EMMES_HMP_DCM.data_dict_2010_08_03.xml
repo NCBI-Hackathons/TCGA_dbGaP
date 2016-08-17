@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./datadict_v2.xsl"?>
+<data_table id="pht001187.v2" study_id="phs000228.v2" participant_set="1" date_created="Tue Aug  3 17:16:47 2010">
+
+<unique_key phv="00089430" version="2">PROT</unique_key>
+<unique_key phv="00089431" version="2">RANDSID</unique_key>
+<unique_key phv="00089432" version="2">PROTSEG</unique_key>
+<unique_key phv="00089433" version="2">MEDNUM</unique_key>
+<unique_key phv="00089438" version="2">SITE</unique_key>
+
+<variable id="phv00089430.v2">
+	<name>PROT</name>
+	<description>Protocol</description>
+	<type>Encoded</type>
+	<value code="7001">7001</value>
+</variable>
+
+<variable id="phv00089431.v2">
+	<name>RANDSID</name>
+	<description>Random ID for Patid</description>
+	<type>Integer</type>
+</variable>
+
+<variable id="phv00089432.v2">
+	<name>PROTSEG</name>
+	<description>Protocol Segment</description>
+	<type>Encoded</type>
+	<value code="A">A</value>
+</variable>
+
+<variable id="phv00089433.v2">
+	<name>MEDNUM</name>
+	<description>Medication number</description>
+	<type>Integer, encoded value</type>
+	<logical_min>1</logical_min>
+	<logical_max>50</logical_max>
+	<comment>Medication number is used as a unique field identifier to allow submission of multiple medications for a single subject</comment>
+	<value code="001">1</value>
+	<value code="002">2</value>
+	<value code="003">3</value>
+	<value code="004">4</value>
+	<value code="005">5</value>
+	<value code="006">6</value>
+	<value code="007">7</value>
+	<value code="008">8</value>
+	<value code="009">9</value>
+	<value code="010">10</value>
+	<value code="011">11</value>
+	<value code="012">12</value>
+	<value code="013">13</value>
+	<value code="014">14</value>
+	<value code="015">15</value>
+	<value code="016">16</value>
+	<value code="017">17</value>
+	<value code="018">18</value>
+	<value code="019">19</value>
+	<value code="020">20</value>
+	<value code="021">21</value>
+	<value code="022">22</value>
+	<value code="023">23</value>
+	<value code="024">24</value>
+	<value code="025">25</value>
+	<value code="026">26</value>
+	<value code="027">27</value>
+	<value code="028">28</value>
+	<value code="029">29</value>
+	<value code="030">30</value>
+	<value code="031">31</value>
+	<value code="032">32</value>
+	<value code="033">33</value>
+	<value code="034">34</value>
+	<value code="035">35</value>
+	<value code="036">36</value>
+	<value code="037">37</value>
+	<value code="038">38</value>
+	<value code="039">39</value>
+	<value code="040">40</value>
+	<value code="041">41</value>
+	<value code="042">42</value>
+	<value code="043">43</value>
+	<value code="044">44</value>
+	<value code="045">45</value>
+	<value code="046">46</value>
+	<value code="047">47</value>
+	<value code="048">48</value>
+	<value code="049">49</value>
+	<value code="050">50</value>
+</variable>
+
+<variable id="phv00089434.v2">
+	<name>DCMCODE</name>
+	<description>Medication code</description>
+	<type>Integer, encoded value</type>
+	<logical_min>1</logical_min>
+	<logical_max>99</logical_max>
+	<value code="01">1=Analgesics/NSAIDS</value>
+	<value code="02">2=Anesthetics</value>
+	<value code="03">3=Antacids/H2 antagonists</value>
+	<value code="04">4=Anti-acne</value>
+	<value code="05">5=Anti-asthma/bronchodilators</value>
+	<value code="06">6=Anti-cholesterol/Anti-hyperlipidemic</value>
+	<value code="07">7=Anti-coagulants</value>
+	<value code="08">8=Antibiotics/(anti)-infectives, parasitics, microbials</value>
+	<value code="09">9=Antidepressants/mood-altering drugs</value>
+	<value code="10">10=Antihistamines/Decongestants</value>
+	<value code="11">11=Antihypertensives</value>
+	<value code="12">12=Cardiovascular, other than hyperlipidemic/HTN</value>
+	<value code="13">13=Contraceptives (oral, implant, injectable)</value>
+	<value code="14">14=Emergency/support medications</value>
+	<value code="15">15=Endocrine/Metabolic agents</value>
+	<value code="16">16=GI meds (anti-diarrheal, emetic, spasmodics)</value>
+	<value code="17">17=Herbal/homeopathic products</value>
+	<value code="18">18=Hormones/steroids</value>
+	<value code="19">19=OTC cold &amp; flu</value>
+	<value code="20">20=Vaccine prophylaxis</value>
+	<value code="21">21=Vitamins, minerals, food supplements</value>
+	<value code="99">99=Other</value>
+</variable>
+
+<variable id="phv00089435.v2">
+	<name>DCMIND</name>
+	<description>Indication</description>
+	<type>String</type>
+</variable>
+
+<variable id="phv00089436.v2">
+	<name>DCMONGO</name>
+	<description>Medication ongoing</description>
+	<type>Integer, encoded value</type>
+	<logical_min>0</logical_min>
+	<logical_max>1</logical_max>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00089437.v2">
+	<name>DCMDAYS</name>
+	<description>Duration of medication</description>
+	<type>Integer</type>
+	<unit>days</unit>
+	<logical_min>0</logical_min>
+	<logical_max>9999999999</logical_max>
+</variable>
+
+<variable id="phv00089438.v2">
+	<name>SITE</name>
+	<description>Site</description>
+	<type>String</type>
+	<value code="Houston">Houston</value>
+	<value code="St. Louis">St. Louis</value>
+</variable>
+
+<variable id="phv00089439.v2">
+	<name>MSTART</name>
+	<description>Medication start period relative to enrollment (days)</description>
+	<type>Integer</type>
+	<unit>days</unit>
+	<logical_min>-9999999999</logical_min>
+	<logical_max>9999999999</logical_max>
+	<comment>&#39;Gated field&#39;, defined as a data that will not be released to dbGaP until all subjects have been enrolled, and data is reviewed to confirm that there is no possibility of subject identification.</comment>
+</variable>
+
+<variable id="phv00089440.v2">
+	<name>DCMESTD</name>
+	<description>Medication start period is estimated</description>
+	<type>Integer, encoded value</type>
+	<logical_min>0</logical_min>
+	<logical_max>1</logical_max>
+	<comment>&#39;Gated field&#39;, defined as a data that will not be released to dbGaP until all subjects have been enrolled, and data is reviewed to confirm that there is no possibility of subject identification.</comment>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00089441.v2">
+	<name>MSTOP</name>
+	<description>Medication stop period relative to enrollment (days)</description>
+	<type>Integer</type>
+	<unit>days</unit>
+	<logical_min>-9999999999</logical_min>
+	<logical_max>9999999999</logical_max>
+	<comment>&#39;Gated field&#39;, defined as a data that will not be released to dbGaP until all subjects have been enrolled, and data is reviewed to confirm that there is no possibility of subject identification.</comment>
+</variable>
+
+<variable id="phv00089442.v2">
+	<name>PREFERRED_NAME</name>
+	<description>Medication name</description>
+	<type>String</type>
+	<comment>&#39;Gated field&#39;, defined as a data that will not be released to dbGaP until all subjects have been enrolled, and data is reviewed to confirm that there is no possibility of subject identification.</comment>
+</variable>
+
+<variable id="phv00089443.v2">
+	<name>PREFERRED_CODE</name>
+	<description>Medication code</description>
+	<type>String</type>
+	<comment>&#39;Gated field&#39;, defined as a data that will not be released to dbGaP until all subjects have been enrolled, and data is reviewed to confirm that there is no possibility of subject identification.</comment>
+</variable>
+
+<variable id="phv00089444.v2">
+	<name>ATC4_TERMS</name>
+	<description>World Health Org. drug term to be done at study conclusion</description>
+	<type>String</type>
+	<comment>&#39;Gated field&#39;, defined as a data that will not be released to dbGaP until all subjects have been enrolled, and data is reviewed to confirm that there is no possibility of subject identification.</comment>
+</variable>
+
+<variable id="phv00089445.v2">
+	<name>ATC4_CODES</name>
+	<description>World Health Org. drug code to be done at study conclusion</description>
+	<type>String</type>
+	<comment>&#39;Gated field&#39;, defined as a data that will not be released to dbGaP until all subjects have been enrolled, and data is reviewed to confirm that there is no possibility of subject identification.</comment>
+</variable>
+
+<variable id="phv00089446.v2">
+	<name>ATC3_TERMS</name>
+	<description>World Health Org. drug term to be done at study conclusion</description>
+	<type>String</type>
+	<comment>&#39;Gated field&#39;, defined as a data that will not be released to dbGaP until all subjects have been enrolled, and data is reviewed to confirm that there is no possibility of subject identification.</comment>
+</variable>
+
+<variable id="phv00089447.v2">
+	<name>ATC3_CODES</name>
+	<description>World Health Org. drug code to be done at study conclusion</description>
+	<type>String</type>
+	<comment>&#39;Gated field&#39;, defined as a data that will not be released to dbGaP until all subjects have been enrolled, and data is reviewed to confirm that there is no possibility of subject identification.</comment>
+</variable>
+
+<variable id="phv00089448.v2">
+	<name>ATC2_TERMS</name>
+	<description>World Health Org. drug term to be done at study conclusion</description>
+	<type>String</type>
+	<comment>&#39;Gated field&#39;, defined as a data that will not be released to dbGaP until all subjects have been enrolled, and data is reviewed to confirm that there is no possibility of subject identification.</comment>
+</variable>
+
+<variable id="phv00089449.v2">
+	<name>ATC2_CODES</name>
+	<description>World Health Org. drug code to be done at study conclusion</description>
+	<type>String</type>
+	<comment>&#39;Gated field&#39;, defined as a data that will not be released to dbGaP until all subjects have been enrolled, and data is reviewed to confirm that there is no possibility of subject identification.</comment>
+</variable>
+
+<variable id="phv00089450.v2">
+	<name>ATC1_TERMS</name>
+	<description>World Health Org. drug term to be done at study conclusion</description>
+	<type>String</type>
+	<comment>&#39;Gated field&#39;, defined as a data that will not be released to dbGaP until all subjects have been enrolled, and data is reviewed to confirm that there is no possibility of subject identification.</comment>
+</variable>
+
+<variable id="phv00089451.v2">
+	<name>ATC1_CODES</name>
+	<description>World Health Org. drug code to be done at study conclusion</description>
+	<type>String</type>
+	<comment>&#39;Gated field&#39;, defined as a data that will not be released to dbGaP until all subjects have been enrolled, and data is reviewed to confirm that there is no possibility of subject identification.</comment>
+</variable>
+
+<variable id="phv00089452.v2">
+	<name>DCMCOMM</name>
+	<description>Comments</description>
+	<type>String</type>
+	<comment>&#39;Gated field&#39;, defined as a data that will not be released to dbGaP until all subjects have been enrolled, and data is reviewed to confirm that there is no possibility of subject identification.</comment>
+</variable>
+
+</data_table>

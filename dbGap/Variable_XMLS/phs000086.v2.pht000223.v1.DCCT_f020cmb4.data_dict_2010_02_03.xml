@@ -1,0 +1,653 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./datadict_v2.xsl"?>
+<data_table id="pht000223.v1" study_id="phs000086.v2" participant_set="1" date_created="Wed Feb  3 09:17:57 2010">
+
+<variable id="phv00026987.v1">
+	<name>FSASDATE</name>
+	<description>Form date as SAS date value</description>
+	<type>long</type>
+</variable>
+
+<variable id="phv00026988.v1">
+	<name>FORM</name>
+	<description>DCCT form number</description>
+	<type>int</type>
+	<unit>FORM NUMBER</unit>
+</variable>
+
+<variable id="phv00026989.v1">
+	<name>BOCOMDAT</name>
+	<description>Date form for intercurrent event was completed</description>
+	<type>str6</type>
+</variable>
+
+<variable id="phv00026990.v1">
+	<name>BOLEARN</name>
+	<description>Date clinic learned of intercurrent event</description>
+	<type>str6</type>
+</variable>
+
+<variable id="phv00026991.v1">
+	<name>BOD7ADAT</name>
+	<description>Date of admission/start of treatment</description>
+	<type>str6</type>
+</variable>
+
+<variable id="phv00026992.v1">
+	<name>BOD7BDAT</name>
+	<description>Date of discharge or conclusion</description>
+	<type>str6</type>
+</variable>
+
+<variable id="phv00026993.v1">
+	<name>BOE2BDAT</name>
+	<description>Date diabetes treatment altered</description>
+	<type>str6</type>
+</variable>
+
+<variable id="phv00026994.v1">
+	<name>BOE2CDAT</name>
+	<description>Date of return to protocol-required treatment</description>
+	<type>str6</type>
+</variable>
+
+<variable id="phv00026995.v1">
+	<name>DUPOK</name>
+	<description>NOTE: DCC reports that this variable was used for internal data management and should be ignored by analysts.</description>
+	<type>str1</type>
+	<value code="D">(ALMOST) DUPLICATE FORM - SEE NOTE</value>
+</variable>
+
+<variable id="phv00026996.v1">
+	<name>BOCEE1</name>
+	<description>Intercurrent event - pregnancy related: birth weight (grams)</description>
+	<type>int</type>
+	<unit>GRAMS</unit>
+</variable>
+
+<variable id="phv00026997.v1">
+	<name>BOCEE2</name>
+	<description>Intercurrent event - pregnancy related: gestational age</description>
+	<type>byte</type>
+	<unit>WEEKS</unit>
+</variable>
+
+<variable id="phv00026998.v1">
+	<name>BOCEE3</name>
+	<description>Intercurrent event - pregnancy related: Apgar score</description>
+	<type>int</type>
+	<unit>APGARE SCORE</unit>
+</variable>
+
+<variable id="phv00026999.v1">
+	<name>BORANDOM</name>
+	<description>Has the patient been randomized</description>
+	<type>int</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+	<value code="2496">MISSING/ERROR VALUE</value>
+</variable>
+
+<variable id="phv00027000.v1">
+	<name>BOOCCUR</name>
+	<description>Date of intercurrent event uncertain  - Please note: Data entries other than &#39;1&#39; are likely to represent error values.</description>
+	<type>long</type>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00027001.v1">
+	<name>BOHOWLRN</name>
+	<description>How did clinic learn of intercurrent event</description>
+	<type>byte</type>
+	<value code="1">PATIENT/FAMILY/FRIEND CONTACTED CLINIC</value>
+	<value code="2">THIRD PARTY CONTACTED CLINIC</value>
+	<value code="3">CLINIC RECOGNIZED EVENT - CONTACTED PATIENT</value>
+	<value code="4">PATIENT INFORMS CLINIC AT FOLLOW-UP VISIT</value>
+	<value code="5">MISSING/ERROR VALUE</value>
+</variable>
+
+<variable id="phv00027002.v1">
+	<name>BOCA</name>
+	<description>Diabetic intercurrent event: ketoacidosis</description>
+	<type>byte</type>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00027003.v1">
+	<name>BOCB</name>
+	<description>Diabetic intercurrent event: hyperglycemic, hyperosmolar, non-ketotic coma</description>
+	<type>byte</type>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00027004.v1">
+	<name>BOCC</name>
+	<description>Diabetic intercurrent event: definite catastrophic hypoglycemia</description>
+	<type>byte</type>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00027005.v1">
+	<name>BOCD</name>
+	<description>Diabetic intercurrent event: suspected catastrophic hypoglycemia</description>
+	<type>byte</type>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00027006.v1">
+	<name>BOCE</name>
+	<description>Diabetic intercurrent event: definite severe hypoglycemia</description>
+	<type>byte</type>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00027007.v1">
+	<name>BOCF</name>
+	<description>Diabetic intercurrent event: suspected severe hypoglycemia</description>
+	<type>byte</type>
+	<value code="1">YES</value>
+	<value code="2">MISSING/ERROR VALUES</value>
+</variable>
+
+<variable id="phv00027008.v1">
+	<name>BOCG</name>
+	<description>Ocular intercurrent event: loss of vision</description>
+	<type>byte</type>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00027009.v1">
+	<name>BOCH</name>
+	<description>Ocular intercurrent event: high risk characteristics (HRC)</description>
+	<type>byte</type>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00027010.v1">
+	<name>BOCI</name>
+	<description>Ocular intercurrent event: ocular disease - other than retinopathy</description>
+	<type>byte</type>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00027011.v1">
+	<name>BOCJ</name>
+	<description>Ocular intercurrent event: photocoagulation</description>
+	<type>byte</type>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00027012.v1">
+	<name>BOCK</name>
+	<description>Cardiovascular intercurrent event: definite acute myocardial infarct</description>
+	<type>byte</type>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00027013.v1">
+	<name>BOCL</name>
+	<description>Cardiovascular intercurrent event: suspected acute myocardial infarct</description>
+	<type>byte</type>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00027014.v1">
+	<name>BOCM</name>
+	<description>Cardiovascular intercurrent event: angina pectoris</description>
+	<type>byte</type>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00027015.v1">
+	<name>BOCN</name>
+	<description>Cardiovascular intercurrent event: arrhythmia</description>
+	<type>byte</type>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00027016.v1">
+	<name>BOCO</name>
+	<description>Cardiovascular intercurrent event: congestive heart failure</description>
+	<type>byte</type>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00027017.v1">
+	<name>BOCP</name>
+	<description>Cardiovascular intercurrent event: initial diagnosis of hypertension</description>
+	<type>byte</type>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00027018.v1">
+	<name>BOCQ</name>
+	<description>Cardiovascular intercurrent event: CVA with permanent neurological deficit</description>
+	<type>byte</type>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00027019.v1">
+	<name>BOCR</name>
+	<description>Cardiovascular intercurrent event: CVA without permanent neurological deficit</description>
+	<type>byte</type>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00027020.v1">
+	<name>BOCS</name>
+	<description>Intercurrent event: renal insufficiency</description>
+	<type>byte</type>
+	<value code="0">MISSING/ERROR VALUE</value>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00027021.v1">
+	<name>BOCT</name>
+	<description>Intercurrent event: infusion catheter infection</description>
+	<type>byte</type>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00027022.v1">
+	<name>BOCU</name>
+	<description>Intercurrent event: amputation (traumatic)</description>
+	<type>byte</type>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00027023.v1">
+	<name>BOCV</name>
+	<description>Intercurrent event: amputation (surgical)</description>
+	<type>byte</type>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00027024.v1">
+	<name>BOCW</name>
+	<description>Intercurrent event: accident not requiring hospitalization</description>
+	<type>byte</type>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00027025.v1">
+	<name>BOCX</name>
+	<description>Intercurrent event: accident requiring hospitalization</description>
+	<type>byte</type>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00027026.v1">
+	<name>BOCY</name>
+	<description>Intercurrent event: overnight hospitalization</description>
+	<type>byte</type>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00027027.v1">
+	<name>BOCZ</name>
+	<description>Intercurrent event: psychiatric illness requiring treatment</description>
+	<type>byte</type>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00027028.v1">
+	<name>BOCAA</name>
+	<description>Intercurrent event: other</description>
+	<type>byte</type>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00027029.v1">
+	<name>BOCBB</name>
+	<description>Intercurrent event - pregnancy related: pregnancy (completed when diagnosed)</description>
+	<type>byte</type>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00027030.v1">
+	<name>BOCCC</name>
+	<description>Intercurrent event - pregnancy related: abortion (spontaneous)</description>
+	<type>byte</type>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00027031.v1">
+	<name>BOCDD</name>
+	<description>Intercurrent event - pregnancy related: abortion (induced)</description>
+	<type>byte</type>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00027032.v1">
+	<name>BOCFF</name>
+	<description>Intercurrent event - pregnancy related: alive with congenital malformation</description>
+	<type>byte</type>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00027033.v1">
+	<name>BOCGG</name>
+	<description>Intercurrent event - pregnancy related: alive without congenital malformation</description>
+	<type>byte</type>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00027034.v1">
+	<name>BOCHH</name>
+	<description>Intercurrent event - pregnancy related: neonatal death/congenital malformation</description>
+	<type>byte</type>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00027035.v1">
+	<name>BOCII</name>
+	<description>Intercurrent event - pregnancy related: neonatal death/other complications</description>
+	<type>byte</type>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00027036.v1">
+	<name>BOCJJ</name>
+	<description>Intercurrent event - pregnancy related: still birth/congenital malformation</description>
+	<type>byte</type>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00027037.v1">
+	<name>BOCKK</name>
+	<description>Intercurrent event - pregnancy related: still birth/other complications</description>
+	<type>byte</type>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00027038.v1">
+	<name>BOCKKA</name>
+	<description>Response to central notification</description>
+	<type>byte</type>
+	<value code="1">YES</value>
+	<value code="2">MISSING/ERROR VALUES</value>
+</variable>
+
+<variable id="phv00027039.v1">
+	<name>BOCLL</name>
+	<description>Notification of pre-proliferative (retinopathy) characteristics</description>
+	<type>byte</type>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00027040.v1">
+	<name>BOCMM</name>
+	<description>Notification of significant macular edema</description>
+	<type>byte</type>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00027041.v1">
+	<name>BOCNN</name>
+	<description>Notification of hypercholesterolemia</description>
+	<type>byte</type>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00027042.v1">
+	<name>BOCOO</name>
+	<description>Notification of hypertriglyceridemia</description>
+	<type>byte</type>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00027043.v1">
+	<name>BOCPP</name>
+	<description>Notification of neuropsychological deterioration</description>
+	<type>byte</type>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00027044.v1">
+	<name>BOC3A</name>
+	<description>Symptoms of hypoglycemia: death</description>
+	<type>byte</type>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00027045.v1">
+	<name>BOC3B</name>
+	<description>Symptoms of hypoglycemia: neurological insult requiring hospitalization</description>
+	<type>byte</type>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00027046.v1">
+	<name>BOC3C</name>
+	<description>Symptoms of hypoglycemia: myocardial infarct</description>
+	<type>byte</type>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00027047.v1">
+	<name>BOC3D</name>
+	<description>Symptoms of hypoglycemia: stroke</description>
+	<type>byte</type>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00027048.v1">
+	<name>BOC3E</name>
+	<description>Symptoms of hypoglycemia: injury to the patient requiring hospitalization</description>
+	<type>byte</type>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00027049.v1">
+	<name>BOC3F</name>
+	<description>Symptoms of hypoglycemia: injury to another person</description>
+	<type>byte</type>
+	<value code="1">YES</value>
+	<value code="2">MISSING/ERROR VALUES</value>
+</variable>
+
+<variable id="phv00027050.v1">
+	<name>BOC3G</name>
+	<description>Symptoms of hypoglycemia: property damage</description>
+	<type>byte</type>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00027051.v1">
+	<name>BOC3H</name>
+	<description>Symptoms of hypoglycemia: traffic violation</description>
+	<type>byte</type>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00027052.v1">
+	<name>BOC3I</name>
+	<description>Symptoms of hypoglycemia: loss of consciousness</description>
+	<type>byte</type>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00027053.v1">
+	<name>BOC3J</name>
+	<description>Symptoms of hypoglycemia: seizure</description>
+	<type>byte</type>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00027054.v1">
+	<name>BOC3K</name>
+	<description>Symptoms of hypoglycemia: suspected seizure</description>
+	<type>byte</type>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00027055.v1">
+	<name>BOC3L</name>
+	<description>Symptoms of hypoglycemia: unusual difficulty in awakening</description>
+	<type>byte</type>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00027056.v1">
+	<name>BOC3M</name>
+	<description>Symptoms of hypoglycemia: irrational behavior</description>
+	<type>byte</type>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00027057.v1">
+	<name>BOC3N</name>
+	<description>Symptoms of hypoglycemia: uncontrollable behavior</description>
+	<type>byte</type>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00027058.v1">
+	<name>BOC3O</name>
+	<description>Symptoms of hypoglycemia: confusion</description>
+	<type>byte</type>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00027059.v1">
+	<name>BOC3P</name>
+	<description>Symptoms of hypoglycemia: memory loss</description>
+	<type>byte</type>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00027060.v1">
+	<name>BOC3Q</name>
+	<description>Other signs of hypoglycemia (specify)</description>
+	<type>byte</type>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00027061.v1">
+	<name>BOD1A</name>
+	<description>Intercurrent event treated at: emergency room</description>
+	<type>byte</type>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00027062.v1">
+	<name>BOD1B</name>
+	<description>Intercurrent event treated at: hospital inpatient ward</description>
+	<type>byte</type>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00027063.v1">
+	<name>BOD1C</name>
+	<description>Intercurrent event treated at: office visit</description>
+	<type>byte</type>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00027064.v1">
+	<name>BOD1D</name>
+	<description>Intercurrent event treated at: long-term care institution</description>
+	<type>byte</type>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00027065.v1">
+	<name>BOD1F</name>
+	<description>Intercurrent event treated at: other - specify</description>
+	<type>byte</type>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00027066.v1">
+	<name>BOD2</name>
+	<description>DCCT staff treated patient for this event</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+</variable>
+
+<variable id="phv00027067.v1">
+	<name>BOD3</name>
+	<description>Medication was prescribed</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+</variable>
+
+<variable id="phv00027068.v1">
+	<name>BOD4</name>
+	<description>Surgical operation has been performed</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+</variable>
+
+<variable id="phv00027069.v1">
+	<name>BOD5</name>
+	<description>Patient received psychiatric counseling</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+</variable>
+
+<variable id="phv00027070.v1">
+	<name>BOD6</name>
+	<description>Other forms of treatment were used for event</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+</variable>
+
+<variable id="phv00027071.v1">
+	<name>BOD7BI</name>
+	<description>Treatment is still in progress</description>
+	<type>long</type>
+	<value code="1">YES</value>
+	<value code="102400">ERROR VALUE</value>
+</variable>
+
+<variable id="phv00027072.v1">
+	<name>BOE1</name>
+	<description>Diabetic control has been influenced</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+	<value code="3">UNKNOWN</value>
+</variable>
+
+<variable id="phv00027073.v1">
+	<name>BOE2</name>
+	<description>Diabetic treatment has been altered</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+</variable>
+
+<variable id="phv00027074.v1">
+	<name>BOE2BII</name>
+	<description>Date treatment was altered uncertain</description>
+	<type>byte</type>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00027075.v1">
+	<name>BOE2CII</name>
+	<description>Patient not yet returned to usual treatment</description>
+	<type>byte</type>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00027076.v1">
+	<name>HOSPTX</name>
+	<description>Hospitalized for glycemic control</description>
+	<type>byte</type>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00027077.v1">
+	<name>MASK_PAT</name>
+	<description>Patient ID number</description>
+	<type>int</type>
+</variable>
+
+</data_table>

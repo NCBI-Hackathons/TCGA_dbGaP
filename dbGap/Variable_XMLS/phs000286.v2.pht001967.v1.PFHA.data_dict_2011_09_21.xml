@@ -1,0 +1,731 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./datadict_v2.xsl"?>
+<data_table id="pht001967.v1" study_id="phs000286.v2" participant_set="1" date_created="Wed Sep 21 16:52:30 2011">
+
+<variable id="phv00128084.v1">
+	<name>Individual_ID</name>
+	<description>Subject Identifier</description>
+	<type>string</type>
+</variable>
+
+<variable id="phv00128085.v1">
+	<name>VISIT</name>
+	<description>CONTACT OCCASION</description>
+	<type>encoded</type>
+	<comment>Please find encoded value descriptions in associated documents. Some of the values might be encoded and code descriptions have not been submitted at this time.</comment>
+</variable>
+
+<variable id="phv00128086.v1">
+	<name>PFHA1</name>
+	<description>1: Health comparable to others</description>
+	<type>encoded</type>
+	<comment>Please find encoded value descriptions in associated documents. Some of the values might be encoded and code descriptions have not been submitted at this time.</comment>
+	<value code="E">Excellent</value>
+	<value code="F">Fair</value>
+	<value code="G">Good</value>
+</variable>
+
+<variable id="phv00128087.v1">
+	<name>PFHA2A</name>
+	<description>2a: Has doctor said you have high blood pressure?</description>
+	<type>encoded</type>
+	<value code="D">Don&#39;t know</value>
+	<value code="N">No</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00128088.v1">
+	<name>PFHA2B</name>
+	<description>2b: Age when told you had high blood pressure?</description>
+	<type>integer</type>
+	<unit>Years old</unit>
+	<logical_min>5</logical_min>
+	<logical_max>86</logical_max>
+</variable>
+
+<variable id="phv00128089.v1">
+	<name>PFHA3A</name>
+	<description>3a: Doctor said you have high blood cholesterol?</description>
+	<type>encoded</type>
+	<value code="D">Don&#39;t know</value>
+	<value code="N">No</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00128090.v1">
+	<name>PFHA3B</name>
+	<description>3b: Age when told you had high blood cholesterol?</description>
+	<type>integer</type>
+	<unit>Years old</unit>
+	<logical_min>19</logical_min>
+	<logical_max>97</logical_max>
+</variable>
+
+<variable id="phv00128091.v1">
+	<name>PFHA4A</name>
+	<description>4a: Has doctor said you had Heart attack?</description>
+	<type>encoded</type>
+	<value code="D">Don&#39;t know</value>
+	<value code="N">No</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00128092.v1">
+	<name>PFHA4B</name>
+	<description>4b: Age when told you had heart attack?</description>
+	<type>integer</type>
+	<unit>Years old</unit>
+	<logical_min>9</logical_min>
+	<logical_max>80</logical_max>
+</variable>
+
+<variable id="phv00128093.v1">
+	<name>PFHA5A</name>
+	<description>5a: Has doctor said you had Stroke?</description>
+	<type>encoded</type>
+	<value code="D">Don&#39;t know</value>
+	<value code="N">No</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00128094.v1">
+	<name>PFHA5B</name>
+	<description>5b: Age when told you had stroke?</description>
+	<type>integer</type>
+	<unit>Years old</unit>
+	<logical_min>1</logical_min>
+	<logical_max>888</logical_max>
+</variable>
+
+<variable id="phv00128095.v1">
+	<name>PFHA6A</name>
+	<description>6a: Had doctor said you had Sugar/diabetes?</description>
+	<type>encoded</type>
+	<value code="D">Don&#39;t know</value>
+	<value code="N">No</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00128096.v1">
+	<name>PFHA6B</name>
+	<description>6b: Age told you had diabetes?</description>
+	<type>integer</type>
+	<unit>Years old</unit>
+	<logical_min>9</logical_min>
+	<logical_max>78</logical_max>
+</variable>
+
+<variable id="phv00128097.v1">
+	<name>PFHA7A</name>
+	<description>7a: Has doctor told you had Kidney problem?</description>
+	<type>encoded</type>
+	<value code="D">Don&#39;t know</value>
+	<value code="N">No</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00128098.v1">
+	<name>PFHA7B</name>
+	<description>7b: Age when told had kidney problems?</description>
+	<type>integer</type>
+	<unit>Years old</unit>
+	<logical_min>4</logical_min>
+	<logical_max>82</logical_max>
+</variable>
+
+<variable id="phv00128099.v1">
+	<name>PFHA8A</name>
+	<description>8a: Had doctor told you had Cancer?</description>
+	<type>encoded</type>
+	<value code="D">Don&#39;t know</value>
+	<value code="N">No</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00128100.v1">
+	<name>PFHA8B</name>
+	<description>8b: Age told you had cancer?</description>
+	<type>integer</type>
+	<unit>Years old</unit>
+	<logical_min>3</logical_min>
+	<logical_max>89</logical_max>
+</variable>
+
+<variable id="phv00128101.v1">
+	<name>PFHA9A</name>
+	<description>9a: Doctor said you had Chronic lung disease?</description>
+	<type>encoded</type>
+	<value code="D">Don&#39;t know</value>
+	<value code="N">No</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00128102.v1">
+	<name>PFHA9B</name>
+	<description>9b: Age told you had chronic lung disease?</description>
+	<type>integer</type>
+	<unit>Years old</unit>
+	<logical_min>2</logical_min>
+	<logical_max>78</logical_max>
+</variable>
+
+<variable id="phv00128103.v1">
+	<name>PFHA10A</name>
+	<description>10a: Has doctor said you have Asthma?</description>
+	<type>encoded</type>
+	<value code="D">Don&#39;t know</value>
+	<value code="N">No</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00128104.v1">
+	<name>PFHA10B</name>
+	<description>10b: Age when told this</description>
+	<type>integer</type>
+	<unit>Years old</unit>
+	<logical_min>0</logical_min>
+	<logical_max>81</logical_max>
+</variable>
+
+<variable id="phv00128105.v1">
+	<name>PFHA11A</name>
+	<description>11a: Has doctor said you have poor blood circulation?</description>
+	<type>encoded</type>
+	<value code="D">Don&#39;t know</value>
+	<value code="N">No</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00128106.v1">
+	<name>PFHA11B</name>
+	<description>11b: Age when told this</description>
+	<type>integer</type>
+	<unit>Years old</unit>
+	<logical_min>9</logical_min>
+	<logical_max>83</logical_max>
+</variable>
+
+<variable id="phv00128107.v1">
+	<name>PFHA12A</name>
+	<description>12a: During year stayed overnight in hospital?</description>
+	<type>encoded</type>
+	<value code="N">No</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00128108.v1">
+	<name>PFHA12B</name>
+	<description>12b: Reason stayed in hospital</description>
+	<type>string</type>
+</variable>
+
+<variable id="phv00128109.v1">
+	<name>PFHA13</name>
+	<description>13: Is natural mother alive?</description>
+	<type>encoded</type>
+	<value code="D">Don&#39;t know</value>
+	<value code="N">No</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00128110.v1">
+	<name>PFHA14</name>
+	<description>14: Mom&#39;s age at death?</description>
+	<type>integer</type>
+	<unit>Years old</unit>
+	<logical_min>16</logical_min>
+	<logical_max>110</logical_max>
+</variable>
+
+<variable id="phv00128111.v1">
+	<name>PFHA15A</name>
+	<description>15a: Cause of Mother&#39;s death</description>
+	<type>encoded</type>
+	<value code="A">Heart attack</value>
+	<value code="C">Cancer</value>
+	<value code="O">Other (Specify)</value>
+	<value code="S">Stroke</value>
+	<value code="U">Unknown</value>
+</variable>
+
+<variable id="phv00128112.v1">
+	<name>PFHA15B</name>
+	<description>15b: Specify:</description>
+	<type>string</type>
+</variable>
+
+<variable id="phv00128113.v1">
+	<name>PFHA16</name>
+	<description>16: Mom&#39;s age</description>
+	<type>integer</type>
+	<unit>Years old</unit>
+	<logical_min>36</logical_min>
+	<logical_max>105</logical_max>
+</variable>
+
+<variable id="phv00128114.v1">
+	<name>PFHA17</name>
+	<description>17: Do mother have/had Cancer?</description>
+	<type>encoded</type>
+	<value code="D">Don&#39;t know</value>
+	<value code="N">No</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00128115.v1">
+	<name>PFHA18</name>
+	<description>18: Do mother have/had Diabetes?</description>
+	<type>encoded</type>
+	<value code="D">Don&#39;t know</value>
+	<value code="N">No</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00128116.v1">
+	<name>PFHA19A</name>
+	<description>19a: Do mother have/had High Blood Pressure?</description>
+	<type>encoded</type>
+	<value code="D">Don&#39;t know</value>
+	<value code="N">No</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00128117.v1">
+	<name>PFHA19B</name>
+	<description>19b: Age mother told had High Blood Pressure?</description>
+	<type>integer</type>
+	<unit>Years old</unit>
+	<logical_min>14</logical_min>
+	<logical_max>90</logical_max>
+</variable>
+
+<variable id="phv00128118.v1">
+	<name>PFHA20A</name>
+	<description>20a: Have mother had stroke?</description>
+	<type>encoded</type>
+	<value code="D">Don&#39;t know</value>
+	<value code="N">No</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00128119.v1">
+	<name>PFHA20B</name>
+	<description>20b: Age of mother when had stroke?</description>
+	<type>integer</type>
+	<unit>Years old</unit>
+	<logical_min>19</logical_min>
+	<logical_max>108</logical_max>
+</variable>
+
+<variable id="phv00128120.v1">
+	<name>PFHA21A</name>
+	<description>21a: Doctor said mother had heart disease?</description>
+	<type>encoded</type>
+	<value code="D">Don&#39;t know</value>
+	<value code="N">No</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00128121.v1">
+	<name>PFHA21B</name>
+	<description>21b: Mother age when told had heart disease?</description>
+	<type>integer</type>
+	<logical_min>10</logical_min>
+	<logical_max>110</logical_max>
+</variable>
+
+<variable id="phv00128122.v1">
+	<name>PFHA22</name>
+	<description>22: Is natural father alive?</description>
+	<type>encoded</type>
+	<value code="D">Don&#39;t know</value>
+	<value code="N">No</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00128123.v1">
+	<name>PFHA23</name>
+	<description>23: Dad&#39;s age at death?</description>
+	<type>integer</type>
+	<unit>Years old</unit>
+	<logical_min>18</logical_min>
+	<logical_max>109</logical_max>
+</variable>
+
+<variable id="phv00128124.v1">
+	<name>PFHA24A</name>
+	<description>23a: Cause of father&#39;s death</description>
+	<type>encoded</type>
+	<value code="A">Heart attack</value>
+	<value code="C">Cancer</value>
+	<value code="O">Other (Specify)</value>
+	<value code="S">Stroke</value>
+	<value code="U">Unknown</value>
+</variable>
+
+<variable id="phv00128125.v1">
+	<name>PFHA24B</name>
+	<description>24b: Specify cause of father&#39;s death</description>
+	<type>string</type>
+</variable>
+
+<variable id="phv00128126.v1">
+	<name>PFHA25</name>
+	<description>25: How old is your father?</description>
+	<type>integer</type>
+	<unit>Years old</unit>
+	<logical_min>40</logical_min>
+	<logical_max>103</logical_max>
+</variable>
+
+<variable id="phv00128127.v1">
+	<name>PFHA26</name>
+	<description>26: Did father have/had Cancer?</description>
+	<type>encoded</type>
+	<value code="D">Don&#39;t know</value>
+	<value code="N">No</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00128128.v1">
+	<name>PFHA27</name>
+	<description>27: Did father have/had Diabetes?</description>
+	<type>encoded</type>
+	<value code="D">Don&#39;t know</value>
+	<value code="N">No</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00128129.v1">
+	<name>PFHA28A</name>
+	<description>28a: Did father have/had high blood pressure?</description>
+	<type>encoded</type>
+	<value code="D">Don&#39;t know</value>
+	<value code="N">No</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00128130.v1">
+	<name>PFHA28B</name>
+	<description>28b: Age of father when told had high blood pressure?</description>
+	<type>integer</type>
+	<unit>Years old</unit>
+	<logical_min>19</logical_min>
+	<logical_max>95</logical_max>
+</variable>
+
+<variable id="phv00128131.v1">
+	<name>PFHA29A</name>
+	<description>29a: Doctor said father had stroke</description>
+	<type>encoded</type>
+	<value code="D">Don&#39;t know</value>
+	<value code="N">No</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00128132.v1">
+	<name>PFHA29B</name>
+	<description>29b: Age of father when told had stroke</description>
+	<type>integer</type>
+	<unit>Years old</unit>
+	<logical_min>33</logical_min>
+	<logical_max>101</logical_max>
+</variable>
+
+<variable id="phv00128133.v1">
+	<name>PFHA30A</name>
+	<description>30a: Doctor said father had heart disease?</description>
+	<type>encoded</type>
+	<value code="D">Don&#39;t know</value>
+	<value code="N">No</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00128134.v1">
+	<name>PFHA30B</name>
+	<description>30b: Age of father when told had heart disease?</description>
+	<type>integer</type>
+	<unit>Years old</unit>
+	<logical_min>1</logical_min>
+	<logical_max>106</logical_max>
+</variable>
+
+<variable id="phv00128135.v1">
+	<name>PFHA31A</name>
+	<description>31a: Number of full brothers living</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>12</logical_max>
+</variable>
+
+<variable id="phv00128136.v1">
+	<name>PFHA31B</name>
+	<description>31b: Number of full sisters living</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>14</logical_max>
+</variable>
+
+<variable id="phv00128137.v1">
+	<name>PFHA31C</name>
+	<description>31c: Any other siblings dead?</description>
+	<type>encoded</type>
+	<value code="N">No</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00128138.v1">
+	<name>PFHA31D</name>
+	<description>31d: Number of full brothers dead</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>10</logical_max>
+</variable>
+
+<variable id="phv00128139.v1">
+	<name>PFHA31E</name>
+	<description>31e: Number of full sisters dead</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>20</logical_max>
+</variable>
+
+<variable id="phv00128140.v1">
+	<name>PFHA31F</name>
+	<description>31f: Total number of full siblings</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>24</logical_max>
+</variable>
+
+<variable id="phv00128141.v1">
+	<name>PFHA32A</name>
+	<description>32a: Has siblings ever had Cancer?</description>
+	<type>encoded</type>
+	<value code="D">Don&#39;t know</value>
+	<value code="N">No</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00128142.v1">
+	<name>PFHA32B</name>
+	<description>32b: Number of siblings with cancer?</description>
+	<type>integer</type>
+	<comment>Please find encoded value descriptions in associated documents. Some of the values might be encoded and code descriptions have not been submitted at this time.</comment>
+</variable>
+
+<variable id="phv00128143.v1">
+	<name>PFHA33A</name>
+	<description>33a: Has siblings ever had diabetes?</description>
+	<type>encoded</type>
+	<value code="D">Don&#39;t know</value>
+	<value code="N">No</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00128144.v1">
+	<name>PFHA33B</name>
+	<description>33b: Number of siblings with diabetes?</description>
+	<type>integer</type>
+	<logical_min>1</logical_min>
+	<logical_max>13</logical_max>
+</variable>
+
+<variable id="phv00128145.v1">
+	<name>PFHA34A</name>
+	<description>34a: Has siblings had +BP/hypertension</description>
+	<type>encoded</type>
+	<value code="D">Don&#39;t know</value>
+	<value code="N">No</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00128146.v1">
+	<name>PFHA34B</name>
+	<description>34b: Number of siblings with +BP/hypertension</description>
+	<type>integer</type>
+	<logical_min>1</logical_min>
+	<logical_max>39</logical_max>
+</variable>
+
+<variable id="phv00128147.v1">
+	<name>PFHA34C</name>
+	<description>34c: Number of these siblings -60 yrs. told had +BP/hypertension?</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>13</logical_max>
+</variable>
+
+<variable id="phv00128148.v1">
+	<name>PFHA35A</name>
+	<description>35a: Has siblings had stroke?</description>
+	<type>encoded</type>
+	<value code="D">Don&#39;t know</value>
+	<value code="N">No</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00128149.v1">
+	<name>PFHA35B</name>
+	<description>35b: Number of siblings had stroke?</description>
+	<type>integer</type>
+</variable>
+
+<variable id="phv00128150.v1">
+	<name>PFHA35C</name>
+	<description>PFHA35C</description>
+	<type>encoded</type>
+	<comment>Please find encoded value descriptions in associated documents. Some of the values might be encoded and code descriptions have not been submitted at this time.</comment>
+</variable>
+
+<variable id="phv00128151.v1">
+	<name>PFHA36A</name>
+	<description>36a: Has Siblings had heart disease?</description>
+	<type>encoded</type>
+	<value code="D">Don&#39;t know</value>
+	<value code="N">No</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00128152.v1">
+	<name>PFHA36B</name>
+	<description>36b: Number of siblings with heart disease</description>
+	<type>integer</type>
+</variable>
+
+<variable id="phv00128153.v1">
+	<name>PFHA36C</name>
+	<description>36c: Number of siblings -60 yrs. told had heart disease?</description>
+	<type>integer</type>
+</variable>
+
+<variable id="phv00128154.v1">
+	<name>PFHA37A</name>
+	<description>37a: Number of natural children living?</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>17</logical_max>
+</variable>
+
+<variable id="phv00128155.v1">
+	<name>PFHA37B</name>
+	<description>37b: Number of kids over age 18?</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>24</logical_max>
+</variable>
+
+<variable id="phv00128156.v1">
+	<name>PFHA37C</name>
+	<description>37c: Any Other children dead?</description>
+	<type>encoded</type>
+	<value code="N">No</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00128157.v1">
+	<name>PFHA37D</name>
+	<description>37d: Number of children dead?</description>
+	<type>integer</type>
+</variable>
+
+<variable id="phv00128158.v1">
+	<name>PFHA38A</name>
+	<description>38a: Have children 18+ had cancer?</description>
+	<type>encoded</type>
+	<value code="D">Don&#39;t know</value>
+	<value code="N">No</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00128159.v1">
+	<name>PFHA38B</name>
+	<description>38b: Number of kids(18+) with cancer?</description>
+	<type>integer</type>
+</variable>
+
+<variable id="phv00128160.v1">
+	<name>PFHA39A</name>
+	<description>39a: Have Kids(18+) told had diabetes?</description>
+	<type>encoded</type>
+	<value code="D">Don&#39;t know</value>
+	<value code="N">No</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00128161.v1">
+	<name>PFHA39B</name>
+	<description>39b: Number of kids(18+) with diabetes?</description>
+	<type>integer</type>
+</variable>
+
+<variable id="phv00128162.v1">
+	<name>PFHA40A</name>
+	<description>40a: Have Kids told they had hypertension?</description>
+	<type>encoded</type>
+	<value code="D">Don&#39;t know</value>
+	<value code="N">No</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00128163.v1">
+	<name>PFHA40B</name>
+	<description>40b: Number of kids(18+) told had hypertension?</description>
+	<type>integer</type>
+	<logical_min>1</logical_min>
+	<logical_max>39</logical_max>
+</variable>
+
+<variable id="phv00128164.v1">
+	<name>PFHA40C</name>
+	<description>40c: How many kids younger 60 yrs. told had +BP?</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>29</logical_max>
+</variable>
+
+<variable id="phv00128165.v1">
+	<name>PFHA41A</name>
+	<description>41a: Have Kids been told they had Stroke?</description>
+	<type>encoded</type>
+	<value code="D">Don&#39;t know</value>
+	<value code="N">No</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00128166.v1">
+	<name>PFHA41B</name>
+	<description>41b: Number of kids told had stroke?</description>
+	<type>encoded</type>
+	<comment>Please find encoded value descriptions in associated documents. Some of the values might be encoded and code descriptions have not been submitted at this time.</comment>
+</variable>
+
+<variable id="phv00128167.v1">
+	<name>PFHA41C</name>
+	<description>41c: Number of kids -60 yrs. when told had a stroke</description>
+	<type>encoded</type>
+	<comment>Please find encoded value descriptions in associated documents. Some of the values might be encoded and code descriptions have not been submitted at this time.</comment>
+</variable>
+
+<variable id="phv00128168.v1">
+	<name>PFHA42A</name>
+	<description>42a: Have Kids been told had Heart disease?</description>
+	<type>encoded</type>
+	<value code="D">Don&#39;t know</value>
+	<value code="N">No</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00128169.v1">
+	<name>PFHA42B</name>
+	<description>42b: Number of kids told had heart disease?</description>
+	<type>integer</type>
+</variable>
+
+<variable id="phv00128170.v1">
+	<name>PFHA42C</name>
+	<description>42c: Number of kids -60 yrs. when told had heart disease</description>
+	<type>integer</type>
+</variable>
+
+</data_table>

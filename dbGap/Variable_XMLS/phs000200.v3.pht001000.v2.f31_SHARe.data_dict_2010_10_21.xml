@@ -1,0 +1,727 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./datadict_v2.xsl"?>
+<data_table id="pht001000.v2" study_id="phs000200.v3" participant_set="1" date_created="Thu Oct 21 09:32:23 2010">
+
+<variable id="phv00078606.v1">
+	<name>SHAREID</name>
+	<description>WHI SHARe ID</description>
+	<type>integer</type>
+</variable>
+
+<variable id="phv00078607.v1">
+	<name>F31DAYS</name>
+	<description>F31 Days since randomization/enrollment</description>
+	<type>integer</type>
+	<unit>days</unit>
+	<logical_min>-361</logical_min>
+	<logical_max>949</logical_max>
+</variable>
+
+<variable id="phv00078608.v1">
+	<name>MENARCHE</name>
+	<description>Age at first period</description>
+	<type>encoded value</type>
+	<comment>How old were you when you had your first menstrual period (menses) ?</comment>
+	<value code="1">9 or less</value>
+	<value code="2">10</value>
+	<value code="3">11</value>
+	<value code="4">12</value>
+	<value code="5">13</value>
+	<value code="6">14</value>
+	<value code="7">15</value>
+	<value code="8">16</value>
+	<value code="9">17 or older</value>
+</variable>
+
+<variable id="phv00078609.v1">
+	<name>MENSREG</name>
+	<description>Were periods regular</description>
+	<type>encoded value</type>
+	<comment>During most of your life, were your periods regular; that is, did they occur about once a month?  (Do not include any time when you were pregnant or taking birth control pills.)</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+	<value code="2">Sometimes regular, sometimes irregular</value>
+</variable>
+
+<variable id="phv00078610.v1">
+	<name>MENSREGA</name>
+	<description>Age at first regular period</description>
+	<type>encoded value</type>
+	<comment>How old were you when your periods first became regular?  (Your best guess.)
+		Sub-question of F31 V2 Q2 &#39;Were periods regular&#39;. </comment>
+	<value code="1">9 or less</value>
+	<value code="2">10</value>
+	<value code="3">11</value>
+	<value code="4">12</value>
+	<value code="5">13</value>
+	<value code="6">14</value>
+	<value code="7">15</value>
+	<value code="8">16</value>
+	<value code="9">17 or older</value>
+</variable>
+
+<variable id="phv00078611.v1">
+	<name>MENOPSEA</name>
+	<description>Age at last regular period</description>
+	<type>integer</type>
+	<unit>years</unit>
+	<logical_min>30</logical_min>
+	<logical_max>79</logical_max>
+	<comment>How old were you when you last had regular menstrual bleeding (a period)?  (Your best guess.)  (If you are still having regular bleeding or periods, enter your current age.)
+		Not collected on all versions of Form 31. </comment>
+</variable>
+
+<variable id="phv00078612.v1">
+	<name>MENSWO1Y</name>
+	<description>One year without period</description>
+	<type>encoded value</type>
+	<comment>Between the time you had your first period and your last period, did you ever go without any periods for at least one year?  (Do not count times when you were pregnant or breastfeeding).</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00078613.v1">
+	<name>MENSWOD</name>
+	<description>Time between first and last period</description>
+	<type>encoded value</type>
+	<comment>Between your first menstrual period and your last, all together, about how long did you go without having your period?  (Again, do not count times when you were pregnant or breastfeeding.)  (Mark one oval.)
+		Sub-question of F31 V2 Q4 &#39;One year without period&#39;.&lt;br/&gt;Not collected on all versions of Form 31. </comment>
+	<value code="1">Less than 12 months</value>
+	<value code="2">12 to 23 months</value>
+	<value code="3">24 months to 48 months</value>
+	<value code="4">More than 4 years</value>
+</variable>
+
+<variable id="phv00078614.v1">
+	<name>ANYMENSA</name>
+	<description>Age at last bleeding</description>
+	<type>integer</type>
+	<unit>years</unit>
+	<logical_min>30</logical_min>
+	<logical_max>77</logical_max>
+	<comment>How old were you when you last had any menstrual bleeding?  (If you are still having menstrual bleeding or periods, enter your current age.)
+		Not collected on all versions of Form 31. </comment>
+</variable>
+
+<variable id="phv00078615.v1">
+	<name>MENPSYMP</name>
+	<description>Hot flashes or night sweats</description>
+	<type>encoded value</type>
+	<comment>How old were you when you first had symptoms such as hot flashes or night sweats?  (Your best guess.)
+		Not collected on all versions of Form 31. </comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00078616.v1">
+	<name>MENPSYAF</name>
+	<description>Age at first hot flash</description>
+	<type>integer</type>
+	<unit>years</unit>
+	<logical_min>25</logical_min>
+	<logical_max>75</logical_max>
+	<comment>How old were you when you first had symptoms such as hot flashes or night sweats?  (Your best guess.)
+		Sub-question of F31 V2 Q6 &#39;Hot flashes or night sweats&#39;.&lt;br/&gt;Not collected on all versions of Form 31. </comment>
+</variable>
+
+<variable id="phv00078617.v1">
+	<name>MENPSYAL</name>
+	<description>Age at last hot flash</description>
+	<type>integer</type>
+	<unit>years</unit>
+	<logical_min>19</logical_min>
+	<logical_max>79</logical_max>
+	<comment>How old were you when you last had symptoms such as hot flashes or night sweats?  (If you are still having symptoms such as hot flashes or night sweats, enter your current age.)
+		Sub-question of F31 V2 Q6 &#39;Hot flashes or night sweats&#39;.&lt;br/&gt;Not collected on all versions of Form 31. </comment>
+</variable>
+
+<variable id="phv00078618.v1">
+	<name>PREG</name>
+	<description>Ever been pregnant</description>
+	<type>encoded value</type>
+	<comment>Have you ever been pregnant?  It is very important that we know about all of your pregnancies, including live births, stillbirths, miscarriages, tubals (ectopics), and abortions.</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00078619.v1">
+	<name>PREGNUM</name>
+	<description>How many times pregnant</description>
+	<type>encoded value</type>
+	<comment>How many times have you been pregnant?
+		Sub-question of F31 V2 Q7 &#39;Ever been pregnant&#39; (skip pattern rule not applied). </comment>
+	<value code="1">1</value>
+	<value code="2">2</value>
+	<value code="3">3</value>
+	<value code="4">4</value>
+	<value code="5">5</value>
+	<value code="6">6</value>
+	<value code="7">7</value>
+	<value code="8">8 or more</value>
+</variable>
+
+<variable id="phv00078620.v1">
+	<name>PREG6M</name>
+	<description>Ever have full-term pregnancy</description>
+	<type>encoded value</type>
+	<comment>Did you ever have a pregnancy that lasted at least six months?
+		Sub-question of F31 V2 Q7 &#39;Ever been pregnant&#39; (skip pattern rule not applied). </comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00078621.v1">
+	<name>PREG6MN</name>
+	<description>How many times term pregnancy</description>
+	<type>encoded value</type>
+	<comment>How many of these pregnancies did you have?
+		Sub-question of F31 V2 Q7 &#39;Ever been pregnant&#39; (skip pattern rule not applied).&lt;br/&gt;Sub-question of F31 V2 Q7.2 &#39;Ever have full-term pregnancy&#39; (skip pattern rule not applied). </comment>
+	<value code="1">1</value>
+	<value code="2">2</value>
+	<value code="3">3</value>
+	<value code="4">4</value>
+	<value code="5">5</value>
+	<value code="6">6</value>
+	<value code="7">7</value>
+	<value code="8">8 or more</value>
+</variable>
+
+<variable id="phv00078622.v1">
+	<name>PREG6MAF</name>
+	<description>Age at first term pregnancy</description>
+	<type>encoded value</type>
+	<comment>How old were you at the end of the first of these pregnancies?
+		Sub-question of F31 V2 Q7 &#39;Ever been pregnant&#39; (skip pattern rule not applied).&lt;br/&gt;Sub-question of F31 V2 Q7.2 &#39;Ever have full-term pregnancy&#39; (skip pattern rule not applied). </comment>
+	<value code="1">Less than 20</value>
+	<value code="2">20-24</value>
+	<value code="3">25-29</value>
+	<value code="4">30-34</value>
+	<value code="5">35-39</value>
+	<value code="6">40-44</value>
+	<value code="7">45 or older</value>
+</variable>
+
+<variable id="phv00078623.v1">
+	<name>PREG6MAL</name>
+	<description>Age at last term pregnancy</description>
+	<type>encoded value</type>
+	<comment>How old were you at the end of the last of these pregnancies?
+		Sub-question of F31 V2 Q7 &#39;Ever been pregnant&#39; (skip pattern rule not applied).&lt;br/&gt;Sub-question of F31 V2 Q7.2 &#39;Ever have full-term pregnancy&#39; (skip pattern rule not applied). </comment>
+	<value code="1">Less than 20</value>
+	<value code="2">20-24</value>
+	<value code="3">25-29</value>
+	<value code="4">30-34</value>
+	<value code="5">35-39</value>
+	<value code="6">40-44</value>
+	<value code="7">45 or older</value>
+</variable>
+
+<variable id="phv00078624.v1">
+	<name>BRTHLIVN</name>
+	<description>How many live births</description>
+	<type>encoded value</type>
+	<comment>How many live births did you have?
+		Sub-question of F31 V2 Q7 &#39;Ever been pregnant&#39; (skip pattern rule not applied). </comment>
+	<value code="0">None</value>
+	<value code="1">1</value>
+	<value code="2">2</value>
+	<value code="3">3</value>
+	<value code="4">4</value>
+	<value code="5">5</value>
+	<value code="6">6</value>
+	<value code="7">7</value>
+	<value code="8">8 or more</value>
+</variable>
+
+<variable id="phv00078625.v1">
+	<name>BRTHSTLN</name>
+	<description>How many still births</description>
+	<type>encoded value</type>
+	<comment>How many still births (from a pregnancy lasting 6 months or more) did you have?
+		Sub-question of F31 V2 Q7 &#39;Ever been pregnant&#39; (skip pattern rule not applied). </comment>
+	<value code="0">None</value>
+	<value code="1">1</value>
+	<value code="2">2</value>
+	<value code="3">3</value>
+	<value code="4">4</value>
+	<value code="5">5</value>
+	<value code="6">6</value>
+	<value code="7">7</value>
+	<value code="8">8 or more</value>
+</variable>
+
+<variable id="phv00078626.v1">
+	<name>MISCARYUNSPEC</name>
+	<description>How many miscarriages or unspecified type of pregnancies</description>
+	<type>encoded value</type>
+	<comment>How many spontaneous miscarriages or other births that were not specified as a live birth, stillbirth, or tubal (ectopic) pregnancy.  Computed from Form 31, questions 7.1, 7.6-7.9.  Subtracted number of live births, stillbirths, miscarriages and ectopic pregnancies from total number of pregnancies.  Added remainder to miscarriages.
+		Sub-question of F31 V2 Q7 &#39;Ever been pregnant&#39; (skip pattern rule not applied). </comment>
+	<value code="0">None</value>
+	<value code="1">1</value>
+	<value code="2">2</value>
+	<value code="3">3</value>
+	<value code="4">4</value>
+	<value code="5">5</value>
+	<value code="6">6</value>
+	<value code="7">7</value>
+	<value code="8">8 or more</value>
+</variable>
+
+<variable id="phv00078627.v1">
+	<name>ECTPREG</name>
+	<description>How many tubal pregnancies</description>
+	<type>encoded value</type>
+	<comment>How many tubal (ectopic) pregnancies did you have?
+		Sub-question of F31 V2 Q7 &#39;Ever been pregnant&#39; (skip pattern rule not applied). </comment>
+	<value code="0">None</value>
+	<value code="1">1</value>
+	<value code="2">2</value>
+	<value code="3">3</value>
+	<value code="4">4</value>
+	<value code="5">5</value>
+	<value code="6">6</value>
+	<value code="7">7</value>
+	<value code="8">8 or more</value>
+</variable>
+
+<variable id="phv00078628.v1">
+	<name>NOCNCEIV</name>
+	<description>Tried becoming pregnant &gt; 1 yr</description>
+	<type>encoded value</type>
+	<comment>Have you ever tried to become pregnant for more than 1 year without becoming pregnant?</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+	<value code="9">Don&#39;t know</value>
+</variable>
+
+<variable id="phv00078629.v1">
+	<name>NOCNCVDR</name>
+	<description>Saw doctor because you didn&#39;t</description>
+	<type>encoded value</type>
+	<comment>Did you visit a doctor or clinic because you didn&#39;t get pregnant?
+		Sub-question of F31 V2 Q8 &#39;Tried becoming pregnant &gt; 1 yr&#39; (skip pattern rule not applied).&lt;br/&gt;Not collected on all versions of Form 31. </comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00078630.v1">
+	<name>NOCNCVR</name>
+	<description>Reason found for non-pregnancy</description>
+	<type>encoded value</type>
+	<comment>Was a reason found for why you did not become pregnant?
+		Sub-question of F31 V2 Q8 &#39;Tried becoming pregnant &gt; 1 yr&#39; (skip pattern rule not applied).&lt;br/&gt;Sub-question of F31 V2 Q8.1 &#39;Saw doctor because you...&#39;.&lt;br/&gt;Not collected on all versions of Form 31. </comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+	<value code="9">Don&#39;t know</value>
+</variable>
+
+<variable id="phv00078631.v1">
+	<name>NOCNCVHR</name>
+	<description>Hormones or ovulation</description>
+	<type>encoded value</type>
+	<comment>What was the reason you did not become pregnant? (Mark all that apply.) Problem with your hormones or ovulation (producing eggs)
+		Sub-question of F31 V2 Q8 &#39;Tried becoming pregnant &gt; 1 yr&#39; (skip pattern rule not applied).&lt;br/&gt;Sub-question of F31 V2 Q8.1 &#39;Saw doctor because you...&#39;.&lt;br/&gt;Sub-question of F31 V2 Q8.2 &#39;Reason found for non-pregnancy&#39;.&lt;br/&gt;Not collected on all versions of Form 31. </comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00078632.v1">
+	<name>NOCNCVUT</name>
+	<description>Tubes or uterus</description>
+	<type>encoded value</type>
+	<comment>What was the reason you did not become pregnant? (Mark all that apply.) Problem with your tubes or uterus.
+		Sub-question of F31 V2 Q8 &#39;Tried becoming pregnant &gt; 1 yr&#39; (skip pattern rule not applied).&lt;br/&gt;Sub-question of F31 V2 Q8.1 &#39;Saw doctor because you...&#39;.&lt;br/&gt;Sub-question of F31 V2 Q8.2 &#39;Reason found for non-pregnancy&#39;.&lt;br/&gt;Not collected on all versions of Form 31. </comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00078633.v1">
+	<name>NOCNCVEN</name>
+	<description>Endometriosis</description>
+	<type>encoded value</type>
+	<comment>What was the reason you did not become pregnant? (Mark all that apply.) Endometriosis
+		Sub-question of F31 V2 Q8 &#39;Tried becoming pregnant &gt; 1 yr&#39; (skip pattern rule not applied).&lt;br/&gt;Sub-question of F31 V2 Q8.1 &#39;Saw doctor because you...&#39;.&lt;br/&gt;Sub-question of F31 V2 Q8.2 &#39;Reason found for non-pregnancy&#39;.&lt;br/&gt;Not collected on all versions of Form 31. </comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00078634.v1">
+	<name>NOCNCVOT</name>
+	<description>Other problem with you</description>
+	<type>encoded value</type>
+	<comment>What was the reason you did not become pregnant? (Mark all that apply.) Other problem with you.  (Specify)
+		Sub-question of F31 V2 Q8 &#39;Tried becoming pregnant &gt; 1 yr&#39; (skip pattern rule not applied).&lt;br/&gt;Sub-question of F31 V2 Q8.1 &#39;Saw doctor because you...&#39;.&lt;br/&gt;Sub-question of F31 V2 Q8.2 &#39;Reason found for non-pregnancy&#39;.&lt;br/&gt;Not collected on all versions of Form 31. </comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00078635.v1">
+	<name>NOCNCVPT</name>
+	<description>Problem with partner</description>
+	<type>encoded value</type>
+	<comment>What was the reason you did not become pregnant? (Mark all that apply.) Problem in your partner.
+		Sub-question of F31 V2 Q8 &#39;Tried becoming pregnant &gt; 1 yr&#39; (skip pattern rule not applied).&lt;br/&gt;Sub-question of F31 V2 Q8.1 &#39;Saw doctor because you...&#39;.&lt;br/&gt;Sub-question of F31 V2 Q8.2 &#39;Reason found for non-pregnancy&#39;.&lt;br/&gt;Not collected on all versions of Form 31. </comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00078636.v1">
+	<name>NOCNCVDK</name>
+	<description>Don&#39;t know reason</description>
+	<type>encoded value</type>
+	<comment>What was the reason you did not become pregnant? (Mark all that apply.) Don&#39;t know.
+		Sub-question of F31 V2 Q8 &#39;Tried becoming pregnant &gt; 1 yr&#39; (skip pattern rule not applied).&lt;br/&gt;Sub-question of F31 V2 Q8.1 &#39;Saw doctor because you...&#39;.&lt;br/&gt;Sub-question of F31 V2 Q8.2 &#39;Reason found for non-pregnancy&#39;.&lt;br/&gt;Not collected on all versions of Form 31. </comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00078637.v1">
+	<name>BRSTFEED</name>
+	<description>Breastfeed at least one month</description>
+	<type>encoded value</type>
+	<comment>Did you breastfeed or nurse any children for at least one month?</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00078638.v1">
+	<name>BRSTFDN</name>
+	<description>How many children breastfed</description>
+	<type>encoded value</type>
+	<comment>How many children did you breastfeed?
+		Sub-question of F31 V2 Q9 &#39;Breastfeed at least one month&#39;. </comment>
+	<value code="1">1</value>
+	<value code="2">2</value>
+	<value code="3">3</value>
+	<value code="4">4</value>
+	<value code="5">5</value>
+	<value code="6">6</value>
+	<value code="7">7</value>
+	<value code="8">8 or more</value>
+</variable>
+
+<variable id="phv00078639.v1">
+	<name>BRSTFDAF</name>
+	<description>How old when first breastfed</description>
+	<type>encoded value</type>
+	<comment>How old were you when you first breastfed a child?
+		Sub-question of F31 V2 Q9 &#39;Breastfeed at least one month&#39;. </comment>
+	<value code="1">Less than 20</value>
+	<value code="2">20-24</value>
+	<value code="3">25-29</value>
+	<value code="4">30-34</value>
+	<value code="5">35-39</value>
+	<value code="6">40-44</value>
+	<value code="7">45 or older</value>
+</variable>
+
+<variable id="phv00078640.v1">
+	<name>BRSTFDAL</name>
+	<description>How old when last breastfed</description>
+	<type>encoded value</type>
+	<comment>How old were you when you last breastfed a child?
+		Sub-question of F31 V2 Q9 &#39;Breastfeed at least one month&#39;. </comment>
+	<value code="1">Less than 20</value>
+	<value code="2">20-24</value>
+	<value code="3">25-29</value>
+	<value code="4">30-34</value>
+	<value code="5">35-39</value>
+	<value code="6">40-44</value>
+	<value code="7">45 or older</value>
+</variable>
+
+<variable id="phv00078641.v1">
+	<name>BRSTFDM</name>
+	<description>How many months total</description>
+	<type>encoded value</type>
+	<comment>Thinking aboout all the children you breastfed, how many months total did you breastfeed?  (Your best guess.)
+		Sub-question of F31 V2 Q9 &#39;Breastfeed at least one month&#39;. </comment>
+	<value code="1">1-3 months</value>
+	<value code="2">4-6 months</value>
+	<value code="3">7-12 months</value>
+	<value code="4">13-23 months</value>
+	<value code="5">2-4 years (24-48 months)</value>
+	<value code="6">More than 4 years</value>
+</variable>
+
+<variable id="phv00078642.v1">
+	<name>OOPH</name>
+	<description>One or both ovaries removed</description>
+	<type>encoded value</type>
+	<comment>Did you ever have an operation to have one or both of your ovaries taken out?  (Mark one oval.)</comment>
+	<value code="0">No</value>
+	<value code="1">Yes, one was taken out</value>
+	<value code="2">Yes, both were taken out</value>
+	<value code="3">Yes, unknown number taken out</value>
+	<value code="4">Yes, part of an ovary was taken out</value>
+	<value code="9">Don&#39;t know</value>
+</variable>
+
+<variable id="phv00078643.v1">
+	<name>OOPHA</name>
+	<description>Age when ovaries removed</description>
+	<type>encoded value</type>
+	<comment>How old were you when you had your last operation to remove an ovary?
+		Sub-question of F31 V2 Q10 &#39;One or both ovaries removed&#39;. </comment>
+	<value code="1">Less than 30</value>
+	<value code="2">30-34</value>
+	<value code="3">35-39</value>
+	<value code="4">40-44</value>
+	<value code="5">45-49</value>
+	<value code="6">50-54</value>
+	<value code="7">55-59</value>
+	<value code="8">60 or older</value>
+</variable>
+
+<variable id="phv00078644.v1">
+	<name>TUBTIED</name>
+	<description>Ever had tubes tied</description>
+	<type>encoded value</type>
+	<comment>Did you ever have an operation to have your tubes tied to prevent pregnancy?</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00078645.v1">
+	<name>TUBTIEDA</name>
+	<description>Age when tubes tied</description>
+	<type>encoded value</type>
+	<comment>How old were you when you had your tubes tied?
+		Sub-question of F31 V2 Q11 &#39;Ever had tubes tied&#39;. </comment>
+	<value code="1">Less than 30</value>
+	<value code="2">30-34</value>
+	<value code="3">35-39</value>
+	<value code="4">40-44</value>
+	<value code="5">45 or older</value>
+</variable>
+
+<variable id="phv00078646.v1">
+	<name>NEDLASP</name>
+	<description>Needle aspiration ever</description>
+	<type>encoded value</type>
+	<comment>Have you ever had a needle aspiration (where a doctor puts a needle in a lump in your breast and withdraws fluid or material)?
+		Not collected on all versions of Form 31. </comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00078647.v1">
+	<name>NEDLASPA</name>
+	<description>How many aspirations</description>
+	<type>encoded value</type>
+	<comment>How many of these needle aspirations have you had?
+		Sub-question of F31 V2 Q12 &#39;Needle aspiration ever&#39;.&lt;br/&gt;Not collected on all versions of Form 31. </comment>
+	<value code="1">1</value>
+	<value code="2">2</value>
+	<value code="3">3</value>
+	<value code="4">4 or more</value>
+</variable>
+
+<variable id="phv00078648.v1">
+	<name>BRSTBIOP</name>
+	<description>Breast biopsy ever</description>
+	<type>encoded value</type>
+	<comment>Have you ever had a breast biopsy (where a doctor removes part or all of  breast lump to check for cancer)?
+		Not collected on all versions of Form 31. </comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00078649.v1">
+	<name>BRSTBION</name>
+	<description>How many breast biopsies</description>
+	<type>encoded value</type>
+	<comment>How many of these biopsies have you had?
+		Sub-question of F31 V2 Q13 &#39;Breast biopsy ever&#39;.&lt;br/&gt;Not collected on all versions of Form 31. </comment>
+	<value code="1">1</value>
+	<value code="2">2</value>
+	<value code="3">3</value>
+	<value code="4">4 or more</value>
+</variable>
+
+<variable id="phv00078650.v1">
+	<name>BRSTAUG</name>
+	<description>Operation to increase breast</description>
+	<type>encoded value</type>
+	<comment>Did you ever have an operation to increase your breast size (breast augmentation) or have breast reconstruction using a breast implant?</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00078651.v1">
+	<name>BRSTAUGA</name>
+	<description>How old at breast augmentation</description>
+	<type>encoded value</type>
+	<comment>How old were you when you first had breast augmentation?
+		Sub-question of F31 V2 Q14 &#39;Operation to increase breast&#39;. </comment>
+	<value code="1">Less than 30</value>
+	<value code="2">30-34</value>
+	<value code="3">35-39</value>
+	<value code="4">40-44</value>
+	<value code="5">45-49</value>
+	<value code="6">50-54</value>
+	<value code="7">55 or older</value>
+</variable>
+
+<variable id="phv00078652.v1">
+	<name>BRSTAUGS</name>
+	<description>Which breast increased</description>
+	<type>encoded value</type>
+	<comment>Was it for the right breast, left breast or both?
+		Sub-question of F31 V2 Q14 &#39;Operation to increase breast&#39;. </comment>
+	<value code="1">Right breast</value>
+	<value code="2">Left breast</value>
+	<value code="3">Both breasts</value>
+</variable>
+
+<variable id="phv00078653.v1">
+	<name>BRSTIMP</name>
+	<description>What type of implant</description>
+	<type>encoded value</type>
+	<comment>What type of breast implant did you receive?
+		Sub-question of F31 V2 Q14 &#39;Operation to increase breast&#39;. </comment>
+	<value code="1">Silicone or silicone gel-filled</value>
+	<value code="2">Saline-filled</value>
+	<value code="8">Other</value>
+	<value code="9">Don&#39;t know</value>
+</variable>
+
+<variable id="phv00078654.v1">
+	<name>BRSTOPOT</name>
+	<description>Any other breast operations</description>
+	<type>encoded value</type>
+	<comment>Have you ever had any other operations on your breasts?
+		Not collected on all versions of Form 31. </comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00078655.v1">
+	<name>BRSTPREM</name>
+	<description>Removal of part of breast</description>
+	<type>encoded value</type>
+	<comment>What type of other breast operations did you have? (Mark all that apply.) Removal of part of breast or breast reduction
+		Sub-question of F31 V2 Q15 &#39;Any other breast operations&#39;.&lt;br/&gt;Not collected on all versions of Form 31. </comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00078656.v1">
+	<name>BRSTREM</name>
+	<description>Removal of one or both breasts</description>
+	<type>encoded value</type>
+	<comment>What type of other breast operations did you have? (Mark all that apply.)  Removal of one breast or Removal of both breasts.
+		Sub-question of F31 V2 Q15 &#39;Any other breast operations&#39;.&lt;br/&gt;Not collected on all versions of Form 31. </comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00078657.v1">
+	<name>BRSTREMO</name>
+	<description>Other breast operation</description>
+	<type>encoded value</type>
+	<comment>What type of other breast operations did you have?  (Mark all that apply.)  Other (Specify)
+		Sub-question of F31 V2 Q15 &#39;Any other breast operations&#39;.&lt;br/&gt;Not collected on all versions of Form 31. </comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00078658.v1">
+	<name>GRAVID</name>
+	<description>Number of Pregnancies</description>
+	<type>encoded value</type>
+	<comment>Computed from Form 31,  questions 7 and 7.1.  Number of times the participant has ever been pregnant.</comment>
+	<value code="0">Never pregnant</value>
+	<value code="1">1</value>
+	<value code="2">2-4</value>
+	<value code="3">5+</value>
+</variable>
+
+<variable id="phv00078659.v1">
+	<name>PARITY</name>
+	<description>Number of Term Pregnancies</description>
+	<type>encoded value</type>
+	<comment>Computed from Form 31, questions 7, 7.6 and 7.7.  Number of pregnancies lasting at least 6 months.  Equals -1 if never pregnant.</comment>
+	<value code="-1">Never pregnant</value>
+	<value code="0">Never had term pregnancy</value>
+	<value code="1">1</value>
+	<value code="2">2</value>
+	<value code="3">3</value>
+	<value code="4">4</value>
+	<value code="5">5+</value>
+</variable>
+
+<variable id="phv00078660.v1">
+	<name>FULLTRMR</name>
+	<description>Full term pregnancy ever</description>
+	<type>encoded value</type>
+	<comment>Computed from Form 31, questions 7.2, 7.6 and 7.7.  Indicator variable of whether the participant has ever had a full-term (lasting at least six months) pregnancy.  Missing if never pregnant.</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00078661.v1">
+	<name>NUMLIVER</name>
+	<description>Number of Live Births</description>
+	<type>encoded value</type>
+	<comment>Computed from Form 31, questions 7 and 7.6.  Categorical variable of number of live births.  Equals -1 if never pregnant.</comment>
+	<value code="-1">Never pregnant</value>
+	<value code="0">None</value>
+	<value code="1">1</value>
+	<value code="2">2 - 4</value>
+	<value code="3">5+</value>
+</variable>
+
+<variable id="phv00078662.v1">
+	<name>AGEFBIR</name>
+	<description>Age at First Birth</description>
+	<type>encoded value</type>
+	<comment>Computed from Form 31, questions 7, 7.2, and 7.4.  Categorization of age at the end of first full-term (at least 6 months) pregnancy for participants who have ever been pregnant.  Set to zero if participant has been pregnant but never had a full-term pregnancy.</comment>
+	<value code="0">Never had term pregnancy</value>
+	<value code="1">&lt; 20</value>
+	<value code="2">20-29</value>
+	<value code="3">30+</value>
+</variable>
+
+<variable id="phv00078663.v1">
+	<name>BOOPH</name>
+	<description>Bilateral Oophorectomy</description>
+	<type>encoded value</type>
+	<comment>Computed from Form 31, question 10.  Indicator for whether participant has had both ovaries taken out (bilateral oopherectomy).</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00078664.v1">
+	<name>BRSTFDMO</name>
+	<description>Number of months breastfed</description>
+	<type>encoded value</type>
+	<comment>Computed from Form 31, questions 9 and 9.4.  Total number of months breastfed or nursed children for at least one month.  Set to zero if participant never breastfed or has never been pregnant.</comment>
+	<value code="0">Never breastfed</value>
+	<value code="1">1-6 months</value>
+	<value code="2">7-12 Months</value>
+	<value code="3">13-23 Months</value>
+	<value code="4">24+ Months</value>
+</variable>
+
+<variable id="phv00078665.v1">
+	<name>BRSTDIS</name>
+	<description>Breast Disease</description>
+	<type>encoded value</type>
+	<comment>Computed from Form 31, questions 13 and 13.1; Form 2, question 10; and Form 30, question 12.1.  History of benign breast disease derived from number of breast biopsies.  If a participant has a history of breast cancer recorded on either Form 2 or Form 30, BRSTDIS is set to missing.</comment>
+	<value code="0">No</value>
+	<value code="1">Yes, 1 biopsy</value>
+	<value code="2">Yes, 2+ biopsies</value>
+</variable>
+
+<variable id="phv00110722.v1">
+	<name>MENO</name>
+	<description>Age at menopause</description>
+	<type>integer</type>
+	<unit>years</unit>
+	<logical_min>20</logical_min>
+	<logical_max>60</logical_max>
+	<comment>Age at which participant went through menopause. Computed using Form 31, questions 5, 6.1, 10, 10.1; Form 2, questions 7, 18, 18.2; Form 43 (age first used HRT).</comment>
+</variable>
+
+</data_table>

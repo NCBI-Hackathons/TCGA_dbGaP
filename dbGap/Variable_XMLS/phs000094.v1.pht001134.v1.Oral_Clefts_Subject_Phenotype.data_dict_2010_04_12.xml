@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./datadict_v2.xsl"?>
+<data_table id="pht001134.v1" study_id="phs000094.v1" participant_set="1" date_created="Mon Apr 12 16:10:25 2010">
+
+<variable id="phv00088042.v1">
+	<name>GENEVA ID</name>
+	<description>Individual&#39;s randomly generated study ID</description>
+</variable>
+
+<variable id="phv00088043.v1">
+	<name>DNA</name>
+	<description>DNA contributed to GWAS</description>
+	<type>integer, encoded value</type>
+	<logical_min>0</logical_min>
+	<logical_max>1</logical_max>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00088044.v1">
+	<name>GENDER</name>
+	<description>Individual&#39;s Gender</description>
+	<type>integer, encoded value</type>
+	<logical_min>1</logical_min>
+	<logical_max>2</logical_max>
+	<comment><![CDATA[Modeled on <a href="javascript:getPage(this, &#39;document.cgi&#39;, 1890);return true;" onclick="javascript:getPage(this, &#39;document.cgi&#39;, 1890);return true;" oncontextmenu="javascript:getPage(this, &#39;document.cgi&#39;, 1890);return true;">oral_cleft_study_questionnaire_v3.1,</a> Contact information, Page 2]]></comment>
+	<value code="1">Male</value>
+	<value code="2">Female</value>
+</variable>
+
+<variable id="phv00088045.v1">
+	<name>RACE</name>
+	<description>Individual&#39;s Race</description>
+	<type>integer, encoded value</type>
+	<logical_min>1</logical_min>
+	<logical_max>6</logical_max>
+	<comment><![CDATA[Modeled on <a href="javascript:getPage(this, &#39;document.cgi&#39;, 1890);return true;" onclick="javascript:getPage(this, &#39;document.cgi&#39;, 1890);return true;" oncontextmenu="javascript:getPage(this, &#39;document.cgi&#39;, 1890);return true;">oral_cleft_study_questionnaire_v3.1,</a> Contact information, Page 2]]></comment>
+	<value code="1">White</value>
+	<value code="2">African American</value>
+	<value code="3">Asian</value>
+	<value code="4">Native Hawaiian or other Pacific Islander</value>
+	<value code="5">American Indian/Alaska Native</value>
+	<value code="6">Other/More than one race</value>
+</variable>
+
+<variable id="phv00088046.v1">
+	<name>CLP</name>
+	<description>Individual&#39;s Type of Cleft</description>
+	<type>integer, encoded value</type>
+	<logical_min>0</logical_min>
+	<logical_max>9</logical_max>
+	<comment><![CDATA[On page 15 of the <a href="javascript:getPage(this, &#39;document.cgi&#39;, 1890);return true;" onclick="javascript:getPage(this, &#39;document.cgi&#39;, 1890);return true;" oncontextmenu="javascript:getPage(this, &#39;document.cgi&#39;, 1890);return true;">oral_cleft_study_questionnaire_v3.1,</a> a pedigree was drawn. Each investigator looked by hand and determined the level of family history and relatedness to the proband (case child).]]></comment>
+	<value code="0">No Cleft</value>
+	<value code="1">Cleft Palate Only</value>
+	<value code="2">Cleft Lip Only</value>
+	<value code="3">Cleft Lip and Palate</value>
+	<value code="4">Cleft - type unknown</value>
+	<value code="9">Unknown</value>
+</variable>
+
+</data_table>

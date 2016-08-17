@@ -1,0 +1,450 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GaPExchange xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="./dbGaPEx2.1.5.xsd">
+
+<MetaVariables>
+	<Submitter/>
+	<Method/>
+</MetaVariables>
+<MetaLinks/>
+
+<Projects>
+	<Project/>
+</Projects>
+
+<Studies>
+
+<Study source="dbGaP" accession="phs001013.v1.p1" parentStudy="phs001013.v1.p1" createDate="2015-10-27" modDate="2016-03-08">
+
+<Configuration>
+	<Data_Provider><![CDATA[
+		<table border="1">
+		<tr><th>Title</th><th>Name</th><th>Institute</th></tr>
+		<tr><td>Principal Investigators</td><td>Susan Heckbert, MD, PhD</td><td>University of Washington, Seattle, WA, USA</td></tr>
+		<tr><td>Principal Investigators</td><td>Bruce Psaty, MD, PhD, MPH</td><td>University of Washington, Seattle, WA, USA</td></tr>
+		<tr><td>Principal Investigators</td><td>Nicholas Smith, PhD</td><td>University of Washington, Seattle, WA, USA</td></tr>
+		<tr><td>Funding Source</td><td>HL068986 &quot;Atrial Fibrillation Incidence, Risk Factors and Genetics&quot;</td><td>National Heart, Lung, and Blood Institute, National Institutes of Health, Bethesda, MD, USA</td></tr>
+		<tr><td>Funding Source</td><td>HL085251 &quot;Genome-wide case-only study of antihypertensive drug-gene interactions&quot;</td><td>National Heart, Lung, and Blood Institute, National Institutes of Health, Bethesda, MD, USA</td></tr>
+		</table>
+	]]></Data_Provider>
+	<StudyNameEntrez>Heart and Vascular Health Study (HVH)</StudyNameEntrez>
+	<StudyNameReportPage>Heart and Vascular Health Study (HVH)</StudyNameReportPage>
+	<StudyTypes>
+		<StudyType>Case-Control</StudyType>
+	</StudyTypes>
+	<Description><![CDATA[
+<p><b>Objectives</b><br/> The Heart and Vascular Health Study (HVH) is a case-control study of risk factors for the development of myocardial infarction (MI), stroke, venous thrombosis (VT), and atrial fibrillation (AF). The study setting is Group Health, an integrated health care delivery system in Washington State.</p> <p><b>Background</b><br/> The study originated in 1988 with the examination of risk factors for MI. Over the ensuing years, the study has been funded by a series of grants, which have added case subjects with stroke, VT, and AF, and used a common control group. Study aims have focused on the associations of medication use with cardiovascular events. Starting in 1997, the study aims expanded to include genetic associations with cardiovascular disease. Participants recruited in 2009 or later and who provided blood samples for genetic analysis were asked for consent to deposit genetic and phenotype data in dbGaP.</p> <p><b>Subjects</b><br/> Case subjects were identified by searching for ICD-9 codes consistent with MI, stroke, VT, or AF. For VT and AF, cases diagnosed in both inpatient and outpatient settings were included. For MI, stroke, and AF, only incident cases were eligible for inclusion in the study. Medical records were reviewed to confirm the diagnosis. Control subjects were identified at random from the Group Health enrollment, and were matched to MI cases, the largest case group, on age, sex, treated hypertension status, and year of identification.</p> <p><b>Design</b><br/> All subjects have an index date. For cases, the index date is the date that the cardiovascular event (MI, stroke, VT, or AF) came to clinical attention. For controls, the index date is a random date within the range of the case index dates. For both cases and controls, information was collected from the inpatient and outpatient medical record, by telephone interview with consenting survivors, and from the Group Health pharmacy and laboratory databases. Consenting participants provided a blood specimen.</p> <p><b>Genetic Research</b><br/> Genetic factors underlying cardiovascular disease are studied using DNA isolated from the blood samples. HVH participants have had genome-wide genotyping using the Illumina OmniExpress chip.</p>]]>
+	</Description>
+	<StudyInEx><![CDATA[
+<p><b>MI</b><br/> Hypertensive men and women aged 30-79 were eligible to be included in this dataset from the MI case-control study if they experienced a non-fatal hospitalized MI between January 2006 and December 2009. Non-hypertensive women aged 30-79 who were peri- or post-menopausal at the time of the MI were eligible for inclusion in this dataset if they experienced a non-fatal hospitalized MI between January 2006 and June 2007. Potential MI cases were identified from hospital discharge diagnosis codes, and the MI diagnosis was confirmed by review of medical records. MIs that were a complication of surgery or a procedure were excluded. Only incident MI cases were included; MI cases with a prior MI were ineligible for the study.</p> <p><b>Stroke</b><br/> Hypertensive men and women aged 30-79 were eligible to be included in this dataset from the stroke case-control study if they were hospitalized for a non-fatal ischemic or hemorrhagic stroke between January 2006 and December 2009. Non-hypertensive women aged 30-79 who were peri- or post-menopausal at the time of the stroke were eligible for inclusion in this dataset if they experienced a non-fatal hospitalized stroke between January 2006 and June 2007. Potential stroke cases were identified from hospital discharge diagnosis codes, and the stroke diagnosis and stroke subtype were confirmed by review of medical records. Only incident stroke cases were included; stroke cases with a prior stroke were ineligible for the study.</p> <p><b>VT</b><br/> VT includes both deep venous thrombosis (DVT) and pulmonary embolism (PE). Women aged 18-89 were eligible to be included in this dataset from the VT case-control study if they experienced a DVT and/or PE between January 2002 and December 2010. Men aged 30-89 were eligible to be included in this dataset if they experienced a DVT and/or PE between January 2002 and December 2011. Potential VT cases diagnosed in both inpatient and outpatient settings were identified using hospital discharge diagnosis codes and urgent care diagnosis codes. Additionally, subjects who received a prescription for low molecular weight heparin were screened as potential cases of DVT. We verified the diagnoses of deep vein thrombosis and/or pulmonary embolism and their dates of onset using information from the inpatient and outpatient medical records. Only incident VT cases were included; VT cases with a prior VT were ineligible for inclusion in this dataset.</p> <p><b>Early Onset AF</b><br/> The AF study identified early onset AF cases with a date of clinically recognized AF onset between January 2005 and June 2007. Early onset AF is defined as AF first recognized at ages 30-65 in a person with no known heart disease, and includes both AF and atrial flutter. First-time episodes of AF diagnosed in inpatient and outpatient settings were included. AF and its date of onset were verified by review of the inpatient and outpatient medical records. First-time episodes of AF that occurred during or after a surgical procedure and had resolved by the time of hospital discharge were not included. However, if a person had surgery-related AF that resolved, and later in time had AF that occurred in the absence of surgery, that second event was eligible as a first lifetime episode of non-surgery-related AF. If the onset of AF was recognized in a subject who already had clinically recognized heart disease, including heart failure, myocardial infarction, probable or definite angina, coronary bypass, coronary angioplasty, moderate or severe valvular heart disease, severe left ventricular hypertrophy, congenital heart disease, implanted pacemaker/AICD, or poor left ventricular systolic function, the AF case was not included. If a diagnosis of hyperthyroidism, pneumonia, active alcoholism, or another specific condition was identified as precipitating the AF, the AF case was not included.</p> <p><b>Controls</b><br/> Control subjects were a random sample of health plan members frequency matched on age (by decade), sex, hypertension status, and calendar year of identification to the MI cases, the largest case group of the HVH study.</p>]]>
+	</StudyInEx>
+	<StudyProjects>
+		<Project/>
+	</StudyProjects>
+	<Publications>
+		<Publication>
+			<Pubmed pmid="19265792"/>
+		</Publication>
+		<Publication>
+			<Pubmed pmid="20173747"/>
+		</Publication>
+		<Publication>
+			<Pubmed pmid="20100777"/>
+		</Publication>
+		<Publication>
+			<Pubmed pmid="22941190"/>
+		</Publication>
+		<Publication>
+			<Pubmed pmid="17284699"/>
+		</Publication>
+	</Publications>
+	<Diseases>
+		<Disease vocab_source="MESH" vocab_term="Atrial Fibrillation"/>
+		<Disease vocab_source="MESH" vocab_term="Myocardial Infarction"/>
+		<Disease vocab_source="MESH" vocab_term="Stroke"/>
+		<Disease vocab_source="MESH" vocab_term="Venous Thrombosis"/>
+	</Diseases>
+	<Attributions>
+		<Header title="Principal Investigators">
+			<AttName>Susan Heckbert, MD, PhD</AttName>
+			<Institution>University of Washington, Seattle, WA, USA</Institution>
+		</Header>
+		<Header title="Principal Investigators">
+			<AttName>Bruce Psaty, MD, PhD, MPH</AttName>
+			<Institution>University of Washington, Seattle, WA, USA</Institution>
+		</Header>
+		<Header title="Principal Investigators">
+			<AttName>Nicholas Smith, PhD</AttName>
+			<Institution>University of Washington, Seattle, WA, USA</Institution>
+		</Header>
+		<Header title="Funding Source">
+			<AttName>HL068986 &quot;Atrial Fibrillation Incidence, Risk Factors and Genetics&quot;</AttName>
+			<Institution>National Heart, Lung, and Blood Institute, National Institutes of Health, Bethesda, MD, USA</Institution>
+		</Header>
+		<Header title="Funding Source">
+			<AttName>HL085251 &quot;Genome-wide case-only study of antihypertensive drug-gene interactions&quot;</AttName>
+			<Institution>National Heart, Lung, and Blood Institute, National Institutes of Health, Bethesda, MD, USA</Institution>
+		</Header>
+		<Header title="Funding Source">
+			<AttName>HL095080 &quot;Pharmacologic and pharmacogenetic associations with recurrent venous thrombosis&quot;</AttName>
+			<Institution>National Heart, Lung, and Blood Institute, National Institutes of Health, Bethesda, MD, USA</Institution>
+		</Header>
+		<Header title="Funding Source">
+			<AttName>HL073410 &quot;Estrogens and pharmacogenetic risks of venous thrombosis in postmenopausal women; Clotting genetic variant, hormones, and venous thrombosis&quot;</AttName>
+			<Institution>National Heart, Lung, and Blood Institute, National Institutes of Health, Bethesda, MD, USA</Institution>
+		</Header>
+	</Attributions>
+	<DisplayPublicSummary>yes</DisplayPublicSummary>
+	<StudyHistory><![CDATA[
+<p> <ul> <li>1988 - Study originates</li> <li>1997 - Study aims to expand to include genetic associations with cardiovascular disease</li> <li>2009 - Participants who provided blood samples for genetic analysis are asked for consent to deposit genetic and phenotype data in dbGaP</li> </ul> </p>]]>
+	</StudyHistory>
+	<ConsentGroups>
+		<ConsentGroup groupNum="1" shortName="HMB-IRB-MDS" longName="Health/Medical/Biomedical (IRB, MDS)"/>
+		<ConsentGroup groupNum="2" shortName="DS-CVD-IRB-MDS" longName="Disease-Specific (Cardiovascular Disease, IRB, MDS)"/>
+	</ConsentGroups>
+</Configuration>
+
+  <AuthorizedAccess>
+    <DacInfo ssDacId="0">
+      <DacName>NHLBI</DacName>
+      <DacFullName>National Heart, Lung, and Blood Institute DAC</DacFullName>
+      <DacEmail>0</DacEmail>
+      <DacPhone></DacPhone>
+      <DacUrl></DacUrl>
+    </DacInfo>
+    <Policy Policy_ID="phs001013.v1.p1_policy" ref_ssDacId="0">
+      <DisplayResearchStatement>yes</DisplayResearchStatement>
+      <DisplayPublicSummary>yes</DisplayPublicSummary>
+      <EmbargoLength>0</EmbargoLength>
+      <YearsUntilRenewal>1</YearsUntilRenewal>
+      <WeeksCancelRequest>8</WeeksCancelRequest>
+      <PdfSupplementReqired>yes</PdfSupplementReqired>
+      <AcknowledgementText>
+        <para>
+          http://dbgap.ncbi.nlm.nih.gov/aa/wga.cgi?page=DUC&amp;view_pdf&amp;stacc=phs001013.v1.p1
+        </para>
+      </AcknowledgementText>
+      <DocumentSet>
+        <DataUseCertificate Label="Data Use Certificate" FilePath="https://dbgap.ncbi.nlm.nih.gov/aa/wga.cgi?page=DUC&amp;view_pdf&amp;stacc=phs001013.v1.p1" FileName=""/>
+      </DocumentSet>
+    </Policy>
+    <ConsentGroups>
+      <ParticipantSet groupNum-REF="1">
+        <ConsentName>Health/Medical/Biomedical (IRB, MDS)</ConsentName>
+        <ConsentAbbrev>HMB-IRB-MDS</ConsentAbbrev>
+        <UseLimitation>Use of this data is limited to health/medical/biomedical purposes, does not include the study of population origins or ancestry.
+Requestor must provide documentation of local IRB approval.
+Use of the data includes methods development research (e.g., development of software or algorithms).</UseLimitation>
+        <IrbRequired>Yes</IrbRequired>
+      </ParticipantSet>
+      <ParticipantSet groupNum-REF="2">
+        <ConsentName>Disease-Specific (Cardiovascular Disease, IRB, MDS)</ConsentName>
+        <ConsentAbbrev>DS-CVD-IRB-MDS</ConsentAbbrev>
+        <UseLimitation>Use of the data must be related to Cardiovascular Disease.
+Requestor must provide documentation of local IRB approval.
+Use of the data includes methods development research (e.g., development of software or algorithms).</UseLimitation>
+        <IrbRequired>Yes</IrbRequired>
+      </ParticipantSet>
+    </ConsentGroups>
+  </AuthorizedAccess>
+  <Documents>
+    <Document phd="phd005479.1" type="protocol" createDate="2016-02-24" modDate="2016-02-25" urlToXml="http://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/GetDocumentXml.cgi?document_id=phd005479.1" urlToHtml="http://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/document.cgi?study_id=phs001013.v1.p1&amp;phd=5479">
+      <OrigName>HVH_Acknowledgment_Statement.docx</OrigName>
+      <DisplayName>Heart and Vascular Health (HVH) Study dbGaP Acknowledgment Statement</DisplayName>
+      <Description>Heart and Vascular Health (HVH) Study dbGaP Acknowledgment Statement</Description>
+      <displayStatus>public</displayStatus>
+      <xmlStatus>public</xmlStatus>
+    </Document>
+    <Document phd="phd005480.1" type="consent-form" createDate="2016-02-24" modDate="2016-02-25" urlToXml="http://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/GetDocumentXml.cgi?document_id=phd005480.1" urlToHtml="http://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/document.cgi?study_id=phs001013.v1.p1&amp;phd=5480">
+      <OrigName>HVH_Consent.doc</OrigName>
+      <DisplayName>Consent to take part in research: The Heart and Vascular Health Study</DisplayName>
+      <Description>Consent to take part in research: The Heart and Vascular Health Study</Description>
+      <displayStatus>public</displayStatus>
+      <xmlStatus>public</xmlStatus>
+    </Document>
+    <Document phd="phd005481.1" type="coding-manual" createDate="2016-02-24" modDate="2016-02-29" urlToXml="http://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/GetDocumentXml.cgi?document_id=phd005481.1" urlToHtml="http://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/document.cgi?study_id=phs001013.v1.p1&amp;phd=5481">
+      <OrigName>HVH_DataCollection.docx</OrigName>
+      <DisplayName>Heart and Vascular Health Study Phenotype data</DisplayName>
+      <Description>Heart and Vascular Health Study Phenotype data</Description>
+      <displayStatus>public</displayStatus>
+      <xmlStatus>public</xmlStatus>
+    </Document>
+    <Document phd="phd005482.1" type="coding-manual" createDate="2016-02-24" modDate="2016-02-29" urlToXml="http://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/GetDocumentXml.cgi?document_id=phd005482.1" urlToHtml="http://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/document.cgi?study_id=phs001013.v1.p1&amp;phd=5482">
+      <OrigName>HVH_Manual.docx</OrigName>
+      <DisplayName>MANUAL OF OPERATIONS</DisplayName>
+      <Description>MANUAL OF OPERATIONS</Description>
+      <displayStatus>public</displayStatus>
+      <xmlStatus>public</xmlStatus>
+    </Document>
+    <Document phd="phd005483.1" type="protocol" createDate="2016-02-24" modDate="2016-02-25" urlToXml="http://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/GetDocumentXml.cgi?document_id=phd005483.1" urlToHtml="http://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/document.cgi?study_id=phs001013.v1.p1&amp;phd=5483">
+      <OrigName>HVH_Study_Description.docx</OrigName>
+      <DisplayName>Heart and Vascular Health Study Study Description</DisplayName>
+      <Description>Heart and Vascular Health Study Study Description</Description>
+      <displayStatus>public</displayStatus>
+      <xmlStatus>public</xmlStatus>
+    </Document>
+  </Documents>
+
+  <Annotations>
+    <DocumentPart phd="phd005480.1" sectionId="sec1">
+      <phvList>
+        <phvRef variableId="259370"/>
+      </phvList>
+    </DocumentPart>
+    <DocumentPart phd="phd005481.1" sectionId="td1">
+      <phvList>
+        <phvRef variableId="259376"/>
+      </phvList>
+    </DocumentPart>
+    <DocumentPart phd="phd005481.1" sectionId="td10">
+      <phvList>
+        <phvRef variableId="259386"/>
+      </phvList>
+    </DocumentPart>
+    <DocumentPart phd="phd005481.1" sectionId="td11">
+      <phvList>
+        <phvRef variableId="259387"/>
+      </phvList>
+    </DocumentPart>
+    <DocumentPart phd="phd005481.1" sectionId="td12">
+      <phvList>
+        <phvRef variableId="259388"/>
+      </phvList>
+    </DocumentPart>
+    <DocumentPart phd="phd005481.1" sectionId="td13">
+      <phvList>
+        <phvRef variableId="259389"/>
+      </phvList>
+    </DocumentPart>
+    <DocumentPart phd="phd005481.1" sectionId="td14">
+      <phvList>
+        <phvRef variableId="259390"/>
+      </phvList>
+    </DocumentPart>
+    <DocumentPart phd="phd005481.1" sectionId="td15">
+      <phvList>
+        <phvRef variableId="259391"/>
+      </phvList>
+    </DocumentPart>
+    <DocumentPart phd="phd005481.1" sectionId="td16">
+      <phvList>
+        <phvRef variableId="259392"/>
+      </phvList>
+    </DocumentPart>
+    <DocumentPart phd="phd005481.1" sectionId="td17">
+      <phvList>
+        <phvRef variableId="259393"/>
+      </phvList>
+    </DocumentPart>
+    <DocumentPart phd="phd005481.1" sectionId="td18">
+      <phvList>
+        <phvRef variableId="259394"/>
+      </phvList>
+    </DocumentPart>
+    <DocumentPart phd="phd005481.1" sectionId="td19">
+      <phvList>
+        <phvRef variableId="259395"/>
+      </phvList>
+    </DocumentPart>
+    <DocumentPart phd="phd005481.1" sectionId="td2">
+      <phvList>
+        <phvRef variableId="259377"/>
+      </phvList>
+    </DocumentPart>
+    <DocumentPart phd="phd005481.1" sectionId="td20">
+      <phvList>
+        <phvRef variableId="259396"/>
+      </phvList>
+    </DocumentPart>
+    <DocumentPart phd="phd005481.1" sectionId="td21">
+      <phvList>
+        <phvRef variableId="259381"/>
+      </phvList>
+    </DocumentPart>
+    <DocumentPart phd="phd005481.1" sectionId="td3">
+      <phvList>
+        <phvRef variableId="259378"/>
+      </phvList>
+    </DocumentPart>
+    <DocumentPart phd="phd005481.1" sectionId="td4">
+      <phvList>
+        <phvRef variableId="259379"/>
+      </phvList>
+    </DocumentPart>
+    <DocumentPart phd="phd005481.1" sectionId="td5">
+      <phvList>
+        <phvRef variableId="259380"/>
+      </phvList>
+    </DocumentPart>
+    <DocumentPart phd="phd005481.1" sectionId="td6">
+      <phvList>
+        <phvRef variableId="259382"/>
+      </phvList>
+    </DocumentPart>
+    <DocumentPart phd="phd005481.1" sectionId="td7">
+      <phvList>
+        <phvRef variableId="259383"/>
+      </phvList>
+    </DocumentPart>
+    <DocumentPart phd="phd005481.1" sectionId="td8">
+      <phvList>
+        <phvRef variableId="259384"/>
+      </phvList>
+    </DocumentPart>
+    <DocumentPart phd="phd005481.1" sectionId="td9">
+      <phvList>
+        <phvRef variableId="259385"/>
+      </phvList>
+    </DocumentPart>
+    <DocumentPart phd="phd005482.1" sectionId="p1">
+      <phvList>
+        <phvRef variableId="259376"/>
+        <phvRef variableId="259382"/>
+      </phvList>
+    </DocumentPart>
+    <DocumentPart phd="phd005482.1" sectionId="p10">
+      <phvList>
+        <phvRef variableId="259380"/>
+      </phvList>
+    </DocumentPart>
+    <DocumentPart phd="phd005482.1" sectionId="p11">
+      <phvList>
+        <phvRef variableId="259381"/>
+      </phvList>
+    </DocumentPart>
+    <DocumentPart phd="phd005482.1" sectionId="p12">
+      <phvList>
+        <phvRef variableId="259382"/>
+      </phvList>
+    </DocumentPart>
+    <DocumentPart phd="phd005482.1" sectionId="p13">
+      <phvList>
+        <phvRef variableId="259383"/>
+      </phvList>
+    </DocumentPart>
+    <DocumentPart phd="phd005482.1" sectionId="p14">
+      <phvList>
+        <phvRef variableId="259384"/>
+      </phvList>
+    </DocumentPart>
+    <DocumentPart phd="phd005482.1" sectionId="p15">
+      <phvList>
+        <phvRef variableId="259385"/>
+      </phvList>
+    </DocumentPart>
+    <DocumentPart phd="phd005482.1" sectionId="p16">
+      <phvList>
+        <phvRef variableId="259386"/>
+      </phvList>
+    </DocumentPart>
+    <DocumentPart phd="phd005482.1" sectionId="p17">
+      <phvList>
+        <phvRef variableId="259387"/>
+      </phvList>
+    </DocumentPart>
+    <DocumentPart phd="phd005482.1" sectionId="p18">
+      <phvList>
+        <phvRef variableId="259388"/>
+      </phvList>
+    </DocumentPart>
+    <DocumentPart phd="phd005482.1" sectionId="p19">
+      <phvList>
+        <phvRef variableId="259389"/>
+      </phvList>
+    </DocumentPart>
+    <DocumentPart phd="phd005482.1" sectionId="p2">
+      <phvList>
+        <phvRef variableId="259376"/>
+        <phvRef variableId="259383"/>
+      </phvList>
+    </DocumentPart>
+    <DocumentPart phd="phd005482.1" sectionId="p20">
+      <phvList>
+        <phvRef variableId="259390"/>
+      </phvList>
+    </DocumentPart>
+    <DocumentPart phd="phd005482.1" sectionId="p21">
+      <phvList>
+        <phvRef variableId="259391"/>
+      </phvList>
+    </DocumentPart>
+    <DocumentPart phd="phd005482.1" sectionId="p22">
+      <phvList>
+        <phvRef variableId="259392"/>
+      </phvList>
+    </DocumentPart>
+    <DocumentPart phd="phd005482.1" sectionId="p23">
+      <phvList>
+        <phvRef variableId="259393"/>
+      </phvList>
+    </DocumentPart>
+    <DocumentPart phd="phd005482.1" sectionId="p24">
+      <phvList>
+        <phvRef variableId="259394"/>
+      </phvList>
+    </DocumentPart>
+    <DocumentPart phd="phd005482.1" sectionId="p25">
+      <phvList>
+        <phvRef variableId="259395"/>
+      </phvList>
+    </DocumentPart>
+    <DocumentPart phd="phd005482.1" sectionId="p26">
+      <phvList>
+        <phvRef variableId="259396"/>
+      </phvList>
+    </DocumentPart>
+    <DocumentPart phd="phd005482.1" sectionId="p3">
+      <phvList>
+        <phvRef variableId="259376"/>
+        <phvRef variableId="259384"/>
+      </phvList>
+    </DocumentPart>
+    <DocumentPart phd="phd005482.1" sectionId="p4">
+      <phvList>
+        <phvRef variableId="259376"/>
+        <phvRef variableId="259385"/>
+      </phvList>
+    </DocumentPart>
+    <DocumentPart phd="phd005482.1" sectionId="p5">
+      <phvList>
+        <phvRef variableId="259376"/>
+      </phvList>
+    </DocumentPart>
+    <DocumentPart phd="phd005482.1" sectionId="p6">
+      <phvList>
+        <phvRef variableId="259376"/>
+      </phvList>
+    </DocumentPart>
+    <DocumentPart phd="phd005482.1" sectionId="p7">
+      <phvList>
+        <phvRef variableId="259377"/>
+      </phvList>
+    </DocumentPart>
+    <DocumentPart phd="phd005482.1" sectionId="p8">
+      <phvList>
+        <phvRef variableId="259378"/>
+      </phvList>
+    </DocumentPart>
+    <DocumentPart phd="phd005482.1" sectionId="p9">
+      <phvList>
+        <phvRef variableId="259379"/>
+      </phvList>
+    </DocumentPart>
+    <DocumentPart phd="phd005483.1" sectionId="p1">
+      <phvList>
+        <phvRef variableId="259376"/>
+      </phvList>
+    </DocumentPart>
+    <DocumentPart phd="phd005483.1" sectionId="p2">
+      <phvList>
+        <phvRef variableId="259377"/>
+      </phvList>
+    </DocumentPart>
+  </Annotations>
+
+
+
+</Study>
+
+</Studies>
+
+</GaPExchange>

@@ -1,0 +1,1320 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./datadict_v2.xsl"?>
+<data_table id="pht000994.v1" study_id="phs000200.v1" participant_set="1" date_created="Thu Dec 17 19:19:39 2009">
+
+<variable id="phv00078109.v1">
+	<name>SHAREID</name>
+	<description>WHI SHARe ID</description>
+	<type>integer</type>
+</variable>
+
+<variable id="phv00078110.v1">
+	<name>F147DAYS</name>
+	<description>F147 Days since enrollment</description>
+	<type>integer</type>
+	<unit>days</unit>
+	<logical_min>2306</logical_min>
+	<logical_max>3102</logical_max>
+</variable>
+
+<variable id="phv00078111.v1">
+	<name>WTCUR_7</name>
+	<description>Current weight lbs</description>
+	<type>integer</type>
+	<unit>pounds</unit>
+	<logical_min>88</logical_min>
+	<logical_max>380</logical_max>
+	<comment>What is your current weight?</comment>
+</variable>
+
+<variable id="phv00078112.v1">
+	<name>WTMAX_7</name>
+	<description>Highest  weight in past  year (lbs)</description>
+	<type>integer</type>
+	<unit>pounds</unit>
+	<logical_min>82</logical_min>
+	<logical_max>424</logical_max>
+	<comment>In the past year, what was your highest weight?</comment>
+</variable>
+
+<variable id="phv00078113.v1">
+	<name>WTMIN_7</name>
+	<description>Lowest weight in past  year (lbs)</description>
+	<type>integer</type>
+	<unit>pounds</unit>
+	<logical_min>85</logical_min>
+	<logical_max>375</logical_max>
+	<comment>In the past year, what was  your lowest weight?</comment>
+</variable>
+
+<variable id="phv00078114.v1">
+	<name>WALKSWK_7</name>
+	<description>Walk more than 10 minutes</description>
+	<type>encoded value</type>
+	<comment>Think about the walking you do outside the home. How often do you walk outside the home for more than 10 minutes without stopping? (Mark only one.)</comment>
+	<value code="0">Rarely or never</value>
+	<value code="1">1-3 times each month</value>
+	<value code="2">1 time each week</value>
+	<value code="3">2-3 times each week</value>
+	<value code="4">4-6 times each week</value>
+	<value code="5">7 or more times each week</value>
+</variable>
+
+<variable id="phv00078115.v1">
+	<name>MINSWALK_7</name>
+	<description>How many minutes walking</description>
+	<type>encoded value</type>
+	<comment>When you walk outside the home for more than 10 minutes without stopping, for how many minutes do you usually walk?
+		Sub-question of F147 V1 Q4 &#39;Walk more than 10 min&#39;. </comment>
+	<value code="1">Less than 20 minutes</value>
+	<value code="2">20-39 minutes</value>
+	<value code="3">40-59 minutes</value>
+	<value code="4">1 hour or more</value>
+</variable>
+
+<variable id="phv00078116.v1">
+	<name>WALKSPD_7</name>
+	<description>Usual walking speed</description>
+	<type>encoded value</type>
+	<comment>What is your usual speed?
+		Sub-question of F147 V1 Q4 &#39;Walk more than 10 min&#39;. </comment>
+	<value code="2">Casual strolling or walking</value>
+	<value code="3">Average or normal</value>
+	<value code="4">Fairly fast</value>
+	<value code="5">Very fast</value>
+	<value code="9">Don&#39;t know</value>
+</variable>
+
+<variable id="phv00078117.v1">
+	<name>HDEXFREQ_7</name>
+	<description>Strenuous exercise</description>
+	<type>encoded value</type>
+	<comment>Not including walking outside the home, how often each week (7 days) do you usually do STRENUOUS OR VERY HARD EXERCISE (you work up a sweat and your heart beats fast)? For example, aerobics, aerobic dancing, jogging, tennis, swimming laps.</comment>
+	<value code="0">None</value>
+	<value code="1">1 day per week</value>
+	<value code="2">2 days per week</value>
+	<value code="3">3 days per week</value>
+	<value code="4">4 days per week</value>
+	<value code="5">5 or more days per week</value>
+</variable>
+
+<variable id="phv00078118.v1">
+	<name>HARDMINS_7</name>
+	<description>Strenuous/how long</description>
+	<type>encoded value</type>
+	<comment>How long do usually exercise like this at one time?
+		Sub-question of F147 V1 Q5 &#39;Strenuous exercise&#39;. </comment>
+	<value code="1">Less than 20 minutes</value>
+	<value code="2">20-39 minutes</value>
+	<value code="3">40-59 minutes</value>
+	<value code="4">1 hour or more</value>
+</variable>
+
+<variable id="phv00078119.v1">
+	<name>MDEXFREQ_7</name>
+	<description>Moderate exercise</description>
+	<type>encoded value</type>
+	<comment>Not including walking outside the home, how often each week (7 days) do you usually do MODERATE EXERCISE (Not exhausting).  For example, biking outdoors, use of an exercise machine (like a stationary bike or treadmill), calisthenics, easy swimming, popular and folk dancing.</comment>
+	<value code="0">None</value>
+	<value code="1">1 day per week</value>
+	<value code="2">2 days per week</value>
+	<value code="3">3 days per week</value>
+	<value code="4">4 days per week</value>
+	<value code="5">5 or more days per week</value>
+</variable>
+
+<variable id="phv00078120.v1">
+	<name>MODMINS_7</name>
+	<description>Moderate/how long</description>
+	<type>encoded value</type>
+	<comment>How long do usually exercise like this at one time?
+		Sub-question of F147 V1 Q6 &#39;Moderate exercise&#39;. </comment>
+	<value code="1">Less than 20 minutes</value>
+	<value code="2">20-39 minutes</value>
+	<value code="3">40-59 minutes</value>
+	<value code="4">1 hour or more</value>
+</variable>
+
+<variable id="phv00078121.v1">
+	<name>MLEXFREQ_7</name>
+	<description>Mild exercise</description>
+	<type>encoded value</type>
+	<comment>Not including walking outside the home, how often each week (7 days) do you usually do MILD EXERCISE.  For example, slow dancing, bowling, golf.</comment>
+	<value code="0">None</value>
+	<value code="1">1 day per week</value>
+	<value code="2">2 days per week</value>
+	<value code="3">3 days per week</value>
+	<value code="4">4 days per week</value>
+	<value code="5">5 or more days per week</value>
+</variable>
+
+<variable id="phv00078122.v1">
+	<name>MILDMINS_7</name>
+	<description>Mild /how long</description>
+	<type>encoded value</type>
+	<comment>How long do usually exercise like this at one time?
+		Sub-question of F147 V1 Q7 &#39;Mild exercise&#39;. </comment>
+	<value code="1">Less than 20 minutes</value>
+	<value code="2">20-39 minutes</value>
+	<value code="3">40-59 minutes</value>
+	<value code="4">1 hour or more</value>
+</variable>
+
+<variable id="phv00078123.v1">
+	<name>SMOKENW_7</name>
+	<description>Smoke cigarettes now</description>
+	<type>encoded value</type>
+	<comment>Do you smoke cigarettes now?</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00078124.v1">
+	<name>CIGSDAY_7</name>
+	<description>How many cigarette per day</description>
+	<type>encoded value</type>
+	<comment>How many cigarettes do you usually smoke each day?  (Mark one.)
+		Sub-question of F147 V1 Q8 &#39;Smoke cigarettes now&#39;. </comment>
+	<value code="1">Less than 5</value>
+	<value code="2">5-14</value>
+	<value code="3">15-24</value>
+	<value code="4">25-34</value>
+	<value code="5">35-44</value>
+	<value code="6">45 or more</value>
+</variable>
+
+<variable id="phv00078125.v1">
+	<name>WTLMERID_7</name>
+	<description>Meridia (Sibutramine)</description>
+	<type>encoded value</type>
+	<comment>Meridia (Sibutramine)</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00078126.v1">
+	<name>WTLXENCL_7</name>
+	<description>Xenical (Orlistat)</description>
+	<type>encoded value</type>
+	<comment>Xenical (Orlistat)</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00078127.v1">
+	<name>WTLPHENT_7</name>
+	<description>Phentermine (Fastin)</description>
+	<type>encoded value</type>
+	<comment>Phentermine (Fastin)</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00078128.v1">
+	<name>WTLOTHER_7</name>
+	<description>Other prescription weight loss meds</description>
+	<type>encoded value</type>
+	<comment>Other prescription weight loss medication</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00078129.v1">
+	<name>NATHOR_7</name>
+	<description>Natural hormones in past year</description>
+	<type>encoded value</type>
+	<comment>In the past year, did you use any &#39;natural&#39; hormones that you can get without a doctor&#39;s prescription? These are usually made from plants and often obtained from health food stores or by mail order. They may be in the form of a pill, vaginal cream or suppository, skin cream or soy-enriched foods.</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+	<value code="9">Don&#39;t know</value>
+</variable>
+
+<variable id="phv00078130.v1">
+	<name>YAMCRM_7</name>
+	<description>Natural/wild yam cream</description>
+	<type>encoded value</type>
+	<comment>Wild yam cream
+		Sub-question of F147 V1 Q10 &#39;Natural hormones in past year&#39;. </comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00078131.v1">
+	<name>YAMPLS_7</name>
+	<description>Natural/Wild yam pills</description>
+	<type>encoded value</type>
+	<comment>Wild yam pills
+		Sub-question of F147 V1 Q10 &#39;Natural hormones in past year&#39;. </comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00078132.v1">
+	<name>PRGCRM_7</name>
+	<description>Natural/Progesterone cream</description>
+	<type>encoded value</type>
+	<comment>Progesterone cream
+		Sub-question of F147 V1 Q10 &#39;Natural hormones in past year&#39;. </comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00078133.v1">
+	<name>PRGSUP_7</name>
+	<description>Natural/Progest suppositories</description>
+	<type>encoded value</type>
+	<comment>Progesterone suppositories
+		Sub-question of F147 V1 Q10 &#39;Natural hormones in past year&#39;. </comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00078134.v1">
+	<name>DHEAPL_7</name>
+	<description>Natural/DHEA pills</description>
+	<type>encoded value</type>
+	<comment>DHEA (dehydroepiandosterone pills)
+		Sub-question of F147 V1 Q10 &#39;Natural hormones in past year&#39;. </comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00078135.v1">
+	<name>PHYPLS_7</name>
+	<description>Natural/Phytoest pills/powder</description>
+	<type>encoded value</type>
+	<comment>Phytoestrogen pills or powder (soy or flax)
+		Sub-question of F147 V1 Q10 &#39;Natural hormones in past year&#39;. </comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00078136.v1">
+	<name>PHYCRM_7</name>
+	<description>Natural/Phytoestrogen creams</description>
+	<type>encoded value</type>
+	<comment>Phytoestrogen creams (soy or flax)
+		Sub-question of F147 V1 Q10 &#39;Natural hormones in past year&#39;. </comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00078137.v1">
+	<name>PHYFDS_7</name>
+	<description>Natural/Phytoestrogen foods</description>
+	<type>encoded value</type>
+	<comment>Phytoestrogen enriched foods (tofu, soybeans)
+		Sub-question of F147 V1 Q10 &#39;Natural hormones in past year&#39;. </comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00078138.v1">
+	<name>NTOTHR_7</name>
+	<description>Natural/Other</description>
+	<type>encoded value</type>
+	<comment>Other (Specify)
+		Sub-question of F147 V1 Q10 &#39;Natural hormones in past year&#39;. </comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00078139.v1">
+	<name>NTDNTK_7</name>
+	<description>Natural/Don&#39;t know</description>
+	<type>encoded value</type>
+	<comment>Don&#39;t know
+		Sub-question of F147 V1 Q10 &#39;Natural hormones in past year&#39;. </comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00078140.v1">
+	<name>SRM_7</name>
+	<description>Use non-estrogen prescription?</description>
+	<type>encoded value</type>
+	<comment>In the past year, did you use any non-estrogen prescription treatments for hormone replacement? These may be prescribed to prevent osteoporosis and breast cancer and are sometimes called &#39;designer estrogens&#39; or selective estrogen receptor modulators (SERMs). Examples are Evista (Raloxifene) and Nolvadex (Tamoxifen).</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+	<value code="9">Don&#39;t know</value>
+</variable>
+
+<variable id="phv00078141.v1">
+	<name>SRMEVST_7</name>
+	<description>Evista (Raloxifene)</description>
+	<type>encoded value</type>
+	<comment>Evista (Raloxifene)
+		Sub-question of F147 V1 Q11 &#39;Use non-estrogen prescription?&#39;. </comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00078142.v1">
+	<name>SRMNOLU_7</name>
+	<description>Nolvadex (Tamoxifen)</description>
+	<type>encoded value</type>
+	<comment>Nolvadex (Tamoxifen)
+		Sub-question of F147 V1 Q11 &#39;Use non-estrogen prescription?&#39;. </comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00078143.v1">
+	<name>SRMOTHR_7</name>
+	<description>Other/ non-estrogen</description>
+	<type>encoded value</type>
+	<comment>Other (Specify)
+		Sub-question of F147 V1 Q11 &#39;Use non-estrogen prescription?&#39;. </comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00078144.v1">
+	<name>SRMDNTK_7</name>
+	<description>Don&#39;t know/non-estrogen</description>
+	<type>encoded value</type>
+	<comment>Don&#39;t know
+		Sub-question of F147 V1 Q11 &#39;Use non-estrogen prescription?&#39;. </comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00078145.v1">
+	<name>HRPST1YR_7</name>
+	<description>Used female hormones/past year</description>
+	<type>encoded value</type>
+	<comment>In the past year, did you use any female hormones (ESTROGEN or PROGESTERONE [also called PROGESTIN] that were prescribed by a doctor? (This may have been in the form of a pill, skin patch, shots, or vaginal cream or suppository.)</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+	<value code="9">Don&#39;t know</value>
+</variable>
+
+<variable id="phv00078146.v1">
+	<name>EPPLPA_7</name>
+	<description>Comb estr/progest pills/patch</description>
+	<type>encoded value</type>
+	<comment>In the past year, did you use female hormone PILLS or PATCHES prescribed by a doctor which contained both ESTROGEN and progestin (PROGESTERONE) COMBINED in the same pill, patch, or package (for example, Prempro, Premphase)? (Do not include use of two separate estrogen and progestin pills used at the same time.)
+		Sub-question of F147 V1 Q12 &#39;Used female hormones/past year&#39;. </comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+	<value code="9">Don&#39;t know</value>
+</variable>
+
+<variable id="phv00078147.v1">
+	<name>EPDUR_7</name>
+	<description>Months comb estr/progesterone</description>
+	<type>encoded value</type>
+	<comment>In the past year, how many months did you use COMBINED female hormone PILLS or PATCH which contained both ESTROGEN and PROGESTIN?
+		Sub-question of F147 V1 Q12 &#39;Used female hormones/past year&#39;.&lt;br/&gt;Sub-question of F147 V1 Q13 &#39;Comb estr/progest pills/patch&#39;. </comment>
+	<value code="1">Less than 1 month</value>
+	<value code="2">1-6 months</value>
+	<value code="3">7-10 months</value>
+	<value code="4">11-12 months</value>
+</variable>
+
+<variable id="phv00078148.v1">
+	<name>EPTYPE_7</name>
+	<description>Which estr/progest combination</description>
+	<type>encoded value</type>
+	<comment>Which combination did you use the longest?
+		Sub-question of F147 V1 Q12 &#39;Used female hormones/past year&#39;.&lt;br/&gt;Sub-question of F147 V1 Q13 &#39;Comb estr/progest pills/patch&#39;. </comment>
+	<value code="1">Prempro</value>
+	<value code="2">CombiPatch</value>
+	<value code="3">Premphase</value>
+	<value code="8">Other (Specify):</value>
+</variable>
+
+<variable id="phv00078149.v1">
+	<name>ETPL_7</name>
+	<description>Combined estr/testost pills</description>
+	<type>encoded value</type>
+	<comment>In the past year, did you use female hormone PILLS prescribed by a doctor which contained both ESTROGEN  and TESTOSTERONE COMBINED in the same pill (for example, Estratest)?
+		Sub-question of F147 V1 Q12 &#39;Used female hormones/past year&#39;. </comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+	<value code="9">Don&#39;t know</value>
+</variable>
+
+<variable id="phv00078150.v1">
+	<name>ETDUR_7</name>
+	<description>Months used estr/testost pills</description>
+	<type>encoded value</type>
+	<comment>In the past year, how many months did you use COMBINED female hormone PILLS which contained both ESTROGEN and TESTOSTERONE?
+		Sub-question of F147 V1 Q12 &#39;Used female hormones/past year&#39;.&lt;br/&gt;Sub-question of F147 V1 Q14 &#39;Combined estr/testost pills&#39;. </comment>
+	<value code="1">Less than 1 month</value>
+	<value code="2">1-6 months</value>
+	<value code="3">7-10 months</value>
+	<value code="4">11-12 months</value>
+</variable>
+
+<variable id="phv00078151.v1">
+	<name>ETTYPE_7</name>
+	<description>Estr/testost pill used longest</description>
+	<type>encoded value</type>
+	<comment>In the past year, what type of COMBINED ESTROGEN and TESTOSTERONE pill did you use the longest?
+		Sub-question of F147 V1 Q12 &#39;Used female hormones/past year&#39;.&lt;br/&gt;Sub-question of F147 V1 Q14 &#39;Combined estr/testost pills&#39;. </comment>
+	<value code="1">Estratest</value>
+	<value code="2">Estratest HS</value>
+	<value code="8">Other (Specify):</value>
+	<value code="9">Don&#39;t know</value>
+</variable>
+
+<variable id="phv00078152.v1">
+	<name>E_7</name>
+	<description>Estrogen pill, patch, cream, shot</description>
+	<type>encoded value</type>
+	<comment>In the past year, did you use any ESTROGEN pill, patch, cream or shots (other than the combination described in Qxs 13 and 14)?
+		Sub-question of F147 V1 Q12 &#39;Used female hormones/past year&#39;. </comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+	<value code="9">Don&#39;t know</value>
+</variable>
+
+<variable id="phv00078153.v1">
+	<name>EPL_7</name>
+	<description>Did you use any Estrogen pill</description>
+	<type>encoded value</type>
+	<comment>Did you use an estrogen pill?
+		Sub-question of F147 V1 Q12 &#39;Used female hormones/past year&#39;.&lt;br/&gt;Sub-question of F147 V1 Q15 &#39;Estrogen pill, patch, cream, shot&#39;. </comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00078154.v1">
+	<name>EPLDUR_7</name>
+	<description>Months used estrogen pills</description>
+	<type>encoded value</type>
+	<comment>For how many months did you use the Estrogen pills?
+		Sub-question of F147 V1 Q12 &#39;Used female hormones/past year&#39;.&lt;br/&gt;Sub-question of F147 V1 Q15 &#39;Estrogen pill, patch, cream, shot&#39;.&lt;br/&gt;Sub-question of F147 V1 Q15.1 &#39;Did you use any Estrogen pill&#39;. </comment>
+	<value code="1">Less than 1 month</value>
+	<value code="2">1-6 months</value>
+	<value code="3">7-10 months</value>
+	<value code="4">11-12 months</value>
+</variable>
+
+<variable id="phv00078155.v1">
+	<name>EPLTYPE_7</name>
+	<description>Kind of estrogen pills</description>
+	<type>encoded value</type>
+	<comment>What kind did you take? (Mark the one used the longest if you used more than one kind.)
+		Sub-question of F147 V1 Q12 &#39;Used female hormones/past year&#39;.&lt;br/&gt;Sub-question of F147 V1 Q15 &#39;Estrogen pill, patch, cream, shot&#39;.&lt;br/&gt;Sub-question of F147 V1 Q15.1 &#39;Did you use any Estrogen pill&#39;. </comment>
+	<value code="1">Premarin or conjugated equine estrogens</value>
+	<value code="2">Estrace or estradiol</value>
+	<value code="3">Ogen or estropripate</value>
+	<value code="4">Estratab or esterified estrogens</value>
+	<value code="8">Other (Specify):</value>
+	<value code="9">Don&#39;t know</value>
+</variable>
+
+<variable id="phv00078156.v1">
+	<name>EPCH_7</name>
+	<description>Did you use an estrogen patch?</description>
+	<type>encoded value</type>
+	<comment>Did you use an estrogen patch?
+		Sub-question of F147 V1 Q12 &#39;Used female hormones/past year&#39;.&lt;br/&gt;Sub-question of F147 V1 Q15 &#39;Estrogen pill, patch, cream, shot&#39;.&lt;br/&gt;On forms 143-145  this variable reflects estrogen use with or without progesterone. </comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00078157.v1">
+	<name>EPCHDUR_7</name>
+	<description>How many months used patch?</description>
+	<type>encoded value</type>
+	<comment>For how many months did you use the patch?
+		Sub-question of F147 V1 Q12 &#39;Used female hormones/past year&#39;.&lt;br/&gt;Sub-question of F147 V1 Q15 &#39;Estrogen pill, patch, cream, shot&#39;.&lt;br/&gt;Sub-question of F147 V1 Q15.4 &#39;Did you use an estrogen patch?&#39;. </comment>
+	<value code="1">Less than 1 month</value>
+	<value code="2">1-6 months</value>
+	<value code="3">7-10 months</value>
+	<value code="4">11-12 months</value>
+</variable>
+
+<variable id="phv00078158.v1">
+	<name>ECRM_7</name>
+	<description>Did you use an estrogen cream?</description>
+	<type>encoded value</type>
+	<comment>Did you use an estrogen cream?
+		Sub-question of F147 V1 Q12 &#39;Used female hormones/past year&#39;.&lt;br/&gt;Sub-question of F147 V1 Q15 &#39;Estrogen pill, patch, cream, shot&#39;. </comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00078159.v1">
+	<name>ECRMDUR_7</name>
+	<description>How many months used cream?</description>
+	<type>encoded value</type>
+	<comment>For how many months did you use the cream?
+		Sub-question of F147 V1 Q12 &#39;Used female hormones/past year&#39;.&lt;br/&gt;Sub-question of F147 V1 Q15 &#39;Estrogen pill, patch, cream, shot&#39;.&lt;br/&gt;Sub-question of F147 V1 Q15.6 &#39;Did you use an estrogen cream?&#39;. </comment>
+	<value code="1">Less than 1 month</value>
+	<value code="2">1-6 months</value>
+	<value code="3">7-10 months</value>
+	<value code="4">11-12 months</value>
+</variable>
+
+<variable id="phv00078160.v1">
+	<name>ESHT_7</name>
+	<description>Estrogen shots</description>
+	<type>encoded value</type>
+	<comment>Did you have estrogen shots?
+		Sub-question of F147 V1 Q12 &#39;Used female hormones/past year&#39;.&lt;br/&gt;Sub-question of F147 V1 Q15 &#39;Estrogen pill, patch, cream, shot&#39;. </comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00078161.v1">
+	<name>ESHTDUR_7</name>
+	<description>Months took estrogen shots</description>
+	<type>encoded value</type>
+	<comment>For how many months did you have the shots?
+		Sub-question of F147 V1 Q12 &#39;Used female hormones/past year&#39;.&lt;br/&gt;Sub-question of F147 V1 Q15 &#39;Estrogen pill, patch, cream, shot&#39;.&lt;br/&gt;Sub-question of F147 V1 Q15.8 &#39;Estrogen shots&#39;. </comment>
+	<value code="1">Less than 1 month</value>
+	<value code="2">1-6 months</value>
+	<value code="3">7-10 months</value>
+	<value code="4">11-12 months</value>
+</variable>
+
+<variable id="phv00078162.v1">
+	<name>P_7</name>
+	<description>Progesterone pill, cream shot</description>
+	<type>encoded value</type>
+	<comment>In the past year, did you use any PROGESTERONE or PROGESTIN pill, cream, or shots (other than the combinations described in Quextion 13)?
+		Sub-question of F147 V1 Q12 &#39;Used female hormones/past year&#39;. </comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+	<value code="9">Don&#39;t know</value>
+</variable>
+
+<variable id="phv00078163.v1">
+	<name>PPL_7</name>
+	<description>Progesterone pill or capsule</description>
+	<type>encoded value</type>
+	<comment>Did you use a progesterone or progestin pill or capsule?
+		Sub-question of F147 V1 Q12 &#39;Used female hormones/past year&#39;.&lt;br/&gt;Sub-question of F147 V1 Q16 &#39;Progesterone pill, cream shot&#39;. </comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00078164.v1">
+	<name>PPLDUR_7</name>
+	<description>Months progesterone pill/ caps</description>
+	<type>encoded value</type>
+	<comment>For how many months did you use the pill or capsule?
+		Sub-question of F147 V1 Q12 &#39;Used female hormones/past year&#39;.&lt;br/&gt;Sub-question of F147 V1 Q16 &#39;Progesterone pill, cream shot&#39;.&lt;br/&gt;Sub-question of F147 V1 Q16.1 &#39;Progesterone pill or capsule&#39;. </comment>
+	<value code="1">Less than 1 month</value>
+	<value code="2">1-6 months</value>
+	<value code="3">7-10 months</value>
+	<value code="4">11-12 months</value>
+</variable>
+
+<variable id="phv00078165.v1">
+	<name>PPLTYPE_7</name>
+	<description>Kind of progesterone</description>
+	<type>encoded value</type>
+	<comment>What kind did you take (Mark the one used the longest if you used more than one kind)?
+		Sub-question of F147 V1 Q12 &#39;Used female hormones/past year&#39;.&lt;br/&gt;Sub-question of F147 V1 Q16 &#39;Progesterone pill, cream shot&#39;.&lt;br/&gt;Sub-question of F147 V1 Q16.1 &#39;Progesterone pill or capsule&#39;. </comment>
+	<value code="1">Provera, Cycrin, Amen, Medroxyprogestrone</value>
+	<value code="3">Prometrium</value>
+	<value code="8">Other (Specify):</value>
+	<value code="9">Don&#39;t know</value>
+</variable>
+
+<variable id="phv00078166.v1">
+	<name>PPLDAY_7</name>
+	<description>Progest pills days per month</description>
+	<type>encoded value</type>
+	<comment>How many days per month did you use it?
+		Sub-question of F147 V1 Q12 &#39;Used female hormones/past year&#39;.&lt;br/&gt;Sub-question of F147 V1 Q16 &#39;Progesterone pill, cream shot&#39;.&lt;br/&gt;Sub-question of F147 V1 Q16.1 &#39;Progesterone pill or capsule&#39;. </comment>
+	<value code="1">Less than 1 day</value>
+	<value code="2">1-9 days</value>
+	<value code="3">10-12 days</value>
+	<value code="4">13-18 days</value>
+	<value code="5">19-27 days</value>
+	<value code="6">28 or more days</value>
+</variable>
+
+<variable id="phv00078167.v1">
+	<name>PCRM_7</name>
+	<description>Progesterone/Progestin cream</description>
+	<type>encoded value</type>
+	<comment>Did you use a progesterone or progestin cream?
+		Sub-question of F147 V1 Q12 &#39;Used female hormones/past year&#39;.&lt;br/&gt;Sub-question of F147 V1 Q16 &#39;Progesterone pill, cream shot&#39;. </comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00078168.v1">
+	<name>PCRMDUR_7</name>
+	<description>Months used progesterone cream</description>
+	<type>encoded value</type>
+	<comment>For how many months did you use progesterone or progestin cream?
+		Sub-question of F147 V1 Q12 &#39;Used female hormones/past year&#39;.&lt;br/&gt;Sub-question of F147 V1 Q16 &#39;Progesterone pill, cream shot&#39;.&lt;br/&gt;Sub-question of F147 V1 Q16.5 &#39;Progesterone/Progestin cream&#39;. </comment>
+	<value code="1">Less than 1 month</value>
+	<value code="2">1-6 months</value>
+	<value code="3">7-10 months</value>
+	<value code="4">11-12 months</value>
+</variable>
+
+<variable id="phv00078169.v1">
+	<name>PSHT_7</name>
+	<description>Have progesterone shots</description>
+	<type>encoded value</type>
+	<comment>Did you  have progesterone or progestin shots?
+		Sub-question of F147 V1 Q12 &#39;Used female hormones/past year&#39;.&lt;br/&gt;Sub-question of F147 V1 Q16 &#39;Progesterone pill, cream shot&#39;. </comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00078170.v1">
+	<name>PSHTDUR_7</name>
+	<description>Months used progesterone shots</description>
+	<type>encoded value</type>
+	<comment>For how many months did you have progesterone or progestin shots
+		Sub-question of F147 V1 Q12 &#39;Used female hormones/past year&#39;.&lt;br/&gt;Sub-question of F147 V1 Q16 &#39;Progesterone pill, cream shot&#39;.&lt;br/&gt;Sub-question of F147 V1 Q16.7 &#39;Have progesterone shots&#39;. </comment>
+	<value code="1">Less than 1 month</value>
+	<value code="2">1-6 months</value>
+	<value code="3">7-10 months</value>
+	<value code="4">11-12 months</value>
+</variable>
+
+<variable id="phv00078171.v1">
+	<name>CATARACT_7</name>
+	<description>Cataract(s)</description>
+	<type>encoded value</type>
+	<comment>Cataracts(s)</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00078172.v1">
+	<name>MACDEGNR_7</name>
+	<description>Macular degeneration of retina</description>
+	<type>encoded value</type>
+	<comment>Macular degeneration of the retina</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00078173.v1">
+	<name>ASTHMA_7</name>
+	<description>Asthma</description>
+	<type>encoded value</type>
+	<comment>Asthma</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00078174.v1">
+	<name>EMPHYSEM_7</name>
+	<description>Emphysema / chronic bronchitis</description>
+	<type>encoded value</type>
+	<comment>Emphysema or chronic bronchitis</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00078175.v1">
+	<name>CHF_7</name>
+	<description>Heart Failure</description>
+	<type>encoded value</type>
+	<comment>Heart failure or congestive heart failure</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00078176.v1">
+	<name>ANGINA_7</name>
+	<description>Angina</description>
+	<type>encoded value</type>
+	<comment>Angina (chest pains from the heart)</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00078177.v1">
+	<name>ATRIALFB_7</name>
+	<description>Atrial fibrillation</description>
+	<type>encoded value</type>
+	<comment>Atrial fibrillation</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00078178.v1">
+	<name>KIDNEYST_7</name>
+	<description>Kidney or bladder stones</description>
+	<type>encoded value</type>
+	<comment>Kidney or bladder stones (renal or urinary calculi)</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00078179.v1">
+	<name>KIDDIALY_7</name>
+	<description>Dialysis for kidney failure</description>
+	<type>encoded value</type>
+	<comment>Dialysis for kidney or renal failure</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00078180.v1">
+	<name>STOMULCR_7</name>
+	<description>Stomach or duodenal ulcer</description>
+	<type>encoded value</type>
+	<comment>Stomach or duodenal ulcer</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00078181.v1">
+	<name>DIVERTIC_7</name>
+	<description>Diverticulitis</description>
+	<type>encoded value</type>
+	<comment>Diverticulitis</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00078182.v1">
+	<name>PANCREAT_7</name>
+	<description>Pancreatitis</description>
+	<type>encoded value</type>
+	<comment>Pancreatitis (inflamed pancreas)</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00078183.v1">
+	<name>LIVRDIS_7</name>
+	<description>Liver disease</description>
+	<type>encoded value</type>
+	<comment>Liver disease (chronic active hepatitis, cirrhosis, or yellow jaundice)</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00078184.v1">
+	<name>OVRTHY_7</name>
+	<description>Overactive thyroid</description>
+	<type>encoded value</type>
+	<comment>Overactive thyroid</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00078185.v1">
+	<name>UNDTHY_7</name>
+	<description>Underactive thyroid</description>
+	<type>encoded value</type>
+	<comment>Underactive thyroid</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00078186.v1">
+	<name>ALZHEIM_7</name>
+	<description>Alzheimer&#39;s disease</description>
+	<type>encoded value</type>
+	<comment>Alzheimer&#39;s disease</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00078187.v1">
+	<name>MS_7</name>
+	<description>Multiple sclerosis</description>
+	<type>encoded value</type>
+	<comment>Multiple sclerosis</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00078188.v1">
+	<name>PARKINS_7</name>
+	<description>Parkinson&#39;s disease</description>
+	<type>encoded value</type>
+	<comment>Parkinson&#39;s disease</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00078189.v1">
+	<name>ALS_7</name>
+	<description>ALS/Lou Gehrig&#39;s disease</description>
+	<type>encoded value</type>
+	<comment>Amyotropic Lateral Sclerosis (ALS, motor neuron disease, or Lou Gehrig&#39;s disease)</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00078190.v1">
+	<name>BRCA_7</name>
+	<description>Ever diagnosed with breast cancer</description>
+	<type>encoded value</type>
+	<comment>Have you ever been diagnosed with breast cancer?</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+	<value code="9">Don&#39;t know</value>
+</variable>
+
+<variable id="phv00078191.v1">
+	<name>BRCAAGE_7</name>
+	<description>Age decade at breast cancer diagnosis</description>
+	<type>encoded value</type>
+	<comment>At what age were you diagnosed?
+		Sub-question of F147 V1 Q18 &#39;Ever diagnosed w/breast cancer&#39;. </comment>
+	<value code="0">1 to 9 years of age</value>
+	<value code="10">10 to 19 years of age</value>
+	<value code="20">20 to 29 years of age</value>
+	<value code="30">30 to 39 years of age</value>
+	<value code="40">40 to 49 years of age</value>
+	<value code="50">50 to 59 years of age</value>
+	<value code="60">60 to 69 years of age</value>
+	<value code="70">70 to 79 years of age</value>
+	<value code="80">80 to 89 years of age</value>
+	<value code="90">90 to 99 years of age</value>
+</variable>
+
+<variable id="phv00078192.v1">
+	<name>SPOUSDIE_7</name>
+	<description>Spouse/partner die</description>
+	<type>encoded value</type>
+	<comment>Did your spouse or partner die?</comment>
+	<value code="0">No</value>
+	<value code="1">Not too much</value>
+	<value code="2">Moderate/Medium</value>
+	<value code="3">Very much</value>
+</variable>
+
+<variable id="phv00078193.v1">
+	<name>SPOUSILL_7</name>
+	<description>Spouse/partner ill</description>
+	<type>encoded value</type>
+	<comment>Did your spouse or partner have a serious illness?</comment>
+	<value code="0">No</value>
+	<value code="1">Not too much</value>
+	<value code="2">Moderate/Medium</value>
+	<value code="3">Very much</value>
+</variable>
+
+<variable id="phv00078194.v1">
+	<name>FRIENDIE_7</name>
+	<description>Close friend/family die</description>
+	<type>encoded value</type>
+	<comment>Did a close friend or family member die or have a serious illness (other than your spouse or partner)?</comment>
+	<value code="0">No</value>
+	<value code="1">Not too much</value>
+	<value code="2">Moderate/Medium</value>
+	<value code="3">Very much</value>
+</variable>
+
+<variable id="phv00078195.v1">
+	<name>MONPROB_7</name>
+	<description>Money problems</description>
+	<type>encoded value</type>
+	<comment>Did you have any major problems with money?</comment>
+	<value code="0">No</value>
+	<value code="1">Not too much</value>
+	<value code="2">Moderate/Medium</value>
+	<value code="3">Very much</value>
+</variable>
+
+<variable id="phv00078196.v1">
+	<name>DIVORCE_7</name>
+	<description>Divorce/break-up</description>
+	<type>encoded value</type>
+	<comment>Did you have a divorce or break-up with a spouse or partner?</comment>
+	<value code="0">No</value>
+	<value code="1">Not too much</value>
+	<value code="2">Moderate/Medium</value>
+	<value code="3">Very much</value>
+</variable>
+
+<variable id="phv00078197.v1">
+	<name>FRNDIV_7</name>
+	<description>Close friend/family divorce</description>
+	<type>encoded value</type>
+	<comment>Did a family member or close friend have a divorce or break-up?</comment>
+	<value code="0">No</value>
+	<value code="1">Not too much</value>
+	<value code="2">Moderate/Medium</value>
+	<value code="3">Very much</value>
+</variable>
+
+<variable id="phv00078198.v1">
+	<name>CHILCON_7</name>
+	<description>Conflict with children</description>
+	<type>encoded value</type>
+	<comment>Did you have a major conflict with children or grandchildren?</comment>
+	<value code="0">No</value>
+	<value code="1">Not too much</value>
+	<value code="2">Moderate/Medium</value>
+	<value code="3">Very much</value>
+</variable>
+
+<variable id="phv00078199.v1">
+	<name>MAJACC_7</name>
+	<description>Accident, disaster, etc.</description>
+	<type>encoded value</type>
+	<comment>Do you have any major accident, disasters, muggings, unwanted sexual experiences, robberies, or similar events?</comment>
+	<value code="0">No</value>
+	<value code="1">Not too much</value>
+	<value code="2">Moderate/Medium</value>
+	<value code="3">Very much</value>
+</variable>
+
+<variable id="phv00078200.v1">
+	<name>FRNJOB_7</name>
+	<description>Friend/family lose job/retire</description>
+	<type>encoded value</type>
+	<comment>Did you or a family member or close friend lose their job or retire?</comment>
+	<value code="0">No</value>
+	<value code="1">Not too much</value>
+	<value code="2">Moderate/Medium</value>
+	<value code="3">Very much</value>
+</variable>
+
+<variable id="phv00078201.v1">
+	<name>PETDIE_7</name>
+	<description>Pet die</description>
+	<type>encoded value</type>
+	<comment>Did a pet die?</comment>
+	<value code="0">No</value>
+	<value code="1">Not too much</value>
+	<value code="2">Moderate/Medium</value>
+	<value code="3">Very much</value>
+</variable>
+
+<variable id="phv00078202.v1">
+	<name>HLPSICK_7</name>
+	<description>Helping sick/frail family</description>
+	<type>encoded value</type>
+	<comment>Are you now helping at least one sick, limited, or frail family member or friend on a regular basis?</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00078203.v1">
+	<name>HLPSICKT_7</name>
+	<description>How often helped friend/family</description>
+	<type>encoded value</type>
+	<comment>In the past 4 weeks, how often have you helped this friend or family member?
+		Sub-question of F147 V1 Q20 &#39;Helping sick/frail family&#39;. </comment>
+	<value code="1">Less than once a week</value>
+	<value code="2">1-2 times a week</value>
+	<value code="3">3-4 times a week</value>
+	<value code="4">5 or more times a week</value>
+</variable>
+
+<variable id="phv00078204.v1">
+	<name>MOMUSBRN_7</name>
+	<description>Mother born in US</description>
+	<type>encoded value</type>
+	<comment>Was your mother born in the United States or outside of the United States?</comment>
+	<value code="1">In the US</value>
+	<value code="2">Outside the US</value>
+</variable>
+
+<variable id="phv00078205.v1">
+	<name>MOMUSREG_7</name>
+	<description>Mother US birth region</description>
+	<type>encoded value</type>
+	<comment>What region?
+		Sub-question of F147 V1 Q21 &#39;Mother born in US&#39; (skip pattern rule not applied). </comment>
+	<value code="1">Northeast</value>
+	<value code="2">South</value>
+	<value code="3">Midwest</value>
+	<value code="4">West</value>
+</variable>
+
+<variable id="phv00078206.v1">
+	<name>MOMWORLD_7</name>
+	<description>Mother international birth region</description>
+	<type>encoded value</type>
+	<comment>Which area?
+		Sub-question of F147 V1 Q21.1 &#39;US birth region&#39; (skip pattern rule not applied). </comment>
+	<value code="1">Canada</value>
+	<value code="2">Europe</value>
+	<value code="3">Eastern Europe</value>
+	<value code="4">Mid East/N. Africa</value>
+	<value code="5">Africa (not N. Africa)</value>
+	<value code="6">Caribbean/W. Indies</value>
+	<value code="7">Mexico</value>
+	<value code="8">Central/South America</value>
+	<value code="9">Cuba</value>
+	<value code="10">Puerto Rico</value>
+	<value code="11">China</value>
+	<value code="12">Japan</value>
+	<value code="13">SE Asia</value>
+	<value code="14">Australia/Oceania</value>
+	<value code="88">Other</value>
+</variable>
+
+<variable id="phv00078207.v1">
+	<name>BIRTHMOM_7</name>
+	<description>Biological mother</description>
+	<type>encoded value</type>
+	<comment>Was this your biological (birth) mother?</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00078208.v1">
+	<name>DADUSBRN_7</name>
+	<description>Father born in US</description>
+	<type>encoded value</type>
+	<comment>Was your father born in the United States or outside of the United States?</comment>
+	<value code="1">In the US</value>
+	<value code="2">Outside the US</value>
+</variable>
+
+<variable id="phv00078209.v1">
+	<name>DADUSREG_7</name>
+	<description>Father US birth region</description>
+	<type>encoded value</type>
+	<comment>Which region?
+		Sub-question of F147 V1 Q22 &#39;Father born in US&#39; (skip pattern rule not applied). </comment>
+	<value code="1">Northeast</value>
+	<value code="2">South</value>
+	<value code="3">Midwest</value>
+	<value code="4">West</value>
+</variable>
+
+<variable id="phv00078210.v1">
+	<name>DADWORLD_7</name>
+	<description>Father international birth region</description>
+	<type>encoded value</type>
+	<comment>Which area?
+		Sub-question of F147 V1 Q22.1 &#39;US birth region&#39; (skip pattern rule not applied). </comment>
+	<value code="1">Canada</value>
+	<value code="2">Europe</value>
+	<value code="3">Eastern Europe</value>
+	<value code="4">Mid East or N. Africa</value>
+	<value code="5">Africa (not N. Africa)</value>
+	<value code="6">Caribbean or W. Indies</value>
+	<value code="7">Mexico</value>
+	<value code="8">Central/S America</value>
+	<value code="9">Cuba</value>
+	<value code="10">Puerto Rico</value>
+	<value code="11">China</value>
+	<value code="12">Japan</value>
+	<value code="13">SE Asia</value>
+	<value code="14">Australia/Oceania</value>
+	<value code="88">Other</value>
+</variable>
+
+<variable id="phv00078211.v1">
+	<name>BIRTHDAD_7</name>
+	<description>Biological father</description>
+	<type>encoded value</type>
+	<comment>Was this your biological (birth) father?</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00078212.v1">
+	<name>MARITAL_7</name>
+	<description>Current marital status</description>
+	<type>encoded value</type>
+	<comment>What is your current marital status? (Mark the one that best describes you.)</comment>
+	<value code="1">Never married</value>
+	<value code="2">Divorced or separated</value>
+	<value code="3">Widowed</value>
+	<value code="4">Presently married</value>
+	<value code="5">Living in a marriage like relationship</value>
+</variable>
+
+<variable id="phv00078213.v1">
+	<name>TEPIWK_7</name>
+	<description>Episodes recreational phys activity per week</description>
+	<type>decimal</type>
+	<logical_min>0</logical_min>
+	<logical_max>25</logical_max>
+	<comment>Computed from Form 147, questions 4, 5, 6, and 7.  Total number of  episodes per week of recreational physical activity (includes walking, mild, moderate and strenuous physical activity).</comment>
+</variable>
+
+<variable id="phv00078214.v1">
+	<name>LEPITOT_7</name>
+	<description>Episodes recreational phys activity per week &gt;= 20 Min</description>
+	<type>decimal</type>
+	<logical_min>0</logical_min>
+	<logical_max>23</logical_max>
+	<comment>Computed from Form 147, questions 4, 4.1, 5, 5.1, 6, 6.1, 7, and 7.1.  Episodes per week of recreational physical activity of &gt;=20 minutes duration (includes walking, mild, moderate and strenuous physical activity).</comment>
+</variable>
+
+<variable id="phv00078215.v1">
+	<name>MSEPIWK_7</name>
+	<description>Episodes moderate to strenuous phys activity per week</description>
+	<type>decimal</type>
+	<logical_min>0</logical_min>
+	<logical_max>17</logical_max>
+	<comment>Computed from Form 147, questions 4.2, 5, and 6.  Episodes per week of moderate and strenuous recreational physical activity (includes walking fairly fast or very fast, moderate physical activity and strenuous physical activity).</comment>
+</variable>
+
+<variable id="phv00078216.v1">
+	<name>XLMSEPI_7</name>
+	<description>Episodes moderate to strenuous activity &gt;= 20 min/week</description>
+	<type>decimal</type>
+	<logical_min>0</logical_min>
+	<logical_max>17</logical_max>
+	<comment>Computed from Form 147, questions 4, 4.1, 4.2, 5, 5.1, 6, and 6.1.  Episodes per week of moderate and strenuous recreational physical activity of &gt;=20 minutes duration (includes walking fairly fast or very fast, moderate physical activity and strenuous physical activity).</comment>
+</variable>
+
+<variable id="phv00078217.v1">
+	<name>LMSEPI_7</name>
+	<description>Episodes moderate to strenuous activity &gt;=20 min/week (categ)</description>
+	<type>encoded value</type>
+	<comment>Computed from Form 147, questions 4, 4.1, 4.2, 5, 5.1, 6, and 6.1.  Categorical variable of episodes per week of moderate and strenuous recreational physical activity of &gt;= 20 minutes duration (includes walking fairly fast or very fast, moderate physical activity and strenuous physical activity).  Computed from XLMSEPI and TEPIWK.</comment>
+	<value code="1">No activity</value>
+	<value code="2">Some activity of limited duration</value>
+	<value code="3">2 to &lt;4 episodes per week</value>
+	<value code="4">4 episodes per week</value>
+</variable>
+
+<variable id="phv00078218.v1">
+	<name>SEPIWK_7</name>
+	<description>Strenuous activity episodes per week</description>
+	<type>encoded value</type>
+	<comment>Computed from Form 147, question 5.  Episodes per week of strenuous recreational physical activity.</comment>
+	<value code="0">0</value>
+	<value code="1">1</value>
+	<value code="2">2</value>
+	<value code="3">3</value>
+	<value code="4">4</value>
+	<value code="6">5 or more</value>
+</variable>
+
+<variable id="phv00078219.v1">
+	<name>TMINWK_7</name>
+	<description>Minutes of recreational phys activity per week</description>
+	<type>decimal</type>
+	<unit>minutes</unit>
+	<logical_min>0</logical_min>
+	<logical_max>1610</logical_max>
+	<comment>Computed from Form 147, questions 4, 4.1, 5, 5.1, 6, 6.1, 7, and 7.1.  Total minutes per week of recreational physical activity (includes walking, mild, moderate and strenuous physical activity).</comment>
+</variable>
+
+<variable id="phv00078220.v1">
+	<name>MSMINWK_7</name>
+	<description>Minutes of moderate to strenuous activity per week</description>
+	<type>decimal</type>
+	<unit>minutes</unit>
+	<logical_min>0</logical_min>
+	<logical_max>1090</logical_max>
+	<comment>Computed from Form 147, questions 4, 4.1, 4.2, 5, and 6.  Minutes per week of moderate and strenuous recreational physical activity (includes walking fairly fast or very fast, moderate physical activity and strenuous physical activity).</comment>
+</variable>
+
+<variable id="phv00078221.v1">
+	<name>SMINWK_7</name>
+	<description>Minutes of strenuous phys activity per week</description>
+	<type>decimal</type>
+	<unit>minutes</unit>
+	<logical_min>0</logical_min>
+	<logical_max>420</logical_max>
+	<comment>Computed from Form 147, questions 5 and 5.1.  Minutes per week of strenuous recreational physical activity.</comment>
+</variable>
+
+<variable id="phv00078222.v1">
+	<name>TEXPWK_7</name>
+	<description>Total energy expend from recreational phys. activity (MET-hours/week)</description>
+	<type>decimal</type>
+	<unit>MET-hours</unit>
+	<logical_min>0</logical_min>
+	<logical_max>119</logical_max>
+	<comment>Computed from Form 147, questions 4, 4.1, 4.2, 5, 5.1, 6, 6.1, 7, and 7.1.  Total MET-hours per week.  Expenditure of energy from recreational physical activity (includes walking, mild, moderate and strenuous physical activity in kcal/week/kg).</comment>
+</variable>
+
+<variable id="phv00078223.v1">
+	<name>WALKEXP_7</name>
+	<description>MET-hours per week from walking</description>
+	<type>decimal</type>
+	<unit>MET-hours</unit>
+	<logical_min>0</logical_min>
+	<logical_max>40.83333</logical_max>
+	<comment>Computed from Form 147, questions 4, 4.1, and 4.2.  Expenditure of energy from physical activity from walking in kcal/week/kg (MET-hours per week).</comment>
+</variable>
+
+<variable id="phv00078224.v1">
+	<name>AVWKEXP_7</name>
+	<description>Energy expend from average walking (MET-hours/week)</description>
+	<type>decimal</type>
+	<unit>MET-hours</unit>
+	<logical_min>0</logical_min>
+	<logical_max>24.5</logical_max>
+	<comment>Computed from Form 147, questions 4, 4.1 and 4.2.  Energy expenditure from average walking (2-3 mph) in MET-hours per week.  If question 6.2 (speed of walking) was marked as &#39;don&#39;t know&#39; or was missing, the speed was assumed to be 2-3 mph.</comment>
+</variable>
+
+<variable id="phv00078225.v1">
+	<name>FFWKEXP_7</name>
+	<description>Energy expend from walking fairly fast (MET-hours/week)</description>
+	<type>decimal</type>
+	<unit>MET-hours</unit>
+	<logical_min>0</logical_min>
+	<logical_max>32.66667</logical_max>
+	<comment>Computed from Form 147, questions 4, 4.1 and 4.2. Energy expenditure form walking fairly fast (3-4 mph) in MET-hours per week.</comment>
+</variable>
+
+<variable id="phv00078226.v1">
+	<name>VFWKEXP_7</name>
+	<description>Energy expend from walking very fast (MET-hours/week)</description>
+	<type>decimal</type>
+	<unit>MET-hours</unit>
+	<logical_min>0</logical_min>
+	<logical_max>40.83333</logical_max>
+	<comment>Computed from Form 147, questions 4, 4.1, and 4.2.  Energy expenditure from walking very fast (&gt; 4 mph) in MET-hours per week.</comment>
+</variable>
+
+<variable id="phv00078227.v1">
+	<name>HARDEXP_7</name>
+	<description>Energy expenditure from hard exercise (MET-hours/week)</description>
+	<type>decimal</type>
+	<unit>MET-hours</unit>
+	<logical_min>0</logical_min>
+	<logical_max>49</logical_max>
+	<comment>Computed from Form 147, questions 5 and 5.1.  Energy expenditure from strenuous or very hard exercise (for example, aerobics, aerobic dancing, jogging, tennis, swimming laps) in MET-hours per week.</comment>
+</variable>
+
+<variable id="phv00078228.v1">
+	<name>MODEXP_7</name>
+	<description>Energy expend from moderate exercise (MET-hours/week)</description>
+	<type>decimal</type>
+	<unit>MET-hours</unit>
+	<logical_min>0</logical_min>
+	<logical_max>31.5</logical_max>
+	<comment>Computed from Form 147, questions 6 and 6.1.  Energy expenditure from moderate exercise (for example, biking outdoors, using an exercise machine, calisthenics, easy swimming, popular or folk dancing) in MET-hours per week.</comment>
+</variable>
+
+<variable id="phv00078229.v1">
+	<name>MILDEXP_7</name>
+	<description>Energy expenditure from mild exercise (MET-hours/week)</description>
+	<type>decimal</type>
+	<unit>MET-hours</unit>
+	<logical_min>0</logical_min>
+	<logical_max>21</logical_max>
+	<comment>Computed from Form 147, questions 7 and 7.1.  Energy expenditure from mild exercise (for example, slow dancing, bowling, golf) in MET-hours per week.</comment>
+</variable>
+
+<variable id="phv00078230.v1">
+	<name>EST_7</name>
+	<description>Estrogen use last  year</description>
+	<type>encoded value</type>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00078231.v1">
+	<name>PRG_7</name>
+	<description>Progesterone use last year</description>
+	<type>encoded value</type>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00078232.v1">
+	<name>HRT_7</name>
+	<description>Hormone use last year (estrogen or progesterone)</description>
+	<type>encoded value</type>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+</data_table>

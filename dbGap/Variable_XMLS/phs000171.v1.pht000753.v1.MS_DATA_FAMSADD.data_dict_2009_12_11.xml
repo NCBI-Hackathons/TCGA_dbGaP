@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./datadict_v2.xsl"?>
+<data_table id="pht000753.v1" study_id="phs000171.v1" participant_set="1" date_created="Fri Dec 11 14:12:42 2009">
+
+<variable id="phv00072777.v1">
+	<name>SUBJID</name>
+	<description>Subject&#39;s ID</description>
+	<type>integer</type>
+</variable>
+
+<variable id="phv00072778.v1">
+	<name>CASE_CONTROL</name>
+	<description>Type of subject</description>
+	<type>string, encoded values</type>
+	<value code="CASE">Affected subject per Protocol</value>
+	<value code="CNTL">Control subject per Protocol</value>
+</variable>
+
+<variable id="phv00072779.v1">
+	<name>STUDY</name>
+	<description>Study Identifier</description>
+	<type>string</type>
+	<comment>Always RES101833</comment>
+</variable>
+
+<variable id="phv00072780.v1">
+	<name>INVSITE</name>
+	<description>Investigator site ID</description>
+	<type>string</type>
+	<comment>Numeric code identifying the site (for internal use)</comment>
+</variable>
+
+<variable id="phv00072781.v1">
+	<name>INV</name>
+	<description>Investigator&#39;s ID</description>
+	<type>string</type>
+	<comment>Numeric code identifying the investigator (for internal use)</comment>
+</variable>
+
+<variable id="phv00072782.v1">
+	<name>VISIT</name>
+	<description>Visit name</description>
+	<type>string, encoded values</type>
+	<value code="CSA">Common Subject Assessment</value>
+	<value code="ELIGIBILITY">Eligibility questionnaire</value>
+	<value code="BASELINE">Baseline assessment questionnaire</value>
+	<value code="LAB WBC">Lab results</value>
+	<value code="SELF REPORT">Subject completed self report questionnaire</value>
+</variable>
+
+<variable id="phv00072783.v1">
+	<name>VISIT_DATE</name>
+	<description>Visit date</description>
+	<type>date</type>
+	<unit>Year</unit>
+	<comment>Truncated to YYYY</comment>
+</variable>
+
+<variable id="phv00072784.v1">
+	<name>GP5</name>
+	<description>I am bothered by side effects of treatment</description>
+	<type>integer, encoded values</type>
+	<comment>FAMS - ADDITIONAL CONCERNS 
+		By selecting one (1) per line, please indicate how true each statement has been for you during the past 7 days. </comment>
+	<value code="0">Not at all</value>
+	<value code="1">A little bit</value>
+	<value code="2">Somewhat</value>
+	<value code="3">Quite a bit</value>
+	<value code="4">Very much</value>
+</variable>
+
+<variable id="phv00072785.v1">
+	<name>GP7</name>
+	<description>I am forced to spend time in bed</description>
+	<type>integer, encoded values</type>
+	<comment>FAMS - ADDITIONAL CONCERNS 
+		By selecting one (1) per line, please indicate how true each statement has been for you during the past 7 days. </comment>
+	<value code="0">Not at all</value>
+	<value code="1">A little bit</value>
+	<value code="2">Somewhat</value>
+	<value code="3">Quite a bit</value>
+	<value code="4">Very much</value>
+</variable>
+
+<variable id="phv00072786.v1">
+	<name>GS6</name>
+	<description>I feel close to my partner (or the person who is my main support)</description>
+	<type>integer, encoded values</type>
+	<comment>FAMS - ADDITIONAL CONCERNS 
+		By selecting one (1) per line, please indicate how true each statement has been for you during the past 7 days. </comment>
+	<value code="0">Not at all</value>
+	<value code="1">A little bit</value>
+	<value code="2">Somewhat</value>
+	<value code="3">Quite a bit</value>
+	<value code="4">Very much</value>
+</variable>
+
+<variable id="phv00072787.v1">
+	<name>GS7</name>
+	<description>I am satisfied with my sex life</description>
+	<type>integer, encoded values</type>
+	<comment>FAMS - ADDITIONAL CONCERNS 
+		By selecting one (1) per line, please indicate how true each statement has been for you during the past 7 days. </comment>
+	<value code="0">Not at all</value>
+	<value code="1">A little bit</value>
+	<value code="2">Somewhat</value>
+	<value code="3">Quite a bit</value>
+	<value code="4">Very much</value>
+</variable>
+
+<variable id="phv00072788.v1">
+	<name>GE2</name>
+	<description>I am satisfied with how I&#39;m coping with my illness</description>
+	<type>integer, encoded values</type>
+	<comment>FAMS - ADDITIONAL CONCERNS 
+		By selecting one (1) per line, please indicate how true each statement has been for you during the past 7 days. </comment>
+	<value code="0">Not at all</value>
+	<value code="1">A little bit</value>
+	<value code="2">Somewhat</value>
+	<value code="3">Quite a bit</value>
+	<value code="4">Very much</value>
+</variable>
+
+<variable id="phv00072789.v1">
+	<name>GE4</name>
+	<description>I feel nervous</description>
+	<type>integer, encoded values</type>
+	<comment>FAMS - ADDITIONAL CONCERNS 
+		By selecting one (1) per line, please indicate how true each statement has been for you during the past 7 days. </comment>
+	<value code="0">Not at all</value>
+	<value code="1">A little bit</value>
+	<value code="2">Somewhat</value>
+	<value code="3">Quite a bit</value>
+	<value code="4">Very much</value>
+</variable>
+
+<variable id="phv00072790.v1">
+	<name>GE6</name>
+	<description>I worry that my condition will get worse</description>
+	<type>integer, encoded values</type>
+	<comment>FAMS - ADDITIONAL CONCERNS 
+		By selecting one (1) per line, please indicate how true each statement has been for you during the past 7 days. </comment>
+	<value code="0">Not at all</value>
+	<value code="1">A little bit</value>
+	<value code="2">Somewhat</value>
+	<value code="3">Quite a bit</value>
+	<value code="4">Very much</value>
+</variable>
+
+<variable id="phv00072791.v1">
+	<name>GF5</name>
+	<description>I am sleeping well</description>
+	<type>integer, encoded values</type>
+	<comment>FAMS - ADDITIONAL CONCERNS 
+		By selecting one (1) per line, please indicate how true each statement has been for you during the past 7 days. </comment>
+	<value code="0">Not at all</value>
+	<value code="1">A little bit</value>
+	<value code="2">Somewhat</value>
+	<value code="3">Quite a bit</value>
+	<value code="4">Very much</value>
+</variable>
+
+<variable id="phv00072792.v1">
+	<name>MS15</name>
+	<description>Heat worsens my symptoms</description>
+	<type>integer, encoded values</type>
+	<comment>FAMS - ADDITIONAL CONCERNS 
+		By selecting one (1) per line, please indicate how true each statement has been for you during the past 7 days. </comment>
+	<value code="0">Not at all</value>
+	<value code="1">A little bit</value>
+	<value code="2">Somewhat</value>
+	<value code="3">Quite a bit</value>
+	<value code="4">Very much</value>
+</variable>
+
+<variable id="phv00072793.v1">
+	<name>BL1</name>
+	<description>I have trouble controlling my urine</description>
+	<type>integer, encoded values</type>
+	<comment>FAMS - ADDITIONAL CONCERNS 
+		By selecting one (1) per line, please indicate how true each statement has been for you during the past 7 days. </comment>
+	<value code="0">Not at all</value>
+	<value code="1">A little bit</value>
+	<value code="2">Somewhat</value>
+	<value code="3">Quite a bit</value>
+	<value code="4">Very much</value>
+</variable>
+
+<variable id="phv00072794.v1">
+	<name>BL2</name>
+	<description>I urinate more frequently than usual</description>
+	<type>integer, encoded values</type>
+	<comment>FAMS - ADDITIONAL CONCERNS 
+		By selecting one (1) per line, please indicate how true each statement has been for you during the past 7 days. </comment>
+	<value code="0">Not at all</value>
+	<value code="1">A little bit</value>
+	<value code="2">Somewhat</value>
+	<value code="3">Quite a bit</value>
+	<value code="4">Very much</value>
+</variable>
+
+<variable id="phv00072795.v1">
+	<name>BRM2</name>
+	<description>I am bothered by the chills</description>
+	<type>integer, encoded values</type>
+	<comment>FAMS - ADDITIONAL CONCERNS 
+		By selecting one (1) per line, please indicate how true each statement has been for you during the past 7 days. </comment>
+	<value code="0">Not at all</value>
+	<value code="1">A little bit</value>
+	<value code="2">Somewhat</value>
+	<value code="3">Quite a bit</value>
+	<value code="4">Very much</value>
+</variable>
+
+<variable id="phv00072796.v1">
+	<name>BRM3</name>
+	<description>I am bothered by fevers</description>
+	<type>integer, encoded values</type>
+	<comment>FAMS - ADDITIONAL CONCERNS 
+		By selecting one (1) per line, please indicate how true each statement has been for you during the past 7 days. </comment>
+	<value code="0">Not at all</value>
+	<value code="1">A little bit</value>
+	<value code="2">Somewhat</value>
+	<value code="3">Quite a bit</value>
+	<value code="4">Very much</value>
+</variable>
+
+<variable id="phv00072797.v1">
+	<name>MS16</name>
+	<description>I am bothered by muscle spasms</description>
+	<type>integer, encoded values</type>
+	<comment>FAMS - ADDITIONAL CONCERNS 
+		By selecting one (1) per line, please indicate how true each statement has been for you during the past 7 days. </comment>
+	<value code="0">Not at all</value>
+	<value code="1">A little bit</value>
+	<value code="2">Somewhat</value>
+	<value code="3">Quite a bit</value>
+	<value code="4">Very much</value>
+</variable>
+
+</data_table>

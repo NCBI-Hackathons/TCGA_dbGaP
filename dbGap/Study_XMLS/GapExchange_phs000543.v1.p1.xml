@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GaPExchange xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="./dbGaPEx2.1.5.xsd">
+
+<MetaVariables>
+	<Submitter/>
+	<Method/>
+</MetaVariables>
+<MetaLinks/>
+
+<Projects>
+	<Project/>
+</Projects>
+
+<Studies>
+
+<Study source="dbGaP" accession="phs000543.v1.p1" parentStudy="phs000543.v1.p1" createDate="2012-08-29" modDate="2014-10-28">
+
+<Configuration>
+	<Data_Provider><![CDATA[
+		<table border="1">
+		<tr><th>Title</th><th>Name</th><th>Institute</th></tr>
+		<tr><td>Principal Investigator</td><td>Ashley Hill, MD</td><td>Children&#39;s National Medical Center, Washington, DC, USA</td></tr>
+		<tr><td>Principal Investigator</td><td>Matthew Meyerson, MD,PhD</td><td>Dana Farber Cancer Institute, Boston MA, USA</td></tr>
+		</table>
+	]]></Data_Provider>
+	<StudyNameEntrez>Exome Sequencing of Pleuropulmonary Blastoma</StudyNameEntrez>
+	<StudyNameReportPage>Exome Sequencing of Pleuropulmonary Blastoma</StudyNameReportPage>
+	<StudyTypes>
+		<StudyType>Case Set</StudyType>
+		<StudyType>Tumor vs. Matched-Normal</StudyType>
+	</StudyTypes>
+	<Description><![CDATA[
+<p>Pleuropulmonary blastoma (PPB) is a rare, aggressive pediatric cancer arising from the lung or pleural cavity. In this study, we sequenced and analyzed the exomes of 15 PPB matched tumor and normal pairs. This study is part of a larger effort to characterize pediatric cancers as part of the Slim Initiative for Genomic Medicine (SIGMA) project.</p>]]>
+	</Description>
+	<StudyProjects>
+		<Project/>
+	</StudyProjects>
+	<Publications>
+		<Publication>
+			<Pubmed pmid="24909177"/>
+		</Publication>
+	</Publications>
+	<Diseases>
+		<Disease vocab_source="MESH" vocab_term="Pleuropulmonary blastoma"/>
+	</Diseases>
+	<Attributions>
+		<Header title="Principal Investigator">
+			<AttName>Ashley Hill, MD</AttName>
+			<Institution>Children&#39;s National Medical Center, Washington, DC, USA</Institution>
+		</Header>
+		<Header title="Principal Investigator">
+			<AttName>Matthew Meyerson, MD,PhD</AttName>
+			<Institution>Dana Farber Cancer Institute, Boston MA, USA</Institution>
+		</Header>
+	</Attributions>
+	<DisplayPublicSummary>yes</DisplayPublicSummary>
+	<ConsentGroups>
+		<ConsentGroup groupNum="1" shortName="GRU-MDS" longName="General Research Use (MDS)"/>
+	</ConsentGroups>
+</Configuration>
+
+  <AuthorizedAccess>
+    <DacInfo ssDacId="0">
+      <DacName>NCI</DacName>
+      <DacFullName>NCI</DacFullName>
+      <DacEmail>0</DacEmail>
+      <DacPhone></DacPhone>
+      <DacUrl></DacUrl>
+    </DacInfo>
+    <Policy Policy_ID="phs000543.v1.p1_policy" ref_ssDacId="0">
+      <DisplayResearchStatement>yes</DisplayResearchStatement>
+      <DisplayPublicSummary>yes</DisplayPublicSummary>
+      <EmbargoLength>0</EmbargoLength>
+      <YearsUntilRenewal>1</YearsUntilRenewal>
+      <WeeksCancelRequest>8</WeeksCancelRequest>
+      <PdfSupplementReqired>no</PdfSupplementReqired>
+      <AcknowledgementText>
+        <para>
+          http://dbgap.ncbi.nlm.nih.gov/aa/wga.cgi?page=DUC&amp;view_pdf&amp;stacc=phs000543.v1.p1
+        </para>
+      </AcknowledgementText>
+      <DocumentSet>
+        <DataUseCertificate Label="Data Use Certificate" FilePath="https://dbgap.ncbi.nlm.nih.gov/aa/wga.cgi?page=DUC&amp;view_pdf&amp;stacc=phs000543.v1.p1" FileName="eNCI_0141_DUC_7.31.2012.pdf"/>
+      </DocumentSet>
+    </Policy>
+    <ConsentGroups>
+      <ParticipantSet groupNum-REF="1">
+        <ConsentName>General Research Use (MDS)</ConsentName>
+        <ConsentAbbrev>GRU-MDS</ConsentAbbrev>
+        <UseLimitation>Use of the data is limited only by the terms of the model Data Use Certification.
+Use of the data includes methods development research (e.g., development of software or algorithms).</UseLimitation>
+        <IrbRequired>No</IrbRequired>
+      </ParticipantSet>
+    </ConsentGroups>
+  </AuthorizedAccess>
+
+<Analyses>
+	<Analysis pha="3860" genomeBuild="" snpBuild="" analysisType="">
+		<Description><![CDATA[
+Families were ascertained through the <a href="http://www.ppbregistry.org">International PPB Registry</a>. All research subjects provided written consent to the molecular and family history studies as approved by the Human Research Protection Offices at Washington University and Children&#8242;s National Medical Centers in St Louis, MO, USA and Washington, DC, USA, respectively. Blood and saliva specimens were collected as a source of genomic DNA through family visits made by the research team or mailed to Washington University by the research subject or their health-care professional. Snap frozen or formalin-fixed, paraffin-embedded tumor tissue was collected from treating institutions whenever available. All diagnoses of PPB were confirmed by pathologic review. Exome sequencing of 15 PPB/normal pairs was performed by the Broad Institute Genomics Platform and analyzed using previously a described pipeline (<a href="http://www.ncbi.nlm.nih.gov/pubmed/21430775">Chapman et al. Nature 2011. PMID 21430775</a>). This analysis sought to uncover genes frequently mutated in pleuropulmonary blastoma.
+		]]></Description>
+		<Method>Somatic mutation analysis</Method>
+		<Comment></Comment>
+	</Analysis>
+</Analyses>
+
+</Study>
+
+</Studies>
+
+</GaPExchange>

@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./datadict_v2.xsl"?>
+<data_table id="pht001093.v1" study_id="phs000219.v1" participant_set="1" date_created="Tue Jan 19 13:07:35 2010">
+
+<unique_key phv="00082176" version="1">SUBJID</unique_key>
+<unique_key phv="00082180" version="1">VISIT</unique_key>
+
+<variable id="phv00082176.v1">
+	<name>SUBJID</name>
+	<description>Subject&#39;s ID</description>
+	<type>String</type>
+</variable>
+
+<variable id="phv00082177.v1">
+	<name>CASE_CONTROL</name>
+	<description>Subject type</description>
+	<type>Encoded value</type>
+	<value code="ADP">AD Participant</value>
+	<value code="CASE">Case</value>
+	<value code="CCCS">Control with Change in Cognitive Status</value>
+	<value code="CNTL">Control</value>
+	<value code="FAM">Family member</value>
+	<value code="UASB">Unaffected Sibling</value>
+</variable>
+
+<variable id="phv00082178.v1">
+	<name>INV</name>
+	<description>Investigator&#39;s ID</description>
+	<type>String</type>
+</variable>
+
+<variable id="phv00082179.v1">
+	<name>INVSITE</name>
+	<description>Investigator site ID</description>
+	<type>String</type>
+</variable>
+
+<variable id="phv00082180.v1">
+	<name>VISIT</name>
+	<description>Visit name</description>
+	<type>String</type>
+</variable>
+
+<variable id="phv00082181.v1">
+	<name>VISIT_DATE</name>
+	<description>Visit date</description>
+	<type>Date</type>
+	<comment>Truncated to YYYY</comment>
+</variable>
+
+<variable id="phv00082182.v1">
+	<name>COSC</name>
+	<description>Cut off score (age and education adjusted)</description>
+	<type>String</type>
+</variable>
+
+<variable id="phv00082183.v1">
+	<name>MMESC</name>
+	<description>Raw MMSE Total score</description>
+	<type>String</type>
+</variable>
+
+<variable id="phv00082184.v1">
+	<name>MNEXMDT</name>
+	<description>Assessment date</description>
+	<type>Date</type>
+	<comment>Truncated to YYYY</comment>
+</variable>
+
+<variable id="phv00082185.v1">
+	<name>OTHTX</name>
+	<description>Other specify</description>
+	<type>String</type>
+</variable>
+
+<variable id="phv00082186.v1">
+	<name>SCRAT</name>
+	<description>Raw score is:</description>
+	<type>Encoded Value</type>
+	<value code="AB">Above</value>
+	<value code="BL">Below</value>
+	<value code="ON">On</value>
+</variable>
+
+<variable id="phv00082187.v1">
+	<name>ATTENTION_RWSC</name>
+	<description>ATTENTION: Raw score</description>
+	<type>String</type>
+</variable>
+
+<variable id="phv00082188.v1">
+	<name>CONSTRUCTION_RWSC</name>
+	<description>CONSTRUCTION: Raw score</description>
+	<type>String</type>
+</variable>
+
+<variable id="phv00082189.v1">
+	<name>LANGUAGE_RWSC</name>
+	<description>LANGUAGE: Raw score</description>
+	<type>String</type>
+</variable>
+
+<variable id="phv00082190.v1">
+	<name>MEMORY_RWSC</name>
+	<description>MEMORY: Raw score</description>
+	<type>String</type>
+</variable>
+
+<variable id="phv00082191.v1">
+	<name>ORIENTATION_RWSC</name>
+	<description>ORIENTATION: Raw score</description>
+	<type>String</type>
+</variable>
+
+<variable id="phv00082192.v1">
+	<name>PRAXIS_RWSC</name>
+	<description>PRAXIS: Raw score</description>
+	<type>String</type>
+</variable>
+
+</data_table>

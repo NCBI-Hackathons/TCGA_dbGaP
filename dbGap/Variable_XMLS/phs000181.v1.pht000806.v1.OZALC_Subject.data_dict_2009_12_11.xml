@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./datadict_v2.xsl"?>
+<data_table id="pht000806.v1" study_id="phs000181.v1" participant_set="1" date_created="Fri Dec 11 14:13:07 2009">
+
+<variable id="phv00073566.v1">
+	<name>consent</name>
+	<description>Consent group</description>
+	<type>enumerated integer</type>
+	<value code="0">Subjects did not participate in the study, did not complete a consent document and are included only for the pedigree structure and/or genotype controls, such as HapMap subjects</value>
+	<value code="1">Consented to general research use with respect to alcohol and tobacco related phenotypes</value>
+</variable>
+
+<variable id="phv00073567.v1">
+	<name>subjid</name>
+	<description>Subject ID</description>
+	<type>enumerated integer</type>
+</variable>
+
+<variable id="phv00076245.v1">
+	<name>casestatus</name>
+	<description>Affection status</description>
+	<type>enumerated integer</type>
+	<value code="0">Not affected</value>
+	<value code="1">Affected</value>
+</variable>
+
+<variable id="phv00080437.v1">
+	<name>subj_source</name>
+	<description>HapMap subject source</description>
+	<type>enumerated text</type>
+</variable>
+
+<variable id="phv00080438.v1">
+	<name>source_subjid</name>
+	<description>HapMap ID</description>
+	<type>enumerated text</type>
+</variable>
+
+<variable id="phv00080439.v1">
+	<name>dna</name>
+	<description>DNA obtained (no/yes - where genotyped)</description>
+	<type>enumerated integer</type>
+	<value code="0">No</value>
+	<value code="1">Yes - CIDR only</value>
+	<value code="4">Yes - deCODE only</value>
+	<value code="5">Yes - both CIDR and deCODE</value>
+</variable>
+
+</data_table>

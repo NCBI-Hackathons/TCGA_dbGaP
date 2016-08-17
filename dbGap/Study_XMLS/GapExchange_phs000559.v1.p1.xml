@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GaPExchange xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="./dbGaPEx2.1.5.xsd">
+
+<MetaVariables>
+	<Submitter/>
+	<Method/>
+</MetaVariables>
+<MetaLinks/>
+
+<Projects>
+	<Project/>
+</Projects>
+
+<Studies>
+
+<Study source="dbGaP" accession="phs000559.v1.p1" parentStudy="phs000559.v1.p1" createDate="2012-10-16" modDate="2013-06-10">
+
+<Configuration>
+	<Data_Provider><![CDATA[
+		<table border="1">
+		<tr><th>Title</th><th>Name</th><th>Institute</th></tr>
+		<tr><td>Principal Investigator</td><td>Dana Crawford, PhD</td><td>Vanderbilt University, Nashville, TN, USA</td></tr>
+		<tr><td>Co-investigator</td><td>Marylyn Ritchie, PhD</td><td>Penn State University, State College, PA, USA</td></tr>
+		<tr><td>Co-investigator</td><td>Jonathan Haines, PhD</td><td>Vanderbilt University, Nashville, TN, USA</td></tr>
+		<tr><td>Co-investigator</td><td>Deborah Murdock, PhD</td><td>Vanderbilt University, Nashville, TN, USA</td></tr>
+		<tr><td>Co-investigator</td><td>William Bush, PhD</td><td>Vanderbilt University, Nashville, TN, USA</td></tr>
+		</table>
+	]]></Data_Provider>
+	<StudyNameEntrez>PAGE: Epidemiologic Architecture for Genes Linked to Environment (EAGLE) - BioVU Cancer Project</StudyNameEntrez>
+	<StudyNameReportPage>Population Architecture Using Genomics and Epidemiology (PAGE): Epidemiologic Architecture for Genes Linked to Environment (EAGLE) - BioVU Cancer Project</StudyNameReportPage>
+	<StudyTypes>
+		<StudyType>Case-Control</StudyType>
+	</StudyTypes>
+	<Description><![CDATA[
+<p>As part of Population Architecture using Genomics and Epidemiology PAGE study (Phase I), the Epidemiologic Architecture using Genomics and Epidemiology (EAGLE I) project accessed both epidemiologic- and clinic-based collections. The epidemiologic-based collection of EAGLE I included the National Health and Nutritional Examination Surveys (NHANES), ascertained between 1991-1994 (NHANES III), 1999-2002, and 2007-2008. NHANES is a population-based cross-sectional survey now conducted every year in the United States to assess the health status of Americans at the time of ascertainment and to assess trends over the years of survey. Genetic NHANES consists of 19,613 DNA samples linked to thousands of variables including demographics, health and lifestyle variables, physical examination variables, laboratory variables, and exposures. NHANES is diverse with almost one-half of the samples (46.4%) coming from self-reported Mexican Americans and non-Hispanic blacks. In contrast to NHANES, BioVU is a clinic-based collection of &#62;150,000 DNA samples from Vanderbilt University Medical Center linked to de-identified electronic medical records (EMRs). Approximately 12% of BioVU&#39;s overall DNA sample collection is from African American, Hispanic, and Asian patients.</p> <p>The overall goals of PAGE I and EAGLE I were broad and several-fold: <ol> <li>Replicate genome-wide association study (GWAS)- identified variants in European Americans;</li> <li>Identify population-specific and trans-population genotype-phenotype associations;</li> <li>Identify genetic and environmental modifiers of these associations.</li> </ol> </p> <p>NHANES is an excellent resource for the study of quantitative traits associated with common human diseases. However, given that the age range of NHANES spans childhood to late adulthood and not all diseases are surveyed, NHANES is less useful for the study of adult-onset diseases such as major cancers. Therefore, under American Recovery and Reinvestment Act (ARRA) funding, EAGLE as part of PAGE I defined eight major cancers sites for genetic analysis in BioVU, Vanderbilt&#39;s biorepository linked to de-identified EMRs. The eight major cancers defined for this study included melanoma, breast, ovarian, prostate, colorectal, lung, endometrial, and Non-Hodgkin&#39;s lymphoma (NHL). Cancer cases were defined using a combination of ICD-9 codes and tumor registry entries. Controls include BioVU participants without cancer and encompassing the age and gender distributions of cancer cases. Targeted genotyping of GWAS-identified variants for these diseases (124 SNPs) and ancestry informative markers (128 AIMs) was performed by the Center for Human Genetics Research Vanderbilt DNA Resources Core. After quality control, a total of 116 cancer-associated SNPs and 122 AIMs were available for downstream analyses.</p>]]>
+	</Description>
+	<StudyInEx><![CDATA[
+<p>Cancer cases and controls were identified using a combination of in-patient and out-patient data as well as tumor registry entries. These data include primary site designations and histology information collected for clinical reporting purposes for the North America Association of Central Cancer Registries. A combination of the tumor registry data, along with ICD-9 billing codes, procedure codes, vital signs, and free text clinical notes, were used to identify cases for eight cancers among all patients aged 18 or greater in the SD with DNA samples using the following algorithms: <ul> <li>Breast cancer: Three or more mentions of ICD-9 primary code for malignant neoplasm of the female breast and all sub-codes on separate clinic visits OR a tumor registry entry for breast cancer AND female;</li> <li>Colorectal cancer: Tumor registry entry for colorectal cancer;</li> <li>Endometrial cancer: Tumor registry entry for endometrial cancer AND histology AND female;</li> <li>Lung cancer: Tumor registry entry for lung cancer, any location and any type;</li> <li>Melanoma: Three or more mentions of ICD-9 codes for malignant melanoma of skin OR tumor registry entry for melanoma;</li> <li>Non-Hodgkin&#39;s lymphoma: Tumor registry entry for non-Hodgkin&#39;s lymphoma with histology;</li> <li>Ovarian cancer: Tumor registry entry for ovarian cancer AND female;</li> <li>Prostate cancer: Three or more mentions of ICD-9 codes for malignant neoplasm of prostate OR tumor registry entry for prostate cancer.</li> </ul> </p> <p>Approximately two control samples were identified per case. Controls were matched by sex, race/ethnicity (administratively assigned), and age (within five years of the cases). Controls were required to have at least two clinical narratives, with preference given to records with at least one fully documented history and physical. Exclusion criteria included records with one or more codes for neoplasms, records with a tumor registry entry, and records that had one or more cancer related keywords in the problem list.</p> <p>Additional control criteria are as follows: <ul> <li>Breast cancer controls are female only. For women over 40 years of age, we required that records contain at least one mammography Bi-Rad score as 1 (negative) or 2 (benign);</li> <li>Endometrial cancer controls are female only;</li> <li>Ovarian cancer controls are female only;</li> <li>For colorectal cancer controls, we required for patients over 50 years of age the keyword &#34;colonoscopy&#34; in the problem list OR a procedure code for colonoscopy;</li> <li>Prostate cancer controls are male only. For male controls aged 40 years and greater to have at least one prostate specific antigen (PSA) level &#60;4 and that the most recent PSA level is within the normal range.</li> </ul> </p> <p>A total of 7,348 cases of cancer were identified in BioVU for targeted genotyping in EAGLE (Table).</p> <p><b>Table. Case counts by cancer and race/ethnicity.</b> Cases of specific cancers were determined in the de-identified electronic medical records within BioVU using algorithms implemented in late 2010/early 2011 as described in the text. Race/ethnicity was administratively assigned.</p> <table> <tr> <td><b>Cancer</b></td> <td><b>EA</b></td> <td><b>AA</b></td> <td><b>H</b></td> <td><b>A</b></td> <td><b>AI/NA</b></td> <td><b>O</b></td> <td><b>U</b></td> <td><b>Total</b></td> </tr> <tr> <td>Breast</td> <td>1,052</td> <td>163</td> <td>7</td> <td>17</td> <td>2</td> <td>10</td> <td>66</td> <td>1,317</td> </tr> <tr> <td>Colorectal</td> <td>797</td> <td>75</td> <td>6</td> <td>5</td> <td>1</td> <td>5</td> <td>23</td> <td>912</td> </tr> <tr> <td>Endometrial</td> <td>203</td> <td>19</td> <td>1</td> <td>1</td> <td>0</td> <td>1</td> <td>8</td> <td>233</td> </tr> <tr> <td>Lung</td> <td>782</td> <td>66</td> <td>2</td> <td>3</td> <td>1</td> <td>4</td> <td>43</td> <td>901</td> </tr> <tr> <td>Melanoma</td> <td>1,225</td> <td>23</td> <td>2</td> <td>0</td> <td>0</td> <td>3</td> <td>95</td> <td>1,348</td> </tr> <tr> <td>Non-Hodgkin&#39;s lymphoma</td> <td>276</td> <td>17</td> <td>1</td> <td>0</td> <td>0</td> <td>2</td> <td>46</td> <td>342</td> </tr> <tr> <td>Ovarian</td> <td>161</td> <td>7</td> <td>3</td> <td>2</td> <td>0</td> <td>0</td> <td>10</td> <td>183</td> </tr> <tr> <td>Prostate</td> <td>1,895</td> <td>172</td> <td>4</td> <td>2</td> <td>0</td> <td>7</td> <td>32</td> <td>2,112</td> </tr> <tr> <td>Total</td> <td>6,391</td> <td>542</td> <td>26</td> <td>30</td> <td>4</td> <td>32</td> <td>323</td> <td>7,348</td> </tr> </table> <p>Abbreviations: European American (EA), African American (AA), Hispanic (H), Asian (A), American Indian/Native Alaskan (AI/NA), Other (O), Unknown (U).</p> <p>For the first five cancers defined in BioVU (breast, colorectal, melanoma, ovarian, and prostate cancers), we identified approximately two controls per case for genotyping as defined in the inclusion/exclusion criteria. A total of 8,996 controls were targeted for genotyping. Two controls per case of endometrial cancer, lung cancer, and non-Hodgkin&#39;s lymphoma were defined from among the genotyped control samples.</p>]]>
+	</StudyInEx>
+	<StudyProjects>
+		<Project/>
+	</StudyProjects>
+	<Publications>
+		<Publication>
+			<Pubmed pmid="18500243"/>
+		</Publication>
+		<Publication>
+			<Pubmed pmid="21836165"/>
+		</Publication>
+		<Publication>
+			<Pubmed pmid="18683858"/>
+		</Publication>
+		<Publication>
+			<Pubmed pmid="23424142"/>
+		</Publication>
+		<Publication>
+			<Pubmed pmid="23396545"/>
+		</Publication>
+	</Publications>
+	<Diseases>
+		<Disease vocab_source="MESH" vocab_term="Neoplasms"/>
+		<Disease vocab_source="MESH" vocab_term="Breast Neoplasms"/>
+		<Disease vocab_source="MESH" vocab_term="Colorectal Neoplasms"/>
+		<Disease vocab_source="MESH" vocab_term="Endometrial Neoplasms"/>
+		<Disease vocab_source="MESH" vocab_term="Lung Neoplasms"/>
+		<Disease vocab_source="MESH" vocab_term="Lymphoma, Non-Hodgkin"/>
+		<Disease vocab_source="MESH" vocab_term="Ovarian Neoplasms"/>
+		<Disease vocab_source="MESH" vocab_term="Melanoma"/>
+		<Disease vocab_source="MESH" vocab_term="Prostatic Neoplasms"/>
+	</Diseases>
+	<Attributions>
+		<Header title="Principal Investigator">
+			<AttName>Dana Crawford, PhD</AttName>
+			<Institution>Vanderbilt University, Nashville, TN, USA</Institution>
+		</Header>
+		<Header title="Co-investigator">
+			<AttName>Marylyn Ritchie, PhD</AttName>
+			<Institution>Penn State University, State College, PA, USA</Institution>
+		</Header>
+		<Header title="Co-investigator">
+			<AttName>Jonathan Haines, PhD</AttName>
+			<Institution>Vanderbilt University, Nashville, TN, USA</Institution>
+		</Header>
+		<Header title="Co-investigator">
+			<AttName>Deborah Murdock, PhD</AttName>
+			<Institution>Vanderbilt University, Nashville, TN, USA</Institution>
+		</Header>
+		<Header title="Co-investigator">
+			<AttName>William Bush, PhD</AttName>
+			<Institution>Vanderbilt University, Nashville, TN, USA</Institution>
+		</Header>
+		<Header title="Co-investigator">
+			<AttName>Jay Fowke, PhD</AttName>
+			<Institution>Vanderbilt University, Nashville, TN, USA</Institution>
+		</Header>
+		<Header title="Funding Source - Genotyping and Analysis">
+			<AttName>U01HG004798</AttName>
+			<Institution>National Human Genome Research Institute, National Institutes of Health, Bethesda, MD, USA</Institution>
+		</Header>
+		<Header title="Funding Source - Samples and de-identified EMR (BioVU)">
+			<AttName>UL TR000445</AttName>
+			<Institution>Vanderbilt CTSA grant UL1 TR000445 from National Center for Advancing Translational Sciences, National Institutes of Health, Bethesda, MD, USA</Institution>
+		</Header>
+		<Header title="Funding Source - Samples and de-identified EMR (BioVU)">
+			<AttName>Institutional</AttName>
+			<Institution>Vanderbilt University Medical Center, Nashville, TN, USA</Institution>
+		</Header>
+	</Attributions>
+	<DisplayPublicSummary>yes</DisplayPublicSummary>
+	<StudyURLs>
+		<Url name="EAGLE" url="https://eagle.mc.vanderbilt.edu/"/>
+		<Url name="PAGE" url="http://www.pagestudy.org"/>
+	</StudyURLs>
+	<ConsentGroups>
+		<ConsentGroup groupNum="1" shortName="GRU" longName="General Research Use"/>
+	</ConsentGroups>
+</Configuration>
+
+  <AuthorizedAccess>
+    <DacInfo ssDacId="0">
+      <DacName>NHGRI</DacName>
+      <DacFullName>National Human Genome Research Institute</DacFullName>
+      <DacEmail>0</DacEmail>
+      <DacPhone></DacPhone>
+      <DacUrl></DacUrl>
+    </DacInfo>
+    <Policy Policy_ID="phs000559.v1.p1_policy" ref_ssDacId="0">
+      <DisplayResearchStatement>yes</DisplayResearchStatement>
+      <DisplayPublicSummary>yes</DisplayPublicSummary>
+      <EmbargoLength>12</EmbargoLength>
+      <YearsUntilRenewal>1</YearsUntilRenewal>
+      <WeeksCancelRequest>8</WeeksCancelRequest>
+      <PdfSupplementReqired>no</PdfSupplementReqired>
+      <AcknowledgementText>
+        <para>
+          http://dbgap.ncbi.nlm.nih.gov/aa/wga.cgi?page=DUC&amp;view_pdf&amp;stacc=phs000559.v1.p1
+        </para>
+      </AcknowledgementText>
+      <DocumentSet>
+        <DataUseCertificate Label="Data Use Certificate" FilePath="https://dbgap.ncbi.nlm.nih.gov/aa/wga.cgi?page=DUC&amp;view_pdf&amp;stacc=phs000559.v1.p1" FileName="DUC_EAGLE_BioVU.pdf"/>
+      </DocumentSet>
+    </Policy>
+    <ConsentGroups>
+      <ParticipantSet groupNum-REF="1">
+        <ConsentName>General Research Use</ConsentName>
+        <ConsentAbbrev>GRU</ConsentAbbrev>
+        <UseLimitation>Use of the data is limited only by the terms of the model Data Use Certification.</UseLimitation>
+        <IrbRequired>No</IrbRequired>
+      </ParticipantSet>
+    </ConsentGroups>
+  </AuthorizedAccess>
+
+
+</Study>
+
+</Studies>
+
+</GaPExchange>

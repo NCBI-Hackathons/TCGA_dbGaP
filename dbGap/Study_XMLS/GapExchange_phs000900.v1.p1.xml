@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GaPExchange xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="./dbGaPEx2.1.5.xsd">
+
+<MetaVariables>
+	<Submitter/>
+	<Method/>
+</MetaVariables>
+<MetaLinks/>
+
+<Projects>
+	<Project/>
+</Projects>
+
+<Studies>
+
+<Study source="dbGaP" accession="phs000900.v1.p1" parentStudy="phs000900.v1.p1" createDate="2015-04-09" modDate="2015-04-09">
+
+<Configuration>
+	<Data_Provider><![CDATA[
+		<table border="1">
+		<tr><th>Title</th><th>Name</th><th>Institute</th></tr>
+		<tr><td>Principal Investigator</td><td>Charles Keller</td><td>Children&#39;s Cancer Therapy Development Institute, Fort Collins, CO, USA</td></tr>
+		</table>
+	]]></Data_Provider>
+	<StudyNameEntrez>Functionally-defined Therapeutic Targets in DIPG</StudyNameEntrez>
+	<StudyNameReportPage>Functionally-defined Therapeutic Targets in Diffuse Intrinsic Pontine Glioma (DIPG)</StudyNameReportPage>
+	<StudyTypes>
+		<StudyType>Cohort</StudyType>
+	</StudyTypes>
+	<Description><![CDATA[
+<p>Diffuse Intrinsic Pontine Glioma (DIPG) is a universally fatal childhood cancer. Here, we performed a chemical screen in patient-derived DIPG cell cultures along with RNAseq expression analysis and integrated computational modeling to identify potentially effective therapeutic strategies. Panobinostat, among the more promising agents identified, demonstrated efficacy in pontine orthotopic xenograft models of both H3K27M and histone WT DIPG. These data suggest the potential utility of specific drug combinations and provides evidence of in vivo treatment efficacy of the multi-histone deacetylase inhibitor panobinostat. We are depositing to dbGaP deep sequencing whole exome data for 22 patient tumor samples and 13 matched normals, along with RNAseq data for 12 patient tumor samples and 6 normal pediatric brain tissue samples. In addition, we are depositing 22 RNAseq samples from DIPG cell lines before and after panobinostat treatment.</p>]]>
+	</Description>
+	<StudyInEx><![CDATA[
+<p>This study was initiated three years ago by Children&#39;s Oncology Group as one of the first combined genomics and drug screen study to identify agents to try in a clinical trial. The study involved fourteen centers from all over the world and culminated in the identification of panobinostat as an effective agent. The data is especially useful because it constitutes a highly curated set of sequence data for in vivo model systems, as well as a large number of tissues for this rare cancer. The panobinostat treatment transcriptome data has the potential to reveal additional mechanisms for treating DIPG.</p>]]>
+	</StudyInEx>
+	<StudyProjects>
+		<Project/>
+	</StudyProjects>
+	<Publications>
+		<Publication>
+			<Journal authors="Catherine S. Grasso, Yujie Tang, Nathalene Truffaux, Noah E. Berlow, Lining Liu, Marie-Anne Debily, Michael J. Quist, Lara E. Davis, Elaine C. Huang, 			Pamelyn J Woo, Anitha Ponnuswami, Spenser Chen, Tessa Johung, Wenchao Sun, Mari Kogiso, Yuchen Du, Qi Lin, Yulun Huang, Marianne Hutt-Cabezas, Katherine E. Warren, 			Ludivine Le Dret, Paul S. Meltzer, Hua Mao, Martha Quezado, Dannis G. van Vuurden, Jinu Abraham, Maryam Fouladi, Matthew N. Svalina, Nicholas Wang, Cynthia Hawkins, 			Javad Nazarian, Marta M. Alonso, Eric Raabe, Esther Hulleman, Paul T. Spellman, Xiao-Nan Li, Charles Keller, Ranadip Pal, Jacques Grill, Michelle Monje." title="Functionally-defined Therapeutic Targets in Diffuse Intrinsic Pontine Glioma: A Report of the Children&#39;s Oncology Group DIPG Preclinical Consortium." journal="Nature Medicine, in press"/>
+		</Publication>
+	</Publications>
+	<Diseases>
+		<Disease vocab_source="MESH" vocab_term="Glioma"/>
+	</Diseases>
+	<Attributions>
+		<Header title="Principal Investigator">
+			<AttName>Charles Keller</AttName>
+			<Institution>Children&#39;s Cancer Therapy Development Institute, Fort Collins, CO, USA</Institution>
+		</Header>
+	</Attributions>
+	<DisplayPublicSummary>yes</DisplayPublicSummary>
+	<ConsentGroups>
+		<ConsentGroup groupNum="1" shortName="GRU" longName="General Research Use"/>
+	</ConsentGroups>
+</Configuration>
+
+  <AuthorizedAccess>
+    <DacInfo ssDacId="0">
+      <DacName>NCI</DacName>
+      <DacFullName>NCI</DacFullName>
+      <DacEmail>0</DacEmail>
+      <DacPhone></DacPhone>
+      <DacUrl></DacUrl>
+    </DacInfo>
+    <Policy Policy_ID="phs000900.v1.p1_policy" ref_ssDacId="0">
+      <DisplayResearchStatement>yes</DisplayResearchStatement>
+      <DisplayPublicSummary>yes</DisplayPublicSummary>
+      <EmbargoLength>0</EmbargoLength>
+      <YearsUntilRenewal>1</YearsUntilRenewal>
+      <WeeksCancelRequest>8</WeeksCancelRequest>
+      <PdfSupplementReqired>no</PdfSupplementReqired>
+      <AcknowledgementText>
+        <para>
+          http://dbgap.ncbi.nlm.nih.gov/aa/wga.cgi?page=DUC&amp;view_pdf&amp;stacc=phs000900.v1.p1
+        </para>
+      </AcknowledgementText>
+      <DocumentSet>
+        <DataUseCertificate Label="Data Use Certificate" FilePath="https://dbgap.ncbi.nlm.nih.gov/aa/wga.cgi?page=DUC&amp;view_pdf&amp;stacc=phs000900.v1.p1" FileName="eNCI_0224_DUC_2014-04-06.pdf"/>
+      </DocumentSet>
+    </Policy>
+    <ConsentGroups>
+      <ParticipantSet groupNum-REF="1">
+        <ConsentName>General Research Use</ConsentName>
+        <ConsentAbbrev>GRU</ConsentAbbrev>
+        <UseLimitation>Use of the data is limited only by the terms of the model Data Use Certification.</UseLimitation>
+        <IrbRequired>No</IrbRequired>
+      </ParticipantSet>
+    </ConsentGroups>
+  </AuthorizedAccess>
+
+
+</Study>
+
+</Studies>
+
+</GaPExchange>

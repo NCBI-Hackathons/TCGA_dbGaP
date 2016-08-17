@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./datadict_v2.xsl"?>
+<data_table id="pht000691.v2" study_id="phs000060.v12" participant_set="5" date_created="Fri Nov 12 08:03:10 2010">
+
+<variable id="phv00069845.v2">
+	<name>demented_modplus</name>
+	<description>Dementia status, at least moderate</description>
+	<type>encoded</type>
+	<coll_interval>See Date Variables in the Dataset</coll_interval>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+	<value code=".">Unknown</value>
+</variable>
+
+<variable id="phv00069846.v2">
+	<name>type</name>
+	<description>Dementia subtype</description>
+	<type>encoded,string</type>
+	<coll_interval>See Date Variables in the Dataset</coll_interval>
+	<value code="AD_STR">Alzheimer&#39;s disease with stroke</value>
+	<value code="AD_VaD">Mixed dementia: Alzheimer&#39;s disease and vascular dementia</value>
+	<value code="AD_noSTR">Alzheimer&#39;s disease without stroke</value>
+	<value code="VaD_noAD">Vascular dementia with no Alzheimer&#39;s disease</value>
+	<value code="other">Neither AD nor VAD</value>
+</variable>
+
+<variable id="phv00069847.v2">
+	<name>idtype</name>
+	<description>Framingham Cohort Identifier</description>
+	<type>encoded</type>
+	<coll_interval>See Date Variables in the Dataset</coll_interval>
+	<value code="0">Original cohort</value>
+	<value code="1">Offspring cohort</value>
+</variable>
+
+<variable id="phv00069848.v2">
+	<name>entry_date</name>
+	<description>Date of Entry</description>
+	<type>integer, encoded</type>
+	<unit>days</unit>
+	<logical_min>1996</logical_min>
+	<logical_max>10196</logical_max>
+	<coll_interval>See Date Variables in the Dataset</coll_interval>
+	<comment>Number of days since Exam 1</comment>
+	<value code=".">Unknown</value>
+</variable>
+
+<variable id="phv00069849.v2">
+	<name>last_cogint_date</name>
+	<description>Last date known to be cognitively intact</description>
+	<type>integer, encoded</type>
+	<unit>days</unit>
+	<logical_min>329</logical_min>
+	<logical_max>21858</logical_max>
+	<coll_interval>See Date Variables in the Dataset</coll_interval>
+	<comment>Number of days since Exam 1</comment>
+	<value code=".">Unknown</value>
+</variable>
+
+<variable id="phv00069850.v2">
+	<name>survdate</name>
+	<description>Date of incident dementia, death or censoring</description>
+	<type>integer, encoded</type>
+	<unit>days</unit>
+	<logical_min>5033</logical_min>
+	<logical_max>21858</logical_max>
+	<coll_interval>See Date Variables in the Dataset</coll_interval>
+	<comment>Number of days since Exam 1</comment>
+	<value code=".">Unknown</value>
+</variable>
+
+<variable id="phv00069851.v2">
+	<name>shareid</name>
+	<description>SHARE ID Number</description>
+	<type>integer</type>
+	<coll_interval>See Date Variables in the Dataset</coll_interval>
+</variable>
+
+</data_table>

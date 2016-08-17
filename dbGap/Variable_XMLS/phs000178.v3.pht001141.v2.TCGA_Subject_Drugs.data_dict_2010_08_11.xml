@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./datadict_v2.xsl"?>
+<data_table id="pht001141.v2" study_id="phs000178.v3" participant_set="3" date_created="Wed Aug 11 18:30:01 2010">
+
+<unique_key phv="00088131" version="2">BCRPATIENTBARCODE</unique_key>
+<unique_key phv="00088141" version="2">BCRDRUGBARCODE</unique_key>
+
+<variable id="phv00088131.v2">
+	<name>BCRPATIENTBARCODE</name>
+	<description>Subject identifier</description>
+	<type>string</type>
+</variable>
+
+<variable id="phv00088132.v2">
+	<name>DRUGNAME</name>
+	<description>Name of drug</description>
+	<type>string</type>
+</variable>
+
+<variable id="phv00088133.v2">
+	<name>DRUGDOSAGE</name>
+	<description>Dosage of drug</description>
+	<type>string</type>
+</variable>
+
+<variable id="phv00088134.v2">
+	<name>DOSAGEUNITS</name>
+	<description>Units used for dosage measurement</description>
+	<type>string</type>
+</variable>
+
+<variable id="phv00088135.v2">
+	<name>DRUGCATEGORY</name>
+	<description>Category of drug</description>
+	<type>string</type>
+	<value code="CHEMO">CHEMO</value>
+	<value code="HORMONAL">HORMONAL</value>
+	<value code="IMMUNO">IMMUNO</value>
+	<value code="TARGETED">TARGETED</value>
+	<value code="null">null</value>
+</variable>
+
+<variable id="phv00088136.v2">
+	<name>NUMBERCYCLES</name>
+	<description>Total number of cycles administered to the subject of a protocol specified drug</description>
+	<type>string</type>
+</variable>
+
+<variable id="phv00088137.v2">
+	<name>REGIMENINDICATION</name>
+	<description>Identifies the reason for the administration of a treatment regimen</description>
+	<type>string</type>
+	<value code="ADJUVANT">ADJUVANT</value>
+	<value code="OTHER: SPECIFY IN NOTES">OTHER: SPECIFY IN NOTES</value>
+	<value code="PALLIATIVE">PALLIATIVE</value>
+	<value code="PROGRESSION">PROGRESSION</value>
+	<value code="RECURRENCE">RECURRENCE</value>
+	<value code="null">null</value>
+</variable>
+
+<variable id="phv00088138.v2">
+	<name>ROUTEOFADMINISTRATION</name>
+	<description>Code or name to represent an access route for the administration of drug agents</description>
+	<type>string</type>
+	<value code="INTRA-PERITONEAL (IP)">INTRA-PERITONEAL (IP)</value>
+	<value code="INTRATUMORAL">INTRATUMORAL</value>
+	<value code="INTRAVENOUS (IV)">INTRAVENOUS (IV)</value>
+	<value code="IV AND IP">IV AND IP</value>
+	<value code="ORAL">ORAL</value>
+	<value code="OTHER: SPECIFY IN NOTES">OTHER: SPECIFY IN NOTES</value>
+	<value code="null">null</value>
+</variable>
+
+<variable id="phv00088139.v2">
+	<name>DAYSTODRUGTREATMENTSTART</name>
+	<description>Days elapsed from date of initial diagnosis to start of drug treatment</description>
+	<type>integer</type>
+	<unit>days</unit>
+</variable>
+
+<variable id="phv00088140.v2">
+	<name>DAYSTODRUGTREATMENTEND</name>
+	<description>Days elapsed from date of initial diagnosis to end of drug treatment</description>
+	<type>integer</type>
+	<unit>days</unit>
+</variable>
+
+<variable id="phv00088141.v2">
+	<name>BCRDRUGBARCODE</name>
+	<description>Unique identifier for a subject drug regimen</description>
+	<type>string</type>
+</variable>
+
+</data_table>

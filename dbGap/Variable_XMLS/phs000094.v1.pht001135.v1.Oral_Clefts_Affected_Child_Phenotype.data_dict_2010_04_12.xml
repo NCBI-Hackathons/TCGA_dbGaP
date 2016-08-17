@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./datadict_v2.xsl"?>
+<data_table id="pht001135.v1" study_id="phs000094.v1" participant_set="1" date_created="Mon Apr 12 16:10:24 2010">
+
+<variable id="phv00088047.v1">
+	<name>GENEVA ID</name>
+	<description>Proband&#39;s randomly generated study ID</description>
+</variable>
+
+<variable id="phv00088048.v1">
+	<name>GENDER</name>
+	<description>Proband&#39;s Gender</description>
+	<type>integer, encoded value</type>
+	<logical_min>1</logical_min>
+	<logical_max>2</logical_max>
+	<comment><![CDATA[As this was a consortium of oral cleft investigators, each group collected information with various questionnaires and various levels of detail.  The document "<a href="javascript:getPage(this, &#39;document.cgi&#39;, 1662);return true;" onclick="javascript:getPage(this, &#39;document.cgi&#39;, 1662);return true;" oncontextmenu="javascript:getPage(this, &#39;document.cgi&#39;, 1662);return true;">Phenotypes and Phenotypic harmonization_forDCC.pdf</a>" was sent to all collaborators to collect the specific variables.]]></comment>
+	<value code="1">Male</value>
+	<value code="2">Female</value>
+</variable>
+
+<variable id="phv00088049.v1">
+	<name>M_RACE</name>
+	<description>Mother&#39;s Race</description>
+	<type>integer, encoded value</type>
+	<logical_min>1</logical_min>
+	<logical_max>6</logical_max>
+	<comment><![CDATA[As this was a consortium of oral cleft investigators, each group collected information with various questionnaires and various levels of detail.  The document "<a href="javascript:getPage(this, &#39;document.cgi&#39;, 1662);return true;" onclick="javascript:getPage(this, &#39;document.cgi&#39;, 1662);return true;" oncontextmenu="javascript:getPage(this, &#39;document.cgi&#39;, 1662);return true;">Phenotypes and Phenotypic harmonization_forDCC.pdf</a>" was sent to all collaborators to collect the specific variables.]]></comment>
+	<value code="1">White</value>
+	<value code="2">African American</value>
+	<value code="3">Asian</value>
+	<value code="4">Native Hawaiian or other Pacific Islander</value>
+	<value code="5">American Indian/Alaska Native</value>
+	<value code="6">Other/More than one race</value>
+</variable>
+
+<variable id="phv00088050.v1">
+	<name>F_RACE</name>
+	<description>Father&#39;s Race</description>
+	<type>integer, encoded value</type>
+	<logical_min>1</logical_min>
+	<logical_max>6</logical_max>
+	<comment><![CDATA[As this was a consortium of oral cleft investigators, each group collected information with various questionnaires and various levels of detail.  The document "<a href="javascript:getPage(this, &#39;document.cgi&#39;, 1662);return true;" onclick="javascript:getPage(this, &#39;document.cgi&#39;, 1662);return true;" oncontextmenu="javascript:getPage(this, &#39;document.cgi&#39;, 1662);return true;">Phenotypes and Phenotypic harmonization_forDCC.pdf</a>" was sent to all collaborators to collect the specific variables.]]></comment>
+	<value code="1">White</value>
+	<value code="2">African American</value>
+	<value code="3">Asian</value>
+	<value code="4">Native Hawaiian or other Pacific Islander</value>
+	<value code="5">American Indian/Alaska Native</value>
+	<value code="6">Other/More than one race</value>
+</variable>
+
+<variable id="phv00088051.v1">
+	<name>P_RACE</name>
+	<description>Proband&#39;s Race</description>
+	<type>integer, encoded value</type>
+	<logical_min>1</logical_min>
+	<logical_max>6</logical_max>
+	<comment><![CDATA[As this was a consortium of oral cleft investigators, each group collected information with various questionnaires and various levels of detail.  The document "<a href="javascript:getPage(this, &#39;document.cgi&#39;, 1662);return true;" onclick="javascript:getPage(this, &#39;document.cgi&#39;, 1662);return true;" oncontextmenu="javascript:getPage(this, &#39;document.cgi&#39;, 1662);return true;">Phenotypes and Phenotypic harmonization_forDCC.pdf</a>" was sent to all collaborators to collect the specific variables.]]></comment>
+	<value code="1">White</value>
+	<value code="2">African American</value>
+	<value code="3">Asian</value>
+	<value code="4">Native Hawaiian or other Pacific Islander</value>
+	<value code="5">American Indian/Alaska Native</value>
+	<value code="6">Other/More than one race</value>
+</variable>
+
+<variable id="phv00088052.v1">
+	<name>P_CLEFT_I</name>
+	<description>Proband&#39;s Type of Cleft   - General Specification</description>
+	<type>integer, encoded value</type>
+	<logical_min>1</logical_min>
+	<logical_max>9</logical_max>
+	<comment><![CDATA[Modeled on <a href="javascript:getPage(this, &#39;document.cgi&#39;, 1890);return true;" onclick="javascript:getPage(this, &#39;document.cgi&#39;, 1890);return true;" oncontextmenu="javascript:getPage(this, &#39;document.cgi&#39;, 1890);return true;">oral_cleft_study_questionnaire_v3.1,</a> Questions 10-13: IF Q10=1 AND Q12=1 THEN P_cleft_I=3; IF Q10=1 AND Q12=1 AND Q11=1 THEN P_cleft_II=7; IF Q10=1 AND Q12=1 AND Q11=2 THEN P_cleft_II=6; IF Q10=1 AND Q12=1 AND Q11=3 THEN P_cleft_II=8.  IF Q10=1 AND Q12=2 THEN P_cleft_I=2; IF Q10=1 AND Q12=2 AND Q11=1 THEN P_cleft_II=4; IF Q10=1 AND Q12=2 AND Q11=2 THEN P_cleft_II=3; ; IF Q10=1 AND Q12=2 AND Q11=3 THEN P_cleft_II=5.  IF Q10=2 AND Q12=2 THEN P_cleft_I=1; IF Q10=2 AND Q12=2 AND Q13=1 THEN P_cleft_II=1; IF Q10=2 AND Q12=2 AND Q13=2 THEN P_cleft_II=2.  OTHERWISE P_CLEFT_I =9 and/or P_CLEFT_II=9.
+		As this was a consortium of oral cleft investigators, each group collected information with various questionnaires and various levels of detail.  The document "<a href="javascript:getPage(this, &#39;document.cgi&#39;, 1662);return true;" onclick="javascript:getPage(this, &#39;document.cgi&#39;, 1662);return true;" oncontextmenu="javascript:getPage(this, &#39;document.cgi&#39;, 1662);return true;">Phenotypes and Phenotypic harmonization_forDCC.pdf</a>" was sent to all collaborators to collect the specific variables. ]]></comment>
+	<value code="1">Cleft Palate Only</value>
+	<value code="2">Cleft Lip Only</value>
+	<value code="3">Cleft Lip and Palate</value>
+	<value code="9">Unknown</value>
+</variable>
+
+<variable id="phv00088053.v1">
+	<name>P_CLEFT_II</name>
+	<description>Proband&#39;s Type of Cleft  - Exact Specification</description>
+	<type>integer, encoded value</type>
+	<logical_min>1</logical_min>
+	<logical_max>10</logical_max>
+	<comment><![CDATA[Modeled on <a href="javascript:getPage(this, &#39;document.cgi&#39;, 1890);return true;" onclick="javascript:getPage(this, &#39;document.cgi&#39;, 1890);return true;" oncontextmenu="javascript:getPage(this, &#39;document.cgi&#39;, 1890);return true;">oral_cleft_study_questionnaire_v3.1,</a> Questions 10-13: IF Q10=1 AND Q12=1 THEN P_cleft_I=3; IF Q10=1 AND Q12=1 AND Q11=1 THEN P_cleft_II=7; IF Q10=1 AND Q12=1 AND Q11=2 THEN P_cleft_II=6; IF Q10=1 AND Q12=1 AND Q11=3 THEN P_cleft_II=8.  IF Q10=1 AND Q12=2 THEN P_cleft_I=2; IF Q10=1 AND Q12=2 AND Q11=1 THEN P_cleft_II=4; IF Q10=1 AND Q12=2 AND Q11=2 THEN P_cleft_II=3; ; IF Q10=1 AND Q12=2 AND Q11=3 THEN P_cleft_II=5.  IF Q10=2 AND Q12=2 THEN P_cleft_I=1; IF Q10=2 AND Q12=2 AND Q13=1 THEN P_cleft_II=1; IF Q10=2 AND Q12=2 AND Q13=2 THEN P_cleft_II=2.  OTHERWISE P_CLEFT_I =9 and/or P_CLEFT_II=9.
+		As this was a consortium of oral cleft investigators, each group collected information with various questionnaires and various levels of detail.  The document "<a href="javascript:getPage(this, &#39;document.cgi&#39;, 1662);return true;" onclick="javascript:getPage(this, &#39;document.cgi&#39;, 1662);return true;" oncontextmenu="javascript:getPage(this, &#39;document.cgi&#39;, 1662);return true;">Phenotypes and Phenotypic harmonization_forDCC.pdf</a>" was sent to all collaborators to collect the specific variables. ]]></comment>
+	<value code="1">Cleft Palate - Soft Only</value>
+	<value code="2">Cleft Palate - Hard</value>
+	<value code="3">Left cleft - Lip</value>
+	<value code="4">Right cleft - Lip</value>
+	<value code="5">Bilateral cleft - Lip</value>
+	<value code="6">Left cleft - Lip and Palate</value>
+	<value code="7">Right Cleft - Lip and Palate</value>
+	<value code="8">Bilateral cleft - Lip and Palate</value>
+	<value code="9">Unknown</value>
+	<value code="10">Microforms (forme fruste, bifid uvula)</value>
+</variable>
+
+<variable id="phv00088054.v1">
+	<name>M_CLEFT</name>
+	<description>Mother&#39;s Cleft</description>
+	<type>integer, encoded value</type>
+	<logical_min>0</logical_min>
+	<logical_max>9</logical_max>
+	<comment><![CDATA[On page 15 of the <a href="javascript:getPage(this, &#39;document.cgi&#39;, 1890);return true;" onclick="javascript:getPage(this, &#39;document.cgi&#39;, 1890);return true;" oncontextmenu="javascript:getPage(this, &#39;document.cgi&#39;, 1890);return true;">oral_cleft_study_questionnaire_v3.1,</a> a pedigree was drawn. Each investigator looked by hand and determined the level of family history and relatedness to the proband (case child).
+		As this was a consortium of oral cleft investigators, each group collected information with various questionnaires and various levels of detail.  The document "<a href="javascript:getPage(this, &#39;document.cgi&#39;, 1662);return true;" onclick="javascript:getPage(this, &#39;document.cgi&#39;, 1662);return true;" oncontextmenu="javascript:getPage(this, &#39;document.cgi&#39;, 1662);return true;">Phenotypes and Phenotypic harmonization_forDCC.pdf</a>" was sent to all collaborators to collect the specific variables. ]]></comment>
+	<value code="0">No Cleft</value>
+	<value code="1">Cleft Palate Only</value>
+	<value code="2">Cleft Lip Only</value>
+	<value code="3">Cleft Lip and Palate</value>
+	<value code="4">Unknown Cleft</value>
+	<value code="9">Unknown</value>
+</variable>
+
+<variable id="phv00088055.v1">
+	<name>F_CLEFT</name>
+	<description>Father&#39;s Cleft</description>
+	<type>integer, encoded value</type>
+	<logical_min>0</logical_min>
+	<logical_max>9</logical_max>
+	<comment><![CDATA[On page 15 of the <a href="javascript:getPage(this, &#39;document.cgi&#39;, 1890);return true;" onclick="javascript:getPage(this, &#39;document.cgi&#39;, 1890);return true;" oncontextmenu="javascript:getPage(this, &#39;document.cgi&#39;, 1890);return true;">oral_cleft_study_questionnaire_v3.1,</a> a pedigree was drawn. Each investigator looked by hand and determined the level of family history and relatedness to the proband (case child).
+		As this was a consortium of oral cleft investigators, each group collected information with various questionnaires and various levels of detail.  The document "<a href="javascript:getPage(this, &#39;document.cgi&#39;, 1662);return true;" onclick="javascript:getPage(this, &#39;document.cgi&#39;, 1662);return true;" oncontextmenu="javascript:getPage(this, &#39;document.cgi&#39;, 1662);return true;">Phenotypes and Phenotypic harmonization_forDCC.pdf</a>" was sent to all collaborators to collect the specific variables. ]]></comment>
+	<value code="0">No Cleft</value>
+	<value code="1">Cleft Palate Only</value>
+	<value code="2">Cleft Lip Only</value>
+	<value code="3">Cleft Lip and Palate</value>
+	<value code="4">Unknown Cleft</value>
+	<value code="9">Unknown</value>
+</variable>
+
+<variable id="phv00088056.v1">
+	<name>FAMHX_I</name>
+	<description>Any family history of oral clefts  - general</description>
+	<type>integer, encoded value</type>
+	<logical_min>0</logical_min>
+	<logical_max>9</logical_max>
+	<comment><![CDATA[On page 15 of the <a href="javascript:getPage(this, &#39;document.cgi&#39;, 1890);return true;" onclick="javascript:getPage(this, &#39;document.cgi&#39;, 1890);return true;" oncontextmenu="javascript:getPage(this, &#39;document.cgi&#39;, 1890);return true;">oral_cleft_study_questionnaire_v3.1,</a> a pedigree was drawn. Each investigator looked by hand and determined the level of family history and relatedness to the proband (case child).
+		As this was a consortium of oral cleft investigators, each group collected information with various questionnaires and various levels of detail.  The document "<a href="javascript:getPage(this, &#39;document.cgi&#39;, 1662);return true;" onclick="javascript:getPage(this, &#39;document.cgi&#39;, 1662);return true;" oncontextmenu="javascript:getPage(this, &#39;document.cgi&#39;, 1662);return true;">Phenotypes and Phenotypic harmonization_forDCC.pdf</a>" was sent to all collaborators to collect the specific variables. ]]></comment>
+	<value code="0">Negative family history of oral clefts</value>
+	<value code="1">Positive family history of oral clefts</value>
+	<value code="9">Unknown</value>
+</variable>
+
+<variable id="phv00088057.v1">
+	<name>FAMHX_II</name>
+	<description>Family history of oral clefts  - specific</description>
+	<type>integer, encoded value</type>
+	<logical_min>0</logical_min>
+	<logical_max>9</logical_max>
+	<comment><![CDATA[On page 15 of the <a href="javascript:getPage(this, &#39;document.cgi&#39;, 1890);return true;" onclick="javascript:getPage(this, &#39;document.cgi&#39;, 1890);return true;" oncontextmenu="javascript:getPage(this, &#39;document.cgi&#39;, 1890);return true;">oral_cleft_study_questionnaire_v3.1,</a> a pedigree was drawn. Each investigator looked by hand and determined the level of family history and relatedness to the proband (case child).
+		As this was a consortium of oral cleft investigators, each group collected information with various questionnaires and various levels of detail.  The document "<a href="javascript:getPage(this, &#39;document.cgi&#39;, 1662);return true;" onclick="javascript:getPage(this, &#39;document.cgi&#39;, 1662);return true;" oncontextmenu="javascript:getPage(this, &#39;document.cgi&#39;, 1662);return true;">Phenotypes and Phenotypic harmonization_forDCC.pdf</a>" was sent to all collaborators to collect the specific variables. ]]></comment>
+	<value code="0">No family history of oral clefts</value>
+	<value code="1">Affected 1st degree relatives ONLY (parents, sibs or children)</value>
+	<value code="2">Affected 2nd degree relatives ONLY (half-sibs, grandparents, aunts or uncles)</value>
+	<value code="3">Affected 3rd degree relatives and beyond ONLY (cousins and other relatives)</value>
+	<value code="4">Affected 1st AND 2nd degree relatives  ONLY</value>
+	<value code="5">Affected 2nd AND 3rd degree relatives  ONLY</value>
+	<value code="6">Affected 1st AND 3rd degree relatives  ONLY</value>
+	<value code="7">Affected 1st, 2nd AND 3rd degree  relatives</value>
+	<value code="9">Unknown</value>
+</variable>
+
+<variable id="phv00088058.v1">
+	<name>MSMOKE_PRIOR</name>
+	<description>Did the mother smoke 3 months prior to pregnancy?</description>
+	<type>integer, encoded value</type>
+	<logical_min>0</logical_min>
+	<logical_max>9</logical_max>
+	<comment><![CDATA[Modeled on <a href="javascript:getPage(this, &#39;document.cgi&#39;, 1890);return true;" onclick="javascript:getPage(this, &#39;document.cgi&#39;, 1890);return true;" oncontextmenu="javascript:getPage(this, &#39;document.cgi&#39;, 1890);return true;">oral_cleft_study_questionnaire_v3.1,</a> Question 58
+		As this was a consortium of oral cleft investigators, each group collected information with various questionnaires and various levels of detail.  The document "<a href="javascript:getPage(this, &#39;document.cgi&#39;, 1662);return true;" onclick="javascript:getPage(this, &#39;document.cgi&#39;, 1662);return true;" oncontextmenu="javascript:getPage(this, &#39;document.cgi&#39;, 1662);return true;">Phenotypes and Phenotypic harmonization_forDCC.pdf</a>" was sent to all collaborators to collect the specific variables. ]]></comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+	<value code="9">Unknown</value>
+</variable>
+
+<variable id="phv00088059.v1">
+	<name>MSMOKE_3MON</name>
+	<description>Did the mother smoke in the first 3 months of pregnancy?</description>
+	<type>integer, encoded value</type>
+	<logical_min>0</logical_min>
+	<logical_max>9</logical_max>
+	<comment><![CDATA[Modeled on <a href="javascript:getPage(this, &#39;document.cgi&#39;, 1890);return true;" onclick="javascript:getPage(this, &#39;document.cgi&#39;, 1890);return true;" oncontextmenu="javascript:getPage(this, &#39;document.cgi&#39;, 1890);return true;">oral_cleft_study_questionnaire_v3.1,</a> Question 60
+		As this was a consortium of oral cleft investigators, each group collected information with various questionnaires and various levels of detail.  The document "<a href="javascript:getPage(this, &#39;document.cgi&#39;, 1662);return true;" onclick="javascript:getPage(this, &#39;document.cgi&#39;, 1662);return true;" oncontextmenu="javascript:getPage(this, &#39;document.cgi&#39;, 1662);return true;">Phenotypes and Phenotypic harmonization_forDCC.pdf</a>" was sent to all collaborators to collect the specific variables. ]]></comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+	<value code="9">Unknown</value>
+</variable>
+
+<variable id="phv00088060.v1">
+	<name>MSMOKE</name>
+	<description>Did the mother smoke in the perinatal period (3 months prior through 3rd month of pregnancy)?</description>
+	<type>integer, encoded value</type>
+	<logical_min>0</logical_min>
+	<logical_max>9</logical_max>
+	<comment><![CDATA[Modeled on <a href="javascript:getPage(this, &#39;document.cgi&#39;, 1890);return true;" onclick="javascript:getPage(this, &#39;document.cgi&#39;, 1890);return true;" oncontextmenu="javascript:getPage(this, &#39;document.cgi&#39;, 1890);return true;">oral_cleft_study_questionnaire_v3.1,</a> calculated from questions 58 and 60: IF msmoke_prior=1 OR msmoke_3mon=1, then MSMOKE=1 OR IF msmoke_prior=9 AND msmoke_3mon=1, then MSMOKE =1 OR IF msmoke_prior=1 AND msmoke_3mon=9, then MSMOKE=1 OR IF msmoke_prior=9 AND msmoke_3mon=9, then MSMOKE=9 OR IF the investigator did not ask the question in this manner, but had some information on smoking during pregnancy time period, then used this information as an acceptable answer. (MSMOKE_prior and msmoke_3mon could both be &#39;9&#39; and msmoke=1 OR MSMOKE=0 in this case; investigator supplied answers were verified and accepted.) ELSE MSMOKE=0
+		As this was a consortium of oral cleft investigators, each group collected information with various questionnaires and various levels of detail.  The document "<a href="javascript:getPage(this, &#39;document.cgi&#39;, 1662);return true;" onclick="javascript:getPage(this, &#39;document.cgi&#39;, 1662);return true;" oncontextmenu="javascript:getPage(this, &#39;document.cgi&#39;, 1662);return true;">Phenotypes and Phenotypic harmonization_forDCC.pdf</a>" was sent to all collaborators to collect the specific variables. ]]></comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+	<value code="9">Unknown</value>
+</variable>
+
+<variable id="phv00088061.v1">
+	<name>ETS</name>
+	<description>During the three months before or during her entire pregnancy did anyone, besides the mother, regularly smoke cigarettes in her home, workplace or any other place near her?</description>
+	<type>integer, encoded value</type>
+	<logical_min>0</logical_min>
+	<logical_max>9</logical_max>
+	<comment><![CDATA[Modeled on <a href="javascript:getPage(this, &#39;document.cgi&#39;, 1890);return true;" onclick="javascript:getPage(this, &#39;document.cgi&#39;, 1890);return true;" oncontextmenu="javascript:getPage(this, &#39;document.cgi&#39;, 1890);return true;">oral_cleft_study_questionnaire_v3.1,</a> Question 66
+		As this was a consortium of oral cleft investigators, each group collected information with various questionnaires and various levels of detail.  The document "<a href="javascript:getPage(this, &#39;document.cgi&#39;, 1662);return true;" onclick="javascript:getPage(this, &#39;document.cgi&#39;, 1662);return true;" oncontextmenu="javascript:getPage(this, &#39;document.cgi&#39;, 1662);return true;">Phenotypes and Phenotypic harmonization_forDCC.pdf</a>" was sent to all collaborators to collect the specific variables. ]]></comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+	<value code="9">Unknown</value>
+</variable>
+
+<variable id="phv00088062.v1">
+	<name>MVITS_PRIOR</name>
+	<description>Did the mother take multivitamins or prenatal vitamins 3 months prior to pregnancy?</description>
+	<type>integer, encoded value</type>
+	<logical_min>0</logical_min>
+	<logical_max>9</logical_max>
+	<comment><![CDATA[Modeled on <a href="javascript:getPage(this, &#39;document.cgi&#39;, 1890);return true;" onclick="javascript:getPage(this, &#39;document.cgi&#39;, 1890);return true;" oncontextmenu="javascript:getPage(this, &#39;document.cgi&#39;, 1890);return true;">oral_cleft_study_questionnaire_v3.1,</a> Question 15: Once a participant answered &#39;yes&#39;, the interviewer went to &#39;suppl_med table.doc&#39; to get the specifics of the medicine/supplement use. Ques. F. specifically asks about the time period.
+		As this was a consortium of oral cleft investigators, each group collected information with various questionnaires and various levels of detail.  The document "<a href="javascript:getPage(this, &#39;document.cgi&#39;, 1662);return true;" onclick="javascript:getPage(this, &#39;document.cgi&#39;, 1662);return true;" oncontextmenu="javascript:getPage(this, &#39;document.cgi&#39;, 1662);return true;">Phenotypes and Phenotypic harmonization_forDCC.pdf</a>" was sent to all collaborators to collect the specific variables. ]]></comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+	<value code="9">Unknown</value>
+</variable>
+
+<variable id="phv00088063.v1">
+	<name>MVITS_3MON</name>
+	<description>Did the mother take multivitamins or prenatal vitamins in the first 3 months of pregnancy?</description>
+	<type>integer, encoded value</type>
+	<logical_min>0</logical_min>
+	<logical_max>9</logical_max>
+	<comment><![CDATA[Modeled on <a href="javascript:getPage(this, &#39;document.cgi&#39;, 1890);return true;" onclick="javascript:getPage(this, &#39;document.cgi&#39;, 1890);return true;" oncontextmenu="javascript:getPage(this, &#39;document.cgi&#39;, 1890);return true;">oral_cleft_study_questionnaire_v3.1,</a> Question 15: Once a participant answered &#39;yes&#39;, the interviewer went to &#39;suppl_med table.doc&#39; to get the specifics of the medicine/supplement use. Ques. F. specifically asks about the time period.
+		As this was a consortium of oral cleft investigators, each group collected information with various questionnaires and various levels of detail.  The document "<a href="javascript:getPage(this, &#39;document.cgi&#39;, 1662);return true;" onclick="javascript:getPage(this, &#39;document.cgi&#39;, 1662);return true;" oncontextmenu="javascript:getPage(this, &#39;document.cgi&#39;, 1662);return true;">Phenotypes and Phenotypic harmonization_forDCC.pdf</a>" was sent to all collaborators to collect the specific variables. ]]></comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+	<value code="9">Unknown</value>
+</variable>
+
+<variable id="phv00088064.v1">
+	<name>MVITS</name>
+	<description>Did the mother take multivitamins or prenatal vitamins in the perinatal period (3 months prior through 3rd month of pregnancy)?</description>
+	<type>integer, encoded value</type>
+	<logical_min>0</logical_min>
+	<logical_max>9</logical_max>
+	<comment><![CDATA[Modeled on <a href="javascript:getPage(this, &#39;document.cgi&#39;, 1890);return true;" onclick="javascript:getPage(this, &#39;document.cgi&#39;, 1890);return true;" oncontextmenu="javascript:getPage(this, &#39;document.cgi&#39;, 1890);return true;">oral_cleft_study_questionnaire_v3.1,</a> Question 15: IF mvits_prior=1 OR mvits_3mon=1, then Mvits=1 OR IF mvits_prior=9 AND mvits_3mon=1, then Mvits =1 OR IF mvits_prior=1 AND mvits_3mon=9, then Mvits=1 OR IF mvits_prior=9 AND mvits_3mon=9, then Mvits=9 OR IF the investigator did not ask the question in this manner, but had some information on smoking during pregnancy time period, then used this information as an acceptable answer. (Mvits_prior and mvits_3mon could both be &#39;9&#39; and mvits=1 OR Mvits=0 in this case; investigator supplied answers were verified and accepted.) ELSE Mvits=0
+		As this was a consortium of oral cleft investigators, each group collected information with various questionnaires and various levels of detail.  The document "<a href="javascript:getPage(this, &#39;document.cgi&#39;, 1662);return true;" onclick="javascript:getPage(this, &#39;document.cgi&#39;, 1662);return true;" oncontextmenu="javascript:getPage(this, &#39;document.cgi&#39;, 1662);return true;">Phenotypes and Phenotypic harmonization_forDCC.pdf</a>" was sent to all collaborators to collect the specific variables. ]]></comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+	<value code="9">Unknown</value>
+</variable>
+
+<variable id="phv00088065.v1">
+	<name>MDRINK_PRIOR</name>
+	<description>Did the mother regularly drink alcohol 3 months prior to pregnancy?</description>
+	<type>integer, encoded value</type>
+	<logical_min>0</logical_min>
+	<logical_max>9</logical_max>
+	<comment><![CDATA[Modeled on <a href="javascript:getPage(this, &#39;document.cgi&#39;, 1890);return true;" onclick="javascript:getPage(this, &#39;document.cgi&#39;, 1890);return true;" oncontextmenu="javascript:getPage(this, &#39;document.cgi&#39;, 1890);return true;">oral_cleft_study_questionnaire_v3.1,</a> Question 77
+		As this was a consortium of oral cleft investigators, each group collected information with various questionnaires and various levels of detail.  The document "<a href="javascript:getPage(this, &#39;document.cgi&#39;, 1662);return true;" onclick="javascript:getPage(this, &#39;document.cgi&#39;, 1662);return true;" oncontextmenu="javascript:getPage(this, &#39;document.cgi&#39;, 1662);return true;">Phenotypes and Phenotypic harmonization_forDCC.pdf</a>" was sent to all collaborators to collect the specific variables. ]]></comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+	<value code="9">Unknown</value>
+</variable>
+
+<variable id="phv00088066.v1">
+	<name>MDRINK_3MON</name>
+	<description>Did the mother regularly drink alcohol in the first 3 months of pregnancy?</description>
+	<type>integer, encoded value</type>
+	<logical_min>0</logical_min>
+	<logical_max>9</logical_max>
+	<comment><![CDATA[Modeled on <a href="javascript:getPage(this, &#39;document.cgi&#39;, 1890);return true;" onclick="javascript:getPage(this, &#39;document.cgi&#39;, 1890);return true;" oncontextmenu="javascript:getPage(this, &#39;document.cgi&#39;, 1890);return true;">oral_cleft_study_questionnaire_v3.1,</a> Question 82
+		As this was a consortium of oral cleft investigators, each group collected information with various questionnaires and various levels of detail.  The document "<a href="javascript:getPage(this, &#39;document.cgi&#39;, 1662);return true;" onclick="javascript:getPage(this, &#39;document.cgi&#39;, 1662);return true;" oncontextmenu="javascript:getPage(this, &#39;document.cgi&#39;, 1662);return true;">Phenotypes and Phenotypic harmonization_forDCC.pdf</a>" was sent to all collaborators to collect the specific variables. ]]></comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+	<value code="9">Unknown</value>
+</variable>
+
+<variable id="phv00088067.v1">
+	<name>MDRINK</name>
+	<description>Did the mother regularly drink alcohol in the perinatal period (3 months prior through 3rd month of pregnancy)?</description>
+	<type>integer, encoded value</type>
+	<logical_min>0</logical_min>
+	<logical_max>9</logical_max>
+	<comment><![CDATA[Modeled on <a href="javascript:getPage(this, &#39;document.cgi&#39;, 1890);return true;" onclick="javascript:getPage(this, &#39;document.cgi&#39;, 1890);return true;" oncontextmenu="javascript:getPage(this, &#39;document.cgi&#39;, 1890);return true;">oral_cleft_study_questionnaire_v3.1,</a> calculated from questions 77 and 82: IF mdrink_prior=1 OR mdrink_3mon=1, then Mdrink=1 OR IF mdrink_prior=9 AND mdrink_3mon=1, then Mdrink =1 OR IF mdrink_prior=1 AND mdrink_3mon=9, then Mdrink=1 OR IF mdrink_prior=9 AND mdrink_3mon=9, then Mdrink=9 OR IF the investigator did not ask the question in this manner, but had some information on smoking during pregnancy time period, then used this information as an acceptable answer. (Mdrink_prior and mdrink_3mon could both be &#39;9&#39; and mdrink=1 OR Mdrink=0 in this case; investigator supplied answers were verified and accepted.) ELSE Mdrink=0
+		As this was a consortium of oral cleft investigators, each group collected information with various questionnaires and various levels of detail.  The document "<a href="javascript:getPage(this, &#39;document.cgi&#39;, 1662);return true;" onclick="javascript:getPage(this, &#39;document.cgi&#39;, 1662);return true;" oncontextmenu="javascript:getPage(this, &#39;document.cgi&#39;, 1662);return true;">Phenotypes and Phenotypic harmonization_forDCC.pdf</a>" was sent to all collaborators to collect the specific variables. ]]></comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+	<value code="9">Unknown</value>
+</variable>
+
+</data_table>

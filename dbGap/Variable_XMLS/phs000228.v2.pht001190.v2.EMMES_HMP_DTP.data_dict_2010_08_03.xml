@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./datadict_v2.xsl"?>
+<data_table id="pht001190.v2" study_id="phs000228.v2" participant_set="1" date_created="Tue Aug  3 17:16:46 2010">
+
+<unique_key phv="00089522" version="2">PROT</unique_key>
+<unique_key phv="00089523" version="2">RANDSID</unique_key>
+<unique_key phv="00089524" version="2">PROTSEG</unique_key>
+<unique_key phv="00089525" version="2">VISNO</unique_key>
+<unique_key phv="00089535" version="2">SITE</unique_key>
+
+<variable id="phv00089522.v2">
+	<name>PROT</name>
+	<description>Protocol</description>
+	<type>Encoded</type>
+	<value code="7001">7001</value>
+</variable>
+
+<variable id="phv00089523.v2">
+	<name>RANDSID</name>
+	<description>Random ID for Patid</description>
+	<type>Integer</type>
+</variable>
+
+<variable id="phv00089524.v2">
+	<name>PROTSEG</name>
+	<description>Protocol Segment</description>
+	<type>Encoded</type>
+	<value code="A">A</value>
+</variable>
+
+<variable id="phv00089525.v2">
+	<name>VISNO</name>
+	<description>Visit Number</description>
+	<type>Encoded</type>
+	<value code="00">00</value>
+	<value code="01">01</value>
+	<value code="01S">01S</value>
+	<value code="01T">01T</value>
+	<value code="02">02</value>
+	<value code="02S">02S</value>
+	<value code="02T">02T</value>
+	<value code="03">03</value>
+	<value code="03S">03S</value>
+	<value code="03T">03T</value>
+</variable>
+
+<variable id="phv00089526.v2">
+	<name>STUDY_DAY</name>
+	<description>Calculated field based on number of days pre or post subject&#39;s day of enrollment/first sampling</description>
+	<type>Integer</type>
+	<unit>days</unit>
+	<logical_min>-9999999999</logical_min>
+	<logical_max>9999999999</logical_max>
+</variable>
+
+<variable id="phv00089527.v2">
+	<name>DTPSYSTL</name>
+	<description>Blood pressure systolic</description>
+	<type>Integer</type>
+	<unit>mmHG</unit>
+	<logical_min>70</logical_min>
+	<logical_max>220</logical_max>
+</variable>
+
+<variable id="phv00089528.v2">
+	<name>DTPDIAST</name>
+	<description>Blood pressure diastolic</description>
+	<type>Integer</type>
+	<unit>mmHG</unit>
+	<logical_min>40</logical_min>
+	<logical_max>130</logical_max>
+</variable>
+
+<variable id="phv00089529.v2">
+	<name>DTPPULSE</name>
+	<description>Pulse</description>
+	<type>Integer</type>
+	<unit>BPM</unit>
+	<logical_min>35</logical_min>
+	<logical_max>140</logical_max>
+</variable>
+
+<variable id="phv00089530.v2">
+	<name>DTPWTLB</name>
+	<description>Weight in pounds</description>
+	<type>Integer, decimals</type>
+	<unit>pounds</unit>
+	<logical_min>80</logical_min>
+	<logical_max>375</logical_max>
+</variable>
+
+<variable id="phv00089531.v2">
+	<name>DTPWTKG</name>
+	<description>Weight in kilograms</description>
+	<type>Integer, decimals</type>
+	<unit>kilograms</unit>
+	<logical_min>36</logical_min>
+	<logical_max>171</logical_max>
+</variable>
+
+<variable id="phv00089532.v2">
+	<name>DTPHTIN</name>
+	<description>Height in inches</description>
+	<type>Integer, decimals</type>
+	<unit>inches</unit>
+	<logical_min>48</logical_min>
+	<logical_max>86</logical_max>
+</variable>
+
+<variable id="phv00089533.v2">
+	<name>DTPHTCM</name>
+	<description>Height in centimeters</description>
+	<type>Integer, decimals</type>
+	<unit>centimeters</unit>
+	<logical_min>121</logical_min>
+	<logical_max>219</logical_max>
+</variable>
+
+<variable id="phv00089534.v2">
+	<name>DTPBMI</name>
+	<description>Body mass index</description>
+	<type>Integer</type>
+	<logical_min>19</logical_min>
+	<logical_max>34</logical_max>
+</variable>
+
+<variable id="phv00089535.v2">
+	<name>SITE</name>
+	<description>Site</description>
+	<type>String</type>
+	<value code="Houston">Houston</value>
+	<value code="St. Louis">St. Louis</value>
+</variable>
+
+<variable id="phv00089536.v2">
+	<name>DTPGENAP</name>
+	<description>General appearance</description>
+	<type>Integer, encoded value</type>
+	<logical_min>1</logical_min>
+	<logical_max>9</logical_max>
+	<comment>&#39;Gated field&#39;, defined as a data that will not be released to dbGaP until all subjects have been enrolled, and data is reviewed to confirm that there is no possibility of subject identification.</comment>
+	<value code="1">Normal</value>
+	<value code="2">Abnormal</value>
+	<value code="9">Not evaluated</value>
+</variable>
+
+<variable id="phv00089537.v2">
+	<name>DTPGENSP</name>
+	<description>Specify abn appearance</description>
+	<type>String</type>
+	<comment>&#39;Gated field&#39;, defined as a data that will not be released to dbGaP until all subjects have been enrolled, and data is reviewed to confirm that there is no possibility of subject identification.</comment>
+</variable>
+
+<variable id="phv00089538.v2">
+	<name>DTPHEENT</name>
+	<description>HEENT</description>
+	<type>Integer, encoded value</type>
+	<logical_min>1</logical_min>
+	<logical_max>9</logical_max>
+	<comment>&#39;Gated field&#39;, defined as a data that will not be released to dbGaP until all subjects have been enrolled, and data is reviewed to confirm that there is no possibility of subject identification.</comment>
+	<value code="1">Normal</value>
+	<value code="2">Abnormal</value>
+	<value code="9">Not evaluated</value>
+</variable>
+
+<variable id="phv00089539.v2">
+	<name>DTPHNTSP</name>
+	<description>Specify abnormal HEENT</description>
+	<type>String</type>
+	<comment>&#39;Gated field&#39;, defined as a data that will not be released to dbGaP until all subjects have been enrolled, and data is reviewed to confirm that there is no possibility of subject identification.</comment>
+</variable>
+
+<variable id="phv00089540.v2">
+	<name>DTPHEART</name>
+	<description>Cardiovascular</description>
+	<type>Integer, encoded value</type>
+	<logical_min>1</logical_min>
+	<logical_max>9</logical_max>
+	<comment>&#39;Gated field&#39;, defined as a data that will not be released to dbGaP until all subjects have been enrolled, and data is reviewed to confirm that there is no possibility of subject identification.</comment>
+	<value code="1">Normal</value>
+	<value code="2">Abnormal</value>
+	<value code="9">Not evaluated</value>
+</variable>
+
+<variable id="phv00089541.v2">
+	<name>DTPHRTSP</name>
+	<description>Specify abn cardiovasclr</description>
+	<type>String</type>
+	<comment>&#39;Gated field&#39;, defined as a data that will not be released to dbGaP until all subjects have been enrolled, and data is reviewed to confirm that there is no possibility of subject identification.</comment>
+</variable>
+
+<variable id="phv00089542.v2">
+	<name>DTPCHEST</name>
+	<description>Pulmonary chest</description>
+	<type>Integer, encoded value</type>
+	<logical_min>1</logical_min>
+	<logical_max>9</logical_max>
+	<comment>&#39;Gated field&#39;, defined as a data that will not be released to dbGaP until all subjects have been enrolled, and data is reviewed to confirm that there is no possibility of subject identification.</comment>
+	<value code="1">Normal</value>
+	<value code="2">Abnormal</value>
+	<value code="9">Not evaluated</value>
+</variable>
+
+<variable id="phv00089543.v2">
+	<name>DTPCHTSP</name>
+	<description>Specify abnormal chest</description>
+	<type>String</type>
+	<comment>&#39;Gated field&#39;, defined as a data that will not be released to dbGaP until all subjects have been enrolled, and data is reviewed to confirm that there is no possibility of subject identification.</comment>
+</variable>
+
+<variable id="phv00089544.v2">
+	<name>DTPABDMN</name>
+	<description>Abdomen</description>
+	<type>Integer, encoded value</type>
+	<logical_min>1</logical_min>
+	<logical_max>9</logical_max>
+	<comment>&#39;Gated field&#39;, defined as a data that will not be released to dbGaP until all subjects have been enrolled, and data is reviewed to confirm that there is no possibility of subject identification.</comment>
+	<value code="1">Normal</value>
+	<value code="2">Abnormal</value>
+	<value code="9">Not evaluated</value>
+</variable>
+
+<variable id="phv00089545.v2">
+	<name>DTPABDSP</name>
+	<description>Specify abnormal abdomen</description>
+	<type>String</type>
+	<comment>&#39;Gated field&#39;, defined as a data that will not be released to dbGaP until all subjects have been enrolled, and data is reviewed to confirm that there is no possibility of subject identification.</comment>
+</variable>
+
+<variable id="phv00089546.v2">
+	<name>DTPNEUR</name>
+	<description>Neurological</description>
+	<type>Integer, encoded value</type>
+	<logical_min>1</logical_min>
+	<logical_max>9</logical_max>
+	<comment>&#39;Gated field&#39;, defined as a data that will not be released to dbGaP until all subjects have been enrolled, and data is reviewed to confirm that there is no possibility of subject identification.</comment>
+	<value code="1">Normal</value>
+	<value code="2">Abnormal</value>
+	<value code="9">Not evaluated</value>
+</variable>
+
+<variable id="phv00089547.v2">
+	<name>DTPNERSP</name>
+	<description>Specify abn neurological</description>
+	<type>String</type>
+	<comment>&#39;Gated field&#39;, defined as a data that will not be released to dbGaP until all subjects have been enrolled, and data is reviewed to confirm that there is no possibility of subject identification.</comment>
+</variable>
+
+<variable id="phv00089548.v2">
+	<name>DTPMUSCL</name>
+	<description>Musculoskeletal</description>
+	<type>Integer, encoded value</type>
+	<logical_min>1</logical_min>
+	<logical_max>9</logical_max>
+	<comment>&#39;Gated field&#39;, defined as a data that will not be released to dbGaP until all subjects have been enrolled, and data is reviewed to confirm that there is no possibility of subject identification.</comment>
+	<value code="1">Normal</value>
+	<value code="2">Abnormal</value>
+	<value code="9">Not evaluated</value>
+</variable>
+
+<variable id="phv00089549.v2">
+	<name>DTPMSCSP</name>
+	<description>Specify abn musculosk</description>
+	<type>String</type>
+	<comment>&#39;Gated field&#39;, defined as a data that will not be released to dbGaP until all subjects have been enrolled, and data is reviewed to confirm that there is no possibility of subject identification.</comment>
+</variable>
+
+<variable id="phv00089550.v2">
+	<name>DTPEXTRM</name>
+	<description>Extremities</description>
+	<type>Integer, encoded value</type>
+	<logical_min>1</logical_min>
+	<logical_max>9</logical_max>
+	<comment>&#39;Gated field&#39;, defined as a data that will not be released to dbGaP until all subjects have been enrolled, and data is reviewed to confirm that there is no possibility of subject identification.</comment>
+	<value code="1">Normal</value>
+	<value code="2">Abnormal</value>
+	<value code="9">Not evaluated</value>
+</variable>
+
+<variable id="phv00089551.v2">
+	<name>DTPXTRSP</name>
+	<description>Specify abn extremities</description>
+	<type>String</type>
+	<comment>&#39;Gated field&#39;, defined as a data that will not be released to dbGaP until all subjects have been enrolled, and data is reviewed to confirm that there is no possibility of subject identification.</comment>
+</variable>
+
+<variable id="phv00089552.v2">
+	<name>DTPCOMM</name>
+	<description>Comments</description>
+	<type>String</type>
+	<comment>&#39;Gated field&#39;, defined as a data that will not be released to dbGaP until all subjects have been enrolled, and data is reviewed to confirm that there is no possibility of subject identification.</comment>
+</variable>
+
+</data_table>

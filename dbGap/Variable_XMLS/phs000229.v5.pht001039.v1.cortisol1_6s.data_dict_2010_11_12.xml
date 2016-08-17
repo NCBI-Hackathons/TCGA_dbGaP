@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./datadict_v2.xsl"?>
+<data_table id="pht001039.v1" study_id="phs000229.v5" participant_set="5" date_created="Fri Nov 12 08:13:50 2010">
+
+<unique_key phv="00080751" version="1">EXAM</unique_key>
+<unique_key phv="00080759" version="1">shareid</unique_key>
+
+<variable id="phv00080750.v1">
+	<name>IDTYPE</name>
+	<description>Framingham Cohort Identifier</description>
+	<type>encoded</type>
+	<coll_interval>Exams 5 and 6</coll_interval>
+	<value code="1">Offspring</value>
+</variable>
+
+<variable id="phv00080751.v1">
+	<name>EXAM</name>
+	<description>FHS Exam number corresponding to the sample</description>
+	<type>encoded</type>
+	<coll_interval>Exams 5 and 6</coll_interval>
+	<value code="5">Offspring Exam 5</value>
+	<value code="6">Offspring Exam 6</value>
+</variable>
+
+<variable id="phv00080752.v1">
+	<name>ucre24hr</name>
+	<description>Urine creatinine 24 hour total</description>
+	<type>integer, encoded</type>
+	<unit>mg/24 hours</unit>
+	<logical_min>84</logical_min>
+	<logical_max>3711</logical_max>
+	<coll_interval>Exams 5 and 6</coll_interval>
+	<value code=".">Unknown</value>
+</variable>
+
+<variable id="phv00080753.v1">
+	<name>screconc</name>
+	<description>Serum creatinine concentration</description>
+	<type>decimal, encoded</type>
+	<unit>mg/dL</unit>
+	<logical_min>0.4</logical_min>
+	<logical_max>1.8</logical_max>
+	<coll_interval>Exams 5 and 6</coll_interval>
+	<value code=".">Unknown</value>
+</variable>
+
+<variable id="phv00080754.v1">
+	<name>uvolume</name>
+	<description>Urine 24 hour volume</description>
+	<type>integer, encoded</type>
+	<unit>mL</unit>
+	<logical_min>500</logical_min>
+	<logical_max>3950</logical_max>
+	<coll_interval>Exams 5 and 6</coll_interval>
+	<value code=".">Unknown</value>
+</variable>
+
+<variable id="phv00080755.v1">
+	<name>ucorconc</name>
+	<description>Urine cortisol concentration</description>
+	<type>decimal, encoded</type>
+	<unit>ug/L</unit>
+	<logical_min>0.41</logical_min>
+	<logical_max>391.81</logical_max>
+	<coll_interval>Exams 5 and 6</coll_interval>
+	<value code=".">Unknown</value>
+</variable>
+
+<variable id="phv00080756.v1">
+	<name>ucor24hr</name>
+	<description>Urine cortisol 24 hour total</description>
+	<type>decimal, encoded</type>
+	<unit>ug/24 hours</unit>
+	<logical_min>0.8405</logical_min>
+	<logical_max>450.5815</logical_max>
+	<coll_interval>Exams 5 and 6</coll_interval>
+	<value code=".">Unknown</value>
+</variable>
+
+<variable id="phv00080757.v1">
+	<name>scorconc</name>
+	<description>Serum cortisol concentration</description>
+	<type>decimal, encoded</type>
+	<unit>ug/dL</unit>
+	<logical_min>1.4</logical_min>
+	<logical_max>44.16</logical_max>
+	<coll_interval>Exams 5 and 6</coll_interval>
+	<value code=".">Unknown</value>
+</variable>
+
+<variable id="phv00080758.v1">
+	<name>creclear</name>
+	<description>Creatinine clearance</description>
+	<type>decimal, encoded</type>
+	<unit>L/min</unit>
+	<logical_min>4.583</logical_min>
+	<logical_max>234.28</logical_max>
+	<coll_interval>Exams 5 and 6</coll_interval>
+	<value code=".">Unknown</value>
+</variable>
+
+<variable id="phv00080759.v1">
+	<name>shareid</name>
+	<description>SHARe ID Number</description>
+	<type>integer</type>
+	<coll_interval>Exams 5 and 6</coll_interval>
+</variable>
+
+</data_table>

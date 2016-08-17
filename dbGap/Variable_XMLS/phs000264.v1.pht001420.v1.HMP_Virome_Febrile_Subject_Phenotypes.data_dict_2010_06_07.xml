@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./datadict_v2.xsl"?>
+<data_table id="pht001420.v1" study_id="phs000264.v1" participant_set="1" date_created="Mon Jun  7 13:54:18 2010">
+
+<variable id="phv00098402.v1">
+	<name>SUBJID</name>
+	<description>Deidentified Subject ID</description>
+	<type>string</type>
+</variable>
+
+<variable id="phv00098403.v1">
+	<name>Age _years</name>
+	<description>Age in years when participant started study</description>
+	<type>integer</type>
+	<unit>Years</unit>
+	<logical_min>0</logical_min>
+	<logical_max>18</logical_max>
+</variable>
+
+<variable id="phv00098404.v1">
+	<name>Age_mth</name>
+	<description>Age in months when participant started study</description>
+	<type>integer</type>
+	<unit>Months</unit>
+</variable>
+
+<variable id="phv00098405.v1">
+	<name>Gender</name>
+	<description>Gender of participant</description>
+	<type>string</type>
+</variable>
+
+<variable id="phv00098406.v1">
+	<name>Race</name>
+	<description>Race of participant</description>
+	<type>string</type>
+	<comment>Caucasian; African-American; Hispanic; Asian; Native_Am; Other</comment>
+</variable>
+
+<variable id="phv00098407.v1">
+	<name>Grouping</name>
+	<description>Grouping of participant - immune compromised or healthy</description>
+	<type>string</type>
+	<value code="HIV">HIV positive</value>
+	<value code="IC_Other">Immune compromised other than HIV or Organ Transplant</value>
+	<value code="Transplant">Organ Transplant</value>
+	<value code="healthy_fever">Healthy child with fever</value>
+	<value code="healthy_no_fever">Healthy participant with no fever</value>
+</variable>
+
+<variable id="phv00098408.v1">
+	<name>Transplant</name>
+	<description>If a transplant participant - type of organ transplant</description>
+	<type>string</type>
+	<comment>Liver; Kidney; Heart; BMT; Lung 
+		May be two transplant types. </comment>
+</variable>
+
+<variable id="phv00098409.v1">
+	<name>Birth_status</name>
+	<description>Participant&#39;s birth status</description>
+	<type>string</type>
+</variable>
+
+</data_table>

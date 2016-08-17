@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./datadict_v2.xsl"?>
+<data_table id="pht001090.v1" study_id="phs000219.v1" participant_set="1" date_created="Tue Jan 19 13:07:31 2010">
+
+<unique_key phv="00082117" version="1">SUBJID</unique_key>
+<unique_key phv="00082121" version="1">VISIT</unique_key>
+
+<variable id="phv00082117.v1">
+	<name>SUBJID</name>
+	<description>Subject&#39;s ID</description>
+	<type>String</type>
+</variable>
+
+<variable id="phv00082118.v1">
+	<name>CASE_CONTROL</name>
+	<description>Subject type</description>
+	<type>Encoded value</type>
+	<value code="ADP">AD Participant</value>
+	<value code="CASE">Case</value>
+	<value code="CCCS">Control with Change in Cognitive Status</value>
+	<value code="CNTL">Control</value>
+	<value code="FAM">Family member</value>
+	<value code="UASB">Unaffected Sibling</value>
+</variable>
+
+<variable id="phv00082119.v1">
+	<name>INV</name>
+	<description>Investigator&#39;s ID</description>
+	<type>String</type>
+</variable>
+
+<variable id="phv00082120.v1">
+	<name>INVSITE</name>
+	<description>Investigator site ID</description>
+	<type>String</type>
+</variable>
+
+<variable id="phv00082121.v1">
+	<name>VISIT</name>
+	<description>Visit name</description>
+	<type>String</type>
+</variable>
+
+<variable id="phv00082122.v1">
+	<name>VISIT_DATE</name>
+	<description>Visit date</description>
+	<type>Date</type>
+	<comment>Truncated to YYYY</comment>
+</variable>
+
+<variable id="phv00082123.v1">
+	<name>AL_LSSV</name>
+	<description>Alcohol: Last serving</description>
+	<type>Encoded Value</type>
+	<value code="12B24H">12 - 24 Hours</value>
+	<value code="1B12H">1 - 12 Hours</value>
+	<value code="24B48H">24 - 48 Hours</value>
+	<value code="&lt;1H">Within 1 hour</value>
+	<value code="&gt;48H">More than 48 hours</value>
+</variable>
+
+<variable id="phv00082124.v1">
+	<name>AL_SVFRQ</name>
+	<description>Alcohol: Serving frequency</description>
+	<type>Encoded Value</type>
+	<value code="&lt;1WK">&lt; once a week</value>
+	<value code="&lt;=1WK">&lt;= once a week</value>
+	<value code="&gt;1M">&gt; once a month</value>
+	<value code="&gt;1WK">More than once a week</value>
+	<value code="&gt;=1M">&gt;= once a month</value>
+	<value code="DL">Everyday</value>
+	<value code="N/A">Not applicable</value>
+</variable>
+
+<variable id="phv00082125.v1">
+	<name>AL_SVAMT</name>
+	<description>Alcohol: Serving amount (cups)</description>
+	<type>Decimal</type>
+</variable>
+
+<variable id="phv00082126.v1">
+	<name>B_LSSV</name>
+	<description>Caffeine Beverage: Last serving</description>
+	<type>Encoded Value</type>
+	<value code="12B24H">12 - 24 Hours</value>
+	<value code="1B12H">1 - 12 Hours</value>
+	<value code="24B48H">24 - 48 Hours</value>
+	<value code="&lt;1H">Within 1 hour</value>
+	<value code="&gt;48H">More than 48 hours</value>
+</variable>
+
+<variable id="phv00082127.v1">
+	<name>B_SVFRQ</name>
+	<description>Caffeine Beverage: Serving frequency</description>
+	<type>Encoded Value</type>
+	<value code="&lt;1WK">&lt; once a week</value>
+	<value code="&lt;=1WK">&lt;= once a week</value>
+	<value code="&gt;1M">&gt; once a month</value>
+	<value code="&gt;1WK">More than once a week</value>
+	<value code="&gt;=1M">&gt;= once a month</value>
+	<value code="DL">Everyday</value>
+	<value code="N/A">Not applicable</value>
+</variable>
+
+<variable id="phv00082128.v1">
+	<name>B_SVAMT</name>
+	<description>Caffeine Beverage: Serving amount (cups)</description>
+	<type>Decimal</type>
+</variable>
+
+<variable id="phv00082129.v1">
+	<name>BN_LSSV</name>
+	<description>Bananas: Last serving</description>
+	<type>Encoded Value</type>
+	<value code="12B24H">12 - 24 Hours</value>
+	<value code="1B12H">1 - 12 Hours</value>
+	<value code="24B48H">24 - 48 Hours</value>
+	<value code="&lt;1H">Within 1 hour</value>
+	<value code="&gt;48H">More than 48 hours</value>
+</variable>
+
+<variable id="phv00082130.v1">
+	<name>BN_SVFRQ</name>
+	<description>Bananas: Serving frequency</description>
+	<type>Encoded Value</type>
+	<value code="&lt;1WK">&lt; once a week</value>
+	<value code="&lt;=1WK">&lt;= once a week</value>
+	<value code="&gt;1M">&gt; once a month</value>
+	<value code="&gt;1WK">More than once a week</value>
+	<value code="&gt;=1M">&gt;= once a month</value>
+	<value code="DL">Everyday</value>
+	<value code="N/A">Not applicable</value>
+</variable>
+
+<variable id="phv00082131.v1">
+	<name>BN_SVAMT</name>
+	<description>Bananas: Serving amount (serving(s))</description>
+	<type>Decimal</type>
+</variable>
+
+<variable id="phv00082132.v1">
+	<name>CH_LSSV</name>
+	<description>Cheese: Last serving</description>
+	<type>Encoded Value</type>
+	<value code="12B24H">12 - 24 Hours</value>
+	<value code="1B12H">1 - 12 Hours</value>
+	<value code="24B48H">24 - 48 Hours</value>
+	<value code="&lt;1H">Within 1 hour</value>
+	<value code="&gt;48H">More than 48 hours</value>
+</variable>
+
+<variable id="phv00082133.v1">
+	<name>CH_SVFRQ</name>
+	<description>Cheese: Serving frequency</description>
+	<type>Encoded Value</type>
+	<value code="&lt;1WK">&lt; once a week</value>
+	<value code="&lt;=1WK">&lt;= once a week</value>
+	<value code="&gt;1M">&gt; once a month</value>
+	<value code="&gt;1WK">More than once a week</value>
+	<value code="&gt;=1M">&gt;= once a month</value>
+	<value code="DL">Everyday</value>
+	<value code="N/A">Not applicable</value>
+</variable>
+
+<variable id="phv00082134.v1">
+	<name>CH_SVAMT</name>
+	<description>Cheese: Serving amount (serving(s))</description>
+	<type>Decimal</type>
+</variable>
+
+<variable id="phv00082135.v1">
+	<name>CT_LSSV</name>
+	<description>Coffee or Tea: Last serving</description>
+	<type>Encoded Value</type>
+	<value code="12B24H">12 - 24 Hours</value>
+	<value code="1B12H">1 - 12 Hours</value>
+	<value code="24B48H">24 - 48 Hours</value>
+	<value code="&lt;1H">Within 1 hour</value>
+	<value code="&gt;48H">More than 48 hours</value>
+</variable>
+
+<variable id="phv00082136.v1">
+	<name>CT_SVFRQ</name>
+	<description>Coffee or Tea: Serving frequency</description>
+	<type>Encoded Value</type>
+	<value code="&lt;1WK">&lt; once a week</value>
+	<value code="&lt;=1WK">&lt;= once a week</value>
+	<value code="&gt;1M">&gt; once a month</value>
+	<value code="&gt;1WK">More than once a week</value>
+	<value code="&gt;=1M">&gt;= once a month</value>
+	<value code="DL">Everyday</value>
+	<value code="N/A">Not applicable</value>
+</variable>
+
+<variable id="phv00082137.v1">
+	<name>CT_SVAMT</name>
+	<description>Coffee or Tea: Serving amount (cups)</description>
+	<type>Decimal</type>
+</variable>
+
+<variable id="phv00082138.v1">
+	<name>EGT_LSSV</name>
+	<description>Earl Grey Tea: Last serving</description>
+	<type>Encoded Value</type>
+	<value code="12B24H">12 - 24 Hours</value>
+	<value code="1B12H">1 - 12 Hours</value>
+	<value code="24B48H">24 - 48 Hours</value>
+	<value code="&lt;1H">Within 1 hour</value>
+	<value code="&gt;48H">More than 48 hours</value>
+</variable>
+
+<variable id="phv00082139.v1">
+	<name>EGT_SVFRQ</name>
+	<description>Earl Grey Tea: Serving frequency</description>
+	<type>Encoded Value</type>
+	<value code="&lt;1WK">&lt; once a week</value>
+	<value code="&lt;=1WK">&lt;= once a week</value>
+	<value code="&gt;1M">&gt; once a month</value>
+	<value code="&gt;1WK">More than once a week</value>
+	<value code="&gt;=1M">&gt;= once a month</value>
+	<value code="DL">Everyday</value>
+	<value code="N/A">Not applicable</value>
+</variable>
+
+<variable id="phv00082140.v1">
+	<name>EGT_SVAMT</name>
+	<description>Earl Grey Tea: Serving amount (cups)</description>
+	<type>Decimal</type>
+</variable>
+
+<variable id="phv00082141.v1">
+	<name>F_LSSV</name>
+	<description>Fish: Last serving</description>
+	<type>Encoded Value</type>
+	<value code="12B24H">12 - 24 Hours</value>
+	<value code="1B12H">1 - 12 Hours</value>
+	<value code="24B48H">24 - 48 Hours</value>
+	<value code="&lt;1H">Within 1 hour</value>
+	<value code="&gt;48H">More than 48 hours</value>
+</variable>
+
+<variable id="phv00082142.v1">
+	<name>F_SVFRQ</name>
+	<description>Fish: Serving frequency</description>
+	<type>Encoded Value</type>
+	<value code="&lt;1WK">&lt; once a week</value>
+	<value code="&lt;=1WK">&lt;= once a week</value>
+	<value code="&gt;1M">&gt; once a month</value>
+	<value code="&gt;1WK">More than once a week</value>
+	<value code="&gt;=1M">&gt;= once a month</value>
+	<value code="DL">Everyday</value>
+	<value code="N/A">Not applicable</value>
+</variable>
+
+<variable id="phv00082143.v1">
+	<name>F_SVAMT</name>
+	<description>Fish: Serving amount (serving(s))</description>
+	<type>Decimal</type>
+</variable>
+
+<variable id="phv00082144.v1">
+	<name>G_LSSV</name>
+	<description>Grapefruit: Last serving</description>
+	<type>Encoded Value</type>
+	<value code="12B24H">12 - 24 Hours</value>
+	<value code="1B12H">1 - 12 Hours</value>
+	<value code="24B48H">24 - 48 Hours</value>
+	<value code="&lt;1H">Within 1 hour</value>
+	<value code="&gt;48H">More than 48 hours</value>
+</variable>
+
+<variable id="phv00082145.v1">
+	<name>G_SVFRQ</name>
+	<description>Grapefruit: Serving frequency</description>
+	<type>Encoded Value</type>
+	<value code="&lt;1WK">&lt; once a week</value>
+	<value code="&lt;=1WK">&lt;= once a week</value>
+	<value code="&gt;1M">&gt; once a month</value>
+	<value code="&gt;1WK">More than once a week</value>
+	<value code="&gt;=1M">&gt;= once a month</value>
+	<value code="DL">Everyday</value>
+	<value code="N/A">Not applicable</value>
+</variable>
+
+<variable id="phv00082146.v1">
+	<name>G_SVAMT</name>
+	<description>Grapefruit: Serving amount (serving(s))</description>
+	<type>Decimal</type>
+</variable>
+
+</data_table>

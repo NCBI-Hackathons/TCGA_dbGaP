@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./datadict_v2.xsl"?>
+<data_table id="pht001117.v2" study_id="phs000209.v5" participant_set="1" date_created="Wed Feb 16 13:46:45 2011">
+
+<unique_key phv="00085750" version="2">fhxID</unique_key>
+<unique_key phv="00085751" version="2">sidno</unique_key>
+
+<variable id="phv00085750.v2">
+	<name>fhxID</name>
+	<description>RECORD INDICATOR FOR USE WITH IDNO WHEN REQUESTING INVESTIGATION OF VALUES</description>
+	<type>NUMERIC</type>
+</variable>
+
+<variable id="phv00085751.v2">
+	<name>sidno</name>
+	<description>SHARE ID NUMBER</description>
+	<type>NUMERIC</type>
+</variable>
+
+<variable id="phv00085752.v2">
+	<name>fhxRel2</name>
+	<description>RELATIONSHIP TO MESA PARTICIPANT</description>
+	<type>NUMERIC</type>
+	<value code="-9">MISSING</value>
+	<value code="1">SPOUSE</value>
+	<value code="2">MOTHER</value>
+	<value code="3">FATHER</value>
+	<value code="4">SIBLING</value>
+	<value code="5">CHILD</value>
+</variable>
+
+<variable id="phv00085753.v2">
+	<name>fhxbrel2</name>
+	<description>BLOOD RELATION INDICATOR</description>
+	<type>NUMERIC</type>
+	<value code="-9">MISSING</value>
+	<value code="0">NOT A BLOOD RELATIVE</value>
+	<value code="1">BLOOD RELATIVE</value>
+	<value code="9">DO NOT KNOW</value>
+</variable>
+
+<variable id="phv00085754.v2">
+	<name>fhxsex2</name>
+	<description>SEX INDICATOR OF FAMILY MEMBER</description>
+	<type>NUMERIC</type>
+	<value code="-9">MISSING</value>
+	<value code="0">FEMALE</value>
+	<value code="1">MALE</value>
+</variable>
+
+<variable id="phv00085755.v2">
+	<name>fhxage2</name>
+	<description>AGE OF FAMILY MEMBER</description>
+	<type>NUMERIC</type>
+	<unit>years</unit>
+</variable>
+
+<variable id="phv00085756.v2">
+	<name>fhxmi2</name>
+	<description>HISTORY OF HEART ATTACK INDICATOR</description>
+	<type>NUMERIC</type>
+	<value code="-9">MISSING</value>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+	<value code="9">DO NOT KNOW</value>
+</variable>
+
+<variable id="phv00085757.v2">
+	<name>fhxmia2</name>
+	<description>AGE OF FIRST MI DX</description>
+	<type>NUMERIC</type>
+	<unit>years</unit>
+	<value code="-9">MISSING</value>
+</variable>
+
+<variable id="phv00085758.v2">
+	<name>fhxcrd2</name>
+	<description>HISTORY OF CARDIAC PROCEDURE INDICATOR</description>
+	<type>NUMERIC</type>
+	<value code="-9">MISSING</value>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+	<value code="9">DO NOT KNOW</value>
+</variable>
+
+<variable id="phv00085759.v2">
+	<name>fhxcrda2</name>
+	<description>AGE OF FIRST CARDIAC PROCEDURE OCCURRENCE</description>
+	<type>NUMERIC</type>
+	<unit>years</unit>
+	<value code="-9">MISSING</value>
+</variable>
+
+<variable id="phv00085760.v2">
+	<name>fhxstk2</name>
+	<description>HISTORY OF STROKE INDICATOR</description>
+	<type>NUMERIC</type>
+	<value code="-9">MISSING</value>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+	<value code="9">DO NOT KNOW</value>
+</variable>
+
+<variable id="phv00085761.v2">
+	<name>fhxstka2</name>
+	<description>AGE OF FIRST STROKE DX</description>
+	<type>NUMERIC</type>
+	<unit>years</unit>
+	<value code="-9">MISSING</value>
+</variable>
+
+<variable id="phv00085762.v2">
+	<name>fhxhbp2</name>
+	<description>HISTORY OF HYPERTENSION INDICATOR</description>
+	<type>NUMERIC</type>
+	<value code="-9">MISSING</value>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+	<value code="9">DO NOT KNOW</value>
+</variable>
+
+<variable id="phv00085763.v2">
+	<name>fhxhbpa2</name>
+	<description>AGE OF FIRST HYPERTENSION DX</description>
+	<type>NUMERIC</type>
+	<unit>years</unit>
+	<value code="-9">MISSING</value>
+</variable>
+
+<variable id="phv00085764.v2">
+	<name>fhxdb2</name>
+	<description>HISTORY OF DIABETES INDICATOR</description>
+	<type>NUMERIC</type>
+	<value code="-9">MISSING</value>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+	<value code="9">DO NOT KNOW</value>
+</variable>
+
+<variable id="phv00085765.v2">
+	<name>fhxdba2</name>
+	<description>AGE OF FIRST DIABETES DX</description>
+	<type>NUMERIC</type>
+	<unit>years</unit>
+	<value code="-9">MISSING</value>
+</variable>
+
+<variable id="phv00085766.v2">
+	<name>fhxcnc2</name>
+	<description>HISTORY OF CANCER INDICATOR</description>
+	<type>NUMERIC</type>
+	<value code="-9">MISSING</value>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+	<value code="9">DO NOT KNOW</value>
+</variable>
+
+<variable id="phv00085767.v2">
+	<name>fhxcnca2</name>
+	<description>AGE OF FIRST CANCER DX</description>
+	<type>NUMERIC</type>
+	<unit>years</unit>
+	<value code="-9">MISSING</value>
+</variable>
+
+<variable id="phv00085768.v2">
+	<name>fhxhd2</name>
+	<description>HISTORY OF OTHER HEART DISEASE INDICATOR</description>
+	<type>NUMERIC</type>
+	<value code="-9">MISSING</value>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+	<value code="9">DO NOT KNOW</value>
+</variable>
+
+<variable id="phv00085769.v2">
+	<name>fhxhda2</name>
+	<description>AGE OF FIRST OTHER HEART DISEASE DX</description>
+	<type>NUMERIC</type>
+	<unit>years</unit>
+	<value code="-9">MISSING</value>
+</variable>
+
+<variable id="phv00085770.v2">
+	<name>fhxast2</name>
+	<description>HISTORY OF ASTHMA INDICATOR</description>
+	<type>NUMERIC</type>
+	<value code="-9">MISSING</value>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+	<value code="9">DO NOT KNOW</value>
+</variable>
+
+<variable id="phv00085771.v2">
+	<name>fhxasta2</name>
+	<description>AGE OF FIRST ASTHMA DX OR OCCURRENCE</description>
+	<type>NUMERIC</type>
+	<unit>years</unit>
+	<value code="-9">MISSING</value>
+</variable>
+
+</data_table>

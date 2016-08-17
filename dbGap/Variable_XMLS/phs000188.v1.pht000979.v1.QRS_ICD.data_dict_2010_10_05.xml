@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./datadict_v2.xsl"?>
+<data_table id="pht000979.v1" study_id="phs000188.v1" participant_set="1" date_created="Tue Oct  5 17:20:43 2010">
+
+<unique_key phv="00077299" version="1">SUBJID</unique_key>
+<unique_key phv="00077300" version="1">ICD9_CODE</unique_key>
+
+<variable id="phv00077299.v1">
+	<name>SUBJID</name>
+	<description>Unique Subject ID</description>
+	<type>integer</type>
+	<comment>Deidentified ID where the first two digits denote the origination site of the samples; site key:  Marshfield Clinic=16; Vanderbilt University=27; Group Health Cooperative=38; Mayo Clinic=49; Northwestern University=52</comment>
+</variable>
+
+<variable id="phv00077300.v1">
+	<name>ICD9_CODE</name>
+	<description>Presence of ICD 9 code(s) or any associated subcodes in record for four code categories:  250, 272, 401, 724</description>
+	<type>integer</type>
+	<value code="250">Diabetes mellitus</value>
+	<value code="272">Disorders of lipoid metabolism</value>
+	<value code="401">Essential hypertension</value>
+	<value code="724">Other and unspecified disorders of back</value>
+	<value code=".">Missing</value>
+	<value code="NA">Not Assessed</value>
+</variable>
+
+<variable id="phv00077301.v1">
+	<name>COUNTS_ICD9_CODE</name>
+	<description>Number of unique instances of this ICD9 code in the individual, truncated at 4 distinct instances.</description>
+	<type>integer</type>
+	<comment>250=Diabetes mellitus; 272=Disorders of lipoid metabolism; 401=Essential hypertension; 724=Other and unspecified disorders of back.  Variable&#39;s summary report not shown here.</comment>
+</variable>
+
+</data_table>

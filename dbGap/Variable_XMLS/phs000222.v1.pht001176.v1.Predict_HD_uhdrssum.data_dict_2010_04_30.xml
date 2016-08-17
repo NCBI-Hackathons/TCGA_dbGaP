@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./datadict_v2.xsl"?>
+<data_table id="pht001176.v1" study_id="phs000222.v1" participant_set="1" date_created="Fri Apr 30 17:43:14 2010">
+
+<unique_key phv="00089275" version="1">id</unique_key>
+<unique_key phv="00089279" version="1">uhdrsdays</unique_key>
+
+<variable id="phv00089275.v1">
+	<name>id</name>
+	<description>Anonymized Participant ID</description>
+	<type>integer</type>
+</variable>
+
+<variable id="phv00089276.v1">
+	<name>status</name>
+	<description>Case/Control Status</description>
+	<type>string</type>
+	<value code="case">case</value>
+	<value code="cont">cont</value>
+</variable>
+
+<variable id="phv00089277.v1">
+	<name>uhdrsage</name>
+	<description>Age at baseline UHDRS (Unified Huntington&#39;s Disease Rating Scale)</description>
+	<type>integer</type>
+	<unit>Years</unit>
+</variable>
+
+<variable id="phv00089278.v1">
+	<name>uhdrsvisit</name>
+	<description>Visit</description>
+	<type>integer</type>
+	<unit>Visits</unit>
+</variable>
+
+<variable id="phv00089279.v1">
+	<name>uhdrsdays</name>
+	<description>Days since last UHDRS (Unified Huntington&#39;s Disease Rating Scale)</description>
+	<type>integer</type>
+	<unit>Days</unit>
+</variable>
+
+<variable id="phv00089280.v1">
+	<name>uhdrp36</name>
+	<description>Examiner believes the participant is confused</description>
+	<type>encoded value</type>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00089281.v1">
+	<name>uhdrp37</name>
+	<description>Examiner believes the participant is demented</description>
+	<type>encoded value</type>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00089282.v1">
+	<name>uhdrp38</name>
+	<description>Examiner believes the participant is depressed</description>
+	<type>encoded value</type>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00089283.v1">
+	<name>uhdrp39</name>
+	<description>Participant requires pharmacotherapy for depression</description>
+	<type>encoded value</type>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00089284.v1">
+	<name>uhdrp40</name>
+	<description>Participant requires pharmacotherapy for irritability</description>
+	<type>encoded value</type>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00089285.v1">
+	<name>uhdrp_ba</name>
+	<description>Sum of all Participant frequency and severity scores</description>
+	<type>integer</type>
+</variable>
+
+<variable id="phv00089286.v1">
+	<name>uhdrp_baf</name>
+	<description>Sum of all Participant frequency scores</description>
+	<type>integer</type>
+</variable>
+
+<variable id="phv00089287.v1">
+	<name>uhdrp_bafs</name>
+	<description>Sum of product of Participant frequency and severity scores</description>
+	<type>integer</type>
+</variable>
+
+<variable id="phv00089288.v1">
+	<name>uhdrc_ba</name>
+	<description>Sum of all Companion frequency and severity scores</description>
+	<type>integer</type>
+</variable>
+
+<variable id="phv00089289.v1">
+	<name>uhdrc_baf</name>
+	<description>Sum of all Companion frequency scores</description>
+	<type>integer</type>
+</variable>
+
+<variable id="phv00089290.v1">
+	<name>uhdrc_bafs</name>
+	<description>Sum of product of Companion frequency and severity scores</description>
+	<type>integer</type>
+</variable>
+
+</data_table>

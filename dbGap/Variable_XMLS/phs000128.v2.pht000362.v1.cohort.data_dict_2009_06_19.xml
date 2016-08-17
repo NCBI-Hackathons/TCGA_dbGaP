@@ -1,0 +1,669 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./datadict_v2.xsl"?>
+<data_table id="pht000362.v1" study_id="phs000128.v2" participant_set="2" date_created="Fri Jun 19 12:05:11 2009">
+
+<variable id="phv00051700.v1">
+	<name>shareid</name>
+	<description>SUBJECT ID</description>
+	<type>integer</type>
+</variable>
+
+<variable id="phv00051701.v1">
+	<name>idtype</name>
+	<description>COHORT GROUP IDENTIFIER (0=ORIGINAL,1=OFFSPRING,3=GEN3)</description>
+	<type>encoded value</type>
+	<logical_min>0</logical_min>
+	<logical_max>0</logical_max>
+	<value code="0">Original Cohort</value>
+</variable>
+
+<variable id="phv00051702.v1">
+	<name>sex</name>
+	<description>GENDER:1=MALE,2=FEMALE</description>
+	<type>integer</type>
+	<logical_min>1</logical_min>
+	<logical_max>2</logical_max>
+	<value code="1">Male</value>
+	<value code="2">Female</value>
+</variable>
+
+<variable id="phv00051703.v1">
+	<name>att1</name>
+	<description>ATTENDED EXAM 1</description>
+	<type>encoded value</type>
+	<logical_min>1</logical_min>
+	<logical_max>1</logical_max>
+	<value code="0">did not attend exam</value>
+	<value code="1">did attend exam</value>
+</variable>
+
+<variable id="phv00051704.v1">
+	<name>att4</name>
+	<description>ATTENDED EXAM 4</description>
+	<type>encoded value</type>
+	<logical_min>0</logical_min>
+	<logical_max>1</logical_max>
+	<value code="0">did not attend exam</value>
+	<value code="1">did attend exam</value>
+</variable>
+
+<variable id="phv00051705.v1">
+	<name>att7</name>
+	<description>ATTENDED EXAM 7</description>
+	<type>encoded value</type>
+	<logical_min>0</logical_min>
+	<logical_max>1</logical_max>
+	<value code="0">did not attend exam</value>
+	<value code="1">did attend exam</value>
+</variable>
+
+<variable id="phv00051706.v1">
+	<name>att11</name>
+	<description>ATTENDED EXAM 11</description>
+	<type>encoded value</type>
+	<logical_min>0</logical_min>
+	<logical_max>1</logical_max>
+	<value code="0">did not attend exam</value>
+	<value code="1">did attend exam</value>
+</variable>
+
+<variable id="phv00051707.v1">
+	<name>age1</name>
+	<description>AGE AT ORIGINAL COHORT EXAM 1</description>
+	<type>integer</type>
+	<unit>years</unit>
+	<logical_min>29</logical_min>
+	<logical_max>54</logical_max>
+</variable>
+
+<variable id="phv00051708.v1">
+	<name>age4</name>
+	<description>AGE AT ORIGINAL COHORT EXAM 4</description>
+	<type>integer</type>
+	<unit>years</unit>
+	<logical_min>35</logical_min>
+	<logical_max>60</logical_max>
+	<value code=".">missing</value>
+</variable>
+
+<variable id="phv00051709.v1">
+	<name>age7</name>
+	<description>AGE AT ORIGINAL COHORT EXAM 7</description>
+	<type>integer</type>
+	<unit>years</unit>
+	<logical_min>41</logical_min>
+	<logical_max>66</logical_max>
+	<value code=".">missing</value>
+</variable>
+
+<variable id="phv00051710.v1">
+	<name>age11</name>
+	<description>AGE AT ORIGINAL COHORT EXAM 11</description>
+	<type>integer</type>
+	<unit>years</unit>
+	<logical_min>49</logical_min>
+	<logical_max>68</logical_max>
+	<value code=".">missing</value>
+</variable>
+
+<variable id="phv00051711.v1">
+	<name>sbp1</name>
+	<description>SYSTOLIC BLOOD PRESSURE mmHg EXAM 1</description>
+	<type>integer</type>
+	<unit>mm Hg</unit>
+	<logical_min>90</logical_min>
+	<logical_max>160</logical_max>
+	<value code=".">missing</value>
+</variable>
+
+<variable id="phv00051712.v1">
+	<name>sbp4</name>
+	<description>SYSTOLIC BLOOD PRESSURE mmHg EXAM 4</description>
+	<type>integer</type>
+	<unit>mm Hg</unit>
+	<logical_min>86</logical_min>
+	<logical_max>204</logical_max>
+	<value code=".">missing</value>
+</variable>
+
+<variable id="phv00051713.v1">
+	<name>sbp7</name>
+	<description>SYSTOLIC BLOOD PRESSURE mmHg EXAM 7</description>
+	<type>integer</type>
+	<unit>mm Hg</unit>
+	<logical_min>80</logical_min>
+	<logical_max>220</logical_max>
+	<value code=".">missing</value>
+</variable>
+
+<variable id="phv00051714.v1">
+	<name>sbp11</name>
+	<description>SYSTOLIC BLOOD PRESSURE mmHg EXAM 11</description>
+	<type>integer</type>
+	<unit>mm Hg</unit>
+	<logical_min>86</logical_min>
+	<logical_max>190</logical_max>
+	<value code=".">missing</value>
+</variable>
+
+<variable id="phv00051715.v1">
+	<name>dbp1</name>
+	<description>DIASTOLIC BLOOD PRESSURE mmHg EXAM 1</description>
+	<type>integer</type>
+	<unit>mm Hg</unit>
+	<logical_min>50</logical_min>
+	<logical_max>105</logical_max>
+	<value code=".">missing</value>
+</variable>
+
+<variable id="phv00051716.v1">
+	<name>dbp4</name>
+	<description>DIASTOLIC BLOOD PRESSURE mmHg EXAM 4</description>
+	<type>integer</type>
+	<unit>mm Hg</unit>
+	<logical_min>54</logical_min>
+	<logical_max>110</logical_max>
+	<value code=".">missing</value>
+</variable>
+
+<variable id="phv00051717.v1">
+	<name>dbp7</name>
+	<description>DIASTOLIC BLOOD PRESSURE mmHg EXAM 7</description>
+	<type>integer</type>
+	<unit>mm Hg</unit>
+	<logical_min>54</logical_min>
+	<logical_max>130</logical_max>
+	<value code=".">missing</value>
+</variable>
+
+<variable id="phv00051718.v1">
+	<name>dbp11</name>
+	<description>DIASTOLIC BLOOD PRESSURE mmHg EXAM 11</description>
+	<type>integer</type>
+	<unit>mm Hg</unit>
+	<logical_min>56</logical_min>
+	<logical_max>120</logical_max>
+	<value code=".">missing</value>
+</variable>
+
+<variable id="phv00051719.v1">
+	<name>htnrx1</name>
+	<description>TREATMENT FOR BLOOD PRESSURE, EXAM 1</description>
+	<type>encoded value</type>
+	<logical_min>0</logical_min>
+	<logical_max>0</logical_max>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00051720.v1">
+	<name>htnrx4</name>
+	<description>TREATMENT FOR BLOOD PRESSURE, EXAM 4</description>
+	<type>encoded value</type>
+	<logical_min>0</logical_min>
+	<logical_max>1</logical_max>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+	<value code=".">missing</value>
+</variable>
+
+<variable id="phv00051721.v1">
+	<name>htnrx7</name>
+	<description>TREATMENT FOR BLOOD PRESSURE, EXAM 7</description>
+	<type>encoded value</type>
+	<logical_min>0</logical_min>
+	<logical_max>1</logical_max>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+	<value code=".">missing</value>
+</variable>
+
+<variable id="phv00051722.v1">
+	<name>htnrx11</name>
+	<description>TREATMENT FOR BLOOD PRESSURE, EXAM 11</description>
+	<type>encoded value</type>
+	<logical_min>0</logical_min>
+	<logical_max>1</logical_max>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+	<value code=".">missing</value>
+</variable>
+
+<variable id="phv00051723.v1">
+	<name>chol1</name>
+	<description>CHOLESTEROL mg/dl EXAM 1</description>
+	<type>integer</type>
+	<unit>mg/dl</unit>
+	<logical_min>129</logical_min>
+	<logical_max>339</logical_max>
+	<value code=".">missing</value>
+</variable>
+
+<variable id="phv00051724.v1">
+	<name>chol4</name>
+	<description>CHOLESTEROL mg/dl EXAM 4</description>
+	<type>integer</type>
+	<unit>mg/dl</unit>
+	<logical_min>133</logical_min>
+	<logical_max>329</logical_max>
+	<value code=".">missing</value>
+</variable>
+
+<variable id="phv00051725.v1">
+	<name>chol7</name>
+	<description>CHOLESTEROL mg/dl EXAM 7</description>
+	<type>integer</type>
+	<unit>mg/dl</unit>
+	<logical_min>130</logical_min>
+	<logical_max>406</logical_max>
+	<value code=".">missing</value>
+</variable>
+
+<variable id="phv00051726.v1">
+	<name>chol11</name>
+	<description>FASTING CHOLESTEROL mg/dl EXAM 11</description>
+	<type>integer</type>
+	<unit>mg/dl</unit>
+	<logical_min>139</logical_min>
+	<logical_max>399</logical_max>
+	<value code=".">missing</value>
+</variable>
+
+<variable id="phv00051727.v1">
+	<name>hdl1</name>
+	<description>HDL CHOLESTEROL mg/dl EXAM 1</description>
+	<type>integer</type>
+	<unit>mg/dl</unit>
+	<value code=".">missing</value>
+</variable>
+
+<variable id="phv00051728.v1">
+	<name>hdl4</name>
+	<description>HDL CHOLESTEROL mg/dl EXAM 4</description>
+	<type>integer</type>
+	<unit>mg/dl</unit>
+	<value code=".">missing</value>
+</variable>
+
+<variable id="phv00051729.v1">
+	<name>hdl7</name>
+	<description>HDL CHOLESTEROL mg/dl EXAM 7</description>
+	<type>integer</type>
+	<unit>mg/dl</unit>
+	<value code=".">missing</value>
+</variable>
+
+<variable id="phv00051730.v1">
+	<name>hdl11</name>
+	<description>FASTING HDL CHOLESTEROL mg/dl EXAM 11</description>
+	<type>integer</type>
+	<unit>mg/dl</unit>
+	<logical_min>23</logical_min>
+	<logical_max>117</logical_max>
+	<value code=".">missing</value>
+</variable>
+
+<variable id="phv00051731.v1">
+	<name>tg1</name>
+	<description>TRIGLYCERIDES  mg/dl EXAM 1</description>
+	<type>integer</type>
+	<unit>mg/dl</unit>
+	<value code=".">missing</value>
+</variable>
+
+<variable id="phv00051732.v1">
+	<name>tg4</name>
+	<description>TRIGLYCERIDES mg/dl EXAM 4</description>
+	<type>integer</type>
+	<unit>mg/dl</unit>
+	<value code=".">missing</value>
+</variable>
+
+<variable id="phv00051733.v1">
+	<name>tg7</name>
+	<description>TRIGLYCERIDES mg/dl EXAM 7</description>
+	<type>integer</type>
+	<unit>mg/dl</unit>
+	<logical_min>31</logical_min>
+	<logical_max>394</logical_max>
+	<value code=".">missing</value>
+</variable>
+
+<variable id="phv00051734.v1">
+	<name>tg11</name>
+	<description>FASTING TRIGLYCERIDES mg/dl EXAM 11</description>
+	<type>integer</type>
+	<unit>mg/dl</unit>
+	<logical_min>37</logical_min>
+	<logical_max>396</logical_max>
+	<value code=".">missing</value>
+</variable>
+
+<variable id="phv00051735.v1">
+	<name>cholrx1</name>
+	<description>TREATMENT FOR LIPIDS (0=No,1=Yes) EXAM 1</description>
+	<type>encoded value</type>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00051736.v1">
+	<name>cholrx4</name>
+	<description>TREATMENT FOR LIPIDS (0=No,1=Yes) EXAM 4</description>
+	<type>encoded value</type>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00051737.v1">
+	<name>cholrx7</name>
+	<description>TREATMENT FOR LIPIDS (0=No,1=Yes) EXAM 7</description>
+	<type>encoded value</type>
+	<logical_min>0</logical_min>
+	<logical_max>1</logical_max>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00051738.v1">
+	<name>cholrx11</name>
+	<description>TREATMENT FOR LIPIDS (0=No,1=Yes) EXAM 11</description>
+	<type>encoded value</type>
+	<logical_min>0</logical_min>
+	<logical_max>1</logical_max>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00051739.v1">
+	<name>wgt1</name>
+	<description>WEIGHT IN POUNDS EXAM 1</description>
+	<type>integer</type>
+	<unit>pounds</unit>
+	<logical_min>92</logical_min>
+	<logical_max>223</logical_max>
+	<value code=".">missing</value>
+</variable>
+
+<variable id="phv00051740.v1">
+	<name>wgt4</name>
+	<description>WEIGHT IN POUNDS EXAM 4</description>
+	<type>integer</type>
+	<unit>pounds</unit>
+	<logical_min>94</logical_min>
+	<logical_max>239</logical_max>
+	<value code=".">missing</value>
+</variable>
+
+<variable id="phv00051741.v1">
+	<name>wgt7</name>
+	<description>WEIGHT IN POUNDS EXAM 7</description>
+	<type>integer</type>
+	<unit>pounds</unit>
+	<logical_min>96</logical_min>
+	<logical_max>241</logical_max>
+	<value code=".">missing</value>
+</variable>
+
+<variable id="phv00051742.v1">
+	<name>wgt11</name>
+	<description>WEIGHT IN POUNDS EXAM 11</description>
+	<type>integer</type>
+	<unit>pounds</unit>
+	<logical_min>77</logical_min>
+	<logical_max>254</logical_max>
+	<value code=".">missing</value>
+</variable>
+
+<variable id="phv00051743.v1">
+	<name>hgt1</name>
+	<description>HEIGHT IN INCHES EXAM 1</description>
+	<type>integer</type>
+	<unit>inches</unit>
+	<logical_min>56</logical_min>
+	<logical_max>75</logical_max>
+	<value code=".">missing</value>
+</variable>
+
+<variable id="phv00051744.v1">
+	<name>hgt4</name>
+	<description>HEIGHT IN INCHES EXAM 4</description>
+	<type>integer</type>
+	<unit>inches</unit>
+	<logical_min>56</logical_min>
+	<logical_max>76</logical_max>
+	<value code=".">missing</value>
+</variable>
+
+<variable id="phv00051745.v1">
+	<name>hgt7</name>
+	<description>HEIGHT IN INCHES EXAM 7</description>
+	<type>integer</type>
+	<unit>inches</unit>
+	<logical_min>56</logical_min>
+	<logical_max>76</logical_max>
+	<value code=".">missing</value>
+</variable>
+
+<variable id="phv00051746.v1">
+	<name>hgt11</name>
+	<description>HEIGHT IN INCHES EXAM 11</description>
+	<type>integer</type>
+	<unit>inches</unit>
+	<logical_min>56</logical_min>
+	<logical_max>75</logical_max>
+	<value code=".">missing</value>
+</variable>
+
+<variable id="phv00051747.v1">
+	<name>smoke1</name>
+	<description>CIGARETTE SMOKING STATUS (0=Never,1=Former,2=Current) EXAM 1</description>
+	<type>encoded value</type>
+	<logical_min>0</logical_min>
+	<logical_max>2</logical_max>
+	<value code="0">Never</value>
+	<value code="1">Former</value>
+	<value code="2">Current</value>
+</variable>
+
+<variable id="phv00051748.v1">
+	<name>smoke4</name>
+	<description>CIGARETTE SMOKING STATUS (0=Never,1=Former,2=Current) EXAM 4</description>
+	<type>encoded value</type>
+	<logical_min>0</logical_min>
+	<logical_max>2</logical_max>
+	<value code="0">Never</value>
+	<value code="1">Former</value>
+	<value code="2">Current</value>
+</variable>
+
+<variable id="phv00051749.v1">
+	<name>smoke7</name>
+	<description>CIGARETTE SMOKING STATUS (0=Never,1=Former,2=Current) EXAM 7</description>
+	<type>encoded value</type>
+	<logical_min>0</logical_min>
+	<logical_max>2</logical_max>
+	<value code="0">Never</value>
+	<value code="1">Former</value>
+	<value code="2">Current</value>
+</variable>
+
+<variable id="phv00051750.v1">
+	<name>smoke11</name>
+	<description>CIGARETTE SMOKING STATUS (0=Never,1=Former,2=Current) EXAM 11</description>
+	<type>encoded value</type>
+	<logical_min>0</logical_min>
+	<logical_max>2</logical_max>
+	<value code="0">Never</value>
+	<value code="1">Former</value>
+	<value code="2">Current</value>
+</variable>
+
+<variable id="phv00051751.v1">
+	<name>cigs1</name>
+	<description>CIGARETTES/DAY, EXAM 1</description>
+	<type>integer</type>
+	<unit>number</unit>
+	<logical_min>0</logical_min>
+	<logical_max>50</logical_max>
+	<value code=".">missing</value>
+</variable>
+
+<variable id="phv00051752.v1">
+	<name>cigs4</name>
+	<description>CIGARETTES/DAY, EXAM 4</description>
+	<type>integer</type>
+	<unit>number</unit>
+	<logical_min>0</logical_min>
+	<logical_max>40</logical_max>
+	<value code=".">missing</value>
+</variable>
+
+<variable id="phv00051753.v1">
+	<name>cigs7</name>
+	<description>CIGARETTES/DAY, EXAM 7</description>
+	<type>integer</type>
+	<unit>number</unit>
+	<logical_min>0</logical_min>
+	<logical_max>40</logical_max>
+	<value code=".">missing</value>
+</variable>
+
+<variable id="phv00051754.v1">
+	<name>cigs11</name>
+	<description>CIGARETTES/DAY, EXAM 11</description>
+	<type>integer</type>
+	<unit>number</unit>
+	<logical_min>0</logical_min>
+	<logical_max>40</logical_max>
+	<value code=".">missing</value>
+</variable>
+
+<variable id="phv00051755.v1">
+	<name>alc2</name>
+	<description>EQUIVALENT ALCOHOL OZ (PER WEEK), EXAM2</description>
+	<type>integer</type>
+	<unit>ounces</unit>
+	<logical_min>0</logical_min>
+	<logical_max>33</logical_max>
+	<value code=".">missing</value>
+</variable>
+
+<variable id="phv00051756.v1">
+	<name>alc7</name>
+	<description>EQUIVALENT ALCOHOL OZ (PER WEEK), EXAM7</description>
+	<type>integer</type>
+	<unit>ounces</unit>
+	<logical_min>0</logical_min>
+	<logical_max>40</logical_max>
+	<value code=".">missing</value>
+</variable>
+
+<variable id="phv00051757.v1">
+	<name>alc12</name>
+	<description>EQUIVALENT ALCOHOL OZ (PER WEEK), EXAM12</description>
+	<type>integer</type>
+	<unit>ounces</unit>
+	<logical_min>0</logical_min>
+	<logical_max>25</logical_max>
+	<value code=".">missing</value>
+</variable>
+
+<variable id="phv00051758.v1">
+	<name>blsug1</name>
+	<description>BLOOD SUGAR mg/dl, EXAM 1</description>
+	<type>integer</type>
+	<unit>mg/dl</unit>
+	<logical_min>52</logical_min>
+	<logical_max>135</logical_max>
+	<value code=".">missing</value>
+</variable>
+
+<variable id="phv00051759.v1">
+	<name>blsug4</name>
+	<description>BLOOD SUGAR mg/dl, EXAM 4</description>
+	<type>integer</type>
+	<unit>mg/dl</unit>
+	<logical_min>43</logical_min>
+	<logical_max>137</logical_max>
+	<value code=".">missing</value>
+</variable>
+
+<variable id="phv00051760.v1">
+	<name>blsug7</name>
+	<description>BLOOD SUGAR mg/dl, EXAM 7</description>
+	<type>integer</type>
+	<unit>mg/dl</unit>
+	<value code=".">missing</value>
+</variable>
+
+<variable id="phv00051761.v1">
+	<name>blsug11</name>
+	<description>BLOOD SUGAR mg/dl, EXAM 11</description>
+	<type>integer</type>
+	<unit>mg/dl</unit>
+	<value code=".">missing</value>
+</variable>
+
+<variable id="phv00051762.v1">
+	<name>diabetes</name>
+	<description>DIABETES AT ANYTIME DURING STUDY (0=NO,1=YES)</description>
+	<type>encoded value</type>
+	<logical_min>0</logical_min>
+	<logical_max>1</logical_max>
+	<value code="0">not diabetic</value>
+	<value code="1">diabetic by end of follow up</value>
+</variable>
+
+<variable id="phv00051763.v1">
+	<name>agediab</name>
+	<description>AGE OF FIRST EXAM AT WHICH DIABETES WAS NOTED</description>
+	<type>integer</type>
+	<unit>years</unit>
+	<logical_min>39</logical_min>
+	<logical_max>80</logical_max>
+	<value code=".">missing</value>
+</variable>
+
+<variable id="phv00051764.v1">
+	<name>hardchd</name>
+	<description>HARD CHD (Recognized MI,Coronary Insufficiency, Death from CHD)</description>
+	<type>encoded value</type>
+	<logical_min>0</logical_min>
+	<logical_max>1</logical_max>
+	<value code="0">never</value>
+	<value code="1">incident during study</value>
+	<value code="2">prevalent exam 1</value>
+</variable>
+
+<variable id="phv00051765.v1">
+	<name>agehardchd</name>
+	<description>AGE AT HARD CHD EVENT</description>
+	<type>integer</type>
+	<unit>years</unit>
+	<logical_min>44</logical_min>
+	<logical_max>97</logical_max>
+	<value code=".">missing</value>
+</variable>
+
+<variable id="phv00051766.v1">
+	<name>agedeath</name>
+	<description>AGE AT DEATH</description>
+	<type>integer</type>
+	<unit>years</unit>
+	<logical_min>83</logical_min>
+	<logical_max>120</logical_max>
+	<value code=".">missing</value>
+</variable>
+
+<variable id="phv00051767.v1">
+	<name>agelast</name>
+	<description>AGE OF LAST FOLLOW UP (DEATH OR LAST CONTACT)</description>
+	<type>integer</type>
+	<unit>years</unit>
+	<logical_min>83</logical_min>
+	<logical_max>120</logical_max>
+	<value code=".">missing</value>
+</variable>
+
+</data_table>

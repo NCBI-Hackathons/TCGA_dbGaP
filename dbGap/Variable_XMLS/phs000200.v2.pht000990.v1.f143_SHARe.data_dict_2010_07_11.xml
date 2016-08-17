@@ -1,0 +1,2425 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./datadict_v2.xsl"?>
+<data_table id="pht000990.v1" study_id="phs000200.v2" participant_set="1" date_created="Sun Jul 11 18:40:20 2010">
+
+<variable id="phv00077450.v1">
+	<name>SHAREID</name>
+	<description>WHI SHARe ID</description>
+	<type>integer</type>
+</variable>
+
+<variable id="phv00077451.v1">
+	<name>F143DAYS</name>
+	<description>F143 Days since enrollment</description>
+	<type>integer</type>
+	<unit>days</unit>
+	<logical_min>789</logical_min>
+	<logical_max>2377</logical_max>
+</variable>
+
+<variable id="phv00077452.v1">
+	<name>WTMAX2Y_3</name>
+	<description>Highest weight, in past 2 years (pounds)</description>
+	<type>integer</type>
+	<unit>pounds</unit>
+	<logical_min>71</logical_min>
+	<logical_max>402</logical_max>
+	<comment>In the past 2 years, what was your highest weight?</comment>
+</variable>
+
+<variable id="phv00077453.v1">
+	<name>WTMIN2Y_3</name>
+	<description>Lowest weight, in past 2 years (pounds)</description>
+	<type>integer</type>
+	<unit>pounds</unit>
+	<logical_min>69</logical_min>
+	<logical_max>359</logical_max>
+	<comment>In the past 2 years, what was your lowest weight?</comment>
+</variable>
+
+<variable id="phv00077454.v1">
+	<name>LOST5LBP_3</name>
+	<description>Lose 5 or more pounds on purpose</description>
+	<type>encoded value</type>
+	<comment>In the past 2 years, did you lose five or more pounds on purpose at any time?</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+	<value code="9">Don&#39;t know</value>
+</variable>
+
+<variable id="phv00077455.v1">
+	<name>LWPDIET_3</name>
+	<description>Changed diet to lose weight</description>
+	<type>encoded value</type>
+	<comment>What method(s) did you use to lose weight?  (Mark all that apply.)  Change in diet
+		Sub-question of F143 V3 Q3 &#39;Lost 5 pounds on purpose&#39;. </comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00077456.v1">
+	<name>LWPEXER_3</name>
+	<description>Increased exercise to lose weight</description>
+	<type>encoded value</type>
+	<comment>What method(s) did you use to lose weight?  (Mark all that apply.)  Increased exercise
+		Sub-question of F143 V3 Q3 &#39;Lost 5 pounds on purpose&#39;. </comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00077457.v1">
+	<name>LWPREDUX_3</name>
+	<description>Redux to lose weight</description>
+	<type>encoded value</type>
+	<comment>What method(s) did you use to lose weight?  (Mark all that apply.)  Redux diet pill (dexfenfluramine)
+		Sub-question of F143 V3 Q3 &#39;Lost 5 pounds on purpose&#39;. </comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00077458.v1">
+	<name>LWPOTHPL_3</name>
+	<description>Other diet pill to lose weight</description>
+	<type>encoded value</type>
+	<comment>What method(s) did you use to lose weight?  (Mark all that apply.)  Other diet pill
+		Sub-question of F143 V3 Q3 &#39;Lost 5 pounds on purpose&#39;. </comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00077459.v1">
+	<name>LWPCMPRG_3</name>
+	<description>Commercial program to lose weight</description>
+	<type>encoded value</type>
+	<comment>What method(s) did you use to lose weight?  (Mark all that apply.)  Commercial weight loss program
+		Sub-question of F143 V3 Q3 &#39;Lost 5 pounds on purpose&#39;. </comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00077460.v1">
+	<name>LWPSMKNG_3</name>
+	<description>Smoking to lose weight</description>
+	<type>encoded value</type>
+	<comment>What method(s) did you use to lose weight?  (Mark all that apply.)  Started or increased smoking
+		Sub-question of F143 V3 Q3 &#39;Lost 5 pounds on purpose&#39;. </comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00077461.v1">
+	<name>LWPSRGRY_3</name>
+	<description>Surgery to lose weight</description>
+	<type>encoded value</type>
+	<comment>What method(s) did you use to lose weight?  (Mark all that apply.)  Surgical procedure (such as intestinal bypass or stomach balloon)
+		Sub-question of F143 V3 Q3 &#39;Lost 5 pounds on purpose&#39;. </comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00077462.v1">
+	<name>LWPOTHER_3</name>
+	<description>Other method to lose weight</description>
+	<type>encoded value</type>
+	<comment>What method(s) did you use to lose weight?  (Mark all that apply.)  Other (Specify):
+		Sub-question of F143 V3 Q3 &#39;Lost 5 pounds on purpose&#39;. </comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00077463.v1">
+	<name>LOST5LBA_3</name>
+	<description>Lose five or more pounds not on purpose</description>
+	<type>encoded value</type>
+	<comment>In the past 2 years, did you lose five or more pounds not on purpose at any time?</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+	<value code="9">Don&#39;t know</value>
+</variable>
+
+<variable id="phv00077464.v1">
+	<name>LWAILLNS_3</name>
+	<description>Lost weight due to illness</description>
+	<type>encoded value</type>
+	<comment>What was the cause of this weight loss?  (Mark all that apply.)  Illness
+		Sub-question of F143 V3 Q4 &#39;Lost 5 pounds not on purpose&#39;. </comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00077465.v1">
+	<name>LWADEPRS_3</name>
+	<description>Lost weight due to depression</description>
+	<type>encoded value</type>
+	<comment>What was the cause of this weight loss?  (Mark all that apply.)  Depression
+		Sub-question of F143 V3 Q4 &#39;Lost 5 pounds not on purpose&#39;. </comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00077466.v1">
+	<name>LWASTRES_3</name>
+	<description>Lost weight due to stress</description>
+	<type>encoded value</type>
+	<comment>What was the cause of this weight loss?  (Mark all that apply.)  Stressful time
+		Sub-question of F143 V3 Q4 &#39;Lost 5 pounds not on purpose&#39;. </comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00077467.v1">
+	<name>LWALEVNT_3</name>
+	<description>Lost weight due to life events</description>
+	<type>encoded value</type>
+	<comment>What was the cause of this weight loss?  (Mark all that apply.)  Life events
+		Sub-question of F143 V3 Q4 &#39;Lost 5 pounds not on purpose&#39;. </comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00077468.v1">
+	<name>LWALSAPP_3</name>
+	<description>Lost weight due to loss of appetite</description>
+	<type>encoded value</type>
+	<comment>What was the cause of this weight loss?  (Mark all that apply.)  Loss of appetite
+		Sub-question of F143 V3 Q4 &#39;Lost 5 pounds not on purpose&#39;. </comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00077469.v1">
+	<name>LWAOTHER_3</name>
+	<description>Lost weight due to other reason</description>
+	<type>encoded value</type>
+	<comment>What was the cause of this weight loss?  (Mark all that apply.)  Other (Specify):
+		Sub-question of F143 V3 Q4 &#39;Lost 5 pounds not on purpose&#39;. </comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00077470.v1">
+	<name>LWADNTNO_3</name>
+	<description>Don&#39;t know reason for losing weight</description>
+	<type>encoded value</type>
+	<comment>What was the cause of this weight loss?  (Mark all that apply.)  Don&#39;t know
+		Sub-question of F143 V3 Q4 &#39;Lost 5 pounds not on purpose&#39;. </comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00077471.v1">
+	<name>FGTHINK_3</name>
+	<description>Figure that reflects how you think you look</description>
+	<type>encoded value</type>
+	<comment>Choose the figure that: reflects how you think you look</comment>
+	<value code="1">Figure 1</value>
+	<value code="2">Figure 2</value>
+	<value code="3">Figure 3</value>
+	<value code="4">Figure 4</value>
+	<value code="5">Figure 5</value>
+	<value code="6">Figure 6</value>
+	<value code="7">Figure 7</value>
+	<value code="8">Figure 8</value>
+	<value code="9">Figure 9</value>
+</variable>
+
+<variable id="phv00077472.v1">
+	<name>FGFEEL_3</name>
+	<description>Figure that reflects how you feel</description>
+	<type>encoded value</type>
+	<comment>Choose the figure that: reflects how you feel most of the time.</comment>
+	<value code="1">Figure 1</value>
+	<value code="2">Figure 2</value>
+	<value code="3">Figure 3</value>
+	<value code="4">Figure 4</value>
+	<value code="5">Figure 5</value>
+	<value code="6">Figure 6</value>
+	<value code="7">Figure 7</value>
+	<value code="8">Figure 8</value>
+	<value code="9">Figure 9</value>
+</variable>
+
+<variable id="phv00077473.v1">
+	<name>FGIDLYOU_3</name>
+	<description>Figure that is the ideal for you</description>
+	<type>encoded value</type>
+	<comment>Choose the figure that: is your ideal figure (for you).</comment>
+	<value code="1">Figure 1</value>
+	<value code="2">Figure 2</value>
+	<value code="3">Figure 3</value>
+	<value code="4">Figure 4</value>
+	<value code="5">Figure 5</value>
+	<value code="6">Figure 6</value>
+	<value code="7">Figure 7</value>
+	<value code="8">Figure 8</value>
+	<value code="9">Figure 9</value>
+</variable>
+
+<variable id="phv00077474.v1">
+	<name>FGIDLWOM_3</name>
+	<description>Figure you think is ideal for women</description>
+	<type>encoded value</type>
+	<comment>Choose the figure that: you think is ideal for women.</comment>
+	<value code="1">Figure 1</value>
+	<value code="2">Figure 2</value>
+	<value code="3">Figure 3</value>
+	<value code="4">Figure 4</value>
+	<value code="5">Figure 5</value>
+	<value code="6">Figure 6</value>
+	<value code="7">Figure 7</value>
+	<value code="8">Figure 8</value>
+	<value code="9">Figure 9</value>
+</variable>
+
+<variable id="phv00077475.v1">
+	<name>FGPRFMEN_3</name>
+	<description>Figure you think is preferred by men</description>
+	<type>encoded value</type>
+	<comment>Choose the figure that: you think is most preferred by men.</comment>
+	<value code="1">Figure 1</value>
+	<value code="2">Figure 2</value>
+	<value code="3">Figure 3</value>
+	<value code="4">Figure 4</value>
+	<value code="5">Figure 5</value>
+	<value code="6">Figure 6</value>
+	<value code="7">Figure 7</value>
+	<value code="8">Figure 8</value>
+	<value code="9">Figure 9</value>
+</variable>
+
+<variable id="phv00077476.v1">
+	<name>FGPRFWOM_3</name>
+	<description>Figure you think is preferred by women</description>
+	<type>encoded value</type>
+	<comment>Choose the figure that: you think is most preferred by women.</comment>
+	<value code="1">Figure 1</value>
+	<value code="2">Figure 2</value>
+	<value code="3">Figure 3</value>
+	<value code="4">Figure 4</value>
+	<value code="5">Figure 5</value>
+	<value code="6">Figure 6</value>
+	<value code="7">Figure 7</value>
+	<value code="8">Figure 8</value>
+	<value code="9">Figure 9</value>
+</variable>
+
+<variable id="phv00077477.v1">
+	<name>WALKSWK_3</name>
+	<description>How often walk outside the home for &gt; 10 min</description>
+	<type>encoded value</type>
+	<comment>Think about the walking you do outside the home.  How often do you walk outside the home for more than 10 minutes without stopping?  (Mark only one.)</comment>
+	<value code="0">Rarely or never</value>
+	<value code="1">1-3 times each month</value>
+	<value code="2">1 time each week</value>
+	<value code="3">2-3 times each week</value>
+	<value code="4">4-6 times each week</value>
+	<value code="5">7 or more times each week</value>
+</variable>
+
+<variable id="phv00077478.v1">
+	<name>MINSWALK_3</name>
+	<description>How many minutes walk outside the home for &gt; 10 min</description>
+	<type>encoded value</type>
+	<comment>When you walk outside the home for more than 10 minutes without stopping, for how many minutes do you usually walk?
+		Sub-question of F143 V3 Q6 &#39;Walk more than 10 minutes&#39;. </comment>
+	<value code="1">Less than 20 min</value>
+	<value code="2">20-39 min</value>
+	<value code="3">40-59 min</value>
+	<value code="4">1 hour or more</value>
+</variable>
+
+<variable id="phv00077479.v1">
+	<name>WALKSPD_3</name>
+	<description>Speed of usual walking pace</description>
+	<type>encoded value</type>
+	<comment>What is your usual speed?
+		Sub-question of F143 V3 Q6 &#39;Walk more than 10 minutes&#39;. </comment>
+	<value code="2">Casual strolling</value>
+	<value code="3">Average or normal</value>
+	<value code="4">Fairly fast</value>
+	<value code="5">Very fast</value>
+	<value code="9">Don&#39;t know</value>
+</variable>
+
+<variable id="phv00077480.v1">
+	<name>HDEXFREQ_3</name>
+	<description>Days/wk of strenuous exercise</description>
+	<type>encoded value</type>
+	<comment>STRENUOUS OR VERY HARD EXERCISE (You work up a sweat and your heart beats fast).  For example, aerobics, aerobic dancing, jogging, tennis, swimming laps.</comment>
+	<value code="0">None</value>
+	<value code="1">1 day per week</value>
+	<value code="2">2 days per week</value>
+	<value code="3">3 days per week</value>
+	<value code="4">4 days per week</value>
+	<value code="5">5 or more days per week</value>
+</variable>
+
+<variable id="phv00077481.v1">
+	<name>HARDMINS_3</name>
+	<description>Duration per session of strenuous exercise</description>
+	<type>encoded value</type>
+	<comment>How long do usually exercise like this at one time?
+		Sub-question of F143 V3 Q7.1 &#39;Strenuous exercise&#39;. </comment>
+	<value code="1">Less than 20 min</value>
+	<value code="2">20-39 min</value>
+	<value code="3">40-59 min</value>
+	<value code="4">1 hour or more</value>
+</variable>
+
+<variable id="phv00077482.v1">
+	<name>MDEXFREQ_3</name>
+	<description>Days/wk of moderate exercise</description>
+	<type>encoded value</type>
+	<comment>MODERATE EXERCISE (Not exhausting).  For example, biking outdoors, use of an exercise machine (like a stationary bike or treadmill), calisthenics, easy swimming, popular and folk dancing.</comment>
+	<value code="0">None</value>
+	<value code="1">1 day per week</value>
+	<value code="2">2 days per week</value>
+	<value code="3">3 days per week</value>
+	<value code="4">4 days per week</value>
+	<value code="5">5 or more days per week</value>
+</variable>
+
+<variable id="phv00077483.v1">
+	<name>MODMINS_3</name>
+	<description>Duration per session of moderate exercise</description>
+	<type>encoded value</type>
+	<comment>How long do usually exercise like this at one time?
+		Sub-question of F143 V3 Q7.3 &#39;Moderate exercise&#39;. </comment>
+	<value code="1">Less than 20 min</value>
+	<value code="2">20-39 min</value>
+	<value code="3">40-59 min</value>
+	<value code="4">1 hour or more</value>
+</variable>
+
+<variable id="phv00077484.v1">
+	<name>MLEXFREQ_3</name>
+	<description>Days/wk of mild exercise</description>
+	<type>encoded value</type>
+	<comment>MILD EXERCISE.  For example, slow dancing, bowling, golf.</comment>
+	<value code="0">None</value>
+	<value code="1">1 day per week</value>
+	<value code="2">2 days per week</value>
+	<value code="3">3 days per week</value>
+	<value code="4">4 days per week</value>
+	<value code="5">5 or more days per week</value>
+</variable>
+
+<variable id="phv00077485.v1">
+	<name>MILDMINS_3</name>
+	<description>Duration per session of mild exercise</description>
+	<type>encoded value</type>
+	<comment>How long do usually exercise like this at one time?
+		Sub-question of F143 V3 Q7.5 &#39;Mild exercise&#39;. </comment>
+	<value code="1">Less than 20 min</value>
+	<value code="2">20-39 min</value>
+	<value code="3">40-59 min</value>
+	<value code="4">1 hour or more</value>
+</variable>
+
+<variable id="phv00077486.v1">
+	<name>INDRCHOR_3</name>
+	<description>Hours doing heavy chores</description>
+	<type>encoded value</type>
+	<comment>About how many hours each week do you usually spend doing heavy (strenuous) indoor household chores such as scrubbing floors, sweeping, or vacuuming?</comment>
+	<value code="1">Less than 1 hour</value>
+	<value code="2">1-3 hours</value>
+	<value code="3">4-6 hours</value>
+	<value code="4">7-9 hours</value>
+	<value code="5">10 or more hours</value>
+</variable>
+
+<variable id="phv00077487.v1">
+	<name>YRDWORKM_3</name>
+	<description>Months doing yard work</description>
+	<type>encoded value</type>
+	<comment>About how many months during the year do you usually do things in the yard, such as mowing, raking, gardening, or shoveling snow?</comment>
+	<value code="1">Less than 1 month</value>
+	<value code="2">1-3 months</value>
+	<value code="3">4-6 months</value>
+	<value code="4">7-9 months</value>
+	<value code="5">10 or more months</value>
+</variable>
+
+<variable id="phv00077488.v1">
+	<name>YRDWRKH_3</name>
+	<description>Hours each week doing yard work</description>
+	<type>encoded value</type>
+	<comment>When you do these things in the yard, how many hours each week do you do them?
+		Sub-question of F143 V3 Q9 &#39;Months of yardwork&#39;. </comment>
+	<value code="1">Less than 1 hour</value>
+	<value code="2">1-3 hours</value>
+	<value code="3">4-6 hours</value>
+	<value code="4">7-9 hours</value>
+	<value code="5">10 or more hours</value>
+</variable>
+
+<variable id="phv00077489.v1">
+	<name>SITTING_3</name>
+	<description>Number of hours spent sitting</description>
+	<type>encoded value</type>
+	<comment>During a usual day and night, about how many hours do you spend sitting?  Be sure to include the time you spend sitting at work, sitting at the table eating, driving or riding in a car or bus, and sitting up watching TV or talking.</comment>
+	<value code="1">Less than 4 hours</value>
+	<value code="2">4-5 hours</value>
+	<value code="3">6-7 hours</value>
+	<value code="4">8-9 hours</value>
+	<value code="5">10-11 hours</value>
+	<value code="6">12-13 hours</value>
+	<value code="7">14-15 hours</value>
+	<value code="8">16 or more hours</value>
+</variable>
+
+<variable id="phv00077490.v1">
+	<name>SLEEPING_3</name>
+	<description>Hours sleeping or lying down</description>
+	<type>encoded value</type>
+	<comment>During a usual day and night, about how many hours do you spend sleeping or lying down?  Be sure to include the time you spend sleeping or trying to sleep at night, resting or napping, and lying down watching TV.</comment>
+	<value code="1">Less than 4 hours</value>
+	<value code="2">4-5 hours</value>
+	<value code="3">6-7 hours</value>
+	<value code="4">8-9 hours</value>
+	<value code="5">10-11 hours</value>
+	<value code="6">12-13 hours</value>
+	<value code="7">14-15 hours</value>
+	<value code="8">16 or more hours</value>
+</variable>
+
+<variable id="phv00077491.v1">
+	<name>HDACT5_3</name>
+	<description>Days/wk strenuous activity 5-9 years old</description>
+	<type>encoded value</type>
+	<comment>5-9 years old?</comment>
+	<value code="0">None</value>
+	<value code="1">1 day per week</value>
+	<value code="2">2 days per week</value>
+	<value code="3">3 days per week</value>
+	<value code="4">4 days per week</value>
+	<value code="5">5 or more days per week</value>
+	<value code="9">Don&#39;t know</value>
+</variable>
+
+<variable id="phv00077492.v1">
+	<name>HDACT10_3</name>
+	<description>Days/wk strenuous activity 10-14 years old</description>
+	<type>encoded value</type>
+	<comment>10-14 years old?</comment>
+	<value code="0">None</value>
+	<value code="1">1 day per week</value>
+	<value code="2">2 days per week</value>
+	<value code="3">3 days per week</value>
+	<value code="4">4 days per week</value>
+	<value code="5">5 or more days per week</value>
+	<value code="9">Don&#39;t know</value>
+</variable>
+
+<variable id="phv00077493.v1">
+	<name>HDACT15_3</name>
+	<description>Days/wk strenuous activity 15-19 years old</description>
+	<type>encoded value</type>
+	<comment>15-19 years old?</comment>
+	<value code="0">None</value>
+	<value code="1">1 day per week</value>
+	<value code="2">2 days per week</value>
+	<value code="3">3 days per week</value>
+	<value code="4">4 days per week</value>
+	<value code="5">5 or more days per week</value>
+	<value code="9">Don&#39;t know</value>
+</variable>
+
+<variable id="phv00077494.v1">
+	<name>HDACT20_3</name>
+	<description>Days/wk strenuous activity 20-29 years old</description>
+	<type>encoded value</type>
+	<comment>20-29 years old?</comment>
+	<value code="0">None</value>
+	<value code="1">1 day per week</value>
+	<value code="2">2 days per week</value>
+	<value code="3">3 days per week</value>
+	<value code="4">4 days per week</value>
+	<value code="5">5 or more days per week</value>
+	<value code="9">Don&#39;t know</value>
+</variable>
+
+<variable id="phv00077495.v1">
+	<name>FRYBTTR_3</name>
+	<description>Butter used to fry foods</description>
+	<type>encoded value</type>
+	<comment>In the past three months, what kinds of fat or oil did you usually use to deep fry, pan fry, or saute foods? Butter</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00077496.v1">
+	<name>FRYLOMRG_3</name>
+	<description>Low calorie margarine used to fry foods</description>
+	<type>encoded value</type>
+	<comment>In the past three months, what kinds of fat or oil did you usually use to deep fry, pan fry, or saute foods? Low calorie margarine</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00077497.v1">
+	<name>FRYSTMRG_3</name>
+	<description>Stick margarine used to fry foods</description>
+	<type>encoded value</type>
+	<comment>In the past three months, what kinds of fat or oil did you usually use to deep fry, pan fry, or saute foods? Stick margarine</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00077498.v1">
+	<name>FRYTBMRG_3</name>
+	<description>Tub margarine used to fry foods</description>
+	<type>encoded value</type>
+	<comment>In the past three months, what kinds of fat or oil did you usually use to deep fry, pan fry, or saute foods? Tub margarine</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00077499.v1">
+	<name>FRYVGFAT_3</name>
+	<description>Solid vegetable fat used to fry foods</description>
+	<type>encoded value</type>
+	<comment>In the past three months, what kinds of fat or oil did you usually use to deep fry, pan fry, or saute foods? Solid vegetable fat</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00077500.v1">
+	<name>FRYSHORT_3</name>
+	<description>Shortening used to fry foods</description>
+	<type>encoded value</type>
+	<comment>In the past three months, what kinds of fat or oil did you usually use to deep fry, pan fry, or saute foods? Shortening</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00077501.v1">
+	<name>FRYOLIVE_3</name>
+	<description>Olive oil used to fry foods</description>
+	<type>encoded value</type>
+	<comment>In the past three months, what kinds of fat or oil did you usually use to deep fry, pan fry, or saute foods? Olive oil</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00077502.v1">
+	<name>FRYCANOL_3</name>
+	<description>Canola oil used to fry foods</description>
+	<type>encoded value</type>
+	<comment>In the past three months, what kinds of fat or oil did you usually use to deep fry, pan fry, or saute foods? Canola oil</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00077503.v1">
+	<name>FRYPNUT_3</name>
+	<description>Peanut oil used to fry foods</description>
+	<type>encoded value</type>
+	<comment>In the past three months, what kinds of fat or oil did you usually use to deep fry, pan fry, or saute foods? Peanut oil</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00077504.v1">
+	<name>FRYVGOIL_3</name>
+	<description>Other vegetable oils used to fry foods</description>
+	<type>encoded value</type>
+	<comment>In the past three months, what kinds of fat or oil did you usually use to deep fry, pan fry, or saute foods? Other vegetable oils</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00077505.v1">
+	<name>FRYSPRAY_3</name>
+	<description>Non-stick spray used to fry foods</description>
+	<type>encoded value</type>
+	<comment>In the past three months, what kinds of fat or oil did you usually use to deep fry, pan fry, or saute foods? Non-stick spray</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00077506.v1">
+	<name>FRYOTFAT_3</name>
+	<description>Other fat(s) used to fry foods</description>
+	<type>encoded value</type>
+	<comment>In the past three months, what kinds of fat or oil did you usually use to deep fry, pan fry, or saute foods? Other fat(s)</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00077507.v1">
+	<name>FRYWOFAT_3</name>
+	<description>No fat used to fry foods</description>
+	<type>encoded value</type>
+	<comment>In the past three months, what kinds of fat or oil did you usually use to deep fry, pan fry, or saute foods? Did not Use Fat</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00077508.v1">
+	<name>CKBTTR_3</name>
+	<description>Butter used to cook foods</description>
+	<type>encoded value</type>
+	<comment>In the past three months, what kinds of fat or oil did you usually use when cooking vegetables, potatoes, beans, or rice? Butter</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00077509.v1">
+	<name>CKLOMRG_3</name>
+	<description>Low calorie margarine used to cook foods</description>
+	<type>encoded value</type>
+	<comment>In the past three months, what kinds of fat or oil did you usually use when cooking vegetables, potatoes, beans, or rice? Low calorie margarine</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00077510.v1">
+	<name>CKSTMRG_3</name>
+	<description>Stick margarine used to cook foods</description>
+	<type>encoded value</type>
+	<comment>In the past three months, what kinds of fat or oil did you usually use when cooking vegetables, potatoes, beans, or rice? Stick margarine</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00077511.v1">
+	<name>CKTBMRG_3</name>
+	<description>Tub margarine used to cook foods</description>
+	<type>encoded value</type>
+	<comment>In the past three months, what kinds of fat or oil did you usually use when cooking vegetables, potatoes, beans, or rice? Tub margarine</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00077512.v1">
+	<name>CKVGFAT_3</name>
+	<description>Solid vegetable fat used to cook foods</description>
+	<type>encoded value</type>
+	<comment>In the past three months, what kinds of fat or oil did you usually use when cooking vegetables, potatoes, beans, or rice? Solid vegetable fat</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00077513.v1">
+	<name>CKSHORT_3</name>
+	<description>Shortening used to cook foods</description>
+	<type>encoded value</type>
+	<comment>In the past three months, what kinds of fat or oil did you usually use when cooking vegetables, potatoes, beans, or rice? Shortening</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00077514.v1">
+	<name>CKOLIVE_3</name>
+	<description>Olive oil used to cook foods</description>
+	<type>encoded value</type>
+	<comment>In the past three months, what kinds of fat or oil did you usually use when cooking vegetables, potatoes, beans, or rice? Olive oil</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00077515.v1">
+	<name>CKCANOL_3</name>
+	<description>Canola oil used to cook foods</description>
+	<type>encoded value</type>
+	<comment>In the past three months, what kinds of fat or oil did you usually use when cooking vegetables, potatoes, beans, or rice? Canola oil</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00077516.v1">
+	<name>CKPNUT_3</name>
+	<description>Peanut oil used to cook foods</description>
+	<type>encoded value</type>
+	<comment>In the past three months, what kinds of fat or oil did you usually use when cooking vegetables, potatoes, beans, or rice? Peanut oil</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00077517.v1">
+	<name>CKVGOIL_3</name>
+	<description>Other vegetable oils used to cook foods</description>
+	<type>encoded value</type>
+	<comment>In the past three months, what kinds of fat or oil did you usually use when cooking vegetables, potatoes, beans, or rice? Other vegetable oils</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00077518.v1">
+	<name>CKSPRAY_3</name>
+	<description>Non-stick spray used to cook foods</description>
+	<type>encoded value</type>
+	<comment>In the past three months, what kinds of fat or oil did you usually use when cooking vegetables, potatoes, beans, or rice? Non-stick spray</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00077519.v1">
+	<name>CKOTFAT_3</name>
+	<description>Other fat(s) used to cook foods</description>
+	<type>encoded value</type>
+	<comment>In the past three months, what kinds of fat or oil did you usually use when cooking vegetables, potatoes, beans, or rice? Other fat(s)</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00077520.v1">
+	<name>CKWOFAT_3</name>
+	<description>Did not use fat to cook foods</description>
+	<type>encoded value</type>
+	<comment>In the past three months, what kinds of fat or oil did you usually use when cooking vegetables, potatoes, beans, or rice? Did not Use Fat</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00077521.v1">
+	<name>ADDBTTR_3</name>
+	<description>Butter added after cooking</description>
+	<type>encoded value</type>
+	<comment>In the past three months, what kinds of fat or oil did you usually add after cooking vegetables, potatoes, beans, or rice? Butter</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00077522.v1">
+	<name>ADDLOMRG_3</name>
+	<description>Low calorie margarine added after cooking</description>
+	<type>encoded value</type>
+	<comment>In the past three months, what kinds of fat or oil did you usually add after cooking vegetables, potatoes, beans, or rice? Low calorie margarine</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00077523.v1">
+	<name>ADDSTMRG_3</name>
+	<description>Stick margarine added after cooking</description>
+	<type>encoded value</type>
+	<comment>In the past three months, what kinds of fat or oil did you usually add after cooking vegetables, potatoes, beans, or rice? Stick margarine</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00077524.v1">
+	<name>ADDTBMRG_3</name>
+	<description>Tub margarine added after cooking</description>
+	<type>encoded value</type>
+	<comment>In the past three months, what kinds of fat or oil did you usually add after cooking vegetables, potatoes, beans, or rice? Tub margarine</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00077525.v1">
+	<name>ADDOLIVE_3</name>
+	<description>Olive oil added after cooking</description>
+	<type>encoded value</type>
+	<comment>In the past three months, what kinds of fat or oil did you usually add after cooking vegetables, potatoes, beans, or rice? Olive oil</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00077526.v1">
+	<name>ADDCANOL_3</name>
+	<description>Canola oil added after cooking</description>
+	<type>encoded value</type>
+	<comment>In the past three months, what kinds of fat or oil did you usually add after cooking vegetables, potatoes, beans, or rice? Canola oil</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00077527.v1">
+	<name>ADDPNUT_3</name>
+	<description>Peanut oil added after cooking</description>
+	<type>encoded value</type>
+	<comment>In the past three months, what kinds of fat or oil did you usually add after cooking vegetables, potatoes, beans, or rice? Peanut oil</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00077528.v1">
+	<name>ADDVGOIL_3</name>
+	<description>Other vegetable oils added after cooking</description>
+	<type>encoded value</type>
+	<comment>In the past three months, what kinds of fat or oil did you usually add after cooking vegetables, potatoes, beans, or rice? Other vegetable oils</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00077529.v1">
+	<name>ADDLSCR_3</name>
+	<description>Non-fat or low-fat sour cream added after cooking</description>
+	<type>encoded value</type>
+	<comment>In the past three months, what kinds of fat or oil did you usually add after cooking vegetables, potatoes, beans, or rice? Non-fat or low-fat sour cream</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00077530.v1">
+	<name>ADDRSCR_3</name>
+	<description>Regular sour cream added after cooking</description>
+	<type>encoded value</type>
+	<comment>In the past three months, what kinds of fat or oil did you usually add after cooking vegetables, potatoes, beans, or rice? Regular sour cream</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00077531.v1">
+	<name>ADDOTFAT_3</name>
+	<description>Other fat(s) added after cooking</description>
+	<type>encoded value</type>
+	<comment>In the past three months, what kinds of fat or oil did you usually add after cooking vegetables, potatoes, beans, or rice? Other fat(s)</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00077532.v1">
+	<name>ADDNOFAT_3</name>
+	<description>Did not use fat after cooking</description>
+	<type>encoded value</type>
+	<comment>In the past three months, what kinds of fat or oil did you usually add after cooking vegetables, potatoes, beans, or rice? Did not use fat</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00077533.v1">
+	<name>USEBTTR_3</name>
+	<description>Butter used on breads, bagels, etc.</description>
+	<type>encoded value</type>
+	<comment>In the past three months, what kinds of fat or oil did you usually use on breads, bagels, muffins, tortillas, and rolls? Butter</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00077534.v1">
+	<name>USELOMRG_3</name>
+	<description>Low calorie margarine used on breads, bagels, etc.</description>
+	<type>encoded value</type>
+	<comment>In the past three months, what kinds of fat or oil did you usually use on breads, bagels, muffins, tortillas, and rolls? Low calorie margarine</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00077535.v1">
+	<name>USESTMRG_3</name>
+	<description>Stick margarine used on breads, bagels, etc.</description>
+	<type>encoded value</type>
+	<comment>In the past three months, what kinds of fat or oil did you usually use on breads, bagels, muffins, tortillas, and rolls? Stick margarine</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00077536.v1">
+	<name>USETBMRG_3</name>
+	<description>Tub margarine used on breads, bagels, etc.</description>
+	<type>encoded value</type>
+	<comment>In the past three months, what kinds of fat or oil did you usually use on breads, bagels, muffins, tortillas, and rolls? Tub margarine</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00077537.v1">
+	<name>USEOLIVE_3</name>
+	<description>Olive oil used on breads, bagels, etc.</description>
+	<type>encoded value</type>
+	<comment>In the past three months, what kinds of fat or oil did you usually use on breads, bagels, muffins, tortillas, and rolls? Olive oil</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00077538.v1">
+	<name>USEOTFAT_3</name>
+	<description>Other fat(s) used on breads, bagels, etc.</description>
+	<type>encoded value</type>
+	<comment>In the past three months, what kinds of fat or oil did you usually use on breads, bagels, muffins, tortillas, and rolls? Other fat(s)</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00077539.v1">
+	<name>USENOFAT_3</name>
+	<description>Did not use fat on breads, bagels, etc.</description>
+	<type>encoded value</type>
+	<comment>In the past three months, what kinds of fat or oil did you usually use on breads, bagels, muffins, tortillas, and rolls? Did not use fat</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00077540.v1">
+	<name>CFINSTNT_3</name>
+	<description>Past 3 months frequency drank regular instant coffee</description>
+	<type>encoded value</type>
+	<comment>Regular instant (not decaf) coffee (cups)</comment>
+	<value code="1">Never or less than 1 per month</value>
+	<value code="2">1-3 per month</value>
+	<value code="3">1 per week</value>
+	<value code="4">2-4 per week</value>
+	<value code="5">5-6 per week</value>
+	<value code="6">1 per day</value>
+	<value code="7">2-3 per day</value>
+	<value code="8">4-5 per day</value>
+	<value code="9">6 or more per day</value>
+</variable>
+
+<variable id="phv00077541.v1">
+	<name>CFLATTE_3</name>
+	<description>Past 3 months frequency drank espresso or latte</description>
+	<type>encoded value</type>
+	<comment>Regular (not decaf) espresso or latte (cups)</comment>
+	<value code="1">Never or less than 1 per month</value>
+	<value code="2">1-3 per month</value>
+	<value code="3">1 per week</value>
+	<value code="4">2-4 per week</value>
+	<value code="5">5-6 per week</value>
+	<value code="6">1 per day</value>
+	<value code="7">2-3 per day</value>
+	<value code="8">4-5 per day</value>
+	<value code="9">6 or more per day</value>
+</variable>
+
+<variable id="phv00077542.v1">
+	<name>CFOTHDRP_3</name>
+	<description>Past 3 months frequency drank drip coffee</description>
+	<type>encoded value</type>
+	<comment>Other regular drip coffee (not decaf) - drip, coffee maker, etc. (cups)</comment>
+	<value code="1">Never or less than 1 per month</value>
+	<value code="2">1-3 per month</value>
+	<value code="3">1 per week</value>
+	<value code="4">2-4 per week</value>
+	<value code="5">5-6 per week</value>
+	<value code="6">1 per day</value>
+	<value code="7">2-3 per day</value>
+	<value code="8">4-5 per day</value>
+	<value code="9">6 or more per day</value>
+</variable>
+
+<variable id="phv00077543.v1">
+	<name>CFDECAF_3</name>
+	<description>Past 3 months frequency drank decaf coffee</description>
+	<type>encoded value</type>
+	<comment>Decaf coffee - any type (cups)</comment>
+	<value code="1">Never or less than 1 per month</value>
+	<value code="2">1-3 per month</value>
+	<value code="3">1 per week</value>
+	<value code="4">2-4 per week</value>
+	<value code="5">5-6 per week</value>
+	<value code="6">1 per day</value>
+	<value code="7">2-3 per day</value>
+	<value code="8">4-5 per day</value>
+	<value code="9">6 or more per day</value>
+</variable>
+
+<variable id="phv00077544.v1">
+	<name>CFREGTEA_3</name>
+	<description>Past 3 months frequency drank tea</description>
+	<type>encoded value</type>
+	<comment>Regular tea (not herbal, not decaf) (cups)</comment>
+	<value code="1">Never or less than 1 per month</value>
+	<value code="2">1-3 per month</value>
+	<value code="3">1 per week</value>
+	<value code="4">2-4 per week</value>
+	<value code="5">5-6 per week</value>
+	<value code="6">1 per day</value>
+	<value code="7">2-3 per day</value>
+	<value code="8">4-5 per day</value>
+	<value code="9">6 or more per day</value>
+</variable>
+
+<variable id="phv00077545.v1">
+	<name>CFHRBTEA_3</name>
+	<description>Past 3 months frequency drank herbal tea</description>
+	<type>encoded value</type>
+	<comment>Herbal tea (cups)</comment>
+	<value code="1">Never or less than 1 per month</value>
+	<value code="2">1-3 per month</value>
+	<value code="3">1 per week</value>
+	<value code="4">2-4 per week</value>
+	<value code="5">5-6 per week</value>
+	<value code="6">1 per day</value>
+	<value code="7">2-3 per day</value>
+	<value code="8">4-5 per day</value>
+	<value code="9">6 or more per day</value>
+</variable>
+
+<variable id="phv00077546.v1">
+	<name>CFDCFTEA_3</name>
+	<description>Past 3 months frequency drank decaf tea</description>
+	<type>encoded value</type>
+	<comment>Decaf tea (cups)</comment>
+	<value code="1">Never or less than 1 per month</value>
+	<value code="2">1-3 per month</value>
+	<value code="3">1 per week</value>
+	<value code="4">2-4 per week</value>
+	<value code="5">5-6 per week</value>
+	<value code="6">1 per day</value>
+	<value code="7">2-3 per day</value>
+	<value code="8">4-5 per day</value>
+	<value code="9">6 or more per day</value>
+</variable>
+
+<variable id="phv00077547.v1">
+	<name>TAPWATER_3</name>
+	<description>Past 3 months frequency drank tap water</description>
+	<type>encoded value</type>
+	<comment>Water from the tap (8 ounce glasses)</comment>
+	<value code="1">Never or less than 1 per month</value>
+	<value code="2">1-3 per month</value>
+	<value code="3">1 per week</value>
+	<value code="4">2-4 per week</value>
+	<value code="5">5-6 per week</value>
+	<value code="6">1 per day</value>
+	<value code="7">2-3 per day</value>
+	<value code="8">4-5 per day</value>
+	<value code="9">6 or more per day</value>
+</variable>
+
+<variable id="phv00077548.v1">
+	<name>BOTLDWTR_3</name>
+	<description>Past 3 months frequency drank bottled water</description>
+	<type>encoded value</type>
+	<comment>Bottled water, carbonated or plain (8 ounce glasses)</comment>
+	<value code="1">Never or less than 1 per month</value>
+	<value code="2">1-3 per month</value>
+	<value code="3">1 per week</value>
+	<value code="4">2-4 per week</value>
+	<value code="5">5-6 per week</value>
+	<value code="6">1 per day</value>
+	<value code="7">2-3 per day</value>
+	<value code="8">4-5 per day</value>
+	<value code="9">6 or more per day</value>
+</variable>
+
+<variable id="phv00077549.v1">
+	<name>DIETDRNK_3</name>
+	<description>Past 3 months frequency drank diet drinks</description>
+	<type>encoded value</type>
+	<comment>Diet drinks, such as Diet Coke or diet fruit drinks (12 ounce cans)</comment>
+	<value code="1">Never or less than 1 per month</value>
+	<value code="2">1-3 per month</value>
+	<value code="3">1 per week</value>
+	<value code="4">2-4 per week</value>
+	<value code="5">5-6 per week</value>
+	<value code="6">1 per day</value>
+	<value code="7">2-3 per day</value>
+	<value code="8">4-5 per day</value>
+	<value code="9">6 or more per day</value>
+</variable>
+
+<variable id="phv00077550.v1">
+	<name>ALC3MO_3</name>
+	<description>Past 3 months drank alcohol</description>
+	<type>encoded value</type>
+	<comment>During the past 3 months, have you had any drinks containing alcohol?
+		Backcoded from sub-questions. </comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00077551.v1">
+	<name>ALCOFTEN_3</name>
+	<description>Past 3 months frequency drank alcohol</description>
+	<type>encoded value</type>
+	<comment>In the past 3 months, how often have you had drinks containing alcohol?
+		Sub-question of F143 V3 Q18 &#39;Alcohol in past 3 months&#39; (skip pattern rule not applied). Question 18 recoded to yes if any of q18.1-q18.3 is marked. </comment>
+	<value code="1">One day per month or less</value>
+	<value code="2">2-3 days per month</value>
+	<value code="3">1-2 days per week</value>
+	<value code="4">3-4 days per week</value>
+	<value code="5">5-6 days per week</value>
+	<value code="6">Every day or about every day</value>
+</variable>
+
+<variable id="phv00077552.v1">
+	<name>DRNKSDAY_3</name>
+	<description>Past 3 months drinks of alcohol per day</description>
+	<type>encoded value</type>
+	<comment>In the past 3 months, on the days you drank, how many drinks did you usually have per day?  (A drink is a 12 ounce glass of beer, one 4 ounce glass of wine, or one shot [1 1/4 oz.] of liquor)
+		Sub-question of F143 V3 Q18 &#39;Alcohol in past 3 months&#39; (skip pattern rule not applied). </comment>
+	<value code="1">1 drink</value>
+	<value code="2">2 drinks</value>
+	<value code="3">3 drinks</value>
+	<value code="4">4-5 drinks</value>
+	<value code="5">6-7 drinks</value>
+	<value code="6">8-9 drinks</value>
+	<value code="7">10-11 drinks</value>
+	<value code="8">12 or more drinks</value>
+</variable>
+
+<variable id="phv00077553.v1">
+	<name>NOMLDRNK_3</name>
+	<description>Past 3 months drinks of alcohol not around major meal</description>
+	<type>encoded value</type>
+	<comment>In the past 3 months, on the days you drank, how many of those drinks did you usually drink that were not around a major meal (not around lunch, not around dinner)?
+		Sub-question of F143 V3 Q18 &#39;Alcohol in past 3 months&#39;(skip pattern rule not applied). </comment>
+	<value code="0">None</value>
+	<value code="1">1 drink</value>
+	<value code="2">2 drinks</value>
+	<value code="3">3 drinks</value>
+	<value code="4">4-5 drinks</value>
+	<value code="5">6-7 drinks</value>
+	<value code="6">8-9 drinks</value>
+	<value code="7">10-11 drinks</value>
+	<value code="8">12 or more drinks</value>
+</variable>
+
+<variable id="phv00077554.v1">
+	<name>SPECOCCS_3</name>
+	<description>Drink alcohol more than usual on special occasions</description>
+	<type>encoded value</type>
+	<comment>Do you drink more than usual for special occasions?
+		Sub-question of F143 V3 Q18 &#39;Alcohol in past 3 months&#39; (skip pattern rule applied to recoded question 18 - &#39;Alcohol last 3 months&#39;). </comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00077555.v1">
+	<name>SPCOCOFT_3</name>
+	<description>How often drink more alcohol on special occasions</description>
+	<type>encoded value</type>
+	<comment>How often does this happen?
+		Sub-question of F143 V3 Q18 &#39;Alcohol in past 3 months&#39; Sub-question of F143 V3 Q18.4 &#39;Drink more on special occasion&#39;  (skip pattern rule applied  using recoded question 18 - &#39;Alcohol last 3 months&#39;). </comment>
+	<value code="1">Less than once per month</value>
+	<value code="2">Once a month</value>
+	<value code="3">2-3 times per month</value>
+	<value code="4">Once a week or more</value>
+</variable>
+
+<variable id="phv00077556.v1">
+	<name>AHABCHNG_3</name>
+	<description>Changed drinking habits</description>
+	<type>encoded value</type>
+	<comment>Since you enrolled in this study, have you changed your drinking habits?</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00077557.v1">
+	<name>AHOWCHNG_3</name>
+	<description>How changed your drinking habits</description>
+	<type>encoded value</type>
+	<comment>How have you changed your alcohol drinking?  Have you:
+		Sub-question of F143 V3 Q19 &#39;Changed drinking habits&#39;. </comment>
+	<value code="1">Stopped</value>
+	<value code="2">Decreased</value>
+	<value code="3">Increased</value>
+	<value code="4">Started</value>
+</variable>
+
+<variable id="phv00077558.v1">
+	<name>AWHYCHNG_3</name>
+	<description>Why changed your drinking habits</description>
+	<type>encoded value</type>
+	<comment>Why did you make this change?  (Mark one.)
+		Sub-question of F143 V3 Q19 &#39;Changed drinking habits&#39;. </comment>
+	<value code="1">Concern about current/past health</value>
+	<value code="2">Concern about future health</value>
+	<value code="8">Other</value>
+</variable>
+
+<variable id="phv00077559.v1">
+	<name>SMOKENW_3</name>
+	<description>Smoke cigarettes now</description>
+	<type>encoded value</type>
+	<comment>Do you smoke cigarettes now?</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00077560.v1">
+	<name>CIGSDAY_3</name>
+	<description>How many cigarettes/day</description>
+	<type>encoded value</type>
+	<comment>How many cigarettes do you usually smoke each day?  (Mark one.)
+		Sub-question of F143 V3 Q20 &#39;Smoke cigarettes now&#39;. </comment>
+	<value code="1">Less than 5</value>
+	<value code="2">5-14</value>
+	<value code="3">15-24</value>
+	<value code="4">25-34</value>
+	<value code="5">35-44</value>
+	<value code="6">45 or more</value>
+</variable>
+
+<variable id="phv00077561.v1">
+	<name>LIVSMK_3</name>
+	<description>Anyone living w/you smoke</description>
+	<type>encoded value</type>
+	<comment>Does anyone living with you now smoke cigarettes regularly inside your home?</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00077562.v1">
+	<name>HSBNDSMK_3</name>
+	<description>Husband or partner in home smokes</description>
+	<type>encoded value</type>
+	<comment>Please mark all the people who live with you who now smoke cigarettes regularly inside your home: Husband or partner
+		Sub-question of F143 V3 Q21 &#39;Living with inside smoker&#39;. </comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00077563.v1">
+	<name>CHILDSMK_3</name>
+	<description>Son or daughter in home smokes</description>
+	<type>encoded value</type>
+	<comment>Please mark all the people who live with you who now smoke cigarettes regularly inside your home: Son(s) or daughter(s)
+		Sub-question of F143 V3 Q21 &#39;Living with inside smoker&#39;. </comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00077564.v1">
+	<name>OTHSMK_3</name>
+	<description>Other person/people in home smokes</description>
+	<type>encoded value</type>
+	<comment>Please mark all the people who live with you who now smoke cigarettes regularly inside your home: Other person/people
+		Sub-question of F143 V3 Q21 &#39;Living with inside smoker&#39;. </comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00077565.v1">
+	<name>SMKWORK_3</name>
+	<description>Work in a space where people smoke</description>
+	<type>encoded value</type>
+	<comment>Do you now work in a space where people smoke cigarettes?</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00077566.v1">
+	<name>NOTWRK_3</name>
+	<description>Current job status - Not working</description>
+	<type>encoded value</type>
+	<comment>What is your current job status?  Not Working</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00077567.v1">
+	<name>RETIRED_3</name>
+	<description>Current job status - Retired</description>
+	<type>encoded value</type>
+	<comment>What is your current job status?  Retired</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00077568.v1">
+	<name>HOMEMKR_3</name>
+	<description>Current job status - Homemaker</description>
+	<type>encoded value</type>
+	<comment>What is your current job status?  Homemaker, raising children, care of others</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00077569.v1">
+	<name>EMPLOYED_3</name>
+	<description>Current job status - Employed</description>
+	<type>encoded value</type>
+	<comment>What is your current job status?  Employed (full-time or part-time)</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00077570.v1">
+	<name>DISABLED_3</name>
+	<description>Current job status - Disabled</description>
+	<type>encoded value</type>
+	<comment>What is your current job status?  Disabled, unable to work</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00077571.v1">
+	<name>OTHWRK_3</name>
+	<description>Current job status - Other</description>
+	<type>encoded value</type>
+	<comment>What is your current job status?  Other</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00077572.v1">
+	<name>MARITAL_3</name>
+	<description>Marital status</description>
+	<type>encoded value</type>
+	<comment>What is your current marital status?  (Mark the one that best describes you.)</comment>
+	<value code="1">Never married</value>
+	<value code="2">Divorced/separated</value>
+	<value code="3">Widowed</value>
+	<value code="4">Presently married</value>
+	<value code="5">Living in marriage-like relationship</value>
+</variable>
+
+<variable id="phv00077573.v1">
+	<name>PNOTWRK_3</name>
+	<description>Husband job status - Not working</description>
+	<type>encoded value</type>
+	<comment>What is your husband&#39;s (partner&#39;s) current job status? Not Working
+		Sub-question of F143 V3 Q24 &#39;Marital status&#39;. </comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00077574.v1">
+	<name>PRETIRED_3</name>
+	<description>Husband job status - Retired</description>
+	<type>encoded value</type>
+	<comment>What is your husband&#39;s (partner&#39;s) current job status? Retired
+		Sub-question of F143 V3 Q24 &#39;Marital status&#39;. </comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00077575.v1">
+	<name>PHOMEMKR_3</name>
+	<description>Husband job status - Homemaker</description>
+	<type>encoded value</type>
+	<comment>What is your husband&#39;s (partner&#39;s) current job status? Homemaker
+		Sub-question of F143 V3 Q24 &#39;Marital status&#39;. </comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00077576.v1">
+	<name>PEMPLOY_3</name>
+	<description>Husband job status - Employed</description>
+	<type>encoded value</type>
+	<comment>What is your husband&#39;s (partner&#39;s) current job status? Employed
+		Sub-question of F143 V3 Q24 &#39;Marital status&#39;. </comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00077577.v1">
+	<name>PDISABLE_3</name>
+	<description>Husband job status - Disabled</description>
+	<type>encoded value</type>
+	<comment>What is your husband&#39;s (partner&#39;s) current job status? Disabled
+		Sub-question of F143 V3 Q24 &#39;Marital status&#39;. </comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00077578.v1">
+	<name>POTHWRK_3</name>
+	<description>Husband job status - Other</description>
+	<type>encoded value</type>
+	<comment>What is your husband&#39;s (partner&#39;s) current job status? Other
+		Sub-question of F143 V3 Q24 &#39;Marital status&#39;. </comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00077579.v1">
+	<name>INCOME_3</name>
+	<description>Family income</description>
+	<type>encoded value</type>
+	<comment>What was the total family income (before taxes) from all sources within your household in the last year?  (Mark the one that is the best guess)</comment>
+	<value code="1">Less than $10,000</value>
+	<value code="2">$10,000 to $19,999</value>
+	<value code="3">$20,000 to $34,999</value>
+	<value code="4">$35,000 to $49,999</value>
+	<value code="5">$50,000 to $74,999</value>
+	<value code="6">$75,000 to $99,999</value>
+	<value code="7">$100,000 to $149,999</value>
+	<value code="8">$150,000 or more</value>
+	<value code="9">Don&#39;t know</value>
+</variable>
+
+<variable id="phv00077580.v1">
+	<name>CAREPROV_3</name>
+	<description>Have a usual medical care provider</description>
+	<type>encoded value</type>
+	<comment>Do you have a clinic, doctor, nurse or physician assistant who provides your usual medical care?</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00077581.v1">
+	<name>LSTVIS_3</name>
+	<description>When was last visit to health care provider</description>
+	<type>encoded value</type>
+	<comment>When did you last visit this clinic or person?  (Please give your best guess.)
+		Sub-question of F143 V3 Q26 &#39;Has usual med care provider&#39;. </comment>
+	<value code="1">In the last 3 months</value>
+	<value code="2">4-6 months ago</value>
+	<value code="3">7-12 months ago</value>
+	<value code="4">Over a year ago</value>
+</variable>
+
+<variable id="phv00077582.v1">
+	<name>NEWDR3Y_3</name>
+	<description>Has health care provider changed in past 3 years</description>
+	<type>encoded value</type>
+	<comment>Has your usual health care provider changed in the past 3 years?
+		Sub-question of F143 V3 Q26 &#39;Has usual med care provider&#39;. </comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00077583.v1">
+	<name>HLTHINSR_3</name>
+	<description>Currently have health insurance</description>
+	<type>encoded value</type>
+	<comment>Do you currently have health insurance?  This includes pre-paid private insurance such as a Health Maintenance Organization (HMO), other private insurance, Medicare, Medicaid (including State Medical Assistance, Medi-Cal or DPA), Military or VA coverage.</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00077584.v1">
+	<name>DRSCVRED_3</name>
+	<description>Doctors, hospitals covered by current health insurance</description>
+	<type>encoded value</type>
+	<comment>Which of the following best describes the doctors and hospitals covered by your current health insurance?  (Mark one.)
+		Sub-question of F143 V3 Q27 &#39;Has health insurance now&#39;. </comment>
+	<value code="1">Benefits same for any doctor or hospital</value>
+	<value code="2">Pay more for those not on a list</value>
+	<value code="3">Must use only those on a list</value>
+</variable>
+
+<variable id="phv00077585.v1">
+	<name>INSPREPD_3</name>
+	<description>Have pre-paid private insurance</description>
+	<type>encoded value</type>
+	<comment>Pre-paid private insurance, such as a Health Maintenance Organization (HMO), Kaiser Permanente or other Group Health-type plan?
+		Sub-question of F143 V3 Q27 &#39;Has health insurance now&#39;. </comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00077586.v1">
+	<name>PPEMPPD_3</name>
+	<description>Employer pays for pre-paid insurance</description>
+	<type>encoded value</type>
+	<comment>Who pays for this insurance? (Mark all that apply.)  Costs are paid by my employer or my spouse&#39;s employer
+		Sub-question of F143 V3 Q27 &#39;Has health insurance now&#39;.&lt;br/&gt;Sub-question of F143 V3 Q28.1 &#39;Pre-paid private insurance&#39;. </comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00077587.v1">
+	<name>PPMEPD_3</name>
+	<description>I pay for pre-paid insurance</description>
+	<type>encoded value</type>
+	<comment>Who pays for this insurance? (Mark all that apply.)  Costs are paid by me
+		Sub-question of F143 V3 Q27 &#39;Has health insurance now&#39;.&lt;br/&gt;Sub-question of F143 V3 Q28.1 &#39;Pre-paid private insurance&#39;. </comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00077588.v1">
+	<name>PPMEDPD_3</name>
+	<description>Medicare pays for pre-paid insurance</description>
+	<type>encoded value</type>
+	<comment>Who pays for this insurance? (Mark all that apply.)  Medicare
+		Sub-question of F143 V3 Q27 &#39;Has health insurance now&#39;.&lt;br/&gt;Sub-question of F143 V3 Q28.1 &#39;Pre-paid private insurance&#39;. </comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00077589.v1">
+	<name>INSOTHPV_3</name>
+	<description>Have other private insurance</description>
+	<type>encoded value</type>
+	<comment>Other private insurance such as Blue Cross, Aetna, etc.?
+		Sub-question of F143 V3 Q27 &#39;Has health insurance now&#39;. </comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00077590.v1">
+	<name>PRVEMPPD_3</name>
+	<description>Employer pays for other private insurance</description>
+	<type>encoded value</type>
+	<comment>Who pays for this insurance? (Mark all that apply.)  Costs are paid by my employer or my spouse&#39;s employer
+		Sub-question of F143 V3 Q27 &#39;Has health insurance now&#39;.&lt;br/&gt;Sub-question of F143 V3 Q28.3 &#39;Other private insurance&#39;. </comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00077591.v1">
+	<name>PRVMEPD_3</name>
+	<description>I pay for other private insurance</description>
+	<type>encoded value</type>
+	<comment>Who pays for this insurance? (Mark all that apply.)  Costs are paid by me
+		Sub-question of F143 V3 Q27 &#39;Has health insurance now&#39;.&lt;br/&gt;Sub-question of F143 V3 Q28.3 &#39;Other private insurance&#39;. </comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00077592.v1">
+	<name>INSMEDCR_3</name>
+	<description>Have Medicare</description>
+	<type>encoded value</type>
+	<comment>Medicare?
+		Sub-question of F143 V3 Q27 &#39;Has health insurance now&#39;. </comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00077593.v1">
+	<name>MEDADDCV_3</name>
+	<description>Have additional coverage to supplement Medicare</description>
+	<type>encoded value</type>
+	<comment>Do you have additional coverage to supplement your Medicare benefits?
+		Sub-question of F143 V3 Q27 &#39;Has health insurance now&#39;.&lt;br/&gt;Sub-question of F143 V3 Q28.5 &#39;Medicare&#39;. </comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00077594.v1">
+	<name>INSMDCAD_3</name>
+	<description>Have Medicaid</description>
+	<type>encoded value</type>
+	<comment>Medicaid, including State Medical Assistance, Medi-Cal, or DPA?
+		Sub-question of F143 V3 Q27 &#39;Has health insurance now&#39;. </comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00077595.v1">
+	<name>INSMLTRY_3</name>
+	<description>Have Military or VA sponsored health insurance</description>
+	<type>encoded value</type>
+	<comment>Military or Veterans Administration-sponsored?
+		Sub-question of F143 V3 Q27 &#39;Has health insurance now&#39;. </comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00077596.v1">
+	<name>INSOTHER_3</name>
+	<description>Have other insurance</description>
+	<type>encoded value</type>
+	<comment>Other?
+		Sub-question of F143 V3 Q27 &#39;Has health insurance now&#39;. </comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00077597.v1">
+	<name>NATHOR2_3</name>
+	<description>Past 2 years used &#39;Natural&#39; hormones</description>
+	<type>encoded value</type>
+	<comment>In the past 2 years, did you use any &#39;natural&#39; hormones that you can get without a doctor&#39;s prescription? They may be in the form of a pill, vaginal cream or suppository, or skin cream.</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+	<value code="9">Don&#39;t know</value>
+</variable>
+
+<variable id="phv00077598.v1">
+	<name>YAMCRM2_3</name>
+	<description>Used wild yam or progesterone creams</description>
+	<type>encoded value</type>
+	<comment>In the past 2 years, what types of &#39;natural&#39; hormones have you used? Wild yam or progesterone creams
+		Sub-question of F143 V3 Q29 &#39;Natural hormones in past 2 yrs&#39;. </comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00077599.v1">
+	<name>YAMPLS2_3</name>
+	<description>Used wild yam pills</description>
+	<type>encoded value</type>
+	<comment>In the past 2 years, what types of &#39;natural&#39; hormones have you used? Wild yam pills
+		Sub-question of F143 V3 Q29 &#39;Natural hormones in past 2 yrs&#39;. </comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00077600.v1">
+	<name>PRGSUP2_3</name>
+	<description>Used progsterone suppositories</description>
+	<type>encoded value</type>
+	<comment>In the past 2 years, what types of &#39;natural&#39; hormones have you used? Progesterone suppositories
+		Sub-question of F143 V3 Q29 &#39;Natural hormones in past 2 yrs&#39;. </comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00077601.v1">
+	<name>DHEAPL2_3</name>
+	<description>Used DHEA (dehydroepiandosterone) pills</description>
+	<type>encoded value</type>
+	<comment>In the past 2 years, what types of &#39;natural&#39; hormones have you used? DHEA (dehydroepiandosterone) pills
+		Sub-question of F143 V3 Q29 &#39;Natural hormones in past 2 yrs&#39;. </comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00077602.v1">
+	<name>PHYPLS2_3</name>
+	<description>Used Phytoestrogen pills (soy or flax)</description>
+	<type>encoded value</type>
+	<comment>In the past 2 years, what types of &#39;natural&#39; hormones have you used? Phytoestrogen pills (soy or flax)
+		Sub-question of F143 V3 Q29 &#39;Natural hormones in past 2 yrs&#39;. </comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00077603.v1">
+	<name>PHYCRM2_3</name>
+	<description>Used Phytoestrogen creams (soy or flax)</description>
+	<type>encoded value</type>
+	<comment>In the past 2 years, what types of &#39;natural&#39; hormones have you used? Phytoestrogen creams (soy or flax)
+		Sub-question of F143 V3 Q29 &#39;Natural hormones in past 2 yrs&#39;. </comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00077604.v1">
+	<name>PHYFDS2_3</name>
+	<description>Used Phytoestrogen containing foods (tofu, soybeans)</description>
+	<type>encoded value</type>
+	<comment>In the past 2 years, what types of &#39;natural&#39; hormones have you used? Phytoestrogen containing foods (tofu, soybeans)
+		Sub-question of F143 V3 Q29 &#39;Natural hormones in past 2 yrs&#39;. </comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00077605.v1">
+	<name>NTOTHR2_3</name>
+	<description>Used other natural hormones</description>
+	<type>encoded value</type>
+	<comment>In the past 2 years, what types of &#39;natural&#39; hormones have you used? Used other natural hormones
+		Sub-question of F143 V3 Q29 &#39;Natural hormones in past 2 yrs&#39;. </comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00077606.v1">
+	<name>NTDNTK2_3</name>
+	<description>Used unknown natural hormone</description>
+	<type>encoded value</type>
+	<comment>In the past 2 years, what types of &#39;natural&#39; hormones have you used? Don&#39;t know
+		Sub-question of F143 V3 Q29 &#39;Natural hormones in past 2 yrs&#39;. </comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00077607.v1">
+	<name>HRPST2YR_3</name>
+	<description>Past 2 years used prescribed female hormones</description>
+	<type>encoded value</type>
+	<comment>In the past 2 years, did you use female hormones (ESTROGEN or PROGESTERONE) that were prescibed by a doctor?  (This may have been in the form of a pill, skin patch, shot, or vaginal cream or suppository.)</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+	<value code="9">Don&#39;t know</value>
+</variable>
+
+<variable id="phv00077608.v1">
+	<name>EPPL_3</name>
+	<description>Used Estrogen and Progestin pills</description>
+	<type>encoded value</type>
+	<comment>In the past 2 years, did you use female hormone PILLS prescibed by a doctor which contained both ESTROGEN and progestin (PROGESTERONE) COMBINED in the same pill or package (for example Prempro, Premphase)?
+		Sub-question of F143 V3 Q30 &#39;Used female hormones&#39;. </comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+	<value code="9">Don&#39;t know</value>
+</variable>
+
+<variable id="phv00077609.v1">
+	<name>EPDUR_3</name>
+	<description>Used Estrogen and Progestin - how many months</description>
+	<type>encoded value</type>
+	<comment>In the past 2 years, how many months did you use COMBINED female hormone PILLS which contained both ESTROGEN and PROGESTIN?
+		Sub-question of F143 V3 Q30 &#39;Used female hormones&#39;.&lt;br/&gt;Sub-question of F143 V3 Q31 &#39;Combined estr/prog pills&#39;. </comment>
+	<value code="1">Less than 1 month</value>
+	<value code="2">1-6 months</value>
+	<value code="3">7-10 months</value>
+	<value code="4">11-12 months</value>
+	<value code="5">13-18 months</value>
+	<value code="6">19-24 months</value>
+</variable>
+
+<variable id="phv00077610.v1">
+	<name>ETPL_3</name>
+	<description>Used Estrogen and Testosterone pills</description>
+	<type>encoded value</type>
+	<comment>In the past 2 years, did you use female hormone PILLS prescibed by a doctor which contained both ESTROGEN and TESTOSTERONE COMBINED in the same pill (for example, Estratest)?
+		Sub-question of F143 V3 Q30 &#39;Used female hormones&#39;. </comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+	<value code="9">Don&#39;t know</value>
+</variable>
+
+<variable id="phv00077611.v1">
+	<name>ETDUR_3</name>
+	<description>Used Estrogen and Testosterone pills - how many months</description>
+	<type>encoded value</type>
+	<comment>In the past 2 years, how many months did you use COMBINED female hormone pills which contained both ESTROGEN and TESTOSTERONE?
+		Sub-question of F143 V3 Q30 &#39;Used female hormones&#39;.&lt;br/&gt;Sub-question of F143 V3 Q32 &#39;Combined estr/testost pills&#39;. </comment>
+	<value code="1">Less than 1 month</value>
+	<value code="2">1-6 months</value>
+	<value code="3">7-10 months</value>
+	<value code="4">11-12 months</value>
+	<value code="5">13-18 months</value>
+	<value code="6">19-24 months</value>
+</variable>
+
+<variable id="phv00077612.v1">
+	<name>ETTYPE_3</name>
+	<description>Used Estrogen and Testosterone - what type</description>
+	<type>encoded value</type>
+	<comment>In the past 2 years, what type of COMBINED ESTROGEN and TESTOSTERONE pill did you use the longest?
+		Sub-question of F143 V3 Q30 &#39;Used female hormones&#39;.&lt;br/&gt;Sub-question of F143 V3 Q32 &#39;Combined estr/testost pills&#39;. </comment>
+	<value code="1">Estratest</value>
+	<value code="2">Estratest HS</value>
+	<value code="8">Other</value>
+</variable>
+
+<variable id="phv00077613.v1">
+	<name>EPL_3</name>
+	<description>Used Estrogen pills</description>
+	<type>encoded value</type>
+	<comment>In the past 2 years, did you use ESTROGEN PILLS which were prescibed by a doctor (for example, Premarin, Estrace, Ogen)?  (Do not include the combined pill of estrogen and progestin or the combined pill of estrogen and testosterone.)
+		Sub-question of F143 V3 Q30 &#39;Used female hormones&#39;. </comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+	<value code="9">Don&#39;t know</value>
+</variable>
+
+<variable id="phv00077614.v1">
+	<name>EPLDUR_3</name>
+	<description>Used Estrogen pills - how many months</description>
+	<type>encoded value</type>
+	<comment>In the past 2 years, how many months did you use ESTROGEN PILLS?
+		Sub-question of F143 V3 Q30 &#39;Used female hormones&#39;.&lt;br/&gt;Sub-question of F143 V3 Q33 &#39;Used estrogen pills&#39;. </comment>
+	<value code="1">Less than 1 month</value>
+	<value code="2">1-6 months</value>
+	<value code="3">7-10 months</value>
+	<value code="4">11-12 months</value>
+	<value code="5">13-18 months</value>
+	<value code="6">19-24 months</value>
+</variable>
+
+<variable id="phv00077615.v1">
+	<name>EPLDAYS_3</name>
+	<description>Used Estrogen pills - average number of days</description>
+	<type>encoded value</type>
+	<comment>In the past 2 years, when you were using ESTROGEN pills, what was the average number of days each month you used the pills?
+		Sub-question of F143 V3 Q30 &#39;Used female hormones&#39;.&lt;br/&gt;Sub-question of F143 V3 Q33 &#39;Used estrogen pills&#39;. </comment>
+	<value code="0">Less than 1 day</value>
+	<value code="1">1-7 days</value>
+	<value code="2">8-14 days</value>
+	<value code="3">15-21 days</value>
+	<value code="4">22-27 days</value>
+	<value code="5">28 or more days</value>
+</variable>
+
+<variable id="phv00077616.v1">
+	<name>EPLTYPE_3</name>
+	<description>Estrogen pills used longest</description>
+	<type>encoded value</type>
+	<comment>In the past 2 years, what type of ESTROGEN pill did you use the longest?
+		Sub-question of F143 V3 Q30 &#39;Used female hormones&#39;.&lt;br/&gt;Sub-question of F143 V3 Q33 &#39;Used estrogen pills&#39;. </comment>
+	<value code="1">Premarin or conj equine estrogens</value>
+	<value code="2">Estrace</value>
+	<value code="3">Ogen</value>
+	<value code="8">Other</value>
+	<value code="9">Don&#39;t know</value>
+</variable>
+
+<variable id="phv00077617.v1">
+	<name>EPLDOSE_3</name>
+	<description>Estrogen pills - dosage</description>
+	<type>encoded value</type>
+	<comment>What dose did you usually take each day?  (Mark one.  If you regularly take more than one dose, mark the lowest dose.)
+		Sub-question of F143 V3 Q30 &#39;Used female hormones&#39;.&lt;br/&gt;Sub-question of F143 V3 Q33 &#39;Used estrogen pills&#39;. </comment>
+	<value code="1">0.3 mg</value>
+	<value code="2">0.625 mg</value>
+	<value code="3">0.9 mg</value>
+	<value code="4">1 mg</value>
+	<value code="5">1.25 mg</value>
+	<value code="6">2 mg</value>
+	<value code="7">2.5 mg</value>
+	<value code="8">Other</value>
+	<value code="9">Don&#39;t know</value>
+</variable>
+
+<variable id="phv00077618.v1">
+	<name>ESHT_3</name>
+	<description>Used Estrogen shots</description>
+	<type>encoded value</type>
+	<comment>In the past 2 years, did you take shots containing the hormone ESTROGEN?
+		Sub-question of F143 V3 Q30 &#39;Used female hormones&#39;. </comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+	<value code="9">Don&#39;t know</value>
+</variable>
+
+<variable id="phv00077619.v1">
+	<name>ESHTDUR_3</name>
+	<description>Used Estrogen shots - how many months</description>
+	<type>encoded value</type>
+	<comment>In the past 2 years, how many months did you take the shots?  (Count each shot as one month.)
+		Sub-question of F143 V3 Q30 &#39;Used female hormones&#39;.&lt;br/&gt;Sub-question of F143 V3 Q34 &#39;Took estrogen shots&#39;. </comment>
+	<value code="1">Less than 1 month</value>
+	<value code="2">1-6 months</value>
+	<value code="3">7-10 months</value>
+	<value code="4">11-12 months</value>
+	<value code="5">13-18 months</value>
+	<value code="6">19-24 months</value>
+</variable>
+
+<variable id="phv00077620.v1">
+	<name>ECRM_3</name>
+	<description>Used Estrogen vaginal cream or suppository</description>
+	<type>encoded value</type>
+	<comment>In the past 2 years, did you use a vaginal cream or suppository containing ESTROGEN which was prescribed by a doctor?
+		Sub-question of F143 V3 Q30 &#39;Used female hormones&#39;. </comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+	<value code="9">Don&#39;t know</value>
+</variable>
+
+<variable id="phv00077621.v1">
+	<name>ECRMDUR_3</name>
+	<description>Estrogen vaginal cream or suppository - how many months</description>
+	<type>encoded value</type>
+	<comment>In the past 2 years, how many months did you use the vaginal cream or suppository?
+		Sub-question of F143 V3 Q30 &#39;Used female hormones&#39;.&lt;br/&gt;Sub-question of F143 V3 Q35 &#39;Used estrogen in vaginal cream&#39;. </comment>
+	<value code="1">Less than 1 month</value>
+	<value code="2">1-6 months</value>
+	<value code="3">7-10 months</value>
+	<value code="4">11-12 months</value>
+	<value code="5">13-18 months</value>
+	<value code="6">19-24 months</value>
+</variable>
+
+<variable id="phv00077622.v1">
+	<name>EPCH_3</name>
+	<description>Used Estrogen skin patch containing</description>
+	<type>encoded value</type>
+	<comment>In the past 2 years, did you use a SKIN PATCH containing the hormone ESTROGEN with or without PROGESTERONE (for example, Estraderm, Climera, Vivelle)?
+		Sub-question of F143 V3 Q30 &#39;Used female hormones&#39;.&lt;br/&gt;On forms 146-148  this variable reflects non-combination estrogen use only. </comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+	<value code="9">Don&#39;t know</value>
+</variable>
+
+<variable id="phv00077623.v1">
+	<name>EPCHDUR_3</name>
+	<description>Used Estrogen skin patch - how many months</description>
+	<type>encoded value</type>
+	<comment>In the past 2 years, how many months did you use the patch?
+		Sub-question of F143 V3 Q30 &#39;Used female hormones&#39;.&lt;br/&gt;Sub-question of F143 V3 Q36 &#39;Used estrogen skin patch&#39;. </comment>
+	<value code="1">Less than 1 month</value>
+	<value code="2">1-6 months</value>
+	<value code="3">7-10 months</value>
+	<value code="4">11-12 months</value>
+	<value code="5">13-18 months</value>
+	<value code="6">19-24 months</value>
+</variable>
+
+<variable id="phv00077624.v1">
+	<name>EPCHTYPE_3</name>
+	<description>Used Estrogen Skin patch - what type</description>
+	<type>encoded value</type>
+	<comment>In the past 2 years, what type of patch did you use the longest?
+		Sub-question of F143 V3 Q30 &#39;Used female hormones&#39;.&lt;br/&gt;Sub-question of F143 V3 Q36 &#39;Used estrogen skin patch&#39;. </comment>
+	<value code="1">Estrogen</value>
+	<value code="2">Estrogen plus progesterone</value>
+	<value code="8">Other</value>
+	<value code="9">Don&#39;t know</value>
+</variable>
+
+<variable id="phv00077625.v1">
+	<name>EPCHDOSE_3</name>
+	<description>Estrogen skin patch - dosage</description>
+	<type>encoded value</type>
+	<comment>What dose of ESTROGEN was in the skin patch you usually used?
+		Sub-question of F143 V3 Q30 &#39;Used female hormones&#39;.&lt;br/&gt;Sub-question of F143 V3 Q36 &#39;Used estrogen skin patch&#39;. </comment>
+	<value code="1">0.05 mg</value>
+	<value code="2">0.1 mg</value>
+	<value code="8">Other</value>
+	<value code="9">Don&#39;t know</value>
+</variable>
+
+<variable id="phv00077626.v1">
+	<name>EPCHCHNG_3</name>
+	<description>Estrogen skin patch - times changed per week</description>
+	<type>encoded value</type>
+	<comment>What was the average number of times each week that you changed your skin patch?
+		Sub-question of F143 V3 Q30 &#39;Used female hormones&#39;.&lt;br/&gt;Sub-question of F143 V3 Q36 &#39;Used estrogen skin patch&#39;. </comment>
+	<value code="1">Less than once each week</value>
+	<value code="2">1-2 times each week</value>
+	<value code="3">3-4 times each week</value>
+	<value code="4">5 or more times each week</value>
+</variable>
+
+<variable id="phv00077627.v1">
+	<name>PPL_3</name>
+	<description>Used Progesterone</description>
+	<type>encoded value</type>
+	<comment>In the past 2 years, did you use the female hormone PILL called PROGESTERONE or progestin (for example, Provera, Cycrin, Amen, Megace)?  (Do not include the combined pill of estrogen and progestin.)
+		Sub-question of F143 V3 Q30 &#39;Used female hormones&#39;. </comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+	<value code="9">Don&#39;t know</value>
+</variable>
+
+<variable id="phv00077628.v1">
+	<name>PPLDUR_3</name>
+	<description>Used Progesterone - how many months</description>
+	<type>encoded value</type>
+	<comment>In the past 2 years, how many months did you use PROGESTERONE or PROGESTIN pills?
+		Sub-question of F143 V3 Q30 &#39;Used female hormones&#39;.&lt;br/&gt;Sub-question of F143 V3 Q37 &#39;Used progesterone pills&#39;. </comment>
+	<value code="1">Less than 1 month</value>
+	<value code="2">1-6 months</value>
+	<value code="3">7-10 months</value>
+	<value code="4">11-12 months</value>
+	<value code="5">13-18 months</value>
+	<value code="6">19-24 months</value>
+</variable>
+
+<variable id="phv00077629.v1">
+	<name>PPLDAY_3</name>
+	<description>Used Progesterone - average number days per month</description>
+	<type>encoded value</type>
+	<comment>In the past 2 years, when you were using PROGESTERONE or PROGESTIN pills, what was the average number of days each month you used the pills?
+		Sub-question of F143 V3 Q30 &#39;Used female hormones&#39;.&lt;br/&gt;Sub-question of F143 V3 Q37 &#39;Used progesterone pills&#39;. </comment>
+	<value code="1">Less than 1 day</value>
+	<value code="2">1-9 days</value>
+	<value code="3">10-12 days</value>
+	<value code="4">13-18 days</value>
+	<value code="5">19-27 days</value>
+	<value code="6">28 or more days</value>
+</variable>
+
+<variable id="phv00077630.v1">
+	<name>PPLTYPE_3</name>
+	<description>Used Progesterone - what type</description>
+	<type>encoded value</type>
+	<comment>In the past year, what type of PROGESTERONE or PROGESTIN pill did you use the longest?
+		Sub-question of F143 V3 Q30 &#39;Used female hormones&#39;.&lt;br/&gt;Sub-question of F143 V3 Q37 &#39;Used progesterone pills&#39;. </comment>
+	<value code="1">Provera, Cycrin, Amen</value>
+	<value code="2">Megace</value>
+	<value code="3">Micronized progesterone</value>
+	<value code="8">Other</value>
+	<value code="9">Don&#39;t know</value>
+</variable>
+
+<variable id="phv00077631.v1">
+	<name>PPLDOSE_3</name>
+	<description>Progesterone - dosage</description>
+	<type>encoded value</type>
+	<comment>What dose did you usually take each day?  (Mark one.  If you regularly take more than one dose, mark the lowest dose.)
+		Sub-question of F143 V3 Q30 &#39;Used female hormones&#39;.&lt;br/&gt;Sub-question of F143 V3 Q37 &#39;Used progesterone pills&#39;. </comment>
+	<value code="1">2.5 mg</value>
+	<value code="2">5 mg</value>
+	<value code="3">7.5 mg</value>
+	<value code="4">10 mg</value>
+	<value code="5">20 mg</value>
+	<value code="6">40 mg</value>
+	<value code="7">More than 40 mg</value>
+	<value code="8">Other</value>
+	<value code="9">Don&#39;t know</value>
+</variable>
+
+<variable id="phv00077632.v1">
+	<name>CATARACT_3</name>
+	<description>Cataracts</description>
+	<type>encoded value</type>
+	<comment>Cataract(s)</comment>
+	<value code="0">No</value>
+	<value code="1">Yes, less than 12 months ago</value>
+	<value code="2">Yes, 12-23 months ago</value>
+	<value code="3">Yes, 24 or more months ago</value>
+</variable>
+
+<variable id="phv00077633.v1">
+	<name>MACDEGNR_3</name>
+	<description>Macular degeneration of retina</description>
+	<type>encoded value</type>
+	<comment>Macular degeneration of the retina</comment>
+	<value code="0">No</value>
+	<value code="1">Yes, less than 12 months ago</value>
+	<value code="2">Yes, 12-23 months ago</value>
+	<value code="3">Yes, 24 or more months ago</value>
+</variable>
+
+<variable id="phv00077634.v1">
+	<name>ASTHMA_3</name>
+	<description>Asthma</description>
+	<type>encoded value</type>
+	<comment>Asthma</comment>
+	<value code="0">No</value>
+	<value code="1">Yes, less than 12 months ago</value>
+	<value code="2">Yes, 12-23 months ago</value>
+	<value code="3">Yes, 24 or more months ago</value>
+</variable>
+
+<variable id="phv00077635.v1">
+	<name>EMPHYSEM_3</name>
+	<description>Emphysema / chronic bronchitis</description>
+	<type>encoded value</type>
+	<comment>Emphysema or chronic bronchitis</comment>
+	<value code="0">No</value>
+	<value code="1">Yes, less than 12 months ago</value>
+	<value code="2">Yes, 12-23 months ago</value>
+	<value code="3">Yes, 24 or more months ago</value>
+</variable>
+
+<variable id="phv00077636.v1">
+	<name>CHF_3</name>
+	<description>Heart failure</description>
+	<type>encoded value</type>
+	<comment>Heart failure or congestive heart failure</comment>
+	<value code="0">No</value>
+	<value code="1">Yes, less than 12 months ago</value>
+	<value code="2">Yes, 12-23 months ago</value>
+	<value code="3">Yes, 24 or more months ago</value>
+</variable>
+
+<variable id="phv00077637.v1">
+	<name>ANGINA_3</name>
+	<description>Angina</description>
+	<type>encoded value</type>
+	<comment>Angina (chest pains from the heart)</comment>
+	<value code="0">No</value>
+	<value code="1">Yes, less than 12 months ago</value>
+	<value code="2">Yes, 12-23 months ago</value>
+	<value code="3">Yes, 24 or more months ago</value>
+</variable>
+
+<variable id="phv00077638.v1">
+	<name>ATRIALFB_3</name>
+	<description>Atrial fibrillation</description>
+	<type>encoded value</type>
+	<comment>Atrial fibrillation</comment>
+	<value code="0">No</value>
+	<value code="1">Yes, less than 12 months ago</value>
+	<value code="2">Yes, 12-23 months ago</value>
+	<value code="3">Yes, 24 or more months ago</value>
+</variable>
+
+<variable id="phv00077639.v1">
+	<name>KIDNEYST_3</name>
+	<description>Kidney or bladder stones</description>
+	<type>encoded value</type>
+	<comment>Kidney or bladder stones (renal or urinary calculi)</comment>
+	<value code="0">No</value>
+	<value code="1">Yes, less than 12 months ago</value>
+	<value code="2">Yes, 12-23 months ago</value>
+	<value code="3">Yes, 24 or more months ago</value>
+</variable>
+
+<variable id="phv00077640.v1">
+	<name>KIDDIALY_3</name>
+	<description>Dialysis for kidney failure</description>
+	<type>encoded value</type>
+	<comment>Dialysis for kidney or renal failure</comment>
+	<value code="0">No</value>
+	<value code="1">Yes, less than 12 months ago</value>
+	<value code="2">Yes, 12-23 months ago</value>
+	<value code="3">Yes, 24 or more months ago</value>
+</variable>
+
+<variable id="phv00077641.v1">
+	<name>STOMULCR_3</name>
+	<description>Stomach or duodenal ulcer</description>
+	<type>encoded value</type>
+	<comment>Stomach or duodenal ulcer</comment>
+	<value code="0">No</value>
+	<value code="1">Yes, less than 12 months ago</value>
+	<value code="2">Yes, 12-23 months ago</value>
+	<value code="3">Yes, 24 or more months ago</value>
+</variable>
+
+<variable id="phv00077642.v1">
+	<name>DIVERTIC_3</name>
+	<description>Diverticulitis</description>
+	<type>encoded value</type>
+	<comment>Diverticulitis</comment>
+	<value code="0">No</value>
+	<value code="1">Yes, less than 12 months ago</value>
+	<value code="2">Yes, 12-23 months ago</value>
+	<value code="3">Yes, 24 or more months ago</value>
+</variable>
+
+<variable id="phv00077643.v1">
+	<name>PANCREAT_3</name>
+	<description>Pancreatitis</description>
+	<type>encoded value</type>
+	<comment>Pancreatitis (inflamed pancreas)</comment>
+	<value code="0">No</value>
+	<value code="1">Yes, less than 12 months ago</value>
+	<value code="2">Yes, 12-23 months ago</value>
+	<value code="3">Yes, 24 or more months ago</value>
+</variable>
+
+<variable id="phv00077644.v1">
+	<name>LIVRDIS_3</name>
+	<description>Liver disease</description>
+	<type>encoded value</type>
+	<comment>Liver disease (chronic active hepatitis, cirrhosis, or yellow jaundice)</comment>
+	<value code="0">No</value>
+	<value code="1">Yes, less than 12 months ago</value>
+	<value code="2">Yes, 12-23 months ago</value>
+	<value code="3">Yes, 24 or more months ago</value>
+</variable>
+
+<variable id="phv00077645.v1">
+	<name>OVRTHY_3</name>
+	<description>Overactive thyroid</description>
+	<type>encoded value</type>
+	<comment>Overactive thyroid</comment>
+	<value code="0">No</value>
+	<value code="1">Yes, less than 12 months ago</value>
+	<value code="2">Yes, 12-23 months ago</value>
+	<value code="3">Yes, 24 or more months ago</value>
+</variable>
+
+<variable id="phv00077646.v1">
+	<name>UNDTHY_3</name>
+	<description>Underactive thyroid</description>
+	<type>encoded value</type>
+	<comment>Underactive thyroid</comment>
+	<value code="0">No</value>
+	<value code="1">Yes, less than 12 months ago</value>
+	<value code="2">Yes, 12-23 months ago</value>
+	<value code="3">Yes, 24 or more months ago</value>
+</variable>
+
+<variable id="phv00077647.v1">
+	<name>ALZHEIM_3</name>
+	<description>Alzheimer&#39;s disease</description>
+	<type>encoded value</type>
+	<comment>Alzheimer&#39;s disease</comment>
+	<value code="0">No</value>
+	<value code="1">Yes, less than 12 months ago</value>
+	<value code="2">Yes, 12-23 months ago</value>
+	<value code="3">Yes, 24 or more months ago</value>
+</variable>
+
+<variable id="phv00077648.v1">
+	<name>MS_3</name>
+	<description>Multiple sclerosis</description>
+	<type>encoded value</type>
+	<comment>Multiple sclerosis</comment>
+	<value code="0">No</value>
+	<value code="1">Yes, less than 12 months ago</value>
+	<value code="2">Yes, 12-23 months ago</value>
+	<value code="3">Yes, 24 or more months ago</value>
+</variable>
+
+<variable id="phv00077649.v1">
+	<name>PARKINS_3</name>
+	<description>Parkinson&#39;s disease</description>
+	<type>encoded value</type>
+	<comment>Parkinson&#39;s disease</comment>
+	<value code="0">No</value>
+	<value code="1">Yes, less than 12 months ago</value>
+	<value code="2">Yes, 12-23 months ago</value>
+	<value code="3">Yes, 24 or more months ago</value>
+</variable>
+
+<variable id="phv00077650.v1">
+	<name>ALS_3</name>
+	<description>ALS/Lou Gehrig&#39;s disease</description>
+	<type>encoded value</type>
+	<comment>Amyotropic Lateral Sclerosis (ALS, motor neuron disease, or Lou Gehrig&#39;s disease)</comment>
+	<value code="0">No</value>
+	<value code="1">Yes, less than 12 months ago</value>
+	<value code="2">Yes, 12-23 months ago</value>
+	<value code="3">Yes, 24 or more months ago</value>
+</variable>
+
+<variable id="phv00077651.v1">
+	<name>TEPIWK</name>
+	<description>Episodes recreational phys activity per week</description>
+	<type>decimal</type>
+	<logical_min>0</logical_min>
+	<logical_max>25</logical_max>
+	<comment>Computed from Form 143, questions 6, 7.1, 7.3, and 7.5.  Total number of  episodes per week of recreational physical activity (includes walking, mild, moderate and strenuous physical activity).</comment>
+</variable>
+
+<variable id="phv00077652.v1">
+	<name>LEPITOT</name>
+	<description>Episodes recreational phys activity per week &gt;= 20 Min</description>
+	<type>decimal</type>
+	<logical_min>0</logical_min>
+	<logical_max>25</logical_max>
+	<comment>Computed from Form 143, questions 6, 6.1, 7.1, 7.2, 7.3, 7.4, 7.5 and 7.6.  Episodes per week of recreational physical activity of &gt;=20 minutes duration (includes walking, mild, moderate and strenuous physical activity).</comment>
+</variable>
+
+<variable id="phv00077653.v1">
+	<name>MSEPIWK</name>
+	<description>Episodes moderate to strenuous phys activity per week</description>
+	<type>decimal</type>
+	<logical_min>0</logical_min>
+	<logical_max>19</logical_max>
+	<comment>Computed from Form 143, questions 6.2, 7.1, and 7.3.  Episodes per week of moderate and strenuous recreational physical activity (includes walking fairly fast or very fast, moderate physical activity and strenuous physical activity).</comment>
+</variable>
+
+<variable id="phv00077654.v1">
+	<name>XLMSEPI</name>
+	<description>Episdoes moderate to strenuous activity &gt;= 20 min/week</description>
+	<type>decimal</type>
+	<logical_min>0</logical_min>
+	<logical_max>19</logical_max>
+	<comment>Computed from Form 143, questions 6, 6.1, 6.2, 7.1, 7.2, 7.3 and 7.4.  Episodes per week of moderate and strenuous recreational physical activity of &gt;=20 minutes duration (includes walking fairly fast or very fast, moderate physical activity and strenuous physical activity).</comment>
+</variable>
+
+<variable id="phv00077655.v1">
+	<name>LMSEPI</name>
+	<description>Episodes moderate-strenuous activity &gt;=20 min/wk (categorical)</description>
+	<type>encoded value</type>
+	<comment>Computed from Form 143, questions 6, 6.1, 6.2, 7.1, 7.2, 7.3, and 7.4.  Categorical variable of episodes per week of moderate and strenuous recreational physical activity of &gt;= 20 minutes duration (includes walking fairly fast or very fast, moderate physical activity and strenuous physical activity).  Computed from XLMSEPI and TEPIWK.</comment>
+	<value code="1">No activity</value>
+	<value code="2">Some activity of limited duration</value>
+	<value code="3">2 - &lt;4 episodes per week</value>
+	<value code="4">4 episodes per week</value>
+</variable>
+
+<variable id="phv00077656.v1">
+	<name>SEPIWK</name>
+	<description>Strenuous activity episodes per week</description>
+	<type>encoded value</type>
+	<comment>Computed from Form 143, question 7.1.  Episodes per week of strenuous recreational physical activity.</comment>
+	<value code="0">0</value>
+	<value code="1">1</value>
+	<value code="2">2</value>
+	<value code="3">3</value>
+	<value code="4">4</value>
+	<value code="6">5 or more</value>
+</variable>
+
+<variable id="phv00077657.v1">
+	<name>TMINWK</name>
+	<description>Minutes of recreational phys activity per week</description>
+	<type>decimal</type>
+	<unit>minutes</unit>
+	<logical_min>0</logical_min>
+	<logical_max>1380</logical_max>
+	<comment>Computed from Form 143, questions 6, 6.1, 7.1, 7.2, 7.3, 7.4, 7.5, and 7.6.  Total minutes per week of recreational physical activity (includes walking, mild, moderate and strenuous physical activity).</comment>
+</variable>
+
+<variable id="phv00077658.v1">
+	<name>MSMINWK</name>
+	<description>Minutes of moderate to strenuous activity per week</description>
+	<type>decimal</type>
+	<unit>minutes</unit>
+	<logical_min>0</logical_min>
+	<logical_max>1330</logical_max>
+	<comment>Computed from Form 143, questions 6, 6.2, 7.1, and 7.3.  Minutes per week of moderate and strenuous recreational physical activity (includes walking fairly fast or very fast, moderate physical activity and strenuous physical activity).</comment>
+</variable>
+
+<variable id="phv00077659.v1">
+	<name>SMINWK</name>
+	<description>Minutes of strenuous phys activity per week</description>
+	<type>decimal</type>
+	<unit>minutes</unit>
+	<logical_min>0</logical_min>
+	<logical_max>420</logical_max>
+	<comment>Computed from Form 143, questions 7.1 and 7.2.  Minutes per week of strenuous recreational physical activity.</comment>
+</variable>
+
+<variable id="phv00077660.v1">
+	<name>TEXPWK</name>
+	<description>Total energy expended from recreational phys activity (MET-hours/week)</description>
+	<type>decimal</type>
+	<unit>MET-hours</unit>
+	<logical_min>0</logical_min>
+	<logical_max>115.66667</logical_max>
+	<comment>Computed from Form 143, questions 6, 6.1, 6.2, 7.1, 7.2, 7.3, 7.4, 7.5, and 7.6.  Total MET-hours per week.  Expenditure of energy from recreational physical activity (includes walking, mild, moderate and strenuous physical activity in kcal/week/kg).</comment>
+</variable>
+
+<variable id="phv00077661.v1">
+	<name>WALKEXP</name>
+	<description>MET-hours per week from walking</description>
+	<type>decimal</type>
+	<unit>MET-hours</unit>
+	<logical_min>0</logical_min>
+	<logical_max>40.83333</logical_max>
+	<comment>Computed from Form 143, questions 6, 6.1, and 6.2.  Expenditure of energy from physical activity from walking in kcal/week/kg (MET-hours per week).</comment>
+</variable>
+
+<variable id="phv00077662.v1">
+	<name>AVWKEXP</name>
+	<description>Energy expend from average walking (MET-hours/week)</description>
+	<type>decimal</type>
+	<unit>MET-hours</unit>
+	<logical_min>0</logical_min>
+	<logical_max>24.5</logical_max>
+	<comment>Computed from Form 143, questions 6, 6.1 and 6.2.  Energy expenditure from average walking (2-3 mph) in MET-hours per week.  If question 6.2 (speed of walking) was marked as &#39;don&#39;t know&#39; or was missing, the speed was assumed to be 2-3 mph.</comment>
+</variable>
+
+<variable id="phv00077663.v1">
+	<name>FFWKEXP</name>
+	<description>Energy expend from walking fairly fast (MET-hours/week)</description>
+	<type>decimal</type>
+	<unit>MET-hours</unit>
+	<logical_min>0</logical_min>
+	<logical_max>32.66667</logical_max>
+	<comment>Computed from Form 143, questions 6, 6.1 and 6.2. Energy expenditure form walking fairly fast (3-4 mph) in MET-hours per week.</comment>
+</variable>
+
+<variable id="phv00077664.v1">
+	<name>VFWKEXP</name>
+	<description>Energy expend from walking very fast (MET-hours/week)</description>
+	<type>decimal</type>
+	<unit>MET-hours</unit>
+	<logical_min>0</logical_min>
+	<logical_max>40.83333</logical_max>
+	<comment>Computed from Form 143, questions 6, 6.1, and 6.2.  Energy expenditure from walking very fast (&gt; 4 mph) in MET-hours per week.</comment>
+</variable>
+
+<variable id="phv00077665.v1">
+	<name>HARDEXP</name>
+	<description>Energy expenditure from hard exercise (MET-hours/week)</description>
+	<type>decimal</type>
+	<unit>MET-hours</unit>
+	<logical_min>0</logical_min>
+	<logical_max>49</logical_max>
+	<comment>Computed from Form 143, questions 7.1 and 7.2.  Energy expenditure from strenuous or very hard exercise (for example, aerobics, aerobic dancing, jogging, tennis, swimming laps) in MET-hours per week.</comment>
+</variable>
+
+<variable id="phv00077666.v1">
+	<name>MODEXP</name>
+	<description>Energy expend from moderate exercise (MET-hours/week)</description>
+	<type>decimal</type>
+	<unit>MET-hours</unit>
+	<logical_min>0</logical_min>
+	<logical_max>31.5</logical_max>
+	<comment>Computed from Form 143, questions 7.3 and 7.4.  Energy expenditure from moderate exercise (for example, biking outdoors, using an exercise machine, calisthenics, easy swimming, popular or folk dancing) in MET-hours per week.</comment>
+</variable>
+
+<variable id="phv00077667.v1">
+	<name>MILDEXP</name>
+	<description>Energy expenditure from mild exercise (MET-hours/week)</description>
+	<type>decimal</type>
+	<unit>MET-hours</unit>
+	<logical_min>0</logical_min>
+	<logical_max>21</logical_max>
+	<comment>Computed from Form 143, questions 7.5 and 7.6.  Energy expenditure from mild exercise (for example, slow dancing, bowling, golf) in MET-hours per week.</comment>
+</variable>
+
+<variable id="phv00077668.v1">
+	<name>ELST2YR_3</name>
+	<description>Estrogen use last 2 years</description>
+	<type>encoded value</type>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00077669.v1">
+	<name>PLST2YR_3</name>
+	<description>Progesterone use last 2 years</description>
+	<type>encoded value</type>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00077670.v1">
+	<name>HLST2YR_3</name>
+	<description>Hormone use last 2 years (estrogen or progesterone)</description>
+	<type>encoded value</type>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+</data_table>

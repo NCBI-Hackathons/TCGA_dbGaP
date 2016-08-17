@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./datadict_v2.xsl"?>
+<data_table id="pht000719.v1" study_id="phs000167.v1" participant_set="1" date_created="Wed Apr 22 13:18:14 2009">
+
+<variable id="phv00071758.v1">
+	<name>SUBJID</name>
+	<description>Subject ID - collection site ID (called SiteSubjID in phenotypic files) consisting of Site (not used for SGI collection, 2 digits for MGS1 collection, and 3 digits for MGS2 collection), Family (5 digits for SGI collection, and 4 digits for MGS1 or MGS2 collections) and Individual_within_family (5 digits for SGI collection, and 3 digits for MGS1 or MGS2 collections) with hyphens between the 2-3 elements for the cases and parents; OR consisting of Site (3 digits, always 150) and Individual (5 digits) with hyphens between the 2 elements for the controls</description>
+	<type>string</type>
+</variable>
+
+<variable id="phv00071759.v1">
+	<name>SAMPID_NG-format</name>
+	<description>SAMPID (nonGAIN_ID), written as NG-5-digit number</description>
+	<type>string</type>
+	<comment>&quot;NG-&quot; followed by 5-digit number</comment>
+</variable>
+
+<variable id="phv00071760.v1">
+	<name>SAMP_SOURCE</name>
+	<description>Source repository where samples originate</description>
+	<type>string</type>
+	<comment>All from RUCDR (Rutgers University Cell and DNA Repository)</comment>
+</variable>
+
+<variable id="phv00071761.v1">
+	<name>SOURCE_SAMPID</name>
+	<description>Sample ID used in the Source Repository</description>
+	<type>string</type>
+	<comment>Also known as DNA_ID, the ID number assigned by the RUCDR to this subject&#39;s DNA specimens</comment>
+</variable>
+
+<variable id="phv00071762.v1">
+	<name>SAMP_SOURCE2</name>
+	<description>Genotyping set (in this cases nonGAIN, as opposed to previous GAIN_EA and GAIN_AA done in the same collection study on diffferent samples)</description>
+	<comment>NonGAIN_Schizophrenia</comment>
+</variable>
+
+<variable id="phv00071763.v1">
+	<name>SOURCE_SAMPID2</name>
+	<description>Sample ID - also called nonGAIN_ID (in subject file)</description>
+	<comment>Five-digit number</comment>
+</variable>
+
+<variable id="phv00071764.v1">
+	<name>SAMP_SOURCE3</name>
+	<description>Genotyping set (in this cases nonGAIN, as opposed to previous GAIN_EA and GAIN_AA done in the same collection study on diffferent samples)</description>
+	<comment>NonGAIN_Schizophrenia</comment>
+</variable>
+
+<variable id="phv00071765.v1">
+	<name>SOURCE_SAMPID3</name>
+	<description>Intraplate duplicate sample for QC purposes</description>
+	<comment>Five-digit number followed by &quot;.dup&quot; (blank if no duplicate sample)</comment>
+</variable>
+
+<variable id="phv00071766.v1">
+	<name>SAMP_SOURCE4</name>
+	<description>Genotyping set (in this cases nonGAIN, as opposed to previous GAIN_EA and GAIN_AA done in the same collection study on diffferent samples)</description>
+	<comment>NonGAIN_Schizophrenia</comment>
+</variable>
+
+<variable id="phv00071767.v1">
+	<name>SOURCE_SAMPID4</name>
+	<description>DupSAMPID, written as NG-5 digit number.dup</description>
+	<comment>&quot;NG-&quot; followed by 5-digit number followed by &quot;.dup&quot; (blank if no duplicate sample)</comment>
+</variable>
+
+</data_table>

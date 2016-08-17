@@ -1,0 +1,362 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./datadict_v2.xsl"?>
+<data_table id="pht000345.v1" study_id="phs000086.v1" participant_set="1" date_created="Thu Jan 29 15:38:18 2009">
+
+<variable id="phv00051188.v1">
+	<name>clinic</name>
+	<description>A1. Identifying information. De-identified EDIC clinic number</description>
+	<type>byte</type>
+</variable>
+
+<variable id="phv00051187.v1">
+	<name>form</name>
+	<description>EDIC form number</description>
+	<type>int</type>
+</variable>
+
+<variable id="phv00051231.v1">
+	<name>fsasdate</name>
+	<description>A4. Identifying information. De-identified date form completed</description>
+	<type>int</type>
+</variable>
+
+<variable id="phv00051233.v1">
+	<name>ibb1adat</name>
+	<description>B1. Recognition of event. De-identified date of occurrence</description>
+	<type>int</type>
+</variable>
+
+<variable id="phv00051189.v1">
+	<name>ibb1b</name>
+	<description>B1. Recognition of event: if date uncertain</description>
+	<type>byte</type>
+	<value code="1">Date uncertain</value>
+</variable>
+
+<variable id="phv00051234.v1">
+	<name>ibb2bdat</name>
+	<description>B2. Recognition of event. De-identified date clinic learned of the event</description>
+	<type>int</type>
+</variable>
+
+<variable id="phv00051190.v1">
+	<name>ibb3</name>
+	<description>B3. Recognition of event. How did clinic learn of the event</description>
+	<type>byte</type>
+	<value code="1">Annual medical history and physical exam</value>
+	<value code="2">Quarterly telephone interview</value>
+	<value code="3">Patient/family notified clinic</value>
+	<value code="4">Third party notified clinic</value>
+	<value code="5">Clinic recognized event and informed patient</value>
+</variable>
+
+<variable id="phv00051191.v1">
+	<name>ibc1</name>
+	<description>C1. Intermittent claudication (peripheral ischemia). Do you get pain in either leg on walking?</description>
+	<type>byte</type>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+</variable>
+
+<variable id="phv00051201.v1">
+	<name>ibc10</name>
+	<description>C10. Intermittent claudication (peripheral ischemia). Since first noticing the pain</description>
+	<type>byte</type>
+	<value code="1">Increased</value>
+	<value code="2">Decreased</value>
+	<value code="3">Unchanged</value>
+</variable>
+
+<variable id="phv00051192.v1">
+	<name>ibc2</name>
+	<description>C2. Intermittent claudication (peripheral ischemia). Does pain begin when standing or sitting</description>
+	<type>byte</type>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+</variable>
+
+<variable id="phv00051194.v1">
+	<name>ibc3l</name>
+	<description>C3l. Intermittent claudication (peripheral ischemia). In what part of your (left) leg do you feel pain?</description>
+	<type>byte</type>
+	<value code="1">Buttock</value>
+	<value code="2">Thigh</value>
+	<value code="3">Calf</value>
+</variable>
+
+<variable id="phv00051193.v1">
+	<name>ibc3r</name>
+	<description>C3r. Intermittent claudication (peripheral ischemia). In what part of your (right) leg do you feel pain?</description>
+	<type>byte</type>
+	<value code="1">Buttock</value>
+	<value code="2">Thigh</value>
+	<value code="3">Calf</value>
+</variable>
+
+<variable id="phv00051195.v1">
+	<name>ibc4</name>
+	<description>C4. Intermittent claudication (peripheral ischemia). Do you get it (pain) if you walk uphill or hurry?</description>
+	<type>byte</type>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+</variable>
+
+<variable id="phv00051196.v1">
+	<name>ibc5</name>
+	<description>C5. Intermittent claudication (peripheral ischemia). Do you get pain if you walk at an ordinary pace on the level?</description>
+	<type>byte</type>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+</variable>
+
+<variable id="phv00051197.v1">
+	<name>ibc6</name>
+	<description>C6. Intermittent claudication (peripheral ischemia). Does the pain disappear while you are walking?</description>
+	<type>byte</type>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+</variable>
+
+<variable id="phv00051198.v1">
+	<name>ibc7</name>
+	<description>C7. Intermittent claudication (peripheral ischemia). What do you do if you get pain when you are walking?</description>
+	<type>byte</type>
+	<value code="1">Stop</value>
+	<value code="2">Slow down</value>
+	<value code="3">Continue at the same pace</value>
+</variable>
+
+<variable id="phv00051199.v1">
+	<name>ibc8</name>
+	<description>C8. Intermittent claudication (peripheral ischemia). What happens to pain if stand still</description>
+	<type>byte</type>
+	<value code="1">Relieved</value>
+	<value code="2">Not relieved</value>
+</variable>
+
+<variable id="phv00051200.v1">
+	<name>ibc9</name>
+	<description>C9. Intermittent claudication (peripheral ischemia). If pain is relieved by standing still, how soon?</description>
+	<type>byte</type>
+	<value code="1">Not applicable</value>
+	<value code="2">10 Minutes or less</value>
+	<value code="3">More than 10 minutes</value>
+</variable>
+
+<variable id="phv00051202.v1">
+	<name>ibd1</name>
+	<description>D1. Amputation: part of the lower extremity</description>
+	<type>byte</type>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+</variable>
+
+<variable id="phv00051203.v1">
+	<name>ibd2a</name>
+	<description>D2a. Amputation: traumatic</description>
+	<type>byte</type>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+</variable>
+
+<variable id="phv00051204.v1">
+	<name>ibd2b</name>
+	<description>D2b. Amputation: surgical</description>
+	<type>byte</type>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+</variable>
+
+<variable id="phv00051205.v1">
+	<name>ibe1</name>
+	<description>E1. Other arterial events. Has patient had other arterial events</description>
+	<type>byte</type>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+</variable>
+
+<variable id="phv00051206.v1">
+	<name>ibe2a</name>
+	<description>E2a. Other arterial events: bypass</description>
+	<type>byte</type>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+</variable>
+
+<variable id="phv00051207.v1">
+	<name>ibe2b</name>
+	<description>E2b. Other arterial events: angioplasty</description>
+	<type>byte</type>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+</variable>
+
+<variable id="phv00051208.v1">
+	<name>ibe2c</name>
+	<description>E2c. Other arterial events. Other arterial events</description>
+	<type>byte</type>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+</variable>
+
+<variable id="phv00051209.v1">
+	<name>ibe2coth</name>
+	<description>E2. Other arterial events. Other arterial events: specify</description>
+	<type>str20</type>
+</variable>
+
+<variable id="phv00051210.v1">
+	<name>ibf1</name>
+	<description>F1. Lower  extremity ulcer. Has the patient had extremity ulcer?</description>
+	<type>byte</type>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+</variable>
+
+<variable id="phv00051211.v1">
+	<name>ibf2af</name>
+	<description>F2af. Lower  extremity ulcer: right side, foot</description>
+	<type>byte</type>
+	<value code="1">Foot</value>
+</variable>
+
+<variable id="phv00051212.v1">
+	<name>ibf2al</name>
+	<description>F2al. Lower  extremity ulcer: right side, leg</description>
+	<type>byte</type>
+	<value code="1">Leg</value>
+</variable>
+
+<variable id="phv00051213.v1">
+	<name>ibf2bf</name>
+	<description>F2bf. Lower  extremity ulcer: left side, foot</description>
+	<type>byte</type>
+	<value code="1">Foot</value>
+</variable>
+
+<variable id="phv00051214.v1">
+	<name>ibf2bl</name>
+	<description>F2bl. Lower  extremity ulcer:  left side, leg</description>
+	<type>byte</type>
+	<value code="1">Leg</value>
+</variable>
+
+<variable id="phv00051215.v1">
+	<name>ibf2cf</name>
+	<description>F2cf. Lower  extremity ulcer: traumatic, foot</description>
+	<type>byte</type>
+	<value code="1">Foot</value>
+</variable>
+
+<variable id="phv00051216.v1">
+	<name>ibf2cl</name>
+	<description>F2cl. Lower  extremity ulcer: traumatic, leg</description>
+	<type>byte</type>
+	<value code="1">Leg</value>
+</variable>
+
+<variable id="phv00051217.v1">
+	<name>ibf2df</name>
+	<description>F2df. Lower  extremity ulcer: non-traumatic, foot</description>
+	<type>byte</type>
+	<value code="1">Foot</value>
+</variable>
+
+<variable id="phv00051218.v1">
+	<name>ibf2dl</name>
+	<description>F2dl. Lower  extremity ulcer: non-traumatic, leg</description>
+	<type>byte</type>
+	<value code="1">Leg</value>
+</variable>
+
+<variable id="phv00051219.v1">
+	<name>ibf2ef</name>
+	<description>F2ef. Lower  extremity ulcer: excavation of subcutaneous foot tissue</description>
+	<type>byte</type>
+	<value code="1">Foot</value>
+</variable>
+
+<variable id="phv00051220.v1">
+	<name>ibf2el</name>
+	<description>F2el. Lower  extremity ulcer: excavation of subcutaneous leg tissue</description>
+	<type>byte</type>
+	<value code="1">Leg</value>
+</variable>
+
+<variable id="phv00051221.v1">
+	<name>ibf2ff</name>
+	<description>F2ff. Lower  extremity ulcer: loss of subcutaneous tissue, foot</description>
+	<type>byte</type>
+	<value code="1">Foot</value>
+</variable>
+
+<variable id="phv00051222.v1">
+	<name>ibf2fl</name>
+	<description>F2fl. Lower  extremity ulcer: loss of subcutaneous tissue, leg</description>
+	<type>byte</type>
+	<value code="1">Leg</value>
+</variable>
+
+<variable id="phv00051223.v1">
+	<name>ibf2gf</name>
+	<description>F2gf. Lower  extremity ulcer: inflammation, foot</description>
+	<type>byte</type>
+	<value code="1">Foot</value>
+</variable>
+
+<variable id="phv00051224.v1">
+	<name>ibf2gl</name>
+	<description>F2gl. Lower  extremity ulcer: inflammation, leg</description>
+	<type>byte</type>
+	<value code="1">Leg</value>
+</variable>
+
+<variable id="phv00051225.v1">
+	<name>ibf2hf</name>
+	<description>F2hf. Lower  extremity ulcer: infection, foot</description>
+	<type>byte</type>
+	<value code="1">Foot</value>
+</variable>
+
+<variable id="phv00051226.v1">
+	<name>ibf2hl</name>
+	<description>F2hl. Lower  extremity ulcer: infection, leg</description>
+	<type>byte</type>
+	<value code="1">Leg</value>
+</variable>
+
+<variable id="phv00051227.v1">
+	<name>ibf2if</name>
+	<description>F2if. Lower  extremity ulcer: treatment in an office, foot</description>
+	<type>byte</type>
+	<value code="1">Foot</value>
+</variable>
+
+<variable id="phv00051228.v1">
+	<name>ibf2il</name>
+	<description>F2il. Lower  extremity ulcer: treatment in an office, leg</description>
+	<type>byte</type>
+	<value code="1">Leg</value>
+</variable>
+
+<variable id="phv00051229.v1">
+	<name>ibf2jf</name>
+	<description>F2jf. Lower  extremity ulcer: treatment in a hospital, foot</description>
+	<type>byte</type>
+	<value code="1">Foot</value>
+</variable>
+
+<variable id="phv00051230.v1">
+	<name>ibf2jl</name>
+	<description>F2jl. Lower  extremity ulcer: treatment in a hospital, leg</description>
+	<type>byte</type>
+	<value code="1">Leg</value>
+</variable>
+
+<variable id="phv00051232.v1">
+	<name>mask_pat</name>
+	<description>A2. Identifying information. De-identified patient ID</description>
+	<type>int</type>
+</variable>
+
+</data_table>

@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./datadict_v2.xsl"?>
+<data_table id="pht001077.v1" study_id="phs000219.v1" participant_set="1" date_created="Tue Jan 19 13:07:14 2010">
+
+<unique_key phv="00081840" version="1">SUBJID</unique_key>
+<unique_key phv="00081844" version="1">VISIT</unique_key>
+
+<variable id="phv00081840.v1">
+	<name>SUBJID</name>
+	<description>Subject&#39;s ID</description>
+	<type>String</type>
+</variable>
+
+<variable id="phv00081841.v1">
+	<name>CASE_CONTROL</name>
+	<description>Subject type</description>
+	<type>Encoded value</type>
+	<value code="ADP">AD Participant</value>
+	<value code="CASE">Case</value>
+	<value code="CCCS">Control with Change in Cognitive Status</value>
+	<value code="CNTL">Control</value>
+	<value code="FAM">Family member</value>
+	<value code="UASB">Unaffected Sibling</value>
+</variable>
+
+<variable id="phv00081842.v1">
+	<name>INV</name>
+	<description>Investigator&#39;s ID</description>
+	<type>String</type>
+</variable>
+
+<variable id="phv00081843.v1">
+	<name>INVSITE</name>
+	<description>Investigator site ID</description>
+	<type>String</type>
+</variable>
+
+<variable id="phv00081844.v1">
+	<name>VISIT</name>
+	<description>Visit name</description>
+	<type>String</type>
+</variable>
+
+<variable id="phv00081845.v1">
+	<name>VISIT_DATE</name>
+	<description>Visit date</description>
+	<type>Date</type>
+	<comment>Truncated to YYYY</comment>
+</variable>
+
+<variable id="phv00081846.v1">
+	<name>ASDT</name>
+	<description>Assessment Date</description>
+	<type>Date</type>
+	<comment>Truncated to YYYY</comment>
+</variable>
+
+<variable id="phv00081847.v1">
+	<name>INTERPRETATION</name>
+	<description>Interpretation</description>
+	<type>Encoded Value</type>
+	<value code="B">Borderline</value>
+	<value code="D">Depression</value>
+	<value code="N">Normal</value>
+</variable>
+
+<variable id="phv00081848.v1">
+	<name>TOTSC</name>
+	<description>Total Score</description>
+	<type>Integer</type>
+</variable>
+
+<variable id="phv00081849.v1">
+	<name>SATISFIED_GDSR</name>
+	<description>1. ARE YOU BASICALLY SATISFIED WITH YOUR LIFE? (GDS=Geriatric Depression Scale)</description>
+	<type>Integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>1</logical_max>
+	<value code="0">Yes</value>
+	<value code="1">No</value>
+</variable>
+
+<variable id="phv00081850.v1">
+	<name>MEMORY_GDSR</name>
+	<description>10. DO YOU FEEL YOU HAVE MORE PROBLEMS WITH MEMORY THAN MOST?</description>
+	<type>Integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>1</logical_max>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00081851.v1">
+	<name>WONDERFUL_GDSR</name>
+	<description>11. DO YOU THINK IT IS WONDERFUL TO BE ALIVE NOW?</description>
+	<type>Integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>1</logical_max>
+	<value code="0">Yes</value>
+	<value code="1">No</value>
+</variable>
+
+<variable id="phv00081852.v1">
+	<name>WORTHLESS_GDSR</name>
+	<description>12. DO YOU FEEL PRETTY WORTHLESS THE WAY YOU ARE NOW?</description>
+	<type>Integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>1</logical_max>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00081853.v1">
+	<name>ENERGY_GDSR</name>
+	<description>13. DO YOU FEEL FULL OF ENERGY?</description>
+	<type>Integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>1</logical_max>
+	<value code="0">Yes</value>
+	<value code="1">No</value>
+</variable>
+
+<variable id="phv00081854.v1">
+	<name>HOPELESS_GDSR</name>
+	<description>14. DO YOU FEEL THAT YOUR SITUATION IS HOPELESS?</description>
+	<type>Integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>1</logical_max>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00081855.v1">
+	<name>BETTER_OFF_GDSR</name>
+	<description>15. DO YOU THINK THAT MOST PEOPLE ARE BETTER OFF THAN YOU ARE?</description>
+	<type>Integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>1</logical_max>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00081856.v1">
+	<name>ACTIVITIES_GDSR</name>
+	<description>2. HAVE YOU DROPPED MANY OF YOUR ACTIVITIES AND INTERESTS?</description>
+	<type>Integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>1</logical_max>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00081857.v1">
+	<name>EMPTY_GDSR</name>
+	<description>3. DO YOU FEEL THAT YOUR LIFE IS EMPTY?</description>
+	<type>Integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>1</logical_max>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00081858.v1">
+	<name>BORED_GDSR</name>
+	<description>4. DO YOU OFTEN GET BORED?</description>
+	<type>Integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>1</logical_max>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00081859.v1">
+	<name>SPIRITS_GDSR</name>
+	<description>5. ARE YOU IN GOOD SPIRITS MOST OF THE TIME?</description>
+	<type>Integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>1</logical_max>
+	<value code="0">Yes</value>
+	<value code="1">No</value>
+</variable>
+
+<variable id="phv00081860.v1">
+	<name>BAD_GDSR</name>
+	<description>6. ARE YOU AFRAID THAT SOMETHING BAD IS GOING TO HAPPEN TO YOU?</description>
+	<type>Integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>1</logical_max>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00081861.v1">
+	<name>HAPPY_GDSR</name>
+	<description>7. DO YOU FEEL HAPPY MOST OF THE TIME?</description>
+	<type>Integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>1</logical_max>
+	<value code="0">Yes</value>
+	<value code="1">No</value>
+</variable>
+
+<variable id="phv00081862.v1">
+	<name>HELPLESS_GDSR</name>
+	<description>8. DO YOU OFTEN FEEL HELPLESS?</description>
+	<type>Integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>1</logical_max>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00081863.v1">
+	<name>HOME_GDSR</name>
+	<description>9. DO YOU PREFER TO STAY AT HOME, RATHER THAN GOING OUT AND DOING NEW THINGS?</description>
+	<type>Integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>1</logical_max>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+</data_table>

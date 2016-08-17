@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./datadict_v2.xsl"?>
+<data_table id="pht000807.v1" study_id="phs000170.v1" participant_set="1" date_created="Fri Feb 12 12:28:45 2010">
+
+<unique_key phv="00073605" version="1">SUBJID</unique_key>
+<unique_key phv="00073607" version="1">Body_Mass_Index</unique_key>
+<unique_key phv="00073608" version="1">Age_Observation</unique_key>
+
+<variable id="phv00073605.v1">
+	<name>SUBJID</name>
+	<description>Deidentified Subject/eMERGE ID</description>
+	<type>integer</type>
+</variable>
+
+<variable id="phv00073607.v1">
+	<name>Body_Mass_Index</name>
+	<description>Imputed BMI based on +/- 6 months time period</description>
+	<type>decimal</type>
+	<unit>Kg/m2</unit>
+	<logical_min>9.8</logical_min>
+	<logical_max>74.6</logical_max>
+	<comment><![CDATA[Data from "<a href="javascript:getPage(this, &#39;document.cgi&#39;, 1565);return true;" onclick="javascript:getPage(this, &#39;document.cgi&#39;, 1565);return true;" oncontextmenu="javascript:getPage(this, &#39;document.cgi&#39;, 1565);return true;">PMRP-Questionnaire</a>" (page 9) may provide 0 or 1 BMI value.  All other values may come from the medical record.  BMI data source is not recorded.]]></comment>
+	<value code=".">Missing</value>
+	<value code="NA">Not Assessed</value>
+</variable>
+
+<variable id="phv00073608.v1">
+	<name>Age_Observation</name>
+	<description>Age when clinical event was recorded in record</description>
+	<type>integer</type>
+	<unit>Years</unit>
+	<logical_min>36</logical_min>
+	<logical_max>90</logical_max>
+	<comment>Non-pregnant BMIs (do not include BMIs during pregnancy)</comment>
+	<value code=".">Missing</value>
+	<value code="NA">Not Assessed</value>
+</variable>
+
+</data_table>

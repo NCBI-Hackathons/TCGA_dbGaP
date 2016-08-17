@@ -1,0 +1,395 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./datadict_v2.xsl"?>
+<data_table id="pht001175.v1" study_id="phs000222.v1" participant_set="1" date_created="Fri Apr 30 17:43:26 2010">
+
+<unique_key phv="00089239" version="1">id</unique_key>
+<unique_key phv="00089242" version="1">uhdrsvisit</unique_key>
+
+<variable id="phv00089239.v1">
+	<name>id</name>
+	<description>Anonymized Participant ID</description>
+	<type>integer</type>
+</variable>
+
+<variable id="phv00089240.v1">
+	<name>status</name>
+	<description>Case/Control Status</description>
+	<type>string</type>
+	<value code="case">case</value>
+	<value code="cont">cont</value>
+</variable>
+
+<variable id="phv00089241.v1">
+	<name>uhdrsage</name>
+	<description>Age at baseline UHDRS (Unified Huntington&#39;s Disease Rating Scale)</description>
+	<type>integer</type>
+	<unit>Years</unit>
+</variable>
+
+<variable id="phv00089242.v1">
+	<name>uhdrsvisit</name>
+	<description>Visit</description>
+	<type>integer</type>
+	<unit>Visits</unit>
+</variable>
+
+<variable id="phv00089243.v1">
+	<name>uhdrsdays</name>
+	<description>Days since last UHDRS (Unified Huntington&#39;s Disease Rating Scale)</description>
+	<type>integer</type>
+	<unit>Days</unit>
+</variable>
+
+<variable id="phv00089244.v1">
+	<name>uhdrseval</name>
+	<description>Participant or companion</description>
+	<type>encoded value</type>
+	<value code="1">Participant</value>
+	<value code="2">Companion</value>
+</variable>
+
+<variable id="phv00089245.v1">
+	<name>uhdrs25a</name>
+	<description>DEPRESSED MOOD (Frequency)</description>
+	<type>encoded value</type>
+	<value code="0">Never or almost never</value>
+	<value code="1">Seldom, less than once a week</value>
+	<value code="2">Sometimes, at least once a week</value>
+	<value code="3">Frequently, several times a week</value>
+	<value code="4">Very frequently, almost all the time</value>
+	<value code="N">Not Applicable</value>
+	<value code="U">Unavailable</value>
+</variable>
+
+<variable id="phv00089246.v1">
+	<name>uhdrs25b</name>
+	<description>DEPRESSED MOOD (Severity)</description>
+	<type>encoded value</type>
+	<value code="0">No mood disturbance</value>
+	<value code="1">Questionable or equivocal</value>
+	<value code="2">Mild, responds to redirection and reassurance</value>
+	<value code="3">Moderately depressed, expresses distress</value>
+	<value code="4">Severe, significant suffering and loss of functioning</value>
+	<value code="N">Not Applicable</value>
+	<value code="U">Unavailable</value>
+</variable>
+
+<variable id="phv00089247.v1">
+	<name>uhdrs26a</name>
+	<description>APATHY (Frequency)</description>
+	<type>encoded value</type>
+	<value code="0">Never</value>
+	<value code="1">Seldom apathetic, less than once a week</value>
+	<value code="2">Sometimes, at least once a week</value>
+	<value code="3">Frequently, several times a week</value>
+	<value code="4">Very frequently, almost all the time</value>
+	<value code="N">Not Applicable</value>
+	<value code="U">Unavailable</value>
+</variable>
+
+<variable id="phv00089248.v1">
+	<name>uhdrs26b</name>
+	<description>APATHY (Severity)</description>
+	<type>encoded value</type>
+	<value code="0">No evidence</value>
+	<value code="1">Equivocal</value>
+	<value code="2">Mild apathy, not initiating conversation or activity but is responsive</value>
+	<value code="3">Moderate apathy, sometimes responds to efforts to get involved</value>
+	<value code="4">Severe apathy, generally unresponsive to attempts to involve participant</value>
+	<value code="N">Not Applicable</value>
+	<value code="U">Unavailable</value>
+</variable>
+
+<variable id="phv00089249.v1">
+	<name>uhdrs27a</name>
+	<description>LOW SELF-ESTEEM/GUILT (Frequency)</description>
+	<type>encoded value</type>
+	<value code="0">Never or almost never</value>
+	<value code="1">Seldom, less than once a week</value>
+	<value code="2">Sometimes, at least once a week</value>
+	<value code="3">Frequently, several times a week</value>
+	<value code="4">Very frequently, almost all the time</value>
+	<value code="N">Not Applicable</value>
+	<value code="U">Unavailable</value>
+</variable>
+
+<variable id="phv00089250.v1">
+	<name>uhdrs27b</name>
+	<description>LOW SELF-ESTEEM/GUILT (Severity)</description>
+	<type>encoded value</type>
+	<value code="0">No evidence</value>
+	<value code="1">Questionable or equivocal</value>
+	<value code="2">Mild, responds to reassurance</value>
+	<value code="3">Moderate, impacts on everyday life</value>
+	<value code="4">Severe, causing a restriction of activities</value>
+	<value code="N">Not Applicable</value>
+	<value code="U">Unavailable</value>
+</variable>
+
+<variable id="phv00089251.v1">
+	<name>uhdrs28a</name>
+	<description>SUICIDAL THOUGHTS (Frequency)</description>
+	<type>encoded value</type>
+	<value code="0">Not thinking about suicide or self harm</value>
+	<value code="1">Seldom, less than once a month</value>
+	<value code="2">Sometimes, at least once a month</value>
+	<value code="3">Frequently, at least once a week</value>
+	<value code="4">Often, sometimes for days and weeks on end</value>
+	<value code="N">Not Applicable</value>
+	<value code="U">Unavailable</value>
+</variable>
+
+<variable id="phv00089252.v1">
+	<name>uhdrs28b</name>
+	<description>SUICIDAL THOUGHTS (Severity)</description>
+	<type>encoded value</type>
+	<value code="0">No suicidal thoughts</value>
+	<value code="1">No thoughts at current time, but talks of suicide as potential option</value>
+	<value code="2">Seriously considered suicide but has no plan</value>
+	<value code="3">Has a plan but no active preparations</value>
+	<value code="4">Has a plan and is actively preparing</value>
+	<value code="N">Not Applicable</value>
+	<value code="U">Unavailable</value>
+</variable>
+
+<variable id="phv00089253.v1">
+	<name>uhdrs29a</name>
+	<description>ANXIETY (Frequency)</description>
+	<type>encoded value</type>
+	<value code="0">Never or almost never</value>
+	<value code="1">Seldom, less than once a week</value>
+	<value code="2">Sometimes, at least once a week</value>
+	<value code="3">Frequently, several times a week</value>
+	<value code="4">Very frequently, almost all the time</value>
+	<value code="N">Not Applicable</value>
+	<value code="U">Unavailable</value>
+</variable>
+
+<variable id="phv00089254.v1">
+	<name>uhdrs29b</name>
+	<description>ANXIETY (Severity)</description>
+	<type>encoded value</type>
+	<value code="0">No evidence</value>
+	<value code="1">Questionable or equivocal</value>
+	<value code="2">Mild, responds to reassurance</value>
+	<value code="3">Moderate, impacts on everyday life</value>
+	<value code="4">Severe, causing a profound restriction of activities</value>
+	<value code="N">Not Applicable</value>
+	<value code="U">Unavailable</value>
+</variable>
+
+<variable id="phv00089255.v1">
+	<name>uhdrs30a</name>
+	<description>IRRITABLE BEHAVIOR (Frequency)</description>
+	<type>encoded value</type>
+	<value code="0">Never or almost never</value>
+	<value code="1">Seldom, less than once a week</value>
+	<value code="2">Sometimes, at least once a week</value>
+	<value code="3">Frequently, several times a week</value>
+	<value code="4">Very frequently, almost all the time</value>
+	<value code="N">Not Applicable</value>
+	<value code="U">Unavailable</value>
+</variable>
+
+<variable id="phv00089256.v1">
+	<name>uhdrs30b</name>
+	<description>IRRITABLE BEHAVIOR (Severity)</description>
+	<type>encoded value</type>
+	<value code="0">Behavior well controlled</value>
+	<value code="1">Questionable or equivocal</value>
+	<value code="2">Definite but mild</value>
+	<value code="3">Moderate, others change behavior to avoid irritating participant</value>
+	<value code="4">Severe irritability</value>
+	<value code="N">Not Applicable</value>
+	<value code="U">Unavailable</value>
+</variable>
+
+<variable id="phv00089257.v1">
+	<name>uhdrs31a</name>
+	<description>DISRUPTIVE or AGGRESSIVE BEHAVIOR (Frequency)</description>
+	<type>encoded value</type>
+	<value code="0">Never or almost never</value>
+	<value code="1">Seldom, less than once a month</value>
+	<value code="2">Sometimes, at least once a month</value>
+	<value code="3">Frequently, at least once a week</value>
+	<value code="4">Very frequently, every day</value>
+	<value code="N">Not Applicable</value>
+	<value code="U">Unavailable</value>
+</variable>
+
+<variable id="phv00089258.v1">
+	<name>uhdrs31b</name>
+	<description>DISRUPTIVE or AGGRESSIVE BEHAVIOR (Severity)</description>
+	<type>encoded value</type>
+	<value code="0">Behavior well controlled</value>
+	<value code="1">Physically or verbally intimidating behavior</value>
+	<value code="2">Mild physically or verbally threatening behavior</value>
+	<value code="3">Clear physical threat (moderate aggression); bumping, shoving, verbal outburst</value>
+	<value code="4">Clear physical threat (severe aggression); striking/hitting, definite intention to cause injury</value>
+	<value code="N">Not Applicable</value>
+	<value code="U">Unavailable</value>
+</variable>
+
+<variable id="phv00089259.v1">
+	<name>uhdrs32a</name>
+	<description>PERSEVERATIVE/OBSESSIONAL THINKING (Frequency)</description>
+	<type>encoded value</type>
+	<value code="0">Never or almost never</value>
+	<value code="1">Seldom, less than once a week</value>
+	<value code="2">Sometimes, at least once a week</value>
+	<value code="3">Frequently, several times a week</value>
+	<value code="4">Very frequently, almost all the time</value>
+	<value code="N">Not Applicable</value>
+	<value code="U">Unavailable</value>
+</variable>
+
+<variable id="phv00089260.v1">
+	<name>uhdrs32b</name>
+	<description>PERSEVERATIVE/OBSESSIONAL THINKING (Severity)</description>
+	<type>encoded value</type>
+	<value code="0">Thinking is always flexible</value>
+	<value code="1">Questionable or equivocal</value>
+	<value code="2">Gets stuck on certain ideas but can be easily redirected</value>
+	<value code="3">Moderate; gets stuck on certain ideas and difficult to redirect</value>
+	<value code="4">Severe; gets stuck on certain ideas, and does not respond to redirection</value>
+	<value code="N">Not Applicable</value>
+	<value code="U">Unavailable</value>
+</variable>
+
+<variable id="phv00089261.v1">
+	<name>uhdrs33a</name>
+	<description>COMPULSIVE BEHAVIOR (Frequency)</description>
+	<type>encoded value</type>
+	<value code="0">Never or almost never</value>
+	<value code="1">Seldom, less than once a week</value>
+	<value code="2">Sometimes, at least once a week</value>
+	<value code="3">Frequently, several times a week</value>
+	<value code="4">Very frequently, almost all the time</value>
+	<value code="N">Not Applicable</value>
+	<value code="U">Unavailable</value>
+</variable>
+
+<variable id="phv00089262.v1">
+	<name>uhdrs33b</name>
+	<description>COMPULSIVE BEHAVIOR (Severity)</description>
+	<type>encoded value</type>
+	<value code="0">Behavior well controlled</value>
+	<value code="1">Equivocal; has a mild impulse not sufficient to act on</value>
+	<value code="2">Mild; has impulse, acts on impulse but can stop</value>
+	<value code="3">Moderate; has impulse, acts on it, and sometimes cannot stop</value>
+	<value code="4">Severe; has impulse, acts on it, and cannot stop</value>
+	<value code="N">Not Applicable</value>
+	<value code="U">Unavailable</value>
+</variable>
+
+<variable id="phv00089263.v1">
+	<name>uhdrs34a</name>
+	<description>DELUSIONS (Frequency)</description>
+	<type>encoded value</type>
+	<value code="0">No evidence</value>
+	<value code="1">Seldom, less than once a month</value>
+	<value code="2">Sometimes, at least once a month</value>
+	<value code="3">Frequently, at least once a week</value>
+	<value code="4">Often, sometimes for days on end</value>
+	<value code="N">Not Applicable</value>
+	<value code="U">Unavailable</value>
+</variable>
+
+<variable id="phv00089264.v1">
+	<name>uhdrs34b</name>
+	<description>DELUSIONS (Severity)</description>
+	<type>encoded value</type>
+	<value code="0">No evidence</value>
+	<value code="1">Has delusional idea, not sure it is true</value>
+	<value code="2">Convinced of idea but allows that the idea is not true</value>
+	<value code="3">Utterly convinced of the idea(s), but not acting on them</value>
+	<value code="4">Utterly convinced of the idea(s), behavior is determined by the delusion(s)</value>
+	<value code="N">Not Applicable</value>
+	<value code="U">Unavailable</value>
+</variable>
+
+<variable id="phv00089265.v1">
+	<name>uhdrs35a</name>
+	<description>HALLUCINATIONS (Frequency)</description>
+	<type>encoded value</type>
+	<value code="0">No evidence of hallucinations</value>
+	<value code="1">Seldom, less than once a month</value>
+	<value code="2">Sometimes, at least once a month</value>
+	<value code="3">Frequently, at least once a week</value>
+	<value code="4">Often, sometimes for days on end</value>
+	<value code="N">Not Applicable</value>
+	<value code="U">Unavailable</value>
+</variable>
+
+<variable id="phv00089266.v1">
+	<name>uhdrs35b</name>
+	<description>HALLUCINATIONS (Severity)</description>
+	<type>encoded value</type>
+	<value code="0">No evidence</value>
+	<value code="1">Has hallucinations, but not sure that they are real</value>
+	<value code="2">Convinced of the reality of the hallucinations but allows that it is possible that they are not real and not acting on them</value>
+	<value code="3">Utterly convinced of the hallucinations being real, but not acting on them</value>
+	<value code="4">Severe; has hallucinations that are vivid, is utterly convinced that they are real, and the hallucinations impact behavior</value>
+	<value code="N">Not Applicable</value>
+	<value code="U">Unavailable</value>
+</variable>
+
+<variable id="phv00089267.v1">
+	<name>uhdrs36</name>
+	<description>Examiner believes the participant is confused</description>
+	<type>encoded value</type>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00089268.v1">
+	<name>uhdrs37</name>
+	<description>Examiner believes the participant is demented</description>
+	<type>encoded value</type>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00089269.v1">
+	<name>uhdrs38</name>
+	<description>Examiner believes the participant is depressed</description>
+	<type>encoded value</type>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00089270.v1">
+	<name>uhdrs39</name>
+	<description>Participant requires pharmacotherapy for depression</description>
+	<type>encoded value</type>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00089271.v1">
+	<name>uhdrs40</name>
+	<description>Participant requires pharmacotherapy for irritability</description>
+	<type>encoded value</type>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00089272.v1">
+	<name>uhdrs_ba</name>
+	<description>Sum of all frequency and severity scores</description>
+	<type>integer</type>
+</variable>
+
+<variable id="phv00089273.v1">
+	<name>uhdrs_baf</name>
+	<description>Sum of all frequency scores</description>
+	<type>integer</type>
+</variable>
+
+<variable id="phv00089274.v1">
+	<name>uhdrs_bafs</name>
+	<description>Sum of product of frequency and severity scores</description>
+	<type>integer</type>
+</variable>
+
+</data_table>

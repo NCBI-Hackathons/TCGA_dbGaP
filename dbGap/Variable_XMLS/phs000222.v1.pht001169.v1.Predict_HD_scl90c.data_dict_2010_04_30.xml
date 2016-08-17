@@ -1,0 +1,1325 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./datadict_v2.xsl"?>
+<data_table id="pht001169.v1" study_id="phs000222.v1" participant_set="1" date_created="Fri Apr 30 17:43:29 2010">
+
+<unique_key phv="00088855" version="1">id</unique_key>
+<unique_key phv="00088858" version="1">sclvisit</unique_key>
+
+<variable id="phv00088855.v1">
+	<name>id</name>
+	<description>Anonymized Participant ID</description>
+	<type>integer</type>
+</variable>
+
+<variable id="phv00088856.v1">
+	<name>status</name>
+	<description>Case/Control Status</description>
+	<type>string</type>
+	<value code="case">case</value>
+	<value code="cont">cont</value>
+</variable>
+
+<variable id="phv00088857.v1">
+	<name>sclage</name>
+	<description>Age at baseline SCL90 (Symptom Check List 90)</description>
+	<type>integer</type>
+	<unit>Years</unit>
+</variable>
+
+<variable id="phv00088858.v1">
+	<name>sclvisit</name>
+	<description>Visit</description>
+	<type>integer</type>
+	<unit>Visits</unit>
+</variable>
+
+<variable id="phv00088859.v1">
+	<name>scldays</name>
+	<description>Days since last SCL90 (Symptom Check List 90)</description>
+	<type>integer</type>
+	<unit>Days</unit>
+</variable>
+
+<variable id="phv00088860.v1">
+	<name>scleval</name>
+	<description>Evaluator</description>
+	<type>encoded value</type>
+	<value code="1">Participant</value>
+	<value code="2">Companion</value>
+</variable>
+
+<variable id="phv00088861.v1">
+	<name>scl1</name>
+	<description>Headaches</description>
+	<type>encoded value</type>
+	<value code="0">Not at all</value>
+	<value code="1">A little bit</value>
+	<value code="2">Moderately</value>
+	<value code="3">Quite a bit</value>
+	<value code="4">Extremely</value>
+	<value code="N">Not Applicable</value>
+	<value code="U">Unavailable</value>
+</variable>
+
+<variable id="phv00088862.v1">
+	<name>scl2</name>
+	<description>Nervousness/shakiness inside</description>
+	<type>encoded value</type>
+	<value code="0">Not at all</value>
+	<value code="1">A little bit</value>
+	<value code="2">Moderately</value>
+	<value code="3">Quite a bit</value>
+	<value code="4">Extremely</value>
+	<value code="N">Not Applicable</value>
+	<value code="U">Unavailable</value>
+</variable>
+
+<variable id="phv00088863.v1">
+	<name>scl3</name>
+	<description>Repeated unpleasant thoughts</description>
+	<type>encoded value</type>
+	<value code="0">Not at all</value>
+	<value code="1">A little bit</value>
+	<value code="2">Moderately</value>
+	<value code="3">Quite a bit</value>
+	<value code="4">Extremely</value>
+	<value code="N">Not Applicable</value>
+	<value code="U">Unavailable</value>
+</variable>
+
+<variable id="phv00088864.v1">
+	<name>scl4</name>
+	<description>Faintness/dizziness</description>
+	<type>encoded value</type>
+	<value code="0">Not at all</value>
+	<value code="1">A little bit</value>
+	<value code="2">Moderately</value>
+	<value code="3">Quite a bit</value>
+	<value code="4">Extremely</value>
+	<value code="N">Not Applicable</value>
+	<value code="U">Unavailable</value>
+</variable>
+
+<variable id="phv00088865.v1">
+	<name>scl5</name>
+	<description>Loss of sexual interest/pleasure</description>
+	<type>encoded value</type>
+	<value code="0">Not at all</value>
+	<value code="1">A little bit</value>
+	<value code="2">Moderately</value>
+	<value code="3">Quite a bit</value>
+	<value code="4">Extremely</value>
+	<value code="N">Not Applicable</value>
+	<value code="U">Unavailable</value>
+</variable>
+
+<variable id="phv00088866.v1">
+	<name>scl6</name>
+	<description>Feeling critical of others</description>
+	<type>encoded value</type>
+	<value code="0">Not at all</value>
+	<value code="1">A little bit</value>
+	<value code="2">Moderately</value>
+	<value code="3">Quite a bit</value>
+	<value code="4">Extremely</value>
+	<value code="N">Not Applicable</value>
+	<value code="U">Unavailable</value>
+</variable>
+
+<variable id="phv00088867.v1">
+	<name>scl7</name>
+	<description>Idea someone else can control thoughts</description>
+	<type>encoded value</type>
+	<value code="0">Not at all</value>
+	<value code="1">A little bit</value>
+	<value code="2">Moderately</value>
+	<value code="3">Quite a bit</value>
+	<value code="4">Extremely</value>
+	<value code="N">Not Applicable</value>
+	<value code="U">Unavailable</value>
+</variable>
+
+<variable id="phv00088868.v1">
+	<name>scl8</name>
+	<description>Feeling others are to blame for their troubles</description>
+	<type>encoded value</type>
+	<value code="0">Not at all</value>
+	<value code="1">A little bit</value>
+	<value code="2">Moderately</value>
+	<value code="3">Quite a bit</value>
+	<value code="4">Extremely</value>
+	<value code="N">Not Applicable</value>
+	<value code="U">Unavailable</value>
+</variable>
+
+<variable id="phv00088869.v1">
+	<name>scl9</name>
+	<description>Trouble remembering things</description>
+	<type>encoded value</type>
+	<value code="0">Not at all</value>
+	<value code="1">A little bit</value>
+	<value code="2">Moderately</value>
+	<value code="3">Quite a bit</value>
+	<value code="4">Extremely</value>
+	<value code="N">Not Applicable</value>
+	<value code="U">Unavailable</value>
+</variable>
+
+<variable id="phv00088870.v1">
+	<name>scl10</name>
+	<description>Worried about sloppiness/carelessness</description>
+	<type>encoded value</type>
+	<value code="0">Not at all</value>
+	<value code="1">A little bit</value>
+	<value code="2">Moderately</value>
+	<value code="3">Quite a bit</value>
+	<value code="4">Extremely</value>
+	<value code="N">Not Applicable</value>
+	<value code="U">Unavailable</value>
+</variable>
+
+<variable id="phv00088871.v1">
+	<name>scl11</name>
+	<description>Feeling easily annoyed/irritated</description>
+	<type>encoded value</type>
+	<value code="0">Not at all</value>
+	<value code="1">A little bit</value>
+	<value code="2">Moderately</value>
+	<value code="3">Quite a bit</value>
+	<value code="4">Extremely</value>
+	<value code="N">Not Applicable</value>
+	<value code="U">Unavailable</value>
+</variable>
+
+<variable id="phv00088872.v1">
+	<name>scl12</name>
+	<description>Pains in heart/chest</description>
+	<type>encoded value</type>
+	<value code="0">Not at all</value>
+	<value code="1">A little bit</value>
+	<value code="2">Moderately</value>
+	<value code="3">Quite a bit</value>
+	<value code="4">Extremely</value>
+	<value code="N">Not Applicable</value>
+	<value code="U">Unavailable</value>
+</variable>
+
+<variable id="phv00088873.v1">
+	<name>scl13</name>
+	<description>Feeling afraid in open spaces/streets</description>
+	<type>encoded value</type>
+	<value code="0">Not at all</value>
+	<value code="1">A little bit</value>
+	<value code="2">Moderately</value>
+	<value code="3">Quite a bit</value>
+	<value code="4">Extremely</value>
+	<value code="N">Not Applicable</value>
+	<value code="U">Unavailable</value>
+</variable>
+
+<variable id="phv00088874.v1">
+	<name>scl14</name>
+	<description>Feeling low in energy/slowed down</description>
+	<type>encoded value</type>
+	<value code="0">Not at all</value>
+	<value code="1">A little bit</value>
+	<value code="2">Moderately</value>
+	<value code="3">Quite a bit</value>
+	<value code="4">Extremely</value>
+	<value code="N">Not Applicable</value>
+	<value code="U">Unavailable</value>
+</variable>
+
+<variable id="phv00088875.v1">
+	<name>scl15</name>
+	<description>Thoughts of ending life</description>
+	<type>encoded value</type>
+	<value code="0">Not at all</value>
+	<value code="1">A little bit</value>
+	<value code="2">Moderately</value>
+	<value code="3">Quite a bit</value>
+	<value code="4">Extremely</value>
+	<value code="N">Not Applicable</value>
+	<value code="U">Unavailable</value>
+</variable>
+
+<variable id="phv00088876.v1">
+	<name>scl16</name>
+	<description>Hearing voices</description>
+	<type>encoded value</type>
+	<value code="0">Not at all</value>
+	<value code="1">A little bit</value>
+	<value code="2">Moderately</value>
+	<value code="3">Quite a bit</value>
+	<value code="4">Extremely</value>
+	<value code="N">Not Applicable</value>
+	<value code="U">Unavailable</value>
+</variable>
+
+<variable id="phv00088877.v1">
+	<name>scl17</name>
+	<description>Trembling</description>
+	<type>encoded value</type>
+	<value code="0">Not at all</value>
+	<value code="1">A little bit</value>
+	<value code="2">Moderately</value>
+	<value code="3">Quite a bit</value>
+	<value code="4">Extremely</value>
+	<value code="N">Not Applicable</value>
+	<value code="U">Unavailable</value>
+</variable>
+
+<variable id="phv00088878.v1">
+	<name>scl18</name>
+	<description>Feeling people cannot be trusted</description>
+	<type>encoded value</type>
+	<value code="0">Not at all</value>
+	<value code="1">A little bit</value>
+	<value code="2">Moderately</value>
+	<value code="3">Quite a bit</value>
+	<value code="4">Extremely</value>
+	<value code="N">Not Applicable</value>
+	<value code="U">Unavailable</value>
+</variable>
+
+<variable id="phv00088879.v1">
+	<name>scl19</name>
+	<description>Poor appetite</description>
+	<type>encoded value</type>
+	<value code="0">Not at all</value>
+	<value code="1">A little bit</value>
+	<value code="2">Moderately</value>
+	<value code="3">Quite a bit</value>
+	<value code="4">Extremely</value>
+	<value code="N">Not Applicable</value>
+	<value code="U">Unavailable</value>
+</variable>
+
+<variable id="phv00088880.v1">
+	<name>scl20</name>
+	<description>Crying easily</description>
+	<type>encoded value</type>
+	<value code="0">Not at all</value>
+	<value code="1">A little bit</value>
+	<value code="2">Moderately</value>
+	<value code="3">Quite a bit</value>
+	<value code="4">Extremely</value>
+	<value code="N">Not Applicable</value>
+	<value code="U">Unavailable</value>
+</variable>
+
+<variable id="phv00088881.v1">
+	<name>scl21</name>
+	<description>Shy or uneasy w/opposite sex</description>
+	<type>encoded value</type>
+	<value code="0">Not at all</value>
+	<value code="1">A little bit</value>
+	<value code="2">Moderately</value>
+	<value code="3">Quite a bit</value>
+	<value code="4">Extremely</value>
+	<value code="N">Not Applicable</value>
+	<value code="U">Unavailable</value>
+</variable>
+
+<variable id="phv00088882.v1">
+	<name>scl22</name>
+	<description>Feeling trapped/caught</description>
+	<type>encoded value</type>
+	<value code="0">Not at all</value>
+	<value code="1">A little bit</value>
+	<value code="2">Moderately</value>
+	<value code="3">Quite a bit</value>
+	<value code="4">Extremely</value>
+	<value code="N">Not Applicable</value>
+	<value code="U">Unavailable</value>
+</variable>
+
+<variable id="phv00088883.v1">
+	<name>scl23</name>
+	<description>Suddenly scared for no reason</description>
+	<type>encoded value</type>
+	<value code="0">Not at all</value>
+	<value code="1">A little bit</value>
+	<value code="2">Moderately</value>
+	<value code="3">Quite a bit</value>
+	<value code="4">Extremely</value>
+	<value code="N">Not Applicable</value>
+	<value code="U">Unavailable</value>
+</variable>
+
+<variable id="phv00088884.v1">
+	<name>scl24</name>
+	<description>Temper outburst cannot control</description>
+	<type>encoded value</type>
+	<value code="0">Not at all</value>
+	<value code="1">A little bit</value>
+	<value code="2">Moderately</value>
+	<value code="3">Quite a bit</value>
+	<value code="4">Extremely</value>
+	<value code="N">Not Applicable</value>
+	<value code="U">Unavailable</value>
+</variable>
+
+<variable id="phv00088885.v1">
+	<name>scl25</name>
+	<description>Feeling afraid to go out of house by self</description>
+	<type>encoded value</type>
+	<value code="0">Not at all</value>
+	<value code="1">A little bit</value>
+	<value code="2">Moderately</value>
+	<value code="3">Quite a bit</value>
+	<value code="4">Extremely</value>
+	<value code="N">Not Applicable</value>
+	<value code="U">Unavailable</value>
+</variable>
+
+<variable id="phv00088886.v1">
+	<name>scl26</name>
+	<description>Blaming self for things</description>
+	<type>encoded value</type>
+	<value code="0">Not at all</value>
+	<value code="1">A little bit</value>
+	<value code="2">Moderately</value>
+	<value code="3">Quite a bit</value>
+	<value code="4">Extremely</value>
+	<value code="N">Not Applicable</value>
+	<value code="U">Unavailable</value>
+</variable>
+
+<variable id="phv00088887.v1">
+	<name>scl27</name>
+	<description>Pains in lower back</description>
+	<type>encoded value</type>
+	<value code="0">Not at all</value>
+	<value code="1">A little bit</value>
+	<value code="2">Moderately</value>
+	<value code="3">Quite a bit</value>
+	<value code="4">Extremely</value>
+	<value code="N">Not Applicable</value>
+	<value code="U">Unavailable</value>
+</variable>
+
+<variable id="phv00088888.v1">
+	<name>scl28</name>
+	<description>Feeling blocked getting things done</description>
+	<type>encoded value</type>
+	<value code="0">Not at all</value>
+	<value code="1">A little bit</value>
+	<value code="2">Moderately</value>
+	<value code="3">Quite a bit</value>
+	<value code="4">Extremely</value>
+	<value code="N">Not Applicable</value>
+	<value code="U">Unavailable</value>
+</variable>
+
+<variable id="phv00088889.v1">
+	<name>scl29</name>
+	<description>Feeling lonely</description>
+	<type>encoded value</type>
+	<value code="0">Not at all</value>
+	<value code="1">A little bit</value>
+	<value code="2">Moderately</value>
+	<value code="3">Quite a bit</value>
+	<value code="4">Extremely</value>
+	<value code="N">Not Applicable</value>
+	<value code="U">Unavailable</value>
+</variable>
+
+<variable id="phv00088890.v1">
+	<name>scl30</name>
+	<description>Feeling blue</description>
+	<type>encoded value</type>
+	<value code="0">Not at all</value>
+	<value code="1">A little bit</value>
+	<value code="2">Moderately</value>
+	<value code="3">Quite a bit</value>
+	<value code="4">Extremely</value>
+	<value code="N">Not Applicable</value>
+	<value code="U">Unavailable</value>
+</variable>
+
+<variable id="phv00088891.v1">
+	<name>scl31</name>
+	<description>Worrying too much about things</description>
+	<type>encoded value</type>
+	<value code="0">Not at all</value>
+	<value code="1">A little bit</value>
+	<value code="2">Moderately</value>
+	<value code="3">Quite a bit</value>
+	<value code="4">Extremely</value>
+	<value code="N">Not Applicable</value>
+	<value code="U">Unavailable</value>
+</variable>
+
+<variable id="phv00088892.v1">
+	<name>scl32</name>
+	<description>Feeling no interest in things</description>
+	<type>encoded value</type>
+	<value code="0">Not at all</value>
+	<value code="1">A little bit</value>
+	<value code="2">Moderately</value>
+	<value code="3">Quite a bit</value>
+	<value code="4">Extremely</value>
+	<value code="N">Not Applicable</value>
+	<value code="U">Unavailable</value>
+</variable>
+
+<variable id="phv00088893.v1">
+	<name>scl33</name>
+	<description>Feeling fearful</description>
+	<type>encoded value</type>
+	<value code="0">Not at all</value>
+	<value code="1">A little bit</value>
+	<value code="2">Moderately</value>
+	<value code="3">Quite a bit</value>
+	<value code="4">Extremely</value>
+	<value code="N">Not Applicable</value>
+	<value code="U">Unavailable</value>
+</variable>
+
+<variable id="phv00088894.v1">
+	<name>scl34</name>
+	<description>Feelings easily hurt</description>
+	<type>encoded value</type>
+	<value code="0">Not at all</value>
+	<value code="1">A little bit</value>
+	<value code="2">Moderately</value>
+	<value code="3">Quite a bit</value>
+	<value code="4">Extremely</value>
+	<value code="N">Not Applicable</value>
+	<value code="U">Unavailable</value>
+</variable>
+
+<variable id="phv00088895.v1">
+	<name>scl35</name>
+	<description>Other people aware/their private thoughts</description>
+	<type>encoded value</type>
+	<value code="0">Not at all</value>
+	<value code="1">A little bit</value>
+	<value code="2">Moderately</value>
+	<value code="3">Quite a bit</value>
+	<value code="4">Extremely</value>
+	<value code="N">Not Applicable</value>
+	<value code="U">Unavailable</value>
+</variable>
+
+<variable id="phv00088896.v1">
+	<name>scl36</name>
+	<description>Others don&#39;t understand them/unsympathetic</description>
+	<type>encoded value</type>
+	<value code="0">Not at all</value>
+	<value code="1">A little bit</value>
+	<value code="2">Moderately</value>
+	<value code="3">Quite a bit</value>
+	<value code="4">Extremely</value>
+	<value code="N">Not Applicable</value>
+	<value code="U">Unavailable</value>
+</variable>
+
+<variable id="phv00088897.v1">
+	<name>scl37</name>
+	<description>Feeling people unfriendly/dislike them</description>
+	<type>encoded value</type>
+	<value code="0">Not at all</value>
+	<value code="1">A little bit</value>
+	<value code="2">Moderately</value>
+	<value code="3">Quite a bit</value>
+	<value code="4">Extremely</value>
+	<value code="N">Not Applicable</value>
+	<value code="U">Unavailable</value>
+</variable>
+
+<variable id="phv00088898.v1">
+	<name>scl38</name>
+	<description>Do things slowly to ensure correctness</description>
+	<type>encoded value</type>
+	<value code="0">Not at all</value>
+	<value code="1">A little bit</value>
+	<value code="2">Moderately</value>
+	<value code="3">Quite a bit</value>
+	<value code="4">Extremely</value>
+	<value code="N">Not Applicable</value>
+	<value code="U">Unavailable</value>
+</variable>
+
+<variable id="phv00088899.v1">
+	<name>scl39</name>
+	<description>Heart pounding/racing</description>
+	<type>encoded value</type>
+	<value code="0">Not at all</value>
+	<value code="1">A little bit</value>
+	<value code="2">Moderately</value>
+	<value code="3">Quite a bit</value>
+	<value code="4">Extremely</value>
+	<value code="N">Not Applicable</value>
+	<value code="U">Unavailable</value>
+</variable>
+
+<variable id="phv00088900.v1">
+	<name>scl40</name>
+	<description>Nausea/upset stomach</description>
+	<type>encoded value</type>
+	<value code="0">Not at all</value>
+	<value code="1">A little bit</value>
+	<value code="2">Moderately</value>
+	<value code="3">Quite a bit</value>
+	<value code="4">Extremely</value>
+	<value code="N">Not Applicable</value>
+	<value code="U">Unavailable</value>
+</variable>
+
+<variable id="phv00088901.v1">
+	<name>scl41</name>
+	<description>Feeling inferior to others</description>
+	<type>encoded value</type>
+	<value code="0">Not at all</value>
+	<value code="1">A little bit</value>
+	<value code="2">Moderately</value>
+	<value code="3">Quite a bit</value>
+	<value code="4">Extremely</value>
+	<value code="N">Not Applicable</value>
+	<value code="U">Unavailable</value>
+</variable>
+
+<variable id="phv00088902.v1">
+	<name>scl42</name>
+	<description>Soreness of muscles</description>
+	<type>encoded value</type>
+	<value code="0">Not at all</value>
+	<value code="1">A little bit</value>
+	<value code="2">Moderately</value>
+	<value code="3">Quite a bit</value>
+	<value code="4">Extremely</value>
+	<value code="N">Not Applicable</value>
+	<value code="U">Unavailable</value>
+</variable>
+
+<variable id="phv00088903.v1">
+	<name>scl43</name>
+	<description>Feeling watched/talked about by others</description>
+	<type>encoded value</type>
+	<value code="0">Not at all</value>
+	<value code="1">A little bit</value>
+	<value code="2">Moderately</value>
+	<value code="3">Quite a bit</value>
+	<value code="4">Extremely</value>
+	<value code="N">Not Applicable</value>
+	<value code="U">Unavailable</value>
+</variable>
+
+<variable id="phv00088904.v1">
+	<name>scl44</name>
+	<description>Trouble falling asleep</description>
+	<type>encoded value</type>
+	<value code="0">Not at all</value>
+	<value code="1">A little bit</value>
+	<value code="2">Moderately</value>
+	<value code="3">Quite a bit</value>
+	<value code="4">Extremely</value>
+	<value code="N">Not Applicable</value>
+	<value code="U">Unavailable</value>
+</variable>
+
+<variable id="phv00088905.v1">
+	<name>scl45</name>
+	<description>Check/double-check what they do</description>
+	<type>encoded value</type>
+	<value code="0">Not at all</value>
+	<value code="1">A little bit</value>
+	<value code="2">Moderately</value>
+	<value code="3">Quite a bit</value>
+	<value code="4">Extremely</value>
+	<value code="N">Not Applicable</value>
+	<value code="U">Unavailable</value>
+</variable>
+
+<variable id="phv00088906.v1">
+	<name>scl46</name>
+	<description>Difficulty making decisions</description>
+	<type>encoded value</type>
+	<value code="0">Not at all</value>
+	<value code="1">A little bit</value>
+	<value code="2">Moderately</value>
+	<value code="3">Quite a bit</value>
+	<value code="4">Extremely</value>
+	<value code="N">Not Applicable</value>
+	<value code="U">Unavailable</value>
+</variable>
+
+<variable id="phv00088907.v1">
+	<name>scl47</name>
+	<description>Afraid to travel on buses/subways/trains</description>
+	<type>encoded value</type>
+	<value code="0">Not at all</value>
+	<value code="1">A little bit</value>
+	<value code="2">Moderately</value>
+	<value code="3">Quite a bit</value>
+	<value code="4">Extremely</value>
+	<value code="N">Not Applicable</value>
+	<value code="U">Unavailable</value>
+</variable>
+
+<variable id="phv00088908.v1">
+	<name>scl48</name>
+	<description>Trouble catching their breath</description>
+	<type>encoded value</type>
+	<value code="0">Not at all</value>
+	<value code="1">A little bit</value>
+	<value code="2">Moderately</value>
+	<value code="3">Quite a bit</value>
+	<value code="4">Extremely</value>
+	<value code="N">Not Applicable</value>
+	<value code="U">Unavailable</value>
+</variable>
+
+<variable id="phv00088909.v1">
+	<name>scl49</name>
+	<description>Hot/cold spells</description>
+	<type>encoded value</type>
+	<value code="0">Not at all</value>
+	<value code="1">A little bit</value>
+	<value code="2">Moderately</value>
+	<value code="3">Quite a bit</value>
+	<value code="4">Extremely</value>
+	<value code="N">Not Applicable</value>
+	<value code="U">Unavailable</value>
+</variable>
+
+<variable id="phv00088910.v1">
+	<name>scl50</name>
+	<description>Avoiding things that frighten them</description>
+	<type>encoded value</type>
+	<value code="0">Not at all</value>
+	<value code="1">A little bit</value>
+	<value code="2">Moderately</value>
+	<value code="3">Quite a bit</value>
+	<value code="4">Extremely</value>
+	<value code="N">Not Applicable</value>
+	<value code="U">Unavailable</value>
+</variable>
+
+<variable id="phv00088911.v1">
+	<name>scl51</name>
+	<description>Mind goes blank</description>
+	<type>encoded value</type>
+	<value code="0">Not at all</value>
+	<value code="1">A little bit</value>
+	<value code="2">Moderately</value>
+	<value code="3">Quite a bit</value>
+	<value code="4">Extremely</value>
+	<value code="N">Not Applicable</value>
+	<value code="U">Unavailable</value>
+</variable>
+
+<variable id="phv00088912.v1">
+	<name>scl52</name>
+	<description>Numbness/tingling in parts of body</description>
+	<type>encoded value</type>
+	<value code="0">Not at all</value>
+	<value code="1">A little bit</value>
+	<value code="2">Moderately</value>
+	<value code="3">Quite a bit</value>
+	<value code="4">Extremely</value>
+	<value code="N">Not Applicable</value>
+	<value code="U">Unavailable</value>
+</variable>
+
+<variable id="phv00088913.v1">
+	<name>scl53</name>
+	<description>Lump in throat</description>
+	<type>encoded value</type>
+	<value code="0">Not at all</value>
+	<value code="1">A little bit</value>
+	<value code="2">Moderately</value>
+	<value code="3">Quite a bit</value>
+	<value code="4">Extremely</value>
+	<value code="N">Not Applicable</value>
+	<value code="U">Unavailable</value>
+</variable>
+
+<variable id="phv00088914.v1">
+	<name>scl54</name>
+	<description>Feeling hopeless about future</description>
+	<type>encoded value</type>
+	<value code="0">Not at all</value>
+	<value code="1">A little bit</value>
+	<value code="2">Moderately</value>
+	<value code="3">Quite a bit</value>
+	<value code="4">Extremely</value>
+	<value code="N">Not Applicable</value>
+	<value code="U">Unavailable</value>
+</variable>
+
+<variable id="phv00088915.v1">
+	<name>scl55</name>
+	<description>Trouble concentrating</description>
+	<type>encoded value</type>
+	<value code="0">Not at all</value>
+	<value code="1">A little bit</value>
+	<value code="2">Moderately</value>
+	<value code="3">Quite a bit</value>
+	<value code="4">Extremely</value>
+	<value code="N">Not Applicable</value>
+	<value code="U">Unavailable</value>
+</variable>
+
+<variable id="phv00088916.v1">
+	<name>scl56</name>
+	<description>Feeling weak in parts of body</description>
+	<type>encoded value</type>
+	<value code="0">Not at all</value>
+	<value code="1">A little bit</value>
+	<value code="2">Moderately</value>
+	<value code="3">Quite a bit</value>
+	<value code="4">Extremely</value>
+	<value code="N">Not Applicable</value>
+	<value code="U">Unavailable</value>
+</variable>
+
+<variable id="phv00088917.v1">
+	<name>scl57</name>
+	<description>Tense/keyed up</description>
+	<type>encoded value</type>
+	<value code="0">Not at all</value>
+	<value code="1">A little bit</value>
+	<value code="2">Moderately</value>
+	<value code="3">Quite a bit</value>
+	<value code="4">Extremely</value>
+	<value code="N">Not Applicable</value>
+	<value code="U">Unavailable</value>
+</variable>
+
+<variable id="phv00088918.v1">
+	<name>scl58</name>
+	<description>Heavy feeling arms/legs</description>
+	<type>encoded value</type>
+	<value code="0">Not at all</value>
+	<value code="1">A little bit</value>
+	<value code="2">Moderately</value>
+	<value code="3">Quite a bit</value>
+	<value code="4">Extremely</value>
+	<value code="N">Not Applicable</value>
+	<value code="U">Unavailable</value>
+</variable>
+
+<variable id="phv00088919.v1">
+	<name>scl59</name>
+	<description>Thoughts death/dying</description>
+	<type>encoded value</type>
+	<value code="0">Not at all</value>
+	<value code="1">A little bit</value>
+	<value code="2">Moderately</value>
+	<value code="3">Quite a bit</value>
+	<value code="4">Extremely</value>
+	<value code="N">Not Applicable</value>
+	<value code="U">Unavailable</value>
+</variable>
+
+<variable id="phv00088920.v1">
+	<name>scl60</name>
+	<description>Overeating</description>
+	<type>encoded value</type>
+	<value code="0">Not at all</value>
+	<value code="1">A little bit</value>
+	<value code="2">Moderately</value>
+	<value code="3">Quite a bit</value>
+	<value code="4">Extremely</value>
+	<value code="N">Not Applicable</value>
+	<value code="U">Unavailable</value>
+</variable>
+
+<variable id="phv00088921.v1">
+	<name>scl61</name>
+	<description>Uneasy when people watching/talking about them</description>
+	<type>encoded value</type>
+	<value code="0">Not at all</value>
+	<value code="1">A little bit</value>
+	<value code="2">Moderately</value>
+	<value code="3">Quite a bit</value>
+	<value code="4">Extremely</value>
+	<value code="N">Not Applicable</value>
+	<value code="U">Unavailable</value>
+</variable>
+
+<variable id="phv00088922.v1">
+	<name>scl62</name>
+	<description>Having thoughts not their own</description>
+	<type>encoded value</type>
+	<value code="0">Not at all</value>
+	<value code="1">A little bit</value>
+	<value code="2">Moderately</value>
+	<value code="3">Quite a bit</value>
+	<value code="4">Extremely</value>
+	<value code="N">Not Applicable</value>
+	<value code="U">Unavailable</value>
+</variable>
+
+<variable id="phv00088923.v1">
+	<name>scl63</name>
+	<description>Urges to beat, injure/harm someone</description>
+	<type>encoded value</type>
+	<value code="0">Not at all</value>
+	<value code="1">A little bit</value>
+	<value code="2">Moderately</value>
+	<value code="3">Quite a bit</value>
+	<value code="4">Extremely</value>
+	<value code="N">Not Applicable</value>
+	<value code="U">Unavailable</value>
+</variable>
+
+<variable id="phv00088924.v1">
+	<name>scl64</name>
+	<description>Awakening in early morning</description>
+	<type>encoded value</type>
+	<value code="0">Not at all</value>
+	<value code="1">A little bit</value>
+	<value code="2">Moderately</value>
+	<value code="3">Quite a bit</value>
+	<value code="4">Extremely</value>
+	<value code="N">Not Applicable</value>
+	<value code="U">Unavailable</value>
+</variable>
+
+<variable id="phv00088925.v1">
+	<name>scl65</name>
+	<description>Repeating same actions touching/washing</description>
+	<type>encoded value</type>
+	<value code="0">Not at all</value>
+	<value code="1">A little bit</value>
+	<value code="2">Moderately</value>
+	<value code="3">Quite a bit</value>
+	<value code="4">Extremely</value>
+	<value code="N">Not Applicable</value>
+	<value code="U">Unavailable</value>
+</variable>
+
+<variable id="phv00088926.v1">
+	<name>scl66</name>
+	<description>Restless/disturbed sleep</description>
+	<type>encoded value</type>
+	<value code="0">Not at all</value>
+	<value code="1">A little bit</value>
+	<value code="2">Moderately</value>
+	<value code="3">Quite a bit</value>
+	<value code="4">Extremely</value>
+	<value code="N">Not Applicable</value>
+	<value code="U">Unavailable</value>
+</variable>
+
+<variable id="phv00088927.v1">
+	<name>scl67</name>
+	<description>Urge to break/smash things</description>
+	<type>encoded value</type>
+	<value code="0">Not at all</value>
+	<value code="1">A little bit</value>
+	<value code="2">Moderately</value>
+	<value code="3">Quite a bit</value>
+	<value code="4">Extremely</value>
+	<value code="N">Not Applicable</value>
+	<value code="U">Unavailable</value>
+</variable>
+
+<variable id="phv00088928.v1">
+	<name>scl68</name>
+	<description>Ideas/beliefs others do not share</description>
+	<type>encoded value</type>
+	<value code="0">Not at all</value>
+	<value code="1">A little bit</value>
+	<value code="2">Moderately</value>
+	<value code="3">Quite a bit</value>
+	<value code="4">Extremely</value>
+	<value code="N">Not Applicable</value>
+	<value code="U">Unavailable</value>
+</variable>
+
+<variable id="phv00088929.v1">
+	<name>scl69</name>
+	<description>Feeling self-conscious w/others</description>
+	<type>encoded value</type>
+	<value code="0">Not at all</value>
+	<value code="1">A little bit</value>
+	<value code="2">Moderately</value>
+	<value code="3">Quite a bit</value>
+	<value code="4">Extremely</value>
+	<value code="N">Not Applicable</value>
+	<value code="U">Unavailable</value>
+</variable>
+
+<variable id="phv00088930.v1">
+	<name>scl70</name>
+	<description>Feeling uneasy in crowds</description>
+	<type>encoded value</type>
+	<value code="0">Not at all</value>
+	<value code="1">A little bit</value>
+	<value code="2">Moderately</value>
+	<value code="3">Quite a bit</value>
+	<value code="4">Extremely</value>
+	<value code="N">Not Applicable</value>
+	<value code="U">Unavailable</value>
+</variable>
+
+<variable id="phv00088931.v1">
+	<name>scl71</name>
+	<description>Feeling everything is an effort</description>
+	<type>encoded value</type>
+	<value code="0">Not at all</value>
+	<value code="1">A little bit</value>
+	<value code="2">Moderately</value>
+	<value code="3">Quite a bit</value>
+	<value code="4">Extremely</value>
+	<value code="N">Not Applicable</value>
+	<value code="U">Unavailable</value>
+</variable>
+
+<variable id="phv00088932.v1">
+	<name>scl72</name>
+	<description>Spells of terror/panic</description>
+	<type>encoded value</type>
+	<value code="0">Not at all</value>
+	<value code="1">A little bit</value>
+	<value code="2">Moderately</value>
+	<value code="3">Quite a bit</value>
+	<value code="4">Extremely</value>
+	<value code="N">Not Applicable</value>
+	<value code="U">Unavailable</value>
+</variable>
+
+<variable id="phv00088933.v1">
+	<name>scl73</name>
+	<description>Uncomfortable eating/drinking in public</description>
+	<type>encoded value</type>
+	<value code="0">Not at all</value>
+	<value code="1">A little bit</value>
+	<value code="2">Moderately</value>
+	<value code="3">Quite a bit</value>
+	<value code="4">Extremely</value>
+	<value code="N">Not Applicable</value>
+	<value code="U">Unavailable</value>
+</variable>
+
+<variable id="phv00088934.v1">
+	<name>scl74</name>
+	<description>Frequent arguments</description>
+	<type>encoded value</type>
+	<value code="0">Not at all</value>
+	<value code="1">A little bit</value>
+	<value code="2">Moderately</value>
+	<value code="3">Quite a bit</value>
+	<value code="4">Extremely</value>
+	<value code="N">Not Applicable</value>
+	<value code="U">Unavailable</value>
+</variable>
+
+<variable id="phv00088935.v1">
+	<name>scl75</name>
+	<description>Feeling nervous being left alone</description>
+	<type>encoded value</type>
+	<value code="0">Not at all</value>
+	<value code="1">A little bit</value>
+	<value code="2">Moderately</value>
+	<value code="3">Quite a bit</value>
+	<value code="4">Extremely</value>
+	<value code="N">Not Applicable</value>
+	<value code="U">Unavailable</value>
+</variable>
+
+<variable id="phv00088936.v1">
+	<name>scl76</name>
+	<description>Others not giving proper credit for achievements</description>
+	<type>encoded value</type>
+	<value code="0">Not at all</value>
+	<value code="1">A little bit</value>
+	<value code="2">Moderately</value>
+	<value code="3">Quite a bit</value>
+	<value code="4">Extremely</value>
+	<value code="N">Not Applicable</value>
+	<value code="U">Unavailable</value>
+</variable>
+
+<variable id="phv00088937.v1">
+	<name>scl77</name>
+	<description>Feeling lonely even w/people</description>
+	<type>encoded value</type>
+	<value code="0">Not at all</value>
+	<value code="1">A little bit</value>
+	<value code="2">Moderately</value>
+	<value code="3">Quite a bit</value>
+	<value code="4">Extremely</value>
+	<value code="N">Not Applicable</value>
+	<value code="U">Unavailable</value>
+</variable>
+
+<variable id="phv00088938.v1">
+	<name>scl78</name>
+	<description>Feeling restless/can&#39;t sit still</description>
+	<type>encoded value</type>
+	<value code="0">Not at all</value>
+	<value code="1">A little bit</value>
+	<value code="2">Moderately</value>
+	<value code="3">Quite a bit</value>
+	<value code="4">Extremely</value>
+	<value code="N">Not Applicable</value>
+	<value code="U">Unavailable</value>
+</variable>
+
+<variable id="phv00088939.v1">
+	<name>scl79</name>
+	<description>Feeling of worthlessness</description>
+	<type>encoded value</type>
+	<value code="0">Not at all</value>
+	<value code="1">A little bit</value>
+	<value code="2">Moderately</value>
+	<value code="3">Quite a bit</value>
+	<value code="4">Extremely</value>
+	<value code="N">Not Applicable</value>
+	<value code="U">Unavailable</value>
+</variable>
+
+<variable id="phv00088940.v1">
+	<name>scl80</name>
+	<description>Feeling something bad going to happen</description>
+	<type>encoded value</type>
+	<value code="0">Not at all</value>
+	<value code="1">A little bit</value>
+	<value code="2">Moderately</value>
+	<value code="3">Quite a bit</value>
+	<value code="4">Extremely</value>
+	<value code="N">Not Applicable</value>
+	<value code="U">Unavailable</value>
+</variable>
+
+<variable id="phv00088941.v1">
+	<name>scl81</name>
+	<description>Shouting/throwing things</description>
+	<type>encoded value</type>
+	<value code="0">Not at all</value>
+	<value code="1">A little bit</value>
+	<value code="2">Moderately</value>
+	<value code="3">Quite a bit</value>
+	<value code="4">Extremely</value>
+	<value code="N">Not Applicable</value>
+	<value code="U">Unavailable</value>
+</variable>
+
+<variable id="phv00088942.v1">
+	<name>scl82</name>
+	<description>Afraid will faint in public</description>
+	<type>encoded value</type>
+	<value code="0">Not at all</value>
+	<value code="1">A little bit</value>
+	<value code="2">Moderately</value>
+	<value code="3">Quite a bit</value>
+	<value code="4">Extremely</value>
+	<value code="N">Not Applicable</value>
+	<value code="U">Unavailable</value>
+</variable>
+
+<variable id="phv00088943.v1">
+	<name>scl83</name>
+	<description>Feeling people/take advantage of them</description>
+	<type>encoded value</type>
+	<value code="0">Not at all</value>
+	<value code="1">A little bit</value>
+	<value code="2">Moderately</value>
+	<value code="3">Quite a bit</value>
+	<value code="4">Extremely</value>
+	<value code="N">Not Applicable</value>
+	<value code="U">Unavailable</value>
+</variable>
+
+<variable id="phv00088944.v1">
+	<name>scl84</name>
+	<description>Thoughts about sex/bothers them a lot</description>
+	<type>encoded value</type>
+	<value code="0">Not at all</value>
+	<value code="1">A little bit</value>
+	<value code="2">Moderately</value>
+	<value code="3">Quite a bit</value>
+	<value code="4">Extremely</value>
+	<value code="N">Not Applicable</value>
+	<value code="U">Unavailable</value>
+</variable>
+
+<variable id="phv00088945.v1">
+	<name>scl85</name>
+	<description>Idea should be punished for sins</description>
+	<type>encoded value</type>
+	<value code="0">Not at all</value>
+	<value code="1">A little bit</value>
+	<value code="2">Moderately</value>
+	<value code="3">Quite a bit</value>
+	<value code="4">Extremely</value>
+	<value code="N">Not Applicable</value>
+	<value code="U">Unavailable</value>
+</variable>
+
+<variable id="phv00088946.v1">
+	<name>scl86</name>
+	<description>Thoughts/images of frightening nature</description>
+	<type>encoded value</type>
+	<value code="0">Not at all</value>
+	<value code="1">A little bit</value>
+	<value code="2">Moderately</value>
+	<value code="3">Quite a bit</value>
+	<value code="4">Extremely</value>
+	<value code="N">Not Applicable</value>
+	<value code="U">Unavailable</value>
+</variable>
+
+<variable id="phv00088947.v1">
+	<name>scl87</name>
+	<description>Idea something serious is wrong w/body</description>
+	<type>encoded value</type>
+	<value code="0">Not at all</value>
+	<value code="1">A little bit</value>
+	<value code="2">Moderately</value>
+	<value code="3">Quite a bit</value>
+	<value code="4">Extremely</value>
+	<value code="N">Not Applicable</value>
+	<value code="U">Unavailable</value>
+</variable>
+
+<variable id="phv00088948.v1">
+	<name>scl88</name>
+	<description>Never feeling close to another person</description>
+	<type>encoded value</type>
+	<value code="0">Not at all</value>
+	<value code="1">A little bit</value>
+	<value code="2">Moderately</value>
+	<value code="3">Quite a bit</value>
+	<value code="4">Extremely</value>
+	<value code="N">Not Applicable</value>
+	<value code="U">Unavailable</value>
+</variable>
+
+<variable id="phv00088949.v1">
+	<name>scl89</name>
+	<description>Feelings of guilt</description>
+	<type>encoded value</type>
+	<value code="0">Not at all</value>
+	<value code="1">A little bit</value>
+	<value code="2">Moderately</value>
+	<value code="3">Quite a bit</value>
+	<value code="4">Extremely</value>
+	<value code="N">Not Applicable</value>
+	<value code="U">Unavailable</value>
+</variable>
+
+<variable id="phv00088950.v1">
+	<name>scl90</name>
+	<description>Feeling something is wrong w/mind</description>
+	<type>encoded value</type>
+	<value code="0">Not at all</value>
+	<value code="1">A little bit</value>
+	<value code="2">Moderately</value>
+	<value code="3">Quite a bit</value>
+	<value code="4">Extremely</value>
+	<value code="N">Not Applicable</value>
+	<value code="U">Unavailable</value>
+</variable>
+
+<variable id="phv00088951.v1">
+	<name>somatiz</name>
+	<description>Somatization</description>
+	<type>decimal</type>
+	<value code="N">Not Applicable</value>
+	<value code="U">Unavailable</value>
+</variable>
+
+<variable id="phv00088952.v1">
+	<name>obsess</name>
+	<description>Obsession - Compulsive</description>
+	<type>decimal</type>
+	<value code="N">Not Applicable</value>
+	<value code="U">Unavailable</value>
+</variable>
+
+<variable id="phv00088953.v1">
+	<name>sensitiv</name>
+	<description>Interpersonal Sensitivity</description>
+	<type>decimal</type>
+	<value code="N">Not Applicable</value>
+	<value code="U">Unavailable</value>
+</variable>
+
+<variable id="phv00088954.v1">
+	<name>depress</name>
+	<description>Depression</description>
+	<type>decimal</type>
+	<value code="N">Not Applicable</value>
+	<value code="U">Unavailable</value>
+</variable>
+
+<variable id="phv00088955.v1">
+	<name>anxiety</name>
+	<description>Anxiety</description>
+	<type>decimal</type>
+	<value code="N">Not Applicable</value>
+	<value code="U">Unavailable</value>
+</variable>
+
+<variable id="phv00088956.v1">
+	<name>hostility</name>
+	<description>Hostility</description>
+	<type>decimal</type>
+	<value code="N">Not Applicable</value>
+	<value code="U">Unavailable</value>
+</variable>
+
+<variable id="phv00088957.v1">
+	<name>phobic</name>
+	<description>Phobic Anxiety</description>
+	<type>decimal</type>
+	<value code="N">Not Applicable</value>
+	<value code="U">Unavailable</value>
+</variable>
+
+<variable id="phv00088958.v1">
+	<name>paranoid</name>
+	<description>Paranoid Ideation</description>
+	<type>decimal</type>
+	<value code="N">Not Applicable</value>
+	<value code="U">Unavailable</value>
+</variable>
+
+<variable id="phv00088959.v1">
+	<name>psychoticism</name>
+	<description>Psychoticism</description>
+	<type>decimal</type>
+	<value code="N">Not Applicable</value>
+	<value code="U">Unavailable</value>
+</variable>
+
+<variable id="phv00088960.v1">
+	<name>Additional</name>
+	<description>Additional</description>
+	<type>decimal</type>
+	<value code="N">Not Applicable</value>
+	<value code="U">Unavailable</value>
+</variable>
+
+<variable id="phv00088961.v1">
+	<name>sclgsi</name>
+	<description>Global Severity Index</description>
+	<type>decimal</type>
+	<value code="N">Not Applicable</value>
+	<value code="U">Unavailable</value>
+</variable>
+
+<variable id="phv00088962.v1">
+	<name>sclpst</name>
+	<description>Positive Symptom - Total</description>
+	<type>integer</type>
+	<value code="N">Not Applicable</value>
+	<value code="U">Unavailable</value>
+</variable>
+
+<variable id="phv00088963.v1">
+	<name>sclpsdi</name>
+	<description>Positive Symptom Distress Index</description>
+	<type>decimal</type>
+	<value code="N">Not Applicable</value>
+	<value code="U">Unavailable</value>
+</variable>
+
+</data_table>

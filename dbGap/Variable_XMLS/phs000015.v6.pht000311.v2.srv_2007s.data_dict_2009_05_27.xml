@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./datadict_v2.xsl"?>
+<data_table id="pht000311.v2" study_id="phs000015.v6" participant_set="3" date_created="Wed May 27 17:18:49 2009">
+
+<variable id="phv00036478.v2">
+	<name>CVD</name>
+	<description>CARIOVASCULAR DISEASE (CVD) STATUS</description>
+	<comment></comment>
+	<type></type>
+	<unit></unit>
+	<logical_min></logical_min>
+	<logical_max></logical_max>
+	<curator_type></curator_type>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00036481.v2">
+	<name>CVDTIME</name>
+	<description>NUMBER OF DAYS BETWEEN EXAM 1 AND CVDDATE (DATE OF CARDIOVASCULAR DISEASE STATUS)</description>
+	<comment></comment>
+	<type></type>
+	<unit>DAYS</unit>
+	<logical_min></logical_min>
+	<logical_max></logical_max>
+	<curator_type></curator_type>
+</variable>
+
+<variable id="phv00036479.v2">
+	<name>DTHRVWD</name>
+	<description>DEATH REVIEWED STATUS</description>
+	<comment></comment>
+	<type></type>
+	<unit></unit>
+	<logical_min></logical_min>
+	<logical_max></logical_max>
+	<curator_type></curator_type>
+	<value code=".">IF NOT DEAD</value>
+	<value code="0">DEATH WAS NOT REVIEWED</value>
+	<value code="1">DEATH WAS REVIEWED</value>
+</variable>
+
+<variable id="phv00036482.v2">
+	<name>DTHTIME</name>
+	<description>NUMBERS OG DAYS BETWEEN EXAM 1 AND DATEDTH (DATE OF DEATH)</description>
+	<comment></comment>
+	<type></type>
+	<unit>DAYS</unit>
+	<logical_min></logical_min>
+	<logical_max></logical_max>
+	<curator_type></curator_type>
+</variable>
+
+<variable id="phv00036480.v2">
+	<name>IDTYPE</name>
+	<description>COHORT IDENTIFIER</description>
+	<comment></comment>
+	<type></type>
+	<unit></unit>
+	<logical_min></logical_min>
+	<logical_max></logical_max>
+	<curator_type></curator_type>
+	<value code="0">ORIGINAL COHORT GROUP</value>
+	<value code="1">OFFSPRING GROUP</value>
+	<value code="2">NEW OFFSPRING SPOUSE</value>
+	<value code="3">GENERATION 3</value>
+</variable>
+
+<variable id="phv00036483.v2">
+	<name>LATTTIME</name>
+	<description>NUMBER OF DAYS BETWEEN EXAM 1 AND LASTATT (DATE OF LAST EXAM ATTENDED (THROUGH 2006 - SEE CVDDATE ABOVE FOR REASONING WHY 2006 WAS USED AS THE CUTOFF DATE))</description>
+	<comment></comment>
+	<type></type>
+	<unit>DAYS</unit>
+	<logical_min></logical_min>
+	<logical_max></logical_max>
+	<curator_type></curator_type>
+</variable>
+
+<variable id="phv00036484.v2">
+	<name>LCONTIME</name>
+	<description>NUMBER OF DAYS BETWEEN EXAM 1 AND LASTCON (DATE OF LAST CONTACT THROUGH 2007)</description>
+	<comment></comment>
+	<type></type>
+	<unit>DAYS</unit>
+	<logical_min></logical_min>
+	<logical_max></logical_max>
+	<curator_type></curator_type>
+</variable>
+
+<variable id="phv00036485.v2">
+	<name>LSOETIME</name>
+	<description>NUMBER OF DAYS BETWEEN EXAM 1 AND LASTSOE (DATE OF THE LATEST RECORD IN THE SOE 2007 FILE)</description>
+	<comment></comment>
+	<type></type>
+	<unit>DAYS</unit>
+	<logical_min></logical_min>
+	<logical_max></logical_max>
+	<curator_type></curator_type>
+</variable>
+
+<variable id="phv00036486.v2">
+	<name>shareid</name>
+	<description>UNIQUE PARTICIPANT ID</description>
+	<comment></comment>
+	<type></type>
+	<unit></unit>
+	<logical_min></logical_min>
+	<logical_max></logical_max>
+	<curator_type></curator_type>
+</variable>
+
+</data_table>

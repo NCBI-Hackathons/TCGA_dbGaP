@@ -1,0 +1,841 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./datadict_v2.xsl"?>
+<data_table id="pht001173.v1" study_id="phs000222.v1" participant_set="1" date_created="Fri Apr 30 17:43:18 2010">
+
+<unique_key phv="00089122" version="1">id</unique_key>
+<unique_key phv="00089125" version="1">uhdrsvisit</unique_key>
+
+<variable id="phv00089122.v1">
+	<name>id</name>
+	<description>Anonymized Participant ID</description>
+	<type>integer</type>
+</variable>
+
+<variable id="phv00089123.v1">
+	<name>status</name>
+	<description>Case/Control Status</description>
+	<type>string</type>
+	<value code="case">case</value>
+	<value code="cont">cont</value>
+</variable>
+
+<variable id="phv00089124.v1">
+	<name>uhdrsage</name>
+	<description>Age at baseline UHDRS (Unified Huntington&#39;s Disease Rating Scale)</description>
+	<type>integer</type>
+	<unit>Years</unit>
+</variable>
+
+<variable id="phv00089125.v1">
+	<name>uhdrsvisit</name>
+	<description>Visit</description>
+	<type>integer</type>
+	<unit>Visits</unit>
+</variable>
+
+<variable id="phv00089126.v1">
+	<name>uhdrsdays</name>
+	<description>Days since last UHDRS (Unified Huntington&#39;s Disease Rating Scale)</description>
+	<type>integer</type>
+	<unit>Days</unit>
+</variable>
+
+<variable id="phv00089127.v1">
+	<name>uhdrs1a</name>
+	<description>OCULAR PURSUIT (Horizontal)</description>
+	<type>encoded value</type>
+	<value code="0">Normal</value>
+	<value code="1">Jerky movement</value>
+	<value code="2">Interrupted pursuits</value>
+	<value code="3">Incomplete range</value>
+	<value code="4">Cannot pursue</value>
+	<value code="N">Not Applicable</value>
+	<value code="U">Unavailable</value>
+</variable>
+
+<variable id="phv00089128.v1">
+	<name>uhdrs1b</name>
+	<description>OCULAR PURSUIT (Vertical)</description>
+	<type>encoded value</type>
+	<value code="0">Normal</value>
+	<value code="1">Jerky movement</value>
+	<value code="2">Interrupted pursuits</value>
+	<value code="3">Incomplete range</value>
+	<value code="4">Cannot pursue</value>
+	<value code="N">Not Applicable</value>
+	<value code="U">Unavailable</value>
+</variable>
+
+<variable id="phv00089129.v1">
+	<name>uhdrs2a</name>
+	<description>SACCADE INITIATION (Horizontal)</description>
+	<type>encoded value</type>
+	<value code="0">Normal</value>
+	<value code="1">Increased latency</value>
+	<value code="2">Suppressible blinks or head movements</value>
+	<value code="3">Unsuppressible head movements</value>
+	<value code="4">Cannot initiate saccades</value>
+	<value code="N">Not Applicable</value>
+	<value code="U">Unavailable</value>
+</variable>
+
+<variable id="phv00089130.v1">
+	<name>uhdrs2b</name>
+	<description>SACCADE INITIATION (Vertical)</description>
+	<type>encoded value</type>
+	<value code="0">Normal</value>
+	<value code="1">Increased latency</value>
+	<value code="2">Suppressible blinks or head movements</value>
+	<value code="3">Unsuppressible head movements</value>
+	<value code="4">Cannot initiate saccades</value>
+	<value code="N">Not Applicable</value>
+	<value code="U">Unavailable</value>
+</variable>
+
+<variable id="phv00089131.v1">
+	<name>uhdrs3a</name>
+	<description>SACCADE VELOCITY (Horizontal)</description>
+	<type>encoded value</type>
+	<value code="0">Normal</value>
+	<value code="1">Mild slowing</value>
+	<value code="2">Moderate slowing</value>
+	<value code="3">Severely slow, full range</value>
+	<value code="4">Incomplete range</value>
+	<value code="N">Not Applicable</value>
+	<value code="U">Unavailable</value>
+</variable>
+
+<variable id="phv00089132.v1">
+	<name>uhdrs3b</name>
+	<description>SACCADE VELOCITY (Vertical)</description>
+	<type>encoded value</type>
+	<value code="0">Normal</value>
+	<value code="1">Mild slowing</value>
+	<value code="2">Moderate slowing</value>
+	<value code="3">Severely slow, full range</value>
+	<value code="4">Incomplete range</value>
+	<value code="N">Not Applicable</value>
+	<value code="U">Unavailable</value>
+</variable>
+
+<variable id="phv00089133.v1">
+	<name>uhdrs4</name>
+	<description>DYSARTHRIA</description>
+	<type>encoded value</type>
+	<value code="0">Normal</value>
+	<value code="1">Unclear</value>
+	<value code="2">Must repeat to be understood</value>
+	<value code="3">Mostly incomprehensible</value>
+	<value code="4">Anarthria</value>
+	<value code="N">Not Applicable</value>
+	<value code="U">Unavailable</value>
+</variable>
+
+<variable id="phv00089134.v1">
+	<name>uhdrs5</name>
+	<description>TONGUE PROTRUSION</description>
+	<type>encoded value</type>
+	<value code="0">Can hold tongue fully protruded for 10 seconds</value>
+	<value code="1">Cannot keep protruded for 10 seconds</value>
+	<value code="2">Cannot keep protruded for 5 seconds</value>
+	<value code="3">Cannot fully protrude</value>
+	<value code="4">Cannot protrude tongue beyond lips</value>
+	<value code="N">Not Applicable</value>
+	<value code="U">Unavailable</value>
+</variable>
+
+<variable id="phv00089135.v1">
+	<name>uhdrs6a</name>
+	<description>FINGER TAPS (Right)</description>
+	<type>encoded value</type>
+	<value code="0">Normal (&gt;15/5 sec.)</value>
+	<value code="1">Mild slowing (11-14/5 sec.)</value>
+	<value code="2">Moderately impaired (7-10/5 sec.)</value>
+	<value code="3">Severely impaired (3-6/5 sec.)</value>
+	<value code="4">Can barely perform the task (0-2/5 sec.)</value>
+	<value code="N">Not Applicable</value>
+	<value code="U">Unavailable</value>
+</variable>
+
+<variable id="phv00089136.v1">
+	<name>uhdrs6b</name>
+	<description>FINGER TAPS (Left)</description>
+	<type>encoded value</type>
+	<value code="0">Normal (&gt;15/5 sec.)</value>
+	<value code="1">Mild slowing (11-14/5 sec.)</value>
+	<value code="2">Moderately impaired (7-10/5 sec.)</value>
+	<value code="3">Severely impaired (3-6/5 sec.)</value>
+	<value code="4">Can barely perform the task (0-2/5 sec.)</value>
+	<value code="N">Not Applicable</value>
+	<value code="U">Unavailable</value>
+</variable>
+
+<variable id="phv00089137.v1">
+	<name>uhdrs7a</name>
+	<description>PRONATE/SUPINATE - HANDS (Right)</description>
+	<type>encoded value</type>
+	<value code="0">Normal</value>
+	<value code="1">Mild slowing and/or irregular</value>
+	<value code="2">Moderate slowing and irregular</value>
+	<value code="3">Severe slowing and irregular</value>
+	<value code="4">Cannot perform</value>
+	<value code="N">Not Applicable</value>
+	<value code="U">Unavailable</value>
+</variable>
+
+<variable id="phv00089138.v1">
+	<name>uhdrs7b</name>
+	<description>PRONATE/SUPINATE - HANDS (Left)</description>
+	<type>encoded value</type>
+	<value code="0">Normal</value>
+	<value code="1">Mild slowing and/or irregular</value>
+	<value code="2">Moderate slowing and irregular</value>
+	<value code="3">Severe slowing and irregular</value>
+	<value code="4">Cannot perform</value>
+	<value code="N">Not Applicable</value>
+	<value code="U">Unavailable</value>
+</variable>
+
+<variable id="phv00089139.v1">
+	<name>uhdrs8</name>
+	<description>LURIA (Fist - Hand - Palm Test)</description>
+	<type>encoded value</type>
+	<value code="0">&gt;= 4 in 10 seconds, no cue</value>
+	<value code="1">&lt;4 in 10 seconds, no cue</value>
+	<value code="2">&gt;=4 in 10 seconds with cues</value>
+	<value code="3">&lt;4 in 10 seconds with cues</value>
+	<value code="4">Cannot perform</value>
+	<value code="N">Not Applicable</value>
+	<value code="U">Unavailable</value>
+</variable>
+
+<variable id="phv00089140.v1">
+	<name>uhdrs9a</name>
+	<description>RIGIDITY - ARMS (Right)</description>
+	<type>encoded value</type>
+	<value code="0">Absent</value>
+	<value code="1">Slight or only with activation</value>
+	<value code="2">Mild to moderate</value>
+	<value code="3">Severe, full range of motion</value>
+	<value code="4">Severe with limited range</value>
+	<value code="N">Not Applicable</value>
+	<value code="U">Unavailable</value>
+</variable>
+
+<variable id="phv00089141.v1">
+	<name>uhdrs9b</name>
+	<description>RIGIDITY - ARMS (Left)</description>
+	<type>encoded value</type>
+	<value code="0">Absent</value>
+	<value code="1">Slight or only with activation</value>
+	<value code="2">Mild to moderate</value>
+	<value code="3">Severe, full range of motion</value>
+	<value code="4">Severe with limited range</value>
+	<value code="N">Not Applicable</value>
+	<value code="U">Unavailable</value>
+</variable>
+
+<variable id="phv00089142.v1">
+	<name>uhdrs10</name>
+	<description>BRADYKINESIA - BODY</description>
+	<type>encoded value</type>
+	<value code="0">Normal</value>
+	<value code="1">Minimally slow</value>
+	<value code="2">Mildly but clearly slow</value>
+	<value code="3">Moderately slow, some hesitation</value>
+	<value code="4">Markedly slow, long initiation delays</value>
+	<value code="N">Not Applicable</value>
+	<value code="U">Unavailable</value>
+</variable>
+
+<variable id="phv00089143.v1">
+	<name>uhdrs11a</name>
+	<description>MAXIMAL DYSTONIA (TRUNK)</description>
+	<type>encoded value</type>
+	<value code="0">Absent</value>
+	<value code="1">Slight/intermittent</value>
+	<value code="2">Mild/common or moderate/intermittent</value>
+	<value code="3">Moderate/common</value>
+	<value code="4">Marked/prolonged</value>
+	<value code="N">Not Applicable</value>
+	<value code="U">Unavailable</value>
+</variable>
+
+<variable id="phv00089144.v1">
+	<name>uhdrs11b</name>
+	<description>MAXIMAL DYSTONIA (RUE)</description>
+	<type>encoded value</type>
+	<value code="0">Absent</value>
+	<value code="1">Slight/intermittent</value>
+	<value code="2">Mild/common or moderate/intermittent</value>
+	<value code="3">Moderate/common</value>
+	<value code="4">Marked/prolonged</value>
+	<value code="N">Not Applicable</value>
+	<value code="U">Unavailable</value>
+</variable>
+
+<variable id="phv00089145.v1">
+	<name>uhdrs11c</name>
+	<description>MAXIMAL DYSTONIA (LUE)</description>
+	<type>encoded value</type>
+	<value code="0">Absent</value>
+	<value code="1">Slight/intermittent</value>
+	<value code="2">Mild/common or moderate/intermittent</value>
+	<value code="3">Moderate/common</value>
+	<value code="4">Marked/prolonged</value>
+	<value code="N">Not Applicable</value>
+	<value code="U">Unavailable</value>
+</variable>
+
+<variable id="phv00089146.v1">
+	<name>uhdrs11d</name>
+	<description>MAXIMAL DYSTONIA (RLE)</description>
+	<type>encoded value</type>
+	<value code="0">Absent</value>
+	<value code="1">Slight/intermittent</value>
+	<value code="2">Mild/common or moderate/intermittent</value>
+	<value code="3">Moderate/common</value>
+	<value code="4">Marked/prolonged</value>
+	<value code="N">Not Applicable</value>
+	<value code="U">Unavailable</value>
+</variable>
+
+<variable id="phv00089147.v1">
+	<name>uhdrs11e</name>
+	<description>MAXIMAL DYSTONIA (LLE)</description>
+	<type>encoded value</type>
+	<value code="0">Absent</value>
+	<value code="1">Slight/intermittent</value>
+	<value code="2">Mild/common or moderate/intermittent</value>
+	<value code="3">Moderate/common</value>
+	<value code="4">Marked/prolonged</value>
+	<value code="N">Not Applicable</value>
+	<value code="U">Unavailable</value>
+</variable>
+
+<variable id="phv00089148.v1">
+	<name>uhdrs12a</name>
+	<description>MAXIMAL CHOREA (FACE)</description>
+	<type>encoded value</type>
+	<value code="0">Absent</value>
+	<value code="1">Slight/intermittent</value>
+	<value code="2">Mild/common or moderate/intermittent</value>
+	<value code="3">Moderate/common</value>
+	<value code="4">Marked/prolonged</value>
+	<value code="N">Not Applicable</value>
+	<value code="U">Unavailable</value>
+</variable>
+
+<variable id="phv00089149.v1">
+	<name>uhdrs12b</name>
+	<description>MAXIMAL CHOREA (BOL)</description>
+	<type>encoded value</type>
+	<value code="0">Absent</value>
+	<value code="1">Slight/intermittent</value>
+	<value code="2">Mild/common or moderate/intermittent</value>
+	<value code="3">Moderate/common</value>
+	<value code="4">Marked/prolonged</value>
+	<value code="N">Not Applicable</value>
+	<value code="U">Unavailable</value>
+</variable>
+
+<variable id="phv00089150.v1">
+	<name>uhdrs12c</name>
+	<description>MAXIMAL CHOREA (TRUNK)</description>
+	<type>encoded value</type>
+	<value code="0">Absent</value>
+	<value code="1">Slight/intermittent</value>
+	<value code="2">Mild/common or moderate/intermittent</value>
+	<value code="3">Moderate/common</value>
+	<value code="4">Marked/prolonged</value>
+	<value code="N">Not Applicable</value>
+	<value code="U">Unavailable</value>
+</variable>
+
+<variable id="phv00089151.v1">
+	<name>uhdrs12d</name>
+	<description>MAXIMAL CHOREA (RUE)</description>
+	<type>encoded value</type>
+	<value code="0">Absent</value>
+	<value code="1">Slight/intermittent</value>
+	<value code="2">Mild/common or moderate/intermittent</value>
+	<value code="3">Moderate/common</value>
+	<value code="4">Marked/prolonged</value>
+	<value code="N">Not Applicable</value>
+	<value code="U">Unavailable</value>
+</variable>
+
+<variable id="phv00089152.v1">
+	<name>uhdrs12e</name>
+	<description>MAXIMAL CHOREA (LUE)</description>
+	<type>encoded value</type>
+	<value code="0">Absent</value>
+	<value code="1">Slight/intermittent</value>
+	<value code="2">Mild/common or moderate/intermittent</value>
+	<value code="3">Moderate/common</value>
+	<value code="4">Marked/prolonged</value>
+	<value code="N">Not Applicable</value>
+	<value code="U">Unavailable</value>
+</variable>
+
+<variable id="phv00089153.v1">
+	<name>uhdrs12f</name>
+	<description>MAXIMAL CHOREA (RLE)</description>
+	<type>encoded value</type>
+	<value code="0">Absent</value>
+	<value code="1">Slight/intermittent</value>
+	<value code="2">Mild/common or moderate/intermittent</value>
+	<value code="3">Moderate/common</value>
+	<value code="4">Marked/prolonged</value>
+	<value code="N">Not Applicable</value>
+	<value code="U">Unavailable</value>
+</variable>
+
+<variable id="phv00089154.v1">
+	<name>uhdrs12g</name>
+	<description>MAXIMAL CHOREA (LLE)</description>
+	<type>encoded value</type>
+	<value code="0">Absent</value>
+	<value code="1">Slight/intermittent</value>
+	<value code="2">Mild/common or moderate/intermittent</value>
+	<value code="3">Moderate/common</value>
+	<value code="4">Marked/prolonged</value>
+	<value code="N">Not Applicable</value>
+	<value code="U">Unavailable</value>
+</variable>
+
+<variable id="phv00089155.v1">
+	<name>uhdrs13</name>
+	<description>GAIT</description>
+	<type>encoded value</type>
+	<value code="0">Normal, narrow base</value>
+	<value code="1">Wide base and/or slow</value>
+	<value code="2">Wide base and walks with difficulty</value>
+	<value code="3">Walks only with assistance</value>
+	<value code="4">Cannot attempt</value>
+	<value code="N">Not Applicable</value>
+	<value code="U">Unavailable</value>
+</variable>
+
+<variable id="phv00089156.v1">
+	<name>uhdrs14</name>
+	<description>TANDEM WALKING</description>
+	<type>encoded value</type>
+	<value code="0">Normal for 10 steps</value>
+	<value code="1">One to 3 deviations from line</value>
+	<value code="2">&gt; 3 deviations</value>
+	<value code="3">Cannot complete</value>
+	<value code="4">Cannot attempt</value>
+	<value code="N">Not Applicable</value>
+	<value code="U">Unavailable</value>
+</variable>
+
+<variable id="phv00089157.v1">
+	<name>uhdrs15</name>
+	<description>RETROPULSION PULL TEST</description>
+	<type>encoded value</type>
+	<value code="0">Normal</value>
+	<value code="1">Recovers spontaneously</value>
+	<value code="2">Would fall if not caught</value>
+	<value code="3">Tends to fall spontaneously</value>
+	<value code="4">Cannot stand</value>
+	<value code="N">Not Applicable</value>
+	<value code="U">Unavailable</value>
+</variable>
+
+<variable id="phv00089158.v1">
+	<name>uhdrs16</name>
+	<description>WEIGHT (kg)</description>
+	<type>decimal, encoded value</type>
+	<unit>kg</unit>
+	<value code="N">Not Applicable</value>
+	<value code="U">Unavailable</value>
+</variable>
+
+<variable id="phv00089159.v1">
+	<name>uhdrs43</name>
+	<description>Engage in gainful employment in his/her accustomed work</description>
+	<type>encoded value</type>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00089160.v1">
+	<name>uhdrs44</name>
+	<description>Engage in any kind of gainful employment</description>
+	<type>encoded value</type>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00089161.v1">
+	<name>uhdrs45</name>
+	<description>Engage in any kind of volunteer/non-gainful employment</description>
+	<type>encoded value</type>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00089162.v1">
+	<name>uhdrs46</name>
+	<description>Manage his/her finances (monthly) w/out any help</description>
+	<type>encoded value</type>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00089163.v1">
+	<name>uhdrs47</name>
+	<description>Shop for groceries w/out help</description>
+	<type>encoded value</type>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00089164.v1">
+	<name>uhdrs48</name>
+	<description>Handle money as purchaser in a simple cash (store) transaction</description>
+	<type>encoded value</type>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00089165.v1">
+	<name>uhdrs49</name>
+	<description>Supervise children w/out help</description>
+	<type>encoded value</type>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00089166.v1">
+	<name>uhdrs50</name>
+	<description>Operate an auto safely/independently</description>
+	<type>encoded value</type>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00089167.v1">
+	<name>uhdrs51</name>
+	<description>Do his/her own housework w/out help</description>
+	<type>encoded value</type>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00089168.v1">
+	<name>uhdrs52</name>
+	<description>Do his/her own laundry (wash/dry) w/out help</description>
+	<type>encoded value</type>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00089169.v1">
+	<name>uhdrs53</name>
+	<description>Prepare his/her own meals w/out help</description>
+	<type>encoded value</type>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00089170.v1">
+	<name>uhdrs54</name>
+	<description>Use telephone w/out help</description>
+	<type>encoded value</type>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00089171.v1">
+	<name>uhdrs55</name>
+	<description>Take his/her own medications w/out help</description>
+	<type>encoded value</type>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00089172.v1">
+	<name>uhdrs56</name>
+	<description>Feed himself/herself w/out help</description>
+	<type>encoded value</type>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00089173.v1">
+	<name>uhdrs57</name>
+	<description>Dress himself/herself w/out help</description>
+	<type>encoded value</type>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00089174.v1">
+	<name>uhdrs58</name>
+	<description>Bathe himself/herself w/out help</description>
+	<type>encoded value</type>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00089175.v1">
+	<name>uhdrs59</name>
+	<description>Use public transportation to get to places w/out help</description>
+	<type>encoded value</type>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00089176.v1">
+	<name>uhdrs60</name>
+	<description>Walk to places in his/her neighborhood w/out help</description>
+	<type>encoded value</type>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00089177.v1">
+	<name>uhdrs61</name>
+	<description>Walk w/out falling</description>
+	<type>encoded value</type>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00089178.v1">
+	<name>uhdrs62</name>
+	<description>Walk w/out help</description>
+	<type>encoded value</type>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00089179.v1">
+	<name>uhdrs63</name>
+	<description>Comb hair w/out help</description>
+	<type>encoded value</type>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00089180.v1">
+	<name>uhdrs64</name>
+	<description>Transfer between chairs w/out help</description>
+	<type>encoded value</type>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00089181.v1">
+	<name>uhdrs65</name>
+	<description>Get in and out of bed w/out help</description>
+	<type>encoded value</type>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00089182.v1">
+	<name>uhdrs66</name>
+	<description>Use toilet/commode w/out help</description>
+	<type>encoded value</type>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00089183.v1">
+	<name>uhdrs67</name>
+	<description>Can participant&#39;s care still be provided at home</description>
+	<type>encoded value</type>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00089184.v1">
+	<name>uhdrs68</name>
+	<description>Functional Assessment information obtained from</description>
+	<type>encoded value</type>
+	<value code="1">Participant only</value>
+	<value code="2">Participant and companion</value>
+</variable>
+
+<variable id="phv00089185.v1">
+	<name>uhdrs69</name>
+	<description>Indicate most accurate current level of independence (010-100)</description>
+	<type>encoded value</type>
+	<value code="10">Tube fed; total bed care</value>
+	<value code="100">No special care needed</value>
+</variable>
+
+<variable id="phv00089186.v1">
+	<name>uhdrs70</name>
+	<description>Occupation</description>
+	<type>encoded value</type>
+	<value code="0">Unable</value>
+	<value code="1">Marginal work only</value>
+	<value code="2">Reduced capacity for usual job</value>
+	<value code="3">Normal</value>
+	<value code="N">Not Applicable</value>
+	<value code="U">Unavailable</value>
+</variable>
+
+<variable id="phv00089187.v1">
+	<name>uhdrs71</name>
+	<description>Finances</description>
+	<type>encoded value</type>
+	<value code="0">Unable</value>
+	<value code="1">Major assistance</value>
+	<value code="2">Slight assistance</value>
+	<value code="3">Normal</value>
+	<value code="N">Not Applicable</value>
+	<value code="U">Unavailable</value>
+</variable>
+
+<variable id="phv00089188.v1">
+	<name>uhdrs72</name>
+	<description>Domestic chores</description>
+	<type>encoded value</type>
+	<value code="0">Unable</value>
+	<value code="1">Impaired</value>
+	<value code="2">Normal</value>
+	<value code="N">Not Applicable</value>
+	<value code="U">Unavailable</value>
+</variable>
+
+<variable id="phv00089189.v1">
+	<name>uhdrs73</name>
+	<description>ADL (Activities of Daily Living)</description>
+	<type>encoded value</type>
+	<value code="0">Total care</value>
+	<value code="1">Gross tasks only</value>
+	<value code="2">Minimal impairment</value>
+	<value code="3">Normal</value>
+	<value code="N">Not Applicable</value>
+	<value code="U">Unavailable</value>
+</variable>
+
+<variable id="phv00089190.v1">
+	<name>uhdrs74</name>
+	<description>Care level</description>
+	<type>encoded value</type>
+	<value code="0">Full time skilled nursing</value>
+	<value code="1">Home or chronic care</value>
+	<value code="2">Home</value>
+	<value code="N">Not Applicable</value>
+	<value code="U">Unavailable</value>
+</variable>
+
+<variable id="phv00089191.v1">
+	<name>uhdrs75</name>
+	<description>Functional Capacity information obtained from</description>
+	<type>encoded value</type>
+	<value code="1">Participant only</value>
+	<value code="2">Participant and companion</value>
+	<value code="N">Not Applicable</value>
+	<value code="U">Unavailable</value>
+</variable>
+
+<variable id="phv00089192.v1">
+	<name>uhdrs77</name>
+	<description>What was purpose of visit</description>
+	<type>encoded value</type>
+	<value code="1">Participant in at-risk study</value>
+	<value code="2">Participant in manifest HD study</value>
+	<value code="3">Presymptomatic genetic testing</value>
+	<value code="4">Determine if participant is presymptomatic</value>
+	<value code="5">Known manifest HD</value>
+	<value code="6">Other</value>
+	<value code="N">Not Applicable</value>
+	<value code="U">Unavailable</value>
+</variable>
+
+<variable id="phv00089193.v1">
+	<name>uhdrs78</name>
+	<description>Since last assessment, in your opinion, how has participant changed:</description>
+	<type>encoded value</type>
+	<value code="1">Improved</value>
+	<value code="2">Worsened</value>
+	<value code="3">Stayed about the same</value>
+	<value code="4">NA (never seen before)</value>
+	<value code="N">Not Applicable</value>
+	<value code="U">Unavailable</value>
+</variable>
+
+<variable id="phv00089194.v1">
+	<name>uhdrs79</name>
+	<description>Since last assessment, does the participant feel:</description>
+	<type>encoded value</type>
+	<value code="1">Improved</value>
+	<value code="2">Worsened</value>
+	<value code="3">Stayed about the same</value>
+	<value code="4">NA (never seen before)</value>
+	<value code="N">Not Applicable</value>
+	<value code="U">Unavailable</value>
+</variable>
+
+<variable id="phv00089195.v1">
+	<name>uhdrs81</name>
+	<description>Motor Rater - known Gene Status</description>
+	<type>encoded value</type>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+	<value code="N">Not Applicable</value>
+	<value code="U">Unavailable</value>
+</variable>
+
+<variable id="phv00089196.v1">
+	<name>uhdrs82</name>
+	<description>Motor Rater - known CAG Length</description>
+	<type>encoded value</type>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+	<value code="N">Not Applicable</value>
+	<value code="U">Unavailable</value>
+</variable>
+
+<variable id="phv00089197.v1">
+	<name>uhdrs85a</name>
+	<description>Institutionalized</description>
+	<type>encoded value</type>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+	<value code="N">Not Applicable</value>
+	<value code="U">Unavailable</value>
+</variable>
+
+<variable id="phv00089198.v1">
+	<name>uhdrs85b</name>
+	<description>Continue Participation</description>
+	<type>encoded value</type>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+	<value code="N">Not Applicable</value>
+	<value code="U">Unavailable</value>
+</variable>
+
+<variable id="phv00089199.v1">
+	<name>uhdrs11</name>
+	<description>DYSTONIA - Sum of items 11a-11e</description>
+	<type>integer</type>
+</variable>
+
+<variable id="phv00089200.v1">
+	<name>uhdrs12</name>
+	<description>CHOREA - Sum of items 12a-12g</description>
+	<type>integer</type>
+</variable>
+
+<variable id="phv00089201.v1">
+	<name>uhdrs_fa</name>
+	<description>FAS (Functional Assessment Section) - Sum of 43-67 giving score between 0 and 25</description>
+	<type>integer</type>
+</variable>
+
+<variable id="phv00089202.v1">
+	<name>uhdrsmotr</name>
+	<description>Motor Score - Sum of 1a-15</description>
+	<type>integer</type>
+</variable>
+
+</data_table>

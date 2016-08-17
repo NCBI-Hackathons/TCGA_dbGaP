@@ -1,0 +1,821 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./datadict_v2.xsl"?>
+<data_table id="pht000253.v1" study_id="phs000086.v2" participant_set="1" date_created="Wed Feb  3 09:19:27 2010">
+
+<variable id="phv00030663.v1">
+	<name>GROUP</name>
+	<description>Randomization group</description>
+	<type>str12</type>
+	<value code="EXPERIMENTAL">INTENSIVE TREATMENT</value>
+	<value code="STANDARD">CONVENTIONAL TREATMENT</value>
+</variable>
+
+<variable id="phv00030664.v1">
+	<name>PHASE</name>
+	<description>Phase to which patient was randomized (2, 3)</description>
+	<type>byte</type>
+	<value code="2">FEASIBILITY</value>
+	<value code="3">FULL-SCALE</value>
+</variable>
+
+<variable id="phv00030665.v1">
+	<name>RETBASE</name>
+	<description>Baseline retinopathy stratum (primary, secondary)</description>
+	<type>str4</type>
+	<value code="PRIM">PRIMARY PREVENTION</value>
+	<value code="SEC">SECONDARY INTERVENTION</value>
+</variable>
+
+<variable id="phv00030666.v1">
+	<name>ADULT</name>
+	<description>Patient is an adult &gt;=18 years</description>
+	<type>byte</type>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00030667.v1">
+	<name>AGE</name>
+	<description>Patient&#39;s age (taken from master document) at entry</description>
+	<type>byte</type>
+	<unit>YEARS</unit>
+</variable>
+
+<variable id="phv00030668.v1">
+	<name>DURATION</name>
+	<description>Total IDDM duration (in months) at entry</description>
+	<type>int</type>
+	<unit>MONTHS</unit>
+</variable>
+
+<variable id="phv00030669.v1">
+	<name>F002DATE</name>
+	<description>Date on which form 002 was completed</description>
+	<type>str6</type>
+</variable>
+
+<variable id="phv00030670.v1">
+	<name>OBONSET</name>
+	<description>Month and year of IDDM onset</description>
+	<type>int</type>
+</variable>
+
+<variable id="phv00030671.v1">
+	<name>PPDUR</name>
+	<description>Post-pubescent IDDM duration (months)</description>
+	<type>int</type>
+	<unit>MONTHS</unit>
+</variable>
+
+<variable id="phv00030672.v1">
+	<name>MARRIED</name>
+	<description>Patient&#39;s marital status</description>
+	<type>byte</type>
+	<value code="0">NOT MARRIED</value>
+	<value code="1">MARRIED</value>
+</variable>
+
+<variable id="phv00030673.v1">
+	<name>OBMARRY</name>
+	<description>Patient&#39;s marital status</description>
+	<type>byte</type>
+	<value code="1">NEVER MARRIED</value>
+	<value code="2">MARRIED OR REMARRIED</value>
+	<value code="3">SEPARATED</value>
+	<value code="4">DIVORCED</value>
+	<value code="5">WIDOWED</value>
+</variable>
+
+<variable id="phv00030674.v1">
+	<name>PRIORHYP</name>
+	<description>Past history of severe hypoglycemia (occurrences; 0=0,1=1-2,2= &gt;/=3)</description>
+	<type>byte</type>
+	<value code="0">NONE</value>
+	<value code="1">1-2 HOSPITALIZATION(S)</value>
+	<value code="2">EQUAL TO OR MORE THAN 3 HOSPITALIZATIONS</value>
+</variable>
+
+<variable id="phv00030675.v1">
+	<name>OBC9</name>
+	<description>Frequency - patient experienced severe hypoglycemia requiring i.v. glucose treatment</description>
+	<type>byte</type>
+	<unit>GLUCOSE (I.V.)</unit>
+</variable>
+
+<variable id="phv00030676.v1">
+	<name>HOLLSCOR</name>
+	<description>Hollingshead (2 factor) social class score</description>
+	<type>byte</type>
+	<unit>HOLLINGSHEAD SCORE</unit>
+</variable>
+
+<variable id="phv00030677.v1">
+	<name>OBPATJOB</name>
+	<description>Patient&#39;s occupation</description>
+	<type>byte</type>
+	<value code="1">PROFESSIONAL</value>
+	<value code="2">MANAGER</value>
+	<value code="3">CRAFTSMAN</value>
+	<value code="4">CLERICAL</value>
+	<value code="5">SALES WORKER</value>
+	<value code="6">OPERATIVE WORKER</value>
+	<value code="7">SERVICE WORKER</value>
+	<value code="8">LABORER</value>
+	<value code="9">FARMER</value>
+	<value code="10">HOMEMAKER</value>
+	<value code="11">STUDENT</value>
+	<value code="12">OTHER</value>
+	<value code="13">OTHER OR UNKNOWN</value>
+</variable>
+
+<variable id="phv00030678.v1">
+	<name>OBPATED</name>
+	<description>Patient&#39;s education</description>
+	<type>byte</type>
+	<value code="1">GRADUATE SCHOOL</value>
+	<value code="2">COLLEGE GRADUATE</value>
+	<value code="3">SOME COLLEGE OR TRADE SCHOOL</value>
+	<value code="4">SECONDARY SCHOOL GRADUATE</value>
+	<value code="5">ELEMENTARY SCHOOL</value>
+	<value code="7">NONE</value>
+	<value code="8">UNKNOWN</value>
+</variable>
+
+<variable id="phv00030679.v1">
+	<name>FAMIDDM</name>
+	<description>Family history of IDDM (0=no, 1=yes)</description>
+	<type>byte</type>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00030680.v1">
+	<name>FAMNIDDM</name>
+	<description>Family history of NIDDM</description>
+	<type>byte</type>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00030681.v1">
+	<name>FAMHT</name>
+	<description>Family history of hypertension (0=no, 1=yes)</description>
+	<type>byte</type>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00030682.v1">
+	<name>FAMMI</name>
+	<description>Family history of MI (0=no, 1=yes)</description>
+	<type>byte</type>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00030683.v1">
+	<name>FAMEYE</name>
+	<description>Family history of eye disease due to diabetes</description>
+	<type>byte</type>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00030684.v1">
+	<name>IW</name>
+	<description>Gender specific ideal body weight</description>
+	<type>float</type>
+	<unit>KG</unit>
+</variable>
+
+<variable id="phv00030685.v1">
+	<name>PIDW</name>
+	<description>Percent of ideal body weight (observed weight/ideal weight) x 100</description>
+	<type>float</type>
+	<unit>PERCENT</unit>
+</variable>
+
+<variable id="phv00030686.v1">
+	<name>BMI</name>
+	<description><![CDATA[Patient&#39;s body mass index (kg/m&#178;)]]></description>
+	<type>float</type>
+	<unit>KG/M2</unit>
+</variable>
+
+<variable id="phv00030687.v1">
+	<name>OBSEX</name>
+	<description>Patient&#39;s gender</description>
+	<type>byte</type>
+	<value code="1">MALE</value>
+	<value code="2">FEMALE</value>
+</variable>
+
+<variable id="phv00030688.v1">
+	<name>OBWEIGHT</name>
+	<description>Patient&#39;s weight (kg) at baseline</description>
+	<type>float</type>
+	<unit>KG</unit>
+</variable>
+
+<variable id="phv00030689.v1">
+	<name>OBHEIGHT</name>
+	<description>Patient&#39;s height (cm) at baseline</description>
+	<type>float</type>
+	<unit>CM</unit>
+</variable>
+
+<variable id="phv00030690.v1">
+	<name>MBP</name>
+	<description>Mean arterial pressure</description>
+	<type>float</type>
+	<unit>MMHG</unit>
+</variable>
+
+<variable id="phv00030691.v1">
+	<name>OBDBP1</name>
+	<description>Diastolic blood pressure (mmhg, form 002)</description>
+	<type>byte</type>
+	<unit>MMHG</unit>
+</variable>
+
+<variable id="phv00030692.v1">
+	<name>OBSBP1</name>
+	<description>Systolic blood pressure (mmhg, form 002)</description>
+	<type>int</type>
+	<unit>MMHG</unit>
+</variable>
+
+<variable id="phv00030693.v1">
+	<name>INSULIN</name>
+	<description>Patient&#39;s total insulin dosage (units/weight in kg)</description>
+	<type>float</type>
+	<unit>I.U./KG</unit>
+</variable>
+
+<variable id="phv00030694.v1">
+	<name>OBGU7</name>
+	<description>Patient had kidney or bladder infection treated with antibiotics</description>
+	<type>byte</type>
+	<value code="0">ERROR VALUE</value>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+</variable>
+
+<variable id="phv00030695.v1">
+	<name>SMOKES</name>
+	<description>Smoking status (never/ever/current )</description>
+	<type>byte</type>
+	<value code="1">NEVER</value>
+	<value code="2">EVER</value>
+	<value code="3">CURRENT</value>
+</variable>
+
+<variable id="phv00030696.v1">
+	<name>OBSMOK1</name>
+	<description>Patient has smoked cigarettes</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+</variable>
+
+<variable id="phv00030697.v1">
+	<name>OBSMOK2</name>
+	<description>Patient smokes cigarettes</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00030698.v1">
+	<name>DRINKS</name>
+	<description>Patient is current drinker</description>
+	<type>byte</type>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00030699.v1">
+	<name>EXERCISE</name>
+	<description>Level of exercise (1=strenuous, 4=mild)</description>
+	<type>byte</type>
+	<value code="1">STRENUOUS</value>
+	<value code="2">VIGOROUS</value>
+	<value code="3">MODERATE</value>
+	<value code="4">MILD</value>
+</variable>
+
+<variable id="phv00030700.v1">
+	<name>OBRACE</name>
+	<description>Patient&#39;s race</description>
+	<type>byte</type>
+	<value code="1">WHITE, NOT OF HISPANIC ORIGIN</value>
+	<value code="2">BLACK,  NOT OF HISPANIC ORIGIN</value>
+	<value code="3">HISPANIC</value>
+	<value code="4">ASIAN OR PACIFIC ISLANDER</value>
+	<value code="5">AMERICAN INDIAN OR ALASKAN NATIVE</value>
+</variable>
+
+<variable id="phv00030701.v1">
+	<name>OBDKAHSP</name>
+	<description>Frequency: hospitalization(s) for diabetic ketoacidosis in past year</description>
+	<type>byte</type>
+</variable>
+
+<variable id="phv00030702.v1">
+	<name>OBHYPHSP</name>
+	<description>Frequency: hospitalization(s) for hypoglycemia in past year</description>
+	<type>byte</type>
+</variable>
+
+<variable id="phv00030703.v1">
+	<name>OBC8A</name>
+	<description>Frequency - patient experienced severe hypoglycemia with loss of consciousness and without seizure</description>
+	<type>byte</type>
+	<unit>L.O.C. WITHOUT SEIZURE(S)</unit>
+</variable>
+
+<variable id="phv00030704.v1">
+	<name>OBC8B</name>
+	<description>Frequency - patient experienced severe hypoglycemia with loss of consciousness and with seizure</description>
+	<type>byte</type>
+	<unit>L.O.C. WITH SEIZURE(S)</unit>
+</variable>
+
+<variable id="phv00030705.v1">
+	<name>OBNEUR2</name>
+	<description>Patient experienced seizures</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00030706.v1">
+	<name>OBPSYCH5</name>
+	<description>Patient attempted suicide</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00030707.v1">
+	<name>OBPSYCH7</name>
+	<description>Patient required psychiatric treatment</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00030708.v1">
+	<name>OHF3RE</name>
+	<description>Visual acuity score - right eye (form 008)</description>
+	<type>byte</type>
+	<value code="0">WORSE THAN 20/800 (code value=0)</value>
+	<value code="1">WORSE THAN 20/800 (code value=1)</value>
+	<value code="2">WORSE THAN 20/800 (code value=2)</value>
+	<value code="3">20/800 (code value=3)</value>
+	<value code="4">20/800 (code value=4)</value>
+	<value code="5">20/800 (code value=5)</value>
+	<value code="6">20/800 (code value=6)</value>
+	<value code="7">20/800 (code value=7)</value>
+	<value code="8">20/640 (code value=8)</value>
+	<value code="9">20/640 (code value=9)</value>
+	<value code="10">20/640 (code value=10)</value>
+	<value code="11">20/640 (code value=11)</value>
+	<value code="12">20/640 (code value=12)</value>
+	<value code="13">20/500 (code value=13)</value>
+	<value code="14">20/500 (code value=14)</value>
+	<value code="15">20/500 (code value=15)</value>
+	<value code="16">20/500 (code value=16)</value>
+	<value code="17">20/500 (code value=17)</value>
+	<value code="18">20/400 (code value=18)</value>
+	<value code="19">20/400 (code value=19)</value>
+	<value code="20">20/400 (code value=20)</value>
+	<value code="21">20/400 (code value=21)</value>
+	<value code="22">20/400 (code value=22)</value>
+	<value code="23">20/320 (code value=23)</value>
+	<value code="24">20/320 (code value=24)</value>
+	<value code="25">20/320 (code value=25)</value>
+	<value code="26">20/320 (code value=26)</value>
+	<value code="27">20/320 (code value=27)</value>
+	<value code="28">20/250 (code value=28)</value>
+	<value code="29">20/250 (code value=29)</value>
+	<value code="30">20/250 (code value=30)</value>
+	<value code="31">20/250  (code value=31)</value>
+	<value code="32">20/250  (code value=32)</value>
+	<value code="33">20/200 (code value=33)</value>
+	<value code="34">20/200  (code value=34)</value>
+	<value code="35">20/200 (code value=35)</value>
+	<value code="36">20/200 (code value=36)</value>
+	<value code="37">20/200 (code value=37)</value>
+	<value code="38">20/160 (code value=38)</value>
+	<value code="39">20/160 (code value=39)</value>
+	<value code="40">20/160 (code value=40)</value>
+	<value code="41">20/160 (code value=41)</value>
+	<value code="42">20/160 (code value=42)</value>
+	<value code="43">20/125 (code value=43)</value>
+	<value code="44">20/125 (code value=44)</value>
+	<value code="45">20/125 (code value=45)</value>
+	<value code="46">20/125 (code value=46)</value>
+	<value code="47">20/125 (code value=47)</value>
+	<value code="48">20/100 (code value=48)</value>
+	<value code="49">20/100 (code value=49)</value>
+	<value code="50">20/100 (code value=50)</value>
+	<value code="51">20/100 (code value=51)</value>
+	<value code="52">20/100 (code value=52)</value>
+	<value code="53">20/80 (code value=53)</value>
+	<value code="54">20/80 (code value=54)</value>
+	<value code="55">20/80 (code value=55)</value>
+	<value code="56">20/80 (code value=56)</value>
+	<value code="57">20/80 (code value=57)</value>
+	<value code="58">20/63 (code value=58)</value>
+	<value code="59">20/63 (code value=59)</value>
+	<value code="60">20/63 (code value=60)</value>
+	<value code="61">20/63 (code value=61)</value>
+	<value code="62">20/63 (code value=62)</value>
+	<value code="63">20/50 (code value=63)</value>
+	<value code="64">20/50 (code value=64)</value>
+	<value code="65">20/50 (code value=65)</value>
+	<value code="66">20/50 (code value=66)</value>
+	<value code="67">20/50 (code value=67)</value>
+	<value code="68">20/40 (code value=68)</value>
+	<value code="69">20/40 (code value=69)</value>
+	<value code="70">20/40 (code value=70)</value>
+	<value code="71">20/40 (code value=71)</value>
+	<value code="72">20/40 (code value=72)</value>
+	<value code="73">20/32 (code value=73)</value>
+	<value code="74">20/32 (code value=74)</value>
+	<value code="75">20/32 (code value=75)</value>
+	<value code="76">20/32 (code value=76)</value>
+	<value code="77">20/32 (code value=77)</value>
+	<value code="78">20/25 (code value=78)</value>
+	<value code="79">20/25 (code value=79)</value>
+	<value code="80">20/25 (code value=80)</value>
+	<value code="81">20/25 (code value=81)</value>
+	<value code="82">20/25 (code value=82)</value>
+	<value code="83">20/20 (code value=83)</value>
+	<value code="84">20/20 (code value=84)</value>
+	<value code="85">20/20 (code value=85)</value>
+	<value code="86">20/20 (code value=86)</value>
+	<value code="87">20/20 (code value=87)</value>
+	<value code="88">20/16 (code value=88)</value>
+	<value code="89">20/16 (code value=89)</value>
+	<value code="90">20/16 (code value=90)</value>
+	<value code="91">20/16 (code value=91)</value>
+	<value code="92">20/16 (code value=92)</value>
+	<value code="93">20/13 (code value=93)</value>
+	<value code="94">20/13 (code value=94)</value>
+	<value code="95">20/13 (code value=95)</value>
+	<value code="96">20/13 (code value=96)</value>
+	<value code="97">20/13 (code value=97)</value>
+	<value code="98">20/10 (code value=98)</value>
+	<value code="99">20/10 (code value=99)</value>
+	<value code="100">20/10 (code value=100)</value>
+</variable>
+
+<variable id="phv00030709.v1">
+	<name>OHF3LE</name>
+	<description>Visual acuity score - left eye (form 008)</description>
+	<type>byte</type>
+	<value code="0">WORSE THAN 20/800 (code value=0)</value>
+	<value code="1">WORSE THAN 20/800 (code value=1)</value>
+	<value code="2">WORSE THAN 20/800 (code value=2)</value>
+	<value code="3">20/800 (code value=3)</value>
+	<value code="4">20/800 (code value=4)</value>
+	<value code="5">20/800 (code value=5)</value>
+	<value code="6">20/800 (code value=6)</value>
+	<value code="7">20/800 (code value=7)</value>
+	<value code="8">20/640 (code value=8)</value>
+	<value code="9">20/640 (code value=9)</value>
+	<value code="10">20/640 (code value=10)</value>
+	<value code="11">20/640 (code value=11)</value>
+	<value code="12">20/640 (code value=12)</value>
+	<value code="13">20/500 (code value=13)</value>
+	<value code="14">20/500 (code value=14)</value>
+	<value code="15">20/500 (code value=15)</value>
+	<value code="16">20/500 (code value=16)</value>
+	<value code="17">20/500 (code value=17)</value>
+	<value code="18">20/400 (code value=18)</value>
+	<value code="19">20/400 (code value=19)</value>
+	<value code="20">20/400 (code value=20)</value>
+	<value code="21">20/400 (code value=21)</value>
+	<value code="22">20/400 (code value=22)</value>
+	<value code="23">20/320 (code value=23)</value>
+	<value code="24">20/320 (code value=24)</value>
+	<value code="25">20/320 (code value=25)</value>
+	<value code="26">20/320 (code value=26)</value>
+	<value code="27">20/320 (code value=27)</value>
+	<value code="28">20/250 (code value=28)</value>
+	<value code="29">20/250 (code value=29)</value>
+	<value code="30">20/250 (code value=30)</value>
+	<value code="31">20/250  (code value=31)</value>
+	<value code="32">20/250  (code value=32)</value>
+	<value code="33">20/200 (code value=33)</value>
+	<value code="34">20/200  (code value=34)</value>
+	<value code="35">20/200 (code value=35)</value>
+	<value code="36">20/200 (code value=36)</value>
+	<value code="37">20/200 (code value=37)</value>
+	<value code="38">20/160 (code value=38)</value>
+	<value code="39">20/160 (code value=39)</value>
+	<value code="40">20/160 (code value=40)</value>
+	<value code="41">20/160 (code value=41)</value>
+	<value code="42">20/160 (code value=42)</value>
+	<value code="43">20/125 (code value=43)</value>
+	<value code="44">20/125 (code value=44)</value>
+	<value code="45">20/125 (code value=45)</value>
+	<value code="46">20/125 (code value=46)</value>
+	<value code="47">20/125 (code value=47)</value>
+	<value code="48">20/100 (code value=48)</value>
+	<value code="49">20/100 (code value=49)</value>
+	<value code="50">20/100 (code value=50)</value>
+	<value code="51">20/100 (code value=51)</value>
+	<value code="52">20/100 (code value=52)</value>
+	<value code="53">20/80 (code value=53)</value>
+	<value code="54">20/80 (code value=54)</value>
+	<value code="55">20/80 (code value=55)</value>
+	<value code="56">20/80 (code value=56)</value>
+	<value code="57">20/80 (code value=57)</value>
+	<value code="58">20/63 (code value=58)</value>
+	<value code="59">20/63 (code value=59)</value>
+	<value code="60">20/63 (code value=60)</value>
+	<value code="61">20/63 (code value=61)</value>
+	<value code="62">20/63 (code value=62)</value>
+	<value code="63">20/50 (code value=63)</value>
+	<value code="64">20/50 (code value=64)</value>
+	<value code="65">20/50 (code value=65)</value>
+	<value code="66">20/50 (code value=66)</value>
+	<value code="67">20/50 (code value=67)</value>
+	<value code="68">20/40 (code value=68)</value>
+	<value code="69">20/40 (code value=69)</value>
+	<value code="70">20/40 (code value=70)</value>
+	<value code="71">20/40 (code value=71)</value>
+	<value code="72">20/40 (code value=72)</value>
+	<value code="73">20/32 (code value=73)</value>
+	<value code="74">20/32 (code value=74)</value>
+	<value code="75">20/32 (code value=75)</value>
+	<value code="76">20/32 (code value=76)</value>
+	<value code="77">20/32 (code value=77)</value>
+	<value code="78">20/25 (code value=78)</value>
+	<value code="79">20/25 (code value=79)</value>
+	<value code="80">20/25 (code value=80)</value>
+	<value code="81">20/25 (code value=81)</value>
+	<value code="82">20/25 (code value=82)</value>
+	<value code="83">20/20 (code value=83)</value>
+	<value code="84">20/20 (code value=84)</value>
+	<value code="85">20/20 (code value=85)</value>
+	<value code="86">20/20 (code value=86)</value>
+	<value code="87">20/20 (code value=87)</value>
+	<value code="88">20/16 (code value=88)</value>
+	<value code="89">20/16 (code value=89)</value>
+	<value code="90">20/16 (code value=90)</value>
+	<value code="91">20/16 (code value=91)</value>
+	<value code="92">20/16 (code value=92)</value>
+	<value code="93">20/13 (code value=93)</value>
+	<value code="94">20/13 (code value=94)</value>
+	<value code="95">20/13 (code value=95)</value>
+	<value code="96">20/13 (code value=96)</value>
+	<value code="97">20/13 (code value=97)</value>
+	<value code="98">20/10 (code value=98)</value>
+	<value code="99">20/10 (code value=99)</value>
+	<value code="100">20/10 (code value=100)</value>
+</variable>
+
+<variable id="phv00030710.v1">
+	<name>RETPAT</name>
+	<description>Baseline retinopathy level (1 - 4)</description>
+	<type>byte</type>
+	<value code="1">10/10</value>
+	<value code="2">20/EQUAL TO 20 OR &lt; 20</value>
+	<value code="3">30/EQUAL TO 30 OR &lt; 30</value>
+	<value code="4">40/EQUAL TO OR &lt; 40 (AND ABOVE)</value>
+</variable>
+
+<variable id="phv00030711.v1">
+	<name>RET5</name>
+	<description>Baseline retinopathy level - DCCT scale</description>
+	<type>byte</type>
+	<unit>RETINOPATHY LEVEL</unit>
+</variable>
+
+<variable id="phv00030713.v1">
+	<name>NEURODEF</name>
+	<description>Presence of clinical neuropathy</description>
+	<type>byte</type>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00030714.v1">
+	<name>RRV00</name>
+	<description>Autonomic nervous system (ANS) - R-R variation (x 1000)</description>
+	<type>float</type>
+	<unit>RR VARIATION (x 1000)</unit>
+</variable>
+
+<variable id="phv00030715.v1">
+	<name>VALS00</name>
+	<description>Autonomic nervous system (ANS) - valsalva ratio</description>
+	<type>float</type>
+	<unit>VALSALVA RATIO</unit>
+</variable>
+
+<variable id="phv00030716.v1">
+	<name>FULLIQ</name>
+	<description>Full scale I.Q. score</description>
+	<type>int</type>
+	<unit>I.Q. SCORE</unit>
+</variable>
+
+<variable id="phv00030717.v1">
+	<name>EDUCAT</name>
+	<description>Mean education (years - form 013)</description>
+	<type>byte</type>
+	<unit>YEARS</unit>
+</variable>
+
+<variable id="phv00030718.v1">
+	<name>CALORIES</name>
+	<description>Calories consumed (kcal)</description>
+	<type>float</type>
+	<unit>KCAL</unit>
+</variable>
+
+<variable id="phv00030719.v1">
+	<name>BDHRATE</name>
+	<description>Patient&#39;s heart rate (ECG)</description>
+	<type>int</type>
+	<unit>BEATS/MIN</unit>
+</variable>
+
+<variable id="phv00030720.v1">
+	<name>BCVAL2</name>
+	<description>T2-glucose (serum, pre-injection) mg/dl</description>
+	<type>int</type>
+	<unit>MG/DL</unit>
+</variable>
+
+<variable id="phv00030721.v1">
+	<name>BCVAL5</name>
+	<description>Stimulated C-peptide value (pmol/ml, form 023a)</description>
+	<type>float</type>
+	<unit>PMOL/ML</unit>
+</variable>
+
+<variable id="phv00030722.v1">
+	<name>AER</name>
+	<description>Albumin-urine value (mg/24hr, form 23b)</description>
+	<type>float</type>
+	<unit>MG/24HR</unit>
+</variable>
+
+<variable id="phv00030723.v1">
+	<name>SCR</name>
+	<description>Serum creatinine value (mg/dl, form 23b)</description>
+	<type>float</type>
+	<unit>MG/DL</unit>
+</variable>
+
+<variable id="phv00030724.v1">
+	<name>CREAT</name>
+	<description>Creatinine clearance (ml/mn, form 23b)</description>
+	<type>int</type>
+	<unit>ML/MIN</unit>
+</variable>
+
+<variable id="phv00030725.v1">
+	<name>CHOL</name>
+	<description>Cholesterol (serum, mg/dl, form 023c)</description>
+	<type>int</type>
+	<unit>MG/DL</unit>
+</variable>
+
+<variable id="phv00030726.v1">
+	<name>TRG</name>
+	<description>Triglycerides (serum, mg/dl, form 023c)</description>
+	<type>int</type>
+	<unit>MG/DL</unit>
+</variable>
+
+<variable id="phv00030727.v1">
+	<name>HDL</name>
+	<description>HDL serum cholesterol (serum, mg/dl, form 023c)</description>
+	<type>int</type>
+	<unit>MG/DL</unit>
+</variable>
+
+<variable id="phv00030728.v1">
+	<name>LDL</name>
+	<description>LDL serum cholesterol (serum, mg/dl, form 023c)</description>
+	<type>int</type>
+	<unit>MG/DL</unit>
+</variable>
+
+<variable id="phv00030729.v1">
+	<name>WPMEAN</name>
+	<description>Within-profile mean blood glucose value (mg/dl)</description>
+	<type>float</type>
+	<unit>MG/DL</unit>
+</variable>
+
+<variable id="phv00030730.v1">
+	<name>BCVAL25A</name>
+	<description>T25-blood glucose profile (bgp) 1 - mg/dl</description>
+	<type>int</type>
+	<unit>MG/DL</unit>
+</variable>
+
+<variable id="phv00030731.v1">
+	<name>BCVAL26A</name>
+	<description>T26-blood glucose profile (bgp) 2 - mg/dl</description>
+	<type>int</type>
+	<unit>MG/DL</unit>
+</variable>
+
+<variable id="phv00030732.v1">
+	<name>BCVAL27A</name>
+	<description>T27-blood glucose profile (bgp) 3 - mg/dl</description>
+	<type>int</type>
+	<unit>MG/DL</unit>
+</variable>
+
+<variable id="phv00030733.v1">
+	<name>BCVAL28A</name>
+	<description>T28-blood glucose profile (bgp) 4 - mg/dl</description>
+	<type>int</type>
+	<unit>MG/DL</unit>
+</variable>
+
+<variable id="phv00030734.v1">
+	<name>BCVAL29A</name>
+	<description>T29-blood glucose profile (bgp) 5 - mg/dl</description>
+	<type>int</type>
+	<unit>MG/DL</unit>
+</variable>
+
+<variable id="phv00030735.v1">
+	<name>BCVAL30A</name>
+	<description>T30-blood glucose profile (bgp) 6 - mg/dl</description>
+	<type>int</type>
+	<unit>MG/DL</unit>
+</variable>
+
+<variable id="phv00030736.v1">
+	<name>BCVAL31A</name>
+	<description>T31-blood glucose profile (bgp) 7 - mg/dl</description>
+	<type>int</type>
+	<unit>MG/DL</unit>
+</variable>
+
+<variable id="phv00030737.v1">
+	<name>GFRX00</name>
+	<description>Patient&#39;s glomerular filtration rate</description>
+	<type>float</type>
+	<unit>ML/MIN</unit>
+</variable>
+
+<variable id="phv00030738.v1">
+	<name>TSCGSI</name>
+	<description>T-score of global severity index</description>
+	<type>float</type>
+	<unit>T-SCORE-GLOBAL SEVERITY</unit>
+</variable>
+
+<variable id="phv00030739.v1">
+	<name>TSCDEP</name>
+	<description>T-score for depression</description>
+	<type>float</type>
+	<unit>T-SCORE-DEPRESSION</unit>
+</variable>
+
+<variable id="phv00030740.v1">
+	<name>TOTQOL</name>
+	<description>Total score for quality of life</description>
+	<type>int</type>
+	<unit>TOTAL SCORE (QUALITY OF LIFE)</unit>
+</variable>
+
+<variable id="phv00030741.v1">
+	<name>HBA00</name>
+	<description>Hemoglobin A1c at baseline (form 066)</description>
+	<type>float</type>
+	<unit>PERCENT</unit>
+</variable>
+
+<variable id="phv00030742.v1">
+	<name>HBAEL</name>
+	<description>Hemoglobin A1c at eligibility</description>
+	<type>float</type>
+	<unit>PERCENT</unit>
+</variable>
+
+<variable id="phv00030743.v1">
+	<name>MASK_PAT</name>
+	<description>Patient ID number</description>
+	<type>int</type>
+</variable>
+
+</data_table>

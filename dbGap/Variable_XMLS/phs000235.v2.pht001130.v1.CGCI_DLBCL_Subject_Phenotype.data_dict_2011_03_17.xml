@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./datadict_v2.xsl"?>
+<data_table id="pht001130.v1" study_id="phs000235.v2" participant_set="1" date_created="Thu Mar 17 10:20:45 2011">
+
+<variable id="phv00088007.v1">
+	<name>Patient Id</name>
+	<description>Patient_ID</description>
+	<type>string</type>
+</variable>
+
+<variable id="phv00088008.v1">
+	<name>WHO Diagnosis</name>
+	<description>WHO diagnosis</description>
+	<type>string</type>
+	<value code="DLBC">Diffuse Large B-Cell Lymphoma</value>
+	<value code="FOLL1">Follicular Lymphoma Grade 1</value>
+</variable>
+
+<variable id="phv00088009.v1">
+	<name>Days To Birth</name>
+	<description>Number of days to birth</description>
+	<type>number</type>
+	<unit>days</unit>
+	<logical_min>-33620</logical_min>
+	<logical_max>-6084</logical_max>
+</variable>
+
+<variable id="phv00088010.v1">
+	<name>Gender</name>
+	<description>Gender</description>
+	<type>string</type>
+	<value code="M">Male</value>
+	<value code="F">Female</value>
+</variable>
+
+<variable id="phv00088011.v1">
+	<name>Stage</name>
+	<description>Stage (Ann Arbor)</description>
+	<type>string</type>
+	<value code="1A">1A</value>
+	<value code="1AE">1AE</value>
+	<value code="2A">2A</value>
+	<value code="2AE">2AE</value>
+	<value code="2B">2B</value>
+	<value code="2BE">2BE</value>
+	<value code="3A">3A</value>
+	<value code="3AE">3AE</value>
+	<value code="3B">3B</value>
+	<value code="4A">4A</value>
+	<value code="4B">4B</value>
+</variable>
+
+<variable id="phv00088012.v1">
+	<name>Stage Group</name>
+	<description>Stage (limited vs advanced)</description>
+	<type>string</type>
+	<value code="LIM">Limited</value>
+	<value code="ADV">Advanced</value>
+</variable>
+
+<variable id="phv00088013.v1">
+	<name>Performance Status</name>
+	<description>Performance status (ECOG)</description>
+	<type>number</type>
+	<logical_min>0</logical_min>
+	<logical_max>4</logical_max>
+	<value code="0">0</value>
+	<value code="1">1</value>
+	<value code="2">2</value>
+	<value code="3">3</value>
+	<value code="4">4</value>
+</variable>
+
+<variable id="phv00088014.v1">
+	<name>LDH Ratio</name>
+	<description>Lactate dehydrogenase level (LDH) as ratio of measured value/upper limit of normal</description>
+	<type>number</type>
+	<logical_min>-1</logical_min>
+	<logical_max>3.669879436</logical_max>
+</variable>
+
+<variable id="phv00088015.v1">
+	<name>Extranodal Sites</name>
+	<description>Sites of extranodal disease</description>
+	<type>string</type>
+	<value code="BONE">BONE</value>
+	<value code="BONE MARROW">BONE MARROW</value>
+	<value code="BONE MARROW, TESTICLE">BONE MARROW, TESTICLE</value>
+	<value code="BONE, SOFT TISSUE">BONE, SOFT TISSUE</value>
+	<value code="BREAST">BREAST</value>
+	<value code="INTESTINE">INTESTINE</value>
+	<value code="INTESTINE, URETER">INTESTINE, URETER</value>
+	<value code="LIVER, PANCREAS">LIVER, PANCREAS</value>
+	<value code="OROPHARYNX">OROPHARYNX</value>
+	<value code="OVARY">OVARY</value>
+	<value code="STOMACH">STOMACH</value>
+</variable>
+
+<variable id="phv00088016.v1">
+	<name>Tumor Size</name>
+	<description>Largest tumor mass diameter</description>
+	<type>number</type>
+	<unit>cm</unit>
+	<logical_min>2</logical_min>
+	<logical_max>17</logical_max>
+</variable>
+
+<variable id="phv00088017.v1">
+	<name>IPI Score</name>
+	<description>International prognostic index (IPI) score</description>
+	<type>number</type>
+	<logical_min>0</logical_min>
+	<logical_max>4</logical_max>
+</variable>
+
+<variable id="phv00088018.v1">
+	<name>Primary Treatment</name>
+	<description>Primary treatment</description>
+	<type>string</type>
+	<value code="CHOP1-RITU">CHOP1-RITU</value>
+	<value code="CHOP3-RITU-RAD">CHOP3-RITU-RAD</value>
+	<value code="CHOP4-RITU">CHOP4-RITU</value>
+	<value code="CHOP5-RITU">CHOP5-RITU</value>
+	<value code="CHOP6-RITU">CHOP6-RITU</value>
+	<value code="CHOP6-RITU-RAD">CHOP6-RITU-RAD</value>
+	<value code="CHOP7-RITU">CHOP7-RITU</value>
+	<value code="CHOP8-RITU">CHOP8-RITU</value>
+	<value code="CHOP8-RITU-RAD">CHOP8-RITU-RAD</value>
+	<value code="CHOP-RITU">CHOP-RITU</value>
+	<value code="CVP-RITU">CVP-RITU</value>
+</variable>
+
+<variable id="phv00088019.v1">
+	<name>Days To Treatment Start</name>
+	<description>Number of days to treatment start</description>
+	<type>number</type>
+	<unit>days</unit>
+	<logical_min>30</logical_min>
+	<logical_max>30</logical_max>
+</variable>
+
+<variable id="phv00088020.v1">
+	<name>Response</name>
+	<description>Response to primary treatment</description>
+	<type>string</type>
+	<value code="COMP">COMP</value>
+	<value code="PART">PART</value>
+	<value code="NONE">NONE</value>
+	<value code="PROG">PROG</value>
+</variable>
+
+<variable id="phv00088021.v1">
+	<name>Days To Response Assessment</name>
+	<description>Number of days to assessment of response</description>
+	<type>number</type>
+	<unit>days</unit>
+	<logical_min>126</logical_min>
+	<logical_max>126</logical_max>
+</variable>
+
+<variable id="phv00088022.v1">
+	<name>Days To Progression</name>
+	<description>Number of days to progressive disease, if occurred</description>
+	<type>number</type>
+	<unit>days</unit>
+	<logical_min>9</logical_min>
+	<logical_max>1262</logical_max>
+</variable>
+
+<variable id="phv00088023.v1">
+	<name>Site Progression</name>
+	<description>Primary site of progression</description>
+	<type>string</type>
+	<value code="INGUINAL LYMPH NODES">INGUINAL LYMPH NODES</value>
+	<value code="INTESTINE">INTESTINE</value>
+	<value code="LEPTOMENINGES, BRAIN">LEPTOMENINGES, BRAIN</value>
+	<value code="MULTIPLE LYMPH NODES">MULTIPLE LYMPH NODES</value>
+	<value code="PARASPINOUS MASS">PARASPINOUS MASS</value>
+	<value code="SOFT TISSUE">SOFT TISSUE</value>
+</variable>
+
+<variable id="phv00088024.v1">
+	<name>Secondary Treatment</name>
+	<description>Secondary treatment</description>
+	<type>string</type>
+	<value code="CHOP7-RAD, CVP-RITU">CHOP7-RAD, CVP-RITU</value>
+	<value code="DEXA, RAD">DEXA, RAD</value>
+	<value code="FLUD, HSCT-ALLO">FLUD, HSCT-ALLO</value>
+	<value code="GDP">GDP</value>
+	<value code="NONE">NONE</value>
+	<value code="RAD">RAD</value>
+</variable>
+
+<variable id="phv00088025.v1">
+	<name>HSCT</name>
+	<description>Hematopoietic stem cell transplant (HSCT)</description>
+	<type>string</type>
+	<value code="YES">YES</value>
+	<value code="NO">NO</value>
+</variable>
+
+<variable id="phv00088026.v1">
+	<name>Days To HSCT</name>
+	<description>Number of days to HSCT</description>
+	<type>number</type>
+	<unit>days</unit>
+	<logical_min>387</logical_min>
+	<logical_max>387</logical_max>
+</variable>
+
+<variable id="phv00088027.v1">
+	<name>Days To Transformed Lymphoma Diagnosis</name>
+	<description>Number of days to date transformed lymphoma diagnosed</description>
+	<type>number</type>
+	<unit>days</unit>
+</variable>
+
+<variable id="phv00088028.v1">
+	<name>Days to last follow-up</name>
+	<description>Number of days to last follow-up</description>
+	<type>number</type>
+	<unit>days</unit>
+	<logical_min>12</logical_min>
+	<logical_max>3312</logical_max>
+</variable>
+
+<variable id="phv00088029.v1">
+	<name>Status Last Follow Up</name>
+	<description>Status at last follow-up</description>
+	<type>string</type>
+	<value code="ALIVE">ALIVE</value>
+	<value code="DEAD">DEAD</value>
+</variable>
+
+<variable id="phv00088030.v1">
+	<name>Cause Of Death</name>
+	<description>Cause of death</description>
+	<type>string</type>
+	<value code="LYMPHOMA">LYMPHOMA</value>
+</variable>
+
+</data_table>

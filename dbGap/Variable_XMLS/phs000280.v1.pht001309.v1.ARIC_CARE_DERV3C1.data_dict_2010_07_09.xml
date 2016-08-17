@@ -1,0 +1,983 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./datadict_v2.xsl"?>
+<data_table id="pht001309.v1" study_id="phs000280.v1" participant_set="1" date_created="Fri Jul  9 11:27:45 2010">
+
+<variable id="phv00092848.v1">
+	<name>Individual_ID</name>
+	<description>Subject Identifier</description>
+	<type>string</type>
+</variable>
+
+<variable id="phv00092849.v1">
+	<name>CENTERIDV3</name>
+	<description>Field Center</description>
+	<type>encoded</type>
+	<value code="A">ARIC field center, labeled as A</value>
+	<value code="B">ARIC field center, labeled as B</value>
+	<value code="C">ARIC field center, labeled as C</value>
+	<value code="D">ARIC field center, labeled as D</value>
+</variable>
+
+<variable id="phv00092850.v1">
+	<name>LVHSCR31</name>
+	<description>Cornell voltage in uV (S in V3+R in aVL)</description>
+	<type>integer</type>
+	<logical_min>101</logical_min>
+	<logical_max>7986</logical_max>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002883.1">DerVaribleDictonaryExam3.pdf</a>.]]></comment>
+</variable>
+
+<variable id="phv00092851.v1">
+	<name>NLVHSC31</name>
+	<description>Cornell voltage in  mm</description>
+	<type>decimal</type>
+	<logical_min>1.01</logical_min>
+	<logical_max>79.86</logical_max>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002883.1">DerVaribleDictonaryExam3.pdf</a>.]]></comment>
+</variable>
+
+<variable id="phv00092852.v1">
+	<name>CLVH31</name>
+	<description>LVH present by Cornell definition</description>
+	<type>encoded</type>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002883.1">DerVaribleDictonaryExam3.pdf</a>.]]></comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00092853.v1">
+	<name>MDDXMI31</name>
+	<description>V3 MD Diagnosed Myocardial Infarction</description>
+	<type>encoded</type>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002883.1">DerVaribleDictonaryExam3.pdf</a>.]]></comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+	<value code=".">Missing</value>
+</variable>
+
+<variable id="phv00092854.v1">
+	<name>HXOFMI31</name>
+	<description>V3 History of Myocardial Infarction</description>
+	<type>encoded</type>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002883.1">DerVaribleDictonaryExam3.pdf</a>.]]></comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+	<value code=".">Missing</value>
+	<value code="T">Missing</value>
+</variable>
+
+<variable id="phv00092855.v1">
+	<name>PRVCHD31</name>
+	<description>V3 Prevalent Coronary Heart Disease</description>
+	<type>encoded</type>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002883.1">DerVaribleDictonaryExam3.pdf</a>.]]></comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+	<value code=".">Missing</value>
+</variable>
+
+<variable id="phv00092856.v1">
+	<name>PRVCHD32</name>
+	<description>V3 Prevalent CHD - unverified</description>
+	<type>encoded</type>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002883.1">DerVaribleDictonaryExam3.pdf</a>.]]></comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+	<value code=".">Missing</value>
+	<value code="T">Missing</value>
+</variable>
+
+<variable id="phv00092857.v1">
+	<name>MENOPS31</name>
+	<description>Menopause status variable for visit 3</description>
+	<type>encoded</type>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002883.1">DerVaribleDictonaryExam3.pdf</a>.]]></comment>
+	<value code="2">Premenopause</value>
+	<value code="3">Perimenopause</value>
+	<value code="4">Post Natural</value>
+	<value code="5">Post Surgical</value>
+	<value code="6">Unknown Ovarian</value>
+	<value code="7">Post Radiation</value>
+	<value code="8">Post Unknown</value>
+	<value code=".">Missing</value>
+	<value code="T">Missing</value>
+</variable>
+
+<variable id="phv00092858.v1">
+	<name>BMI32</name>
+	<description>Body Mass Index in kg/m**2</description>
+	<type>decimal</type>
+	<logical_min>13.305</logical_min>
+	<logical_max>61.96084</logical_max>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002883.1">DerVaribleDictonaryExam3.pdf</a>.]]></comment>
+</variable>
+
+<variable id="phv00092859.v1">
+	<name>QWAVE34A</name>
+	<description>DIAGNOSTIC Q-WAVE PRESENT</description>
+	<type>encoded</type>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002883.1">DerVaribleDictonaryExam3.pdf</a>.]]></comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+	<value code=".">Missing</value>
+	<value code="T">Missing</value>
+</variable>
+
+<variable id="phv00092860.v1">
+	<name>QWAVE37A</name>
+	<description>Major Q-wave present w/o 711 or 74</description>
+	<type>encoded</type>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002883.1">DerVaribleDictonaryExam3.pdf</a>.]]></comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+	<value code=".">Missing</value>
+	<value code="M">Missing</value>
+	<value code="T">Missing</value>
+</variable>
+
+<variable id="phv00092861.v1">
+	<name>QWAVE38B</name>
+	<description>Minor Q-wave w S or ST &amp; no 711/74</description>
+	<type>encoded</type>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002883.1">DerVaribleDictonaryExam3.pdf</a>.]]></comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+	<value code=".">Missing</value>
+	<value code="M">Missing</value>
+</variable>
+
+<variable id="phv00092862.v1">
+	<name>QWVEM38B</name>
+	<description>Same as QWAVE38B but uses Machine code</description>
+	<type>encoded</type>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002883.1">DerVaribleDictonaryExam3.pdf</a>.]]></comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+	<value code=".">Missing</value>
+	<value code="M">Missing</value>
+	<value code="T">Missing</value>
+</variable>
+
+<variable id="phv00092863.v1">
+	<name>ECGMI32</name>
+	<description>Prv myocard. infarc. from composite ECG</description>
+	<type>encoded</type>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002883.1">DerVaribleDictonaryExam3.pdf</a>.]]></comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+	<value code=".">Missing</value>
+	<value code="T">Missing</value>
+</variable>
+
+<variable id="phv00092864.v1">
+	<name>MACHMI31</name>
+	<description>Pre myocard infarc. from mach. coded ECG</description>
+	<type>encoded</type>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002883.1">DerVaribleDictonaryExam3.pdf</a>.]]></comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+	<value code=".">Missing</value>
+	<value code="T">Missing</value>
+</variable>
+
+<variable id="phv00092865.v1">
+	<name>WORK_I32</name>
+	<description>WORK INDEX, DEFINITION 2</description>
+	<type>decimal</type>
+	<logical_min>0.875</logical_min>
+	<logical_max>5</logical_max>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002883.1">DerVaribleDictonaryExam3.pdf</a>.]]></comment>
+</variable>
+
+<variable id="phv00092866.v1">
+	<name>WORK_I33</name>
+	<description>WORK INDEX, DEFINITION 3</description>
+	<type>decimal</type>
+	<logical_min>0.875</logical_min>
+	<logical_max>5</logical_max>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002883.1">DerVaribleDictonaryExam3.pdf</a>.]]></comment>
+</variable>
+
+<variable id="phv00092867.v1">
+	<name>ETHANL32</name>
+	<description>Usual alcohol intake in grams/week</description>
+	<type>decimal</type>
+	<logical_min>0</logical_min>
+	<logical_max>2678</logical_max>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002883.1">DerVaribleDictonaryExam3.pdf</a>.]]></comment>
+</variable>
+
+<variable id="phv00092868.v1">
+	<name>GRADE31</name>
+	<description>PHOTO GRADEABLE: 1=YES, 0=NO</description>
+	<type>encoded</type>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002883.1">DerVaribleDictonaryExam3.pdf</a>.]]></comment>
+	<value code="0">Ungradeable</value>
+	<value code="1">Gradeable</value>
+	<value code=".">Missing</value>
+</variable>
+
+<variable id="phv00092869.v1">
+	<name>GRADE32</name>
+	<description>GRADEABILITY OF PHOTO, DEFINITION #2</description>
+	<type>encoded</type>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002883.1">DerVaribleDictonaryExam3.pdf</a>.]]></comment>
+	<value code="0">Ungradeable</value>
+	<value code="1">Gradeable</value>
+	<value code=".">Missing</value>
+</variable>
+
+<variable id="phv00092870.v1">
+	<name>ARTSS31</name>
+	<description>ARTERIAL SUM OF SQUARES</description>
+	<type>integer</type>
+	<logical_min>11306</logical_min>
+	<logical_max>86154</logical_max>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002883.1">DerVaribleDictonaryExam3.pdf</a>.]]></comment>
+</variable>
+
+<variable id="phv00092871.v1">
+	<name>VEINSS31</name>
+	<description>VEIN SUM OF SQUARES</description>
+	<type>integer</type>
+	<logical_min>22912</logical_min>
+	<logical_max>137752</logical_max>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002883.1">DerVaribleDictonaryExam3.pdf</a>.]]></comment>
+</variable>
+
+<variable id="phv00092872.v1">
+	<name>CRAE_T</name>
+	<description>DERIVED CRAE_T</description>
+	<type>decimal</type>
+	<logical_min>81.4</logical_min>
+	<logical_max>220.9</logical_max>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002883.1">DerVaribleDictonaryExam3.pdf</a>.]]></comment>
+</variable>
+
+<variable id="phv00092873.v1">
+	<name>CRVE</name>
+	<description>DERIVED CRVE</description>
+	<type>decimal</type>
+	<logical_min>127.4</logical_min>
+	<logical_max>276</logical_max>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002883.1">DerVaribleDictonaryExam3.pdf</a>.]]></comment>
+</variable>
+
+<variable id="phv00092874.v1">
+	<name>CRAE_B</name>
+	<description>DERIVED CRAE_B</description>
+	<type>decimal</type>
+	<logical_min>81.4</logical_min>
+	<logical_max>240.9</logical_max>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002883.1">DerVaribleDictonaryExam3.pdf</a>.]]></comment>
+</variable>
+
+<variable id="phv00092875.v1">
+	<name>AV_T</name>
+	<description>DERIVED AV_RATIO_T</description>
+	<type>decimal</type>
+	<logical_min>0.565278</logical_min>
+	<logical_max>1.163015</logical_max>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002883.1">DerVaribleDictonaryExam3.pdf</a>.]]></comment>
+</variable>
+
+<variable id="phv00092876.v1">
+	<name>AV_B</name>
+	<description>DERIVED AV_RATIO_B</description>
+	<type>decimal</type>
+	<logical_min>0.565278</logical_min>
+	<logical_max>1.217897</logical_max>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002883.1">DerVaribleDictonaryExam3.pdf</a>.]]></comment>
+</variable>
+
+<variable id="phv00092877.v1">
+	<name>HYPERT34</name>
+	<description>V3 HYPERTENSION, DEF. 4</description>
+	<type>encoded</type>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002883.1">DerVaribleDictonaryExam3.pdf</a>.]]></comment>
+	<value code="0">Please see phd2068, p. 49</value>
+	<value code="1">Please see phd2068, p. 49</value>
+	<value code=".">Missing</value>
+</variable>
+
+<variable id="phv00092878.v1">
+	<name>HYPERT35</name>
+	<description>V3 HYPERTENSION, DEF. 5</description>
+	<type>encoded</type>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002883.1">DerVaribleDictonaryExam3.pdf</a>.]]></comment>
+	<value code="0">Please see phd2068, p. 50</value>
+	<value code="1">Please see phd2068, p. 50</value>
+	<value code=".">Missing</value>
+</variable>
+
+<variable id="phv00092879.v1">
+	<name>HYPERT36</name>
+	<description>V3 HYPERTENSION, DEF. 6</description>
+	<type>encoded</type>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002883.1">DerVaribleDictonaryExam3.pdf</a>.]]></comment>
+	<value code="0">Please see phd2068, p. 51</value>
+	<value code="1">Please see phd2068, p. 51</value>
+	<value code=".">Missing</value>
+</variable>
+
+<variable id="phv00092880.v1">
+	<name>HYPTMD31</name>
+	<description>V3 HYPERTENSION MEDICATIONS, DEF. 1</description>
+	<type>encoded</type>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002883.1">DerVaribleDictonaryExam3.pdf</a>.]]></comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+	<value code=".">Missing</value>
+	<value code="T">Missing</value>
+</variable>
+
+<variable id="phv00092881.v1">
+	<name>CIGT31</name>
+	<description>V3 CIGARETTE SMOKING STATUS</description>
+	<type>encoded</type>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002883.1">DerVaribleDictonaryExam3.pdf</a>.]]></comment>
+	<value code="1">Current smoker</value>
+	<value code="2">Former smoker</value>
+	<value code="3">Never smoker</value>
+	<value code="4">Unknown, but one of the above three categories may be</value>
+	<value code=".">Missing</value>
+</variable>
+
+<variable id="phv00092882.v1">
+	<name>DRNKR31</name>
+	<description>Drinker status</description>
+	<type>encoded</type>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002883.1">DerVaribleDictonaryExam3.pdf</a>.]]></comment>
+	<value code="1">Current drinker</value>
+	<value code="2">Former drinker</value>
+	<value code="3">Never drinker</value>
+	<value code="4">Unknown</value>
+	<value code=".">Missing</value>
+</variable>
+
+<variable id="phv00092883.v1">
+	<name>CURDRK31</name>
+	<description>Current Drinker</description>
+	<type>encoded</type>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002883.1">DerVaribleDictonaryExam3.pdf</a>.]]></comment>
+	<value code="0">Please see phd2068, p. 8</value>
+	<value code="1">Please see phd2068, p. 8</value>
+	<value code=".">Missing</value>
+	<value code="T">Please see phd2068, p. 8</value>
+</variable>
+
+<variable id="phv00092884.v1">
+	<name>FORDRK31</name>
+	<description>Former Drinker</description>
+	<type>encoded</type>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002883.1">DerVaribleDictonaryExam3.pdf</a>.]]></comment>
+	<value code="0">Please see phd2068, p. 8-9</value>
+	<value code="1">Please see phd2068, p. 8-9</value>
+	<value code=".">Missing</value>
+	<value code="T">Please see phd2068, p. 8-9</value>
+</variable>
+
+<variable id="phv00092885.v1">
+	<name>EVRDRK31</name>
+	<description>Ever Drinker</description>
+	<type>encoded</type>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002883.1">DerVaribleDictonaryExam3.pdf</a>.]]></comment>
+	<value code="0">Please see phd2068, p. 9</value>
+	<value code="1">Please see phd2068, p. 9</value>
+	<value code=".">Missing</value>
+	<value code="T">Please see phd2068, p. 9</value>
+</variable>
+
+<variable id="phv00092886.v1">
+	<name>CURSMK31</name>
+	<description>Current Smoker</description>
+	<type>encoded</type>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002883.1">DerVaribleDictonaryExam3.pdf</a>.]]></comment>
+	<value code="0">Please see phd2068, p. 99</value>
+	<value code="1">Please see phd2068, p. 99</value>
+	<value code=".">Missing</value>
+	<value code="T">Please see phd2068, p. 99</value>
+</variable>
+
+<variable id="phv00092887.v1">
+	<name>FORSMK31</name>
+	<description>Former Smoker</description>
+	<type>encoded</type>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002883.1">DerVaribleDictonaryExam3.pdf</a>.]]></comment>
+	<value code="0">Please see phd2068, p. 99</value>
+	<value code="1">Please see phd2068, p. 99</value>
+	<value code=".">Missing</value>
+	<value code="T">Please see phd2068, p. 99</value>
+</variable>
+
+<variable id="phv00092888.v1">
+	<name>EVRSMK31</name>
+	<description>Ever Smoker</description>
+	<type>encoded</type>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002883.1">DerVaribleDictonaryExam3.pdf</a>.]]></comment>
+	<value code="0">Please see phd2068, p. 100</value>
+	<value code="1">Please see phd2068, p. 100</value>
+	<value code=".">Missing</value>
+	<value code="T">Please see phd2068, p. 100</value>
+</variable>
+
+<variable id="phv00092889.v1">
+	<name>HDLSIU31</name>
+	<description>Re-Calibrated HDL Cholesterol in mmol/L</description>
+	<type>decimal</type>
+	<logical_min>0.28446</logical_min>
+	<logical_max>5.0427</logical_max>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002883.1">DerVaribleDictonaryExam3.pdf</a>.]]></comment>
+</variable>
+
+<variable id="phv00092890.v1">
+	<name>LDL32</name>
+	<description>Re-Calibrated LDL Cholesterol in mg/dL</description>
+	<type>decimal</type>
+	<logical_min>7.6</logical_min>
+	<logical_max>347</logical_max>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002883.1">DerVaribleDictonaryExam3.pdf</a>.]]></comment>
+</variable>
+
+<variable id="phv00092891.v1">
+	<name>LDLSIU32</name>
+	<description>Re-Calibrated LDL Cholesterol in mmol/L</description>
+	<type>decimal</type>
+	<logical_min>0.196536</logical_min>
+	<logical_max>8.97342</logical_max>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002883.1">DerVaribleDictonaryExam3.pdf</a>.]]></comment>
+</variable>
+
+<variable id="phv00092892.v1">
+	<name>LISR_I31</name>
+	<description>Lesure index</description>
+	<type>decimal</type>
+	<logical_min>1</logical_min>
+	<logical_max>4.5</logical_max>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002883.1">DerVaribleDictonaryExam3.pdf</a>.]]></comment>
+</variable>
+
+<variable id="phv00092893.v1">
+	<name>WSTHPR31</name>
+	<description>Waist-to-hip ratio</description>
+	<type>decimal</type>
+	<logical_min>0.5</logical_min>
+	<logical_max>1.980769</logical_max>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002883.1">DerVaribleDictonaryExam3.pdf</a>.]]></comment>
+</variable>
+
+<variable id="phv00092894.v1">
+	<name>SPRT_I31</name>
+	<description>Sport index</description>
+	<type>decimal</type>
+	<logical_min>1</logical_min>
+	<logical_max>5</logical_max>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002883.1">DerVaribleDictonaryExam3.pdf</a>.]]></comment>
+</variable>
+
+<variable id="phv00092895.v1">
+	<name>HORMON31</name>
+	<description>V3 Hormone Use</description>
+	<type>encoded</type>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002883.1">DerVaribleDictonaryExam3.pdf</a>.]]></comment>
+	<value code="1">Current Estrogen User</value>
+	<value code="2">Current Estrogen adn Progestin User</value>
+	<value code="3">Never Used Hormones</value>
+	<value code="4">Former Hormone User or Former User of other medications reported by participants as hormones</value>
+	<value code=".">Missing</value>
+</variable>
+
+<variable id="phv00092896.v1">
+	<name>TCHSIU31</name>
+	<description>Total Cholesterol in SI units</description>
+	<type>decimal</type>
+	<logical_min>1.99122</logical_min>
+	<logical_max>14.42988</logical_max>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002883.1">DerVaribleDictonaryExam3.pdf</a>.]]></comment>
+</variable>
+
+<variable id="phv00092897.v1">
+	<name>TGLEFH31</name>
+	<description>Triglycerides &lt;= 400 mg/dl</description>
+	<type>encoded</type>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002883.1">DerVaribleDictonaryExam3.pdf</a>.]]></comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+	<value code=".">Missing</value>
+</variable>
+
+<variable id="phv00092898.v1">
+	<name>TRGSIU31</name>
+	<description>Triglycerides in SI units</description>
+	<type>decimal</type>
+	<logical_min>0.24838</logical_min>
+	<logical_max>23.77674</logical_max>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002883.1">DerVaribleDictonaryExam3.pdf</a>.]]></comment>
+</variable>
+
+<variable id="phv00092899.v1">
+	<name>BIFSHD31</name>
+	<description>Shadowing in either carotid bifurcation</description>
+	<type>encoded</type>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002883.1">DerVaribleDictonaryExam3.pdf</a>.]]></comment>
+	<value code="0">No Shadow</value>
+	<value code="1">Shadow</value>
+	<value code=".">Missing</value>
+	<value code="T">Missing</value>
+</variable>
+
+<variable id="phv00092900.v1">
+	<name>INTSHD31</name>
+	<description>Shadowing in either int. carotid artery</description>
+	<type>encoded</type>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002883.1">DerVaribleDictonaryExam3.pdf</a>.]]></comment>
+	<value code="0">No Shadow</value>
+	<value code="1">Shadow</value>
+	<value code=".">Missing</value>
+	<value code="T">Missing</value>
+</variable>
+
+<variable id="phv00092901.v1">
+	<name>COMSHD31</name>
+	<description>Shadowing in either int. carotid artery</description>
+	<type>encoded</type>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002883.1">DerVaribleDictonaryExam3.pdf</a>.]]></comment>
+	<value code="0">No Shadow</value>
+	<value code="1">Shadow</value>
+	<value code=".">Missing</value>
+	<value code="T">Missing</value>
+</variable>
+
+<variable id="phv00092902.v1">
+	<name>BIFPLQ31</name>
+	<description>Shadowing in either int. carotid artery</description>
+	<type>encoded</type>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002883.1">DerVaribleDictonaryExam3.pdf</a>.]]></comment>
+	<value code="0">No Plaque</value>
+	<value code="1">Plaque</value>
+	<value code=".">Missing</value>
+	<value code="T">Missing</value>
+</variable>
+
+<variable id="phv00092903.v1">
+	<name>INTPLQ31</name>
+	<description>Plaque in either int. carotid artery</description>
+	<type>encoded</type>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002883.1">DerVaribleDictonaryExam3.pdf</a>.]]></comment>
+	<value code="0">No Plaque</value>
+	<value code="1">Plaque</value>
+	<value code=".">Missing</value>
+	<value code="T">Missing</value>
+</variable>
+
+<variable id="phv00092904.v1">
+	<name>COMPLQ31</name>
+	<description>Plaque in either common carotid artery</description>
+	<type>encoded</type>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002883.1">DerVaribleDictonaryExam3.pdf</a>.]]></comment>
+	<value code="0">No Plaque</value>
+	<value code="1">Plaque</value>
+	<value code=".">Missing</value>
+	<value code="T">Missing</value>
+</variable>
+
+<variable id="phv00092905.v1">
+	<name>LCOMPS31</name>
+	<description>Plaque/Shadowing in left common carotid</description>
+	<type>encoded</type>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002883.1">DerVaribleDictonaryExam3.pdf</a>.]]></comment>
+	<value code="1">Plaque and shadowing</value>
+	<value code="2">Plaque only</value>
+	<value code="3">Shadowing only</value>
+	<value code="4">No plaque or shadow</value>
+	<value code=".">Missing</value>
+	<value code="T">Missing</value>
+</variable>
+
+<variable id="phv00092906.v1">
+	<name>RCOMPS31</name>
+	<description>Plaque/Shadowing in right common carotid</description>
+	<type>encoded</type>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002883.1">DerVaribleDictonaryExam3.pdf</a>.]]></comment>
+	<value code="1">Plaque and shadowing</value>
+	<value code="2">Plaque only</value>
+	<value code="3">Shadowing only</value>
+	<value code="4">No plaque or shadow</value>
+	<value code=".">Missing</value>
+	<value code="T">Missing</value>
+</variable>
+
+<variable id="phv00092907.v1">
+	<name>LBIFPS31</name>
+	<description>Plaque/Shad. in left carotid bifurcation</description>
+	<type>encoded</type>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002883.1">DerVaribleDictonaryExam3.pdf</a>.]]></comment>
+	<value code="1">Plaque and shadowing</value>
+	<value code="2">Plaque only</value>
+	<value code="3">Shadowing only</value>
+	<value code="4">No plaque or shadow</value>
+	<value code=".">Missing</value>
+	<value code="T">Missing</value>
+</variable>
+
+<variable id="phv00092908.v1">
+	<name>RBIFPS31</name>
+	<description>Plaque/Shad in right carotid bifurcation</description>
+	<type>encoded</type>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002883.1">DerVaribleDictonaryExam3.pdf</a>.]]></comment>
+	<value code="1">Plaque and shadowing</value>
+	<value code="2">Plaque only</value>
+	<value code="3">Shadowing only</value>
+	<value code="4">No plaque or shadow</value>
+	<value code=".">Missing</value>
+	<value code="T">Missing</value>
+</variable>
+
+<variable id="phv00092909.v1">
+	<name>LINTPS31</name>
+	<description>Plaque/Shadowing in left int. carotid</description>
+	<type>encoded</type>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002883.1">DerVaribleDictonaryExam3.pdf</a>.]]></comment>
+	<value code="1">Plaque and shadowing</value>
+	<value code="2">Plaque only</value>
+	<value code="3">Shadowing only</value>
+	<value code="4">No plaque or shadow</value>
+	<value code=".">Missing</value>
+	<value code="T">Missing</value>
+</variable>
+
+<variable id="phv00092910.v1">
+	<name>RINTPS31</name>
+	<description>Plaque/Shadowing in right int. carotid</description>
+	<type>encoded</type>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002883.1">DerVaribleDictonaryExam3.pdf</a>.]]></comment>
+	<value code="1">Plaque and shadowing</value>
+	<value code="2">Plaque only</value>
+	<value code="3">Shadowing only</value>
+	<value code="4">No plaque or shadow</value>
+	<value code=".">Missing</value>
+	<value code="T">Missing</value>
+</variable>
+
+<variable id="phv00092911.v1">
+	<name>COMPS31</name>
+	<description>Plaque/Shad. in either common carotid</description>
+	<type>encoded</type>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002883.1">DerVaribleDictonaryExam3.pdf</a>.]]></comment>
+	<value code="1">Plaque and shadowing (same side)</value>
+	<value code="2">Plaque only</value>
+	<value code="3">Shadowing only</value>
+	<value code="4">No plaque or shadow (on either side)</value>
+	<value code=".">Missing</value>
+	<value code="T">Missing</value>
+</variable>
+
+<variable id="phv00092912.v1">
+	<name>BIFPS31</name>
+	<description>Plaque/Shad. in either carotid bifurc.</description>
+	<type>encoded</type>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002883.1">DerVaribleDictonaryExam3.pdf</a>.]]></comment>
+	<value code="1">Plaque and shadowing (same side)</value>
+	<value code="2">Plaque only</value>
+	<value code="3">Shadowing only</value>
+	<value code="4">No plaque or shadow (on either side)</value>
+	<value code=".">Missing</value>
+</variable>
+
+<variable id="phv00092913.v1">
+	<name>INTPS31</name>
+	<description>Plaque/Shadowing in either int. carotid</description>
+	<type>encoded</type>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002883.1">DerVaribleDictonaryExam3.pdf</a>.]]></comment>
+	<value code="1">Plaque and shadowing (same side)</value>
+	<value code="2">Plaque only</value>
+	<value code="3">Shadowing only</value>
+	<value code="4">No plaque or shadow (on either side)</value>
+	<value code=".">Missing</value>
+</variable>
+
+<variable id="phv00092914.v1">
+	<name>LPLQSD31</name>
+	<description>Plaque/Shadowing in any left carotid sit</description>
+	<type>encoded</type>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002883.1">DerVaribleDictonaryExam3.pdf</a>.]]></comment>
+	<value code="1">Plaque and shadowing (any site)</value>
+	<value code="2">Plaque only</value>
+	<value code="3">Shadowing only</value>
+	<value code="4">No plaque or shadow (at both sites)</value>
+	<value code=".">Missing</value>
+	<value code="T">Missing</value>
+</variable>
+
+<variable id="phv00092915.v1">
+	<name>RPLQSD31</name>
+	<description>Plaque/Shad. in any right carotid site</description>
+	<type>encoded</type>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002883.1">DerVaribleDictonaryExam3.pdf</a>.]]></comment>
+	<value code="1">Plaque and shadowing (any site)</value>
+	<value code="2">Plaque only</value>
+	<value code="3">Shadowing only</value>
+	<value code="4">No plaque or shadow (at both sites)</value>
+	<value code=".">Missing</value>
+	<value code="T">Missing</value>
+</variable>
+
+<variable id="phv00092916.v1">
+	<name>PLQSHD31</name>
+	<description>Plaque/Shadowing in any carotid site</description>
+	<type>encoded</type>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002883.1">DerVaribleDictonaryExam3.pdf</a>.]]></comment>
+	<value code="1">Plaque and shadowing (any site)</value>
+	<value code="2">Plaque only</value>
+	<value code="3">Shadowing only</value>
+	<value code="4">No plaque or shadow (at both sites)</value>
+	<value code=".">Missing</value>
+	<value code="T">Missing</value>
+</variable>
+
+<variable id="phv00092917.v1">
+	<name>QWAVEM37</name>
+	<description>Same as QWAVE37A but uses Machine code</description>
+	<type>encoded</type>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002883.1">DerVaribleDictonaryExam3.pdf</a>.]]></comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+	<value code=".">Missing</value>
+	<value code="T">Missing</value>
+</variable>
+
+<variable id="phv00092918.v1">
+	<name>COMPLET3</name>
+	<description>INDICATOR FOR VISIT 3 PARTICIPATION</description>
+	<type>encoded</type>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+	<value code=".">Missing</value>
+</variable>
+
+<variable id="phv00092919.v1">
+	<name>DIABTS33</name>
+	<description>Diabetes Using Lower Cutpoint 140 mg/dL</description>
+	<type>encoded</type>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002883.1">DerVaribleDictonaryExam3.pdf</a>.]]></comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+	<value code=".">Missing</value>
+	<value code="T">Missing</value>
+</variable>
+
+<variable id="phv00092920.v1">
+	<name>DIABTS34</name>
+	<description>Diabetes Using Lower Cutpoint 126 mg/dL</description>
+	<type>encoded</type>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002883.1">DerVaribleDictonaryExam3.pdf</a>.]]></comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+	<value code=".">Missing</value>
+	<value code="T">Missing</value>
+</variable>
+
+<variable id="phv00092921.v1">
+	<name>PLAQUE31</name>
+	<description>Plaque w/wo Shadowing</description>
+	<type>encoded</type>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002883.1">DerVaribleDictonaryExam3.pdf</a>.]]></comment>
+	<value code="0">No plaque</value>
+	<value code="1">Plaque</value>
+	<value code=".">Missing</value>
+	<value code="T">Missing</value>
+</variable>
+
+<variable id="phv00092922.v1">
+	<name>PLAQUE33</name>
+	<description>Plaque w/wo Shadowing - Alt. Def.</description>
+	<type>encoded</type>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002883.1">DerVaribleDictonaryExam3.pdf</a>.]]></comment>
+	<value code="0">No plaque</value>
+	<value code="1">Plaque</value>
+	<value code=".">Missing</value>
+	<value code="T">Missing</value>
+</variable>
+
+<variable id="phv00092923.v1">
+	<name>CHOLMD31</name>
+	<description>Cholesterol Lowering Medication in past</description>
+	<type>encoded</type>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002883.1">DerVaribleDictonaryExam3.pdf</a>.]]></comment>
+	<value code="0">Please see phd2068, p. 53</value>
+	<value code="1">Please see phd2068, p. 53</value>
+	<value code=".">Missing</value>
+	<value code="T">Please see phd2068, p. 53</value>
+</variable>
+
+<variable id="phv00092924.v1">
+	<name>CHOLMD32</name>
+	<description>Medications which Secondarily Affect Cho</description>
+	<type>encoded</type>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002883.1">DerVaribleDictonaryExam3.pdf</a>.]]></comment>
+	<value code="0">Please see phd2068, p. 54</value>
+	<value code="1">Please see phd2068, p. 54</value>
+	<value code=".">Missing</value>
+	<value code="T">Please see phd2068, p. 54</value>
+</variable>
+
+<variable id="phv00092925.v1">
+	<name>HYPTMD32</name>
+	<description>Hypertension lowering med. use, Def. 2</description>
+	<type>encoded</type>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002883.1">DerVaribleDictonaryExam3.pdf</a>.]]></comment>
+	<value code="0">Participant has not taken hypertension lowering medication in past two weeks</value>
+	<value code="1">Participant has taken hypertension lowering medication in past two weeks</value>
+	<value code=".">Missing</value>
+</variable>
+
+<variable id="phv00092926.v1">
+	<name>FAST0834</name>
+	<description>Fasting Time of 8 Hours or More</description>
+	<type>encoded</type>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002883.1">DerVaribleDictonaryExam3.pdf</a>.]]></comment>
+	<value code="0">Not fasting 8 hours or more</value>
+	<value code="1">Fasting 8 hours or more</value>
+	<value code=".">Missing</value>
+	<value code="T">Missing</value>
+</variable>
+
+<variable id="phv00092927.v1">
+	<name>FAST1234</name>
+	<description>Fasting Time of 12 Hours or More</description>
+	<type>encoded</type>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002883.1">DerVaribleDictonaryExam3.pdf</a>.]]></comment>
+	<value code="0">Not fasting 12 hours or more</value>
+	<value code="1">Fasting 12 hours or more</value>
+	<value code=".">Missing</value>
+	<value code="T">Missing</value>
+</variable>
+
+<variable id="phv00092928.v1">
+	<name>GENDER</name>
+	<description>SEX (from FTRA22)</description>
+	<type>encoded</type>
+	<comment><![CDATA[dbGaP staff has detected that some values shown in this variable (gender) are not concordant with values shown in other variables, recording gender for same subject.
+		For further information, consult the document <a href="GetPdf.cgi?id=phd002883.1">DerVaribleDictonaryExam3.pdf</a>. ]]></comment>
+	<value code="F">Female</value>
+	<value code="M">Male</value>
+</variable>
+
+<variable id="phv00092929.v1">
+	<name>ABI34</name>
+	<description>Ankle Brachial Index V3, Definition 4</description>
+	<type>decimal</type>
+	<logical_min>0.288344</logical_min>
+	<logical_max>1.738095</logical_max>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002883.1">DerVaribleDictonaryExam3.pdf</a>.]]></comment>
+	<value code="R">Please see phd2068, p. 119</value>
+	<value code="S">Please see phd2068, p. 119</value>
+</variable>
+
+<variable id="phv00092930.v1">
+	<name>PAD32</name>
+	<description>PAD V3, Def 2 (same for both genders)</description>
+	<type>encoded</type>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002883.1">DerVaribleDictonaryExam3.pdf</a>.]]></comment>
+	<value code="0">Please see phd2068, p. 120-121</value>
+	<value code="1">Please see phd2068, p. 120-121</value>
+	<value code=".">Missing</value>
+</variable>
+
+<variable id="phv00092931.v1">
+	<name>PAD31</name>
+	<description>Peripheral Artery Disease V3, Definitn 1</description>
+	<type>encoded</type>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002883.1">DerVaribleDictonaryExam3.pdf</a>.]]></comment>
+	<value code="0">Please see phd2068, p. 120</value>
+	<value code="1">Please see phd2068, p. 120</value>
+	<value code=".">Missing</value>
+	<value code="T">Please see phd2068, p. 120</value>
+</variable>
+
+<variable id="phv00092932.v1">
+	<name>LEGANK31</name>
+	<description>Leg used at V3 for ankle BP</description>
+	<type>string</type>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002883.1">DerVaribleDictonaryExam3.pdf</a>.]]></comment>
+</variable>
+
+<variable id="phv00092933.v1">
+	<name>LEGSAM13</name>
+	<description>Same leg used at V1 and 3 for ankle BP</description>
+	<type>encoded</type>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002883.1">DerVaribleDictonaryExam3.pdf</a>.]]></comment>
+	<value code=".">Missing</value>
+	<value code="N">No</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00092934.v1">
+	<name>INCPAD3</name>
+	<description>Incident PAD at V3</description>
+	<type>encoded</type>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002883.1">DerVaribleDictonaryExam3.pdf</a>.]]></comment>
+	<value code="0">Please see phd2068, p. 123</value>
+	<value code="1">Please see phd2068, p. 123</value>
+	<value code=".">Missing</value>
+</variable>
+
+<variable id="phv00092935.v1">
+	<name>PRVCHD33</name>
+	<description>Prevalent CHD at V3, definition 3</description>
+	<type>encoded</type>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002883.1">DerVaribleDictonaryExam3.pdf</a>.]]></comment>
+	<value code="0">Please see phd2068, p. 40</value>
+	<value code="1">Please see phd2068, p. 40</value>
+	<value code=".">Missing</value>
+</variable>
+
+<variable id="phv00092936.v1">
+	<name>PRVSTR31</name>
+	<description>Prevalent Stroke at V3</description>
+	<type>encoded</type>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002883.1">DerVaribleDictonaryExam3.pdf</a>.]]></comment>
+	<value code="0">Please see phd2068, p. 40-41</value>
+	<value code="1">Please see phd2068, p. 40-41</value>
+	<value code=".">Missing</value>
+</variable>
+
+<variable id="phv00092937.v1">
+	<name>V3AGEX1</name>
+	<description>Age at Visit 3</description>
+	<type>integer</type>
+	<logical_min>51</logical_min>
+	<logical_max>70</logical_max>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002883.1">DerVaribleDictonaryExam3.pdf</a>.]]></comment>
+</variable>
+
+<variable id="phv00092938.v1">
+	<name>V3FU31</name>
+	<description>Days to V3 Since baseline</description>
+	<type>integer</type>
+	<logical_min>1673</logical_min>
+	<logical_max>3204</logical_max>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002883.1">DerVaribleDictonaryExam3.pdf</a>.]]></comment>
+</variable>
+
+<variable id="phv00092939.v1">
+	<name>ABIXV3</name>
+	<description>Modified ABI measurement status at V3</description>
+	<type>encoded</type>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002883.1">DerVaribleDictonaryExam3.pdf</a>.]]></comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+	<value code="N">No</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00092940.v1">
+	<name>RACEGRP</name>
+	<description>RACE (from FTRA23)</description>
+	<type>encoded</type>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002883.1">DerVaribleDictonaryExam3.pdf</a>.]]></comment>
+	<value code="B">African American</value>
+	<value code="W">White</value>
+</variable>
+
+</data_table>

@@ -1,0 +1,599 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./datadict_v2.xsl"?>
+<data_table id="pht000281.v1" study_id="phs000086.v1" participant_set="1" date_created="Thu Jan 29 15:39:55 2009">
+
+<variable id="phv00034042.v1">
+	<name>dupok</name>
+	<description>DCCT: NOTE: DCC reports that this variable was used for internal data management and should be ignored by analysts.</description>
+	<type>str1</type>
+	<value code="D">(ALMOST) DUPLICATE FORM - SEE NOTE</value>
+</variable>
+
+<variable id="phv00034036.v1">
+	<name>form</name>
+	<description>DCCT: DCCT form number</description>
+	<type>int</type>
+	<unit>FORM NUMBER</unit>
+</variable>
+
+<variable id="phv00034035.v1">
+	<name>fsasdate</name>
+	<description>DCCT: Form date as SAS date value</description>
+	<type>long</type>
+</variable>
+
+<variable id="phv00034046.v1">
+	<name>ibc2a</name>
+	<description>DCCT: Parent was with patient at  onset of symptoms</description>
+	<type>byte</type>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00034047.v1">
+	<name>ibc2b</name>
+	<description>DCCT: Classmate was w/patient at  onset of symptoms</description>
+	<type>byte</type>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00034048.v1">
+	<name>ibc2c</name>
+	<description>DCCT: Passerby was w/patient at onset of symptoms</description>
+	<type>byte</type>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00034049.v1">
+	<name>ibc2d</name>
+	<description>DCCT: Person who is not a parent, etc. was w/patient at onset of symptoms</description>
+	<type>byte</type>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00034050.v1">
+	<name>ibc2e</name>
+	<description>DCCT: Patient was alone at onset of symptoms</description>
+	<type>byte</type>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00034051.v1">
+	<name>ibc2f</name>
+	<description>DCCT: Unknown who was with patient at time of symptoms&#39; onset: patient cannot recall</description>
+	<type>byte</type>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00034052.v1">
+	<name>ibc3</name>
+	<description>DCCT: Person w/patient recognized symptoms of hypoglycemia</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+	<value code="3">UNKNOWN</value>
+</variable>
+
+<variable id="phv00034053.v1">
+	<name>ibc4</name>
+	<description>DCCT: Person w/patient was able to reduce severity of hypoglycemia</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+	<value code="3">UNKNOWN</value>
+</variable>
+
+<variable id="phv00034054.v1">
+	<name>ibc5a</name>
+	<description>DCCT: During hypoglycemic episode: person present gave patient oral carbohydrates</description>
+	<type>byte</type>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00034055.v1">
+	<name>ibc5b</name>
+	<description>DCCT: During hypoglycemic episode: person present gave patient glucagon</description>
+	<type>byte</type>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00034056.v1">
+	<name>ibc5c</name>
+	<description>DCCT: During hypoglycemic episode: unknown what person present gave patient</description>
+	<type>byte</type>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00034057.v1">
+	<name>ibc5d</name>
+	<description>DCCT: During hypoglycemic episode: what else person present did to help patient (specify)</description>
+	<type>byte</type>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00034041.v1">
+	<name>ibclindt</name>
+	<description>DCCT: Date clinic learned of hypoglycemic event</description>
+	<type>str6</type>
+</variable>
+
+<variable id="phv00034058.v1">
+	<name>ibd1a</name>
+	<description>DCCT: Approximate time frame of onset of hypoglycemic episode</description>
+	<type>byte</type>
+	<value code="1">12 - 4 A.M.</value>
+	<value code="2">4 - 8 A.M.</value>
+	<value code="3">8 A.M. - 12 P.M.</value>
+	<value code="4">12 - 4 P.M.</value>
+	<value code="5">4 - 8 P.M.</value>
+	<value code="6">8 - 12 P.M.</value>
+	<value code="7">UNKNOWN</value>
+</variable>
+
+<variable id="phv00034038.v1">
+	<name>ibd1b</name>
+	<description>DCCT: Exact time - onset of episode</description>
+	<type>str5</type>
+	<unit>O&#39;CLOCK</unit>
+</variable>
+
+<variable id="phv00034059.v1">
+	<name>ibd1c</name>
+	<description>DCCT: Exact time of onset: a.m., p.m., or unknown</description>
+	<type>byte</type>
+	<value code="1">A.M.</value>
+	<value code="2">P.M.</value>
+	<value code="3">UNKNOWN</value>
+	<value code="5">MISSING/ERROR VALUE</value>
+	<value code="7">MISSING/ERROR VALUE</value>
+</variable>
+
+<variable id="phv00034060.v1">
+	<name>ibe1</name>
+	<description>DCCT: Patient&#39;s location at onset of episode</description>
+	<type>byte</type>
+	<value code="1">HOME-AWAKE</value>
+	<value code="10">UNKNOWN</value>
+	<value code="2">HOME-ASLEEP</value>
+	<value code="3">WORK</value>
+	<value code="4">SCHOOL</value>
+	<value code="5">AUTOMOBILE</value>
+	<value code="6">LEISURE ACTIVITY/OUTSIDE-SPORTS ETC.</value>
+	<value code="7">OUTSIDE/OTHER SOCIAL ACTIVITY</value>
+	<value code="8">OUTSIDE-AWAKE</value>
+	<value code="9">OUTSIDE-ASLEEP</value>
+</variable>
+
+<variable id="phv00034061.v1">
+	<name>ibe2a</name>
+	<description>DCCT: If patient was awake, were there warning signs/symptoms</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+	<value code="3">UNKNOWN</value>
+</variable>
+
+<variable id="phv00034062.v1">
+	<name>ibe2b</name>
+	<description>DCCT: Symptoms were recognized as hypoglycemic symptoms by patient</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+	<value code="3">UNKNOWN</value>
+</variable>
+
+<variable id="phv00034063.v1">
+	<name>ibe2c</name>
+	<description>DCCT: Symptoms were recognized as hypoglycemic symptoms by another person</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+	<value code="3">UNKNOWN</value>
+</variable>
+
+<variable id="phv00034104.v1">
+	<name>ibf10a</name>
+	<description>DCCT: Patient carried usually something to treat reactions</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+	<value code="3">UNKNOWN</value>
+</variable>
+
+<variable id="phv00034105.v1">
+	<name>ibf10b</name>
+	<description>DCCT: Patient had something to treat reactions at time of hypoglycemic event</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+	<value code="3">UNKNOWN</value>
+</variable>
+
+<variable id="phv00034064.v1">
+	<name>ibf1a</name>
+	<description>DCCT: Type of exercise during 4 hours (see variable ibd1a) of estimated on-set of hypoglycemia</description>
+	<type>byte</type>
+	<value code="1">NONE</value>
+	<value code="2">SEDENTARY</value>
+	<value code="3">MODERATE</value>
+	<value code="4">STRENUOUS</value>
+	<value code="5">UNKNOWN</value>
+	<value code="6">ERROR VALUE</value>
+</variable>
+
+<variable id="phv00034065.v1">
+	<name>ibf1b</name>
+	<description>DCCT: Unusual exercise during 4 hours (see variable ibd1a) of estimated on-set of hypoglycemia</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+	<value code="3">UNKNOWN</value>
+</variable>
+
+<variable id="phv00034066.v1">
+	<name>ibf1c</name>
+	<description>DCCT: Type of exercise 24 hours prior to hypoglycemic event (see variable ibd1a)</description>
+	<type>byte</type>
+	<value code="1">NONE</value>
+	<value code="2">SEDENTARY</value>
+	<value code="3">MODERATE</value>
+	<value code="4">STRENUOUS</value>
+	<value code="5">UNKNOWN</value>
+	<value code="6">ERROR VALUE</value>
+</variable>
+
+<variable id="phv00034067.v1">
+	<name>ibf1d</name>
+	<description>DCCT: Unusual exercise 24 hours prior to event (see variable ibd1a)</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+	<value code="3">UNKNOWN</value>
+	<value code="5">ERROR VALUE</value>
+</variable>
+
+<variable id="phv00034040.v1">
+	<name>ibf20dat</name>
+	<description>DCCT: Date on which form 20 (and/or 83) was completed</description>
+	<type>str6</type>
+</variable>
+
+<variable id="phv00034068.v1">
+	<name>ibf2a1</name>
+	<description>DCCT: Patient&#39;s diet at estimated on-set time of hypoglycemic event (4 hours, see variable ibd1a): missed meal</description>
+	<type>byte</type>
+	<value code="1">MEAL</value>
+</variable>
+
+<variable id="phv00034069.v1">
+	<name>ibf2a2</name>
+	<description>DCCT: Patient&#39;s diet at estimated on-set time of hypoglycemic event (4 hours, see variable ibd1a): missed snack</description>
+	<type>byte</type>
+	<value code="1">MISSED SNACK</value>
+</variable>
+
+<variable id="phv00034070.v1">
+	<name>ibf2a3</name>
+	<description>DCCT: Patient&#39;s diet at estimated on-set time of hypoglycemic event (4 hours, see variable ibd1a): missed - unknown</description>
+	<type>byte</type>
+	<value code="1">UNKNOWN</value>
+</variable>
+
+<variable id="phv00034071.v1">
+	<name>ibf2a4</name>
+	<description>DCCT: Patient&#39;s diet at estimated on-set time of hypoglycemic event (4 hours, see variable ibd1a): delayed meal</description>
+	<type>byte</type>
+	<value code="1">DELAYED MEAL</value>
+</variable>
+
+<variable id="phv00034072.v1">
+	<name>ibf2a5</name>
+	<description>DCCT: Patient&#39;s diet at estimated on-set time of hypoglycemic event (4 hours, see variable ibd1a): delayed snack</description>
+	<type>byte</type>
+	<value code="1">DELAYED SNACK</value>
+</variable>
+
+<variable id="phv00034073.v1">
+	<name>ibf2a6</name>
+	<description>DCCT: Patient&#39;s diet at estimated on-set time of hypoglycemic event (4 hours, see variable ibd1a): delayed - unknown</description>
+	<type>byte</type>
+	<value code="1">UNKNOWN</value>
+</variable>
+
+<variable id="phv00034074.v1">
+	<name>ibf2a7</name>
+	<description>DCCT: Patient&#39;s diet at estimated on-set time of hypoglycemic event (4 hours, see variable ibd1a): ate less than usual - no</description>
+	<type>byte</type>
+	<value code="1">DID NOT EAT LESS THAN USUAL</value>
+</variable>
+
+<variable id="phv00034075.v1">
+	<name>ibf2a8</name>
+	<description>DCCT: Patient&#39;s diet at estimated on-set time of hypoglycemic event (4 hours, see variable ibd1a): ate less than usual - yes</description>
+	<type>byte</type>
+	<value code="1">ATE LESS THAN USUAL</value>
+	<value code="2">MISSING/ERROR VALUE</value>
+</variable>
+
+<variable id="phv00034076.v1">
+	<name>ibf2a9</name>
+	<description>DCCT: Patient&#39;s diet at estimated on-set time of hypoglycemic event (4 hours, see variable ibd1a): ate less than usual - unknown</description>
+	<type>byte</type>
+	<value code="1">UNKNOWN</value>
+</variable>
+
+<variable id="phv00034077.v1">
+	<name>ibf2b1</name>
+	<description>DCCT: Patient&#39;s diet 24 hours before estimated on-set time of hypoglycemic event (see variable ibd1a): missed meal</description>
+	<type>byte</type>
+	<value code="1">MEAL</value>
+</variable>
+
+<variable id="phv00034078.v1">
+	<name>ibf2b2</name>
+	<description>DCCT: Patient&#39;s diet 24 hours before estimated on-set time of hypoglycemic event (see variable ibd1a): missed snack</description>
+	<type>byte</type>
+	<value code="1">MISSED SNACK</value>
+</variable>
+
+<variable id="phv00034079.v1">
+	<name>ibf2b3</name>
+	<description>DCCT: Patient&#39;s diet 24 hours before estimated on-set time of hypoglycemic event (see variable ibd1a): missed - unknown</description>
+	<type>byte</type>
+	<value code="1">UNKNOWN</value>
+</variable>
+
+<variable id="phv00034080.v1">
+	<name>ibf2b4</name>
+	<description>DCCT: Patient&#39;s diet 24 hours before estimated on-set time of hypoglycemic event (see variable ibd1a): delayed meal</description>
+	<type>byte</type>
+	<value code="1">DELAYED MEAL</value>
+</variable>
+
+<variable id="phv00034081.v1">
+	<name>ibf2b5</name>
+	<description>DCCT: Patient&#39;s diet 24 hours before estimated on-set time of hypoglycemic event (see variable ibd1a): delayed snack</description>
+	<type>byte</type>
+	<value code="1">DELAYED SNACK</value>
+</variable>
+
+<variable id="phv00034082.v1">
+	<name>ibf2b6</name>
+	<description>DCCT: Patient&#39;s diet 24 hours before estimated on-set time of hypoglycemic event (see variable ibd1a): delayed - unknown</description>
+	<type>byte</type>
+	<value code="1">UNKNOWN</value>
+</variable>
+
+<variable id="phv00034083.v1">
+	<name>ibf2b7</name>
+	<description>DCCT: Patient&#39;s diet 24 hours before estimated on-set time of hypoglycemic event (see variable ibd1a): ate less than usual - no</description>
+	<type>byte</type>
+	<value code="1">DID NOT EAT LESS THAN USUAL</value>
+</variable>
+
+<variable id="phv00034084.v1">
+	<name>ibf2b8</name>
+	<description>DCCT: Patient&#39;s diet 24 hours before estimated on-set time of hypoglycemic event (see variable ibd1a): ate less than usual - yes</description>
+	<type>byte</type>
+	<value code="1">ATE LESS THAN USUAL</value>
+</variable>
+
+<variable id="phv00034085.v1">
+	<name>ibf2b9</name>
+	<description>DCCT: Patient&#39;s diet 24 hours before estimated on-set time of hypoglycemic event (see variable ibd1a): ate less than usual - unknown</description>
+	<type>byte</type>
+	<value code="1">UNKNOWN</value>
+</variable>
+
+<variable id="phv00034086.v1">
+	<name>ibf3a1</name>
+	<description>DCCT: Any alteration of insulin dose during 4 hours (see variable ibd1a) of estimated on-set time of hypoglycemic event</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+	<value code="3">UNKNOWN</value>
+</variable>
+
+<variable id="phv00034087.v1">
+	<name>ibf3a2</name>
+	<description>DCCT: Any alteration of insulin dose 24 hours before estimated on-set time of hypoglycemic event (see variable ibd1a)</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+	<value code="3">UNKNOWN</value>
+</variable>
+
+<variable id="phv00034088.v1">
+	<name>ibf3b1</name>
+	<description>DCCT: Any deviation of timing/scheduling of insulin during 4 hours (see variable ibd1a) of estimated on-set time of hypoglycemic event</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+	<value code="3">UNKNOWN</value>
+</variable>
+
+<variable id="phv00034089.v1">
+	<name>ibf3b2</name>
+	<description>DCCT: Any deviation of timing/scheduling of insulin 24 hours before estimated on-set time of hypoglycemic event (see variable ibd1a)</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+	<value code="3">UNKNOWN</value>
+</variable>
+
+<variable id="phv00034090.v1">
+	<name>ibf4a</name>
+	<description>DCCT: Sexual activity during 4 hours (see variable ibd1a) of estimated on-set time of hypoglycemic event</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+	<value code="3">UNKNOWN</value>
+</variable>
+
+<variable id="phv00034091.v1">
+	<name>ibf4b</name>
+	<description>DCCT: Sexual activity 24 hours before estimated on-set time of hypoglycemic event (see variable ibd1a)</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+	<value code="3">UNKNOWN</value>
+</variable>
+
+<variable id="phv00034092.v1">
+	<name>ibf5a</name>
+	<description>DCCT: Any alcohol/drug use during 4 hours (see variable ibd1a) of estimated on-set time of hypoglycemic event</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+	<value code="3">UNKNOWN</value>
+</variable>
+
+<variable id="phv00034093.v1">
+	<name>ibf5b</name>
+	<description>DCCT: Any alcohol/drug use 24 hours before estimated on-set time of hypoglycemic event (see variable ibd1a)</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+	<value code="3">UNKNOWN</value>
+</variable>
+
+<variable id="phv00034094.v1">
+	<name>ibf6a</name>
+	<description>DCCT: Percentage of the expected glucose monitoring tests done before hypoglycemic event</description>
+	<type>float</type>
+	<unit>PERCENT</unit>
+	<value code="7936">ERROR VALUE/UNKNOWN</value>
+	<value code="8192">ERROR</value>
+	<value code="976">ERROR VALUE</value>
+</variable>
+
+<variable id="phv00034095.v1">
+	<name>ibf6b</name>
+	<description>DCCT: Were all expected glucose tests performed during 24 hours prior to hypoglycemic episode</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+	<value code="3">UNKNOWN</value>
+</variable>
+
+<variable id="phv00034096.v1">
+	<name>ibf6c</name>
+	<description>DCCT: During the week prior to the hypoglycemic event did patient perform 3 a.m. blood glucose testing (if applicable)</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+	<value code="3">UNKNOWN</value>
+</variable>
+
+<variable id="phv00034037.v1">
+	<name>ibf6d</name>
+	<description>DCCT: 3 a.m. value of blood glucose test - before hypoglycemic event</description>
+	<type>int</type>
+	<unit>MG/DL</unit>
+</variable>
+
+<variable id="phv00034097.v1">
+	<name>ibf7a</name>
+	<description>DCCT: Patient was menstruating at time of hypoglycemic episode</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+	<value code="3">UNKNOWN</value>
+</variable>
+
+<variable id="phv00034098.v1">
+	<name>ibf7b</name>
+	<description>DCCT: Oral contraceptives were used at the time of hypoglycemic event</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+	<value code="3">UNKNOWN</value>
+</variable>
+
+<variable id="phv00034099.v1">
+	<name>ibf7c1</name>
+	<description>DCCT: Patient&#39;s menses cycle is: regular, irregular, unknown</description>
+	<type>byte</type>
+	<value code="1">REGULAR</value>
+	<value code="2">IRREGULAR</value>
+	<value code="3">UNKNOWN</value>
+</variable>
+
+<variable id="phv00034100.v1">
+	<name>ibf7c2</name>
+	<description>DCCT: If regular -  usual length of menses cycle</description>
+	<type>byte</type>
+	<unit>DAYS</unit>
+</variable>
+
+<variable id="phv00034101.v1">
+	<name>ibf7d</name>
+	<description>DCCT: Blood or urine glucose fluctuated around time of menses</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+	<value code="3">UNKNOWN</value>
+</variable>
+
+<variable id="phv00034102.v1">
+	<name>ibf8</name>
+	<description>DCCT: Any recent stress or other psychological disturbances around time of hypoglycemic episode</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+	<value code="3">UNKNOWN</value>
+</variable>
+
+<variable id="phv00034103.v1">
+	<name>ibf9</name>
+	<description>DCCT: Other factors that could potentially contribute to hypoglycemic event were present</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+	<value code="3">UNKNOWN</value>
+</variable>
+
+<variable id="phv00034039.v1">
+	<name>ibf92dat</name>
+	<description>DCCT: Date on which form 92 was completed</description>
+	<type>str6</type>
+</variable>
+
+<variable id="phv00034044.v1">
+	<name>ibhowlrn</name>
+	<description>DCCT: How clinic learned of hypoglycemic event</description>
+	<type>byte</type>
+	<value code="1">PATIENT CONTACTED CLINIC</value>
+	<value code="2">FAMILY CONTACTED CLINIC</value>
+	<value code="3">OTHERS CONTACTED CLINIC</value>
+	<value code="4">CLINIC RECOGNIZED EVENT</value>
+	<value code="5">PATIENT INFORMED CLINIC AT FOLLOW-UP</value>
+	<value code="6">OTHER (SPECIFY)</value>
+</variable>
+
+<variable id="phv00034045.v1">
+	<name>iblive</name>
+	<description>DCCT: Patient&#39;s living arrangement</description>
+	<type>byte</type>
+	<value code="1">LIVES W/PARENT-GUARDIAN</value>
+	<value code="2">LIVES W/OTHER</value>
+	<value code="3">LIVES IN DORMITORY</value>
+	<value code="4">LIVES ALONE</value>
+	<value code="5">UNKNOWN</value>
+	<value code="6">OTHER (SPECIFY)</value>
+</variable>
+
+<variable id="phv00034043.v1">
+	<name>ibuncert</name>
+	<description>DCCT: Date of hypoglycemic event uncertain</description>
+	<type>byte</type>
+	<value code="1">YES</value>
+	<value code="3">MISSING/ERROR VALUE</value>
+</variable>
+
+<variable id="phv00034106.v1">
+	<name>mask_pat</name>
+	<description>DCCT: Patient ID number</description>
+	<type>int</type>
+</variable>
+
+</data_table>

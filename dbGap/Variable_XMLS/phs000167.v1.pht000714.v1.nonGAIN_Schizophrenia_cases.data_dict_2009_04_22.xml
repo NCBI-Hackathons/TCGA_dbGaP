@@ -1,0 +1,1429 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./datadict_v2.xsl"?>
+<data_table id="pht000714.v1" study_id="phs000167.v1" participant_set="1" date_created="Wed Apr 22 13:18:17 2009">
+
+<variable id="phv00071336.v1">
+	<name>SiteSubjID</name>
+	<description>ID consisting of Site (not used for SGI collection, 2 digits for MGS1 collection, and 3 digits for MGS2 collection), Family (5 digits for SGI collection, and 4 digits for MGS1 or MGS2 collections) and Individual_within_family (5 digits for SGI collection, and 3 digits for MGS1 or MGS2 collections) with hyphens between the 2-3 elements</description>
+	<type>string</type>
+	<comment>Assigned ID</comment>
+</variable>
+
+<variable id="phv00071337.v1">
+	<name>Study</name>
+	<description>MGS1 (our affected sib pair study) or MGS2 (the current case-control study) or SGI (a previous affected sib pair study)</description>
+	<type>string</type>
+	<comment>The location refers to the study location (geographical) that recruited and evaluated the subject, and specifically is LA=Louisiana, AU= Australia, IL=Illinois, CO=Colorado, GA=Georgia (site collecting from GA in MGS2, collected from TX in MGS1), CA=California (site collecting from CA-Irvine in MGS1 and part of MGS2, later collected from CA-San Francisco in MGS2), IA=Iowa, NY=New York (the site, NY-Columbia, collecting SGI cases was a different site from the site, NY-Mount Sinai, collecting MGS1 and MGS2 cases in NY), PA=Pennsylvania (site collecting from PA in MGS1 and part of MGS2, later collected from CA-Stanford in MGS2), MO=Missouri (same site collected cases in SGI, MGS1, and MGS2), TX=Texas (site collecting from TX in MGS1, collected from GA in MGS2), MA=Massachusetts (SGI only).</comment>
+	<value code="MGS1">Our affected sib pair study</value>
+	<value code="MGS2">Case-control study</value>
+	<value code="SGI">A previous affected sib pair study</value>
+</variable>
+
+<variable id="phv00071338.v1">
+	<name>Sex</name>
+	<description>Gender: male or female</description>
+	<type>integer</type>
+	<value code="1">Male</value>
+	<value code="2">Female</value>
+</variable>
+
+<variable id="phv00071339.v1">
+	<name>DNA_ID</name>
+	<description>The ID number assigned by the Rutgers DNA and Cell Repository (RUDCR) to this subject&#39;s DNA specimens.  8 samples were sent directly from the Australia site (as DNA), of which 3 are still pending RUDCR cell line numbers (these 3 are designated as &quot;NA&quot;)</description>
+	<type>string</type>
+	<comment>Permanent specimen ID assigned by repository</comment>
+</variable>
+
+<variable id="phv00071340.v1">
+	<name>Location</name>
+	<description>Study location (geographical) that recruited and evaluated the subject</description>
+	<type>string</type>
+	<comment>The location refers to the study location (geographical) that recruited and evaluated the subject, and specifically is LA=Louisiana, AU= Australia, IL=Illinois, CO=Colorado, GA=Georgia (site collecting from GA in MGS2, collected from TX in MGS1), CA=California (site collecting from CA-Irvine in MGS1 and part of MGS2, later collected from CA-San Francisco in MGS2), IA=Iowa, NY=New York (the site, NY-Columbia, collecting SGI cases was a different site from the site, NY-Mount Sinai, collecting MGS1 and MGS2 cases in NY), PA=Pennsylvania (site collecting from PA in MGS1 and part of MGS2, later collected from CA-Stanford in MGS2), MO=Missouri (same site collected cases in SGI, MGS1, and MGS2), TX=Texas (site collecting from TX in MGS1, collected from GA in MGS2), MA=Massachusetts (SGI only).</comment>
+	<value code="AU">Australia</value>
+	<value code="CA">California</value>
+	<value code="CO">Colorado</value>
+	<value code="GA">Georgia (previously Houston)</value>
+	<value code="IA">Iowa</value>
+	<value code="IL">Illinois</value>
+	<value code="LA">Louisiana</value>
+	<value code="MA">Massachusetts</value>
+	<value code="MO">Missouri</value>
+	<value code="NY">New York</value>
+	<value code="PA">Pennsylvania</value>
+</variable>
+
+<variable id="phv00071341.v1">
+	<name>Self-ident-ancestry</name>
+	<description>Self-identified ethnic ancestry</description>
+	<type>string</type>
+	<comment>Subject asked by interview to identify own ethnicity (European or &quot;white&quot; or Caucasian, African American, Asian, etc.)</comment>
+	<value code="AA">African American</value>
+	<value code="EA">European Ancestry</value>
+</variable>
+
+<variable id="phv00071342.v1">
+	<name>Age_at_interview</name>
+	<description>Age at which the subject was interviewed (NA means not available, true age of subject could not be determined, duration of illness estimated)</description>
+	<type>integer</type>
+	<unit>Years old</unit>
+	<comment>Computed from birth date and present date</comment>
+</variable>
+
+<variable id="phv00071343.v1">
+	<name>Digs</name>
+	<description>Was  the subject  able to complete an in-person diagnostic interview (DIGS)  (i.e., some schizophrenia patients cannot participate adequately to provide valid information, but are willing to consent for the other aspects of the study including obtaining medical records)</description>
+	<type>string</type>
+	<comment>All subjects asked to participate in DIGS interview; small proportion are unable to complete it in a valid way due to psychiatric disorder, but agree to other procedures</comment>
+	<value code="N">Did not complete interview</value>
+	<value code="Y">Completed interview</value>
+</variable>
+
+<variable id="phv00071344.v1">
+	<name>Figs</name>
+	<description>Did at least one family member provide a FIGS interview to provide observations on the subject&#39;s psychiatric history and symptom</description>
+	<type>string</type>
+	<comment>All subjects are asked to invite a family member to be informant; some subjects refuse, or family member cannot be reach or refuses</comment>
+	<value code="N">No FIGS obtained</value>
+	<value code="Y">FIGS obtained from informant</value>
+</variable>
+
+<variable id="phv00071345.v1">
+	<name>MedRec</name>
+	<description>Was at least 1 record obtained from a hospital, clinic or clinician about the subject&#39;s psychiatric history?</description>
+	<type>string</type>
+	<comment>All subjects are asked to sign consents for medical records to obtained for previous psychiatric treatment</comment>
+	<value code="N">0 records obtained</value>
+	<value code="Y">More or equivalent to 1 medical record obtained</value>
+</variable>
+
+<variable id="phv00071346.v1">
+	<name>FH_psychosis</name>
+	<description>Was there evidence of a history of psychotic illness in relatives? 0=No evidence of family history of a psychotic illness (MGS2 cases, complete assessment of family not made); 1=Suspected history of psychotic disorder in a first- or second-degree relative (MGS2, see protocol description); 2=Definite history of psychotic disorder in a sibling, half sibling or parent (MGS1, all diagnoses in relatives were based on full in-person assessment and consensus diagnosis)</description>
+	<type>integer</type>
+	<unit>Rating</unit>
+	<comment>For MGS1, this is always definite or &quot;2&quot;, because all probands had at least 1 full or half sibling or parent with a consensus diagnosis of SZ or SZ by direct interview and full consensus diagnostic procedure. For MGS2,  the maximum rating was 1, indicating a suspicion of psychotic disorder based on family history information: diagnosticians arrived at consensus ratings of first- or second-degree relatives based on family history information only, either from the proband or from a family informant, with this variable = &quot;Y&quot; if the consensus for at least one such relative was &quot;2&quot; (likely, present) or &quot;3&quot; (definite) that some psychotic disorder was present, regardless of the most likely DSM diagnosis for the psychosis.  Thus for MGS2, a rating here of &quot;0&quot; simply means that no positive information was obtained to suggest a probably positive FH, and this cannot be interpreted as absence of family history.</comment>
+	<value code="0">No evidence of family history of a psychotic illness (MGS2 cases, complete assessment of family not made)</value>
+	<value code="1">Suspected history of psychotic disorder in a first- or second-degree relative (MGS2, see protocol description)</value>
+	<value code="2">Definite history of psychotic disorder in a sibling, half sibling or parent (MGS1, all diagnoses in relatives were based on full in-person assessment and consensus diagnosis)</value>
+</variable>
+
+<variable id="phv00071347.v1">
+	<name>dx_cs_1</name>
+	<description>DSM-IV diagnosis code for the Best Estimate Final Diagnosis (code numbers)</description>
+	<type>string</type>
+	<comment>Consensus diagnostician (PI or senior research clinician delegate) reviews diagnostic ratings made independent by two research diagnosticians (one of which could be the consensus diagnostician as well), and assigns a final diagnosis, confidence level and AAO if there is agreement, or facilitates discussion of diagnosticians to achieve consensus</comment>
+	<value code="295.70D">Schizoaffective depressed disorder</value>
+	<value code="295.70M">Schizoaffective bipolar disorder</value>
+	<value code="295.XX">Schizophrenia</value>
+</variable>
+
+<variable id="phv00071348.v1">
+	<name>cnf_cs_1</name>
+	<description>Consensus confidence level assigned to the diagnosis (confidence levels)</description>
+	<type>integer</type>
+	<comment>Consensus diagnostician (PI or senior research clinician delegate) reviews diagnostic ratings made independent by two research diagnosticians (one of which could be the consensus diagnostician as well), and assigns a final diagnosis, confidence level and AAO if there is agreement, or facilitates discussion of diagosticians to achieve consensus</comment>
+	<value code="1">Possible (some suspicion, but absent)</value>
+	<value code="2">Likely (requires some interpretation of evidence, present)</value>
+	<value code="3">Definite  (high confidence)</value>
+</variable>
+
+<variable id="phv00071349.v1">
+	<name>aao_cs_1</name>
+	<description>Consensus age at onset (most likely age for onset of psychotic symptoms consistent with the onset of schizophrenia or schizoaffective disorder)</description>
+	<type>integer</type>
+	<unit>Years old</unit>
+	<comment>Consensus diagnostician (PI or senior research clinician delegate) reviews diagnostic ratings made independent by two research diagnosticians (one of which could be the consensus diagnostician as well), and assigns a final diagnosis, confidence level and AAO if there is agreement, or facilitates discussion of diagosticians to achieve consensus</comment>
+</variable>
+
+<variable id="phv00071350.v1">
+	<name>dx_cs_2</name>
+	<description>DSM-IV diagnosis code for any additional psychiatric or substance use disorder supported by the data, determined by consensus (up to 4 secondary diagnoses included in file). Code numbers (see the DSM-IV manual for all psychiatric disorders)</description>
+	<type>string</type>
+	<comment>Consensus diagnostician (PI or senior research clinician delegate) reviews diagnostic ratings made independent by two research diagnosticians (one of which could be the consensus diagnostician as well), and assigns a final diagnosis, confidence level and AAO if there is agreement, or facilitates discussion of diagosticians to achieve consensus
+		Cases met criteria for schizophrenia (SCZ) or schizoaffective disorder (SA) per the Diagnostic and Statistical Manual of Mental Disorders version IV (DSM-IV) for all three collections (SGI, MGS1, and MGS2) comprising these cases. However, for the older SGI collection, codes for the secondary diagnoses refer to the older DSM-III-R version. </comment>
+	<value code="291.2">Alcohol-induced persisting dementia</value>
+	<value code="292.12">Substance-induced psychotic disorder, with hallucinations</value>
+	<value code="293.83">Mood disorder due to the general medical condition</value>
+	<value code="296.2">Major depressive disorder, single episode, unspecified</value>
+	<value code="296.3">Major depressive disorder, recurrent, unspecified</value>
+	<value code="296.34">Major depressive disorder, recurrent, severe with psychotic features</value>
+	<value code="296.8">Bipolar disorder NOS</value>
+	<value code="299.8">Pervasive developmental disorder NOS</value>
+	<value code="300.21">Panic disorder with agoraphobia</value>
+	<value code="300.23">Social phobia</value>
+	<value code="300.3">Obsessive-compulsive disorder</value>
+	<value code="301.2">Schizoid personality disorder</value>
+	<value code="301.7">Antisocial personality disorder</value>
+	<value code="301.8">Narcissistic Personality Disorder, or Avoidant Personality Disorder, or Borderline Personality Disorder, or Passive aggressive personality disorder</value>
+	<value code="301.83">Borderline personality disorder</value>
+	<value code="302.2">Pedophilia</value>
+	<value code="303.9">Alcohol dependence</value>
+	<value code="304">Opioid dependence</value>
+	<value code="304.2">Cocaine dependence</value>
+	<value code="304.3">Cannabis dependence</value>
+	<value code="304.4">Amphetamine dependence</value>
+	<value code="304.5">Hallucinogen dependence</value>
+	<value code="304.6">Inhalant dependence</value>
+	<value code="304.8">Polysubstance dependence</value>
+	<value code="305">Alcohol abuse</value>
+	<value code="305.1">Nicotine dependence</value>
+	<value code="305.2">Cannabis abuse</value>
+	<value code="305.3">Hallucinogen abuse</value>
+	<value code="305.4">Sedative, hypnotic, or anxiolytic abuse</value>
+	<value code="305.5">Opioid abuse</value>
+	<value code="305.6">Cocaine abuse</value>
+	<value code="305.7">Amphetamine abuse</value>
+	<value code="305.9">Caffeine Intoxication</value>
+	<value code="307.6">Enuresis (not due to a general medical condition)</value>
+	<value code="309.81">Posttraumatic stress disorder</value>
+	<value code="311">Depressive disorder NOS</value>
+	<value code="312.8">Conduct disorder</value>
+	<value code="312.9">Disruptive behavior disorder NOS</value>
+	<value code="314.01">Attention-deficit hyperactivity disorder</value>
+	<value code="315">Reading disorder</value>
+	<value code="315.9">Learning disorder NOS</value>
+	<value code="317">Mild mental retardation</value>
+	<value code="318">Moderate mental retardation</value>
+	<value code="294.80A">Amnestic disorder NOS</value>
+	<value code="296.2X">Major depressive disorder single episode</value>
+	<value code="296.2x">Major depressive disorder single episode</value>
+	<value code="296.70A">Bipolar disorder, NOS</value>
+	<value code="304.50B">Phencyclidine (PCP) or similarly acting arylcyclohexylamine dependence</value>
+	<value code="304.90A">Other (or unknown) substance dependence</value>
+	<value code="305.20A">Cannabis abuse</value>
+</variable>
+
+<variable id="phv00071351.v1">
+	<name>cnf_cs_2</name>
+	<description>Consensus confidence level assigned to the diagnosis (confidence levels)</description>
+	<type>integer</type>
+	<comment>Consensus diagnostician (PI or senior research clinician delegate) reviews diagnostic ratings made independent by two research diagnosticians (one of which could be the consensus diagnostician as well), and assigns a final diagnosis, confidence level and AAO if there is agreement, or facilitates discussion of diagosticians to achieve consensus
+		Variable contains data (e.g. levels of diagnostic confidence for many different disorders which happen to be the second diagnosis) for which a statistical summary is not useful. </comment>
+	<value code="1">Possible (some suspicion, but absent)</value>
+	<value code="2">Likely (requires some interpretation of evidence, present)</value>
+	<value code="3">Definite  (high confidence)</value>
+</variable>
+
+<variable id="phv00071352.v1">
+	<name>aao_cs_2</name>
+	<description>Consensus age at onset of the diagnosis</description>
+	<type>integer</type>
+	<unit>Years old</unit>
+	<comment>Consensus diagnostician (PI or senior research clinician delegate) reviews diagnostic ratings made independent by two research diagnosticians (one of which could be the consensus diagnostician as well), and assigns a final diagnosis, confidence level and AAO if there is agreement, or facilitates discussion of diagosticians to achieve consensus
+		Variable contains data (e.g. ages at onset for many different disorders which happen to be  the second diagnosis) for which a statistical summary is not useful. </comment>
+</variable>
+
+<variable id="phv00071353.v1">
+	<name>dx_cs_3</name>
+	<description>DSM-IV diagnosis code for any additional psychiatric or substance use disorder supported by the data, determined by consensus (up to 4 secondary diagnoses included in file). Code numbers (see the DSM-IV manual for all psychiatric disorders)</description>
+	<type>string</type>
+	<comment>Consensus diagnostician (PI or senior research clinician delegate) reviews diagnostic ratings made independent by two research diagnosticians (one of which could be the consensus diagnostician as well), and assigns a final diagnosis, confidence level and AAO if there is agreement, or facilitates discussion of diagosticians to achieve consensus
+		Cases met criteria for schizophrenia (SCZ) or schizoaffective disorder (SA) per the Diagnostic and Statistical Manual of Mental Disorders version IV (DSM-IV) for all three collections (SGI, MGS1, and MGS2) comprising these cases. However, for the older SGI collection, codes for the secondary diagnoses refer to the older DSM-III-R version. </comment>
+	<value code="296.2">Major depressive disorder, single episode, unspecified</value>
+	<value code="296.8">Bipolar disorder NOS</value>
+	<value code="299">Autistic disorder</value>
+	<value code="299.8">Pervasive developmental disorder NOS</value>
+	<value code="300.3">Obsessive-compulsive disorder</value>
+	<value code="300.4">Dysthymic disorder</value>
+	<value code="301.7">Antisocial personality disorder</value>
+	<value code="303.9">Alcohol dependence</value>
+	<value code="304">Opioid dependence</value>
+	<value code="304.1">Sedative, hypnotic, or anxiolytic dependence</value>
+	<value code="304.2">Cocaine dependence</value>
+	<value code="304.3">Cannabis dependence</value>
+	<value code="304.4">Amphetamine or similarly acting sympathomimetic dependence</value>
+	<value code="304.5">Hallucinogen dependence</value>
+	<value code="304.6">Inhalant dependence</value>
+	<value code="304.8">Polysubstance dependence</value>
+	<value code="305">Alcohol abuse</value>
+	<value code="305.1">Nicotine dependence</value>
+	<value code="305.2">Cannabis abuse</value>
+	<value code="305.3">Hallucinogen abuse</value>
+	<value code="305.4">Sedative, hypnotic, or anxiolytic abuse</value>
+	<value code="305.5">Opioid abuse</value>
+	<value code="305.6">Cocaine abuse</value>
+	<value code="305.7">Amphetamine abuse</value>
+	<value code="305.9">Caffeine Intoxication</value>
+	<value code="307.6">Enuresis (not due to a general medical condition)</value>
+	<value code="311">Depressive disorder NOS</value>
+	<value code="312.8">Conduct disorder</value>
+	<value code="312.9">Disruptive behavior disorder NOS</value>
+	<value code="314.01">Attention-deficit hyperactivity disorder</value>
+	<value code="315">Reading disorder</value>
+	<value code="315.2">Disorder of written expression</value>
+	<value code="317">Mild mental retardation</value>
+	<value code="296.2X">Major depressive disorder single episode</value>
+	<value code="305.20A">Cannabis abuse</value>
+	<value code="305.60A">Cocaine abuse</value>
+	<value code="305.70B">Amphetamine abuse</value>
+	<value code="305.90D">Phencyclidine abuse</value>
+	<value code="315.31B">Developmental receptive language disorder</value>
+</variable>
+
+<variable id="phv00071354.v1">
+	<name>cnf_cs_3</name>
+	<description>Consensus confidence level assigned to the diagnosis (confidence levels)</description>
+	<type>integer</type>
+	<comment>Consensus diagnostician (PI or senior research clinician delegate) reviews diagnostic ratings made independent by two research diagnosticians (one of which could be the consensus diagnostician as well), and assigns a final diagnosis, confidence level and AAO if there is agreement, or facilitates discussion of diagosticians to achieve consensus
+		Variable contains data (e.g. levels of diagnostic confidence for many different disorders which happen to be the third diagnosis) for which a statistical summary is not useful. </comment>
+	<value code="1">Possible (some suspicion, but absent)</value>
+	<value code="2">Likely (requires some interpretation of evidence, present)</value>
+	<value code="3">Definite  (high confidence)</value>
+</variable>
+
+<variable id="phv00071355.v1">
+	<name>aao_cs_3</name>
+	<description>Consensus age at onset of the diagnosis</description>
+	<type>integer</type>
+	<unit>Years old</unit>
+	<comment>Consensus diagnostician (PI or senior research clinician delegate) reviews diagnostic ratings made independent by two research diagnosticians (one of which could be the consensus diagnostician as well), and assigns a final diagnosis, confidence level and AAO if there is agreement, or facilitates discussion of diagosticians to achieve consensus
+		Variable contains data (e.g. ages at onset for many different disorders which happen to be  the third diagnosis) for which a statistical summary is not useful. </comment>
+</variable>
+
+<variable id="phv00071356.v1">
+	<name>dx_cs_4</name>
+	<description>DSM-IV diagnosis code for any additional psychiatric or substance use disorder supported by the data, determined by consensus (up to 4 secondary diagnoses included in file). Code numbers (see the DSM-IV manual for all psychiatric disorders)</description>
+	<type>string</type>
+	<comment>Consensus diagnostician (PI or senior research clinician delegate) reviews diagnostic ratings made independent by two research diagnosticians (one of which could be the consensus diagnostician as well), and assigns a final diagnosis, confidence level and AAO if there is agreement, or facilitates discussion of diagosticians to achieve consensus
+		Cases met criteria for schizophrenia (SCZ) or schizoaffective disorder (SA) per the Diagnostic and Statistical Manual of Mental Disorders version IV (DSM-IV) for all three collections (SGI, MGS1, and MGS2) comprising these cases. However, for the older SGI collection, codes for the secondary diagnoses refer to the older DSM-III-R version. </comment>
+	<value code="290.1">Presenile degenerative dementia</value>
+	<value code="292.84">Amphetamine, or cocaine, or hallucinogen, or inhalant, or opioid, or Phencyclidine, or sedative, or other (or unknown) substance induced mood disorder</value>
+	<value code="296.2">Major depression, single episode, unspecified</value>
+	<value code="296.3">Major depressive disorder, recurrent, unspecified</value>
+	<value code="296.8">Brief psychotic disorder</value>
+	<value code="298.9">Psychotic disorder NOS</value>
+	<value code="301.7">Antisocial personality disorder</value>
+	<value code="301.9">Personality disorder NOS</value>
+	<value code="302.7">Sexual dysfunction NOS</value>
+	<value code="303.9">Alcohol dependence</value>
+	<value code="304">Opioid dependence</value>
+	<value code="304.1">Sedative, hypnotic, or anxiolytic dependence</value>
+	<value code="304.2">Cocaine dependence</value>
+	<value code="304.3">Cannabis dependence</value>
+	<value code="304.4">Amphetamine dependence</value>
+	<value code="304.5">Hallucinogen dependence</value>
+	<value code="304.6">Inhalant dependence</value>
+	<value code="304.8">Polysubstance dependence</value>
+	<value code="305">Alcohol abuse</value>
+	<value code="305.1">Nicotine dependence</value>
+	<value code="305.2">Cannabis abuse</value>
+	<value code="305.3">Hallucinogen abuse</value>
+	<value code="305.4">Sedative, hypnotic, or anxiolytic abuse</value>
+	<value code="305.5">Opioid abuse</value>
+	<value code="305.6">Cocaine abuse</value>
+	<value code="305.7">Amphetamine abuse</value>
+	<value code="305.9">Caffeine Intoxication</value>
+	<value code="307.51">Bulimia nervosa</value>
+	<value code="309.81">Posttraumatic stress disorder</value>
+	<value code="310.1">Personality change due to the general medical condition</value>
+	<value code="311">Depressive disorder NOS</value>
+	<value code="312">Conduct disorder, solitary aggressive type</value>
+	<value code="312.31">Pathological gambling</value>
+	<value code="312.8">Conduct disorder</value>
+	<value code="317">Mild mental retardation</value>
+	<value code="296.2X">Major depressive disorder single episode</value>
+	<value code="296.2x">Major depressive disorder single episode</value>
+	<value code="305.60A">Cocaine abuse</value>
+	<value code="305.70B">Amphetamine or similarly acting sympathomimetic abuse</value>
+	<value code="305.90D">Psychoactive substance abuse NOS</value>
+	<value code="V40.00">Borderline intellectual functioning</value>
+</variable>
+
+<variable id="phv00071357.v1">
+	<name>cnf_cs_4</name>
+	<description>Consensus confidence level assigned to the diagnosis (confidence levels)</description>
+	<type>integer</type>
+	<comment>Consensus diagnostician (PI or senior research clinician delegate) reviews diagnostic ratings made independent by two research diagnosticians (one of which could be the consensus diagnostician as well), and assigns a final diagnosis, confidence level and AAO if there is agreement, or facilitates discussion of diagosticians to achieve consensus
+		Variable contains data (e.g. levels of diagnostic confidence for many different disorders which happen to be the fourth diagnosis ) for which a statistical summary is not useful. </comment>
+	<value code="1">Possible (some suspicion, but absent)</value>
+	<value code="2">Likely (requires some interpretation of evidence, present)</value>
+	<value code="3">Definite  (high confidence)</value>
+</variable>
+
+<variable id="phv00071358.v1">
+	<name>aao_cs_4</name>
+	<description>Consensus age at onset of the diagnosis</description>
+	<type>integer</type>
+	<unit>Years old</unit>
+	<comment>Consensus diagnostician (PI or senior research clinician delegate) reviews diagnostic ratings made independent by two research diagnosticians (one of which could be the consensus diagnostician as well), and assigns a final diagnosis, confidence level and AAO if there is agreement, or facilitates discussion of diagosticians to achieve consensus
+		Variable contains data (e.g. ages at onset for many different disorders which happen to be  the fourth diagnosis) for which a statistical summary is not useful. </comment>
+</variable>
+
+<variable id="phv00071359.v1">
+	<name>dx_cs_5</name>
+	<description>DSM-IV diagnosis code for any additional psychiatric or substance use disorder supported by the data, determined by consensus (up to 4 secondary diagnoses included in file). Code numbers (see the DSM-IV manual for all psychiatric disorders)</description>
+	<type>string</type>
+	<comment>Consensus diagnostician (PI or senior research clinician delegate) reviews diagnostic ratings made independent by two research diagnosticians (one of which could be the consensus diagnostician as well), and assigns a final diagnosis, confidence level and AAO if there is agreement, or facilitates discussion of diagosticians to achieve consensus
+		Cases met criteria for schizophrenia (SCZ) or schizoaffective disorder (SA) per the Diagnostic and Statistical Manual of Mental Disorders version IV (DSM-IV) for all three collections (SGI, MGS1, and MGS2) comprising these cases. However, for the older SGI collection, codes for the secondary diagnoses refer to the older DSM-III-R version. </comment>
+	<value code="296.2">Major depressive disorder, single episode, unspecified</value>
+	<value code="296.3">Major depressive disorder, recurrent, unspecified</value>
+	<value code="296.8">Bipolar disorder NOS</value>
+	<value code="301.7">Antisocial personality disorder</value>
+	<value code="303.9">Alcohol dependence</value>
+	<value code="304">Opioid dependence</value>
+	<value code="304.1">Sedative, hypnotic, or anxiolytic dependence</value>
+	<value code="304.2">Cocaine dependence</value>
+	<value code="304.3">Cannabis dependence</value>
+	<value code="304.4">Amphetamine or similarly acting sympathomimetic dependence</value>
+	<value code="304.5">Hallucinogen dependence</value>
+	<value code="304.8">Polysubstance dependence</value>
+	<value code="305">Alcohol abuse</value>
+	<value code="305.2">Cannabis abuse</value>
+	<value code="305.3">Hallucinogen abuse</value>
+	<value code="305.4">Sedative, hypnotic, or anxiolytic abuse</value>
+	<value code="305.5">Opioid abuse</value>
+	<value code="305.6">Cocaine abuse</value>
+	<value code="305.7">Amphetamine abuse</value>
+	<value code="305.9">Caffeine intoxication</value>
+	<value code="311">Depressive disorder NOS</value>
+	<value code="312.31">Pathological gambling</value>
+	<value code="314">Attention-deficit/hyperactivity disorder, predominantly inattentive type</value>
+	<value code="317">Mild mental retardation</value>
+	<value code="296.3X">Major depressive disorder recurrent</value>
+	<value code="296.74C">Bipolar I disorder with psychosis (Incongruent)</value>
+	<value code="304.90A">Polysubstance dependence</value>
+	<value code="305.50A">Opiod abuse</value>
+	<value code="305.70B">Amphetamine or similarly acting sympathomimetic abuse</value>
+	<value code="305.90A">Phencyclidine (PCP) or similarly acting arlycyclohexylamine abuse</value>
+	<value code="312.39A">Trichotillomania</value>
+	<value code="315.31A">Developmental expressive language disorder</value>
+</variable>
+
+<variable id="phv00071360.v1">
+	<name>cnf_cs_5</name>
+	<description>Consensus confidence level assigned to the diagnosis (confidence levels)</description>
+	<type>integer</type>
+	<comment>Consensus diagnostician (PI or senior research clinician delegate) reviews diagnostic ratings made independent by two research diagnosticians (one of which could be the consensus diagnostician as well), and assigns a final diagnosis, confidence level and AAO if there is agreement, or facilitates discussion of diagosticians to achieve consensus
+		Variable contains data (e.g. levels of diagnostic confidence for many different disorders which happen to be the fifth diagnosis) for which a statistical summary is not useful. </comment>
+	<value code="1">Possible (some suspicion, but absent)</value>
+	<value code="2">Likely (requires some interpretation of evidence, present)</value>
+	<value code="3">Definite  (high confidence)</value>
+</variable>
+
+<variable id="phv00071361.v1">
+	<name>aao_cs_5</name>
+	<description>Consensus age at onset of the diagnosis</description>
+	<type>integer</type>
+	<unit>Years old</unit>
+	<comment>Consensus diagnostician (PI or senior research clinician delegate) reviews diagnostic ratings made independent by two research diagnosticians (one of which could be the consensus diagnostician as well), and assigns a final diagnosis, confidence level and AAO if there is agreement, or facilitates discussion of diagosticians to achieve consensus
+		Variable contains data (e.g. ages at onset for many different disorders which happen to be the fifth diagnosis) for which a statistical summary is not useful. </comment>
+</variable>
+
+<variable id="phv00071362.v1">
+	<name>SumCritA</name>
+	<description>The total of items cs_A1 through A5 - note that bizarre delusions (A1a) and voices commenting or conversing (A2a) count as an extra &quot;point&quot;, so that a sum of 2 indicates that Criterion A has been med (e.g., for bizarre delusions, one would get 1 for A1 and 1 for A1a, totaling 2) - NOTE: by definition, all subjects with schizophrenia or schizoaffective disorder diagnoses were judged as meeting DSM-IV criteria B-F for schizophrenia. Number of criteria present</description>
+	<type>integer</type>
+	<unit>Number of criteria present</unit>
+	<comment>See following 7 items</comment>
+	<value code="0">Sum of cs_A1, cs_A1a, cs_A2, cs_A2a, cs_A3, cs_A4, and cs_A5 equals 0</value>
+	<value code="1">Sum of cs_A1, cs_A1a, cs_A2, cs_A2a, cs_A3, cs_A4, and cs_A5 equals 1</value>
+	<value code="2">Sum of cs_A1, cs_A1a, cs_A2, cs_A2a, cs_A3, cs_A4, and cs_A5  equals 2</value>
+	<value code="3">Sum of cs_A1, cs_A1a, cs_A2, cs_A2a, cs_A3, cs_A4, and cs_A5  equals 3</value>
+	<value code="4">Sum of cs_A1, cs_A1a, cs_A2, cs_A2a, cs_A3, cs_A4, and cs_A5  equals 4</value>
+	<value code="5">Sum of cs_A1, cs_A1a, cs_A2, cs_A2a, cs_A3, cs_A4, and cs_A5  equals 5</value>
+	<value code="6">Sum of cs_A1, cs_A1a, cs_A2, cs_A2a, cs_A3, cs_A4, and cs_A5  equals 6</value>
+	<value code="7">Sum of cs_A1, cs_A1a, cs_A2, cs_A2a, cs_A3, cs_A4, and cs_A5  equals 7</value>
+</variable>
+
+<variable id="phv00071363.v1">
+	<name>cs_A1</name>
+	<description>Consensus rating for DSM-IV schizophrenia criterion A1 (delusions)</description>
+	<type>integer</type>
+	<comment>Consensus diagnostician rates each DSM-IV criterion for schizophrenia as present or absent based on agreement of two independent diagnosticians or discuss of consensus</comment>
+	<value code="0">Absent</value>
+	<value code="1">Present</value>
+</variable>
+
+<variable id="phv00071364.v1">
+	<name>cs_A1a</name>
+	<description>Consensus rating for presence of bizarre delusions as defined in DSM-IV (implausible, impossible, including Schneiderian delusions)</description>
+	<type>integer</type>
+	<comment>Consensus diagnostician rates each DSM-IV criterion for schizophrenia as present or absent based on agreement of two independent diagnosticians or discuss of consensus</comment>
+	<value code="0">Absent</value>
+	<value code="1">Present</value>
+</variable>
+
+<variable id="phv00071365.v1">
+	<name>cs_A2</name>
+	<description>Consensus rating for DSM-IV schizophrenia criterion A2 (hallucinations)</description>
+	<type>integer</type>
+	<comment>Consensus diagnostician rates each DSM-IV criterion for schizophrenia as present or absent based on agreement of two independent diagnosticians or discuss of consensus</comment>
+	<value code="0">Absent</value>
+	<value code="1">Present</value>
+</variable>
+
+<variable id="phv00071366.v1">
+	<name>cs_A2a</name>
+	<description>Consensus rating for presence of auditory hallucinations consisting of voices that converse with each other and/or comment on the subject&#39;s thoughts or behavior</description>
+	<type>integer</type>
+	<comment>Consensus diagnostician rates each DSM-IV criterion for schizophrenia as present or absent based on agreement of two independent diagnosticians or discuss of consensus</comment>
+	<value code="0">Absent</value>
+	<value code="1">Present</value>
+</variable>
+
+<variable id="phv00071367.v1">
+	<name>cs_A3</name>
+	<description>Consensus rating for DSM-IV schizophrenia criterion A3 (disorganized speech - frequent derailment or incoherence)</description>
+	<type>integer</type>
+	<comment>Consensus diagnostician rates each DSM-IV criterion for schizophrenia as present or absent based on agreement of two independent diagnosticians or discuss of consensus</comment>
+	<value code="0">Absent</value>
+	<value code="1">Present</value>
+</variable>
+
+<variable id="phv00071368.v1">
+	<name>cs_A4</name>
+	<description>Consensus rating for DSM-IV schizophrenia criterion A4 (grossly disorganized or catatonic behavior)</description>
+	<type>integer</type>
+	<comment>Consensus diagnostician rates each DSM-IV criterion for schizophrenia as present or absent based on agreement of two independent diagnosticians or discuss of consensus</comment>
+	<value code="0">Absent</value>
+	<value code="1">Present</value>
+</variable>
+
+<variable id="phv00071369.v1">
+	<name>cs_A5</name>
+	<description>Consensus rating for DSM-IV schizophrenia criterion A rating A1 (negative symptom - affective flattening, alogia, avolition)</description>
+	<type>integer</type>
+	<comment>Consensus diagnostician rates each DSM-IV criterion for schizophrenia as present or absent based on agreement of two independent diagnosticians or discuss of consensus</comment>
+	<value code="0">Absent</value>
+	<value code="1">Present</value>
+</variable>
+
+<variable id="phv00071370.v1">
+	<name>MonthsIll</name>
+	<description>Consensus estimate of the lifetime total of months that the subject has had active residual schizophrenia (or schizoaffective disorder)</description>
+	<type>float</type>
+	<unit>Months</unit>
+	<comment>Consensus diagnostician estimates number of months of schizophrenic illness (active+residual) lifetime, based on all sources of information, by agreement of two independent diagnosticians or discussion of consensus</comment>
+	<value code="U">Unknown (could not rate)</value>
+	<value code="u">Unknown (could not rate)</value>
+</variable>
+
+<variable id="phv00071371.v1">
+	<name>MonthsMood</name>
+	<description>Consensus estimate of the lifetime total of months that the subject has had full mood syndromes (mania or depression) - note, ratio of MonthsMood/MonthsIll required to be more or equivalent to 0.3 to diagnose schizoaffective disorder</description>
+	<type>float</type>
+	<unit>Months</unit>
+	<comment>Consensus diagnostician estimates number of months of manic or depressive syndromes, based on all sources of information, by agreement of two independent diagnosticians or discussion of consensus</comment>
+	<value code="u">Unknown (could not rate)</value>
+</variable>
+
+<variable id="phv00071372.v1">
+	<name>Auditory_Halns_Ever[I10920]</name>
+	<description>Auditory_Hallucinations Ever (when psychotic and without other comorbid features present), followed by the raw repository SAS database field name in brackets for cross-reference to repository database [I10920]. Rating</description>
+	<type>integer</type>
+	<comment>Interviewer rating based on subject&#39;s response to probe question in DIGS and further discussion as needed, plus any relevant information obtained during the entire interview</comment>
+	<value code="0">Absent</value>
+	<value code="1">Present</value>
+	<value code="2">Suspected</value>
+	<value code="3">Unknown (could not rate)</value>
+</variable>
+
+<variable id="phv00071373.v1">
+	<name>Visual_Halns_Ever[I10930]</name>
+	<description>Visual_Hallucinations Ever (when psychotic and without other comorbid features present), followed by the raw repository SAS database field name in brackets for cross-reference to repository database [I10930]. Rating</description>
+	<type>integer</type>
+	<comment>Interviewer rating based on subject&#39;s response to probe question in DIGS and further discussion as needed, plus any relevant information obtained during the entire interview</comment>
+	<value code="0">Absent</value>
+	<value code="1">Present</value>
+	<value code="2">Suspected</value>
+	<value code="3">Unknown (could not rate)</value>
+</variable>
+
+<variable id="phv00071374.v1">
+	<name>Delusions_Ever[I10940]</name>
+	<description>Delusions Ever (when psychotic and without other comorbid features present), followed by the raw repository SAS database field name in brackets for cross-reference to repository database [I10940]. Rating</description>
+	<type>integer</type>
+	<comment>Interviewer rating based on subject&#39;s response to probe question in DIGS and further discussion as needed, plus any relevant information obtained during the entire interview</comment>
+	<value code="0">Absent</value>
+	<value code="1">Present</value>
+	<value code="2">Suspected</value>
+	<value code="3">Unknown (could not rate)</value>
+</variable>
+
+<variable id="phv00071375.v1">
+	<name>Current_Psychosis[I10960]</name>
+	<description>Current psychosis (when psychotic and without other comorbid features present), followed by the raw repository SAS database field name in brackets for cross-reference to repository database [I10960]. Rating</description>
+	<type>integer</type>
+	<comment>Interviewer rating based on subject&#39;s response to probe question in DIGS and further discussion as needed, plus any relevant information obtained during the entire interview</comment>
+	<value code="0">Absent</value>
+	<value code="1">Present</value>
+	<value code="2">Suspected</value>
+	<value code="3">Unknown (could not rate)</value>
+</variable>
+
+<variable id="phv00071376.v1">
+	<name>Current_Psychosis_Duration_Weeks[I10990]</name>
+	<description>Current psychosis, duration weeks (when psychotic and without other comorbid features present), followed by the raw repository SAS database field name in brackets for cross-reference to repository database [I10990]</description>
+	<type>integer</type>
+	<unit>Weeks</unit>
+	<comment>Interviewer rating based on subject&#39;s response to probe question in DIGS and further discussion as needed, plus any relevant information obtained during the entire interview</comment>
+	<value code="999">999 weeks or more</value>
+	<value code="u">Unknown (could not rate)</value>
+</variable>
+
+<variable id="phv00071377.v1">
+	<name>Persecutory_Delusions[I11030]</name>
+	<description>Persecutory Delusions (when psychotic and without other comorbid features present), followed by the raw repository SAS database field name in brackets for cross-reference to repository database [I11030]. Rating</description>
+	<type>integer</type>
+	<comment>Interviewer rating based on subject&#39;s response to probe question in DIGS and further discussion as needed, plus any relevant information obtained during the entire interview</comment>
+	<value code="0">Absent</value>
+	<value code="1">Present</value>
+	<value code="2">Unknown (could not rate)</value>
+</variable>
+
+<variable id="phv00071378.v1">
+	<name>Jealousy_Delusions[I11110]</name>
+	<description>Jealousy Delusions (when psychotic and without other comorbid features present), followed by the raw repository SAS database field name in brackets for cross-reference to repository database [I11110]. Rating</description>
+	<type>integer</type>
+	<comment>Interviewer rating based on subject&#39;s response to probe question in DIGS and further discussion as needed, plus any relevant information obtained during the entire interview</comment>
+	<value code="0">Absent</value>
+	<value code="1">Present</value>
+	<value code="2">Unknown (could not rate)</value>
+</variable>
+
+<variable id="phv00071379.v1">
+	<name>Guilt_Sin_Delusions[I11180]</name>
+	<description>Guilt Sin Delusions (when psychotic and without other comorbid features present), followed by the raw repository SAS database field name in brackets for cross-reference to repository database [I11180]. Rating</description>
+	<type>integer</type>
+	<comment>Interviewer rating based on subject&#39;s response to probe question in DIGS and further discussion as needed, plus any relevant information obtained during the entire interview</comment>
+	<value code="0">Absent</value>
+	<value code="1">Present</value>
+	<value code="2">Unknown (could not rate)</value>
+</variable>
+
+<variable id="phv00071380.v1">
+	<name>Grandiose_Delusions[I11250]</name>
+	<description>Grandiose Delusions (when psychotic and without other comorbid features present), followed by the raw repository SAS database field name in brackets for cross-reference to repository database [I11250]. Rating</description>
+	<type>integer</type>
+	<comment>Interviewer rating based on subject&#39;s response to probe question in DIGS and further discussion as needed, plus any relevant information obtained during the entire interview</comment>
+	<value code="0">Absent</value>
+	<value code="1">Present</value>
+	<value code="2">Unknown (could not rate)</value>
+</variable>
+
+<variable id="phv00071381.v1">
+	<name>Religious_Delusions[I11320]</name>
+	<description>Religious Delusions (when psychotic and without other comorbid features present), followed by the raw repository SAS database field name in brackets for cross-reference to repository database [I11320]. Rating</description>
+	<type>integer</type>
+	<comment>Interviewer rating based on subject&#39;s response to probe question in DIGS and further discussion as needed, plus any relevant information obtained during the entire interview</comment>
+	<value code="0">Absent</value>
+	<value code="1">Present</value>
+	<value code="2">Unknown (could not rate)</value>
+</variable>
+
+<variable id="phv00071382.v1">
+	<name>Somatic_Delusions[I11390]</name>
+	<description>Somatic Delusions (when psychotic and without other comorbid features present), followed by the raw repository SAS database field name in brackets for cross-reference to repository database [I11390]. Rating</description>
+	<type>integer</type>
+	<comment>Interviewer rating based on subject&#39;s response to probe question in DIGS and further discussion as needed, plus any relevant information obtained during the entire interview</comment>
+	<value code="0">Absent</value>
+	<value code="1">Present</value>
+	<value code="2">Unknown (could not rate)</value>
+</variable>
+
+<variable id="phv00071383.v1">
+	<name>Del_of_Ref[I11460]</name>
+	<description>Delusions of Reference (when psychotic and without other comorbid features present), followed by the raw repository SAS database field name in brackets for cross-reference to repository database [I11460]. Rating</description>
+	<type>integer</type>
+	<comment>Interviewer rating based on subject&#39;s response to probe question in DIGS and further discussion as needed, plus any relevant information obtained during the entire interview</comment>
+	<value code="0">Absent</value>
+	<value code="1">Present</value>
+	<value code="2">Unknown (could not rate)</value>
+</variable>
+
+<variable id="phv00071384.v1">
+	<name>Being_Controlled[I11530]</name>
+	<description>Delusions of thoughts or actions being controlled (when psychotic and without other comorbid features present), followed by the raw repository SAS database field name in brackets for cross-reference to repository database [I11530]. Rating</description>
+	<type>integer</type>
+	<comment>Interviewer rating based on subject&#39;s response to probe question in DIGS and further discussion as needed, plus any relevant information obtained during the entire interview</comment>
+	<value code="0">Absent</value>
+	<value code="1">Present</value>
+	<value code="2">Unknown (could not rate)</value>
+</variable>
+
+<variable id="phv00071385.v1">
+	<name>Del_Mind_Reading[I11600]</name>
+	<description>Delusions of mind being read (when psychotic and without other comorbid features present), followed by the raw repository SAS database field name in brackets for cross-reference to repository database [I11600]. Rating</description>
+	<type>integer</type>
+	<comment>Interviewer rating based on subject&#39;s response to probe question in DIGS and further discussion as needed, plus any relevant information obtained during the entire interview</comment>
+	<value code="0">Absent</value>
+	<value code="1">Present</value>
+	<value code="2">Unknown (could not rate)</value>
+</variable>
+
+<variable id="phv00071386.v1">
+	<name>Thought_Broadcasting[I11670]</name>
+	<description>Delusion of thoughst (nonbizarre delusion) being broadcast out loud (when psychotic and without other comorbid features present), followed by the raw repository SAS database field name in brackets for cross-reference to repository database [I11670]. Rating</description>
+	<type>integer</type>
+	<comment>Interviewer rating based on subject&#39;s response to probe question in DIGS and further discussion as needed, plus any relevant information obtained during the entire interview</comment>
+	<value code="0">Absent</value>
+	<value code="1">Present</value>
+	<value code="2">Unknown (could not rate)</value>
+</variable>
+
+<variable id="phv00071387.v1">
+	<name>Thought_Insert[I11740]</name>
+	<description>Delusion of thoughts being inserted (when psychotic and without other comorbid features present), followed by the raw repository SAS database field name in brackets for cross-reference to repository database [I11740]. Rating</description>
+	<type>integer</type>
+	<comment>Interviewer rating based on subject&#39;s response to probe question in DIGS and further discussion as needed, plus any relevant information obtained during the entire interview</comment>
+	<value code="0">Absent</value>
+	<value code="1">Present</value>
+	<value code="2">Unknown (could not rate)</value>
+</variable>
+
+<variable id="phv00071388.v1">
+	<name>Thought_Withdraw[I11810]</name>
+	<description>Delusions of thoughts being withdrawn (when psychotic and without other comorbid features present), followed by the raw repository SAS database field name in brackets for cross-reference to repository database [I11810]. Rating</description>
+	<type>integer</type>
+	<comment>Interviewer rating based on subject&#39;s response to probe question in DIGS and further discussion as needed, plus any relevant information obtained during the entire interview</comment>
+	<value code="0">Absent</value>
+	<value code="1">Present</value>
+	<value code="2">Unknown (could not rate)</value>
+</variable>
+
+<variable id="phv00071389.v1">
+	<name>Other_Del[I11880]</name>
+	<description>Any other type of delusions not covered by other items (when psychotic and without other comorbid features present), followed by the raw repository SAS database field name in brackets for cross-reference to repository database [I11880]. Rating</description>
+	<type>integer</type>
+	<comment>Interviewer rating based on subject&#39;s response to probe question in DIGS and further discussion as needed, plus any relevant information obtained during the entire interview</comment>
+	<value code="0">Absent</value>
+	<value code="1">Present</value>
+	<value code="2">Unknown (could not rate)</value>
+</variable>
+
+<variable id="phv00071390.v1">
+	<name>Duration_Delusions_Weeks[I11970]</name>
+	<description>Longest period of time that delusions have persisted according to subject (when psychotic and without other comorbid features present), followed by the raw repository SAS database field name in brackets for cross-reference to repository database [I11970]</description>
+	<type>integer</type>
+	<unit>Weeks</unit>
+	<comment>Interviewer rating based on subject&#39;s response to probe question in DIGS and further discussion as needed, plus any relevant information obtained during the entire interview</comment>
+	<value code="999">999 weeks or more</value>
+	<value code="u">Unknown (could not rate)</value>
+</variable>
+
+<variable id="phv00071391.v1">
+	<name>Delusion_Fragment[I12000]</name>
+	<description>Fragmentary delusions - more than one theme (when psychotic and without other comorbid features present), followed by the raw repository SAS database field name in brackets for cross-reference to repository database [I12000]. Rating</description>
+	<type>integer</type>
+	<comment>Interviewer rating based on subject&#39;s response to probe question in DIGS and further discussion as needed, plus any relevant information obtained during the entire interview</comment>
+	<value code="0">Absent</value>
+	<value code="1">Somewhat</value>
+	<value code="2">Definite</value>
+	<value code="3">Unknown (could not rate)</value>
+</variable>
+
+<variable id="phv00071392.v1">
+	<name>Delusion_Widespread[I12010]</name>
+	<description>Widespread delusions (when psychotic and without other comorbid features present), followed by the raw repository SAS database field name in brackets for cross-reference to repository database [I12010]. Rating</description>
+	<type>integer</type>
+	<comment>Interviewer rating based on subject&#39;s response to probe question in DIGS and further discussion as needed, plus any relevant information obtained during the entire interview</comment>
+	<value code="0">Absent</value>
+	<value code="1">Somewhat</value>
+	<value code="2">Definite</value>
+	<value code="3">Unknown (could not rate)</value>
+</variable>
+
+<variable id="phv00071393.v1">
+	<name>Delusion_Bizarre[I12020]</name>
+	<description>Bizarre delusions - impossible, could not occur in real life (when psychotic and without other comorbid features present), followed by the raw repository SAS database field name in brackets for cross-reference to repository database [I12020]. Rating</description>
+	<type>integer</type>
+	<comment>Interviewer rating based on subject&#39;s response to probe question in DIGS and further discussion as needed, plus any relevant information obtained during the entire interview</comment>
+	<value code="0">Absent</value>
+	<value code="1">Somewhat</value>
+	<value code="2">Definite</value>
+	<value code="3">Unknown (could not rate)</value>
+</variable>
+
+<variable id="phv00071394.v1">
+	<name>AH(Voices_Noises_Music)[I12030]</name>
+	<description>Auditory Hallucinations (Voices Noises Music) (when psychotic and without other comorbid features present), followed by the raw repository SAS database field name in brackets for cross-reference to repository database [I12030]. Rating</description>
+	<type>integer</type>
+	<comment>Interviewer rating based on subject&#39;s response to probe question in DIGS and further discussion as needed, plus any relevant information obtained during the entire interview</comment>
+	<value code="0">Absent</value>
+	<value code="1">Present</value>
+	<value code="2">Unknown (could not rate)</value>
+</variable>
+
+<variable id="phv00071395.v1">
+	<name>Running_Comment[I12100]</name>
+	<description>Auditory hallucinations of voices making a running commentary on subject&#39;s thoughts or actions (when psychotic and without other comorbid features present), followed by the raw repository SAS database field name in brackets for cross-reference to repository database [I12100]. Rating</description>
+	<type>integer</type>
+	<comment>Interviewer rating based on subject&#39;s response to probe question in DIGS and further discussion as needed, plus any relevant information obtained during the entire interview</comment>
+	<value code="0">Absent</value>
+	<value code="1">Present</value>
+	<value code="2">Unknown (could not rate)</value>
+</variable>
+
+<variable id="phv00071396.v1">
+	<name>Aud_2+_Voices[I12170]</name>
+	<description>Auditory hallucinations of  2+ voices conversing with each other (when psychotic and without other comorbid features present), followed by the raw repository SAS database field name in brackets for cross-reference to repository database [I12170]. Rating</description>
+	<type>integer</type>
+	<comment>Interviewer rating based on subject&#39;s response to probe question in DIGS and further discussion as needed, plus any relevant information obtained during the entire interview</comment>
+	<value code="0">Absent</value>
+	<value code="1">Present</value>
+	<value code="2">Unknown (could not rate)</value>
+</variable>
+
+<variable id="phv00071397.v1">
+	<name>Thought_Echo[I12240]</name>
+	<description>Hallucinations of thoughts being echoed out loud (when psychotic and without other comorbid features present), followed by the raw repository SAS database field name in brackets for cross-reference to repository database [I12240]. Rating</description>
+	<type>integer</type>
+	<comment>Interviewer rating based on subject&#39;s response to probe question in DIGS and further discussion as needed, plus any relevant information obtained during the entire interview</comment>
+	<value code="0">Absent</value>
+	<value code="1">Present</value>
+	<value code="2">Unknown (could not rate)</value>
+</variable>
+
+<variable id="phv00071398.v1">
+	<name>Audible_Thoughts[I12310]</name>
+	<description>Heard own thoughts out loud (when psychotic and without other comorbid features present), followed by the raw repository SAS database field name in brackets for cross-reference to repository database [I12310]. Rating</description>
+	<type>integer</type>
+	<comment>Interviewer rating based on subject&#39;s response to probe question in DIGS and further discussion as needed, plus any relevant information obtained during the entire interview</comment>
+	<value code="0">Absent</value>
+	<value code="1">Present</value>
+	<value code="2">Unknown (could not rate)</value>
+</variable>
+
+<variable id="phv00071399.v1">
+	<name>AH_See_Person[I12450]</name>
+	<description>Having voices and concurrently seeing the &quot;person&quot; speaking (when psychotic and without other comorbid features present), followed by the raw repository SAS database field name in brackets for cross-reference to repository database [I12450]. Rating</description>
+	<type>integer</type>
+	<comment>Interviewer rating based on subject&#39;s response to probe question in DIGS and further discussion as needed, plus any relevant information obtained during the entire interview</comment>
+	<value code="0">Absent</value>
+	<value code="1">Present</value>
+	<value code="2">Unknown (could not rate)</value>
+</variable>
+
+<variable id="phv00071400.v1">
+	<name>Somatic_Tactile[I12520]</name>
+	<description>Somatic or tactile hallucinations (when psychotic and without other comorbid features present), followed by the raw repository SAS database field name in brackets for cross-reference to repository database [I12520]. Rating</description>
+	<type>integer</type>
+	<comment>Interviewer rating based on subject&#39;s response to probe question in DIGS and further discussion as needed, plus any relevant information obtained during the entire interview</comment>
+	<value code="0">Absent</value>
+	<value code="1">Present</value>
+	<value code="2">Unknown (could not rate)</value>
+</variable>
+
+<variable id="phv00071401.v1">
+	<name>Olfactory_Hal[I12590]</name>
+	<description>Olfactory hallucinations (when psychotic and without other comorbid features present), followed by the raw repository SAS database field name in brackets for cross-reference to repository database [I12590]. Rating</description>
+	<type>integer</type>
+	<comment>Interviewer rating based on subject&#39;s response to probe question in DIGS and further discussion as needed, plus any relevant information obtained during the entire interview</comment>
+	<value code="0">Absent</value>
+	<value code="1">Present</value>
+	<value code="2">Unknown (could not rate)</value>
+</variable>
+
+<variable id="phv00071402.v1">
+	<name>Visual_Hal[I12660]</name>
+	<description>Visual hallucinations (when psychotic and without other comorbid features present), followed by the raw repository SAS database field name in brackets for cross-reference to repository database [I12660]. Rating</description>
+	<type>integer</type>
+	<comment>Interviewer rating based on subject&#39;s response to probe question in DIGS and further discussion as needed, plus any relevant information obtained during the entire interview</comment>
+	<value code="0">Absent</value>
+	<value code="1">Present</value>
+	<value code="2">Unknown (could not rate)</value>
+</variable>
+
+<variable id="phv00071403.v1">
+	<name>Gustatory_Hal[I12730]</name>
+	<description>Gustatory hallucinations (when psychotic and without other comorbid features present), followed by the raw repository SAS database field name in brackets for cross-reference to repository database [I12730]. Rating</description>
+	<type>integer</type>
+	<comment>Interviewer rating based on subject&#39;s response to probe question in DIGS and further discussion as needed, plus any relevant information obtained during the entire interview</comment>
+	<value code="0">Absent</value>
+	<value code="1">Present</value>
+	<value code="2">Unknown (could not rate)</value>
+</variable>
+
+<variable id="phv00071404.v1">
+	<name>Halluc_Longest_Days[I12800]</name>
+	<description>Longest period of time that hallucinations have persisted according to subject, in days, followed by the raw repository SAS database field name in brackets for cross-reference to repository database [I12800]</description>
+	<type>integer</type>
+	<unit>Days</unit>
+	<comment>Interviewer rating based on subject&#39;s response to probe question in DIGS and further discussion as needed, plus any relevant information obtained during the entire interview</comment>
+	<value code="999">999 days or more</value>
+	<value code="u">Unknown (could not rate)</value>
+</variable>
+
+<variable id="phv00071405.v1">
+	<name>Hall_All_Day_Several_Days[I12820]</name>
+	<description>Hallucinations all day for several days, followed by the raw repository SAS database field name in brackets for cross-reference to repository database [I12820]. Rating</description>
+	<type>integer</type>
+	<comment>Interviewer rating based on subject&#39;s response to probe question in DIGS and further discussion as needed, plus any relevant information obtained during the entire interview</comment>
+	<value code="0">Absent</value>
+	<value code="1">Present</value>
+	<value code="2">Unknown (could not rate)</value>
+</variable>
+
+<variable id="phv00071406.v1">
+	<name>Del_Also_Hal[I12840]</name>
+	<description>Delusions accompanied by hallucinations, followed by the raw repository SAS database field name in brackets for cross-reference to repository database [I12840]. Rating</description>
+	<type>integer</type>
+	<comment>Interviewer rating based on subject&#39;s response to probe question in DIGS and further discussion as needed, plus any relevant information obtained during the entire interview</comment>
+	<value code="0">Absent</value>
+	<value code="1">Present</value>
+	<value code="2">Unknown (could not rate)</value>
+</variable>
+
+<variable id="phv00071407.v1">
+	<name>AH_Threatening[I17705]</name>
+	<description>AH Threatening (when psychotic and without other comorbid features present), followed by the raw repository SAS database field name in brackets for cross-reference to repository database [I17705]. Rating</description>
+	<type>integer</type>
+	<comment>Interviewer rating based on all information obtained in interview</comment>
+	<value code="0">Absent</value>
+	<value code="1">Present</value>
+	<value code="2">Unknown (could not rate)</value>
+</variable>
+
+<variable id="phv00071408.v1">
+	<name>Mood_Incongruent_Hal[I17706]</name>
+	<description>Mood incongruent hallucinations as judged by the interviewer, followed by the raw repository SAS database field name in brackets for cross-reference to repository database [I17706]. Rating</description>
+	<type>integer</type>
+	<comment>Interviewer rating based on all information obtained in interview</comment>
+	<value code="0">Absent</value>
+	<value code="1">Present</value>
+	<value code="2">Unknown (could not rate)</value>
+</variable>
+
+<variable id="phv00071409.v1">
+	<name>Erotomanic_Delusions[I20970]</name>
+	<description>Erotomanic delusions (when psychotic and without other comorbid features present), followed by the raw repository SAS database field name in brackets for cross-reference to repository database [I20970]. Rating</description>
+	<type>integer</type>
+	<comment>Interviewer rating based on subject&#39;s response to probe question in DIGS and further discussion as needed, plus any relevant information obtained during the entire interview</comment>
+	<value code="0">Absent</value>
+	<value code="1">Present</value>
+	<value code="2">Unknown (could not rate)</value>
+</variable>
+
+<variable id="phv00071410.v1">
+	<name>Odd_Behavior[I12920]</name>
+	<description>Odd behavior by the subject&#39;s own report or interviewer&#39;s observation (when psychotic and without other comorbid features present), followed by the raw repository SAS database field name in brackets for cross-reference to repository database [I12920]. Rating</description>
+	<type>integer</type>
+	<comment>Interviewer rating based on subject&#39;s response to probe question in DIGS and further discussion as needed, plus any relevant information obtained during the entire interview</comment>
+	<value code="0">Absent</value>
+	<value code="1">Present</value>
+	<value code="2">Unknown (could not rate)</value>
+</variable>
+
+<variable id="phv00071411.v1">
+	<name>Disorganized_Speech[I12990]</name>
+	<description>Disorganized speech characteristic of formal thought disorder, by the subject&#39;s own report or interviewer&#39;s observation (when psychotic and without other comorbid features present), followed by the raw repository SAS database field name in brackets for cross-reference to repository database [I12990]. Rating</description>
+	<type>integer</type>
+	<comment>Interviewer rating based on subject&#39;s response to probe question in DIGS and further discussion as needed, plus any relevant information obtained during the entire interview</comment>
+	<value code="0">Absent</value>
+	<value code="1">Present</value>
+	<value code="2">Unknown (could not rate)</value>
+</variable>
+
+<variable id="phv00071412.v1">
+	<name>Odd_Speech[I13060]</name>
+	<description>Odd speech (digressive, vague, but could include looseness of associations), by the subject&#39;s own report or interviewer&#39;s observation  (when psychotic and without other comorbid features present), followed by the raw repository SAS database field name in brackets for cross-reference to repository database [I13060]. Rating</description>
+	<type>integer</type>
+	<comment>Interviewer rating based on subject&#39;s response to probe question in DIGS and further discussion as needed, plus any relevant information obtained during the entire interview</comment>
+	<value code="0">Absent</value>
+	<value code="1">Present</value>
+	<value code="2">Unknown (could not rate)</value>
+</variable>
+
+<variable id="phv00071413.v1">
+	<name>Avolition_Apathy[I13240]</name>
+	<description>Avolition or apathy, by the subject&#39;s own report or interviewer&#39;s observation (when psychotic and without other comorbid features present), followed by the raw repository SAS database field name in brackets for cross-reference to repository database [I13240]. Rating</description>
+	<type>integer</type>
+	<comment>Interviewer rating based on subject&#39;s response to probe question in DIGS and further discussion as needed, plus any relevant information obtained during the entire interview</comment>
+	<value code="0">Absent</value>
+	<value code="1">Present</value>
+	<value code="2">Unknown (could not rate)</value>
+</variable>
+
+<variable id="phv00071414.v1">
+	<name>No_Emotions[I13310]</name>
+	<description>No emotions/flat affect, by the subject&#39;s own report or interviewer&#39;s observation  (when psychotic and without other comorbid features present), followed by the raw repository SAS database field name in brackets for cross-reference to repository database [I13310]. Rating</description>
+	<type>integer</type>
+	<comment>Interviewer rating based on subject&#39;s response to probe question in DIGS and further discussion as needed, plus any relevant information obtained during the entire interview</comment>
+	<value code="0">Absent</value>
+	<value code="1">Present</value>
+	<value code="2">Unknown (could not rate)</value>
+</variable>
+
+<variable id="phv00071415.v1">
+	<name>Onset_Del_Hal_Other[I13570]</name>
+	<description>Age at onset of delusions, hallucinations or other criteria for schizophrenia, by subject&#39;s report or interviewer&#39;s judgment , followed by the raw repository SAS database field name in brackets for cross-reference to repository database [I13570]</description>
+	<type>integer</type>
+	<unit>Years old</unit>
+	<comment>Interviewer rating based on subject&#39;s response to probe question in DIGS and further discussion as needed, plus any relevant information obtained during the entire interview</comment>
+	<value code="u">Unknown (could not rate)</value>
+</variable>
+
+<variable id="phv00071416.v1">
+	<name>Psych_SX_Duration_Days[I13580]</name>
+	<description>Duration of psychotic symptoms according to subject, in days if less than one week, otherwise coded as weeks in next item and this item is blank, followed by the raw repository SAS database field name in brackets for cross-reference to repository database [I13580]</description>
+	<type>integer</type>
+	<unit>Days</unit>
+	<comment>Interviewer rating based on subject&#39;s response to probe question in DIGS and further discussion as needed, plus any relevant information obtained during the entire interview</comment>
+	<value code="u">Unknown (could not rate)</value>
+</variable>
+
+<variable id="phv00071417.v1">
+	<name>Psych_SX_Duration_Weeks[I13590]</name>
+	<description>Duration of psychotic symptoms according to subject, in weeks if at least one week, otherwise coded as days in previous item and this item is blank, followed by the raw repository SAS database field name in brackets for cross-reference to repository database [I13580]</description>
+	<type>integer</type>
+	<unit>Weeks</unit>
+	<comment>Interviewer rating based on subject&#39;s response to probe question in DIGS and further discussion as needed, plus any relevant information obtained during the entire interview</comment>
+	<value code="999">999 weeks or more</value>
+	<value code="u">Unknown (could not rate)</value>
+</variable>
+
+<variable id="phv00071418.v1">
+	<name>Return_Normal_for_2Months[I13600]</name>
+	<description>Subject&#39;s report of whether he/she ever returned to &quot;normal&quot; for two or more months at a time, followed by the raw repository SAS database field name in brackets for cross-reference to repository database [I13600]. Rating</description>
+	<type>integer</type>
+	<comment>Interviewer rating based on subject&#39;s response to probe question in DIGS and further discussion as needed, plus any relevant information obtained during the entire interview</comment>
+	<value code="0">Absent</value>
+	<value code="1">Present</value>
+	<value code="2">Unknown (could not rate)</value>
+</variable>
+
+<variable id="phv00071419.v1">
+	<name>Unable_To_Function[I13720]</name>
+	<description>Subject&#39;s report of having decrease in psychosocial function in most recent episode , followed by the raw repository SAS database field name in brackets for cross-reference to repository database [I13720]. Rating</description>
+	<type>integer</type>
+	<comment>Interviewer rating based on subject&#39;s response to probe question in DIGS and further discussion as needed, plus any relevant information obtained during the entire interview</comment>
+	<value code="0">Absent</value>
+	<value code="1">Present</value>
+	<value code="2">Unknown (could not rate)</value>
+</variable>
+
+<variable id="phv00071420.v1">
+	<name>Polydypsia[I14340]</name>
+	<description>Polydypsia, by subject&#39;s report, followed by the raw repository SAS database field name in brackets for cross-reference to repository database [I14340]. Rating</description>
+	<type>integer</type>
+	<comment>Interviewer rating based on subject&#39;s response to probe question in DIGS and further discussion as needed, plus any relevant information obtained during the entire interview</comment>
+	<value code="0">Absent</value>
+	<value code="1">Present</value>
+	<value code="2">Unknown (could not rate)</value>
+</variable>
+
+<variable id="phv00071421.v1">
+	<name>Pattern_Sx[I14350]</name>
+	<description>Pattern of positive and negative symptoms of schizophrenia , followed by the raw repository SAS database field name in brackets for cross-reference to repository database [I14350] (see DIGS booklet for extended descriptions of levels). Rating</description>
+	<type>integer</type>
+	<comment>Interviewer rating based on all information obtained in interview</comment>
+	<value code="1">Continuously positive</value>
+	<value code="2">Predominantly negative</value>
+	<value code="3">Predominantly positive converting to predominantly negative</value>
+	<value code="4">Negative converting to positive</value>
+	<value code="5">Continuous mixture of positive and negative symptoms</value>
+	<value code="6">Unknown (could not rate)</value>
+</variable>
+
+<variable id="phv00071422.v1">
+	<name>Severity_Pattern[I14360]</name>
+	<description>Severity/deterioration over the course of illness, followed by the raw repository SAS database field name in brackets for cross-reference to repository database [I14360] (see DIGS booklet for extended descriptions of levels). Rating</description>
+	<type>integer</type>
+	<comment>Interviewer rating based on all information obtained in interview</comment>
+	<value code="1">Episodic shift</value>
+	<value code="2">Mild deterioration</value>
+	<value code="3">Moderate deterioration</value>
+	<value code="4">Severe deterioration</value>
+	<value code="5">Relatively stable</value>
+	<value code="6">Unknown (could not rate)</value>
+</variable>
+
+<variable id="phv00071423.v1">
+	<name>Disorg/Inapp_Behav[I21050]</name>
+	<description>Disorganized or inappropriate behavior, by subject&#39;s report or by interviewer&#39;s observation  (when psychotic and without other comorbid features present), followed by the raw repository SAS database field name in brackets for cross-reference to repository database [I21050]. Rating</description>
+	<type>integer</type>
+	<comment>Interviewer rates each DSM-IV criterion for schizophrenia as present or absent based on information from the interview only</comment>
+	<value code="0">Absent</value>
+	<value code="1">Present</value>
+	<value code="2">Unknown (could not rate)</value>
+</variable>
+
+<variable id="phv00071424.v1">
+	<name>Alogia[I21400]</name>
+	<description>Alogia, by subject&#39;s report or by interviewer&#39;s observation (when psychotic and without other comorbid features present), followed by the raw repository SAS database field name in brackets for cross-reference to repository database [I21400]. Rating</description>
+	<type>integer</type>
+	<comment>Interviewer rates each DSM-IV criterion for schizophrenia as present or absent based on information from the interview only</comment>
+	<value code="0">Absent</value>
+	<value code="1">Present</value>
+	<value code="2">Unknown (could not rate)</value>
+</variable>
+
+<variable id="phv00071425.v1">
+	<name>Unable_To_Function_Most_Time_Since_Onset[I21500]</name>
+	<description>Unable to function most time since onset, by subject&#39;s report or by interviewer&#39;s observation (when psychotic and without other comorbid features present), followed by the raw repository SAS database field name in brackets for cross-reference to repository database [I21500]. Rating</description>
+	<type>integer</type>
+	<comment>Interviewer rates each DSM-IV criterion for schizophrenia as present or absent based on information from the interview only</comment>
+	<value code="0">Absent</value>
+	<value code="1">Present</value>
+	<value code="2">Unknown (could not rate)</value>
+</variable>
+
+<variable id="phv00071426.v1">
+	<name>Classification_Longitud_SZ[I21560]</name>
+	<description>Severity pattern in terms of relapsing/remitting course, followed by the raw repository SAS database field name in brackets for cross-reference to repository database [I14360] (see DIGS booklet for extended descriptions of levels). Rating</description>
+	<type>integer</type>
+	<comment>Interviewer rating based on all information obtained in interview</comment>
+	<value code="1">Episodic with interepisode residual symptoms</value>
+	<value code="2">Episodic with no interepisode residual symptoms</value>
+	<value code="3">Continuous</value>
+	<value code="4">Single episode in partial remission</value>
+	<value code="5">Single episode in full remission</value>
+	<value code="6">Other or unspecified pattern</value>
+	<value code="7">Unknown (could not rate)</value>
+</variable>
+
+<variable id="phv00071427.v1">
+	<name>DSM4_Delusions[A60a]</name>
+	<description>Interviewer rating of presence/absence of DSM4 criterion A item for  criterion A item for  Delusions, followed by the raw repository SAS database field name in brackets for cross-reference to repository database [A60a]. Rating</description>
+	<type>integer</type>
+	<comment>Interviewer rates each DSM-IV criterion for schizophrenia as present or absent based on information from the interview only</comment>
+	<value code="0">Absent (or insufficient evidence to rate as present)</value>
+	<value code="1">Present</value>
+</variable>
+
+<variable id="phv00071428.v1">
+	<name>DSM4_Definite_Bizarre_Del[A60b]</name>
+	<description>Interviewer rating of presence/absence of DSM4 criterion A item for  Definite Bizarre Del, followed by the raw repository SAS database field name in brackets for cross-reference to repository database [A60b]. Rating</description>
+	<type>integer</type>
+	<comment>Interviewer rates each DSM-IV criterion for schizophrenia as present or absent based on information from the interview only</comment>
+	<value code="0">Absent (or insufficient evidence to rate as present)</value>
+	<value code="1">Present</value>
+</variable>
+
+<variable id="phv00071429.v1">
+	<name>DSM4_Hallucinations[A60c]</name>
+	<description>Interviewer rating of presence/absence of DSM4 criterion A item for  Hallucinations, followed by the raw repository SAS database field name in brackets for cross-reference to repository database [A60c]. Rating</description>
+	<type>integer</type>
+	<comment>Interviewer rates each DSM-IV criterion for schizophrenia as present or absent based on information from the interview only</comment>
+	<value code="0">Absent (or insufficient evidence to rate as present)</value>
+	<value code="1">Present</value>
+</variable>
+
+<variable id="phv00071430.v1">
+	<name>DSM4_2+Voices_Commented[A60d]</name>
+	<description>Interviewer rating of presence/absence of DSM4 criterion A item for  2+Voices Commented, followed by the raw repository SAS database field name in brackets for cross-reference to repository database [A60d]. Rating</description>
+	<type>integer</type>
+	<comment>Interviewer rates each DSM-IV criterion for schizophrenia as present or absent based on information from the interview only</comment>
+	<value code="0">Absent (or insufficient evidence to rate as present)</value>
+	<value code="1">Present</value>
+</variable>
+
+<variable id="phv00071431.v1">
+	<name>DSM4_Disorganized_Speech[A60e]</name>
+	<description>Interviewer rating of presence/absence of DSM4 criterion A item for  Disorganized Speech, followed by the raw repository SAS database field name in brackets for cross-reference to repository database [A60e]. Rating</description>
+	<type>integer</type>
+	<comment>Interviewer rates each DSM-IV criterion for schizophrenia as present or absent based on information from the interview only</comment>
+	<value code="0">Absent (or insufficient evidence to rate as present)</value>
+	<value code="1">Present</value>
+</variable>
+
+<variable id="phv00071432.v1">
+	<name>DSM4_Gross_Disorganization[A60f]</name>
+	<description>Interviewer rating of presence/absence of DSM4 criterion A item for  Gross Disorganization, followed by the raw repository SAS database field name in brackets for cross-reference to repository database [A60f]. Rating</description>
+	<type>integer</type>
+	<comment>Interviewer rates each DSM-IV criterion for schizophrenia as present or absent based on information from the interview only</comment>
+	<value code="0">Absent (or insufficient evidence to rate as present)</value>
+	<value code="1">Present</value>
+</variable>
+
+<variable id="phv00071433.v1">
+	<name>DSM4_Negative_Sx[A60g]</name>
+	<description>Interviewer rating of presence/absence of DSM4 criterion A item for  Negative Symptoms, followed by the raw repository SAS database field name in brackets for cross-reference to repository database [A60g]. Rating</description>
+	<type>integer</type>
+	<comment>Interviewer rates each DSM-IV criterion for schizophrenia as present or absent based on information from the interview only</comment>
+	<value code="0">Absent (or insufficient evidence to rate as present)</value>
+	<value code="1">Present</value>
+</variable>
+
+<variable id="phv00071434.v1">
+	<name>Total_DSM4_Sx[A60h]</name>
+	<description>Total DSM4 Symptoms (when psychotic and without other comorbid features present), followed by the raw repository SAS database field name in brackets for cross-reference to repository database [A60h]. Count</description>
+	<type>integer</type>
+	<comment>Total count of the above 7 interviewer ratings of DMS4 criteria for schizophrenia</comment>
+	<value code="0">Sum of DSM4_Sx equals 0</value>
+	<value code="1">Sum of DSM4_Sx equals 1</value>
+	<value code="2">Sum of DSM4_Sx equals 2</value>
+	<value code="3">Sum of DSM4_Sx equals 3</value>
+	<value code="4">Sum of DSM4_Sx equals 4</value>
+	<value code="5">Sum of DSM4_Sx equals 5</value>
+	<value code="6">Sum of DSM4_Sx equals 6</value>
+	<value code="7">Sum of DSM4_Sx equals 7</value>
+</variable>
+
+<variable id="phv00071435.v1">
+	<name>Psychosis_without_Dep_Mania[A620]</name>
+	<description>Psychosis ever present without depression or mania according to subject, followed by the raw repository SAS database field name in brackets for cross-reference to repository database [A620]. Rating</description>
+	<type>integer</type>
+	<comment>Interviewer rates each DSM-IV criterion for schizophrenia as present or absent based on information from the interview only</comment>
+	<value code="0">Absent</value>
+	<value code="1">Present</value>
+	<value code="2">Unknown (could not rate)</value>
+</variable>
+
+<variable id="phv00071436.v1">
+	<name>Psychosis_without_Dep_Mania_&gt;=1week[A62a]</name>
+	<description>Psychosis ever present without depression or mania for one week or more, according to subject, followed by the raw repository SAS database field name in brackets for cross-reference to repository database [A620]. Rating</description>
+	<type>integer</type>
+	<comment>Interviewer rates each DSM-IV criterion for schizophrenia as present or absent based on information from the interview only</comment>
+	<value code="0">Absent</value>
+	<value code="1">Present</value>
+	<value code="2">Unknown (could not rate)</value>
+</variable>
+
+<variable id="phv00071437.v1">
+	<name>Country_of_birth[I50]</name>
+	<description>Subject&#39;s report of country of birth</description>
+</variable>
+
+<variable id="phv00071438.v1">
+	<name>Ethnicity_Maternal_1[I60]</name>
+	<description>Subject&#39;s text descriptor of mother&#39;s ethnicity, one of up to four descriptors recorded without estimating proportions, and raw SAS file code for this variable in brackets</description>
+	<type>string</type>
+	<comment>Interviewer asks &quot;What is the ethnic background of your biological parents?&quot; and records up to four ethnicities for each parent, first in the subject&#39;s words, and then selecting one of 16 codes to group the responses</comment>
+</variable>
+
+<variable id="phv00071439.v1">
+	<name>Ethnicity_Maternal_2[I70]</name>
+	<description>Subject&#39;s text descriptor of mother&#39;s ethnicity, one of up to four descriptors recorded without estimating proportions, and raw SAS file code for this variable in brackets</description>
+	<type>string</type>
+	<comment>Interviewer asks &quot;What is the ethnic background of your biological parents?&quot; and records up to four ethnicities for each parent, first in the subject&#39;s words, and then selecting one of 16 codes to group the responses</comment>
+</variable>
+
+<variable id="phv00071440.v1">
+	<name>Ethnicity_Maternal_3[I80]</name>
+	<description>Subject&#39;s text descriptor of mother&#39;s ethnicity, one of up to four descriptors recorded without estimating proportions, and raw SAS file code for this variable in brackets</description>
+	<type>string</type>
+	<comment>Interviewer asks &quot;What is the ethnic background of your biological parents?&quot; and records up to four ethnicities for each parent, first in the subject&#39;s words, and then selecting one of 16 codes to group the responses</comment>
+</variable>
+
+<variable id="phv00071441.v1">
+	<name>Ethnicity_Maternal_4[I90]</name>
+	<description>Subject&#39;s text descriptor of mother&#39;s ethnicity, one of up to four descriptors recorded without estimating proportions, and raw SAS file code for this variable in brackets</description>
+	<type>string</type>
+	<comment>Interviewer asks &quot;What is the ethnic background of your biological parents?&quot; and records up to four ethnicities for each parent, first in the subject&#39;s words, and then selecting one of 16 codes to group the responses</comment>
+</variable>
+
+<variable id="phv00071442.v1">
+	<name>Ethnicity_Paternal_1[I100]</name>
+	<description>Subject&#39;s text descriptor of father&#39;s ethnicity, one of up to four descriptors recorded without estimating proportions, and raw SAS file code for this variable in brackets</description>
+	<type>string</type>
+	<comment>Interviewer asks &quot;What is the ethnic background of your biological parents?&quot; and records up to four ethnicities for each parent, first in the subject&#39;s words, and then selecting one of 16 codes to group the responses</comment>
+</variable>
+
+<variable id="phv00071443.v1">
+	<name>Ethnicity_Paternal_2[I110]</name>
+	<description>Subject&#39;s text descriptor of father&#39;s ethnicity, one of up to four descriptors recorded without estimating proportions, and raw SAS file code for this variable in brackets</description>
+	<type>string</type>
+	<comment>Interviewer asks &quot;What is the ethnic background of your biological parents?&quot; and records up to four ethnicities for each parent, first in the subject&#39;s words, and then selecting one of 16 codes to group the responses</comment>
+</variable>
+
+<variable id="phv00071444.v1">
+	<name>Ethnicity_Paternal_3[I120]</name>
+	<description>Subject&#39;s text descriptor of father&#39;s ethnicity, one of up to four descriptors recorded without estimating proportions, and raw SAS file code for this variable in brackets</description>
+	<type>string</type>
+	<comment>Interviewer asks &quot;What is the ethnic background of your biological parents?&quot; and records up to four ethnicities for each parent, first in the subject&#39;s words, and then selecting one of 16 codes to group the responses</comment>
+</variable>
+
+<variable id="phv00071445.v1">
+	<name>Ethnicity_Paternal_4[I130]</name>
+	<description>Subject&#39;s text descriptor of father&#39;s ethnicity, one of up to four descriptors recorded without estimating proportions, and raw SAS file code for this variable in brackets</description>
+	<type>string</type>
+	<comment>Interviewer asks &quot;What is the ethnic background of your biological parents?&quot; and records up to four ethnicities for each parent, first in the subject&#39;s words, and then selecting one of 16 codes to group the responses</comment>
+</variable>
+
+<variable id="phv00071446.v1">
+	<name>Ethnicity_Maternal_1_Code[I140]</name>
+	<description>DIGS code for the subject&#39;s text descriptor of mother&#39;s ethnicity, one of up to four descriptors recorded without estimating proportions, and raw SAS file code for this variable in brackets</description>
+	<comment>Interviewer asks &quot;What is the ethnic background of your biological parents?&quot; and records up to four ethnicities for each parent, first in the subject&#39;s words, and then selecting one of 16 codes to group the responses</comment>
+	<value code="1">Anglo-Saxon</value>
+	<value code="2">Northern European (e.g., Norwegian)</value>
+	<value code="3">West European (e.g., French, German)</value>
+	<value code="4">East European/Slavic</value>
+	<value code="5">Russian</value>
+	<value code="6">Mediterranean</value>
+	<value code="7">Ashkenazi Jew</value>
+	<value code="8">Sephardic Jew</value>
+	<value code="9">Hispanic (not Puerto Rican)</value>
+	<value code="10">Puerto Rican Hispanic</value>
+	<value code="11">Mexican Hispanic</value>
+	<value code="12">Asian</value>
+	<value code="13">Arab</value>
+	<value code="14">Native American/Alaskan Native</value>
+	<value code="15">African American,  not of Hispanic Origin</value>
+	<value code="16">Other</value>
+	<value code="UU">Unknown</value>
+</variable>
+
+<variable id="phv00071447.v1">
+	<name>Ethnicity_Paternal_1_Code[I150]</name>
+	<description>DIGS code for the subject&#39;s text descriptor of father&#39;s ethnicity, one of up to four descriptors recorded without estimating proportions, and raw SAS file code for this variable in brackets</description>
+	<comment>Interviewer asks &quot;What is the ethnic background of your biological parents?&quot; and records up to four ethnicities for each parent, first in the subject&#39;s words, and then selecting one of 16 codes to group the responses</comment>
+	<value code="1">Anglo-Saxon</value>
+	<value code="2">Northern European (e.g., Norwegian)</value>
+	<value code="3">West European (e.g., French, German)</value>
+	<value code="4">East European/Slavic</value>
+	<value code="5">Russian</value>
+	<value code="6">Mediterranean</value>
+	<value code="7">Ashkenazi Jew</value>
+	<value code="8">Sephardic Jew</value>
+	<value code="9">Hispanic (not Puerto Rican)</value>
+	<value code="10">Puerto Rican Hispanic</value>
+	<value code="11">Mexican Hispanic</value>
+	<value code="12">Asian</value>
+	<value code="13">Arab</value>
+	<value code="14">Native American/Alaskan Native</value>
+	<value code="15">African American,  not of Hispanic Origin</value>
+	<value code="16">Other</value>
+	<value code="UU">Unknown</value>
+</variable>
+
+<variable id="phv00071448.v1">
+	<name>Ethnicity_Maternal_2_Code[I160]</name>
+	<description>DIGS code for the subject&#39;s text descriptor of mother&#39;s ethnicity, one of up to four descriptors recorded without estimating proportions, and raw SAS file code for this variable in brackets</description>
+	<comment>Interviewer asks &quot;What is the ethnic background of your biological parents?&quot; and records up to four ethnicities for each parent, first in the subject&#39;s words, and then selecting one of 16 codes to group the responses</comment>
+	<value code="1">Anglo-Saxon</value>
+	<value code="2">Northern European (e.g., Norwegian)</value>
+	<value code="3">West European (e.g., French, German)</value>
+	<value code="4">East European/Slavic</value>
+	<value code="5">Russian</value>
+	<value code="6">Mediterranean</value>
+	<value code="7">Ashkenazi Jew</value>
+	<value code="8">Sephardic Jew</value>
+	<value code="9">Hispanic (not Puerto Rican)</value>
+	<value code="10">Puerto Rican Hispanic</value>
+	<value code="11">Mexican Hispanic</value>
+	<value code="12">Asian</value>
+	<value code="13">Arab</value>
+	<value code="14">Native American/Alaskan Native</value>
+	<value code="15">African American,  not of Hispanic Origin</value>
+	<value code="16">Other</value>
+	<value code="UU">Unknown</value>
+</variable>
+
+<variable id="phv00071449.v1">
+	<name>Ethnicity_Paternal_2_Code[I170]</name>
+	<description>DIGS code for the subject&#39;s text descriptor of father&#39;s ethnicity, one of up to four descriptors recorded without estimating proportions, and raw SAS file code for this variable in brackets</description>
+	<comment>Interviewer asks &quot;What is the ethnic background of your biological parents?&quot; and records up to four ethnicities for each parent, first in the subject&#39;s words, and then selecting one of 16 codes to group the responses</comment>
+	<value code="1">Anglo-Saxon</value>
+	<value code="2">Northern European (e.g., Norwegian)</value>
+	<value code="3">West European (e.g., French, German)</value>
+	<value code="4">East European/Slavic</value>
+	<value code="5">Russian</value>
+	<value code="6">Mediterranean</value>
+	<value code="7">Ashkenazi Jew</value>
+	<value code="8">Sephardic Jew</value>
+	<value code="9">Hispanic (not Puerto Rican)</value>
+	<value code="10">Puerto Rican Hispanic</value>
+	<value code="11">Mexican Hispanic</value>
+	<value code="12">Asian</value>
+	<value code="13">Arab</value>
+	<value code="14">Native American/Alaskan Native</value>
+	<value code="15">African American,  not of Hispanic Origin</value>
+	<value code="16">Other</value>
+	<value code="UU">Unknown</value>
+</variable>
+
+<variable id="phv00071450.v1">
+	<name>Ethnicity_Maternal_3_Code[I180]</name>
+	<description>DIGS code for the subject&#39;s text descriptor of mother&#39;s ethnicity, one of up to four descriptors recorded without estimating proportions, and raw SAS file code for this variable in brackets</description>
+	<comment>Interviewer asks &quot;What is the ethnic background of your biological parents?&quot; and records up to four ethnicities for each parent, first in the subject&#39;s words, and then selecting one of 16 codes to group the responses</comment>
+	<value code="1">Anglo-Saxon</value>
+	<value code="2">Northern European (e.g., Norwegian)</value>
+	<value code="3">West European (e.g., French, German)</value>
+	<value code="4">East European/Slavic</value>
+	<value code="5">Russian</value>
+	<value code="6">Mediterranean</value>
+	<value code="7">Ashkenazi Jew</value>
+	<value code="8">Sephardic Jew</value>
+	<value code="9">Hispanic (not Puerto Rican)</value>
+	<value code="10">Puerto Rican Hispanic</value>
+	<value code="11">Mexican Hispanic</value>
+	<value code="12">Asian</value>
+	<value code="13">Arab</value>
+	<value code="14">Native American/Alaskan Native</value>
+	<value code="15">African American,  not of Hispanic Origin</value>
+	<value code="16">Other</value>
+	<value code="UU">Unknown</value>
+	<value code="uu">Unknown</value>
+</variable>
+
+<variable id="phv00071451.v1">
+	<name>Ethnicity_Paternal_3_Code[I190]</name>
+	<description>DIGS code for the subject&#39;s text descriptor of father&#39;s ethnicity, one of up to four descriptors recorded without estimating proportions, and raw SAS file code for this variable in brackets</description>
+	<comment>Interviewer asks &quot;What is the ethnic background of your biological parents?&quot; and records up to four ethnicities for each parent, first in the subject&#39;s words, and then selecting one of 16 codes to group the responses</comment>
+	<value code="1">Anglo-Saxon</value>
+	<value code="2">Northern European (e.g., Norwegian)</value>
+	<value code="3">West European (e.g., French, German)</value>
+	<value code="4">East European/Slavic</value>
+	<value code="5">Russian</value>
+	<value code="6">Mediterranean</value>
+	<value code="7">Ashkenazi Jew</value>
+	<value code="8">Sephardic Jew</value>
+	<value code="9">Hispanic (not Puerto Rican)</value>
+	<value code="10">Puerto Rican Hispanic</value>
+	<value code="11">Mexican Hispanic</value>
+	<value code="12">Asian</value>
+	<value code="13">Arab</value>
+	<value code="14">Native American/Alaskan Native</value>
+	<value code="15">African American,  not of Hispanic Origin</value>
+	<value code="16">Other</value>
+	<value code="UU">Unknown</value>
+	<value code="uu">Unknown</value>
+</variable>
+
+<variable id="phv00071452.v1">
+	<name>Ethnicity_Maternal_4_Code[I200]</name>
+	<description>DIGS code for the subject&#39;s text descriptor of mother&#39;s ethnicity, one of up to four descriptors recorded without estimating proportions, and raw SAS file code for this variable in brackets</description>
+	<comment>Interviewer asks &quot;What is the ethnic background of your biological parents?&quot; and records up to four ethnicities for each parent, first in the subject&#39;s words, and then selecting one of 16 codes to group the responses</comment>
+	<value code="1">Anglo-Saxon</value>
+	<value code="2">Northern European (e.g., Norwegian)</value>
+	<value code="3">West European (e.g., French, German)</value>
+	<value code="4">East European/Slavic</value>
+	<value code="5">Russian</value>
+	<value code="6">Mediterranean</value>
+	<value code="7">Ashkenazi Jew</value>
+	<value code="8">Sephardic Jew</value>
+	<value code="9">Hispanic (not Puerto Rican)</value>
+	<value code="10">Puerto Rican Hispanic</value>
+	<value code="11">Mexican Hispanic</value>
+	<value code="12">Asian</value>
+	<value code="13">Arab</value>
+	<value code="14">Native American/Alaskan Native</value>
+	<value code="15">African American,  not of Hispanic Origin</value>
+	<value code="16">Other</value>
+	<value code="UU">Unknown</value>
+	<value code="uu">Unknown</value>
+</variable>
+
+<variable id="phv00071453.v1">
+	<name>Ethnicity_Paternal_4_Code[I210]</name>
+	<description>DIGS code for the subject&#39;s text descriptor of father&#39;s ethnicity, one of up to four descriptors recorded without estimating proportions, and raw SAS file code for this variable in brackets</description>
+	<comment>Interviewer asks &quot;What is the ethnic background of your biological parents?&quot; and records up to four ethnicities for each parent, first in the subject&#39;s words, and then selecting one of 16 codes to group the responses</comment>
+	<value code="1">Anglo-Saxon</value>
+	<value code="2">Northern European (e.g., Norwegian)</value>
+	<value code="3">West European (e.g., French, German)</value>
+	<value code="4">East European/Slavic</value>
+	<value code="5">Russian</value>
+	<value code="6">Mediterranean</value>
+	<value code="7">Ashkenazi Jew</value>
+	<value code="8">Sephardic Jew</value>
+	<value code="9">Hispanic (not Puerto Rican)</value>
+	<value code="10">Puerto Rican Hispanic</value>
+	<value code="11">Mexican Hispanic</value>
+	<value code="12">Asian</value>
+	<value code="13">Arab</value>
+	<value code="14">Native American/Alaskan Native</value>
+	<value code="15">African American,  not of Hispanic Origin</value>
+	<value code="16">Other</value>
+	<value code="UU">Unknown</value>
+	<value code="uu">Unknown</value>
+</variable>
+
+<variable id="phv00071454.v1">
+	<name>Ethnicity_other[I220]</name>
+	<description>Any additional descriptor for subject&#39;s ethnicity, and raw SAS file code for this variable in brackets</description>
+	<type>string</type>
+	<comment>Interviewer asks &quot;What is the ethnic background of your biological parents?&quot; and records up to four ethnicities for each parent, first in the subject&#39;s words, and then selecting one of 16 codes to group the responses</comment>
+</variable>
+
+</data_table>

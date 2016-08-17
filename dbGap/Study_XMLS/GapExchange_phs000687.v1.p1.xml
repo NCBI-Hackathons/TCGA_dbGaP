@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GaPExchange xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="./dbGaPEx2.1.5.xsd">
+
+<MetaVariables>
+	<Submitter/>
+	<Method/>
+</MetaVariables>
+<MetaLinks/>
+
+<Projects>
+	<Project/>
+</Projects>
+
+<Studies>
+
+<Study source="dbGaP" accession="phs000687.v1.p1" parentStudy="phs000687.v1.p1" createDate="2013-11-26" modDate="2013-11-26">
+
+<Configuration>
+	<Data_Provider><![CDATA[
+		<table border="1">
+		<tr><th>Title</th><th>Name</th><th>Institute</th></tr>
+		<tr><td>Co-Investigator</td><td>Steven McCarroll, PhD</td><td>The Broad Institute of MIT and Harvard, Cambridge, MA, USA</td></tr>
+		<tr><td>Co-Investigator</td><td>Shaun Purcell, PhD</td><td>Icahn School of Medicine at Mount Sinai, New York, NY, USA</td></tr>
+		<tr><td>Co-Investigator</td><td>Pamela Sklar, MD, PhD</td><td>Icahn School of Medicine at Mount Sinai, New York, NY, USA</td></tr>
+		<tr><td>Co-Investigator</td><td>Michael O&#39;Donovan, MD, PhD</td><td>Institute of Psychological Medicine and Clinical Neurosciences, Cardiff University, UK</td></tr>
+		<tr><td>Co-Investigator</td><td>Aarno Palotie, MD, PhD</td><td>Wellcome Trust Sanger Institute, Hinxton, UK</td></tr>
+		</table>
+	]]></Data_Provider>
+	<StudyNameEntrez>Bulgarian Schizophrenia Trio Sequencing Study</StudyNameEntrez>
+	<StudyNameReportPage>Bulgarian Trio Sequencing Study to Identify de Novo Mutations in Schizophrenia</StudyNameReportPage>
+	<StudyTypes>
+		<StudyType>Parent-Offspring Trios</StudyType>
+	</StudyTypes>
+	<Description><![CDATA[
+<p>The primary aim of this study is to whole exome sequence complete Bulgarian trios to identify de novo mutations in schizophrenic probands. We are investigating the rate of de novo mutations in probands as well as looking for enrichment among previously implicated genes and synaptic gene sets.</p>]]>
+	</Description>
+	<StudyInEx><![CDATA[
+<p>Probands of this study (N=623), were included as schizophrenic cases with the criteria of a positive history of hospitalization for schizophrenia or schizoaffective disorder from psychiatric hospitals in Bulgaria. Patients attended, and graduated with a passing grade, from mainstream schools, which excluded people with intellectual disability (mental retardation).</p> <p>Parents are also classified as schizophrenic cases if they meet the criteria of a positive history of hospitalization for schizophrenia or schizoaffective disorder from psychiatric hospitals in Bulgaria.</p>]]>
+	</StudyInEx>
+	<StudyProjects>
+		<Project/>
+	</StudyProjects>
+	<Publications>
+		<Publication>
+			<Pubmed pmid="23040492"/>
+		</Publication>
+		<Publication>
+			<Pubmed pmid="22083728"/>
+		</Publication>
+	</Publications>
+	<Diseases>
+		<Disease vocab_source="MESH" vocab_term="Schizophrenia"/>
+	</Diseases>
+	<Attributions>
+		<Header title="Co-Investigator">
+			<AttName>Steven McCarroll, PhD</AttName>
+			<Institution>The Broad Institute of MIT and Harvard, Cambridge, MA, USA</Institution>
+		</Header>
+		<Header title="Co-Investigator">
+			<AttName>Shaun Purcell, PhD</AttName>
+			<Institution>Icahn School of Medicine at Mount Sinai, New York, NY, USA</Institution>
+		</Header>
+		<Header title="Co-Investigator">
+			<AttName>Pamela Sklar, MD, PhD</AttName>
+			<Institution>Icahn School of Medicine at Mount Sinai, New York, NY, USA</Institution>
+		</Header>
+		<Header title="Co-Investigator">
+			<AttName>Michael O&#39;Donovan, MD, PhD</AttName>
+			<Institution>Institute of Psychological Medicine and Clinical Neurosciences, Cardiff University, UK</Institution>
+		</Header>
+		<Header title="Co-Investigator">
+			<AttName>Aarno Palotie, MD, PhD</AttName>
+			<Institution>Wellcome Trust Sanger Institute, Hinxton, UK</Institution>
+		</Header>
+		<Header title="Co-Investigator">
+			<AttName>Michael Owen, MD, PhD</AttName>
+			<Institution>Institute of Psychological Medicine and Clinical Neurosciences, Cardiff University, UK</Institution>
+		</Header>
+		<Header title="Co-Investigator">
+			<AttName>Vihra Milanova, MD, PhD</AttName>
+			<Institution>Department of Psychiatry, Medical University, Sofia, Bulgaria</Institution>
+		</Header>
+		<Header title="Medical Research Council (MRC) Centre">
+			<AttName>G0800509</AttName>
+			<Institution>Cardiff University, UK</Institution>
+		</Header>
+		<Header title="Program Gifts">
+			<AttName>G0801418</AttName>
+			<Institution>Cardiff University, UK</Institution>
+		</Header>
+		<Header title="European Community&#39;s Seventh Framework Programme">
+			<AttName>HEALTH-F2-2010-241909</AttName>
+			<Institution>Cardiff University, UK</Institution>
+		</Header>
+		<Header title="National Institutes of Health">
+			<AttName>R01HG005827</AttName>
+			<Institution>Icahn School of Medicine at Mount Sinai, USA</Institution>
+		</Header>
+		<Header title="National Institutes of Health">
+			<AttName>R01MH071681</AttName>
+			<Institution>Icahn School of Medicine at Mount Sinai, USA</Institution>
+		</Header>
+		<Header title="The Wellcome Trust">
+			<AttName>WT089062</AttName>
+			<Institution>Wellcome Trust Sanger Institute, UK</Institution>
+		</Header>
+		<Header title="The Wellcome Trust">
+			<AttName>WT098051</AttName>
+			<Institution>Wellcome Trust Sanger Institute, UK</Institution>
+		</Header>
+	</Attributions>
+	<DisplayPublicSummary>yes</DisplayPublicSummary>
+	<StudyHistory><![CDATA[
+<p>The Bulgarian Trio Sequencing study is an accumulation of exome sequencing performed and/or funded by the Medical Research Council (UK), Broad Institute, Cardiff University, Icahn School of Medicine at Mount Sinai, and the Wellcome Trust Sanger Institute.</p> <p>Exome DNA was captured from genomic DNA extracted from whole blood using either Agilent hybrid capture or Nimblegen array-based capture, and subjected to paired-end sequencing on Illumina HiSeq sequencers. The BWA/Picard/GATK pipeline was used for sequence alignment and variant calling.</p> <p>All samples were collected from the University Hospital Alexander in Sofia, Bulgaria.</p>]]>
+	</StudyHistory>
+	<ConsentGroups>
+		<ConsentGroup groupNum="1" shortName="GRU-NPU" longName="General Research Use (NPU)"/>
+	</ConsentGroups>
+</Configuration>
+
+
+
+</Study>
+
+</Studies>
+
+</GaPExchange>

@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./datadict_v2.xsl"?>
+<data_table id="pht000789.v1" study_id="phs000180.v1" participant_set="1" date_created="Fri May  8 14:10:43 2009">
+
+<variable id="phv00073461.v1">
+	<name>SUBJID</name>
+	<description>Subject identifier</description>
+	<type>string</type>
+	<comment>T1DGC Analytic ID - an 8-digit identifer - or UNKNOWN-CASE-n. 
+		Unknown cases are where we are sure that the sample is not as intended (by concordance with previous genotype data) but the sample will have come from the same case panel DNA boxes.  These 5 subjects will have most other phenotype data missing. </comment>
+</variable>
+
+<variable id="phv00073462.v1">
+	<name>case_control</name>
+	<description>Type 1 diabetes (T1D) status</description>
+	<type>encoded value</type>
+	<comment>This distribution is for the case part of the T1DGC Illumina GWAS 2008 experiment. 
+		Control data submitted to http://www.ebi.ac.uk/ega/. </comment>
+	<value code="1">Not a case</value>
+	<value code="2">Case</value>
+</variable>
+
+<variable id="phv00073463.v1">
+	<name>sex</name>
+	<description>Sex</description>
+	<type>encoded value</type>
+	<comment>Sex is as verified by genotyping.</comment>
+	<value code="0">XXY</value>
+	<value code="1">Male</value>
+	<value code="2">Female</value>
+</variable>
+
+<variable id="phv00073464.v1">
+	<name>approx_year_of_birth</name>
+	<description>Approximate year of birth</description>
+	<type>integer, encoded value</type>
+	<unit>years</unit>
+	<logical_min>1923</logical_min>
+	<logical_max>2004</logical_max>
+	<comment>Year of birth is estimated from age at bleed, so is accurate to within 2 years.</comment>
+	<value code="-1">Missing</value>
+</variable>
+
+<variable id="phv00073465.v1">
+	<name>b58cregion</name>
+	<description>Region of the UK</description>
+	<type>encoded value</type>
+	<comment>Region is broad place of recruitment, as defined by the 1958 Birth Cohort (our control group), and is not place of birth or current address. 
+		An additional pair of files - region-codes.tab and postcodes-regions-map.tab - relates regions to counties and postcodes (zipcodes). </comment>
+	<value code="-1">Missing</value>
+	<value code="1">Northern</value>
+	<value code="2">East &amp; West Ridings</value>
+	<value code="3">North Midlands</value>
+	<value code="4">Eastern</value>
+	<value code="5">Southeastern</value>
+	<value code="6">Southern</value>
+	<value code="7">Southwestern</value>
+	<value code="8">Wales</value>
+	<value code="9">Midlands</value>
+	<value code="10">Scotland</value>
+	<value code="11">London</value>
+	<value code="20">Northwestern</value>
+</variable>
+
+<variable id="phv00073466.v1">
+	<name>caucasian</name>
+	<description>Self-reported ethnicity</description>
+	<type>encoded value</type>
+	<comment>Due to very limited number of non-white-British subjects presenting with T1D, this was reduced to a simple caucasian yes/no variable, and used as an exclusion criterion. 
+		Further testing was done comparing Ancestry Informative Markers (AIMs) in the GWAS data againt CEPH subjects, and some exclusions are recorded in the t1dgc_outcome variable. </comment>
+	<value code="NA">Missing</value>
+	<value code="yes">Self-reported white ethnicity</value>
+</variable>
+
+<variable id="phv00073467.v1">
+	<name>mody</name>
+	<description>Mature Onset Diabetes of the Young (MODY) status - a monogenic disorder</description>
+	<type>encoded value</type>
+	<comment>MODY is an exclusion criterion. 
+		There is no missing value. </comment>
+	<value code="no">Not MODY</value>
+</variable>
+
+<variable id="phv00073468.v1">
+	<name>niddk_cl</name>
+	<description>Cell-line sent to NIDDK repository?</description>
+	<type>encoded value</type>
+	<comment>The intention is to send all genomic DNA samples to the NIDDK sample repository - here we report cell line samples sent up to 2009-02-13.</comment>
+	<value code="NA">Missing</value>
+	<value code="sent">Cell-line sent</value>
+</variable>
+
+<variable id="phv00073469.v1">
+	<name>onset</name>
+	<description>Age at onset (and diagnosis) of T1D</description>
+	<type>decimal, integer, encoded value</type>
+	<unit>years</unit>
+	<logical_min>0.5</logical_min>
+	<logical_max>16</logical_max>
+	<comment>Recorded to 2 decimal places if age-at-onset &lt; 2, else as an integer. 
+		Age of onset &lt; 0.50 is an exclusion criterion (as may be confused with PNDM), as is age of onset &gt; 16 (as may be confused with T2D). </comment>
+	<value code="-1">Missing</value>
+</variable>
+
+<variable id="phv00073470.v1">
+	<name>sample_type</name>
+	<description>(Best) sample type</description>
+	<type>encoded value</type>
+	<comment>For this experiment we intended to use cell-lined samples only.</comment>
+	<value code="NA">Missing (but assumed yes)</value>
+	<value code="CL">Cell line</value>
+</variable>
+
+<variable id="phv00073471.v1">
+	<name>pndm</name>
+	<description>Persistent Neonatal Diabetes Mellitus (PNDM) status</description>
+	<type>encoded value</type>
+	<comment>Age of onset &lt; 0.50 is defined (by us) as PNDM, and is an exclusion criterion. 
+		There is no missing value. </comment>
+	<value code="no">Not PNDM</value>
+</variable>
+
+<variable id="phv00073472.v1">
+	<name>t1dgc_status</name>
+	<description>Outcome variable from this experiment</description>
+	<type>encoded value</type>
+	<comment>The values are rather terse strings.  Subjects with 1==included, or ==unintended should be left in an analysis, everyone else should be excluded.</comment>
+	<value code="contamination">Sample contaminated (a verdict from Illumina) - exclude</value>
+	<value code="excluded: AIMs">Excluded on the basis of calculated lack of similarity to CEPH subjects</value>
+	<value code="excluded: related">Excluded on the basis of (first degree?) relatedness to another member of the study, case or control</value>
+	<value code="excluded: AIMs/rel">Excluded for both AIMs and relatedness</value>
+	<value code="failed">Sample failed (a verdict from Illumina) - exclude</value>
+	<value code="unintended">Subject included by mistake - e.g. aliquoting error - but still useable</value>
+	<value code="included">Subject OK</value>
+</variable>
+
+<variable id="phv00073473.v1">
+	<name>t2d</name>
+	<description>Type 2 Diabetes (T2D) status</description>
+	<type>encoded value</type>
+	<comment>As age of onset increases it requires auto-antibody measures to confirm an autoimmune disorder.  Age of onset &gt; 16 is an exclusion criterion to avoid having to test for auto-antibodies. 
+		There is no missing value. </comment>
+	<value code="no">Not T2D</value>
+</variable>
+
+<variable id="phv00073474.v1">
+	<name>wtccc_status</name>
+	<description>Outcome variable from previous GWAS</description>
+	<type>encoded value</type>
+	<comment>There should have been no overlap between the subjects in this experiment and the Wellcome Trust Case Control Consortium. 
+		WTCCC data is available from http://www.ebi.ac.uk/ega/. </comment>
+	<value code="NA">Missing (i.e. had no part in earlier study)</value>
+	<value code="unintended">Included in earlier study by mistake</value>
+	<value code="included">Included in earlier study purposefully (i.e. mistake here)</value>
+</variable>
+
+</data_table>

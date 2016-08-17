@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./datadict_v2.xsl"?>
+<data_table id="pht000359.v1" study_id="phs000086.v1" participant_set="1" date_created="Thu Jan 29 15:39:04 2009">
+
+<variable id="phv00051637.v1">
+	<name>clinic</name>
+	<description>A1. Identifying information. De-identified EDIC clinic number</description>
+	<type>byte</type>
+</variable>
+
+<variable id="phv00051636.v1">
+	<name>form</name>
+	<description>EDIC form number</description>
+	<type>int</type>
+</variable>
+
+<variable id="phv00051646.v1">
+	<name>fsasdate</name>
+	<description>A4. Identifying information.  De-identified date form completed</description>
+	<type>int</type>
+</variable>
+
+<variable id="phv00051647.v1">
+	<name>mask_pat</name>
+	<description>A2. Identifying information.  De-identified patient ID</description>
+	<type>int</type>
+</variable>
+
+<variable id="phv00051638.v1">
+	<name>ndb1a</name>
+	<description>B1a. Information on transfer to inactive status. Judgment of Principal Investigator and Study Coordinator that participation in the study could not longer be considered informed or would be directly injurious to the patient&#39;s well-being</description>
+	<type>byte</type>
+	<value code="1">Judgment of Principal Investigator and Study Coordinator that participation in the study could not longer be considered informed or would be directly injurious to the patient&#39;s well-being</value>
+</variable>
+
+<variable id="phv00051639.v1">
+	<name>ndb1b</name>
+	<description>B1b. Information on transfer to inactive status. Catastrophic injury or illness leading to coma, dementia, blindness, or inability to participate in EDIC testing procedures</description>
+	<type>byte</type>
+	<value code="1">Catastrophic injury or illness leading to coma, dementia, blindness, or inability to participate in EDIC testing procedures</value>
+</variable>
+
+<variable id="phv00051640.v1">
+	<name>ndb1c</name>
+	<description>B1c. Information on transfer to inactive status. Inaccessibility to monitoring of outcomes (long term imprisonment)</description>
+	<type>byte</type>
+	<value code="1">Inaccessibility to monitoring of outcomes (long term imprisonment)</value>
+</variable>
+
+<variable id="phv00051641.v1">
+	<name>ndb1d</name>
+	<description>B1d. Information on transfer to inactive status. Patient has withdrawn consent for continued participation</description>
+	<type>byte</type>
+	<value code="1">Patient has withdrawn consent</value>
+</variable>
+
+<variable id="phv00051642.v1">
+	<name>ndb1e</name>
+	<description>B1e. Information on transfer to inactive status. Information on transfer to inactive status: other</description>
+	<type>byte</type>
+	<value code="1">Other</value>
+</variable>
+
+<variable id="phv00051643.v1">
+	<name>ndb3a</name>
+	<description>B3a. Information on transfer to inactive status. On what date would the proposed transfer to inactive status become effective? If uncertain, check here</description>
+	<type>byte</type>
+	<value code="1">Uncertain</value>
+</variable>
+
+<variable id="phv00051648.v1">
+	<name>ndb3dat</name>
+	<description>De-identified inactive status become effective</description>
+	<type>int</type>
+</variable>
+
+<variable id="phv00051644.v1">
+	<name>ndc1</name>
+	<description>C1. Plans for future contact. Attempt to contact patient</description>
+	<type>byte</type>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+	<value code="3">Uncertain</value>
+</variable>
+
+<variable id="phv00051645.v1">
+	<name>ndc2</name>
+	<description>C2. Plans for future contact. De-identified willing to return to clinic</description>
+	<type>byte</type>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+	<value code="20">Uncertain</value>
+	<value code="25">Yes</value>
+	<value code="28">No</value>
+	<value code="3">Uncertain</value>
+</variable>
+
+</data_table>

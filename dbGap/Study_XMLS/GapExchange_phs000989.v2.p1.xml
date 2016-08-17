@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GaPExchange xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="./dbGaPEx2.1.5.xsd">
+
+<MetaVariables>
+	<Submitter/>
+	<Method/>
+</MetaVariables>
+<MetaLinks/>
+
+<Projects>
+	<Project/>
+</Projects>
+
+<Studies>
+
+<Study source="dbGaP" accession="phs000989.v2.p1" parentStudy="phs000989.v2.p1" createDate="2016-03-22" modDate="2016-03-28">
+
+<Configuration>
+	<Data_Provider><![CDATA[
+		<table border="1">
+		<tr><th>Title</th><th>Name</th><th>Institute</th></tr>
+		<tr><td>Principal Investigator</td><td>Arnold Kriegstein, MD, PhD</td><td>Developmental and Stem Cell Biology Program, School of Medicine, University of California, San Francisco, CA, USA</td></tr>
+		<tr><td>Funding Source</td><td>IU01-MH105989-01</td><td>National Institutes of Health, Bethesda, MD, USA</td></tr>
+		</table>
+	]]></Data_Provider>
+	<StudyNameEntrez>Study of Human Developmental Neurogenesis</StudyNameEntrez>
+	<StudyNameReportPage>Molecular Identity of Human Outer Radial Glia Cells During Cortical Development</StudyNameReportPage>
+	<StudyTypes>
+		<StudyType>Cohort</StudyType>
+	</StudyTypes>
+	<Description><![CDATA[
+<p>We sought to characterize cellular heterogeneity in the human cerebral cortex at a molecular level during cortical neurogenesis. We captured single cells and generated sequencing libraries using the C1TM Single-Cell Auto Prep System (Fluidigm), the SMARTer Ultra Low RNA Kit (Clontech), and the Nextera XT DNA Sample Preparation Kit (Illumina). We performed unbiased clustering of the single cells and further examined transcriptional variation among cell groups interpreted as radial glia. Within this population, the major sources of variation related to cell cycle progression and the stem cell niche from which radial glia were captured. We found that outer subventricular zone radial glia (oRG cells) preferentially express genes related to extracellular matrix formation, migration, and stemness, including <i>TNC</i>, <i>PTPRZ1</i>, <i>FAM107A</i>, <i>HOPX</i>, and <i>LIFR</i> and related this transcriptional state to the position, morphology, and cell behaviors previously used to classify the cell type. Our results suggest that oRG cells maintain the subventricular niche through local production of growth factors, potentiation of growth factor signals by extracellular matrix proteins, and activation of self-renewal pathways, thereby contributing to the developmental and evolutionary expansion of the human neocortex.</p> <p>For study version 2, we have updated this data set to include additional primary cells that we infer to represent microglia, endothelial cells, and immature astrocytes, as well as additional cells from the developing neural retina, and from iPS-cell derived cerebral organoids. The genes distinguishing these cell populations may reveal biological processes supporting the diverse functions of these cell types as well as vulnerabilities of specific cell types in human genetic diseases and in viral infections.</p>]]>
+	</Description>
+	<StudyProjects>
+		<Project/>
+	</StudyProjects>
+	<Publications>
+		<Publication>
+			<Journal authors="Pollen AA, Nowakowski TJ, Chen J, Retallack H, Sandoval-Espinosa C, Nicholas CR, Shuga J, Liu SJ, Oldham MC, Diaz A, Lim DA, Leyrat AA, West JA, Kriegstein AR." title="Identity of Human Outer Radial Glia During Cortical Development" journal="Cell, 2016, in press"/>
+		</Publication>
+	</Publications>
+	<Diseases>
+		<Disease vocab_source="MESH" vocab_term="Stem cells, neural"/>
+		<Disease vocab_source="MESH" vocab_term="Cerebral Cortex"/>
+	</Diseases>
+	<Attributions>
+		<Header title="Principal Investigator">
+			<AttName>Arnold Kriegstein, MD, PhD</AttName>
+			<Institution>Developmental and Stem Cell Biology Program, School of Medicine, University of California, San Francisco, CA, USA</Institution>
+		</Header>
+		<Header title="Funding Source">
+			<AttName>IU01-MH105989-01</AttName>
+			<Institution>National Institutes of Health, Bethesda, MD, USA</Institution>
+		</Header>
+	</Attributions>
+	<DisplayPublicSummary>yes</DisplayPublicSummary>
+	<ConsentGroups>
+		<ConsentGroup groupNum="1" shortName="HMB-IRB" longName="Health/Medical/Biomedical (IRB)"/>
+	</ConsentGroups>
+</Configuration>
+
+  <AuthorizedAccess>
+    <DacInfo ssDacId="0">
+      <DacName>NIMH</DacName>
+      <DacFullName>NIMH</DacFullName>
+      <DacEmail>0</DacEmail>
+      <DacPhone></DacPhone>
+      <DacUrl></DacUrl>
+    </DacInfo>
+    <Policy Policy_ID="phs000989.v2.p1_policy" ref_ssDacId="0">
+      <DisplayResearchStatement>yes</DisplayResearchStatement>
+      <DisplayPublicSummary>yes</DisplayPublicSummary>
+      <EmbargoLength>0</EmbargoLength>
+      <YearsUntilRenewal>1</YearsUntilRenewal>
+      <WeeksCancelRequest>8</WeeksCancelRequest>
+      <PdfSupplementReqired>yes</PdfSupplementReqired>
+      <AcknowledgementText>
+        <para>
+          http://dbgap.ncbi.nlm.nih.gov/aa/wga.cgi?page=DUC&amp;view_pdf&amp;stacc=phs000989.v2.p1
+        </para>
+      </AcknowledgementText>
+      <DocumentSet>
+        <DataUseCertificate Label="Data Use Certificate" FilePath="https://dbgap.ncbi.nlm.nih.gov/aa/wga.cgi?page=DUC&amp;view_pdf&amp;stacc=phs000989.v2.p1" FileName=""/>
+      </DocumentSet>
+    </Policy>
+    <ConsentGroups>
+      <ParticipantSet groupNum-REF="1">
+        <ConsentName>Health/Medical/Biomedical (IRB)</ConsentName>
+        <ConsentAbbrev>HMB-IRB</ConsentAbbrev>
+        <UseLimitation>Use of this data is limited to health/medical/biomedical purposes, does not include the study of population origins or ancestry.
+Requestor must provide documentation of local IRB approval.</UseLimitation>
+        <IrbRequired>Yes</IrbRequired>
+      </ParticipantSet>
+    </ConsentGroups>
+  </AuthorizedAccess>
+
+
+</Study>
+
+</Studies>
+
+</GaPExchange>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./datadict_v2.xsl"?>
+<data_table id="pht001008.v1" study_id="phs000200.v2" participant_set="1" date_created="Sun Jul 11 18:40:01 2010">
+
+<variable id="phv00079304.v1">
+	<name>SHAREID</name>
+	<description>WHI SHARe ID</description>
+	<type>integer</type>
+</variable>
+
+<variable id="phv00079305.v1">
+	<name>F40VTYP</name>
+	<description>F40 Visit Type</description>
+	<type>encoded value</type>
+	<value code="2">Semi-Annual Visit</value>
+	<value code="3">Annual Visit</value>
+	<value code="4">Non-Routine Visit</value>
+</variable>
+
+<variable id="phv00079306.v1">
+	<name>F40VY</name>
+	<description>F40 Visit year</description>
+	<type>integer</type>
+	<logical_min>1</logical_min>
+	<logical_max>10</logical_max>
+	<comment>Visit year in which this form was collected.</comment>
+</variable>
+
+<variable id="phv00079307.v1">
+	<name>F40DAYS</name>
+	<description>F41 Days since randomization/enrollment</description>
+	<type>integer</type>
+	<unit>days</unit>
+	<logical_min>1364</logical_min>
+	<logical_max>3424</logical_max>
+</variable>
+
+<variable id="phv00079308.v1">
+	<name>FAMILYDVTEVR</name>
+	<description>F40 Family member ever have deep vein thrombosis (DVT)</description>
+	<type>encoded value</type>
+	<comment>Did your mother, father, full-blooded sisters, full-blooded brothers, daughters, or sons ever have deep vein thrombosis (DVT) or large blood clot in the veins of legs?</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+	<value code="9">Don&#39;t Know</value>
+</variable>
+
+<variable id="phv00079309.v1">
+	<name>FAMILYDVTNUM</name>
+	<description>F40 How many relatives had deep vein thrombosis (DVT)</description>
+	<type>encoded value</type>
+	<comment>How many of these relatives (mother, father, full-blooded sisters, full-blooded brothers, daughters, or sons) had deep vein thrombosis?
+		Sub-question of F40 V1 Q1 &#39;Family member ever have DVT&#39;. </comment>
+	<value code="1">1 relative</value>
+	<value code="2">2 relatives</value>
+	<value code="3">3 relatives</value>
+	<value code="4">4 or more relatives</value>
+</variable>
+
+<variable id="phv00079310.v1">
+	<name>FAMILYPEEVR</name>
+	<description>F40 Family member ever have a pulmonary embolus (PE)</description>
+	<type>encoded value</type>
+	<comment>Did your mother, father, full-blooded sisters, full-blooded brothers, daughters, or sons ever have a blood clot in the lung, usually called a pulmonary embolus or PE?</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+	<value code="9">Don&#39;t Know</value>
+</variable>
+
+<variable id="phv00079311.v1">
+	<name>FAMILYPENUM</name>
+	<description>F40 How many relatives had a blood clot in the lungs (PE)</description>
+	<type>encoded value</type>
+	<comment>How many of these relatives (mother, father, full-blooded sisters, full-blooded brothers, daughters, or sons) had a blood clot in the lungs?
+		Sub-question of F40 V1 Q2 &#39;Family member ever have a PE&#39;. </comment>
+	<value code="1">1 relative</value>
+	<value code="2">2 relatives</value>
+	<value code="3">3 relatives</value>
+	<value code="4">4 or more relatives</value>
+</variable>
+
+</data_table>

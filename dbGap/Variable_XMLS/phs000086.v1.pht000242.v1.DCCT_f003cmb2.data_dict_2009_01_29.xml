@@ -1,0 +1,3220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./datadict_v2.xsl"?>
+<data_table id="pht000242.v1" study_id="phs000086.v1" participant_set="1" date_created="Thu Jan 29 15:41:14 2009">
+
+<variable id="phv00028858.v1">
+	<name>form</name>
+	<description>DCCT form number</description>
+	<type>byte</type>
+	<unit>FORM NUMBER</unit>
+</variable>
+
+<variable id="phv00028857.v1">
+	<name>fsasdate</name>
+	<description>Form date as SAS date value</description>
+	<type>long</type>
+</variable>
+
+<variable id="phv00029278.v1">
+	<name>mask_pat</name>
+	<description>Patient ID number</description>
+	<type>int</type>
+</variable>
+
+<variable id="phv00029219.v1">
+	<name>ocabntoe</name>
+	<description>Feet: abnormal toenails (absent/present)</description>
+	<type>byte</type>
+	<value code="1">ABSENT</value>
+	<value code="2">PRESENT</value>
+</variable>
+
+<variable id="phv00029206.v1">
+	<name>ocadoles</name>
+	<description>Patient is less than 18 years old</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+	<value code="7">UNKNOWN/ERROR VALUE</value>
+</variable>
+
+<variable id="phv00028935.v1">
+	<name>ocblpdat</name>
+	<description>Date of second sitting blood pressure</description>
+	<type>str6</type>
+</variable>
+
+<variable id="phv00028941.v1">
+	<name>occoldat</name>
+	<description>Date Profileset has been collected</description>
+	<type>str6</type>
+</variable>
+
+<variable id="phv00028992.v1">
+	<name>occyear</name>
+	<description>Patient&#39;s number of years in college</description>
+	<type>byte</type>
+</variable>
+
+<variable id="phv00028987.v1">
+	<name>ocdaded</name>
+	<description>Father&#39;s education level</description>
+	<type>byte</type>
+	<value code="1">GRADUATE SCHOOL</value>
+	<value code="2">COLLEGE GRADUATE</value>
+	<value code="3">SOME COLLEGE OR TRADE SCHOOL</value>
+	<value code="4">SECONDARY SCHOOL GRADUATE</value>
+	<value code="5">SOME SECONDARY SCHOOL</value>
+	<value code="6">ELEMENTARY SCHOOL</value>
+	<value code="7">NONE</value>
+	<value code="8">UNKNOWN</value>
+</variable>
+
+<variable id="phv00028972.v1">
+	<name>ocdadjob</name>
+	<description>Father&#39;s occupation</description>
+	<type>byte</type>
+	<value code="1">PROFESSIONAL, TECHNICAL, or SIMILAR WORKER</value>
+	<value code="10">HOMEMAKER</value>
+	<value code="11">STUDENT</value>
+	<value code="12">OTHER OR UNKNOWN</value>
+	<value code="2">MANAGER, OFFICIAL, OR PROPRIETOR</value>
+	<value code="3">CRAFTSMAN, FOREMAN, OR SIMILAR WORKER</value>
+	<value code="4">CLERICAL OR SIMILAR WORKER</value>
+	<value code="5">SALES WORKER</value>
+	<value code="6">OPERATIVE OR SIMILAR WORKER</value>
+	<value code="7">SERVICE WORKER</value>
+	<value code="8">LABORER</value>
+	<value code="9">FARMER</value>
+</variable>
+
+<variable id="phv00028977.v1">
+	<name>ocdadnoj</name>
+	<description>Father unemployed or retired</description>
+	<type>byte</type>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00028929.v1">
+	<name>ocdesiwt</name>
+	<description>Patient&#39;s desired weight</description>
+	<type>float</type>
+	<unit>KG</unit>
+</variable>
+
+<variable id="phv00028934.v1">
+	<name>ocdiasr</name>
+	<description>Diastolic - first sitting blood pressure</description>
+	<type>int</type>
+	<unit>MMHG</unit>
+</variable>
+
+<variable id="phv00028937.v1">
+	<name>ocdiasr2</name>
+	<description>Diastolic - second sitting blood pressure</description>
+	<type>byte</type>
+	<unit>MMHG</unit>
+</variable>
+
+<variable id="phv00028982.v1">
+	<name>ocdjobch</name>
+	<description>Father&#39;s job status changed</description>
+	<type>byte</type>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00029221.v1">
+	<name>ocdpedl</name>
+	<description>Feet: pulse dorsalis pedis - left</description>
+	<type>byte</type>
+	<value code="1">NORMAL</value>
+	<value code="2">DIMINISHED</value>
+	<value code="3">ABSENT</value>
+</variable>
+
+<variable id="phv00029220.v1">
+	<name>ocdpedr</name>
+	<description>Feet: pulse dorsalis pedis - right</description>
+	<type>byte</type>
+	<value code="1">NORMAL</value>
+	<value code="2">DIMINISHED</value>
+	<value code="3">ABSENT</value>
+</variable>
+
+<variable id="phv00029002.v1">
+	<name>ocdrink1</name>
+	<description>Patient consumed at least one alcoholic beverage per week during last 12 months</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+</variable>
+
+<variable id="phv00029003.v1">
+	<name>ocdrink2</name>
+	<description>Number of (12-oz) bottles of beer consumed in last 7 days</description>
+	<type>byte</type>
+	<unit>12-OZ BEER/WEEK</unit>
+</variable>
+
+<variable id="phv00029004.v1">
+	<name>ocdrink3</name>
+	<description>Number of (12-oz) bottles of &#39;light&#39; beer consumed in last 7 days</description>
+	<type>byte</type>
+	<unit>12-OZ LIGHT-BEER/WEEK</unit>
+</variable>
+
+<variable id="phv00029005.v1">
+	<name>ocdrink4</name>
+	<description>Number of (4-oz) glasses of wine consumed in last 7 days</description>
+	<type>byte</type>
+	<unit>4-OZ WINE/WEEK</unit>
+</variable>
+
+<variable id="phv00029006.v1">
+	<name>ocdrink5</name>
+	<description>Number of shot glasses of hard liquor (1.5-oz) consumed in last 7 days</description>
+	<type>byte</type>
+	<unit>1.5-OZ LIQUOR/WEEK</unit>
+</variable>
+
+<variable id="phv00029007.v1">
+	<name>ocdrink6</name>
+	<description>Total amount of alcohol consumed in last 7 days &gt; 560 grams</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+</variable>
+
+<variable id="phv00028960.v1">
+	<name>ocefdate</name>
+	<description>Experimental Group - Modifications since last visit: date new goals became effective</description>
+	<type>str6</type>
+</variable>
+
+<variable id="phv00029008.v1">
+	<name>ocexer1</name>
+	<description>Patient&#39;s level of activity</description>
+	<type>byte</type>
+	<value code="1">SEDENTARY</value>
+	<value code="2">MODERATE</value>
+	<value code="3">STRENUOUS</value>
+</variable>
+
+<variable id="phv00028862.v1">
+	<name>ocexer2</name>
+	<description>Exercise: hours and minutes of light activity</description>
+	<type>int</type>
+	<unit>HOURSMINUTES</unit>
+</variable>
+
+<variable id="phv00028863.v1">
+	<name>ocexer3</name>
+	<description>Exercise: hours and minutes of moderate activity</description>
+	<type>int</type>
+	<unit>HOURSMINUTES</unit>
+</variable>
+
+<variable id="phv00028864.v1">
+	<name>ocexer4</name>
+	<description>Exercise: hours and minutes of hard activity</description>
+	<type>int</type>
+	<unit>HOURSMINUTES</unit>
+</variable>
+
+<variable id="phv00028865.v1">
+	<name>ocexer5</name>
+	<description>Exercise: hours and minutes of very hard activity</description>
+	<type>int</type>
+	<unit>HOURSMINUTES</unit>
+</variable>
+
+<variable id="phv00028994.v1">
+	<name>ocexpell</name>
+	<description>Patient ceased attending school in past year</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+	<value code="4">ERROR/UNKNOWN</value>
+</variable>
+
+<variable id="phv00029009.v1">
+	<name>ocf1</name>
+	<description>Type of currently applied insulin therapy</description>
+	<type>byte</type>
+	<value code="1">INSULIN INFUSION PUMP</value>
+	<value code="2">MULTIPLE DAILY INJECTIONS</value>
+	<value code="3">STANDARD INSULIN TREATMENT</value>
+</variable>
+
+<variable id="phv00028866.v1">
+	<name>ocf2</name>
+	<description>Total number of clinic visits</description>
+	<type>byte</type>
+	<unit>CLINIC VISITS</unit>
+</variable>
+
+<variable id="phv00028983.v1">
+	<name>ocfjobch</name>
+	<description>Guardian&#39;s/friend&#39;s job status changed</description>
+	<type>byte</type>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00029218.v1">
+	<name>ocfootin</name>
+	<description>Feet: infection (absent/present)</description>
+	<type>byte</type>
+	<value code="1">ABSENT</value>
+	<value code="2">PRESENT</value>
+</variable>
+
+<variable id="phv00029217.v1">
+	<name>ocfootul</name>
+	<description>Feet: ulcer (absent/present)</description>
+	<type>byte</type>
+	<value code="1">ABSENT</value>
+	<value code="2">PRESENT</value>
+</variable>
+
+<variable id="phv00028988.v1">
+	<name>ocfried</name>
+	<description>Guardian&#39;s/friend&#39;s education level</description>
+	<type>byte</type>
+	<value code="1">GRADUATE SCHOOL</value>
+	<value code="2">COLLEGE GRADUATE</value>
+	<value code="3">SOME COLLEGE OR TRADE SCHOOL</value>
+	<value code="4">SECONDARY SCHOOL GRADUATE</value>
+	<value code="5">SOME SECONDARY SCHOOL</value>
+	<value code="6">ELEMENTARY SCHOOL</value>
+	<value code="7">NONE</value>
+	<value code="8">UNKNOWN</value>
+</variable>
+
+<variable id="phv00028973.v1">
+	<name>ocfrijob</name>
+	<description>Guardian&#39;s/friend&#39;s occupation</description>
+	<type>byte</type>
+	<value code="1">PROFESSIONAL, TECHNICAL, or SIMILAR WORKER</value>
+	<value code="10">HOMEMAKER</value>
+	<value code="11">STUDENT</value>
+	<value code="12">OTHER OR UNKNOWN</value>
+	<value code="2">MANAGER, OFFICIAL, OR PROPRIETOR</value>
+	<value code="3">CRAFTSMAN, FOREMAN, OR SIMILAR WORKER</value>
+	<value code="4">CLERICAL OR SIMILAR WORKER</value>
+	<value code="5">SALES WORKER</value>
+	<value code="6">OPERATIVE OR SIMILAR WORKER</value>
+	<value code="7">SERVICE WORKER</value>
+	<value code="8">LABORER</value>
+	<value code="9">FARMER</value>
+</variable>
+
+<variable id="phv00028978.v1">
+	<name>ocfrinoj</name>
+	<description>Guardian/friend unemployed or retired</description>
+	<type>byte</type>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00029205.v1">
+	<name>ocfrsz</name>
+	<description>Patient&#39;s body frame size</description>
+	<type>byte</type>
+	<value code="1">SMALL</value>
+	<value code="2">MEDIUM</value>
+	<value code="3">LARGE</value>
+</variable>
+
+<variable id="phv00029010.v1">
+	<name>ocg1</name>
+	<description>Infusion pump - previous day insulin units: preprandial (meals and snacks) boluses</description>
+	<type>byte</type>
+	<unit>I.U.</unit>
+</variable>
+
+<variable id="phv00029011.v1">
+	<name>ocg2</name>
+	<description>Infusion pump - previous day: number of preprandial boluses/24 hours</description>
+	<type>byte</type>
+	<unit>BOLUSES/24 HOURS</unit>
+</variable>
+
+<variable id="phv00029012.v1">
+	<name>ocg3</name>
+	<description>Infusion pump - previous day insulin units: total basal units/24 hours</description>
+	<type>int</type>
+	<unit>BASAL UNITS/24 HOURS</unit>
+</variable>
+
+<variable id="phv00029013.v1">
+	<name>ocg4</name>
+	<description>Infusion pump - previous day: number of basal rates/24 hours</description>
+	<type>byte</type>
+	<unit>BASAL RATES/24 HOURS</unit>
+</variable>
+
+<variable id="phv00029014.v1">
+	<name>ocg5a</name>
+	<description>Infusion pump - previous day: type of insulin-beef and pork</description>
+	<type>byte</type>
+	<unit>INSULIN: BEEF AND PORK</unit>
+</variable>
+
+<variable id="phv00029015.v1">
+	<name>ocg5b</name>
+	<description>Infusion pump - previous day: type of insulin - beef</description>
+	<type>byte</type>
+	<unit>INSULIN: BEEF</unit>
+</variable>
+
+<variable id="phv00029016.v1">
+	<name>ocg5c</name>
+	<description>Infusion pump - previous day: type of insulin - pork</description>
+	<type>byte</type>
+	<unit>INSULIN: PORK</unit>
+</variable>
+
+<variable id="phv00029017.v1">
+	<name>ocg5d</name>
+	<description>Infusion pump - previous day: type of insulin - human</description>
+	<type>byte</type>
+	<unit>INSULIN: HUMAN</unit>
+</variable>
+
+<variable id="phv00028867.v1">
+	<name>ocg61a</name>
+	<description>Infusion pump: preprandial - number of self blood glucose monitorings actually done</description>
+	<type>int</type>
+	<unit>GLUCOSE TESTS (SBGM)</unit>
+</variable>
+
+<variable id="phv00028868.v1">
+	<name>ocg61b</name>
+	<description>Infusion pump: preprandial - number of self blood glucose monitorings that should have been done</description>
+	<type>int</type>
+	<unit>GLUCOSE TESTS (SBGM)</unit>
+</variable>
+
+<variable id="phv00028869.v1">
+	<name>ocg61c</name>
+	<description>Infusion pump: preprandial - number of self blood glucose monitorings below 70mg/dl</description>
+	<type>int</type>
+	<unit>GLUCOSE TESTS (SBGM)</unit>
+</variable>
+
+<variable id="phv00028870.v1">
+	<name>ocg61d</name>
+	<description>Infusion pump: preprandial - number of self blood glucose monitorings above 120mg/dl</description>
+	<type>int</type>
+	<unit>GLUCOSE TESTS (SBGM)</unit>
+</variable>
+
+<variable id="phv00028871.v1">
+	<name>ocg62a</name>
+	<description>Infusion pump: postprandial - number of self blood glucose monitorings actually done</description>
+	<type>int</type>
+	<unit>GLUCOSE TESTS (SBGM)</unit>
+</variable>
+
+<variable id="phv00028872.v1">
+	<name>ocg62b</name>
+	<description>Infusion pump: postprandial - number of self blood glucose monitorings that should have been done</description>
+	<type>int</type>
+	<unit>GLUCOSE TESTS (SBGM)</unit>
+</variable>
+
+<variable id="phv00028873.v1">
+	<name>ocg62c</name>
+	<description>Infusion pump: postprandial - number of self blood glucose monitorings below 70mg/dl</description>
+	<type>byte</type>
+	<unit>GLUCOSE TESTS (SBGM)</unit>
+</variable>
+
+<variable id="phv00028874.v1">
+	<name>ocg62d</name>
+	<description>Infusion pump: postprandial - number of self blood glucose monitorings above 180mg/dl</description>
+	<type>int</type>
+	<unit>GLUCOSE TESTS (SBGM)</unit>
+</variable>
+
+<variable id="phv00028875.v1">
+	<name>ocg63a</name>
+	<description>Infusion pump: bedtime - number of self blood glucose monitorings actually done</description>
+	<type>int</type>
+	<unit>GLUCOSE TESTS (SBGM)</unit>
+</variable>
+
+<variable id="phv00028876.v1">
+	<name>ocg63b</name>
+	<description>Infusion pump: bedtime - number of self blood glucose monitorings that should have been done</description>
+	<type>int</type>
+	<unit>GLUCOSE TESTS (SBGM)</unit>
+</variable>
+
+<variable id="phv00028877.v1">
+	<name>ocg63c</name>
+	<description>Infusion pump: bedtime - number of self blood glucose monitorings below 70md/dl</description>
+	<type>byte</type>
+	<unit>GLUCOSE TESTS (SBGM)</unit>
+</variable>
+
+<variable id="phv00028878.v1">
+	<name>ocg63d</name>
+	<description>Infusion pump: bedtime - number of self blood glucose monitorings above 120mg/dl</description>
+	<type>int</type>
+	<unit>GLUCOSE TESTS (SBGM)</unit>
+</variable>
+
+<variable id="phv00028879.v1">
+	<name>ocg64a</name>
+	<description>Infusion pump: 3:00 am - number of self blood glucose monitorings actually done</description>
+	<type>byte</type>
+	<unit>GLUCOSE TESTS (SBGM)</unit>
+</variable>
+
+<variable id="phv00028880.v1">
+	<name>ocg64b</name>
+	<description>Infusion pump: 3:00 am - number of self blood glucose monitorings that should have been done</description>
+	<type>byte</type>
+	<unit>GLUCOSE TESTS (SBGM)</unit>
+</variable>
+
+<variable id="phv00028881.v1">
+	<name>ocg64c</name>
+	<description>Infusion pump: 3:00 am - number of self blood glucose monitorings below 65mg/dl</description>
+	<type>byte</type>
+	<unit>GLUCOSE TESTS (SBGM)</unit>
+</variable>
+
+<variable id="phv00028882.v1">
+	<name>ocg64d</name>
+	<description>Infusion pump: 3:00 am - number of self blood glucose monitorings above 120mg/dl</description>
+	<type>byte</type>
+	<unit>GLUCOSE TESTS (SBGM)</unit>
+</variable>
+
+<variable id="phv00029018.v1">
+	<name>ocg7</name>
+	<description>Patient performs more self blood glucose monitoring than prescribed</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+	<value code="3">UNCERTAIN</value>
+</variable>
+
+<variable id="phv00029019.v1">
+	<name>ocg8</name>
+	<description>Self blood glucose monitoring results suspected to be inaccurate or fictitious</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+	<value code="3">UNCERTAIN</value>
+	<value code="4">N.A.</value>
+</variable>
+
+<variable id="phv00029020.v1">
+	<name>ocg9</name>
+	<description>Has patient had problems using insulin pump?</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+</variable>
+
+<variable id="phv00028966.v1">
+	<name>ocgender</name>
+	<description>Patient&#39;s gender</description>
+	<type>byte</type>
+	<value code="1">MALE</value>
+	<value code="2">FEMALE</value>
+</variable>
+
+<variable id="phv00028990.v1">
+	<name>ocgrade</name>
+	<description>Elementary/secondary school grade</description>
+	<type>byte</type>
+	<unit>SCHOOL GRADE</unit>
+</variable>
+
+<variable id="phv00028993.v1">
+	<name>ocgyear</name>
+	<description>Patient&#39;s number of years in graduate school</description>
+	<type>byte</type>
+</variable>
+
+<variable id="phv00029021.v1">
+	<name>och1</name>
+	<description>MDI - previous day insulin units: preprandial (meal/snacks) boluses</description>
+	<type>byte</type>
+	<unit>I.U.</unit>
+</variable>
+
+<variable id="phv00029022.v1">
+	<name>och2</name>
+	<description>MDI  1- previous day: number of preprandial boluses</description>
+	<type>byte</type>
+	<unit>BOLUSES</unit>
+</variable>
+
+<variable id="phv00029023.v1">
+	<name>och3</name>
+	<description>MDI  1 - previous day: total units of intermittent/long-lasting insulin</description>
+	<type>int</type>
+	<unit>I.U.</unit>
+</variable>
+
+<variable id="phv00029024.v1">
+	<name>och41a</name>
+	<description>MDI  1 - previous day: units of long-acting or ultra-lente insulin</description>
+	<type>byte</type>
+	<unit>I.U.</unit>
+</variable>
+
+<variable id="phv00029025.v1">
+	<name>och41b</name>
+	<description>MDI  1 - previous day: units of NPH or lente insulin</description>
+	<type>byte</type>
+	<unit>I.U.</unit>
+</variable>
+
+<variable id="phv00029026.v1">
+	<name>och41c</name>
+	<description>MDI  1 - previous day: units of regular or semi-lente insulin</description>
+	<type>float</type>
+	<unit>I.U.</unit>
+</variable>
+
+<variable id="phv00028883.v1">
+	<name>och41d</name>
+	<description>MDI 1 - previous day:  injection time</description>
+	<type>str5</type>
+	<unit>O-CLOCK</unit>
+</variable>
+
+<variable id="phv00029027.v1">
+	<name>och41e</name>
+	<description>MDI  1 - previous day: injection - A.M. or P.M.</description>
+	<type>byte</type>
+	<value code="1">A.M.</value>
+	<value code="2">P.M.</value>
+</variable>
+
+<variable id="phv00029028.v1">
+	<name>och42a</name>
+	<description>MDI  2  - previous day: units of long-acting or ultra-lente insulin</description>
+	<type>byte</type>
+	<unit>I.U.</unit>
+</variable>
+
+<variable id="phv00029029.v1">
+	<name>och42b</name>
+	<description>MDI  2  - previous day: units of NPH or lente insulin</description>
+	<type>byte</type>
+	<unit>I.U..</unit>
+</variable>
+
+<variable id="phv00029030.v1">
+	<name>och42c</name>
+	<description>MDI  2  - previous day: units of regular or semi-lente insulin</description>
+	<type>byte</type>
+	<unit>I.U.</unit>
+</variable>
+
+<variable id="phv00028884.v1">
+	<name>och42d</name>
+	<description>MDI 2 - previous day: injection time</description>
+	<type>str5</type>
+	<unit>O-CLOCK</unit>
+</variable>
+
+<variable id="phv00029031.v1">
+	<name>och42e</name>
+	<description>MDI  2  - previous day: injection - A.M. or P.M.</description>
+	<type>byte</type>
+	<value code="1">A.M.</value>
+	<value code="2">P.M.</value>
+</variable>
+
+<variable id="phv00029032.v1">
+	<name>och43a</name>
+	<description>MDI  3  - previous day: units of long-acting or ultra-lente insulin</description>
+	<type>byte</type>
+	<unit>I.U.</unit>
+</variable>
+
+<variable id="phv00029033.v1">
+	<name>och43b</name>
+	<description>MDI  3  - previous day: units of NPH or lente insulin</description>
+	<type>byte</type>
+	<unit>I.U.</unit>
+</variable>
+
+<variable id="phv00029034.v1">
+	<name>och43c</name>
+	<description>MDI  3  - previous day: units of regular or semi-lente insulin</description>
+	<type>byte</type>
+	<unit>I.U.</unit>
+</variable>
+
+<variable id="phv00028885.v1">
+	<name>och43d</name>
+	<description>MDI 3 - previous day: injection time</description>
+	<type>str5</type>
+	<unit>O-CLOCK</unit>
+</variable>
+
+<variable id="phv00029035.v1">
+	<name>och43e</name>
+	<description>MDI  3  - previous day: injection - A.M. or P.M.</description>
+	<type>byte</type>
+	<value code="1">A.M.</value>
+	<value code="2">P.M.</value>
+</variable>
+
+<variable id="phv00029036.v1">
+	<name>och44a</name>
+	<description>MDI  4  - previous day: units of long-acting or ultra-lente insulin</description>
+	<type>byte</type>
+	<unit>I.U.</unit>
+</variable>
+
+<variable id="phv00029037.v1">
+	<name>och44b</name>
+	<description>MDI  4  - previous day: units of NPH or lente insulin</description>
+	<type>byte</type>
+	<unit>I.U.</unit>
+</variable>
+
+<variable id="phv00029038.v1">
+	<name>och44c</name>
+	<description>MDI  4  - previous day: units of regular or semi-lente insulin</description>
+	<type>byte</type>
+	<unit>I.U.</unit>
+</variable>
+
+<variable id="phv00028886.v1">
+	<name>och44d</name>
+	<description>MDI 4 - previous day: injection time</description>
+	<type>str5</type>
+	<unit>O-CLOCK</unit>
+</variable>
+
+<variable id="phv00029039.v1">
+	<name>och44e</name>
+	<description>MDI  4  - previous day: injection - A.M. or P.M.</description>
+	<type>byte</type>
+	<value code="1">A.M.</value>
+	<value code="2">P.M.</value>
+</variable>
+
+<variable id="phv00029040.v1">
+	<name>och45a</name>
+	<description>MDI  5  - previous day: units of long-acting or ultra-lente insulin</description>
+	<type>byte</type>
+	<unit>I.U.</unit>
+</variable>
+
+<variable id="phv00029041.v1">
+	<name>och45b</name>
+	<description>MDI  5  - previous day: units of NPH or lente insulin</description>
+	<type>byte</type>
+	<unit>I.U.</unit>
+</variable>
+
+<variable id="phv00029042.v1">
+	<name>och45c</name>
+	<description>MDI  5  - previous day: units of regular or semi-lente insulin</description>
+	<type>byte</type>
+	<unit>I.U.</unit>
+</variable>
+
+<variable id="phv00028887.v1">
+	<name>och45d</name>
+	<description>MDI 5 - previous day: injection time</description>
+	<type>str5</type>
+	<unit>O-CLOCK</unit>
+</variable>
+
+<variable id="phv00029043.v1">
+	<name>och45e</name>
+	<description>MDI  5  - previous day: injection - A.M. or P.M.</description>
+	<type>byte</type>
+	<value code="1">A.M.</value>
+	<value code="2">P.M.</value>
+</variable>
+
+<variable id="phv00029044.v1">
+	<name>och5a</name>
+	<description>MDI  - previous day: type of insulin - beef or pork</description>
+	<type>byte</type>
+	<unit>INSULIN: BEEF AND PORK</unit>
+</variable>
+
+<variable id="phv00029045.v1">
+	<name>och5b</name>
+	<description>MDI  - previous day: type of insulin - beef</description>
+	<type>byte</type>
+	<unit>INSULIN: BEEF</unit>
+</variable>
+
+<variable id="phv00029046.v1">
+	<name>och5c</name>
+	<description>MDI  - previous day: type of insulin - pork</description>
+	<type>byte</type>
+	<unit>INSULIN: PORK</unit>
+</variable>
+
+<variable id="phv00029047.v1">
+	<name>och5d</name>
+	<description>MDI  - previous day: type of insulin - human</description>
+	<type>byte</type>
+	<unit>INSULIN: HUMAN</unit>
+</variable>
+
+<variable id="phv00028888.v1">
+	<name>och61a</name>
+	<description>MDI: preprandial - number of self blood glucose monitorings actually done</description>
+	<type>int</type>
+	<unit>GLUCOSE TESTS (SBGM)</unit>
+</variable>
+
+<variable id="phv00028889.v1">
+	<name>och61b</name>
+	<description>MDI: preprandial - number of self blood glucose monitorings that should have been done</description>
+	<type>int</type>
+	<unit>GLUCOSE TESTS (SBGM)</unit>
+</variable>
+
+<variable id="phv00028890.v1">
+	<name>och61c</name>
+	<description>MDI: preprandial - number of self blood glucose monitorings below 70mg/dl</description>
+	<type>int</type>
+	<unit>GLUCOSE TESTS (SBGM)</unit>
+</variable>
+
+<variable id="phv00028891.v1">
+	<name>och61d</name>
+	<description>MDI: preprandial - number of self blood glucose monitorings above 120mg/dl</description>
+	<type>int</type>
+	<unit>GLUCOSE TESTS (SBGM)</unit>
+</variable>
+
+<variable id="phv00028892.v1">
+	<name>och62a</name>
+	<description>MDI: postprandial - number of self blood glucose monitorings actually done</description>
+	<type>int</type>
+	<unit>GLUCOSE TESTS (SBGM)</unit>
+</variable>
+
+<variable id="phv00028893.v1">
+	<name>och62b</name>
+	<description>MDI: postprandial - number of self blood glucose monitorings that should have been done</description>
+	<type>int</type>
+	<unit>GLUCOSE TESTS (SBGM)</unit>
+</variable>
+
+<variable id="phv00028894.v1">
+	<name>och62c</name>
+	<description>MDI: postprandial - number of self blood glucose monitorings below 70mg/dl</description>
+	<type>byte</type>
+	<unit>GLUCOSE TESTS (SBGM)</unit>
+</variable>
+
+<variable id="phv00028895.v1">
+	<name>och62d</name>
+	<description>MDI: postprandial - number of self blood glucose monitorings above 180mg/dl</description>
+	<type>int</type>
+	<unit>GLUCOSE TESTS (SBGM)</unit>
+</variable>
+
+<variable id="phv00028896.v1">
+	<name>och63a</name>
+	<description>MDI: bedtime - number of self blood glucose monitorings actually done</description>
+	<type>int</type>
+	<unit>GLUCOSE TESTS (SBGM)</unit>
+</variable>
+
+<variable id="phv00028897.v1">
+	<name>och63b</name>
+	<description>MDI: bedtime - number of self blood glucose monitorings that should have been done</description>
+	<type>int</type>
+	<unit>GLUCOSE TESTS (SBGM)</unit>
+</variable>
+
+<variable id="phv00028898.v1">
+	<name>och63c</name>
+	<description>MDI: bedtime - number of self blood glucose monitorings below 70mg/dl</description>
+	<type>byte</type>
+	<unit>GLUCOSE TESTS (SBGM)</unit>
+</variable>
+
+<variable id="phv00028899.v1">
+	<name>och63d</name>
+	<description>MDI: bedtime - number of self blood glucose monitorings above 120mg/dl</description>
+	<type>int</type>
+	<unit>GLUCOSE TESTS (SBGM)</unit>
+</variable>
+
+<variable id="phv00028900.v1">
+	<name>och64a</name>
+	<description>MDI: 3:00 am - number of self blood glucose monitorings actually done</description>
+	<type>byte</type>
+	<unit>GLUCOSE TESTS (SBGM)</unit>
+</variable>
+
+<variable id="phv00028901.v1">
+	<name>och64b</name>
+	<description>MDI: 3:00 am - number of self blood glucose monitorings that should have been done</description>
+	<type>int</type>
+	<unit>GLUCOSE TESTS (SBGM)</unit>
+</variable>
+
+<variable id="phv00028902.v1">
+	<name>och64c</name>
+	<description>MDI: 3:00 am - number of self blood glucose monitorings below 65mg/dl</description>
+	<type>byte</type>
+	<unit>GLUCOSE TESTS (SBGM)</unit>
+</variable>
+
+<variable id="phv00028903.v1">
+	<name>och64d</name>
+	<description>MDI: 3:00 am - number of self blood glucose monitorings above 120mg/dl</description>
+	<type>byte</type>
+	<unit>GLUCOSE TESTS (SBGM)</unit>
+</variable>
+
+<variable id="phv00029048.v1">
+	<name>och7</name>
+	<description>MDI: performed more self blood glucose monitorings than prescribed</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+	<value code="3">UNCERTAIN</value>
+</variable>
+
+<variable id="phv00029049.v1">
+	<name>och8</name>
+	<description>MDI: self blood glucose monitorings results are inaccurate</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+	<value code="3">UNCERTAIN</value>
+	<value code="4">N.A.</value>
+</variable>
+
+<variable id="phv00028950.v1">
+	<name>ochbdate</name>
+	<description>Date blood sample mailed to hemoglobin A1c lab</description>
+	<type>str6</type>
+</variable>
+
+<variable id="phv00028930.v1">
+	<name>ocheight</name>
+	<description>Current height</description>
+	<type>float</type>
+	<unit>CM</unit>
+</variable>
+
+<variable id="phv00029215.v1">
+	<name>ochepato</name>
+	<description>Abdomen: hepatomegaly (absent/present)</description>
+	<type>byte</type>
+	<value code="1">ABSENT</value>
+	<value code="2">PRESENT</value>
+</variable>
+
+<variable id="phv00029209.v1">
+	<name>ochiblp</name>
+	<description>Blood pressure meets definition of hypertension.</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="12">UNKNOWN/ERROR VALUE</value>
+	<value code="2">YES</value>
+</variable>
+
+<variable id="phv00028931.v1">
+	<name>ochtcha</name>
+	<description>Change in height since previous exam</description>
+	<type>float</type>
+	<unit>CM</unit>
+</variable>
+
+<variable id="phv00029210.v1">
+	<name>ochyp</name>
+	<description>Hypertension previously documented and information sent to coordinating center</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+</variable>
+
+<variable id="phv00029211.v1">
+	<name>ochypert</name>
+	<description>Systolic/diastolic blood pressure indicates hypertension.</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+</variable>
+
+<variable id="phv00029050.v1">
+	<name>oci11a</name>
+	<description>Standard treatment  1 - previous day: units of long-acting or ultra-lente insulin</description>
+	<type>byte</type>
+	<unit>I.U.</unit>
+</variable>
+
+<variable id="phv00029051.v1">
+	<name>oci11b</name>
+	<description>Standard treatment 1 - previous day: units of NPH or lente insulin</description>
+	<type>byte</type>
+	<unit>I.U.</unit>
+</variable>
+
+<variable id="phv00029052.v1">
+	<name>oci11c</name>
+	<description>Standard treatment 1 - previous day: units of regular or semi-lente insulin</description>
+	<type>byte</type>
+	<unit>I.U.</unit>
+</variable>
+
+<variable id="phv00028904.v1">
+	<name>oci11d</name>
+	<description>Standard treatment 1 - injection time</description>
+	<type>str5</type>
+	<unit>O-CLOCK</unit>
+</variable>
+
+<variable id="phv00029053.v1">
+	<name>oci11e</name>
+	<description>Standard treatment 1 - previous day: insulin injection - A.M. or P.M.</description>
+	<type>byte</type>
+	<value code="1">A.M.</value>
+	<value code="2">P.M.</value>
+</variable>
+
+<variable id="phv00029054.v1">
+	<name>oci12a</name>
+	<description>Standard treatment 2  - previous day: units of long-acting or ultra-lente insulin</description>
+	<type>byte</type>
+	<unit>I.U.</unit>
+</variable>
+
+<variable id="phv00029055.v1">
+	<name>oci12b</name>
+	<description>Standard treatment 2  - previous day: units of NPH or lente insulin</description>
+	<type>byte</type>
+	<unit>I.U.</unit>
+</variable>
+
+<variable id="phv00029056.v1">
+	<name>oci12c</name>
+	<description>Standard treatment 2  - previous day: units of regular or semi-lente insulin</description>
+	<type>byte</type>
+	<unit>I.U.</unit>
+</variable>
+
+<variable id="phv00028905.v1">
+	<name>oci12d</name>
+	<description>Standard treatment 2  - injection time</description>
+	<type>str5</type>
+	<unit>O-CLOCK</unit>
+</variable>
+
+<variable id="phv00029057.v1">
+	<name>oci12e</name>
+	<description>Standard treatment 2  - previous day: insulin injection - A.M. or P.M.</description>
+	<type>byte</type>
+	<value code="1">A.M.</value>
+	<value code="2">P.M.</value>
+</variable>
+
+<variable id="phv00029058.v1">
+	<name>oci13a</name>
+	<description>Standard treatment 3  - previous day: units of long-acting or ultra-lente insulin</description>
+	<type>byte</type>
+	<unit>I.U.</unit>
+</variable>
+
+<variable id="phv00029059.v1">
+	<name>oci13b</name>
+	<description>Standard treatment 3  - previous day: units of NPH or lente insulin</description>
+	<type>byte</type>
+	<unit>I.U.</unit>
+</variable>
+
+<variable id="phv00029060.v1">
+	<name>oci13c</name>
+	<description>Standard treatment 3  - previous day: units of regular or semi-lente insulin</description>
+	<type>byte</type>
+	<unit>I.U.</unit>
+</variable>
+
+<variable id="phv00028906.v1">
+	<name>oci13d</name>
+	<description>Standard treatment 3  - injection time</description>
+	<type>str5</type>
+	<unit>O-CLOCK</unit>
+</variable>
+
+<variable id="phv00029061.v1">
+	<name>oci13e</name>
+	<description>Standard treatment 3  - previous day: insulin injection - A.M. or P.M.</description>
+	<type>byte</type>
+	<value code="1">A.M.</value>
+	<value code="2">P.M.</value>
+</variable>
+
+<variable id="phv00029062.v1">
+	<name>oci14a</name>
+	<description>Standard treatment 4  - previous day: units of long-acting or ultra-lente insulin</description>
+	<type>byte</type>
+	<unit>I.U.</unit>
+</variable>
+
+<variable id="phv00029063.v1">
+	<name>oci14b</name>
+	<description>Standard treatment 4  - previous day: units of NPH or lente insulin</description>
+	<type>byte</type>
+	<unit>I.U.</unit>
+</variable>
+
+<variable id="phv00029064.v1">
+	<name>oci14c</name>
+	<description>Standard treatment 4  - previous day: units of regular or semi-lente insulin</description>
+	<type>byte</type>
+	<unit>I.U.</unit>
+</variable>
+
+<variable id="phv00028907.v1">
+	<name>oci14d</name>
+	<description>Standard treatment 4 - injection time</description>
+	<type>str5</type>
+	<unit>O-CLOCK</unit>
+</variable>
+
+<variable id="phv00029065.v1">
+	<name>oci14e</name>
+	<description>Standard treatment 4  - previous day: insulin injection - A.M. or P.M.</description>
+	<type>byte</type>
+	<value code="1">A.M.</value>
+	<value code="2">P.M.</value>
+</variable>
+
+<variable id="phv00029066.v1">
+	<name>oci15a</name>
+	<description>Standard treatment 5 - previous day: units of long-acting or ultra-lente insulin</description>
+	<type>byte</type>
+	<unit>I.U.</unit>
+</variable>
+
+<variable id="phv00029067.v1">
+	<name>oci15b</name>
+	<description>Standard treatment 5 - previous day: units of NPH or lente insulin</description>
+	<type>byte</type>
+	<unit>I.U.</unit>
+</variable>
+
+<variable id="phv00029068.v1">
+	<name>oci15c</name>
+	<description>Standard treatment 5 - previous day: units of regular or semi-lente insulin</description>
+	<type>byte</type>
+	<unit>I.U.</unit>
+</variable>
+
+<variable id="phv00028908.v1">
+	<name>oci15d</name>
+	<description>Standard treatment 5  - injection time</description>
+	<type>str5</type>
+	<unit>O-CLOCK</unit>
+</variable>
+
+<variable id="phv00029069.v1">
+	<name>oci15e</name>
+	<description>Standard treatment 5 - previous day: insulin injection - A.M. or P.M.</description>
+	<type>byte</type>
+	<value code="1">A.M.</value>
+	<value code="2">P.M.</value>
+</variable>
+
+<variable id="phv00029070.v1">
+	<name>oci2a</name>
+	<description>Standard treatment  - previous day: type of insulin - beef and pork</description>
+	<type>byte</type>
+	<unit>INSULIN: BEEF AND PORK</unit>
+</variable>
+
+<variable id="phv00029071.v1">
+	<name>oci2b</name>
+	<description>Standard treatment  - previous day: type of insulin - beef</description>
+	<type>byte</type>
+	<unit>INSULIN: BEEF</unit>
+</variable>
+
+<variable id="phv00029072.v1">
+	<name>oci2c</name>
+	<description>Standard treatment  - previous day: type of insulin - pork</description>
+	<type>byte</type>
+	<unit>INSULIN: PORK</unit>
+</variable>
+
+<variable id="phv00029073.v1">
+	<name>oci2d</name>
+	<description>Standard treatment  - previous day: type of insulin - human</description>
+	<type>byte</type>
+	<unit>INSULIN: HUMAN</unit>
+</variable>
+
+<variable id="phv00029074.v1">
+	<name>oci3</name>
+	<description>Standard treatment: performs self blood glucose monitoring</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+	<value code="3">UNCERTAIN</value>
+</variable>
+
+<variable id="phv00029075.v1">
+	<name>oci4</name>
+	<description>Standard treatment: performs urine glucose monitoring</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+	<value code="3">UNCERTAIN</value>
+</variable>
+
+<variable id="phv00028909.v1">
+	<name>oci51a</name>
+	<description>Standard treatment: before breakfast - number of self glucose monitorings actually done - urine</description>
+	<type>int</type>
+	<unit>GLUCOSE TESTS (SBGM)</unit>
+</variable>
+
+<variable id="phv00028910.v1">
+	<name>oci51b</name>
+	<description>Standard treatment: before breakfast - number of self glucose monitorings should have done - urine</description>
+	<type>int</type>
+	<unit>GLUCOSE TESTS (SBGM)</unit>
+</variable>
+
+<variable id="phv00028911.v1">
+	<name>oci51c</name>
+	<description>Standard treatment: before breakfast - number of self glucose monitorings actually done - blood</description>
+	<type>int</type>
+	<unit>GLUCOSE TESTS (SBGM)</unit>
+</variable>
+
+<variable id="phv00028912.v1">
+	<name>oci51d</name>
+	<description>Standard treatment: before breakfast - number of self glucose monitorings should have done - blood</description>
+	<type>int</type>
+	<unit>GLUCOSE TESTS (SBGM)</unit>
+</variable>
+
+<variable id="phv00028913.v1">
+	<name>oci52a</name>
+	<description>Standard treatment: before lunch - number of self glucose monitorings actually done - urine</description>
+	<type>int</type>
+	<unit>GLUCOSE TESTS (SBGM)</unit>
+</variable>
+
+<variable id="phv00028914.v1">
+	<name>oci52b</name>
+	<description>Standard treatment: before lunch - number of self glucose monitorings should have done - urine</description>
+	<type>int</type>
+	<unit>GLUCOSE TESTS (SBGM)</unit>
+</variable>
+
+<variable id="phv00028915.v1">
+	<name>oci52c</name>
+	<description>Standard treatment: before lunch - number of self glucose monitorings actually done - blood</description>
+	<type>int</type>
+	<unit>GLUCOSE TESTS (SBGM)</unit>
+</variable>
+
+<variable id="phv00028916.v1">
+	<name>oci52d</name>
+	<description>Standard treatment: before lunch - number of self glucose monitorings should have done - blood</description>
+	<type>int</type>
+	<unit>GLUCOSE TESTS (SBGM)</unit>
+</variable>
+
+<variable id="phv00028917.v1">
+	<name>oci53a</name>
+	<description>Standard treatment: before dinner - number of self glucose monitorings actually done - urine</description>
+	<type>int</type>
+	<unit>GLUCOSE TESTS (SBGM)</unit>
+</variable>
+
+<variable id="phv00028918.v1">
+	<name>oci53b</name>
+	<description>Standard treatment: before dinner - number of self glucose monitorings should have done - urine</description>
+	<type>int</type>
+	<unit>GLUCOSE TESTS (SBGM)</unit>
+</variable>
+
+<variable id="phv00028919.v1">
+	<name>oci53c</name>
+	<description>Standard treatment: before dinner - number of self glucose monitorings actually done - blood</description>
+	<type>int</type>
+	<unit>GLUCOSE TESTS (SBGM)</unit>
+</variable>
+
+<variable id="phv00028920.v1">
+	<name>oci53d</name>
+	<description>Standard treatment: before dinner - number of self glucose monitorings should have done - blood</description>
+	<type>int</type>
+	<unit>GLUCOSE TESTS (SBGM)</unit>
+</variable>
+
+<variable id="phv00028921.v1">
+	<name>oci54a</name>
+	<description>Standard treatment: bedtime - number of self glucose monitorings actually done - urine</description>
+	<type>int</type>
+	<unit>GLUCOSE TESTS (SBGM)</unit>
+</variable>
+
+<variable id="phv00028922.v1">
+	<name>oci54b</name>
+	<description>Standard treatment: bedtime - number of self glucose monitorings should have done - urine</description>
+	<type>int</type>
+	<unit>GLUCOSE TESTS (SBGM)</unit>
+</variable>
+
+<variable id="phv00028923.v1">
+	<name>oci54c</name>
+	<description>Standard treatment: bedtime - number of self glucose monitorings actually done - blood</description>
+	<type>int</type>
+	<unit>GLUCOSE TESTS (SBGM)</unit>
+</variable>
+
+<variable id="phv00028924.v1">
+	<name>oci54d</name>
+	<description>Standard treatment: bedtime - number of self glucose monitorings should have done - blood</description>
+	<type>int</type>
+	<unit>GLUCOSE TESTS (SBGM)</unit>
+</variable>
+
+<variable id="phv00029076.v1">
+	<name>oci6</name>
+	<description>Standard treatment: performs more glucose monitoring (urine or blood) than prescribed</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+	<value code="3">UNCERTAIN</value>
+	<value code="7">MISSING/ERROR VALUE</value>
+</variable>
+
+<variable id="phv00029077.v1">
+	<name>oci7</name>
+	<description>Standard treatment: glucose monitoring (urine or blood) results are thought to be inaccurate or fictitious</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+	<value code="3">UNCERTAIN</value>
+	<value code="4">N.A.</value>
+</variable>
+
+<variable id="phv00029214.v1">
+	<name>ocinflam</name>
+	<description>Injection sites (including catheter site) show: inflammation</description>
+	<type>byte</type>
+	<value code="1">ABSENT</value>
+	<value code="2">PRESENT</value>
+</variable>
+
+<variable id="phv00028959.v1">
+	<name>ocinsdat</name>
+	<description>Standard Group - Modifications since last visit: date of return to one or two injections per day</description>
+	<type>str6</type>
+</variable>
+
+<variable id="phv00029078.v1">
+	<name>ocj1a</name>
+	<description>How often has patient claimed to follow meal plan?</description>
+	<type>byte</type>
+	<value code="0">N.A.</value>
+	<value code="1">NEVER FOLLOWED MEAL PLAN</value>
+	<value code="2">VERY INFREQUENTLY (&lt;10%)</value>
+	<value code="3">FREQUENTLY (10-44%)</value>
+	<value code="4">ABOUT HALF THE TIME (45-55%)</value>
+	<value code="5">MOST OF THE TIME (56-90%)</value>
+	<value code="6">ALMOST ALL THE TIME (&gt;90%)</value>
+	<value code="7">ALWAYS FOLLOWS MEAL PLAN</value>
+</variable>
+
+<variable id="phv00029079.v1">
+	<name>ocj1b</name>
+	<description>Patient has an eating disorder</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+	<value code="3">UNCERTAIN</value>
+</variable>
+
+<variable id="phv00029080.v1">
+	<name>ocj1ci</name>
+	<description>How many illnesses did patient experience?</description>
+	<type>byte</type>
+	<unit>ILLNESSES</unit>
+</variable>
+
+<variable id="phv00029081.v1">
+	<name>ocj1cii</name>
+	<description>How often (during illnesses) did patient fail to adjust the insulin dose as prescribed?</description>
+	<type>byte</type>
+	<unit>INSULIN DOSAGE NOT ADJUSTED</unit>
+</variable>
+
+<variable id="phv00029082.v1">
+	<name>ocj1d</name>
+	<description>Patient used a type of insulin not prescribed</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+	<value code="3">UNCERTAIN</value>
+</variable>
+
+<variable id="phv00029083.v1">
+	<name>ocj1e</name>
+	<description>Patient has rotated injection site</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+	<value code="3">UNCERTAIN</value>
+</variable>
+
+<variable id="phv00029084.v1">
+	<name>ocj1f</name>
+	<description>Patient has completed less than 7 blood collections</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+	<value code="3">UNCERTAIN</value>
+</variable>
+
+<variable id="phv00029085.v1">
+	<name>ocj1gi</name>
+	<description>Number of intercurrent events experienced</description>
+	<type>byte</type>
+	<unit>INTERCURRENT EVENTS</unit>
+</variable>
+
+<variable id="phv00029086.v1">
+	<name>ocj1gii</name>
+	<description>Number of intercurrent events patient failed to report</description>
+	<type>byte</type>
+	<unit>UNREPORTED INTERCURRENT EVENTS</unit>
+</variable>
+
+<variable id="phv00029087.v1">
+	<name>ocj1h</name>
+	<description>Patient failed to bring in daily record</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+	<value code="3">UNCERTAIN</value>
+</variable>
+
+<variable id="phv00029088.v1">
+	<name>ocj1ii</name>
+	<description>Patient performs self blood glucose monitoring</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+	<value code="3">UNCERTAIN</value>
+</variable>
+
+<variable id="phv00029089.v1">
+	<name>ocj1iii</name>
+	<description>Patient uses self blood glucose monitoring to adjust insulin dosage</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+	<value code="3">UNCERTAIN</value>
+</variable>
+
+<variable id="phv00029090.v1">
+	<name>ocj1iiii</name>
+	<description>Patient performs self blood glucose monitoring more than once a day</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+	<value code="3">UNCERTAIN</value>
+</variable>
+
+<variable id="phv00029091.v1">
+	<name>ocj2a</name>
+	<description>Standard treatment group: number of days patient has taken more insulin than prescribed</description>
+	<type>byte</type>
+	<unit>DAYS</unit>
+</variable>
+
+<variable id="phv00029092.v1">
+	<name>ocj2b</name>
+	<description>Standard treatment group: number of days patient used additional injections of insulin</description>
+	<type>byte</type>
+	<unit>DAYS</unit>
+</variable>
+
+<variable id="phv00029093.v1">
+	<name>ocj2c</name>
+	<description>Standard treatment group: number of days patient has taken fewer injections of insulin</description>
+	<type>byte</type>
+	<unit>DAYS</unit>
+</variable>
+
+<variable id="phv00029094.v1">
+	<name>ocj2d</name>
+	<description>Standard treatment group: number of days patient failed to take prescribed insulin</description>
+	<type>byte</type>
+	<unit>DAYS</unit>
+</variable>
+
+<variable id="phv00029095.v1">
+	<name>ocj2e</name>
+	<description>Standard treatment group: number of days patient failed to perform two urine and one blood test</description>
+	<type>int</type>
+	<unit>DAYS</unit>
+</variable>
+
+<variable id="phv00029096.v1">
+	<name>ocj2fi</name>
+	<description>Standard treatment group: number of days patient has been ill</description>
+	<type>byte</type>
+	<unit>DAYS</unit>
+</variable>
+
+<variable id="phv00029097.v1">
+	<name>ocj2fii</name>
+	<description>Standard treatment group: number of days patient failed to test/record urine acetone during illness</description>
+	<type>byte</type>
+	<unit>DAYS</unit>
+</variable>
+
+<variable id="phv00029098.v1">
+	<name>ocj3a</name>
+	<description>Experimental treatment group: number of days patient did not follow prescribed algorithm for insulin delivery</description>
+	<type>int</type>
+	<unit>DAYS</unit>
+</variable>
+
+<variable id="phv00029099.v1">
+	<name>ocj3b</name>
+	<description>Experimental treatment group: number of times  patient failed to administer prescribed 3 A.M. blood test</description>
+	<type>byte</type>
+	<unit>3A.M. BLOOD TESTS (NOT PERFORMED)</unit>
+</variable>
+
+<variable id="phv00029100.v1">
+	<name>ocj3c</name>
+	<description>Experimental treatment group: number of times  patient failed to report low 3 A.M. blood glucose</description>
+	<type>byte</type>
+	<unit>UNREPORTED 3A.M. BLOOD TESTS</unit>
+</variable>
+
+<variable id="phv00029101.v1">
+	<name>ocj3d</name>
+	<description>Experimental treatment group: number of times  patient failed to monitor urine acetone when blood glucose was &gt;240mg/dl or during illness</description>
+	<type>int</type>
+	<unit>NOT-MONITORED URINE ACETONE</unit>
+</variable>
+
+<variable id="phv00029102.v1">
+	<name>ocj4a</name>
+	<description>Infusion pump (experimental treatment group): number of times patient failed to change infusion pump batteries</description>
+	<type>byte</type>
+	<unit>NOT FOLLOWED INSTRUCTIONS - BATTERIES</unit>
+</variable>
+
+<variable id="phv00029103.v1">
+	<name>ocj4b</name>
+	<description>Infusion pump (experimental treatment group): number of times patient failed to change catheters</description>
+	<type>byte</type>
+	<unit>NOT FOLLOWED INSTRUCTIONS - CATHETER</unit>
+</variable>
+
+<variable id="phv00029104.v1">
+	<name>ocj4c</name>
+	<description>Infusion pump (experimental treatment group): number of times patient failed to change syringes</description>
+	<type>byte</type>
+	<unit>NOT FOLLOWED INSTRUCTIONS - SYRINGES</unit>
+</variable>
+
+<variable id="phv00029105.v1">
+	<name>ock1a</name>
+	<description>Hyperglycemia: number of nights patient woke up once to urinate</description>
+	<type>byte</type>
+	<unit>NIGHTS/WEEK</unit>
+</variable>
+
+<variable id="phv00029106.v1">
+	<name>ock1b</name>
+	<description>Hyperglycemia: number of nights patient woke up two or more times to urinate</description>
+	<type>byte</type>
+	<unit>NIGHTS/WEEK</unit>
+</variable>
+
+<variable id="phv00029107.v1">
+	<name>ock1c</name>
+	<description>Hyperglycemia: number of 8-oz glasses of fluid drunken per day</description>
+	<type>byte</type>
+	<unit>8-OZ GLASSES OF FLUID/DAY</unit>
+</variable>
+
+<variable id="phv00029108.v1">
+	<name>ock1d</name>
+	<description>Hyperglycemia: number of times patient experienced diabetic ketoacidosis</description>
+	<type>byte</type>
+	<unit>DKA</unit>
+</variable>
+
+<variable id="phv00029109.v1">
+	<name>ock1e</name>
+	<description>Hyperglycemia: patient hade other symptoms of hyperglycemia</description>
+	<type>byte</type>
+	<value code="0">MISSING/ERROR VALUES</value>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+</variable>
+
+<variable id="phv00029110.v1">
+	<name>ock2</name>
+	<description>On how many days did patient have moderate or large ketonuria?</description>
+	<type>byte</type>
+	<unit>DAYS</unit>
+</variable>
+
+<variable id="phv00029111.v1">
+	<name>ock2a</name>
+	<description>Number of ketonuria events explained by change in routine</description>
+	<type>byte</type>
+	<unit>KETONURIA EVENTS</unit>
+</variable>
+
+<variable id="phv00029112.v1">
+	<name>ock2b</name>
+	<description>Number of ketonuria events due to illness</description>
+	<type>byte</type>
+	<unit>KETONURIA EVENTS</unit>
+</variable>
+
+<variable id="phv00029113.v1">
+	<name>ock2c</name>
+	<description>Number of ketonuria events due to medical equipment failure</description>
+	<type>byte</type>
+	<unit>KETONURIA EVENTS</unit>
+</variable>
+
+<variable id="phv00029114.v1">
+	<name>ock2d</name>
+	<description>Number of ketonuria events spontaneous or unexplained</description>
+	<type>byte</type>
+	<unit>KETONURIA EVENTS</unit>
+</variable>
+
+<variable id="phv00029115.v1">
+	<name>ock3a</name>
+	<description>Patient is female</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+</variable>
+
+<variable id="phv00029116.v1">
+	<name>ock3bi</name>
+	<description>Patient experienced vaginal itching or discharge</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+</variable>
+
+<variable id="phv00029117.v1">
+	<name>ock3bii</name>
+	<description>Patient has been treated for this (vaginal itching or discharge)</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+</variable>
+
+<variable id="phv00028925.v1">
+	<name>ock3cdat</name>
+	<description>Date on which last menstrual period started</description>
+	<type>str6</type>
+</variable>
+
+<variable id="phv00029118.v1">
+	<name>ock3ci</name>
+	<description>Patient menstruates</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+</variable>
+
+<variable id="phv00029119.v1">
+	<name>ock3di</name>
+	<description>Menstrual period occurred more than 5 weeks ago</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+</variable>
+
+<variable id="phv00029120.v1">
+	<name>ock3dii</name>
+	<description>Pregnancy test has been performed</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+</variable>
+
+<variable id="phv00029121.v1">
+	<name>ock3diii</name>
+	<description>Pregnancy test indicated pregnancy</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+</variable>
+
+<variable id="phv00029122.v1">
+	<name>ock4a</name>
+	<description>Hypoglycemia: number of hospitalizations for hypoglycemia</description>
+	<type>byte</type>
+	<unit>HOSPITALIZATIONS</unit>
+</variable>
+
+<variable id="phv00029123.v1">
+	<name>ock4bi</name>
+	<description>Severe hypoglycemia: how many times has patient experienced hypoglycemia severe enough to lose consciousness - without seizure occurrence</description>
+	<type>byte</type>
+	<unit>L.O.C. WITHOUT SEIZURE</unit>
+</variable>
+
+<variable id="phv00029124.v1">
+	<name>ock4bii</name>
+	<description>Severe hypoglycemia: how many times has patient experienced hypoglycemia severe enough to lose consciousness - with seizure occurrence</description>
+	<type>byte</type>
+	<unit>L.O.C. WITH SEIZURE</unit>
+</variable>
+
+<variable id="phv00029125.v1">
+	<name>ock4ci</name>
+	<description>Severe hypoglycemia: how many times has patient needed i.v. or injection of glucose</description>
+	<type>byte</type>
+	<unit>ASSISTANCE REQUIRED-PROFESSIONAL MEDICAL</unit>
+</variable>
+
+<variable id="phv00029126.v1">
+	<name>ock4cii</name>
+	<description>Severe hypoglycemia: how many times has patient required assistance with administration of glucagon</description>
+	<type>byte</type>
+	<unit>ASSISTANCE REQUIRED-another person</unit>
+</variable>
+
+<variable id="phv00029127.v1">
+	<name>ock4ciii</name>
+	<description>Severe hypoglycemia: how many times has patient needed assistance of another person (other than listed under questions ock4ci-4cii)</description>
+	<type>byte</type>
+	<unit>ASSISTANCE REQUIRED-another person</unit>
+</variable>
+
+<variable id="phv00029128.v1">
+	<name>ock4di</name>
+	<description>When did severe hypoglycemia occur?</description>
+	<type>byte</type>
+	<value code="1">WHILE AWAKE</value>
+	<value code="2">WHILE ASLEEP</value>
+	<value code="3">BOTH</value>
+</variable>
+
+<variable id="phv00029136.v1">
+	<name>ock4dii1</name>
+	<description>Severe hypoglycemia - symptoms: adrenergic warning symptoms</description>
+	<type>byte</type>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00029137.v1">
+	<name>ock4dii2</name>
+	<description>Severe hypoglycemia - symptoms: diaphoresis (sweating)</description>
+	<type>byte</type>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00029138.v1">
+	<name>ock4dii3</name>
+	<description>Severe hypoglycemia - symptoms: altered mental status</description>
+	<type>byte</type>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00029139.v1">
+	<name>ock4dii4</name>
+	<description>Severe hypoglycemia - symptoms: loss of consciousness</description>
+	<type>byte</type>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00029140.v1">
+	<name>ock4dii5</name>
+	<description>Severe hypoglycemia - symptoms: seizure</description>
+	<type>byte</type>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00029141.v1">
+	<name>ock4dii6</name>
+	<description>Severe hypoglycemia - symptoms: other</description>
+	<type>byte</type>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00029142.v1">
+	<name>ock4dii7</name>
+	<description>Severe hypoglycemia - symptoms: none</description>
+	<type>byte</type>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00029129.v1">
+	<name>ock4diia</name>
+	<description>Severe hypoglycemia - cause: missed meal or snack</description>
+	<type>byte</type>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00029130.v1">
+	<name>ock4diib</name>
+	<description>Severe hypoglycemia - cause: decreased food intake</description>
+	<type>byte</type>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00029131.v1">
+	<name>ock4diic</name>
+	<description>Severe hypoglycemia - cause: increased exercise level</description>
+	<type>byte</type>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00029132.v1">
+	<name>ock4diid</name>
+	<description>Severe hypoglycemia - cause: too much insulin taken</description>
+	<type>byte</type>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00029133.v1">
+	<name>ock4diie</name>
+	<description>Severe hypoglycemia - cause: no warning signs of low blood glucose</description>
+	<type>byte</type>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00029134.v1">
+	<name>ock4diif</name>
+	<description>Severe hypoglycemia - cause: other</description>
+	<type>byte</type>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00029135.v1">
+	<name>ock4diig</name>
+	<description>Severe hypoglycemia - cause: unexplained</description>
+	<type>byte</type>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00029143.v1">
+	<name>ock4div</name>
+	<description>Severe hypoglycemia: number of times patient received glucagon</description>
+	<type>byte</type>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00029144.v1">
+	<name>ock4dv</name>
+	<description>Severe hypoglycemia: number of times patient received glucose i.v.</description>
+	<type>byte</type>
+	<unit>GLUCOSE I.V.</unit>
+</variable>
+
+<variable id="phv00029145.v1">
+	<name>ock4dvi</name>
+	<description>Severe hypoglycemia - did any of the episodes result in injury to the patient or others</description>
+	<type>byte</type>
+	<unit>HYPOGLYCEMIA EPISODES WITH INJURY</unit>
+</variable>
+
+<variable id="phv00029146.v1">
+	<name>ock4e</name>
+	<description>Mild hypoglycemia - how many times per week did patient experience hypoglycemia mild enough to treat him/herself</description>
+	<type>byte</type>
+	<unit>MILD HYPOGLYCEMIA/WEEK</unit>
+</variable>
+
+<variable id="phv00029147.v1">
+	<name>ock4fi</name>
+	<description>When did mild hypoglycemia occur?</description>
+	<type>byte</type>
+	<value code="1">WHILE AWAKE</value>
+	<value code="2">WHILE ASLEEP</value>
+	<value code="3">BOTH</value>
+</variable>
+
+<variable id="phv00029148.v1">
+	<name>ock4fii1</name>
+	<description>Mild hypoglycemia - cause: missed meal or snack</description>
+	<type>byte</type>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00029149.v1">
+	<name>ock4fii2</name>
+	<description>Mild hypoglycemia - cause: decreased food intake</description>
+	<type>byte</type>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00029150.v1">
+	<name>ock4fii3</name>
+	<description>Mild hypoglycemia - cause: increased exercise level</description>
+	<type>byte</type>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00029151.v1">
+	<name>ock4fii4</name>
+	<description>Mild hypoglycemia - cause: too much insulin taken</description>
+	<type>byte</type>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00029152.v1">
+	<name>ock4fii5</name>
+	<description>Mild hypoglycemia - cause: lack of warning signs of low blood glucose</description>
+	<type>byte</type>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00029153.v1">
+	<name>ock4fii6</name>
+	<description>Mild hypoglycemia - cause: other</description>
+	<type>byte</type>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00029154.v1">
+	<name>ock4fii7</name>
+	<description>Mild hypoglycemia - cause: unexplained</description>
+	<type>byte</type>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00029155.v1">
+	<name>ock4fiia</name>
+	<description>Mild hypoglycemia - symptoms: adrenergic warning symptoms</description>
+	<type>byte</type>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00029156.v1">
+	<name>ock4fiib</name>
+	<description>Mild hypoglycemia - symptoms: diaphoresis (sweating)</description>
+	<type>byte</type>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00029157.v1">
+	<name>ock4fiic</name>
+	<description>Mild hypoglycemia - symptoms: altered mental status</description>
+	<type>byte</type>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00029158.v1">
+	<name>ock4fiid</name>
+	<description>Mild hypoglycemia - symptoms: other</description>
+	<type>byte</type>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00029159.v1">
+	<name>ock4fiie</name>
+	<description>Mild hypoglycemia - symptoms: none</description>
+	<type>byte</type>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00029161.v1">
+	<name>ocl1al</name>
+	<description>Ophthalmic complications: blurred or reduced vision - left eye</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+</variable>
+
+<variable id="phv00029160.v1">
+	<name>ocl1ar</name>
+	<description>Ophthalmic complications: blurred or reduced vision - right eye</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+</variable>
+
+<variable id="phv00029163.v1">
+	<name>ocl1bl</name>
+	<description>Ophthalmic complications: patient has experienced floaters or flashing lights - left eye</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+</variable>
+
+<variable id="phv00029162.v1">
+	<name>ocl1br</name>
+	<description>Ophthalmic complications: patient has experienced floaters or flashing lights - right eye</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+</variable>
+
+<variable id="phv00029165.v1">
+	<name>ocl1cl</name>
+	<description>Ophthalmic complications: retinal abnormality - left eye</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+</variable>
+
+<variable id="phv00029164.v1">
+	<name>ocl1cr</name>
+	<description>Ophthalmic complications: retinal abnormality - right eye</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+</variable>
+
+<variable id="phv00029167.v1">
+	<name>ocl1dl</name>
+	<description>Ophthalmic complications: other problem(s) in left eye</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+</variable>
+
+<variable id="phv00029166.v1">
+	<name>ocl1dr</name>
+	<description>Ophthalmic complications: other problem(s) in right eye</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+</variable>
+
+<variable id="phv00029168.v1">
+	<name>ocl1e</name>
+	<description>Ophthalmic complications: patient will be sent to ophthalmologist for a special visit</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+</variable>
+
+<variable id="phv00029169.v1">
+	<name>ocl2a</name>
+	<description>Neurologic complications:  paresthesia in hands or feet</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+</variable>
+
+<variable id="phv00029170.v1">
+	<name>ocl2b</name>
+	<description>Neurologic complications: unexplained muscle weakness</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+</variable>
+
+<variable id="phv00029171.v1">
+	<name>ocl2c</name>
+	<description>Neurologic complications: vomiting or bloating occurred after meals</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+</variable>
+
+<variable id="phv00029172.v1">
+	<name>ocl2d</name>
+	<description>Neurologic complications: bouts of persistent or recurrent diarrhea</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+</variable>
+
+<variable id="phv00029173.v1">
+	<name>ocl2e</name>
+	<description>Neurologic complications: bouts of urinary retention</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+</variable>
+
+<variable id="phv00029174.v1">
+	<name>ocl2f</name>
+	<description>Neurologic complications: dizziness or lightheadedness</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+</variable>
+
+<variable id="phv00029175.v1">
+	<name>ocl2g</name>
+	<description>Neurologic complications: fainting spells</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+</variable>
+
+<variable id="phv00029176.v1">
+	<name>ocl2h</name>
+	<description>Neurologic complications: impotence</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+	<value code="3">N.A.</value>
+</variable>
+
+<variable id="phv00029177.v1">
+	<name>ocl2i</name>
+	<description>Neurologic complications: other neurologic problem(s)</description>
+	<type>byte</type>
+	<value code="0">UNKNOWN/ERROR VALUE</value>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+</variable>
+
+<variable id="phv00029178.v1">
+	<name>ocl3a</name>
+	<description>Renal complications: proteinuria</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+</variable>
+
+<variable id="phv00029179.v1">
+	<name>ocl3b</name>
+	<description>Renal complications: edema (of renal etiology only)</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+</variable>
+
+<variable id="phv00029180.v1">
+	<name>ocl3c</name>
+	<description>Renal complications: other renal problem(s)</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+</variable>
+
+<variable id="phv00029181.v1">
+	<name>ocl4a</name>
+	<description>Vascular complications: shortness of breath</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+</variable>
+
+<variable id="phv00029182.v1">
+	<name>ocl4b</name>
+	<description>Vascular complications: symptoms of congestive heart disease</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+</variable>
+
+<variable id="phv00029183.v1">
+	<name>ocl4c</name>
+	<description>Vascular complications: impaired peripheral vascular circulation</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+</variable>
+
+<variable id="phv00029184.v1">
+	<name>ocl4d</name>
+	<description>Vascular complications: chest pain</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+</variable>
+
+<variable id="phv00029185.v1">
+	<name>ocl4d1</name>
+	<description>Vascular complications - chest pain: this is clinical angina</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+</variable>
+
+<variable id="phv00029186.v1">
+	<name>ocl4e</name>
+	<description>Vascular complications: definite or suspected non-acute MI</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+</variable>
+
+<variable id="phv00029187.v1">
+	<name>ocl4f</name>
+	<description>Vascular complications: transient ischemic attack(s)</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+</variable>
+
+<variable id="phv00029188.v1">
+	<name>ocl4g</name>
+	<description>Vascular complications: other vascular problems</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+</variable>
+
+<variable id="phv00029189.v1">
+	<name>ocl5a</name>
+	<description>Infections: urinary tract infection</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+</variable>
+
+<variable id="phv00029190.v1">
+	<name>ocl5b</name>
+	<description>Infections: upper/lower respiratory tract infections</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+</variable>
+
+<variable id="phv00029191.v1">
+	<name>ocl5c</name>
+	<description>Infections: gastroenteritis</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+</variable>
+
+<variable id="phv00029192.v1">
+	<name>ocl5d</name>
+	<description>Infections: cutaneous (non-infusion site) or mucocutaneous infection</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+</variable>
+
+<variable id="phv00029193.v1">
+	<name>ocl5e</name>
+	<description>Infections: post-operative/deep wound infection(s)</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+</variable>
+
+<variable id="phv00029194.v1">
+	<name>ocl5f</name>
+	<description>Infections: gangrene</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+</variable>
+
+<variable id="phv00029195.v1">
+	<name>ocl5g</name>
+	<description>Infections: other infections</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+</variable>
+
+<variable id="phv00029196.v1">
+	<name>ocl5h</name>
+	<description>Infections: infection(s) at the insertion side</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+	<value code="3">UNKNOWN/ERROR VALUE</value>
+</variable>
+
+<variable id="phv00029197.v1">
+	<name>ocl6</name>
+	<description>Patient experienced minor outpatient surgery or incidental trauma</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+</variable>
+
+<variable id="phv00029198.v1">
+	<name>ocl7</name>
+	<description>Patient experienced intercurrent endocrine event(s)</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+</variable>
+
+<variable id="phv00029199.v1">
+	<name>ocl8</name>
+	<description>Patient experienced adverse psychosocial reaction(s)</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+</variable>
+
+<variable id="phv00029200.v1">
+	<name>ocl9a</name>
+	<description>Patient experienced other medical problem(s)</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+</variable>
+
+<variable id="phv00029212.v1">
+	<name>oclipoat</name>
+	<description>Injection sites (including catheter site) show: lipoatrophy</description>
+	<type>byte</type>
+	<value code="1">ABSENT</value>
+	<value code="2">PRESENT</value>
+</variable>
+
+<variable id="phv00029213.v1">
+	<name>oclipohy</name>
+	<description>Injection sites (including catheter site) show: lipohypertrophy</description>
+	<type>byte</type>
+	<value code="1">ABSENT</value>
+	<value code="2">PRESENT</value>
+</variable>
+
+<variable id="phv00028951.v1">
+	<name>oclpdate</name>
+	<description>Date lipid specimens were drawn</description>
+	<type>str6</type>
+</variable>
+
+<variable id="phv00028859.v1">
+	<name>oclstvst</name>
+	<description>Date of last completed visit</description>
+	<type>str6</type>
+</variable>
+
+<variable id="phv00029201.v1">
+	<name>ocm1</name>
+	<description>Number of aspirin- or other prostaglandin inhibitors-containing tablets patient takes on average per month</description>
+	<type>int</type>
+	<unit>ASPIRINS-PGI/MONTH</unit>
+</variable>
+
+<variable id="phv00029202.v1">
+	<name>ocm2</name>
+	<description>Patient has been/is currently using prescription drugs other than insulin</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+</variable>
+
+<variable id="phv00029203.v1">
+	<name>ocm3</name>
+	<description>Patient used over-the-counter drugs</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+</variable>
+
+<variable id="phv00029204.v1">
+	<name>ocm4</name>
+	<description>Patient used vitamin supplements on regular basis</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+</variable>
+
+<variable id="phv00028968.v1">
+	<name>ocmarno</name>
+	<description>Number of times married</description>
+	<type>byte</type>
+	<unit>MARRIAGES</unit>
+</variable>
+
+<variable id="phv00028967.v1">
+	<name>ocmarry</name>
+	<description>Marital status of patient</description>
+	<type>byte</type>
+	<value code="1">NEVER MARRIED</value>
+	<value code="2">MARRIED OR REMARRIED</value>
+	<value code="3">SEPARATED</value>
+	<value code="4">DIVORCED</value>
+	<value code="5">WIDOWED</value>
+</variable>
+
+<variable id="phv00028981.v1">
+	<name>ocmjobch</name>
+	<description>Mother&#39;s job status changed</description>
+	<type>byte</type>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00028986.v1">
+	<name>ocmomed</name>
+	<description>Mother&#39;s education level</description>
+	<type>byte</type>
+	<value code="1">GRADUATE SCHOOL</value>
+	<value code="2">COLLEGE GRADUATE</value>
+	<value code="3">SOME COLLEGE OR TRADE SCHOOL</value>
+	<value code="4">SECONDARY SCHOOL GRADUATE</value>
+	<value code="5">SOME SECONDARY SCHOOL</value>
+	<value code="6">ELEMENTARY SCHOOL</value>
+	<value code="7">NONE</value>
+	<value code="8">UNKNOWN</value>
+</variable>
+
+<variable id="phv00028971.v1">
+	<name>ocmomjob</name>
+	<description>Mother&#39;s occupation</description>
+	<type>byte</type>
+	<value code="1">PROFESSIONAL, TECHNICAL, or SIMILAR WORKER</value>
+	<value code="10">HOMEMAKER</value>
+	<value code="11">STUDENT</value>
+	<value code="12">OTHER OR UNKNOWN</value>
+	<value code="2">MANAGER, OFFICIAL, OR PROPRIETOR</value>
+	<value code="3">CRAFTSMAN, FOREMAN, OR SIMILAR WORKER</value>
+	<value code="4">CLERICAL OR SIMILAR WORKER</value>
+	<value code="5">SALES WORKER</value>
+	<value code="6">OPERATIVE OR SIMILAR WORKER</value>
+	<value code="7">SERVICE WORKER</value>
+	<value code="8">LABORER</value>
+	<value code="9">FARMER</value>
+</variable>
+
+<variable id="phv00028976.v1">
+	<name>ocmomnoj</name>
+	<description>Mother unemployed or retired</description>
+	<type>byte</type>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00028860.v1">
+	<name>ocmrdate</name>
+	<description>Date marital status changed</description>
+	<type>int</type>
+</variable>
+
+<variable id="phv00029208.v1">
+	<name>ocn10</name>
+	<description>Patient failed to maintain normal growth/development</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+</variable>
+
+<variable id="phv00028958.v1">
+	<name>ocnewdat</name>
+	<description>Standard Group - Modifications since last visit:  date new regimen was started</description>
+	<type>str6</type>
+</variable>
+
+<variable id="phv00029224.v1">
+	<name>oco11a</name>
+	<description>Change insulin regimen to: units of long-acting or ultra-lente insulin</description>
+	<type>byte</type>
+	<unit>I.U.</unit>
+</variable>
+
+<variable id="phv00029225.v1">
+	<name>oco11b</name>
+	<description>Change insulin regimen to: units of NPH or lente insulin</description>
+	<type>byte</type>
+	<unit>I.U.</unit>
+</variable>
+
+<variable id="phv00029226.v1">
+	<name>oco11c</name>
+	<description>Change insulin regimen to: units of regular or semi-lente insulin</description>
+	<type>byte</type>
+	<unit>I.U.</unit>
+</variable>
+
+<variable id="phv00028938.v1">
+	<name>oco11d</name>
+	<description>Changed insulin regimen: injection time of insulin injection</description>
+	<type>str5</type>
+	<unit>O-CLOCK</unit>
+</variable>
+
+<variable id="phv00029227.v1">
+	<name>oco11e</name>
+	<description>Change insulin regimen to: insulin dosage A.M. or P.M.</description>
+	<type>byte</type>
+	<value code="1">A.M.</value>
+	<value code="2">P.M.</value>
+</variable>
+
+<variable id="phv00029228.v1">
+	<name>oco12a</name>
+	<description>Change insulin regimen to: units of long-acting or ultra-lente insulin</description>
+	<type>byte</type>
+	<unit>I.U.</unit>
+</variable>
+
+<variable id="phv00029229.v1">
+	<name>oco12b</name>
+	<description>Change insulin regimen to: units of NPH or lente insulin</description>
+	<type>byte</type>
+	<unit>I.U.</unit>
+</variable>
+
+<variable id="phv00029230.v1">
+	<name>oco12c</name>
+	<description>Change insulin regimen to: units of regular or semi-lente insulin</description>
+	<type>byte</type>
+	<unit>I.U.</unit>
+</variable>
+
+<variable id="phv00028939.v1">
+	<name>oco12d</name>
+	<description>Changed insulin regimen: injection time of insulin injection</description>
+	<type>str5</type>
+	<unit>O-CLOCK</unit>
+</variable>
+
+<variable id="phv00029231.v1">
+	<name>oco12e</name>
+	<description>Change insulin regimen to: insulin dosage A.M. or P.M.</description>
+	<type>byte</type>
+	<value code="1">A.M.</value>
+	<value code="2">P.M.</value>
+</variable>
+
+<variable id="phv00029232.v1">
+	<name>oco13a</name>
+	<description>Change insulin regimen to: units of long-acting or ultra-lente insulin</description>
+	<type>byte</type>
+	<unit>I.U.</unit>
+</variable>
+
+<variable id="phv00029233.v1">
+	<name>oco13b</name>
+	<description>Change insulin regimen to: units of NPH or lente insulin</description>
+	<type>byte</type>
+	<unit>I.U.</unit>
+</variable>
+
+<variable id="phv00029234.v1">
+	<name>oco13c</name>
+	<description>Change insulin regimen to: units of regular or semi-lente insulin</description>
+	<type>byte</type>
+	<unit>I.U.</unit>
+</variable>
+
+<variable id="phv00028940.v1">
+	<name>oco13d</name>
+	<description>Changed insulin regimen: injection time of insulin injection</description>
+	<type>str5</type>
+	<unit>O-CLOCK</unit>
+</variable>
+
+<variable id="phv00029235.v1">
+	<name>oco13e</name>
+	<description>Change insulin regimen to: insulin dosage A.M. or P.M.</description>
+	<type>byte</type>
+	<value code="1">A.M.</value>
+	<value code="2">P.M.</value>
+</variable>
+
+<variable id="phv00029236.v1">
+	<name>oco2a</name>
+	<description>Changed to: type of insulin - beef and pork</description>
+	<type>byte</type>
+	<unit>INSULIN: BEEF AND PORK</unit>
+</variable>
+
+<variable id="phv00029237.v1">
+	<name>oco2b</name>
+	<description>Changed to: type of insulin - beef</description>
+	<type>byte</type>
+	<unit>INSULIN: BEEF</unit>
+</variable>
+
+<variable id="phv00029238.v1">
+	<name>oco2c</name>
+	<description>Changed to: type of insulin - pork</description>
+	<type>byte</type>
+	<unit>INSULIN: PORK</unit>
+</variable>
+
+<variable id="phv00029239.v1">
+	<name>oco2d</name>
+	<description>Changed to: type of insulin - human</description>
+	<type>byte</type>
+	<unit>INSULIN: HUMAN</unit>
+</variable>
+
+<variable id="phv00029240.v1">
+	<name>ocp1</name>
+	<description>Profilset mailed  to Central Biochemistry Laboratory</description>
+	<type>long</type>
+	<value code="1">NO</value>
+	<value code="110592">ERROR</value>
+	<value code="118784">UNKNOWN/ERROR</value>
+	<value code="2">YES</value>
+	<value code="20480">ERROR VALUE</value>
+	<value code="60672">ERROR VALUE/UNKNOWN</value>
+</variable>
+
+<variable id="phv00029248.v1">
+	<name>ocp12</name>
+	<description>Renal specimens will be mailed to the Central Biochemistry Laboratory</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+</variable>
+
+<variable id="phv00029241.v1">
+	<name>ocp2a</name>
+	<description>Profilset not sent because: kit damaged after collection</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+</variable>
+
+<variable id="phv00029242.v1">
+	<name>ocp2b</name>
+	<description>Profilset not sent because: patient forgot to do collection</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+</variable>
+
+<variable id="phv00029243.v1">
+	<name>ocp2c</name>
+	<description>Profilset not sent because: patient lost kit</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+</variable>
+
+<variable id="phv00029244.v1">
+	<name>ocp2d</name>
+	<description>Profilset not sent because: patient refused to do collection</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+</variable>
+
+<variable id="phv00029245.v1">
+	<name>ocp2e</name>
+	<description>Profilset not sent because: other or unknown reason</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+</variable>
+
+<variable id="phv00029246.v1">
+	<name>ocp6</name>
+	<description>Performed self blood glucose monitoring on date of Profilset receipt</description>
+	<type>int</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+	<value code="30720">ERROR VALUE</value>
+</variable>
+
+<variable id="phv00028943.v1">
+	<name>ocp7a</name>
+	<description>On day of Profilset specimen collection - results of self blood glucose monitoring: pre-breakfast</description>
+	<type>int</type>
+	<unit>MG/DL</unit>
+</variable>
+
+<variable id="phv00028944.v1">
+	<name>ocp7b</name>
+	<description>On day of Profilset specimen collection - results of self blood glucose monitoring: 90 minutes pre-breakfast</description>
+	<type>int</type>
+	<unit>MG/DL</unit>
+</variable>
+
+<variable id="phv00028945.v1">
+	<name>ocp7c</name>
+	<description>On day of Profilset specimen collection - results of self blood glucose monitoring: pre-lunch</description>
+	<type>int</type>
+	<unit>MG/DL</unit>
+</variable>
+
+<variable id="phv00028946.v1">
+	<name>ocp7d</name>
+	<description>On day of Profilset specimen collection - results of self blood glucose monitoring: 90 minutes pre-lunch</description>
+	<type>int</type>
+	<unit>MG/DL</unit>
+</variable>
+
+<variable id="phv00028947.v1">
+	<name>ocp7e</name>
+	<description>On day of Profilset specimen collection - results of self blood glucose monitoring: pre-supper</description>
+	<type>int</type>
+	<unit>MG/DL</unit>
+</variable>
+
+<variable id="phv00028948.v1">
+	<name>ocp7f</name>
+	<description>On day of Profilset specimen collection - results of self blood glucose monitoring: 90 minutes pre-supper</description>
+	<type>int</type>
+	<unit>MG/DL</unit>
+</variable>
+
+<variable id="phv00028949.v1">
+	<name>ocp7g</name>
+	<description>On day of Profilset specimen collection - results of self blood glucose monitoring: bedtime</description>
+	<type>int</type>
+	<unit>MG/DL</unit>
+</variable>
+
+<variable id="phv00029247.v1">
+	<name>ocp9</name>
+	<description>Lipid specimens will be mailed to Central Biochemistry Laboratory</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+</variable>
+
+<variable id="phv00028984.v1">
+	<name>ocpated</name>
+	<description>Patient&#39;s education level</description>
+	<type>byte</type>
+	<value code="1">GRADUATE SCHOOL</value>
+	<value code="2">COLLEGE GRADUATE</value>
+	<value code="3">SOME COLLEGE OR TRADE SCHOOL</value>
+	<value code="4">SECONDARY SCHOOL GRADUATE</value>
+	<value code="5">SOME SECONDARY SCHOOL</value>
+	<value code="6">ELEMENTARY SCHOOL</value>
+	<value code="7">NONE</value>
+	<value code="8">UNKNOWN</value>
+</variable>
+
+<variable id="phv00028969.v1">
+	<name>ocpatjob</name>
+	<description>Patient&#39;s occupation</description>
+	<type>byte</type>
+	<value code="1">PROFESSIONAL, TECHNICAL, or SIMILAR WORKER</value>
+	<value code="10">HOMEMAKER</value>
+	<value code="11">STUDENT</value>
+	<value code="12">OTHER OR UNKNOWN</value>
+	<value code="2">MANAGER, OFFICIAL, OR PROPRIETOR</value>
+	<value code="3">CRAFTSMAN, FOREMAN, OR SIMILAR WORKER</value>
+	<value code="4">CLERICAL OR SIMILAR WORKER</value>
+	<value code="5">SALES WORKER</value>
+	<value code="6">OPERATIVE OR SIMILAR WORKER</value>
+	<value code="7">SERVICE WORKER</value>
+	<value code="8">LABORER</value>
+	<value code="9">FARMER</value>
+</variable>
+
+<variable id="phv00028974.v1">
+	<name>ocpatnoj</name>
+	<description>Patient unemployed or retired</description>
+	<type>byte</type>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00028926.v1">
+	<name>ocpedate</name>
+	<description>Date of last physical examination</description>
+	<type>str6</type>
+</variable>
+
+<variable id="phv00028957.v1">
+	<name>ocpermda</name>
+	<description>Standard Group - Modifications since last visit: date permission was received</description>
+	<type>str6</type>
+</variable>
+
+<variable id="phv00028979.v1">
+	<name>ocpjobch</name>
+	<description>Patient&#39;s job status changed</description>
+	<type>byte</type>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00028942.v1">
+	<name>ocprfdat</name>
+	<description>Date Profileset has been mailed</description>
+	<type>str6</type>
+</variable>
+
+<variable id="phv00028961.v1">
+	<name>ocprtdat</name>
+	<description>Experimental Group - Modifications since last visit: date experimental treatment group set protocol</description>
+	<type>str6</type>
+</variable>
+
+<variable id="phv00029223.v1">
+	<name>ocptibl</name>
+	<description>Feet: pulse posterior tibial - left</description>
+	<type>byte</type>
+	<value code="1">NORMAL</value>
+	<value code="2">DIMINISHED</value>
+	<value code="3">ABSENT</value>
+</variable>
+
+<variable id="phv00029222.v1">
+	<name>ocptibr</name>
+	<description>Feet: pulse posterior tibial - right</description>
+	<type>byte</type>
+	<value code="1">NORMAL</value>
+	<value code="2">DIMINISHED</value>
+	<value code="3">ABSENT</value>
+</variable>
+
+<variable id="phv00028932.v1">
+	<name>ocpulse</name>
+	<description>Patient&#39;s  pulse</description>
+	<type>int</type>
+	<unit>BEATS/MINUTE</unit>
+</variable>
+
+<variable id="phv00029249.v1">
+	<name>ocq</name>
+	<description>Since last visit: deviation from treatment plan</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+</variable>
+
+<variable id="phv00029250.v1">
+	<name>ocqb</name>
+	<description>Currently on deviation from treatment plan</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+</variable>
+
+<variable id="phv00029251.v1">
+	<name>ocr</name>
+	<description>Since last visit: any time on inactive status</description>
+	<type>byte</type>
+	<value code="0">UNKNOWN/ERROR VALUE</value>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+</variable>
+
+<variable id="phv00029252.v1">
+	<name>ocrb</name>
+	<description>Currently on transfer to inactive status</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+</variable>
+
+<variable id="phv00028952.v1">
+	<name>ocrendat</name>
+	<description>Date renal specimens were collected</description>
+	<type>str6</type>
+</variable>
+
+<variable id="phv00028962.v1">
+	<name>ocresch</name>
+	<description>Visit rescheduled</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+</variable>
+
+<variable id="phv00028963.v1">
+	<name>ocreschn</name>
+	<description>Number of times needed to reschedule visit</description>
+	<type>byte</type>
+	<unit>RESCHEDULED VISITS</unit>
+</variable>
+
+<variable id="phv00029253.v1">
+	<name>ocs</name>
+	<description>Since last visit: any time on modified follow-up schedule</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+</variable>
+
+<variable id="phv00028980.v1">
+	<name>ocsjobch</name>
+	<description>Spouse&#39;s job status changed</description>
+	<type>byte</type>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00028995.v1">
+	<name>ocsmoke1</name>
+	<description>Patient smoked cigarettes/cigarillos in past year</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+</variable>
+
+<variable id="phv00028996.v1">
+	<name>ocsmoke2</name>
+	<description>Patient currently smokes cigarettes/cigarillos</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+</variable>
+
+<variable id="phv00028997.v1">
+	<name>ocsmoke3</name>
+	<description>Number of months since patient quit smoking cigarettes/cigarillos</description>
+	<type>byte</type>
+	<unit>MONTHS</unit>
+</variable>
+
+<variable id="phv00028998.v1">
+	<name>ocsmoke4</name>
+	<description>Number of cigarettes or cigarillos/day did patient smoke in past year</description>
+	<type>byte</type>
+	<unit>CIGARETTES-CIGARILLOS/DAY</unit>
+</variable>
+
+<variable id="phv00028999.v1">
+	<name>ocsmoke5</name>
+	<description>Has patient ever smoked pipes or cigars in past year?</description>
+	<type>byte</type>
+	<value code="0">UNKNOWN/ERROR VALUE</value>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+</variable>
+
+<variable id="phv00029000.v1">
+	<name>ocsmoke6</name>
+	<description>Does patient currently smoke pipes or cigars?</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+</variable>
+
+<variable id="phv00029001.v1">
+	<name>ocsmoke7</name>
+	<description>How long ago did patient quit smoking pipes or cigars (months)?</description>
+	<type>byte</type>
+	<unit>MONTHS</unit>
+</variable>
+
+<variable id="phv00028861.v1">
+	<name>ocsmoke8</name>
+	<description>Number of pipefuls/cigars per week in past year</description>
+	<type>float</type>
+	<unit>CIGARS-PIPES/WEEK</unit>
+</variable>
+
+<variable id="phv00029216.v1">
+	<name>ocspan</name>
+	<description>Abdomen - hepatomegaly: if present, how large (span)</description>
+	<type>byte</type>
+	<unit>CM</unit>
+</variable>
+
+<variable id="phv00028970.v1">
+	<name>ocspjob</name>
+	<description>Spouse&#39;s occupation</description>
+	<type>byte</type>
+	<value code="1">PROFESSIONAL, TECHNICAL, or SIMILAR WORKER</value>
+	<value code="10">HOMEMAKER</value>
+	<value code="11">STUDENT</value>
+	<value code="12">OTHER OR UNKNOWN</value>
+	<value code="2">MANAGER, OFFICIAL, OR PROPRIETOR</value>
+	<value code="3">CRAFTSMAN, FOREMAN, OR SIMILAR WORKER</value>
+	<value code="4">CLERICAL OR SIMILAR WORKER</value>
+	<value code="5">SALES WORKER</value>
+	<value code="6">OPERATIVE OR SIMILAR WORKER</value>
+	<value code="7">SERVICE WORKER</value>
+	<value code="8">LABORER</value>
+	<value code="9">FARMER</value>
+</variable>
+
+<variable id="phv00028985.v1">
+	<name>ocspoed</name>
+	<description>Spouse&#39;s education level</description>
+	<type>byte</type>
+	<value code="1">GRADUATE SCHOOL</value>
+	<value code="2">COLLEGE GRADUATE</value>
+	<value code="3">SOME COLLEGE OR TRADE SCHOOL</value>
+	<value code="4">SECONDARY SCHOOL GRADUATE</value>
+	<value code="5">SOME SECONDARY SCHOOL</value>
+	<value code="6">ELEMENTARY SCHOOL</value>
+	<value code="7">NONE</value>
+	<value code="8">UNKNOWN</value>
+</variable>
+
+<variable id="phv00028975.v1">
+	<name>ocsponoj</name>
+	<description>Spouse unemployed or retired</description>
+	<type>byte</type>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00028989.v1">
+	<name>ocstudnt</name>
+	<description>Patient was student in past year</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+</variable>
+
+<variable id="phv00028933.v1">
+	<name>ocsystr</name>
+	<description>Systolic - first sitting blood pressure</description>
+	<type>int</type>
+	<unit>MMHG</unit>
+</variable>
+
+<variable id="phv00028936.v1">
+	<name>ocsystr2</name>
+	<description>Systolic - second sitting blood pressure</description>
+	<type>int</type>
+	<unit>MMHG</unit>
+</variable>
+
+<variable id="phv00029254.v1">
+	<name>oct</name>
+	<description>Standard Group - Since last visit - if no modification(s) in therapy, check/proceed to end of form</description>
+	<type>byte</type>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00029255.v1">
+	<name>octa</name>
+	<description>Standard Group - Modification(s)  since last visit: more frequent dietary instruction</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+</variable>
+
+<variable id="phv00029256.v1">
+	<name>octa1</name>
+	<description>Standard Group - Modification(s)  since last visit: record total number of additional sessions (dietary instructions).</description>
+	<type>byte</type>
+	<unit>DIETARY INSTRUCTIONS</unit>
+</variable>
+
+<variable id="phv00029257.v1">
+	<name>octb</name>
+	<description>Standard Group - Modification(s)  since last visit: interim telephone contact</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+</variable>
+
+<variable id="phv00029258.v1">
+	<name>octb1</name>
+	<description>Standard Group - Modification(s)  since last visit: record total number of telephone contacts</description>
+	<type>byte</type>
+	<unit>PHONE CONTACTS</unit>
+</variable>
+
+<variable id="phv00029259.v1">
+	<name>octc</name>
+	<description>Standard Group - Modification(s)  since last visit: hospitalization for metabolic control</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+</variable>
+
+<variable id="phv00029260.v1">
+	<name>octc1</name>
+	<description>Standard Group - Modification(s)  since last visit: record total number of hospitalizations for metabolic control</description>
+	<type>byte</type>
+	<unit>HOSPITALIZATIONS</unit>
+</variable>
+
+<variable id="phv00029261.v1">
+	<name>octd</name>
+	<description>Standard Group - Modification(s)  since last visit: glucose monitoring at greater frequency then specified in protocol</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+</variable>
+
+<variable id="phv00029262.v1">
+	<name>octd1</name>
+	<description>Standard Group - Modification(s)  since last visit: record frequency of self blood glucose monitoring/day</description>
+	<type>byte</type>
+	<unit>BGM/DAY</unit>
+</variable>
+
+<variable id="phv00029263.v1">
+	<name>octd2</name>
+	<description>Standard Group - Modification(s)  since last visit: record frequency of urine glucose monitoring/day</description>
+	<type>byte</type>
+	<unit>UGM/DAY</unit>
+</variable>
+
+<variable id="phv00029264.v1">
+	<name>octe</name>
+	<description>Standard Group - Modification(s)  since last visit: used more than two injections of insulin/day</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+</variable>
+
+<variable id="phv00029265.v1">
+	<name>octe1</name>
+	<description>Standard Group - Modification(s)  since last visit: currently using more than two injections/day</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+</variable>
+
+<variable id="phv00028954.v1">
+	<name>octerdat</name>
+	<description>Date of termination of deviation</description>
+	<type>str6</type>
+</variable>
+
+<variable id="phv00029266.v1">
+	<name>octf</name>
+	<description>Standard Group - Modification(s)  since last visit: other modification(s)</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+</variable>
+
+<variable id="phv00028956.v1">
+	<name>octrmdat</name>
+	<description>Date of termination of inactive status</description>
+	<type>str6</type>
+</variable>
+
+<variable id="phv00028955.v1">
+	<name>octrndat</name>
+	<description>Date of application for transfer</description>
+	<type>str6</type>
+</variable>
+
+<variable id="phv00028953.v1">
+	<name>octrtdat</name>
+	<description>Date of notification of deviation from assigned treatment</description>
+	<type>str6</type>
+</variable>
+
+<variable id="phv00028991.v1">
+	<name>octyear</name>
+	<description>Patient&#39;s number of years in trade school</description>
+	<type>byte</type>
+</variable>
+
+<variable id="phv00029267.v1">
+	<name>ocu</name>
+	<description>Experimental Group - If no modifications have been made, check and sign the form</description>
+	<type>byte</type>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00029268.v1">
+	<name>ocua</name>
+	<description>Experimental Group - Modification(s) since last visit: less frequent out-patient visits planned</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+</variable>
+
+<variable id="phv00029269.v1">
+	<name>ocua1</name>
+	<description>Experimental Group - Modification(s) since last visit: record new frequency of visits</description>
+	<type>byte</type>
+	<unit>VISITS</unit>
+</variable>
+
+<variable id="phv00029270.v1">
+	<name>ocub</name>
+	<description>Experimental Group - Modification(s) since last visit: discontinuation of self blood glucose monitoring</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+</variable>
+
+<variable id="phv00029271.v1">
+	<name>ocuc</name>
+	<description>Experimental Group - Modification(s) since last visit: self blood glucose monitoring on a less frequent daily schedule</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+</variable>
+
+<variable id="phv00029272.v1">
+	<name>ocuc1</name>
+	<description>Experimental Group - Modification(s) since last visit: record frequency of blood glucose monitoring/day</description>
+	<type>byte</type>
+	<unit>SBGM/DAY</unit>
+</variable>
+
+<variable id="phv00029273.v1">
+	<name>ocud</name>
+	<description>Experimental Group - Modification(s) since last visit: institution of urine glucose monitoring</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+</variable>
+
+<variable id="phv00029274.v1">
+	<name>ocud1</name>
+	<description>Experimental Group - Modification(s) since last visit: record frequency of  urine glucose monitoring/day</description>
+	<type>byte</type>
+	<unit>UGM/DAY</unit>
+</variable>
+
+<variable id="phv00029275.v1">
+	<name>ocue</name>
+	<description>Less stringent therapy goals are planned</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+</variable>
+
+<variable id="phv00029276.v1">
+	<name>ocueiv</name>
+	<description>Stated goals are in effect at present</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+</variable>
+
+<variable id="phv00029277.v1">
+	<name>ocuf</name>
+	<description>Other modification: specify</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+</variable>
+
+<variable id="phv00028964.v1">
+	<name>ocvsitno</name>
+	<description>Follow-up visit number</description>
+	<type>byte</type>
+	<unit>VISITS</unit>
+</variable>
+
+<variable id="phv00028927.v1">
+	<name>ocweight</name>
+	<description>Current weight</description>
+	<type>float</type>
+	<unit>KG</unit>
+</variable>
+
+<variable id="phv00028965.v1">
+	<name>ocwindow</name>
+	<description>Visit held within time window</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+</variable>
+
+<variable id="phv00028928.v1">
+	<name>ocwtcha</name>
+	<description>Change in weight since previous exam (circle + or - to indicate &#39;gain&#39; or &#39;loss&#39;)</description>
+	<type>str5</type>
+	<unit>KG (+/-)</unit>
+</variable>
+
+<variable id="phv00029207.v1">
+	<name>ocwtperc</name>
+	<description>Weight percentile</description>
+	<type>byte</type>
+</variable>
+
+</data_table>

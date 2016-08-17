@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./datadict_v2.xsl"?>
+<data_table id="pht000717.v1" study_id="phs000167.v1" participant_set="1" date_created="Wed Apr 22 13:18:14 2009">
+
+<variable id="phv00071746.v1">
+	<name>SUBJID</name>
+	<description>Collection site ID (called SiteSubjID in phenotypic files) consisting of Site (not used for SGI collection, 2 digits for MGS1 collection, and 3 digits for MGS2 collection), Family (5 digits for SGI collection, and 4 digits for MGS1 or MGS2 collections) and Individual_within_family (5 digits for SGI collection, and 3 digits for MGS1 or MGS2 collections) with hyphens between the 2-3 elements for the cases and parents; OR consisting of Site (3 digits, always 150) and Individual (5 digits) with hyphens between the 2 elements for the controls</description>
+	<type>string</type>
+</variable>
+
+<variable id="phv00071747.v1">
+	<name>SUBJ_SOURCE</name>
+	<description>Source repository where subjects originate (RUDCR)</description>
+	<type>string</type>
+	<comment>All subject&#39;s samples are from RUCDR (Rutgers University Cell and DNA Repository)</comment>
+</variable>
+
+<variable id="phv00071748.v1">
+	<name>SOURCE_SUBJID</name>
+	<description>Subject ID used in the Source Repository</description>
+	<type>string</type>
+	<comment>Also known as DNA_ID, the ID number assigned by the RUCDR to this subject&#39;s DNA specimens</comment>
+</variable>
+
+<variable id="phv00071749.v1">
+	<name>SUBJ_SOURCE2</name>
+	<description>Genotyping set (in this cases nonGAIN, as opposed to previous GAIN_EA and GAIN_AA done in the same collection study on different samples)</description>
+	<comment>NonGAIN_Schizophrenia</comment>
+</variable>
+
+<variable id="phv00071750.v1">
+	<name>SOURCE_SUBJID2</name>
+	<description>NonGAIN ID, written as NG - 5 digit number when referring to samples (see sample subject mapping file)</description>
+	<comment>Five - digit number</comment>
+</variable>
+
+<variable id="phv00071751.v1">
+	<name>AFFECTION_STATUS</name>
+	<description>Affection Status</description>
+	<type>encoded value</type>
+	<value code="1">Control</value>
+	<value code="2">Case</value>
+	<value code="3">Other (parents for QC trios)</value>
+</variable>
+
+<variable id="phv00071752.v1">
+	<name>CONSENT</name>
+	<description>Consent group as determined by DAC</description>
+	<type>encoded value</type>
+	<value code="1">General Research Use (also called GRU)</value>
+	<value code="2">Schizophrenia and related conditions (also called SARC)</value>
+</variable>
+
+</data_table>

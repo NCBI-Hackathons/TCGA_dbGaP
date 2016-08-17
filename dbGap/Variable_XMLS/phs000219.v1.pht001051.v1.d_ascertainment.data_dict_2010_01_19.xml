@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./datadict_v2.xsl"?>
+<data_table id="pht001051.v1" study_id="phs000219.v1" participant_set="1" date_created="Tue Jan 19 13:07:18 2010">
+
+<variable id="phv00081102.v1">
+	<name>SUBJID</name>
+	<description>Subject&#39;s ID</description>
+	<type>String</type>
+</variable>
+
+<variable id="phv00081103.v1">
+	<name>CASE_CONTROL</name>
+	<description>Subject type</description>
+	<type>Encoded value</type>
+	<value code="ADP">AD Participant</value>
+	<value code="CASE">Case</value>
+	<value code="CCCS">Control with Change in Cognitive Status</value>
+	<value code="CNTL">Control</value>
+	<value code="FAM">Family member</value>
+	<value code="UASB">Unaffected Sibling</value>
+</variable>
+
+<variable id="phv00081104.v1">
+	<name>INV</name>
+	<description>Investigator&#39;s ID</description>
+	<type>String</type>
+</variable>
+
+<variable id="phv00081105.v1">
+	<name>INVSITE</name>
+	<description>Investigator site ID</description>
+	<type>String</type>
+</variable>
+
+<variable id="phv00081106.v1">
+	<name>VISIT</name>
+	<description>Visit name</description>
+	<type>String</type>
+</variable>
+
+<variable id="phv00081107.v1">
+	<name>VISIT_DATE</name>
+	<description>Visit date</description>
+	<type>Date</type>
+	<comment>Truncated to YYYY</comment>
+</variable>
+
+<variable id="phv00081108.v1">
+	<name>CLINIC</name>
+	<description>Recruitment through a clinic</description>
+	<type>Encoded Value</type>
+	<value code="N">No</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00081109.v1">
+	<name>CLNSBTYP</name>
+	<description>Type of clinic - subject</description>
+	<type>Encoded Value</type>
+	<value code="PG">General or other Clinic Prospective Subject</value>
+	<value code="RG">General or other Clinic Retrospective Subject</value>
+	<value code="SP">Specialty Clinic Prospective Subject</value>
+	<value code="SR">Specialty Clinic Retrospective Subject</value>
+</variable>
+
+<variable id="phv00081110.v1">
+	<name>OTHTX</name>
+	<description>Recruited from other study - specify</description>
+	<type>String</type>
+</variable>
+
+<variable id="phv00081111.v1">
+	<name>RECRTTYP</name>
+	<description>Recruitment type</description>
+	<type>Encoded Value</type>
+	<value code="DR">Disease registry</value>
+	<value code="PGS">Previous Genetic Study</value>
+	<value code="POA">Previous or ongoing study of another disease</value>
+	<value code="POD">Previous or ongoing study of this disease</value>
+	<value code="X">Other</value>
+</variable>
+
+<variable id="phv00081112.v1">
+	<name>RECRUIT</name>
+	<description>Recruitment from existing study populations</description>
+	<type>Encoded Value</type>
+	<value code="N">No</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00081113.v1">
+	<name>REFERRAL</name>
+	<description>Recruitment through referral</description>
+	<type>Encoded Value</type>
+	<value code="N">No</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00081114.v1">
+	<name>REFTYP</name>
+	<description>Referral type</description>
+	<type>Encoded Value</type>
+	<value code="AD">Advertisement</value>
+	<value code="DS">Disorder related Specialist</value>
+	<value code="GP">Genetic Professional</value>
+	<value code="OS">Other Specialist</value>
+	<value code="PC">Primary Care physician</value>
+	<value code="RA">Relative or Acquaintance</value>
+	<value code="S">Self</value>
+	<value code="SS">School Survey</value>
+</variable>
+
+</data_table>

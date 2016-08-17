@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./datadict_v2.xsl"?>
+<data_table id="pht001247.v1" study_id="phs000259.v1" participant_set="1" date_created="Thu Jun  3 17:13:50 2010">
+
+<unique_key phv="00090550" version="1">SUBJID</unique_key>
+<unique_key phv="00090551" version="1">TID</unique_key>
+
+<variable id="phv00090550.v1">
+	<name>SUBJID</name>
+	<description>Deidentified Subject&#39;s ID</description>
+	<type>Integer</type>
+</variable>
+
+<variable id="phv00090551.v1">
+	<name>TID</name>
+	<description>Data collection time point ID (measured in months from baseline)</description>
+	<type>Integer</type>
+	<unit>Months</unit>
+</variable>
+
+<variable id="phv00090552.v1">
+	<name>PERINEUM</name>
+	<description>Participant has had pain or discomfort in area between rectum and testicles in the last week</description>
+	<type>Encoded values</type>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00090553.v1">
+	<name>TESTICLE</name>
+	<description>Participant has had pain or discomfort in testicles in the last week</description>
+	<type>Encoded values</type>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00090554.v1">
+	<name>GLANS</name>
+	<description>Participant has had pain or discomfort in tip of the penis (not related to urination) in the last week</description>
+	<type>Encoded values</type>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00090555.v1">
+	<name>PUBIC</name>
+	<description>Participant has had pain or discomfort below the waist, in pubic or bladder area in the last week</description>
+	<type>Encoded values</type>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00090556.v1">
+	<name>PEEBURN</name>
+	<description>Participant has had pain or burning during urination in the last week</description>
+	<type>Encoded values</type>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00090557.v1">
+	<name>EJACULAT</name>
+	<description>Participant has had pain or discomfort during or after sexual climax (ejaculation or cumming) in the last week</description>
+	<type>Encoded values</type>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00090558.v1">
+	<name>AVGPAIN</name>
+	<description>Number (1=no pain to 10=most severe pain) best describing participant&#39;s average pain or discomfort on the days that they had - over the last week</description>
+	<type>Encoded values</type>
+	<logical_min>1</logical_min>
+	<logical_max>10</logical_max>
+	<value code="1">No pain</value>
+	<value code="10">Most severe pain you can imagine</value>
+	<value code=".">Missing</value>
+</variable>
+
+<variable id="phv00090559.v1">
+	<name>BLADDER</name>
+	<description>How often participant has had a sensation of not emptying his bladder completely after finishing urinating, over the last week?</description>
+	<type>Encoded values</type>
+	<value code="1">Not at all</value>
+	<value code="2">Less than 1 time in 5</value>
+	<value code="3">Less than half the time</value>
+	<value code="4">About half the time</value>
+	<value code="5">More than half the time</value>
+	<value code="6">Almost always</value>
+</variable>
+
+<variable id="phv00090560.v1">
+	<name>PEELESS</name>
+	<description>How often participant has had to urinate again less than two hours after finishing urinating, over the last week</description>
+	<type>Encoded values</type>
+	<value code="1">Not at all</value>
+	<value code="2">Less than 1 time in 5</value>
+	<value code="3">Less than half the time</value>
+	<value code="4">About half the time</value>
+	<value code="5">More than half the time</value>
+	<value code="6">Almost always</value>
+</variable>
+
+<variable id="phv00090561.v1">
+	<name>SXLIMIT</name>
+	<description>How much participant&#39;s symptoms have kept him from doing the kinds of things he would usually do, over the last week</description>
+	<type>Encoded values</type>
+	<value code="1">None</value>
+	<value code="2">Only a little</value>
+	<value code="3">Some</value>
+	<value code="4">A lot</value>
+</variable>
+
+<variable id="phv00090562.v1">
+	<name>SXTHINK</name>
+	<description>How much participant thought about his symptoms, over the last week</description>
+	<type>Encoded values</type>
+	<value code="1">None</value>
+	<value code="2">Only a little</value>
+	<value code="3">Some</value>
+	<value code="4">A lot</value>
+</variable>
+
+<variable id="phv00090563.v1">
+	<name>SXQOL</name>
+	<description>How participant would feel if he were to spend the rest of his life with his symptoms just the way they have been during the last week</description>
+	<type>Encoded values</type>
+	<value code="1">Delighted</value>
+	<value code="2">Pleased</value>
+	<value code="3">Mostly satisfied</value>
+	<value code="4">Mixed (about equally satisfied and dissatisfied)</value>
+	<value code="5">Mostly dissatisfied</value>
+	<value code="6">Unhappy</value>
+	<value code="7">Terrible</value>
+</variable>
+
+<variable id="phv00090564.v1">
+	<name>DISCHARG</name>
+	<description>Participant experienced discharge from the penis (drip) in the last week</description>
+	<type>Encoded values</type>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00090565.v1">
+	<name>RASH</name>
+	<description>Participant experienced a rash or sore on his penis, testicles or groin arena</description>
+	<type>Encoded values</type>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00090566.v1">
+	<name>SWELL</name>
+	<description>Participant experienced swelling in his testicles</description>
+	<type>Encoded values</type>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+</data_table>

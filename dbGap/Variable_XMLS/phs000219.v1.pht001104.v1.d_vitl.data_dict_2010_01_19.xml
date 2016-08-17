@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./datadict_v2.xsl"?>
+<data_table id="pht001104.v1" study_id="phs000219.v1" participant_set="1" date_created="Tue Jan 19 13:07:34 2010">
+
+<unique_key phv="00082585" version="1">SUBJID</unique_key>
+<unique_key phv="00082589" version="1">VISIT</unique_key>
+
+<variable id="phv00082585.v1">
+	<name>SUBJID</name>
+	<description>Subject&#39;s ID</description>
+	<type>String</type>
+</variable>
+
+<variable id="phv00082586.v1">
+	<name>CASE_CONTROL</name>
+	<description>Subject type</description>
+	<type>Encoded value</type>
+	<value code="ADP">AD Participant</value>
+	<value code="CASE">Case</value>
+	<value code="CCCS">Control with Change in Cognitive Status</value>
+	<value code="CNTL">Control</value>
+	<value code="FAM">Family member</value>
+	<value code="UASB">Unaffected Sibling</value>
+</variable>
+
+<variable id="phv00082587.v1">
+	<name>INV</name>
+	<description>Investigator&#39;s ID</description>
+	<type>String</type>
+</variable>
+
+<variable id="phv00082588.v1">
+	<name>INVSITE</name>
+	<description>Investigator site ID</description>
+	<type>String</type>
+</variable>
+
+<variable id="phv00082589.v1">
+	<name>VISIT</name>
+	<description>Visit name</description>
+	<type>String</type>
+</variable>
+
+<variable id="phv00082590.v1">
+	<name>VISIT_DATE</name>
+	<description>Visit date</description>
+	<type>Date</type>
+	<comment>Truncated to YYYY</comment>
+</variable>
+
+<variable id="phv00082591.v1">
+	<name>AMBULATORY</name>
+	<description>Ambulatory</description>
+	<type>Encoded Value</type>
+	<value code="AA">Ambulatory with assistance</value>
+	<value code="AM">Ambulatory</value>
+	<value code="NA">Non-Ambulatory</value>
+</variable>
+
+<variable id="phv00082592.v1">
+	<name>BIRTH_DATE_REL</name>
+	<description>Birth date relative to due date</description>
+	<type>Encoded Value</type>
+	<value code="D">Post Date</value>
+	<value code="K">Don&#39;t Know</value>
+	<value code="O">On Time</value>
+	<value code="P">Premature</value>
+</variable>
+
+<variable id="phv00082593.v1">
+	<name>BIRTH_SIZE</name>
+	<description>Size at birth</description>
+	<type>Encoded Value</type>
+	<value code="K">Don&#39;t Know</value>
+	<value code="L">Large</value>
+	<value code="N">Normal</value>
+	<value code="S">Small</value>
+</variable>
+
+<variable id="phv00082594.v1">
+	<name>BIRTH_WEIGHT</name>
+	<description>Weight at birth</description>
+	<type>Decimal</type>
+</variable>
+
+<variable id="phv00082595.v1">
+	<name>BIRTH_WEIGHT_U</name>
+	<description>Weight at birth unit</description>
+	<type>Encoded Value</type>
+	<unit>KG</unit>
+	<comment>Defaulted</comment>
+	<value code="K">Don&#39;t Know</value>
+	<value code="N">No</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00082596.v1">
+	<name>BIRTH_WEIGHT_UNK</name>
+	<description>Weight at birth is unknown</description>
+	<type>Encoded Value</type>
+	<value code="K">Don&#39;t Know</value>
+	<value code="N">No</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00082597.v1">
+	<name>BDMSIX</name>
+	<description>BMI</description>
+	<type>Decimal</type>
+	<comment>Derived</comment>
+</variable>
+
+<variable id="phv00082598.v1">
+	<name>BDMSIXU</name>
+	<description>Body Mass Index Units</description>
+	<type>Encoded Value</type>
+	<unit>KG/M*2</unit>
+</variable>
+
+<variable id="phv00082599.v1">
+	<name>BPD</name>
+	<description>Diastolic Blood Pressure</description>
+	<type>Integer</type>
+	<unit>MMHG</unit>
+</variable>
+
+<variable id="phv00082600.v1">
+	<name>BPS</name>
+	<description>Systolic Blood Pressure</description>
+	<type>Integer</type>
+	<unit>MMHG</unit>
+</variable>
+
+<variable id="phv00082601.v1">
+	<name>HRTRTE</name>
+	<description>Heart Rate</description>
+	<type>Integer</type>
+	<unit>BEATS/MIN</unit>
+</variable>
+
+<variable id="phv00082602.v1">
+	<name>HRTRTERG</name>
+	<description>Is Heart Rate Regular?</description>
+	<type>Encoded Value</type>
+	<value code="N">No</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00082603.v1">
+	<name>HT</name>
+	<description>Height</description>
+	<type>Decimal</type>
+</variable>
+
+<variable id="phv00082604.v1">
+	<name>HTND</name>
+	<description>Height not done</description>
+	<type>Encoded Value</type>
+	<value code="N">Not Done</value>
+</variable>
+
+<variable id="phv00082605.v1">
+	<name>HTU</name>
+	<description>Height Units</description>
+	<type>Encoded Value</type>
+	<unit>CM</unit>
+	<value code="C">Cm</value>
+	<value code="CM">Centimeters</value>
+	<value code="I">In</value>
+	<value code="IN">Inches</value>
+	<value code="MM">Millimeters</value>
+</variable>
+
+<variable id="phv00082606.v1">
+	<name>RESP</name>
+	<description>Respiration Rate</description>
+	<type>Integer</type>
+</variable>
+
+<variable id="phv00082607.v1">
+	<name>VTLDT</name>
+	<description>Vitals Date</description>
+	<type>Date</type>
+</variable>
+
+<variable id="phv00082608.v1">
+	<name>WST</name>
+	<description>Waist circumference</description>
+	<type>Decimal</type>
+</variable>
+
+<variable id="phv00082609.v1">
+	<name>WSTND</name>
+	<description>Waist circumference not done</description>
+	<type>Encoded Value</type>
+	<value code="N">Not Done</value>
+</variable>
+
+<variable id="phv00082610.v1">
+	<name>WSTU</name>
+	<description>Waist circumference units</description>
+	<type>Encoded Value</type>
+	<unit>CM</unit>
+	<value code="C">Cm</value>
+	<value code="CM">Centimeters</value>
+	<value code="I">In</value>
+	<value code="IN">Inches</value>
+	<value code="MM">Millimeters</value>
+</variable>
+
+<variable id="phv00082611.v1">
+	<name>WT</name>
+	<description>Weight</description>
+	<type>Decimal</type>
+</variable>
+
+<variable id="phv00082612.v1">
+	<name>WTND</name>
+	<description>Weight not done</description>
+	<type>Encoded Value</type>
+	<value code="N">Not Done</value>
+</variable>
+
+<variable id="phv00082613.v1">
+	<name>WTU</name>
+	<description>Weight Units</description>
+	<type>Encoded Value</type>
+	<unit>KG</unit>
+	<value code="K">Kg</value>
+	<value code="KG">Kilograms</value>
+	<value code="LB">Pounds</value>
+	<value code="P">Lb</value>
+</variable>
+
+</data_table>

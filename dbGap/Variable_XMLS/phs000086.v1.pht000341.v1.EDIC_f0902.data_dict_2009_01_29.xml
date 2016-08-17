@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./datadict_v2.xsl"?>
+<data_table id="pht000341.v1" study_id="phs000086.v1" participant_set="1" date_created="Thu Jan 29 15:38:42 2009">
+
+<variable id="phv00051003.v1">
+	<name>clinic</name>
+	<description>A1. Identifying information. De-identified EDIC clinic number</description>
+	<type>byte</type>
+</variable>
+
+<variable id="phv00051002.v1">
+	<name>form</name>
+	<description>EDIC form number</description>
+	<type>int</type>
+</variable>
+
+<variable id="phv00051034.v1">
+	<name>fsasdate</name>
+	<description>A4. Identifying information. De-identified date form completed</description>
+	<type>int</type>
+</variable>
+
+<variable id="phv00051036.v1">
+	<name>iob1adat</name>
+	<description>B1. Recognition of event. De-identified date of occurrence</description>
+	<type>int</type>
+</variable>
+
+<variable id="phv00051004.v1">
+	<name>iob1b</name>
+	<description>B1b. Recognition of event: if date uncertain</description>
+	<type>byte</type>
+	<value code="1">If date uncertain</value>
+</variable>
+
+<variable id="phv00051037.v1">
+	<name>iob2bdat</name>
+	<description>B2. Recognition of event. De-identified date clinic learned of the event</description>
+	<type>int</type>
+</variable>
+
+<variable id="phv00051005.v1">
+	<name>iob3</name>
+	<description>B3. Recognition of event. How did clinic learn of the event</description>
+	<type>byte</type>
+	<value code="1">Annual medical history and physical exam</value>
+	<value code="2">Quarterly telephone Interview</value>
+	<value code="3">Patient/family notified clinic</value>
+	<value code="4">Third party notified clinic</value>
+	<value code="5">Clinic recognized event and informed patient</value>
+</variable>
+
+<variable id="phv00051006.v1">
+	<name>ioc1ai</name>
+	<description>C1ai. Chest pain: left anterior chest</description>
+	<type>byte</type>
+	<value code="1">Left anterior chest</value>
+</variable>
+
+<variable id="phv00051007.v1">
+	<name>ioc1aii</name>
+	<description>C1aii. Chest pain: left arm</description>
+	<type>byte</type>
+	<value code="1">Left arm</value>
+</variable>
+
+<variable id="phv00051008.v1">
+	<name>ioc1aiii</name>
+	<description>C1aiii. Chest pain: jaw</description>
+	<type>byte</type>
+	<value code="1">Jaw</value>
+</variable>
+
+<variable id="phv00051009.v1">
+	<name>ioc1aiv</name>
+	<description>C1aiv. Chest pain: sternum upper/middle</description>
+	<type>byte</type>
+	<value code="1">Sternum upper/middle</value>
+</variable>
+
+<variable id="phv00051010.v1">
+	<name>ioc1av</name>
+	<description>C1av. Chest pain: sternum lower</description>
+	<type>byte</type>
+	<value code="1">Sternum lower</value>
+</variable>
+
+<variable id="phv00051011.v1">
+	<name>ioc1bi</name>
+	<description>C1bi. Pain involve: the back</description>
+	<type>byte</type>
+	<value code="1">The back</value>
+</variable>
+
+<variable id="phv00051012.v1">
+	<name>ioc1bii</name>
+	<description>C1bii. Pain involve: the shoulder</description>
+	<type>byte</type>
+	<value code="1">The shoulder</value>
+</variable>
+
+<variable id="phv00051013.v1">
+	<name>ioc1biii</name>
+	<description>C1biiii. Pain involve: the right arm</description>
+	<type>byte</type>
+	<value code="1">The right arm</value>
+</variable>
+
+<variable id="phv00051014.v1">
+	<name>ioc1biv</name>
+	<description>C1biv. Pain involve: abdomen or both sides</description>
+	<type>byte</type>
+	<value code="1">Abdomen or both sides</value>
+</variable>
+
+<variable id="phv00051015.v1">
+	<name>ioc2a</name>
+	<description>C2a. Did pain last more than 20 minutes</description>
+	<type>byte</type>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+</variable>
+
+<variable id="phv00051016.v1">
+	<name>ioc2b</name>
+	<description>C2b. Non-cardiac cause for the pain</description>
+	<type>byte</type>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+</variable>
+
+<variable id="phv00051017.v1">
+	<name>ioc2c</name>
+	<description>C2c. Self-administered without relief/pain</description>
+	<type>byte</type>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+</variable>
+
+<variable id="phv00051018.v1">
+	<name>ioc3</name>
+	<description>C3. Patient ever had feeling of pressure</description>
+	<type>byte</type>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+</variable>
+
+<variable id="phv00051019.v1">
+	<name>ioc4a</name>
+	<description>C4a. Did you get this pain when walk</description>
+	<type>byte</type>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+</variable>
+
+<variable id="phv00051020.v1">
+	<name>ioc4b</name>
+	<description>C4b. Pain when you walk an ordinary pace</description>
+	<type>byte</type>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+</variable>
+
+<variable id="phv00051021.v1">
+	<name>ioc4c</name>
+	<description>C4c. When you get this pain what to do</description>
+	<type>byte</type>
+	<value code="1">Stop</value>
+	<value code="2">Slow down</value>
+	<value code="3">Continue at the same pace</value>
+</variable>
+
+<variable id="phv00051022.v1">
+	<name>ioc4d</name>
+	<description>C4d. What happens to pain / stand still</description>
+	<type>byte</type>
+	<value code="1">Relieved</value>
+	<value code="2">Not relieved</value>
+</variable>
+
+<variable id="phv00051023.v1">
+	<name>ioc4e</name>
+	<description>C4e. How soon does the pain go away</description>
+	<type>byte</type>
+	<value code="1">10 minutes or less</value>
+	<value code="2">More than 10 minutes</value>
+</variable>
+
+<variable id="phv00051024.v1">
+	<name>iod1ai</name>
+	<description>D1ai. Enzyme changes. Enzyme: CPK at least twice upper limit</description>
+	<type>byte</type>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+	<value code="3">Uncertain</value>
+</variable>
+
+<variable id="phv00051025.v1">
+	<name>iod1aii</name>
+	<description>D1aii. Enzyme changes. Enzyme: what was the CPK value</description>
+	<type>int</type>
+</variable>
+
+<variable id="phv00051026.v1">
+	<name>iod1bi</name>
+	<description>D1bi. Enzyme changes. Enzyme: was CPK-MB present</description>
+	<type>byte</type>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+	<value code="3">Uncertain</value>
+</variable>
+
+<variable id="phv00051027.v1">
+	<name>iod1bii</name>
+	<description>D1bii. Enzyme changes. Enzyme: what was the CPK-MB value</description>
+	<type>byte</type>
+</variable>
+
+<variable id="phv00051028.v1">
+	<name>iod1ci</name>
+	<description>D1ci. Enzyme changes. Enzyme: either CPK-MB heart fraction</description>
+	<type>byte</type>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+	<value code="3">Uncertain</value>
+</variable>
+
+<variable id="phv00051029.v1">
+	<name>iod1cii1</name>
+	<description>D1cii1. Enzyme changes. Enzyme: CPK-MB heart fraction</description>
+	<type>byte</type>
+</variable>
+
+<variable id="phv00051030.v1">
+	<name>iod1cii2</name>
+	<description>D1cii2. Enzyme changes. Enzyme: LDH</description>
+	<type>int</type>
+</variable>
+
+<variable id="phv00051031.v1">
+	<name>iod1cii3</name>
+	<description>D1cii3. Enzyme changes. Enzyme: SGOT</description>
+	<type>byte</type>
+</variable>
+
+<variable id="phv00051032.v1">
+	<name>iod1d</name>
+	<description>D1d. Enzyme changes. Enzyme: was there a known non-ischemic</description>
+	<type>byte</type>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+	<value code="3">Uncertain</value>
+</variable>
+
+<variable id="phv00051033.v1">
+	<name>iod1doth</name>
+	<description>D1d. Enzyme changes. Enzyme: specify, other</description>
+	<type>str20</type>
+</variable>
+
+<variable id="phv00051035.v1">
+	<name>mask_pat</name>
+	<description>A2. Identifying information. De-identified patient ID</description>
+	<type>int</type>
+</variable>
+
+</data_table>

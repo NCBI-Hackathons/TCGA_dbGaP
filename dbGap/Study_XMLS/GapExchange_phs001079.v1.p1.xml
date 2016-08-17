@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GaPExchange xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="./dbGaPEx2.1.5.xsd">
+
+<MetaVariables>
+	<Submitter/>
+	<Method/>
+</MetaVariables>
+<MetaLinks/>
+
+<Projects>
+	<Project/>
+</Projects>
+
+<Studies>
+
+<Study source="dbGaP" accession="phs001079.v1.p1" parentStudy="phs001079.v1.p1" createDate="2016-03-01" modDate="2016-03-01">
+
+<Configuration>
+	<Data_Provider><![CDATA[
+		<table border="1">
+		<tr><th>Title</th><th>Name</th><th>Institute</th></tr>
+		<tr><td>Principal Investigator</td><td>David Hafler</td><td>Yale School of Medicine, New Haven, CT, USA</td></tr>
+		<tr><td>Funding Source</td><td>P01 AI039671</td><td>National Institutes of Health, Bethesda, MD, USA</td></tr>
+		<tr><td>Funding Source</td><td>P01 AI045757</td><td>National Institutes of Health, Bethesda, MD, USA</td></tr>
+		</table>
+	]]></Data_Provider>
+	<StudyNameEntrez>PD-1+ and PD-1- Regulatory T Cells in Glioblastoma</StudyNameEntrez>
+	<StudyNameReportPage>Transcriptional Profiling of PD-1+ and PD-1- Tregs Cells in Health and Glioblastoma</StudyNameReportPage>
+	<StudyTypes>
+		<StudyType>Case Set</StudyType>
+	</StudyTypes>
+	<Description><![CDATA[
+<p>PD-1 is an important immune checkpoint inhibitor that shows great promise in the clinic, particularly for melanoma and lung cancers. Since PD-1 is also expressed on infiltrating Tregs in glioblastoma, we sought to better understand the role of PD-1 on these infiltrating Tregs. To this end, we performed functional and transcriptional profiling using Tregs isolated from healthy donors and glioblastoma patients (from both tumors and blood).</p>]]>
+	</Description>
+	<StudyInEx><![CDATA[
+<p>All human tissue and peripheral blood was collected from patients with brain tumors, undergoing surgical resection, or healthy individuals.</p>]]>
+	</StudyInEx>
+	<StudyProjects>
+		<Project/>
+	</StudyProjects>
+	<Diseases>
+		<Disease vocab_source="MESH" vocab_term="Glioblastoma"/>
+		<Disease vocab_source="MESH" vocab_term="Programmed Cell Death 1 Receptor"/>
+	</Diseases>
+	<Attributions>
+		<Header title="Principal Investigator">
+			<AttName>David Hafler</AttName>
+			<Institution>Yale School of Medicine, New Haven, CT, USA</Institution>
+		</Header>
+		<Header title="Funding Source">
+			<AttName>P01 AI039671</AttName>
+			<Institution>National Institutes of Health, Bethesda, MD, USA</Institution>
+		</Header>
+		<Header title="Funding Source">
+			<AttName>P01 AI045757</AttName>
+			<Institution>National Institutes of Health, Bethesda, MD, USA</Institution>
+		</Header>
+	</Attributions>
+	<DisplayPublicSummary>yes</DisplayPublicSummary>
+	<ConsentGroups>
+		<ConsentGroup groupNum="1" shortName="GRU-IRB" longName="General Research Use (IRB)"/>
+	</ConsentGroups>
+</Configuration>
+
+  <AuthorizedAccess>
+    <DacInfo ssDacId="0">
+      <DacName>NIAID</DacName>
+      <DacFullName>NIAID DAC</DacFullName>
+      <DacEmail>0</DacEmail>
+      <DacPhone></DacPhone>
+      <DacUrl></DacUrl>
+    </DacInfo>
+    <Policy Policy_ID="phs001079.v1.p1_policy" ref_ssDacId="0">
+      <DisplayResearchStatement>yes</DisplayResearchStatement>
+      <DisplayPublicSummary>yes</DisplayPublicSummary>
+      <EmbargoLength>0</EmbargoLength>
+      <YearsUntilRenewal>1</YearsUntilRenewal>
+      <WeeksCancelRequest>8</WeeksCancelRequest>
+      <PdfSupplementReqired>yes</PdfSupplementReqired>
+      <AcknowledgementText>
+        <para>
+          http://dbgap.ncbi.nlm.nih.gov/aa/wga.cgi?page=DUC&amp;view_pdf&amp;stacc=phs001079.v1.p1
+        </para>
+      </AcknowledgementText>
+      <DocumentSet>
+        <DataUseCertificate Label="Data Use Certificate" FilePath="https://dbgap.ncbi.nlm.nih.gov/aa/wga.cgi?page=DUC&amp;view_pdf&amp;stacc=phs001079.v1.p1" FileName=""/>
+      </DocumentSet>
+    </Policy>
+    <ConsentGroups>
+      <ParticipantSet groupNum-REF="1">
+        <ConsentName>General Research Use (IRB)</ConsentName>
+        <ConsentAbbrev>GRU-IRB</ConsentAbbrev>
+        <UseLimitation>Use of the data is limited only by the terms of the model Data Use Certification.
+Requestor must provide documentation of local IRB approval.</UseLimitation>
+        <IrbRequired>Yes</IrbRequired>
+      </ParticipantSet>
+    </ConsentGroups>
+  </AuthorizedAccess>
+
+
+</Study>
+
+</Studies>
+
+</GaPExchange>

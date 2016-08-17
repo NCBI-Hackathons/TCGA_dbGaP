@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GaPExchange xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="./dbGaPEx2.1.5.xsd">
+
+<MetaVariables>
+	<Submitter/>
+	<Method/>
+</MetaVariables>
+<MetaLinks/>
+
+<Projects>
+	<Project/>
+</Projects>
+
+<Studies>
+
+<Study source="dbGaP" accession="phs001107.v1.p1" parentStudy="phs001107.v1.p1" createDate="2016-04-11" modDate="2016-05-17">
+
+<Configuration>
+	<Data_Provider><![CDATA[
+		<table border="1">
+		<tr><th>Title</th><th>Name</th><th>Institute</th></tr>
+		<tr><td>Principal Investigators</td><td>Paul Spellman, PhD</td><td>Oregon Health and Science University, Portland, OR, USA</td></tr>
+		<tr><td>Principal Investigators</td><td>W. Marston Linehan, MD</td><td>Center for Cancer Research, National Cancer Institute, National Institutes of Health, Bethesda, MD, USA</td></tr>
+		<tr><td>Funding Source</td><td>Intramural Research Program of the National Insititutes of Health</td><td>Center for Cancer Research, National Cancer Institute, National Institutes of Health, Bethesda, MD, USA</td></tr>
+		</table>
+	]]></Data_Provider>
+	<StudyNameEntrez>Patient-Specific Factors Influence Somatic Variations in VHL Tumors</StudyNameEntrez>
+	<StudyNameReportPage>Patient-Specific Factors Influence Somatic Variation Patterns in Von Hippel-Lindau Disease Renal Tumors</StudyNameReportPage>
+	<StudyTypes>
+		<StudyType>Tumor vs. Matched-Normal</StudyType>
+	</StudyTypes>
+	<Description><![CDATA[
+<p>Patients affected with von Hippel-Lindau disease are at risk of developing multiple independent clear cell renal carcinomas. This study performed whole genome sequencing on 40 tumors from 6 VHL patients to compare somatic variation patterns within and between patients. Although tumors from the same patient showed many differences, within-patient patterns were discernible. Single-nucleotide substitution type rates were significantly different between patients and showed biases in trinucleotide mutation context. We also observed biases in chromosome copy number aberrations. These results show that genetic background and/or environment can influence the types of mutations that occur.</p>]]>
+	</Description>
+	<StudyInEx><![CDATA[
+<p>The National Cancer Institute has a frozen tumor bank of ccRCC tumors that have been removed from VHL patients. We selected six patients, three males and three females, with at least five tumors from a single surgery from one kidney. They spanned a wide range of ages, BMIs, and smoking exposures. For three of the patients, adjacent normal kidney tissue was also available. A total of 42 tumors, 6 normal blood samples, and 3 adjacent normal kidney tissue samples were sequenced using Illumina&#39;s Human Whole Genome Sequencing service. </p>]]>
+	</StudyInEx>
+	<StudyProjects>
+		<Project/>
+	</StudyProjects>
+	<Publications>
+		<Publication>
+			<Pubmed pmid="27174753"/>
+		</Publication>
+	</Publications>
+	<Diseases>
+		<Disease vocab_source="MESH" vocab_term="von Hippel-Lindau Disease"/>
+	</Diseases>
+	<Attributions>
+		<Header title="Principal Investigators">
+			<AttName>Paul Spellman, PhD</AttName>
+			<Institution>Oregon Health and Science University, Portland, OR, USA</Institution>
+		</Header>
+		<Header title="Principal Investigators">
+			<AttName>W. Marston Linehan, MD</AttName>
+			<Institution>Center for Cancer Research, National Cancer Institute, National Institutes of Health, Bethesda, MD, USA</Institution>
+		</Header>
+		<Header title="Funding Source">
+			<AttName>Intramural Research Program of the National Insititutes of Health</AttName>
+			<Institution>Center for Cancer Research, National Cancer Institute, National Institutes of Health, Bethesda, MD, USA</Institution>
+		</Header>
+	</Attributions>
+	<DisplayPublicSummary>yes</DisplayPublicSummary>
+	<ConsentGroups>
+		<ConsentGroup groupNum="2" shortName="DS-RCC-IRB" longName="Disease-Specific (Kidney Cancer, IRB)"/>
+	</ConsentGroups>
+</Configuration>
+
+  <AuthorizedAccess>
+    <DacInfo ssDacId="0">
+      <DacName>NCI</DacName>
+      <DacFullName>NCI</DacFullName>
+      <DacEmail>0</DacEmail>
+      <DacPhone></DacPhone>
+      <DacUrl></DacUrl>
+    </DacInfo>
+    <Policy Policy_ID="phs001107.v1.p1_policy" ref_ssDacId="0">
+      <DisplayResearchStatement>yes</DisplayResearchStatement>
+      <DisplayPublicSummary>yes</DisplayPublicSummary>
+      <EmbargoLength>0</EmbargoLength>
+      <YearsUntilRenewal>1</YearsUntilRenewal>
+      <WeeksCancelRequest>8</WeeksCancelRequest>
+      <PdfSupplementReqired>yes</PdfSupplementReqired>
+      <AcknowledgementText>
+        <para>
+          http://dbgap.ncbi.nlm.nih.gov/aa/wga.cgi?page=DUC&amp;view_pdf&amp;stacc=phs001107.v1.p1
+        </para>
+      </AcknowledgementText>
+      <DocumentSet>
+        <DataUseCertificate Label="Data Use Certificate" FilePath="https://dbgap.ncbi.nlm.nih.gov/aa/wga.cgi?page=DUC&amp;view_pdf&amp;stacc=phs001107.v1.p1" FileName=""/>
+      </DocumentSet>
+    </Policy>
+    <ConsentGroups>
+      <ParticipantSet groupNum-REF="2">
+        <ConsentName>Disease-Specific (Kidney Cancer, IRB)</ConsentName>
+        <ConsentAbbrev>DS-RCC-IRB</ConsentAbbrev>
+        <UseLimitation>Use of the data must be related to Kidney Cancer.
+Requestor must provide documentation of local IRB approval.</UseLimitation>
+        <IrbRequired>Yes</IrbRequired>
+      </ParticipantSet>
+    </ConsentGroups>
+  </AuthorizedAccess>
+
+
+</Study>
+
+</Studies>
+
+</GaPExchange>

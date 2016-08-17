@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./datadict_v2.xsl"?>
+<data_table id="pht000786.v1" study_id="phs000171.v1" participant_set="1" date_created="Fri Dec 11 14:12:48 2009">
+
+<variable id="phv00073435.v1">
+	<name>SUBJID</name>
+	<description>Subject&#39;s ID</description>
+	<type>string</type>
+</variable>
+
+<variable id="phv00073436.v1">
+	<name>CASE_CONTROL</name>
+	<description>Type of subject</description>
+	<type>string, encoded values</type>
+	<value code="CASE">Affected subject per Protocol</value>
+	<value code="CNTL">Control subject per Protocol</value>
+</variable>
+
+<variable id="phv00073437.v1">
+	<name>STUDY</name>
+	<description>Study ID</description>
+	<type>string</type>
+	<comment>Always RES101833</comment>
+</variable>
+
+<variable id="phv00073438.v1">
+	<name>INVSITE</name>
+	<description>Investigator site ID</description>
+	<type>string</type>
+	<comment>Numeric code identifying the site (for internal use)</comment>
+</variable>
+
+<variable id="phv00073439.v1">
+	<name>INV</name>
+	<description>Investigator&#39;s ID</description>
+	<type>string</type>
+	<comment>Numeric code identifying the investigator (for internal use)</comment>
+</variable>
+
+<variable id="phv00073440.v1">
+	<name>VISIT</name>
+	<description>Visit name</description>
+	<type>string</type>
+	<value code="CSA">Common Subject Assessment</value>
+	<value code="ELIGIBILITY">Eligibility questionnaire</value>
+	<value code="BASELINE">Baseline assessment questionnaire</value>
+	<value code="LAB WBC">Lab results</value>
+	<value code="SELF REPORT">Subject completed self report questionnaire</value>
+</variable>
+
+<variable id="phv00073441.v1">
+	<name>VTLDT</name>
+	<description>Assessment date of vitals</description>
+	<type>Date</type>
+	<comment>Truncated to YYYY</comment>
+</variable>
+
+<variable id="phv00073442.v1">
+	<name>BPD</name>
+	<description>Diastolic blood pressure</description>
+	<type>Integer</type>
+	<unit>mmHg</unit>
+	<logical_min>40</logical_min>
+	<logical_max>140</logical_max>
+	<comment>Sitting</comment>
+</variable>
+
+<variable id="phv00073443.v1">
+	<name>BPS</name>
+	<description>Systolic blood pressure</description>
+	<type>Integer</type>
+	<unit>mmHg</unit>
+	<logical_min>60</logical_min>
+	<logical_max>200</logical_max>
+	<comment>Sitting</comment>
+</variable>
+
+<variable id="phv00073444.v1">
+	<name>HRTRTE</name>
+	<description>Heart rate</description>
+	<type>Integer</type>
+	<unit>Beats/min</unit>
+	<logical_min>40</logical_min>
+	<logical_max>180</logical_max>
+	<comment>Sitting</comment>
+</variable>
+
+<variable id="phv00073445.v1">
+	<name>HRTRTERG</name>
+	<description>Is heart rate regular?</description>
+	<type>Encoded Value</type>
+	<value code="Y">Regular</value>
+	<value code="N">Irregular</value>
+</variable>
+
+<variable id="phv00073446.v1">
+	<name>HT</name>
+	<description>Height</description>
+	<type>Decimal</type>
+	<logical_min>125</logical_min>
+	<logical_max>250</logical_max>
+</variable>
+
+<variable id="phv00073447.v1">
+	<name>HTU</name>
+	<description>Height - units</description>
+	<type>Encoded Value</type>
+	<value code="CM">CM</value>
+</variable>
+
+<variable id="phv00073448.v1">
+	<name>WST</name>
+	<description>Waist circumference</description>
+	<type>Decimal</type>
+	<logical_min>30</logical_min>
+	<logical_max>200</logical_max>
+</variable>
+
+<variable id="phv00073449.v1">
+	<name>WSTU</name>
+	<description>Waist circumference - units</description>
+	<type>Encoded Value</type>
+	<value code="CM">CM</value>
+</variable>
+
+<variable id="phv00073450.v1">
+	<name>WT</name>
+	<description>Weight</description>
+	<type>Decimal</type>
+	<logical_min>20</logical_min>
+	<logical_max>300</logical_max>
+</variable>
+
+<variable id="phv00073451.v1">
+	<name>WTU</name>
+	<description>Weight - units</description>
+	<type>Encoded Value</type>
+	<value code="KG">KG</value>
+</variable>
+
+</data_table>

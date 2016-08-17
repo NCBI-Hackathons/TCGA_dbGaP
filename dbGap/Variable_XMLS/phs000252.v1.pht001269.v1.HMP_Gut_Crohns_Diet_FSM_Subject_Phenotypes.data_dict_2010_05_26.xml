@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./datadict_v2.xsl"?>
+<data_table id="pht001269.v1" study_id="phs000252.v1" participant_set="1" date_created="Wed May 26 13:39:10 2010">
+
+<variable id="phv00090689.v1">
+	<name>SUBJID</name>
+	<description>De-identified Subject&#39;s ID</description>
+	<type>string</type>
+</variable>
+
+<variable id="phv00090690.v1">
+	<name>DOB</name>
+	<description>Date of birth</description>
+	<type>date</type>
+</variable>
+
+<variable id="phv00090691.v1">
+	<name>Sex</name>
+	<description>Sex</description>
+	<type>encoded values</type>
+	<value code="0">Female</value>
+	<value code="1">Male</value>
+</variable>
+
+<variable id="phv00090692.v1">
+	<name>Ethnicity</name>
+	<description>Ethnicity</description>
+	<type>encoded values</type>
+	<value code="1">Not Hispanic/Latino</value>
+	<value code="2">Hispanic/Latino</value>
+</variable>
+
+<variable id="phv00090693.v1">
+	<name>Race</name>
+	<description>Race</description>
+	<type>encoded values</type>
+	<value code="1">American Indian/Alaskan Native</value>
+	<value code="2">Asian</value>
+	<value code="3">Native Hawaiian/Other Pacific Islander</value>
+	<value code="4">Black/African American</value>
+	<value code="5">White</value>
+</variable>
+
+<variable id="phv00090694.v1">
+	<name>AvWeight</name>
+	<description>Average weight, in kilograms</description>
+	<type>decimal</type>
+	<unit>kg</unit>
+</variable>
+
+<variable id="phv00090695.v1">
+	<name>HiWeight</name>
+	<description>The most a subject has ever weighted, in pounds</description>
+	<type>interger</type>
+	<unit>lbs</unit>
+</variable>
+
+<variable id="phv00090696.v1">
+	<name>AgeofHiWeight</name>
+	<description>Age of subject at highest weight, in years</description>
+	<type>integer</type>
+	<unit>Years old</unit>
+</variable>
+
+<variable id="phv00090697.v1">
+	<name>PreviousWeight</name>
+	<description>Weight of subject 3 months ago, in pounds</description>
+	<type>integer</type>
+	<unit>lbs</unit>
+</variable>
+
+<variable id="phv00090698.v1">
+	<name>Height</name>
+	<description>Average height, in meters</description>
+	<type>decimal</type>
+	<unit>meters</unit>
+</variable>
+
+<variable id="phv00090699.v1">
+	<name>CurrentSmoking</name>
+	<description>Does the subject currently smoke 7+ cigarettes/cigars each week?</description>
+	<type>encoded values</type>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+	<value code="2">Not applicable or not available</value>
+</variable>
+
+<variable id="phv00090700.v1">
+	<name>previousSmoking</name>
+	<description>Has the subject smoked an average of 7+ cigarettes/cigars each week?</description>
+	<type>encoded values</type>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+	<value code="2">Not applicable or not available</value>
+</variable>
+
+<variable id="phv00090701.v1">
+	<name>RecentPrescript</name>
+	<description>Has the subject used any prescription medications in the last week?</description>
+	<type>encoded values</type>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+	<value code="2">Not applicable or not available</value>
+</variable>
+
+<variable id="phv00090702.v1">
+	<name>RecentOTC</name>
+	<description>Has the subject used any over-the-counter medications in the last week?</description>
+	<type>encoded values</type>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+	<value code="2">Not applicable or not available</value>
+</variable>
+
+<variable id="phv00090703.v1">
+	<name>RecentDiarrhea</name>
+	<description>Has the subject had diarrhea in the last week?</description>
+	<type>encoded values</type>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+	<value code="2">Not applicable or not available</value>
+</variable>
+
+<variable id="phv00090704.v1">
+	<name>BowelMovement</name>
+	<description>How often does the subject have bowel movements?</description>
+	<type>encoded values</type>
+	<value code="1">Less than every 3rd day</value>
+	<value code="2">Every 2-3 days</value>
+	<value code="3">1-2 times a day</value>
+	<value code="4">3 or more times a day</value>
+	<value code="5">Not applicable or not available</value>
+</variable>
+
+<variable id="phv00090705.v1">
+	<name>Bristol</name>
+	<description>The Bristol Scale type that best describes the specimen collected (from type 1 to type 7)</description>
+	<type>integer</type>
+</variable>
+
+<variable id="phv00090706.v1">
+	<name>CollectionDate</name>
+	<description>The date the sample was collected</description>
+	<type>date</type>
+</variable>
+
+</data_table>

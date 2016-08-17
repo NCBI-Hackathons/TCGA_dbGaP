@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./datadict_v2.xsl"?>
+<data_table id="pht000349.v1" study_id="phs000086.v1" participant_set="1" date_created="Thu Jan 29 15:40:17 2009">
+
+<variable id="phv00051397.v1">
+	<name>clinic</name>
+	<description>A1. Identifying information. De-identified EDIC clinic number</description>
+	<type>byte</type>
+</variable>
+
+<variable id="phv00051396.v1">
+	<name>form</name>
+	<description>EDIC form number</description>
+	<type>int</type>
+</variable>
+
+<variable id="phv00051417.v1">
+	<name>fsasdate</name>
+	<description>A4. Identifying information. De-identified form date</description>
+	<type>int</type>
+</variable>
+
+<variable id="phv00051419.v1">
+	<name>icb1adat</name>
+	<description>B1a. Recognition of event.  De-identified date of occurrence</description>
+	<type>int</type>
+</variable>
+
+<variable id="phv00051398.v1">
+	<name>icb1b</name>
+	<description>B1b. Recognition of event. If date uncertain</description>
+	<type>byte</type>
+	<value code="1">Date uncertain</value>
+</variable>
+
+<variable id="phv00051420.v1">
+	<name>icb2bdat</name>
+	<description>B2b. Recognition of event. De-identified date clinic learned of the event</description>
+	<type>int</type>
+</variable>
+
+<variable id="phv00051399.v1">
+	<name>icb3</name>
+	<description>B3. Recognition of event.  How did clinic learn of the event</description>
+	<type>byte</type>
+	<value code="1">Annual medical history and physical exam</value>
+	<value code="2">Telephone call</value>
+	<value code="3">Patient/family notified clinic</value>
+	<value code="4">Third party notified clinic</value>
+	<value code="5">Clinic recognized event and informed patient</value>
+</variable>
+
+<variable id="phv00051400.v1">
+	<name>icc1</name>
+	<description>C1. Nature of event. Was symptomatic diabetic state present</description>
+	<type>byte</type>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+	<value code="3">Unable to obtain</value>
+</variable>
+
+<variable id="phv00051401.v1">
+	<name>icc2a</name>
+	<description>C2a. Nature of event. Were serum ketones present</description>
+	<type>byte</type>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+	<value code="3">Unable to obtain</value>
+</variable>
+
+<variable id="phv00051402.v1">
+	<name>icc2b</name>
+	<description>C2b. Nature of event. Were large/moderate ketones in urine</description>
+	<type>byte</type>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+	<value code="3">Unable to obtain</value>
+</variable>
+
+<variable id="phv00051403.v1">
+	<name>icc3ai</name>
+	<description>C3ai. Nature of event. Was arterial blood pH less than 7.30</description>
+	<type>byte</type>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+	<value code="3">Unable to obtain</value>
+</variable>
+
+<variable id="phv00051404.v1">
+	<name>icc3aii</name>
+	<description>C3aii. Nature of event. Record arterial blood pH level</description>
+	<type>float</type>
+	<unit>pH</unit>
+</variable>
+
+<variable id="phv00051405.v1">
+	<name>icc3bi</name>
+	<description>C3bi. Nature of event. Was venous blood pH less than 7.25</description>
+	<type>byte</type>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+	<value code="3">Unable to obtain</value>
+</variable>
+
+<variable id="phv00051406.v1">
+	<name>icc3bii</name>
+	<description>C3bii. Nature of event. Record venous blood pH level</description>
+	<type>float</type>
+	<unit>pH</unit>
+</variable>
+
+<variable id="phv00051407.v1">
+	<name>icc3ci</name>
+	<description>C3ci. Nature of event. Was serum HCO/3 less than 15 mEq/L</description>
+	<type>byte</type>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+	<value code="3">Unable to obtain</value>
+</variable>
+
+<variable id="phv00051408.v1">
+	<name>icc3cii</name>
+	<description>C3cii. Nature of event. Record serum HCO/3 if available</description>
+	<type>byte</type>
+	<unit>mEq/L</unit>
+</variable>
+
+<variable id="phv00051409.v1">
+	<name>icc4</name>
+	<description>C4. Nature of event. Health care: was patient treated</description>
+	<type>byte</type>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+</variable>
+
+<variable id="phv00051410.v1">
+	<name>icc4a</name>
+	<description>C4a. Nature of event. Was the patient treated within a health care facility: emergency room</description>
+	<type>byte</type>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+</variable>
+
+<variable id="phv00051411.v1">
+	<name>icc4b</name>
+	<description>C4b. Nature of event. Was the patient treated within a health care facility: inpatient hospitalization</description>
+	<type>byte</type>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+</variable>
+
+<variable id="phv00051412.v1">
+	<name>icc5a</name>
+	<description>C5a. Nature of event. Occurrence of episode: omission of insulin</description>
+	<type>byte</type>
+	<value code="1">Omission of insulin</value>
+</variable>
+
+<variable id="phv00051413.v1">
+	<name>icc5b</name>
+	<description>C5b. Nature of event. Occurrence of episode: pump malfunction</description>
+	<type>byte</type>
+	<value code="1">Pump malfunction</value>
+</variable>
+
+<variable id="phv00051414.v1">
+	<name>icc5c</name>
+	<description>C5c. Nature of event. Occurrence of episode: illness</description>
+	<type>byte</type>
+	<value code="1">Illness</value>
+</variable>
+
+<variable id="phv00051415.v1">
+	<name>icc5d</name>
+	<description>C5d. Nature of event. Occurrence of episode: other</description>
+	<type>byte</type>
+	<value code="1">Other</value>
+</variable>
+
+<variable id="phv00051416.v1">
+	<name>icc5doth</name>
+	<description>C5d. Nature of event. Occurrence of episode: specify</description>
+	<type>str20</type>
+</variable>
+
+<variable id="phv00051418.v1">
+	<name>mask_pat</name>
+	<description>A2. Identifying information. De-identified patient ID</description>
+	<type>int</type>
+</variable>
+
+</data_table>

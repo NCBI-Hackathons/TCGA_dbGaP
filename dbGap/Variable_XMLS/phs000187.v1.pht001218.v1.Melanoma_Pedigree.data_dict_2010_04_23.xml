@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./datadict_v2.xsl"?>
+<data_table id="pht001218.v1" study_id="phs000187.v1" participant_set="1" date_created="Fri Apr 23 15:10:53 2010">
+
+<variable id="phv00090309.v1">
+	<name>FAMID</name>
+	<description>Family ID</description>
+	<type>integer</type>
+</variable>
+
+<variable id="phv00090310.v1">
+	<name>SUBJID</name>
+	<description>Subject ID (GENEVA ID)</description>
+	<type>integer</type>
+</variable>
+
+<variable id="phv00090311.v1">
+	<name>FATHER</name>
+	<description>Father GENEVA ID</description>
+	<type>integer</type>
+</variable>
+
+<variable id="phv00090312.v1">
+	<name>MOTHER</name>
+	<description>Mother GENEVA  ID</description>
+	<type>integer</type>
+</variable>
+
+<variable id="phv00090313.v1">
+	<name>SEX</name>
+	<description>Subject&#39;s sex</description>
+	<type>encoded integer</type>
+	<value code="1">Male</value>
+	<value code="2">Female</value>
+</variable>
+
+<variable id="phv00090314.v1">
+	<name>PED.NOTE</name>
+	<description>Additional comments regarding familial relationships</description>
+	<type>string</type>
+	<value code="HS-like RELATIONSHIP">Subjects that have IDB coefficient estimates consistent with half-sib/avuncular/Gp-Gc relationships</value>
+	<value code="NA">Not applicable</value>
+</variable>
+
+</data_table>

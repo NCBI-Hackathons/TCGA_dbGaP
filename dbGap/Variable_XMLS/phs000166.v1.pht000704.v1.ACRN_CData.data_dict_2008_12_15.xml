@@ -1,0 +1,562 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./datadict_v2.xsl"?>
+<data_table id="pht000704.v1" study_id="phs000166.v1" participant_set="1" date_created="Mon Dec 15 13:51:52 2008">
+
+<unique_key phv="00071150" version="1">subj_id</unique_key>
+<unique_key phv="00071151" version="1">protocol</unique_key>
+
+<variable id="phv00071157.v1">
+	<name>age_baseline</name>
+	<description>Age at baseline. (visit date - date of birth) / 365.25</description>
+	<type>decimal</type>
+	<unit>years</unit>
+	<logical_min>12.18</logical_min>
+	<logical_max>65.15</logical_max>
+</variable>
+
+<variable id="phv00071158.v1">
+	<name>age_onset</name>
+	<description>Age at first asthma symptoms.  This is the midpoint of the 10-year age of onset categories from the ACRN age of onset field.</description>
+	<type>decimal</type>
+	<unit>years</unit>
+	<logical_min>5</logical_min>
+	<logical_max>55</logical_max>
+</variable>
+
+<variable id="phv00071200.v1">
+	<name>ampf_baseline</name>
+	<description>Average baseline AM peak flow (L/min) as recorded in daily diary card data between visits.  Average of daily measurements up to 4 weeks prior to visit with a minimum of 7 days.</description>
+	<type>integer</type>
+	<unit>liters/minute</unit>
+	<logical_min>179.67</logical_min>
+	<logical_max>801.53</logical_max>
+</variable>
+
+<variable id="phv00071202.v1">
+	<name>amsym_baseline</name>
+	<description>Average baseline AM symptoms as recorded in daily diary card data between visits. Maximum of daily wheezing &amp; coughing then average of daily measurements up to 4 weeks prior to visit with a minimum of 7 days.</description>
+	<type>decimal</type>
+	<logical_min>0</logical_min>
+	<logical_max>2.5</logical_max>
+</variable>
+
+<variable id="phv00071195.v1">
+	<name>atopy</name>
+	<description>Child had atopic dermatitus for 2 yrs and was seen by a doctor for it.</description>
+	<type>encoded value</type>
+	<logical_min>.</logical_min>
+	<logical_max>.</logical_max>
+	<value code=".">missing</value>
+	<value code="0">no</value>
+	<value code="1">yes</value>
+</variable>
+
+<variable id="phv00071152.v1">
+	<name>base_vnum</name>
+	<description>Visit number used for baseline visit.  In most studies, this was the visit of randomization but in some studies treatment was given before randomization so the baseline visit is the first visit prior to any treatment being given.</description>
+	<type>integer</type>
+	<logical_min>1</logical_min>
+	<logical_max>5</logical_max>
+</variable>
+
+<variable id="phv00071194.v1">
+	<name>bdrabpct_baseline</name>
+	<description>Baseline bronchodilator percent change. The calculation is: (POSFEV - PREFEV)/PREFEV.</description>
+	<type>decimal</type>
+	<logical_min>-18.72</logical_min>
+	<logical_max>73.89</logical_max>
+</variable>
+
+<variable id="phv00071162.v1">
+	<name>bmiz_baseline</name>
+	<description>Baseline BMIZ</description>
+	<type>decimal</type>
+	<logical_min>.</logical_min>
+	<logical_max>.</logical_max>
+</variable>
+
+<variable id="phv00071161.v1">
+	<name>bmi_baseline</name>
+	<description>Baseline BMI (kg/m^2)</description>
+	<type>decimal</type>
+	<unit>kg/m^2</unit>
+	<logical_min>15.51</logical_min>
+	<logical_max>64.64</logical_max>
+</variable>
+
+<variable id="phv00071153.v1">
+	<name>case_control</name>
+	<description>Affection status</description>
+	<type>encoded value</type>
+	<logical_min>2</logical_min>
+	<logical_max>2</logical_max>
+	<value code=".">missing</value>
+	<value code="1">control</value>
+	<value code="2">case</value>
+</variable>
+
+<variable id="phv00071154.v1">
+	<name>case_control_peak</name>
+	<description>Affection status in PEAK</description>
+	<type>encoded value</type>
+	<logical_min>.</logical_min>
+	<logical_max>.</logical_max>
+	<value code=".">missing</value>
+	<value code="1">PEAK control</value>
+	<value code="2">PEAK case</value>
+</variable>
+
+<variable id="phv00071169.v1">
+	<name>clinic_city</name>
+	<description>City of the clinic.  Note that the city may be the same, but clinics between CAMP, CARE, and ACRN studies are different and may have measurements may vary slightly.  In order to distinguish between the CAMP, ACRN, and CARE data include the variable protocol along with clinic.  Protocol is the project.</description>
+	<type>encoded value</type>
+	<logical_min>3</logical_min>
+	<logical_max>9</logical_max>
+	<value code="1" is_replacement="Yes">City A</value>
+	<value code="10" is_replacement="Yes">City J</value>
+	<value code="11" is_replacement="Yes">City K</value>
+	<value code="12" is_replacement="Yes">City L</value>
+	<value code="13" is_replacement="Yes">City M</value>
+	<value code="2" is_replacement="Yes">City B</value>
+	<value code="3" is_replacement="Yes">City C</value>
+	<value code="4" is_replacement="Yes">City D</value>
+	<value code="5" is_replacement="Yes">City E</value>
+	<value code="6" is_replacement="Yes">City F</value>
+	<value code="7" is_replacement="Yes">City G</value>
+	<value code="8" is_replacement="Yes">City H</value>
+	<value code="9" is_replacement="Yes">City I</value>
+</variable>
+
+<variable id="phv00071167.v1">
+	<name>cs_combo_tx_grp</name>
+	<description>Participant assigned to Combination Therapy Group (Steroid Treatment + other)</description>
+	<type>encoded value</type>
+	<logical_min>0</logical_min>
+	<logical_max>1</logical_max>
+	<value code=".">missing/not randomized</value>
+	<value code="0">no</value>
+	<value code="1">yes</value>
+</variable>
+
+<variable id="phv00071168.v1">
+	<name>cs_dose</name>
+	<description>Corticosteroid dose</description>
+	<type>integer</type>
+	<unit>mcg/day</unit>
+	<logical_min>100</logical_min>
+	<logical_max>800</logical_max>
+</variable>
+
+<variable id="phv00071166.v1">
+	<name>cs_tx_grp</name>
+	<description>Treatment group assigned at baseline was steroid arm</description>
+	<type>encoded value</type>
+	<logical_min>0</logical_min>
+	<logical_max>1</logical_max>
+	<value code=".">missing/not randomized</value>
+	<value code="0">no</value>
+	<value code="1">yes</value>
+</variable>
+
+<variable id="phv00071180.v1">
+	<name>edhos_event1_month</name>
+	<description>Number of months from baseline to first ER visit or hospitalization.  See month assignments in pred_bursts_event1_month.</description>
+	<type>integer</type>
+	<unit>month</unit>
+	<logical_min>0</logical_min>
+	<logical_max>14.21</logical_max>
+</variable>
+
+<variable id="phv00071181.v1">
+	<name>edhos_event1_week</name>
+	<description>Number of weeks from baseline to first ER visit or hospitalization. See week assignments in pred_bursts_event1_week.</description>
+	<type>integer</type>
+	<unit>week</unit>
+	<logical_min>0</logical_min>
+	<logical_max>61.43</logical_max>
+</variable>
+
+<variable id="phv00071182.v1">
+	<name>edhos_event2_month</name>
+	<description>Number of months from baseline to second ER visit or hospitalization.  See month assignments in pred_bursts_event1_month.</description>
+	<type>integer</type>
+	<unit>month</unit>
+	<logical_min>0</logical_min>
+	<logical_max>14.21</logical_max>
+</variable>
+
+<variable id="phv00071183.v1">
+	<name>edhos_event2_week</name>
+	<description>Number of weeks from baseline to second ER visit or hospitalization.  See week assignments in pred_bursts_event1_week.</description>
+	<type>integer</type>
+	<unit>week</unit>
+	<logical_min>0</logical_min>
+	<logical_max>61.43</logical_max>
+</variable>
+
+<variable id="phv00071186.v1">
+	<name>eno_baseline</name>
+	<description>Baseline exhaled nitric oxide (ppb)</description>
+	<type>decimal</type>
+	<unit>ppb</unit>
+	<logical_min>0.5</logical_min>
+	<logical_max>79.4</logical_max>
+</variable>
+
+<variable id="phv00071171.v1">
+	<name>env_smoke</name>
+	<description>Either parent smoked during trial</description>
+	<type>encoded value</type>
+	<logical_min>.</logical_min>
+	<logical_max>.</logical_max>
+	<value code=".">missing</value>
+	<value code="0">no</value>
+	<value code="1">yes</value>
+</variable>
+
+<variable id="phv00071172.v1">
+	<name>env_smoke_pretrial</name>
+	<description>Home exposure to smoke prior to trial enrollment</description>
+	<type>encoded value</type>
+	<logical_min>.</logical_min>
+	<logical_max>.</logical_max>
+	<value code=".">missing</value>
+	<value code="0">no</value>
+	<value code="1">yes</value>
+</variable>
+
+<variable id="phv00071196.v1">
+	<name>eos_baseline</name>
+	<description>Baseline blood eosinophils (mm^3)</description>
+	<type>integer</type>
+	<unit>mm^3</unit>
+	<logical_min>0</logical_min>
+	<logical_max>1520</logical_max>
+</variable>
+
+<variable id="phv00071155.v1">
+	<name>gender</name>
+	<description>Gender of participant</description>
+	<type>encoded value</type>
+	<logical_min>1</logical_min>
+	<logical_max>2</logical_max>
+	<value code=".">missing</value>
+	<value code="1">Male</value>
+	<value code="2">Female</value>
+</variable>
+
+<variable id="phv00071159.v1">
+	<name>htcm_baseline</name>
+	<description>Baseline standing height (cm)</description>
+	<type>decimal</type>
+	<unit>cm</unit>
+	<logical_min>141</logical_min>
+	<logical_max>206</logical_max>
+</variable>
+
+<variable id="phv00071198.v1">
+	<name>ige_baseline</name>
+	<description>Baseline total IgE (ng/ml)</description>
+	<type>integer</type>
+	<unit>ng/ml</unit>
+	<logical_min>2</logical_min>
+	<logical_max>5420</logical_max>
+</variable>
+
+<variable id="phv00071173.v1">
+	<name>ius</name>
+	<description>In utero smoke.  Mother smoked when pregnant with participant.</description>
+	<type>encoded value</type>
+	<logical_min>.</logical_min>
+	<logical_max>.</logical_max>
+	<value code=".">missing</value>
+	<value code="0">no</value>
+	<value code="1">yes</value>
+</variable>
+
+<variable id="phv00071165.v1">
+	<name>laba_tx_grp</name>
+	<description>Treatment group assigned at baseline was LABA arm</description>
+	<type>encoded value</type>
+	<logical_min>0</logical_min>
+	<logical_max>1</logical_max>
+	<value code=".">missing/not randomized</value>
+	<value code="0">no</value>
+	<value code="1">yes</value>
+</variable>
+
+<variable id="phv00071188.v1">
+	<name>lnpc20_baseline</name>
+	<description>Natural log PC20 at baseline</description>
+	<type>decimal</type>
+	<logical_min>0</logical_min>
+	<logical_max>4.34</logical_max>
+</variable>
+
+<variable id="phv00071197.v1">
+	<name>log10eos_baseline</name>
+	<description>Basline log10 blood eosinophils</description>
+	<type>decimal</type>
+	<logical_min>0</logical_min>
+	<logical_max>3.18</logical_max>
+</variable>
+
+<variable id="phv00071199.v1">
+	<name>log10ige_baseline</name>
+	<description>Baseline log10 IgE</description>
+	<type>decimal</type>
+	<logical_min>0.48</logical_min>
+	<logical_max>3.73</logical_max>
+</variable>
+
+<variable id="phv00071204.v1">
+	<name>nall_skintest_baseline</name>
+	<description>Number of skin tests (all tests) at baseline</description>
+	<type>integer</type>
+	<logical_min>5</logical_min>
+	<logical_max>12</logical_max>
+</variable>
+
+<variable id="phv00071205.v1">
+	<name>npos_skintest_baseline</name>
+	<description>Number of pos skin tests (all tests) at baseline</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>12</logical_max>
+</variable>
+
+<variable id="phv00071187.v1">
+	<name>pc20_baseline</name>
+	<description>Baseline FEV1 PC20 methacholine (mg/ml)</description>
+	<type>decimal</type>
+	<unit>mg/ml</unit>
+	<logical_min>0</logical_min>
+	<logical_max>75.33</logical_max>
+</variable>
+
+<variable id="phv00071203.v1">
+	<name>pos_skintest_baseline</name>
+	<description>One or more skintest positive at baseline</description>
+	<type>encoded value</type>
+	<logical_min>0</logical_min>
+	<logical_max>1</logical_max>
+	<value code=".">missing</value>
+	<value code="0">no</value>
+	<value code="1">yes</value>
+</variable>
+
+<variable id="phv00071184.v1">
+	<name>prech_long</name>
+	<description>Long term change in Pre-FEV1 between baseline and a year after baseline.  The calculation is: 100*(Month12 PREFEV - Baseline PREFEV)/Baseline PREFEV.</description>
+	<type>decimal</type>
+	<logical_min>-16.87</logical_min>
+	<logical_max>14.43</logical_max>
+</variable>
+
+<variable id="phv00071185.v1">
+	<name>prech_short</name>
+	<description>Short term change in Pre-FEV1 between baseline and two months after baseline.  The calculation is: 100*(Month2 PREFEV - Baseline PREFEV)/Baseline PREFEV.</description>
+	<type>decimal</type>
+	<logical_min>-36.85</logical_min>
+	<logical_max>87.5</logical_max>
+</variable>
+
+<variable id="phv00071175.v1">
+	<name>pred_bursts_event1_month</name>
+	<description>Number of months from baseline to first prednisone burst.  This is calculated by dividing the number of days between baseline and the first prednisone burst by 30.25.</description>
+	<type>integer</type>
+	<unit>month</unit>
+	<logical_min>0</logical_min>
+	<logical_max>14.21</logical_max>
+</variable>
+
+<variable id="phv00071176.v1">
+	<name>pred_bursts_event1_week</name>
+	<description>Number of weeks from baseline to first prednisone burst.  This is calculated by dividing the number of days between baseline and the first prednisone burst by 7.</description>
+	<type>integer</type>
+	<unit>week</unit>
+	<logical_min>0</logical_min>
+	<logical_max>61.43</logical_max>
+</variable>
+
+<variable id="phv00071177.v1">
+	<name>pred_bursts_event2_month</name>
+	<description>Number of months from baseline to second prednisone burst.  This is calculated by dividing the number of days between baseline and the second prednisone burst by 30.25.</description>
+	<type>integer</type>
+	<unit>month</unit>
+	<logical_min>0</logical_min>
+	<logical_max>14.21</logical_max>
+</variable>
+
+<variable id="phv00071178.v1">
+	<name>pred_bursts_event2_week</name>
+	<description>Number of weeks from baseline to second prednisone burst.  This is calculated by dividing the number of days between baseline and the second prednisone burst by 7.</description>
+	<type>integer</type>
+	<unit>week</unit>
+	<logical_min>0</logical_min>
+	<logical_max>61.43</logical_max>
+</variable>
+
+<variable id="phv00071192.v1">
+	<name>prefevpp_baseline</name>
+	<description>Baseline FEV1 percent predicted</description>
+	<type>integer</type>
+	<logical_min>35</logical_min>
+	<logical_max>137</logical_max>
+</variable>
+
+<variable id="phv00071189.v1">
+	<name>prefev_baseline</name>
+	<description>Baseline FEV1</description>
+	<type>decimal</type>
+	<unit>liters</unit>
+	<logical_min>1.04</logical_min>
+	<logical_max>5.31</logical_max>
+</variable>
+
+<variable id="phv00071191.v1">
+	<name>preff_baseline</name>
+	<description>Baseline FEV1/FVC ratio</description>
+	<type>integer</type>
+	<logical_min>33.26</logical_min>
+	<logical_max>99.76</logical_max>
+</variable>
+
+<variable id="phv00071193.v1">
+	<name>prefvcpp_baseline</name>
+	<description>Baseline FVC percent predicted</description>
+	<type>integer</type>
+	<logical_min>.</logical_min>
+	<logical_max>.</logical_max>
+</variable>
+
+<variable id="phv00071190.v1">
+	<name>prefvc_baseline</name>
+	<description>Baseline FVC</description>
+	<type>decimal</type>
+	<unit>liters</unit>
+	<logical_min>1.66</logical_min>
+	<logical_max>7.6</logical_max>
+</variable>
+
+<variable id="phv00071151.v1">
+	<name>protocol</name>
+	<description>Study name</description>
+	<type>encoded value</type>
+	<logical_min>1</logical_min>
+	<logical_max>12</logical_max>
+	<value code="1">BAGS</value>
+	<value code="101">CAMP</value>
+	<value code="12">PRICE</value>
+	<value code="201">PEAK</value>
+	<value code="202">CLIC</value>
+	<value code="203">PACT</value>
+	<value code="204">AIMS</value>
+	<value code="205">MARS</value>
+	<value code="3">SOCS/SLIC run-in</value>
+	<value code="4">SOCS</value>
+	<value code="5">SLIC</value>
+	<value code="6">DICE</value>
+	<value code="9">IMPACT</value>
+</variable>
+
+<variable id="phv00071156.v1">
+	<name>race</name>
+	<description>Race of participant</description>
+	<type>encoded value</type>
+	<logical_min>1</logical_min>
+	<logical_max>4</logical_max>
+	<value code="1">Caucasian</value>
+	<value code="2">African American</value>
+	<value code="3">Hispanic</value>
+	<value code="4">Other</value>
+</variable>
+
+<variable id="phv00071164.v1">
+	<name>saba_tx_grp</name>
+	<description>Treatment group assigned at baseline was SABA arm</description>
+	<type>encoded value</type>
+	<logical_min>0</logical_min>
+	<logical_max>1</logical_max>
+	<value code=".">missing/not randomized</value>
+	<value code="0">no</value>
+	<value code="1">yes</value>
+</variable>
+
+<variable id="phv00071170.v1">
+	<name>smoke</name>
+	<description>Participant smoked during trial</description>
+	<type>encoded value</type>
+	<logical_min>.</logical_min>
+	<logical_max>.</logical_max>
+	<value code=".">missing</value>
+	<value code="0">no</value>
+	<value code="1">yes</value>
+</variable>
+
+<variable id="phv00071150.v1">
+	<name>subj_id</name>
+	<description>Deidentified Subject ID</description>
+	<type>integer</type>
+</variable>
+
+<variable id="phv00071201.v1">
+	<name>totres_baseline</name>
+	<description>Baseline total rescue use per day (puffs) as recorded in daily diary card data between visits.  Average of daily measurements up to 4 weeks prior to visit with a minimum of 7 days.</description>
+	<type>integer</type>
+	<unit>puffs</unit>
+	<logical_min>0</logical_min>
+	<logical_max>11</logical_max>
+</variable>
+
+<variable id="phv00071179.v1">
+	<name>tot_edhos</name>
+	<description>Total ER visit or hospitalization during trial</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>1</logical_max>
+</variable>
+
+<variable id="phv00071174.v1">
+	<name>tot_pred_bursts</name>
+	<description>Total prednisone bursts during trial</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>2</logical_max>
+</variable>
+
+<variable id="phv00071163.v1">
+	<name>tx_grp</name>
+	<description>Treatment group as assigned at baseline.</description>
+	<type>encoded value</type>
+	<logical_min>1</logical_min>
+	<logical_max>16</logical_max>
+	<value code=".">missing/not randomized</value>
+	<value code="1">Albuterol</value>
+	<value code="10">Placebo+Triamcinolone</value>
+	<value code="11">Prednisone+Budesonide+Zafirlukast</value>
+	<value code="12">Salmeterol</value>
+	<value code="13">Salmeterol/Fluticasone Combination</value>
+	<value code="14">Salmeterol+Triamcinolone</value>
+	<value code="15">Triamcinolone</value>
+	<value code="16">Zafirlukast</value>
+	<value code="2">Azithromycin</value>
+	<value code="3">Beclomethasone</value>
+	<value code="4">Budesonide</value>
+	<value code="5">Flunisolide</value>
+	<value code="6">Fluticasone</value>
+	<value code="7">Montelukast</value>
+	<value code="8">Nedocromil</value>
+	<value code="9">Placebo</value>
+</variable>
+
+<variable id="phv00071160.v1">
+	<name>wtkg_baseline</name>
+	<description>Baseline weight (kg)</description>
+	<type>decimal</type>
+	<unit>kg</unit>
+	<logical_min>34.8</logical_min>
+	<logical_max>172.36</logical_max>
+</variable>
+
+</data_table>

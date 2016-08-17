@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./datadict_v2.xsl"?>
+<data_table id="pht000898.v1" study_id="phs000210.v1" participant_set="1" date_created="Tue Oct 13 14:05:47 2009">
+
+<variable id="phv00076264.v1">
+	<name>id</name>
+	<description>Anonymous  ID number</description>
+	<type>integer</type>
+</variable>
+
+<variable id="phv00076265.v1">
+	<name>case_status</name>
+	<description>Case/control status</description>
+	<type>string</type>
+</variable>
+
+<variable id="phv00076266.v1">
+	<name>group_id</name>
+	<description>ID for matched groups of case and its matched controls</description>
+	<type>integer</type>
+</variable>
+
+<variable id="phv00076267.v1">
+	<name>prior_chemo</name>
+	<description>Prior chemotherapy</description>
+	<type>string</type>
+	<comment>&lt;br/&gt; &lt;b&gt;Matching variable:&lt;/b&gt; &lt;br/&gt; Perfect match = matched by chemotherapy&lt;br/&gt; Optimal match = not matched by chemotherapy&lt;br/&gt;</comment>
+</variable>
+
+<variable id="phv00076268.v1">
+	<name>age</name>
+	<description>Age at treatment</description>
+	<type>integer</type>
+	<unit>Years</unit>
+	<comment>&lt;br/&gt;&lt;b&gt;Matching variable:&lt;/b&gt; &lt;br/&gt; Perfect match =  +/- 5 years&lt;br/&gt; Optimal match  = +/- 10 years&lt;br/&gt;</comment>
+</variable>
+
+<variable id="phv00076269.v1">
+	<name>institute</name>
+	<description>Institute ID</description>
+	<type>string</type>
+	<comment>&lt;br/&gt;Multiple institute ID&#39;s used (values not listed out)</comment>
+</variable>
+
+<variable id="phv00076270.v1">
+	<name>bisphos</name>
+	<description>Bisphosphonate use</description>
+	<type>string</type>
+</variable>
+
+<variable id="phv00076271.v1">
+	<name>fractures</name>
+	<description>Any fractures in past 10 years</description>
+	<type>string</type>
+</variable>
+
+<variable id="phv00076272.v1">
+	<name>ecog</name>
+	<description>Baseline ECOG (Eastern Cooperative Oncology Group)  performance status</description>
+	<type>encoded value</type>
+	<comment><![CDATA[<br/><b>ECOG Performance Status</b>These scales and criteria are used by doctors and researchers to assess how a patient&#39;s disease is progressing, assess how the disease affects the daily living abilities of the patient, and determine appropriate treatment and prognosis. They are included here for health care professionals to access. <br/><b>ECOG Grade:</b><br/> 0 = Fully active, able to carry on all pre-disease performance without restriction<br/> 1 =  Restricted in physically strenuous activity but ambulatory and able to carry out work of a light or sedentary nature, e.g., light house work, office work<br/> 2 = Ambulatory and capable of all self care but unable to carry out any work activities. Up and about more than 50% of waking hours<br/> 3 = Capable of only limited self care, confined to bed or chair more than 50% of waking hours<br/> 4 =  Completely disabled. Cannot carry on any self care. Totally confined to bed or chair<br/> 5  = Dead<br/> Oken, M.M., Creech, R.H., Tormey, D.C., Horton, J., Davis, T.E., McFadden, E.T., Carbone, P.P.: Toxicity And Response Criteria Of The Eastern Cooperative Oncology Group. Am J Clin Oncol 5:649-655, 1982.<a href="http://www.ncbi.nlm.nih.gov/pubmed/7165009">PMID: 7165009</a>  ]]></comment>
+	<value code="0">Fully</value>
+	<value code="1">Restricted</value>
+	<value code="2">Ambulatory</value>
+	<value code="3">Capable of only limited self care</value>
+	<value code="4">Completely disabled</value>
+	<value code="5">Dead</value>
+</variable>
+
+<variable id="phv00076273.v1">
+	<name>prior_hormone</name>
+	<description>Prior hormone replacement therapy</description>
+	<type>string</type>
+</variable>
+
+<variable id="phv00076274.v1">
+	<name>prior_radio</name>
+	<description>Prior adjuvant radiotherapy</description>
+	<type>string</type>
+</variable>
+
+<variable id="phv00076275.v1">
+	<name>prior_tax</name>
+	<description>Prior taxane therapy</description>
+	<type>string</type>
+	<value code="N">No</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00076276.v1">
+	<name>height</name>
+	<description>Height</description>
+	<type>integer</type>
+	<unit>cm</unit>
+</variable>
+
+<variable id="phv00076277.v1">
+	<name>weight</name>
+	<description>Weight</description>
+	<type>integer</type>
+	<unit>kg</unit>
+</variable>
+
+<variable id="phv00076278.v1">
+	<name>validity</name>
+	<description>Validity of Cases and Controls</description>
+	<type>encoded value</type>
+	<comment>&lt;br/&gt;&lt;b&gt;Validity of Control:&lt;/b&gt; &lt;br/&gt; 1 = valid control&lt;br/&gt;  0 = control had MSK after initial matching, definite exclusion&lt;br/&gt; 2 = control had MSK after initial matching, possibly OK to include. &lt;br/&gt; &lt;b&gt;Validity of Case:&lt;/b&gt;  &lt;br/&gt; 2 cases are now questionable, because one case went off treatment, but&lt;br/&gt;  returned to trial therapy; one case has questionable MSK event:&lt;br/&gt; 1 = valid case&lt;br/&gt; 2 = questionable validity</comment>
+	<value code="0">Definite exclusion</value>
+	<value code="1">Valid</value>
+	<value code="2">Questionable</value>
+</variable>
+
+</data_table>

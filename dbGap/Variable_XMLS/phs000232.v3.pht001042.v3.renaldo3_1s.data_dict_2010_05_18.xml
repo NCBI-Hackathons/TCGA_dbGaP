@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./datadict_v2.xsl"?>
+<data_table id="pht001042.v3" study_id="phs000232.v3" participant_set="5" date_created="Tue May 18 22:33:33 2010">
+
+<variable id="phv00080769.v1">
+	<name>idtype</name>
+	<description>Framingham Cohort Identifier</description>
+	<type>encoded</type>
+	<coll_interval>Exam 1</coll_interval>
+	<value code="3">Generation 3 Cohort</value>
+</variable>
+
+<variable id="phv00080770.v3">
+	<name>renin</name>
+	<description>Renin</description>
+	<type>decimal, encoded</type>
+	<unit>ng/mL/hr</unit>
+	<logical_min>0</logical_min>
+	<logical_max>97.346</logical_max>
+	<coll_interval>Exam 1</coll_interval>
+	<comment>When the lab assay had a negative value data was changed to &quot;0&quot; (n=2). 0 means no Renin activity. The assay result is not a Renin measurement but an activity based on Renin action to produce Angiotensin I, which is what was measured [over a specific time interval and comparing two temperature - one where the enzyme was not active and the other at body temperature to calculate normal Renin activity from the difference]. 
+		There were good measurements of angiotensin I in these specimens, but no increase due to Renin activity in the specimen.  
+		Version 1  1/4/2010: units and ranges were changed for RENIN. </comment>
+	<value code=".">Unknown</value>
+</variable>
+
+<variable id="phv00080771.v2">
+	<name>aldo</name>
+	<description>Aldosterone</description>
+	<type>integer, encoded</type>
+	<unit>pg/mL</unit>
+	<logical_min>20</logical_min>
+	<logical_max>920</logical_max>
+	<coll_interval>Exam 1</coll_interval>
+	<comment>Lower limit of measurement &lt; 20 was set to 20</comment>
+	<value code=".">Unknown</value>
+</variable>
+
+<variable id="phv00080772.v2">
+	<name>shareid</name>
+	<description>SHARe ID Number</description>
+	<type>integer</type>
+	<coll_interval>Exam 1</coll_interval>
+</variable>
+
+</data_table>

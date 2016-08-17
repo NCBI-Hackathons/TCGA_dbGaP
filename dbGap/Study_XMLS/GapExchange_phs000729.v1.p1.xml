@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GaPExchange xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="./dbGaPEx2.1.5.xsd">
+
+<MetaVariables>
+	<Submitter/>
+	<Method/>
+</MetaVariables>
+<MetaLinks/>
+
+<Projects>
+	<Project/>
+</Projects>
+
+<Studies>
+
+<Study source="dbGaP" accession="phs000729.v1.p1" parentStudy="phs000729.v1.p1" createDate="2014-03-18" modDate="2014-03-18">
+
+<Configuration>
+	<Data_Provider><![CDATA[
+		<table border="1">
+		<tr><th>Title</th><th>Name</th><th>Institute</th></tr>
+		<tr><td>Principal Investigator</td><td>Sami N. Malek, MD</td><td>University of Michigan Department of Internal Medicine, Division of Hematology-Oncology, Ann Arbor, MI, USA</td></tr>
+		</table>
+	]]></Data_Provider>
+	<StudyNameEntrez>Follicular Lymphoma 2013 - Malek</StudyNameEntrez>
+	<StudyNameReportPage>Solution-based exome capture and HiSeq2000-based massively parallel sequencing of Follicular Lymphoma</StudyNameReportPage>
+	<StudyTypes>
+		<StudyType>Case Set</StudyType>
+	</StudyTypes>
+	<Description><![CDATA[
+<p>A cohort of follicular lymphoma cases had tumor cells purified from tissue samples after informed consent using flow cytometry. DNA was extracted from the cells, and samples were subjected to solution-based exome capture using the Illumina TruSeq Exome Enrichment Kit and the Illumina HiSeq 2000 platform.</p>]]>
+	</Description>
+	<StudyInEx><![CDATA[
+<p>Patients were enrolled between 2008 and 2012 into a lymphoma repository at the University of Michigan Comprehensive Cancer Center. The study procured patient material during times of clinically indicated lymphoma surgeries. This study also procured buccal swabs, peripheral blood and occasional bone marrow aspirates. Subclassifications of the follicular lymphomas by World Health Organization criteria were verified by a hematopathologist using histopathologic, cytologic, and immunophenotypic features.</p>]]>
+	</StudyInEx>
+	<StudyProjects>
+		<Project/>
+	</StudyProjects>
+	<Publications>
+		<Publication>
+			<Pubmed pmid="24435047"/>
+		</Publication>
+	</Publications>
+	<Diseases>
+		<Disease vocab_source="MESH" vocab_term="Lymphoma, Follicular"/>
+		<Disease vocab_source="MESH" vocab_term="Lymphoma, Non-Hodgkin"/>
+	</Diseases>
+	<Attributions>
+		<Header title="Principal Investigator">
+			<AttName>Sami N. Malek, MD</AttName>
+			<Institution>University of Michigan Department of Internal Medicine, Division of Hematology-Oncology, Ann Arbor, MI, USA</Institution>
+		</Header>
+	</Attributions>
+	<DisplayPublicSummary>yes</DisplayPublicSummary>
+	<ConsentGroups>
+		<ConsentGroup groupNum="1" shortName="DS-LYM-MDS" longName="Disease-Specific (Lymphoma, MDS)"/>
+	</ConsentGroups>
+</Configuration>
+
+  <AuthorizedAccess>
+    <DacInfo ssDacId="0">
+      <DacName>NCI</DacName>
+      <DacFullName>NCI</DacFullName>
+      <DacEmail>0</DacEmail>
+      <DacPhone></DacPhone>
+      <DacUrl></DacUrl>
+    </DacInfo>
+    <Policy Policy_ID="phs000729.v1.p1_policy" ref_ssDacId="0">
+      <DisplayResearchStatement>yes</DisplayResearchStatement>
+      <DisplayPublicSummary>yes</DisplayPublicSummary>
+      <EmbargoLength>0</EmbargoLength>
+      <YearsUntilRenewal>1</YearsUntilRenewal>
+      <WeeksCancelRequest>8</WeeksCancelRequest>
+      <PdfSupplementReqired>no</PdfSupplementReqired>
+      <AcknowledgementText>
+        <para>
+          http://dbgap.ncbi.nlm.nih.gov/aa/wga.cgi?page=DUC&amp;view_pdf&amp;stacc=phs000729.v1.p1
+        </para>
+      </AcknowledgementText>
+      <DocumentSet>
+        <DataUseCertificate Label="Data Use Certificate" FilePath="https://dbgap.ncbi.nlm.nih.gov/aa/wga.cgi?page=DUC&amp;view_pdf&amp;stacc=phs000729.v1.p1" FileName="eNCI_0185_DUC_3.12.2014.pdf"/>
+      </DocumentSet>
+    </Policy>
+    <ConsentGroups>
+      <ParticipantSet groupNum-REF="1">
+        <ConsentName>Disease-Specific (Lymphoma, MDS)</ConsentName>
+        <ConsentAbbrev>DS-LYM-MDS</ConsentAbbrev>
+        <UseLimitation>Use of the data must be related to Lymphoma.
+Use of the data includes methods development research (e.g., development of software or algorithms).</UseLimitation>
+        <IrbRequired>No</IrbRequired>
+      </ParticipantSet>
+    </ConsentGroups>
+  </AuthorizedAccess>
+
+
+</Study>
+
+</Studies>
+
+</GaPExchange>

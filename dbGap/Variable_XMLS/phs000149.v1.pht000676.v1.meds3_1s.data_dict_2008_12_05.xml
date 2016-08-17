@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./datadict_v2.xsl"?>
+<data_table id="pht000676.v1" study_id="phs000149.v1" participant_set="2" date_created="Fri Dec  5 17:16:52 2008">
+
+<unique_key phv="00066833" version="1">MEDNAME</unique_key>
+<unique_key phv="00066834" version="1">MEDSTREN</unique_key>
+<unique_key phv="00066836" version="1">MEDPER</unique_key>
+<unique_key phv="00066837" version="1">MEDPRN</unique_key>
+<unique_key phv="00066850" version="1">shareid</unique_key>
+
+<variable id="phv00066826.v1">
+	<name>atc_cod1</name>
+	<description>ATC CODE FOR MEDICATION OR FIRST DRUG IN COMPOUND</description>
+	<comment>
+		DATA SET CONTAINS RECORDS ONLY FOR THOSE REPORTING THAT THEY TOOK MEDICATIONS (3,174 PARTICIPANTS). 
+	</comment>
+</variable>
+
+<variable id="phv00066820.v1">
+	<name>atc_cod2</name>
+	<description>ATC CODE FOR SECOND DRUG IN COMPOUND</description>
+	<comment>
+		DATA SET CONTAINS RECORDS ONLY FOR THOSE REPORTING THAT THEY TOOK MEDICATIONS (3,174 PARTICIPANTS). 
+	</comment>
+</variable>
+
+<variable id="phv00066838.v1">
+	<name>atc_cod3</name>
+	<description>ATC CODE FOR THIRD DRUG IN COMPOUND</description>
+	<comment>
+		DATA SET CONTAINS RECORDS ONLY FOR THOSE REPORTING THAT THEY TOOK MEDICATIONS (3,174 PARTICIPANTS). 
+	</comment>
+</variable>
+
+<variable id="phv00066839.v1">
+	<name>atc_cod4</name>
+	<description>ATC CODE FOR FOURTH DRUG IN COMPOUND</description>
+	<comment>
+		DATA SET CONTAINS RECORDS ONLY FOR THOSE REPORTING THAT THEY TOOK MEDICATIONS (3,174 PARTICIPANTS). 
+	</comment>
+</variable>
+
+<variable id="phv00066830.v1">
+	<name>chem_gp1</name>
+	<description>DESCRIPTION/LABEL FOR CHEMICAL SUBGROUP - MEDICATION OR FIRST DRUG IN COMPOUND</description>
+	<comment>
+		DATA SET CONTAINS RECORDS ONLY FOR THOSE REPORTING THAT THEY TOOK MEDICATIONS (3,174 PARTICIPANTS). 
+	</comment>
+</variable>
+
+<variable id="phv00066824.v1">
+	<name>chem_gp2</name>
+	<description>DESCRIPTION/LABEL FOR CHEMICAL SUBGROUP - SECOND DRUG IN COMPOUND</description>
+	<comment>
+		DATA SET CONTAINS RECORDS ONLY FOR THOSE REPORTING THAT THEY TOOK MEDICATIONS (3,174 PARTICIPANTS). 
+	</comment>
+</variable>
+
+<variable id="phv00066843.v1">
+	<name>chem_gp3</name>
+	<description>DESCRIPTION/LABEL FOR CHEMICAL SUBGROUP - THIRD DRUG IN COMPOUND</description>
+	<comment>
+		DATA SET CONTAINS RECORDS ONLY FOR THOSE REPORTING THAT THEY TOOK MEDICATIONS (3,174 PARTICIPANTS). 
+	</comment>
+</variable>
+
+<variable id="phv00066848.v1">
+	<name>chem_gp4</name>
+	<description>DESCRIPTION/LABEL FOR CHEMICAL SUBGROUP - FOURTH DRUG IN COMPOUND</description>
+	<comment>
+		DATA SET CONTAINS RECORDS ONLY FOR THOSE REPORTING THAT THEY TOOK MEDICATIONS (3,174 PARTICIPANTS). 
+	</comment>
+</variable>
+
+<variable id="phv00066831.v1">
+	<name>chem_nm1</name>
+	<description>DESCRIPTION/LABEL FOR CHEMICAL SUBSTANCE - MEDICATION OR FIRST DRUG IN COMPOUND</description>
+	<comment>
+		DATA SET CONTAINS RECORDS ONLY FOR THOSE REPORTING THAT THEY TOOK MEDICATIONS (3,174 PARTICIPANTS). 
+	</comment>
+</variable>
+
+<variable id="phv00066825.v1">
+	<name>chem_nm2</name>
+	<description>DESCRIPTION/LABEL FOR CHEMICAL SUBSTANCE - SECOND DRUG IN COMPOUND</description>
+	<comment>
+		DATA SET CONTAINS RECORDS ONLY FOR THOSE REPORTING THAT THEY TOOK MEDICATIONS (3,174 PARTICIPANTS). 
+	</comment>
+</variable>
+
+<variable id="phv00066844.v1">
+	<name>chem_nm3</name>
+	<description>DESCRIPTION/LABEL FOR CHEMICAL SUBSTANCE - THIRD DRUG IN COMPOUND</description>
+	<comment>
+		DATA SET CONTAINS RECORDS ONLY FOR THOSE REPORTING THAT THEY TOOK MEDICATIONS (3,174 PARTICIPANTS). 
+	</comment>
+</variable>
+
+<variable id="phv00066849.v1">
+	<name>chem_nm4</name>
+	<description>DESCRIPTION/LABEL FOR CHEMICAL SUBSTANCE - FOURTH DRUG IN COMPOUND</description>
+	<comment>
+		DATA SET CONTAINS RECORDS ONLY FOR THOSE REPORTING THAT THEY TOOK MEDICATIONS (3,174 PARTICIPANTS). 
+	</comment>
+</variable>
+
+<variable id="phv00066832.v1">
+	<name>IDTYPE</name>
+	<description>FRAMINGHAM COHORT IDENTIFIER</description>
+	<comment>
+		DATA SET CONTAINS RECORDS ONLY FOR THOSE REPORTING THAT THEY TOOK MEDICATIONS (3,174 PARTICIPANTS). 
+	</comment>
+	<value code="3">GEN 3</value>
+</variable>
+
+<variable id="phv00066833.v1">
+	<name>MEDNAME</name>
+	<description>MEDICATION NAME - CHARACTER FIELD</description>
+	<comment>
+		DATA SET CONTAINS RECORDS ONLY FOR THOSE REPORTING THAT THEY TOOK MEDICATIONS (3,174 PARTICIPANTS). 
+	</comment>
+</variable>
+
+<variable id="phv00066835.v1">
+	<name>MEDNUM</name>
+	<description>NUMBER TAKEN FOR GIVEN PERIOD (SEE MEDPER).</description>
+	<comment>
+		DATA SET CONTAINS RECORDS ONLY FOR THOSE REPORTING THAT THEY TOOK MEDICATIONS (3,174 PARTICIPANTS). 
+	</comment>
+	<logical_min>1</logical_min>
+	<logical_max>42</logical_max>
+	<value code=".">MISSING (N = 1,489)</value>
+</variable>
+
+<variable id="phv00066836.v1">
+	<name>MEDPER</name>
+	<description>PERIOD RANGE</description>
+	<comment>
+		DATA SET CONTAINS RECORDS ONLY FOR THOSE REPORTING THAT THEY TOOK MEDICATIONS (3,174 PARTICIPANTS). 
+	</comment>
+	<value code=".">MISSING (N = 1,471)</value>
+	<value code="1">DAY</value>
+	<value code="2">WEEK</value>
+	<value code="3">MONTH</value>
+</variable>
+
+<variable id="phv00066837.v1">
+	<name>MEDPRN</name>
+	<description>MEDICATION TAKEN AS NEEDED</description>
+	<comment>
+		DATA SET CONTAINS RECORDS ONLY FOR THOSE REPORTING THAT THEY TOOK MEDICATIONS (3,174 PARTICIPANTS). 
+	</comment>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00066834.v1">
+	<name>MEDSTREN</name>
+	<description>MEDICATION STRENGTH - CHARACTER FIELD</description>
+	<comment>
+		DATA SET CONTAINS RECORDS ONLY FOR THOSE REPORTING THAT THEY TOOK MEDICATIONS (3,174 PARTICIPANTS). 
+	</comment>
+</variable>
+
+<variable id="phv00066829.v1">
+	<name>phrm_gp1</name>
+	<description>DESCRIPTION/LABEL FOR PHARMACOLOGICAL SUBGROUP - MEDICATION OR FIRST DRUG IN COMPOUND</description>
+	<comment>
+		DATA SET CONTAINS RECORDS ONLY FOR THOSE REPORTING THAT THEY TOOK MEDICATIONS (3,174 PARTICIPANTS). 
+	</comment>
+</variable>
+
+<variable id="phv00066823.v1">
+	<name>phrm_gp2</name>
+	<description>DESCRIPTION/LABEL FOR PHARMACOLOGICAL SUBGROUP - SECOND DRUG IN COMPOUND</description>
+	<comment>
+		DATA SET CONTAINS RECORDS ONLY FOR THOSE REPORTING THAT THEY TOOK MEDICATIONS (3,174 PARTICIPANTS). 
+	</comment>
+</variable>
+
+<variable id="phv00066842.v1">
+	<name>phrm_gp3</name>
+	<description>DESCRIPTION/LABEL FOR PHARMACOLOGICAL SUBGROUP - THIRD DRUG IN COMPOUND</description>
+	<comment>
+		DATA SET CONTAINS RECORDS ONLY FOR THOSE REPORTING THAT THEY TOOK MEDICATIONS (3,174 PARTICIPANTS). 
+	</comment>
+</variable>
+
+<variable id="phv00066847.v1">
+	<name>phrm_gp4</name>
+	<description>DESCRIPTION/LABEL FOR PHARMACOLOGICAL SUBGROUP - FOURTH DRUG IN COMPOUND</description>
+	<comment>
+		DATA SET CONTAINS RECORDS ONLY FOR THOSE REPORTING THAT THEY TOOK MEDICATIONS (3,174 PARTICIPANTS). 
+	</comment>
+</variable>
+
+<variable id="phv00066850.v1">
+	<name>shareid</name>
+	<description>SHARE ID NUMBER</description>
+	<comment>
+		DATA SET CONTAINS RECORDS ONLY FOR THOSE REPORTING THAT THEY TOOK MEDICATIONS (3,174 PARTICIPANTS). 
+	</comment>
+</variable>
+
+<variable id="phv00066827.v1">
+	<name>system1</name>
+	<description>DESCRIPTION/LABEL FOR ANATOMICAL MAIN GROUP - MEDICATION OR FIRST DRUG IN COMPOUND</description>
+	<comment>
+		DATA SET CONTAINS RECORDS ONLY FOR THOSE REPORTING THAT THEY TOOK MEDICATIONS (3,174 PARTICIPANTS). 
+	</comment>
+</variable>
+
+<variable id="phv00066821.v1">
+	<name>system2</name>
+	<description>DESCRIPTION/LABEL FOR ANATOMICAL MAIN GROUP - SECOND DRUG IN COMPOUND</description>
+	<comment>
+		DATA SET CONTAINS RECORDS ONLY FOR THOSE REPORTING THAT THEY TOOK MEDICATIONS (3,174 PARTICIPANTS). 
+	</comment>
+</variable>
+
+<variable id="phv00066840.v1">
+	<name>system3</name>
+	<description>DESCRIPTION/LABEL FOR ANATOMICAL MAIN GROUP - THIRD DRUG IN COMPOUND</description>
+	<comment>
+		DATA SET CONTAINS RECORDS ONLY FOR THOSE REPORTING THAT THEY TOOK MEDICATIONS (3,174 PARTICIPANTS). 
+	</comment>
+</variable>
+
+<variable id="phv00066845.v1">
+	<name>system4</name>
+	<description>DESCRIPTION/LABEL FOR ANATOMICAL MAIN GROUP - FOURTH DRUG IN COMPOUND</description>
+	<comment>
+		DATA SET CONTAINS RECORDS ONLY FOR THOSE REPORTING THAT THEY TOOK MEDICATIONS (3,174 PARTICIPANTS). 
+	</comment>
+</variable>
+
+<variable id="phv00066828.v1">
+	<name>ther_gp1</name>
+	<description>DESCRIPTION/LABEL FOR THERAPEUTIC SUBGROUP - MEDICATION OR FIRST DRUG IN COMPOUND</description>
+	<comment>
+		DATA SET CONTAINS RECORDS ONLY FOR THOSE REPORTING THAT THEY TOOK MEDICATIONS (3,174 PARTICIPANTS). 
+	</comment>
+</variable>
+
+<variable id="phv00066822.v1">
+	<name>ther_gp2</name>
+	<description>DESCRIPTION/LABEL FOR THERAPEUTIC SUBGROUP - SECOND DRUG IN COMPOUND</description>
+	<comment>
+		DATA SET CONTAINS RECORDS ONLY FOR THOSE REPORTING THAT THEY TOOK MEDICATIONS (3,174 PARTICIPANTS). 
+	</comment>
+</variable>
+
+<variable id="phv00066841.v1">
+	<name>ther_gp3</name>
+	<description>DESCRIPTION/LABEL FOR THERAPEUTIC SUBGROUP - THIRD DRUG IN COMPOUND</description>
+	<comment>
+		DATA SET CONTAINS RECORDS ONLY FOR THOSE REPORTING THAT THEY TOOK MEDICATIONS (3,174 PARTICIPANTS). 
+	</comment>
+</variable>
+
+<variable id="phv00066846.v1">
+	<name>ther_gp4</name>
+	<description>DESCRIPTION/LABEL FOR THERAPEUTIC SUBGROUP - FOURTH DRUG IN COMPOUND</description>
+	<comment>
+		DATA SET CONTAINS RECORDS ONLY FOR THOSE REPORTING THAT THEY TOOK MEDICATIONS (3,174 PARTICIPANTS). 
+	</comment>
+</variable>
+
+</data_table>

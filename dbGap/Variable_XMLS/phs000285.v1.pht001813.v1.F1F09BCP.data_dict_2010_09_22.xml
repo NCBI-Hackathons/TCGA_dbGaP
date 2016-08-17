@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./datadict_v2.xsl"?>
+<data_table id="pht001813.v1" study_id="phs000285.v1" participant_set="1" date_created="Wed Sep 22 11:07:55 2010">
+
+<unique_key phv="00119994" version="1">Individual_ID</unique_key>
+<unique_key phv="00120010" version="1">F09BCNAM</unique_key>
+
+<variable id="phv00119994.v1">
+	<name>Individual_ID</name>
+	<description>Subject Identifier</description>
+	<type>string</type>
+</variable>
+
+<variable id="phv00119995.v1">
+	<name>f09stpdate</name>
+	<description>F09stpdate</description>
+	<type>integer</type>
+	<logical_min>-152</logical_min>
+	<logical_max>189</logical_max>
+</variable>
+
+<variable id="phv00119996.v1">
+	<name>F09BCCD1</name>
+	<description>MED CLASSIFICATION CODE 1 OF 4</description>
+	<type>encoded</type>
+	<comment><![CDATA[Please find encoded value descriptions in associated documents. Some of the values might be encoded and code descriptions have not been submitted at this time.
+		Please consult the document at <a href="http://www.cardia.dopm.uab.edu/pdf/FORM09_C.PDF">http://www.cardia.dopm.uab.edu/pdf/FORM09_C.PDF</a> ]]></comment>
+	<value code="0">0</value>
+	<value code="2">2</value>
+	<value code="51">51</value>
+	<value code="53">53</value>
+	<value code="58">58</value>
+	<value code="83">83</value>
+	<value code="999">999</value>
+	<value code=".">.</value>
+</variable>
+
+<variable id="phv00119997.v1">
+	<name>F09BCCD2</name>
+	<description>MED CLASSIFICATION CODE 2 OF 4</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>91</logical_max>
+	<comment><![CDATA[Please consult the document at <a href="http://www.cardia.dopm.uab.edu/pdf/FORM09_C.PDF">http://www.cardia.dopm.uab.edu/pdf/FORM09_C.PDF</a>]]></comment>
+</variable>
+
+<variable id="phv00119998.v1">
+	<name>F09BCCD3</name>
+	<description>MED CLASSIFICATION CODE 3 OF 4</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>100</logical_max>
+	<comment><![CDATA[Please consult the document at <a href="http://www.cardia.dopm.uab.edu/pdf/FORM09_C.PDF">http://www.cardia.dopm.uab.edu/pdf/FORM09_C.PDF</a>]]></comment>
+</variable>
+
+<variable id="phv00119999.v1">
+	<name>F09BCCD4</name>
+	<description>MED CLASSIFICATION CODE 4 OF 4</description>
+	<type>encoded</type>
+	<comment><![CDATA[Please find encoded value descriptions in associated documents. Some of the values might be encoded and code descriptions have not been submitted at this time.
+		Please consult the document at <a href="http://www.cardia.dopm.uab.edu/pdf/FORM09_C.PDF">http://www.cardia.dopm.uab.edu/pdf/FORM09_C.PDF</a> ]]></comment>
+	<value code="0">0</value>
+	<value code="37">37</value>
+	<value code="51">51</value>
+	<value code="55">55</value>
+	<value code="87">87</value>
+	<value code="91">91</value>
+	<value code=".">.</value>
+</variable>
+
+<variable id="phv00120000.v1">
+	<name>F09BCNOW</name>
+	<description>CURRENTLY TAKING BIRTH CONTROL PILLS? Q 41b</description>
+	<type>encoded</type>
+	<comment><![CDATA[Please find encoded value descriptions in associated documents. Some of the values might be encoded and code descriptions have not been submitted at this time.
+		Please consult the document at <a href="http://www.cardia.dopm.uab.edu/pdf/FORM09_C.PDF">http://www.cardia.dopm.uab.edu/pdf/FORM09_C.PDF</a> ]]></comment>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+	<value code=".">.</value>
+</variable>
+
+<variable id="phv00120001.v1">
+	<name>F09BCTYR</name>
+	<description>YEARS OF BCP ALTOGETHER. Q 41c</description>
+	<type>integer</type>
+	<unit>Years</unit>
+	<logical_min>0</logical_min>
+	<logical_max>32</logical_max>
+	<comment><![CDATA[Please consult the document at <a href="http://www.cardia.dopm.uab.edu/pdf/FORM09_C.PDF">http://www.cardia.dopm.uab.edu/pdf/FORM09_C.PDF</a>]]></comment>
+</variable>
+
+<variable id="phv00120002.v1">
+	<name>F09BCTMO</name>
+	<description>MONTHS OF BCP ALTOGETHER. Q 41c</description>
+	<type>integer</type>
+	<unit>Months</unit>
+	<logical_min>0</logical_min>
+	<logical_max>36</logical_max>
+	<comment><![CDATA[Please consult the document at <a href="http://www.cardia.dopm.uab.edu/pdf/FORM09_C.PDF">http://www.cardia.dopm.uab.edu/pdf/FORM09_C.PDF</a>]]></comment>
+</variable>
+
+<variable id="phv00120003.v1">
+	<name>F09BCTY1</name>
+	<description>YEARS SINCE LAST STARTED BCP. Q 41b.1</description>
+	<type>integer</type>
+	<unit>Years</unit>
+	<logical_min>0</logical_min>
+	<logical_max>30</logical_max>
+	<comment><![CDATA[Please consult the document at <a href="http://www.cardia.dopm.uab.edu/pdf/FORM09_C.PDF">http://www.cardia.dopm.uab.edu/pdf/FORM09_C.PDF</a>]]></comment>
+</variable>
+
+<variable id="phv00120004.v1">
+	<name>F09BCTM1</name>
+	<description>MONTHS SINCE LAST STARTED BCP. Q 41b.1</description>
+	<type>integer</type>
+	<unit>Months</unit>
+	<logical_min>0</logical_min>
+	<logical_max>20</logical_max>
+	<comment><![CDATA[Please consult the document at <a href="http://www.cardia.dopm.uab.edu/pdf/FORM09_C.PDF">http://www.cardia.dopm.uab.edu/pdf/FORM09_C.PDF</a>]]></comment>
+</variable>
+
+<variable id="phv00120005.v1">
+	<name>F09BCXD</name>
+	<description>STOP DATE: EXACT/APPROXIMATE. Q 41b.2</description>
+	<type>integer</type>
+	<logical_min>-316</logical_min>
+	<logical_max>-302</logical_max>
+	<comment><![CDATA[Please consult the document at <a href="http://www.cardia.dopm.uab.edu/pdf/FORM09_C.PDF">http://www.cardia.dopm.uab.edu/pdf/FORM09_C.PDF</a>]]></comment>
+</variable>
+
+<variable id="phv00120006.v1">
+	<name>F09BCNUM</name>
+	<description>MEDICATION NUMBER. Q 41a</description>
+	<type>encoded</type>
+	<comment><![CDATA[Please find encoded value descriptions in associated documents. Some of the values might be encoded and code descriptions have not been submitted at this time.
+		Please consult the document at <a href="http://www.cardia.dopm.uab.edu/pdf/FORM09_C.PDF">http://www.cardia.dopm.uab.edu/pdf/FORM09_C.PDF</a> ]]></comment>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+</variable>
+
+<variable id="phv00120007.v1">
+	<name>F09STPYR</name>
+	<description>YEAR STOPPED TAKING BCP</description>
+	<type>string</type>
+	<unit>Year</unit>
+	<comment><![CDATA[Please consult the document at <a href="http://www.cardia.dopm.uab.edu/pdf/FORM09_C.PDF">http://www.cardia.dopm.uab.edu/pdf/FORM09_C.PDF</a>]]></comment>
+</variable>
+
+<variable id="phv00120008.v1">
+	<name>F09STPMO</name>
+	<description>MONTH STOPPED TAKING BCP</description>
+	<type>string</type>
+	<unit>Month</unit>
+	<comment><![CDATA[Please consult the document at <a href="http://www.cardia.dopm.uab.edu/pdf/FORM09_C.PDF">http://www.cardia.dopm.uab.edu/pdf/FORM09_C.PDF</a>]]></comment>
+</variable>
+
+<variable id="phv00120009.v1">
+	<name>F09STPDT</name>
+	<description>DATE STOPPED TAKING BCP</description>
+	<type>string</type>
+	<comment><![CDATA[Please consult the document at <a href="http://www.cardia.dopm.uab.edu/pdf/FORM09_C.PDF">http://www.cardia.dopm.uab.edu/pdf/FORM09_C.PDF</a>]]></comment>
+</variable>
+
+<variable id="phv00120010.v1">
+	<name>F09BCNAM</name>
+	<description>MEDICATION NAME</description>
+	<type>string</type>
+	<comment><![CDATA[Please consult the document at <a href="http://www.cardia.dopm.uab.edu/pdf/FORM09_C.PDF">http://www.cardia.dopm.uab.edu/pdf/FORM09_C.PDF</a>]]></comment>
+</variable>
+
+<variable id="phv00120011.v1">
+	<name>F09CEXDT</name>
+	<description>DATE OF EXAM-FORM 9BCP</description>
+	<type>integer</type>
+	<logical_min>169</logical_min>
+	<logical_max>193</logical_max>
+	<comment><![CDATA[Please consult the document at <a href="http://www.cardia.dopm.uab.edu/pdf/FORM09_C.PDF">http://www.cardia.dopm.uab.edu/pdf/FORM09_C.PDF</a>]]></comment>
+</variable>
+
+<variable id="phv00120012.v1">
+	<name>F09ST_DT</name>
+	<description>DATE STOPPED TAKING BCP. Q 41b.2</description>
+	<type>integer</type>
+	<logical_min>-152</logical_min>
+	<logical_max>189</logical_max>
+	<comment><![CDATA[Please consult the document at <a href="http://www.cardia.dopm.uab.edu/pdf/FORM09_C.PDF">http://www.cardia.dopm.uab.edu/pdf/FORM09_C.PDF</a>]]></comment>
+</variable>
+
+</data_table>

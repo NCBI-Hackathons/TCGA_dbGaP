@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./datadict_v2.xsl"?>
+<data_table id="pht000379.v1" study_id="phs000001.v2" participant_set="1" date_created="Fri Dec  5 14:54:04 2008">
+
+<unique_key phv="00054266" version="1">ID</unique_key>
+<unique_key phv="00054267" version="1">VISNO</unique_key>
+
+<variable id="phv00054266.v1">
+	<name>ID</name>
+	<description>DUMMY ID NUMBER</description>
+	<type>string</type>
+</variable>
+
+<variable id="phv00054286.v1">
+	<name>LASTCLINL</name>
+	<description>LAST PHOTO IN CLINICAL TRIAL (ALL PARTICIPANTS)</description>
+	<type>enumerated integer</type>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00054274.v1">
+	<name>LEIRISCO</name>
+	<description>IRIS PIGMENTATION LT EYE (ALL PARTICIPANTS)</description>
+	<type>enumerated integer</type>
+	<value code="1">Less than or equal to Std. 1</value>
+	<value code="2">Less than or equal to Std. 2</value>
+	<value code="3">Less than or equal to Std. 3</value>
+	<value code="4">More than Std. 3</value>
+	<value code="8">Cannot grade</value>
+</variable>
+
+<variable id="phv00054281.v1">
+	<name>LENUCADJ</name>
+	<description>NUCLEAR SCLEROSIS LT EYE - RESCALED (ALL PARTICIPANTS)</description>
+	<type>decimal</type>
+	<logical_min>0.9</logical_min>
+	<logical_max>6.1</logical_max>
+</variable>
+
+<variable id="phv00054275.v1">
+	<name>LENUCCOL</name>
+	<description>NUCLEAR COLOR LT EYE (ALL PARTICIPANTS)</description>
+	<type>enumerated integer</type>
+	<value code="1">Less than or equal to Std. 2</value>
+	<value code="2">Less than or equal to Std. 4</value>
+	<value code="3">Less than or equal to Std. 8</value>
+	<value code="4">More than Std. 8</value>
+	<value code="8">Cannot grade</value>
+</variable>
+
+<variable id="phv00054276.v1">
+	<name>LENUCSCL</name>
+	<description>NUCLEAR SCLEROSIS LT EYE (ALL PARTICIPANTS)</description>
+	<type>decimal</type>
+	<logical_min>0.9</logical_min>
+	<logical_max>7.1</logical_max>
+	<value code="8.8">Cannot grade</value>
+</variable>
+
+<variable id="phv00054284.v1">
+	<name>LENZTIME</name>
+	<description>YEARS FROM RANDOMIZATION TO DATE OF NEITZ PHOTO LT EYE (ALL PARTICIPANTS)</description>
+	<type>decimal</type>
+	<unit>years</unit>
+	<logical_min>0</logical_min>
+	<logical_max>13</logical_max>
+</variable>
+
+<variable id="phv00054279.v1">
+	<name>LEPCTCOA</name>
+	<description>CORTICAL OPACITY IN WHOLE FIELD LT EYE (ALL PARTICIPANTS)</description>
+	<type>decimal</type>
+	<unit>percent</unit>
+	<logical_min>0</logical_min>
+	<logical_max>100</logical_max>
+</variable>
+
+<variable id="phv00054277.v1">
+	<name>LEPCTCOL</name>
+	<description>CORTICAL OPACITY W/IN 5 MM LT EYE (ALL PARTICIPANTS)</description>
+	<type>decimal</type>
+	<unit>percent</unit>
+	<logical_min>0</logical_min>
+	<logical_max>100</logical_max>
+</variable>
+
+<variable id="phv00054278.v1">
+	<name>LEPCTPSC</name>
+	<description>PSC OPACITY W/IN 5 MM LT EYE (ALL PARTICIPANTS)</description>
+	<type>decimal</type>
+	<unit>percent</unit>
+	<logical_min>0</logical_min>
+	<logical_max>100</logical_max>
+</variable>
+
+<variable id="phv00054285.v1">
+	<name>LESLTIME</name>
+	<description>YEARS FROM RANDOMIZATION TO DATE OF SLIT LAMP PHOTO LT EYE (ALL PARTICIPANTS)</description>
+	<type>decimal</type>
+	<unit>years</unit>
+	<logical_min>0</logical_min>
+	<logical_max>13</logical_max>
+</variable>
+
+<variable id="phv00054268.v1">
+	<name>REIRISCO</name>
+	<description>IRIS PIGMENTATION RT EYE (ALL PARTICIPANTS)</description>
+	<type>enumerated integer</type>
+	<value code="1">Less than or equal to Std. 1</value>
+	<value code="2">Less than or equal to Std. 2</value>
+	<value code="3">Less than or equal to Std. 3</value>
+	<value code="4">More than Std. 3</value>
+	<value code="8">Cannot grade</value>
+</variable>
+
+<variable id="phv00054280.v1">
+	<name>RENUCADJ</name>
+	<description>NUCLEAR SCLEROSIS RT EYE - RESCALED (ALL PARTICIPANTS)</description>
+	<type>decimal</type>
+	<logical_min>0.9</logical_min>
+	<logical_max>6.1</logical_max>
+</variable>
+
+<variable id="phv00054269.v1">
+	<name>RENUCCOL</name>
+	<description>NUCLEAR COLOR RT EYE (ALL PARTICIPANTS)</description>
+	<type>enumerated integer</type>
+	<value code="1">Less than or equal to Std. 2</value>
+	<value code="2">Less than or equal to Std. 4</value>
+	<value code="3">Less than or equal to Std. 8</value>
+	<value code="4">More than Std. 8</value>
+	<value code="8">Cannot grade</value>
+</variable>
+
+<variable id="phv00054270.v1">
+	<name>RENUCSCL</name>
+	<description>NUCLEAR SCLEROSIS RT EYE (ALL PARTICIPANTS)</description>
+	<type>decimal</type>
+	<logical_min>0.9</logical_min>
+	<logical_max>7.1</logical_max>
+	<value code="8.8">Cannot grade</value>
+</variable>
+
+<variable id="phv00054282.v1">
+	<name>RENZTIME</name>
+	<description>YEARS FROM RANDOMIZATION TO DATE OF NEITZ PHOTO RT EYE (ALL PARTICIPANTS)</description>
+	<type>decimal</type>
+	<unit>years</unit>
+	<logical_min>0</logical_min>
+	<logical_max>13</logical_max>
+</variable>
+
+<variable id="phv00054273.v1">
+	<name>REPCTCOA</name>
+	<description>CORTICAL OPACITY IN WHOLE FIELD RT EYE (ALL PARTICIPANTS)</description>
+	<type>decimal</type>
+	<unit>percent</unit>
+	<logical_min>0</logical_min>
+	<logical_max>100</logical_max>
+</variable>
+
+<variable id="phv00054271.v1">
+	<name>REPCTCOL</name>
+	<description>CORTICAL OPACITY W/IN 5 MM RT EYE (ALL PARTICIPANTS)</description>
+	<type>decimal</type>
+	<unit>percent</unit>
+	<logical_min>0</logical_min>
+	<logical_max>100</logical_max>
+</variable>
+
+<variable id="phv00054272.v1">
+	<name>REPCTPSC</name>
+	<description>PSC OPACITY W/IN 5 MM RT EYE (ALL PARTICIPANTS)</description>
+	<type>decimal</type>
+	<unit>percent</unit>
+	<logical_min>0</logical_min>
+	<logical_max>100</logical_max>
+</variable>
+
+<variable id="phv00054283.v1">
+	<name>RESLTIME</name>
+	<description>YEARS FROM RANDOMIZATION TO DATE OF SLIT LAMP PHOTO RT EYE (ALL PARTICIPANTS)</description>
+	<type>decimal</type>
+	<unit>years</unit>
+	<logical_min>0</logical_min>
+	<logical_max>13</logical_max>
+</variable>
+
+<variable id="phv00054267.v1">
+	<name>VISNO</name>
+	<description>STUDY VISIT NUMBER (ALL PARTICIPANTS)</description>
+	<type>enumerated integer</type>
+	<value code="0">Baseline visit</value>
+	<value code="1">0.5-year</value>
+	<value code="10">5-years</value>
+	<value code="11">5.5-years</value>
+	<value code="12">6-years</value>
+	<value code="13">6.5-years</value>
+	<value code="14">7-years</value>
+	<value code="15">7.5-years</value>
+	<value code="16">8-years</value>
+	<value code="17">8.5-years</value>
+	<value code="18">9-years</value>
+	<value code="19">9.5-years</value>
+	<value code="2">1-year</value>
+	<value code="20">10-years</value>
+	<value code="21">10.5-years</value>
+	<value code="22">11-years</value>
+	<value code="23">11.5-years</value>
+	<value code="24">12-years</value>
+	<value code="25">12.5-years</value>
+	<value code="26">13-years</value>
+	<value code="3">1.5-years</value>
+	<value code="4">2-years</value>
+	<value code="5">2.5-years</value>
+	<value code="6">3-years</value>
+	<value code="7">3.5-years</value>
+	<value code="8">4-years</value>
+	<value code="9">4.5-years</value>
+</variable>
+
+</data_table>

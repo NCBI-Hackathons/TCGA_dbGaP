@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./datadict_v2.xsl"?>
+<data_table id="pht000621.v1" study_id="phs000139.v1" participant_set="1" date_created="Wed Nov 26 09:47:33 2008">
+
+<variable id="phv00065549.v1">
+	<name>AFFECTION_STATUS</name>
+	<description>Case or control?</description>
+	<type>encoded value</type>
+	<value code="0">Unknown</value>
+	<value code="1">Control</value>
+	<value code="2">Case</value>
+</variable>
+
+<variable id="phv00065565.v1">
+	<name>CYTO_CHEMO</name>
+	<description>Treatment - Cytotoxic Chemotherapy</description>
+	<comment>
+		Imuran, Methotrexate, Cytoxan, Novantrone. 
+	</comment>
+	<type>encoded value</type>
+	<value code="N">No</value>
+	<value code="U">Unknown</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00065567.v1">
+	<name>DX</name>
+	<description>Diagnostic criteria</description>
+	<comment>
+		Please see clinical form for details. 
+	</comment>
+	<type>encoded value</type>
+	<value code="1">Criteria 1: Two or more clinical attacks and two or more objective lesions</value>
+	<value code="2">Criteria 2: Two or more clinical attacks and one objective lesion and dissemination in space</value>
+	<value code="3">Criteria 3: One clinical attack and two or more objective lesions and dissemination in time</value>
+	<value code="4">Criteria 4: One clinical attack and one objective lesion (clinically isolated syndrome) and dissemination in space and dissemination in time</value>
+	<value code="5">Criteria 5: Insidious neurological progression (Primary progressive MS) and positive CSF and dissemination in space and dissemination in time</value>
+	<value code="N">Not MS</value>
+	<value code="P">Possible MS</value>
+	<value code="U">Unknown</value>
+	<value code="X">Missing data</value>
+</variable>
+
+<variable id="phv00065559.v1">
+	<name>DZ_COURSE</name>
+	<description>Disease course at date of exam</description>
+	<comment>
+		Only indicate one. 
+	</comment>
+	<type>encoded value</type>
+	<value code="CIS">Clinically Isolated Syndrome</value>
+	<value code="NMO">Neuromyelitis Optica</value>
+	<value code="O">Not MS, other</value>
+	<value code="PP">Primary Progressive</value>
+	<value code="PR">Progressive Relapsing</value>
+	<value code="RR">Relapsing-Remitting</value>
+	<value code="SP">Secondary Progressive</value>
+	<value code="U">Unknown</value>
+</variable>
+
+<variable id="phv00065557.v1">
+	<name>EDSS</name>
+	<description>EDSS (Expanded Disability Status Scale) at date of exam</description>
+	<type>encoded value</type>
+	<value code="2.5">&lt;=2.5</value>
+	<value code="5.5">3.0 to &lt;=5.5</value>
+	<value code="6">6.0 (unilateral assistance)</value>
+	<value code="6.5">6.5 (bilateral assistance)</value>
+	<value code="7">&gt;=7.0 (not walking)</value>
+	<value code="U">Unknown</value>
+</variable>
+
+<variable id="phv00065562.v1">
+	<name>EVER_AFF</name>
+	<description>Ever affected in the following</description>
+	<comment>
+		More than one can be indicated. 
+	</comment>
+	<type>encoded value</type>
+	<value code="BS">Brainstem/Cerebella</value>
+	<value code="CB">Cerebral</value>
+	<value code="ON">Optic Neuritis</value>
+	<value code="OT">Other</value>
+	<value code="SC">Spinal Cord</value>
+	<value code="U">Unknown</value>
+</variable>
+
+<variable id="phv00065564.v1">
+	<name>G_ACETATE</name>
+	<description>Treatment - Glatiramer Acetate</description>
+	<comment>
+		Copaxone. 
+	</comment>
+	<type>encoded value</type>
+	<value code="N">No</value>
+	<value code="U">Unknown</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00065561.v1">
+	<name>INI_PRESENT</name>
+	<description>Initial presentation</description>
+	<comment>
+		More than one can be indicated. 
+	</comment>
+	<type>encoded value</type>
+	<value code="B">Brainstem/Cerebella</value>
+	<value code="B CB">Brainstem/Cerebella, Cerebral</value>
+	<value code="B COG">Brainstem/Cerebella, Cognitive</value>
+	<value code="B LTM">Brainstem/Cerebella, Motor</value>
+	<value code="B LTM LTS">Brainstem/Cerebella, Motor, Sensory</value>
+	<value code="B LTS">Brainstem/Cerebella, Sensory</value>
+	<value code="B SC">Brainstem/Cerebella, Spinal Cord</value>
+	<value code="B SC LTM LTS">Brainstem/Cerebella, Spinal Cord, Motor, Sensory</value>
+	<value code="B SC LTS">Brainstem/Cerebella, Spinal Cord, Sensory</value>
+	<value code="BS">Brainstem/Cerebella</value>
+	<value code="CB">Cerebral</value>
+	<value code="COG">Cognitive</value>
+	<value code="LTM">Motor</value>
+	<value code="LTM CB">Motor, Cerebral</value>
+	<value code="LTM LTS">Motor, Sensory</value>
+	<value code="LTS">Sensory</value>
+	<value code="LTS CB">Sensory, Cerebral</value>
+	<value code="NS">Non-Specific</value>
+	<value code="ON">Optic Neuritis</value>
+	<value code="ON B">Optic Neuritis, Brainstem/Cerebella</value>
+	<value code="ON B LTM LTS">Optic Neuritis, Brainstem/Cerebella, Motor, Sensory</value>
+	<value code="ON B SC LTM LTS CB">Optic Neuritis, Brainstem/Cerebella, Motor, Sensory, Cerebral</value>
+	<value code="ON CB">Optic Neuritis, Cerebral</value>
+	<value code="ON LTM">Optic Neuritis, Motor</value>
+	<value code="ON LTM LTS">Optic Neuritis, Motor, Sensory</value>
+	<value code="ON LTS">Optic Neuritis, Sensory</value>
+	<value code="ON SC">Optic Neuritis, Spinal Cord</value>
+	<value code="ON SC LTM">Optic Neuritis, Spinal Cord, Motor</value>
+	<value code="ON SC LTM LTS">Optic Neuritis, Spinal Cord, Motor, Sensory</value>
+	<value code="ON SC LTS">Optic Neuritis, Spinal Cord, Sensory</value>
+	<value code="SC">Spinal Cord</value>
+	<value code="SC LTM">Spinal Cord, Motor</value>
+	<value code="SC LTM LTS">Spinal Cord, Motor, Sensory</value>
+	<value code="SC LTM LTS COG">Spinal Cord, Motor, Sensory, Cognitive</value>
+	<value code="SC LTS">Spinal Cord, Sensory</value>
+	<value code="SS">Sensory Symptoms Only</value>
+	<value code="U">Unspecified</value>
+</variable>
+
+<variable id="phv00065563.v1">
+	<name>INTERFERON</name>
+	<description>Treatment - Interferon</description>
+	<comment>
+		Avonex, Betaseron, Rebif. 
+	</comment>
+	<type>encoded value</type>
+	<value code="N">No</value>
+	<value code="U">Unknown</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00065550.v1">
+	<name>NIH_ETHNICITY</name>
+	<description>NIH ethnic group</description>
+	<type>encoded value</type>
+	<value code="HI">Hispanic or Latino</value>
+	<value code="NH">Not Hispanic or Latino</value>
+	<value code="U">Unknown or Not Reported</value>
+</variable>
+
+<variable id="phv00065551.v1">
+	<name>NIH_RACE</name>
+	<description>NIH racial background</description>
+	<type>encoded value</type>
+	<value code="AI">American Indian/Alaska Native</value>
+	<value code="AI  WH">American Indian/Alaska Native and White</value>
+	<value code="AS">Asian</value>
+	<value code="AS  WH">Asian and White</value>
+	<value code="BL">Black or African American</value>
+	<value code="HP">Native Hawaiian/Pacific Islander</value>
+	<value code="U">Unknown</value>
+	<value code="U  WH">Unknown and White</value>
+	<value code="WH">White</value>
+	<value code="WH  AI">White and American Indian/Alaska Native</value>
+	<value code="WH  AI  WH">White and American Indian/Alaska Native and White</value>
+</variable>
+
+<variable id="phv00065552.v1">
+	<name>POPULATION</name>
+	<description>Population</description>
+	<type>encoded value</type>
+	<value code="CH">Chinese</value>
+	<value code="D">Mediterranean</value>
+	<value code="E">Eastern European</value>
+	<value code="F">Finland</value>
+	<value code="IA">Indigenous Australian</value>
+	<value code="IS">Indian Subcontinent</value>
+	<value code="ISR">Israeli</value>
+	<value code="IU">Investigated Unknown</value>
+	<value code="J">Japan</value>
+	<value code="K">Cherokee</value>
+	<value code="L">Lumbee</value>
+	<value code="M">Middle-Eastern</value>
+	<value code="MA">Mexican American</value>
+	<value code="N">Sephardic Jewish</value>
+	<value code="O">Other</value>
+	<value code="OSP">Other Special Population</value>
+	<value code="P">Pakistani</value>
+	<value code="Q">Ashkenazi Jewish</value>
+	<value code="R">San Marino</value>
+	<value code="RA">Russian</value>
+	<value code="S">Scandinavian</value>
+	<value code="SA">South American</value>
+	<value code="SP">Special Population</value>
+	<value code="T">Tunisian</value>
+	<value code="USAC">USA/Canada (Hispanic Origin)</value>
+	<value code="USC">US/Canada (not Hispanic Origin)</value>
+	<value code="V">Africa</value>
+	<value code="W">Western European</value>
+	<value code="X">Caribbean</value>
+	<value code="Y">Mexico</value>
+	<value code="Z">Amish</value>
+</variable>
+
+<variable id="phv00065548.v1">
+	<name>SUBJID</name>
+	<description>Deidentified Subject ID</description>
+	<comment>
+		Deidentified ID. 
+	</comment>
+	<type>integer</type>
+</variable>
+
+<variable id="phv00065566.v1">
+	<name>TRTMT_OTHER</name>
+	<description>Treatment - Other</description>
+	<type>encoded value</type>
+	<value code="N">No</value>
+	<value code="U">Unknown</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00065554.v1">
+	<name>XMDATE</name>
+	<description>Date of exam</description>
+	<comment>
+		YYYY. 
+	</comment>
+	<type>string, encoded value</type>
+	<value code="1800">Unknown</value>
+	<value code="1801">Missing Data</value>
+</variable>
+
+<variable id="phv00065553.v1">
+	<name>YOB</name>
+	<description>Year of birth</description>
+	<type>integer, encoded value</type>
+	<value code="1800">Unknown</value>
+	<value code="1801">Missing Data</value>
+</variable>
+
+<variable id="phv00065556.v1">
+	<name>YR_DX</name>
+	<description>Year of diagnosis</description>
+	<comment>
+		YYYY. 
+	</comment>
+	<type>integer, encoded value</type>
+	<value code="1800">Unknown</value>
+	<value code="1801">Missing Data</value>
+</variable>
+
+<variable id="phv00065558.v1">
+	<name>YR_EDSS_6</name>
+	<description>Year at which patient sustained an EDSS (Expanded Disability Status Scale) = 6.0</description>
+	<type>integer, encoded value</type>
+	<value code="1800">Unknown</value>
+	<value code="1801">Missing Data</value>
+</variable>
+
+<variable id="phv00065560.v1">
+	<name>YR_RS_RR_SP</name>
+	<description>Year of transition from relapsing remitting to secondary progressive</description>
+	<type>integer, encoded value</type>
+	<value code="1800">Unknown</value>
+	<value code="1801">Missing Data</value>
+</variable>
+
+<variable id="phv00065555.v1">
+	<name>YR_SYM_1ST</name>
+	<description>Year of first symptoms</description>
+	<comment>
+		YYYY. 
+	</comment>
+	<type>integer, encoded value</type>
+	<value code="1800">Unknown</value>
+	<value code="1801">Missing Data</value>
+</variable>
+
+</data_table>

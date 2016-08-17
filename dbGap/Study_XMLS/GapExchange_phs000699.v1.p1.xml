@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GaPExchange xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="./dbGaPEx2.1.5.xsd">
+
+<MetaVariables>
+	<Submitter/>
+	<Method/>
+</MetaVariables>
+<MetaLinks/>
+
+<Projects>
+	<Project/>
+</Projects>
+
+<Studies>
+
+<Study source="dbGaP" accession="phs000699.v1.p1" parentStudy="phs000699.v1.p1" createDate="2014-01-07" modDate="2014-12-30">
+
+<Configuration>
+	<Data_Provider><![CDATA[
+		<table border="1">
+		<tr><th>Title</th><th>Name</th><th>Institute</th></tr>
+		<tr><td>Principal Investigator</td><td>Todd Golub</td><td>Dana Farber Cancer Institute, Boston, MA, USA</td></tr>
+		</table>
+	]]></Data_Provider>
+	<StudyNameEntrez>Osteosarcoma Genomics</StudyNameEntrez>
+	<StudyNameReportPage>Osteosarcoma Genomics</StudyNameReportPage>
+	<StudyTypes>
+		<StudyType>Case Set</StudyType>
+	</StudyTypes>
+	<Description><![CDATA[
+<p>In this study we attempt to elucidate the genomic characteristics of osteosarcoma.</p> <p><b>Clinical characteristics</b><br/> 58 tumor / normal pairs from 58 patients were included in the study. Median age at diagnosis was 12 years. 49% of the patients were male and 47% had metastases at diagnosis. 5 year overall survival was 49% for the entire population, 33% for patients with metastatic disease and 64% for patients with localized disease. Patients with metastatic disease at diagnosis had a significantly worse overall survival. All cases except 2 were sporadic and no patients had stigmata of Rothmund-Thomson, Bloom&#39;s or Werner&#39;s syndromes or Paget&#39;s disease. Two familial cases were affected siblings from a family in which there were 2 unaffected parents and 2 unaffected siblings. None of the patients had known Li Fraumeni or hereditary retinoblastoma. </p> <p><b>Sample Selection and Clinical Data</b><br/> Samples were contributed by hospitals in Brazil, Spain, Mexico and the United States. All patients had histopathology confirmed to be osteosarcoma by a pathologist at the local institution. All but 5 tumor specimens sequenced were obtained pre-chemotherapy from the primary tumor at the time of diagnosis. 2 tumor specimens were obtained pre-chemotherapy from a metastatic tumor at the time of diagnosis. 3 tumor specimens were obtained post-chemotherapy from a metastatic tumor. </p>]]>
+	</Description>
+	<StudyProjects>
+		<Project/>
+	</StudyProjects>
+	<Publications>
+		<Publication>
+			<Pubmed pmid="25512523"/>
+		</Publication>
+	</Publications>
+	<Attributions>
+		<Header title="Principal Investigator">
+			<AttName>Todd Golub</AttName>
+			<Institution>Dana Farber Cancer Institute, Boston, MA, USA</Institution>
+		</Header>
+	</Attributions>
+	<DisplayPublicSummary>yes</DisplayPublicSummary>
+	<ConsentGroups>
+		<ConsentGroup groupNum="1" shortName="DS-CA-NPU-MDS" longName="Disease-Specific (Cancer, NPU, MDS)"/>
+	</ConsentGroups>
+</Configuration>
+
+  <AuthorizedAccess>
+    <DacInfo ssDacId="0">
+      <DacName>NCI</DacName>
+      <DacFullName>NCI</DacFullName>
+      <DacEmail>0</DacEmail>
+      <DacPhone></DacPhone>
+      <DacUrl></DacUrl>
+    </DacInfo>
+    <Policy Policy_ID="phs000699.v1.p1_policy" ref_ssDacId="0">
+      <DisplayResearchStatement>yes</DisplayResearchStatement>
+      <DisplayPublicSummary>yes</DisplayPublicSummary>
+      <EmbargoLength>0</EmbargoLength>
+      <YearsUntilRenewal>1</YearsUntilRenewal>
+      <WeeksCancelRequest>8</WeeksCancelRequest>
+      <PdfSupplementReqired>no</PdfSupplementReqired>
+      <AcknowledgementText>
+        <para>
+          http://dbgap.ncbi.nlm.nih.gov/aa/wga.cgi?page=DUC&amp;view_pdf&amp;stacc=phs000699.v1.p1
+        </para>
+      </AcknowledgementText>
+      <DocumentSet>
+        <DataUseCertificate Label="Data Use Certificate" FilePath="https://dbgap.ncbi.nlm.nih.gov/aa/wga.cgi?page=DUC&amp;view_pdf&amp;stacc=phs000699.v1.p1" FileName="eNCI_0178_DUC_11.25.2013.pdf"/>
+      </DocumentSet>
+    </Policy>
+    <ConsentGroups>
+      <ParticipantSet groupNum-REF="1">
+        <ConsentName>Disease-Specific (Cancer, NPU, MDS)</ConsentName>
+        <ConsentAbbrev>DS-CA-NPU-MDS</ConsentAbbrev>
+        <UseLimitation>Use of the data must be related to Cancer. Use of the data is limited to not-for-profit organizations. Use of the data includes methods development research (e.g., development of software or algorithms).</UseLimitation>
+        <IrbRequired>No</IrbRequired>
+      </ParticipantSet>
+    </ConsentGroups>
+  </AuthorizedAccess>
+
+<Analyses>
+	<Analysis pha="3862" genomeBuild="" snpBuild="" analysisType="">
+		<Description>The datasets includes osteosarcoma osteosarcoma tumor/normal (blood) sample pairs that were studied by whole-genome sequencing (WGS; 13 cases), whole-exome sequencing (WES; 59 cases), and RNA-Sequencing (RNASeq; 35 cases). Clinical features of the patient population including outcome were typical for osteosarcoma, with the exception of a higher proportion (47%) with metastases at diagnosis. All cases except two were sporadic, and no patients had clinically apparent germline syndromes associated with osteosarcoma.</Description>
+		<Method>Somatic mutation analysis</Method>
+		<Comment></Comment>
+	</Analysis>
+</Analyses>
+
+</Study>
+
+</Studies>
+
+</GaPExchange>

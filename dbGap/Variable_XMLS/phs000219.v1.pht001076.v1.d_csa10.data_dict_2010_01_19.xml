@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./datadict_v2.xsl"?>
+<data_table id="pht001076.v1" study_id="phs000219.v1" participant_set="1" date_created="Tue Jan 19 13:07:23 2010">
+
+<variable id="phv00081814.v1">
+	<name>SUBJID</name>
+	<description>Subject&#39;s ID</description>
+	<type>String</type>
+</variable>
+
+<variable id="phv00081815.v1">
+	<name>CASE_CONTROL</name>
+	<description>Subject type</description>
+	<type>Encoded value</type>
+	<value code="ADP">AD Participant</value>
+	<value code="CASE">Case</value>
+	<value code="CCCS">Control with Change in Cognitive Status</value>
+	<value code="CNTL">Control</value>
+	<value code="FAM">Family member</value>
+	<value code="UASB">Unaffected Sibling</value>
+</variable>
+
+<variable id="phv00081816.v1">
+	<name>INV</name>
+	<description>Investigator&#39;s ID</description>
+	<type>String</type>
+</variable>
+
+<variable id="phv00081817.v1">
+	<name>INVSITE</name>
+	<description>Investigator site ID</description>
+	<type>String</type>
+</variable>
+
+<variable id="phv00081818.v1">
+	<name>VISIT</name>
+	<description>Visit name</description>
+	<type>String</type>
+</variable>
+
+<variable id="phv00081819.v1">
+	<name>VISIT_DATE</name>
+	<description>Visit date</description>
+	<type>Date</type>
+	<comment>Truncated to YYYY</comment>
+</variable>
+
+<variable id="phv00081820.v1">
+	<name>CAFUSE</name>
+	<description>How many cups (or cans) of drinks with caffeine do you have per day?</description>
+	<type>Encoded Value</type>
+	<value code="1B3">1 to 3 cups/cans</value>
+	<value code="4B6">4 to 6 cups/cans</value>
+	<value code="&gt;6">&gt;6 cups/cans</value>
+	<value code="NONE">None</value>
+</variable>
+
+<variable id="phv00081821.v1">
+	<name>EDDUR</name>
+	<description>How many years did you go to school?</description>
+	<type>Encoded Value</type>
+	<value code="11B15Y">11 to 15 years</value>
+	<value code="5B10Y">5 to 10 years</value>
+	<value code="&lt;4Y">&lt;= 4 years</value>
+	<value code="&gt;15Y">&gt; 15 years</value>
+</variable>
+
+<variable id="phv00081822.v1">
+	<name>MEMCH</name>
+	<description>During the last year has the (memory) problem been getting worse?</description>
+	<type>Encoded Value</type>
+	<value code="K">Don&#39;t Know</value>
+	<value code="N">No</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00081823.v1">
+	<name>MEMWK</name>
+	<description>Are you concerned about your memory because it affects how you live or work?</description>
+	<type>Encoded Value</type>
+	<value code="N">No</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00081824.v1">
+	<name>OWT</name>
+	<description>Has the doctor ever told you that you were overweight?</description>
+	<type>Encoded Value</type>
+	<value code="K">Don&#39;t Know</value>
+	<value code="N">No</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00081825.v1">
+	<name>OWTAGE1</name>
+	<description>How old were you when you were overweight?</description>
+	<type>Encoded Value</type>
+	<comment>Defaulted value</comment>
+	<value code="&lt;10Y">&lt; 10 years old</value>
+</variable>
+
+<variable id="phv00081826.v1">
+	<name>OWTAGE2</name>
+	<description>How old were you when you were overweight?</description>
+	<type>Encoded Value</type>
+	<comment>Defaulted value</comment>
+	<value code="11B19Y">11 - 19 years old</value>
+</variable>
+
+<variable id="phv00081827.v1">
+	<name>OWTAGE3</name>
+	<description>How old were you when you were overweight?</description>
+	<type>Encoded Value</type>
+	<comment>Defaulted value</comment>
+	<value code="20B30Y">20 - 30 years old</value>
+</variable>
+
+<variable id="phv00081828.v1">
+	<name>OWTAGE4</name>
+	<description>How old were you when you were overweight?</description>
+	<type>Encoded Value</type>
+	<comment>Defaulted value</comment>
+	<value code="31B50Y">20 - 30 years old</value>
+</variable>
+
+<variable id="phv00081829.v1">
+	<name>OWTAGE5</name>
+	<description>How old were you when you were overweight?</description>
+	<type>Encoded Value</type>
+	<comment>Defaulted value</comment>
+	<value code="&gt;50Y">Over 50 years old</value>
+</variable>
+
+<variable id="phv00081830.v1">
+	<name>OWTAGE_DISPLAY1</name>
+	<description>Display variable for age when overweight</description>
+	<type>String</type>
+	<comment>Defaulted value</comment>
+	<value code="YOUNG CHILD, 10 YEARS OR LESS">YOUNG CHILD, 10 YEARS OR LESS</value>
+</variable>
+
+<variable id="phv00081831.v1">
+	<name>OWTAGE_DISPLAY2</name>
+	<description>Display variable for age when overweight</description>
+	<type>String</type>
+	<comment>Defaulted value</comment>
+	<value code="TEENAGER, 11 TO 19 YEARS">TEENAGER, 11 TO 19 YEARS</value>
+</variable>
+
+<variable id="phv00081832.v1">
+	<name>OWTAGE_DISPLAY3</name>
+	<description>Display variable for age when overweight</description>
+	<type>String</type>
+	<comment>Defaulted value</comment>
+	<value code="YOUNG ADULT, 20 TO 30 YEARS">YOUNG ADULT, 20 TO 30 YEARS</value>
+</variable>
+
+<variable id="phv00081833.v1">
+	<name>OWTAGE_DISPLAY4</name>
+	<description>Display variable for age when overweight</description>
+	<type>String</type>
+	<comment>Defaulted value</comment>
+	<value code="ADULT, 31 TO 50 YEARS">ADULT, 31 TO 50 YEARS</value>
+</variable>
+
+<variable id="phv00081834.v1">
+	<name>OWTAGE_DISPLAY5</name>
+	<description>Display variable for age when overweight</description>
+	<type>String</type>
+	<comment>Defaulted value</comment>
+	<value code="OLDER ADULT, MORE THAN 50 YEARS">OLDER ADULT, MORE THAN 50 YEARS</value>
+</variable>
+
+<variable id="phv00081835.v1">
+	<name>SBHS1</name>
+	<description>Subject History of disease - young child (1)</description>
+	<type>Encoded Value</type>
+	<value code="N">No</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00081836.v1">
+	<name>SBHS2</name>
+	<description>Subject History of disease - teenager (2)</description>
+	<type>Encoded Value</type>
+	<value code="N">No</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00081837.v1">
+	<name>SBHS3</name>
+	<description>Subject History of disease - young adult (3)</description>
+	<type>Encoded Value</type>
+	<value code="N">No</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00081838.v1">
+	<name>SBHS4</name>
+	<description>Subject History of disease - adult (4)</description>
+	<type>Encoded Value</type>
+	<value code="N">No</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00081839.v1">
+	<name>SBHS5</name>
+	<description>Subject History of disease - older adult (5)</description>
+	<type>Encoded Value</type>
+	<value code="N">No</value>
+	<value code="Y">Yes</value>
+</variable>
+
+</data_table>

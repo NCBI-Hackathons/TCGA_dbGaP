@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./datadict_v2.xsl"?>
+<data_table id="pht001878.v1" study_id="phs000249.v1" participant_set="1" date_created="Wed Aug 11 16:45:08 2010">
+
+<variable id="phv00121756.v1">
+	<name>SUBJID</name>
+	<description>Subject ID</description>
+	<type>string</type>
+</variable>
+
+<variable id="phv00121757.v1">
+	<name>GEO_SAMPLE_TITLE</name>
+	<description><![CDATA[Sample Title at <a href="http://www.ncbi.nlm.nih.gov/geo">GEO</a>]]></description>
+	<type>string</type>
+</variable>
+
+<variable id="phv00121758.v1">
+	<name>GEO_ SAMPLE_ACCESSION</name>
+	<description><![CDATA[Accession Number for sample at <a href="http://www.ncbi.nlm.nih.gov/geo">GEO</a> repository]]></description>
+	<type>string</type>
+</variable>
+
+<variable id="phv00121759.v1">
+	<name>GEO_PLATFORM_TYPE</name>
+	<description>Platform assay type</description>
+	<type>string</type>
+	<value code="CpG">CpG Site Methylation</value>
+	<value code="mRNA">messenger RNA Expression</value>
+	<value code="miRNA">micro RNA expression</value>
+</variable>
+
+<variable id="phv00121760.v1">
+	<name>GEO_PLATFORM_ID</name>
+	<description><![CDATA[Accession Number for platform assay type at <a href="http://www.ncbi.nlm.nih.gov/geo">GEO</a> repository]]></description>
+	<type>string</type>
+	<value code="GPL6104">Illumina humanRef-8 v2.0 expression beadchip</value>
+	<value code="GPL8178">Illumina Human v1 MicroRNA expression beadchip</value>
+	<value code="GPL8490">Illumina HumanMethylation27 BeadChip</value>
+</variable>
+
+<variable id="phv00121761.v1">
+	<name>GEO_SAMPLE_SOURCE</name>
+	<description>Sample Tissue Type</description>
+	<type>string</type>
+	<value code="CRBLM">Cerebellum</value>
+	<value code="FCTX">Frontal cortex</value>
+	<value code="PONS">Caudal pons</value>
+	<value code="TCTX">Temporal cortex</value>
+</variable>
+
+</data_table>

@@ -1,0 +1,1700 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./datadict_v2.xsl"?>
+<data_table id="pht000625.v1" study_id="phs000086.v1" participant_set="1" date_created="Thu Jan 29 15:40:58 2009">
+
+<variable id="phv00065967.v1">
+	<name>clinic</name>
+	<description>A1. Identifying information. De-identified EDIC clinic number</description>
+	<type>byte</type>
+</variable>
+
+<variable id="phv00065968.v1">
+	<name>edicyear</name>
+	<description>EDIC year</description>
+	<type>byte</type>
+	<unit>Years</unit>
+</variable>
+
+<variable id="phv00065966.v1">
+	<name>form</name>
+	<description>EDIC form number</description>
+	<type>int</type>
+</variable>
+
+<variable id="phv00066178.v1">
+	<name>fsasdate</name>
+	<description>De-identified date form completed</description>
+	<type>int</type>
+</variable>
+
+<variable id="phv00065969.v1">
+	<name>gob1</name>
+	<description>B1. Health care insurance coverage. In past 12 months was there anytime you did not have health insurance?</description>
+	<type>byte</type>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+	<value code="3">Uncertain</value>
+	<value code="5">Missing data</value>
+</variable>
+
+<variable id="phv00065970.v1">
+	<name>gob2</name>
+	<description>B2. Health care insurance coverage. How long were you without coverage of insurance?</description>
+	<type>byte</type>
+	<unit>Months</unit>
+</variable>
+
+<variable id="phv00065971.v1">
+	<name>gob3</name>
+	<description>B3. Health care insurance coverage. Currently do you have health insurance coverage?</description>
+	<type>byte</type>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+	<value code="3">Uncertain</value>
+</variable>
+
+<variable id="phv00065972.v1">
+	<name>gob4ba</name>
+	<description>B4ba. Health insurance coverage: individual plan - member pays</description>
+	<type>byte</type>
+	<value code="1">Member pays</value>
+</variable>
+
+<variable id="phv00065973.v1">
+	<name>gob4bb</name>
+	<description>B4bb. Health insurance coverage: group plan - employer pays</description>
+	<type>byte</type>
+	<value code="1">Employer pays</value>
+</variable>
+
+<variable id="phv00065974.v1">
+	<name>gob4bc</name>
+	<description>B4bc. Health insurance coverage: Government plan - government pays</description>
+	<type>byte</type>
+	<value code="1">Government pays</value>
+</variable>
+
+<variable id="phv00065975.v1">
+	<name>gob4bc1</name>
+	<description>B4bc1. Health insurance coverage: U.S. Government Health Plan</description>
+	<type>byte</type>
+	<value code="1">Government Health Plan</value>
+</variable>
+
+<variable id="phv00065976.v1">
+	<name>gob4bc2</name>
+	<description>B4bc2. Health insurance coverage: Canadian Government Plan</description>
+	<type>byte</type>
+	<value code="1">Canadian Government Plan</value>
+</variable>
+
+<variable id="phv00065977.v1">
+	<name>gob4bc3</name>
+	<description>B4bc3. Health insurance coverage: Medicaid</description>
+	<type>byte</type>
+	<value code="1">Medicaid</value>
+</variable>
+
+<variable id="phv00065978.v1">
+	<name>gob4bc4</name>
+	<description>B4bc4. Health insurance coverage: Medicare</description>
+	<type>byte</type>
+	<value code="1">Medicare</value>
+</variable>
+
+<variable id="phv00065979.v1">
+	<name>gob4ca</name>
+	<description>B4ca. Health insurance coverage. Indemnity or fee-for-service plan</description>
+	<type>byte</type>
+	<value code="1">fee-for-service plan</value>
+</variable>
+
+<variable id="phv00065980.v1">
+	<name>gob4cb</name>
+	<description>B4cb. Health insurance coverage. Health maintenance organization - HMO</description>
+	<type>byte</type>
+	<value code="1">HMO</value>
+</variable>
+
+<variable id="phv00065981.v1">
+	<name>gob4cc</name>
+	<description>B4cc. Health insurance coverage. Preferred provider organization - PPO</description>
+	<type>byte</type>
+	<value code="1">PPO</value>
+</variable>
+
+<variable id="phv00065982.v1">
+	<name>gob4cd</name>
+	<description>B4cd. Health insurance coverage. Point of service - POS</description>
+	<type>byte</type>
+	<value code="1">POS</value>
+</variable>
+
+<variable id="phv00065983.v1">
+	<name>gob4ce</name>
+	<description>B4ce. Health insurance coverage. Other: type of health insurance coverage</description>
+	<type>byte</type>
+	<value code="1">Other</value>
+</variable>
+
+<variable id="phv00065984.v1">
+	<name>gob5a</name>
+	<description>B5a. Health insurance coverage. Medical visits for diabetes (medical)</description>
+	<type>byte</type>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+	<value code="3">Uncertain</value>
+</variable>
+
+<variable id="phv00066010.v1">
+	<name>gob5aa</name>
+	<description>B5aa. Health insurance coverage. If you currently have health insurance, does it provide coverage for hospitalization for other health</description>
+	<type>byte</type>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+	<value code="3">Uncertain</value>
+</variable>
+
+<variable id="phv00065985.v1">
+	<name>gob5b</name>
+	<description>B5b. Health insurance coverage. Medical visits for diabetes (nurse)</description>
+	<type>byte</type>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+	<value code="3">Uncertain</value>
+</variable>
+
+<variable id="phv00066011.v1">
+	<name>gob5bb</name>
+	<description>B5bb. Health insurance coverage. If you currently have health insurance, does it provide coverage for nursing home care, convalescent care</description>
+	<type>byte</type>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+	<value code="3">Uncertain</value>
+</variable>
+
+<variable id="phv00065986.v1">
+	<name>gob5c</name>
+	<description>B5c. Health insurance coverage. If you currently have health insurance, does it provide coverage for insulin</description>
+	<type>byte</type>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+	<value code="3">Uncertain</value>
+</variable>
+
+<variable id="phv00066012.v1">
+	<name>gob5cc</name>
+	<description>B5cc. Health insurance coverage. If you currently have health insurance, does it provide coverage for home health care services</description>
+	<type>byte</type>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+	<value code="3">Uncertain</value>
+</variable>
+
+<variable id="phv00065987.v1">
+	<name>gob5d</name>
+	<description>B5d. Health insurance coverage. If you currently have health insurance, does it provide coverage for syringes</description>
+	<type>byte</type>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+	<value code="3">Uncertain</value>
+</variable>
+
+<variable id="phv00065988.v1">
+	<name>gob5e</name>
+	<description>B5e. Health insurance coverage. If you currently have health insurance, does it provide coverage for blood glucose testing strips</description>
+	<type>byte</type>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+	<value code="3">Uncertain</value>
+</variable>
+
+<variable id="phv00065989.v1">
+	<name>gob5f</name>
+	<description>B5f. Health insurance coverage. If you currently have health insurance, does it provide coverage for blood glucose testing meters</description>
+	<type>byte</type>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+	<value code="3">Uncertain</value>
+</variable>
+
+<variable id="phv00065990.v1">
+	<name>gob5g</name>
+	<description>B5g. Health insurance coverage. If you currently have health insurance, does it provide coverage for glucose tablets</description>
+	<type>byte</type>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+	<value code="3">Uncertain</value>
+</variable>
+
+<variable id="phv00065991.v1">
+	<name>gob5h</name>
+	<description>B5h. Health insurance coverage. If you currently have health insurance, does it provide coverage for glucagon</description>
+	<type>byte</type>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+	<value code="3">Uncertain</value>
+</variable>
+
+<variable id="phv00065992.v1">
+	<name>gob5i</name>
+	<description>B5i. Health insurance coverage. If you currently have health insurance, does it provide coverage for insulin infusion pump</description>
+	<type>byte</type>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+	<value code="3">Uncertain</value>
+</variable>
+
+<variable id="phv00065993.v1">
+	<name>gob5j</name>
+	<description>B5j. Health insurance coverage. If you currently have health insurance, does it provide coverage for insulin infusion pump supplies</description>
+	<type>byte</type>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+	<value code="3">Uncertain</value>
+</variable>
+
+<variable id="phv00065994.v1">
+	<name>gob5k</name>
+	<description>B5k. Health insurance coverage. If you currently have health insurance, does it provide coverage for glycosylated hemoglobin or HbA1c</description>
+	<type>byte</type>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+	<value code="3">Uncertain</value>
+</variable>
+
+<variable id="phv00065995.v1">
+	<name>gob5l</name>
+	<description>B5l. Health insurance coverage. If you currently have health insurance, does it provide coverage for fructosamine test</description>
+	<type>byte</type>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+	<value code="3">Uncertain</value>
+</variable>
+
+<variable id="phv00065996.v1">
+	<name>gob5m</name>
+	<description>B5m. Health insurance coverage. If you currently have health insurance, does it provide coverage for blood tests</description>
+	<type>byte</type>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+	<value code="3">Uncertain</value>
+</variable>
+
+<variable id="phv00065997.v1">
+	<name>gob5n</name>
+	<description>B5n. Health insurance coverage. If you currently have health insurance, does it provide coverage for urine tests</description>
+	<type>byte</type>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+	<value code="3">Uncertain</value>
+</variable>
+
+<variable id="phv00065998.v1">
+	<name>gob5o</name>
+	<description>B5o. Health insurance coverage. If you currently have health insurance, does it provide coverage for electrocardiograms (EKG)</description>
+	<type>byte</type>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+	<value code="3">Uncertain</value>
+</variable>
+
+<variable id="phv00065999.v1">
+	<name>gob5p</name>
+	<description>B5p. Health insurance coverage. If you currently have health insurance, does it provide coverage for cardiovascular stress tests</description>
+	<type>byte</type>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+	<value code="3">Uncertain</value>
+</variable>
+
+<variable id="phv00066000.v1">
+	<name>gob5q</name>
+	<description>B5q. Health insurance coverage. If you currently have health insurance, does it provide coverage for dilated eye exams</description>
+	<type>byte</type>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+	<value code="3">Uncertain</value>
+</variable>
+
+<variable id="phv00066001.v1">
+	<name>gob5r</name>
+	<description>B5r. Health insurance coverage. If you currently have health insurance, does it provide coverage for eye photos</description>
+	<type>byte</type>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+	<value code="3">Uncertain</value>
+</variable>
+
+<variable id="phv00066002.v1">
+	<name>gob5s</name>
+	<description>B5s. Health insurance coverage. If you currently have health insurance, does it provide coverage for laser treatment for eyes</description>
+	<type>byte</type>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+	<value code="3">Uncertain</value>
+</variable>
+
+<variable id="phv00066003.v1">
+	<name>gob5t</name>
+	<description>B5t. Health insurance coverage. If you currently have health insurance, does it provide coverage for dialysis</description>
+	<type>byte</type>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+	<value code="3">Uncertain</value>
+</variable>
+
+<variable id="phv00066004.v1">
+	<name>gob5u</name>
+	<description>B5u. Health insurance coverage. If you currently have health insurance, does it provide coverage for nutrition counseling</description>
+	<type>byte</type>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+	<value code="3">Uncertain</value>
+</variable>
+
+<variable id="phv00066005.v1">
+	<name>gob5v</name>
+	<description>B5v. Health insurance coverage. If you currently have health insurance, does it provide coverage for diabetes education services</description>
+	<type>byte</type>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+	<value code="3">Uncertain</value>
+</variable>
+
+<variable id="phv00066006.v1">
+	<name>gob5w</name>
+	<description>B5w. Health insurance coverage. If you currently have health insurance, does it provide coverage for services of mental health profess</description>
+	<type>byte</type>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+	<value code="3">Uncertain</value>
+</variable>
+
+<variable id="phv00066007.v1">
+	<name>gob5x</name>
+	<description>B5x. Health insurance coverage. If you currently have health insurance, does it provide coverage for emergency room visits</description>
+	<type>byte</type>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+	<value code="3">Uncertain</value>
+</variable>
+
+<variable id="phv00066008.v1">
+	<name>gob5y</name>
+	<description>B5y. Health insurance coverage. If you currently have health insurance, does it provide coverage for walk-in clinics or urgent care center</description>
+	<type>byte</type>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+	<value code="3">Uncertain</value>
+</variable>
+
+<variable id="phv00066009.v1">
+	<name>gob5z</name>
+	<description>B5z. Health insurance coverage. If you currently have health insurance, does it provide coverage for hospitalization due to diabetes</description>
+	<type>byte</type>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+	<value code="3">Uncertain</value>
+</variable>
+
+<variable id="phv00066013.v1">
+	<name>goc1</name>
+	<description>C1. Health care providers and sources of care. Where do you receive diabetes care</description>
+	<type>byte</type>
+	<value code="1">Doctor&#39;s private office</value>
+	<value code="2">Outpatient general medical clinic</value>
+	<value code="3">Outpatient diabetes clinic</value>
+	<value code="4">Company clinic</value>
+	<value code="5">Walk-in clinic or urgent care center</value>
+	<value code="6">Hospital emergency room</value>
+	<value code="7">The EDIC annual evaluation is your only source of diabetes health care</value>
+	<value code="8">Other, specify</value>
+	<value code="9">There is no single location where you usually go for health care</value>
+</variable>
+
+<variable id="phv00066014.v1">
+	<name>goc2</name>
+	<description>C2. Health care providers and sources of care. Who provides your diabetes care</description>
+	<type>byte</type>
+	<value code="1">Generalist</value>
+	<value code="2">Specialist</value>
+	<value code="3">Other, specify</value>
+	<value code="4">None</value>
+</variable>
+
+<variable id="phv00066015.v1">
+	<name>goc3</name>
+	<description>C3. Health care providers and sources of care. Was provider DCCT or EDIC staff</description>
+	<type>byte</type>
+	<value code="1">Yes</value>
+	<value code="2">No</value>
+	<value code="3">Not applicable</value>
+</variable>
+
+<variable id="phv00066016.v1">
+	<name>goc4</name>
+	<description>C4. Health care providers and sources of care. Where do you receive general care</description>
+	<type>byte</type>
+	<value code="1">Doctor&#39;s private office</value>
+	<value code="2">Outpatient general medical clinic</value>
+	<value code="3">Outpatient diabetes clinic</value>
+	<value code="4">Company clinic</value>
+	<value code="5">Walk-in clinic or urgent care center</value>
+	<value code="6">Hospital emergency room</value>
+	<value code="7">The EDIC annual evaluation is your only source of diabetes health care</value>
+	<value code="8">Other, specify</value>
+</variable>
+
+<variable id="phv00066017.v1">
+	<name>goc5</name>
+	<description>C5. Health care providers and sources of care. Who provides your general care</description>
+	<type>byte</type>
+	<value code="1">Generalist</value>
+	<value code="2">Specialist</value>
+	<value code="3">Other, specify</value>
+	<value code="4">None</value>
+</variable>
+
+<variable id="phv00066018.v1">
+	<name>goc6</name>
+	<description>C6. Health care providers and sources of care. Is general provider same as diabetes</description>
+	<type>byte</type>
+	<value code="1">Yes</value>
+	<value code="2">No</value>
+	<value code="3">Not applicable</value>
+</variable>
+
+<variable id="phv00066019.v1">
+	<name>goc7</name>
+	<description>C7. Health care providers and sources of care. Have you visited EDIC clinic unrelated</description>
+	<type>byte</type>
+	<value code="1">Yes</value>
+	<value code="2">No</value>
+	<value code="3">Not applicable</value>
+</variable>
+
+<variable id="phv00066020.v1">
+	<name>goc71</name>
+	<description>C7. Health care providers and sources of care. Number of visits to EDIC clinic</description>
+	<type>byte</type>
+	<unit>Visits</unit>
+</variable>
+
+<variable id="phv00066021.v1">
+	<name>goc8</name>
+	<description>C8. Health care providers and sources of care. Have EDIC evaluation been only services</description>
+	<type>byte</type>
+	<value code="1">Yes</value>
+	<value code="2">No</value>
+	<value code="3">Missing data</value>
+</variable>
+
+<variable id="phv00066022.v1">
+	<name>goc9a</name>
+	<description>C9a. Health care providers and sources of care. Generalist: seen past 12 months</description>
+	<type>byte</type>
+	<value code="1">Yes</value>
+	<value code="2">No</value>
+</variable>
+
+<variable id="phv00066023.v1">
+	<name>goc9a1</name>
+	<description>C9a1. Health care providers and sources of care. Generalist: number of visits</description>
+	<type>byte</type>
+	<unit>Visits</unit>
+</variable>
+
+<variable id="phv00066024.v1">
+	<name>goc9b</name>
+	<description>C9b. Health care providers and sources of care. Specialist: seen past 12 months</description>
+	<type>byte</type>
+	<value code="1">Yes</value>
+	<value code="2">No</value>
+	<value code="3">Missing data</value>
+</variable>
+
+<variable id="phv00066025.v1">
+	<name>goc9b1</name>
+	<description>C9b1. Health care providers and sources of care. Specialist: number of visits</description>
+	<type>byte</type>
+	<unit>Visits</unit>
+</variable>
+
+<variable id="phv00066026.v1">
+	<name>goc9c</name>
+	<description>C9c. Health care providers and sources of care. Nurse educator: seen past 12 months</description>
+	<type>byte</type>
+	<value code="1">Yes</value>
+	<value code="2">No</value>
+	<value code="3">Missing data</value>
+</variable>
+
+<variable id="phv00066027.v1">
+	<name>goc9c1</name>
+	<description>C9c1. Health care providers and sources of care. Nurse educator: number of visits</description>
+	<type>byte</type>
+	<unit>Visits</unit>
+</variable>
+
+<variable id="phv00066028.v1">
+	<name>goc9d</name>
+	<description>C9d. Health care providers and sources of care. Dietitian: seen past 12 months</description>
+	<type>byte</type>
+	<value code="1">Yes</value>
+	<value code="2">No</value>
+	<value code="3">Missing data</value>
+</variable>
+
+<variable id="phv00066029.v1">
+	<name>goc9d1</name>
+	<description>C9d1. Health care providers and sources of care. Dietitian: number of visits</description>
+	<type>byte</type>
+	<unit>Visits</unit>
+</variable>
+
+<variable id="phv00066030.v1">
+	<name>goc9e</name>
+	<description>C9e. Health care providers and sources of care. Psychiatrist: seen past 12 months</description>
+	<type>byte</type>
+	<value code="1">Yes</value>
+	<value code="2">No</value>
+</variable>
+
+<variable id="phv00066031.v1">
+	<name>goc9e1</name>
+	<description>C9e1. Health care providers and sources of care. Psychiatrist: number of visits</description>
+	<type>byte</type>
+	<unit>Visits</unit>
+</variable>
+
+<variable id="phv00066032.v1">
+	<name>goc9f</name>
+	<description>C9f. Health care providers and sources of care. Psychologist: seen past 12 months</description>
+	<type>byte</type>
+	<value code="1">Yes</value>
+	<value code="2">No</value>
+</variable>
+
+<variable id="phv00066033.v1">
+	<name>goc9f1</name>
+	<description>C9f1. Health care providers and sources of care. Psychologist: number of visits</description>
+	<type>byte</type>
+	<unit>Visits</unit>
+</variable>
+
+<variable id="phv00066034.v1">
+	<name>goc9g</name>
+	<description>C9g. Health care providers and sources of care. Social worker: seen past 12 months</description>
+	<type>byte</type>
+	<value code="1">Yes</value>
+	<value code="2">No</value>
+</variable>
+
+<variable id="phv00066035.v1">
+	<name>goc9g1</name>
+	<description>C9g1. Health care providers and sources of care. Social worker: number of visits</description>
+	<type>byte</type>
+	<unit>Visits</unit>
+</variable>
+
+<variable id="phv00066036.v1">
+	<name>goc9h</name>
+	<description>C9h. Health care providers and sources of care. Ophthalmologist: seen past 12 months</description>
+	<type>byte</type>
+	<value code="1">Yes</value>
+	<value code="2">No</value>
+</variable>
+
+<variable id="phv00066037.v1">
+	<name>goc9h1</name>
+	<description>C9h1. Health care providers and sources of care. Ophthalmologist: number of visits</description>
+	<type>byte</type>
+	<unit>Visits</unit>
+</variable>
+
+<variable id="phv00066038.v1">
+	<name>goc9i</name>
+	<description>C9i. Health care providers and sources of care. Optometrist: seen past 12 months</description>
+	<type>byte</type>
+	<value code="1">Yes</value>
+	<value code="2">No</value>
+</variable>
+
+<variable id="phv00066039.v1">
+	<name>goc9i1</name>
+	<description>C9i1. Health care providers and sources of care. Optometrist: number of visits</description>
+	<type>byte</type>
+	<unit>Visits</unit>
+</variable>
+
+<variable id="phv00066040.v1">
+	<name>goc9j</name>
+	<description>C9j. Health care providers and sources of care. Cardiologist: seen past 12 months</description>
+	<type>byte</type>
+	<value code="1">Yes</value>
+	<value code="2">No</value>
+</variable>
+
+<variable id="phv00066041.v1">
+	<name>goc9j1</name>
+	<description>C9j1. Health care providers and sources of care. Cardiologist: number of visits</description>
+	<type>byte</type>
+	<unit>Visits</unit>
+</variable>
+
+<variable id="phv00066042.v1">
+	<name>goc9k</name>
+	<description>C9k. Health care providers and sources of care. Podiatrist: seen past 12 months</description>
+	<type>byte</type>
+	<value code="1">Yes</value>
+	<value code="2">No</value>
+</variable>
+
+<variable id="phv00066043.v1">
+	<name>goc9k1</name>
+	<description>C9k1. Health care providers and sources of care. Podiatrist: number of visits</description>
+	<type>byte</type>
+	<unit>Visits</unit>
+</variable>
+
+<variable id="phv00066044.v1">
+	<name>goc9l</name>
+	<description>C9l. Health care providers and sources of care. Nephrologist: seen past 12 months</description>
+	<type>byte</type>
+	<value code="1">Yes</value>
+	<value code="2">No</value>
+</variable>
+
+<variable id="phv00066045.v1">
+	<name>goc9l1</name>
+	<description>C9l1. Health care providers and sources of care. Nephrologist: number of visits</description>
+	<type>byte</type>
+	<unit>Visits</unit>
+</variable>
+
+<variable id="phv00066046.v1">
+	<name>goc9m</name>
+	<description>C9m. Health care providers and sources of care. Gastroenterologist: seen past 12 months</description>
+	<type>byte</type>
+	<value code="1">Yes</value>
+	<value code="2">No</value>
+</variable>
+
+<variable id="phv00066047.v1">
+	<name>goc9m1</name>
+	<description>C9m1. Health care providers and sources of care. Gastroenterologist: number of visits</description>
+	<type>byte</type>
+	<unit>Visits</unit>
+</variable>
+
+<variable id="phv00066048.v1">
+	<name>goc9n</name>
+	<description>C9n. Health care providers and sources of care. Neurologist: seen past 12 months</description>
+	<type>byte</type>
+	<value code="1">Yes</value>
+	<value code="2">No</value>
+</variable>
+
+<variable id="phv00066049.v1">
+	<name>goc9n1</name>
+	<description>C9n1. Health care providers and sources of care. Neurologist: number of visits</description>
+	<type>byte</type>
+	<unit>Visits</unit>
+</variable>
+
+<variable id="phv00066050.v1">
+	<name>goc9o</name>
+	<description>C9o. Health care providers and sources of care. Oncologist: seen past 12 months</description>
+	<type>byte</type>
+	<value code="1">Yes</value>
+	<value code="2">No</value>
+</variable>
+
+<variable id="phv00066051.v1">
+	<name>goc9o1</name>
+	<description>C9o1. Health care providers and sources of care. Oncologist: number of visits</description>
+	<type>byte</type>
+	<unit>Visits</unit>
+</variable>
+
+<variable id="phv00066052.v1">
+	<name>goc9p</name>
+	<description>C9p. Health care providers and sources of care. Surgeon: seen past 12 months</description>
+	<type>byte</type>
+	<value code="1">Yes</value>
+	<value code="2">No</value>
+</variable>
+
+<variable id="phv00066053.v1">
+	<name>goc9p1</name>
+	<description>C9p1. Health care providers and sources of care. Surgeon: number of visits</description>
+	<type>byte</type>
+	<unit>Visits</unit>
+</variable>
+
+<variable id="phv00066054.v1">
+	<name>goc9q</name>
+	<description>C9q. Health care providers and sources of care. Gynecologist: seen past 12 months</description>
+	<type>byte</type>
+	<value code="1">Yes</value>
+	<value code="2">No</value>
+</variable>
+
+<variable id="phv00066055.v1">
+	<name>goc9q1</name>
+	<description>C9q1. Health care providers and sources of care. Gynecologist: number of visits</description>
+	<type>byte</type>
+	<unit>Visits</unit>
+</variable>
+
+<variable id="phv00066056.v1">
+	<name>goc9r</name>
+	<description>C9r. Health care providers and sources of care. Urologist: seen past 12 months</description>
+	<type>byte</type>
+	<value code="1">Yes</value>
+	<value code="2">No</value>
+</variable>
+
+<variable id="phv00066057.v1">
+	<name>goc9r1</name>
+	<description>C9r1. Health care providers and sources of care. Urologist: number of visits</description>
+	<type>byte</type>
+	<unit>Visits</unit>
+</variable>
+
+<variable id="phv00066058.v1">
+	<name>goc9s</name>
+	<description>C9s. Health care providers and sources of care. Dermatologist: seen past 12 months</description>
+	<type>byte</type>
+	<value code="1">Yes</value>
+	<value code="2">No</value>
+</variable>
+
+<variable id="phv00066059.v1">
+	<name>goc9s1</name>
+	<description>C9s1. Health care providers and sources of care. Dermatologist: number of visits</description>
+	<type>byte</type>
+	<unit>Visits</unit>
+</variable>
+
+<variable id="phv00066060.v1">
+	<name>goc9t</name>
+	<description>C9t. Health care providers and sources of care. Orthopedist: seen past 12 months</description>
+	<type>byte</type>
+	<value code="1">Yes</value>
+	<value code="2">No</value>
+</variable>
+
+<variable id="phv00066061.v1">
+	<name>goc9t1</name>
+	<description>C9t1. Health care providers and sources of care. Orthopedist: number of visits</description>
+	<type>byte</type>
+	<unit>Visits</unit>
+</variable>
+
+<variable id="phv00066062.v1">
+	<name>goc9u</name>
+	<description>C9u. Health care providers and sources of care. Physical therapist: seen past 12 months</description>
+	<type>byte</type>
+	<value code="1">Yes</value>
+	<value code="2">No</value>
+</variable>
+
+<variable id="phv00066063.v1">
+	<name>goc9u1</name>
+	<description>C9u1. Health care providers and sources of care. Physical therapist: number of visits</description>
+	<type>byte</type>
+	<unit>Visits</unit>
+</variable>
+
+<variable id="phv00066064.v1">
+	<name>goc9v</name>
+	<description>C9v. Health care providers and sources of care. Chiropractor: seen past 12 months</description>
+	<type>byte</type>
+	<value code="1">Yes</value>
+	<value code="2">No</value>
+</variable>
+
+<variable id="phv00066065.v1">
+	<name>goc9v1</name>
+	<description>C9v1. Health care providers and sources of care. Chiropractor: number of visits</description>
+	<type>byte</type>
+	<unit>Visits</unit>
+</variable>
+
+<variable id="phv00066066.v1">
+	<name>goc9w</name>
+	<description>C9w. Health care providers and sources of care. Dentist: seen past 12 months</description>
+	<type>byte</type>
+	<value code="1">Yes</value>
+	<value code="2">No</value>
+</variable>
+
+<variable id="phv00066067.v1">
+	<name>goc9w1</name>
+	<description>C9w1. Health care providers and sources of care. Dentist: number of visits</description>
+	<type>byte</type>
+	<unit>Visits</unit>
+</variable>
+
+<variable id="phv00066068.v1">
+	<name>goc9x</name>
+	<description>C9x. Health care providers and sources of care. Oral surgeon: seen past 12 months</description>
+	<type>byte</type>
+	<value code="1">Yes</value>
+	<value code="2">No</value>
+</variable>
+
+<variable id="phv00066069.v1">
+	<name>goc9x1</name>
+	<description>C9x1. Health care providers and sources of care. Oral surgeon: number of visits</description>
+	<type>byte</type>
+	<unit>Visits</unit>
+</variable>
+
+<variable id="phv00066070.v1">
+	<name>goc9y</name>
+	<description>C9y. Health care providers and sources of care. Other provider: seen past 12 months</description>
+	<type>byte</type>
+	<value code="1">Yes</value>
+	<value code="2">No</value>
+</variable>
+
+<variable id="phv00066071.v1">
+	<name>goc9y1</name>
+	<description>C9y1. Health care providers and sources of care. Other provider: number of visits</description>
+	<type>byte</type>
+	<unit>Visits</unit>
+</variable>
+
+<variable id="phv00066072.v1">
+	<name>goc9ya</name>
+	<description>C9ya. Health care providers and sources of care. Specify provider: yes/no</description>
+	<type>byte</type>
+	<value code="1">Yes</value>
+	<value code="2">No</value>
+</variable>
+
+<variable id="phv00066073.v1">
+	<name>goc9ya1</name>
+	<description>C9ya1. Health care providers and sources of care. Specify provider: number of visits</description>
+	<type>byte</type>
+	<unit>Visits</unit>
+</variable>
+
+<variable id="phv00066074.v1">
+	<name>goc9yb</name>
+	<description>C9yb. Health care providers and sources of care. Specify provider: yes/no</description>
+	<type>byte</type>
+	<value code="1">Yes</value>
+	<value code="2">No</value>
+</variable>
+
+<variable id="phv00066075.v1">
+	<name>goc9yb1</name>
+	<description>C9yb1. Health care providers and sources of care. Specify provider: number of visits</description>
+	<type>byte</type>
+	<unit>Visits</unit>
+	<value code="1">Yes</value>
+	<value code="2">No</value>
+</variable>
+
+<variable id="phv00066076.v1">
+	<name>god1</name>
+	<description>D1. Hospitalization and other health care services used. Admitted overnight to a hospital</description>
+	<type>byte</type>
+	<value code="1">Yes</value>
+	<value code="2">No</value>
+</variable>
+
+<variable id="phv00066077.v1">
+	<name>god1a</name>
+	<description>D1a. Hospitalization and other health care services used. How many times were you admitted to a hospital in past 12 months?</description>
+	<type>byte</type>
+	<unit>Times</unit>
+</variable>
+
+<variable id="phv00066078.v1">
+	<name>god1b</name>
+	<description>D1b. Hospitalization and other health care services used. How many total nights in hospital</description>
+	<type>byte</type>
+	<unit>Nights</unit>
+</variable>
+
+<variable id="phv00066180.v1">
+	<name>god1ca1</name>
+	<description>D1. Hospitalization and other health care services used. De-identified date of admission (first date)</description>
+	<type>int</type>
+</variable>
+
+<variable id="phv00066079.v1">
+	<name>god1ca2</name>
+	<description>D1ca2. Hospitalization and other health care services used. Number of nights in hospital during the past 12 months (first number)</description>
+	<type>str2</type>
+	<unit>Nights</unit>
+</variable>
+
+<variable id="phv00066181.v1">
+	<name>god1cb1</name>
+	<description>D1. Hospitalization and other health care services used. De-identified date of admission (second date)</description>
+	<type>int</type>
+</variable>
+
+<variable id="phv00066080.v1">
+	<name>god1cb2</name>
+	<description>D1cb2. Hospitalization and other health care services used. Number of nights in hospital during the past 12 months (second number)</description>
+	<type>str2</type>
+	<unit>Nights</unit>
+</variable>
+
+<variable id="phv00066182.v1">
+	<name>god1cc1</name>
+	<description>D1. Hospitalization and other health care services used. De-identified date of admission (third date)</description>
+	<type>int</type>
+</variable>
+
+<variable id="phv00066081.v1">
+	<name>god1cc2</name>
+	<description>D1cc2. Hospitalization and other health care services used. Number of nights in hospital during the past 12 months (third number)</description>
+	<type>str2</type>
+	<unit>Nights</unit>
+</variable>
+
+<variable id="phv00066183.v1">
+	<name>god1cd1</name>
+	<description>D1. Hospitalization and other health care services used. De-identified date of admission (forth date)</description>
+	<type>int</type>
+</variable>
+
+<variable id="phv00066082.v1">
+	<name>god1cd2</name>
+	<description>D1cd2. Hospitalization and other health care services used. Number of nights in hospital during the past 12 months (fourth number)</description>
+	<type>str2</type>
+	<unit>Nights</unit>
+</variable>
+
+<variable id="phv00066184.v1">
+	<name>god1ce1</name>
+	<description>D1. Hospitalization and other health care services used. De-identified date of admission (fifth date)</description>
+	<type>int</type>
+</variable>
+
+<variable id="phv00066083.v1">
+	<name>god1ce2</name>
+	<description>D1ce2. Hospitalization and other health care services used. Number of nights in hospital during the past 12 months (fifth number)</description>
+	<type>str2</type>
+	<unit>Nights</unit>
+</variable>
+
+<variable id="phv00066185.v1">
+	<name>god1cf1</name>
+	<description>D1. Hospitalization and other health care services used. De-identified date of admission (sixth date)</description>
+	<type>int</type>
+</variable>
+
+<variable id="phv00066084.v1">
+	<name>god1cf2</name>
+	<description>D1cf2. Hospitalization and other health care services used. Number of nights in hospital during the past 12 months (sixth number)</description>
+	<type>str2</type>
+	<unit>Nights</unit>
+</variable>
+
+<variable id="phv00066085.v1">
+	<name>god2</name>
+	<description>D2. Hospitalization and other health care services used. Were you seen in a hospital emergency room for any reason?</description>
+	<type>byte</type>
+	<value code="1">Yes</value>
+	<value code="2">No</value>
+</variable>
+
+<variable id="phv00066086.v1">
+	<name>god2a</name>
+	<description>D2a. Hospitalization and other health care services used. How many times in hospital emergency room?</description>
+	<type>byte</type>
+	<unit>Times</unit>
+</variable>
+
+<variable id="phv00066087.v1">
+	<name>god2b</name>
+	<description>D2b. Hospitalization and other health care services used. How many of times related to diabetes</description>
+	<type>byte</type>
+	<unit>Times</unit>
+</variable>
+
+<variable id="phv00066088.v1">
+	<name>god3</name>
+	<description>D3. Hospitalization and other health care services used. Patient in nursing home or convalesce</description>
+	<type>byte</type>
+	<value code="1">Yes</value>
+	<value code="2">No</value>
+</variable>
+
+<variable id="phv00066089.v1">
+	<name>god3a</name>
+	<description>D3a. Hospitalization and other health care services used. How many total nights in nursing home</description>
+	<type>byte</type>
+	<unit>Nights</unit>
+</variable>
+
+<variable id="phv00066186.v1">
+	<name>god3ba1</name>
+	<description>D3. Hospitalization and other health care services used. De-identified date of admission (first date)</description>
+	<type>int</type>
+</variable>
+
+<variable id="phv00066090.v1">
+	<name>god3ba2</name>
+	<description>D3ba2. Hospitalization and other health care services used. During the past 12 months, were you a patient in a nursing home or convalescent facility? Number of nights</description>
+	<type>str2</type>
+	<unit>Nights</unit>
+</variable>
+
+<variable id="phv00066187.v1">
+	<name>god3bb1</name>
+	<description>D3. Hospitalization and other health care services used. De-identified date of admission (second date)</description>
+	<type>byte</type>
+</variable>
+
+<variable id="phv00066091.v1">
+	<name>god3bb2</name>
+	<description>D3bb2. Hospitalization and other health care services used. During the past 12 months, were you a patient in a nursing home or convalescent facility? Number of nights</description>
+	<type>str1</type>
+	<unit>Nights</unit>
+</variable>
+
+<variable id="phv00066188.v1">
+	<name>god3bc1</name>
+	<description>D3. Hospitalization and other health care services used. De-identified date of admission (sixth date)</description>
+	<type>byte</type>
+</variable>
+
+<variable id="phv00066092.v1">
+	<name>god3bc2</name>
+	<description>D3bc2. Hospitalization and other health care services used. During the past 12 months, were you a patient in a nursing home or convalescent facility? Number of nights</description>
+	<type>str1</type>
+	<unit>Nights</unit>
+</variable>
+
+<variable id="phv00066093.v1">
+	<name>god4a</name>
+	<description>D4a. Hospitalization and other health care services used. During the past 12 months, have you had any of the following laboratory tests: HbA1c in past 12 months</description>
+	<type>byte</type>
+	<value code="1">Yes</value>
+	<value code="2">No</value>
+</variable>
+
+<variable id="phv00066094.v1">
+	<name>god4a1</name>
+	<description>D4a1. Hospitalization and other health care services used. During the past 12 months, have you had any of the following laboratory tests: Hba1c, number of times</description>
+	<type>byte</type>
+	<unit>Times</unit>
+</variable>
+
+<variable id="phv00066095.v1">
+	<name>god4b</name>
+	<description>D4b. Hospitalization and other health care services used. During the past 12 months, have you had any of the following laboratory tests: fructosamine, in the past 12 months</description>
+	<type>byte</type>
+	<value code="1">Yes</value>
+	<value code="2">No</value>
+</variable>
+
+<variable id="phv00066096.v1">
+	<name>god4b1</name>
+	<description>D4b1. Hospitalization and other health care services used. During the past 12 months, have you had any of the following laboratory tests: fructosamine, number of times</description>
+	<type>byte</type>
+	<unit>Times</unit>
+</variable>
+
+<variable id="phv00066097.v1">
+	<name>god4c</name>
+	<description>D4c. Hospitalization and other health care services used. During the past 12 months, have you had any of the following laboratory tests: blood glucose, in past 12 months</description>
+	<type>byte</type>
+	<value code="1">Yes</value>
+	<value code="2">No</value>
+</variable>
+
+<variable id="phv00066098.v1">
+	<name>god4c1</name>
+	<description>D4c1. Hospitalization and other health care services used. During the past 12 months, have you had any of the following laboratory tests: blood glucose, number of times</description>
+	<type>byte</type>
+	<unit>Times</unit>
+</variable>
+
+<variable id="phv00066099.v1">
+	<name>god4d</name>
+	<description>D4d. Hospitalization and other health care services used. During the past 12 months, have you had any of the following laboratory tests: fasting lipid, in past 12 months</description>
+	<type>byte</type>
+	<value code="1">Yes</value>
+	<value code="2">No</value>
+</variable>
+
+<variable id="phv00066100.v1">
+	<name>god4d1</name>
+	<description>D4d1. Hospitalization and other health care services used. During the past 12 months, have you had any of the following laboratory tests: fasting lipid, number of times</description>
+	<type>byte</type>
+	<unit>Times</unit>
+</variable>
+
+<variable id="phv00066101.v1">
+	<name>god4e</name>
+	<description>D4e. Hospitalization and other health care services used. During the past 12 months, have you had any of the following laboratory tests: other blood, in past 12 months</description>
+	<type>byte</type>
+	<value code="1">Yes</value>
+	<value code="2">No</value>
+</variable>
+
+<variable id="phv00066102.v1">
+	<name>god4e1</name>
+	<description>D4e1. Hospitalization and other health care services used. During the past 12 months, have you had any of the following laboratory tests: other blood, number of times</description>
+	<type>byte</type>
+	<unit>Times</unit>
+</variable>
+
+<variable id="phv00066103.v1">
+	<name>god4f</name>
+	<description>D4f. Hospitalization and other health care services used. During the past 12 months, have you had any of the following laboratory tests: EKG, in the past 12 months</description>
+	<type>byte</type>
+	<value code="1">Yes</value>
+	<value code="2">No</value>
+</variable>
+
+<variable id="phv00066104.v1">
+	<name>god4f1</name>
+	<description>D4f1. Hospitalization and other health care services used. During the past 12 months, have you had any of the following laboratory tests: EKG, number of times</description>
+	<type>byte</type>
+	<unit>Times</unit>
+</variable>
+
+<variable id="phv00066105.v1">
+	<name>god4g</name>
+	<description>D4g. Hospitalization and other health care services used. During the past 12 months, have you had any of the following laboratory tests: stress test, in past 12 months</description>
+	<type>byte</type>
+	<value code="1">Yes</value>
+	<value code="2">No</value>
+</variable>
+
+<variable id="phv00066106.v1">
+	<name>god4g1</name>
+	<description>D4g1. Hospitalization and other health care services used. During the past 12 months, have you had any of the following laboratory tests: stress test, number of times</description>
+	<type>byte</type>
+	<unit>Times</unit>
+</variable>
+
+<variable id="phv00066107.v1">
+	<name>god4h</name>
+	<description>D4h. Hospitalization and other health care services used. During the past 12 months, have you had any of the following laboratory tests: dilated eye, in past 12 months</description>
+	<type>byte</type>
+	<value code="1">Yes</value>
+	<value code="2">No</value>
+</variable>
+
+<variable id="phv00066108.v1">
+	<name>god4h1</name>
+	<description>D4h1. Hospitalization and other health care services used. During the past 12 months, have you had any of the following laboratory tests: dilated eye: number of times</description>
+	<type>byte</type>
+	<unit>Times</unit>
+</variable>
+
+<variable id="phv00066109.v1">
+	<name>god4i</name>
+	<description>D4i. Hospitalization and other health care services used. During the past 12 months, have you had any of the following laboratory tests: eye photo, in past 12 months</description>
+	<type>byte</type>
+	<value code="1">Yes</value>
+	<value code="2">No</value>
+</variable>
+
+<variable id="phv00066110.v1">
+	<name>god4i1</name>
+	<description>D4i1. Hospitalization and other health care services used. During the past 12 months, have you had any of the following laboratory tests: eye photo, number of times</description>
+	<type>byte</type>
+	<unit>Times</unit>
+</variable>
+
+<variable id="phv00066111.v1">
+	<name>god4j</name>
+	<description>D4j. Hospitalization and other health care services used. During the past 12 months, have you had any of the following laboratory tests: fluorescein, in the past 12 months</description>
+	<type>byte</type>
+	<value code="1">Yes</value>
+	<value code="2">No</value>
+</variable>
+
+<variable id="phv00066112.v1">
+	<name>god4j1</name>
+	<description>D4j1. Hospitalization and other health care services used. During the past 12 months, have you had any of the following laboratory tests: fluorescein, number of times</description>
+	<type>byte</type>
+	<unit>Times</unit>
+</variable>
+
+<variable id="phv00066113.v1">
+	<name>god4k</name>
+	<description>D4k. Hospitalization and other health care services used. Laser treatment: in past 12 months</description>
+	<type>byte</type>
+	<value code="1">Yes</value>
+	<value code="2">No</value>
+</variable>
+
+<variable id="phv00066114.v1">
+	<name>god4k1</name>
+	<description>D4k1. Hospitalization and other health care services used. Laser treatment: number of times</description>
+	<type>byte</type>
+	<unit>Times</unit>
+</variable>
+
+<variable id="phv00066115.v1">
+	<name>god4l</name>
+	<description>D4l. Hospitalization and other health care services used. Timed urine: in past 12 months</description>
+	<type>byte</type>
+	<value code="1">Yes</value>
+	<value code="2">No</value>
+</variable>
+
+<variable id="phv00066116.v1">
+	<name>god4l1</name>
+	<description>D4l1. Hospitalization and other health care services used. Timed urine: number of times</description>
+	<type>byte</type>
+	<unit>Times</unit>
+</variable>
+
+<variable id="phv00066117.v1">
+	<name>god4m</name>
+	<description>D4m. Hospitalization and other health care services used. Other urine: in past 12 months</description>
+	<type>byte</type>
+	<value code="1">Yes</value>
+	<value code="2">No</value>
+</variable>
+
+<variable id="phv00066118.v1">
+	<name>god4m1</name>
+	<description>D4m1. Hospitalization and other health care services used. Other urine: number of times</description>
+	<type>byte</type>
+	<unit>Times</unit>
+</variable>
+
+<variable id="phv00066119.v1">
+	<name>god4n</name>
+	<description>D4n. Hospitalization and other health care services used. Kidney dialysis: in past 12 months</description>
+	<type>byte</type>
+	<value code="1">Yes</value>
+	<value code="2">No</value>
+</variable>
+
+<variable id="phv00066120.v1">
+	<name>god4n1</name>
+	<description>D4n1. Hospitalization and other health care services used. Kidney dialysis: number of times</description>
+	<type>int</type>
+	<unit>Times</unit>
+</variable>
+
+<variable id="phv00066121.v1">
+	<name>god4o</name>
+	<description>D4o. Hospitalization and other health care services used. During the past 12 months, have you had any of the following laboratory tests: gastric, in past 12 months</description>
+	<type>byte</type>
+	<value code="1">Yes</value>
+	<value code="2">No</value>
+</variable>
+
+<variable id="phv00066122.v1">
+	<name>god4o1</name>
+	<description>D4o1. Hospitalization and other health care services used. During the past 12 months, have you had any of the following laboratory tests: gastric, number of times</description>
+	<type>byte</type>
+	<unit>Times</unit>
+</variable>
+
+<variable id="phv00066123.v1">
+	<name>god4p</name>
+	<description>D4p. Hospitalization and other health care services used. During the past 12 months, have you had any of the following laboratory tests: pap smear, in past 12 months</description>
+	<type>byte</type>
+	<value code="1">Yes</value>
+	<value code="2">No</value>
+</variable>
+
+<variable id="phv00066124.v1">
+	<name>god4p1</name>
+	<description>D4p1. Hospitalization and other health care services used. During the past 12 months, have you had any of the following laboratory tests: pap smear, number of times</description>
+	<type>byte</type>
+	<unit>Times</unit>
+</variable>
+
+<variable id="phv00066125.v1">
+	<name>god4q</name>
+	<description>D4q. Hospitalization and other health care services used. During the past 12 months, have you had any of the following laboratory tests: flu shot, in past 12 months</description>
+	<type>byte</type>
+	<value code="1">Yes</value>
+	<value code="2">No</value>
+</variable>
+
+<variable id="phv00066126.v1">
+	<name>god4q1</name>
+	<description>D4q1. Hospitalization and other health care services used. During the past 12 months, have you had any of the following laboratory tests: flu shot, number of times</description>
+	<type>byte</type>
+	<unit>Times</unit>
+</variable>
+
+<variable id="phv00066127.v1">
+	<name>god5</name>
+	<description>D5. Hospitalization and other health care services used. During the past 12 months, have you had any of the following laboratory tests: had any other laboratory tests or evaluations</description>
+	<type>byte</type>
+	<value code="1">Yes</value>
+	<value code="2">No</value>
+</variable>
+
+<variable id="phv00066128.v1">
+	<name>god51</name>
+	<description>D51. Hospitalization and other health care services used. During the past 12 months, have you had any of the following laboratory tests: specify, other tests or evaluation</description>
+	<type>str17</type>
+</variable>
+
+<variable id="phv00066129.v1">
+	<name>god6</name>
+	<description>D6. Hospitalization and other health care services used. Received any other medical treatment</description>
+	<type>byte</type>
+	<value code="1">Yes</value>
+	<value code="2">No</value>
+	<value code="3">Missing data</value>
+	<value code="6">Missing data</value>
+</variable>
+
+<variable id="phv00066130.v1">
+	<name>god61</name>
+	<description>D6. Hospitalization and other health care services used. Specify: other medical treatment</description>
+	<type>str17</type>
+</variable>
+
+<variable id="phv00066131.v1">
+	<name>god7</name>
+	<description>D7. Hospitalization and other health care services used. How many days missed work/school</description>
+	<type>float</type>
+	<unit>Days</unit>
+</variable>
+
+<variable id="phv00066132.v1">
+	<name>god7a</name>
+	<description>D7a. Hospitalization and other health care services used. How many days related to diabetes</description>
+	<type>int</type>
+	<unit>Days</unit>
+</variable>
+
+<variable id="phv00066133.v1">
+	<name>goe1</name>
+	<description>E1. Participation in other research projects. Asked to participate in research</description>
+	<type>byte</type>
+	<value code="1">Yes</value>
+	<value code="2">No</value>
+</variable>
+
+<variable id="phv00066134.v1">
+	<name>goe2</name>
+	<description>E2. Participation in other research projects. Did you participate in project</description>
+	<type>byte</type>
+	<value code="1">Yes</value>
+	<value code="2">No</value>
+</variable>
+
+<variable id="phv00066135.v1">
+	<name>goe3a</name>
+	<description>E3a. Participation in other research projects. Specific drugs: did research involve</description>
+	<type>byte</type>
+	<value code="1">Specific drugs</value>
+</variable>
+
+<variable id="phv00066136.v1">
+	<name>goe3b</name>
+	<description>E3b. Participation in other research projects. Test procedures: did research involve</description>
+	<type>byte</type>
+	<value code="1">Test procedures</value>
+</variable>
+
+<variable id="phv00066137.v1">
+	<name>goe3c</name>
+	<description>E3c. Participation in other research projects. Insulin changes: did research involve</description>
+	<type>byte</type>
+	<value code="1">Insulin changes</value>
+</variable>
+
+<variable id="phv00066138.v1">
+	<name>goe3d</name>
+	<description>E3d. Participation in other research projects. Diet changes: did research involve</description>
+	<type>byte</type>
+	<value code="1">Diet changes</value>
+</variable>
+
+<variable id="phv00066139.v1">
+	<name>goe3e</name>
+	<description>E3e. Participation in other research projects. Exercise mod: did research involve</description>
+	<type>byte</type>
+	<value code="1">Exercise mod</value>
+</variable>
+
+<variable id="phv00066140.v1">
+	<name>goe3f</name>
+	<description>E3f. Participation in other research projects. Questionnaires: did research involve</description>
+	<type>byte</type>
+	<value code="1">Questionnaires</value>
+</variable>
+
+<variable id="phv00066141.v1">
+	<name>goe3g</name>
+	<description>E3g. Participation in other research projects. Interviews: did research involve</description>
+	<type>byte</type>
+	<value code="1">Interviews</value>
+</variable>
+
+<variable id="phv00066142.v1">
+	<name>goe3h</name>
+	<description>E3h. Participation in other research projects. Other: did research involve</description>
+	<type>byte</type>
+	<value code="1">Other</value>
+</variable>
+
+<variable id="phv00066143.v1">
+	<name>goe3h1</name>
+	<description>E3h1. Participation in other research projects. Specify: what research involved</description>
+	<type>str16</type>
+</variable>
+
+<variable id="phv00066144.v1">
+	<name>gof1</name>
+	<description>F1. Access to health care services. Any health problem or conditions</description>
+	<type>byte</type>
+	<value code="1">Yes</value>
+	<value code="2">No</value>
+</variable>
+
+<variable id="phv00066145.v1">
+	<name>gof2a</name>
+	<description>F2a. Access to health care services. Did not think condition serious</description>
+	<type>byte</type>
+	<value code="1">Condition serious</value>
+</variable>
+
+<variable id="phv00066146.v1">
+	<name>gof2b</name>
+	<description>F2b. Access to health care services. Problem not covered by insurance</description>
+	<type>byte</type>
+	<value code="1">Not covered by insurance</value>
+</variable>
+
+<variable id="phv00066147.v1">
+	<name>gof2c</name>
+	<description>F2c. Access to health care services. Medical care cost too much</description>
+	<type>byte</type>
+	<value code="1">Medical care cost too much</value>
+</variable>
+
+<variable id="phv00066148.v1">
+	<name>gof2d</name>
+	<description>F2d. Access to health care services. Did not have money to cover cost</description>
+	<type>byte</type>
+	<value code="1">Did not have money</value>
+</variable>
+
+<variable id="phv00066149.v1">
+	<name>gof2e</name>
+	<description>F2e. Access to health care services. Did not have time to see provider</description>
+	<type>byte</type>
+	<value code="1">Did not have time</value>
+</variable>
+
+<variable id="phv00066150.v1">
+	<name>gof2f</name>
+	<description>F2f. Access to health care services. Could not get appointment</description>
+	<type>byte</type>
+	<value code="1">Could not get appointment</value>
+</variable>
+
+<variable id="phv00066151.v1">
+	<name>gof2g</name>
+	<description>F2g. Access to health care services. Did not have a way to office</description>
+	<type>byte</type>
+	<value code="1">Did not have a way to office</value>
+</variable>
+
+<variable id="phv00066152.v1">
+	<name>gof2h</name>
+	<description>F2h. Access to health care services. Distance to clinic/office too great</description>
+	<type>byte</type>
+	<value code="1">Distance to clinic/office too great</value>
+</variable>
+
+<variable id="phv00066153.v1">
+	<name>gof2i</name>
+	<description>F2i. Access to health care services. Did not have child care</description>
+	<type>byte</type>
+	<value code="1">Did not have child care</value>
+</variable>
+
+<variable id="phv00066154.v1">
+	<name>gof2j</name>
+	<description>F2j. Access to health care services. Felt provider could not help</description>
+	<type>byte</type>
+	<value code="1">Felt provider could not help</value>
+</variable>
+
+<variable id="phv00066155.v1">
+	<name>gof2k</name>
+	<description>F2k. Access to health care services. Did not feel provider cared</description>
+	<type>byte</type>
+	<value code="1">Did not feel provider cared</value>
+</variable>
+
+<variable id="phv00066156.v1">
+	<name>gof2l</name>
+	<description>F2l. Access to health care services. Afraid of finding out what is wrong</description>
+	<type>byte</type>
+	<value code="1">Afraid of finding out what is wrong</value>
+</variable>
+
+<variable id="phv00066157.v1">
+	<name>gof2m</name>
+	<description>F2m. Access to health care services. Felt problem could be home remedied</description>
+	<type>byte</type>
+	<value code="1">Felt problem</value>
+</variable>
+
+<variable id="phv00066158.v1">
+	<name>gof2n</name>
+	<description>F2n. Access to health care services. Had a lapse in insurance</description>
+	<type>byte</type>
+	<value code="1">Had a lapse in insurance</value>
+</variable>
+
+<variable id="phv00066159.v1">
+	<name>gof2o</name>
+	<description>F2o. Access to health care services. Why you did not see a doctor or other health care: other, reason(s) did not see doctor</description>
+	<type>byte</type>
+	<value code="1">Other</value>
+</variable>
+
+<variable id="phv00066160.v1">
+	<name>gof2o1</name>
+	<description>F2o1. Access to health care services. Specify: reason(s) did not see doctor</description>
+	<type>str16</type>
+</variable>
+
+<variable id="phv00066161.v1">
+	<name>gof3</name>
+	<description>F3. Access to health care services. Did you delay seeing a doctor</description>
+	<type>byte</type>
+	<value code="1">Yes</value>
+	<value code="2">No</value>
+</variable>
+
+<variable id="phv00066162.v1">
+	<name>gof4a</name>
+	<description>F4a. Access to health care services. Did not think condition serious</description>
+	<type>byte</type>
+	<value code="1">Condition serious</value>
+</variable>
+
+<variable id="phv00066163.v1">
+	<name>gof4b</name>
+	<description>F4b. Access to health care services. Problem not covered by insurance</description>
+	<type>byte</type>
+	<value code="1">Not covered by insurance</value>
+</variable>
+
+<variable id="phv00066164.v1">
+	<name>gof4c</name>
+	<description>F4c. Access to health care services. Medical care cost too much</description>
+	<type>byte</type>
+	<value code="1">Medical care cost too much</value>
+</variable>
+
+<variable id="phv00066165.v1">
+	<name>gof4d</name>
+	<description>F4d. Access to health care services. Did not have money to cover cost</description>
+	<type>byte</type>
+	<value code="1">Did not have money</value>
+</variable>
+
+<variable id="phv00066166.v1">
+	<name>gof4e</name>
+	<description>F4e. Access to health care services. Did not have time to see provider</description>
+	<type>byte</type>
+	<value code="1">Did not have time</value>
+</variable>
+
+<variable id="phv00066167.v1">
+	<name>gof4f</name>
+	<description>F4f. Access to health care services. Could not get appointment</description>
+	<type>byte</type>
+	<value code="1">Could not get appointment</value>
+</variable>
+
+<variable id="phv00066168.v1">
+	<name>gof4g</name>
+	<description>F4g. Access to health care services. Did not have a way to office</description>
+	<type>byte</type>
+	<value code="1">Did not have a way to office</value>
+</variable>
+
+<variable id="phv00066169.v1">
+	<name>gof4h</name>
+	<description>F4h. Access to health care services. Distance to clinic/office too great</description>
+	<type>byte</type>
+	<value code="1">Distance too great</value>
+</variable>
+
+<variable id="phv00066170.v1">
+	<name>gof4i</name>
+	<description>F4i. Access to health care services. Did not have child care</description>
+	<type>byte</type>
+	<value code="1">Did not have child care</value>
+</variable>
+
+<variable id="phv00066171.v1">
+	<name>gof4j</name>
+	<description>F4j. Access to health care services. Felt provider could not help</description>
+	<type>byte</type>
+	<value code="1">Felt provider could not help</value>
+</variable>
+
+<variable id="phv00066172.v1">
+	<name>gof4k</name>
+	<description>F4k. Access to health care services. Did not feel provider cared</description>
+	<type>byte</type>
+	<value code="1">Did not feel provider cared</value>
+</variable>
+
+<variable id="phv00066173.v1">
+	<name>gof4l</name>
+	<description>F4l. Access to health care services. Afraid of finding out what&#39;s wrong</description>
+	<type>byte</type>
+	<value code="1">Afraid of finding out what&#39;s wrong</value>
+</variable>
+
+<variable id="phv00066174.v1">
+	<name>gof4m</name>
+	<description>F4m. Access to health care services. Felt problem could be home remedied</description>
+	<type>byte</type>
+	<value code="1">Felt problem</value>
+</variable>
+
+<variable id="phv00066175.v1">
+	<name>gof4n</name>
+	<description>F4n. Access to health care services. Had a lapse in insurance</description>
+	<type>byte</type>
+	<value code="1">Had a lapse in insurance</value>
+</variable>
+
+<variable id="phv00066176.v1">
+	<name>gof4o</name>
+	<description>F4o. Access to health care services. Other: reason(s) delayed to see doctor</description>
+	<type>byte</type>
+	<value code="1">Other</value>
+</variable>
+
+<variable id="phv00066177.v1">
+	<name>gof4o1</name>
+	<description>F4o1. Access to health care services. Specify: why delayed to see doctor</description>
+	<type>str17</type>
+</variable>
+
+<variable id="phv00066179.v1">
+	<name>mask_pat</name>
+	<description>De-identified patient ID</description>
+	<type>int</type>
+</variable>
+
+</data_table>

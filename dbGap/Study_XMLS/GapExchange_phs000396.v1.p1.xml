@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GaPExchange xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="dbGaPEx2.1.5.xsd">
+
+<MetaVariables>
+	<Submitter/>
+	<Method/>
+</MetaVariables>
+<MetaLinks/>
+
+<Projects>
+	<Project/>
+</Projects>
+
+<Studies>
+
+<Study source="dbGaP" accession="phs000396.v1.p1" parentStudy="phs000396.v1.p1" createDate="2011-08-10" modDate="2011-10-06">
+
+<Configuration>
+	<Data_Provider><![CDATA[
+		<table border="1">
+		<tr><th>Title</th><th>Name</th><th>Institute</th></tr>
+		<tr><td>Principal Investigator</td><td>Stephen J. Chanock</td><td>Laboratory of Translational Genomics, Division of Cancer Epidemiology and Genetics (DCEG), National Cancer Institute and Core Genotyping Facility, Division of Cancer Epidemiology and Genetics (DCEG), National Cancer Institute, National Institutes of Health, Bethesda, MD, USA</td></tr>
+		<tr><td>Collaborators</td><td>Demetrius Albanes</td><td>Division of Cancer Epidemiology and Genetics (DCEG), National Cancer Institute, National Institutes of Health, Bethesda, MD, USA</td></tr>
+		<tr><td>Collaborators</td><td>Christine Berg</td><td>Division of Cancer Prevention (DCP), National Cancer Institute, National Institutes of Health, Bethesda, MD, USA</td></tr>
+		<tr><td>Collaborators</td><td>Susan M. Gapstur</td><td>Epidemiology Research Program, American Cancer Society</td></tr>
+		<tr><td>Collaborators</td><td>Robert N. Hoover</td><td>Division of Cancer Epidemiology and Genetics (DCEG), National Cancer Institute, National Institutes of Health, Bethesda, MD, USA</td></tr>
+		</table>
+	]]></Data_Provider>
+	<StudyNameEntrez>DCEG Imputation Reference Dataset</StudyNameEntrez>
+	<StudyNameReportPage>Division of Cancer Epidemiology and Genetics (DCEG) Imputation Reference Dataset</StudyNameReportPage>
+	<StudyTypes>
+		<StudyType>Reference Set</StudyType>
+	</StudyTypes>
+	<Description><![CDATA[
+<p>We have built a new resource for imputation of SNPs for existing and future genome-wide association studies (GWAS), known as the     Division of Cancer Epidemiology and Genetics (DCEG) Reference Set. The first build of the data set includes 728 cancer-free individuals     of European descent from three large prospectively sampled studies, 98 African-American individuals from the     Prostate, Lung, Colon, and Ovary Cancer Screening Trial (PLCO), 74 Chinese individuals from a Chinese clinical trial in Shanxi, China (SHNX),     and 349 unrelated individuals from the HapMap Project (see Molecular Data Section for details on arrays used). The final harmonized dataset     includes 2.8 million autosomal polymorphic SNPs on 1,249 subjects after rigorous quality control metrics were applied.</p>]]>
+	</Description>
+	<StudyInEx><![CDATA[
+<p>An established quality control (QC) process was applied to samples by study (Referred to as "QC Groups") to ensure that only high-quality     genotypes were retained for the analytic data set. QC metrics included completion rates by sample or locus, sample heterozygosity rate     and duplicate concordance rate and standard thresholds for exclusion of data generated per array were applied. The results of 198 arrays     from 153 different individuals were excluded.</p>     <p>We also excluded individuals and loci with discordance rates greater than 1% after merging the genotypes generated from different arrays,     resulting in exclusion of 5 individuals (2 ATBC, 1 CPSII and 2 PLCO). Assays from Illumina Hap1, Omni1, Omni2.5 arrays were harmonized     based on the locus meta-data of 1000 Genomes June 2010 release and HapMap 3 February 2009 release. An additional 763 loci were excluded     due to incompatible alleles (either matching directly or by reverse complementing) between our data and the public reference data.</p>]]>
+	</StudyInEx>
+	<StudyProjects>
+		<Project/>
+	</StudyProjects>
+	<Publications>
+		<Publication>
+			<Journal authors="Wang Z, Jacobs KB, Yeager M, Hutchinson A, Sampson J, Chatterjee N, Berndt SI, Chung CC, Diver WR, Gapstur SM, Teras LR, Haimen CA, Henderson BE, Stram D, Hsing AS, Virtamo J, Eberle MA, Stone JL, Purdue MP, Taylor P, Tucker M, Chanock SJ" title="Improved Imputation of Common and Uncommon Single Nucleotide Polymorphisms (SNPs) with a New Reference Set" journal="Nature Genetics. Submitted"/>
+		</Publication>
+	</Publications>
+	<Attributions>
+		<Header title="Principal Investigator">
+			<AttName>Stephen J. Chanock</AttName>
+			<Institution>Laboratory of Translational Genomics, Division of Cancer Epidemiology and Genetics (DCEG), National Cancer Institute and Core Genotyping Facility, Division of Cancer Epidemiology and Genetics (DCEG), National Cancer Institute, National Institutes of Health, Bethesda, MD, USA</Institution>
+		</Header>
+		<Header title="Collaborators">
+			<AttName>Demetrius Albanes</AttName>
+			<Institution>Division of Cancer Epidemiology and Genetics (DCEG), National Cancer Institute, National Institutes of Health, Bethesda, MD, USA</Institution>
+		</Header>
+		<Header title="Collaborators">
+			<AttName>Christine Berg</AttName>
+			<Institution>Division of Cancer Prevention (DCP), National Cancer Institute, National Institutes of Health, Bethesda, MD, USA</Institution>
+		</Header>
+		<Header title="Collaborators">
+			<AttName>Susan M. Gapstur</AttName>
+			<Institution>Epidemiology Research Program, American Cancer Society</Institution>
+		</Header>
+		<Header title="Collaborators">
+			<AttName>Robert N. Hoover</AttName>
+			<Institution>Division of Cancer Epidemiology and Genetics (DCEG), National Cancer Institute, National Institutes of Health, Bethesda, MD, USA</Institution>
+		</Header>
+		<Header title="Collaborators">
+			<AttName>Ann S. Hsing</AttName>
+			<Institution>Division of Cancer Epidemiology and Genetics (DCEG), National Cancer Institute, National Institutes of Health, Bethesda, MD, USA</Institution>
+		</Header>
+		<Header title="Collaborators">
+			<AttName>Kevin B. Jacobs</AttName>
+			<Institution>Core Genotyping Facility, SAIC-Frederick, Inc. and Division of Cancer Epidemiology and Genetics (DCEG), National Cancer Institute, National Institutes of Health, Bethesda, MD, USA</Institution>
+		</Header>
+		<Header title="Collaborators">
+			<AttName>Mark P. Purdue</AttName>
+			<Institution>Division of Cancer Epidemiology and Genetics (DCEG), National Cancer Institute, National Institutes of Health, Bethesda, MD, USA</Institution>
+		</Header>
+		<Header title="Collaborators">
+			<AttName>Joshua Sampson</AttName>
+			<Institution>Division of Cancer Epidemiology and Genetics (DCEG), National Cancer Institute, National Institutes of Health, Bethesda, MD, USA</Institution>
+		</Header>
+		<Header title="Collaborators">
+			<AttName>Philip Taylor</AttName>
+			<Institution>Division of Cancer Epidemiology and Genetics (DCEG), National Cancer Institute, National Institutes of Health, Bethesda, MD, USA</Institution>
+		</Header>
+		<Header title="Collaborators">
+			<AttName>Margaret A. Tucker</AttName>
+			<Institution>Division of Cancer Epidemiology and Genetics (DCEG), National Cancer Institute, National Institutes of Health, Bethesda, MD, USA</Institution>
+		</Header>
+		<Header title="Collaborators">
+			<AttName>Zhaoming Wang</AttName>
+			<Institution>Core Genotyping Facility, SAIC-Frederick, Inc. and Division of Cancer Epidemiology and Genetics (DCEG), National Cancer Institute, National Institutes of Health, Bethesda, MD, USA</Institution>
+		</Header>
+		<Header title="Collaborators">
+			<AttName>Meredith Yeager</AttName>
+			<Institution>Core Genotyping Facility, SAIC-Frederick, Inc. and Division of Cancer Epidemiology and Genetics (DCEG), National Cancer Institute, National Institutes of Health, Bethesda, MD, USA</Institution>
+		</Header>
+		<Header title="Funding Source">
+			<AttName>Intramural Research Program, NCI, NIH</AttName>
+			<Institution>National Cancer Institute, National Institutes of Health, Bethesda, MD, USA</Institution>
+		</Header>
+	</Attributions>
+	<DisplayPublicSummary>yes</DisplayPublicSummary>
+	<StudyHistory><![CDATA[
+<p>906 individuals were chosen from two clinical trials and 2 prospective cohorts, Alpha-Tocopherol, Beta-Carotene Cancer Prevention Study (ATBC),     Cancer Prevention Study-II of the American Cancer Society (CPS II), the Prostate, Lung, Colon and Ovarian Cancer Prevention Trial (PLCO) and     the Shanxi Upper Gastrointestinal Cancer Genetics Project (SHNX). All individuals were cancer-free and over the age of 55 at last ascertainment.     Individuals of European ancestry were selected from ATBC, CPSII and PLCO; African Americans from PLCO; and East Asians from SHNX. Illumina, Inc.     provided data files for 446 Coriell individuals from HapMap3, namely, CEU, TSI, JPT, CHB and YRI populations genotyped on Illumina Omni 2.5 array.     For 74 SHNX individuals, genotype data were available for the Illumina Hap660 array 12 as well as the Omni 2.5 array. 95 African American     samples from the Multi Ethnic Cohort (MEC) were genotyped at USC with the Illumina Hap1 and the Omni 2.5 arrays.</p>]]>
+	</StudyHistory>
+	<ConsentGroups>
+		<ConsentGroup groupNum="1" shortName="CADM" longName="Cancer in all age groups, other diseases in adults only, and methods"/>
+		<ConsentGroup groupNum="2" shortName="EGC" longName="Esophageal and stomach cancer"/>
+	</ConsentGroups>
+</Configuration>
+
+  <AuthorizedAccess>
+    <DacInfo ssDacId="0">
+      <DacName>CGEMS</DacName>
+      <DacFullName>Cancer Genetic Markers of Susceptibility (CGEMS) DAC</DacFullName>
+      <DacEmail>NCI_CGEMS_DAC@mail.nih.gov </DacEmail>
+      <DacPhone></DacPhone>
+      <DacFax>301-480-3915</DacFax>
+      <DacUrl>http://grants.nih.gov/grants/gwas</DacUrl>
+    </DacInfo>
+    <Policy Policy_ID="phs000396.v1.p1_policy" ref_ssDacId="0">
+      <DisplayResearchStatement>yes</DisplayResearchStatement>
+      <DisplayPublicSummary>yes</DisplayPublicSummary>
+      <EmbargoLength>0</EmbargoLength>
+      <YearsUntilRenewal>1</YearsUntilRenewal>
+      <WeeksCancelRequest>8</WeeksCancelRequest>
+      <PdfSupplementReqired>no</PdfSupplementReqired>
+      <AcknowledgementText>
+        <para>
+               http://dbgap.ncbi.nlm.nih.gov/aa/wga.cgi?page=DUC&amp;view_pdf&amp;stacc=phs000396.v1.p1
+            </para>
+      </AcknowledgementText>
+      <DocumentSet>
+        <DataUseCertificate Label="Data Use Certificate" FilePath="https://dbgap.ncbi.nlm.nih.gov/aa/wga.cgi?page=DUC&amp;view_pdf&amp;stacc=phs000396.v1.p1" FileName="ImputationDUC.pdf"/>
+      </DocumentSet>
+    </Policy>
+    <ConsentGroups>
+      <ParticipantSet groupNum-REF="1">
+        <ConsentName>Cancer in all age groups, other diseases in adults only, and methods</ConsentName>
+        <ConsentAbbrev>CADM</ConsentAbbrev>
+        <UseLimitation>The informed consent document signed by the study participants allows use of these data by investigators for discovery and hypothesis generation in the investigation of the genetic contributions to cancer in all age groups and other diseases in adults only, as well as development of novel analytical approaches for GWAS.</UseLimitation>
+        <IrbRequired>No</IrbRequired>
+      </ParticipantSet>
+      <ParticipantSet groupNum-REF="2">
+        <ConsentName>Esophageal and stomach cancer</ConsentName>
+        <ConsentAbbrev>EGC</ConsentAbbrev>
+        <UseLimitation>Use of the dataset is limited to scientific research relating to esophageal and stomach cancer or methods research that could be used for esophageal or stomach cancer.</UseLimitation>
+        <IrbRequired>No</IrbRequired>
+      </ParticipantSet>
+    </ConsentGroups>
+  </AuthorizedAccess>
+
+
+</Study>
+
+</Studies>
+
+</GaPExchange>

@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./datadict_v2.xsl"?>
+<data_table id="pht000644.v1" study_id="phs000143.v1" participant_set="1" date_created="Fri Feb 25 09:50:11 2011">
+
+<variable id="phv00066504.v1">
+	<name>cidrid</name>
+	<description>Study identification number</description>
+	<type>String</type>
+	<comment>This is an assigned de-identified number for each sample. The format consists of &#39;CD&#39; followed by a 4 digit integer</comment>
+</variable>
+
+<variable id="phv00066505.v1">
+	<name>casestat</name>
+	<description>Case/control status</description>
+	<type>Encoded</type>
+	<logical_min>1</logical_min>
+	<logical_max>2</logical_max>
+	<comment>Cases were chosen as individuals with type 2 diabetes that were identified as Mexican Americans. Classification of diabetes was based on National Diabetes Data Group recommendations from 1978. All such individuals also meet current recommendations. Indivi
+		Controls were chosen because they had no history of diabetes and were negative for diabetes on an oral glucose tolerance test using a 75 gm glucose load. </comment>
+	<value code="1">Control</value>
+	<value code="2">Case</value>
+</variable>
+
+<variable id="phv00066506.v1">
+	<name>age</name>
+	<description>Age in years</description>
+	<type>Integer</type>
+	<unit>Years old</unit>
+	<logical_min>25</logical_min>
+	<logical_max>87</logical_max>
+</variable>
+
+<variable id="phv00066507.v1">
+	<name>gender</name>
+	<description>Gender</description>
+	<type>Encoded</type>
+	<logical_min>1</logical_min>
+	<logical_max>2</logical_max>
+	<value code="1">Male</value>
+	<value code="2">Female</value>
+</variable>
+
+<variable id="phv00066508.v1">
+	<name>usamex</name>
+	<description>Country of birth</description>
+	<type>Encoded</type>
+	<logical_min>1</logical_min>
+	<logical_max>3</logical_max>
+	<value code="1">USA</value>
+	<value code="2">Mexico</value>
+	<value code="3">Other</value>
+	<value code="9">Unknown</value>
+</variable>
+
+<variable id="phv00066509.v1">
+	<name>bmi</name>
+	<description>Body mass index (BMI)</description>
+	<type>Decimal</type>
+	<logical_min>15.4</logical_min>
+	<logical_max>60.8</logical_max>
+	<comment>Calculated as weight in kg divided by the height in meters squared.</comment>
+	<value code="-99.9">Missing</value>
+</variable>
+
+<variable id="phv00066510.v1">
+	<name>wtohip</name>
+	<description>Waist to hip ratio</description>
+	<type>Decimal</type>
+	<logical_min>0.55</logical_min>
+	<logical_max>1.28</logical_max>
+	<comment>Waist circumference at the umbilicus measured in cm divided by the hip circumference (at widest point) also measured in cm.
+		In one series of potential cases, circumferences were not obtained thus explaining a higher than ordinary number of missing values. </comment>
+	<value code="-99.9">Missing</value>
+</variable>
+
+<variable id="phv00066511.v1">
+	<name>chol</name>
+	<description>Plasma cholesterol</description>
+	<type>Integer</type>
+	<unit>mg/dl</unit>
+	<logical_min>76</logical_min>
+	<logical_max>443</logical_max>
+	<value code="-99">Missing</value>
+</variable>
+
+<variable id="phv00066512.v1">
+	<name>trig</name>
+	<description>Plasma triglycerides</description>
+	<type>Integer</type>
+	<unit>mg/dl</unit>
+	<logical_min>29</logical_min>
+	<logical_max>2014</logical_max>
+</variable>
+
+<variable id="phv00066513.v1">
+	<name>hdlt</name>
+	<description>Total plasma high density lipoprotein cholesterol</description>
+	<type>Integer</type>
+	<unit>mg/dl</unit>
+	<logical_min>18</logical_min>
+	<logical_max>293</logical_max>
+	<value code="-99">Missing</value>
+</variable>
+
+<variable id="phv00066514.v1">
+	<name>ldl</name>
+	<description>Calculated low density lipoprotein cholesterol</description>
+	<type>Integer</type>
+	<unit>mg/dl</unit>
+	<logical_min>14</logical_min>
+	<logical_max>239</logical_max>
+	<comment>Calculated according to the Friedewald equation (Chol - Trig/5 - HDLT) when Trig &lt; 400. For Trig &gt;= 400, LDL is set to missing</comment>
+	<value code="-99">Missing</value>
+</variable>
+
+<variable id="phv00066515.v1">
+	<name>sbp</name>
+	<description>Systolic blood pressure</description>
+	<type>Integer</type>
+	<unit>mmHg</unit>
+	<logical_min>66</logical_min>
+	<logical_max>213</logical_max>
+	<comment>Taken as the average of two measures (2nd and 3rd) using a Hawksley Random Zero Sphygmomanometer</comment>
+	<value code="-99">Missing</value>
+</variable>
+
+<variable id="phv00066516.v1">
+	<name>dbp</name>
+	<description>Diastolic blood pressure</description>
+	<type>Integer</type>
+	<unit>mmHg</unit>
+	<logical_min>32</logical_min>
+	<logical_max>139</logical_max>
+	<comment>Taken as the average of two measures (2nd and 3rd) using a Hawksley Random Zero Sphygmomanometer</comment>
+	<value code="-99">Missing</value>
+</variable>
+
+<variable id="phv00066517.v1">
+	<name>smoke</name>
+	<description>Smoking behavior</description>
+	<type>Encoded</type>
+	<logical_min>1</logical_min>
+	<logical_max>3</logical_max>
+	<value code="1">Current smoker</value>
+	<value code="2">Former smoker</value>
+	<value code="3">Never smoke</value>
+	<value code="9">Unknown</value>
+</variable>
+
+<variable id="phv00066518.v1">
+	<name>gluc0</name>
+	<description>Fasting glucose</description>
+	<type>Integer</type>
+	<unit>mg/dl</unit>
+	<logical_min>32</logical_min>
+	<logical_max>455</logical_max>
+	<value code="-99">Missing</value>
+</variable>
+
+<variable id="phv00066519.v1">
+	<name>gluc120</name>
+	<description>120 minute post-load glucose</description>
+	<type>Integer</type>
+	<unit>mg/dl</unit>
+	<logical_min>53</logical_min>
+	<logical_max>199</logical_max>
+	<comment>Oral glucose tolerance test was performed using a 75 gm glucose load
+		Not performed in Cases. </comment>
+	<value code="-99">Missing</value>
+</variable>
+
+<variable id="phv00066520.v1">
+	<name>dxage</name>
+	<description>Age at diabetes diagnosis</description>
+	<type>Integer</type>
+	<unit>Years old</unit>
+	<logical_min>20</logical_min>
+	<logical_max>79</logical_max>
+	<comment>Not applicable in Controls</comment>
+	<value code="-99">Missing</value>
+</variable>
+
+<variable id="phv00066521.v1">
+	<name>retinop</name>
+	<description>Presence of diabetic retinopathy</description>
+	<type>Encoded</type>
+	<logical_min>1</logical_min>
+	<logical_max>2</logical_max>
+	<comment>Retinopathy was classified based on stereoscopic fundus photographs of seven standard fields as implemented in the Early Treatment of Diabetic Retinopathy trial. Retinopathy was considered to be present for any grading of 20 or more based on the Modified</comment>
+	<value code="1">Yes</value>
+	<value code="2">No</value>
+	<value code="9">Missing, unknown or not applicable</value>
+</variable>
+
+<variable id="phv00066522.v1">
+	<name>hba1c</name>
+	<description>Glycosylated hemoglobin</description>
+	<type>Decimal</type>
+	<unit>%</unit>
+	<logical_min>4.2</logical_min>
+	<logical_max>26.2</logical_max>
+	<comment>No measured in Controls</comment>
+	<value code="-99.9">Missing</value>
+</variable>
+
+<variable id="phv00066523.v1">
+	<name>creatinine</name>
+	<description>Serum creatinine</description>
+	<type>Decimal</type>
+	<unit>mg/dl</unit>
+	<logical_min>0.25</logical_min>
+	<logical_max>8.15</logical_max>
+	<comment>Serum creatinine was only measured in one of our surveys, hence there are a large number of missing values</comment>
+	<value code="-9.99">Missing</value>
+</variable>
+
+<variable id="phv00066524.v1">
+	<name>albumin</name>
+	<description>Urinary albumin</description>
+	<type>Mixed</type>
+	<unit>mg/dl</unit>
+	<comment>Measured via Roche Chemstrip Micral Urine Test Strip</comment>
+	<value code=" -99">Missing</value>
+	<value code="NEG">No albumin</value>
+</variable>
+
+<variable id="phv00066525.v1">
+	<name>ifg</name>
+	<description>Impaired fasting glucose</description>
+	<type>Encoded</type>
+	<logical_min>1</logical_min>
+	<logical_max>3</logical_max>
+	<value code="1">Negative</value>
+	<value code="2">Gluc0 &gt;= 100 and &lt; 110</value>
+	<value code="3">Gluc0 &gt;= 110 and &lt; 126</value>
+	<value code="9">Missing or not applicable</value>
+</variable>
+
+<variable id="phv00066526.v1">
+	<name>igt</name>
+	<description>Impaired glucose tolerance</description>
+	<type>Encoded</type>
+	<logical_min>1</logical_min>
+	<logical_max>2</logical_max>
+	<value code="1">Negative</value>
+	<value code="2">Gluc120 &gt;= 140 and &lt; 200</value>
+	<value code="9">Missing or not applicable</value>
+</variable>
+
+<variable id="phv00066527.v1">
+	<name>ins000</name>
+	<description>Fasting insulin</description>
+	<type>Decimal</type>
+	<unit>mIU/mL</unit>
+	<logical_min>0</logical_min>
+	<logical_max>102.3</logical_max>
+	<comment>Coat-A-Count insulin RIA (radioimmunoassay) in plasma stored at -80
+		Not performed in Cases. </comment>
+	<value code="-99.9">Missing</value>
+</variable>
+
+</data_table>

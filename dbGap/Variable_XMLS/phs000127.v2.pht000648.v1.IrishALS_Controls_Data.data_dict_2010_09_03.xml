@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./datadict_v2.xsl"?>
+<data_table id="pht000648.v1" study_id="phs000127.v2" participant_set="1" date_created="Fri Sep  3 15:44:14 2010">
+
+<variable id="phv00066543.v1">
+	<name>SUBJECT_ID</name>
+	<description>Subject&#39;s ID, matches IDs in the PED files</description>
+	<type>String</type>
+	<comment>De-identified ID</comment>
+</variable>
+
+<variable id="phv00066544.v1">
+	<name>Gender</name>
+	<description>Participant&#39;s gender</description>
+	<type>Encoded</type>
+	<value code="1">Male</value>
+	<value code="2">Female</value>
+</variable>
+
+<variable id="phv00066545.v1">
+	<name>Case-control_status</name>
+	<description>Case or control?</description>
+	<type>Encoded</type>
+	<value code="1">Control</value>
+	<value code="2">Case</value>
+</variable>
+
+<variable id="phv00066546.v1">
+	<name>Age</name>
+	<description>Participant&#39;s age</description>
+	<type>Integers in bands</type>
+	<unit>YEARS</unit>
+	<logical_min>40</logical_min>
+	<logical_max>90</logical_max>
+	<comment>Given in years as below 40- or in 10-year age bands, e.g. 60 - 69 years, 70 - 79 years etc.</comment>
+</variable>
+
+<variable id="phv00066547.v1">
+	<name>SiteOfOnset</name>
+	<description>Limb or bulbar onset ALS?</description>
+	<type>Encoded</type>
+	<value code="B">Bulbar onset</value>
+	<value code="L">Limb onset</value>
+	<value code="NA">Control</value>
+</variable>
+
+<variable id="phv00066548.v1">
+	<name>FamilyHistoryALS</name>
+	<description>Familial ALS defined by detailed family history</description>
+	<type>String</type>
+	<comment>Patients and controls with a family history of ALS were not included</comment>
+	<value code="Negative">No family history of ALS</value>
+</variable>
+
+</data_table>

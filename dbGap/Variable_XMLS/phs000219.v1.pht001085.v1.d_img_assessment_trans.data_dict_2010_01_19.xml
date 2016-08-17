@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./datadict_v2.xsl"?>
+<data_table id="pht001085.v1" study_id="phs000219.v1" participant_set="1" date_created="Tue Jan 19 13:07:04 2010">
+
+<unique_key phv="00082039" version="1">SUBJID</unique_key>
+<unique_key phv="00082043" version="1">VISIT</unique_key>
+
+<variable id="phv00082039.v1">
+	<name>SUBJID</name>
+	<description>Subject&#39;s ID</description>
+	<type>String</type>
+</variable>
+
+<variable id="phv00082040.v1">
+	<name>CASE_CONTROL</name>
+	<description>Subject type</description>
+	<type>Encoded value</type>
+	<value code="ADP">AD Participant</value>
+	<value code="CASE">Case</value>
+	<value code="CCCS">Control with Change in Cognitive Status</value>
+	<value code="CNTL">Control</value>
+	<value code="FAM">Family member</value>
+	<value code="UASB">Unaffected Sibling</value>
+</variable>
+
+<variable id="phv00082041.v1">
+	<name>INV</name>
+	<description>Investigator&#39;s ID</description>
+	<type>String</type>
+</variable>
+
+<variable id="phv00082042.v1">
+	<name>INVSITE</name>
+	<description>Investigator site ID</description>
+	<type>String</type>
+</variable>
+
+<variable id="phv00082043.v1">
+	<name>VISIT</name>
+	<description>Visit name</description>
+	<type>String</type>
+</variable>
+
+<variable id="phv00082044.v1">
+	<name>VISIT_DATE</name>
+	<description>Visit date</description>
+	<type>Date</type>
+	<comment>Truncated to YYYY</comment>
+</variable>
+
+<variable id="phv00082045.v1">
+	<name>MRIDT</name>
+	<description>Date of Baseline MRI scan/Most Informative CT/MRI scan</description>
+	<type>Date</type>
+	<comment>Truncated to YYYY</comment>
+</variable>
+
+<variable id="phv00082046.v1">
+	<name>SITEAFFILI</name>
+	<description>Site not taking part in imaging substudy therefore not assessed</description>
+	<type>Encoded Value</type>
+	<value code="N">No</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00082047.v1">
+	<name>TOTSC</name>
+	<description>Total Score (Sum of regions 1-5)</description>
+	<type>Integer</type>
+</variable>
+
+<variable id="phv00082048.v1">
+	<name>PWM_1</name>
+	<description>Periventicular White Matter: Dense Bands</description>
+	<type>Encoded Value</type>
+	<value code="A">Absent</value>
+	<value code="P">Present</value>
+</variable>
+
+<variable id="phv00082049.v1">
+	<name>PWM_2</name>
+	<description>Periventicular White Matter: Thin Caps</description>
+	<type>Encoded Value</type>
+	<value code="A">Absent</value>
+	<value code="P">Present</value>
+</variable>
+
+<variable id="phv00082050.v1">
+	<name>PWM_3</name>
+	<description>Periventicular White Matter: Thick Caps</description>
+	<type>Encoded Value</type>
+	<value code="A">Absent</value>
+	<value code="P">Present</value>
+</variable>
+
+<variable id="phv00082051.v1">
+	<name>PWM_4</name>
+	<description>Periventicular White Matter: Smooth Halo</description>
+	<type>Encoded Value</type>
+	<value code="A">Absent</value>
+	<value code="P">Present</value>
+</variable>
+
+<variable id="phv00082052.v1">
+	<name>NEUR_1</name>
+	<description>Wahlund score for White Matter Changes: Frontal</description>
+	<type>Integer</type>
+</variable>
+
+<variable id="phv00082053.v1">
+	<name>NEUR_2</name>
+	<description>Wahlund score for White Matter Changes: Parieto-occipital</description>
+	<type>Integer</type>
+</variable>
+
+<variable id="phv00082054.v1">
+	<name>NEUR_3</name>
+	<description>Wahlund score for White Matter Changes: Temporal</description>
+	<type>Integer</type>
+</variable>
+
+<variable id="phv00082055.v1">
+	<name>NEUR_4</name>
+	<description>Wahlund score for White Matter Changes: Infratentorial</description>
+	<type>Integer</type>
+</variable>
+
+<variable id="phv00082056.v1">
+	<name>NEUR_5</name>
+	<description>Wahlund score for White Matter Changes: Basal Ganglia</description>
+	<type>Integer</type>
+</variable>
+
+</data_table>

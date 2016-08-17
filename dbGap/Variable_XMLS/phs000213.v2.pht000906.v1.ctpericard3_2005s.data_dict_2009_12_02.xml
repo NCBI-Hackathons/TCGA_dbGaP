@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./datadict_v2.xsl"?>
+<data_table id="pht000906.v1" study_id="phs000213.v2" participant_set="4" date_created="Wed Dec  2 13:26:10 2009">
+
+<variable id="phv00076359.v1">
+	<name>IDTYPE</name>
+	<description>Framingham Cohort Identifier</description>
+	<type>encoded</type>
+	<coll_interval>2002-2005</coll_interval>
+	<value code="3">Gen 3</value>
+</variable>
+
+<variable id="phv00076360.v1">
+	<name>OB2VOLIN</name>
+	<description>Intra-Pericardial Fat</description>
+	<type>decimal, encoded</type>
+	<unit>cm3</unit>
+	<logical_min>18.11</logical_min>
+	<logical_max>327.4</logical_max>
+	<coll_interval>2002-2005</coll_interval>
+	<value code=".">unknown</value>
+</variable>
+
+<variable id="phv00076361.v1">
+	<name>OB2VOLEX</name>
+	<description>Extra-Pericardial Fat</description>
+	<type>decimal, encoded</type>
+	<unit>cm3</unit>
+	<logical_min>34.19</logical_min>
+	<logical_max>658.7</logical_max>
+	<coll_interval>2002-2005</coll_interval>
+	<value code=".">unknown</value>
+</variable>
+
+<variable id="phv00076362.v1">
+	<name>CUT_OFF</name>
+	<description>CT Scan Flag</description>
+	<type>encoded</type>
+	<coll_interval>2002-2005</coll_interval>
+	<comment>Flags scans where the entire heart was not visualized.  The user may wish to exclude these individuals.</comment>
+	<value code="0">entire heart was visualized</value>
+	<value code="1">entire heart was not visualized</value>
+	<value code=".">unknown</value>
+</variable>
+
+<variable id="phv00076363.v1">
+	<name>ctdate</name>
+	<description>Date of CT Scan</description>
+	<type>integer, encoded</type>
+	<unit>days</unit>
+	<logical_min>-679</logical_min>
+	<logical_max>1440</logical_max>
+	<coll_interval>2002-2005</coll_interval>
+	<comment>Number of days since Exam 1</comment>
+	<value code=".">unknown</value>
+</variable>
+
+<variable id="phv00076364.v1">
+	<name>shareid</name>
+	<description>SHARe ID Number</description>
+	<type>integer</type>
+	<coll_interval>2002-2005</coll_interval>
+</variable>
+
+</data_table>

@@ -1,0 +1,1780 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./datadict_v2.xsl"?>
+<data_table id="pht000339.v1" study_id="phs000086.v2" participant_set="1" date_created="Wed Feb  3 09:17:38 2010">
+
+<variable id="phv00050542.v1">
+	<name>CLINIC</name>
+	<description>A1. Identifying information. Deidentified EDIC clinic number</description>
+	<type>byte</type>
+</variable>
+
+<variable id="phv00050543.v1">
+	<name>FORM</name>
+	<description>EDIC form number</description>
+	<type>int</type>
+</variable>
+
+<variable id="phv00050544.v1">
+	<name>EDICYEAR</name>
+	<description>EDIC year</description>
+	<type>byte</type>
+	<unit>Years</unit>
+</variable>
+
+<variable id="phv00050545.v1">
+	<name>GOB1</name>
+	<description>B1. Health care delivery. Did you stay in hospital overnight</description>
+	<type>byte</type>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+</variable>
+
+<variable id="phv00050546.v1">
+	<name>GOB1A</name>
+	<description>B1a. Health care delivery. Total number of times stay in hospital</description>
+	<type>byte</type>
+	<unit>Times</unit>
+</variable>
+
+<variable id="phv00050547.v1">
+	<name>GOB1B</name>
+	<description>B1b. Health care delivery. How many nights all together in hosp</description>
+	<type>byte</type>
+	<unit>Night</unit>
+</variable>
+
+<variable id="phv00050548.v1">
+	<name>GOB1D</name>
+	<description>B1d. Health care delivery. Number of nights in hosp overnight not paid for</description>
+	<type>byte</type>
+	<unit>Times</unit>
+</variable>
+
+<variable id="phv00050549.v1">
+	<name>GOB1DI</name>
+	<description>B1di. Health care delivery. Number of times hospital stay overnight not paid for</description>
+	<type>byte</type>
+	<unit>Night</unit>
+</variable>
+
+<variable id="phv00050550.v1">
+	<name>GOB1DII</name>
+	<description>B1dii. Health care delivery. Total number of  nights in hospital not paid for</description>
+	<type>byte</type>
+	<unit>Night</unit>
+</variable>
+
+<variable id="phv00050551.v1">
+	<name>GOB2A</name>
+	<description>B2a. Health care delivery. Endocrinologist: ever seen</description>
+	<type>byte</type>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+	<value code="3">Missing data</value>
+</variable>
+
+<variable id="phv00050552.v1">
+	<name>GOB2B</name>
+	<description>B2b. Health care delivery. Ophthalmologist (check-up) ever seen</description>
+	<type>byte</type>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+</variable>
+
+<variable id="phv00050553.v1">
+	<name>GOB2C</name>
+	<description>B2c. Health care delivery.  Ophthalmologist: ever seen for reason other than diabetes (cataracts)</description>
+	<type>byte</type>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+	<value code="3">Missing data</value>
+</variable>
+
+<variable id="phv00050554.v1">
+	<name>GOB2D</name>
+	<description>B2d. Health care delivery. Optometrist: ever seen</description>
+	<type>byte</type>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+</variable>
+
+<variable id="phv00050555.v1">
+	<name>GOB2E</name>
+	<description>B2e. Health care delivery. Cardiologist: ever seen</description>
+	<type>byte</type>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+	<value code="9">Missing data</value>
+</variable>
+
+<variable id="phv00050556.v1">
+	<name>GOB2F</name>
+	<description>B2f. Health care delivery. Podiatrist: ever seen</description>
+	<type>byte</type>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+</variable>
+
+<variable id="phv00050557.v1">
+	<name>GOB2G</name>
+	<description>B2g. Health care delivery. Nephrologist: ever seen</description>
+	<type>byte</type>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+</variable>
+
+<variable id="phv00050558.v1">
+	<name>GOB2H</name>
+	<description>B2h. Health care delivery. Practitioner: ever seen</description>
+	<type>byte</type>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+</variable>
+
+<variable id="phv00050559.v1">
+	<name>GOB2I</name>
+	<description>B2i. Health care delivery. Other doctor: ever seen</description>
+	<type>byte</type>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+</variable>
+
+<variable id="phv00050560.v1">
+	<name>GOB3</name>
+	<description>B3. Health care delivery. Were you a patient in a nursing home</description>
+	<type>byte</type>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+</variable>
+
+<variable id="phv00050561.v1">
+	<name>GOB3A</name>
+	<description>B3a. Health care delivery. Number of nights stayed in nursing home</description>
+	<type>byte</type>
+	<unit>Night</unit>
+</variable>
+
+<variable id="phv00050562.v1">
+	<name>GOB4A</name>
+	<description>B4a. Health care delivery. Eye doctor: visits per year</description>
+	<type>byte</type>
+	<value code="1">More than 2 visits per year</value>
+	<value code="2">About two visits per year</value>
+	<value code="3">About one visit per year</value>
+	<value code="4">Less than one visit per year</value>
+	<value code="5">Does not recommend</value>
+</variable>
+
+<variable id="phv00050563.v1">
+	<name>GOB4B</name>
+	<description>B4b. Health care delivery. Foot doctor: visits per year</description>
+	<type>byte</type>
+	<value code="1">More than 2 visits per year</value>
+	<value code="2">About two visits per year</value>
+	<value code="3">About one visit per year</value>
+	<value code="4">Less than one visit per year</value>
+	<value code="5">Does not recommend</value>
+</variable>
+
+<variable id="phv00050564.v1">
+	<name>GOB4C</name>
+	<description>B4c. Health care delivery. Education specialist: visits per year</description>
+	<type>byte</type>
+	<value code="1">More than 2 visits per year</value>
+	<value code="2">About two visits per year</value>
+	<value code="3">About one visit per year</value>
+	<value code="4">Less than one visit per year</value>
+	<value code="5">Does not recommend</value>
+</variable>
+
+<variable id="phv00050565.v1">
+	<name>GOB4D</name>
+	<description>B4d. Health care delivery. Dietitian: visits per year</description>
+	<type>byte</type>
+	<value code="1">More than 2 visits per year</value>
+	<value code="2">About two visits per year</value>
+	<value code="3">About one visit per year</value>
+	<value code="4">Less than one visit per year</value>
+	<value code="5">Does not recommend</value>
+</variable>
+
+<variable id="phv00050566.v1">
+	<name>GOB5</name>
+	<description>B5. Health care delivery. Past 2 weeks total visits to doctors</description>
+	<type>byte</type>
+	<unit>Visits</unit>
+</variable>
+
+<variable id="phv00050567.v1">
+	<name>GOB6A</name>
+	<description>B6a. Health care delivery. Doctor who usually taken care of your diabetes, seen past 6 months</description>
+	<type>byte</type>
+	<value code="0">Missing data</value>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+</variable>
+
+<variable id="phv00050568.v1">
+	<name>GOB6A1</name>
+	<description>B6a1. Health care delivery. Doctor who usually taken care of your diabetes, number of visits</description>
+	<type>byte</type>
+	<unit>Visits</unit>
+</variable>
+
+<variable id="phv00050569.v1">
+	<name>GOB6A2</name>
+	<description>B6a2. Health care delivery. Doctor who usually taken care of your diabetes, paid by insurance</description>
+	<type>byte</type>
+	<unit>Visits</unit>
+</variable>
+
+<variable id="phv00050570.v1">
+	<name>GOB6A3</name>
+	<description>B6a3. Health care delivery. Doctor who usually taken care of your diabetes, paid by other insurance</description>
+	<type>byte</type>
+	<unit>Visits</unit>
+</variable>
+
+<variable id="phv00050571.v1">
+	<name>GOB6A4</name>
+	<description>B6a4. Health care delivery. Doctor who usually taken care of your diabetes, paid by self</description>
+	<type>byte</type>
+	<unit>Visits</unit>
+</variable>
+
+<variable id="phv00050572.v1">
+	<name>GOB6B</name>
+	<description>B6b. Health care delivery. Doctor who usually taken care of your diabetes, diabetes specialist or endocrinologist: seen past 6 months</description>
+	<type>byte</type>
+	<value code="0">Missing data</value>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+</variable>
+
+<variable id="phv00050573.v1">
+	<name>GOB6B1</name>
+	<description>B6b1. Health care delivery. Doctor who usually taken care of your diabetes, diabetes specialist or endocrinologist: number of visits</description>
+	<type>byte</type>
+	<unit>Visits</unit>
+</variable>
+
+<variable id="phv00050574.v1">
+	<name>GOB6B2</name>
+	<description>B6b2. Health care delivery. Doctor who usually taken care of your diabetes, diabetes specialist or endocrinologist: paid by insurance</description>
+	<type>byte</type>
+	<unit>Visits</unit>
+</variable>
+
+<variable id="phv00050575.v1">
+	<name>GOB6B3</name>
+	<description>B6b3. Health care delivery. Doctor who usually taken care of your diabetes, diabetes specialist or endocrinologist: paid by other insurance</description>
+	<type>byte</type>
+	<unit>Visits</unit>
+</variable>
+
+<variable id="phv00050576.v1">
+	<name>GOB6B4</name>
+	<description>B6b4. Health care delivery. Doctor who usually taken care of your diabetes, diabetes specialist or endocrinologist: paid by self</description>
+	<type>byte</type>
+	<unit>Visits</unit>
+</variable>
+
+<variable id="phv00050577.v1">
+	<name>GOB6C</name>
+	<description>B6c. Health care delivery. Doctor who usually taken care of your diabetes, ophthalmologist: seen past 6 months</description>
+	<type>byte</type>
+	<value code="0">Missing data</value>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+</variable>
+
+<variable id="phv00050578.v1">
+	<name>GOB6C1</name>
+	<description>B6c1. Health care delivery. Doctor who usually taken care of your diabetes, ophthalmologist: number of  visits</description>
+	<type>byte</type>
+	<unit>Visits</unit>
+</variable>
+
+<variable id="phv00050579.v1">
+	<name>GOB6C2</name>
+	<description>B6c2. Health care delivery. Doctor who usually taken care of your diabetes, ophthalmologist: paid by insurance</description>
+	<type>byte</type>
+	<unit>Visits</unit>
+</variable>
+
+<variable id="phv00050580.v1">
+	<name>GOB6C3</name>
+	<description>B6c3. Health care delivery. Doctor who usually taken care of your diabetes, ophthalmologist: paid by other insurance</description>
+	<type>byte</type>
+	<unit>Visits</unit>
+</variable>
+
+<variable id="phv00050581.v1">
+	<name>GOB6C4</name>
+	<description>B6c4. Health care delivery. Doctor who usually taken care of your diabetes, ophthalmologist: paid by self</description>
+	<type>byte</type>
+	<unit>Visits</unit>
+</variable>
+
+<variable id="phv00050582.v1">
+	<name>GOB6D</name>
+	<description>B6d. Health care delivery. Doctor who usually taken care of your diabetes, optometrist: seen past 6 months</description>
+	<type>byte</type>
+	<value code="0">Missing data</value>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+</variable>
+
+<variable id="phv00050583.v1">
+	<name>GOB6D1</name>
+	<description>B6d1. Health care delivery. Doctor who usually taken care of your diabetes, optometrist: number of visits</description>
+	<type>byte</type>
+	<unit>Visits</unit>
+</variable>
+
+<variable id="phv00050584.v1">
+	<name>GOB6D2</name>
+	<description>B6d2. Health care delivery. Doctor who usually taken care of your diabetes, optometrist: paid by insurance</description>
+	<type>byte</type>
+	<unit>Visits</unit>
+</variable>
+
+<variable id="phv00050585.v1">
+	<name>GOB6D3</name>
+	<description>B6d3. Health care delivery. Doctor who usually taken care of your diabetes, optometrist: paid by other insurance</description>
+	<type>byte</type>
+	<unit>Visits</unit>
+</variable>
+
+<variable id="phv00050586.v1">
+	<name>GOB6D4</name>
+	<description>B6d4. Health care delivery. Doctor who usually taken care of your diabetes, optometrist: paid by self</description>
+	<type>byte</type>
+	<unit>Visits</unit>
+</variable>
+
+<variable id="phv00050587.v1">
+	<name>GOB6E</name>
+	<description>B6e. Health care delivery. Doctor who usually taken care of your diabetes, cardiologist: seen past 6 months</description>
+	<type>byte</type>
+	<value code="0">Missing data</value>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+</variable>
+
+<variable id="phv00050588.v1">
+	<name>GOB6E1</name>
+	<description>B6e1. Health care delivery. Doctor who usually taken care of your diabetes, cardiologist: number of visits</description>
+	<type>byte</type>
+	<unit>Visits</unit>
+</variable>
+
+<variable id="phv00050589.v1">
+	<name>GOB6E2</name>
+	<description>B6e2. Health care delivery. Doctor who usually taken care of your diabetes, cardiologist: paid by insurance</description>
+	<type>byte</type>
+	<unit>Visits</unit>
+</variable>
+
+<variable id="phv00050590.v1">
+	<name>GOB6E3</name>
+	<description>B6e3. Health care delivery. Doctor who usually taken care of your diabetes, cardiologist: paid by other insurance</description>
+	<type>byte</type>
+	<unit>Visits</unit>
+</variable>
+
+<variable id="phv00050591.v1">
+	<name>GOB6E4</name>
+	<description>B6e4. Health care delivery. Doctor who usually taken care of your diabetes, cardiologist: paid by self</description>
+	<type>byte</type>
+	<unit>Visits</unit>
+</variable>
+
+<variable id="phv00050592.v1">
+	<name>GOB6F</name>
+	<description>B6f. Health care delivery. Doctor who usually taken care of your diabetes, nephrologist: seen past 6 months</description>
+	<type>byte</type>
+	<value code="0">Missing data</value>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+</variable>
+
+<variable id="phv00050593.v1">
+	<name>GOB6F1</name>
+	<description>B6f1. Health care delivery. Doctor who usually taken care of your diabetes, nephrologist: number of visits</description>
+	<type>byte</type>
+	<unit>Visits</unit>
+</variable>
+
+<variable id="phv00050594.v1">
+	<name>GOB6F2</name>
+	<description>B6f2. Health care delivery. Doctor who usually taken care of your diabetes, nephrologist: paid by insurance</description>
+	<type>byte</type>
+	<unit>Visits</unit>
+</variable>
+
+<variable id="phv00050595.v1">
+	<name>GOB6F3</name>
+	<description>B6f3. Health care delivery. Doctor who usually taken care of your diabetes, nephrologist: paid by other insurance</description>
+	<type>byte</type>
+	<unit>Visits</unit>
+</variable>
+
+<variable id="phv00050596.v1">
+	<name>GOB6F4</name>
+	<description>B6f4. Health care delivery. Doctor who usually taken care of your diabetes, nephrologist: paid by self</description>
+	<type>byte</type>
+	<unit>Visits</unit>
+</variable>
+
+<variable id="phv00050597.v1">
+	<name>GOB6G</name>
+	<description>B6g. Health care delivery. Doctor who usually taken care of your diabetes, surgeon: seen past 6 months</description>
+	<type>byte</type>
+	<value code="0">Missing data</value>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+</variable>
+
+<variable id="phv00050598.v1">
+	<name>GOB6G1</name>
+	<description>B6g1. Health care delivery. Doctor who usually taken care of your diabetes, surgeon: number of visits</description>
+	<type>byte</type>
+	<unit>Visits</unit>
+</variable>
+
+<variable id="phv00050599.v1">
+	<name>GOB6G2</name>
+	<description>B6g2. Health care delivery. Doctor who usually taken care of your diabetes, surgeon: paid by insurance</description>
+	<type>byte</type>
+	<unit>Visits</unit>
+</variable>
+
+<variable id="phv00050600.v1">
+	<name>GOB6G3</name>
+	<description>B6g3. Health care delivery. Doctor who usually taken care of your diabetes, surgeon: paid by other insurance</description>
+	<type>byte</type>
+	<unit>Visits</unit>
+</variable>
+
+<variable id="phv00050601.v1">
+	<name>GOB6G4</name>
+	<description>B6g4. Health care delivery. Doctor who usually taken care of your diabetes, surgeon: paid by self</description>
+	<type>byte</type>
+	<unit>Visits</unit>
+</variable>
+
+<variable id="phv00050602.v1">
+	<name>GOB6H</name>
+	<description>B6h. Health care delivery. Doctor who usually taken care of your diabetes, urologist: seen past 6 months</description>
+	<type>byte</type>
+	<value code="0">Missing data</value>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+</variable>
+
+<variable id="phv00050603.v1">
+	<name>GOB6H1</name>
+	<description>B6h1. Health care delivery. Doctor who usually taken care of your diabetes, urologist: number of visits</description>
+	<type>byte</type>
+	<unit>Visits</unit>
+</variable>
+
+<variable id="phv00050604.v1">
+	<name>GOB6H2</name>
+	<description>B6h2. Health care delivery. Doctor who usually taken care of your diabetes, urologist: paid by insurance</description>
+	<type>byte</type>
+	<unit>Visits</unit>
+</variable>
+
+<variable id="phv00050605.v1">
+	<name>GOB6H3</name>
+	<description>B6h3. Health care delivery. Doctor who usually taken care of your diabetes, urologist: paid by other insurance</description>
+	<type>byte</type>
+	<unit>Visits</unit>
+</variable>
+
+<variable id="phv00050606.v1">
+	<name>GOB6H4</name>
+	<description>B6h4. Health care delivery. Doctor who usually taken care of your diabetes, urologist: paid by self</description>
+	<type>byte</type>
+	<unit>Visits</unit>
+</variable>
+
+<variable id="phv00050607.v1">
+	<name>GOB6I</name>
+	<description>B6i. Health care delivery. Doctor who usually taken care of your diabetes, psychiatrist: seen past 6 months</description>
+	<type>byte</type>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+</variable>
+
+<variable id="phv00050608.v1">
+	<name>GOB6I1</name>
+	<description>B6i1. Health care delivery. Doctor who usually taken care of your diabetes, psychiatrist: number of visits</description>
+	<type>byte</type>
+	<unit>Visits</unit>
+</variable>
+
+<variable id="phv00050609.v1">
+	<name>GOB6I2</name>
+	<description>B6i2. Health care delivery. Doctor who usually taken care of your diabetes, psychiatrist: paid by insurance</description>
+	<type>byte</type>
+	<unit>Visits</unit>
+</variable>
+
+<variable id="phv00050610.v1">
+	<name>GOB6I3</name>
+	<description>B6i3. Health care delivery. Doctor who usually taken care of your diabetes, psychiatrist: paid by other insurance</description>
+	<type>byte</type>
+	<unit>Visits</unit>
+</variable>
+
+<variable id="phv00050611.v1">
+	<name>GOB6I4</name>
+	<description>B6i4. Health care delivery. Doctor who usually taken care of your diabetes, psychiatrist: paid by self</description>
+	<type>byte</type>
+	<unit>Visits</unit>
+</variable>
+
+<variable id="phv00050612.v1">
+	<name>GOB6J</name>
+	<description>B6j. Health care delivery. Doctor who usually taken care of your diabetes, general internist: seen past 6 months</description>
+	<type>byte</type>
+	<value code="0">Missing data</value>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+</variable>
+
+<variable id="phv00050613.v1">
+	<name>GOB6J1</name>
+	<description>B6j1. Health care delivery. Doctor who usually taken care of your diabetes, general internist: number of visits</description>
+	<type>byte</type>
+	<unit>Visits</unit>
+</variable>
+
+<variable id="phv00050614.v1">
+	<name>GOB6J2</name>
+	<description>B6j2. Health care delivery. Doctor who usually taken care of your diabetes, general internist: paid by insurance</description>
+	<type>byte</type>
+	<unit>Visits</unit>
+</variable>
+
+<variable id="phv00050615.v1">
+	<name>GOB6J3</name>
+	<description>B6j3. Health care delivery. Doctor who usually taken care of your diabetes, general internist: paid by other insurance</description>
+	<type>byte</type>
+	<unit>Visits</unit>
+</variable>
+
+<variable id="phv00050616.v1">
+	<name>GOB6J4</name>
+	<description>B6j4. Health care delivery. Doctor who usually taken care of your diabetes, general internist: paid by self</description>
+	<type>byte</type>
+	<unit>Visits</unit>
+</variable>
+
+<variable id="phv00050617.v1">
+	<name>GOB6K</name>
+	<description>B6k. Health care delivery. Doctor who usually taken care of your diabetes, podiatrist: seen past 6 months</description>
+	<type>byte</type>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+</variable>
+
+<variable id="phv00050618.v1">
+	<name>GOB6K1</name>
+	<description>B6k1. Health care delivery. Doctor who usually taken care of your diabetes, podiatrist: number of visits</description>
+	<type>byte</type>
+	<unit>Visits</unit>
+</variable>
+
+<variable id="phv00050619.v1">
+	<name>GOB6K2</name>
+	<description>B6k2. Health care delivery. Doctor who usually taken care of your diabetes, podiatrist: paid by insurance</description>
+	<type>byte</type>
+	<unit>Visits</unit>
+</variable>
+
+<variable id="phv00050620.v1">
+	<name>GOB6K3</name>
+	<description>B6k3. Health care delivery. Doctor who usually taken care of your diabetes, podiatrist: paid by other insurance</description>
+	<type>byte</type>
+	<unit>Visits</unit>
+</variable>
+
+<variable id="phv00050621.v1">
+	<name>GOB6K4</name>
+	<description>B6k4. Health care delivery. Doctor who usually taken care of your diabetes, podiatrist: paid by self</description>
+	<type>byte</type>
+	<unit>Visits</unit>
+</variable>
+
+<variable id="phv00050622.v1">
+	<name>GOB6L</name>
+	<description>B6l. Health care delivery. Doctor who usually taken care of your diabetes, nurse practitioner: seen past 6 months</description>
+	<type>byte</type>
+	<value code="0">Missing data</value>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+</variable>
+
+<variable id="phv00050623.v1">
+	<name>GOB6L1</name>
+	<description>B6l1. Health care delivery. Doctor who usually taken care of your diabetes, nurse practitioner: number of visits</description>
+	<type>byte</type>
+	<unit>Visits</unit>
+</variable>
+
+<variable id="phv00050624.v1">
+	<name>GOB6L2</name>
+	<description>B6l2. Health care delivery. Doctor who usually taken care of your diabetes, nurse practitioner: paid by insurance</description>
+	<type>byte</type>
+	<unit>Visits</unit>
+</variable>
+
+<variable id="phv00050625.v1">
+	<name>GOB6L3</name>
+	<description>B6l3. Health care delivery. Doctor who usually taken care of your diabetes, nurse practitioner: paid by other insurance</description>
+	<type>byte</type>
+	<unit>Visits</unit>
+</variable>
+
+<variable id="phv00050626.v1">
+	<name>GOB6L4</name>
+	<description>B6l4. Health care delivery. Doctor who usually taken care of your diabetes, nurse practitioner: paid by self</description>
+	<type>byte</type>
+	<unit>Visits</unit>
+</variable>
+
+<variable id="phv00050627.v1">
+	<name>GOB6M</name>
+	<description>B6m. Health care delivery. Doctor who usually taken care of your diabetes, dietitian: seen past 6 months</description>
+	<type>byte</type>
+	<value code="0">Missing data</value>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+</variable>
+
+<variable id="phv00050628.v1">
+	<name>GOB6M1</name>
+	<description>B6m1. Health care delivery. Dietitian: number of visits</description>
+	<type>byte</type>
+	<unit>Visits</unit>
+</variable>
+
+<variable id="phv00050629.v1">
+	<name>GOB6M2</name>
+	<description>B6m2. Health care delivery. Dietitian: paid by insurance</description>
+	<type>byte</type>
+	<unit>Visits</unit>
+</variable>
+
+<variable id="phv00050630.v1">
+	<name>GOB6M3</name>
+	<description>B6m3. Health care delivery. Dietitian: paid other insurance</description>
+	<type>byte</type>
+	<unit>Visits</unit>
+</variable>
+
+<variable id="phv00050631.v1">
+	<name>GOB6M4</name>
+	<description>B6m4. Health care delivery. Dietitian: paid by self</description>
+	<type>byte</type>
+	<unit>Visits</unit>
+</variable>
+
+<variable id="phv00050632.v1">
+	<name>GOB6N</name>
+	<description>B6n. Health care delivery. Other provider: seen past 6 months</description>
+	<type>byte</type>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+</variable>
+
+<variable id="phv00050633.v1">
+	<name>GOB6N1</name>
+	<description>B6n1. Health care delivery. Other provider: number of visits</description>
+	<type>byte</type>
+	<unit>Visits</unit>
+</variable>
+
+<variable id="phv00050634.v1">
+	<name>GOB6N2</name>
+	<description>B6n2. Health care delivery. Other provider: paid by insurance</description>
+	<type>byte</type>
+	<unit>Visits</unit>
+</variable>
+
+<variable id="phv00050635.v1">
+	<name>GOB6N3</name>
+	<description>B6n3. Health care delivery. Other provider: paid by other insurance</description>
+	<type>byte</type>
+	<unit>Visits</unit>
+</variable>
+
+<variable id="phv00050636.v1">
+	<name>GOB6N4</name>
+	<description>B6n4. Health care delivery. Other provider: paid by self</description>
+	<type>byte</type>
+	<unit>Visits</unit>
+</variable>
+
+<variable id="phv00050637.v1">
+	<name>GOB7</name>
+	<description>B7. Health care delivery. Past 6 month total number health care visits</description>
+	<type>byte</type>
+	<unit>Visits</unit>
+</variable>
+
+<variable id="phv00050638.v1">
+	<name>GOB8A</name>
+	<description>B8a. Health care delivery. Glycosylated hemoglobin or HbA1c laboratory test: in past 6 months</description>
+	<type>byte</type>
+	<value code="0">Missing data</value>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+</variable>
+
+<variable id="phv00050639.v1">
+	<name>GOB8A1</name>
+	<description>B8a1. Health care delivery. HbA1c: how many times</description>
+	<type>byte</type>
+	<unit>Times</unit>
+</variable>
+
+<variable id="phv00050640.v1">
+	<name>GOB8A2</name>
+	<description>B8a2. Health care delivery. HbA1c: paid by insurance</description>
+	<type>byte</type>
+	<unit>Times</unit>
+</variable>
+
+<variable id="phv00050641.v1">
+	<name>GOB8A3</name>
+	<description>B8a3. Health care delivery. HbA1c: paid by other insurance</description>
+	<type>byte</type>
+	<unit>Times</unit>
+</variable>
+
+<variable id="phv00050642.v1">
+	<name>GOB8A4</name>
+	<description>B8a4. Health care delivery. HbA1c: paid by self</description>
+	<type>byte</type>
+	<unit>Times</unit>
+</variable>
+
+<variable id="phv00050643.v1">
+	<name>GOB8B</name>
+	<description>B8b. Health care delivery. Blood glucose laboratory test: in past 6 months</description>
+	<type>byte</type>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+</variable>
+
+<variable id="phv00050644.v1">
+	<name>GOB8B1</name>
+	<description>B8b1. Health care delivery. Blood glucose laboratory test: how many times</description>
+	<type>byte</type>
+	<unit>Times</unit>
+</variable>
+
+<variable id="phv00050645.v1">
+	<name>GOB8B2</name>
+	<description>B8b2. Health care delivery. Blood glucose laboratory test: paid by insurance</description>
+	<type>byte</type>
+	<unit>Times</unit>
+</variable>
+
+<variable id="phv00050646.v1">
+	<name>GOB8B3</name>
+	<description>B8b3. Health care delivery. Blood glucose laboratory test: paid by other insurance</description>
+	<type>byte</type>
+	<unit>Times</unit>
+</variable>
+
+<variable id="phv00050647.v1">
+	<name>GOB8B4</name>
+	<description>B8b4. Health care delivery. Blood glucose laboratory test: paid by self</description>
+	<type>byte</type>
+	<unit>Times</unit>
+</variable>
+
+<variable id="phv00050648.v1">
+	<name>GOB8C</name>
+	<description>B8c. Health care delivery. Other blood tests: in past 6 months</description>
+	<type>byte</type>
+	<value code="0">Missing data</value>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+</variable>
+
+<variable id="phv00050649.v1">
+	<name>GOB8C1</name>
+	<description>B8c1. Health care delivery. Other blood tests: how many times</description>
+	<type>byte</type>
+	<unit>Times</unit>
+</variable>
+
+<variable id="phv00050650.v1">
+	<name>GOB8C2</name>
+	<description>B8c2. Health care delivery. Other blood tests: paid by insurance</description>
+	<type>byte</type>
+	<unit>Times</unit>
+</variable>
+
+<variable id="phv00050651.v1">
+	<name>GOB8C3</name>
+	<description>B8c3. Health care delivery. Other blood tests: paid other insurance</description>
+	<type>byte</type>
+	<unit>Times</unit>
+</variable>
+
+<variable id="phv00050652.v1">
+	<name>GOB8C4</name>
+	<description>B8c4. Health care delivery. Other blood tests: paid by self</description>
+	<type>byte</type>
+	<unit>Times</unit>
+</variable>
+
+<variable id="phv00050653.v1">
+	<name>GOB8D</name>
+	<description>B8d. Health care delivery. ECG: in past 6 months</description>
+	<type>byte</type>
+	<value code="0">Missing data</value>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+</variable>
+
+<variable id="phv00050654.v1">
+	<name>GOB8D1</name>
+	<description>B8d1. Health care delivery. ECG: how many times</description>
+	<type>byte</type>
+	<unit>Times</unit>
+</variable>
+
+<variable id="phv00050655.v1">
+	<name>GOB8D2</name>
+	<description>B8d2. Health care delivery. ECG: paid by insurance</description>
+	<type>byte</type>
+	<unit>Times</unit>
+</variable>
+
+<variable id="phv00050656.v1">
+	<name>GOB8D3</name>
+	<description>B8d3. Health care delivery. ECG: paid by other insurance</description>
+	<type>byte</type>
+	<unit>Times</unit>
+</variable>
+
+<variable id="phv00050657.v1">
+	<name>GOB8D4</name>
+	<description>B8d4. Health care delivery. ECG: paid for by self</description>
+	<type>byte</type>
+	<unit>Times</unit>
+</variable>
+
+<variable id="phv00050658.v1">
+	<name>GOB8E</name>
+	<description>B6e. Health care delivery. Echocardiogram: in past 6 months</description>
+	<type>byte</type>
+	<value code="0">Missing data</value>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+</variable>
+
+<variable id="phv00050659.v1">
+	<name>GOB8E1</name>
+	<description>B6e1. Health care delivery. Echocardiogram: how many times</description>
+	<type>byte</type>
+	<unit>Times</unit>
+</variable>
+
+<variable id="phv00050660.v1">
+	<name>GOB8E2</name>
+	<description>B8e2. Health care delivery. Echocardiogram: paid by insurance</description>
+	<type>byte</type>
+	<unit>Times</unit>
+</variable>
+
+<variable id="phv00050661.v1">
+	<name>GOB8E3</name>
+	<description>B6e3. Health care delivery. Echocardiogram: by other insurance</description>
+	<type>byte</type>
+	<unit>Times</unit>
+</variable>
+
+<variable id="phv00050662.v1">
+	<name>GOB8E4</name>
+	<description>B6e4. Health care delivery. Echocardiogram: paid by self</description>
+	<type>byte</type>
+	<unit>Times</unit>
+</variable>
+
+<variable id="phv00050663.v1">
+	<name>GOB8F</name>
+	<description>B8f. Health care delivery. Stress test: in past 6 months</description>
+	<type>byte</type>
+	<value code="0">Missing data</value>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+</variable>
+
+<variable id="phv00050664.v1">
+	<name>GOB8F1</name>
+	<description>B8f1. Health care delivery. Stress test: how many times</description>
+	<type>byte</type>
+	<unit>Times</unit>
+</variable>
+
+<variable id="phv00050665.v1">
+	<name>GOB8F2</name>
+	<description>B8f2. Health care delivery. Stress test: paid by insurance</description>
+	<type>byte</type>
+	<unit>Times</unit>
+</variable>
+
+<variable id="phv00050666.v1">
+	<name>GOB8F3</name>
+	<description>B8f3. Health care delivery. Stress test: paid by other insurance</description>
+	<type>byte</type>
+	<unit>Times</unit>
+</variable>
+
+<variable id="phv00050667.v1">
+	<name>GOB8F4</name>
+	<description>B8f4. Health care delivery. Stress test: paid by self</description>
+	<type>byte</type>
+	<unit>Times</unit>
+</variable>
+
+<variable id="phv00050668.v1">
+	<name>GOB8G</name>
+	<description>B8g. Health care delivery. Chest x-ray: seen past 6 months</description>
+	<type>byte</type>
+	<value code="0">Missing data</value>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+</variable>
+
+<variable id="phv00050669.v1">
+	<name>GOB8G1</name>
+	<description>B8g1. Health care delivery. Chest x-ray: how many times</description>
+	<type>byte</type>
+	<unit>Times</unit>
+</variable>
+
+<variable id="phv00050670.v1">
+	<name>GOB8G2</name>
+	<description>B8g2. Health care delivery. Chest x-ray: paid by insurance</description>
+	<type>byte</type>
+	<unit>Times</unit>
+</variable>
+
+<variable id="phv00050671.v1">
+	<name>GOB8G3</name>
+	<description>B8g3. Health care delivery. Chest x-ray: paid by other insurance</description>
+	<type>byte</type>
+	<unit>Times</unit>
+</variable>
+
+<variable id="phv00050672.v1">
+	<name>GOB8G4</name>
+	<description>B8g4. Health care delivery. Chest x-ray: paid by self</description>
+	<type>byte</type>
+	<unit>Times</unit>
+</variable>
+
+<variable id="phv00050673.v1">
+	<name>GOB8H</name>
+	<description>B8h. Health care delivery. Urine tests: in past 6 months</description>
+	<type>byte</type>
+	<value code="0">Missing data</value>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+</variable>
+
+<variable id="phv00050674.v1">
+	<name>GOB8H1</name>
+	<description>B8h1. Health care delivery. Urine tests: how many times</description>
+	<type>byte</type>
+	<unit>Times</unit>
+</variable>
+
+<variable id="phv00050675.v1">
+	<name>GOB8H2</name>
+	<description>B8h2. Health care delivery. Urine tests: paid by insurance</description>
+	<type>byte</type>
+	<unit>Times</unit>
+</variable>
+
+<variable id="phv00050676.v1">
+	<name>GOB8H3</name>
+	<description>B8h3. Health care delivery. Urine tests: paid by other insurance</description>
+	<type>byte</type>
+	<unit>Times</unit>
+</variable>
+
+<variable id="phv00050677.v1">
+	<name>GOB8H4</name>
+	<description>B8h4. Health care delivery. Urine tests: paid by self</description>
+	<type>byte</type>
+	<unit>Times</unit>
+</variable>
+
+<variable id="phv00050678.v1">
+	<name>GOB8IA</name>
+	<description>B8ia. Health care delivery.  Other major tests: in past 6 months</description>
+	<type>byte</type>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+</variable>
+
+<variable id="phv00050679.v1">
+	<name>GOB8IA1</name>
+	<description>B8ia1. Health care delivery.  Other major tests: how many times</description>
+	<type>byte</type>
+	<unit>Times</unit>
+</variable>
+
+<variable id="phv00050680.v1">
+	<name>GOB8IA2</name>
+	<description>B8ia2. Health care delivery.  Other major tests: paid by insurance</description>
+	<type>byte</type>
+	<unit>Times</unit>
+</variable>
+
+<variable id="phv00050681.v1">
+	<name>GOB8IA3</name>
+	<description>B8ia3. Health care delivery.  Other major tests: paid by other insurance</description>
+	<type>byte</type>
+	<unit>Times</unit>
+</variable>
+
+<variable id="phv00050682.v1">
+	<name>GOB8IA4</name>
+	<description>B8ia4. Health care delivery.  Other major tests: paid by self</description>
+	<type>byte</type>
+	<unit>Times</unit>
+</variable>
+
+<variable id="phv00050683.v1">
+	<name>GOB8IB</name>
+	<description>B8ib. Health care delivery. Other major tests: in past 6 months</description>
+	<type>byte</type>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+</variable>
+
+<variable id="phv00050684.v1">
+	<name>GOB8IB1</name>
+	<description>B8ib1. Health care delivery.  Other major tests: how many times</description>
+	<type>byte</type>
+	<unit>Times</unit>
+</variable>
+
+<variable id="phv00050685.v1">
+	<name>GOB8IB2</name>
+	<description>B6ib2. Health care delivery. Other major tests: paid by insurance</description>
+	<type>byte</type>
+	<unit>Times</unit>
+</variable>
+
+<variable id="phv00050686.v1">
+	<name>GOB8IB3</name>
+	<description>B8ib3. Health care delivery.  Other major tests: paid by other insurance</description>
+	<type>byte</type>
+	<unit>Times</unit>
+</variable>
+
+<variable id="phv00050687.v1">
+	<name>GOB8IB4</name>
+	<description>B8ib4. Health care delivery. other major tests: paid by self</description>
+	<type>byte</type>
+	<unit>Times</unit>
+</variable>
+
+<variable id="phv00050688.v1">
+	<name>GOB8IC</name>
+	<description>B8ic. Health care delivery.  Other major tests: in past 6 months</description>
+	<type>byte</type>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+</variable>
+
+<variable id="phv00050689.v1">
+	<name>GOB8IC1</name>
+	<description>B8ic1. Health care delivery. Other major tests: how many times</description>
+	<type>byte</type>
+	<unit>Times</unit>
+</variable>
+
+<variable id="phv00050690.v1">
+	<name>GOB8IC2</name>
+	<description>B8ic2. Health care delivery. other major tests: paid by insurance</description>
+	<type>byte</type>
+	<unit>Times</unit>
+</variable>
+
+<variable id="phv00050691.v1">
+	<name>GOB8IC3</name>
+	<description>B8ic3. Health care delivery. Other major tests: paid by other insurance</description>
+	<type>byte</type>
+	<unit>Times</unit>
+</variable>
+
+<variable id="phv00050692.v1">
+	<name>GOB8IC4</name>
+	<description>B8ic4. Health care delivery. Other major tests: paid by self</description>
+	<type>byte</type>
+	<unit>Times</unit>
+</variable>
+
+<variable id="phv00050693.v1">
+	<name>GOB8ID</name>
+	<description>B8id. Health care delivery. Other major tests: in past 6 months</description>
+	<type>byte</type>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+</variable>
+
+<variable id="phv00050694.v1">
+	<name>GOB8ID1</name>
+	<description>B8id1. Health care delivery. Other major tests: how many times</description>
+	<type>byte</type>
+	<unit>Times</unit>
+</variable>
+
+<variable id="phv00050695.v1">
+	<name>GOB8ID2</name>
+	<description>B8id2. Health care delivery.  Other major tests: paid by insurance</description>
+	<type>byte</type>
+	<unit>Times</unit>
+</variable>
+
+<variable id="phv00050696.v1">
+	<name>GOB8ID3</name>
+	<description>B8id3. Health care delivery. Other major tests: paid by other insurance</description>
+	<type>byte</type>
+	<unit>Times</unit>
+</variable>
+
+<variable id="phv00050697.v1">
+	<name>GOB8ID4</name>
+	<description>B8id4. Health care delivery. Other major tests: paid by self</description>
+	<type>byte</type>
+	<unit>Times</unit>
+</variable>
+
+<variable id="phv00050698.v1">
+	<name>GOB8IE</name>
+	<description>B8ie. Health care delivery. Other major tests: in past 6 months</description>
+	<type>byte</type>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+</variable>
+
+<variable id="phv00050699.v1">
+	<name>GOB8IE1</name>
+	<description>B8ie1. Health care delivery. Other major tests: how many times</description>
+	<type>byte</type>
+	<unit>Times</unit>
+</variable>
+
+<variable id="phv00050700.v1">
+	<name>GOB8IE2</name>
+	<description>B8ie2. Health care delivery. Other major tests: paid by insurance</description>
+	<type>byte</type>
+	<unit>Times</unit>
+</variable>
+
+<variable id="phv00050701.v1">
+	<name>GOB8IE3</name>
+	<description>B8ie3. Health care delivery. Other major tests: paid by other insurance</description>
+	<type>byte</type>
+	<unit>Times</unit>
+</variable>
+
+<variable id="phv00050702.v1">
+	<name>GOB8IE4</name>
+	<description>B8ie4. Health care delivery. Other major tests: paid by self</description>
+	<type>byte</type>
+	<unit>Times</unit>
+</variable>
+
+<variable id="phv00050703.v1">
+	<name>GOC1</name>
+	<description>C1. Reimbursements. Insurance provides for diabetes care</description>
+	<type>byte</type>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+</variable>
+
+<variable id="phv00050704.v1">
+	<name>GOC1A</name>
+	<description>C1a. Reimbursements. Medicare provides for diabetes care</description>
+	<type>byte</type>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00050705.v1">
+	<name>GOC1B</name>
+	<description>C1b. Reimbursements. Medicaid provides for diabetes care</description>
+	<type>byte</type>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00050706.v1">
+	<name>GOC1C</name>
+	<description>C1c. Reimbursements. Government plan provides for diabetes care</description>
+	<type>byte</type>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00050707.v1">
+	<name>GOC1C1</name>
+	<description>C1c1. Reimbursements. Government: plan obtained from</description>
+	<type>byte</type>
+	<value code="1">Your employment</value>
+	<value code="2">Spouse&#39;s emloyment</value>
+	<value code="3">Parent&#39;s employment</value>
+	<value code="4">Private money</value>
+</variable>
+
+<variable id="phv00050708.v1">
+	<name>GOC1D</name>
+	<description>C1d. Reimbursements. Blue Cross /Blue Shield provides for diabetes care</description>
+	<type>byte</type>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00050709.v1">
+	<name>GOC1D1</name>
+	<description>C1d1. Reimbursements. Blue Cross /Blue Shield plan obtained from</description>
+	<type>byte</type>
+	<value code="1">Your employment</value>
+	<value code="2">Spouse&#39;s emloyment</value>
+	<value code="3">Parent&#39;s employment</value>
+	<value code="4">Private money</value>
+</variable>
+
+<variable id="phv00050710.v1">
+	<name>GOC1E</name>
+	<description>C1e. Reimbursements. HMO provides for diabetes care</description>
+	<type>byte</type>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00050711.v1">
+	<name>GOC1E1</name>
+	<description>C1e1. Reimbursements. HMO plan obtained from</description>
+	<type>byte</type>
+	<value code="1">Your employment</value>
+	<value code="2">Spouse&#39;s emloyment</value>
+	<value code="3">Parent&#39;s employment</value>
+	<value code="4">Private money</value>
+</variable>
+
+<variable id="phv00050712.v1">
+	<name>GOC1F</name>
+	<description>C1f. Reimbursements. Private insurance provides for diabetes care</description>
+	<type>byte</type>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00050713.v1">
+	<name>GOC1F1</name>
+	<description>C1f1. Reimbursements. Private insurance obtained from</description>
+	<type>byte</type>
+	<value code="1">Your employment</value>
+	<value code="2">Spouse&#39;s emloyment</value>
+	<value code="3">Parent&#39;s employment</value>
+	<value code="4">Private money</value>
+</variable>
+
+<variable id="phv00050714.v1">
+	<name>GOC1G</name>
+	<description>C1g. Reimbursements. Other provides for diabetes care</description>
+	<type>byte</type>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00050715.v1">
+	<name>GOC1G1</name>
+	<description>C1g1. Reimbursements. Other obtained from</description>
+	<type>byte</type>
+	<value code="1">Your employment</value>
+	<value code="2">Spouse&#39;s emloyment</value>
+	<value code="3">Parent&#39;s employment</value>
+	<value code="4">Private money</value>
+</variable>
+
+<variable id="phv00050716.v1">
+	<name>GOC2A</name>
+	<description>C2a.  Reimbursement: insulin</description>
+	<type>byte</type>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+	<value code="3">Don&#39;t know/uncertain</value>
+</variable>
+
+<variable id="phv00050717.v1">
+	<name>GOC2B</name>
+	<description>C2b. Reimbursement: blood glucose meters</description>
+	<type>byte</type>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+	<value code="3">Don&#39;t know/uncertain</value>
+</variable>
+
+<variable id="phv00050718.v1">
+	<name>GOC2C</name>
+	<description>C2c. Reimbursement: blood glucose strips</description>
+	<type>byte</type>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+	<value code="3">Don&#39;t know/uncertain</value>
+</variable>
+
+<variable id="phv00050719.v1">
+	<name>GOC2D</name>
+	<description>C2d. Reimbursement: glucose tablets/glucagon</description>
+	<type>byte</type>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+	<value code="3">Don&#39;t know/uncertain</value>
+</variable>
+
+<variable id="phv00050720.v1">
+	<name>GOC2E</name>
+	<description>C2e. Reimbursement: syringes</description>
+	<type>byte</type>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+	<value code="3">Don&#39;t know/uncertain</value>
+</variable>
+
+<variable id="phv00050721.v1">
+	<name>GOC2F</name>
+	<description>C2f. Reimbursement: infusion pump supplies</description>
+	<type>byte</type>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+	<value code="3">Don&#39;t know/uncertain</value>
+</variable>
+
+<variable id="phv00050722.v1">
+	<name>GOC2G</name>
+	<description>C2g. Reimbursement: hemoglobin A1c test</description>
+	<type>byte</type>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+	<value code="3">Don&#39;t know/uncertain</value>
+</variable>
+
+<variable id="phv00050723.v1">
+	<name>GOC2H</name>
+	<description>C2h. Reimbursement: doctors visits</description>
+	<type>byte</type>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+	<value code="3">Don&#39;t know/uncertain</value>
+</variable>
+
+<variable id="phv00050724.v1">
+	<name>GOC2I</name>
+	<description>C2i. Reimbursement: diabetes educational services</description>
+	<type>byte</type>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+	<value code="3">Don&#39;t know/uncertain</value>
+</variable>
+
+<variable id="phv00050725.v1">
+	<name>GOC2J</name>
+	<description>C2j. Reimbursement: mental health service</description>
+	<type>byte</type>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+	<value code="3">Don&#39;t know/uncertain</value>
+</variable>
+
+<variable id="phv00050726.v1">
+	<name>GOC2K</name>
+	<description>C2k. Reimbursement: diabetes complications</description>
+	<type>byte</type>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+	<value code="3">Don&#39;t know/uncertain</value>
+</variable>
+
+<variable id="phv00050727.v1">
+	<name>GOD1</name>
+	<description>D1. Health care scheduling. Did not see doctor but would have liked to</description>
+	<type>byte</type>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+</variable>
+
+<variable id="phv00050728.v1">
+	<name>GODACARE</name>
+	<description>D1. Health care scheduling. General: did not think condition serious</description>
+	<type>byte</type>
+	<value code="1">General</value>
+</variable>
+
+<variable id="phv00050729.v1">
+	<name>GODAEYE</name>
+	<description>D1. Health care scheduling. Eye care: did not think was serious</description>
+	<type>byte</type>
+	<value code="1">Eye care</value>
+</variable>
+
+<variable id="phv00050730.v1">
+	<name>GODAFOOT</name>
+	<description>D1. Health care scheduling. Foot care: did not think was serious</description>
+	<type>byte</type>
+	<value code="1">Foot care</value>
+</variable>
+
+<variable id="phv00050731.v1">
+	<name>GODAOTH</name>
+	<description>D1. Health care scheduling. Other: did not think was serious</description>
+	<type>byte</type>
+	<value code="1">Other</value>
+</variable>
+
+<variable id="phv00050732.v1">
+	<name>GODBCARE</name>
+	<description>D1. Health care scheduling. General: thought would cost too much</description>
+	<type>byte</type>
+	<value code="1">General</value>
+</variable>
+
+<variable id="phv00050733.v1">
+	<name>GODBEYE</name>
+	<description>D1. Health care scheduling. Eye care: thought would cost to much</description>
+	<type>byte</type>
+	<value code="1">Eye care</value>
+</variable>
+
+<variable id="phv00050734.v1">
+	<name>GODBFOOT</name>
+	<description>D1. Health care scheduling. Foot care: thought would cost too much</description>
+	<type>byte</type>
+	<value code="1">Foot care</value>
+</variable>
+
+<variable id="phv00050735.v1">
+	<name>GODBOTH</name>
+	<description>D1. Health care scheduling. Other: thought would cost too much</description>
+	<type>byte</type>
+	<value code="1">Other</value>
+</variable>
+
+<variable id="phv00050736.v1">
+	<name>GODCCARE</name>
+	<description>D1. Health care scheduling. General: did not have time</description>
+	<type>byte</type>
+	<value code="1">General</value>
+</variable>
+
+<variable id="phv00050737.v1">
+	<name>GODCEYE</name>
+	<description>D1. Health care scheduling. Eye care: did not have time</description>
+	<type>byte</type>
+	<value code="1">Eye care</value>
+</variable>
+
+<variable id="phv00050738.v1">
+	<name>GODCFOOT</name>
+	<description>D1. Health care scheduling. Foot care: did not have time</description>
+	<type>byte</type>
+	<value code="1">Foot care</value>
+</variable>
+
+<variable id="phv00050739.v1">
+	<name>GODCOTH</name>
+	<description>D1. Health care scheduling. Other: did not have time other</description>
+	<type>byte</type>
+	<value code="1">Other</value>
+</variable>
+
+<variable id="phv00050740.v1">
+	<name>GODDCARE</name>
+	<description>D1. Health care scheduling. General: could not get appointment</description>
+	<type>byte</type>
+	<value code="1">General</value>
+</variable>
+
+<variable id="phv00050741.v1">
+	<name>GODDEYE</name>
+	<description>D1. Health care scheduling. Eye care: could not get appointment</description>
+	<type>byte</type>
+	<value code="1">Eye care</value>
+</variable>
+
+<variable id="phv00050742.v1">
+	<name>GODDFOOT</name>
+	<description>D1. Health care scheduling. Foot care: could not get appointment</description>
+	<type>byte</type>
+	<value code="1">Foot care</value>
+</variable>
+
+<variable id="phv00050743.v1">
+	<name>GODDOTH</name>
+	<description>D1. Health care scheduling. Other: could not get appointment</description>
+	<type>byte</type>
+	<value code="1">Other</value>
+</variable>
+
+<variable id="phv00050744.v1">
+	<name>GODECARE</name>
+	<description>D1. Health care scheduling. General: did not have way to doc.</description>
+	<type>byte</type>
+	<value code="1">General</value>
+</variable>
+
+<variable id="phv00050745.v1">
+	<name>GODEEYE</name>
+	<description>D1. Health care scheduling. Eye care: did not have way to doc.</description>
+	<type>byte</type>
+	<value code="1">Eye care</value>
+</variable>
+
+<variable id="phv00050746.v1">
+	<name>GODEFOOT</name>
+	<description>D1. Health care scheduling. Foot care: did not have way to doc</description>
+	<type>byte</type>
+	<value code="1">Foot care</value>
+</variable>
+
+<variable id="phv00050747.v1">
+	<name>GODEOTH</name>
+	<description>D1. Health care scheduling. Other: did not have way to doc.</description>
+	<type>byte</type>
+	<value code="1">Other</value>
+</variable>
+
+<variable id="phv00050748.v1">
+	<name>GODFCARE</name>
+	<description>D1. Health care scheduling. Genital: did not have care for children</description>
+	<type>byte</type>
+	<value code="1">General</value>
+</variable>
+
+<variable id="phv00050749.v1">
+	<name>GODFEYE</name>
+	<description>D1. Health care scheduling. Eye care: did not have care for children</description>
+	<type>byte</type>
+	<value code="1">Eye care</value>
+</variable>
+
+<variable id="phv00050750.v1">
+	<name>GODFFOOT</name>
+	<description>D1. Health care scheduling. Foot care: did not have care for children</description>
+	<type>byte</type>
+	<value code="1">Foot care</value>
+</variable>
+
+<variable id="phv00050751.v1">
+	<name>GODFOTH</name>
+	<description>D1. Health care scheduling. Other: did not have care for children</description>
+	<type>byte</type>
+	<value code="1">Other</value>
+</variable>
+
+<variable id="phv00050752.v1">
+	<name>GODGCARE</name>
+	<description>D1. Health care scheduling. General: doctor could not do much for condition</description>
+	<type>byte</type>
+	<value code="1">General</value>
+</variable>
+
+<variable id="phv00050753.v1">
+	<name>GODGEYE</name>
+	<description>D1. Health care scheduling. Eye care: doctor could not do for condition</description>
+	<type>byte</type>
+	<value code="1">Eye care</value>
+</variable>
+
+<variable id="phv00050754.v1">
+	<name>GODGFOOT</name>
+	<description>D1. Health care scheduling. Foot care: doctor could not do for condition</description>
+	<type>byte</type>
+	<value code="1">Foot care</value>
+</variable>
+
+<variable id="phv00050755.v1">
+	<name>GODGOTH</name>
+	<description>D1. Health care scheduling. Other: doctor could not do much for condition</description>
+	<type>byte</type>
+	<value code="1">Other</value>
+</variable>
+
+<variable id="phv00050756.v1">
+	<name>GODHCARE</name>
+	<description>D1. Health care scheduling. General: afraid of finding</description>
+	<type>byte</type>
+	<value code="1">General</value>
+</variable>
+
+<variable id="phv00050757.v1">
+	<name>GODHEYE</name>
+	<description>D1. Health care scheduling. Eye care: afraid of finding</description>
+	<type>byte</type>
+	<value code="1">Eye care</value>
+</variable>
+
+<variable id="phv00050758.v1">
+	<name>GODHFOOT</name>
+	<description>D1. Health care scheduling. Foot care: afraid of finding</description>
+	<type>byte</type>
+	<value code="1">Foot care</value>
+</variable>
+
+<variable id="phv00050759.v1">
+	<name>GODHOTH</name>
+	<description>D1. Health care scheduling. Other: afraid of finding</description>
+	<type>byte</type>
+	<value code="1">Other</value>
+</variable>
+
+<variable id="phv00050760.v1">
+	<name>GODICARE</name>
+	<description>D1. Health care scheduling. General: other care</description>
+	<type>byte</type>
+	<value code="1">General</value>
+</variable>
+
+<variable id="phv00050761.v1">
+	<name>GODIEYE</name>
+	<description>D1. Health care scheduling. Eye care: other</description>
+	<type>byte</type>
+	<value code="1">Eye care</value>
+</variable>
+
+<variable id="phv00050762.v1">
+	<name>GODIFOOT</name>
+	<description>D1. Health care scheduling. Foot care: other</description>
+	<type>byte</type>
+	<value code="1">Foot care</value>
+</variable>
+
+<variable id="phv00050763.v1">
+	<name>GODIOTH</name>
+	<description>D1. Health care scheduling. Other: specify</description>
+	<type>byte</type>
+	<value code="1">Other</value>
+</variable>
+
+<variable id="phv00050764.v1">
+	<name>GOD2</name>
+	<description>D2. Health care scheduling. Past year, delayed seeing doctor</description>
+	<type>byte</type>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+</variable>
+
+<variable id="phv00050765.v1">
+	<name>GOD2A</name>
+	<description>D2a. Health care scheduling. Delay reason: principal reason</description>
+	<type>byte</type>
+	<value code="1">Office hours were inconvenient</value>
+	<value code="2">The cost for medical care were too high</value>
+	<value code="3">You did not have time to see doctor</value>
+	<value code="4">You did not have a way to get to the doctor</value>
+	<value code="5">You thought the problem would go away</value>
+	<value code="6">You did not have anyone to care for the children</value>
+	<value code="7">Other, specify</value>
+</variable>
+
+<variable id="phv00050766.v1">
+	<name>GOE1</name>
+	<description>E1. Setting of usual health care. Where you most often receive medical care</description>
+	<type>byte</type>
+	<value code="1">A doctor&#39;s private office</value>
+	<value code="2">A hospital outpatient diabetes clinic</value>
+	<value code="3">A hospital emergency room</value>
+	<value code="4">A health center</value>
+	<value code="5">A company clinic</value>
+	<value code="6">Other, specify</value>
+</variable>
+
+<variable id="phv00050767.v1">
+	<name>GOE2</name>
+	<description>E2. Setting of usual health care. Who is currently giving diabetes care</description>
+	<type>byte</type>
+	<value code="1">EDIC staff</value>
+	<value code="2">Another physician at EDIC site</value>
+	<value code="3">Another physician at separate site</value>
+	<value code="4">Missing data</value>
+</variable>
+
+<variable id="phv00050768.v1">
+	<name>FSASDATE</name>
+	<description>Deidentified date form completed</description>
+	<type>int</type>
+</variable>
+
+<variable id="phv00050769.v1">
+	<name>MASK_PAT</name>
+	<description>Deidentified patient ID</description>
+	<type>int</type>
+</variable>
+
+<variable id="phv00050770.v1">
+	<name>GOB2A1</name>
+	<description>B2a1. Health care delivery. Deidentified endocrinologist: date most recent visit</description>
+	<type>int</type>
+</variable>
+
+<variable id="phv00050771.v1">
+	<name>GOB2B1</name>
+	<description>B2b1. Health care delivery. Deidentified ophthalmologist (check-up) date most recent visit</description>
+	<type>int</type>
+</variable>
+
+<variable id="phv00050772.v1">
+	<name>GOB2C1</name>
+	<description>B2c1. Health care delivery. Deidentified ophthalmologist (other reason) most recent visit</description>
+	<type>int</type>
+</variable>
+
+<variable id="phv00050773.v1">
+	<name>GOB2D1</name>
+	<description>B2d1. Health care delivery. Deidentified optometrist: date most recent visit</description>
+	<type>int</type>
+</variable>
+
+<variable id="phv00050774.v1">
+	<name>GOB2E1</name>
+	<description>B2e1. Health care delivery. Deidentified cardiologist: date most recent visit</description>
+	<type>int</type>
+</variable>
+
+<variable id="phv00050775.v1">
+	<name>GOB2F1</name>
+	<description>B2f1. Health care delivery. Deidentified podiatrist: date most recent visit</description>
+	<type>byte</type>
+</variable>
+
+<variable id="phv00050776.v1">
+	<name>GOB2G1</name>
+	<description>B2g1. Health care delivery. Deidentified nephrologist: date most recent visit</description>
+	<type>byte</type>
+</variable>
+
+<variable id="phv00050777.v1">
+	<name>GOB2H1</name>
+	<description>B2h1. Health care delivery. Deidentified practitioner: date most recent visit</description>
+	<type>int</type>
+</variable>
+
+<variable id="phv00050778.v1">
+	<name>GOB2I1</name>
+	<description>B2i1. Health care delivery. Deidentified other doctor: date most recent visit</description>
+	<type>int</type>
+</variable>
+
+</data_table>

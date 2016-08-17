@@ -1,0 +1,508 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./datadict_v2.xsl"?>
+<data_table id="pht000701.v1" study_id="phs000166.v2" participant_set="1" date_created="Thu Sep  3 15:21:57 2009">
+
+<unique_key phv="00070990" version="1">subj_id</unique_key>
+<unique_key phv="00070993" version="1">visit_month</unique_key>
+
+<variable id="phv00070990.v1">
+	<name>subj_id</name>
+	<description>Deidentified Subject ID</description>
+	<type>integer</type>
+</variable>
+
+<variable id="phv00070991.v1">
+	<name>protocol</name>
+	<description>Protocol - Study name</description>
+	<type>encoded value</type>
+	<logical_min>101</logical_min>
+	<logical_max>101</logical_max>
+	<value code="1">BAGS</value>
+	<value code="3">SOCS/SLIC run-in</value>
+	<value code="4">SOCS</value>
+	<value code="5">SLIC</value>
+	<value code="6">DICE</value>
+	<value code="9">IMPACT</value>
+	<value code="12">PRICE</value>
+	<value code="101">CAMP</value>
+	<value code="201">PEAK</value>
+	<value code="202">CLIC</value>
+	<value code="203">PACT</value>
+	<value code="204">AIMS</value>
+	<value code="205">MARS</value>
+</variable>
+
+<variable id="phv00070992.v1">
+	<name>visit_reference</name>
+	<description>This is the reference to the visit in the study</description>
+	<type>encoded value</type>
+</variable>
+
+<variable id="phv00070993.v1">
+	<name>visit_month</name>
+	<description>Number of months in relation to Baseline visit</description>
+	<type>integer</type>
+	<unit>month</unit>
+	<logical_min>-0.75</logical_min>
+	<logical_max>48</logical_max>
+</variable>
+
+<variable id="phv00070994.v1">
+	<name>visit_week</name>
+	<description>Number of weeks in relation to Baseline visit</description>
+	<type>integer</type>
+	<unit>week</unit>
+	<logical_min>-3</logical_min>
+	<logical_max>207</logical_max>
+</variable>
+
+<variable id="phv00070995.v1">
+	<name>case_control</name>
+	<description>Affection status</description>
+	<type>encoded value</type>
+	<logical_min>2</logical_min>
+	<logical_max>2</logical_max>
+	<value code="1">control</value>
+	<value code="2">case</value>
+	<value code=".">missing</value>
+</variable>
+
+<variable id="phv00070996.v1">
+	<name>case_control_peak</name>
+	<description>Affection status in PEAK</description>
+	<type>encoded value</type>
+	<logical_min>2</logical_min>
+	<logical_max>2</logical_max>
+	<comment>PEAK has less strict affection status criteria.</comment>
+	<value code="1">control</value>
+	<value code="2">case</value>
+	<value code=".">missing</value>
+</variable>
+
+<variable id="phv00070997.v1">
+	<name>gender</name>
+	<description>Gender of participant</description>
+	<type>encoded value</type>
+	<logical_min>1</logical_min>
+	<logical_max>2</logical_max>
+	<value code="1">Male</value>
+	<value code="2">Female</value>
+	<value code=".">missing</value>
+</variable>
+
+<variable id="phv00070998.v1">
+	<name>race</name>
+	<description>Race of participant</description>
+	<type>encoded value</type>
+	<logical_min>1</logical_min>
+	<logical_max>4</logical_max>
+	<value code="1">Caucasian</value>
+	<value code="2">African American</value>
+	<value code="3">Hispanic</value>
+	<value code="4">Other</value>
+</variable>
+
+<variable id="phv00070999.v1">
+	<name>age</name>
+	<description>Age at follow-up visit</description>
+	<type>decimal</type>
+	<unit>years</unit>
+	<logical_min>5</logical_min>
+	<logical_max>17.17</logical_max>
+</variable>
+
+<variable id="phv00071000.v1">
+	<name>htcm</name>
+	<description>Standing height at follow-up visit</description>
+	<type>decimal</type>
+	<unit>cm</unit>
+	<logical_min>102.4</logical_min>
+	<logical_max>197.9</logical_max>
+</variable>
+
+<variable id="phv00071001.v1">
+	<name>wtkg</name>
+	<description>Weight at follow-up visit</description>
+	<type>decimal</type>
+	<unit>kg</unit>
+	<logical_min>14.4</logical_min>
+	<logical_max>125.1</logical_max>
+</variable>
+
+<variable id="phv00071002.v1">
+	<name>bmi</name>
+	<description>BMI at follow-up visit</description>
+	<type>decimal</type>
+	<unit>kg/m^2</unit>
+	<logical_min>10.99</logical_min>
+	<logical_max>62.33</logical_max>
+</variable>
+
+<variable id="phv00071003.v1">
+	<name>bmiz</name>
+	<description>BMIZ at follow-up visit</description>
+	<type>decimal</type>
+	<logical_min>-5.32</logical_min>
+	<logical_max>3.15</logical_max>
+</variable>
+
+<variable id="phv00071004.v1">
+	<name>tanner_stage</name>
+	<description>Tanner Stage at follow-up visit</description>
+	<type>encoded value</type>
+	<logical_min>1</logical_min>
+	<logical_max>5</logical_max>
+</variable>
+
+<variable id="phv00071005.v1">
+	<name>tx_grp_fup</name>
+	<description>Treatment group at follow-up visit</description>
+	<type>encoded value</type>
+	<logical_min>0</logical_min>
+	<logical_max>9</logical_max>
+	<comment>Treatment group in CAMP is assigned at baseline and stays the same until the termination of the study.</comment>
+	<value code="0">No treatment</value>
+	<value code="1">Albuterol</value>
+	<value code="2">Azithromycin</value>
+	<value code="3">Beclomethasone</value>
+	<value code="4">Budesonide</value>
+	<value code="5">Flunisolide</value>
+	<value code="6">Fluticasone</value>
+	<value code="7">Montelukast</value>
+	<value code="8">Nedocromil</value>
+	<value code="9">Placebo</value>
+	<value code="10">Placebo+Triamcinolone</value>
+	<value code="11">Prednisone+Budesonide+Zafirlukast</value>
+	<value code="12">Salmeterol</value>
+	<value code="13">Salmeterol/Fluticasone Combination</value>
+	<value code="14">Salmeterol+Triamcinolone</value>
+	<value code="15">Triamcinolone</value>
+	<value code="16">Zafirlukast</value>
+	<value code=".">Missing</value>
+</variable>
+
+<variable id="phv00071006.v1">
+	<name>run_in_tx</name>
+	<description>Run-In Treatment group at follow-up visit</description>
+	<type>encoded value</type>
+	<logical_min>0</logical_min>
+	<logical_max>1</logical_max>
+	<value code="1">yes</value>
+	<value code="0">no</value>
+	<value code=".">missing</value>
+</variable>
+
+<variable id="phv00071007.v1">
+	<name>saba_tx_fup</name>
+	<description>Treatment group assigned at follow-up visit was SABA (Short acting B-agonist) arm</description>
+	<type>encoded value</type>
+	<logical_min>0</logical_min>
+	<logical_max>1</logical_max>
+	<comment>Treatment group in CAMP is assigned at baseline and stays the same until the termination of the study.</comment>
+	<value code="1">yes</value>
+	<value code="0">no</value>
+	<value code=".">missing</value>
+</variable>
+
+<variable id="phv00071008.v1">
+	<name>laba_tx_fup</name>
+	<description>Treatment group assigned at follow-up was LABA (Long acting B-agonist) arm</description>
+	<type>encoded value</type>
+	<logical_min>180</logical_min>
+	<logical_max>180</logical_max>
+	<comment>Treatment group in CAMP is assigned at baseline and stays the same until the termination of the study.</comment>
+	<value code="1">yes</value>
+	<value code="0">no</value>
+	<value code=".">missing</value>
+</variable>
+
+<variable id="phv00071009.v1">
+	<name>cs_tx_fup</name>
+	<description>Treatment group assigned at follow-up was steroid arm</description>
+	<type>encoded value</type>
+	<logical_min>0</logical_min>
+	<logical_max>1</logical_max>
+	<comment>Treatment group in CAMP is assigned at baseline and stays the same until the termination of the study.</comment>
+	<value code="1">yes</value>
+	<value code="0">no</value>
+	<value code=".">missing</value>
+</variable>
+
+<variable id="phv00071010.v1">
+	<name>cs_dose_fup</name>
+	<description>Corticosteroid dose</description>
+	<type>integer</type>
+	<unit>mcg/day</unit>
+	<logical_min>0</logical_min>
+	<logical_max>1</logical_max>
+</variable>
+
+<variable id="phv00071011.v1">
+	<name>cs_comb_tx_fup</name>
+	<description>Participant assigned to Combination Therapy Group (Steroid Treatment + other)</description>
+	<type>encoded value</type>
+	<logical_min>0</logical_min>
+	<logical_max>0</logical_max>
+	<comment>Treatment group in CAMP is assigned at baseline and stays the same until the termination of the study.</comment>
+	<value code="1">yes</value>
+	<value code="0">no</value>
+	<value code=".">missing</value>
+</variable>
+
+<variable id="phv00071012.v1">
+	<name>bursts</name>
+	<description>Number of prednisone bursts since last visit</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>27</logical_max>
+</variable>
+
+<variable id="phv00071013.v1">
+	<name>edhos</name>
+	<description>Number of ER visit or hospitalizations since last visit</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>7</logical_max>
+</variable>
+
+<variable id="phv00071014.v1">
+	<name>prech</name>
+	<description>Change in FEV1 at follow-up visit from Baseline</description>
+	<type>decimal</type>
+	<logical_min>-60.59</logical_min>
+	<logical_max>221.88</logical_max>
+	<comment>Calculation is 100*(prefev-prefev_baseline)/prefev_baseline</comment>
+</variable>
+
+<variable id="phv00071015.v1">
+	<name>prechpp</name>
+	<description>Change in FEV1 percent predicted at follow-up visit from Baseline</description>
+	<type>decimal</type>
+	<logical_min>-65.43</logical_min>
+	<logical_max>119.57</logical_max>
+	<comment>Calculation is 100*(prefevpp-prefevpp_baseline)/prefevpp_baseline</comment>
+</variable>
+
+<variable id="phv00071016.v1">
+	<name>eno</name>
+	<description>Exhaled nitric oxide at follow-up visit</description>
+	<type>decimal</type>
+	<unit>ppb</unit>
+	<comment>CAMP did not record exhaled nitric oxide (eno)</comment>
+</variable>
+
+<variable id="phv00071017.v1">
+	<name>pc20</name>
+	<description>FEV1 PC20 methacholine at follow-up visit</description>
+	<type>decimal</type>
+	<unit>mg/ml</unit>
+	<logical_min>0.023</logical_min>
+	<logical_max>37.5</logical_max>
+</variable>
+
+<variable id="phv00071018.v1">
+	<name>lnpc20</name>
+	<description>Natural log PC20 at follow-up visit</description>
+	<type>decimal</type>
+	<logical_min>-3.77</logical_min>
+	<logical_max>3.62</logical_max>
+	<comment>Prior to calculating the log, a constant of &#39;1&#39; was added to the PC20 value.</comment>
+</variable>
+
+<variable id="phv00071019.v1">
+	<name>prefev</name>
+	<description>FEV1 at follow-up visit</description>
+	<type>decimal</type>
+	<unit>liters</unit>
+	<logical_min>0.42</logical_min>
+	<logical_max>5.73</logical_max>
+</variable>
+
+<variable id="phv00071020.v1">
+	<name>prefvc</name>
+	<description>FVC at follow-up visit</description>
+	<type>decimal</type>
+	<unit>liters</unit>
+	<logical_min>0.7</logical_min>
+	<logical_max>7.41</logical_max>
+</variable>
+
+<variable id="phv00071021.v1">
+	<name>preff</name>
+	<description>FEV1/FVC ratio at follow-up visit</description>
+	<type>integer</type>
+	<logical_min>41</logical_min>
+	<logical_max>100</logical_max>
+</variable>
+
+<variable id="phv00071022.v1">
+	<name>prefevpp</name>
+	<description>FEV1 percent predicted at follow-up visit</description>
+	<type>integer</type>
+	<logical_min>27</logical_min>
+	<logical_max>171</logical_max>
+</variable>
+
+<variable id="phv00071023.v1">
+	<name>prefvcpp</name>
+	<description>FVC percent predicted at follow-up visit</description>
+	<type>integer</type>
+	<logical_min>42</logical_min>
+	<logical_max>204</logical_max>
+</variable>
+
+<variable id="phv00071024.v1">
+	<name>posfev</name>
+	<description>Post-FEV1 at follow-up visit</description>
+	<type>decimal</type>
+	<unit>liters</unit>
+	<logical_min>0.63</logical_min>
+	<logical_max>5.88</logical_max>
+</variable>
+
+<variable id="phv00071025.v1">
+	<name>posfvc</name>
+	<description>Post-FVC at follow-up visit</description>
+	<type>decimal</type>
+	<unit>liters</unit>
+	<logical_min>0.76</logical_min>
+	<logical_max>7.47</logical_max>
+</variable>
+
+<variable id="phv00071026.v1">
+	<name>posff</name>
+	<description>Post-FEV1/FVC ratio at follow-up visit</description>
+	<type>integer</type>
+	<logical_min>54</logical_min>
+	<logical_max>100</logical_max>
+</variable>
+
+<variable id="phv00071027.v1">
+	<name>posfevpp</name>
+	<description>Post-FEV1 percent predicted at follow-up visit</description>
+	<type>integer</type>
+	<logical_min>46</logical_min>
+	<logical_max>240</logical_max>
+</variable>
+
+<variable id="phv00071028.v1">
+	<name>posfvcpp</name>
+	<description>Post-FVC percent predicted at follow-up visit</description>
+	<type>integer</type>
+	<logical_min>57</logical_min>
+	<logical_max>220</logical_max>
+</variable>
+
+<variable id="phv00071029.v1">
+	<name>bdrabpct</name>
+	<description>Bronchodilator percent change. The calculation is: (POSFEV - PREFEV)/PREFEV.</description>
+	<type>decimal</type>
+	<logical_min>-22.48</logical_min>
+	<logical_max>205.43</logical_max>
+</variable>
+
+<variable id="phv00071030.v1">
+	<name>eos</name>
+	<description>Blood eosinophils at follow-up visit</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>5270</logical_max>
+</variable>
+
+<variable id="phv00071031.v1">
+	<name>log10eos</name>
+	<description>Log10 blood eosinophils at follow-up visit</description>
+	<type>decimal</type>
+	<logical_min>0</logical_min>
+	<logical_max>3.72</logical_max>
+	<comment>Prior to calculating the log, a constant of &#39;1&#39; was added to the EOS value.</comment>
+</variable>
+
+<variable id="phv00071032.v1">
+	<name>ige</name>
+	<description>Total IgE at follow-up visit</description>
+	<type>integer</type>
+	<unit>ng/ml</unit>
+	<logical_min>1</logical_min>
+	<logical_max>57048</logical_max>
+</variable>
+
+<variable id="phv00071033.v1">
+	<name>log10ige</name>
+	<description>Log10 IgE at follow-up visit</description>
+	<type>decimal</type>
+	<logical_min>0.3</logical_min>
+	<logical_max>4.76</logical_max>
+	<comment>Prior to calculating the log, a constant of &#39;1&#39; was added to the IgE value.</comment>
+</variable>
+
+<variable id="phv00071034.v1">
+	<name>ampf</name>
+	<description>Average AM peak flow (L/min) as recorded in daily diary card since last visit</description>
+	<type>decimal</type>
+	<unit>liters/minute</unit>
+	<logical_min>108.04</logical_min>
+	<logical_max>695.7</logical_max>
+</variable>
+
+<variable id="phv00071035.v1">
+	<name>totres</name>
+	<description>Average total rescue use per day as recorded in daily diary card since last visit</description>
+	<type>decimal</type>
+	<unit>puffs</unit>
+	<logical_min>0</logical_min>
+	<logical_max>12.61</logical_max>
+</variable>
+
+<variable id="phv00071036.v1">
+	<name>amsym</name>
+	<description>Average AM symptoms as recorded in daily diary card since last visit</description>
+	<type>decimal</type>
+	<logical_min>0</logical_min>
+	<logical_max>3</logical_max>
+</variable>
+
+<variable id="phv00071037.v1">
+	<name>pos_skintest</name>
+	<description>One or more positive skin test at follow-up visit</description>
+	<type>encoded value</type>
+	<logical_min>0</logical_min>
+	<logical_max>1</logical_max>
+	<value code="1">yes</value>
+	<value code="0">no</value>
+	<value code=".">missing</value>
+</variable>
+
+<variable id="phv00071038.v1">
+	<name>nall_skintest</name>
+	<description>Number of skin tests (all tests) at follow-up visit</description>
+	<type>integer</type>
+	<logical_min>10</logical_min>
+	<logical_max>20</logical_max>
+</variable>
+
+<variable id="phv00071039.v1">
+	<name>npos_skintest</name>
+	<description>Number of pos skin tests (all tests) at follow-up visit</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>18</logical_max>
+</variable>
+
+<variable id="phv00071040.v1">
+	<name>n_core_skintest</name>
+	<description>Number of core skin tests at follow-up visit</description>
+	<type>integer</type>
+	<logical_min>6</logical_min>
+	<logical_max>10</logical_max>
+</variable>
+
+<variable id="phv00071041.v1">
+	<name>npos_core_skintest</name>
+	<description>Number of core positive skin tests at follow-up visit</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>10</logical_max>
+</variable>
+
+</data_table>

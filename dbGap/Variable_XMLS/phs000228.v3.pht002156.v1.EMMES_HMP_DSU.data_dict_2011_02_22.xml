@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./datadict_v2.xsl"?>
+<data_table id="pht002156.v1" study_id="phs000228.v3" participant_set="1" date_created="Tue Feb 22 14:32:37 2011">
+
+<unique_key phv="00158566" version="1">PROT</unique_key>
+<unique_key phv="00158567" version="1">PROTSEG</unique_key>
+<unique_key phv="00158568" version="1">SITE</unique_key>
+<unique_key phv="00158600" version="1">RANDSID</unique_key>
+
+<variable id="phv00158566.v1">
+	<name>PROT</name>
+	<description>Protocol</description>
+	<type>Encoded</type>
+	<value code="7001">7001</value>
+</variable>
+
+<variable id="phv00158567.v1">
+	<name>PROTSEG</name>
+	<description>Protocol Segment</description>
+	<type>Encoded</type>
+	<value code="A">A</value>
+</variable>
+
+<variable id="phv00158568.v1">
+	<name>SITE</name>
+	<description>Site</description>
+	<type>Encoded</type>
+	<value code="11BAY">Houston</value>
+	<value code="92WAU">St. Louis</value>
+</variable>
+
+<variable id="phv00158569.v1">
+	<name>SITE_C</name>
+	<description>Site - coded fields</description>
+	<type>String</type>
+</variable>
+
+<variable id="phv00158570.v1">
+	<name>dsuotrpd</name>
+	<description>Calculated field based on number of days between subjects last oral treatment and subject&#39;s day of enrollment/first sampling</description>
+	<type>Integer</type>
+	<unit>days</unit>
+	<logical_min>-9999999999</logical_min>
+	<logical_max>9999999999</logical_max>
+</variable>
+
+<variable id="phv00158571.v1">
+	<name>DSUSCRN</name>
+	<description>Screened more than once</description>
+	<type>Integer, encoded value</type>
+	<logical_min>0</logical_min>
+	<logical_max>1</logical_max>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00158572.v1">
+	<name>DSUSCRN_C</name>
+	<description>Screened more than once - coded fields</description>
+	<type>String</type>
+</variable>
+
+<variable id="phv00158573.v1">
+	<name>DSUFSCRN</name>
+	<description>Failed screening</description>
+	<type>Integer, encoded value</type>
+	<logical_min>0</logical_min>
+	<logical_max>1</logical_max>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00158574.v1">
+	<name>DSUFSCRN_C</name>
+	<description>Failed screening - coded fields</description>
+	<type>String</type>
+</variable>
+
+<variable id="phv00158575.v1">
+	<name>dsufscpd</name>
+	<description>Calculated field based on number of days between subjects day of failed screening and subject&#39;s day of enrollment/first sampling</description>
+	<type>Integer</type>
+	<unit>days</unit>
+	<logical_min>-9999999999</logical_min>
+	<logical_max>9999999999</logical_max>
+</variable>
+
+<variable id="phv00158576.v1">
+	<name>DSUFORAL</name>
+	<description>Failed oral scrn</description>
+	<type>Integer, encoded value</type>
+	<logical_min>0</logical_min>
+	<logical_max>9</logical_max>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+	<value code="9">NA</value>
+</variable>
+
+<variable id="phv00158577.v1">
+	<name>DSUFORAL_C</name>
+	<description>Failed oral scrn - coded fields</description>
+	<type>String</type>
+</variable>
+
+<variable id="phv00158578.v1">
+	<name>DSUFSKIN</name>
+	<description>Failed skin scrn</description>
+	<type>Integer, encoded value</type>
+	<logical_min>0</logical_min>
+	<logical_max>9</logical_max>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+	<value code="9">NA</value>
+</variable>
+
+<variable id="phv00158579.v1">
+	<name>DSUFSKIN_C</name>
+	<description>Failed skin scrn - coded fields</description>
+	<type>String</type>
+</variable>
+
+<variable id="phv00158580.v1">
+	<name>DSUFPHY</name>
+	<description>Failed physical scrn</description>
+	<type>Integer, encoded value</type>
+	<logical_min>0</logical_min>
+	<logical_max>9</logical_max>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+	<value code="9">NA</value>
+</variable>
+
+<variable id="phv00158581.v1">
+	<name>DSUFPHY_C</name>
+	<description>Failed physical scrn - coded fields</description>
+	<type>String</type>
+</variable>
+
+<variable id="phv00158582.v1">
+	<name>DSUFDRUG</name>
+	<description>Failed drug use scrn</description>
+	<type>Integer, encoded value</type>
+	<logical_min>0</logical_min>
+	<logical_max>9</logical_max>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+	<value code="9">NA</value>
+</variable>
+
+<variable id="phv00158583.v1">
+	<name>DSUFDRUG_C</name>
+	<description>Failed drug use scrn - coded fields</description>
+	<type>String</type>
+</variable>
+
+<variable id="phv00158584.v1">
+	<name>DSUFVAG</name>
+	<description>Failed vaginal scrn</description>
+	<type>Integer, encoded value</type>
+	<logical_min>0</logical_min>
+	<logical_max>9</logical_max>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+	<value code="9">NA</value>
+</variable>
+
+<variable id="phv00158585.v1">
+	<name>DSUFVAG_C</name>
+	<description>Failed vaginal scrn - coded fields</description>
+	<type>String</type>
+</variable>
+
+<variable id="phv00158586.v1">
+	<name>DSUFOT</name>
+	<description>Failed scrn other</description>
+	<type>Integer, encoded value</type>
+	<logical_min>0</logical_min>
+	<logical_max>9</logical_max>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+	<value code="9">NA</value>
+</variable>
+
+<variable id="phv00158587.v1">
+	<name>DSUFOT_C</name>
+	<description>Failed scrn other - coded fields</description>
+	<type>String</type>
+</variable>
+
+<variable id="phv00158588.v1">
+	<name>DSUCON</name>
+	<description>Subject contact</description>
+	<type>Integer, encoded value</type>
+	<logical_min>0</logical_min>
+	<logical_max>1</logical_max>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00158589.v1">
+	<name>DSUCON_C</name>
+	<description>Subject contact - coded fields</description>
+	<type>String</type>
+</variable>
+
+<variable id="phv00158590.v1">
+	<name>dsuvspd</name>
+	<description>Calculated field based on number of days between subject day of recontact and subject&#39;s day of enrollment/first sampling</description>
+	<type>Integer</type>
+	<unit>days</unit>
+	<logical_min>-9999999999</logical_min>
+	<logical_max>9999999999</logical_max>
+</variable>
+
+<variable id="phv00158591.v1">
+	<name>DSUZIP</name>
+	<description>Residence zip code</description>
+	<type>Integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>999</logical_max>
+</variable>
+
+<variable id="phv00158592.v1">
+	<name>DSUDIET</name>
+	<description>Diet</description>
+	<type>Integer, encoded value</type>
+	<logical_min>1</logical_min>
+	<logical_max>5</logical_max>
+	<value code="01">01-Meat/fish/poultry at least three days per week</value>
+	<value code="02">02-Meat/fish/poultry at least one day but not more than two days per week</value>
+	<value code="03">03-Eggs/cheese/other dairy products, but no meat/fish/poultry</value>
+	<value code="04">04-No animal products at all (no meat/fish/poultry, no eggs/cheese/other dairy products)</value>
+	<value code="05">05-No animal products and at least 70% of fruits and vegetables are eaten raw</value>
+</variable>
+
+<variable id="phv00158593.v1">
+	<name>DSUDIET_C</name>
+	<description>Diet - coded fields</description>
+	<type>String</type>
+</variable>
+
+<variable id="phv00158594.v1">
+	<name>DSUBFED</name>
+	<description>Breast fed as child</description>
+	<type>Integer, encoded value</type>
+	<logical_min>0</logical_min>
+	<logical_max>2</logical_max>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+	<value code="2">Don&#39;t know/remember</value>
+</variable>
+
+<variable id="phv00158595.v1">
+	<name>DSUBFED_C</name>
+	<description>Breast fed as child - coded fields</description>
+	<type>String</type>
+</variable>
+
+<variable id="phv00158596.v1">
+	<name>DSUBIR</name>
+	<description>Birth</description>
+	<type>Integer, encoded value</type>
+	<logical_min>0</logical_min>
+	<logical_max>2</logical_max>
+	<value code="0">Never</value>
+	<value code="1">Once</value>
+	<value code="2">More than once</value>
+</variable>
+
+<variable id="phv00158597.v1">
+	<name>DSUBIR_C</name>
+	<description>Birth - coded fields</description>
+	<type>String</type>
+</variable>
+
+<variable id="phv00158598.v1">
+	<name>DSUDEV</name>
+	<description>Delivery type</description>
+	<type>Integer, encoded value</type>
+	<logical_min>0</logical_min>
+	<logical_max>3</logical_max>
+	<value code="1">1- Vaginal deliveries only</value>
+	<value code="2">2- Cesarean deliveries only</value>
+	<value code="3">3- Both vaginal and cesarean deliveries</value>
+</variable>
+
+<variable id="phv00158599.v1">
+	<name>DSUDEV_C</name>
+	<description>Delivery type - coded fields</description>
+	<type> </type>
+</variable>
+
+<variable id="phv00158600.v1">
+	<name>RANDSID</name>
+	<description>Random ID for Patid</description>
+	<type>Integer</type>
+</variable>
+
+</data_table>

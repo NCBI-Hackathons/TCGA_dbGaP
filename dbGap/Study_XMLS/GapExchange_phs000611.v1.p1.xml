@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GaPExchange xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="./dbGaPEx2.1.5.xsd">
+
+<MetaVariables>
+	<Submitter/>
+	<Method/>
+</MetaVariables>
+<MetaLinks/>
+
+<Projects>
+	<Project/>
+</Projects>
+
+<Studies>
+
+<Study source="dbGaP" accession="phs000611.v1.p1" parentStudy="phs000611.v1.p1" createDate="2013-04-04" modDate="2013-12-10">
+
+<Configuration>
+	<Data_Provider><![CDATA[
+		<table border="1">
+		<tr><th>Title</th><th>Name</th><th>Institute</th></tr>
+		<tr><td>Principal Investigator</td><td>Richard Wilson</td><td>Washington University School of Medicine, MO, USA</td></tr>
+		<tr><td>Principal Investigator</td><td>Elaine Mardis</td><td>Washington University School of Medicine, MO, USA</td></tr>
+		<tr><td>Principal Investigator</td><td>Matthew Ellis</td><td>Washington University School of Medicine, MO, USA</td></tr>
+		<tr><td>Funding Source for DNA Sequencing</td><td>NHGRI U54 HG003079</td><td>National Institutes of Health, MD, USA</td></tr>
+		<tr><td>Funding Source for RNA Sequencing</td><td>U24-CA143848</td><td>National Cancer Institute (Charles Perou), National Institutes of Health, MD, USA</td></tr>
+		</table>
+	]]></Data_Provider>
+	<StudyNameEntrez>Whole Genome Comparisons of Breast Cancers and their Xenotransplants</StudyNameEntrez>
+	<StudyNameReportPage>Whole Genome Comparisons of Breast Cancers and their Xenotransplants</StudyNameReportPage>
+	<StudyTypes>
+		<StudyType>Case Set</StudyType>
+	</StudyTypes>
+	<Description><![CDATA[
+<p>Early passage breast cancer xenografts have been proposed as alternatives to cell lines as model systems for studying the basic biology of tumors and for advancing therapy development. This study explores the relatedness of primary disease genomes to their matched xenotransplants. Using paired-end massively parallel sequencing 17 matched progenitor tumor, xenograft and normal trios were sequenced to at least 30-fold coverage with diploid coverage of at least 95% of the genome as determined by SNP array concordance. RNA sequence was generated from the xenograft tumors. The xenografts were derived from a spectrum of tumor samples from patients with both early and advanced breast cancer.</p>]]>
+	</Description>
+	<StudyProjects>
+		<Project/>
+	</StudyProjects>
+	<Publications>
+		<Publication>
+			<Pubmed pmid="20393555"/>
+		</Publication>
+		<Publication>
+			<Pubmed pmid="24055055"/>
+		</Publication>
+	</Publications>
+	<Diseases>
+		<Disease vocab_source="MESH" vocab_term="Breast Neoplasms"/>
+	</Diseases>
+	<Attributions>
+		<Header title="Principal Investigator">
+			<AttName>Richard Wilson</AttName>
+			<Institution>Washington University School of Medicine, MO, USA</Institution>
+		</Header>
+		<Header title="Principal Investigator">
+			<AttName>Elaine Mardis</AttName>
+			<Institution>Washington University School of Medicine, MO, USA</Institution>
+		</Header>
+		<Header title="Principal Investigator">
+			<AttName>Matthew Ellis</AttName>
+			<Institution>Washington University School of Medicine, MO, USA</Institution>
+		</Header>
+		<Header title="Funding Source for DNA Sequencing">
+			<AttName>NHGRI U54 HG003079</AttName>
+			<Institution>National Institutes of Health, MD, USA</Institution>
+		</Header>
+		<Header title="Funding Source for RNA Sequencing">
+			<AttName>U24-CA143848</AttName>
+			<Institution>National Cancer Institute (Charles Perou), National Institutes of Health, MD, USA</Institution>
+		</Header>
+		<Header title="Funding Source for RNA Sequencing">
+			<AttName>P50-CA58223-09A1</AttName>
+			<Institution>National Cancer Institute (Charles Perou), National Institutes of Health, MD, USA</Institution>
+		</Header>
+	</Attributions>
+	<DisplayPublicSummary>yes</DisplayPublicSummary>
+	<ConsentGroups>
+		<ConsentGroup groupNum="1" shortName="DS-CA" longName="Disease-Specific (Cancer)"/>
+		<ConsentGroup groupNum="2" shortName="DS-CROTx" longName="Cancer Treatment Research Only"/>
+	</ConsentGroups>
+</Configuration>
+
+  <AuthorizedAccess>
+    <DacInfo ssDacId="0">
+      <DacName>NHGRI</DacName>
+      <DacFullName>National Human Genome Research Institute</DacFullName>
+      <DacEmail>0</DacEmail>
+      <DacPhone></DacPhone>
+      <DacUrl></DacUrl>
+    </DacInfo>
+    <Policy Policy_ID="phs000611.v1.p1_policy" ref_ssDacId="0">
+      <DisplayResearchStatement>yes</DisplayResearchStatement>
+      <DisplayPublicSummary>yes</DisplayPublicSummary>
+      <EmbargoLength>1</EmbargoLength>
+      <YearsUntilRenewal>1</YearsUntilRenewal>
+      <WeeksCancelRequest>8</WeeksCancelRequest>
+      <PdfSupplementReqired>no</PdfSupplementReqired>
+      <AcknowledgementText>
+        <para>
+          http://dbgap.ncbi.nlm.nih.gov/aa/wga.cgi?page=DUC&amp;view_pdf&amp;stacc=phs000611.v1.p1
+        </para>
+      </AcknowledgementText>
+      <DocumentSet>
+        <DataUseCertificate Label="Data Use Certificate" FilePath="https://dbgap.ncbi.nlm.nih.gov/aa/wga.cgi?page=DUC&amp;view_pdf&amp;stacc=phs000611.v1.p1" FileName="RWILSON_Whole_Genome_Comparisons_of_Breast_Cancers_and_Their_Xenotransplants.pdf"/>
+      </DocumentSet>
+    </Policy>
+    <ConsentGroups>
+      <ParticipantSet groupNum-REF="1">
+        <ConsentName>Disease-Specific (Cancer)</ConsentName>
+        <ConsentAbbrev>DS-CA</ConsentAbbrev>
+        <UseLimitation>Use of the data must be related to Cancer.</UseLimitation>
+        <IrbRequired>No</IrbRequired>
+      </ParticipantSet>
+      <ParticipantSet groupNum-REF="2">
+        <ConsentName>Cancer Treatment Research Only</ConsentName>
+        <ConsentAbbrev>DS-CROTx</ConsentAbbrev>
+        <UseLimitation>Use of the data must be related to  Cancer Tx Research Only.</UseLimitation>
+        <IrbRequired>No</IrbRequired>
+      </ParticipantSet>
+    </ConsentGroups>
+  </AuthorizedAccess>
+
+
+</Study>
+
+</Studies>
+
+</GaPExchange>

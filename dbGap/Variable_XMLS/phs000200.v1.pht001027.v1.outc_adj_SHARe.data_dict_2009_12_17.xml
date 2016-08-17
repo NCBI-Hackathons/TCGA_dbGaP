@@ -1,0 +1,1352 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./datadict_v2.xsl"?>
+<data_table id="pht001027.v1" study_id="phs000200.v1" participant_set="1" date_created="Thu Dec 17 19:18:54 2009">
+
+<variable id="phv00080011.v1">
+	<name>SHAREID</name>
+	<description>WHI SHARe ID</description>
+	<type>integer</type>
+</variable>
+
+<variable id="phv00080012.v1">
+	<name>MI</name>
+	<description>MI</description>
+	<type>encoded value</type>
+	<comment>Myocardial infarction</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00080013.v1">
+	<name>MIDY</name>
+	<description>Days enrollment to MI</description>
+	<type>integer</type>
+	<unit>days</unit>
+	<logical_min>10</logical_min>
+	<logical_max>3601</logical_max>
+</variable>
+
+<variable id="phv00080014.v1">
+	<name>PTCA</name>
+	<description>Percutaneous transluminal coronary angioplasty</description>
+	<type>encoded value</type>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00080015.v1">
+	<name>PTCADY</name>
+	<description>Days enrollment to PTCA</description>
+	<type>integer</type>
+	<unit>days</unit>
+	<logical_min>12</logical_min>
+	<logical_max>3857</logical_max>
+	<comment>Percutaneous Transluminal Coronary Angioplasty (PTCA)</comment>
+</variable>
+
+<variable id="phv00080016.v1">
+	<name>CABG</name>
+	<description>Coronary artery bypass graft (CABG)</description>
+	<type>encoded value</type>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00080017.v1">
+	<name>CABGDY</name>
+	<description>Days enrollment to CABG</description>
+	<type>integer</type>
+	<unit>days</unit>
+	<logical_min>42</logical_min>
+	<logical_max>3479</logical_max>
+	<comment>Coronary artery bypass graft (CABG)</comment>
+</variable>
+
+<variable id="phv00080018.v1">
+	<name>STROKE</name>
+	<description>Stroke</description>
+	<type>encoded value</type>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00080019.v1">
+	<name>STROKEDY</name>
+	<description>Days enrollment to Stroke</description>
+	<type>integer</type>
+	<unit>days</unit>
+	<logical_min>21</logical_min>
+	<logical_max>3650</logical_max>
+</variable>
+
+<variable id="phv00080020.v1">
+	<name>TIA</name>
+	<description>TIA</description>
+	<type>encoded value</type>
+	<comment>Not counted if on same day or after stroke</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00080021.v1">
+	<name>TIADY</name>
+	<description>Days enrollment to TIA</description>
+	<type>integer</type>
+	<unit>days</unit>
+	<logical_min>0</logical_min>
+	<logical_max>3669</logical_max>
+</variable>
+
+<variable id="phv00080022.v1">
+	<name>CHF</name>
+	<description>CHF</description>
+	<type>encoded value</type>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00080023.v1">
+	<name>CHFDY</name>
+	<description>Days enrollment to CHF</description>
+	<type>integer</type>
+	<unit>days</unit>
+	<logical_min>0</logical_min>
+	<logical_max>3668</logical_max>
+</variable>
+
+<variable id="phv00080024.v1">
+	<name>ANGINA</name>
+	<description>Angina</description>
+	<type>encoded value</type>
+	<comment>Not counted if on same day or after MI</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00080025.v1">
+	<name>ANGINADY</name>
+	<description>Days enrollment to Angina</description>
+	<type>integer</type>
+	<unit>days</unit>
+	<logical_min>7</logical_min>
+	<logical_max>3479</logical_max>
+</variable>
+
+<variable id="phv00080026.v1">
+	<name>CAROTID</name>
+	<description>Carotid Artery Disease</description>
+	<type>encoded value</type>
+	<comment>Not counted if on same day or after stroke</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00080027.v1">
+	<name>CAROTIDDY</name>
+	<description>Days enrollment to Carotid Artery Disease</description>
+	<type>integer</type>
+	<unit>days</unit>
+	<logical_min>34</logical_min>
+	<logical_max>3479</logical_max>
+</variable>
+
+<variable id="phv00080028.v1">
+	<name>CREVASC</name>
+	<description>Coronary Revascularization</description>
+	<type>encoded value</type>
+	<comment>First occurrence of Percutaneous Transluminal Coronary Angioplasty (PTCA) or Coronary artery bypass graft (CABG)</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00080029.v1">
+	<name>CREVASCDY</name>
+	<description>Days enrollment to Coronary Revascularization</description>
+	<type>integer</type>
+	<unit>days</unit>
+	<logical_min>12</logical_min>
+	<logical_max>3857</logical_max>
+</variable>
+
+<variable id="phv00080030.v1">
+	<name>PERIPH</name>
+	<description>Peripheral Arterial Disease</description>
+	<type>encoded value</type>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00080031.v1">
+	<name>PERIPHDY</name>
+	<description>Days enrollment to Peripheral Arterial Disease</description>
+	<type>integer</type>
+	<unit>days</unit>
+	<logical_min>41</logical_min>
+	<logical_max>3363</logical_max>
+</variable>
+
+<variable id="phv00080032.v1">
+	<name>BREAST</name>
+	<description>Breast Cancer</description>
+	<type>encoded value</type>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00080033.v1">
+	<name>BREASTDY</name>
+	<description>Days enrollment to Breast Cancer</description>
+	<type>integer</type>
+	<unit>days</unit>
+	<logical_min>7</logical_min>
+	<logical_max>3390</logical_max>
+</variable>
+
+<variable id="phv00080034.v1">
+	<name>BREASTINV</name>
+	<description>Breast Cancer Invasive</description>
+	<type>encoded value</type>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00080035.v1">
+	<name>BREASTINVDY</name>
+	<description>Days enrollment to Breast Cancer Invasive</description>
+	<type>integer</type>
+	<unit>days</unit>
+	<logical_min>7</logical_min>
+	<logical_max>3390</logical_max>
+</variable>
+
+<variable id="phv00080036.v1">
+	<name>BREASTINVSRC</name>
+	<description>Invasive breast cancer source of outcome review (central vs. local)</description>
+	<type>encoded value</type>
+	<comment>Invasive breast cancer source of outcome review (central vs. local)
+		Used central adjudication if complete, otherwise used local adjudication. </comment>
+	<value code="0">Local (CC) Review</value>
+	<value code="1">Central (CCC) Review</value>
+</variable>
+
+<variable id="phv00080037.v1">
+	<name>BREASTINSITU</name>
+	<description>Breast Cancer In Situ</description>
+	<type>encoded value</type>
+	<comment>Not counted if on same date or after an invasive breast cancer</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00080038.v1">
+	<name>BREASTINSITUDY</name>
+	<description>Days enrollment to Breast Cancer In Situ</description>
+	<type>integer</type>
+	<unit>days</unit>
+	<logical_min>7</logical_min>
+	<logical_max>3356</logical_max>
+</variable>
+
+<variable id="phv00080039.v1">
+	<name>BREASTINSITUSRC</name>
+	<description>Breast Cancer In Situ source of outcome review (central vs. local)</description>
+	<type>encoded value</type>
+	<comment>Breast Cancer In Situ source of outcome review (central vs. local)
+		Used central adjudication if complete, otherwise used local adjudication. </comment>
+	<value code="0">Local (CC) Review</value>
+	<value code="1">Central (CCC) Review</value>
+</variable>
+
+<variable id="phv00080040.v1">
+	<name>OVARY</name>
+	<description>Ovarian Cancer</description>
+	<type>encoded value</type>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00080041.v1">
+	<name>OVARYDY</name>
+	<description>Days enrollment to Ovarian Cancer</description>
+	<type>integer</type>
+	<unit>days</unit>
+	<logical_min>32</logical_min>
+	<logical_max>3082</logical_max>
+</variable>
+
+<variable id="phv00080042.v1">
+	<name>OVARYSRC</name>
+	<description>Ovarian Cancer source of outcome review (central vs. local)</description>
+	<type>encoded value</type>
+	<comment>Ovarian Cancer source of outcome review (central vs. local)
+		Used central adjudication if complete, otherwise used local adjudication. </comment>
+	<value code="0">Local (CC) Review</value>
+	<value code="1">Central (CCC) Review</value>
+</variable>
+
+<variable id="phv00080043.v1">
+	<name>ENDMTRL</name>
+	<description>Endometrial Cancer</description>
+	<type>encoded value</type>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00080044.v1">
+	<name>ENDMTRLDY</name>
+	<description>Days enrollment to Endometrial Cancer</description>
+	<type>integer</type>
+	<unit>days</unit>
+	<logical_min>166</logical_min>
+	<logical_max>3369</logical_max>
+</variable>
+
+<variable id="phv00080045.v1">
+	<name>ENDMTRLSRC</name>
+	<description>Endometrial Cancer source of outcome review (central vs. local)</description>
+	<type>encoded value</type>
+	<comment>Endometrial Cancer source of outcome review (central vs. local)
+		Used central adjudication if complete, otherwise used local adjudication. </comment>
+	<value code="0">Local (CC) Review</value>
+	<value code="1">Central (CCC) Review</value>
+</variable>
+
+<variable id="phv00080046.v1">
+	<name>COLON</name>
+	<description>Colon Cancer</description>
+	<type>encoded value</type>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00080047.v1">
+	<name>COLONDY</name>
+	<description>Days enrollment to Colon Cancer</description>
+	<type>integer</type>
+	<unit>days</unit>
+	<logical_min>20</logical_min>
+	<logical_max>2974</logical_max>
+</variable>
+
+<variable id="phv00080048.v1">
+	<name>COLONSRC</name>
+	<description>Colon Cancer source of outcome review (central vs. local)</description>
+	<type>encoded value</type>
+	<comment>Colon Cancer source of outcome review (central vs. local)
+		Used central adjudication if complete, otherwise used local adjudication. </comment>
+	<value code="0">Local (CC) Review</value>
+	<value code="1">Central (CCC) Review</value>
+</variable>
+
+<variable id="phv00080049.v1">
+	<name>RECTOSIG</name>
+	<description>Rectosigmoid Cancer</description>
+	<type>encoded value</type>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00080050.v1">
+	<name>RECTOSIGDY</name>
+	<description>Days enrollment to Rectosigmoid Cancer</description>
+	<type>integer</type>
+	<unit>days</unit>
+	<logical_min>49</logical_min>
+	<logical_max>2166</logical_max>
+</variable>
+
+<variable id="phv00080051.v1">
+	<name>RECTOSIGSRC</name>
+	<description>Rectosigmoid Cancer source of outcome review (central vs. local)</description>
+	<type>encoded value</type>
+	<comment>Rectosigmoid Cancer source of outcome review (central vs. local)
+		Used central adjudication if complete, otherwise used local adjudication. </comment>
+	<value code="0">Local (CC) Review</value>
+	<value code="1">Central (CCC) Review</value>
+</variable>
+
+<variable id="phv00080052.v1">
+	<name>RECTUM</name>
+	<description>Rectum Cancer</description>
+	<type>encoded value</type>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00080053.v1">
+	<name>RECTUMDY</name>
+	<description>Days enrollment to Rectum Cancer</description>
+	<type>integer</type>
+	<unit>days</unit>
+	<logical_min>209</logical_min>
+	<logical_max>3050</logical_max>
+</variable>
+
+<variable id="phv00080054.v1">
+	<name>RECTUMSRC</name>
+	<description>Rectum Cancer source of outcome review (central vs. local)</description>
+	<type>encoded value</type>
+	<comment>Rectum Cancer source of outcome review (central vs. local)
+		Used central adjudication if complete, otherwise used local adjudication. </comment>
+	<value code="0">Local (CC) Review</value>
+	<value code="1">Central (CCC) Review</value>
+</variable>
+
+<variable id="phv00080055.v1">
+	<name>OTHCA</name>
+	<description>Other Unlisted Cancer</description>
+	<type>encoded value</type>
+	<comment>Form 122v4, q1, code00.  Cancer type not specifically listed in q1.</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00080056.v1">
+	<name>OTHCADY</name>
+	<description>Days enrollment to Other Unlisted Cancer</description>
+	<type>integer</type>
+	<unit>days</unit>
+	<logical_min>62</logical_min>
+	<logical_max>3291</logical_max>
+</variable>
+
+<variable id="phv00080057.v1">
+	<name>PANCREAS</name>
+	<description>Pancreas Cancer</description>
+	<type>encoded value</type>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00080058.v1">
+	<name>PANCREASDY</name>
+	<description>Days enrollment to Pancreas Cancer</description>
+	<type>integer</type>
+	<unit>days</unit>
+	<logical_min>242</logical_min>
+	<logical_max>3122</logical_max>
+</variable>
+
+<variable id="phv00080059.v1">
+	<name>ORALUNSP</name>
+	<description>Unspecified Oral Cancer</description>
+	<type>encoded value</type>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00080060.v1">
+	<name>ORALUNSPDY</name>
+	<description>Days enrollment to Unspecified Oral Cancer</description>
+	<type>integer</type>
+	<unit>days</unit>
+	<logical_min>1524</logical_min>
+	<logical_max>3303</logical_max>
+</variable>
+
+<variable id="phv00080061.v1">
+	<name>ESOPHAGUS</name>
+	<description>Esophagus Cancer</description>
+	<type>encoded value</type>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00080062.v1">
+	<name>ESOPHAGUSDY</name>
+	<description>Days enrollment to Esophagus Cancer</description>
+	<type>integer</type>
+	<unit>days</unit>
+	<logical_min>2085</logical_min>
+	<logical_max>2944</logical_max>
+</variable>
+
+<variable id="phv00080063.v1">
+	<name>STOMACH</name>
+	<description>Stomach Cancer</description>
+	<type>encoded value</type>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00080064.v1">
+	<name>STOMACHDY</name>
+	<description>Days enrollment to Stomach Cancer</description>
+	<type>integer</type>
+	<unit>days</unit>
+	<logical_min>41</logical_min>
+	<logical_max>2863</logical_max>
+</variable>
+
+<variable id="phv00080065.v1">
+	<name>LUNG</name>
+	<description>Lung Cancer</description>
+	<type>encoded value</type>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00080066.v1">
+	<name>LUNGDY</name>
+	<description>Days enrollment to Lung Cancer</description>
+	<type>integer</type>
+	<unit>days</unit>
+	<logical_min>70</logical_min>
+	<logical_max>3647</logical_max>
+</variable>
+
+<variable id="phv00080067.v1">
+	<name>LIVER</name>
+	<description>Liver Cancer</description>
+	<type>encoded value</type>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00080068.v1">
+	<name>LIVERDY</name>
+	<description>Days enrollment to Liver Cancer</description>
+	<type>integer</type>
+	<unit>days</unit>
+	<logical_min>568</logical_min>
+	<logical_max>2696</logical_max>
+</variable>
+
+<variable id="phv00080069.v1">
+	<name>BILARY</name>
+	<description>Bilary Tract Cancer</description>
+	<type>encoded value</type>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00080070.v1">
+	<name>BILARYDY</name>
+	<description>Days enrollment to Bilary Tract Cancer</description>
+	<type>integer</type>
+	<unit>days</unit>
+	<logical_min>1154</logical_min>
+	<logical_max>2964</logical_max>
+</variable>
+
+<variable id="phv00080071.v1">
+	<name>UTERINE</name>
+	<description>Uterine Cancer</description>
+	<type>encoded value</type>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00080072.v1">
+	<name>UTERINEDY</name>
+	<description>Days enrollment to Uterine Cancer</description>
+	<type>integer</type>
+	<unit>days</unit>
+	<logical_min>323</logical_min>
+	<logical_max>3072</logical_max>
+</variable>
+
+<variable id="phv00080073.v1">
+	<name>CERVICAL</name>
+	<description>Cervical Cancer</description>
+	<type>encoded value</type>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00080074.v1">
+	<name>CERVICALDY</name>
+	<description>Days enrollment to Cervical Cancer</description>
+	<type>integer</type>
+	<unit>days</unit>
+	<logical_min>273</logical_min>
+	<logical_max>2694</logical_max>
+</variable>
+
+<variable id="phv00080075.v1">
+	<name>LEUKEMIA</name>
+	<description>Leukemia</description>
+	<type>encoded value</type>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00080076.v1">
+	<name>LEUKEMIADY</name>
+	<description>Days enrollment to Leukemia</description>
+	<type>integer</type>
+	<unit>days</unit>
+	<logical_min>108</logical_min>
+	<logical_max>2826</logical_max>
+</variable>
+
+<variable id="phv00080077.v1">
+	<name>MELANOMA</name>
+	<description>Melanoma</description>
+	<type>encoded value</type>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00080078.v1">
+	<name>MELANOMADY</name>
+	<description>Days enrollment to Melanoma</description>
+	<type>integer</type>
+	<unit>days</unit>
+	<logical_min>539</logical_min>
+	<logical_max>2661</logical_max>
+</variable>
+
+<variable id="phv00080079.v1">
+	<name>CONNECTIVE</name>
+	<description>Connective Tissue Cancer</description>
+	<type>encoded value</type>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00080080.v1">
+	<name>CONNECTIVEDY</name>
+	<description>Days enrollment to Connective Tissue Cancer</description>
+	<type>integer</type>
+	<unit>days</unit>
+	<logical_min>912</logical_min>
+	<logical_max>2367</logical_max>
+</variable>
+
+<variable id="phv00080081.v1">
+	<name>GENITAL</name>
+	<description>Genital Other Cancer</description>
+	<type>encoded value</type>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00080082.v1">
+	<name>GENITALDY</name>
+	<description>Days enrollment to Genital Other Cancer</description>
+	<type>integer</type>
+	<unit>days</unit>
+	<logical_min>293</logical_min>
+	<logical_max>1673</logical_max>
+</variable>
+
+<variable id="phv00080083.v1">
+	<name>KIDNEY</name>
+	<description>Kidney Cancer</description>
+	<type>encoded value</type>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00080084.v1">
+	<name>KIDNEYDY</name>
+	<description>Days enrollment to Kidney Cancer</description>
+	<type>integer</type>
+	<unit>days</unit>
+	<logical_min>500</logical_min>
+	<logical_max>3432</logical_max>
+</variable>
+
+<variable id="phv00080085.v1">
+	<name>BLADDER</name>
+	<description>Bladder Cancer</description>
+	<type>encoded value</type>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00080086.v1">
+	<name>BLADDERDY</name>
+	<description>Days enrollment to Bladder Cancer</description>
+	<type>integer</type>
+	<unit>days</unit>
+	<logical_min>24</logical_min>
+	<logical_max>3249</logical_max>
+</variable>
+
+<variable id="phv00080087.v1">
+	<name>BRAIN</name>
+	<description>Brain Cancer</description>
+	<type>encoded value</type>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00080088.v1">
+	<name>BRAINDY</name>
+	<description>Days enrollment to Brain Cancer</description>
+	<type>integer</type>
+	<unit>days</unit>
+	<logical_min>420</logical_min>
+	<logical_max>3509</logical_max>
+</variable>
+
+<variable id="phv00080089.v1">
+	<name>THYROID</name>
+	<description>Thyroid Cancer</description>
+	<type>encoded value</type>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00080090.v1">
+	<name>THYROIDDY</name>
+	<description>Days enrollment to Thyroid Cancer</description>
+	<type>integer</type>
+	<unit>days</unit>
+	<logical_min>394</logical_min>
+	<logical_max>3451</logical_max>
+</variable>
+
+<variable id="phv00080091.v1">
+	<name>LYMPHOMA</name>
+	<description>Lymphoma Non Hodgkins Cancer</description>
+	<type>encoded value</type>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00080092.v1">
+	<name>LYMPHOMADY</name>
+	<description>Days enrollment to Lymphoma Non Hodgkins Cancer</description>
+	<type>integer</type>
+	<unit>days</unit>
+	<logical_min>121</logical_min>
+	<logical_max>3404</logical_max>
+</variable>
+
+<variable id="phv00080093.v1">
+	<name>MMYELOMA</name>
+	<description>Multiple Myeloma</description>
+	<type>encoded value</type>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00080094.v1">
+	<name>MMYELOMADY</name>
+	<description>Days enrollment to Multiple Myeloma</description>
+	<type>integer</type>
+	<unit>days</unit>
+	<logical_min>115</logical_min>
+	<logical_max>3129</logical_max>
+</variable>
+
+<variable id="phv00080095.v1">
+	<name>COLORECTAL</name>
+	<description>Colorectal Cancer</description>
+	<type>encoded value</type>
+	<comment>Colon, rectosigmoid, or rectal</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00080096.v1">
+	<name>COLORECTALDY</name>
+	<description>Days enrollment to Colorectal Cancer</description>
+	<type>integer</type>
+	<unit>days</unit>
+	<logical_min>20</logical_min>
+	<logical_max>3050</logical_max>
+</variable>
+
+<variable id="phv00080097.v1">
+	<name>OTHCANCER</name>
+	<description>Other Cancer</description>
+	<type>encoded value</type>
+	<comment>Other cancer (e.g. tongue, anal, parotid, respiratory system, salivary gland, larynx, pyriform sinus, sinus, bone, eye, peripheral nerve, urinary, CNS (not brain), adrenal, other endocrine, lymph node, hodgkins lymphoma, appendix, and palate.</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00080098.v1">
+	<name>OTHCANCERDY</name>
+	<description>Days enrollment to Other Cancer</description>
+	<type>integer</type>
+	<unit>days</unit>
+	<logical_min>62</logical_min>
+	<logical_max>3362</logical_max>
+	<comment>Days enrollment to Other cancer (e.g. tongue, anal, parotid, respiratory system, salivary gland, larynx, pyriform sinus, sinus, bone, eye, peripheral nerve, urinary, CNS (not brain), adrenal, other endocrine, lymph node, hodgkins lymphoma, appendix, and palate.</comment>
+</variable>
+
+<variable id="phv00080099.v1">
+	<name>ANYCANCER</name>
+	<description>Any Cancer</description>
+	<type>encoded value</type>
+	<comment>Does not include non-melanoma skin cancer</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00080100.v1">
+	<name>ANYCANCERDY</name>
+	<description>Days enrollment to Any Cancer</description>
+	<type>integer</type>
+	<unit>days</unit>
+	<logical_min>7</logical_min>
+	<logical_max>3647</logical_max>
+</variable>
+
+<variable id="phv00080101.v1">
+	<name>BKHIP</name>
+	<description>Hip fracture</description>
+	<type>encoded value</type>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00080102.v1">
+	<name>BKHIPDY</name>
+	<description>Days enrollment to Hip fracture</description>
+	<type>integer</type>
+	<unit>days</unit>
+	<logical_min>56</logical_min>
+	<logical_max>3607</logical_max>
+</variable>
+
+<variable id="phv00080103.v1">
+	<name>BKHIPSRC</name>
+	<description>Hip fracture source of outcome review (central vs. local)</description>
+	<type>encoded value</type>
+	<comment>Hip fracture source of outcome review (central vs. local)
+		Used central adjudication if complete, otherwise used local adjudication. </comment>
+	<value code="0">Local (CC) Review</value>
+	<value code="1">Central (CCC) Review</value>
+</variable>
+
+<variable id="phv00080104.v1">
+	<name>BKLELBOW</name>
+	<description>Elbow Lower Humerus fracture</description>
+	<type>encoded value</type>
+	<comment>Adjudicated in CT only.</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00080105.v1">
+	<name>BKLELBOWDY</name>
+	<description>Days enrollment to Elbow Lower Humerus fracture</description>
+	<type>integer</type>
+	<unit>days</unit>
+	<logical_min>559</logical_min>
+	<logical_max>2919</logical_max>
+	<comment>Adjudicated in CT only.</comment>
+</variable>
+
+<variable id="phv00080106.v1">
+	<name>BKUELBOW</name>
+	<description>Elbow Upper Radius Ulna fracture</description>
+	<type>encoded value</type>
+	<comment>Adjudicated in CT only.</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00080107.v1">
+	<name>BKUELBOWDY</name>
+	<description>Days enrollment to Elbow Upper Radius Ulna fracture</description>
+	<type>integer</type>
+	<unit>days</unit>
+	<logical_min>51</logical_min>
+	<logical_max>3179</logical_max>
+	<comment>Days enrollment to Elbow Upper Radius Ulna fracture
+		Adjudicated in CT only. </comment>
+</variable>
+
+<variable id="phv00080108.v1">
+	<name>BKELBOWNOS</name>
+	<description>Elbow NOS fracture</description>
+	<type>encoded value</type>
+	<comment>Adjudicated in CT only.</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00080109.v1">
+	<name>BKELBOWNOSDY</name>
+	<description>Days enrollment to Elbow NOS fracture</description>
+	<type>integer</type>
+	<unit>days</unit>
+	<logical_min>1975</logical_min>
+	<logical_max>1975</logical_max>
+	<comment>Adjudicated in CT only.</comment>
+</variable>
+
+<variable id="phv00080110.v1">
+	<name>BKFOOT</name>
+	<description>Foot fracture</description>
+	<type>encoded value</type>
+	<comment>Adjudicated in CT only.</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00080111.v1">
+	<name>BKFOOTDY</name>
+	<description>Days enrollment to Foot fracture</description>
+	<type>integer</type>
+	<unit>days</unit>
+	<logical_min>48</logical_min>
+	<logical_max>3604</logical_max>
+	<comment>Adjudicated in CT only.</comment>
+</variable>
+
+<variable id="phv00080112.v1">
+	<name>BKHAND</name>
+	<description>Hand fracture</description>
+	<type>encoded value</type>
+	<comment>Adjudicated in CT only.</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00080113.v1">
+	<name>BKHANDDY</name>
+	<description>Days enrollment to Hand fracture</description>
+	<type>integer</type>
+	<unit>days</unit>
+	<logical_min>395</logical_min>
+	<logical_max>2983</logical_max>
+	<comment>Adjudicated in CT only.</comment>
+</variable>
+
+<variable id="phv00080114.v1">
+	<name>BKKNEE</name>
+	<description>Knee fracture</description>
+	<type>encoded value</type>
+	<comment>Adjudicated in CT only.</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00080115.v1">
+	<name>BKKNEEDY</name>
+	<description>Days enrollment to Knee fracture</description>
+	<type>integer</type>
+	<unit>days</unit>
+	<logical_min>434</logical_min>
+	<logical_max>3584</logical_max>
+	<comment>Adjudicated in CT only.</comment>
+</variable>
+
+<variable id="phv00080116.v1">
+	<name>BKTIBIAL</name>
+	<description>Knee Tibial fracture</description>
+	<type>encoded value</type>
+	<comment>Adjudicated in CT only.</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00080117.v1">
+	<name>BKTIBIALDY</name>
+	<description>Days enrollment to Knee Tibial fracture</description>
+	<type>integer</type>
+	<unit>days</unit>
+	<logical_min>93</logical_min>
+	<logical_max>2293</logical_max>
+	<comment>Adjudicated in CT only.</comment>
+</variable>
+
+<variable id="phv00080118.v1">
+	<name>BKLARM</name>
+	<description>Lower Arm Radius Ulna fracture</description>
+	<type>encoded value</type>
+	<comment>Adjudicated in CT only.</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00080119.v1">
+	<name>BKLARMDY</name>
+	<description>Days enrollment to Lower Arm Radius Ulna fracture</description>
+	<type>integer</type>
+	<unit>days</unit>
+	<logical_min>57</logical_min>
+	<logical_max>3576</logical_max>
+	<comment>Adjudicated in CT only.</comment>
+</variable>
+
+<variable id="phv00080120.v1">
+	<name>BKWRIST</name>
+	<description>Wrist fracture</description>
+	<type>encoded value</type>
+	<comment>Adjudicated in CT only.</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00080121.v1">
+	<name>BKWRISTDY</name>
+	<description>Days enrollment to Wrist fracture</description>
+	<type>integer</type>
+	<unit>days</unit>
+	<logical_min>290</logical_min>
+	<logical_max>3401</logical_max>
+	<comment>Adjudicated in CT only.</comment>
+</variable>
+
+<variable id="phv00080122.v1">
+	<name>BKLLEG</name>
+	<description>Lower Leg fracture</description>
+	<type>encoded value</type>
+	<comment>Adjudicated in CT only.</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00080123.v1">
+	<name>BKLLEGDY</name>
+	<description>Days enrollment to Lower Leg fracture</description>
+	<type>integer</type>
+	<unit>days</unit>
+	<logical_min>19</logical_min>
+	<logical_max>3234</logical_max>
+	<comment>Adjudicated in CT only.</comment>
+</variable>
+
+<variable id="phv00080124.v1">
+	<name>BKANKLE</name>
+	<description>Ankle fracture</description>
+	<type>encoded value</type>
+	<comment>Adjudicated in CT only.</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00080125.v1">
+	<name>BKANKLEDY</name>
+	<description>Days enrollment to Ankle fracture</description>
+	<type>integer</type>
+	<unit>days</unit>
+	<logical_min>4</logical_min>
+	<logical_max>3160</logical_max>
+	<comment>Adjudicated in CT only.</comment>
+</variable>
+
+<variable id="phv00080126.v1">
+	<name>BKPELVIS</name>
+	<description>Pelvis fracture</description>
+	<type>encoded value</type>
+	<comment>Adjudicated in CT only.</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00080127.v1">
+	<name>BKPELVISDY</name>
+	<description>Days enrollment to Pelvis fracture</description>
+	<type>integer</type>
+	<unit>days</unit>
+	<logical_min>51</logical_min>
+	<logical_max>3218</logical_max>
+	<comment>Adjudicated in CT only.</comment>
+</variable>
+
+<variable id="phv00080128.v1">
+	<name>BKTHORACIC</name>
+	<description>Thoracic Spine fracture</description>
+	<type>encoded value</type>
+	<comment>Adjudicated in CT only.</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00080129.v1">
+	<name>BKTHORACICDY</name>
+	<description>Days enrollment to Thoracic Spine fracture</description>
+	<type>integer</type>
+	<unit>days</unit>
+	<logical_min>460</logical_min>
+	<logical_max>2767</logical_max>
+	<comment>Adjudicated in CT only.</comment>
+</variable>
+
+<variable id="phv00080130.v1">
+	<name>BKLUMBAR</name>
+	<description>Lumbar Spine fracture</description>
+	<type>encoded value</type>
+	<comment>Adjudicated in CT only.</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00080131.v1">
+	<name>BKLUMBARDY</name>
+	<description>Days enrollment to Lumbar Spine fracture</description>
+	<type>integer</type>
+	<unit>days</unit>
+	<logical_min>520</logical_min>
+	<logical_max>2851</logical_max>
+	<comment>Adjudicated in CT only.</comment>
+</variable>
+
+<variable id="phv00080132.v1">
+	<name>BKCOCCYX</name>
+	<description>Coccyx fracture</description>
+	<type>encoded value</type>
+	<comment>Adjudicated in CT only.</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00080133.v1">
+	<name>BKCOCCYXDY</name>
+	<description>Days enrollment to Coccyx fracture</description>
+	<type>integer</type>
+	<unit>days</unit>
+	<logical_min>225</logical_min>
+	<logical_max>2496</logical_max>
+	<comment>Adjudicated in CT only.</comment>
+</variable>
+
+<variable id="phv00080134.v1">
+	<name>BKUHUMERUS</name>
+	<description>Humerus Upper fracture</description>
+	<type>encoded value</type>
+	<comment>Adjudicated in CT only.</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00080135.v1">
+	<name>BKUHUMERUSDY</name>
+	<description>Days enrollment to Humerus Upper fracture</description>
+	<type>integer</type>
+	<unit>days</unit>
+	<logical_min>50</logical_min>
+	<logical_max>3581</logical_max>
+	<comment>Adjudicated in CT only.</comment>
+</variable>
+
+<variable id="phv00080136.v1">
+	<name>BKOHUMERUS</name>
+	<description>Humerus Other fracture</description>
+	<type>encoded value</type>
+	<comment>Adjudicated in CT only.</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00080137.v1">
+	<name>BKOHUMERUSDY</name>
+	<description>Days enrollment to Humerus Other fracture</description>
+	<type>integer</type>
+	<unit>days</unit>
+	<logical_min>1104</logical_min>
+	<logical_max>2713</logical_max>
+	<comment>Adjudicated in CT only.</comment>
+</variable>
+
+<variable id="phv00080138.v1">
+	<name>BKCLAVICLE</name>
+	<description>Clavicle fracture</description>
+	<type>encoded value</type>
+	<comment>Adjudicated in CT only.</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00080139.v1">
+	<name>BKCLAVICLEDY</name>
+	<description>Days enrollment to Clavicle fracture</description>
+	<type>integer</type>
+	<unit>days</unit>
+	<logical_min>146</logical_min>
+	<logical_max>2971</logical_max>
+	<comment>Adjudicated in CT only.</comment>
+</variable>
+
+<variable id="phv00080140.v1">
+	<name>BKSCAPULA</name>
+	<description>Scapula fracture</description>
+	<type>encoded value</type>
+	<comment>Adjudicated in CT only.</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00080141.v1">
+	<name>BKSCAPULADY</name>
+	<description>Days enrollment to Scapula fracture</description>
+	<type>integer</type>
+	<unit>days</unit>
+	<logical_min>286</logical_min>
+	<logical_max>1976</logical_max>
+	<comment>Adjudicated in CT only.</comment>
+</variable>
+
+<variable id="phv00080142.v1">
+	<name>BKULEG</name>
+	<description>Upper Leg fracture</description>
+	<type>encoded value</type>
+	<comment>Adjudicated in CT only.</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00080143.v1">
+	<name>BKULEGDY</name>
+	<description>Days enrollment to Upper Leg fracture</description>
+	<type>integer</type>
+	<unit>days</unit>
+	<logical_min>1089</logical_min>
+	<logical_max>1822</logical_max>
+	<comment>Adjudicated in CT only.</comment>
+</variable>
+
+<variable id="phv00080144.v1">
+	<name>BKUNKFX</name>
+	<description>Unknown Other Fracture</description>
+	<type>encoded value</type>
+	<comment>Adjudicated in CT only.</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00080145.v1">
+	<name>BKUNKFXDY</name>
+	<description>Days enrollment to Unknown Other Fracture</description>
+	<type>integer</type>
+	<unit>days</unit>
+	<comment>Adjudicated in CT only.</comment>
+</variable>
+
+<variable id="phv00080146.v1">
+	<name>ANYFX</name>
+	<description>Any Fracture</description>
+	<type>encoded value</type>
+	<comment>Hip, upper leg, pelvis, knee, lower leg, ankle, foot (not toe), tailbone, spine or back, lower arm or wrist, hand (not finger), elbow, upper arm or shoulder, and other.
+		All fractures were adjudicated for CT.  Only Hip fractures were adjudicated for OS. </comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00080147.v1">
+	<name>ANYFXDY</name>
+	<description>Days enrollment to Any Fracture</description>
+	<type>integer</type>
+	<unit>days</unit>
+	<logical_min>4</logical_min>
+	<logical_max>3607</logical_max>
+	<comment>All fractures were adjudicated for CT.  Only Hip fractures were adjudicated for OS.</comment>
+</variable>
+
+<variable id="phv00080148.v1">
+	<name>DVT</name>
+	<description>Deep Vein Thrombosis</description>
+	<type>encoded value</type>
+	<comment>Adjudicated in HT only.</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00080149.v1">
+	<name>DVTDY</name>
+	<description>Days enrollment to Deep Vein Thrombosis</description>
+	<type>integer</type>
+	<unit>days</unit>
+	<logical_min>178</logical_min>
+	<logical_max>3465</logical_max>
+	<comment>Adjudicated in HT only.</comment>
+</variable>
+
+<variable id="phv00080150.v1">
+	<name>DVTSRC</name>
+	<description>Deep vein thrombosis source of outcome review (central vs. local)</description>
+	<type>encoded value</type>
+	<comment>Deep vein thrombosis source of outcome review (central vs. local)
+		Adudicated in HT only.  Used central adjudication if complete, otherwise used local adjudication. Adudicated in HT only. </comment>
+	<value code="0">Local (CC) Review</value>
+	<value code="1">Central (CCC) Review</value>
+</variable>
+
+<variable id="phv00080151.v1">
+	<name>PE</name>
+	<description>Pulmonary Embolism</description>
+	<type>encoded value</type>
+	<comment>Adjudicated in HT only.</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00080152.v1">
+	<name>PEDY</name>
+	<description>Days enrollment to Pulmonary Embolism</description>
+	<type>integer</type>
+	<unit>days</unit>
+	<logical_min>407</logical_min>
+	<logical_max>3465</logical_max>
+	<comment>Adjudicated in HT only.</comment>
+</variable>
+
+<variable id="phv00080153.v1">
+	<name>PESRC</name>
+	<description>Pulmonary Embolism source of outcome review (central vs. local)</description>
+	<type>encoded value</type>
+	<comment>Pulmonary Embolism source of outcome review (central vs. local)
+		Adjudicated in HT only. Used central adjudication if complete, otherwise used local adjudication. </comment>
+	<value code="0">Local (CC) Review</value>
+	<value code="1">Central (CCC) Review</value>
+</variable>
+
+<variable id="phv00080154.v1">
+	<name>HYST</name>
+	<description>Hysterectomy</description>
+	<type>encoded value</type>
+	<comment>Adjudicated in HT only.</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00080155.v1">
+	<name>HYSTDY</name>
+	<description>Days enrollment to Hysterectomy</description>
+	<type>integer</type>
+	<unit>days</unit>
+	<logical_min>31</logical_min>
+	<logical_max>2963</logical_max>
+	<comment>Adjudicated in HT only.</comment>
+</variable>
+
+<variable id="phv00080156.v1">
+	<name>DEATH</name>
+	<description>Death</description>
+	<type>encoded value</type>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00080157.v1">
+	<name>DEATHDY</name>
+	<description>Days enrollment to Death</description>
+	<type>integer</type>
+	<unit>days</unit>
+	<logical_min>1</logical_min>
+	<logical_max>3764</logical_max>
+</variable>
+
+<variable id="phv00080158.v1">
+	<name>DEATHCAUSE</name>
+	<description>Cause of Death</description>
+	<type>encoded value</type>
+	<comment>Form 124 cause of death.  Set to 100=Not yet adjudicated if death occurred but no Form 124.  Missing indicates no death.</comment>
+	<value code="1">Breast cancer</value>
+	<value code="2">Ovarian cancer</value>
+	<value code="3">Endometrial cancer or cancer of the uterus</value>
+	<value code="4">Colon, rectosigmoid junction, or rectal cancer</value>
+	<value code="8">Other cancer</value>
+	<value code="9">Unknown cancer site</value>
+	<value code="11">Atherosclerotic cardiac disease</value>
+	<value code="12">Cerebrovascular disease</value>
+	<value code="13">Pulmonary Embolism</value>
+	<value code="14">Possible Coronary Heart Disease</value>
+	<value code="18">Other cardiovascular disease</value>
+	<value code="19">Unknown cardiovascular disease</value>
+	<value code="88">Other cause of death, known</value>
+	<value code="99">Unknown cause of death</value>
+	<value code="100">Not yet adjudicated</value>
+</variable>
+
+</data_table>

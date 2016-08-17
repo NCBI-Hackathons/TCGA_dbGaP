@@ -1,0 +1,976 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./datadict_v2.xsl"?>
+<data_table id="pht000392.v1" study_id="phs000134.v4" participant_set="3" date_created="Wed May 27 17:19:19 2009">
+
+<variable id="phv00055153.v1">
+	<name>CONTCT</name>
+	<description>WAS PATIENT ASKED TO CONTACT HIS DOCTOR?</description>
+	<comment></comment>
+	<type></type>
+	<unit></unit>
+	<logical_min></logical_min>
+	<logical_max></logical_max>
+	<curator_type></curator_type>
+	<value code=".">UNKNOWN</value>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00055155.v1">
+	<name>E_DTE</name>
+	<description>DATE OF EXAMINATION, NUMBER OF DAYS SINCE EXAM 1</description>
+	<comment></comment>
+	<type></type>
+	<unit>DAYS</unit>
+	<logical_min></logical_min>
+	<logical_max></logical_max>
+	<curator_type></curator_type>
+</variable>
+
+<variable id="phv00055154.v1">
+	<name>IDTYPE</name>
+	<description>COHORT IDENTIFIER</description>
+	<comment></comment>
+	<type></type>
+	<unit></unit>
+	<logical_min></logical_min>
+	<logical_max></logical_max>
+	<curator_type></curator_type>
+	<value code="0">ORIGINAL COHORT GROUP</value>
+	<value code="1">OFFSPRING GROUP</value>
+	<value code="2">NEW OFFSPRING SPOUSE</value>
+	<value code="3">GENERATION 3</value>
+</variable>
+
+<variable id="phv00055117.v1">
+	<name>OD_ADA</name>
+	<description>ANGLE DEPTH A, O.D.</description>
+	<comment></comment>
+	<type></type>
+	<unit></unit>
+	<logical_min></logical_min>
+	<logical_max></logical_max>
+	<curator_type></curator_type>
+	<value code=".">UNKNOWN</value>
+	<value code="0">SUSPICIOUS</value>
+	<value code="1">ADEQUATE</value>
+	<value code="8">EYE ABSENT</value>
+</variable>
+
+<variable id="phv00055119.v1">
+	<name>OD_ADB</name>
+	<description>IF ANGLE DEPTH A, O.D. IS SUSPICIOUS (OD_ADA = 0), PATIENT SHOULD HAVE A SLIT-LAMP EXAM BEFORE DILATION. ANGLE DEPTH B, BY SLIT LAMP, O.D.</description>
+	<comment></comment>
+	<type></type>
+	<unit></unit>
+	<logical_min></logical_min>
+	<logical_max></logical_max>
+	<curator_type></curator_type>
+	<value code=".">UNKNOWN</value>
+	<value code="0">DO NOT DILATE</value>
+	<value code="2">ADEQUATE, DILATE</value>
+	<value code="7">NOT APPLICABLE</value>
+	<value code="8">EYE ABSENT</value>
+</variable>
+
+<variable id="phv00055141.v1">
+	<name>OD_ADEQ</name>
+	<description>MACULAR EXAM: ADEQUACY, O.D.</description>
+	<comment></comment>
+	<type></type>
+	<unit></unit>
+	<logical_min></logical_min>
+	<logical_max></logical_max>
+	<curator_type></curator_type>
+	<value code=".">UNKNOWN</value>
+	<value code="0">ADEQUATE</value>
+	<value code="1">BORDERLINE ADEQUATE</value>
+	<value code="2">INADEQUATE</value>
+	<value code="8">EYE ABSENT</value>
+</variable>
+
+<variable id="phv00055145.v1">
+	<name>OD_ARC</name>
+	<description>MACULAR EXAM: ARE ANY OF THE FOLLOWING ABNORMALITIES PRESENT THAT COULD EXPLAIN A VISUAL ACUITY OF &lt;= 20/30?  AGE RELATED CATARACT, O.D.</description>
+	<comment></comment>
+	<type></type>
+	<unit></unit>
+	<logical_min></logical_min>
+	<logical_max></logical_max>
+	<curator_type></curator_type>
+	<value code=".">UNKNOWN</value>
+	<value code="1">YES</value>
+	<value code="2">NO</value>
+	<value code="8">EYE ABSENT</value>
+	<value code="9">QUESTIONABLE</value>
+</variable>
+
+<variable id="phv00055111.v1">
+	<name>OD_BCVA1</name>
+	<description>BEST CORRECTED VISUAL ACUITY (AFTER REFRACTION), O.D. 
+ FIRST PART OF FORMULA: OD_BCVA1/OD_BCVA2 + OD_BCVA3, FINGER COUNTING = 9/400+0, HAND MOTION = 8/400+0, LIGHT PERCEPTION = 7/400+0, NO LIGHT PERCEPTION = 2/400+0</description>
+	<comment></comment>
+	<type></type>
+	<unit></unit>
+	<logical_min></logical_min>
+	<logical_max></logical_max>
+	<curator_type></curator_type>
+	<value code=".">UNKNOWN</value>
+	<value code="88">EYE ABSENT</value>
+</variable>
+
+<variable id="phv00055112.v1">
+	<name>OD_BCVA2</name>
+	<description>BEST CORRECTED VISUAL ACUITY (AFTER REFRACTION), O.D. 
+ SECOND PART OF FORMULA: OD_BCVA1/OD_BCVA2 + OD_BCVA3, FINGER COUNTING = 9/400+0, HAND MOTION = 8/400+0, LIGHT PERCEPTION = 7/400+0, NO LIGHT PERCEPTION = 2/400+0</description>
+	<comment></comment>
+	<type></type>
+	<unit></unit>
+	<logical_min></logical_min>
+	<logical_max></logical_max>
+	<curator_type></curator_type>
+	<value code=".">UNKNOWN</value>
+	<value code="888">EYE ABSENT</value>
+</variable>
+
+<variable id="phv00055113.v1">
+	<name>OD_BCVA3</name>
+	<description>BEST CORRECTED VISUAL ACUITY (AFTER REFRACTION), O.D. 
+ THIRD PART OF FORMULA: OD_BCVA1/OD_BCVA2 + OD_BCVA3, FINGER COUNTING = 9/400+0, HAND MOTION = 8/400+0, LIGHT PERCEPTION = 7/400+0, NO LIGHT PERCEPTION = 2/400+0</description>
+	<comment></comment>
+	<type></type>
+	<unit></unit>
+	<logical_min></logical_min>
+	<logical_max></logical_max>
+	<curator_type></curator_type>
+	<value code=".">UNKNOWN</value>
+	<value code="8">EYE ABSENT</value>
+</variable>
+
+<variable id="phv00055135.v1">
+	<name>OD_CCLC</name>
+	<description>SLIT LAMP EXAM: LENS CHANGES: CORTICAL CUNEIFORM LENS CHANGES, O.D.</description>
+	<comment></comment>
+	<type></type>
+	<unit></unit>
+	<logical_min></logical_min>
+	<logical_max></logical_max>
+	<curator_type></curator_type>
+	<value code=".">UNKNOWN</value>
+	<value code="0">ABSENT</value>
+	<value code="1">PRESENT &lt; 1/8</value>
+	<value code="2">&gt;= 1/8, &lt; 1/4</value>
+	<value code="3">&gt;= 1/4, &lt; 1/2</value>
+	<value code="4">&gt;= 1/2</value>
+	<value code="7">NOT APPLICABLE</value>
+	<value code="8">EYE ABSENT</value>
+</variable>
+
+<variable id="phv00055149.v1">
+	<name>OD_CRNA</name>
+	<description>MACULAR EXAM: ARE ANY OF THE FOLLOWING ABNORMALITIES PRESENT THAT COULD EXPLAIN A VISUAL ACUITY OF &lt;= 20/30? CORNEA, O.D.</description>
+	<comment></comment>
+	<type></type>
+	<unit></unit>
+	<logical_min></logical_min>
+	<logical_max></logical_max>
+	<curator_type></curator_type>
+	<value code=".">UNKNOWN</value>
+	<value code="1">YES</value>
+	<value code="2">NO</value>
+	<value code="8">EYE ABSENT</value>
+	<value code="9">QUESTIONABLE</value>
+</variable>
+
+<variable id="phv00055100.v1">
+	<name>OD_DB</name>
+	<description>VISUAL ACUITY DONE BY, O.D.</description>
+	<comment></comment>
+	<type></type>
+	<unit></unit>
+	<logical_min></logical_min>
+	<logical_max></logical_max>
+	<curator_type></curator_type>
+	<value code=".">UNKNOWN</value>
+	<value code="0">REFRACTOMETER</value>
+	<value code="1">PROJECTED VA CHART</value>
+	<value code="8">EYE ABSENT</value>
+</variable>
+
+<variable id="phv00055133.v1">
+	<name>OD_DNL</name>
+	<description>SLIT LAMP EXAM: LENS CHANGES: DECREASED NUCLEAR LUCENCY, O.D.</description>
+	<comment></comment>
+	<type></type>
+	<unit></unit>
+	<logical_min></logical_min>
+	<logical_max></logical_max>
+	<curator_type></curator_type>
+	<value code=".">UNKNOWN</value>
+	<value code="0">&lt; STANDARD 1</value>
+	<value code="1">&gt;= STANDARD 1, &lt; STANDARD 2</value>
+	<value code="2">&gt;= STANDARD 2, &lt; STANDARD 3</value>
+	<value code="3">&gt;= STANDARD 3</value>
+	<value code="7">NOT APPLICABLE</value>
+	<value code="8">EYE ABSENT</value>
+</variable>
+
+<variable id="phv00055131.v1">
+	<name>OD_IOL</name>
+	<description>SLIT LAMP EXAM: IF LENS EXAMINATION, O.D. IS APHAKIC WITH IOL, (OD_LE = 6), IOL IS PRESENT:, O.D.</description>
+	<comment></comment>
+	<type></type>
+	<unit></unit>
+	<logical_min></logical_min>
+	<logical_max></logical_max>
+	<curator_type></curator_type>
+	<value code=".">UNKNOWN</value>
+	<value code="0">NO IOL</value>
+	<value code="1">ANT. CHAMBER</value>
+	<value code="2">POST. CHAMBER</value>
+	<value code="3">IRIS CLIP</value>
+	<value code="7">NOT ABLE TO FIND THE MEANING OF THIS OPTION
+ AT THE TIME OF CLEANING</value>
+	<value code="8">EYE ABSENT</value>
+</variable>
+
+<variable id="phv00055121.v1">
+	<name>OD_IPBD</name>
+	<description>INTRAOCULAR PRESSURE BEFORE DROPS, O.D. (MMHG)</description>
+	<comment></comment>
+	<type></type>
+	<unit>MMHG</unit>
+	<logical_min></logical_min>
+	<logical_max></logical_max>
+	<curator_type></curator_type>
+	<value code=".">UNKNOWN</value>
+	<value code="77">NOT ABLE TO FIND THE MEANING OF THIS OPTION
+ AT THE TIME OF CLEANING</value>
+	<value code="88">EYE ABSENT</value>
+</variable>
+
+<variable id="phv00055123.v1">
+	<name>OD_IRIS</name>
+	<description>IRIS COLOR, O.D.</description>
+	<comment></comment>
+	<type></type>
+	<unit></unit>
+	<logical_min></logical_min>
+	<logical_max></logical_max>
+	<curator_type></curator_type>
+	<value code=".">UNKNOWN</value>
+	<value code="1">BROWN</value>
+	<value code="2">MIXED</value>
+	<value code="3">BLUE</value>
+	<value code="8">EYE ABSENT</value>
+</variable>
+
+<variable id="phv00055129.v1">
+	<name>OD_LE</name>
+	<description>SPLIT LAMP EXAM: 
+ LENS EXAMINATION, O.D.</description>
+	<comment></comment>
+	<type></type>
+	<unit></unit>
+	<logical_min></logical_min>
+	<logical_max></logical_max>
+	<curator_type></curator_type>
+	<value code=".">UNKNOWN</value>
+	<value code="0">ADEQUATE</value>
+	<value code="2">INADEQUATE</value>
+	<value code="6">APHAKIA WITH IOL</value>
+	<value code="7">APHAKIA WITHOUT IOL</value>
+	<value code="8">EYE ABSENT</value>
+</variable>
+
+<variable id="phv00055147.v1">
+	<name>OD_OC</name>
+	<description>MACULAR EXAM: ARE ANY OF THE FOLLOWING ABNORMALITIES PRESENT THAT COULD EXPLAIN A VISUAL ACUITY OF &lt;= 20/30? OTHER CATARACT, O.D.</description>
+	<comment></comment>
+	<type></type>
+	<unit></unit>
+	<logical_min></logical_min>
+	<logical_max></logical_max>
+	<curator_type></curator_type>
+	<value code=".">UNKNOWN</value>
+	<value code="1">YES</value>
+	<value code="2">NO</value>
+	<value code="8">EYE ABSENT</value>
+	<value code="9">QUESTIONABLE</value>
+</variable>
+
+<variable id="phv00055143.v1">
+	<name>OD_OPHT</name>
+	<description>MACULAR EXAM: OPHTHALMOSCOPE USED, O.D.</description>
+	<comment></comment>
+	<type></type>
+	<unit></unit>
+	<logical_min></logical_min>
+	<logical_max></logical_max>
+	<curator_type></curator_type>
+	<value code=".">UNKNOWN</value>
+	<value code="2">DIRECT OR VOLK OR CAMERA ONLY</value>
+	<value code="3">INDIRECT ONLY</value>
+	<value code="4">BOTH DIRECT AND INDIRECT</value>
+	<value code="8">EYE ABSENT</value>
+</variable>
+
+<variable id="phv00055125.v1">
+	<name>OD_PD</name>
+	<description>PUPIL DILATION, O.D.</description>
+	<comment></comment>
+	<type></type>
+	<unit></unit>
+	<logical_min></logical_min>
+	<logical_max></logical_max>
+	<curator_type></curator_type>
+	<value code=".">UNKNOWN</value>
+	<value code="0">ADEQUATE</value>
+	<value code="2">INADEQUATE</value>
+	<value code="3">DILATION CONTRAINDICATED</value>
+	<value code="8">EYE ABSENT</value>
+</variable>
+
+<variable id="phv00055127.v1">
+	<name>OD_PS</name>
+	<description>PUPIL SIZE, O.D. (MM)</description>
+	<comment></comment>
+	<type></type>
+	<unit>MM</unit>
+	<logical_min></logical_min>
+	<logical_max></logical_max>
+	<curator_type></curator_type>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00055138.v1">
+	<name>OD_PSLCH</name>
+	<description>SLIT LAMP EXAM: LENS CHANGES: POSTERIOR SUBCAPSULAR LENS CHANGES, HORIZONTAL, O.D. (MM)</description>
+	<comment></comment>
+	<type></type>
+	<unit>MM</unit>
+	<logical_min></logical_min>
+	<logical_max></logical_max>
+	<curator_type></curator_type>
+	<value code=".">UNKNOWN</value>
+	<value code="8">EYE ABSENT</value>
+</variable>
+
+<variable id="phv00055137.v1">
+	<name>OD_PSLCV</name>
+	<description>SLIT LAMP EXAM: LENS CHANGES: POSTERIOR SUBCAPSULAR LENS CHANGES, VERTICAL, O.D. (MM)</description>
+	<comment></comment>
+	<type></type>
+	<unit>MM</unit>
+	<logical_min></logical_min>
+	<logical_max></logical_max>
+	<curator_type></curator_type>
+	<value code=".">UNKNOWN</value>
+	<value code="8">EYE ABSENT</value>
+</variable>
+
+<variable id="phv00055106.v1">
+	<name>OD_REAXI</name>
+	<description>REFRACTIVE ERROR, BY REFRACTOMETER IF POSSIBLE: AXIS, O.D. 
+ (USE TRIAL LENSES IF REFRACTOMETER CANNOT BE DONE OR IF UNRELIABLE FOR THIS SUBJECT)</description>
+	<comment></comment>
+	<type></type>
+	<unit></unit>
+	<logical_min></logical_min>
+	<logical_max></logical_max>
+	<curator_type></curator_type>
+	<value code=".">UNKNOWN</value>
+	<value code="888">EYE ABSENT</value>
+</variable>
+
+<variable id="phv00055105.v1">
+	<name>OD_RECYL</name>
+	<description>REFRACTIVE ERROR, BY REFRACTOMETER IF POSSIBLE: CYLINDER, O.D. 
+ (USE TRIAL LENSES IF REFRACTOMETER CANNOT BE DONE OR IF UNRELIABLE FOR THIS SUBJECT)</description>
+	<comment></comment>
+	<type></type>
+	<unit></unit>
+	<logical_min></logical_min>
+	<logical_max></logical_max>
+	<curator_type></curator_type>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00055104.v1">
+	<name>OD_RESP</name>
+	<description>REFRACTIVE ERROR, BY REFRACTOMETER IF POSSIBLE: SPHERE, O.D. 
+ (USE TRIAL LENSES IF REFRACTOMETER CANNOT BE DONE OR IF UNRELIABLE FOR THIS SUBJECT)</description>
+	<comment></comment>
+	<type></type>
+	<unit></unit>
+	<logical_min></logical_min>
+	<logical_max></logical_max>
+	<curator_type></curator_type>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00055094.v1">
+	<name>OD_VA1</name>
+	<description>VISUAL ACUITY WITH &quot;WALK-IN&quot; CORRECTION, BY REFRACTOMETER IF POSSIBLE 
+ FIRST PART OF FORMULA: OD_VA1/OD_VA2 + OD_VA3, FINGER COUNTING = 9/400+0, HAND MOTION = 8/400+0, LIGHT PERCEPTION = 7/400+0, NO LIGHT PERCEPTION = 2/400+0</description>
+	<comment></comment>
+	<type></type>
+	<unit></unit>
+	<logical_min></logical_min>
+	<logical_max></logical_max>
+	<curator_type></curator_type>
+	<value code=".">UNKNOWN</value>
+	<value code="88">EYE ABSENT</value>
+</variable>
+
+<variable id="phv00055095.v1">
+	<name>OD_VA2</name>
+	<description>VISUAL ACUITY WITH &quot;WALK-IN&quot; CORRECTION, BY REFRACTOMETER IF POSSIBLE 
+ SECOND PART OF FORMULA: OD_VA1/OD_VA2 + OD_VA3, FINGER COUNTING = 9/400+0, HAND MOTION = 8/400+0, LIGHT PERCEPTION = 7/400+0, NO LIGHT PERCEPTION = 2/400+0</description>
+	<comment></comment>
+	<type></type>
+	<unit></unit>
+	<logical_min></logical_min>
+	<logical_max></logical_max>
+	<curator_type></curator_type>
+	<value code=".">UNKNOWN</value>
+	<value code="888">EYE ABSENT</value>
+</variable>
+
+<variable id="phv00055096.v1">
+	<name>OD_VA3</name>
+	<description>VISUAL ACUITY WITH &quot;WALK-IN&quot; CORRECTION, BY REFRACTOMETER IF POSSIBLE 
+ THIRD PART OF FORMULA: OD_VA1/OD_VA2 + OD_VA3, FINGER COUNTING = 9/400+0, HAND MOTION = 8/400+0, LIGHT PERCEPTION = 7/400+0, NO LIGHT PERCEPTION = 2/400+0</description>
+	<comment></comment>
+	<type></type>
+	<unit></unit>
+	<logical_min></logical_min>
+	<logical_max></logical_max>
+	<curator_type></curator_type>
+	<value code=".">UNKNOWN</value>
+	<value code="8">EYE ABSENT</value>
+</variable>
+
+<variable id="phv00055151.v1">
+	<name>OD_VITR</name>
+	<description>MACULAR EXAM: ARE ANY OF THE FOLLOWING ABNORMALITIES PRESENT THAT COULD EXPLAIN A VISUAL ACUITY OF &lt;= 20/30? VITREOUS, O.D.</description>
+	<comment></comment>
+	<type></type>
+	<unit></unit>
+	<logical_min></logical_min>
+	<logical_max></logical_max>
+	<curator_type></curator_type>
+	<value code=".">UNKNOWN</value>
+	<value code="1">YES</value>
+	<value code="2">NO</value>
+	<value code="8">EYE ABSENT</value>
+	<value code="9">QUESTIONABLE</value>
+</variable>
+
+<variable id="phv00055102.v1">
+	<name>OD_WIC</name>
+	<description>VISUAL ACUITY &quot;WALK-IN&quot; CORRECTION, O.D.</description>
+	<comment></comment>
+	<type></type>
+	<unit></unit>
+	<logical_min></logical_min>
+	<logical_max></logical_max>
+	<curator_type></curator_type>
+	<value code=".">UNKNOWN</value>
+	<value code="0">NOTHING</value>
+	<value code="1">SPECTACLES</value>
+	<value code="2">CONTACT LENSES</value>
+	<value code="8">EYE ABSENT</value>
+</variable>
+
+<variable id="phv00055156.v1">
+	<name>OD_YCS</name>
+	<description>SLIT LAMP EXAM: IF LENS EXAMINATION, O.D. IS APHAKIC (OD_LE = 6 OR 7), YEAR OF CATARACT SURGERY, O.D., NUMBER OF YEARS SINCE EXAM 1</description>
+	<comment></comment>
+	<type></type>
+	<unit>YEARS</unit>
+	<logical_min></logical_min>
+	<logical_max></logical_max>
+	<curator_type></curator_type>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00055118.v1">
+	<name>OS_ADA</name>
+	<description>ANGLE DEPTH A, O.S.</description>
+	<comment></comment>
+	<type></type>
+	<unit></unit>
+	<logical_min></logical_min>
+	<logical_max></logical_max>
+	<curator_type></curator_type>
+	<value code=".">UNKNOWN</value>
+	<value code="0">SUSPICIOUS</value>
+	<value code="1">ADEQUATE</value>
+	<value code="8">EYE ABSENT</value>
+</variable>
+
+<variable id="phv00055120.v1">
+	<name>OS_ADB</name>
+	<description>IF ANGLE DEPTH A, O.S. IS SUSPICIOUS (OS_ADA = 0), PATIENT SHOULD HAVE A SLIT-LAMP EXAM BEFORE DILATION.  ANGLE DEPTH B, BY SLIT LAMP, O.S.</description>
+	<comment></comment>
+	<type></type>
+	<unit></unit>
+	<logical_min></logical_min>
+	<logical_max></logical_max>
+	<curator_type></curator_type>
+	<value code=".">UNKNOWN</value>
+	<value code="0">DO NOT DILATE</value>
+	<value code="2">ADEQUATE, DILATE</value>
+	<value code="7">NOT APPLICABLE</value>
+	<value code="8">EYE ABSENT</value>
+</variable>
+
+<variable id="phv00055142.v1">
+	<name>OS_ADEQ</name>
+	<description>MACULAR EXAM: ADEQUACY, O.S.</description>
+	<comment></comment>
+	<type></type>
+	<unit></unit>
+	<logical_min></logical_min>
+	<logical_max></logical_max>
+	<curator_type></curator_type>
+	<value code=".">UNKNOWN</value>
+	<value code="0">ADEQUATE</value>
+	<value code="1">BORDERLINE ADEQUATE</value>
+	<value code="2">INADEQUATE</value>
+	<value code="8">EYE ABSENT</value>
+</variable>
+
+<variable id="phv00055146.v1">
+	<name>OS_ARC</name>
+	<description>MACULAR EXAM: ARE ANY OF THE FOLLOWING ABNORMALITIES PRESENT THAT COULD EXPLAIN A VISUAL ACUITY OF &lt;= 20/30? AGE RELATED CATARACT, O.S.</description>
+	<comment></comment>
+	<type></type>
+	<unit></unit>
+	<logical_min></logical_min>
+	<logical_max></logical_max>
+	<curator_type></curator_type>
+	<value code=".">UNKNOWN</value>
+	<value code="1">YES</value>
+	<value code="2">NO</value>
+	<value code="8">EYE ABSENT</value>
+	<value code="9">QUESTIONABLE</value>
+</variable>
+
+<variable id="phv00055114.v1">
+	<name>OS_BCVA1</name>
+	<description>BEST CORRECTED VISUAL ACUITY (AFTER REFRACTION), O.S. 
+ FIRST PART OF FORMULA: OS_BCVA1/OS_BCVA2 + OS_BCVA3, FINGER COUNTING = 9/400+0, HAND MOTION = 8/400+0, LIGHT PERCEPTION = 7/400+0, NO LIGHT PERCEPTION = 2/400+0</description>
+	<comment></comment>
+	<type></type>
+	<unit></unit>
+	<logical_min></logical_min>
+	<logical_max></logical_max>
+	<curator_type></curator_type>
+	<value code=".">UNKNOWN</value>
+	<value code="88">EYE ABSENT</value>
+</variable>
+
+<variable id="phv00055115.v1">
+	<name>OS_BCVA2</name>
+	<description>BEST CORRECTED VISUAL ACUITY (AFTER REFRACTION), O.S. 
+ SECOND PART OF FORMULA: OS_BCVA1/OS_BCVA2 + OS_BCVA3, FINGER COUNTING = 9/400+0, HAND MOTION = 8/400+0, LIGHT PERCEPTION = 7/400+0, NO LIGHT PERCEPTION = 2/400+0</description>
+	<comment></comment>
+	<type></type>
+	<unit></unit>
+	<logical_min></logical_min>
+	<logical_max></logical_max>
+	<curator_type></curator_type>
+	<value code=".">UNKNOWN</value>
+	<value code="888">EYE ABSENT</value>
+</variable>
+
+<variable id="phv00055116.v1">
+	<name>OS_BCVA3</name>
+	<description>BEST CORRECTED VISUAL ACUITY (AFTER REFRACTION), O.S. 
+ THIRD PART OF FORMULA: OS_BCVA1/OS_BCVA2 + OS_BCVA3, FINGER COUNTING = 9/400+0, HAND MOTION = 8/400+0, LIGHT PERCEPTION = 7/400+0, NO LIGHT PERCEPTION = 2/400+0</description>
+	<comment></comment>
+	<type></type>
+	<unit></unit>
+	<logical_min></logical_min>
+	<logical_max></logical_max>
+	<curator_type></curator_type>
+	<value code=".">UNKNOWN</value>
+	<value code="8">EYE ABSENT</value>
+</variable>
+
+<variable id="phv00055136.v1">
+	<name>OS_CCLC</name>
+	<description>SLIT LAMP EXAM: LENS CHANGES: CORTICAL CUNEIFORM LENS CHANGES, O.S.</description>
+	<comment></comment>
+	<type></type>
+	<unit></unit>
+	<logical_min></logical_min>
+	<logical_max></logical_max>
+	<curator_type></curator_type>
+	<value code=".">UNKNOWN</value>
+	<value code="0">ABSENT</value>
+	<value code="1">PRESENT &lt; 1/8</value>
+	<value code="2">&gt;= 1/8, &lt; 1/4</value>
+	<value code="3">&gt;= 1/4, &lt; 1/2</value>
+	<value code="4">&gt;= 1/2</value>
+	<value code="7">NOT APPLICABLE</value>
+	<value code="8">EYE ABSENT</value>
+</variable>
+
+<variable id="phv00055150.v1">
+	<name>OS_CRNA</name>
+	<description>MACULAR EXAM: ARE ANY OF THE FOLLOWING ABNORMALITIES PRESENT THAT COULD EXPLAIN A VISUAL ACUITY OF &lt;= 20/30? CORNEA, O.S.</description>
+	<comment></comment>
+	<type></type>
+	<unit></unit>
+	<logical_min></logical_min>
+	<logical_max></logical_max>
+	<curator_type></curator_type>
+	<value code=".">UNKNOWN</value>
+	<value code="1">YES</value>
+	<value code="2">NO</value>
+	<value code="8">EYE ABSENT</value>
+	<value code="9">QUESTIONABLE</value>
+</variable>
+
+<variable id="phv00055101.v1">
+	<name>OS_DB</name>
+	<description>VISUAL ACUITY DONE BY, 0.S.</description>
+	<comment></comment>
+	<type></type>
+	<unit></unit>
+	<logical_min></logical_min>
+	<logical_max></logical_max>
+	<curator_type></curator_type>
+	<value code=".">UNKNOWN</value>
+	<value code="0">REFRACTOMETER</value>
+	<value code="1">PROJECTED VA CHART</value>
+	<value code="8">EYE ABSENT</value>
+</variable>
+
+<variable id="phv00055134.v1">
+	<name>OS_DNL</name>
+	<description>SLIT LAMP EXAM: LENS CHANGES: DECREASED NUCLEAR LUCENCY, O.S.</description>
+	<comment></comment>
+	<type></type>
+	<unit></unit>
+	<logical_min></logical_min>
+	<logical_max></logical_max>
+	<curator_type></curator_type>
+	<value code=".">UNKNOWN</value>
+	<value code="0">&lt; STANDARD 1</value>
+	<value code="1">&gt;= STANDARD 1, &lt; STANDARD 2</value>
+	<value code="2">&gt;= STANDARD 2, &lt; STANDARD 3</value>
+	<value code="3">&gt;= STANDARD 3</value>
+	<value code="7">NOT APPLICABLE</value>
+	<value code="8">EYE ABSENT</value>
+</variable>
+
+<variable id="phv00055132.v1">
+	<name>OS_IOL</name>
+	<description>SLIT LAMP EXAM: IF LENS EXAMINATION, O.S. IS APHAKIC WITH IOL, (OS_LE = 6), IOL IS PRESENT:, O.S.</description>
+	<comment></comment>
+	<type></type>
+	<unit></unit>
+	<logical_min></logical_min>
+	<logical_max></logical_max>
+	<curator_type></curator_type>
+	<value code=".">UNKNOWN</value>
+	<value code="0">NO IOL</value>
+	<value code="1">ANT. CHAMBER</value>
+	<value code="2">POST. CHAMBER</value>
+	<value code="3">IRIS CLIP</value>
+	<value code="7">NOT ABLE TO FIND THE MEANING OF THIS OPTION
+ AT THE TIME OF CLEANING</value>
+	<value code="8">EYE ABSENT</value>
+</variable>
+
+<variable id="phv00055122.v1">
+	<name>OS_IPBD</name>
+	<description>INTRAOCULAR PRESSURE BEFORE DROPS, O.S. (MMHG)</description>
+	<comment></comment>
+	<type></type>
+	<unit>MMHG</unit>
+	<logical_min></logical_min>
+	<logical_max></logical_max>
+	<curator_type></curator_type>
+	<value code=".">UNKNOWN</value>
+	<value code="77">NOT ABLE TO FIND THE MEANING OF THIS OPTION
+ AT THE TIME OF CLEANING</value>
+	<value code="88">EYE ABSENT</value>
+</variable>
+
+<variable id="phv00055124.v1">
+	<name>OS_IRIS</name>
+	<description>IRIS COLOR, O.S.</description>
+	<comment></comment>
+	<type></type>
+	<unit></unit>
+	<logical_min></logical_min>
+	<logical_max></logical_max>
+	<curator_type></curator_type>
+	<value code=".">UNKNOWN</value>
+	<value code="1">BROWN</value>
+	<value code="2">MIXED</value>
+	<value code="3">BLUE</value>
+	<value code="8">EYE ABSENT</value>
+</variable>
+
+<variable id="phv00055130.v1">
+	<name>OS_LE</name>
+	<description>SPLIT LAMP EXAM: 
+ LENS EXAMINATION, O.S.</description>
+	<comment></comment>
+	<type></type>
+	<unit></unit>
+	<logical_min></logical_min>
+	<logical_max></logical_max>
+	<curator_type></curator_type>
+	<value code=".">UNKNOWN</value>
+	<value code="0">ADEQUATE</value>
+	<value code="2">INADEQUATE</value>
+	<value code="6">APHAKIA WITH IOL</value>
+	<value code="7">APHAKIA WITHOUT IOL</value>
+	<value code="8">EYE ABSENT</value>
+</variable>
+
+<variable id="phv00055148.v1">
+	<name>OS_OC</name>
+	<description>MACULAR EXAM: ARE ANY OF THE FOLLOWING ABNORMALITIES PRESENT THAT COULD EXPLAIN A VISUAL ACUITY OF &lt;= 20/30? OTHER CATARACT, O.S.</description>
+	<comment></comment>
+	<type></type>
+	<unit></unit>
+	<logical_min></logical_min>
+	<logical_max></logical_max>
+	<curator_type></curator_type>
+	<value code=".">UNKNOWN</value>
+	<value code="1">YES</value>
+	<value code="2">NO</value>
+	<value code="8">EYE ABSENT</value>
+	<value code="9">QUESTIONABLE</value>
+</variable>
+
+<variable id="phv00055144.v1">
+	<name>OS_OPHT</name>
+	<description>MACULAR EXAM: OPHTHALMOSCOPE USED, O.S.</description>
+	<comment></comment>
+	<type></type>
+	<unit></unit>
+	<logical_min></logical_min>
+	<logical_max></logical_max>
+	<curator_type></curator_type>
+	<value code=".">UNKNOWN</value>
+	<value code="2">DIRECT OR VOLK OR CAMERA ONLY</value>
+	<value code="3">INDIRECT ONLY</value>
+	<value code="4">BOTH DIRECT AND INDIRECT</value>
+	<value code="8">EYE ABSENT</value>
+</variable>
+
+<variable id="phv00055126.v1">
+	<name>OS_PD</name>
+	<description>PUPIL DILATION, O.S.</description>
+	<comment></comment>
+	<type></type>
+	<unit></unit>
+	<logical_min></logical_min>
+	<logical_max></logical_max>
+	<curator_type></curator_type>
+	<value code=".">UNKNOWN</value>
+	<value code="0">ADEQUATE</value>
+	<value code="2">INADEQUATE</value>
+	<value code="3">DILATION CONTRAINDICATED</value>
+	<value code="8">EYE ABSENT</value>
+</variable>
+
+<variable id="phv00055128.v1">
+	<name>OS_PS</name>
+	<description>PUPIL SIZE, O.S. (MM)</description>
+	<comment></comment>
+	<type></type>
+	<unit>MM</unit>
+	<logical_min></logical_min>
+	<logical_max></logical_max>
+	<curator_type></curator_type>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00055140.v1">
+	<name>OS_PSLCH</name>
+	<description>SLIT LAMP EXAM: LENS CHANGES: POSTERIOR SUBCAPSULAR LENS CHANGES, HORIZONTAL, O.S. (MM)</description>
+	<comment></comment>
+	<type></type>
+	<unit>MM</unit>
+	<logical_min></logical_min>
+	<logical_max></logical_max>
+	<curator_type></curator_type>
+	<value code=".">UNKNOWN</value>
+	<value code="8">EYE ABSENT</value>
+</variable>
+
+<variable id="phv00055139.v1">
+	<name>OS_PSLCV</name>
+	<description>SLIT LAMP EXAM: LENS CHANGES: POSTERIOR SUBCAPSULAR LENS CHANGES, VERTICAL, O.S. (MM)</description>
+	<comment></comment>
+	<type></type>
+	<unit>MM</unit>
+	<logical_min></logical_min>
+	<logical_max></logical_max>
+	<curator_type></curator_type>
+	<value code=".">UNKNOWN</value>
+	<value code="8">EYE ABSENT</value>
+</variable>
+
+<variable id="phv00055109.v1">
+	<name>OS_REAXI</name>
+	<description>REFRACTIVE ERROR, BY REFRACTOMETER IF POSSIBLE: AXIS, O.S. 
+ (USE TRIAL LENSES IF REFRACTOMETER CANNOT BE DONE OR IF UNRELIABLE FOR THIS SUBJECT)</description>
+	<comment></comment>
+	<type></type>
+	<unit></unit>
+	<logical_min></logical_min>
+	<logical_max></logical_max>
+	<curator_type></curator_type>
+	<value code=".">UNKNOWN</value>
+	<value code="888">EYE ABSENT</value>
+</variable>
+
+<variable id="phv00055108.v1">
+	<name>OS_RECYL</name>
+	<description>REFRACTIVE ERROR, BY REFRACTOMETER IF POSSIBLE: CYLINDER, O.S. 
+ (USE TRIAL LENSES IF REFRACTOMETER CANNOT BE DONE OR IF UNRELIABLE FOR THIS SUBJECT)</description>
+	<comment></comment>
+	<type></type>
+	<unit></unit>
+	<logical_min></logical_min>
+	<logical_max></logical_max>
+	<curator_type></curator_type>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00055107.v1">
+	<name>OS_RESP</name>
+	<description>REFRACTIVE ERROR, BY REFRACTOMETER IF POSSIBLE: SPHERE, O.S. 
+ (USE TRIAL LENSES IF REFRACTOMETER CANNOT BE DONE OR IF UNRELIABLE FOR THIS SUBJECT)</description>
+	<comment></comment>
+	<type></type>
+	<unit></unit>
+	<logical_min></logical_min>
+	<logical_max></logical_max>
+	<curator_type></curator_type>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00055097.v1">
+	<name>OS_VA1</name>
+	<description>VISUAL ACUITY WITH &quot;WALK-IN&quot; CORRECTION, BY REFRACTOMETER IF POSSIBLE 
+ FIRST PART OF FORMULA: OS_VA1/OS_VA2 + OS_VA3, FINGER COUNTING = 9/400+0, HAND MOTION = 8/400+0, LIGHT PERCEPTION = 7/400+0, NO LIGHT PERCEPTION = 2/400+0</description>
+	<comment></comment>
+	<type></type>
+	<unit></unit>
+	<logical_min></logical_min>
+	<logical_max></logical_max>
+	<curator_type></curator_type>
+	<value code=".">UNKNOWN</value>
+	<value code="88">EYE ABSENT</value>
+</variable>
+
+<variable id="phv00055098.v1">
+	<name>OS_VA2</name>
+	<description>VISUAL ACUITY WITH &quot;WALK-IN&quot; CORRECTION, BY 
+ REFRACTOMETER IF POSSIBLE SECOND PART OF FORMULA: OS_VA1/OS_VA2 + OS_VA3, FINGER COUNTING = 9/400+0, HAND MOTION = 8/400+0, LIGHT PERCEPTION = 7/400+0, NO LIGHT PERCEPTION = 2/400+0</description>
+	<comment></comment>
+	<type></type>
+	<unit></unit>
+	<logical_min></logical_min>
+	<logical_max></logical_max>
+	<curator_type></curator_type>
+	<value code=".">UNKNOWN</value>
+	<value code="888">EYE ABSENT</value>
+</variable>
+
+<variable id="phv00055099.v1">
+	<name>OS_VA3</name>
+	<description>VISUAL ACUITY WITH &quot;WALK-IN&quot; CORRECTION, BY REFRACTOMETER IF POSSIBLE 
+ THIRD PART OF FORMULA: OS_VA1/OS_VA2 + OS_VA3, FINGER COUNTING = 9/400+0, HAND MOTION = 8/400+0, LIGHT PERCEPTION = 7/400+0, NO LIGHT PERCEPTION = 2/400+0</description>
+	<comment></comment>
+	<type></type>
+	<unit></unit>
+	<logical_min></logical_min>
+	<logical_max></logical_max>
+	<curator_type></curator_type>
+	<value code=".">UNKNOWN</value>
+	<value code="8">EYE ABSENT</value>
+</variable>
+
+<variable id="phv00055152.v1">
+	<name>OS_VITR</name>
+	<description>MACULAR EXAM: ARE ANY OF THE FOLLOWING ABNORMALITIES PRESENT THAT COULD EXPLAIN A VISUAL ACUITY OF &lt;= 20/30? VITREOUS, O.S.</description>
+	<comment></comment>
+	<type></type>
+	<unit></unit>
+	<logical_min></logical_min>
+	<logical_max></logical_max>
+	<curator_type></curator_type>
+	<value code=".">UNKNOWN</value>
+	<value code="1">YES</value>
+	<value code="2">NO</value>
+	<value code="8">EYE ABSENT</value>
+	<value code="9">QUESTIONABLE</value>
+</variable>
+
+<variable id="phv00055103.v1">
+	<name>OS_WIC</name>
+	<description>VISUAL ACUITY &quot;WALK-IN&quot; CORRECTION, O.S.</description>
+	<comment></comment>
+	<type></type>
+	<unit></unit>
+	<logical_min></logical_min>
+	<logical_max></logical_max>
+	<curator_type></curator_type>
+	<value code=".">UNKNOWN</value>
+	<value code="0">NOTHING</value>
+	<value code="1">SPECTACLES</value>
+	<value code="2">CONTACT LENSES</value>
+	<value code="8">EYE ABSENT</value>
+</variable>
+
+<variable id="phv00055157.v1">
+	<name>OS_YCS</name>
+	<description>SLIT LAMP EXAM: IF LENS EXAMINATION, O.S. IS APHAKIC, (OS_LE = 6 OR 7), YEAR OF CATARACT SURGERY, O.S., NUMBER OF YEARS SINCE EXAM 1</description>
+	<comment></comment>
+	<type></type>
+	<unit>YEARS</unit>
+	<logical_min></logical_min>
+	<logical_max></logical_max>
+	<curator_type></curator_type>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00055110.v1">
+	<name>REDB</name>
+	<description>REFRACTIVE ERROR DONE BY</description>
+	<comment></comment>
+	<type></type>
+	<unit></unit>
+	<logical_min></logical_min>
+	<logical_max></logical_max>
+	<curator_type></curator_type>
+	<value code=".">UNKNOWN</value>
+	<value code="0">REFRACTOMETER</value>
+	<value code="1">TRIAL LENSES</value>
+</variable>
+
+<variable id="phv00055158.v1">
+	<name>shareid</name>
+	<description>UNIQUE PARTICIPANT ID</description>
+	<comment></comment>
+	<type></type>
+	<unit></unit>
+	<logical_min></logical_min>
+	<logical_max></logical_max>
+	<curator_type></curator_type>
+</variable>
+
+</data_table>

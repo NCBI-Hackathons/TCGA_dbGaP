@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./datadict_v2.xsl"?>
+<data_table id="pht001056.v1" study_id="phs000219.v1" participant_set="1" date_created="Tue Jan 19 13:07:05 2010">
+
+<unique_key phv="00081192" version="1">SUBJID</unique_key>
+<unique_key phv="00081196" version="1">VISIT</unique_key>
+
+<variable id="phv00081192.v1">
+	<name>SUBJID</name>
+	<description>Subject&#39;s ID</description>
+	<type>String</type>
+</variable>
+
+<variable id="phv00081193.v1">
+	<name>CASE_CONTROL</name>
+	<description>Subject type</description>
+	<type>Encoded value</type>
+	<value code="ADP">AD Participant</value>
+	<value code="CASE">Case</value>
+	<value code="CCCS">Control with Change in Cognitive Status</value>
+	<value code="CNTL">Control</value>
+	<value code="FAM">Family member</value>
+	<value code="UASB">Unaffected Sibling</value>
+</variable>
+
+<variable id="phv00081194.v1">
+	<name>INV</name>
+	<description>Investigator&#39;s ID</description>
+	<type>String</type>
+</variable>
+
+<variable id="phv00081195.v1">
+	<name>INVSITE</name>
+	<description>Investigator site ID</description>
+	<type>String</type>
+</variable>
+
+<variable id="phv00081196.v1">
+	<name>VISIT</name>
+	<description>Visit name</description>
+	<type>String</type>
+</variable>
+
+<variable id="phv00081197.v1">
+	<name>VISIT_DATE</name>
+	<description>Visit date</description>
+	<type>Date</type>
+	<comment>Truncated to YYYY</comment>
+</variable>
+
+<variable id="phv00081198.v1">
+	<name>ADPROB</name>
+	<description>Probable AD</description>
+	<type>Encoded Value</type>
+	<value code="N">No</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00081199.v1">
+	<name>COGFUNC</name>
+	<description>Is functionally and cognitively intact?</description>
+	<type>Encoded Value</type>
+	<value code="N">No</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00081200.v1">
+	<name>DIAGDT</name>
+	<description>Date</description>
+	<type>Date</type>
+	<comment>Truncated to YYYY</comment>
+</variable>
+
+<variable id="phv00081201.v1">
+	<name>REASON</name>
+	<description>Reason for override</description>
+	<type>String</type>
+</variable>
+
+<variable id="phv00081202.v1">
+	<name>TOTSC</name>
+	<description>Total Score</description>
+	<type>Integer</type>
+</variable>
+
+<variable id="phv00081203.v1">
+	<name>INVCODE</name>
+	<description>Unique code for Doctor&#39;s name</description>
+	<type>Integer</type>
+	<comment>Doctor&#39;s name not provided</comment>
+</variable>
+
+<variable id="phv00081204.v1">
+	<name>ABRUPT_ONSET_HISSR</name>
+	<description>ABRUPT ONSET: HISS response</description>
+	<type>Integer</type>
+	<logical_min>1</logical_min>
+	<logical_max>2</logical_max>
+	<value code="2">Item applies</value>
+</variable>
+
+<variable id="phv00081205.v1">
+	<name>ASSOC_ATHERO_HISSR</name>
+	<description>ASSOCIATED ATHEROSCLEROSIS: HISS response</description>
+	<type>Integer</type>
+	<logical_min>1</logical_min>
+	<logical_max>2</logical_max>
+	<value code="1">Item applies</value>
+</variable>
+
+<variable id="phv00081206.v1">
+	<name>DEPRESSION_HISSR</name>
+	<description>DEPRESSION: HISS response</description>
+	<type>Integer</type>
+	<logical_min>1</logical_min>
+	<logical_max>2</logical_max>
+	<value code="1">Item applies</value>
+</variable>
+
+<variable id="phv00081207.v1">
+	<name>EMO_INCONTINENCE_HISSR</name>
+	<description>EMOTIONAL INCONTINENCE: HISS response</description>
+	<type>Integer</type>
+	<logical_min>1</logical_min>
+	<logical_max>2</logical_max>
+	<value code="1">Item applies</value>
+</variable>
+
+<variable id="phv00081208.v1">
+	<name>FLUC_COURSE_HISSR</name>
+	<description>FLUCTUATING COURSE: HISS response</description>
+	<type>Integer</type>
+	<logical_min>1</logical_min>
+	<logical_max>2</logical_max>
+	<value code="2">Item applies</value>
+</variable>
+
+<variable id="phv00081209.v1">
+	<name>FOCAL_SIGNS_HISSR</name>
+	<description>FOCAL NEUROLOGICAL SIGNS: HISS response</description>
+	<type>Integer</type>
+	<logical_min>1</logical_min>
+	<logical_max>2</logical_max>
+	<value code="2">Item applies</value>
+</variable>
+
+<variable id="phv00081210.v1">
+	<name>FOCAL_SYMPTOMS_HISSR</name>
+	<description>FOCAL NEUROLOGICAL SYMPTOMS: HISS response</description>
+	<type>Integer</type>
+	<logical_min>1</logical_min>
+	<logical_max>2</logical_max>
+	<value code="2">Item applies</value>
+</variable>
+
+<variable id="phv00081211.v1">
+	<name>HYPERTENSION_HISSR</name>
+	<description>HISTORY OF HYPERTENSION: HISS response</description>
+	<type>Integer</type>
+	<logical_min>1</logical_min>
+	<logical_max>2</logical_max>
+	<value code="1">Item applies</value>
+</variable>
+
+<variable id="phv00081212.v1">
+	<name>STROKE_HISSR</name>
+	<description>HISTORY OF STROKE: HISS response</description>
+	<type>Integer</type>
+	<logical_min>1</logical_min>
+	<logical_max>2</logical_max>
+	<value code="2">Item applies</value>
+</variable>
+
+<variable id="phv00081213.v1">
+	<name>NOC_CONFUSION_HISSR</name>
+	<description>NOCTURNAL CONFUSION: HISS response</description>
+	<type>Integer</type>
+	<logical_min>1</logical_min>
+	<logical_max>2</logical_max>
+	<value code="1">Item applies</value>
+</variable>
+
+<variable id="phv00081214.v1">
+	<name>PRES_PERSONALITY_HISSR</name>
+	<description>PRESERVATION OF PERSONALITY: HISS response</description>
+	<type>Integer</type>
+	<logical_min>1</logical_min>
+	<logical_max>2</logical_max>
+	<value code="1">Item applies</value>
+</variable>
+
+<variable id="phv00081215.v1">
+	<name>SOMATIC_COMPL_HISSR</name>
+	<description>SOMATIC COMPLAINTS: HISS response</description>
+	<type>Integer</type>
+	<logical_min>1</logical_min>
+	<logical_max>2</logical_max>
+	<value code="1">Item applies</value>
+</variable>
+
+<variable id="phv00081216.v1">
+	<name>STEP_DETER_HISSR</name>
+	<description>STEPWISE DETERIORATION: HISS response</description>
+	<type>Integer</type>
+	<logical_min>1</logical_min>
+	<logical_max>2</logical_max>
+	<value code="1">Item applies</value>
+</variable>
+
+</data_table>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./datadict_v2.xsl"?>
+<data_table id="pht000790.v1" study_id="phs000180.v1" participant_set="1" date_created="Fri May  8 14:10:43 2009">
+
+<variable id="phv00073475.v1">
+	<name>SUBJID</name>
+	<description>Subject identifier</description>
+	<type>string</type>
+	<comment>T1DGC Analytic ID - an 8-digit identifer - or UNKNOWN-CASE-n</comment>
+</variable>
+
+<variable id="phv00073476.v1">
+	<name>CONSENT</name>
+	<description>Consent group as determined by DAC</description>
+	<type>encoded value</type>
+	<value code="0">Subjects did not participate in the study, did not complete a consent document and are included only for the pedigree structure and/or genotype controls, such as HapMap subjects</value>
+	<value code="1">T1D and related conditions only (T1DRC)</value>
+</variable>
+
+<variable id="phv00073477.v1">
+	<name>SUBJ_SOURCE</name>
+	<description>Subject source</description>
+	<type>string</type>
+	<value code="JDRF/WT-DIL">Juvenile Diabetes Research Foundation/Wellcome Trust - Diabetes and Inflammation Laboratory</value>
+</variable>
+
+<variable id="phv00073478.v1">
+	<name>SOURCE_SUBJID</name>
+	<description>Source subject identifier</description>
+	<type>string</type>
+	<comment>JDRF/WT DIL (Juvenile Diabetes Research Foundation/Wellcome Trust - Diabetes and Inflammation Laboratory)  subjectid - 9 digits plus checkletter - or UNKNOWN-CASE-n</comment>
+</variable>
+
+<variable id="phv00073479.v1">
+	<name>AFFECTION_STATUS</name>
+	<description>T1D status</description>
+	<type>encoded value</type>
+	<value code="1">Not case</value>
+	<value code="2">Case</value>
+	<value code="3">Unknown</value>
+</variable>
+
+</data_table>

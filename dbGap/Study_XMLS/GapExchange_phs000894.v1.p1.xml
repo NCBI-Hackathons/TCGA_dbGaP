@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GaPExchange xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="./dbGaPEx2.1.5.xsd">
+
+<MetaVariables>
+	<Submitter/>
+	<Method/>
+</MetaVariables>
+<MetaLinks/>
+
+<Projects>
+	<Project/>
+</Projects>
+
+<Studies>
+
+<Study source="dbGaP" accession="phs000894.v1.p1" parentStudy="phs000894.v1.p1" createDate="2015-03-31" modDate="2015-03-31">
+
+<Configuration>
+	<Data_Provider><![CDATA[
+		<table border="1">
+		<tr><th>Title</th><th>Name</th><th>Institute</th></tr>
+		<tr><td>Principal Investigator</td><td>Dan Roden, MD</td><td>Vanderbilt University Medical Center, Nashville, TN, USA</td></tr>
+		</table>
+	]]></Data_Provider>
+	<StudyNameEntrez>Genome Wide Study of Vancomycin</StudyNameEntrez>
+	<StudyNameReportPage>Genome Wide Association Study of Serum Creatinine during Vancomycin Therapy and Vancomycin Pharmacokinetics</StudyNameReportPage>
+	<StudyTypes>
+		<StudyType>Cohort</StudyType>
+	</StudyTypes>
+	<Description><![CDATA[
+<p>The goal of this study was to identify genetic variants associated with risk for acute kidney injury (AKI) in patients being treated with vancomycin and genetic variants associated with variability in vancomycin pharmacokinetics. AKI is a common adverse drug event and known complication of vancomycin therapy. Known risk factors fail to accurately predict renal toxicity. Our hypothesis, that genetic variants modify the risk of AKI, was tested by performing genome-wide association and linear regression in 429 patients of European descent using the outcome of peak serum creatinine while on vancomycin. We also tested the hypothesis that genetic variants associate with vancomycin pharmacokinetics, using vancomycin trough levels and calculated renal elimination rate constant as outcomes.</p>]]>
+	</Description>
+	<StudyInEx><![CDATA[
+<p>All patients exposed to vancomycin with documented vancomycin dose, outcomes, and covariate data in BioVU, the Vanderbilt Biobank, were included. Children (age &#60; 18 years), individuals who were not of European ancestry, and those failing quality control were excluded. </p>]]>
+	</StudyInEx>
+	<StudyProjects>
+		<Project/>
+	</StudyProjects>
+	<Diseases>
+		<Disease vocab_source="MESH" vocab_term="Acute Kidney Injury"/>
+	</Diseases>
+	<Attributions>
+		<Header title="Principal Investigator">
+			<AttName>Dan Roden, MD</AttName>
+			<Institution>Vanderbilt University Medical Center, Nashville, TN, USA</Institution>
+		</Header>
+	</Attributions>
+	<DisplayPublicSummary>yes</DisplayPublicSummary>
+	<ConsentGroups>
+		<ConsentGroup groupNum="1" shortName="HMB" longName="Health/Medical/Biomedical"/>
+	</ConsentGroups>
+</Configuration>
+
+  <AuthorizedAccess>
+    <DacInfo ssDacId="0">
+      <DacName>NIGMS</DacName>
+      <DacFullName>National Institute of General Medical Sciences DAC</DacFullName>
+      <DacEmail>0</DacEmail>
+      <DacPhone></DacPhone>
+      <DacUrl></DacUrl>
+    </DacInfo>
+    <Policy Policy_ID="phs000894.v1.p1_policy" ref_ssDacId="0">
+      <DisplayResearchStatement>yes</DisplayResearchStatement>
+      <DisplayPublicSummary>yes</DisplayPublicSummary>
+      <EmbargoLength>12</EmbargoLength>
+      <YearsUntilRenewal>1</YearsUntilRenewal>
+      <WeeksCancelRequest>8</WeeksCancelRequest>
+      <PdfSupplementReqired>no</PdfSupplementReqired>
+      <AcknowledgementText>
+        <para>
+          http://dbgap.ncbi.nlm.nih.gov/aa/wga.cgi?page=DUC&amp;view_pdf&amp;stacc=phs000894.v1.p1
+        </para>
+      </AcknowledgementText>
+      <DocumentSet>
+        <DataUseCertificate Label="Data Use Certificate" FilePath="https://dbgap.ncbi.nlm.nih.gov/aa/wga.cgi?page=DUC&amp;view_pdf&amp;stacc=phs000894.v1.p1" FileName="Roden_DUC_3.27.15.pdf"/>
+      </DocumentSet>
+    </Policy>
+    <ConsentGroups>
+      <ParticipantSet groupNum-REF="1">
+        <ConsentName>Health/Medical/Biomedical</ConsentName>
+        <ConsentAbbrev>HMB</ConsentAbbrev>
+        <UseLimitation>Use of this data is limited to health/medical/biomedical purposes, does not include the study of population origins or ancestry.</UseLimitation>
+        <IrbRequired>No</IrbRequired>
+      </ParticipantSet>
+    </ConsentGroups>
+  </AuthorizedAccess>
+
+
+</Study>
+
+</Studies>
+
+</GaPExchange>

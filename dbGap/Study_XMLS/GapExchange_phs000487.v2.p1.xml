@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GaPExchange xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="./dbGaPEx2.1.5.xsd">
+
+<MetaVariables>
+	<Submitter/>
+	<Method/>
+</MetaVariables>
+<MetaLinks/>
+
+<Projects>
+	<Project/>
+</Projects>
+
+<Studies>
+
+<Study source="dbGaP" accession="phs000487.v2.p1" parentStudy="phs000487.v2.p1" createDate="2014-04-07" modDate="2014-04-07">
+
+<Configuration>
+	<Data_Provider><![CDATA[
+		<table border="1">
+		<tr><th>Title</th><th>Name</th><th>Institute</th></tr>
+		<tr><td>Principal Investigator</td><td>Francesca Demichelis, PhD</td><td>Centre for Integrative Biology, University of Trento, Trento, Italy</td></tr>
+		<tr><td>Funding Source</td><td>UO1CA113913</td><td>EDRN, National Cancer Institute, National Institutes of Health, Bethesda, MD, USA</td></tr>
+		</table>
+	]]></Data_Provider>
+	<StudyNameEntrez>Functionally Active Copy Number Variants Associated with Prostate Cancer Risk</StudyNameEntrez>
+	<StudyNameReportPage>Functionally Active Copy Number Variants Associated with Prostate Cancer Risk</StudyNameReportPage>
+	<StudyTypes>
+		<StudyType>Case-Control</StudyType>
+	</StudyTypes>
+	<Description><![CDATA[
+<p>Prostate cancer is a leading cause of cancer death in males throughout the world and has the largest estimated effect of heritability among the most common tumor types. Copy Number Variants (CNVs) are a recently recognized class of human germline polymorphisms (Iafrate AJ, et al. (2004) Nat Genet 36, 949-951; Sebat J, et al. (2004) Science 305, 525-528.) and are associated with a variety of human diseases, including cancer. This study characterized 1,903 individuals from the Tyrol Early Prostate Cancer Detection Program (Bartsch G, et al. (2008) BJU Int 101, 809-816) using a computational framework (Banerjee S, et al. (2011) PLoS One 29;6(3)). The study results establish non-coding and coding germline CNVs as significant risk factors for prostate cancer susceptibility and implicate their role in disease development and progression. The study "Identification of functionally active, low frequency copy number variants at 15q21.3 and 12q21.31 associated with prostate cancer risk," Demichelis F, Setlur SR, Proc Natl Acad Sci U S A. 2012 Apr 24;109(17):6686-91.</p>]]>
+	</Description>
+	<StudyInEx><![CDATA[
+<p>All individuals included in the discovery are part of the Tyrol Prostate Specific Antigen (PSA) Screening Cohort. Cases were defined as men with biopsy confirmed prostate cancer. Controls were defined as men with a benign prostate biopsy result and no cancer diagnosis in available follow-up data. </p>]]>
+	</StudyInEx>
+	<StudyProjects>
+		<Project/>
+	</StudyProjects>
+	<Publications>
+		<Publication>
+			<Pubmed pmid="18321314"/>
+		</Publication>
+		<Publication>
+			<Pubmed pmid="21479260"/>
+		</Publication>
+		<Publication>
+			<Pubmed pmid="21307934"/>
+		</Publication>
+		<Publication>
+			<Pubmed pmid="22496589"/>
+		</Publication>
+	</Publications>
+	<Diseases>
+		<Disease vocab_source="MESH" vocab_term="Prostatic Neoplasms"/>
+	</Diseases>
+	<Attributions>
+		<Header title="Principal Investigator">
+			<AttName>Francesca Demichelis, PhD</AttName>
+			<Institution>Centre for Integrative Biology, University of Trento, Trento, Italy</Institution>
+		</Header>
+		<Header title="Funding Source">
+			<AttName>UO1CA113913</AttName>
+			<Institution>EDRN, National Cancer Institute, National Institutes of Health, Bethesda, MD, USA</Institution>
+		</Header>
+	</Attributions>
+	<DisplayPublicSummary>yes</DisplayPublicSummary>
+	<ConsentGroups>
+		<ConsentGroup groupNum="1" shortName="DS-PC-NPU-MDS-GSO" longName="Disease-Specific (Prostate Cancer, NPU, MDS, GSO)"/>
+	</ConsentGroups>
+</Configuration>
+
+  <AuthorizedAccess>
+    <DacInfo ssDacId="0">
+      <DacName>NCI</DacName>
+      <DacFullName>NCI</DacFullName>
+      <DacEmail>0</DacEmail>
+      <DacPhone></DacPhone>
+      <DacUrl></DacUrl>
+    </DacInfo>
+    <Policy Policy_ID="phs000487.v2.p1_policy" ref_ssDacId="0">
+      <DisplayResearchStatement>yes</DisplayResearchStatement>
+      <DisplayPublicSummary>yes</DisplayPublicSummary>
+      <EmbargoLength>12</EmbargoLength>
+      <YearsUntilRenewal>1</YearsUntilRenewal>
+      <WeeksCancelRequest>8</WeeksCancelRequest>
+      <PdfSupplementReqired>no</PdfSupplementReqired>
+      <AcknowledgementText>
+        <para>
+          http://dbgap.ncbi.nlm.nih.gov/aa/wga.cgi?page=DUC&amp;view_pdf&amp;stacc=phs000487.v2.p1
+        </para>
+      </AcknowledgementText>
+      <DocumentSet>
+        <DataUseCertificate Label="Data Use Certificate" FilePath="https://dbgap.ncbi.nlm.nih.gov/aa/wga.cgi?page=DUC&amp;view_pdf&amp;stacc=phs000487.v2.p1" FileName="Demichelis_DUC.pdf"/>
+      </DocumentSet>
+    </Policy>
+    <ConsentGroups>
+      <ParticipantSet groupNum-REF="1">
+        <ConsentName>Disease-Specific (Prostate Cancer, NPU, MDS, GSO)</ConsentName>
+        <ConsentAbbrev>DS-PC-NPU-MDS-GSO</ConsentAbbrev>
+        <UseLimitation>Use of the data must be related to Prostate Cancer. Use of the data is limited to not-for-profit organizations. Use of the data includes methods development research (e.g., development of software or algorithms). Use of the data is limited to genetic studies only.</UseLimitation>
+        <IrbRequired>No</IrbRequired>
+      </ParticipantSet>
+    </ConsentGroups>
+  </AuthorizedAccess>
+
+<Analyses>
+	<Analysis pha="3578" genomeBuild="" snpBuild="" analysisType="">
+		<Description><![CDATA[
+Prostate cancer is a leading cause of cancer death in males throughout the world and has the largest estimated effect of heritability among the most common tumor types. This study characterized 1,903 unrelated men of Caucasian origin from the Tyrol Early Prostate Cancer Detection Program (Bartsch G, et al. (2008) BJU Int 101, 809-816) for functionally active Copy Number Variants (CNVs) using Affymetrix 6.0 platform. The study results establish non-coding and coding germline CNVs as significant risk factors for prostate cancer susceptibility and implicate their role in disease development and progression (Identification of functionally active, low frequency copy number variants at 15q21.3 and 12q21.31 associated with prostate cancer risk, <a href="http://www.ncbi.nlm.nih.gov/pubmed/22496589">Demichelis F, Setlur SR, Proc Natl Acad Sci U S A. 2012 Apr 24;109(17):6686-91</a>.The sample size is 1,903 (867 cases and 1,036 controls) and covariates are age and PSA.
+		]]></Description>
+		<Method>CNV analysis</Method>
+		<Comment></Comment>
+	</Analysis>
+	<Analysis pha="3579" genomeBuild="" snpBuild="" analysisType="">
+		<Description><![CDATA[
+Prostate cancer is a leading cause of cancer death in males throughout the world and has the largest estimated effect of heritability among the most common tumor types. This study characterized 1,903 unrelated men of Caucasian origin from t he Tyrol Early Prostate Cancer Detection Program (Bartsch G, et al. (2008) BJU Int 101, 809-816) for functionally active Copy Number Variants (CNVs) Affymetrix 6.0 platform. The study results establish non-coding and coding germline CNVs as significant risk factors for aggressive prostate cancer susceptibility and implicate their role in disease development and progression (Identification of functionally active, low frequency copy number variants at 15q21.3 and 12q21.31 associated with prostate cancer risk, <a href="http://www.ncbi.nlm.nih.gov/pubmed/22496589">Demichelis F, Setlur SR, Proc Natl Acad Sci U S A. 2012 Apr 24;109(17):6686-91</a>. The sample size is 1,903 (433 cases and 1,470 controls) and covariates are age and PSA. Aggressive prostate cancer was defined as in DAmico AV, et al. (1998, JAMA 280:969974).
+		]]></Description>
+		<Method>CNV analysis</Method>
+		<Comment></Comment>
+	</Analysis>
+</Analyses>
+
+</Study>
+
+</Studies>
+
+</GaPExchange>

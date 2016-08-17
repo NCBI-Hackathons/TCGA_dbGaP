@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./datadict_v2.xsl"?>
+<data_table id="pht000257.v1" study_id="phs000086.v2" participant_set="1" date_created="Wed Feb  3 09:19:16 2010">
+
+<variable id="phv00030928.v1">
+	<name>EVENT</name>
+	<description>Description of event</description>
+	<type>str36</type>
+</variable>
+
+<variable id="phv00030929.v1">
+	<name>ORIGIN</name>
+	<description>Source of event data (Calculated: derived from automated comparison; hardcode: coded explicitly in setup program; master: master data set)</description>
+	<type>str10</type>
+	<value code="CALCULATED">DERIVED FROM AUTOMATED COMPARISON</value>
+	<value code="FORMS">F003.4, F003.3, F003.2, F020.4, F021.7, F021.6, F024.1</value>
+	<value code="HARDCODE">CODED EXPLICITLY IN SET-UP PROGRAM</value>
+	<value code="MASTER">MASTER DATA SET</value>
+</variable>
+
+<variable id="phv00030930.v1">
+	<name>EVT_DATE</name>
+	<description>Date of event</description>
+	<type>long</type>
+</variable>
+
+<variable id="phv00030931.v1">
+	<name>EVT_CODE</name>
+	<description>Event code</description>
+	<type>byte</type>
+	<value code="1">DEATH</value>
+	<value code="2">CEREBROVASCULAR DEATH</value>
+	<value code="3">CARDIOVASULAR DEATH</value>
+	<value code="4">UNEXPLAINED SUDDEN DEATH</value>
+	<value code="5">NO REVIEW OR CONSENSUS</value>
+	<value code="6">DEFINITE ACUTE MI</value>
+	<value code="7">SUSPECTED ACUTE MI</value>
+	<value code="8">BYPASS GRAFT/ANGIOPLASTY</value>
+	<value code="9">ANGINA PECTORIS</value>
+	<value code="10">DOCUMENTED ANGINA</value>
+	<value code="11">UNDOCUMENTED ANGINA</value>
+	<value code="12">CARDIAC ARRHYTHMIA</value>
+	<value code="13">MAJOR EKG ABNORMALITY</value>
+	<value code="14">SILENT MI</value>
+	<value code="15">CONGESTIVE HEART FAILURE</value>
+	<value code="16">STROKE</value>
+	<value code="17">TRANSIENT ISCHEMIC ATTACK</value>
+	<value code="18">AMPUTATION</value>
+	<value code="19">ARTERIAL EVENT (REQUIRING SURGERY)</value>
+	<value code="20">CLAUDICATION</value>
+	<value code="21">CONFIRMED CLAUDICATION</value>
+	<value code="22">UNCONFIRMED CLAUDICATION</value>
+	<value code="23">FOOT ULCER (REQUIRING HOSPITALIZATION)</value>
+	<value code="24">PERSISTENT LOSS OF PEDAL PULSES</value>
+	<value code="30">FOCAL NEUROPATHY</value>
+	<value code="31">PAIN IN EXTREMITIES</value>
+	<value code="32">MEDICATION FOR PAIN</value>
+	<value code="90">CVA W/PERMANENT NEURAL DEFICIENCY</value>
+	<value code="91">CVA W/OUT PERMANENT NEURAL DEFICIENCY</value>
+</variable>
+
+<variable id="phv00030932.v1">
+	<name>GROUP</name>
+	<description>Patient&#39;s treatment group</description>
+	<type>str12</type>
+	<value code="EXPERIMENTAL">INTENSIVE TREATMENT</value>
+	<value code="STANDARD">CONVENTIONAL TREATMENT</value>
+</variable>
+
+<variable id="phv00030933.v1">
+	<name>RETBASE</name>
+	<description>Baseline retinopathy stratum</description>
+	<type>str4</type>
+	<value code="PRIM">PRIMARY PREVENTION</value>
+	<value code="SCND">SECONDARY INTERVENTION</value>
+</variable>
+
+<variable id="phv00030934.v1">
+	<name>DISEASE</name>
+	<description>Type of disease (death, cad, cvd, pvd)</description>
+	<type>str3</type>
+	<value code="CAD">CORONARY ARTERY DISEASE</value>
+	<value code="CVD">CEREBROVASCULAR DISEASE</value>
+	<value code="NIL">USED TO DISTINGUISH DUPLICATE DESCRIPTIONS IN CATEGORY HEADINGS FROM DETAILED EVENT DESCRIPTIONS</value>
+	<value code="PVD">PERIPHERAL VASCULAR DISEASE</value>
+</variable>
+
+<variable id="phv00030935.v1">
+	<name>DEGREE</name>
+	<description>Degree of disease (death, major event, other, nil [events less severe than &#39;other events of interest&#39;])</description>
+	<type>str5</type>
+</variable>
+
+<variable id="phv00030936.v1">
+	<name>SEX</name>
+	<description>Patient&#39;s gender (from form 001)</description>
+	<type>str1</type>
+	<value code="F">FEMALE</value>
+	<value code="M">MALE</value>
+</variable>
+
+<variable id="phv00030937.v1">
+	<name>AGE</name>
+	<description>Age at randomization (calculated)</description>
+	<type>byte</type>
+	<unit>YEARS</unit>
+</variable>
+
+<variable id="phv00030938.v1">
+	<name>MASK_PAT</name>
+	<description>Patient ID number</description>
+	<type>int</type>
+</variable>
+
+<variable id="phv00030939.v1">
+	<name>EVT_TIME</name>
+	<description>Time of event (years from randomization)</description>
+	<type>float</type>
+	<unit>YEARS</unit>
+</variable>
+
+</data_table>

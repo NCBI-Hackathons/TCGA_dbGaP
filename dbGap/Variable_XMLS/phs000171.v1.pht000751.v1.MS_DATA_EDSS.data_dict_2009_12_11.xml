@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./datadict_v2.xsl"?>
+<data_table id="pht000751.v1" study_id="phs000171.v1" participant_set="1" date_created="Fri Dec 11 14:12:43 2009">
+
+<unique_key phv="00072742" version="1">SUBJID</unique_key>
+<unique_key phv="00072749" version="1">REPEATSN</unique_key>
+
+<variable id="phv00072742.v1">
+	<name>SUBJID</name>
+	<description>Subject&#39;s ID</description>
+	<type>string</type>
+</variable>
+
+<variable id="phv00072743.v1">
+	<name>CASE_CONTROL</name>
+	<description>Case, Control</description>
+	<type>string</type>
+</variable>
+
+<variable id="phv00072744.v1">
+	<name>STUDY</name>
+	<description>Study ID</description>
+	<type>string</type>
+	<comment>Always RES101833</comment>
+</variable>
+
+<variable id="phv00072745.v1">
+	<name>INVSITE</name>
+	<description>Investigator site ID</description>
+	<type>string</type>
+	<comment>Numeric code identifying the site (for internal use)</comment>
+</variable>
+
+<variable id="phv00072746.v1">
+	<name>INV</name>
+	<description>Investigator&#39;s ID</description>
+	<type>string</type>
+	<comment>Numeric code identifying the investigator (for internal use)</comment>
+</variable>
+
+<variable id="phv00072747.v1">
+	<name>VISIT</name>
+	<description>Visit name</description>
+	<type>string</type>
+	<value code="CSA">Common Subject Assessment</value>
+	<value code="ELIGIBILITY">Eligibility questionnaire</value>
+	<value code="BASELINE">Baseline assessment questionnaire</value>
+	<value code="LAB WBC">Lab results</value>
+	<value code="SELF REPORT">Subject completed self report questionnaire</value>
+</variable>
+
+<variable id="phv00072748.v1">
+	<name>VISIT_DATE</name>
+	<description>Visit date</description>
+	<type>date</type>
+	<comment>Truncated to YYYY</comment>
+</variable>
+
+<variable id="phv00072749.v1">
+	<name>REPEATSN</name>
+	<description>Repeat sequence number</description>
+	<type>number</type>
+	<comment>Composite primary key field 
+		Unique ID per subject EDS evaluation. </comment>
+</variable>
+
+<variable id="phv00072750.v1">
+	<name>EDSSC</name>
+	<description>EDSS (Expanded Disability Status Scale) Score</description>
+	<type>Decimal</type>
+	<logical_min>0</logical_min>
+	<logical_max>7.5</logical_max>
+</variable>
+
+<variable id="phv00072751.v1">
+	<name>EDSSCDT</name>
+	<description>EDSS (Expanded Disability Status Scale) Score Date</description>
+	<type>Date</type>
+	<comment>Truncated to YYYY</comment>
+</variable>
+
+</data_table>

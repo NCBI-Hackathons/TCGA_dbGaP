@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./datadict_v2.xsl"?>
+<data_table id="pht001144.v2" study_id="phs000178.v4" participant_set="4" date_created="Fri Jan 21 12:55:25 2011">
+
+<unique_key phv="00088160" version="2">BCRPATIENTBARCODE</unique_key>
+<unique_key phv="00088166" version="2">BCRRADIATIONBARCODE</unique_key>
+
+<variable id="phv00088160.v2">
+	<name>BCRPATIENTBARCODE</name>
+	<description>Subject identifier</description>
+	<type>string</type>
+</variable>
+
+<variable id="phv00088161.v2">
+	<name>RADIATIONDOSAGE</name>
+	<description>Total dose of radiation therapy administered, expressed as a dosage amount</description>
+	<type>string</type>
+</variable>
+
+<variable id="phv00088162.v2">
+	<name>NUMFRACTIONS</name>
+	<description>Total number of radiation therapy sessions (fractions) which the patient completed to receive the required radiation dose to primary treatment fields</description>
+	<type>string</type>
+</variable>
+
+<variable id="phv00088163.v2">
+	<name>RADIATIONTYPE</name>
+	<description>Classification for the form of radiation therapy administered to a subject</description>
+	<type>string</type>
+	<value code="COMBINATION">COMBINATION</value>
+	<value code="EXTERNAL BEAM">EXTERNAL BEAM</value>
+	<value code="IMPLANTS">IMPLANTS</value>
+	<value code="OTHER: SPECIFY IN NOTES">OTHER: SPECIFY IN NOTES</value>
+	<value code="RADIOISOTOPES">RADIOISOTOPES</value>
+	<value code="null">null</value>
+</variable>
+
+<variable id="phv00088164.v2">
+	<name>RADIATIONTREATMENTONGOING</name>
+	<description>Signifies if a subject is still receiving radiation therapy</description>
+	<type>string</type>
+	<value code="NO">NO</value>
+	<value code="YES">YES</value>
+	<value code="null">null</value>
+</variable>
+
+<variable id="phv00088165.v2">
+	<name>UNITS</name>
+	<description>A unit of measurement corresponding to a dose of radiation therapy given to a subject</description>
+	<type>string</type>
+</variable>
+
+<variable id="phv00088167.v2">
+	<name>DAYSTORADIATIONTREATMENTSTART</name>
+	<description>Days elapsed from date of initial diagnosis to start of radiation treatment</description>
+	<type>integer</type>
+	<unit>days</unit>
+</variable>
+
+<variable id="phv00088166.v2">
+	<name>BCRRADIATIONBARCODE</name>
+	<description>Unique identifier for a subject radiation treatment</description>
+	<type>string</type>
+</variable>
+
+<variable id="phv00088168.v2">
+	<name>DAYSTORADIATIONTREATMENTEND</name>
+	<description>Days elapsed from date of initial diagnosis to end of radiation treatment</description>
+	<type>integer</type>
+	<unit>days</unit>
+</variable>
+
+<variable id="phv00088159.v2">
+	<name>ANATOMICTREATMENTSITE</name>
+	<description>Describes radiation therapy administration in reference to location of disease</description>
+	<type>string</type>
+</variable>
+
+</data_table>

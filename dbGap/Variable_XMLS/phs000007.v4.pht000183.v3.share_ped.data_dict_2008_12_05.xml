@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./datadict_v2.xsl"?>
+<data_table id="pht000183.v3" study_id="phs000007.v4" participant_set="2" date_created="Fri Dec  5 17:10:35 2008">
+
+<variable id="phv00024069.v2">
+	<name>fshare</name>
+	<description>Father ID</description>
+</variable>
+
+<variable id="phv00024075.v2">
+	<name>geno</name>
+	<description>Equals one if subject appears in genotype files</description>
+</variable>
+
+<variable id="phv00024076.v2">
+	<name>genrel_0108</name>
+	<description>Equals one if consent_0108 allows distribution to both non-profit and private entities, zero otherwise</description>
+</variable>
+
+<variable id="phv00024073.v2">
+	<name>IDTYPE</name>
+	<description>Refers to the Framingham cohort the sample comes from, useful to identify which files phenotypes will be found</description>
+	<value code="0">original cohort (gen1)</value>
+	<value code="1">first offspring recruits (gen2)</value>
+	<value code="2">spouses of first offspring recruits, aka NOS</value>
+	<value code="3">second offspring recruits (gen3)</value>
+</variable>
+
+<variable id="phv00024072.v2">
+	<name>itwin</name>
+	<description>Used to designate IDENTICAL individuals within families. The pairs within families have the same number, so that the first identical pair are both designated as 1, the second pair are both designated as 2, there are no families at present with more than two pairs of identical twins.</description>
+	<value code="1">First identical pair of twins</value>
+	<value code="2">Second identical pair of twins</value>
+</variable>
+
+<variable id="phv00024070.v2">
+	<name>mshare</name>
+	<description>Mother ID</description>
+</variable>
+
+<variable id="phv00024077.v2">
+	<name>nonprof_0108</name>
+	<description>Equals one if consent_0108 limits distribution to non-profit entities only, zero otherwise</description>
+</variable>
+
+<variable id="phv00024067.v2">
+	<name>pedno</name>
+	<description>The family number, present for all subjects found in the pedigree file, and absent for those not included in share_ped_0108_v1.csv</description>
+</variable>
+
+<variable id="phv00065584.v1">
+	<name>release_0108</name>
+	<description>Equals one if consent_0108 allows distribution to either non-profit or private entities, zero otherwise</description>
+</variable>
+
+<variable id="phv00024071.v2">
+	<name>SEX</name>
+	<description>Gender</description>
+	<value code="1">male</value>
+	<value code="2">female</value>
+</variable>
+
+<variable id="phv00024068.v2">
+	<name>shareid</name>
+	<description>Subject ID</description>
+</variable>
+
+</data_table>

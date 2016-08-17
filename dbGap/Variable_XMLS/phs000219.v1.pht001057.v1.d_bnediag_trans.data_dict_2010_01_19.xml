@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./datadict_v2.xsl"?>
+<data_table id="pht001057.v1" study_id="phs000219.v1" participant_set="1" date_created="Tue Jan 19 13:07:28 2010">
+
+<unique_key phv="00081217" version="1">SUBJID</unique_key>
+<unique_key phv="00081221" version="1">VISIT</unique_key>
+
+<variable id="phv00081217.v1">
+	<name>SUBJID</name>
+	<description>Subject&#39;s ID</description>
+	<type>String</type>
+</variable>
+
+<variable id="phv00081218.v1">
+	<name>CASE_CONTROL</name>
+	<description>Subject type</description>
+	<type>Encoded value</type>
+	<value code="ADP">AD Participant</value>
+	<value code="CASE">Case</value>
+	<value code="CCCS">Control with Change in Cognitive Status</value>
+	<value code="CNTL">Control</value>
+	<value code="FAM">Family member</value>
+	<value code="UASB">Unaffected Sibling</value>
+</variable>
+
+<variable id="phv00081219.v1">
+	<name>INV</name>
+	<description>Investigator&#39;s ID</description>
+	<type>String</type>
+</variable>
+
+<variable id="phv00081220.v1">
+	<name>INVSITE</name>
+	<description>Investigator site ID</description>
+	<type>String</type>
+</variable>
+
+<variable id="phv00081221.v1">
+	<name>VISIT</name>
+	<description>Visit name</description>
+	<type>String</type>
+</variable>
+
+<variable id="phv00081222.v1">
+	<name>VISIT_DATE</name>
+	<description>Visit date</description>
+	<type>Date</type>
+	<comment>Truncated to YYYY</comment>
+</variable>
+
+<variable id="phv00081223.v1">
+	<name>ADDUR</name>
+	<description>Alzheimer&#39;s disease duration</description>
+	<type>Integer</type>
+	<unit>Years</unit>
+</variable>
+
+<variable id="phv00081224.v1">
+	<name>AGEDIAG</name>
+	<description>Age at physician&#39;s diagnosis</description>
+	<type>Integer</type>
+	<unit>Years</unit>
+</variable>
+
+<variable id="phv00081225.v1">
+	<name>AGEON</name>
+	<description>Age at onset of symptoms</description>
+	<type>Integer</type>
+	<unit>Years</unit>
+</variable>
+
+<variable id="phv00081226.v1">
+	<name>DIAGDT</name>
+	<description>Date of diagnosis</description>
+	<type>Date</type>
+	<comment>Truncated to YYYY</comment>
+</variable>
+
+<variable id="phv00081227.v1">
+	<name>DIAGYR</name>
+	<description>Year of diagnosis of disease</description>
+	<type>Date</type>
+	<comment>Truncated to YYYY</comment>
+</variable>
+
+<variable id="phv00081228.v1">
+	<name>MCIYN</name>
+	<description>Diagnosed with MCI (Mild Cognitive Impairment)</description>
+	<type>Encoded Value</type>
+	<value code="K">Don&#39;t Know</value>
+	<value code="N">No</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00081229.v1">
+	<name>APRAXIA_TSTRE</name>
+	<description>EARLY APRAXIA: Test result</description>
+	<type>Encoded Value</type>
+	<value code="N">No</value>
+	<value code="UA">Unavailable</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00081230.v1">
+	<name>APRAXIA_TSRNTX</name>
+	<description>EARLY APRAXIA: Test reason - specify</description>
+	<type>String</type>
+</variable>
+
+<variable id="phv00081231.v1">
+	<name>EXEC_ABNORM_TSTRE</name>
+	<description>EARLY EXECUTIVE ABNORMALITIES: Test result</description>
+	<type>Encoded Value</type>
+	<value code="N">No</value>
+	<value code="UA">Unavailable</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00081232.v1">
+	<name>EXEC_ABNORM_TSRNTX</name>
+	<description>EARLY EXECUTIVE ABNORMALITIES: Test reason - specify</description>
+	<type>String</type>
+</variable>
+
+<variable id="phv00081233.v1">
+	<name>SPEECH_ABNORM_TSTRE</name>
+	<description>EARLY SPEECH ABNORMALITIES: Test result</description>
+	<type>Encoded Value</type>
+	<value code="N">No</value>
+	<value code="UA">Unavailable</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00081234.v1">
+	<name>SPEECH_ABNORM_TSRNTX</name>
+	<description>EARLY SPEECH ABNORMALITIES: Test reason - specify</description>
+	<type>String</type>
+</variable>
+
+<variable id="phv00081235.v1">
+	<name>PROMINENT_IMPAIRMENT_TSTRE</name>
+	<description>EARLY/PROMINENT VISUOSPATIAL IMPAIRMENT: Test result</description>
+	<type>Encoded Value</type>
+	<value code="N">No</value>
+	<value code="UA">Unavailable</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00081236.v1">
+	<name>PROMINENT_IMPAIRMENT_TSRNTX</name>
+	<description>EARLY/PROMINENT VISUOSPATIAL IMPAIRMENT: Test reason - specify</description>
+	<type>String</type>
+</variable>
+
+</data_table>

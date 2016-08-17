@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GaPExchange xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="./dbGaPEx2.1.5.xsd">
+
+<MetaVariables>
+	<Submitter/>
+	<Method/>
+</MetaVariables>
+<MetaLinks/>
+
+<Projects>
+	<Project/>
+</Projects>
+
+<Studies>
+
+<Study source="dbGaP" accession="phs000822.v1.p1" parentStudy="phs000822.v1.p1" createDate="2014-10-21" modDate="2014-10-21">
+
+<Configuration>
+	<Data_Provider><![CDATA[
+		<table border="1">
+		<tr><th>Title</th><th>Name</th><th>Institute</th></tr>
+		<tr><td>Principal Investigator</td><td>Stacey Gabriel</td><td>Broad Institute, Cambridge, MA, USA</td></tr>
+		<tr><td>Co-Investigator</td><td>David Altshuler</td><td>Broad Institute, Cambridge, MA, USA</td></tr>
+		<tr><td>Co-Investigator</td><td>Mark Daly</td><td>Broad Institute, Cambridge, MA, USA</td></tr>
+		<tr><td>Co-Investigator</td><td>Gad Getz</td><td>Broad Institute, Cambridge, MA, USA</td></tr>
+		</table>
+	]]></Data_Provider>
+	<StudyNameEntrez>Genome-Wide Discovery of Novel Breast Cancer Predisposing Mutations</StudyNameEntrez>
+	<StudyNameReportPage>Genome-Wide Discovery of Novel Breast Cancer Predisposing Mutations</StudyNameReportPage>
+	<StudyTypes>
+		<StudyType>Case Set</StudyType>
+	</StudyTypes>
+	<Description><![CDATA[
+<p>Cancer risk shows clear heritability, but the inherited genetic factors remain largely unknown. This project will seek to identify new genes in which mutations confer hereditary risk for early onset breast cancer, with important implications for both biological understanding and clinical prediction and prevention. Identifying cancer predisposing mutations can provide new biological insights and significantly impact important clinical decision making regarding treatment, surveillance and preventive approaches. Examples include the BRCA1 breast cancer susceptibility gene, which affects treatment decisions (surgical management), surveillance (frequent breast MRI) and prevention (oophorectory for prevention of ovarian cancer). Hereditary early onset breast cancer patients commonly present to Cancer Genetics clinics, but the majority of these patients do not have identifiable mutations in known candidate genes. Here, we will perform whole exome sequencing to discover novel cancer susceptibility genes. The patients have been recruited from Memorial Sloan Kettering Cancer Center (PIs Kenneth Offit and Zsofia Stadler) and Massachusetts General Hospital (PI Daniel Haber).</p> <p>All exome sequencing was performed at the Broad Institute of Harvard and MIT; samples sequence capture was performed using Agilent SureSelect Human All Exon Kit v2 and sequencing was performed on an Illumina HiSeq 2000 or 2500.</p>]]>
+	</Description>
+	<StudyInEx><![CDATA[
+<p>The inclusion criteria for the cases was diagnosis for breast cancer at &#8804; 35 years of age, with unrevealing clinical genetics evaluations.</p>]]>
+	</StudyInEx>
+	<StudyProjects>
+		<Project/>
+	</StudyProjects>
+	<Diseases>
+		<Disease vocab_source="MESH" vocab_term="Breast Neoplasms"/>
+	</Diseases>
+	<Attributions>
+		<Header title="Principal Investigator">
+			<AttName>Stacey Gabriel</AttName>
+			<Institution>Broad Institute, Cambridge, MA, USA</Institution>
+		</Header>
+		<Header title="Co-Investigator">
+			<AttName>David Altshuler</AttName>
+			<Institution>Broad Institute, Cambridge, MA, USA</Institution>
+		</Header>
+		<Header title="Co-Investigator">
+			<AttName>Mark Daly</AttName>
+			<Institution>Broad Institute, Cambridge, MA, USA</Institution>
+		</Header>
+		<Header title="Co-Investigator">
+			<AttName>Gad Getz</AttName>
+			<Institution>Broad Institute, Cambridge, MA, USA</Institution>
+		</Header>
+	</Attributions>
+	<DisplayPublicSummary>yes</DisplayPublicSummary>
+	<ConsentGroups>
+		<ConsentGroup groupNum="1" shortName="DS-GLCS-GSO" longName="Disease-Specific (Cancer - Germline genetic susceptibility, GSO)"/>
+	</ConsentGroups>
+</Configuration>
+
+  <AuthorizedAccess>
+    <DacInfo ssDacId="0">
+      <DacName>NHGRI</DacName>
+      <DacFullName>National Human Genome Research Institute</DacFullName>
+      <DacEmail>0</DacEmail>
+      <DacPhone></DacPhone>
+      <DacUrl></DacUrl>
+    </DacInfo>
+    <Policy Policy_ID="phs000822.v1.p1_policy" ref_ssDacId="0">
+      <DisplayResearchStatement>yes</DisplayResearchStatement>
+      <DisplayPublicSummary>yes</DisplayPublicSummary>
+      <EmbargoLength>12</EmbargoLength>
+      <YearsUntilRenewal>1</YearsUntilRenewal>
+      <WeeksCancelRequest>8</WeeksCancelRequest>
+      <PdfSupplementReqired>no</PdfSupplementReqired>
+      <AcknowledgementText>
+        <para>
+          http://dbgap.ncbi.nlm.nih.gov/aa/wga.cgi?page=DUC&amp;view_pdf&amp;stacc=phs000822.v1.p1
+        </para>
+      </AcknowledgementText>
+      <DocumentSet>
+        <DataUseCertificate Label="Data Use Certificate" FilePath="https://dbgap.ncbi.nlm.nih.gov/aa/wga.cgi?page=DUC&amp;view_pdf&amp;stacc=phs000822.v1.p1" FileName=""/>
+      </DocumentSet>
+    </Policy>
+    <ConsentGroups>
+      <ParticipantSet groupNum-REF="1">
+        <ConsentName>Disease-Specific (Cancer - Germline genetic susceptibility, GSO)</ConsentName>
+        <ConsentAbbrev>DS-GLCS-GSO</ConsentAbbrev>
+        <UseLimitation>Use of the data must be related to Cancer - Germline genetic susceptibility.
+Use of the data is limited to genetic studies only.
+All data is to be used for studies investigating genetic susceptibility to cancer. Studies should explicitly intend to assess the impact of germline variation in cancer risk.</UseLimitation>
+        <IrbRequired>No</IrbRequired>
+      </ParticipantSet>
+    </ConsentGroups>
+  </AuthorizedAccess>
+
+
+</Study>
+
+</Studies>
+
+</GaPExchange>

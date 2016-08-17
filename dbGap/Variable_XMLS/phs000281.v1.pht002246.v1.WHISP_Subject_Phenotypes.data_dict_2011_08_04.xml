@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./datadict_v2.xsl"?>
+<data_table id="pht002246.v1" study_id="phs000281.v1" participant_set="2" date_created="Thu Aug  4 18:18:20 2011">
+
+<unique_key phv="00161364" version="1">esp_id</unique_key>
+<unique_key phv="00161369" version="1">esp_phenotype</unique_key>
+
+<variable id="phv00161364.v1">
+	<name>esp_id</name>
+	<description>WHI ESP ID</description>
+	<type>INTEGER</type>
+</variable>
+
+<variable id="phv00161365.v1">
+	<name>esp_cohort</name>
+	<description>ESP STUDY</description>
+	<type>STRING</type>
+	<value>WHI</value>
+</variable>
+
+<variable id="phv00161366.v1">
+	<name>esp_race</name>
+	<description>SELF REPORTED RACE OF PARTICIPANT</description>
+	<type>STRING</type>
+	<value>African American</value>
+	<value>European American</value>
+</variable>
+
+<variable id="phv00161367.v1">
+	<name>esp_sex</name>
+	<description>GENDER OF PARTICIPANT</description>
+	<type>STRING</type>
+	<value>Female</value>
+</variable>
+
+<variable id="phv00161368.v1">
+	<name>esp_study_site</name>
+	<description>STUDY SITE - NOT APPLICABLE</description>
+	<type> </type>
+</variable>
+
+<variable id="phv00161369.v1">
+	<name>esp_phenotype</name>
+	<description>PHENOTYPE FOR WHICH SUBJECT WAS SEQUENCED</description>
+	<type>STRING</type>
+	<value>BMI_high_Nondiab</value>
+	<value>BMI_high_diab</value>
+	<value>BMI_low</value>
+	<value>BP_HIGH</value>
+	<value>BP_LOW</value>
+	<value>EOMI_case</value>
+	<value>EOMI_control</value>
+	<value>Stroke</value>
+</variable>
+
+<variable id="phv00161370.v1">
+	<name>esp_age_baseline</name>
+	<description>AGE AT BASELINE WHI VARNAME=AGE</description>
+	<type>INTEGER</type>
+	<unit>YEARS</unit>
+</variable>
+
+<variable id="phv00161371.v1">
+	<name>esp_mi_baseline</name>
+	<description>HISTORY OF MI AT BASEINE</description>
+	<type>ENCODED VALUE</type>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00161372.v1">
+	<name>esp_mi_during_followup</name>
+	<description>INCIDENT MI FROM STUDY ENROLLMENT</description>
+	<type>ENCODED VALUE</type>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00161373.v1">
+	<name>esp_mi_tte_or_censor</name>
+	<description>NUMBER OF DAYS TO MI OR LAST CONTACT FROM BASELINE</description>
+	<type>INTEGER</type>
+	<unit>DAYS</unit>
+</variable>
+
+<variable id="phv00161374.v1">
+	<name>esp_frs_chdprob</name>
+	<description>ESTIMATED BASELINE FRS CHD PROBABILITY DERIVED</description>
+	<type>DECIMAL</type>
+</variable>
+
+<variable id="phv00161375.v1">
+	<name>esp_bmi_baseline</name>
+	<description>BASELINE BODY MASS INDEX</description>
+	<type>DECIMAL</type>
+</variable>
+
+<variable id="phv00161376.v1">
+	<name>esp_t2diabetes_baseline</name>
+	<description>BASELINE TYPE TWO DIABETES STATUS</description>
+	<type>ENCODED VALUE</type>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00161377.v1">
+	<name>esp_ldl_baseline</name>
+	<description>BASELINE LDL</description>
+	<type>DECIMAL</type>
+	<unit>mg/dl</unit>
+</variable>
+
+<variable id="phv00161378.v1">
+	<name>esp_lipid_med_baseline</name>
+	<description>PARTICIPANT TAKING LIPID LOWERING MEDICATION BASELINE</description>
+	<type>ENCODED VALUE</type>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00161379.v1">
+	<name>esp_wbc</name>
+	<description>WHITE BLOOD COUNT</description>
+	<type>DECIMAL</type>
+	<unit>1000/CUBIC MM</unit>
+</variable>
+
+<variable id="phv00161380.v1">
+	<name>esp_age_at_wbc</name>
+	<description>AGE AT WBC MEASUREMENT</description>
+	<type>INTEGER</type>
+	<unit>YEARS</unit>
+</variable>
+
+<variable id="phv00161381.v1">
+	<name>esp_hemoglobin</name>
+	<description>HEMOGLOBIN</description>
+	<type>DECIMAL</type>
+	<unit>g/dL</unit>
+</variable>
+
+<variable id="phv00161382.v1">
+	<name>esp_age_at_hemoglobin</name>
+	<description>AGE AT HEMOGLOBIN MEASUREMENT</description>
+	<type>INTEGER</type>
+	<unit>YEARS</unit>
+</variable>
+
+<variable id="phv00161383.v1">
+	<name>esp_hematocrit</name>
+	<description>HEMATOCRIT</description>
+	<type>DECIMAL</type>
+	<unit>%</unit>
+</variable>
+
+<variable id="phv00161384.v1">
+	<name>esp_age_at_hematocrit</name>
+	<description>AGE AT HEMATOCRIT MEASUREMENT</description>
+	<type>INTEGER</type>
+	<unit>YEARS</unit>
+</variable>
+
+<variable id="phv00161385.v1">
+	<name>esp_platelet_count</name>
+	<description>PLATELET COUNT</description>
+	<type>INTEGER</type>
+	<unit>1000/CUBIC MM</unit>
+</variable>
+
+<variable id="phv00161386.v1">
+	<name>esp_age_at_platelet_count</name>
+	<description>AGE AT PLATELET COUNT</description>
+	<type>INTEGER</type>
+	<unit>YEARS</unit>
+</variable>
+
+<variable id="phv00161387.v1">
+	<name>esp_mean_corpuscular_volume</name>
+	<description>NOT COLLECTED</description>
+	<type> </type>
+</variable>
+
+<variable id="phv00161388.v1">
+	<name>esp_age_at_mvc</name>
+	<description>NOT COLLECTED</description>
+	<type> </type>
+</variable>
+
+<variable id="phv00161389.v1">
+	<name>esp_red_blood_count</name>
+	<description>NOT COLLECTED</description>
+	<type> </type>
+</variable>
+
+<variable id="phv00161390.v1">
+	<name>esp_age_at_rbc</name>
+	<description>NOT COLLECTED</description>
+	<type> </type>
+</variable>
+
+<variable id="phv00161391.v1">
+	<name>esp_neutrophils</name>
+	<description>NOT COLLECTED</description>
+	<type> </type>
+</variable>
+
+<variable id="phv00161392.v1">
+	<name>esp_monocytes</name>
+	<description>NOT COLLECTED</description>
+	<type> </type>
+</variable>
+
+<variable id="phv00161393.v1">
+	<name>esp_lymphocytes</name>
+	<description>NOT COLLECTED</description>
+	<type> </type>
+</variable>
+
+<variable id="phv00161394.v1">
+	<name>esp_eosinophils</name>
+	<description>NOT COLLECTED</description>
+	<type> </type>
+</variable>
+
+<variable id="phv00161395.v1">
+	<name>esp_basophils</name>
+	<description>NOT COLLECTED</description>
+	<type> </type>
+</variable>
+
+<variable id="phv00161396.v1">
+	<name>esp_age_at_second_blood_counts</name>
+	<description>NOT COLLECTED</description>
+	<type> </type>
+</variable>
+
+<variable id="phv00161397.v1">
+	<name>esp_sbp_baseline</name>
+	<description>BASELINE SYSTOLIC BLOOD PRESSURE</description>
+	<type>INTEGER</type>
+	<unit>mm HG</unit>
+</variable>
+
+<variable id="phv00161398.v1">
+	<name>esp_dbp_baseline</name>
+	<description>BASELINE DIASTOLIC BLOOD PRESSURE</description>
+	<type>INTEGER</type>
+	<unit>mm HG</unit>
+</variable>
+
+<variable id="phv00161399.v1">
+	<name>esp_htn_status_baseline</name>
+	<description>BASELINE HYPERTENSION STATUS</description>
+	<type>ENCODED VALUE</type>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00161400.v1">
+	<name>esp_htn_med_baseline</name>
+	<description>BASELINE HYPERTENSION MEDICATION</description>
+	<type>ENCODED VALUE</type>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+</variable>
+
+</data_table>

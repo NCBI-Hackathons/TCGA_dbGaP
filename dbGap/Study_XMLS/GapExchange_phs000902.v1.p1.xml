@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GaPExchange xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="./dbGaPEx2.1.5.xsd">
+
+<MetaVariables>
+	<Submitter/>
+	<Method/>
+</MetaVariables>
+<MetaLinks/>
+
+<Projects>
+	<Project/>
+</Projects>
+
+<Studies>
+
+<Study source="dbGaP" accession="phs000902.v1.p1" parentStudy="phs000902.v1.p1" createDate="2015-04-20" modDate="2015-04-20">
+
+<Configuration>
+	<Data_Provider><![CDATA[
+		<table border="1">
+		<tr><th>Title</th><th>Name</th><th>Institute</th></tr>
+		<tr><td>Principal Investigator</td><td>Stacey Gabriel, PhD</td><td>Broad Institute, Boston, MA, USA</td></tr>
+		<tr><td>Co-Investigator</td><td>Sekar Kathiresan, MD</td><td>Broad Institute and Massachusetts General Hospital, Boston, MA, USA</td></tr>
+		</table>
+	]]></Data_Provider>
+	<StudyNameEntrez>MIGen_ExS: Regicor</StudyNameEntrez>
+	<StudyNameReportPage>Myocardial Infarction Genetics Exome Sequencing Consortium: Registre Gironi del Cor</StudyNameReportPage>
+	<StudyTypes>
+		<StudyType>Case-Control</StudyType>
+	</StudyTypes>
+	<Description><![CDATA[
+<p>The Registre Gironi del Cor (REGICOR) study developed a nested case-control cohort from the Girona province in Spain in order to study genetic factors associated with the development of coronary heart disease. All exome sequencing was performed at the Broad Institute of Harvard and MIT; samples sequence capture was performed using Agilent SureSelect Human All Exon Kit v2 and sequencing was performed on an Illumina HiSeq 2000 or 2500.</p>]]>
+	</Description>
+	<StudyInEx><![CDATA[
+<p>Cases and controls were recruited as part of the REGICOR study from the Girona province in Spain. Cases were defined as individuals from REGICOR who were men with myocardial infarction (MI) before the age of 50 or women with MI before the age of 60. Controls were drawn from the larger population-based REGICOR study. Controls were defined as individuals who without a personal history of MI or any coronary revascularization and between the ages of 55 and 80.</p>]]>
+	</StudyInEx>
+	<StudyProjects>
+		<Project/>
+	</StudyProjects>
+	<Publications>
+		<Publication>
+			<Pubmed pmid="11231922"/>
+		</Publication>
+	</Publications>
+	<Diseases>
+		<Disease vocab_source="MESH" vocab_term="Coronary Artery Disease"/>
+	</Diseases>
+	<Attributions>
+		<Header title="Principal Investigator">
+			<AttName>Stacey Gabriel, PhD</AttName>
+			<Institution>Broad Institute, Boston, MA, USA</Institution>
+		</Header>
+		<Header title="Co-Investigator">
+			<AttName>Sekar Kathiresan, MD</AttName>
+			<Institution>Broad Institute and Massachusetts General Hospital, Boston, MA, USA</Institution>
+		</Header>
+	</Attributions>
+	<DisplayPublicSummary>yes</DisplayPublicSummary>
+	<ConsentGroups>
+		<ConsentGroup groupNum="1" shortName="DS-CVD" longName="Disease-Specific (Cardiovascular Disease)"/>
+	</ConsentGroups>
+</Configuration>
+
+  <AuthorizedAccess>
+    <DacInfo ssDacId="0">
+      <DacName>NHLBI</DacName>
+      <DacFullName>National Heart, Lung, and Blood Institute DAC</DacFullName>
+      <DacEmail>0</DacEmail>
+      <DacPhone></DacPhone>
+      <DacUrl></DacUrl>
+    </DacInfo>
+    <Policy Policy_ID="phs000902.v1.p1_policy" ref_ssDacId="0">
+      <DisplayResearchStatement>yes</DisplayResearchStatement>
+      <DisplayPublicSummary>yes</DisplayPublicSummary>
+      <EmbargoLength>0</EmbargoLength>
+      <YearsUntilRenewal>1</YearsUntilRenewal>
+      <WeeksCancelRequest>8</WeeksCancelRequest>
+      <PdfSupplementReqired>no</PdfSupplementReqired>
+      <AcknowledgementText>
+        <para>
+          http://dbgap.ncbi.nlm.nih.gov/aa/wga.cgi?page=DUC&amp;view_pdf&amp;stacc=phs000902.v1.p1
+        </para>
+      </AcknowledgementText>
+      <DocumentSet>
+        <DataUseCertificate Label="Data Use Certificate" FilePath="https://dbgap.ncbi.nlm.nih.gov/aa/wga.cgi?page=DUC&amp;view_pdf&amp;stacc=phs000902.v1.p1" FileName=""/>
+      </DocumentSet>
+    </Policy>
+    <ConsentGroups>
+      <ParticipantSet groupNum-REF="1">
+        <ConsentName>Disease-Specific (Cardiovascular Disease)</ConsentName>
+        <ConsentAbbrev>DS-CVD</ConsentAbbrev>
+        <UseLimitation>Use of the data must be related to Cardiovascular Disease.</UseLimitation>
+        <IrbRequired>No</IrbRequired>
+      </ParticipantSet>
+    </ConsentGroups>
+  </AuthorizedAccess>
+
+
+</Study>
+
+</Studies>
+
+</GaPExchange>

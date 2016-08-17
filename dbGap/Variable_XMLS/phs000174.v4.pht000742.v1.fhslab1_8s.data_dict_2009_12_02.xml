@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./datadict_v2.xsl"?>
+<data_table id="pht000742.v1" study_id="phs000174.v4" participant_set="4" date_created="Wed Dec  2 13:25:57 2009">
+
+<variable id="phv00071888.v1">
+	<name>IDTYPE</name>
+	<description>Framingham cohort identifier</description>
+	<type>encoded</type>
+	<coll_interval>Exam 8</coll_interval>
+	<value code="1">Offspring</value>
+</variable>
+
+<variable id="phv00071889.v1">
+	<name>FASTING</name>
+	<description>Fasting 8 hours</description>
+	<type>encoded</type>
+	<coll_interval>Exam 8</coll_interval>
+	<comment>Any caloric intake was considered a break in fasting and coding as non-fasting (fasting=no), examples: milk or sugar in coffee, juice, candy, gum</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+	<value code=".">Unknown</value>
+</variable>
+
+<variable id="phv00071890.v1">
+	<name>TOT_CHOL</name>
+	<description>Total cholesterol, plasma</description>
+	<type>integer, encoded</type>
+	<unit>mg/100mL</unit>
+	<logical_min>71</logical_min>
+	<logical_max>348</logical_max>
+	<coll_interval>Exam 8</coll_interval>
+	<value code=".">Unknown or did not have blood drawn</value>
+</variable>
+
+<variable id="phv00071891.v1">
+	<name>HDL_CHOL</name>
+	<description>HDL cholesterol, plasma</description>
+	<type>integer, encoded</type>
+	<unit>mg/100mL</unit>
+	<logical_min>21</logical_min>
+	<logical_max>156</logical_max>
+	<coll_interval>Exam 8</coll_interval>
+	<value code=".">Unknown or did not have blood drawn</value>
+</variable>
+
+<variable id="phv00071892.v1">
+	<name>TRIG</name>
+	<description>Triglycerides, plasma</description>
+	<type>integer, encoded</type>
+	<unit>mg/100mL</unit>
+	<logical_min>30</logical_min>
+	<logical_max>976</logical_max>
+	<coll_interval>Exam 8</coll_interval>
+	<value code=".">Unknown or did not have blood drawn</value>
+</variable>
+
+<variable id="phv00071893.v1">
+	<name>GLUCOSE</name>
+	<description>Glucose, plasma</description>
+	<type>integer, encoded</type>
+	<unit>mg/100mL</unit>
+	<logical_min>36</logical_min>
+	<logical_max>339</logical_max>
+	<coll_interval>Exam 8</coll_interval>
+	<value code=".">Unknown or did not have blood drawn</value>
+</variable>
+
+<variable id="phv00071894.v1">
+	<name>CREATINI</name>
+	<description>Creatinine, serum</description>
+	<type>decimal, encoded</type>
+	<unit>mg/100mL</unit>
+	<logical_min>0.33</logical_min>
+	<logical_max>6.79</logical_max>
+	<coll_interval>Exam 8</coll_interval>
+	<value code=".">Unknown or did not have blood drawn</value>
+</variable>
+
+<variable id="phv00071895.v1">
+	<name>URALBUMI</name>
+	<description>Albumin, urine</description>
+	<type>decimal, encoded</type>
+	<unit>mg/L</unit>
+	<logical_min>3</logical_min>
+	<logical_max>1395.8</logical_max>
+	<coll_interval>Exam 8</coll_interval>
+	<comment>The minimum detectable limit of this assay is 3.0, so any value below 3.0 was set to 3.0</comment>
+	<value code=".">Unknown or did not have urine sample</value>
+</variable>
+
+<variable id="phv00071896.v1">
+	<name>URCREAT</name>
+	<description>Creatinine, urine</description>
+	<type>decimal, encoded</type>
+	<unit>mg/100mL</unit>
+	<logical_min>4.4</logical_min>
+	<logical_max>477.2</logical_max>
+	<coll_interval>Exam 8</coll_interval>
+	<value code=".">Unknown or did not have urine sample</value>
+</variable>
+
+<variable id="phv00071897.v1">
+	<name>A1C</name>
+	<description>Hemoglobin A1c, whole blood</description>
+	<type>decimal, encoded</type>
+	<unit>percent</unit>
+	<logical_min>4.7</logical_min>
+	<logical_max>13.4</logical_max>
+	<coll_interval>Exam 8</coll_interval>
+	<value code=".">Unknown or did not have blood drawn</value>
+</variable>
+
+<variable id="phv00071898.v1">
+	<name>drawdate</name>
+	<description>Date blood drawn or urine sample obtained</description>
+	<type>integer</type>
+	<logical_min>10885</logical_min>
+	<logical_max>13148</logical_max>
+	<coll_interval>Exam 8</coll_interval>
+	<comment>DRAWDATE modified - Number of days since Exam 1</comment>
+</variable>
+
+<variable id="phv00071899.v1">
+	<name>shareid</name>
+	<description>SHARe ID number</description>
+	<type>integer</type>
+	<coll_interval>Exam 8</coll_interval>
+</variable>
+
+</data_table>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./datadict_v2.xsl"?>
+<data_table id="pht000743.v2" study_id="phs000175.v6" participant_set="5" date_created="Tue May 18 22:33:14 2010">
+
+<unique_key phv="00071903" version="1">CVA_NUM</unique_key>
+<unique_key phv="00071907" version="1">shareid</unique_key>
+
+<variable id="phv00071900.v1">
+	<name>idtype</name>
+	<description>Framingham cohort identifier</description>
+	<type>encoded</type>
+	<coll_interval>Through 2005</coll_interval>
+	<value code="0">Original</value>
+	<value code="1">Offspring</value>
+</variable>
+
+<variable id="phv00071903.v1">
+	<name>CVA_NUM</name>
+	<description>CVA number</description>
+	<type>integer, encoded</type>
+	<logical_min>1</logical_min>
+	<logical_max>14</logical_max>
+	<coll_interval>Through 2005</coll_interval>
+	<comment>There is 1 record for each observed CVA and the multiple records are numbered sequentially by CVA_NUM, starting with CVA_NUM=1</comment>
+	<value code="0">No CVA observed at time of scan</value>
+</variable>
+
+<variable id="phv00071906.v1">
+	<name>mri_date</name>
+	<description>Date of brain MRI scan</description>
+	<type>integer</type>
+	<unit>days</unit>
+	<logical_min>8742</logical_min>
+	<logical_max>19707</logical_max>
+	<coll_interval>Through 2005</coll_interval>
+	<comment>MRI_DATE modified - Number of days since Exam 1</comment>
+</variable>
+
+<variable id="phv00071907.v1">
+	<name>shareid</name>
+	<description>SHARe ID number</description>
+	<type>integer</type>
+	<coll_interval>Through 2005</coll_interval>
+</variable>
+
+<variable id="phv00071901.v2">
+	<name>SIDE</name>
+	<description>Side of brain in which CVA was observed</description>
+	<type>encoded,string</type>
+	<coll_interval>Through 2005</coll_interval>
+	<comment>For scans for which no CVA was observed (CVA_NUM=0), SIDE is coded as . = unknown</comment>
+	<value code=".">Unknown</value>
+</variable>
+
+<variable id="phv00071902.v2">
+	<name>SIZE</name>
+	<description>CVA size</description>
+	<type>encoded,string</type>
+	<coll_interval>Through 2005</coll_interval>
+	<comment>For scans for which no CVA was observed (CVA_NUM=0), SIZE is coded as . = unknown</comment>
+	<value code=".">Unknown</value>
+</variable>
+
+<variable id="phv00071904.v2">
+	<name>CVA_LOC</name>
+	<description>Brain region where CVA was observed</description>
+	<type>encoded,string</type>
+	<coll_interval>Through 2005</coll_interval>
+	<comment>For scans for which no CVA was observed (CVA_NUM=0), CVA_LOC is coded as . = unknown</comment>
+	<value code=".">Unknown</value>
+</variable>
+
+<variable id="phv00071905.v2">
+	<name>CVA_TYPE</name>
+	<description>Type of CVA</description>
+	<type>encoded,string</type>
+	<coll_interval>Through 2005</coll_interval>
+	<comment>For scans for which no CVA was observed (CVA_NUM=0), CVA_TYPE is coded as . = unknown</comment>
+	<value code=".">Unknown</value>
+</variable>
+
+</data_table>

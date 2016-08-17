@@ -1,0 +1,765 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./datadict_v2.xsl"?>
+<data_table id="pht001346.v1" study_id="phs000280.v1" participant_set="1" date_created="Fri Jul  9 11:26:35 2010">
+
+<variable id="phv00094996.v1">
+	<name>Individual_ID</name>
+	<description>Subject Identifier</description>
+	<type>string</type>
+</variable>
+
+<variable id="phv00094997.v1">
+	<name>MSRAFLAG</name>
+	<description>Flag indicating presence of MSRA form</description>
+	<type>encoded</type>
+	<value code="1">Presence of MSRA form</value>
+	<value code=".">Missing</value>
+</variable>
+
+<variable id="phv00094998.v1">
+	<name>MSRACY</name>
+	<description>CONTACT YEAR [1]</description>
+	<type>integer</type>
+	<unit>Year</unit>
+	<value code=".">Missing</value>
+</variable>
+
+<variable id="phv00094999.v1">
+	<name>MSRA01</name>
+	<description>BRING ALL MEDS FROM PAST 2 WKS?   Q1</description>
+	<type>encoded</type>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002896.1">Exam 1 Medication Survey.pdf</a>.]]></comment>
+	<value code="N">No</value>
+	<value code="S">Some of them</value>
+	<value code="Y">Yes, all</value>
+</variable>
+
+<variable id="phv00095000.v1">
+	<name>MSRA02</name>
+	<description>REASON WHY DID NOT BRING ALL MEDS  Q2</description>
+	<type>encoded</type>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002896.1">Exam 1 Medication Survey.pdf</a>.]]></comment>
+	<value code="F">Forgot or was unable to bring medications</value>
+	<value code="T">Took no medications</value>
+</variable>
+
+<variable id="phv00095001.v1">
+	<name>MSRA03</name>
+	<description>GET MEDICATIONS INFO LATER?       Q3</description>
+	<type>encoded</type>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002896.1">Exam 1 Medication Survey.pdf</a>.]]></comment>
+	<value code="N">No or not applicable</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00095002.v1">
+	<name>MSRA04AC</name>
+	<description>MEDICATION A PRESCRIPTION TYPE    Q4AC</description>
+	<type>encoded</type>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002896.1">Exam 1 Medication Survey.pdf</a>.]]></comment>
+	<value code="O">OTC</value>
+	<value code="R">RX</value>
+	<value code="S">Shared</value>
+	<value code="U">Unknown</value>
+</variable>
+
+<variable id="phv00095003.v1">
+	<name>MSRA04AD</name>
+	<description>TAKE MEDICATION A IN PAST 24 HRS? Q4AD</description>
+	<type>encoded</type>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002896.1">Exam 1 Medication Survey.pdf</a>.]]></comment>
+	<value code="N">No</value>
+	<value code="U">Unknown</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00095004.v1">
+	<name>MSRA04BC</name>
+	<description>MEDICATION B PRESCRIPTION TYPE    Q4BC</description>
+	<type>encoded</type>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002896.1">Exam 1 Medication Survey.pdf</a>.]]></comment>
+	<value code="O">OTC</value>
+	<value code="R">RX</value>
+	<value code="S">Shared</value>
+	<value code="U">Unknown</value>
+</variable>
+
+<variable id="phv00095005.v1">
+	<name>MSRA04BD</name>
+	<description>TAKE MEDICATION B IN PAST 24 HRS? Q4BD</description>
+	<type>encoded</type>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002896.1">Exam 1 Medication Survey.pdf</a>.]]></comment>
+	<value code="N">No</value>
+	<value code="U">Unknown</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00095006.v1">
+	<name>MSRA04CC</name>
+	<description>MEDICATION C PRESCRIPTION TYPE    Q4CC</description>
+	<type>encoded</type>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002896.1">Exam 1 Medication Survey.pdf</a>.]]></comment>
+	<value code="O">OTC</value>
+	<value code="R">RX</value>
+	<value code="S">Shared</value>
+	<value code="U">Unknown</value>
+</variable>
+
+<variable id="phv00095007.v1">
+	<name>MSRA04CD</name>
+	<description>TAKE MEDICATION C IN PAST 24 HRS? Q4CD</description>
+	<type>encoded</type>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002896.1">Exam 1 Medication Survey.pdf</a>.]]></comment>
+	<value code="N">No</value>
+	<value code="U">Unknown</value>
+	<value code="Y">Yes</value>
+	<value code="`">Missing</value>
+</variable>
+
+<variable id="phv00095008.v1">
+	<name>MSRA04DC</name>
+	<description>MEDICATION D PRESCRIPTION TYPE    Q4DC</description>
+	<type>encoded</type>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002896.1">Exam 1 Medication Survey.pdf</a>.]]></comment>
+	<value code="N">No</value>
+	<value code="O">OTC</value>
+	<value code="R">RX</value>
+	<value code="S">Shared</value>
+	<value code="U">Unknown</value>
+</variable>
+
+<variable id="phv00095009.v1">
+	<name>MSRA04DD</name>
+	<description>TAKE MEDICATION D IN PAST 24 HRS? Q4DD</description>
+	<type>encoded</type>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002896.1">Exam 1 Medication Survey.pdf</a>.]]></comment>
+	<value code="N">No</value>
+	<value code="U">Unknown</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00095010.v1">
+	<name>MSRA04EC</name>
+	<description>MEDICATION E PRESCRIPTION TYPE    Q4EC</description>
+	<type>encoded</type>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002896.1">Exam 1 Medication Survey.pdf</a>.]]></comment>
+	<value code="O">OTC</value>
+	<value code="R">RX</value>
+	<value code="S">Shared</value>
+	<value code="U">Unknown</value>
+</variable>
+
+<variable id="phv00095011.v1">
+	<name>MSRA04ED</name>
+	<description>TAKE MEDICATION E IN PAST 24 HRS? Q4ED</description>
+	<type>encoded</type>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002896.1">Exam 1 Medication Survey.pdf</a>.]]></comment>
+	<value code="N">No</value>
+	<value code="U">Unknown</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00095012.v1">
+	<name>MSRA04FC</name>
+	<description>MEDICATION F PRESCRIPTION TYPE    Q4FC</description>
+	<type>encoded</type>
+	<comment><![CDATA[The encoded value descriptions were not submitted at this time. If you have any questions, please visit http://www.cscc.unc.edu/ARIC/pubuse/.
+		For further information, consult the document <a href="GetPdf.cgi?id=phd002896.1">Exam 1 Medication Survey.pdf</a>. ]]></comment>
+	<value code="O">OTC</value>
+	<value code="R">RX</value>
+	<value code="S">Shared</value>
+	<value code="U">Unknown</value>
+</variable>
+
+<variable id="phv00095013.v1">
+	<name>MSRA04FD</name>
+	<description>TAKE MEDICATION F IN PAST 24 HRS? Q4FD</description>
+	<type>encoded</type>
+	<comment><![CDATA[The encoded value descriptions were not submitted at this time. If you have any questions, please visit http://www.cscc.unc.edu/ARIC/pubuse/.
+		For further information, consult the document <a href="GetPdf.cgi?id=phd002896.1">Exam 1 Medication Survey.pdf</a>. ]]></comment>
+	<value code="N">No</value>
+	<value code="U">Unknown</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00095014.v1">
+	<name>MSRA04GC</name>
+	<description>MEDICATION G PRESCRIPTION TYPE    Q4GC</description>
+	<type>encoded</type>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002896.1">Exam 1 Medication Survey.pdf</a>.]]></comment>
+	<value code="O">OTC</value>
+	<value code="R">RX</value>
+	<value code="S">Shared</value>
+	<value code="U">Unknown</value>
+</variable>
+
+<variable id="phv00095015.v1">
+	<name>MSRA04GD</name>
+	<description>TAKE MEDICATION G IN PAST 24 HRS? Q4GD</description>
+	<type>encoded</type>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002896.1">Exam 1 Medication Survey.pdf</a>.]]></comment>
+	<value code="N">No</value>
+	<value code="U">Unknown</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00095016.v1">
+	<name>MSRA04HC</name>
+	<description>MEDICATION H PRESCRIPTION TYPE    Q4HC</description>
+	<type>encoded</type>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002896.1">Exam 1 Medication Survey.pdf</a>.]]></comment>
+	<value code="O">OTC</value>
+	<value code="R">RX</value>
+	<value code="S">Shared</value>
+	<value code="U">Unknown</value>
+</variable>
+
+<variable id="phv00095017.v1">
+	<name>MSRA04HD</name>
+	<description>TAKE MEDICATION H IN PAST 24 HRS? Q4HD</description>
+	<type>encoded</type>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002896.1">Exam 1 Medication Survey.pdf</a>.]]></comment>
+	<value code="N">No</value>
+	<value code="U">Unknown</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00095018.v1">
+	<name>MSRA04IC</name>
+	<description>MEDICATION I PRESCRIPTION TYPE    Q4IC</description>
+	<type>encoded</type>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002896.1">Exam 1 Medication Survey.pdf</a>.]]></comment>
+	<value code="O">OTC</value>
+	<value code="R">RX</value>
+	<value code="S">Shared</value>
+	<value code="U">Unknown</value>
+</variable>
+
+<variable id="phv00095019.v1">
+	<name>MSRA04ID</name>
+	<description>TAKE MEDICATION I IN PAST 24 HRS? Q4ID</description>
+	<type>encoded</type>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002896.1">Exam 1 Medication Survey.pdf</a>.]]></comment>
+	<value code="N">No</value>
+	<value code="U">Unknown</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00095020.v1">
+	<name>MSRA04JC</name>
+	<description>MEDICATION J PRESCRIPTION TYPE    Q4JC</description>
+	<type>encoded</type>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002896.1">Exam 1 Medication Survey.pdf</a>.]]></comment>
+	<value code="O">OTC</value>
+	<value code="R">RX</value>
+	<value code="S">Shared</value>
+</variable>
+
+<variable id="phv00095021.v1">
+	<name>MSRA04JD</name>
+	<description>TAKE MEDICATION J IN PAST 24 HRS? Q4JD</description>
+	<type>encoded</type>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002896.1">Exam 1 Medication Survey.pdf</a>.]]></comment>
+	<value code="N">No or not applicable</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00095022.v1">
+	<name>MSRA04KC</name>
+	<description>MEDICATION K PRESCRIPTION TYPE    Q4KC</description>
+	<type>encoded</type>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002896.1">Exam 1 Medication Survey.pdf</a>.]]></comment>
+	<value code="O">OTC</value>
+	<value code="R">RX</value>
+	<value code="S">Shared</value>
+	<value code="U">Unknown</value>
+</variable>
+
+<variable id="phv00095023.v1">
+	<name>MSRA04KD</name>
+	<description>TAKE MEDICATION K IN PAST 24 HRS? Q4KD</description>
+	<type>encoded</type>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002896.1">Exam 1 Medication Survey.pdf</a>.]]></comment>
+	<value code="N">No or not applicable</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00095024.v1">
+	<name>MSRA04LC</name>
+	<description>MEDICATION L PRESCRIPTION TYPE    Q4LC</description>
+	<type>encoded</type>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002896.1">Exam 1 Medication Survey.pdf</a>.]]></comment>
+	<value code="O">OTC</value>
+	<value code="R">RX</value>
+	<value code="S">Shared</value>
+	<value code="U">Unknown</value>
+</variable>
+
+<variable id="phv00095025.v1">
+	<name>MSRA04LD</name>
+	<description>TAKE MEDICATION L IN PAST 24 HRS? Q4LD</description>
+	<type>encoded</type>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002896.1">Exam 1 Medication Survey.pdf</a>.]]></comment>
+	<value code="N">No</value>
+	<value code="U">Unknown</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00095026.v1">
+	<name>MSRA04MC</name>
+	<description>MEDICATION M PRESCRIPTION TYPE    Q4MC</description>
+	<type>encoded</type>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002896.1">Exam 1 Medication Survey.pdf</a>.]]></comment>
+	<value code="O">OTC</value>
+	<value code="R">RX</value>
+	<value code="S">Shared</value>
+	<value code="U">Unknown</value>
+</variable>
+
+<variable id="phv00095027.v1">
+	<name>MSRA04MD</name>
+	<description>TAKE MEDICATION M IN PAST 24 HRS? Q4MD</description>
+	<type>encoded</type>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002896.1">Exam 1 Medication Survey.pdf</a>.]]></comment>
+	<value code="N">No</value>
+	<value code="U">Unknown</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00095028.v1">
+	<name>MSRA04NC</name>
+	<description>MEDICATION N PRESCRIPTION TYPE    Q4NC</description>
+	<type>encoded</type>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002896.1">Exam 1 Medication Survey.pdf</a>.]]></comment>
+	<value code="O">OTC</value>
+	<value code="R">RX</value>
+	<value code="S">Shared</value>
+</variable>
+
+<variable id="phv00095029.v1">
+	<name>MSRA04ND</name>
+	<description>TAKE MEDICATION N IN PAST 24 HRS? Q4ND</description>
+	<type>encoded</type>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002896.1">Exam 1 Medication Survey.pdf</a>.]]></comment>
+	<value code="N">No or not applicable</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00095030.v1">
+	<name>MSRA04OC</name>
+	<description>MEDICATION O PRESCRIPTION TYPE    Q4OC</description>
+	<type>encoded</type>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002896.1">Exam 1 Medication Survey.pdf</a>.]]></comment>
+	<value code="O">OTC</value>
+	<value code="R">RX</value>
+	<value code="S">Shared</value>
+</variable>
+
+<variable id="phv00095031.v1">
+	<name>MSRA04OD</name>
+	<description>TAKE MEDICATION O IN PAST 24 HRS? Q4OD</description>
+	<type>encoded</type>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002896.1">Exam 1 Medication Survey.pdf</a>.]]></comment>
+	<value code="N">No or not applicable</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00095032.v1">
+	<name>MSRA04PC</name>
+	<description>MEDICATION P PRESCRIPTION TYPE    Q4PC</description>
+	<type>encoded</type>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002896.1">Exam 1 Medication Survey.pdf</a>.]]></comment>
+	<value code="O">OTC</value>
+	<value code="R">RX</value>
+	<value code="S">Shared</value>
+</variable>
+
+<variable id="phv00095033.v1">
+	<name>MSRA04PD</name>
+	<description>TAKE MEDICATION P IN PAST 24 HRS? Q4PD</description>
+	<type>encoded</type>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002896.1">Exam 1 Medication Survey.pdf</a>.]]></comment>
+	<value code="N">No</value>
+	<value code="U">Unknown</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00095034.v1">
+	<name>MSRA04QC</name>
+	<description>MEDICATION Q PRESCRIPTION TYPE    Q4QC</description>
+	<type>encoded</type>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002896.1">Exam 1 Medication Survey.pdf</a>.]]></comment>
+	<value code="O">OTC</value>
+	<value code="R">RX</value>
+	<value code="S">Shared</value>
+</variable>
+
+<variable id="phv00095035.v1">
+	<name>MSRA04QD</name>
+	<description>TAKE MEDICATION Q IN PAST 24 HRS? Q4QD</description>
+	<type>encoded</type>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002896.1">Exam 1 Medication Survey.pdf</a>.]]></comment>
+	<value code="N">No</value>
+	<value code="U">Unknown</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00095036.v1">
+	<name>MSRA05</name>
+	<description>TOTAL # OF MEDICATIONS IN BAG     Q5</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>33</logical_max>
+	<comment><![CDATA[The encoded value descriptions were not submitted at this time. If you have any questions, please visit http://www.cscc.unc.edu/ARIC/pubuse/.
+		For further information, consult the document <a href="GetPdf.cgi?id=phd002896.1">Exam 1 Medication Survey.pdf</a>. ]]></comment>
+</variable>
+
+<variable id="phv00095037.v1">
+	<name>MSRA06</name>
+	<description># OF UNTRANSCRIBABLE MEDICATIONS  Q6</description>
+	<type>integer</type>
+	<unit>Number of medications</unit>
+	<comment><![CDATA[The encoded value descriptions were not submitted at this time. If you have any questions, please visit http://www.cscc.unc.edu/ARIC/pubuse/.
+		For further information, consult the document <a href="GetPdf.cgi?id=phd002896.1">Exam 1 Medication Survey.pdf</a>. ]]></comment>
+	<value code=".">Missing</value>
+</variable>
+
+<variable id="phv00095038.v1">
+	<name>MSRA08A</name>
+	<description>HIGH BP MED IN PAST 2 WEEKS?      Q8A</description>
+	<type>encoded</type>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002896.1">Exam 1 Medication Survey.pdf</a>.]]></comment>
+	<value code="N">No</value>
+	<value code="U">Unknown</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00095039.v1">
+	<name>MSRA08B</name>
+	<description>ANGINA-CHEST PAIN MED PAST 2 WKS? Q8B</description>
+	<type>encoded</type>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002896.1">Exam 1 Medication Survey.pdf</a>.]]></comment>
+	<value code="N">No</value>
+	<value code="U">Unknown</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00095040.v1">
+	<name>MSRA08C</name>
+	<description>HRT RHYTHM CONTRL MED PAST 2 WKS? Q8C</description>
+	<type>encoded</type>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002896.1">Exam 1 Medication Survey.pdf</a>.]]></comment>
+	<value code="N">No</value>
+	<value code="U">Unknown</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00095041.v1">
+	<name>MSRA08D</name>
+	<description>HEART FAILURE MED IN PAST 2 WKS?  Q8D</description>
+	<type>encoded</type>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002896.1">Exam 1 Medication Survey.pdf</a>.]]></comment>
+	<value code="N">No</value>
+	<value code="U">Unknown</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00095042.v1">
+	<name>MSRA08E</name>
+	<description>BLOOD THINNING MED IN PAST 2 WKS? Q8E</description>
+	<type>encoded</type>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002896.1">Exam 1 Medication Survey.pdf</a>.]]></comment>
+	<value code="N">No</value>
+	<value code="U">Unknown</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00095043.v1">
+	<name>MSRA08F</name>
+	<description>BLOOD SUGAR REG MED PAST 2 WKS?   Q8F</description>
+	<type>encoded</type>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002896.1">Exam 1 Medication Survey.pdf</a>.]]></comment>
+	<value code="N">No</value>
+	<value code="U">Unknown</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00095044.v1">
+	<name>MSRA08G</name>
+	<description>STROKE MEDICATION IN PAST 2 WKS?  Q8G</description>
+	<type>encoded</type>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002896.1">Exam 1 Medication Survey.pdf</a>.]]></comment>
+	<value code="N">No</value>
+	<value code="U">Unknown</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00095045.v1">
+	<name>MSRA08H</name>
+	<description>WALKING LEG PAIN MED PAST 2 WKS?  Q8H</description>
+	<type>encoded</type>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002896.1">Exam 1 Medication Survey.pdf</a>.]]></comment>
+	<value code="N">No</value>
+	<value code="U">Unknown</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00095046.v1">
+	<name>MSRA09</name>
+	<description>HEADACHE-COLD MEDS IN PAST 2 WKS? Q9</description>
+	<type>encoded</type>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002896.1">Exam 1 Medication Survey.pdf</a>.]]></comment>
+	<value code="N">No</value>
+	<value code="U">Unknown</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00095047.v1">
+	<name>MSRA10</name>
+	<description>TAKE PAIN MEDS IN PAST 2 WEEKS?   Q10</description>
+	<type>encoded</type>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002896.1">Exam 1 Medication Survey.pdf</a>.]]></comment>
+	<value code="N">No</value>
+	<value code="U">Unknown</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00095048.v1">
+	<name>MSRAHF1</name>
+	<description>MEDICATION CODE (AHF CODE) - Q04B</description>
+	<type>string</type>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002896.1">Exam 1 Medication Survey.pdf</a>.]]></comment>
+</variable>
+
+<variable id="phv00095049.v1">
+	<name>MSRAHF2</name>
+	<description>MEDICATION CODE (AHF CODE) - Q05B</description>
+	<type>string</type>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002896.1">Exam 1 Medication Survey.pdf</a>.]]></comment>
+</variable>
+
+<variable id="phv00095050.v1">
+	<name>MSRAHF3</name>
+	<description>MEDICATION CODE (AHF CODE) - Q06B</description>
+	<type>string</type>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002896.1">Exam 1 Medication Survey.pdf</a>.]]></comment>
+</variable>
+
+<variable id="phv00095051.v1">
+	<name>MSRAHF4</name>
+	<description>MEDICATION CODE (AHF CODE) - Q07B</description>
+	<type>string</type>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002896.1">Exam 1 Medication Survey.pdf</a>.]]></comment>
+</variable>
+
+<variable id="phv00095052.v1">
+	<name>MSRAHF5</name>
+	<description>MEDICATION CODE (AHF CODE) - Q08B</description>
+	<type>string</type>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002896.1">Exam 1 Medication Survey.pdf</a>.]]></comment>
+</variable>
+
+<variable id="phv00095053.v1">
+	<name>MSRAHF6</name>
+	<description>MEDICATION CODE (AHF CODE) - Q09B</description>
+	<type>string</type>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002896.1">Exam 1 Medication Survey.pdf</a>.]]></comment>
+</variable>
+
+<variable id="phv00095054.v1">
+	<name>MSRAHF7</name>
+	<description>MEDICATION CODE (AHF CODE) - Q10B</description>
+	<type>string</type>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002896.1">Exam 1 Medication Survey.pdf</a>.]]></comment>
+</variable>
+
+<variable id="phv00095055.v1">
+	<name>MSRAHF8</name>
+	<description>MEDICATION CODE (AHF CODE) - Q11B</description>
+	<type>string</type>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002896.1">Exam 1 Medication Survey.pdf</a>.]]></comment>
+</variable>
+
+<variable id="phv00095056.v1">
+	<name>MSRAHF9</name>
+	<description>MEDICATION CODE (AHF CODE) - Q12B</description>
+	<type>string</type>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002896.1">Exam 1 Medication Survey.pdf</a>.]]></comment>
+</variable>
+
+<variable id="phv00095057.v1">
+	<name>MSRAHF10</name>
+	<description>MEDICATION CODE (AHF CODE) - Q13B</description>
+	<type>string</type>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002896.1">Exam 1 Medication Survey.pdf</a>.]]></comment>
+</variable>
+
+<variable id="phv00095058.v1">
+	<name>MSRAHF11</name>
+	<description>MEDICATION CODE (AHF CODE) - Q14B</description>
+	<type>string</type>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002896.1">Exam 1 Medication Survey.pdf</a>.]]></comment>
+</variable>
+
+<variable id="phv00095059.v1">
+	<name>MSRAHF12</name>
+	<description>MEDICATION CODE (AHF CODE) - Q15B</description>
+	<type>string</type>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002896.1">Exam 1 Medication Survey.pdf</a>.]]></comment>
+</variable>
+
+<variable id="phv00095060.v1">
+	<name>MSRAHF13</name>
+	<description>MEDICATION CODE (AHF CODE) - Q16B</description>
+	<type>string</type>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002896.1">Exam 1 Medication Survey.pdf</a>.]]></comment>
+</variable>
+
+<variable id="phv00095061.v1">
+	<name>MSRAHF14</name>
+	<description>MEDICATION CODE (AHF CODE) - Q17B</description>
+	<type>string</type>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002896.1">Exam 1 Medication Survey.pdf</a>.]]></comment>
+</variable>
+
+<variable id="phv00095062.v1">
+	<name>MSRAHF15</name>
+	<description>MEDICATION CODE (AHF CODE) - Q18B</description>
+	<type>string</type>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002896.1">Exam 1 Medication Survey.pdf</a>.]]></comment>
+</variable>
+
+<variable id="phv00095063.v1">
+	<name>MSRAHF16</name>
+	<description>MEDICATION CODE (AHF CODE) - Q19B</description>
+	<type>string</type>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002896.1">Exam 1 Medication Survey.pdf</a>.]]></comment>
+</variable>
+
+<variable id="phv00095064.v1">
+	<name>MSRAHF17</name>
+	<description>MEDICATION CODE (AHF CODE) - Q20B</description>
+	<type>string</type>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002896.1">Exam 1 Medication Survey.pdf</a>.]]></comment>
+</variable>
+
+<variable id="phv00095065.v1">
+	<name>MSAM04AA</name>
+	<description>MEDICATION CODE NO. -- REPLACES   Q04AB</description>
+	<type>string</type>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002896.1">Exam 1 Medication Survey.pdf</a>.]]></comment>
+</variable>
+
+<variable id="phv00095066.v1">
+	<name>MSAM04BA</name>
+	<description>MEDICATION CODE NO. -- REPLACES   Q04BB</description>
+	<type>string</type>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002896.1">Exam 1 Medication Survey.pdf</a>.]]></comment>
+</variable>
+
+<variable id="phv00095067.v1">
+	<name>MSAM04CA</name>
+	<description>MEDICATION CODE NO. -- REPLACES   Q04CB</description>
+	<type>string</type>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002896.1">Exam 1 Medication Survey.pdf</a>.]]></comment>
+</variable>
+
+<variable id="phv00095068.v1">
+	<name>MSAM04DA</name>
+	<description>MEDICATION CODE NO. -- REPLACES   Q04DB</description>
+	<type>string</type>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002896.1">Exam 1 Medication Survey.pdf</a>.]]></comment>
+</variable>
+
+<variable id="phv00095069.v1">
+	<name>MSAM04EA</name>
+	<description>MEDICATION CODE NO. -- REPLACES   Q04EB</description>
+	<type>string</type>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002896.1">Exam 1 Medication Survey.pdf</a>.]]></comment>
+</variable>
+
+<variable id="phv00095070.v1">
+	<name>MSAM04FA</name>
+	<description>MEDICATION CODE NO. -- REPLACES   Q04FB</description>
+	<type>string</type>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002896.1">Exam 1 Medication Survey.pdf</a>.]]></comment>
+</variable>
+
+<variable id="phv00095071.v1">
+	<name>MSAM04GA</name>
+	<description>MEDICATION CODE NO. -- REPLACES   Q04GB</description>
+	<type>string</type>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002896.1">Exam 1 Medication Survey.pdf</a>.]]></comment>
+</variable>
+
+<variable id="phv00095072.v1">
+	<name>MSAM04HA</name>
+	<description>MEDICATION CODE NO. -- REPLACES   Q04HB</description>
+	<type>string</type>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002896.1">Exam 1 Medication Survey.pdf</a>.]]></comment>
+</variable>
+
+<variable id="phv00095073.v1">
+	<name>MSAM04IA</name>
+	<description>MEDICATION CODE NO. -- REPLACES   Q04IB</description>
+	<type>string</type>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002896.1">Exam 1 Medication Survey.pdf</a>.]]></comment>
+</variable>
+
+<variable id="phv00095074.v1">
+	<name>MSAM04JA</name>
+	<description>MEDICATION CODE NO. -- REPLACES   Q04JB</description>
+	<type>string</type>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002896.1">Exam 1 Medication Survey.pdf</a>.]]></comment>
+</variable>
+
+<variable id="phv00095075.v1">
+	<name>MSAM04KA</name>
+	<description>MEDICATION CODE NO. -- REPLACES   Q04KB</description>
+	<type>string</type>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002896.1">Exam 1 Medication Survey.pdf</a>.]]></comment>
+</variable>
+
+<variable id="phv00095076.v1">
+	<name>MSAM04LA</name>
+	<description>MEDICATION CODE NO. -- REPLACES   Q04LB</description>
+	<type>string</type>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002896.1">Exam 1 Medication Survey.pdf</a>.]]></comment>
+</variable>
+
+<variable id="phv00095077.v1">
+	<name>MSAM04MA</name>
+	<description>MEDICATION CODE NO. -- REPLACES   Q04MB</description>
+	<type>string</type>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002896.1">Exam 1 Medication Survey.pdf</a>.]]></comment>
+</variable>
+
+<variable id="phv00095078.v1">
+	<name>MSAM04NA</name>
+	<description>MEDICATION CODE NO. -- REPLACES   Q04NB</description>
+	<type>string</type>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002896.1">Exam 1 Medication Survey.pdf</a>.]]></comment>
+</variable>
+
+<variable id="phv00095079.v1">
+	<name>MSAM04OA</name>
+	<description>MEDICATION CODE NO. -- REPLACES   Q04OB</description>
+	<type>string</type>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002896.1">Exam 1 Medication Survey.pdf</a>.]]></comment>
+</variable>
+
+<variable id="phv00095080.v1">
+	<name>MSAM04PA</name>
+	<description>MEDICATION CODE NO. -- REPLACES   Q04PB</description>
+	<type>string</type>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002896.1">Exam 1 Medication Survey.pdf</a>.]]></comment>
+</variable>
+
+<variable id="phv00095081.v1">
+	<name>MSAM04QA</name>
+	<description>MEDICATION CODE NO. -- REPLACES   Q04QB</description>
+	<type>string</type>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002896.1">Exam 1 Medication Survey.pdf</a>.]]></comment>
+</variable>
+
+</data_table>

@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./datadict_v2.xsl"?>
+<data_table id="pht001155.v1" study_id="phs000222.v1" participant_set="1" date_created="Fri Apr 30 17:43:14 2010">
+
+<unique_key phv="00088238" version="1">id</unique_key>
+<unique_key phv="00088242" version="1">bdivisit</unique_key>
+
+<variable id="phv00088238.v1">
+	<name>id</name>
+	<description>Anonymized Participant ID</description>
+	<type>integer</type>
+</variable>
+
+<variable id="phv00088239.v1">
+	<name>status</name>
+	<description>Case/Control Status</description>
+	<type>string</type>
+	<value code="case">case</value>
+	<value code="cont">cont</value>
+</variable>
+
+<variable id="phv00088240.v1">
+	<name>bdiage</name>
+	<description>Age at baseline BDI (Beck Depression Inventory)</description>
+	<type>integer</type>
+	<unit>Years</unit>
+</variable>
+
+<variable id="phv00088241.v1">
+	<name>bdigender</name>
+	<description>Subject&#39;s gender</description>
+	<type>encoded value</type>
+	<value code="1">Female</value>
+	<value code="2">Male</value>
+</variable>
+
+<variable id="phv00088242.v1">
+	<name>bdivisit</name>
+	<description>Visit</description>
+	<type>integer</type>
+	<unit>Visits</unit>
+</variable>
+
+<variable id="phv00088243.v1">
+	<name>bdidays</name>
+	<description>Time since last BDI (Beck Depression Inventory)</description>
+	<type>integer</type>
+	<unit>Days</unit>
+</variable>
+
+<variable id="phv00088244.v1">
+	<name>bdi1</name>
+	<description>Sadness</description>
+	<type>encoded value</type>
+	<value code="0">I do not feel sad</value>
+	<value code="1">I feel sad much of the time</value>
+	<value code="2">I am sad all the time</value>
+	<value code="3">I am so sad or unhappy that I can&#39;t stand it</value>
+	<value code="N">Not Applicable</value>
+	<value code="U">Unavailable</value>
+</variable>
+
+<variable id="phv00088245.v1">
+	<name>bdi2</name>
+	<description>Pessimism</description>
+	<type>encoded value</type>
+	<value code="0">I am not discouraged by my future</value>
+	<value code="1">I feel more discouraged about my future than I used to be</value>
+	<value code="2">I do not expect things to work out for me</value>
+	<value code="3">I feel my future is hopeless and will only get worse</value>
+	<value code="N">Not Applicable</value>
+	<value code="U">Unavailable</value>
+</variable>
+
+<variable id="phv00088246.v1">
+	<name>bdi3</name>
+	<description>Past Failure</description>
+	<type>encoded value</type>
+	<value code="0">I do not feel like a failure</value>
+	<value code="1">I&#39;ve failed more than I should have</value>
+	<value code="2">As I look back, I see a lot of failures</value>
+	<value code="3">I feel I am a total failure as a person</value>
+	<value code="N">Not Applicable</value>
+	<value code="U">Unavailable</value>
+</variable>
+
+<variable id="phv00088247.v1">
+	<name>bdi4</name>
+	<description>Loss of Pleasure</description>
+	<type>encoded value</type>
+	<value code="0">I get as much pleasure as I ever did from the things I enjoy</value>
+	<value code="1">I don&#39;t enjoy things as much as I used to</value>
+	<value code="2">I get very little pleasure from the things I used to enjoy</value>
+	<value code="3">I can&#39;t get any pleasure from the things I used to enjoy</value>
+	<value code="N">Not Applicable</value>
+	<value code="U">Unavailable</value>
+</variable>
+
+<variable id="phv00088248.v1">
+	<name>bdi5</name>
+	<description>Guilty Feelings</description>
+	<type>encoded value</type>
+	<value code="0">I don&#39;t feel particularly guilty</value>
+	<value code="1">I feel guilty over many things I have done or should have done</value>
+	<value code="2">I feel quite guilty most of the time</value>
+	<value code="3">I feel guilty all of the time</value>
+	<value code="N">Not Applicable</value>
+	<value code="U">Unavailable</value>
+</variable>
+
+<variable id="phv00088249.v1">
+	<name>bdi6</name>
+	<description>Punishment Feelings</description>
+	<type>encoded value</type>
+	<value code="0">I don&#39;t feel I am being punished</value>
+	<value code="1">I feel I may be punished</value>
+	<value code="2">I expect to be punished</value>
+	<value code="3">I feel I am being punished</value>
+	<value code="N">Not Applicable</value>
+	<value code="U">Unavailable</value>
+</variable>
+
+<variable id="phv00088250.v1">
+	<name>bdi7</name>
+	<description>Self-Dislike</description>
+	<type>encoded value</type>
+	<value code="0">I feel the same about myself as ever</value>
+	<value code="1">I have lost confidence in myself</value>
+	<value code="2">I am disappointed in myself</value>
+	<value code="3">I dislike myself</value>
+	<value code="N">Not Applicable</value>
+	<value code="U">Unavailable</value>
+</variable>
+
+<variable id="phv00088251.v1">
+	<name>bdi8</name>
+	<description>Self-Criticalness</description>
+	<type>encoded value</type>
+	<value code="0">I don&#39;t criticize or blame myself more than usual</value>
+	<value code="1">I am more critical of myself than I used to be</value>
+	<value code="2">I criticize myself for all of my faults</value>
+	<value code="3">I blame myself for everything bad than happens</value>
+	<value code="N">Not Applicable</value>
+	<value code="U">Unavailable</value>
+</variable>
+
+<variable id="phv00088252.v1">
+	<name>bdi9</name>
+	<description>Suicidal Thoughts or Wishes</description>
+	<type>encoded value</type>
+	<value code="0">I don&#39;t have any thoughts of killing myself</value>
+	<value code="1">I have thoughts of killing myself, but I would not carry them out</value>
+	<value code="2">I would like to kill myself</value>
+	<value code="3">I would kill myself if I had the chance</value>
+	<value code="N">Not Applicable</value>
+	<value code="U">Unavailable</value>
+</variable>
+
+<variable id="phv00088253.v1">
+	<name>bdi10</name>
+	<description>Crying</description>
+	<type>encoded value</type>
+	<value code="0">I don&#39;t cry anymore than I used to</value>
+	<value code="1">I cry more often than I used to</value>
+	<value code="2">I cry over every little thing</value>
+	<value code="3">I feel like crying, but I can&#39;t</value>
+	<value code="N">Not Applicable</value>
+	<value code="U">Unavailable</value>
+</variable>
+
+<variable id="phv00088254.v1">
+	<name>bdi11</name>
+	<description>Agitation</description>
+	<type>encoded value</type>
+	<value code="0">I am no more restless or wound up than usual</value>
+	<value code="1">I feel more restless or would up than usual</value>
+	<value code="2">I am so restless or agitated that it&#39;s hard to stay still</value>
+	<value code="3">I am so restless or agitated that I have to keep moving or doing something</value>
+	<value code="N">Not Applicable</value>
+	<value code="U">Unavailable</value>
+</variable>
+
+<variable id="phv00088255.v1">
+	<name>bdi12</name>
+	<description>Loss of Interest</description>
+	<type>encoded value</type>
+	<value code="0">I have not lost interest in other people or activities</value>
+	<value code="1">I am less interested in other people or things than before</value>
+	<value code="2">I have lost most of my interest in other people or things</value>
+	<value code="3">It&#39;s hard to get interested in anything</value>
+	<value code="N">Not Applicable</value>
+	<value code="U">Unavailable</value>
+</variable>
+
+<variable id="phv00088256.v1">
+	<name>bdi13</name>
+	<description>Indecisiveness</description>
+	<type>encoded value</type>
+	<value code="0">I make decisions about as well as ever</value>
+	<value code="1">I find it more difficult to make decisions than usual</value>
+	<value code="2">I have much greater difficulty in making decisions than I used to</value>
+	<value code="3">I have trouble making any decisions</value>
+	<value code="N">Not Applicable</value>
+	<value code="U">Unavailable</value>
+</variable>
+
+<variable id="phv00088257.v1">
+	<name>bdi14</name>
+	<description>Worthlessness</description>
+	<type>encoded value</type>
+	<value code="0">I do not feel I am worthless</value>
+	<value code="1">I don&#39;t consider myself as worthwhile and useful as I used to</value>
+	<value code="2">I feel more worthless as compared to other people</value>
+	<value code="3">I feel utterly worthless</value>
+	<value code="N">Not Applicable</value>
+	<value code="U">Unavailable</value>
+</variable>
+
+<variable id="phv00088258.v1">
+	<name>bdi15</name>
+	<description>Loss of Energy</description>
+	<type>encoded value</type>
+	<value code="0">I have as much energy as ever</value>
+	<value code="1">I have less energy than I used to have</value>
+	<value code="2">I don&#39;t have enough energy to do very much</value>
+	<value code="3">I don&#39;t have enough energy to do anything</value>
+	<value code="N">Not Applicable</value>
+	<value code="U">Unavailable</value>
+</variable>
+
+<variable id="phv00088259.v1">
+	<name>bdi16</name>
+	<description>Changes in Sleeping Pattern</description>
+	<type>encoded value</type>
+	<value code="0">I have not experienced any change in my sleeping pattern</value>
+	<value code="1.1">I sleep somewhat more than usual</value>
+	<value code="1.2">I sleep somewhat less than usual</value>
+	<value code="2.1">I sleep a lot more than usual</value>
+	<value code="2.2">I sleep a lot less than usual</value>
+	<value code="3.1">I sleep most of the day</value>
+	<value code="3.2">I wake up 1-2 hours early and can&#39;t get back to sleep</value>
+	<value code="N">Not Applicable</value>
+	<value code="U">Unavailable</value>
+</variable>
+
+<variable id="phv00088260.v1">
+	<name>bdi17</name>
+	<description>Irritability</description>
+	<type>encoded value</type>
+	<value code="0">I am no more irritable than usual</value>
+	<value code="1">I am more irritable than usual</value>
+	<value code="2">I am much more irritable than usual</value>
+	<value code="3">I am irritable all the time</value>
+	<value code="N">Not Applicable</value>
+	<value code="U">Unavailable</value>
+</variable>
+
+<variable id="phv00088261.v1">
+	<name>bdi18</name>
+	<description>Changes in Appetite</description>
+	<type>encoded value</type>
+	<value code="0">I have not experienced any change in my appetite</value>
+	<value code="1.1">My appetite is somewhat less than usual</value>
+	<value code="1.2">My appetite is somewhat greater than usual</value>
+	<value code="2.1">My appetite is much less than before</value>
+	<value code="2.2">My appetite is much greater than usual</value>
+	<value code="3.1">I have no appetite at all</value>
+	<value code="3.2">I crave food all the time</value>
+	<value code="N">Not Applicable</value>
+	<value code="U">Unavailable</value>
+</variable>
+
+<variable id="phv00088262.v1">
+	<name>bdi19</name>
+	<description>Concentration Difficulty</description>
+	<type>encoded value</type>
+	<value code="0">I can concentrate as well as ever</value>
+	<value code="1">I can&#39;t concentrate as well as usual</value>
+	<value code="2">It&#39;s hard to keep my mind on anything for very long</value>
+	<value code="3">I find I can&#39;t concentrate on anything</value>
+	<value code="N">Not Applicable</value>
+	<value code="U">Unavailable</value>
+</variable>
+
+<variable id="phv00088263.v1">
+	<name>bdi20</name>
+	<description>Tiredness or Fatigue</description>
+	<type>encoded value</type>
+	<value code="0">I am no more tired or fatigued than usual</value>
+	<value code="1">I get more tired or fatigued more easily than usual</value>
+	<value code="2">I am too tired or fatigued to do a lot of the things I used to do</value>
+	<value code="3">I am too tired or fatigued to do most of the things I used to do</value>
+	<value code="N">Not Applicable</value>
+	<value code="U">Unavailable</value>
+</variable>
+
+<variable id="phv00088264.v1">
+	<name>bdi21</name>
+	<description>Loss of Interest in Sex</description>
+	<type>encoded value</type>
+	<value code="0">I have not noticed any recent change in my interest in sex</value>
+	<value code="1">I am less interested in sex than I used to be</value>
+	<value code="2">I am much less interested in sex now</value>
+	<value code="3">I have lost interest in sex completely</value>
+	<value code="N">Not Applicable</value>
+	<value code="U">Unavailable</value>
+</variable>
+
+<variable id="phv00088265.v1">
+	<name>bditotal</name>
+	<description>Sum of BDI responses</description>
+	<type>integer</type>
+</variable>
+
+<variable id="phv00088266.v1">
+	<name>suiciderisk</name>
+	<description>Indicator for Suicide Risk based on BDI (Beck Depression Inventory) responses</description>
+	<type>encoded value</type>
+	<value code="0">Not at risk</value>
+	<value code="1">At risk</value>
+</variable>
+
+</data_table>

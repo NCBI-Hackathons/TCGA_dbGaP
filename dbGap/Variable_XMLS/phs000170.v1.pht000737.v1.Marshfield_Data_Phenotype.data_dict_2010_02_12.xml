@@ -1,0 +1,531 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./datadict_v2.xsl"?>
+<data_table id="pht000737.v1" study_id="phs000170.v1" participant_set="1" date_created="Fri Feb 12 12:28:39 2010">
+
+<variable id="phv00071868.v1">
+	<name>SUBJID</name>
+	<description>Deidentified Subject/eMERGE ID</description>
+	<type>integer</type>
+</variable>
+
+<variable id="phv00071869.v1">
+	<name>case_control</name>
+	<description>Case or control?</description>
+	<type>integer, encoded value</type>
+	<comment><![CDATA[The case/control status was derived using an electronic algorithm with &gt;95% PPV (positive predictive value).  Manual chart reviews were performed on a portion of the subjects, using the same diagnostic criteria as the original algorithm.  If the result of the manual chart review did not match the electronic algorithm, the final value will reflect the manually derived status. 
+		Pages 1-11 of "<a href="javascript:getPage(this, &#39;document.cgi&#39;, 1563);return true;" onclick="javascript:getPage(this, &#39;document.cgi&#39;, 1563);return true;" oncontextmenu="javascript:getPage(this, &#39;document.cgi&#39;, 1563);return true;">Marshfield-CataractDefinition</a>" document, provide algorithm for cataract detection. ]]></comment>
+	<value code="1">Case_Surgery</value>
+	<value code="2">Case_Diagnosis</value>
+	<value code="3">Control</value>
+	<value code=".">Missing</value>
+	<value code="NA">Not Assessed</value>
+</variable>
+
+<variable id="phv00071870.v1">
+	<name>sex</name>
+	<description>Gender of participant</description>
+	<type>string, encoded value</type>
+	<value code="M">Male</value>
+	<value code="F">Female</value>
+	<value code="U">Unknown</value>
+	<value code=".">Missing</value>
+	<value code="NA">Not Assessed</value>
+</variable>
+
+<variable id="phv00073568.v1">
+	<name>decade_birth</name>
+	<description>Decade of birth</description>
+	<type>integer, encoded value</type>
+	<comment><![CDATA[Group patients born prior to 1920 (&#8805;89 years of age) into one group]]></comment>
+	<value code="1">Before 1920</value>
+	<value code="2">1920-1929</value>
+	<value code="3">1930-1939</value>
+	<value code="4">1940-1949</value>
+	<value code="5">1950-1959</value>
+	<value code="6">1960-1969</value>
+	<value code="7">1970-1979</value>
+	<value code="8">1980-1989</value>
+	<value code="9">1990-1999</value>
+	<value code="99">Unknown</value>
+	<value code=".">Missing</value>
+	<value code="NA">Not Assessed</value>
+</variable>
+
+<variable id="phv00073569.v1">
+	<name>Age_First_Cataract_Diagnosis</name>
+	<description>Age at first diagnosis of cataract</description>
+	<type>integer</type>
+	<unit>Years</unit>
+	<logical_min>35</logical_min>
+	<logical_max>90</logical_max>
+	<comment><![CDATA[Age 90+ listed as age 90. 
+		Pages 1-11 of "<a href="javascript:getPage(this, &#39;document.cgi&#39;, 1563);return true;" onclick="javascript:getPage(this, &#39;document.cgi&#39;, 1563);return true;" oncontextmenu="javascript:getPage(this, &#39;document.cgi&#39;, 1563);return true;">Marshfield-CataractDefinition</a>" document, provide algorithm for cataract detection.  Use EHR to determine age. ]]></comment>
+	<value code=".">Missing</value>
+	<value code="NA">Not Assessed</value>
+</variable>
+
+<variable id="phv00073570.v1">
+	<name>Age_First_Cataract_Surgery</name>
+	<description>Age at first cataract surgery</description>
+	<type>integer</type>
+	<unit>Years</unit>
+	<logical_min>50</logical_min>
+	<logical_max>90</logical_max>
+	<comment><![CDATA[Age 90+ listed as age 90. 
+		Page 2 of "<a href="javascript:getPage(this, &#39;document.cgi&#39;, 1563);return true;" onclick="javascript:getPage(this, &#39;document.cgi&#39;, 1563);return true;" oncontextmenu="javascript:getPage(this, &#39;document.cgi&#39;, 1563);return true;">Marshfield-CataractDefinition</a>" document, step 2a gives criteria for surgery.  Use EHR to determine age. ]]></comment>
+	<value code=".">Missing</value>
+	<value code="NA">Not Assessed</value>
+</variable>
+
+<variable id="phv00073571.v1">
+	<name>Age_Last_Eye_Exam</name>
+	<description>Age at most recent CPT recorded eye exam</description>
+	<type>integer</type>
+	<unit>Years</unit>
+	<logical_min>50</logical_min>
+	<logical_max>86</logical_max>
+	<comment>Age 90+ listed as age 90.</comment>
+	<value code=".">Missing</value>
+	<value code="NA">Not Assessed</value>
+</variable>
+
+<variable id="phv00073572.v1">
+	<name>Smoking_Status</name>
+	<description>Smoking status at enrollment</description>
+	<type>integer, encoded value</type>
+	<comment><![CDATA[Derived from Question 5 in "<a href="javascript:getPage(this, &#39;document.cgi&#39;, 1565);return true;" onclick="javascript:getPage(this, &#39;document.cgi&#39;, 1565);return true;" oncontextmenu="javascript:getPage(this, &#39;document.cgi&#39;, 1565);return true;">PMRP-Questionnaire</a>".  If 5a = No, then value = 1 (Never).  If 5a = Yes, and 5b= Every Day or Some Days, value = 2 (Past).  If 5a = Yes and 5b=Not at all, value = 3 (Past).  If not answered, then "." (Missing).]]></comment>
+	<value code="1">Never</value>
+	<value code="2">Current</value>
+	<value code="3">Past</value>
+	<value code="4">Unknown</value>
+	<value code=".">Missing</value>
+	<value code="NA">Not Assessed</value>
+</variable>
+
+<variable id="phv00073573.v1">
+	<name>Age_At_Enrollment</name>
+	<description>Age of participant at enrollment</description>
+	<type>integer</type>
+	<unit>Years</unit>
+	<logical_min>45</logical_min>
+	<logical_max>90</logical_max>
+	<comment>Age 90+ listed as age 90.</comment>
+	<value code=".">Missing</value>
+	<value code="NA">Not Assessed</value>
+</variable>
+
+<variable id="phv00073574.v1">
+	<name>Diabetes_Mellitus</name>
+	<description>Diabetes status</description>
+	<type>string, encoded value</type>
+	<comment><![CDATA[Page 4 of "<a href="javascript:getPage(this, &#39;document.cgi&#39;, 1564);return true;" onclick="javascript:getPage(this, &#39;document.cgi&#39;, 1564);return true;" oncontextmenu="javascript:getPage(this, &#39;document.cgi&#39;, 1564);return true;">Marshfield-LowHDLDefinition</a>" document, step 1b gives criteria for diabetes.]]></comment>
+	<value code="Y">Yes</value>
+	<value code="N">No</value>
+	<value code="U">Unknown</value>
+	<value code=".">Missing</value>
+	<value code="NA">Not Assessed</value>
+</variable>
+
+<variable id="phv00073575.v1">
+	<name>Age_Diabetes_Mellitus_Diagnosis</name>
+	<description>Age at the earliest indication of diabetes</description>
+	<type>integer</type>
+	<unit>Years</unit>
+	<logical_min>26</logical_min>
+	<logical_max>90</logical_max>
+	<comment><![CDATA[Indication could be from a diagnosis code, medications, or lab values. 
+		Page 4 of "<a href="javascript:getPage(this, &#39;document.cgi&#39;, 1564);return true;" onclick="javascript:getPage(this, &#39;document.cgi&#39;, 1564);return true;" oncontextmenu="javascript:getPage(this, &#39;document.cgi&#39;, 1564);return true;">Marshfield-LowHDLDefinition</a>" document, step 1b gives criteria for diabetes.  Use EHR to determine age. ]]></comment>
+	<value code=".">Missing</value>
+	<value code="NA">Not Assessed</value>
+</variable>
+
+<variable id="phv00073576.v1">
+	<name>weight</name>
+	<description>Subject&#39;s weight at enrollment</description>
+	<type>decimal</type>
+	<unit>Kilograms</unit>
+	<logical_min>34.5</logical_min>
+	<logical_max>186</logical_max>
+	<comment><![CDATA[Page 9 of "<a href="javascript:getPage(this, &#39;document.cgi&#39;, 1565);return true;" onclick="javascript:getPage(this, &#39;document.cgi&#39;, 1565);return true;" oncontextmenu="javascript:getPage(this, &#39;document.cgi&#39;, 1565);return true;">PMRP-Questionnaire</a>", converted to kg.]]></comment>
+	<value code=".">Missing</value>
+	<value code="NA">Not Assessed</value>
+</variable>
+
+<variable id="phv00073577.v1">
+	<name>height</name>
+	<description>Subject&#39;s height at enrollment</description>
+	<type>decimal</type>
+	<unit>Centimeters</unit>
+	<logical_min>121.9</logical_min>
+	<logical_max>195.6</logical_max>
+	<comment><![CDATA[Page 9 of "<a href="javascript:getPage(this, &#39;document.cgi&#39;, 1565);return true;" onclick="javascript:getPage(this, &#39;document.cgi&#39;, 1565);return true;" oncontextmenu="javascript:getPage(this, &#39;document.cgi&#39;, 1565);return true;">PMRP-Questionnaire</a>", converted to cm.]]></comment>
+	<value code=".">Missing</value>
+	<value code="NA">Not Assessed</value>
+</variable>
+
+<variable id="phv00073578.v1">
+	<name>steroid_use</name>
+	<description>Suspicion of oral/adrenal steroid use?</description>
+	<type>string, encoded value</type>
+	<comment><![CDATA[Pages 12-16 of "<a href="javascript:getPage(this, &#39;document.cgi&#39;, 1563);return true;" onclick="javascript:getPage(this, &#39;document.cgi&#39;, 1563);return true;" oncontextmenu="javascript:getPage(this, &#39;document.cgi&#39;, 1563);return true;">Marshfield-CataractDefinition</a>" document, provide algorithm for steroid use.]]></comment>
+	<value code="Y">Yes</value>
+	<value code="N">No</value>
+	<value code="U">Unknown</value>
+	<value code=".">Missing</value>
+	<value code="NA">Not Assessed</value>
+</variable>
+
+<variable id="phv00073579.v1">
+	<name>Age_First_Steroid</name>
+	<description>Age at first steroid use indication</description>
+	<type>integer</type>
+	<unit>Years</unit>
+	<logical_min>14</logical_min>
+	<logical_max>90</logical_max>
+	<comment><![CDATA[Age 90+ listed as age 90. 
+		Pages 12-16 of "<a href="javascript:getPage(this, &#39;document.cgi&#39;, 1563);return true;" onclick="javascript:getPage(this, &#39;document.cgi&#39;, 1563);return true;" oncontextmenu="javascript:getPage(this, &#39;document.cgi&#39;, 1563);return true;">Marshfield-CataractDefinition</a>" document, provide algorithm for steroid use.  Use EHR to determine age. ]]></comment>
+	<value code=".">Missing</value>
+	<value code="NA">Not Assessed</value>
+</variable>
+
+<variable id="phv00073580.v1">
+	<name>Statin_Use_IND-2</name>
+	<description>Ever used statins?</description>
+	<type>string, encoded value</type>
+	<comment><![CDATA[Page 6 of "<a href="javascript:getPage(this, &#39;document.cgi&#39;, 1564);return true;" onclick="javascript:getPage(this, &#39;document.cgi&#39;, 1564);return true;" oncontextmenu="javascript:getPage(this, &#39;document.cgi&#39;, 1564);return true;">Marshfield-LowHDLDefinition</a>" document, step 1d gives criteria for statins.]]></comment>
+	<value code="Y">Yes</value>
+	<value code="N">No</value>
+	<value code="U">Unknown</value>
+	<value code=".">Missing</value>
+	<value code="NA">Not Assessed</value>
+</variable>
+
+<variable id="phv00073581.v1">
+	<name>Age_First_Statin</name>
+	<description>Age at first statin use indication</description>
+	<type>integer</type>
+	<unit>Years</unit>
+	<logical_min>40</logical_min>
+	<logical_max>90</logical_max>
+	<comment><![CDATA[Age 90+ listed as age 90. 
+		Page 6 of "<a href="javascript:getPage(this, &#39;document.cgi&#39;, 1564);return true;" onclick="javascript:getPage(this, &#39;document.cgi&#39;, 1564);return true;" oncontextmenu="javascript:getPage(this, &#39;document.cgi&#39;, 1564);return true;">Marshfield-LowHDLDefinition</a>" document, step 1d gives criteria for statins.  Use EHR to determine age. ]]></comment>
+	<value code=".">Missing</value>
+	<value code="NA">Not Assessed</value>
+</variable>
+
+<variable id="phv00073582.v1">
+	<name>hypothyroidism_or_hyperthyroidism</name>
+	<description>Subject has hypo-or hyperthyroidism?</description>
+	<type>string, encoded value</type>
+	<comment><![CDATA[Page 5 of "<a href="javascript:getPage(this, &#39;document.cgi&#39;, 1564);return true;" onclick="javascript:getPage(this, &#39;document.cgi&#39;, 1564);return true;" oncontextmenu="javascript:getPage(this, &#39;document.cgi&#39;, 1564);return true;">Marshfield-LowHDLDefinition</a>" document, step 1c gives criteria for hyper/hypothyroidism.]]></comment>
+	<value code="Y">Yes</value>
+	<value code="N">No</value>
+	<value code="U">Unknown</value>
+	<value code=".">Missing</value>
+	<value code="NA">Not Assessed</value>
+</variable>
+
+<variable id="phv00073583.v1">
+	<name>Age_First_Hypo_Hyperthyroidism</name>
+	<description>Age at first hypo- or hyperthyroidism indication?</description>
+	<type>integer</type>
+	<unit>Years</unit>
+	<logical_min>19</logical_min>
+	<logical_max>90</logical_max>
+	<comment><![CDATA[Age 90+ listed as age 90. 
+		Page 5 of "<a href="javascript:getPage(this, &#39;document.cgi&#39;, 1564);return true;" onclick="javascript:getPage(this, &#39;document.cgi&#39;, 1564);return true;" oncontextmenu="javascript:getPage(this, &#39;document.cgi&#39;, 1564);return true;">Marshfield-LowHDLDefinition</a>" document, step 1c gives criteria for hyper/hypothyroidism.  Use EHR to determine age. ]]></comment>
+	<value code=".">Missing</value>
+	<value code="NA">Not Assessed</value>
+</variable>
+
+<variable id="phv00073584.v1">
+	<name>Cancer_Indicator</name>
+	<description>Any cancer (omitting minor skin cancer)</description>
+	<type>string, encoded value</type>
+	<comment><![CDATA[Page 4 of "<a href="javascript:getPage(this, &#39;document.cgi&#39;, 1564);return true;" onclick="javascript:getPage(this, &#39;document.cgi&#39;, 1564);return true;" oncontextmenu="javascript:getPage(this, &#39;document.cgi&#39;, 1564);return true;">Marshfield-LowHDLDefinition</a>" document, step 1a gives criteria for cancer diagnosis.]]></comment>
+	<value code="Y">Yes</value>
+	<value code="N">No</value>
+	<value code="U">Unknown</value>
+	<value code=".">Missing</value>
+	<value code="NA">Not Assessed</value>
+</variable>
+
+<variable id="phv00073585.v1">
+	<name>Age_First_Cancer</name>
+	<description>Age at first cancer indication</description>
+	<type>integer</type>
+	<unit>Years</unit>
+	<logical_min>23</logical_min>
+	<logical_max>90</logical_max>
+	<comment><![CDATA[Age 90+ listed as age 90. 
+		Page 4 of "<a href="javascript:getPage(this, &#39;document.cgi&#39;, 1564);return true;" onclick="javascript:getPage(this, &#39;document.cgi&#39;, 1564);return true;" oncontextmenu="javascript:getPage(this, &#39;document.cgi&#39;, 1564);return true;">Marshfield-LowHDLDefinition</a>" document, step 1a gives criteria for cancer diagnosis.  Use HER to determine age. ]]></comment>
+	<value code=".">Missing</value>
+	<value code="NA">Not Assessed</value>
+</variable>
+
+<variable id="phv00073586.v1">
+	<name>alcohol_use_past_month</name>
+	<description>During the past month, have you had at least one drink of any alcoholic beverage, such as beer, wine, wine coolers, or liquor?</description>
+	<type>string, encoded value</type>
+	<comment><![CDATA[Question 6a in "<a href="javascript:getPage(this, &#39;document.cgi&#39;, 1565);return true;" onclick="javascript:getPage(this, &#39;document.cgi&#39;, 1565);return true;" oncontextmenu="javascript:getPage(this, &#39;document.cgi&#39;, 1565);return true;">PMRP-Questionnaire</a>"]]></comment>
+	<value code="Y">Yes</value>
+	<value code="N">No</value>
+	<value code="U">Unknown</value>
+	<value code=".">Missing</value>
+	<value code="NA">Not Assessed</value>
+</variable>
+
+<variable id="phv00073587.v1">
+	<name>Age_Median_HDL_Cholesterol_Measurement</name>
+	<description>Median age at HDL results</description>
+	<type>integer</type>
+	<unit>Years</unit>
+	<logical_min>30</logical_min>
+	<logical_max>90</logical_max>
+	<comment><![CDATA[See "<a href="javascript:getPage(this, &#39;document.cgi&#39;, 1564);return true;" onclick="javascript:getPage(this, &#39;document.cgi&#39;, 1564);return true;" oncontextmenu="javascript:getPage(this, &#39;document.cgi&#39;, 1564);return true;">Marshfield-LowHDLDefinition</a>" document for full algorithm.]]></comment>
+	<value code=".">Missing</value>
+	<value code="NA">Not Assessed</value>
+</variable>
+
+<variable id="phv00073588.v1">
+	<name>BMI_Median_HDL_Cholesterol_Measurement</name>
+	<description>Median BMI at HDL results</description>
+	<type>decimal</type>
+	<unit>Kg/mm2</unit>
+	<logical_min>16.2</logical_min>
+	<logical_max>64.7</logical_max>
+	<comment><![CDATA[See "<a href="javascript:getPage(this, &#39;document.cgi&#39;, 1564);return true;" onclick="javascript:getPage(this, &#39;document.cgi&#39;, 1564);return true;" oncontextmenu="javascript:getPage(this, &#39;document.cgi&#39;, 1564);return true;">Marshfield-LowHDLDefinition</a>" document for full algorithm.]]></comment>
+	<value code=".">Missing</value>
+	<value code="NA">Not Assessed</value>
+</variable>
+
+<variable id="phv00073589.v1">
+	<name>Median_HDL_Cholesterol_Measurement</name>
+	<description>Median baseline HDL cholesterol (no estrogen)</description>
+	<type>decimal</type>
+	<unit>Mg/dL</unit>
+	<logical_min>19</logical_min>
+	<logical_max>127.5</logical_max>
+	<comment><![CDATA[See "<a href="javascript:getPage(this, &#39;document.cgi&#39;, 1564);return true;" onclick="javascript:getPage(this, &#39;document.cgi&#39;, 1564);return true;" oncontextmenu="javascript:getPage(this, &#39;document.cgi&#39;, 1564);return true;">Marshfield-LowHDLDefinition</a>" document for full algorithm.]]></comment>
+	<value code=".">Missing</value>
+	<value code="NA">Not Assessed</value>
+</variable>
+
+<variable id="phv00073590.v1">
+	<name>Adjusted_HDL_Cholesterol_Measurement</name>
+	<description>Adjusted baseline HDL (age 59, BMI 29, no estrogen)</description>
+	<type>decimal</type>
+	<unit>Mg/dL</unit>
+	<logical_min>19.8</logical_min>
+	<logical_max>118.3</logical_max>
+	<comment><![CDATA[Modeled based on same baseline period, age 59 and adjusted for age and body size. 
+		See "<a href="javascript:getPage(this, &#39;document.cgi&#39;, 1564);return true;" onclick="javascript:getPage(this, &#39;document.cgi&#39;, 1564);return true;" oncontextmenu="javascript:getPage(this, &#39;document.cgi&#39;, 1564);return true;">Marshfield-LowHDLDefinition</a>" document for full algorithm. ]]></comment>
+	<value code=".">Missing</value>
+	<value code="NA">Not Assessed</value>
+</variable>
+
+<variable id="phv00073591.v1">
+	<name>Counts_HDL_Cholesterol_Measurement</name>
+	<description>Number of baseline HDL results (no estrogen)</description>
+	<type>integer</type>
+	<logical_min>1</logical_min>
+	<logical_max>37</logical_max>
+	<comment><![CDATA[See "<a href="javascript:getPage(this, &#39;document.cgi&#39;, 1564);return true;" onclick="javascript:getPage(this, &#39;document.cgi&#39;, 1564);return true;" oncontextmenu="javascript:getPage(this, &#39;document.cgi&#39;, 1564);return true;">Marshfield-LowHDLDefinition</a>" document for full algorithm.]]></comment>
+	<value code=".">Missing</value>
+	<value code="NA">Not Assessed</value>
+</variable>
+
+<variable id="phv00073592.v1">
+	<name>Standard_Error_HDL_Cholesterol_Measurement</name>
+	<description>Estimated standard error for baseline HDL</description>
+	<type>decimal</type>
+	<logical_min>1.2</logical_min>
+	<logical_max>31</logical_max>
+	<comment><![CDATA[See "<a href="javascript:getPage(this, &#39;document.cgi&#39;, 1564);return true;" onclick="javascript:getPage(this, &#39;document.cgi&#39;, 1564);return true;" oncontextmenu="javascript:getPage(this, &#39;document.cgi&#39;, 1564);return true;">Marshfield-LowHDLDefinition</a>" document for full algorithm.]]></comment>
+	<value code=".">Missing</value>
+	<value code="NA">Not Assessed</value>
+</variable>
+
+<variable id="phv00073593.v1">
+	<name>Median_LDL_Cholesterol_Measurement</name>
+	<description>Median baseline LDL cholesterol (no estrogen)</description>
+	<type>decimal</type>
+	<unit>Mg/dL</unit>
+	<logical_min>32</logical_min>
+	<logical_max>344</logical_max>
+	<value code=".">Missing</value>
+	<value code="NA">Not Assessed</value>
+</variable>
+
+<variable id="phv00073594.v1">
+	<name>Adjusted_LDL_Cholesterol_Measurement</name>
+	<description>Adjusted baseline LDL (age 59, BMI 29, no estrogen)</description>
+	<type>decimal</type>
+	<unit>Mg/dL</unit>
+	<logical_min>60.4</logical_min>
+	<logical_max>321.5</logical_max>
+	<comment>Modeled based on same baseline period, age 59 and adjusted for age and body size.</comment>
+	<value code=".">Missing</value>
+	<value code="NA">Not Assessed</value>
+</variable>
+
+<variable id="phv00073595.v1">
+	<name>Counts_LDL_Cholesterol_Measurement</name>
+	<description>Number of baseline LDL results (no estrogen)</description>
+	<type>integer</type>
+	<logical_min>1</logical_min>
+	<logical_max>37</logical_max>
+	<value code=".">Missing</value>
+	<value code="NA">Not Assessed</value>
+</variable>
+
+<variable id="phv00073596.v1">
+	<name>Standard_Error_LDL_Cholesterol_Measurement</name>
+	<description>Estimated standard error for baseline LDL</description>
+	<type>decimal</type>
+	<logical_min>3.4</logical_min>
+	<logical_max>60.5</logical_max>
+	<value code=".">Missing</value>
+	<value code="NA">Not Assessed</value>
+</variable>
+
+<variable id="phv00073597.v1">
+	<name>Median_Total_Cholesterol_Measurement</name>
+	<description>Median baseline total cholesterol (no estrogen)</description>
+	<type>decimal</type>
+	<unit>Mg/dL</unit>
+	<logical_min>113.5</logical_min>
+	<logical_max>401.5</logical_max>
+	<value code=".">Missing</value>
+	<value code="NA">Not Assessed</value>
+</variable>
+
+<variable id="phv00073598.v1">
+	<name>Adjusted_Total_Cholesterol_Measurement</name>
+	<description>Adjusted baseline total cholesterol (age 59, BMI 29, no estrogen)</description>
+	<type>decimal</type>
+	<unit>Mg/dL</unit>
+	<logical_min>120.2</logical_min>
+	<logical_max>401.7</logical_max>
+	<comment>Modeled based on same baseline period, age 59 and adjusted for age and body size.</comment>
+	<value code=".">Missing</value>
+	<value code="NA">Not Assessed</value>
+</variable>
+
+<variable id="phv00073599.v1">
+	<name>Counts_Total_Cholesterol_Measurement</name>
+	<description>Number of baseline total cholesterol results (no estrogen)</description>
+	<type>integer</type>
+	<logical_min>1</logical_min>
+	<logical_max>61</logical_max>
+	<value code=".">Missing</value>
+	<value code="NA">Not Assessed</value>
+</variable>
+
+<variable id="phv00073600.v1">
+	<name>Standard_Error_Total_Cholesterol_Measurement</name>
+	<description>Estimated standard error for baseline total cholesterol</description>
+	<type>decimal</type>
+	<logical_min>3.2</logical_min>
+	<logical_max>61.5</logical_max>
+	<value code=".">Missing</value>
+	<value code="NA">Not Assessed</value>
+</variable>
+
+<variable id="phv00073601.v1">
+	<name>Median_Triglycerides</name>
+	<description>Median baseline triglycerides (no estrogen)</description>
+	<type>decimal</type>
+	<unit>Mg/dL</unit>
+	<logical_min>27</logical_min>
+	<logical_max>861.5</logical_max>
+	<value code=".">Missing</value>
+	<value code="NA">Not Assessed</value>
+</variable>
+
+<variable id="phv00073602.v1">
+	<name>Adjusted_Triglycerides</name>
+	<description>Adjusted baseline triglycerides (age 59, BMI 29, no estrogen)</description>
+	<type>decimal</type>
+	<unit>Mg/dL</unit>
+	<logical_min>41.9</logical_min>
+	<logical_max>1014.4</logical_max>
+	<comment>Modeled based on same baseline period, age 59 and adjusted for age and body size.</comment>
+	<value code=".">Missing</value>
+	<value code="NA">Not Assessed</value>
+</variable>
+
+<variable id="phv00073603.v1">
+	<name>Counts_Triglycerides</name>
+	<description>Number of baseline triglyceride results (no estrogen)</description>
+	<type>integer</type>
+	<logical_min>1</logical_min>
+	<logical_max>42</logical_max>
+	<value code=".">Missing</value>
+	<value code="NA">Not Assessed</value>
+</variable>
+
+<variable id="phv00073604.v1">
+	<name>Standard_Error_Triglycerides</name>
+	<description>Estimated standard error for baseline triglycerides</description>
+	<type>decimal</type>
+	<logical_min>9.7</logical_min>
+	<logical_max>313.5</logical_max>
+	<value code=".">Missing</value>
+	<value code="NA">Not Assessed</value>
+</variable>
+
+<variable id="phv00076431.v1">
+	<name>race</name>
+	<description>Race of partipant</description>
+	<type>integer, encoded value</type>
+	<comment><![CDATA[NIH Racial categories 
+		Question 1 in "<a href="javascript:getPage(this, &#39;document.cgi&#39;, 1565);return true;" onclick="javascript:getPage(this, &#39;document.cgi&#39;, 1565);return true;" oncontextmenu="javascript:getPage(this, &#39;document.cgi&#39;, 1565);return true;">PMRP-Questionnaire</a>" ]]></comment>
+	<value code="0">Black or African American</value>
+	<value code="1">American Indian or Alaska Native</value>
+	<value code="2">Asian</value>
+	<value code="3">White</value>
+	<value code="4">Native Hawaiian or other Pacific Islander</value>
+	<value code="5">Other</value>
+	<value code="6">Unknown</value>
+	<value code=".">Missing</value>
+	<value code="NA">Not Assessed</value>
+</variable>
+
+<variable id="phv00076432.v1">
+	<name>ethnicity</name>
+	<description>Ethnicity of participant</description>
+	<type>integer, encoded value</type>
+	<comment><![CDATA[Responses from questionnaire are mapped to NIH Ethnic categories. 
+		Question 2 in "<a href="javascript:getPage(this, &#39;document.cgi&#39;, 1565);return true;" onclick="javascript:getPage(this, &#39;document.cgi&#39;, 1565);return true;" oncontextmenu="javascript:getPage(this, &#39;document.cgi&#39;, 1565);return true;">PMRP-Questionnaire</a>" ]]></comment>
+	<value code="0">Not Hispanic or Latino</value>
+	<value code="1">Hispanic or Latino</value>
+	<value code="2">Unknown</value>
+	<value code=".">Missing</value>
+	<value code="NA">Not Assessed</value>
+</variable>
+
+<variable id="phv00077307.v1">
+	<name>Relative_In_Cohort</name>
+	<description>Indicates if this individual is related to at least one other individual in the cohort.</description>
+	<type>string, encoded value</type>
+	<comment><![CDATA[Relatedness is defined as having a kinship coefficient &#8805;0.125]]></comment>
+	<value code="Y">Yes</value>
+	<value code="N">No</value>
+	<value code=".">Missing</value>
+	<value code="NA">Not Assessed</value>
+</variable>
+
+<variable id="phv00088194.v1">
+	<name>Validation_Status</name>
+	<description>Indicates if manual chart abstraction was performed, and how it compares to the electronic algorithm.</description>
+	<type>integer, encoded value</type>
+	<comment>The case/control status was manually verified on a representative sample of the population, but does not include all subjects.  Where manual chart abstraction was not performed, the case/control status can be assumed to have &gt;95% PPV (Positive Predictive Value).</comment>
+	<value code="0">Electronic algorithm and manual validation do not match.  case_control reflects the result of manual validation.</value>
+	<value code="1">Electronic algorithm and manual validation match.</value>
+	<value code="2">Manual validation not performed.</value>
+	<value code=".">Missing</value>
+	<value code="NA">Not Assessed</value>
+</variable>
+
+</data_table>

@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./datadict_v2.xsl"?>
+<data_table id="pht000630.v1" study_id="phs000140.v1" participant_set="1" date_created="Wed Nov 24 11:08:18 2010">
+
+<variable id="phv00066337.v1">
+	<name>SUBJID</name>
+	<description>Subject ID</description>
+	<type>text</type>
+</variable>
+
+<variable id="phv00066338.v1">
+	<name>Race</name>
+	<description>Race, ethnicity of participant</description>
+	<type>enumerated text</type>
+	<value code="AA">African American</value>
+</variable>
+
+<variable id="phv00066339.v1">
+	<name>Age</name>
+	<description>Age at recruitment</description>
+	<type>continuous integer</type>
+	<unit>Years</unit>
+</variable>
+
+<variable id="phv00066340.v1">
+	<name>Gender</name>
+	<description>Gender of participant has been confirmed with genotyping: 1 = Male, 2 = Female</description>
+	<type>continuous integer</type>
+	<value code="1">Male</value>
+	<value code="2">Female</value>
+</variable>
+
+<variable id="phv00066341.v1">
+	<name>BMI</name>
+	<description>Body Mass Index</description>
+	<type>continuous decimal</type>
+	<unit>kg/m2</unit>
+</variable>
+
+<variable id="phv00066342.v1">
+	<name>Consent</name>
+	<description>Consent form(s) signed by participant</description>
+	<type>enumerated text</type>
+	<value code="A">BG91-0129</value>
+	<value code="A,X">BG91-0129, Deceased participant</value>
+	<value code="B">BG92-0090</value>
+	<value code="B,X">BG92-0090, Deceased participant</value>
+	<value code="C">BG95-109</value>
+	<value code="D">BG00-028</value>
+	<value code="E">BG00-427</value>
+	<value code="E_001">BG00-427_001</value>
+	<value code="E_001, H">BG00-427_001,  Reconsent form</value>
+	<value code="E_001,H">BG00-427_001,  Reconsent form</value>
+	<value code="E_001,X">BG00-427_001, Deceased participant</value>
+	<value code="E_002">BG00-427_002</value>
+	<value code="E_003">BG00-427_003</value>
+	<value code="E_004">BG00-427_004</value>
+	<value code="E_005">BG00-427_005</value>
+	<value code="F">BG01-059</value>
+	<value code="G">BG01-299</value>
+	<value code="G_001">BG01-299-001</value>
+	<value code="G_001,X">BG01-299-001, Deceased participant</value>
+	<value code="G_002">BG01-299-002</value>
+	<value code="G_002, H">BG01-299-002, Reconsent form</value>
+	<value code="H">Reconsent form</value>
+	<value code="X">Deceased participant</value>
+</variable>
+
+<variable id="phv00066343.v1">
+	<name>T2DM Age of Onset</name>
+	<description>Age of T2DM (Type 2 Diabetes Mellitus) diagnosis</description>
+	<type>continuous integer</type>
+	<unit>Years</unit>
+	<value code=".">Unknown</value>
+</variable>
+
+<variable id="phv00066344.v1">
+	<name>ESRD Age of Onset</name>
+	<description>Age of ESRD (End Stage Renal Disease) diagnosis, start of dialysis</description>
+	<type>continuous integer</type>
+	<unit>Years</unit>
+	<value code=".">Unknown</value>
+</variable>
+
+<variable id="phv00066345.v1">
+	<name>HTN Age of Onset</name>
+	<description>Age of hypertension diagnosis</description>
+	<type>continuous integer</type>
+	<unit>Years</unit>
+	<value code=".">Unknown</value>
+</variable>
+
+<variable id="phv00066346.v1">
+	<name>Duration T2DM</name>
+	<description>Duration of T2DM (Type 2 Diabetes Mellitus) since diagnosis</description>
+	<type>continuous integer</type>
+	<unit>Years</unit>
+	<value code=".">Unknown</value>
+</variable>
+
+<variable id="phv00066347.v1">
+	<name>ESRD</name>
+	<description>Individual has reported that he/she is on dialysis</description>
+	<type>enumerated text</type>
+	<value code="ESRD">Yes</value>
+	<value code="no">No</value>
+	<value code="yes">Yes</value>
+</variable>
+
+<variable id="phv00066348.v1">
+	<name>HTN</name>
+	<description>Individual has self reported hypertension (yes, no, unknown)</description>
+	<type>enumerated text</type>
+	<value code="HTN">Yes</value>
+	<value code="no">No</value>
+	<value code="unknown">Unknown</value>
+	<value code="yes">Yes</value>
+</variable>
+
+<variable id="phv00066349.v1">
+	<name>Retinopathy</name>
+	<description>Individual has diabetic retinopathy reported by ophthalmologist or laser treatment with photocoagulation</description>
+	<type>enumerated text</type>
+</variable>
+
+<variable id="phv00066350.v1">
+	<name>HBA1C</name>
+	<description>Hemoglobin1AC, test</description>
+	<type>enumerated integer</type>
+	<unit>%</unit>
+	<value code=".">Unknown</value>
+</variable>
+
+<variable id="phv00076433.v1">
+	<name>pc1</name>
+	<description>Principal component 1: a mathematical tool commonly used in statistical analysis. It seeks to identify an orthogonal coordinate system that transforms a number of possibly correlated variables into a smaller number of uncorrelated variables called principal components (PC). This method allows for the separation of individuals on the basis of differences in their properties and can also be used to evaluate the properties that contribute the most to these separations. The principal components are ordered in terms of the amount of variation in the dataset that they explain such that the first PC explains the largest fraction of the total variance, and so on. There exist a number of methods to determine the number of PC to be retained for a specific analysis. However, none of them uniformly dominates the others. Following a practice largely adopted in the field, we present the first 10 PC computed on this dataset.</description>
+	<type>continuous decimal</type>
+</variable>
+
+<variable id="phv00076434.v1">
+	<name>pc2</name>
+	<description>Principal component 2: a mathematical tool commonly used in statistical analysis. It seeks to identify an orthogonal coordinate system that transforms a number of possibly correlated variables into a smaller number of uncorrelated variables called principal components (PC). This method allows for the separation of individuals on the basis of differences in their properties and can also be used to evaluate the properties that contribute the most to these separations. The principal components are ordered in terms of the amount of variation in the dataset that they explain such that the first PC explains the largest fraction of the total variance, and so on. There exist a number of methods to determine the number of PC to be retained for a specific analysis. However, none of them uniformly dominates the others. Following a practice largely adopted in the field, we present the first 10 PC computed on this dataset.</description>
+	<type>continuous decimal</type>
+</variable>
+
+<variable id="phv00076435.v1">
+	<name>pc3</name>
+	<description>Principal component 3: a mathematical tool commonly used in statistical analysis. It seeks to identify an orthogonal coordinate system that transforms a number of possibly correlated variables into a smaller number of uncorrelated variables called principal components (PC). This method allows for the separation of individuals on the basis of differences in their properties and can also be used to evaluate the properties that contribute the most to these separations. The principal components are ordered in terms of the amount of variation in the dataset that they explain such that the first PC explains the largest fraction of the total variance, and so on. There exist a number of methods to determine the number of PC to be retained for a specific analysis. However, none of them uniformly dominates the others. Following a practice largely adopted in the field, we present the first 10 PC computed on this dataset.</description>
+	<type>continuous decimal</type>
+</variable>
+
+<variable id="phv00076436.v1">
+	<name>pc4</name>
+	<description>Principal component 4: a mathematical tool commonly used in statistical analysis. It seeks to identify an orthogonal coordinate system that transforms a number of possibly correlated variables into a smaller number of uncorrelated variables called principal components (PC). This method allows for the separation of individuals on the basis of differences in their properties and can also be used to evaluate the properties that contribute the most to these separations. The principal components are ordered in terms of the amount of variation in the dataset that they explain such that the first PC explains the largest fraction of the total variance, and so on. There exist a number of methods to determine the number of PC to be retained for a specific analysis. However, none of them uniformly dominates the others. Following a practice largely adopted in the field, we present the first 10 PC computed on this dataset.</description>
+	<type>continuous decimal</type>
+</variable>
+
+<variable id="phv00076437.v1">
+	<name>pc5</name>
+	<description>Principal component 5: a mathematical tool commonly used in statistical analysis. It seeks to identify an orthogonal coordinate system that transforms a number of possibly correlated variables into a smaller number of uncorrelated variables called principal components (PC). This method allows for the separation of individuals on the basis of differences in their properties and can also be used to evaluate the properties that contribute the most to these separations. The principal components are ordered in terms of the amount of variation in the dataset that they explain such that the first PC explains the largest fraction of the total variance, and so on. There exist a number of methods to determine the number of PC to be retained for a specific analysis. However, none of them uniformly dominates the others. Following a practice largely adopted in the field, we present the first 10 PC computed on this dataset.</description>
+	<type>continuous decimal</type>
+</variable>
+
+<variable id="phv00076438.v1">
+	<name>pc6</name>
+	<description>Principal component 6: a mathematical tool commonly used in statistical analysis. It seeks to identify an orthogonal coordinate system that transforms a number of possibly correlated variables into a smaller number of uncorrelated variables called principal components (PC). This method allows for the separation of individuals on the basis of differences in their properties and can also be used to evaluate the properties that contribute the most to these separations. The principal components are ordered in terms of the amount of variation in the dataset that they explain such that the first PC explains the largest fraction of the total variance, and so on. There exist a number of methods to determine the number of PC to be retained for a specific analysis. However, none of them uniformly dominates the others. Following a practice largely adopted in the field, we present the first 10 PC computed on this dataset.</description>
+	<type>continuous decimal</type>
+</variable>
+
+<variable id="phv00076439.v1">
+	<name>pc7</name>
+	<description>Principal component 7: a mathematical tool commonly used in statistical analysis. It seeks to identify an orthogonal coordinate system that transforms a number of possibly correlated variables into a smaller number of uncorrelated variables called principal components (PC). This method allows for the separation of individuals on the basis of differences in their properties and can also be used to evaluate the properties that contribute the most to these separations. The principal components are ordered in terms of the amount of variation in the dataset that they explain such that the first PC explains the largest fraction of the total variance, and so on. There exist a number of methods to determine the number of PC to be retained for a specific analysis. However, none of them uniformly dominates the others. Following a practice largely adopted in the field, we present the first 10 PC computed on this dataset.</description>
+	<type>continuous decimal</type>
+</variable>
+
+<variable id="phv00076440.v1">
+	<name>pc8</name>
+	<description>Principal component 8: a mathematical tool commonly used in statistical analysis. It seeks to identify an orthogonal coordinate system that transforms a number of possibly correlated variables into a smaller number of uncorrelated variables called principal components (PC). This method allows for the separation of individuals on the basis of differences in their properties and can also be used to evaluate the properties that contribute the most to these separations. The principal components are ordered in terms of the amount of variation in the dataset that they explain such that the first PC explains the largest fraction of the total variance, and so on. There exist a number of methods to determine the number of PC to be retained for a specific analysis. However, none of them uniformly dominates the others. Following a practice largely adopted in the field, we present the first 10 PC computed on this dataset.</description>
+	<type>continuous decimal</type>
+</variable>
+
+<variable id="phv00076441.v1">
+	<name>pc9</name>
+	<description>Principal component 9: a mathematical tool commonly used in statistical analysis. It seeks to identify an orthogonal coordinate system that transforms a number of possibly correlated variables into a smaller number of uncorrelated variables called principal components (PC). This method allows for the separation of individuals on the basis of differences in their properties and can also be used to evaluate the properties that contribute the most to these separations. The principal components are ordered in terms of the amount of variation in the dataset that they explain such that the first PC explains the largest fraction of the total variance, and so on. There exist a number of methods to determine the number of PC to be retained for a specific analysis. However, none of them uniformly dominates the others. Following a practice largely adopted in the field, we present the first 10 PC computed on this dataset.</description>
+	<type>continuous decimal</type>
+</variable>
+
+<variable id="phv00076442.v1">
+	<name>pc10</name>
+	<description>Principal component 10: a mathematical tool commonly used in statistical analysis. It seeks to identify an orthogonal coordinate system that transforms a number of possibly correlated variables into a smaller number of uncorrelated variables called principal components (PC). This method allows for the separation of individuals on the basis of differences in their properties and can also be used to evaluate the properties that contribute the most to these separations. The principal components are ordered in terms of the amount of variation in the dataset that they explain such that the first PC explains the largest fraction of the total variance, and so on. There exist a number of methods to determine the number of PC to be retained for a specific analysis. However, none of them uniformly dominates the others. Following a practice largely adopted in the field, we present the first 10 PC computed on this dataset.</description>
+	<type>continuous decimal</type>
+</variable>
+
+</data_table>

@@ -1,0 +1,575 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./datadict_v2.xsl"?>
+<data_table id="pht001081.v1" study_id="phs000219.v1" participant_set="1" date_created="Tue Jan 19 13:07:06 2010">
+
+<unique_key phv="00081925" version="1">SUBJID</unique_key>
+<unique_key phv="00081929" version="1">VISIT</unique_key>
+
+<variable id="phv00081925.v1">
+	<name>SUBJID</name>
+	<description>Subject&#39;s ID</description>
+	<type>String</type>
+</variable>
+
+<variable id="phv00081926.v1">
+	<name>CASE_CONTROL</name>
+	<description>Subject type</description>
+	<type>Encoded value</type>
+	<value code="ADP">AD Participant</value>
+	<value code="CASE">Case</value>
+	<value code="CCCS">Control with Change in Cognitive Status</value>
+	<value code="CNTL">Control</value>
+	<value code="FAM">Family member</value>
+	<value code="UASB">Unaffected Sibling</value>
+</variable>
+
+<variable id="phv00081927.v1">
+	<name>INV</name>
+	<description>Investigator&#39;s ID</description>
+	<type>String</type>
+</variable>
+
+<variable id="phv00081928.v1">
+	<name>INVSITE</name>
+	<description>Investigator site ID</description>
+	<type>String</type>
+</variable>
+
+<variable id="phv00081929.v1">
+	<name>VISIT</name>
+	<description>Visit name</description>
+	<type>String</type>
+</variable>
+
+<variable id="phv00081930.v1">
+	<name>VISIT_DATE</name>
+	<description>Visit date</description>
+	<type>Date</type>
+	<comment>Truncated to YYYY</comment>
+</variable>
+
+<variable id="phv00081931.v1">
+	<name>CNT_EXC1</name>
+	<description>Is this participant currently in a Major Depressive Episode, Psychosis, acute mania or depressive episode of Bipolar Disorder?</description>
+	<type>Encoded Value</type>
+	<value code="N">No</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00081932.v1">
+	<name>CNT_EXC2</name>
+	<description>Does this participant have cognitive impairment on testing?</description>
+	<type>Encoded Value</type>
+	<value code="N">No</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00081933.v1">
+	<name>CNT_EXC3</name>
+	<description>** Question deleted on updated CRF **</description>
+	<type>Encoded Value</type>
+	<value code="N">No</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00081934.v1">
+	<name>CNT_EXC4</name>
+	<description>Is this participant classified as an MCI patient?</description>
+	<type>Encoded Value</type>
+	<value code="N">No</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00081935.v1">
+	<name>CNT_INC1</name>
+	<description>Does this participant have a MMSE score higher than the cut off score? (once age and education adjusted)</description>
+	<type>Encoded Value</type>
+	<value code="N">No</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00081936.v1">
+	<name>CNT_INC2</name>
+	<description>Does this participant have a AEMSS score of 9 or higher? (age and education adjusted)</description>
+	<type>Encoded Value</type>
+	<value code="N">No</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00081937.v1">
+	<name>CNT_INC3</name>
+	<description>Does this participant have a clock test score of &gt;= 14?</description>
+	<type>Encoded Value</type>
+	<value code="N">No</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00081938.v1">
+	<name>CNT_INC4</name>
+	<description>Does this participant have no impairment of the 7 Instrumental ADL questions from OARS, unless explained by a physical disability?</description>
+	<type>Encoded Value</type>
+	<value code="N">No</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00081939.v1">
+	<name>CNT_INC5</name>
+	<description>Is the participant Caucasian?</description>
+	<type>Encoded Value</type>
+	<value code="N">No</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00081940.v1">
+	<name>CNT_INC6</name>
+	<description>Additional Inclusion for unaffected sibling only: Is the participant 65 years of age or older?</description>
+	<type>Encoded Value</type>
+	<value code="N">No</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00081941.v1">
+	<name>CNT_MR_INC1</name>
+	<description>Has the participant consented to visit 1 of the GENADA-LONG study as control ?</description>
+	<type>Encoded Value</type>
+	<value code="N">No</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00081942.v1">
+	<name>CNT_MR_INC2</name>
+	<description>Is this participant classified as a control with change in cognitive status?</description>
+	<type>Encoded Value</type>
+	<value code="N">No</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00081943.v1">
+	<name>CNT_MR_INC3</name>
+	<description>Is the participant able to provide an adequate baseline scan?</description>
+	<type>Encoded Value</type>
+	<value code="N">No</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00081944.v1">
+	<name>CNT_MR3_INC1</name>
+	<description>Has the participant consented to visit 2 of the GENADA-LONG study as control ?</description>
+	<type>Encoded Value</type>
+	<value code="N">No</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00081945.v1">
+	<name>CNT_MR3_INC2</name>
+	<description>Is this participant classified as a control with change in cognitive status?</description>
+	<type>Encoded Value</type>
+	<value code="N">No</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00081946.v1">
+	<name>CNT_MR3_INC3</name>
+	<description>Was the participant able to provide an adequate baseline scan?</description>
+	<type>Encoded Value</type>
+	<value code="N">No</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00081947.v1">
+	<name>CNT_MR3_INC4</name>
+	<description>Is the participant able to provide an adequate scan at this visit?</description>
+	<type>Encoded Value</type>
+	<value code="N">No</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00081948.v1">
+	<name>CNT_MR4_INC1</name>
+	<description>Has the participant consented to visit 3 of the GENADA-LONG study as control ?</description>
+	<type>Encoded Value</type>
+	<value code="N">No</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00081949.v1">
+	<name>CNT_MR4_INC2</name>
+	<description>Is this participant classified as a control with change in cognitive status?</description>
+	<type>Encoded Value</type>
+	<value code="N">No</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00081950.v1">
+	<name>CNT_MR4_INC3</name>
+	<description>Was the participant able to provide an adequate baseline scan?</description>
+	<type>Encoded Value</type>
+	<value code="N">No</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00081951.v1">
+	<name>CNT_MR4_INC4</name>
+	<description>Is the participant able to provide an adequate scan at this visit?</description>
+	<type>Encoded Value</type>
+	<value code="N">No</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00081952.v1">
+	<name>CNT2_EXC1</name>
+	<description>Is the participant currently in a Major Depressive Episode, Psychosis, or acute manic depressive episode or bipolar disorder?</description>
+	<type>Encoded Value</type>
+	<value code="N">No</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00081953.v1">
+	<name>CNT2_INC1</name>
+	<description>Did this participant take part in the initial GenADA study as a control or unaffected sibling?</description>
+	<type>Encoded Value</type>
+	<value code="N">No</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00081954.v1">
+	<name>CNT2_INC2</name>
+	<description>Has this participant given informed consent to take part in this follow-up study?</description>
+	<type>Encoded Value</type>
+	<value code="N">No</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00081955.v1">
+	<name>CNT2_INC3</name>
+	<description>Is the participant appropriately matched to a GENADA-LONG case or is showing signs of cognitive decline?</description>
+	<type>Encoded Value</type>
+	<value code="N">No</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00081956.v1">
+	<name>CNT3_EXC1</name>
+	<description>Has the participant withdrawn his/her participation in GenADA/GenADA-Long?</description>
+	<type>Encoded Value</type>
+	<value code="N">No</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00081957.v1">
+	<name>CNT3_EXC2</name>
+	<description>Is the participant currently in a major depressive episode, psychosis, or acute manic depressive episode of bipolar disorder?</description>
+	<type>Encoded Value</type>
+	<value code="N">No</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00081958.v1">
+	<name>CNT3_INC1</name>
+	<description>Did this participant take part in the last GenADA-Long visit as a control or unaffected sibling?</description>
+	<type>Encoded Value</type>
+	<value code="N">No</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00081959.v1">
+	<name>CNT3_INC2</name>
+	<description>Has the participant agreed to be contacted for this follow-up visit?</description>
+	<type>Encoded Value</type>
+	<value code="N">No</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00081960.v1">
+	<name>CNT3_INC3</name>
+	<description>Has this participant given informed consent to take part in this follow-up visit?</description>
+	<type>Encoded Value</type>
+	<value code="N">No</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00081961.v1">
+	<name>CSE_EXC1</name>
+	<description>Is this participant currently in a Major Depressive Episode, Psychosis (excluding psychosis related to dementia), acute mania or depressive episode of Bipolar Disorder?</description>
+	<type>Encoded Value</type>
+	<value code="N">No</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00081962.v1">
+	<name>CSE_EXC2</name>
+	<description>Is this participant currently diagnosed with substance abuse or substance dependence?</description>
+	<type>Encoded Value</type>
+	<value code="N">No</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00081963.v1">
+	<name>CSE_INC1</name>
+	<description>Does this participant have a positive diagnosis of Dementia of the Alzheimer&#39;s Type(DAT) on DSM-IV check list?</description>
+	<type>Encoded Value</type>
+	<value code="N">No</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00081964.v1">
+	<name>CSE_INC2</name>
+	<description>Does this participant meet the ADRDA / NINCDS criteria for probable Alzheimer&#39;s Disease?</description>
+	<type>Encoded Value</type>
+	<value code="N">No</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00081965.v1">
+	<name>CSE_INC3</name>
+	<description>Does this participant have a Global Deterioration Score of 3 to 7?</description>
+	<type>Encoded Value</type>
+	<value code="N">No</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00081966.v1">
+	<name>CSE_INC4</name>
+	<description>Does this participant have clinical data available confirming an Alzheimer&#39;s Diagnosis?</description>
+	<type>Encoded Value</type>
+	<value code="N">No</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00081967.v1">
+	<name>CSE_INC5</name>
+	<description>Is the participant Caucasian?</description>
+	<type>Encoded Value</type>
+	<value code="N">No</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00081968.v1">
+	<name>MR_EXC1</name>
+	<description>Does the participant have any contraindication to scanning such as pacemaker, ferrous metal implants or claustrophobia?</description>
+	<type>Encoded Value</type>
+	<value code="N">No</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00081969.v1">
+	<name>MR_EXC2</name>
+	<description>Does the participant suffer from uncontrolled epilepsy, seizures, or blackouts?</description>
+	<type>Encoded Value</type>
+	<value code="N">No</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00081970.v1">
+	<name>MR_EXC3</name>
+	<description>Has the participant failed to give an adequate baseline acquisition after two separate baseline visits?</description>
+	<type>Encoded Value</type>
+	<value code="N">No</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00081971.v1">
+	<name>CSE_MR_INC1</name>
+	<description>Has the participant consented to visit 1 of the GENADA-LONG study as case?</description>
+	<type>Encoded Value</type>
+	<value code="N">No</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00081972.v1">
+	<name>CSE_MR_INC2</name>
+	<description>Is the participant able to provide an adequate baseline scan?</description>
+	<type>Encoded Value</type>
+	<value code="N">No</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00081973.v1">
+	<name>CSE_MR_INC3</name>
+	<description>Does the participant meet the criteria of mild to moderate AD at first scan defined by a GDS of 3,4, or 5?</description>
+	<type>Encoded Value</type>
+	<value code="N">No</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00081974.v1">
+	<name>CSE_MR_INC4</name>
+	<description>Does the participant have a MMSE greater than 15?</description>
+	<type>Encoded Value</type>
+	<value code="N">No</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00081975.v1">
+	<name>MR2_EXC1</name>
+	<description>Does the participant have any contraindication to scanning such as pacemaker, ferrous metal implants or claustrophobia?</description>
+	<type>Encoded Value</type>
+	<value code="N">No</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00081976.v1">
+	<name>MR2_EXC2</name>
+	<description>Does the participant suffer from uncontrolled epilepsy, seizures, or blackouts?</description>
+	<type>Encoded Value</type>
+	<value code="N">No</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00081977.v1">
+	<name>MR2_EXC3</name>
+	<description>Has the participant failed to give an adequate acquisition after two separate visits?</description>
+	<type>Encoded Value</type>
+	<value code="N">No</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00081978.v1">
+	<name>CSE_MR3_INC1</name>
+	<description>Has the participant consented to visit 2 of the GENADA-LONG study as a case?</description>
+	<type>Encoded Value</type>
+	<value code="N">No</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00081979.v1">
+	<name>CSE_MR3_INC2</name>
+	<description>Was the participant able to provide an adequate baseline scan?</description>
+	<type>Encoded Value</type>
+	<value code="N">No</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00081980.v1">
+	<name>CSE_MR3_INC3</name>
+	<description>Is the participant able to provide an adequate scan at this visit?</description>
+	<type>Encoded Value</type>
+	<value code="N">No</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00081981.v1">
+	<name>CSE_MR4_INC1</name>
+	<description>Has the participant consented to visit 3 of the GENADA-LONG study as a case?</description>
+	<type>Encoded Value</type>
+	<value code="N">No</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00081982.v1">
+	<name>CSE_MR4_INC2</name>
+	<description>Was the participant able to provide an adequate baseline scan?</description>
+	<type>Encoded Value</type>
+	<value code="N">No</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00081983.v1">
+	<name>CSE_MR4_INC3</name>
+	<description>Is the participant able to provide an adequate scan at this visit?</description>
+	<type>Encoded Value</type>
+	<value code="N">No</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00081984.v1">
+	<name>CSE2_EXC1</name>
+	<description>Is the participant currently in a Major Depressive Episode, Psychosis (excluding psychosis related to dementia) or acute manic depressive episode of bipolar disorder?</description>
+	<type>Encoded Value</type>
+	<value code="N">No</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00081985.v1">
+	<name>CSE2_EXC2</name>
+	<description>In the investigator&#39;s opinion is the participant not able to be followed up?</description>
+	<type>Encoded Value</type>
+	<value code="N">No</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00081986.v1">
+	<name>CSE2_INC1</name>
+	<description>Did this participant take part in the initial GenADA study as a case or affected family member?</description>
+	<type>Encoded Value</type>
+	<value code="N">No</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00081987.v1">
+	<name>CSE2_INC2</name>
+	<description>Has this participant given informed consent or consent by proxy to take part in this follow-up study?</description>
+	<type>Encoded Value</type>
+	<value code="N">No</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00081988.v1">
+	<name>CSE2_INC3</name>
+	<description>Does the participant fulfill the criteria for mild to moderate AD at the Baseline GENADA Visit?</description>
+	<type>Encoded Value</type>
+	<value code="N">No</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00081989.v1">
+	<name>CSE3_EXC1</name>
+	<description>Has the participant withdrawn his/her participation in GenADA/GenADA Long?</description>
+	<type>Encoded Value</type>
+	<value code="N">No</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00081990.v1">
+	<name>CSE3_EXC2</name>
+	<description>Is the participant currently in a Major Depressive Episode, Psychosis (excluding psychosis related to dementia), or acute manic depressive episode of bipolar disorder?</description>
+	<type>Encoded Value</type>
+	<value code="N">No</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00081991.v1">
+	<name>CSE3_EXC3</name>
+	<description>In the investigator&#39;s opinion is the participant not able to be followed up (due to behaviour, ability to retest, comorbidities, etc.)?</description>
+	<type>Encoded Value</type>
+	<value code="N">No</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00081992.v1">
+	<name>CSE3_INC1</name>
+	<description>Did this participant take part in the last GenADA Long visit as a case or affected family member?</description>
+	<type>Encoded Value</type>
+	<value code="N">No</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00081993.v1">
+	<name>CSE3_INC2</name>
+	<description>Has the participant agreed to be contacted for this follow-up visit?</description>
+	<type>Encoded Value</type>
+	<value code="N">No</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00081994.v1">
+	<name>CSE3_INC3</name>
+	<description>Has this participant given informed consent or consent by proxy to take part in this follow-up visit?</description>
+	<type>Encoded Value</type>
+	<value code="N">No</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00081995.v1">
+	<name>CSE2_EXC_REASON</name>
+	<description>Reason for follow-up exclusion (CSE2_EXC)</description>
+	<type>String</type>
+</variable>
+
+<variable id="phv00081996.v1">
+	<name>CSE3_EXC_REASON</name>
+	<description>Reason for follow-up exclusion (CSE3_EXC)</description>
+	<type>String</type>
+</variable>
+
+</data_table>

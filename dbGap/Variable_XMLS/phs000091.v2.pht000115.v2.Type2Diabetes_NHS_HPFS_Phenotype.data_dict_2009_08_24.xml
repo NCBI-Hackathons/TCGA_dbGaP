@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./datadict_v2.xsl"?>
+<data_table id="pht000115.v2" study_id="phs000091.v2" participant_set="1" date_created="Mon Aug 24 13:19:56 2009">
+
+<variable id="phv00022868.v2">
+	<name>idg</name>
+	<description>GENEVA identification number</description>
+	<type>continuous integer</type>
+</variable>
+
+<variable id="phv00022875.v2">
+	<name>age</name>
+	<description>Age in years</description>
+	<type>continuous decimal</type>
+	<unit>Years</unit>
+	<logical_min>41.5</logical_min>
+	<logical_max>77.3</logical_max>
+</variable>
+
+<variable id="phv00022876.v2">
+	<name>bmi</name>
+	<description>BMI in kg/m2</description>
+	<type>continuous decimal</type>
+	<unit>Kg/m2</unit>
+	<logical_min>15.8</logical_min>
+	<logical_max>54.9</logical_max>
+</variable>
+
+<variable id="phv00022869.v2">
+	<name>hisp</name>
+	<description>Hispanic ethnicity</description>
+	<type>enumerated integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>1</logical_max>
+	<value code="1">Hispanic</value>
+	<value code="0">Not Hispanic</value>
+</variable>
+
+<variable id="phv00022874.v2">
+	<name>case</name>
+	<description>Diabetes case status</description>
+	<type>enumerated integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>2</logical_max>
+	<value code="0">Control</value>
+	<value code="1">Case of diagnosed type 2 diabetes</value>
+	<value code="2">Uncertain diabetes type</value>
+</variable>
+
+<variable id="phv00022878.v2">
+	<name>alcohol</name>
+	<description>Alcohol intake</description>
+	<type>continuous decimal</type>
+	<unit>G/day</unit>
+	<logical_min>0</logical_min>
+	<logical_max>124.5</logical_max>
+</variable>
+
+<variable id="phv00022877.v2">
+	<name>smk</name>
+	<description>Cigarette smoking</description>
+	<type>enumerated integer</type>
+	<logical_min>1</logical_min>
+	<logical_max>3</logical_max>
+	<value code="1">Never cigarette smoker</value>
+	<value code="2">Past cigarette smoker</value>
+	<value code="3">Current cigarette smoker</value>
+</variable>
+
+<variable id="phv00022879.v2">
+	<name>act</name>
+	<description>Total physical activity</description>
+	<type>continuous decimal</type>
+	<unit>MET-hrs/wk</unit>
+	<logical_min>0</logical_min>
+	<logical_max>336.9</logical_max>
+</variable>
+
+<variable id="phv00022886.v2">
+	<name>pmh</name>
+	<description>Menopausal status and hormone use</description>
+	<type>enumerated integer</type>
+	<logical_min>1</logical_min>
+	<logical_max>4</logical_max>
+	<value code="1">Premenopausal</value>
+	<value code="2">Postmenopausal / never user of hormone replacement therapy (HRT)</value>
+	<value code="3">Postmenopausal / current user of HRT</value>
+	<value code="4">Postmenopausal / past user of HRT</value>
+</variable>
+
+<variable id="phv00022873.v2">
+	<name>race</name>
+	<description>Race variable for NHS</description>
+	<type>enumerated integer</type>
+	<logical_min>1</logical_min>
+	<logical_max>4</logical_max>
+	<value code="1">White</value>
+	<value code="2">African-American</value>
+	<value code="3">American-Indian</value>
+	<value code="4">Asian</value>
+	<value code="5">Hawaiian</value>
+</variable>
+
+<variable id="phv00022883.v2">
+	<name>pufa</name>
+	<description>Polyunsaturated fat intake</description>
+	<type>continuous decimal</type>
+	<unit>Energy%</unit>
+	<logical_min>1.6</logical_min>
+	<logical_max>23.2</logical_max>
+</variable>
+
+<variable id="phv00022884.v2">
+	<name>trans</name>
+	<description>Trans fat intake</description>
+	<type>continuous decimal</type>
+	<unit>Energy%</unit>
+	<logical_min>0.3</logical_min>
+	<logical_max>5.4</logical_max>
+</variable>
+
+<variable id="phv00022881.v2">
+	<name>magn</name>
+	<description>Magnesium intake</description>
+	<type>continuous integer</type>
+	<unit>Mg/day</unit>
+	<logical_min>99</logical_min>
+	<logical_max>1017</logical_max>
+</variable>
+
+<variable id="phv00022882.v2">
+	<name>ceraf</name>
+	<description>Cereal fiber intake</description>
+	<type>continuous decimal</type>
+	<unit>G/day</unit>
+	<logical_min>0</logical_min>
+	<logical_max>44</logical_max>
+</variable>
+
+<variable id="phv00022880.v2">
+	<name>heme</name>
+	<description>Heme iron intake</description>
+	<type>continuous decimal</type>
+	<unit>Mg/day</unit>
+	<logical_min>0</logical_min>
+	<logical_max>4.8</logical_max>
+</variable>
+
+<variable id="phv00022885.v2">
+	<name>gl</name>
+	<description>Glycemic load</description>
+	<type>continuous integer</type>
+	<logical_min>13</logical_min>
+	<logical_max>250</logical_max>
+</variable>
+
+<variable id="phv00022887.v2">
+	<name>woman</name>
+	<description>Sex</description>
+	<type>enumerated integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>1</logical_max>
+	<value code="1">Woman</value>
+	<value code="0">Man</value>
+</variable>
+
+<variable id="phv00076209.v1">
+	<name>race2</name>
+	<description>Race variable for HPFS</description>
+	<type>enumerated integer</type>
+	<logical_min>1</logical_min>
+	<logical_max>4</logical_max>
+	<value code="1">White</value>
+	<value code="2">Other</value>
+	<value code="3">Asian</value>
+	<value code="4">African-American</value>
+</variable>
+
+<variable id="phv00076249.v1">
+	<name>ht</name>
+	<description>Height in meters</description>
+	<type>continuous decimal</type>
+	<unit>Meter</unit>
+	<logical_min>1.3</logical_min>
+	<logical_max>2.1</logical_max>
+</variable>
+
+<variable id="phv00076250.v1">
+	<name>wt</name>
+	<description>Weight in kg at time of blood draw</description>
+	<type>continuous decimal</type>
+	<unit>Kg</unit>
+	<logical_min>40.8</logical_min>
+	<logical_max>186</logical_max>
+</variable>
+
+<variable id="phv00076251.v1">
+	<name>famdb</name>
+	<description>Family history of diabetes among first degree relatives</description>
+	<type>enumerated integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>1</logical_max>
+	<comment>History of diabetes among first degree relatives defined as at least one first degree relative (mother, father, brother, or sister) with diabetes mellitus.</comment>
+	<value code="1">Yes</value>
+	<value code="0">No</value>
+</variable>
+
+<variable id="phv00076252.v1">
+	<name>hbp</name>
+	<description>Reported high blood pressure at/before blood draw</description>
+	<type>enumerated integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>1</logical_max>
+	<value code="1">With a history of hypertension</value>
+	<value code="0">No history of hypertension</value>
+</variable>
+
+<variable id="phv00076253.v1">
+	<name>chol</name>
+	<description>Reported high blood cholesterol at/before blood draw</description>
+	<type>enumerated integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>1</logical_max>
+	<value code="1">With a history of high cholesterol</value>
+	<value code="0">No history of high cholesterol</value>
+</variable>
+
+</data_table>

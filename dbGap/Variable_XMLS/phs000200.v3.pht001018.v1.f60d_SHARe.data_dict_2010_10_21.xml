@@ -1,0 +1,377 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./datadict_v2.xsl"?>
+<data_table id="pht001018.v1" study_id="phs000200.v3" participant_set="1" date_created="Thu Oct 21 09:31:57 2010">
+
+<unique_key phv="00079809" version="1">SHAREID</unique_key>
+<unique_key phv="00079810" version="1">F60VTYP</unique_key>
+<unique_key phv="00079811" version="1">F60VY</unique_key>
+
+<variable id="phv00079809.v1">
+	<name>SHAREID</name>
+	<description>WHI SHARe ID</description>
+	<type>integer</type>
+</variable>
+
+<variable id="phv00079810.v1">
+	<name>F60VTYP</name>
+	<description>Visit type</description>
+	<type>encoded value</type>
+	<value code="1">Screening Visit</value>
+	<value code="2">Semi-Annual Visit</value>
+	<value code="3">Annual Visit</value>
+	<value code="4">Non-Routine Visit</value>
+</variable>
+
+<variable id="phv00079811.v1">
+	<name>F60VY</name>
+	<description>Visit year</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>10</logical_max>
+	<comment>Visit year for which this form was collected.</comment>
+</variable>
+
+<variable id="phv00079812.v1">
+	<name>F60DAYS</name>
+	<description>F60 Days since randomization/enrollment</description>
+	<type>integer</type>
+	<unit>days</unit>
+	<logical_min>-1518</logical_min>
+	<logical_max>3696</logical_max>
+</variable>
+
+<variable id="phv00079813.v1">
+	<name>F60MONTH</name>
+	<description>F60 Month form received by clinic</description>
+	<type>encoded value</type>
+	<value code="1">January</value>
+	<value code="2">February</value>
+	<value code="3">March</value>
+	<value code="4">April</value>
+	<value code="5">May</value>
+	<value code="6">June</value>
+	<value code="7">July</value>
+	<value code="8">August</value>
+	<value code="9">September</value>
+	<value code="10">October</value>
+	<value code="11">November</value>
+	<value code="12">December</value>
+</variable>
+
+<variable id="phv00079814.v1">
+	<name>STATUS</name>
+	<description>Analysis exclusion consideration status</description>
+	<type>encoded value</type>
+	<comment>May want to consider excluding participants with a status of 1 or 2 from analyses.  The FFQ is suspect in light of the very low or very high value for the Energy (kcal) result.</comment>
+	<value code="1">Energy &lt; 600 kcal consider excluding from analyses</value>
+	<value code="2">Energy &gt; 5000 kcal consider excluding from analyses</value>
+	<value code="3">600 kcal &lt;= Energy &lt;= 5000 kcal</value>
+</variable>
+
+<variable id="phv00079815.v1">
+	<name>F60SF40</name>
+	<description>Dietary SFA 4:0 (g)</description>
+	<type>decimal</type>
+	<unit>g</unit>
+	<logical_min>0</logical_min>
+	<logical_max>6.67732</logical_max>
+</variable>
+
+<variable id="phv00079816.v1">
+	<name>F60SF60</name>
+	<description>Dietary SFA 6:0 (g)</description>
+	<type>decimal</type>
+	<unit>g</unit>
+	<logical_min>0</logical_min>
+	<logical_max>3.99204</logical_max>
+</variable>
+
+<variable id="phv00079817.v1">
+	<name>F60SF80</name>
+	<description>Dietary SFA 8:0 (g)</description>
+	<type>decimal</type>
+	<unit>g</unit>
+	<logical_min>0</logical_min>
+	<logical_max>3.35465</logical_max>
+</variable>
+
+<variable id="phv00079818.v1">
+	<name>F60SF100</name>
+	<description>Dietary SFA 10:0 (g)</description>
+	<type>decimal</type>
+	<unit>g</unit>
+	<logical_min>0</logical_min>
+	<logical_max>5.19192</logical_max>
+</variable>
+
+<variable id="phv00079819.v1">
+	<name>F60SF120</name>
+	<description>Dietary SFA 12:0 (g)</description>
+	<type>decimal</type>
+	<unit>g</unit>
+	<logical_min>0.00061</logical_min>
+	<logical_max>5.77447</logical_max>
+</variable>
+
+<variable id="phv00079820.v1">
+	<name>F60SF140</name>
+	<description>Dietary SFA 14:0 (g)</description>
+	<type>decimal</type>
+	<unit>g</unit>
+	<logical_min>0.00444</logical_min>
+	<logical_max>25.93978</logical_max>
+</variable>
+
+<variable id="phv00079821.v1">
+	<name>F60SF160</name>
+	<description>Dietary SFA 16:0, Palmitic Acid (g)</description>
+	<type>decimal</type>
+	<unit>g</unit>
+	<logical_min>0.11922</logical_min>
+	<logical_max>130.24489</logical_max>
+</variable>
+
+<variable id="phv00079822.v1">
+	<name>F60SF170</name>
+	<description>Dietary SFA 17:0 (g)</description>
+	<type>decimal</type>
+	<unit>g</unit>
+	<logical_min>0</logical_min>
+	<logical_max>0.96621</logical_max>
+</variable>
+
+<variable id="phv00079823.v1">
+	<name>F60SF180</name>
+	<description>Dietary SFA 18:0, Stearic Acid (g)</description>
+	<type>decimal</type>
+	<unit>g</unit>
+	<logical_min>0.03493</logical_min>
+	<logical_max>63.06367</logical_max>
+</variable>
+
+<variable id="phv00079824.v1">
+	<name>F60SF200</name>
+	<description>Dietary SFA 20:0 (g)</description>
+	<type>decimal</type>
+	<unit>g</unit>
+	<logical_min>0</logical_min>
+	<logical_max>1.02286</logical_max>
+</variable>
+
+<variable id="phv00079825.v1">
+	<name>F60SF220</name>
+	<description>Dietary SFA 22:0 (g)</description>
+	<type>decimal</type>
+	<unit>g</unit>
+	<logical_min>0</logical_min>
+	<logical_max>1.22914</logical_max>
+</variable>
+
+<variable id="phv00079826.v1">
+	<name>F60MF141</name>
+	<description>Dietary MFA 14:1 (g)</description>
+	<type>decimal</type>
+	<unit>g</unit>
+	<logical_min>0</logical_min>
+	<logical_max>0.89912</logical_max>
+</variable>
+
+<variable id="phv00079827.v1">
+	<name>F60MF161</name>
+	<description>Dietary MFA 16:1 (g)</description>
+	<type>decimal</type>
+	<unit>g</unit>
+	<logical_min>0.00317</logical_min>
+	<logical_max>12.92417</logical_max>
+</variable>
+
+<variable id="phv00079828.v1">
+	<name>F60MF181</name>
+	<description>Dietary MFA 18:1, Oleic Acid (g)</description>
+	<type>decimal</type>
+	<unit>g</unit>
+	<logical_min>0.25058</logical_min>
+	<logical_max>239.7532</logical_max>
+</variable>
+
+<variable id="phv00079829.v1">
+	<name>F60MF201</name>
+	<description>Dietary MFA 20:1 (g)</description>
+	<type>decimal</type>
+	<unit>g</unit>
+	<logical_min>0.00049</logical_min>
+	<logical_max>1.95328</logical_max>
+</variable>
+
+<variable id="phv00079830.v1">
+	<name>F60MF221</name>
+	<description>Dietary MFA 22:1 (g)</description>
+	<type>decimal</type>
+	<unit>g</unit>
+	<logical_min>0</logical_min>
+	<logical_max>0.29366</logical_max>
+</variable>
+
+<variable id="phv00079831.v1">
+	<name>F60PF182</name>
+	<description>Dietary PFA 18:2, Linoleic Acid (g)</description>
+	<type>decimal</type>
+	<unit>g</unit>
+	<logical_min>0.17844</logical_min>
+	<logical_max>125.243</logical_max>
+</variable>
+
+<variable id="phv00079832.v1">
+	<name>F60PF183</name>
+	<description>Dietary PFA 18:3, Linolenic Acid (g)</description>
+	<type>decimal</type>
+	<unit>g</unit>
+	<logical_min>0.02217</logical_min>
+	<logical_max>16.76889</logical_max>
+</variable>
+
+<variable id="phv00079833.v1">
+	<name>F60PF184</name>
+	<description>Dietary PFA 18:4 (g)</description>
+	<type>decimal</type>
+	<unit>g</unit>
+	<logical_min>0</logical_min>
+	<logical_max>0.12321</logical_max>
+</variable>
+
+<variable id="phv00079834.v1">
+	<name>F60PF204</name>
+	<description>Dietary PFA 20:4 (g)</description>
+	<type>decimal</type>
+	<unit>g</unit>
+	<logical_min>0</logical_min>
+	<logical_max>2.28516</logical_max>
+</variable>
+
+<variable id="phv00079835.v1">
+	<name>F60PF205</name>
+	<description>Dietary PFA 20:5, EPA (g)</description>
+	<type>decimal</type>
+	<unit>g</unit>
+	<logical_min>0</logical_min>
+	<logical_max>1.39246</logical_max>
+</variable>
+
+<variable id="phv00079836.v1">
+	<name>F60PF225</name>
+	<description>Dietary PFA 22:5 (g)</description>
+	<type>decimal</type>
+	<unit>g</unit>
+	<logical_min>0</logical_min>
+	<logical_max>0.39765</logical_max>
+</variable>
+
+<variable id="phv00079837.v1">
+	<name>F60PF226</name>
+	<description>Dietary PFA 22:6, dha (g)</description>
+	<type>decimal</type>
+	<unit>g</unit>
+	<logical_min>0</logical_min>
+	<logical_max>3.14032</logical_max>
+</variable>
+
+<variable id="phv00079838.v1">
+	<name>F60TF161</name>
+	<description>Dietary Trans Fatty Acid, 161T (g)</description>
+	<type>decimal</type>
+	<unit>g</unit>
+	<logical_min>0</logical_min>
+	<logical_max>0.991</logical_max>
+</variable>
+
+<variable id="phv00079839.v1">
+	<name>F60TF181</name>
+	<description>Dietary Trans Fatty Acid, 181T (g)</description>
+	<type>decimal</type>
+	<unit>g</unit>
+	<logical_min>0.00526</logical_min>
+	<logical_max>48.49399</logical_max>
+</variable>
+
+<variable id="phv00079840.v1">
+	<name>F60TF182</name>
+	<description>Dietary Trans Fatty Acid, 182T (g)</description>
+	<type>decimal</type>
+	<unit>g</unit>
+	<logical_min>0.00066</logical_min>
+	<logical_max>4.79052</logical_max>
+</variable>
+
+<variable id="phv00079841.v1">
+	<name>F60OMGA3</name>
+	<description>Dietary Omega 3  (g)</description>
+	<type>decimal</type>
+	<unit>g</unit>
+	<logical_min>0.0225</logical_min>
+	<logical_max>18.89222</logical_max>
+</variable>
+
+<variable id="phv00079842.v1">
+	<name>F60OMGA6</name>
+	<description>Dietary Omega 6 FA  (g)</description>
+	<type>decimal</type>
+	<unit>g</unit>
+	<logical_min>0.17844</logical_min>
+	<logical_max>125.24542</logical_max>
+</variable>
+
+<variable id="phv00079843.v1">
+	<name>F60BIOCHN</name>
+	<description>Dietary Biochanin A (mg)</description>
+	<type>decimal</type>
+	<unit>mg</unit>
+	<logical_min>0</logical_min>
+	<logical_max>0.3024</logical_max>
+</variable>
+
+<variable id="phv00079844.v1">
+	<name>F60CUMST</name>
+	<description>Dietary Coumestrol (mg)</description>
+	<type>decimal</type>
+	<unit>mg</unit>
+	<logical_min>0</logical_min>
+	<logical_max>0.27478</logical_max>
+</variable>
+
+<variable id="phv00079845.v1">
+	<name>F60DAIDZ</name>
+	<description>Dietary Daidzein (mg)</description>
+	<type>decimal</type>
+	<unit>mg</unit>
+	<logical_min>0</logical_min>
+	<logical_max>98.46243</logical_max>
+</variable>
+
+<variable id="phv00079846.v1">
+	<name>F60FRMNT</name>
+	<description>Dietary Formononetin (mg)</description>
+	<type>decimal</type>
+	<unit>mg</unit>
+	<logical_min>0</logical_min>
+	<logical_max>0.19888</logical_max>
+</variable>
+
+<variable id="phv00079847.v1">
+	<name>F60GNISTN</name>
+	<description>Dietary Genistein (mg)</description>
+	<type>decimal</type>
+	<unit>mg</unit>
+	<logical_min>0</logical_min>
+	<logical_max>134.00974</logical_max>
+</variable>
+
+<variable id="phv00079848.v1">
+	<name>F60GLYCTN</name>
+	<description>Dietary Glycitein (mg)</description>
+	<type>decimal</type>
+	<unit>mg</unit>
+	<logical_min>0</logical_min>
+	<logical_max>12.36289</logical_max>
+</variable>
+
+</data_table>

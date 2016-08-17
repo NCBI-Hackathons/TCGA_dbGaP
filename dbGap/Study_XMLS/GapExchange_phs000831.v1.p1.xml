@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GaPExchange xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="./dbGaPEx2.1.5.xsd">
+
+<MetaVariables>
+	<Submitter/>
+	<Method/>
+</MetaVariables>
+<MetaLinks/>
+
+<Projects>
+	<Project/>
+</Projects>
+
+<Studies>
+
+<Study source="dbGaP" accession="phs000831.v1.p1" parentStudy="phs000831.v1.p1" createDate="2014-11-13" modDate="2015-05-08">
+
+<Configuration>
+	<Data_Provider><![CDATA[
+		<table border="1">
+		<tr><th>Title</th><th>Name</th><th>Institute</th></tr>
+		<tr><td>Principal Investigators</td><td>Richard K. Wilson, Ph.D</td><td>The Genome Institute, Washington University School of Medicine, St. Louis, MO, USA</td></tr>
+		<tr><td>Principal Investigators</td><td>Elaine R. Mardis, Ph.D</td><td>The Genome Institute, Washington University School of Medicine, St. Louis, MO, USA</td></tr>
+		<tr><td>Co-Principal Investigator</td><td>Roger Pamphlett, MD</td><td>The University of Sydney, Medical School, Sydney, Australia</td></tr>
+		<tr><td>Funding Source</td><td>2 U54 HG003079</td><td>The National Human Genome Research Institute, National Institutes of Health, Bethesda, MD, USA</td></tr>
+		</table>
+	]]></Data_Provider>
+	<StudyNameEntrez>Sporadic Amyotrophic Lateral Sclerosis (ALS): Sequencing Study</StudyNameEntrez>
+	<StudyNameReportPage>Sporadic Amyotrophic Lateral Sclerosis (ALS): Parent-Offspring and Twin Sequencing Study</StudyNameReportPage>
+	<StudyTypes>
+		<StudyType>Parent-Offspring Trios</StudyType>
+		<StudyType>Twin</StudyType>
+	</StudyTypes>
+	<Description><![CDATA[
+<p>Amyotrophic Lateral Sclerosis (ALS) is a neurodegenerative disease that affects the nerves in the brain and spinal cord, leading to muscle weakening and eventual paralysis and death. Ten percent of ALS cases are thought to be familial while the majority of cases are sporadic and the causative factors unknown. Dr. Roger Pamphlett of the University of Sydney has collected a unique cohort of consented trios where the child has ALS but the parents are unaffected. Since the age of onset is so late, it is very difficult to obtain this kind of trio. We have performed whole exome sequencing on these trios to identify <i>de novo</i> and recessive germline variants associated with sporadic ALS. In addition, Dr. Pamphlett has assembled a collection of consented discordant monozygotic twins, where one twin has ALS and the other is unaffected. We performed whole genome sequencing on these twin pairs to identify postzygotic variants that may contribute to sporadic ALS susceptibility. Finally, we have the opportunity to compare the sequence and gene expression in affected and unaffected tissues from blood, brain and/or spinal cord samples from consented ALS patients to look for somatic mutations or gene expression changes that may further our understanding of the disease.</p>]]>
+	</Description>
+	<StudyProjects>
+		<Project/>
+	</StudyProjects>
+	<Diseases>
+		<Disease vocab_source="MESH" vocab_term="Amyotrophic Lateral Sclerosis"/>
+	</Diseases>
+	<Attributions>
+		<Header title="Principal Investigators">
+			<AttName>Richard K. Wilson, Ph.D</AttName>
+			<Institution>The Genome Institute, Washington University School of Medicine, St. Louis, MO, USA</Institution>
+		</Header>
+		<Header title="Principal Investigators">
+			<AttName>Elaine R. Mardis, Ph.D</AttName>
+			<Institution>The Genome Institute, Washington University School of Medicine, St. Louis, MO, USA</Institution>
+		</Header>
+		<Header title="Co-Principal Investigator">
+			<AttName>Roger Pamphlett, MD</AttName>
+			<Institution>The University of Sydney, Medical School, Sydney, Australia</Institution>
+		</Header>
+		<Header title="Funding Source">
+			<AttName>2 U54 HG003079</AttName>
+			<Institution>The National Human Genome Research Institute, National Institutes of Health, Bethesda, MD, USA</Institution>
+		</Header>
+	</Attributions>
+	<DisplayPublicSummary>yes</DisplayPublicSummary>
+	<ConsentGroups>
+		<ConsentGroup groupNum="1" shortName="DS-ALS" longName="Disease-Specific (Amyotrophic Lateral Sclerosis)"/>
+	</ConsentGroups>
+</Configuration>
+
+  <AuthorizedAccess>
+    <DacInfo ssDacId="0">
+      <DacName>NHGRI</DacName>
+      <DacFullName>National Human Genome Research Institute</DacFullName>
+      <DacEmail>0</DacEmail>
+      <DacPhone></DacPhone>
+      <DacUrl></DacUrl>
+    </DacInfo>
+    <Policy Policy_ID="phs000831.v1.p1_policy" ref_ssDacId="0">
+      <DisplayResearchStatement>yes</DisplayResearchStatement>
+      <DisplayPublicSummary>yes</DisplayPublicSummary>
+      <EmbargoLength>0</EmbargoLength>
+      <YearsUntilRenewal>1</YearsUntilRenewal>
+      <WeeksCancelRequest>8</WeeksCancelRequest>
+      <PdfSupplementReqired>no</PdfSupplementReqired>
+      <AcknowledgementText>
+        <para>
+          http://dbgap.ncbi.nlm.nih.gov/aa/wga.cgi?page=DUC&amp;view_pdf&amp;stacc=phs000831.v1.p1
+        </para>
+      </AcknowledgementText>
+      <DocumentSet>
+        <DataUseCertificate Label="Data Use Certificate" FilePath="https://dbgap.ncbi.nlm.nih.gov/aa/wga.cgi?page=DUC&amp;view_pdf&amp;stacc=phs000831.v1.p1" FileName="ALS_DUC_APRIL_2014.pdf"/>
+      </DocumentSet>
+    </Policy>
+    <ConsentGroups>
+      <ParticipantSet groupNum-REF="1">
+        <ConsentName>Disease-Specific (Amyotrophic Lateral Sclerosis)</ConsentName>
+        <ConsentAbbrev>DS-ALS</ConsentAbbrev>
+        <UseLimitation>Use of the data must be related to Amyotrophic Lateral Sclerosis.
+Use of the data must be related to the specified disease</UseLimitation>
+        <IrbRequired>No</IrbRequired>
+      </ParticipantSet>
+    </ConsentGroups>
+  </AuthorizedAccess>
+
+
+</Study>
+
+</Studies>
+
+</GaPExchange>

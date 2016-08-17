@@ -1,0 +1,4985 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./datadict_v2.xsl"?>
+<data_table id="pht001121.v2" study_id="phs000209.v4" participant_set="1" date_created="Tue Oct 12 14:34:15 2010">
+
+<variable id="phv00087070.v1">
+	<name>sidno</name>
+	<description>SHARE ID NUMBER</description>
+	<type>NUMERIC</type>
+</variable>
+
+<variable id="phv00087071.v1">
+	<name>agefc</name>
+	<description>AGE</description>
+	<type>NUMERIC</type>
+	<unit>years</unit>
+	<comment>COMPUTED</comment>
+</variable>
+
+<variable id="phv00087072.v1">
+	<name>agecatfc</name>
+	<description>AGE CATEGORY AT BASELINE</description>
+	<type>NUMERIC</type>
+	<comment>COMPUTED</comment>
+	<value code="0">40 - 44</value>
+	<value code="1">45 - 54</value>
+	<value code="2">55 - 64</value>
+	<value code="3">65 - 74</value>
+	<value code="4">75 - 84</value>
+	<value code="5">85 AND OVER</value>
+</variable>
+
+<variable id="phv00087073.v1">
+	<name>genderf</name>
+	<description>GENDER</description>
+	<type>NUMERIC</type>
+	<value code="0">FEMALE</value>
+	<value code="1">MALE</value>
+</variable>
+
+<variable id="phv00087074.v1">
+	<name>racefc</name>
+	<description>RACE AND ETHNICITY</description>
+	<type>NUMERIC</type>
+	<comment>COMPUTED</comment>
+	<value code="1">WHITE, CAUCASIAN</value>
+	<value code="2">CHINESE AMERICAN</value>
+	<value code="3">BLACK, AFRICAN-AMERICAN</value>
+	<value code="4">HISPANIC</value>
+</variable>
+
+<variable id="phv00087075.v1">
+	<name>sitefc</name>
+	<description>FIELD CENTER WHERE EXAMINED</description>
+	<type>NUMERIC</type>
+	<comment>COMPUTED</comment>
+	<value code="3">WFU</value>
+	<value code="4">COL</value>
+	<value code="5">JHU</value>
+	<value code="6">UMN</value>
+	<value code="7">NWU</value>
+	<value code="8">UCLA</value>
+</variable>
+
+<variable id="phv00087076.v1">
+	<name>month1</name>
+	<description>MONTH OF EXAM 1</description>
+	<type>NUMERIC</type>
+	<value code="1">JANUARY</value>
+	<value code="2">FEBRUARY</value>
+	<value code="3">MARCH</value>
+	<value code="4">APRIL</value>
+	<value code="5">MAY</value>
+	<value code="6">JUNE</value>
+	<value code="7">JULY</value>
+	<value code="8">AUGUST</value>
+	<value code="9">SEPTEMBER</value>
+	<value code="10">OCTOBER</value>
+	<value code="11">NOVEMBER</value>
+	<value code="12">DECEMBER</value>
+</variable>
+
+<variable id="phv00087077.v1">
+	<name>season1</name>
+	<description>SEASON OF EXAM 1</description>
+	<type>NUMERIC</type>
+	<value code="1">JANUARY TO MARCH</value>
+	<value code="2">APRIL TO JUNE</value>
+	<value code="3">JULY TO SEPTEMBER</value>
+	<value code="4">OCTOBER TO DECEMBER</value>
+</variable>
+
+<variable id="phv00087078.v1">
+	<name>htcmf</name>
+	<description>HEIGHT (cm)</description>
+	<type>NUMERIC</type>
+	<unit>cm</unit>
+</variable>
+
+<variable id="phv00087079.v1">
+	<name>wtlbf</name>
+	<description>WEIGHT (lbs)</description>
+	<type>NUMERIC</type>
+	<unit>lbs</unit>
+</variable>
+
+<variable id="phv00087080.v1">
+	<name>bmifc</name>
+	<description>BODY MASS INDEX</description>
+	<type>NUMERIC</type>
+	<comment>COMPUTED</comment>
+</variable>
+
+<variable id="phv00087081.v1">
+	<name>bmicatfc</name>
+	<description>BODY MASS INDEX CATEGORY</description>
+	<type>NUMERIC</type>
+	<comment>COMPUTED</comment>
+	<value code="1">NORMAL</value>
+	<value code="2">GRADE 1 OVERWEIGHT</value>
+	<value code="3">GRADE 2 OVERWEIGHT</value>
+	<value code="4">GRADE 3 OVERWEIGHT</value>
+</variable>
+
+<variable id="phv00087082.v1">
+	<name>cigfc</name>
+	<description>CIGARETTE SMOKING STATUS</description>
+	<type>NUMERIC</type>
+	<comment>COMPUTED</comment>
+	<value code="0">NEVER</value>
+	<value code="1">FORMER</value>
+	<value code="2">CURRENT</value>
+</variable>
+
+<variable id="phv00087083.v1">
+	<name>pkyrsfc</name>
+	<description>PACK-YEARS OF CIGARETTE SMOKING</description>
+	<type>NUMERIC</type>
+	<comment>COMPUTED</comment>
+</variable>
+
+<variable id="phv00087084.v1">
+	<name>sbpfc</name>
+	<description>MEAN: SEATED SYSTOLIC BLOOD PRESSURE (mmHg)</description>
+	<type>NUMERIC</type>
+	<unit>mmHg</unit>
+	<comment>COMPUTED</comment>
+</variable>
+
+<variable id="phv00087085.v1">
+	<name>dbpfc</name>
+	<description>MEAN: SEATED DIASTOLIC BLOOD PRESSURE (mmHg)</description>
+	<type>NUMERIC</type>
+	<unit>mmHg</unit>
+	<comment>COMPUTED</comment>
+</variable>
+
+<variable id="phv00087086.v1">
+	<name>hrfc</name>
+	<description>MEAN: SEATED PULSE (BEATS PER MIN)</description>
+	<type>NUMERIC</type>
+	<unit>beats per min</unit>
+	<comment>COMPUTED</comment>
+</variable>
+
+<variable id="phv00087087.v1">
+	<name>abifc</name>
+	<description>ANKLE-BRACHIAL INDEX</description>
+	<type>NUMERIC</type>
+	<comment>COMPUTED</comment>
+</variable>
+
+<variable id="phv00087088.v1">
+	<name>glucosfc</name>
+	<description>EXAM 1 FASTING GLUCOSE- CALIBRATED</description>
+	<type>NUMERIC</type>
+	<comment>COMPUTED</comment>
+</variable>
+
+<variable id="phv00087089.v1">
+	<name>dm03fc</name>
+	<description>DIABETES MELLITUS BY 2003 ADA FASTING CRITERIA ALGORITHM</description>
+	<type>NUMERIC</type>
+	<comment>COMPUTED</comment>
+	<value code="0">NORMAL</value>
+	<value code="1">IFG</value>
+	<value code="2">UNTREATED DIABETES</value>
+	<value code="3">TREATED DIABETES</value>
+</variable>
+
+<variable id="phv00087090.v1">
+	<name>dm03ft</name>
+	<description>RECODE OF DM03FC COMBINING UNTREATED AND TREATED DIABETES - E1</description>
+	<type>NUMERIC</type>
+	<comment>COMPUTED</comment>
+	<value code="0">NORMAL OR IFG</value>
+	<value code="1">DIABETES (TREATED AND NON-TREATED)</value>
+</variable>
+
+<variable id="phv00087091.v1">
+	<name>dm03ft2</name>
+	<description>SECONDARY RECODE OF DM03FC OMITTING IFG AND COMBINING UNTREATED AND TREATED DIABETES - E1</description>
+	<type>NUMERIC</type>
+	<comment>COMPUTED</comment>
+	<value code="0">NORMAL</value>
+	<value code="1">DIABETES (TREATED AND NON-TREATED)</value>
+</variable>
+
+<variable id="phv00087092.v1">
+	<name>claudft</name>
+	<description>INTERMITTENT CLAUDICATION BY 1998 WORLD HEALTH ORGANIZATION CRITERIA - E1</description>
+	<type>NUMERIC</type>
+	<comment>COMPUTED</comment>
+</variable>
+
+<variable id="phv00087093.v1">
+	<name>htnmedfc</name>
+	<description>ANY HYPERTENSION MEDICATION</description>
+	<type>NUMERIC</type>
+	<comment>COMPUTED</comment>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00087094.v1">
+	<name>htnfc</name>
+	<description>HYPERTENSION BY JNC VI (1997) CRITERIA</description>
+	<type>NUMERIC</type>
+	<comment>COMPUTED</comment>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00087095.v1">
+	<name>htnstgfc</name>
+	<description>HYPERTENSION STAGE BY JNC VI (1997) CRITERIA; REFERENCE 2</description>
+	<type>NUMERIC</type>
+	<comment>COMPUTED</comment>
+	<value code="1">OPTIMAL</value>
+	<value code="2">NORMAL</value>
+	<value code="3">HIGH-NORMAL</value>
+	<value code="4">STAGE 1 HYPERTENSION</value>
+	<value code="5">STAGE 2 HYPERTENSION</value>
+	<value code="6">STAGE 3 HYPERTENSION</value>
+</variable>
+
+<variable id="phv00087096.v1">
+	<name>egfrfc</name>
+	<description>ESTIMATED GLOMERULAR FILTRATION RATE BY SIMPLIFIED MDRD EQUATION</description>
+	<type>NUMERIC</type>
+	<comment>COMPUTED</comment>
+</variable>
+
+<variable id="phv00087097.v1">
+	<name>reninsfc</name>
+	<description>INDICATOR OF RENAL INSUFFICIENCY (GFR&lt;60)</description>
+	<type>NUMERIC</type>
+	<comment>COMPUTED</comment>
+</variable>
+
+<variable id="phv00087098.v1">
+	<name>ldlf</name>
+	<description>LDL CHOLESTEROL (mg/dl)</description>
+	<type>NUMERIC</type>
+	<unit>mg/dl</unit>
+</variable>
+
+<variable id="phv00087099.v1">
+	<name>hdlf</name>
+	<description>HDL CHOLESTEROL (mg/dl)</description>
+	<type>NUMERIC</type>
+	<unit>mg/dl</unit>
+</variable>
+
+<variable id="phv00087100.v1">
+	<name>cholf</name>
+	<description>TOTAL CHOLESTEROL (mg/dl)</description>
+	<type>NUMERIC</type>
+	<unit>mg/dl</unit>
+</variable>
+
+<variable id="phv00087101.v1">
+	<name>trigf</name>
+	<description>TRIGLYCERIDES (mg/dl)</description>
+	<type>NUMERIC</type>
+	<unit>mg/dl</unit>
+</variable>
+
+<variable id="phv00087102.v1">
+	<name>creatinf</name>
+	<description>CREATININE (mg/dl)</description>
+	<type>NUMERIC</type>
+	<unit>mg/dl</unit>
+</variable>
+
+<variable id="phv00087103.v1">
+	<name>ohgafc</name>
+	<description>ORAL HYPOGLYCEMIC AGENTS</description>
+	<type>NUMERIC</type>
+	<comment>COMPUTED</comment>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00087104.v1">
+	<name>lipidfc</name>
+	<description>ANY LIPID-LOWERING MEDICATION</description>
+	<type>NUMERIC</type>
+	<comment>COMPUTED</comment>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00087105.v1">
+	<name>agatpmfc</name>
+	<description>MEAN: AGATSTON CALCIUM SCORE, PHANTOM-ADJUSTED</description>
+	<type>NUMERIC</type>
+	<comment>COMPUTED</comment>
+</variable>
+
+<variable id="phv00087106.v1">
+	<name>lnagatfc</name>
+	<description>NATURAL LOG-TRANSFORMED PHANTOM-ADJUSTED AGATSTON SCORE (POSITIVE SCORES ONLY)</description>
+	<type>NUMERIC</type>
+	<comment>COMPUTED</comment>
+</variable>
+
+<variable id="phv00087107.v1">
+	<name>cacgt0fc</name>
+	<description>PRESENCE OF CALCIUM INDICATOR - E1</description>
+	<type>NUMERIC</type>
+	<comment>COMPUTED</comment>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00087108.v1">
+	<name>volpmfc</name>
+	<description>MEAN: TOTAL CALCIUM VOLUME, PHANTOM-ADJUSTED</description>
+	<type>NUMERIC</type>
+	<comment>COMPUTED</comment>
+</variable>
+
+<variable id="phv00087109.v1">
+	<name>maxcomfc</name>
+	<description>COMMON CAROTID INTIMAL-MEDIAL THICKNESS (mm)</description>
+	<type>NUMERIC</type>
+	<unit>mm</unit>
+	<comment>COMPUTED</comment>
+</variable>
+
+<variable id="phv00087110.v1">
+	<name>maxintfc</name>
+	<description>INTERNAL CAROTID INTIMAL-MEDIAL THICKNESS (mm)</description>
+	<type>NUMERIC</type>
+	<unit>mm</unit>
+	<comment>COMPUTED</comment>
+</variable>
+
+<variable id="phv00087111.v1">
+	<name>metsynfc</name>
+	<description>METABOLIC SYNDROME, NCEP GUIDELINES</description>
+	<type>NUMERIC</type>
+	<comment>COMPUTED</comment>
+</variable>
+
+<variable id="phv00087112.v1">
+	<name>frncepfc</name>
+	<description>10 YR HARD CHD RISK--NCEP VERSION</description>
+	<type>NUMERIC</type>
+	<comment>COMPUTED</comment>
+</variable>
+
+<variable id="phv00087113.v1">
+	<name>frjamafc</name>
+	<description>10YR HARD CHD RISK PER JAMA 2001 PAPER</description>
+	<type>NUMERIC</type>
+	<comment>COMPUTED</comment>
+</variable>
+
+<variable id="phv00087114.v1">
+	<name>frcircfc</name>
+	<description>10YR HARD CHD RISK PER CIRC 1998 PAPER</description>
+	<type>NUMERIC</type>
+	<comment>COMPUTED</comment>
+</variable>
+
+<variable id="phv00087115.v1">
+	<name>diabhxf</name>
+	<description>DIABETES: TAKING MEDICINE</description>
+	<type>NUMERIC</type>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00087116.v1">
+	<name>cholmedf</name>
+	<description>HIGH BLOOD CHOLESTEROL: TAKING MEDICINE</description>
+	<type>NUMERIC</type>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00087117.v1">
+	<name>bpmedf</name>
+	<description>HIGH BP:  TAKING MEDICINE</description>
+	<type>NUMERIC</type>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00087118.v1">
+	<name>emphysf</name>
+	<description>EMPHYSEMA</description>
+	<type>NUMERIC</type>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+	<value code="9">DO NOT KNOW</value>
+</variable>
+
+<variable id="phv00087119.v1">
+	<name>asthmaf</name>
+	<description>ASTHMA</description>
+	<type>NUMERIC</type>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+	<value code="9">DO NOT KNOW</value>
+</variable>
+
+<variable id="phv00087120.v1">
+	<name>arthritf</name>
+	<description>ARTHRITIS</description>
+	<type>NUMERIC</type>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+	<value code="9">DO NOT KNOW</value>
+</variable>
+
+<variable id="phv00087121.v1">
+	<name>cancerf</name>
+	<description>CANCER</description>
+	<type>NUMERIC</type>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+	<value code="9">DO NOT KNOW</value>
+</variable>
+
+<variable id="phv00087122.v1">
+	<name>prostcnf</name>
+	<description>PROSTATE CANCER</description>
+	<type>NUMERIC</type>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+	<value code="9">DO NOT KNOW</value>
+</variable>
+
+<variable id="phv00087123.v1">
+	<name>brstcnf</name>
+	<description>BREAST CANCER</description>
+	<type>NUMERIC</type>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+	<value code="9">DO NOT KNOW</value>
+</variable>
+
+<variable id="phv00087124.v1">
+	<name>lungcnf</name>
+	<description>LUNG CANCER</description>
+	<type>NUMERIC</type>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+	<value code="9">DO NOT KNOW</value>
+</variable>
+
+<variable id="phv00087125.v1">
+	<name>coloncnf</name>
+	<description>COLON CANCER</description>
+	<type>NUMERIC</type>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+	<value code="9">DO NOT KNOW</value>
+</variable>
+
+<variable id="phv00087126.v1">
+	<name>nmskncnf</name>
+	<description>NON-MELANOMA SKIN CANCER</description>
+	<type>NUMERIC</type>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+	<value code="9">DO NOT KNOW</value>
+</variable>
+
+<variable id="phv00087127.v1">
+	<name>bloodcnf</name>
+	<description>BLOOD CANCER (LEUKEMIA, LYMPHOMA, OTHER)</description>
+	<type>NUMERIC</type>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+	<value code="9">DO NOT KNOW</value>
+</variable>
+
+<variable id="phv00087128.v1">
+	<name>othcnf</name>
+	<description>OTHER CANCER</description>
+	<type>NUMERIC</type>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+	<value code="9">DO NOT KNOW</value>
+</variable>
+
+<variable id="phv00087129.v1">
+	<name>rheuhvf</name>
+	<description>RHEUMATIC HEART DISEASE OR HEART VALVE PROBLEMS</description>
+	<type>NUMERIC</type>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+	<value code="9">DO NOT KNOW</value>
+</variable>
+
+<variable id="phv00087130.v1">
+	<name>bldclotf</name>
+	<description>BLOOD CLOTS IN LUNG OR LEG VEINS</description>
+	<type>NUMERIC</type>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+	<value code="9">DO NOT KNOW</value>
+</variable>
+
+<variable id="phv00087131.v1">
+	<name>liverdf</name>
+	<description>LIVER DISEASE</description>
+	<type>NUMERIC</type>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+	<value code="9">DO NOT KNOW</value>
+</variable>
+
+<variable id="phv00087132.v1">
+	<name>cirrhf</name>
+	<description>LIVER DISEASE: CIRRHOSIS</description>
+	<type>NUMERIC</type>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+	<value code="9">DO NOT KNOW</value>
+</variable>
+
+<variable id="phv00087133.v1">
+	<name>hepatf</name>
+	<description>LIVER DISEASE: HEPATITIS</description>
+	<type>NUMERIC</type>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+	<value code="9">DO NOT KNOW</value>
+</variable>
+
+<variable id="phv00087134.v1">
+	<name>heptpaf</name>
+	<description>LIVER DISEASE: HEPATITIS, TYPE A</description>
+	<type>NUMERIC</type>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00087135.v1">
+	<name>heptpbf</name>
+	<description>LIVER DISEASE: HEPATITIS, TYPE B</description>
+	<type>NUMERIC</type>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00087136.v1">
+	<name>heptpcf</name>
+	<description>LIVER DISEASE: HEPATITIS, TYPE C</description>
+	<type>NUMERIC</type>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00087137.v1">
+	<name>heptpdf</name>
+	<description>LIVER DISEASE: HEPATITIS, TYPE D</description>
+	<type>NUMERIC</type>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00087138.v1">
+	<name>heptpef</name>
+	<description>LIVER DISEASE: HEPATITIS, TYPE E</description>
+	<type>NUMERIC</type>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00087139.v1">
+	<name>heptpuf</name>
+	<description>LIVER DISEASE: HEPATITIS, TYPE UNKNOWN</description>
+	<type>NUMERIC</type>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00087140.v1">
+	<name>hfailf</name>
+	<description>HEART FAILURE</description>
+	<type>NUMERIC</type>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+	<value code="9">UNKNOWN</value>
+</variable>
+
+<variable id="phv00087141.v1">
+	<name>scrafibf</name>
+	<description>CURRENT ATRIAL FIBRILLATION OR A FIBRILLATING HEART</description>
+	<type>NUMERIC</type>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+	<value code="9">UNKNOWN</value>
+</variable>
+
+<variable id="phv00087142.v1">
+	<name>heartaf</name>
+	<description>HEART ATTACK</description>
+	<type>NUMERIC</type>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+	<value code="9">UNKNOWN</value>
+</variable>
+
+<variable id="phv00087143.v1">
+	<name>anginaf</name>
+	<description>ANGINA</description>
+	<type>NUMERIC</type>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+	<value code="9">UNKNOWN</value>
+</variable>
+
+<variable id="phv00087144.v1">
+	<name>strokef</name>
+	<description>STROKE</description>
+	<type>NUMERIC</type>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+	<value code="9">UNKNOWN</value>
+</variable>
+
+<variable id="phv00087145.v1">
+	<name>tiaf</name>
+	<description>TIA OR SMALL STROKE</description>
+	<type>NUMERIC</type>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+	<value code="9">UNKNOWN</value>
+</variable>
+
+<variable id="phv00087146.v1">
+	<name>corobyf</name>
+	<description>CORONARY BYPASS SURGERY</description>
+	<type>NUMERIC</type>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+	<value code="9">UNKNOWN</value>
+</variable>
+
+<variable id="phv00087147.v1">
+	<name>ballnf</name>
+	<description>BALLOON ANGIOPLASTY</description>
+	<type>NUMERIC</type>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+	<value code="9">UNKNOWN</value>
+</variable>
+
+<variable id="phv00087148.v1">
+	<name>hrtvlvf</name>
+	<description>HEART VALVE REPLACEMENT</description>
+	<type>NUMERIC</type>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+	<value code="9">UNKNOWN</value>
+</variable>
+
+<variable id="phv00087149.v1">
+	<name>pmkrf</name>
+	<description>PACEMAKER IMPLANT</description>
+	<type>NUMERIC</type>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+	<value code="9">UNKNOWN</value>
+</variable>
+
+<variable id="phv00087150.v1">
+	<name>defibf</name>
+	<description>DEFIBRILLATOR IMPLANT</description>
+	<type>NUMERIC</type>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+	<value code="9">UNKNOWN</value>
+</variable>
+
+<variable id="phv00087151.v1">
+	<name>othhrtf</name>
+	<description>OTHER SURGERY ON YOUR HEART OR ARTERIES IN YOUR NECK</description>
+	<type>NUMERIC</type>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+	<value code="9">UNKNOWN</value>
+</variable>
+
+<variable id="phv00087152.v1">
+	<name>kdnydisf</name>
+	<description>KIDNEY DISEASE</description>
+	<type>NUMERIC</type>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+	<value code="9">UNKNOWN</value>
+</variable>
+
+<variable id="phv00087153.v1">
+	<name>highbpf</name>
+	<description>HIGH BLOOD PRESSURE OR HYPERTENSION</description>
+	<type>NUMERIC</type>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+	<value code="9">UNKNOWN</value>
+</variable>
+
+<variable id="phv00087154.v1">
+	<name>bphxagef</name>
+	<description>HIGH BP MEDS: AGE STARTED USE</description>
+	<type>NUMERIC</type>
+</variable>
+
+<variable id="phv00087155.v1">
+	<name>bpmageuf</name>
+	<description>HIGH BP MEDS: DONT KNOW AGE</description>
+	<type>NUMERIC</type>
+	<value code="9">UNKNOWN</value>
+</variable>
+
+<variable id="phv00087156.v1">
+	<name>hghcholf</name>
+	<description>HIGH BLOOD CHOLESTEROL</description>
+	<type>NUMERIC</type>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+	<value code="9">UNKNOWN</value>
+</variable>
+
+<variable id="phv00087157.v1">
+	<name>cholagef</name>
+	<description>HIGH BLOOD CHOLESTEROL MEDS: AGE FIRST TREATED</description>
+	<type>NUMERIC</type>
+</variable>
+
+<variable id="phv00087158.v1">
+	<name>chlageuf</name>
+	<description>HIGH BLOOD CHOLESTEROL MEDS: DONT KNOW AGE</description>
+	<type>NUMERIC</type>
+	<value code="9">UNKNOWN</value>
+</variable>
+
+<variable id="phv00087159.v1">
+	<name>diabetf</name>
+	<description>DIABETES</description>
+	<type>NUMERIC</type>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+	<value code="9">UNKNOWN</value>
+</variable>
+
+<variable id="phv00087160.v1">
+	<name>dbhxtypf</name>
+	<description>DIABETES: TYPE OF MEDICINE</description>
+	<type>NUMERIC</type>
+	<value code="1">INSULIN</value>
+	<value code="2">PILLS</value>
+</variable>
+
+<variable id="phv00087161.v1">
+	<name>dbagef</name>
+	<description>DIABETES: AGE FIRST TREATED</description>
+	<type>NUMERIC</type>
+</variable>
+
+<variable id="phv00087162.v1">
+	<name>dbageuf</name>
+	<description>DIABETES: DONT KNOW AGE FIRST TREATED</description>
+	<type>NUMERIC</type>
+	<value code="9">AGE UNKNOWN</value>
+</variable>
+
+<variable id="phv00087163.v1">
+	<name>dbinsulf</name>
+	<description>DIABETES: INSULIN FIRST MEDICINE</description>
+	<type>NUMERIC</type>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+	<value code="9">DO NOT KNOW</value>
+</variable>
+
+<variable id="phv00087164.v1">
+	<name>dbpregf</name>
+	<description>DIABETES: OCCUR ONLY DURING PREGNANCY</description>
+	<type>NUMERIC</type>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+	<value code="9">DO NOT KNOW</value>
+</variable>
+
+<variable id="phv00087165.v1">
+	<name>hwt3ylbf</name>
+	<description>HIGHEST WEIGHT IN LAST 3 YEARS (lbs)</description>
+	<type>NUMERIC</type>
+	<unit>lbs</unit>
+</variable>
+
+<variable id="phv00087166.v1">
+	<name>wt20lbf</name>
+	<description>WEIGHT AT AGE 20 (lbs)</description>
+	<type>NUMERIC</type>
+	<unit>lbs</unit>
+</variable>
+
+<variable id="phv00087167.v1">
+	<name>wt40lbf</name>
+	<description>WEIGHT AT AGE 40 (lbs)</description>
+	<type>NUMERIC</type>
+	<unit>lbs</unit>
+</variable>
+
+<variable id="phv00087168.v1">
+	<name>pregf</name>
+	<description>EVER BEEN PREGNANT</description>
+	<type>NUMERIC</type>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+	<value code="9">DO NOT KNOW</value>
+</variable>
+
+<variable id="phv00087169.v1">
+	<name>pregnf</name>
+	<description>NUMBER OF PREGNANCIES</description>
+	<type>NUMERIC</type>
+</variable>
+
+<variable id="phv00087170.v1">
+	<name>birthnf</name>
+	<description>NUMBER OF LIVE BIRTHS</description>
+	<type>NUMERIC</type>
+</variable>
+
+<variable id="phv00087171.v1">
+	<name>agebrthf</name>
+	<description>AGE AT FIRST LIVE BIRTH</description>
+	<type>NUMERIC</type>
+</variable>
+
+<variable id="phv00087172.v1">
+	<name>hystrctf</name>
+	<description>HYSTERECTOMY</description>
+	<type>NUMERIC</type>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+	<value code="9">DO NOT KNOW</value>
+</variable>
+
+<variable id="phv00087173.v1">
+	<name>hystagef</name>
+	<description>AGE OF HYSTERECTOMY</description>
+	<type>NUMERIC</type>
+</variable>
+
+<variable id="phv00087174.v1">
+	<name>ovaremf</name>
+	<description>OVARIES REMOVED</description>
+	<type>NUMERIC</type>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+	<value code="9">DO NOT KNOW</value>
+</variable>
+
+<variable id="phv00087175.v1">
+	<name>ovaagef</name>
+	<description>AGE WHEN OVARIES REMOVED</description>
+	<type>NUMERIC</type>
+</variable>
+
+<variable id="phv00087176.v1">
+	<name>ovaremnf</name>
+	<description>NUMBER OF OVARIES REMOVED</description>
+	<type>NUMERIC</type>
+	<value code="1">1 OVARY REMOVED</value>
+	<value code="2">2 OVARIES REMOVED</value>
+</variable>
+
+<variable id="phv00087177.v1">
+	<name>bcpillsf</name>
+	<description>EVER TAKEN BIRTH CONTROL PILLS</description>
+	<type>NUMERIC</type>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+	<value code="9">DO NOT KNOW</value>
+</variable>
+
+<variable id="phv00087178.v1">
+	<name>bpillyrf</name>
+	<description>NUMBER OF YEARS BIRTH CONTROL TAKEN</description>
+	<type>NUMERIC</type>
+</variable>
+
+<variable id="phv00087179.v1">
+	<name>mnpausef</name>
+	<description>MENOPAUSE</description>
+	<type>NUMERIC</type>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+	<value code="9">DO NOT KNOW</value>
+</variable>
+
+<variable id="phv00087180.v1">
+	<name>menopf</name>
+	<description>CURRENTLY GOING THROUGH MENOPAUSE</description>
+	<type>NUMERIC</type>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+	<value code="9">DO NOT KNOW</value>
+</variable>
+
+<variable id="phv00087181.v1">
+	<name>mnspmof</name>
+	<description>MONTH OF LAST MENSTRUAL PERIOD</description>
+	<type>NUMERIC</type>
+</variable>
+
+<variable id="phv00087182.v1">
+	<name>mnspyrf</name>
+	<description>YEAR OF LAST MENSTRUAL PERIOD</description>
+	<type>NUMERIC</type>
+</variable>
+
+<variable id="phv00087183.v1">
+	<name>prdsnumf</name>
+	<description>NUMBER OF PERIODS IN LAST 12 MONTHS</description>
+	<type>NUMERIC</type>
+</variable>
+
+<variable id="phv00087184.v1">
+	<name>menoagef</name>
+	<description>AGE OF MENOPAUSE</description>
+	<type>NUMERIC</type>
+</variable>
+
+<variable id="phv00087185.v1">
+	<name>hrmrepf</name>
+	<description>EVER TAKEN HORMONE REPLACEMENT THERAPY</description>
+	<type>NUMERIC</type>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00087186.v1">
+	<name>hrmrepcf</name>
+	<description>CURRENTLY USING HORMONE REPLACEMENT THERAPY</description>
+	<type>NUMERIC</type>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00087187.v1">
+	<name>hrmragef</name>
+	<description>CURRENT USER: AGE BEGINNING HORMONE REPLACEMENT THERAPY</description>
+	<type>NUMERIC</type>
+</variable>
+
+<variable id="phv00087188.v1">
+	<name>hrmsagef</name>
+	<description>NOT CURRENT USER: AGE STARTED TAKING HORMONES</description>
+	<type>NUMERIC</type>
+</variable>
+
+<variable id="phv00087189.v1">
+	<name>hrmqagef</name>
+	<description>NOT CURRENT USER: AGE STOPPED TAKING HORMONES</description>
+	<type>NUMERIC</type>
+</variable>
+
+<variable id="phv00087190.v1">
+	<name>hrmtypf</name>
+	<description>NOT CURRENT USER: TYPE OF PREVIOUS THERAPY</description>
+	<type>NUMERIC</type>
+	<value code="1">ESTROGEN ALONE</value>
+	<value code="2">ESTROGEN WITH PROGESTIN</value>
+</variable>
+
+<variable id="phv00087191.v1">
+	<name>legpainf</name>
+	<description>PAIN IN LEG OR BUTTOCK WHILE WALKING</description>
+	<type>NUMERIC</type>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00087192.v1">
+	<name>lprestf</name>
+	<description>PAIN BEGINS STANDING STILL OR SITTING</description>
+	<type>NUMERIC</type>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00087193.v1">
+	<name>lpcalff</name>
+	<description>PAIN OCCURS IN WHAT PORTION OF LEG OR BUTTOCK</description>
+	<type>NUMERIC</type>
+	<value code="1">PAIN INCLUDES CALF</value>
+	<value code="2">PAIN DOES NOT INCLUDE CALF</value>
+</variable>
+
+<variable id="phv00087194.v1">
+	<name>lpuphlf</name>
+	<description>PAIN OCCURS WHILE WALKING UPHILL OR HURRYING</description>
+	<type>NUMERIC</type>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+	<value code="8">NOT APPLICABLE</value>
+</variable>
+
+<variable id="phv00087195.v1">
+	<name>lpnormf</name>
+	<description>PAIN OCCURS WHILE WALKING AT ORDINARY PACE ON THE LEVEL</description>
+	<type>NUMERIC</type>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00087196.v1">
+	<name>lpdisf</name>
+	<description>PAIN DISAPPEARS WHILE WALKING</description>
+	<type>NUMERIC</type>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00087197.v1">
+	<name>lpstopf</name>
+	<description>STOP WALKING OR SLOW DOWN DURING PAIN</description>
+	<type>NUMERIC</type>
+	<value code="1">STOP OR SLOW DOWN</value>
+	<value code="2">CONTINUE ON</value>
+</variable>
+
+<variable id="phv00087198.v1">
+	<name>lpstndf</name>
+	<description>PAIN RELIEVED IF STAND STILL</description>
+	<type>NUMERIC</type>
+	<value code="1">RELIEVED</value>
+	<value code="2">NOT RELIEVED</value>
+</variable>
+
+<variable id="phv00087199.v1">
+	<name>lprelvf</name>
+	<description>HOW SOON PAIN IS RELIEVED</description>
+	<type>NUMERIC</type>
+	<value code="0">MORE THAN 10 MINUTES</value>
+	<value code="1">10 MINUTES OR LESS</value>
+</variable>
+
+<variable id="phv00087200.v1">
+	<name>lplocf</name>
+	<description>PREDOMINANT SIDE OF PAIN</description>
+	<type>NUMERIC</type>
+	<value code="1">RIGHT SIDE</value>
+	<value code="2">LEFT SIDE</value>
+	<value code="3">BOTH LEGS</value>
+</variable>
+
+<variable id="phv00087201.v1">
+	<name>swllftf</name>
+	<description>SWELLING OF FEET OR ANKLES (OTHER THAN PREGNANCY)</description>
+	<type>NUMERIC</type>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+	<value code="9">DO NOT KNOW</value>
+</variable>
+
+<variable id="phv00087202.v1">
+	<name>swlldayf</name>
+	<description>SWELLING CAME ON DURING DAY, DOWN OVERNIGHT</description>
+	<type>NUMERIC</type>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+	<value code="9">DO NOT KNOW</value>
+</variable>
+
+<variable id="phv00087203.v1">
+	<name>slppllwf</name>
+	<description>SLEEP ON 2+ PILLOWS TO HELP BREATHING</description>
+	<type>NUMERIC</type>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+	<value code="9">DO NOT KNOW</value>
+</variable>
+
+<variable id="phv00087204.v1">
+	<name>wakebrf</name>
+	<description>AWAKENED AT NIGHT BY TROUBLE BREATHING</description>
+	<type>NUMERIC</type>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+	<value code="9">DO NOT KNOW</value>
+</variable>
+
+<variable id="phv00087205.v1">
+	<name>feverf</name>
+	<description>FEVER IN PAST TWO WEEKS</description>
+	<type>NUMERIC</type>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+	<value code="9">DO NOT KNOW</value>
+</variable>
+
+<variable id="phv00087206.v1">
+	<name>coldfluf</name>
+	<description>COLD, FLU, OR SORE THROAT IN PAST TWO WEEKS</description>
+	<type>NUMERIC</type>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+	<value code="9">DO NOT KNOW</value>
+</variable>
+
+<variable id="phv00087207.v1">
+	<name>urininff</name>
+	<description>URINARY INFECTION IN PAST TWO WEEKS</description>
+	<type>NUMERIC</type>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+	<value code="9">DO NOT KNOW</value>
+</variable>
+
+<variable id="phv00087208.v1">
+	<name>allrgyf</name>
+	<description>SEASONAL ALLERGY IN PAST TWO WEEKS</description>
+	<type>NUMERIC</type>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+	<value code="9">DO NOT KNOW</value>
+</variable>
+
+<variable id="phv00087209.v1">
+	<name>bronchf</name>
+	<description>BRONCHITIS IN PAST TWO WEEKS</description>
+	<type>NUMERIC</type>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+	<value code="9">DO NOT KNOW</value>
+</variable>
+
+<variable id="phv00087210.v1">
+	<name>sinuinff</name>
+	<description>SINUS INFECTION OR SINUSITIS IN PAST TWO WEEKS</description>
+	<type>NUMERIC</type>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+	<value code="9">DO NOT KNOW</value>
+</variable>
+
+<variable id="phv00087211.v1">
+	<name>pneumof</name>
+	<description>PNEUMONIA IN PAST TWO WEEKS</description>
+	<type>NUMERIC</type>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+	<value code="9">DO NOT KNOW</value>
+</variable>
+
+<variable id="phv00087212.v1">
+	<name>bldgumsf</name>
+	<description>GUMS BLEEDING WHILE BRUSHING OR FLOSSING IN PAST TWO WEEKS</description>
+	<type>NUMERIC</type>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+	<value code="9">DO NOT KNOW</value>
+</variable>
+
+<variable id="phv00087213.v1">
+	<name>tthinff</name>
+	<description>TOOTH INFECTION IN PAST TWO WEEKS</description>
+	<type>NUMERIC</type>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+	<value code="9">DO NOT KNOW</value>
+</variable>
+
+<variable id="phv00087214.v1">
+	<name>goutf</name>
+	<description>FLARE-UP OF GOUT IN PAST TWO WEEKS</description>
+	<type>NUMERIC</type>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+	<value code="9">DO NOT KNOW</value>
+</variable>
+
+<variable id="phv00087215.v1">
+	<name>arth2wkf</name>
+	<description>FLARE-UP OF ARTHRITIS IN PAST TWO WEEKS</description>
+	<type>NUMERIC</type>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+	<value code="9">DO NOT KNOW</value>
+</variable>
+
+<variable id="phv00087216.v1">
+	<name>abnumf</name>
+	<description>NUMBER OF TIMES TREATED WITH ANTIBIOTICS IN LAST YEAR (ESTIMATE IF NECESSARY)</description>
+	<type>NUMERIC</type>
+</variable>
+
+<variable id="phv00087217.v1">
+	<name>noabf</name>
+	<description>DONT KNOW NUMBER OF TIMES TREATED WITH ANTIBIOTICS IN LAST YEAR</description>
+	<type>NUMERIC</type>
+	<value code="0"># TIMES UNKNOWN</value>
+</variable>
+
+<variable id="phv00087218.v1">
+	<name>ab5ynumf</name>
+	<description>NUMBER OF TIMES TREATED WITH ANTIBIOTICS IN LAST FIVE YEARS (ESTIMATE IF NECESSARY)</description>
+	<type>NUMERIC</type>
+</variable>
+
+<variable id="phv00087219.v1">
+	<name>noab5yf</name>
+	<description>DON&#39;T KNOW NUMBER OF TIMES TREATED WITH ANTIBIOTICS IN LAST FIVE YEARS</description>
+	<type>NUMERIC</type>
+	<value code="0"># TIMES UNKNOWN</value>
+</variable>
+
+<variable id="phv00087220.v1">
+	<name>aspirinf</name>
+	<description>ASPIRIN USAGE ON REGULAR BASIS EVER</description>
+	<type>NUMERIC</type>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+	<value code="9">DO NOT KNOW</value>
+</variable>
+
+<variable id="phv00087221.v1">
+	<name>aspsagef</name>
+	<description>AGE STARTED REGULAR ASPIRIN USAGE</description>
+	<type>NUMERIC</type>
+</variable>
+
+<variable id="phv00087222.v1">
+	<name>aspnowf</name>
+	<description>CURRENT REGULAR ASPIRIN USER</description>
+	<type>NUMERIC</type>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+	<value code="9">DO NOT KNOW</value>
+</variable>
+
+<variable id="phv00087223.v1">
+	<name>aspdaysf</name>
+	<description>CURRENT REGULAR ASPIRIN USER: NUMBER OF DAYS PER WEEK OF USAGE</description>
+	<type>NUMERIC</type>
+</variable>
+
+<variable id="phv00087224.v1">
+	<name>aspeagef</name>
+	<description>NO LONGER CURRENT REGULAR ASPIRIN USER: AGE STOPPED</description>
+	<type>NUMERIC</type>
+</variable>
+
+<variable id="phv00087225.v1">
+	<name>gumdisf</name>
+	<description>DENTIST DIAGNOSED PERIODONTITIS OR GUM DISEASE</description>
+	<type>NUMERIC</type>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+	<value code="9">DO NOT KNOW</value>
+</variable>
+
+<variable id="phv00087226.v1">
+	<name>losttthf</name>
+	<description>TEETH LOST TO GUM DISEASE</description>
+	<type>NUMERIC</type>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+	<value code="9">DO NOT KNOW</value>
+</variable>
+
+<variable id="phv00087227.v1">
+	<name>tthnumf</name>
+	<description>NUMBER OF TEETH LOST TO GUM DISEASE</description>
+	<type>NUMERIC</type>
+</variable>
+
+<variable id="phv00087228.v1">
+	<name>hctryofc</name>
+	<description>COUNTRY OR REGION OF HISPANIC ORIGIN</description>
+	<type>STRING</type>
+</variable>
+
+<variable id="phv00087229.v1">
+	<name>yrsusf</name>
+	<description>NUMBER OF YEARS LIVED IN THE US - SELF</description>
+	<type>NUMERIC</type>
+</variable>
+
+<variable id="phv00087230.v1">
+	<name>lngengf</name>
+	<description>ENGLISH SPOKEN IN HOME</description>
+	<type>NUMERIC</type>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00087231.v1">
+	<name>lngspf</name>
+	<description>SPANISH SPOKEN IN HOME</description>
+	<type>NUMERIC</type>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00087232.v1">
+	<name>lngothf</name>
+	<description>OTHER LANGUAGE SPOKEN AT HOME</description>
+	<type>NUMERIC</type>
+</variable>
+
+<variable id="phv00087233.v1">
+	<name>otlngtxf</name>
+	<description>SPECIFY OTHER LANGUAGE SPOKEN IN HOME</description>
+	<type>STRING</type>
+</variable>
+
+<variable id="phv00087234.v1">
+	<name>maritalf</name>
+	<description>MARITAL STATUS</description>
+	<type>NUMERIC</type>
+	<value code="1">MARRIED/LIVING AS MARRIED</value>
+	<value code="2">WIDOWED</value>
+	<value code="3">DIVORCED</value>
+	<value code="4">SEPARATED</value>
+	<value code="5">NEVER MARRIED</value>
+	<value code="6">PREFER NOT TO ANSWER</value>
+</variable>
+
+<variable id="phv00087235.v1">
+	<name>educf</name>
+	<description>HIGHEST DEGREE OR LEVEL OF SCHOOL COMPLETED</description>
+	<type>NUMERIC</type>
+	<value code="0">NO SCHOOLING</value>
+	<value code="1">GRADES 1-8</value>
+	<value code="2">GRADES 9-11</value>
+	<value code="3">COMPLETED HIGH SCHOOL/GED</value>
+	<value code="4">SOME COLLEGE BUT NO DEGREE</value>
+	<value code="5">TECHNICAL SCHOOL CERTIFICATE</value>
+	<value code="6">ASSOCIATE DEGREE</value>
+	<value code="7">BACHELOR&#39;S DEGREE</value>
+	<value code="8">GRADUATE OR PROFESSIONAL SCHOOL</value>
+</variable>
+
+<variable id="phv00087236.v1">
+	<name>curjobf</name>
+	<description>CURRENT OCCUPATION</description>
+	<type>NUMERIC</type>
+	<value code="1">HOMEMAKER</value>
+	<value code="2">EMPLOYED FULL TIME</value>
+	<value code="3">EMPLOYED PART TIME</value>
+	<value code="4">EMPLOYED ON-LEAVE (HEALTH)</value>
+	<value code="5">EMPLOYED ON-LEAVE (NON-HEALTH)</value>
+	<value code="6">UNEMPLOYED &lt; 6 MONTHS</value>
+	<value code="7">UNEMPLOYED &gt; 6 MONTHS</value>
+	<value code="8">RETIRED NOT WORKING</value>
+	<value code="9">RETIRED WORKING</value>
+	<value code="10">RETIRED VOLUNTEERING</value>
+</variable>
+
+<variable id="phv00087237.v1">
+	<name>homemkrf</name>
+	<description>CURRENT HOMEMAKER: PREVIOUSLY WORKED OUTSIDE THE HOME</description>
+	<type>NUMERIC</type>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00087238.v1">
+	<name>incomef</name>
+	<description>TOTAL COMBINED FAMILY INCOME FOR PAST 12 MONTHS</description>
+	<type>NUMERIC</type>
+	<value code="1">&lt; $5,000</value>
+	<value code="2">$5,000 - 7,999</value>
+	<value code="3">$8,000 - 11,999</value>
+	<value code="4">$12,000 - 15,999</value>
+	<value code="5">$16,000 - 19,999</value>
+	<value code="6">$20,000 - 24,999</value>
+	<value code="7">$25,000 - 29,999</value>
+	<value code="8">$30,000 - 34,999</value>
+	<value code="9">$35,000 - 39,999</value>
+	<value code="10">$40,000 - 49,999</value>
+	<value code="11">$50,000 - 74,999</value>
+	<value code="12">$75,000 - 99,999</value>
+	<value code="13">$100,000 +</value>
+</variable>
+
+<variable id="phv00087239.v1">
+	<name>nhhldcf</name>
+	<description>NUMBER OF CHILDREN UNDER 18 SUPPORTED BY FAMILY INCOME</description>
+	<type>NUMERIC</type>
+</variable>
+
+<variable id="phv00087240.v1">
+	<name>numhhldf</name>
+	<description>NUMBER OF PEOPLE SUPPORTED BY FAMILY INCOME</description>
+	<type>NUMERIC</type>
+</variable>
+
+<variable id="phv00087241.v1">
+	<name>nhhldef</name>
+	<description>NUMBER OF ADULTS 65+ SUPPORTED BY FAMILY INCOME</description>
+	<type>NUMERIC</type>
+</variable>
+
+<variable id="phv00087242.v1">
+	<name>hometypf</name>
+	<description>HOUSE OR APARTMENT OF RESIDENCE</description>
+	<type>NUMERIC</type>
+	<value code="1">RENT</value>
+	<value code="2">PAY A MORTGAGE</value>
+	<value code="3">OWN FREE AND CLEAR</value>
+	<value code="4">OTHER</value>
+</variable>
+
+<variable id="phv00087243.v1">
+	<name>medcaref</name>
+	<description>MEDICAL CARE</description>
+	<type>NUMERIC</type>
+	<value code="1">DOCTOR&#39;S OFFICE/CLINIC</value>
+	<value code="2">HOSPITAL OR EMERGENCY ROOM</value>
+	<value code="3">OTHER</value>
+</variable>
+
+<variable id="phv00087244.v1">
+	<name>medctxtf</name>
+	<description>SPECIFY OTHER LOCATION FOR MEDICAL CARE</description>
+	<type>STRING</type>
+</variable>
+
+<variable id="phv00087245.v1">
+	<name>hiprvf</name>
+	<description>MEDICAL CARE - HMO OR OTHER PRIVATE INSURANCE</description>
+	<type>NUMERIC</type>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00087246.v1">
+	<name>himdcrf</name>
+	<description>MEDICAL CARE - MEDICARE</description>
+	<type>NUMERIC</type>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00087247.v1">
+	<name>himdcdf</name>
+	<description>MEDICAL CARE - MEDICAID</description>
+	<type>NUMERIC</type>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00087248.v1">
+	<name>himilf</name>
+	<description>MEDICAL CARE - MILITARY OR VA SPONSORED</description>
+	<type>NUMERIC</type>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00087249.v1">
+	<name>hinonef</name>
+	<description>MEDICAL CARE - NONE</description>
+	<type>NUMERIC</type>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00087250.v1">
+	<name>hiothf</name>
+	<description>MEDICAL CARE - OTHER TYPE</description>
+	<type>NUMERIC</type>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00087251.v1">
+	<name>hinstxtf</name>
+	<description>MEDICAL CARE - SPECIFY OTHER TYPE</description>
+	<type>STRING</type>
+</variable>
+
+<variable id="phv00087252.v1">
+	<name>evsmkf</name>
+	<description>SMOKED 100+ CIGARETTES IN LIFETIME</description>
+	<type>NUMERIC</type>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00087253.v1">
+	<name>agesmkf</name>
+	<description>AGE FIRST STARTED SMOKING CIGARETTES</description>
+	<type>NUMERIC</type>
+</variable>
+
+<variable id="phv00087254.v1">
+	<name>cursmkf</name>
+	<description>SMOKED CIGARETTES IN THE LAST 30 DAYS</description>
+	<type>NUMERIC</type>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00087255.v1">
+	<name>agequitf</name>
+	<description>AGE QUIT SMOKING CIGARETTES</description>
+	<type>NUMERIC</type>
+</variable>
+
+<variable id="phv00087256.v1">
+	<name>cigsdayf</name>
+	<description>AVERAGE NUMBER OF CIGARETTES SMOKED PER DAY</description>
+	<type>NUMERIC</type>
+</variable>
+
+<variable id="phv00087257.v1">
+	<name>othtobf</name>
+	<description>EVER USED OTHER TOBACCO PRODUCTS</description>
+	<type>NUMERIC</type>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00087258.v1">
+	<name>cigarf</name>
+	<description>SMOKED 20+ CIGARS IN LIFETIME</description>
+	<type>NUMERIC</type>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00087259.v1">
+	<name>cgragef</name>
+	<description>AGE FIRST STARTED SMOKING CIGARS</description>
+	<type>NUMERIC</type>
+</variable>
+
+<variable id="phv00087260.v1">
+	<name>cgrcurf</name>
+	<description>SMOKED CIGARS IN THE LAST 30 DAYS</description>
+	<type>NUMERIC</type>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00087261.v1">
+	<name>cgrageqf</name>
+	<description>AGE QUIT SMOKING CIGARS</description>
+	<type>NUMERIC</type>
+</variable>
+
+<variable id="phv00087262.v1">
+	<name>cgrdayf</name>
+	<description>AVERAGE NUMBER OF CIGARS SMOKED PER DAY</description>
+	<type>NUMERIC</type>
+</variable>
+
+<variable id="phv00087263.v1">
+	<name>pipef</name>
+	<description>SMOKED 20+ PIPEFULS OF TOBACCO IN LIFETIME</description>
+	<type>NUMERIC</type>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00087264.v1">
+	<name>pipagef</name>
+	<description>AGE FIRST SMOKED A PIPE</description>
+	<type>NUMERIC</type>
+</variable>
+
+<variable id="phv00087265.v1">
+	<name>pipcurf</name>
+	<description>SMOKED A PIPE IN THE LAST 30 DAYS</description>
+	<type>NUMERIC</type>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00087266.v1">
+	<name>pipageqf</name>
+	<description>AGE QUIT SMOKING A PIPE</description>
+	<type>NUMERIC</type>
+</variable>
+
+<variable id="phv00087267.v1">
+	<name>pipdayf</name>
+	<description>AVERAGE NUMBER OF PIPEFULS SMOKED PER DAY</description>
+	<type>NUMERIC</type>
+</variable>
+
+<variable id="phv00087268.v1">
+	<name>chewf</name>
+	<description>CHEWED TOBACCO 20+ TIMES IN LIFETIME</description>
+	<type>NUMERIC</type>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00087269.v1">
+	<name>chwagef</name>
+	<description>AGE FIRST USED CHEWING TOBACCO</description>
+	<type>NUMERIC</type>
+</variable>
+
+<variable id="phv00087270.v1">
+	<name>chwcurf</name>
+	<description>USED CHEWING TOBACCO IN THE LAST 30 DAYS</description>
+	<type>NUMERIC</type>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00087271.v1">
+	<name>chwageqf</name>
+	<description>AGE QUIT USING CHEWING TOBACCO</description>
+	<type>NUMERIC</type>
+</variable>
+
+<variable id="phv00087272.v1">
+	<name>chwdayf</name>
+	<description>AVERAGE NUMBER OF TIMES USED CHEWING TOBACCO PER DAY</description>
+	<type>NUMERIC</type>
+</variable>
+
+<variable id="phv00087273.v1">
+	<name>snufff</name>
+	<description>USED SNUFF 20+ TIMES IN LIFETIME</description>
+	<type>NUMERIC</type>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00087274.v1">
+	<name>snfagef</name>
+	<description>AGE FIRST USED SNUFF</description>
+	<type>NUMERIC</type>
+</variable>
+
+<variable id="phv00087275.v1">
+	<name>snfcurf</name>
+	<description>USED SNUFF IN THE LAST 30 DAYS</description>
+	<type>NUMERIC</type>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00087276.v1">
+	<name>snfageqf</name>
+	<description>AGE QUIT USING SNUFF</description>
+	<type>NUMERIC</type>
+</variable>
+
+<variable id="phv00087277.v1">
+	<name>snfdayf</name>
+	<description>AVERAGE NUMBER OF TIMES USED SNUFF PER DAY</description>
+	<type>NUMERIC</type>
+</variable>
+
+<variable id="phv00087278.v1">
+	<name>shndsmkf</name>
+	<description>CURRENT NON-SMOKERS: EXPOSURE TO SECOND-HAND SMOKE, HOURS PER WEEK</description>
+	<type>NUMERIC</type>
+</variable>
+
+<variable id="phv00087279.v1">
+	<name>alcoholf</name>
+	<description>EVER CONSUMED ALCOHOLIC BEVERAGES</description>
+	<type>NUMERIC</type>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00087280.v1">
+	<name>alcagef</name>
+	<description>AGE FIRST STARTED DRINKING ALCOHOLIC BEVERAGES</description>
+	<type>NUMERIC</type>
+</variable>
+
+<variable id="phv00087281.v1">
+	<name>curalcf</name>
+	<description>PRESENTLY DRINK ALCOHOLIC BEVERAGES</description>
+	<type>NUMERIC</type>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00087282.v1">
+	<name>yrsalcpf</name>
+	<description>FORMER DRINKERS: NUMBER OF YEARS DRINKING ALCOHOLIC BEVERAGES</description>
+	<type>NUMERIC</type>
+</variable>
+
+<variable id="phv00087283.v1">
+	<name>winef</name>
+	<description>FORMER DRINKERS: DRANK WINE ORDINARILY</description>
+	<type>NUMERIC</type>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00087284.v1">
+	<name>beerf</name>
+	<description>FORMER DRINKERS: DRANK BEER ORDINARILY</description>
+	<type>NUMERIC</type>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00087285.v1">
+	<name>hardliqf</name>
+	<description>FORMER DRINKERS: DRANK HARD LIQUOR ORDINARILY</description>
+	<type>NUMERIC</type>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00087286.v1">
+	<name>othalcf</name>
+	<description>FORMER DRINKERS: DRANK OTHER ALCOHOL ORDINARILY</description>
+	<type>NUMERIC</type>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00087287.v1">
+	<name>otalctxf</name>
+	<description>FORMER DRINKERS: SPECIFY OTHER ALCOHOL DRINKEN ORDINARILY</description>
+	<type>STRING</type>
+</variable>
+
+<variable id="phv00087288.v1">
+	<name>alcwkpf</name>
+	<description>FORMER DRINKERS: USUAL NUMBER OF DRINKS PER WEEK WHEN DRINKING</description>
+	<type>NUMERIC</type>
+</variable>
+
+<variable id="phv00087289.v1">
+	<name>yrsalccf</name>
+	<description>CURRENT DRINKERS: NUMBER OF YEARS DRINKING ALCOHOLIC BEVERAGES</description>
+	<type>NUMERIC</type>
+</variable>
+
+<variable id="phv00087290.v1">
+	<name>alcwkcf</name>
+	<description>CURRENT DRINKERS: USUAL NUMBER OF DRINKS PER WEEK</description>
+	<type>NUMERIC</type>
+</variable>
+
+<variable id="phv00087291.v1">
+	<name>alc24hrf</name>
+	<description>CURRENT DRINKERS: NUMBER OF DRINKS IN THE PAST 24 HOURS</description>
+	<type>NUMERIC</type>
+</variable>
+
+<variable id="phv00087292.v1">
+	<name>highalcf</name>
+	<description>CURRENT DRINKERS: LARGEST NUMBER OF DRINKS IN ONE DAY DURING PAST MONTH</description>
+	<type>NUMERIC</type>
+</variable>
+
+<variable id="phv00087293.v1">
+	<name>cgrfc</name>
+	<description>CIGAR SMOKING STATUS</description>
+	<type>NUMERIC</type>
+	<comment>COMPUTED</comment>
+	<value code="0">NEVER</value>
+	<value code="1">FORMER</value>
+	<value code="2">CURRENT</value>
+</variable>
+
+<variable id="phv00087294.v1">
+	<name>cgryrsfc</name>
+	<description>CIGAR SMOKING AMOUNT (CIGARS PER DAY * YEARS)</description>
+	<type>NUMERIC</type>
+	<comment>COMPUTED</comment>
+</variable>
+
+<variable id="phv00087295.v1">
+	<name>pipfc</name>
+	<description>PIPE SMOKING STATUS</description>
+	<type>NUMERIC</type>
+	<comment>COMPUTED</comment>
+	<value code="0">NEVER</value>
+	<value code="1">FORMER</value>
+	<value code="2">CURRENT</value>
+</variable>
+
+<variable id="phv00087296.v1">
+	<name>pipyrsfc</name>
+	<description>PIPE SMOKING AMOUNT (PIPEFULS PER DAY * YEARS)</description>
+	<type>NUMERIC</type>
+	<comment>COMPUTED</comment>
+</variable>
+
+<variable id="phv00087297.v1">
+	<name>chewfc</name>
+	<description>CHEWING TOBACCO USE</description>
+	<type>NUMERIC</type>
+	<comment>COMPUTED</comment>
+	<value code="0">NEVER</value>
+	<value code="1">FORMER</value>
+	<value code="2">CURRENT</value>
+</variable>
+
+<variable id="phv00087298.v1">
+	<name>chwyrsfc</name>
+	<description>CHEWING TOBACCO AMOUNT (# TIMES CHEWED PER DAY * YEARS)</description>
+	<type>NUMERIC</type>
+	<comment>COMPUTED</comment>
+</variable>
+
+<variable id="phv00087299.v1">
+	<name>snffc</name>
+	<description>SNUFF USE</description>
+	<type>NUMERIC</type>
+	<comment>COMPUTED</comment>
+	<value code="0">NEVER</value>
+	<value code="1">FORMER</value>
+	<value code="2">CURRENT</value>
+</variable>
+
+<variable id="phv00087300.v1">
+	<name>snfyrsfc</name>
+	<description>SNUFF USE AMOUNT (# TIMES USE PER DAY * YEARS)</description>
+	<type>NUMERIC</type>
+	<comment>COMPUTED</comment>
+</variable>
+
+<variable id="phv00087301.v1">
+	<name>alcfc</name>
+	<description>ALCOHOL USE</description>
+	<type>NUMERIC</type>
+	<comment>COMPUTED</comment>
+	<value code="0">NEVER</value>
+	<value code="1">FORMER</value>
+	<value code="2">CURRENT</value>
+</variable>
+
+<variable id="phv00087302.v1">
+	<name>a2afc</name>
+	<description>ANGIOTENSIN TYPE 2 ANTAGONISTS</description>
+	<type>NUMERIC</type>
+	<comment>COMPUTED</comment>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00087303.v1">
+	<name>a2adfc</name>
+	<description>COMBINATIONS OF ANGIOTENSIN II ANTAGONISTS PLUS DIURETICS</description>
+	<type>NUMERIC</type>
+	<comment>COMPUTED</comment>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00087304.v1">
+	<name>acefc</name>
+	<description>ACE INHIBITORS WITHOUT DIURETICS</description>
+	<type>NUMERIC</type>
+	<comment>COMPUTED</comment>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00087305.v1">
+	<name>acedfc</name>
+	<description>ACE INHIBITORS WITH DIURETICS</description>
+	<type>NUMERIC</type>
+	<comment>COMPUTED</comment>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00087306.v1">
+	<name>adpifc</name>
+	<description>INHIBITORS OF ADP-INDUCED PLATELET AGGREGATION</description>
+	<type>NUMERIC</type>
+	<comment>COMPUTED</comment>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00087307.v1">
+	<name>agdifc</name>
+	<description>ALPHA-GLUCOSIDASE INHIBITORS</description>
+	<type>NUMERIC</type>
+	<comment>COMPUTED</comment>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00087308.v1">
+	<name>alphafc</name>
+	<description>ALPHA-BLOCKERS WITHOUT DIURETICS</description>
+	<type>NUMERIC</type>
+	<comment>COMPUTED</comment>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00087309.v1">
+	<name>alphadfc</name>
+	<description>ALPHA-BLOCKERS WITH DIURETICS</description>
+	<type>NUMERIC</type>
+	<comment>COMPUTED</comment>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00087310.v1">
+	<name>alzhfc</name>
+	<description>ACETYLCHOLINE ESTERASE INHIBITORS FOR ALZHEIMER&#39;S</description>
+	<type>NUMERIC</type>
+	<comment>COMPUTED</comment>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00087311.v1">
+	<name>amlodfc</name>
+	<description>AMLODIPINE</description>
+	<type>NUMERIC</type>
+	<comment>COMPUTED</comment>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00087312.v1">
+	<name>anar1afc</name>
+	<description>ANTI-ARRHYTHMICS, CLASS 1A</description>
+	<type>NUMERIC</type>
+	<comment>COMPUTED</comment>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00087313.v1">
+	<name>anar1bfc</name>
+	<description>ANTI-ARRHYTHMICS, CLASS 1B</description>
+	<type>NUMERIC</type>
+	<comment>COMPUTED</comment>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00087314.v1">
+	<name>anar1cfc</name>
+	<description>ANTI-ARRHYTHMICS, CLASS 1C</description>
+	<type>NUMERIC</type>
+	<comment>COMPUTED</comment>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00087315.v1">
+	<name>anar3fc</name>
+	<description>ANTI-ARRHYTHMICS, CLASS 3</description>
+	<type>NUMERIC</type>
+	<comment>COMPUTED</comment>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00087316.v1">
+	<name>apsyfc</name>
+	<description>ANTI-PSYCHOTIC MEDICATIONS</description>
+	<type>NUMERIC</type>
+	<comment>COMPUTED</comment>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00087317.v1">
+	<name>asafc</name>
+	<description>ASPIRIN FROM 280804 (ANTI-INFLAM AGENTS)</description>
+	<type>NUMERIC</type>
+	<comment>COMPUTED</comment>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00087318.v1">
+	<name>basqfc</name>
+	<description>BILE-ACID SEQUESTRANTS</description>
+	<type>NUMERIC</type>
+	<comment>COMPUTED</comment>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00087319.v1">
+	<name>benzodfc</name>
+	<description>BENZODIAZEPINES</description>
+	<type>NUMERIC</type>
+	<comment>COMPUTED</comment>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00087320.v1">
+	<name>betafc</name>
+	<description>BETA-BLOCKERS WITHOUT DIURETICS</description>
+	<type>NUMERIC</type>
+	<comment>COMPUTED</comment>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00087321.v1">
+	<name>betadfc</name>
+	<description>BETA-BLOCKERS WITH DIURETICS</description>
+	<type>NUMERIC</type>
+	<comment>COMPUTED</comment>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00087322.v1">
+	<name>bgndfc</name>
+	<description>BIGUANIDES</description>
+	<type>NUMERIC</type>
+	<comment>COMPUTED</comment>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00087323.v1">
+	<name>ccbfc</name>
+	<description>ANY CALCIUM-CHANNEL BLOCKER = CCIR OR CCBSR OR CCBT</description>
+	<type>NUMERIC</type>
+	<comment>COMPUTED</comment>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00087324.v1">
+	<name>ccbirfc</name>
+	<description>IMMEDIATE-RELEASE CCBS = NIFIR OR DIHIR OR VERIR OR DLTIR</description>
+	<type>NUMERIC</type>
+	<comment>COMPUTED</comment>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00087325.v1">
+	<name>ccbsrfc</name>
+	<description>SLOW-RELEASE CCBS = NIFSR OR DIHSR OR VERSR OR DLTSR OR AMLOD</description>
+	<type>NUMERIC</type>
+	<comment>COMPUTED</comment>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00087326.v1">
+	<name>ccbtfc</name>
+	<description>T-TYPE CALCIUM-CHANNEL BLOCKER</description>
+	<type>NUMERIC</type>
+	<comment>COMPUTED</comment>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00087327.v1">
+	<name>cox2fc</name>
+	<description>COX-2 INHIBITORS (NSAID AGENTS); SEPERATE FROM NSAID VARIABLE</description>
+	<type>NUMERIC</type>
+	<comment>COMPUTED</comment>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00087328.v1">
+	<name>digfc</name>
+	<description>DIGITALIS PREPARATIONS</description>
+	<type>NUMERIC</type>
+	<comment>COMPUTED</comment>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00087329.v1">
+	<name>dihirfc</name>
+	<description>IMMEDIATE-RELEASE DIHYDROPYRIDINES OTHER THAN NIFEDIPINE</description>
+	<type>NUMERIC</type>
+	<comment>COMPUTED</comment>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00087330.v1">
+	<name>dihsrfc</name>
+	<description>SLOW-RELEASE DIHYDROPYRIDINES OTHER THAN NIFEDIPINE OR AMLOPIDINE</description>
+	<type>NUMERIC</type>
+	<comment>COMPUTED</comment>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00087331.v1">
+	<name>dltirfc</name>
+	<description>IMMEDIATE-RELEASE DILTIAZEM</description>
+	<type>NUMERIC</type>
+	<comment>COMPUTED</comment>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00087332.v1">
+	<name>dltsrfc</name>
+	<description>SLOW-RELEASE DILTIAZEM</description>
+	<type>NUMERIC</type>
+	<comment>COMPUTED</comment>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00087333.v1">
+	<name>eddfc</name>
+	<description>ERECTILE DYSFUNCTION DRUGS</description>
+	<type>NUMERIC</type>
+	<comment>COMPUTED</comment>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00087334.v1">
+	<name>estrgnfc</name>
+	<description>ESTROGENS, EXCLUDING VAGINAL CREAMS</description>
+	<type>NUMERIC</type>
+	<comment>COMPUTED</comment>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00087335.v1">
+	<name>fibrfc</name>
+	<description>FIBRATES</description>
+	<type>NUMERIC</type>
+	<comment>COMPUTED</comment>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00087336.v1">
+	<name>h2bfc</name>
+	<description>H-2 BLOCKERS</description>
+	<type>NUMERIC</type>
+	<comment>COMPUTED</comment>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00087337.v1">
+	<name>hctzfc</name>
+	<description>THIAZIDE DIURETICS WITHOUT K-SPARING AGENTS</description>
+	<type>NUMERIC</type>
+	<comment>COMPUTED</comment>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00087338.v1">
+	<name>hctzkfc</name>
+	<description>THIAZIDE DIURETICS WITH K-SPARING AGENTS</description>
+	<type>NUMERIC</type>
+	<comment>COMPUTED</comment>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00087339.v1">
+	<name>hprnsfc</name>
+	<description>HEPARINS</description>
+	<type>NUMERIC</type>
+	<comment>COMPUTED</comment>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00087340.v1">
+	<name>inslnfc</name>
+	<description>INSULINS</description>
+	<type>NUMERIC</type>
+	<comment>COMPUTED</comment>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00087341.v1">
+	<name>iprtrfc</name>
+	<description>ANTICHOLINERGICS + COMBINATION WITH BETA2-AGONIST (121200)</description>
+	<type>NUMERIC</type>
+	<comment>COMPUTED</comment>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00087342.v1">
+	<name>istrdfc</name>
+	<description>INHALED STEROIDS FOR ASTHMA</description>
+	<type>NUMERIC</type>
+	<comment>COMPUTED</comment>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00087343.v1">
+	<name>kblkrfc</name>
+	<description>K-CHANNEL BLOCKERS TO ENHANCE INSULIN SECRETION FOR DIABETICS</description>
+	<type>NUMERIC</type>
+	<comment>COMPUTED</comment>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00087344.v1">
+	<name>kclfc</name>
+	<description>POTASSIUM SUPPLEMENTS</description>
+	<type>NUMERIC</type>
+	<comment>COMPUTED</comment>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00087345.v1">
+	<name>ksprfc</name>
+	<description>POTASSIUM-SPARING AGENTS ALONE</description>
+	<type>NUMERIC</type>
+	<comment>COMPUTED</comment>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00087346.v1">
+	<name>loopfc</name>
+	<description>LOOP DIURETICS</description>
+	<type>NUMERIC</type>
+	<comment>COMPUTED</comment>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00087347.v1">
+	<name>maoifc</name>
+	<description>MAO INHIBITORS</description>
+	<type>NUMERIC</type>
+	<comment>COMPUTED</comment>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00087348.v1">
+	<name>mlpdfc</name>
+	<description>MISCELLANEOUS LIPID-LOWERING DRUGS</description>
+	<type>NUMERIC</type>
+	<comment>COMPUTED</comment>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00087349.v1">
+	<name>niacfc</name>
+	<description>NIACIN AND NICTOTINIC ACID</description>
+	<type>NUMERIC</type>
+	<comment>COMPUTED</comment>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00087350.v1">
+	<name>nifirfc</name>
+	<description>IMMEDIATE-RELEASE NIFEDIPINE</description>
+	<type>NUMERIC</type>
+	<comment>COMPUTED</comment>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00087351.v1">
+	<name>nifsrfc</name>
+	<description>SLOW-RELEASE NIFEDIPINE</description>
+	<type>NUMERIC</type>
+	<comment>COMPUTED</comment>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00087352.v1">
+	<name>nsaidfc</name>
+	<description>NON-STEROIDAL ANTI-INFLAMMATORY AGENTS, EXCLUDING ASPIRIN</description>
+	<type>NUMERIC</type>
+	<comment>COMPUTED</comment>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00087353.v1">
+	<name>ntcafc</name>
+	<description>NON-TRICYCLIC ANTIDEPRESSANTS OTHER THAN MAOI</description>
+	<type>NUMERIC</type>
+	<comment>COMPUTED</comment>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00087354.v1">
+	<name>ntgfc</name>
+	<description>NITRATES</description>
+	<type>NUMERIC</type>
+	<comment>COMPUTED</comment>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00087355.v1">
+	<name>oaiafc</name>
+	<description>ORAL ANTI-INFLAMMATORY ASTHMA DRUGS LEUKOTRIENE RECEPTOR ANTAGONISTS AND INHIBITORS OF LIPO-OXYGENASE</description>
+	<type>NUMERIC</type>
+	<comment>COMPUTED</comment>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00087356.v1">
+	<name>ostrdfc</name>
+	<description>ORAL STEROIDS</description>
+	<type>NUMERIC</type>
+	<comment>COMPUTED</comment>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00087357.v1">
+	<name>otch2bfc</name>
+	<description>OVER-THE-COUNTER H-2 BLOCKERS</description>
+	<type>NUMERIC</type>
+	<comment>COMPUTED</comment>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00087358.v1">
+	<name>pdeifc</name>
+	<description>PHOSPHODIESTERASE INHIBITORS</description>
+	<type>NUMERIC</type>
+	<comment>COMPUTED</comment>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00087359.v1">
+	<name>ppifc</name>
+	<description>PROTON PUMP INHIBITORS</description>
+	<type>NUMERIC</type>
+	<comment>COMPUTED</comment>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00087360.v1">
+	<name>prgstnfc</name>
+	<description>PROGESTINS</description>
+	<type>NUMERIC</type>
+	<comment>COMPUTED</comment>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00087361.v1">
+	<name>prknsnfc</name>
+	<description>DRUGS USED TO TREAT PARKINSON&#39;S</description>
+	<type>NUMERIC</type>
+	<comment>COMPUTED</comment>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00087362.v1">
+	<name>prmrnfc</name>
+	<description>PREMARIN (CONJUGATED ESTROGENS)</description>
+	<type>NUMERIC</type>
+	<comment>COMPUTED</comment>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00087363.v1">
+	<name>probfc</name>
+	<description>PROBUCOL</description>
+	<type>NUMERIC</type>
+	<comment>COMPUTED</comment>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00087364.v1">
+	<name>pvdlfc</name>
+	<description>PERIPHERAL VASODILATORS, EXCLUDE DIPYRIDAMOLE</description>
+	<type>NUMERIC</type>
+	<comment>COMPUTED</comment>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00087365.v1">
+	<name>slf1fc</name>
+	<description>FIRST GENERATION SULFONYLUREAS</description>
+	<type>NUMERIC</type>
+	<comment>COMPUTED</comment>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00087366.v1">
+	<name>slf2fc</name>
+	<description>SECOND GENERATION SURLFONYLUREAS</description>
+	<type>NUMERIC</type>
+	<comment>COMPUTED</comment>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00087367.v1">
+	<name>sttnfc</name>
+	<description>HMG COA REDUCTASE INHIBITORS (STATINS)</description>
+	<type>NUMERIC</type>
+	<comment>COMPUTED</comment>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00087368.v1">
+	<name>sympthfc</name>
+	<description>SYMPATHOMIMETICS, ORAL AND INHALED</description>
+	<type>NUMERIC</type>
+	<comment>COMPUTED</comment>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00087369.v1">
+	<name>tcafc</name>
+	<description>TRICYCLIC ANTI-DEPRESSANTS</description>
+	<type>NUMERIC</type>
+	<comment>COMPUTED</comment>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00087370.v1">
+	<name>tcapfc</name>
+	<description>TRI-CYCLIC ANTI-DEPRESSANTS PLUS ANTI-PSYCHOTICS</description>
+	<type>NUMERIC</type>
+	<comment>COMPUTED</comment>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00087371.v1">
+	<name>thryfc</name>
+	<description>THYROID AGENTS</description>
+	<type>NUMERIC</type>
+	<comment>COMPUTED</comment>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00087372.v1">
+	<name>thzdfc</name>
+	<description>THIAZOLIDINEDIONES</description>
+	<type>NUMERIC</type>
+	<comment>COMPUTED</comment>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00087373.v1">
+	<name>urcosfc</name>
+	<description>URICOSURICS</description>
+	<type>NUMERIC</type>
+	<comment>COMPUTED</comment>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00087374.v1">
+	<name>vasofc</name>
+	<description>VASODILATORS, A MIXED GROUP</description>
+	<type>NUMERIC</type>
+	<comment>COMPUTED</comment>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00087375.v1">
+	<name>vasodfc</name>
+	<description>VASODILATORS WITH DIURETICS, A MIXED GROUP</description>
+	<type>NUMERIC</type>
+	<comment>COMPUTED</comment>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00087376.v1">
+	<name>verirfc</name>
+	<description>IMMEDIATE-RELEASE VERAPAMIL</description>
+	<type>NUMERIC</type>
+	<comment>COMPUTED</comment>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00087377.v1">
+	<name>versrfc</name>
+	<description>SLOW-RELEASE VERAPAMIL</description>
+	<type>NUMERIC</type>
+	<comment>COMPUTED</comment>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00087378.v1">
+	<name>warffc</name>
+	<description>ORAL ANTICOAGULANTS</description>
+	<type>NUMERIC</type>
+	<comment>COMPUTED</comment>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00087379.v1">
+	<name>wtlsfc</name>
+	<description>WEIGHT LOSS DRUGS</description>
+	<type>NUMERIC</type>
+	<comment>COMPUTED</comment>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00087380.v1">
+	<name>xoifc</name>
+	<description>XANTHINE OXIDASE INHIBITORS</description>
+	<type>NUMERIC</type>
+	<comment>COMPUTED</comment>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00087381.v1">
+	<name>diurfc</name>
+	<description>ANY DIURETIC</description>
+	<type>NUMERIC</type>
+	<comment>COMPUTED</comment>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00087382.v1">
+	<name>totmedfc</name>
+	<description>TOTAL MEDICATIONS</description>
+	<type>NUMERIC</type>
+	<comment>COMPUTED</comment>
+</variable>
+
+<variable id="phv00087383.v1">
+	<name>qktemprf</name>
+	<description>I AM QUICK TEMPERED</description>
+	<type>NUMERIC</type>
+	<value code="1">ALMOST NEVER</value>
+	<value code="2">SOMETIMES</value>
+	<value code="3">OFTEN</value>
+	<value code="4">ALMOST ALWAYS</value>
+</variable>
+
+<variable id="phv00087384.v1">
+	<name>frtemprf</name>
+	<description>I HAVE A FIERY TEMPER</description>
+	<type>NUMERIC</type>
+	<value code="1">ALMOST NEVER</value>
+	<value code="2">SOMETIMES</value>
+	<value code="3">OFTEN</value>
+	<value code="4">ALMOST ALWAYS</value>
+</variable>
+
+<variable id="phv00087385.v1">
+	<name>hotheadf</name>
+	<description>I AM A HOTHEADED PERSON</description>
+	<type>NUMERIC</type>
+	<value code="1">ALMOST NEVER</value>
+	<value code="2">SOMETIMES</value>
+	<value code="3">OFTEN</value>
+	<value code="4">ALMOST ALWAYS</value>
+</variable>
+
+<variable id="phv00087386.v1">
+	<name>angryf</name>
+	<description>I GET ANGRY WHEN I&#39;M SLOWED DOWN BY OTHERS&#39; MISTAKES</description>
+	<type>NUMERIC</type>
+	<value code="1">ALMOST NEVER</value>
+	<value code="2">SOMETIMES</value>
+	<value code="3">OFTEN</value>
+	<value code="4">ALMOST ALWAYS</value>
+</variable>
+
+<variable id="phv00087387.v1">
+	<name>annoyedf</name>
+	<description>I FEEL ANNOYED WHEN I AM NOT GIVEN RECOGNITION FOR DOING GOOD WORK</description>
+	<type>NUMERIC</type>
+	<value code="1">ALMOST NEVER</value>
+	<value code="2">SOMETIMES</value>
+	<value code="3">OFTEN</value>
+	<value code="4">ALMOST ALWAYS</value>
+</variable>
+
+<variable id="phv00087388.v1">
+	<name>flyofff</name>
+	<description>I FLY OFF THE HANDLE</description>
+	<type>NUMERIC</type>
+	<value code="1">ALMOST NEVER</value>
+	<value code="2">SOMETIMES</value>
+	<value code="3">OFTEN</value>
+	<value code="4">ALMOST ALWAYS</value>
+</variable>
+
+<variable id="phv00087389.v1">
+	<name>nastyf</name>
+	<description>WHEN I GET MAD, I SAY NASTY THINGS</description>
+	<type>NUMERIC</type>
+	<value code="1">ALMOST NEVER</value>
+	<value code="2">SOMETIMES</value>
+	<value code="3">OFTEN</value>
+	<value code="4">ALMOST ALWAYS</value>
+</variable>
+
+<variable id="phv00087390.v1">
+	<name>furiousf</name>
+	<description>IT MAKES ME FURIOUS WHEN I AM CRITICIZED IN FRONT OF OTHERS</description>
+	<type>NUMERIC</type>
+	<value code="1">ALMOST NEVER</value>
+	<value code="2">SOMETIMES</value>
+	<value code="3">OFTEN</value>
+	<value code="4">ALMOST ALWAYS</value>
+</variable>
+
+<variable id="phv00087391.v1">
+	<name>frushitf</name>
+	<description>WHEN I GET FRUSTRATED, I FEEL LIKE HITTING SOMEONE</description>
+	<type>NUMERIC</type>
+	<value code="1">ALMOST NEVER</value>
+	<value code="2">SOMETIMES</value>
+	<value code="3">OFTEN</value>
+	<value code="4">ALMOST ALWAYS</value>
+</variable>
+
+<variable id="phv00087392.v1">
+	<name>infuratf</name>
+	<description>I FEEL INFURIATED WHEN I DO A GOOD JOB AND GET A POOR EVALUATION</description>
+	<type>NUMERIC</type>
+	<value code="1">ALMOST NEVER</value>
+	<value code="2">SOMETIMES</value>
+	<value code="3">OFTEN</value>
+	<value code="4">ALMOST ALWAYS</value>
+</variable>
+
+<variable id="phv00087393.v1">
+	<name>steadyf</name>
+	<description>I AM A STEADY PERSON</description>
+	<type>NUMERIC</type>
+	<value code="1">ALMOST NEVER</value>
+	<value code="2">SOMETIMES</value>
+	<value code="3">OFTEN</value>
+	<value code="4">ALMOST ALWAYS</value>
+</variable>
+
+<variable id="phv00087394.v1">
+	<name>satisff</name>
+	<description>I FEEL SATISFIED WITH MYSELF</description>
+	<type>NUMERIC</type>
+	<value code="1">ALMOST NEVER</value>
+	<value code="2">SOMETIMES</value>
+	<value code="3">OFTEN</value>
+	<value code="4">ALMOST ALWAYS</value>
+</variable>
+
+<variable id="phv00087395.v1">
+	<name>nervousf</name>
+	<description>I FEEL NERVOUS AND RESTLESS</description>
+	<type>NUMERIC</type>
+	<value code="1">ALMOST NEVER</value>
+	<value code="2">SOMETIMES</value>
+	<value code="3">OFTEN</value>
+	<value code="4">ALMOST ALWAYS</value>
+</variable>
+
+<variable id="phv00087396.v1">
+	<name>unhappyf</name>
+	<description>I WISH I COULD BE AS HAPPY AS OTHERS SEEM TO BE</description>
+	<type>NUMERIC</type>
+	<value code="1">ALMOST NEVER</value>
+	<value code="2">SOMETIMES</value>
+	<value code="3">OFTEN</value>
+	<value code="4">ALMOST ALWAYS</value>
+</variable>
+
+<variable id="phv00087397.v1">
+	<name>failuref</name>
+	<description>I FEEL LIKE A FAILURE</description>
+	<type>NUMERIC</type>
+	<value code="1">ALMOST NEVER</value>
+	<value code="2">SOMETIMES</value>
+	<value code="3">OFTEN</value>
+	<value code="4">ALMOST ALWAYS</value>
+</variable>
+
+<variable id="phv00087398.v1">
+	<name>turmoilf</name>
+	<description>I GET IN A STATE OF TURMOIL OR TENSION AS I THINK OVER MY RECENT CONCERNS AND INTERESTS</description>
+	<type>NUMERIC</type>
+	<value code="1">ALMOST NEVER</value>
+	<value code="2">SOMETIMES</value>
+	<value code="3">OFTEN</value>
+	<value code="4">ALMOST ALWAYS</value>
+</variable>
+
+<variable id="phv00087399.v1">
+	<name>securef</name>
+	<description>I FEEL SECURE</description>
+	<type>NUMERIC</type>
+	<value code="1">ALMOST NEVER</value>
+	<value code="2">SOMETIMES</value>
+	<value code="3">OFTEN</value>
+	<value code="4">ALMOST ALWAYS</value>
+</variable>
+
+<variable id="phv00087400.v1">
+	<name>noconff</name>
+	<description>I LACK SELF-CONFIDENCE</description>
+	<type>NUMERIC</type>
+	<value code="1">ALMOST NEVER</value>
+	<value code="2">SOMETIMES</value>
+	<value code="3">OFTEN</value>
+	<value code="4">ALMOST ALWAYS</value>
+</variable>
+
+<variable id="phv00087401.v1">
+	<name>inadeqtf</name>
+	<description>I FEEL INADEQUATE</description>
+	<type>NUMERIC</type>
+	<value code="1">ALMOST NEVER</value>
+	<value code="2">SOMETIMES</value>
+	<value code="3">OFTEN</value>
+	<value code="4">ALMOST ALWAYS</value>
+</variable>
+
+<variable id="phv00087402.v1">
+	<name>worryf</name>
+	<description>I WORRY TOO MUCH OVER SOMETHING THAT DOES NOT MATTER</description>
+	<type>NUMERIC</type>
+	<value code="1">ALMOST NEVER</value>
+	<value code="2">SOMETIMES</value>
+	<value code="3">OFTEN</value>
+	<value code="4">ALMOST ALWAYS</value>
+</variable>
+
+<variable id="phv00087403.v1">
+	<name>hprb1ptf</name>
+	<description>SERIOUS ONGOING HEALTH PROBLEM (YOURSELF)</description>
+	<type>NUMERIC</type>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00087404.v1">
+	<name>hprb2ptf</name>
+	<description>SERIOUS ONGOING HEALTH PROBLEM (YOURSELF): HAS THIS BEEN A PROBLEM FOR 6+ MONTHS?</description>
+	<type>NUMERIC</type>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00087405.v1">
+	<name>hprb3ptf</name>
+	<description>SERIOUS ONGOING HEALTH PROBLEM (YOURSELF): WOULD YOU SAY THIS PROBLEM HAS BEEN STRESSFUL?</description>
+	<type>NUMERIC</type>
+	<value code="1">NOT VERY STRESSFUL</value>
+	<value code="2">MODERATELY STRESSFUL</value>
+	<value code="3">VERY STRESSFUL</value>
+</variable>
+
+<variable id="phv00087406.v1">
+	<name>hprb1otf</name>
+	<description>SERIOUS ONGOING HEALTH PROBLEM (SOMEONE CLOSE TO YOU)</description>
+	<type>NUMERIC</type>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00087407.v1">
+	<name>hprb2otf</name>
+	<description>SERIOUS ONGOING HEALTH PROBLEM (SOMEONE CLOSE TO YOU): HAS THIS BEEN A PROBLEM FOR 6+ MONTHS?</description>
+	<type>NUMERIC</type>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00087408.v1">
+	<name>hprb3otf</name>
+	<description>SERIOUS ONGOING HEALTH PROBLEM (SOMEONE CLOSE TO YOU): WOULD YOU SAY THIS PROBLEM HAS BEEN STRESSFUL?</description>
+	<type>NUMERIC</type>
+	<value code="1">NOT VERY STRESSFUL</value>
+	<value code="2">MODERATELY STRESSFUL</value>
+	<value code="3">VERY STRESSFUL</value>
+</variable>
+
+<variable id="phv00087409.v1">
+	<name>job1prbf</name>
+	<description>ONGOING DIFFICULTIES WITH YOUR JOB OR ABILITY TO WORK</description>
+	<type>NUMERIC</type>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00087410.v1">
+	<name>job2prbf</name>
+	<description>ONGOING DIFFICULTIES WITH YOUR JOB OR ABILITY TO WORK: HAS THIS BEEN A PROBLEM FOR 6+ MONTHS?</description>
+	<type>NUMERIC</type>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00087411.v1">
+	<name>job3prbf</name>
+	<description>ONGOING DIFFICULTIES WITH YOUR JOB OR ABILITY TO WORK: WOULD YOU SAY THIS PROBLEM HAS BEEN STRESSFUL?</description>
+	<type>NUMERIC</type>
+	<value code="1">NOT VERY STRESSFUL</value>
+	<value code="2">MODERATELY STRESSFUL</value>
+	<value code="3">VERY STRESSFUL</value>
+</variable>
+
+<variable id="phv00087412.v1">
+	<name>mon1prbf</name>
+	<description>ONGOING FINANCIAL STRAIN</description>
+	<type>NUMERIC</type>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00087413.v1">
+	<name>mon2prbf</name>
+	<description>ONGOING FINANCIAL STRAIN: HAS THIS BEEN A PROBLEM FOR 6+ MONTHS?</description>
+	<type>NUMERIC</type>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00087414.v1">
+	<name>mon3prbf</name>
+	<description>ONGOING FINANCIAL STRAIN: WOULD YOU SAY THIS PROBLEM HAS BEEN STRESSFUL?</description>
+	<type>NUMERIC</type>
+	<value code="1">NOT VERY STRESSFUL</value>
+	<value code="2">MODERATELY STRESSFUL</value>
+	<value code="3">VERY STRESSFUL</value>
+</variable>
+
+<variable id="phv00087415.v1">
+	<name>rel1prbf</name>
+	<description>ONGOING DIFFICULTIES IN A RELATIONSHIP WITH SOMEONE CLOSE TO YOU</description>
+	<type>NUMERIC</type>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00087416.v1">
+	<name>rel2prbf</name>
+	<description>ONGOING DIFFICULTIES IN A RELATIONSHIP WITH SOMEONE CLOSE TO YOU: HAS THIS BEEN A PROBLEM FOR 6+ MONTHS?</description>
+	<type>NUMERIC</type>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00087417.v1">
+	<name>rel3prbf</name>
+	<description>ONGOING DIFFICULTIES IN A RELATIONSHIP WITH SOMEONE CLOSE TO YOU: WOULD YOU SAY THIS PROBLEM HAS BEEN STRESSFUL?</description>
+	<type>NUMERIC</type>
+	<value code="1">NOT VERY STRESSFUL</value>
+	<value code="2">MODERATELY STRESSFUL</value>
+	<value code="3">VERY STRESSFUL</value>
+</variable>
+
+<variable id="phv00087418.v1">
+	<name>botherf</name>
+	<description>I WAS BOTHERED BY THINGS THAT DON&#39;T USUALLY BOTHER ME</description>
+	<type>NUMERIC</type>
+	<value code="1">&lt;1 DAY</value>
+	<value code="2">1-2 DAYS</value>
+	<value code="3">3-4 DAYS</value>
+	<value code="4">5-7 DAYS</value>
+</variable>
+
+<variable id="phv00087419.v1">
+	<name>noteatf</name>
+	<description>I DID NOT FEEL LIKE EATING; MY APPETITE WAS POOR</description>
+	<type>NUMERIC</type>
+	<value code="1">&lt;1 DAY</value>
+	<value code="2">1-2 DAYS</value>
+	<value code="3">3-4 DAYS</value>
+	<value code="4">5-7 DAYS</value>
+</variable>
+
+<variable id="phv00087420.v1">
+	<name>bluef</name>
+	<description>I FELT THAT I COULD NOT SHAKE OFF THE BLUES, EVEN WITH HELP FROM MY FAMILY AND FRIENDS</description>
+	<type>NUMERIC</type>
+	<value code="1">&lt;1 DAY</value>
+	<value code="2">1-2 DAYS</value>
+	<value code="3">3-4 DAYS</value>
+	<value code="4">5-7 DAYS</value>
+</variable>
+
+<variable id="phv00087421.v1">
+	<name>asgoodf</name>
+	<description>I FELT THAT I WAS JUST AS GOOD AS OTHER PEOPLE</description>
+	<type>NUMERIC</type>
+	<value code="1">&lt;1 DAY</value>
+	<value code="2">1-2 DAYS</value>
+	<value code="3">3-4 DAYS</value>
+	<value code="4">5-7 DAYS</value>
+</variable>
+
+<variable id="phv00087422.v1">
+	<name>concntrf</name>
+	<description>I HAD TROUBLE KEEPING MY MIND ON WHAT I WAS DOING</description>
+	<type>NUMERIC</type>
+	<value code="1">&lt;1 DAY</value>
+	<value code="2">1-2 DAYS</value>
+	<value code="3">3-4 DAYS</value>
+	<value code="4">5-7 DAYS</value>
+</variable>
+
+<variable id="phv00087423.v1">
+	<name>depressf</name>
+	<description>I FELT DEPRESSED</description>
+	<type>NUMERIC</type>
+	<value code="1">&lt;1 DAY</value>
+	<value code="2">1-2 DAYS</value>
+	<value code="3">3-4 DAYS</value>
+	<value code="4">5-7 DAYS</value>
+</variable>
+
+<variable id="phv00087424.v1">
+	<name>effortf</name>
+	<description>I FELT THAT EVERYTHING I DID WAS EFFORT</description>
+	<type>NUMERIC</type>
+	<value code="1">&lt;1 DAY</value>
+	<value code="2">1-2 DAYS</value>
+	<value code="3">3-4 DAYS</value>
+	<value code="4">5-7 DAYS</value>
+</variable>
+
+<variable id="phv00087425.v1">
+	<name>hopefulf</name>
+	<description>I FELT HOPEFUL ABOUT THE FUTURE</description>
+	<type>NUMERIC</type>
+	<value code="1">&lt;1 DAY</value>
+	<value code="2">1-2 DAYS</value>
+	<value code="3">3-4 DAYS</value>
+	<value code="4">5-7 DAYS</value>
+</variable>
+
+<variable id="phv00087426.v1">
+	<name>lffailf</name>
+	<description>I THOUGHT MY LIFE HAD BEEN A FAILURE</description>
+	<type>NUMERIC</type>
+	<value code="1">&lt;1 DAY</value>
+	<value code="2">1-2 DAYS</value>
+	<value code="3">3-4 DAYS</value>
+	<value code="4">5-7 DAYS</value>
+</variable>
+
+<variable id="phv00087427.v1">
+	<name>fearfulf</name>
+	<description>I FELT FEARFUL</description>
+	<type>NUMERIC</type>
+	<value code="1">&lt;1 DAY</value>
+	<value code="2">1-2 DAYS</value>
+	<value code="3">3-4 DAYS</value>
+	<value code="4">5-7 DAYS</value>
+</variable>
+
+<variable id="phv00087428.v1">
+	<name>badslpf</name>
+	<description>MY SLEEP WAS RESTLESS</description>
+	<type>NUMERIC</type>
+	<value code="1">&lt;1 DAY</value>
+	<value code="2">1-2 DAYS</value>
+	<value code="3">3-4 DAYS</value>
+	<value code="4">5-7 DAYS</value>
+</variable>
+
+<variable id="phv00087429.v1">
+	<name>happyf</name>
+	<description>I WAS HAPPY</description>
+	<type>NUMERIC</type>
+	<value code="1">&lt;1 DAY</value>
+	<value code="2">1-2 DAYS</value>
+	<value code="3">3-4 DAYS</value>
+	<value code="4">5-7 DAYS</value>
+</variable>
+
+<variable id="phv00087430.v1">
+	<name>lestalkf</name>
+	<description>I TALKED LESS THAN USUAL</description>
+	<type>NUMERIC</type>
+	<value code="1">&lt;1 DAY</value>
+	<value code="2">1-2 DAYS</value>
+	<value code="3">3-4 DAYS</value>
+	<value code="4">5-7 DAYS</value>
+</variable>
+
+<variable id="phv00087431.v1">
+	<name>lonelyf</name>
+	<description>I FELT LONELY</description>
+	<type>NUMERIC</type>
+	<value code="1">&lt;1 DAY</value>
+	<value code="2">1-2 DAYS</value>
+	<value code="3">3-4 DAYS</value>
+	<value code="4">5-7 DAYS</value>
+</variable>
+
+<variable id="phv00087432.v1">
+	<name>unfrnlyf</name>
+	<description>PEOPLE WERE UNFRIENDLY</description>
+	<type>NUMERIC</type>
+	<value code="1">&lt;1 DAY</value>
+	<value code="2">1-2 DAYS</value>
+	<value code="3">3-4 DAYS</value>
+	<value code="4">5-7 DAYS</value>
+</variable>
+
+<variable id="phv00087433.v1">
+	<name>enjlifef</name>
+	<description>I ENJOYED LIFE</description>
+	<type>NUMERIC</type>
+	<value code="1">&lt;1 DAY</value>
+	<value code="2">1-2 DAYS</value>
+	<value code="3">3-4 DAYS</value>
+	<value code="4">5-7 DAYS</value>
+</variable>
+
+<variable id="phv00087434.v1">
+	<name>cryspelf</name>
+	<description>I HAD CRYING SPELLS</description>
+	<type>NUMERIC</type>
+	<value code="1">&lt;1 DAY</value>
+	<value code="2">1-2 DAYS</value>
+	<value code="3">3-4 DAYS</value>
+	<value code="4">5-7 DAYS</value>
+</variable>
+
+<variable id="phv00087435.v1">
+	<name>sadf</name>
+	<description>I FELT SAD</description>
+	<type>NUMERIC</type>
+	<value code="1">&lt;1 DAY</value>
+	<value code="2">1-2 DAYS</value>
+	<value code="3">3-4 DAYS</value>
+	<value code="4">5-7 DAYS</value>
+</variable>
+
+<variable id="phv00087436.v1">
+	<name>dislikdf</name>
+	<description>I FELT THAT PEOPLE DISLIKE ME</description>
+	<type>NUMERIC</type>
+	<value code="1">&lt;1 DAY</value>
+	<value code="2">1-2 DAYS</value>
+	<value code="3">3-4 DAYS</value>
+	<value code="4">5-7 DAYS</value>
+</variable>
+
+<variable id="phv00087437.v1">
+	<name>getgoinf</name>
+	<description>I COULD NOT GET GOING</description>
+	<type>NUMERIC</type>
+	<value code="1">&lt;1 DAY</value>
+	<value code="2">1-2 DAYS</value>
+	<value code="3">3-4 DAYS</value>
+	<value code="4">5-7 DAYS</value>
+</variable>
+
+<variable id="phv00087438.v1">
+	<name>talktof</name>
+	<description>IS THERE SOMEONE AVAILABLE TO YOU WHOM YOU CAN COUNT ON TO LISTEN TO YOU WHEN YOU NEED TO TALK?</description>
+	<type>NUMERIC</type>
+	<value code="1">NONE OF THE TIME</value>
+	<value code="2">A LITTLE OF THE TIME</value>
+	<value code="3">SOME OF THE TIME</value>
+	<value code="4">MOST OF THE TIME</value>
+	<value code="5">ALL OF THE TIME</value>
+</variable>
+
+<variable id="phv00087439.v1">
+	<name>advicef</name>
+	<description>IS THERE SOMEONE AVAILABLE TO GIVE YOU GOOD ADVICE ABOUT A PROBLEM?</description>
+	<type>NUMERIC</type>
+	<value code="1">NONE OF THE TIME</value>
+	<value code="2">A LITTLE OF THE TIME</value>
+	<value code="3">SOME OF THE TIME</value>
+	<value code="4">MOST OF THE TIME</value>
+	<value code="5">ALL OF THE TIME</value>
+</variable>
+
+<variable id="phv00087440.v1">
+	<name>affectnf</name>
+	<description>IS THERE SOMEONE AVAILABLE TO YOU WHO SHOWS YOU LOVE AND AFFECTION?</description>
+	<type>NUMERIC</type>
+	<value code="1">NONE OF THE TIME</value>
+	<value code="2">A LITTLE OF THE TIME</value>
+	<value code="3">SOME OF THE TIME</value>
+	<value code="4">MOST OF THE TIME</value>
+	<value code="5">ALL OF THE TIME</value>
+</variable>
+
+<variable id="phv00087441.v1">
+	<name>hlpchrf</name>
+	<description>IS THERE SOMEONE AVAILABLE TO HELP YOU WITH DAILY CHORES?</description>
+	<type>NUMERIC</type>
+	<value code="1">NONE OF THE TIME</value>
+	<value code="2">A LITTLE OF THE TIME</value>
+	<value code="3">SOME OF THE TIME</value>
+	<value code="4">MOST OF THE TIME</value>
+	<value code="5">ALL OF THE TIME</value>
+</variable>
+
+<variable id="phv00087442.v1">
+	<name>emosptf</name>
+	<description>CAN YOU COUNT ON ANYONE TO PROVIDE YOU WITH EMOTIONAL SUPPORT (TALKING OVER PROBLEMS OR HELPING YOU MAKE A DIFFICULT DECISION)?</description>
+	<type>NUMERIC</type>
+	<value code="1">NONE OF THE TIME</value>
+	<value code="2">A LITTLE OF THE TIME</value>
+	<value code="3">SOME OF THE TIME</value>
+	<value code="4">MOST OF THE TIME</value>
+	<value code="5">ALL OF THE TIME</value>
+</variable>
+
+<variable id="phv00087443.v1">
+	<name>confidef</name>
+	<description>DO YOU HAVE AS MUCH CONTACT AS YOU WOULD LIKE WITH SOMEONE YOU FEEL CLOSE TO, SOMEONE IN WHOM YOU CAN TRUST AND CONFIDE?</description>
+	<type>NUMERIC</type>
+	<value code="1">NONE OF THE TIME</value>
+	<value code="2">A LITTLE OF THE TIME</value>
+	<value code="3">SOME OF THE TIME</value>
+	<value code="4">MOST OF THE TIME</value>
+	<value code="5">ALL OF THE TIME</value>
+</variable>
+
+<variable id="phv00087444.v1">
+	<name>uf1firef</name>
+	<description>DO YOU THINK YOU HAVE EVER BEEN UNFAIRLY FIRED OR DENIED A PROMOTION?</description>
+	<type>NUMERIC</type>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00087445.v1">
+	<name>uf2firef</name>
+	<description>UNFAIRLY FIRED OR DENIED A PROMOTION: WHAT WAS THE MAIN REASON?</description>
+	<type>NUMERIC</type>
+	<value code="1">RACE OR ETHNICITY</value>
+	<value code="2">GENDER</value>
+	<value code="3">AGE</value>
+	<value code="4">RELIGION</value>
+	<value code="5">PHYSICAL APPEARANCE</value>
+	<value code="6">SEXUAL ORIENTATION</value>
+	<value code="7">INCOME/SOCIAL CLASS</value>
+	<value code="8">OTHER</value>
+</variable>
+
+<variable id="phv00087446.v1">
+	<name>uf3firef</name>
+	<description>UNFAIRLY FIRED OR DENIED A PROMOTION: DID THIS HAPPEN IN THE LAST 12 MONTHS?</description>
+	<type>NUMERIC</type>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00087447.v1">
+	<name>uf1hiref</name>
+	<description>FOR UNFAIR REASONS, DO YOU THINK YOU HAVE EVER NOT BEEN HIRED FOR A JOB?</description>
+	<type>NUMERIC</type>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00087448.v1">
+	<name>uf2hiref</name>
+	<description>NOT HIRED FOR A JOB FOR UNFAIR REASONS: WHAT WAS THE MAIN REASON?</description>
+	<type>NUMERIC</type>
+	<value code="1">RACE OR ETHNICITY</value>
+	<value code="2">GENDER</value>
+	<value code="3">AGE</value>
+	<value code="4">RELIGION</value>
+	<value code="5">PHYSICAL APPEARANCE</value>
+	<value code="6">SEXUAL ORIENTATION</value>
+	<value code="7">INCOME/SOCIAL CLASS</value>
+	<value code="8">OTHER</value>
+</variable>
+
+<variable id="phv00087449.v1">
+	<name>uf3hiref</name>
+	<description>NOT HIRED FOR A JOB FOR UNFAIR REASONS: DID THIS HAPPEN IN THE LAST 12 MONTHS?</description>
+	<type>NUMERIC</type>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00087450.v1">
+	<name>uf1stopf</name>
+	<description>HAVE YOU EVER BEEN UNFAIRLY STOPPED, SEARCHED, QUESTIONED, PHYSICALLY THREATENED OR ABUSED BY THE POLICE?</description>
+	<type>NUMERIC</type>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00087451.v1">
+	<name>uf2stopf</name>
+	<description>UNFAIRLY STOPPED, SEARCHED, QUESTIONED, PHYSICALLY THREATENED OR ABUSED BY THE POLICE: WHAT WAS THE MAIN REASON?</description>
+	<type>NUMERIC</type>
+	<value code="1">RACE OR ETHNICITY</value>
+	<value code="2">GENDER</value>
+	<value code="3">AGE</value>
+	<value code="4">RELIGION</value>
+	<value code="5">PHYSICAL APPEARANCE</value>
+	<value code="6">SEXUAL ORIENTATION</value>
+	<value code="7">INCOME/SOCIAL CLASS</value>
+	<value code="8">OTHER</value>
+</variable>
+
+<variable id="phv00087452.v1">
+	<name>uf3stopf</name>
+	<description>UNFAIRLY STOPPED, SEARCHED, QUESTIONED, PHYSICALLY THREATENED OR ABUSED BY THE POLICE: DID THIS HAPPEN IN THE LAST 12 MONTHS?</description>
+	<type>NUMERIC</type>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00087453.v1">
+	<name>uf1educf</name>
+	<description>HAVE YOU EVER BEEN UNFAIRLY DISCOURAGED BY A TEACHER OR ADVISOR FROM CONTINUING YOUR EDUCATION?</description>
+	<type>NUMERIC</type>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00087454.v1">
+	<name>uf2educf</name>
+	<description>UNFAIRLY DISCOURAGED BY A TEACHER OR ADVISOR FROM CONTINUING YOUR EDUCATION: WHAT WAS THE MAIN REASON?</description>
+	<type>NUMERIC</type>
+	<value code="1">RACE OR ETHNICITY</value>
+	<value code="2">GENDER</value>
+	<value code="3">AGE</value>
+	<value code="4">RELIGION</value>
+	<value code="5">PHYSICAL APPEARANCE</value>
+	<value code="6">SEXUAL ORIENTATION</value>
+	<value code="7">INCOME/SOCIAL CLASS</value>
+	<value code="8">OTHER</value>
+</variable>
+
+<variable id="phv00087455.v1">
+	<name>uf3educf</name>
+	<description>UNFAIRLY DISCOURAGED BY A TEACHER OR ADVISOR FROM CONTINUING YOUR EDUCATION: DID THIS HAPPEN IN THE LAST 12 MONTHS?</description>
+	<type>NUMERIC</type>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00087456.v1">
+	<name>uf1movef</name>
+	<description>HAVE YOU EVER BEEN UNFAIRLY PREVENTED FROM MOVING INTO A NEIGHBORHOOD BECAUSE THE LANDLORD OR A REALTOR REFUSED TO SELL OR RENT YOU A HOUSE OR APARTMENT?</description>
+	<type>NUMERIC</type>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00087457.v1">
+	<name>uf2movef</name>
+	<description>UNFAIRLY PREVENTED FROM MOVING INTO A NEIGHBORHOOD BECAUSE THE LANDLORD OR A REALTOR REFUSED TO SELL OR RENT YOU A HOUSE OR APARTMENT: WHAT WAS THE MAIN REASON?</description>
+	<type>NUMERIC</type>
+	<value code="1">RACE OR ETHNICITY</value>
+	<value code="2">GENDER</value>
+	<value code="3">AGE</value>
+	<value code="4">RELIGION</value>
+	<value code="5">PHYSICAL APPEARANCE</value>
+	<value code="6">SEXUAL ORIENTATION</value>
+	<value code="7">INCOME/SOCIAL CLASS</value>
+	<value code="8">OTHER</value>
+</variable>
+
+<variable id="phv00087458.v1">
+	<name>uf3movef</name>
+	<description>UNFAIRLY PREVENTED FROM MOVING INTO A NEIGHBORHOOD BECAUSE THE LANDLORD OR A REALTOR REFUSED TO SELL OR RENT YOU A HOUSE OR APARTMENT: DID THIS HAPPEN IN THE LAST 12 MONTHS?</description>
+	<type>NUMERIC</type>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00087459.v1">
+	<name>uf1nghbf</name>
+	<description>HAVE YOU EVER MOVED INTO A NEIGHBORHOOD WHERE NEIGHBORS MADE LIFE DIFFICULT FOR YOU OR YOUR FAMILY?</description>
+	<type>NUMERIC</type>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00087460.v1">
+	<name>uf2nghbf</name>
+	<description>NEIGHBORS MADE LIFE DIFFICULT FOR YOU OR YOUR FAMILY: WHAT WAS THE MAIN REASON?</description>
+	<type>NUMERIC</type>
+	<value code="1">RACE OR ETHNICITY</value>
+	<value code="2">GENDER</value>
+	<value code="3">AGE</value>
+	<value code="4">RELIGION</value>
+	<value code="5">PHYSICAL APPEARANCE</value>
+	<value code="6">SEXUAL ORIENTATION</value>
+	<value code="7">INCOME/SOCIAL CLASS</value>
+	<value code="8">OTHER</value>
+</variable>
+
+<variable id="phv00087461.v1">
+	<name>uf3nghbf</name>
+	<description>NEIGHBORS MADE LIFE DIFFICULT FOR YOU OR YOUR FAMILY: DID THIS HAPPEN IN THE LAST 12 MONTHS?</description>
+	<type>NUMERIC</type>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00087462.v1">
+	<name>curtesyf</name>
+	<description>YOU ARE TREATED WITH LESS COURTESY THAN OTHER PEOPLE</description>
+	<type>NUMERIC</type>
+	<value code="1">ALMOST EVERY DAY</value>
+	<value code="2">AT LEAST ONCE A WEEK</value>
+	<value code="3">A FEW TIMES A MONTH</value>
+	<value code="4">A FEW TIMES A YEAR</value>
+	<value code="5">LESS THAN ONCE A YEAR</value>
+	<value code="6">NEVER</value>
+</variable>
+
+<variable id="phv00087463.v1">
+	<name>respectf</name>
+	<description>YOU ARE TREATED WITH LESS RESPECT THAN OTHER PEOPLE</description>
+	<type>NUMERIC</type>
+	<value code="1">ALMOST EVERY DAY</value>
+	<value code="2">AT LEAST ONCE A WEEK</value>
+	<value code="3">A FEW TIMES A MONTH</value>
+	<value code="4">A FEW TIMES A YEAR</value>
+	<value code="5">LESS THAN ONCE A YEAR</value>
+	<value code="6">NEVER</value>
+</variable>
+
+<variable id="phv00087464.v1">
+	<name>servicef</name>
+	<description>YOU RECEIVE POORER SERVICE THAN OTHER PEOPLE AT RESTAURANTS AND STORES</description>
+	<type>NUMERIC</type>
+	<value code="1">ALMOST EVERY DAY</value>
+	<value code="2">AT LEAST ONCE A WEEK</value>
+	<value code="3">A FEW TIMES A MONTH</value>
+	<value code="4">A FEW TIMES A YEAR</value>
+	<value code="5">LESS THAN ONCE A YEAR</value>
+	<value code="6">NEVER</value>
+</variable>
+
+<variable id="phv00087465.v1">
+	<name>smartf</name>
+	<description>PEOPLE ACT AS IF THEY THINK YOU ARE NOT SMART</description>
+	<type>NUMERIC</type>
+	<value code="1">ALMOST EVERY DAY</value>
+	<value code="2">AT LEAST ONCE A WEEK</value>
+	<value code="3">A FEW TIMES A MONTH</value>
+	<value code="4">A FEW TIMES A YEAR</value>
+	<value code="5">LESS THAN ONCE A YEAR</value>
+	<value code="6">NEVER</value>
+</variable>
+
+<variable id="phv00087466.v1">
+	<name>afraidf</name>
+	<description>PEOPLE ACT AS IF THEY ARE AFRAID OF YOU</description>
+	<type>NUMERIC</type>
+	<value code="1">ALMOST EVERY DAY</value>
+	<value code="2">AT LEAST ONCE A WEEK</value>
+	<value code="3">A FEW TIMES A MONTH</value>
+	<value code="4">A FEW TIMES A YEAR</value>
+	<value code="5">LESS THAN ONCE A YEAR</value>
+	<value code="6">NEVER</value>
+</variable>
+
+<variable id="phv00087467.v1">
+	<name>dishonf</name>
+	<description>PEOPLE ACT AS IF THEY THINK YOU ARE DISHONEST</description>
+	<type>NUMERIC</type>
+	<value code="1">ALMOST EVERY DAY</value>
+	<value code="2">AT LEAST ONCE A WEEK</value>
+	<value code="3">A FEW TIMES A MONTH</value>
+	<value code="4">A FEW TIMES A YEAR</value>
+	<value code="5">LESS THAN ONCE A YEAR</value>
+	<value code="6">NEVER</value>
+</variable>
+
+<variable id="phv00087468.v1">
+	<name>betterf</name>
+	<description>PEOPLE ACT AS IF THEY&#39;RE BETTER THAN YOU</description>
+	<type>NUMERIC</type>
+	<value code="1">ALMOST EVERY DAY</value>
+	<value code="2">AT LEAST ONCE A WEEK</value>
+	<value code="3">A FEW TIMES A MONTH</value>
+	<value code="4">A FEW TIMES A YEAR</value>
+	<value code="5">LESS THAN ONCE A YEAR</value>
+	<value code="6">NEVER</value>
+</variable>
+
+<variable id="phv00087469.v1">
+	<name>insultf</name>
+	<description>YOU ARE CALLED NAMES OR INSULTED</description>
+	<type>NUMERIC</type>
+	<value code="1">ALMOST EVERY DAY</value>
+	<value code="2">AT LEAST ONCE A WEEK</value>
+	<value code="3">A FEW TIMES A MONTH</value>
+	<value code="4">A FEW TIMES A YEAR</value>
+	<value code="5">LESS THAN ONCE A YEAR</value>
+	<value code="6">NEVER</value>
+</variable>
+
+<variable id="phv00087470.v1">
+	<name>threatf</name>
+	<description>YOU ARE THREATENED OR HARASSED</description>
+	<type>NUMERIC</type>
+	<value code="1">ALMOST EVERY DAY</value>
+	<value code="2">AT LEAST ONCE A WEEK</value>
+	<value code="3">A FEW TIMES A MONTH</value>
+	<value code="4">A FEW TIMES A YEAR</value>
+	<value code="5">LESS THAN ONCE A YEAR</value>
+	<value code="6">NEVER</value>
+</variable>
+
+<variable id="phv00087471.v1">
+	<name>uf1respf</name>
+	<description>IF YOU FEEL YOU&#39;VE BEEN TREATED UNFAIRLY, YOU USUALLY:</description>
+	<type>NUMERIC</type>
+	<value code="1">ALMOST EVERY DAY</value>
+	<value code="2">AT LEAST ONCE A WEEK</value>
+	<value code="3">A FEW TIMES A MONTH</value>
+	<value code="4">A FEW TIMES A YEAR</value>
+	<value code="5">LESS THAN ONCE A YEAR</value>
+	<value code="6">NEVER</value>
+</variable>
+
+<variable id="phv00087472.v1">
+	<name>uf2respf</name>
+	<description>AND IF YOU FEEL YOU&#39;VE BEEN TREATED UNFAIRLY, YOU USUALLY:</description>
+	<type>NUMERIC</type>
+	<value code="1">TALK TO OTHERS ABOUT IT</value>
+	<value code="2">KEEP IT TO YOURSELF</value>
+</variable>
+
+<variable id="phv00087473.v1">
+	<name>splangfc</name>
+	<description>SPIELBERGER TRAIT ANGER SCALE</description>
+	<type>NUMERIC</type>
+	<comment>COMPUTED</comment>
+</variable>
+
+<variable id="phv00087474.v1">
+	<name>splanxfc</name>
+	<description>SPIELBERGER TRAIT ANXIETY SCALE</description>
+	<type>NUMERIC</type>
+	<comment>COMPUTED</comment>
+</variable>
+
+<variable id="phv00087475.v1">
+	<name>chrburfc</name>
+	<description>CHRONIC BURDEN</description>
+	<type>NUMERIC</type>
+	<comment>COMPUTED</comment>
+</variable>
+
+<variable id="phv00087476.v1">
+	<name>chrbu6fc</name>
+	<description>CHRONIC BURDEN, &gt;6 MONTHS</description>
+	<type>NUMERIC</type>
+	<comment>COMPUTED</comment>
+</variable>
+
+<variable id="phv00087477.v1">
+	<name>cesdfc</name>
+	<description>CENTER FOR EPIDEMIOLOGIC STUDIES - DEPRESSION SCALE</description>
+	<type>NUMERIC</type>
+	<comment>COMPUTED</comment>
+</variable>
+
+<variable id="phv00087478.v1">
+	<name>emotfc</name>
+	<description>EMOTIONAL SOCIAL SUPPORT INDEX</description>
+	<type>NUMERIC</type>
+	<comment>COMPUTED</comment>
+</variable>
+
+<variable id="phv00087479.v1">
+	<name>discrlfc</name>
+	<description>PERCEIVED DISCRIMINATION, LIFETIME</description>
+	<type>NUMERIC</type>
+	<comment>COMPUTED</comment>
+</variable>
+
+<variable id="phv00087480.v1">
+	<name>discryfc</name>
+	<description>PERCEIVED DISCRIMINATION, PAST YEAR</description>
+	<type>NUMERIC</type>
+	<comment>COMPUTED</comment>
+</variable>
+
+<variable id="phv00087481.v1">
+	<name>hasslfc</name>
+	<description>EVERYDAY HASSLES</description>
+	<type>NUMERIC</type>
+	<comment>COMPUTED</comment>
+</variable>
+
+<variable id="phv00087482.v1">
+	<name>rbrachf</name>
+	<description>SYSTOLIC READINGS: RIGHT BRACHIAL</description>
+	<type>NUMERIC</type>
+</variable>
+
+<variable id="phv00087483.v1">
+	<name>rdpedisf</name>
+	<description>SYSTOLIC READINGS: RIGHT DORSALIS PEDIS</description>
+	<type>NUMERIC</type>
+</variable>
+
+<variable id="phv00087484.v1">
+	<name>rptibf</name>
+	<description>SYSTOLIC READINGS: RIGHT POSTERIOR TIBIAL</description>
+	<type>NUMERIC</type>
+</variable>
+
+<variable id="phv00087485.v1">
+	<name>lptibf</name>
+	<description>SYSTOLIC READINGS: LEFT POSTERIOR TIBIAL</description>
+	<type>NUMERIC</type>
+</variable>
+
+<variable id="phv00087486.v1">
+	<name>ldpedisf</name>
+	<description>SYSTOLIC READINGS: LEFT DORSALIS PEDIS</description>
+	<type>NUMERIC</type>
+</variable>
+
+<variable id="phv00087487.v1">
+	<name>lbrachf</name>
+	<description>SYSTOLIC READINGS: LEFT BRACHIAL</description>
+	<type>NUMERIC</type>
+</variable>
+
+<variable id="phv00087488.v1">
+	<name>aabpcmpf</name>
+	<description>COMPLETENESS OF PROCEDURE</description>
+	<type>NUMERIC</type>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00087489.v1">
+	<name>rluocclf</name>
+	<description>REASON PROCEDURE NOT COMPLETED: RIGHT SIDE: UNABLE TO OCCLUDE</description>
+	<type>NUMERIC</type>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00087490.v1">
+	<name>rlulcerf</name>
+	<description>REASON PROCEDURE NOT COMPLETED: RIGHT SIDE: ULCERATION</description>
+	<type>NUMERIC</type>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00087491.v1">
+	<name>rlamputf</name>
+	<description>REASON PROCEDURE NOT COMPLETED: RIGHT SIDE: AMPUTATION</description>
+	<type>NUMERIC</type>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00087492.v1">
+	<name>rulocdpf</name>
+	<description>REASON PROCEDURE NOT COMPLETED: RIGHT SIDE: UNABLE TO LOCATE DP</description>
+	<type>NUMERIC</type>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00087493.v1">
+	<name>rulocptf</name>
+	<description>REASON PROCEDURE NOT COMPLETED: RIGHT SIDE: UNABLE TO LOCATE PT</description>
+	<type>NUMERIC</type>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00087494.v1">
+	<name>rltxtf</name>
+	<description>REASON PROCEDURE NOT COMPLETED: RIGHT SIDE: OTHER</description>
+	<type>STRING</type>
+</variable>
+
+<variable id="phv00087495.v1">
+	<name>lluocclf</name>
+	<description>REASON PROCEDURE NOT COMPLETED: LEFT SIDE: UNABLE TO OCCLUDE</description>
+	<type>NUMERIC</type>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00087496.v1">
+	<name>llulcerf</name>
+	<description>REASON PROCEDURE NOT COMPLETED: LEFT SIDE: ULCERATION</description>
+	<type>NUMERIC</type>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00087497.v1">
+	<name>llamputf</name>
+	<description>REASON PROCEDURE NOT COMPLETED: LEFT SIDE: AMPUTATION</description>
+	<type>NUMERIC</type>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00087498.v1">
+	<name>lulocdpf</name>
+	<description>REASON PROCEDURE NOT COMPLETED: LEFT SIDE: UNABLE TO LOCATE DP</description>
+	<type>NUMERIC</type>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00087499.v1">
+	<name>lulocptf</name>
+	<description>REASON PROCEDURE NOT COMPLETED: LEFT SIDE: UNABLE TO LOCATE PT</description>
+	<type>NUMERIC</type>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00087500.v1">
+	<name>lltxtf</name>
+	<description>REASON PROCEDURE NOT COMPLETED: LEFT SIDE: OTHER</description>
+	<type>STRING</type>
+</variable>
+
+<variable id="phv00087501.v1">
+	<name>dmapnumf</name>
+	<description>DINAMAP NUMBER</description>
+	<type>NUMERIC</type>
+</variable>
+
+<variable id="phv00087502.v1">
+	<name>armcmf</name>
+	<description>ARM CIRCUMFERENCE (NEAREST .1 CM)</description>
+	<type>NUMERIC</type>
+</variable>
+
+<variable id="phv00087503.v1">
+	<name>cuffszf</name>
+	<description>CUFF SIZE: UPPERARM</description>
+	<type>NUMERIC</type>
+	<value code="1">SMALL ADULT (17-25cm)</value>
+	<value code="2">ADULT (25.1-33cm)</value>
+	<value code="3">LARGE ADULT (33.1-40cm)</value>
+	<value code="4">THIGH (40.1-50cm)</value>
+	<value code="5">FOREARM, ADULT (25.1-33cm)</value>
+	<value code="6">FOREARM, LARGE ADULT (33.1-40cm)</value>
+</variable>
+
+<variable id="phv00087504.v1">
+	<name>cufffref</name>
+	<description>CUFF SIZE: FOREARM</description>
+	<type>NUMERIC</type>
+	<value code="5">FOREARM, ADULT (25.1-33cm)</value>
+	<value code="6">FOREARM, LARGE ADULT (33.1-40cm)</value>
+</variable>
+
+<variable id="phv00087505.v1">
+	<name>s1bpf</name>
+	<description>1ST READING: SEATED SYSTOLIC BP (mmHg)</description>
+	<type>NUMERIC</type>
+	<unit>mmHg</unit>
+</variable>
+
+<variable id="phv00087506.v1">
+	<name>d1bpf</name>
+	<description>1ST READING: SEATED DIASTOLIC BP (mmHg)</description>
+	<type>NUMERIC</type>
+	<unit>mmHg</unit>
+</variable>
+
+<variable id="phv00087507.v1">
+	<name>hr1f</name>
+	<description>1ST READING: SEATED PULSE (BEATS PER MIN)</description>
+	<type>NUMERIC</type>
+	<unit>beats per min</unit>
+</variable>
+
+<variable id="phv00087508.v1">
+	<name>bptmf</name>
+	<description>TIME OF DAY (MILITARY)</description>
+	<type>STRING</type>
+</variable>
+
+<variable id="phv00087509.v1">
+	<name>s2bpf</name>
+	<description>2ND READING: SEATED SYSTOLIC BP (mmHg)</description>
+	<type>NUMERIC</type>
+	<unit>mmHg</unit>
+</variable>
+
+<variable id="phv00087510.v1">
+	<name>d2bpf</name>
+	<description>2ND READING: SEATED DIASTOLIC BP (mmHg)</description>
+	<type>NUMERIC</type>
+	<unit>mmHg</unit>
+</variable>
+
+<variable id="phv00087511.v1">
+	<name>hr2f</name>
+	<description>2ND READING: SEATED PULSE (BEATS PER MIN)</description>
+	<type>NUMERIC</type>
+	<unit>beats per min</unit>
+</variable>
+
+<variable id="phv00087512.v1">
+	<name>s3bpf</name>
+	<description>3RD READING: SEATED SYSTOLIC BP (mmHg)</description>
+	<type>NUMERIC</type>
+	<unit>mmHg</unit>
+</variable>
+
+<variable id="phv00087513.v1">
+	<name>d3bpf</name>
+	<description>3RD READING: SEATED DIASTOLIC BP (mmHg)</description>
+	<type>NUMERIC</type>
+	<unit>mmHg</unit>
+</variable>
+
+<variable id="phv00087514.v1">
+	<name>hr3f</name>
+	<description>3RD READING: SEATED PULSE (BEATS PER MIN)</description>
+	<type>NUMERIC</type>
+	<unit>beats per min</unit>
+</variable>
+
+<variable id="phv00087515.v1">
+	<name>rmtempff</name>
+	<description>BP ROOM TEMPERATURE (F)</description>
+	<type>NUMERIC</type>
+	<unit>F</unit>
+</variable>
+
+<variable id="phv00087516.v1">
+	<name>htmodpf</name>
+	<description>HEIGHT: MODIFICATION IN PROTOCOL?</description>
+	<type>NUMERIC</type>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00087517.v1">
+	<name>wtmodpf</name>
+	<description>WEIGHT: MODIFICATION IN PROTOCOL?</description>
+	<type>NUMERIC</type>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00087518.v1">
+	<name>hipcmf</name>
+	<description>HIP (cm)</description>
+	<type>NUMERIC</type>
+	<unit>cm</unit>
+</variable>
+
+<variable id="phv00087519.v1">
+	<name>waistcmf</name>
+	<description>WAIST (cm)</description>
+	<type>NUMERIC</type>
+	<unit>cm</unit>
+</variable>
+
+<variable id="phv00087520.v1">
+	<name>hwmodpf</name>
+	<description>GIRTHS: MODIFICATION IN PROTOCOL?</description>
+	<type>NUMERIC</type>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00087521.v1">
+	<name>cmtmodpf</name>
+	<description>ANTHROPOMETRY: COMMENTS/MODIFICATIONS TO PROTOCOL?</description>
+	<type>NUMERIC</type>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00087522.v1">
+	<name>anthtxtf</name>
+	<description>ANTHROPOMETRY: SPECIFIC COMMENTS/MODIFICATIONS TO PROTOCOL?</description>
+	<type>STRING</type>
+</variable>
+
+<variable id="phv00087523.v1">
+	<name>bsafc</name>
+	<description>BODY SURFACE AREA INDEX</description>
+	<type>NUMERIC</type>
+	<comment>COMPUTED</comment>
+</variable>
+
+<variable id="phv00087524.v1">
+	<name>lastdrkf</name>
+	<description>HOW LONG AGO LAST DRINK OR EAT? (hrs)</description>
+	<type>NUMERIC</type>
+	<unit>hrs</unit>
+</variable>
+
+<variable id="phv00087525.v1">
+	<name>chlcatfc</name>
+	<description>TOTAL CHOLESTEROL, NCEP CATEGORIES</description>
+	<type>NUMERIC</type>
+	<comment>COMPUTED</comment>
+	<value code="1">DESIRABLE, &lt;200</value>
+	<value code="2">BORDERLINE HIGH, 200-239</value>
+	<value code="3">HIGH, 240+</value>
+</variable>
+
+<variable id="phv00087526.v1">
+	<name>ldlcatfc</name>
+	<description>LDL CHOLESTEROL, NCEP CATEGORIES</description>
+	<type>NUMERIC</type>
+	<comment>COMPUTED</comment>
+	<value code="1">OPTIMAL, &lt;100</value>
+	<value code="2">NEAR OPTIMAL, 100-129</value>
+	<value code="3">BORDERLINE HIGH, 130-159</value>
+	<value code="4">HIGH, 160-189</value>
+	<value code="5">VERY HIGH, 190+</value>
+</variable>
+
+<variable id="phv00087527.v1">
+	<name>hdlcatfc</name>
+	<description>HDL CHOLESTEROL, NCEP CATEGORIES</description>
+	<type>NUMERIC</type>
+	<comment>COMPUTED</comment>
+	<value code="1">HIGH, 60+</value>
+	<value code="2">40-59</value>
+	<value code="3">LOW, &lt;40</value>
+</variable>
+
+<variable id="phv00087528.v1">
+	<name>trgcatfc</name>
+	<description>TRIGLYCERIDES, NCEP CATEGORIES</description>
+	<type>NUMERIC</type>
+	<comment>COMPUTED</comment>
+	<value code="1">NORMAL, &lt;150</value>
+	<value code="2">BORDERLINE HIGH, 150-199</value>
+	<value code="3">HIGH, 200-499</value>
+	<value code="4">VERY HIGH, 500+</value>
+</variable>
+
+<variable id="phv00087529.v1">
+	<name>ualbumnf</name>
+	<description>URINARY ALBUMIN (mg/dl)</description>
+	<type>NUMERIC</type>
+	<unit>mg/dl</unit>
+</variable>
+
+<variable id="phv00087530.v1">
+	<name>ucreatf</name>
+	<description>URINARY CREATININE (mg/dl)</description>
+	<type>NUMERIC</type>
+	<unit>mg/dl</unit>
+</variable>
+
+<variable id="phv00087531.v1">
+	<name>agatumfc</name>
+	<description>MEAN: AGATSTON CALCIUM SCORE, UNADJUSTED</description>
+	<type>NUMERIC</type>
+	<comment>COMPUTED</comment>
+</variable>
+
+<variable id="phv00087532.v1">
+	<name>volumfc</name>
+	<description>MEAN: TOTAL CALCIUM VOLUME, UNADJUSTED</description>
+	<type>NUMERIC</type>
+	<comment>COMPUTED</comment>
+</variable>
+
+<variable id="phv00087533.v1">
+	<name>volsumfc</name>
+	<description>MEAN: TOTAL ISOMETRIC VOLUME SCORE, UNADJUSTED</description>
+	<type>NUMERIC</type>
+	<comment>COMPUTED</comment>
+</variable>
+
+<variable id="phv00087534.v1">
+	<name>massmfc</name>
+	<description>MEAN: CAC ARTERIAL MASS</description>
+	<type>NUMERIC</type>
+	<comment>COMPUTED</comment>
+</variable>
+
+<variable id="phv00087535.v1">
+	<name>volspmfc</name>
+	<description>MEAN: TOTAL ISOMETRIC VOLUME SCORE, PHANTOM-ADJUSTED</description>
+	<type>NUMERIC</type>
+	<comment>COMPUTED</comment>
+</variable>
+
+<variable id="phv00087536.v1">
+	<name>agatu1fc</name>
+	<description>SCAN 1: AGATSTON CALCIUM SCORE, UNADJUSTED</description>
+	<type>NUMERIC</type>
+	<comment>COMPUTED</comment>
+</variable>
+
+<variable id="phv00087537.v1">
+	<name>agatu2fc</name>
+	<description>SCAN 2: AGATSTON CALCIUM SCORE, UNADJUSTED</description>
+	<type>NUMERIC</type>
+	<comment>COMPUTED</comment>
+</variable>
+
+<variable id="phv00087538.v1">
+	<name>volu1fc</name>
+	<description>SCAN 1: TOTAL CALCIUM VOLUME, UNADJUSTED</description>
+	<type>NUMERIC</type>
+	<comment>COMPUTED</comment>
+</variable>
+
+<variable id="phv00087539.v1">
+	<name>volu2fc</name>
+	<description>SCAN 2: TOTAL CALCIUM VOLUME, UNADJUSTED</description>
+	<type>NUMERIC</type>
+	<comment>COMPUTED</comment>
+</variable>
+
+<variable id="phv00087540.v1">
+	<name>volsu1fc</name>
+	<description>SCAN 1: TOTAL ISOMETRIC VOLUME SCORE, UNADJUSTED</description>
+	<type>NUMERIC</type>
+	<comment>COMPUTED</comment>
+</variable>
+
+<variable id="phv00087541.v1">
+	<name>volsu2fc</name>
+	<description>SCAN 2: TOTAL ISOMETRIC VOLUME SCORE, UNADJUSTED</description>
+	<type>NUMERIC</type>
+	<comment>COMPUTED</comment>
+</variable>
+
+<variable id="phv00087542.v1">
+	<name>mass1fc</name>
+	<description>SCAN 1: CAC ARTERIAL MASS</description>
+	<type>NUMERIC</type>
+	<comment>COMPUTED</comment>
+</variable>
+
+<variable id="phv00087543.v1">
+	<name>mass2fc</name>
+	<description>SCAN 2: CAC ARTERIAL MASS</description>
+	<type>NUMERIC</type>
+	<comment>COMPUTED</comment>
+</variable>
+
+<variable id="phv00087544.v1">
+	<name>agatp1fc</name>
+	<description>SCAN 1: AGATSTON CALCIUM SCORE, PHANTOM-ADJUSTED</description>
+	<type>NUMERIC</type>
+	<comment>COMPUTED</comment>
+</variable>
+
+<variable id="phv00087545.v1">
+	<name>agatp2fc</name>
+	<description>SCAN 2: AGATSTON CALCIUM SCORE, PHANTOM-ADJUSTED</description>
+	<type>NUMERIC</type>
+	<comment>COMPUTED</comment>
+</variable>
+
+<variable id="phv00087546.v1">
+	<name>volp1fc</name>
+	<description>SCAN 1: TOTAL CALCIUM VOLUME, PHANTOM-ADJUSTED</description>
+	<type>NUMERIC</type>
+	<comment>COMPUTED</comment>
+</variable>
+
+<variable id="phv00087547.v1">
+	<name>volp2fc</name>
+	<description>SCAN 2: TOTAL CALCIUM VOLUME, PHANTOM-ADJUSTED</description>
+	<type>NUMERIC</type>
+	<comment>COMPUTED</comment>
+</variable>
+
+<variable id="phv00087548.v1">
+	<name>volsp1fc</name>
+	<description>SCAN 1: TOTAL ISOMETRIC VOLUME SCORE, PHANTOM-ADJUSTED</description>
+	<type>NUMERIC</type>
+	<comment>COMPUTED</comment>
+</variable>
+
+<variable id="phv00087549.v1">
+	<name>volsp2fc</name>
+	<description>SCAN 2: TOTAL ISOMETRIC VOLUME SCORE, PHANTOM-ADJUSTED</description>
+	<type>NUMERIC</type>
+	<comment>COMPUTED</comment>
+</variable>
+
+<variable id="phv00087550.v1">
+	<name>phok1fc</name>
+	<description>SCAN 1: PHANTOM ADJUSTMENT VALID</description>
+	<type>NUMERIC</type>
+	<comment>COMPUTED</comment>
+	<value code="0">NOT VALID</value>
+	<value code="1">VALID</value>
+</variable>
+
+<variable id="phv00087551.v1">
+	<name>phok2fc</name>
+	<description>SCAN 2: PHANTOM ADJUSTMENT VALID</description>
+	<type>NUMERIC</type>
+	<comment>COMPUTED</comment>
+	<value code="0">NOT VALID</value>
+	<value code="1">VALID</value>
+</variable>
+
+<variable id="phv00087552.v1">
+	<name>modelf</name>
+	<description>CT SCANNER MODEL</description>
+	<type>NUMERIC</type>
+	<comment>COMPUTED</comment>
+	<value code="1">AQUILION</value>
+	<value code="2">AQUILION 64</value>
+	<value code="3">IMATRON C-150</value>
+	<value code="4">INNER EBT</value>
+	<value code="5">LIGHT SPEED 16</value>
+	<value code="6">LIGHT SPEED PLUS</value>
+	<value code="7">LIGHT SPEED PRO 16</value>
+	<value code="8">LIGHT SPEED QX/I</value>
+	<value code="9">SENSATION 16</value>
+	<value code="10">SENSATION CARDIAC 64</value>
+	<value code="11">VOLUME ZOOM</value>
+</variable>
+
+<variable id="phv00087553.v1">
+	<name>maxstnfc</name>
+	<description>MAXIMUM CAROTID STENOSIS, GRADED</description>
+	<type>NUMERIC</type>
+	<comment>COMPUTED</comment>
+	<value code="0">NO LESION</value>
+	<value code="1">1 - 24%</value>
+	<value code="2">25 - 49%</value>
+	<value code="3">50 - 74%</value>
+	<value code="4">75 - 99%</value>
+	<value code="5">100%</value>
+</variable>
+
+<variable id="phv00087554.v1">
+	<name>maxsurfc</name>
+	<description>MAXIMUM SURFACE</description>
+	<type>NUMERIC</type>
+	<comment>COMPUTED</comment>
+	<value code="0">SMOOTH</value>
+	<value code="1">MILDLY IRREGULAR</value>
+	<value code="2">MARKEDLY IRREGULAR</value>
+	<value code="3">ULCERATED</value>
+	<value code="6">NO LESION</value>
+	<value code="8">CAN&#39;T TELL</value>
+</variable>
+
+<variable id="phv00087555.v1">
+	<name>maxmorfc</name>
+	<description>MAXIMUM MORPHOLOGY</description>
+	<type>NUMERIC</type>
+	<comment>COMPUTED</comment>
+	<value code="0">NO LESION</value>
+	<value code="1">HOMOGENEOUS</value>
+	<value code="2">HETEROGENEOUS</value>
+	<value code="3">HYPERDENSE</value>
+	<value code="4">CALCIFIED</value>
+</variable>
+
+<variable id="phv00087556.v1">
+	<name>maxdenfc</name>
+	<description>MAXIMUM DENSITY</description>
+	<type>NUMERIC</type>
+	<comment>COMPUTED</comment>
+	<value code="0">NO LESION</value>
+	<value code="1">HOMOGENEOUS</value>
+	<value code="2">HETEROGENEOUS</value>
+	<value code="3">HYPERDENSE</value>
+	<value code="4">CALCIFIED</value>
+</variable>
+
+<variable id="phv00087557.v1">
+	<name>rcfwmaxf</name>
+	<description>RIGHT COMMON CAROTID FAR WALL MAX (mm)</description>
+	<type>NUMERIC</type>
+	<unit>mm</unit>
+</variable>
+
+<variable id="phv00087558.v1">
+	<name>rcnwmaxf</name>
+	<description>RIGHT COMMON CAROTID NEAR WALL MAX (mm)</description>
+	<type>NUMERIC</type>
+	<unit>mm</unit>
+</variable>
+
+<variable id="phv00087559.v1">
+	<name>lcfwmaxf</name>
+	<description>LEFT COMMON CAROTID FAR WALL MAX (mm)</description>
+	<type>NUMERIC</type>
+	<unit>mm</unit>
+</variable>
+
+<variable id="phv00087560.v1">
+	<name>lcnwmaxf</name>
+	<description>LEFT COMMON CAROTID NEAR WALL MAX (mm)</description>
+	<type>NUMERIC</type>
+	<unit>mm</unit>
+</variable>
+
+<variable id="phv00087561.v1">
+	<name>rafwmaxf</name>
+	<description>RIGHT ANTERIOR OBLIQUE FAR WALL MAX (mm)</description>
+	<type>NUMERIC</type>
+	<unit>mm</unit>
+</variable>
+
+<variable id="phv00087562.v1">
+	<name>ranwmaxf</name>
+	<description>RIGHT ANTERIOR OBLIQUE NEAR WALL MAX (mm)</description>
+	<type>NUMERIC</type>
+	<unit>mm</unit>
+</variable>
+
+<variable id="phv00087563.v1">
+	<name>rlfwsdf</name>
+	<description>RIGHT LATERAL OBLIQUE FAR WALL STD DEV (mm)</description>
+	<type>NUMERIC</type>
+	<unit>mm</unit>
+</variable>
+
+<variable id="phv00087564.v1">
+	<name>rlnwsdf</name>
+	<description>RIGHT LATERAL OBLIQUE NEAR WALL STD DEV (mm)</description>
+	<type>NUMERIC</type>
+	<unit>mm</unit>
+</variable>
+
+<variable id="phv00087565.v1">
+	<name>rpfwmnf</name>
+	<description>RIGHT POSTERIOR OBLIQUE FAR WALL MEAN (mm)</description>
+	<type>NUMERIC</type>
+	<unit>mm</unit>
+</variable>
+
+<variable id="phv00087566.v1">
+	<name>rpnwmaxf</name>
+	<description>RIGHT POSTERIOR OBLIQUE NEAR WALL MAX (mm)</description>
+	<type>NUMERIC</type>
+	<unit>mm</unit>
+</variable>
+
+<variable id="phv00087567.v1">
+	<name>lafwmaxf</name>
+	<description>LEFT ANTERIOR OBLIQUE FAR WALL MAX (mm)</description>
+	<type>NUMERIC</type>
+	<unit>mm</unit>
+</variable>
+
+<variable id="phv00087568.v1">
+	<name>lanwmaxf</name>
+	<description>LEFT ANTERIOR OBLIQUE NEAR WALL MAX (mm)</description>
+	<type>NUMERIC</type>
+	<unit>mm</unit>
+</variable>
+
+<variable id="phv00087569.v1">
+	<name>llfwmaxf</name>
+	<description>LEFT LATERAL OBLIQUE FAR WALL MAX (mm)</description>
+	<type>NUMERIC</type>
+	<unit>mm</unit>
+</variable>
+
+<variable id="phv00087570.v1">
+	<name>llnwmaxf</name>
+	<description>LEFT LATERAL OBLIQUE NEAR WALL MAX (mm)</description>
+	<type>NUMERIC</type>
+	<unit>mm</unit>
+</variable>
+
+<variable id="phv00087571.v1">
+	<name>lpfwmaxf</name>
+	<description>LEFT POSTERIOR OBLIQUE FAR WALL MAX (mm)</description>
+	<type>NUMERIC</type>
+	<unit>mm</unit>
+</variable>
+
+<variable id="phv00087572.v1">
+	<name>lpnwmaxf</name>
+	<description>LEFT POSTERIOR OBLIQUE NEAR WALL MAX (mm)</description>
+	<type>NUMERIC</type>
+	<unit>mm</unit>
+</variable>
+
+<variable id="phv00087573.v1">
+	<name>rstenf</name>
+	<description>RIGHT STENOSIS</description>
+	<type>NUMERIC</type>
+	<value code="1">1 - 24%</value>
+	<value code="2">25 - 49%</value>
+	<value code="3">50 - 74%</value>
+	<value code="4">75 - 99%</value>
+	<value code="5">100%</value>
+	<value code="6">NO LESION</value>
+	<value code="7">BAD IMAGE/NORMAL DOPPLER</value>
+	<value code="8">CAN&#39;T TELL</value>
+</variable>
+
+<variable id="phv00087574.v1">
+	<name>lstenf</name>
+	<description>LEFT STENOSIS</description>
+	<type>NUMERIC</type>
+	<value code="1">1 - 24%</value>
+	<value code="2">25 - 49%</value>
+	<value code="3">50 - 74%</value>
+	<value code="4">75 - 99%</value>
+	<value code="5">100%</value>
+	<value code="6">NO LESION</value>
+	<value code="7">BAD IMAGE/NORMAL DOPPLER</value>
+	<value code="8">CAN&#39;T TELL</value>
+</variable>
+
+<variable id="phv00087575.v1">
+	<name>rsurff</name>
+	<description>RIGHT SURFACE</description>
+	<type>NUMERIC</type>
+	<value code="0">SMOOTH</value>
+	<value code="1">MILDLY IRREGULAR</value>
+	<value code="2">MARKEDLY IRREGULAR</value>
+	<value code="3">ULCERATED</value>
+	<value code="6">NO LESION</value>
+	<value code="8">CAN&#39;T TELL</value>
+</variable>
+
+<variable id="phv00087576.v1">
+	<name>lsurff</name>
+	<description>LEFT SURFACE</description>
+	<type>NUMERIC</type>
+	<value code="0">SMOOTH</value>
+	<value code="1">MILDLY IRREGULAR</value>
+	<value code="2">MARKEDLY IRREGULAR</value>
+	<value code="3">ULCERATED</value>
+	<value code="6">NO LESION</value>
+	<value code="8">CAN&#39;T TELL</value>
+</variable>
+
+<variable id="phv00087577.v1">
+	<name>rmorphf</name>
+	<description>RIGHT MORPHOLOGY</description>
+	<type>NUMERIC</type>
+	<value code="0">NO LESION</value>
+	<value code="1">HOMOGENEOUS</value>
+	<value code="2">HETEROGENEOUS</value>
+	<value code="8">CANNOT TELL</value>
+</variable>
+
+<variable id="phv00087578.v1">
+	<name>lmorphf</name>
+	<description>LEFT MORPHOLOGY</description>
+	<type>NUMERIC</type>
+	<value code="0">NO LESION</value>
+	<value code="1">HOMOGENEOUS</value>
+	<value code="2">HETEROGENEOUS</value>
+	<value code="8">CANNOT TELL</value>
+</variable>
+
+<variable id="phv00087579.v1">
+	<name>rdensf</name>
+	<description>RIGHT DENSITY</description>
+	<type>NUMERIC</type>
+	<value code="0">NO LESION</value>
+	<value code="1">HOMOGENEOUS</value>
+	<value code="2">HETEROGENEOUS</value>
+	<value code="3">HYPERDENSE</value>
+	<value code="4">CALCIFIED</value>
+	<value code="8">CANNOT TELL</value>
+</variable>
+
+<variable id="phv00087580.v1">
+	<name>ldensf</name>
+	<description>LEFT DENSITY</description>
+	<type>NUMERIC</type>
+	<value code="0">NO LESION</value>
+	<value code="1">HOMOGENEOUS</value>
+	<value code="2">HETEROGENEOUS</value>
+	<value code="3">HYPERDENSE</value>
+	<value code="4">CALCIFIED</value>
+	<value code="8">CANNOT TELL</value>
+</variable>
+
+<variable id="phv00087581.v1">
+	<name>pactadmf</name>
+	<description>PA QUESTIONNAIRE: MODE OF ADMINISTRATION</description>
+	<type>NUMERIC</type>
+	<value code="1">SELF-ADMINISTERED</value>
+	<value code="2">INTERVIEWER-ADMINISTERED</value>
+</variable>
+
+<variable id="phv00087582.v1">
+	<name>q01hlcnf</name>
+	<description>1: LIGHT HOUSEHOLD CHORES MIN/WK M-SU</description>
+	<type>NUMERIC</type>
+	<unit>min/wk M-Su</unit>
+</variable>
+
+<variable id="phv00087583.v1">
+	<name>q01hlcmf</name>
+	<description>1: LIGHT HOUSEHOLD CHORES MET-MIN/WK M-SU</description>
+	<type>NUMERIC</type>
+	<unit>MET-min/wk M-Su</unit>
+</variable>
+
+<variable id="phv00087584.v1">
+	<name>q02hmcnf</name>
+	<description>2: MODERATE HOUSEHOLD CHORES MIN/WK M-SU</description>
+	<type>NUMERIC</type>
+	<unit>min/wk M-Su</unit>
+</variable>
+
+<variable id="phv00087585.v1">
+	<name>q02hmcmf</name>
+	<description>2: MODERATE HOUSEHOLD CHORES MET-MIN/WK M-SU</description>
+	<type>NUMERIC</type>
+	<unit>MET-min/wk M-Su</unit>
+</variable>
+
+<variable id="phv00087586.v1">
+	<name>hsemnfc</name>
+	<description>TOTAL HOUSEHOLD CHORES MIN/WK M-SU</description>
+	<type>NUMERIC</type>
+	<unit>min/wk M-Su</unit>
+	<comment>COMPUTED</comment>
+</variable>
+
+<variable id="phv00087587.v1">
+	<name>hsemtfc</name>
+	<description>TOTAL HOUSEHOLD CHORES MET-MIN/WK M-SU</description>
+	<type>NUMERIC</type>
+	<unit>MET-min/wk M-Su</unit>
+	<comment>COMPUTED</comment>
+</variable>
+
+<variable id="phv00087588.v1">
+	<name>q03ymcnf</name>
+	<description>3: MODERATE YARD WORK MIN/WK M-SU</description>
+	<type>NUMERIC</type>
+	<unit>min/wk M-Su</unit>
+</variable>
+
+<variable id="phv00087589.v1">
+	<name>q03ymcmf</name>
+	<description>3: MODERATE YARD WORK MET-MIN/WK M-SU</description>
+	<type>NUMERIC</type>
+	<unit>MET-min/wk M-Su</unit>
+</variable>
+
+<variable id="phv00087590.v1">
+	<name>q04yvcnf</name>
+	<description>4: VIGOROUS YARD WORK MIN/WK M-SU</description>
+	<type>NUMERIC</type>
+	<unit>min/wk M-Su</unit>
+</variable>
+
+<variable id="phv00087591.v1">
+	<name>q04yvcmf</name>
+	<description>4: VIGOROUS YARD WORK MET-MIN/WK M-SU</description>
+	<type>NUMERIC</type>
+	<unit>MET-min/wk M-Su</unit>
+</variable>
+
+<variable id="phv00087592.v1">
+	<name>yrdmnfc</name>
+	<description>TOTAL YARD WORK MIN/WK M-SU</description>
+	<type>NUMERIC</type>
+	<unit>min/wk M-Su</unit>
+	<comment>COMPUTED</comment>
+</variable>
+
+<variable id="phv00087593.v1">
+	<name>yrdmtfc</name>
+	<description>TOTAL YARD WORK MET-MIN/WK M-SU</description>
+	<type>NUMERIC</type>
+	<unit>MET-min/wk M-Su</unit>
+	<comment>COMPUTED</comment>
+</variable>
+
+<variable id="phv00087594.v1">
+	<name>q05olcnf</name>
+	<description>5: LIGHT CARE OTHERS MIN/WK M-SU</description>
+	<type>NUMERIC</type>
+	<unit>min/wk M-Su</unit>
+</variable>
+
+<variable id="phv00087595.v1">
+	<name>q05olcmf</name>
+	<description>5: LIGHT CARE OTHERS MET-MIN/WK M-SU</description>
+	<type>NUMERIC</type>
+	<unit>MET-min/wk M-Su</unit>
+</variable>
+
+<variable id="phv00087596.v1">
+	<name>q06omcnf</name>
+	<description>6: MODERATE CARE OTHERS MIN/WK M-SU</description>
+	<type>NUMERIC</type>
+	<unit>min/wk M-Su</unit>
+</variable>
+
+<variable id="phv00087597.v1">
+	<name>q06omcmf</name>
+	<description>6: MODERATE CARE OTHERS MET-MIN/WK M-SU</description>
+	<type>NUMERIC</type>
+	<unit>MET-min/wk M-Su</unit>
+</variable>
+
+<variable id="phv00087598.v1">
+	<name>caremnfc</name>
+	<description>TOTAL CARE OTHERS MIN/WK M-SU</description>
+	<type>NUMERIC</type>
+	<unit>min/wk M-Su</unit>
+	<comment>COMPUTED</comment>
+</variable>
+
+<variable id="phv00087599.v1">
+	<name>caremtfc</name>
+	<description>TOTAL CARE OTHERS MET-MIN/WK M-SU</description>
+	<type>NUMERIC</type>
+	<unit>MET-min/wk M-Su</unit>
+	<comment>COMPUTED</comment>
+</variable>
+
+<variable id="phv00087600.v1">
+	<name>q07tlcnf</name>
+	<description>7: LIGHT TRANSPORTATION MIN/WK M-SU</description>
+	<type>NUMERIC</type>
+	<unit>min/wk M-Su</unit>
+</variable>
+
+<variable id="phv00087601.v1">
+	<name>q07tlcmf</name>
+	<description>7: LIGHT TRANSPORTATION MET-MIN/WK M-SU</description>
+	<type>NUMERIC</type>
+	<unit>MET-min/wk M-Su</unit>
+</variable>
+
+<variable id="phv00087602.v1">
+	<name>trnmnfc</name>
+	<description>TOTAL TRANSPORTATION MIN/WK M-SU</description>
+	<type>NUMERIC</type>
+	<unit>min/wk M-Su</unit>
+	<comment>COMPUTED</comment>
+</variable>
+
+<variable id="phv00087603.v1">
+	<name>trnmtfc</name>
+	<description>TOTAL TRANSPORTATION MET-MIN/WK M-SU</description>
+	<type>NUMERIC</type>
+	<unit>MET-min/wk M-Su</unit>
+	<comment>COMPUTED</comment>
+</variable>
+
+<variable id="phv00087604.v1">
+	<name>q08wmcnf</name>
+	<description>8: MODERATE WALKING MIN/WK M-SU</description>
+	<type>NUMERIC</type>
+	<unit>min/wk M-Su</unit>
+</variable>
+
+<variable id="phv00087605.v1">
+	<name>q08wmcmf</name>
+	<description>8: MODERATE WALKING MET-MIN/WK M-SU</description>
+	<type>NUMERIC</type>
+	<unit>MET-min/wk M-Su</unit>
+</variable>
+
+<variable id="phv00087606.v1">
+	<name>q09wmcnf</name>
+	<description>9: MODERATE WALKING EXERCISE MIN/WK M-SU</description>
+	<type>NUMERIC</type>
+	<unit>min/wk M-Su</unit>
+</variable>
+
+<variable id="phv00087607.v1">
+	<name>q09wmcmf</name>
+	<description>9: MODERATE WALKING EXERCISE MET-MIN/WK M-SU</description>
+	<type>NUMERIC</type>
+	<unit>MET-min/wk M-Su</unit>
+</variable>
+
+<variable id="phv00087608.v1">
+	<name>walkmnfc</name>
+	<description>TOTAL WALKING MIN//WK M-SU</description>
+	<type>NUMERIC</type>
+	<unit>min/wk M-Su</unit>
+	<comment>COMPUTED</comment>
+</variable>
+
+<variable id="phv00087609.v1">
+	<name>walkmtfc</name>
+	<description>TOTAL WALKING MET-MIN/WK M-SU</description>
+	<type>NUMERIC</type>
+	<unit>MET-min/wk M-Su</unit>
+	<comment>COMPUTED</comment>
+</variable>
+
+<variable id="phv00087610.v1">
+	<name>q10smcnf</name>
+	<description>10: MODERATE DANCE MIN/WK M-SU</description>
+	<type>NUMERIC</type>
+	<unit>min/wk M-Su</unit>
+</variable>
+
+<variable id="phv00087611.v1">
+	<name>q10smcmf</name>
+	<description>10: MODERATE DANCE MET-MIN/WK M-SU</description>
+	<type>NUMERIC</type>
+	<unit>MET-min/wk M-Su</unit>
+</variable>
+
+<variable id="phv00087612.v1">
+	<name>q11svcnf</name>
+	<description>11: VIGOROUS TEAM SPORTS MIN/WK M-SU</description>
+	<type>NUMERIC</type>
+	<unit>min/wk M-Su</unit>
+</variable>
+
+<variable id="phv00087613.v1">
+	<name>q11svcmf</name>
+	<description>11: VIGOROUS TEAM SPORTS MET-MIN/WK M-SU</description>
+	<type>NUMERIC</type>
+	<unit>MET-min/wk M-Su</unit>
+</variable>
+
+<variable id="phv00087614.v1">
+	<name>q12svcnf</name>
+	<description>12: VIGOROUS DUAL SPORTS MIN/WK M-SU</description>
+	<type>NUMERIC</type>
+	<unit>min/wk M-Su</unit>
+</variable>
+
+<variable id="phv00087615.v1">
+	<name>q12svcmf</name>
+	<description>12: VIGOROUS DUAL SPORTS MET-MIN/WK M-SU</description>
+	<type>NUMERIC</type>
+	<unit>MET-min/wk M-Su</unit>
+</variable>
+
+<variable id="phv00087616.v1">
+	<name>q13smcnf</name>
+	<description>13: MODERATE INDIVIDUAL ACTIVITIES MIN/WK M-SU</description>
+	<type>NUMERIC</type>
+	<unit>min/wk M-Su</unit>
+</variable>
+
+<variable id="phv00087617.v1">
+	<name>q13smcmf</name>
+	<description>13: MODERATE INDIVIDUAL ACTIVITIES MET-MIN/WK M-SU</description>
+	<type>NUMERIC</type>
+	<unit>MET-min/wk M-Su</unit>
+</variable>
+
+<variable id="phv00087618.v1">
+	<name>sptnmnfc</name>
+	<description>TOTAL DANCE/SPORT MIN/WK M-SU</description>
+	<type>NUMERIC</type>
+	<unit>min/wk M-Su</unit>
+	<comment>COMPUTED</comment>
+</variable>
+
+<variable id="phv00087619.v1">
+	<name>sptnmtfc</name>
+	<description>TOTAL DANCE/SPORT MET-MIN/WK M-SU</description>
+	<type>NUMERIC</type>
+	<unit>MET-min/wk M-Su</unit>
+	<comment>COMPUTED</comment>
+</variable>
+
+<variable id="phv00087620.v1">
+	<name>q14cmcnf</name>
+	<description>14: MODERATE CONDITIONING MIN/WK M-SU</description>
+	<type>NUMERIC</type>
+	<unit>min/wk M-Su</unit>
+</variable>
+
+<variable id="phv00087621.v1">
+	<name>q14cmcmf</name>
+	<description>14: MODERATE CONDITIONING MET-MIN/WK M-SU</description>
+	<type>NUMERIC</type>
+	<unit>MET-min/wk M-Su</unit>
+</variable>
+
+<variable id="phv00087622.v1">
+	<name>q15cvcnf</name>
+	<description>15: VIGOROUS CONDITIONING MIN/WK M-SU</description>
+	<type>NUMERIC</type>
+	<unit>min/wk M-Su</unit>
+</variable>
+
+<variable id="phv00087623.v1">
+	<name>q15cvcmf</name>
+	<description>15: VIGOROUS CONDITIONING MET-MIN/WK M-SU</description>
+	<type>NUMERIC</type>
+	<unit>MET-min/wk M-Su</unit>
+</variable>
+
+<variable id="phv00087624.v1">
+	<name>condmnfc</name>
+	<description>TOTAL CONDITIONING MIN/WK M-SU</description>
+	<type>NUMERIC</type>
+	<unit>min/wk M-Su</unit>
+	<comment>COMPUTED</comment>
+</variable>
+
+<variable id="phv00087625.v1">
+	<name>condmtfc</name>
+	<description>TOTAL CONDITIONING MET-MIN/WK M-SU</description>
+	<type>NUMERIC</type>
+	<unit>MET-min/wk M-Su</unit>
+	<comment>COMPUTED</comment>
+</variable>
+
+<variable id="phv00087626.v1">
+	<name>q16ilcnf</name>
+	<description>16: LIGHT LEISURE TV MIN/WK M-SU</description>
+	<type>NUMERIC</type>
+	<unit>min/wk M-Su</unit>
+</variable>
+
+<variable id="phv00087627.v1">
+	<name>q16ilcmf</name>
+	<description>16: LIGHT LEISURE TV MET-MIN/WK M-SU</description>
+	<type>NUMERIC</type>
+	<unit>MET-min/wk M-Su</unit>
+</variable>
+
+<variable id="phv00087628.v1">
+	<name>q17ilcnf</name>
+	<description>17: LIGHT LEISURE READ MIN/WK M-SU</description>
+	<type>NUMERIC</type>
+	<unit>min/wk M-Su</unit>
+</variable>
+
+<variable id="phv00087629.v1">
+	<name>q17ilcmf</name>
+	<description>17: LIGHT LEISURE READ MET-MIN/WK M-SU</description>
+	<type>NUMERIC</type>
+	<unit>MET-min/wk M-Su</unit>
+</variable>
+
+<variable id="phv00087630.v1">
+	<name>leismnfc</name>
+	<description>TOTAL LEISURE MIN/WK M-SU</description>
+	<type>NUMERIC</type>
+	<unit>min/wk M-Su</unit>
+	<comment>COMPUTED</comment>
+</variable>
+
+<variable id="phv00087631.v1">
+	<name>leismtfc</name>
+	<description>TOTAL LEISURE MET-MIN/WK M-SU</description>
+	<type>NUMERIC</type>
+	<unit>MET-min/wk M-Su</unit>
+	<comment>COMPUTED</comment>
+</variable>
+
+<variable id="phv00087632.v1">
+	<name>q18jynf</name>
+	<description>WORK TO EARN MONEY?</description>
+	<type>NUMERIC</type>
+</variable>
+
+<variable id="phv00087633.v1">
+	<name>q19wcnf</name>
+	<description>19: TOTAL WORK (Q19) MIN/WK M-SU</description>
+	<type>NUMERIC</type>
+	<unit>min/wk M-Su</unit>
+</variable>
+
+<variable id="phv00087634.v1">
+	<name>q20jlcnf</name>
+	<description>20: LIGHT WORK SITTING MIN/WK M-SU</description>
+	<type>NUMERIC</type>
+	<unit>min/wk M-Su</unit>
+</variable>
+
+<variable id="phv00087635.v1">
+	<name>q20jlcmf</name>
+	<description>20: LIGHT WORK SITTING MET-MIN/WK M-SU</description>
+	<type>NUMERIC</type>
+	<unit>MET-min/wk M-Su</unit>
+</variable>
+
+<variable id="phv00087636.v1">
+	<name>q21jlcnf</name>
+	<description>21: LIGHT WORK STANDING MIN/WK M-SU</description>
+	<type>NUMERIC</type>
+	<unit>min/wk M-Su</unit>
+</variable>
+
+<variable id="phv00087637.v1">
+	<name>q21jlcmf</name>
+	<description>21: LIGHT WORK STANDING MET-MIN/WK M-SU</description>
+	<type>NUMERIC</type>
+	<unit>MET-min/wk M-Su</unit>
+</variable>
+
+<variable id="phv00087638.v1">
+	<name>q22jmcnf</name>
+	<description>22: MODERATE WORK MIN/WK M-SU</description>
+	<type>NUMERIC</type>
+	<unit>min/wk M-Su</unit>
+</variable>
+
+<variable id="phv00087639.v1">
+	<name>q22jmcmf</name>
+	<description>22: MODERATE WORK MET-MIN/WK M-SU</description>
+	<type>NUMERIC</type>
+	<unit>MET-min/wk M-Su</unit>
+</variable>
+
+<variable id="phv00087640.v1">
+	<name>q23jvcnf</name>
+	<description>23: VIGOROUS WORK MIN/WK M-SU</description>
+	<type>NUMERIC</type>
+	<unit>min/wk M-Su</unit>
+</variable>
+
+<variable id="phv00087641.v1">
+	<name>q23jvcmf</name>
+	<description>23: VIGOROUS WORK MET-MIN/WK M-SU</description>
+	<type>NUMERIC</type>
+	<unit>MET-min/wk M-Su</unit>
+</variable>
+
+<variable id="phv00087642.v1">
+	<name>occmnfc</name>
+	<description>TOTAL WORK MIN M-SU/WK</description>
+	<type>NUMERIC</type>
+	<unit>min/wk M-Su</unit>
+	<comment>COMPUTED</comment>
+</variable>
+
+<variable id="phv00087643.v1">
+	<name>occmtfc</name>
+	<description>TOTAL WORK MET-MIN/WK M-SU</description>
+	<type>NUMERIC</type>
+	<unit>MET-min/wk M-Su</unit>
+	<comment>COMPUTED</comment>
+</variable>
+
+<variable id="phv00087644.v1">
+	<name>q24uynf</name>
+	<description>24: WORK AS A VOLUNTEER?</description>
+	<type>NUMERIC</type>
+</variable>
+
+<variable id="phv00087645.v1">
+	<name>q25ulcnf</name>
+	<description>25: LIGHT VOLUNTEER MIN/WK M-SU</description>
+	<type>NUMERIC</type>
+	<unit>min/wk M-Su</unit>
+</variable>
+
+<variable id="phv00087646.v1">
+	<name>q25ulcmf</name>
+	<description>25: LIGHT VOLUNTEER MET-MIN/WK M-SU</description>
+	<type>NUMERIC</type>
+	<unit>MET-min/wk M-Su</unit>
+</variable>
+
+<variable id="phv00087647.v1">
+	<name>q26umcnf</name>
+	<description>26: MODERATE VOLUNTEER MIN/WK M-SU</description>
+	<type>NUMERIC</type>
+	<unit>min/wk M-Su</unit>
+</variable>
+
+<variable id="phv00087648.v1">
+	<name>q26umcmf</name>
+	<description>26: MODERATE VOLUNTEER MET-MIN/WK M-SU</description>
+	<type>NUMERIC</type>
+	<unit>MET-min/wk M-Su</unit>
+</variable>
+
+<variable id="phv00087649.v1">
+	<name>q27uvcnf</name>
+	<description>27: VIGOROUS VOLUNTEER MIN/WK M-SU</description>
+	<type>NUMERIC</type>
+	<unit>min/wk M-Su</unit>
+</variable>
+
+<variable id="phv00087650.v1">
+	<name>q27uvcmf</name>
+	<description>27: VIGOROUS VOLUNTEER MET-MIN/WK M-SU</description>
+	<type>NUMERIC</type>
+	<unit>MET-min/wk M-Su</unit>
+</variable>
+
+<variable id="phv00087651.v1">
+	<name>volmnfc</name>
+	<description>TOTAL VOLUNTEER MIN/WK M-SU</description>
+	<type>NUMERIC</type>
+	<unit>min/wk M-Su</unit>
+	<comment>COMPUTED</comment>
+</variable>
+
+<variable id="phv00087652.v1">
+	<name>volmtfc</name>
+	<description>TOTAL VOLUNTEER MET-MIN/WK M-SU</description>
+	<type>NUMERIC</type>
+	<unit>MET-min/wk M-Su</unit>
+	<comment>COMPUTED</comment>
+</variable>
+
+<variable id="phv00087653.v1">
+	<name>wlkpacef</name>
+	<description>WALKING PACE OUTSIDE HOME</description>
+	<type>NUMERIC</type>
+	<value code="0">NO WALKING AT ALL</value>
+	<value code="1">CASUAL STROLLING (&lt;2 MPH)</value>
+	<value code="2">AVERAGE OR NORMAL (2-3 MPH)</value>
+	<value code="3">FAIRLY BRISKLY (4-5 MPH)</value>
+	<value code="4">BRISK OR STRIDING (&gt;5 MPH)</value>
+</variable>
+
+<variable id="phv00087654.v1">
+	<name>pahrdyfc</name>
+	<description>REPORTED TOTAL PA HOURS PER DAY</description>
+	<type>NUMERIC</type>
+	<unit>hours per day</unit>
+	<comment>COMPUTED</comment>
+</variable>
+
+<variable id="phv00087655.v1">
+	<name>wkhrdyfc</name>
+	<description>REPORTED TOTAL WORK HOURS PER WEEK</description>
+	<type>NUMERIC</type>
+	<unit>hours per week</unit>
+	<comment>COMPUTED</comment>
+</variable>
+
+<variable id="phv00087656.v1">
+	<name>exercmfc</name>
+	<description>TOTAL INTENTIONAL EXERCISE (Q9-15) MET-MIN/WK</description>
+	<type>NUMERIC</type>
+	<unit>MET-min/wk M-Su</unit>
+	<comment>COMPUTED</comment>
+</variable>
+
+<variable id="phv00087657.v1">
+	<name>mpmomtfc</name>
+	<description>TOTAL MODERATE MET-MIN/WK M-SU</description>
+	<type>NUMERIC</type>
+	<unit>MET-min/wk M-Su</unit>
+	<comment>COMPUTED</comment>
+</variable>
+
+<variable id="phv00087658.v1">
+	<name>mpvgmtfc</name>
+	<description>TOTAL VIGOROUS MET-MIN/WK M-SU</description>
+	<type>NUMERIC</type>
+	<unit>MET-min/wk M-Su</unit>
+	<comment>COMPUTED</comment>
+</variable>
+
+<variable id="phv00087659.v1">
+	<name>scrhispf</name>
+	<description>SPANISH/HISPANIC/LATINO</description>
+	<type>NUMERIC</type>
+</variable>
+
+<variable id="phv00087660.v1">
+	<name>scrblackf</name>
+	<description>AFRICAN-AMERICAN OR BLACK</description>
+	<type>NUMERIC</type>
+</variable>
+
+<variable id="phv00087661.v1">
+	<name>crpf</name>
+	<description>C-REACTIVE PROTEIN (CRP), (mg/L)</description>
+	<type>NUMERIC</type>
+	<unit>mg/L</unit>
+</variable>
+
+<variable id="phv00087662.v1">
+	<name>crpft</name>
+	<description>NATURAL LOG TRANSFORMED C-REACTIVE PROTEIN (CRP)</description>
+	<type>NUMERIC</type>
+	<comment>COMPUTED</comment>
+</variable>
+
+<variable id="phv00087663.v1">
+	<name>ddimerf</name>
+	<description>D-DIMER, (ug/mL)</description>
+	<type>NUMERIC</type>
+	<unit>ug/mL</unit>
+</variable>
+
+<variable id="phv00087664.v1">
+	<name>ddimerft</name>
+	<description>NATURAL LOG TRANSFORMED D-DIMER</description>
+	<type>NUMERIC</type>
+	<comment>COMPUTED</comment>
+</variable>
+
+<variable id="phv00087665.v1">
+	<name>ddimerfm</name>
+	<description>EXCEPTIONAL MISSING DDIMER</description>
+	<type>NUMERIC</type>
+	<comment>COMPUTED</comment>
+	<value code="-888.00">INSUFFICIENT VOLUME</value>
+	<value code="-777.00">INVALID (UNREPORTABLE) RESULT</value>
+	<value code="-555.00">HIGH &gt; 4.0</value>
+	<value code="-333.00">LOW &lt; 0.01</value>
+	<value code="0.01">EXTREME LOW (EXTRAPOLATED)</value>
+	<value code="0.02">LOW (EXTRAPOLATED)</value>
+	<value code="0.03">LOW (EXTRAPOLATED)</value>
+	<value code="0.04">LOW (EXTRAPOLATED)</value>
+	<value code="0.05">LOW (EXTRAPOLATED)</value>
+	<value code="20.00">HIGH (&gt; 20, EXTRA</value>
+</variable>
+
+<variable id="phv00128698.v1">
+	<name>rcfwmnf</name>
+	<description>RIGHT COMMON CAROTID FAR WALL MEAN</description>
+	<type>NUMERIC</type>
+</variable>
+
+</data_table>

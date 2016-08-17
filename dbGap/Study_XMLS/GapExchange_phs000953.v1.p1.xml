@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GaPExchange xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="./dbGaPEx2.1.5.xsd">
+
+<MetaVariables>
+	<Submitter/>
+	<Method/>
+</MetaVariables>
+<MetaLinks/>
+
+<Projects>
+	<Project/>
+</Projects>
+
+<Studies>
+
+<Study source="dbGaP" accession="phs000953.v1.p1" parentStudy="phs000953.v1.p1" createDate="2015-07-10" modDate="2015-07-24">
+
+<Configuration>
+	<Data_Provider><![CDATA[
+		<table border="1">
+		<tr><th>Title</th><th>Name</th><th>Institute</th></tr>
+		<tr><td>Principal Investigator</td><td>Agnieszka Witkiewicz</td><td>University of Texas Southwestern Medical Center, Dallas, TX, USA</td></tr>
+		<tr><td>Co-Investigator</td><td>Erik Knudsen</td><td>University of Texas Southwestern Medical Center, Dallas, TX, USA</td></tr>
+		</table>
+	]]></Data_Provider>
+	<StudyNameEntrez>Microdissected Pancreatic Cancer Whole Exome Sequencing</StudyNameEntrez>
+	<StudyNameReportPage>Microdissected Pancreatic Cancer Whole Exome Sequencing</StudyNameReportPage>
+	<StudyTypes>
+		<StudyType>Longitudinal Cohort</StudyType>
+	</StudyTypes>
+	<Description><![CDATA[
+<p>109 micro-dissected pancreatic cancer cases and normal control tissue were subjected to whole-exome sequencing. Microdissection enriches tumor cellularity and enhances mutation calling.</p>]]>
+	</Description>
+	<StudyInEx><![CDATA[
+<p>Inclusion: Diagnosis of pancreatic cancer with sufficient available tumor tissue and normal control.</p>]]>
+	</StudyInEx>
+	<StudyProjects>
+		<Project/>
+	</StudyProjects>
+	<Publications>
+		<Publication>
+			<Pubmed pmid="25855536"/>
+		</Publication>
+	</Publications>
+	<Diseases>
+		<Disease vocab_source="MESH" vocab_term="Pancreatic Neoplasms"/>
+	</Diseases>
+	<Attributions>
+		<Header title="Principal Investigator">
+			<AttName>Agnieszka Witkiewicz</AttName>
+			<Institution>University of Texas Southwestern Medical Center, Dallas, TX, USA</Institution>
+		</Header>
+		<Header title="Co-Investigator">
+			<AttName>Erik Knudsen</AttName>
+			<Institution>University of Texas Southwestern Medical Center, Dallas, TX, USA</Institution>
+		</Header>
+	</Attributions>
+	<DisplayPublicSummary>yes</DisplayPublicSummary>
+	<ConsentGroups>
+		<ConsentGroup groupNum="1" shortName="DS-PACA-IRB-NPU-MDS" longName="Disease-Specific (Pancreatic Cancer, IRB, NPU, MDS)"/>
+	</ConsentGroups>
+</Configuration>
+
+  <AuthorizedAccess>
+    <DacInfo ssDacId="0">
+      <DacName>NCI</DacName>
+      <DacFullName>NCI</DacFullName>
+      <DacEmail>0</DacEmail>
+      <DacPhone></DacPhone>
+      <DacUrl></DacUrl>
+    </DacInfo>
+    <Policy Policy_ID="phs000953.v1.p1_policy" ref_ssDacId="0">
+      <DisplayResearchStatement>yes</DisplayResearchStatement>
+      <DisplayPublicSummary>yes</DisplayPublicSummary>
+      <EmbargoLength>0</EmbargoLength>
+      <YearsUntilRenewal>1</YearsUntilRenewal>
+      <WeeksCancelRequest>8</WeeksCancelRequest>
+      <PdfSupplementReqired>yes</PdfSupplementReqired>
+      <AcknowledgementText>
+        <para>
+          http://dbgap.ncbi.nlm.nih.gov/aa/wga.cgi?page=DUC&amp;view_pdf&amp;stacc=phs000953.v1.p1
+        </para>
+      </AcknowledgementText>
+      <DocumentSet>
+        <DataUseCertificate Label="Data Use Certificate" FilePath="https://dbgap.ncbi.nlm.nih.gov/aa/wga.cgi?page=DUC&amp;view_pdf&amp;stacc=phs000953.v1.p1" FileName=""/>
+      </DocumentSet>
+    </Policy>
+    <ConsentGroups>
+      <ParticipantSet groupNum-REF="1">
+        <ConsentName>Disease-Specific (Pancreatic Cancer, IRB, NPU, MDS)</ConsentName>
+        <ConsentAbbrev>DS-PACA-IRB-NPU-MDS</ConsentAbbrev>
+        <UseLimitation>Use of the data must be related to Pancreatic Cancer.
+Requestor must provide documentation of local IRB approval.
+Use of the data is limited to not-for-profit organizations.
+Use of the data includes methods development research (e.g., development of software or algorithms).</UseLimitation>
+        <IrbRequired>Yes</IrbRequired>
+      </ParticipantSet>
+    </ConsentGroups>
+  </AuthorizedAccess>
+
+
+</Study>
+
+</Studies>
+
+</GaPExchange>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./datadict_v2.xsl"?>
+<data_table id="pht000693.v2" study_id="phs000007.v13" participant_set="5" date_created="Mon Feb 28 17:30:52 2011">
+
+<variable id="phv00070737.v1">
+	<name>STOP_AGE</name>
+	<description>AGE WHEN PERIODS REPORTED STOPPED FOR ONE YEAR OR MORE (YEARS) FOR HYSTERECTOMY, STOP_AGE = SURGERY AGE</description>
+	<type> </type>
+	<unit>YEARS</unit>
+	<value code="0">periods not stopped for one year or more</value>
+	<value code=".">unknown</value>
+</variable>
+
+<variable id="phv00070738.v1">
+	<name>CAUSE</name>
+	<description>CAUSE OF PERIODS STOPPED</description>
+	<type> </type>
+	<value code="0">not stopped</value>
+	<value code="1">natural</value>
+	<value code="2">surgical</value>
+	<value code="3">other (for example radiation, chemo, etc.)</value>
+	<value code=".">unknown</value>
+</variable>
+
+<variable id="phv00070739.v1">
+	<name>STOP</name>
+	<description>STATUS OF PERIODS AT EXAM 1</description>
+	<type> </type>
+	<value code="1">periods stopped for one year or more</value>
+	<value code="2">periods stopped &lt; 1 year</value>
+	<value code=".">unknown</value>
+</variable>
+
+<variable id="phv00070740.v1">
+	<name>EST</name>
+	<description>CURRENT HORMONE REPLACEMENT ESTROGEN USE AT EXAM 1 (DOES NOT INCLUDE ORAL CONTRACEPTIVES)</description>
+	<type> </type>
+	<value code="0">no</value>
+	<value code="1">yes, current user</value>
+	<value code=".">unknown</value>
+</variable>
+
+<variable id="phv00070741.v1">
+	<name>OVREM</name>
+	<description>REPORT OF NUMBER OF OVARIES REMOVED AT EXAM 1 (FOR AGE OVARY REMOVED SEE GENERATION 3 EXAM 1 DATA SET)</description>
+	<type> </type>
+	<value code="0">no ovaries removed</value>
+	<value code="1">one ovary removed</value>
+	<value code="2">two ovaries removed</value>
+	<value code=".">unknown</value>
+</variable>
+
+<variable id="phv00070742.v1">
+	<name>IDTYPE</name>
+	<description>COHORT IDENTIFIER</description>
+	<type> </type>
+	<value code="0">ORIGINAL COHORT GROUP</value>
+	<value code="1">OFFSPRING GROUP</value>
+	<value code="2">NEW OFFSPRING SPOUSE</value>
+	<value code="3">GENERATION 3</value>
+</variable>
+
+<variable id="phv00070743.v1">
+	<name>shareid</name>
+	<description>UNIQUE PARTICIPANT ID</description>
+	<type> </type>
+</variable>
+
+</data_table>

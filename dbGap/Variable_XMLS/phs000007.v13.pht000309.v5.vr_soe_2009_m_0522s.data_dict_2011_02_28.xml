@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./datadict_v2.xsl"?>
+<data_table id="pht000309.v5" study_id="phs000007.v13" participant_set="5" date_created="Mon Feb 28 17:27:49 2011">
+
+<unique_key phv="00036469" version="4">EVENT</unique_key>
+<unique_key phv="00036471" version="4">date</unique_key>
+<unique_key phv="00036472" version="4">shareid</unique_key>
+
+<variable id="phv00036469.v4">
+	<name>EVENT</name>
+	<description>Event Number</description>
+	<type>encoded</type>
+	<coll_interval>Reviewed through 2009</coll_interval>
+	<value code="1">MI recognized, with diagnostic ECG</value>
+	<value code="2">MI recognized, without diagnostic ECG, with enzymes and history</value>
+	<value code="3">MI recognized, without diagnostic ECG, with autopsy evidence, new event (see also code 9)</value>
+	<value code="4">MI unrecognized, silent</value>
+	<value code="5">MI unrecognized, not silent</value>
+	<value code="6">AP, first episode only</value>
+	<value code="7">CI, definite by both history and ECG</value>
+	<value code="8">Questionable MI at exam 1</value>
+	<value code="9">MI acute autopsy, not a new event</value>
+	<value code="10">Definite CVA at exam 1, but questionable type</value>
+	<value code="11">ABI</value>
+	<value code="12">TIA (only the first is coded)</value>
+	<value code="13">Cerebral embolism</value>
+	<value code="14">Intracerebral hemorrhage</value>
+	<value code="15">Subarachnoid hemorrhage</value>
+	<value code="16">Other CVA</value>
+	<value code="19">Questionable CVA at exam 1 (date of exam 1, unless date available)</value>
+	<value code="20">Death, not reviewed</value>
+	<value code="21">Death, CHD sudden, within 1 hour</value>
+	<value code="22">Death, CHD, 1 - 23 hours, nonsudden</value>
+	<value code="23">Death, CHD, 24 - 47 hours, nonsudden</value>
+	<value code="24">Death, CHD, 48 hours or more, nonsudden</value>
+	<value code="25">Death, CVA</value>
+	<value code="26">Death, other CVD</value>
+	<value code="27">Death, Cancer</value>
+	<value code="28">Death, other causes</value>
+	<value code="29">Death, cause unknown</value>
+	<value code="30">IC, date midpoint of interval as AP, also date only first event</value>
+	<value code="39">Questionable IC at exam 1</value>
+	<value code="40">CHF not hospitalized, diagnosed on basis of exam or MD notes</value>
+	<value code="41">CHF hospitalized</value>
+	<value code="49">Questionable CHF at exam 1</value>
+</variable>
+
+<variable id="phv00036470.v4">
+	<name>IDTYPE</name>
+	<description>Framingham Cohort Identifier</description>
+	<type>integer, encoded</type>
+	<coll_interval>Reviewed through 2009</coll_interval>
+	<value code="0">Original Cohort</value>
+	<value code="1">Offspring Cohort</value>
+	<value code="2">New Offspring Spouse Cohort</value>
+	<value code="3">Generation 3 Cohort</value>
+	<value code="7">Omni Group 1 Cohort</value>
+	<value code="72">Omni Group 2 Cohort</value>
+</variable>
+
+<variable id="phv00036471.v4">
+	<name>date</name>
+	<description>Date of Event</description>
+	<type>integer</type>
+	<unit>days</unit>
+	<logical_min>-8824</logical_min>
+	<logical_max>21998</logical_max>
+	<coll_interval>Reviewed through 2009</coll_interval>
+	<comment>When exact date is unavailable, an approximate date or a midpoint date between two exams, two medical encounters or exam and medical encounter may be used.
+		Number of days since exam 1. </comment>
+</variable>
+
+<variable id="phv00036472.v4">
+	<name>shareid</name>
+	<description>FHS Particicpand SHARe ID Number</description>
+	<type>integer</type>
+	<coll_interval>Reviewed through 2009</coll_interval>
+</variable>
+
+</data_table>

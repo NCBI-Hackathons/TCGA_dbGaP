@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./datadict_v2.xsl"?>
+<data_table id="pht000899.v1" study_id="phs000210.v1" participant_set="1" date_created="Tue Oct 13 14:05:46 2009">
+
+<unique_key phv="00076279" version="1">id</unique_key>
+<unique_key phv="00076323" version="1">key</unique_key>
+
+<variable id="phv00076279.v1">
+	<name>id</name>
+	<description>Anonymous  ID number</description>
+	<type>integer</type>
+</variable>
+
+<variable id="phv00076280.v1">
+	<name>Form_TYP</name>
+	<description>Form Type: F5, F5S, OPT</description>
+	<type>string</type>
+	<comment>&lt;/br&gt;&lt;b&gt;F5 - Follow-Up Report:&lt;/b&gt;  to be completed for all patients every 6 months during the first year and then annually for as long as patient is taking study drug (submit within 6 weeks of the date the patient was seen in clinic)&lt;/br&gt; &lt;b&gt;F5S - Short Follow-Up Report:&lt;/b&gt;  to be submitted annually after the last dose of protocol therapy (submit within 6 weeks of date of clinical assessment)&lt;/br&gt; &lt;b&gt;F5S - Short Follow-Up Report:&lt;/b&gt;  to be submitted annually after the last dose of protocol therapy (submit within 6 weeks of date of clinical assessment)</comment>
+	<value code="F5">Follow-Up Report:  to be completed for all patients every 6 months during the first year and then annually for as long as patient is taking study drug (submit within 6 weeks of the date the patient was seen in clinic)</value>
+	<value code="F5S">Short Follow-Up Report:  to be submitted annually after the last dose of protocol therapy (submit within 6 weeks of date of clinical assessment)</value>
+	<value code="OPT">Off Treatment:  to be completed at the end of protocol therapy (submitted within 2 weeks of the last date protocol therapy was taken)</value>
+</variable>
+
+<variable id="phv00076281.v1">
+	<name>Form_yr</name>
+	<description>Form year</description>
+	<type>integer</type>
+	<unit>Year</unit>
+	<comment>&lt;/br&gt;Form date was reduced down to year only for dbGaP submission</comment>
+</variable>
+
+<variable id="phv00076282.v1">
+	<name>adverse_event</name>
+	<description>Adverse Event name/term</description>
+	<type>string</type>
+	<comment>&lt;/br&gt;Multiple adverse event descriptions were provided (values not listed out)</comment>
+</variable>
+
+<variable id="phv00076283.v1">
+	<name>length</name>
+	<description>Number of days from entry onto study until adverse event</description>
+	<type>integer</type>
+	<unit>Days</unit>
+</variable>
+
+<variable id="phv00076284.v1">
+	<name>GRADE</name>
+	<description><![CDATA[Grade of toxicity according to <a href="http://ctep.cancer.gov/protocolDevelopment/electronic_applications/docs/ctcaev3.pdf">NCI Common Terminology Criteria for Adverse Events v3.0.</a> Please find the description of variable&#39;s codes "1," "2," "3," and "4" at <a href="http://ctep.cancer.gov/protocolDevelopment/electronic_applications/docs/ctcaev3.pdf#page=44"> page 43</a>]]></description>
+	<type>integer</type>
+	<comment><![CDATA[</br>See <a href="http://ctep.cancer.gov/protocolDevelopment/electronic_applications/docs/ctcaev3.pdf#page=44"> page 43</a>  of <a href="http://ctep.cancer.gov/protocolDevelopment/electronic_applications/docs/ctcaev3.pdf"> the document </a>]]></comment>
+	<value code="1">1</value>
+	<value code="2">2</value>
+	<value code="3">3</value>
+	<value code="4">4</value>
+</variable>
+
+<variable id="phv00076285.v1">
+	<name>led_withdrawal</name>
+	<description>Indicator of whether or not AE (Adverse Events) led to withdrawal from study</description>
+	<type>string</type>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00076323.v1">
+	<name>key</name>
+	<description>Unique key for event observations</description>
+	<type>integer</type>
+	<comment>&lt;/br&gt;Needed a unique key since there are multiple events per subject</comment>
+</variable>
+
+</data_table>

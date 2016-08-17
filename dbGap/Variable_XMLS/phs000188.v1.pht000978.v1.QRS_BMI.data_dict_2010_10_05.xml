@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./datadict_v2.xsl"?>
+<data_table id="pht000978.v1" study_id="phs000188.v1" participant_set="1" date_created="Tue Oct  5 17:20:42 2010">
+
+<unique_key phv="00077294" version="1">SUBJID</unique_key>
+<unique_key phv="00077296" version="1">WEIGHT</unique_key>
+<unique_key phv="00077298" version="1">AGE_OBSERVATION</unique_key>
+
+<variable id="phv00077294.v1">
+	<name>SUBJID</name>
+	<description>Unique Subject ID</description>
+	<type>integer</type>
+</variable>
+
+<variable id="phv00077295.v1">
+	<name>BODY_MASS_INDEX</name>
+	<description>Subject&#39;s BMI over time</description>
+	<type>decimal</type>
+	<unit>Kg/m2</unit>
+	<logical_min>15</logical_min>
+	<logical_max>70</logical_max>
+	<comment><![CDATA[Non-pregnant BMIs (do not include BMIs during pregnancy or 9 months after pregnancy); calculate BMI whenever there is a distinct weight using the closest height (forward or backward) up to 5 years.  If the subject&apos;s age at weight observation is &#60; 20Kg, go forward or backwards up to a year; if there are 2 closest heights (froward or backward), select either of them to calculate BMI.
+		External variable resource: caBig; source ID: <a href="http://ncit.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI%20Thesaurus&code=C16358">C16358</a> ]]></comment>
+	<value code=".">Missing</value>
+	<value code="NA">Not Assessed</value>
+</variable>
+
+<variable id="phv00077296.v1">
+	<name>WEIGHT</name>
+	<description>Subject&#39;s weight in kilograms over time</description>
+	<type>decimal</type>
+	<unit>Kg</unit>
+	<logical_min>37</logical_min>
+	<logical_max>200</logical_max>
+	<comment><![CDATA[Non-pregnant weights (do not include weights during pregnancy or 9 months after pregnancy).
+		External variable resource: caBig; source ID: <a href="http://ncit.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI%20Thesaurus&code=C25208">C25208</a> ]]></comment>
+	<value code=".">Missing</value>
+	<value code="NA">Not Assessed</value>
+</variable>
+
+<variable id="phv00077297.v1">
+	<name>HEIGHT</name>
+	<description>Subject&#39;s height in cm over time</description>
+	<type>decimal</type>
+	<unit>Cm</unit>
+	<logical_min>102</logical_min>
+	<logical_max>211</logical_max>
+	<comment><![CDATA[One observation age corresponds to one height.  If more than one height value is available for the same observation age, use the <b>median</b> value.
+		External variable resource: caBig; source ID: <a href="http://ncit.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI%20Thesaurus&code=C25347">C25347</a> ]]></comment>
+	<value code=".">Missing</value>
+	<value code="NA">Not Assessed</value>
+</variable>
+
+<variable id="phv00077298.v1">
+	<name>AGE_OBSERVATION</name>
+	<description>Age when clinical event was recorded in record</description>
+	<type>integer</type>
+	<unit>Years</unit>
+	<logical_min>12</logical_min>
+	<logical_max>96</logical_max>
+	<value code=".">Missing</value>
+	<value code="NA">Not Assessed</value>
+</variable>
+
+</data_table>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./datadict_v2.xsl"?>
+<data_table id="pht000708.v1" study_id="phs000168.v1" participant_set="1" date_created="Fri Sep 18 11:27:32 2009">
+
+<variable id="phv00071313.v1">
+	<name>SUBJ_NO</name>
+	<description>Subject ID</description>
+	<type>integer</type>
+	<comment>De-identified ID, unique subject ID for dbGaP</comment>
+</variable>
+
+<variable id="phv00071314.v1">
+	<name>CONSENT</name>
+	<description>Consent group of subjects: 0 = Subjects did not participate in the study, did not complete a consent document and are included only for the pedigree structure and / or genotype controls, such as HapMap subjects; 1 = Subject consented to Alzheimer disease research conducted by non-profit and for-profit (pharmaceutical and biotechnology companies) organizations. Consented to genetic research of any human diseases conducted by non-profit and for-profit (pharmaceutical and biotechnology companies) organizations (GRU - General Research Use); 2 = Subject consented to Alzheimer disease research and genetic research of any human disease at non-profit organizations only (NPU - Non-Profit Organization Use); 3 = Subject consented to Alzheimer disease research only at non-profit and for-profit (pharmaceutical and biotechnology companies) organizations (Alz_only - Alzheimer Only); 4 = Consented to Alzheimer disease research only at non-profit organizations (Alz_NPU - Alzheimer_Non-Profit Organization Use)</description>
+	<value code="0">Subjects did not participate in the study, did not complete a consent document and are included only for the pedigree structure and/or genotype controls, such as HapMap subjects</value>
+	<value code="1">General Research Use (GRU )</value>
+	<value code="2">Non-Profit Organization Use (NPU)</value>
+	<value code="3">Alzheimer Only (Alz_only)</value>
+	<value code="4">Alzheimer_Non-Profit Organization Use (Alz_NPU)</value>
+</variable>
+
+<variable id="phv00071315.v1">
+	<name>Subject_Source</name>
+	<description>Source repository where subjects originate</description>
+</variable>
+
+<variable id="phv00071316.v1">
+	<name>Source_Subject_ID</name>
+	<description>Subject ID used in the Source Repository</description>
+</variable>
+
+<variable id="phv00076319.v1">
+	<name>Consent_Source</name>
+	<description>Name of repository the sample originated from</description>
+</variable>
+
+<variable id="phv00076320.v1">
+	<name>Affection_Status</name>
+	<description>Affection status (same as &quot;Case_Control&quot; variable in phenotype file)</description>
+</variable>
+
+</data_table>

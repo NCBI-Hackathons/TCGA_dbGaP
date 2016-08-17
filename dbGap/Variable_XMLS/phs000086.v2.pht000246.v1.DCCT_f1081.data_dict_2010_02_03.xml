@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./datadict_v2.xsl"?>
+<data_table id="pht000246.v1" study_id="phs000086.v2" participant_set="1" date_created="Wed Feb  3 09:15:51 2010">
+
+<variable id="phv00030052.v1">
+	<name>FSASDATE</name>
+	<description>Form date as SAS date value</description>
+	<type>long</type>
+</variable>
+
+<variable id="phv00030053.v1">
+	<name>FORM</name>
+	<description>DCCT form number</description>
+	<type>int</type>
+	<unit>FORM NUMBER</unit>
+</variable>
+
+<variable id="phv00030054.v1">
+	<name>JHCODE</name>
+	<description>Related to patient as: father, mother, sibling</description>
+	<type>str3</type>
+	<value code="3">THIRD CHILD</value>
+	<value code="4">FOURTH CHILD</value>
+	<value code="6">SIXTH CHILD</value>
+	<value code="7">SEVENTH CHILD</value>
+	<value code="8">EIGHTH CHILD</value>
+	<value code="9">NINTH CHILD</value>
+	<value code="C1">FIRST CHILD</value>
+	<value code="C2">SECOND CHILD</value>
+	<value code="C5">FIFTH CHILD</value>
+	<value code="FA">FATHER</value>
+	<value code="HU">HUSBAND</value>
+	<value code="MO">MOTHER</value>
+	<value code="PT">PATIENT</value>
+	<value code="S1">OLDEST SIBLING</value>
+	<value code="S2">SECOND-OLDEST SIBLING</value>
+	<value code="S3">THIRD-OLDEST SIBLING</value>
+	<value code="WI">WIFE</value>
+</variable>
+
+<variable id="phv00030055.v1">
+	<name>JHDIAKID</name>
+	<description>Patient has diabetic offspring</description>
+	<type>str1</type>
+	<value code="M">MISSING/ERROR VALUE</value>
+	<value code="N">NO</value>
+	<value code="Y">YES</value>
+</variable>
+
+<variable id="phv00030056.v1">
+	<name>JHSEX</name>
+	<description>Relative is male or female</description>
+	<type>str1</type>
+	<value code="F">FEMALE</value>
+	<value code="M">MALE</value>
+	<value code="S">MISSING/ERROR VALUE</value>
+	<value code="X">MISSING/ERROR VALUE/N.A.</value>
+</variable>
+
+<variable id="phv00030057.v1">
+	<name>JHPARENT</name>
+	<description>Relative has same biological parents</description>
+	<type>str1</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+	<value code="X">N.A./MISSING/ERROR VALUE</value>
+</variable>
+
+<variable id="phv00030058.v1">
+	<name>JHDOB</name>
+	<description>Relative&#39;s date of birth</description>
+	<type>str6</type>
+</variable>
+
+<variable id="phv00030059.v1">
+	<name>JHPAGE</name>
+	<description>Page 1 or page 2 of questionnaire</description>
+	<type>byte</type>
+	<unit>PAGE</unit>
+</variable>
+
+<variable id="phv00030060.v1">
+	<name>JHLIVING</name>
+	<description>Relative is living no/yes</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+</variable>
+
+<variable id="phv00030061.v1">
+	<name>JHCURAGE</name>
+	<description>Relative&#39;s current age or age at death</description>
+	<type>byte</type>
+	<unit>YEARS</unit>
+</variable>
+
+<variable id="phv00030062.v1">
+	<name>JHDIABET</name>
+	<description>Relative is diabetic no/yes</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+</variable>
+
+<variable id="phv00030063.v1">
+	<name>JHDIAGN</name>
+	<description>Relative&#39;s age at diabetes diagnosis</description>
+	<type>byte</type>
+	<unit>YEARS</unit>
+</variable>
+
+<variable id="phv00030064.v1">
+	<name>JHINSUL</name>
+	<description>Relative&#39;s use of insulin no/yes</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+</variable>
+
+<variable id="phv00030065.v1">
+	<name>MASK_PAT</name>
+	<description>Patient ID number</description>
+	<type>int</type>
+</variable>
+
+</data_table>

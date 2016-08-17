@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./datadict_v2.xsl"?>
+<data_table id="pht001282.v1" study_id="phs000262.v1" participant_set="1" date_created="Fri May 28 14:29:36 2010">
+
+<unique_key phv="00091225" version="1">Patient ID</unique_key>
+<unique_key phv="00091226" version="1">Visit Name</unique_key>
+
+<variable id="phv00091225.v1">
+	<name>Patient ID</name>
+	<description>De-identified subject&#39;s ID</description>
+	<type>Integer</type>
+</variable>
+
+<variable id="phv00091226.v1">
+	<name>Visit Name</name>
+	<description>Visit number [1-10, P1, P2]</description>
+	<type>Integer, string</type>
+	<comment>P1=acute pouchitis visit before antibiotics
+		P2= acute pouchitis visit after antibiotics. </comment>
+</variable>
+
+<variable id="phv00091227.v1">
+	<name>New EIM</name>
+	<description>Has the patient ever had extraintestinal manifestations</description>
+	<type>String</type>
+</variable>
+
+<variable id="phv00091228.v1">
+	<name>Joint</name>
+	<description>Joint symptoms related to disease activity</description>
+	<type>String</type>
+</variable>
+
+<variable id="phv00091229.v1">
+	<name>AS/SI</name>
+	<description>Ankylosing spondylitiis/ sacro-ileitis</description>
+	<type>String</type>
+</variable>
+
+<variable id="phv00091230.v1">
+	<name>EN</name>
+	<description>Erythema nodosum</description>
+	<type>String</type>
+</variable>
+
+<variable id="phv00091231.v1">
+	<name>PG</name>
+	<description>Pyoderma gangrenosum</description>
+	<type>String</type>
+</variable>
+
+<variable id="phv00091232.v1">
+	<name>Oral</name>
+	<description>Oral aphthous ulcers</description>
+	<type>String</type>
+</variable>
+
+<variable id="phv00091233.v1">
+	<name>Ocular</name>
+	<description>Ocular inflammation</description>
+	<type>String</type>
+</variable>
+
+<variable id="phv00091234.v1">
+	<name>Osteo</name>
+	<description>Osteoporosis/osteopenia</description>
+	<type>String</type>
+</variable>
+
+<variable id="phv00091235.v1">
+	<name>PSC</name>
+	<description>Primary sclerosing cholangitis</description>
+	<type>String</type>
+</variable>
+
+<variable id="phv00091236.v1">
+	<name>Liver Other</name>
+	<description>Liver disease other than PSC</description>
+	<type>String</type>
+</variable>
+
+<variable id="phv00091237.v1">
+	<name>Steroids</name>
+	<description>Currently taking corticosteroids, topical or oral</description>
+	<type>String</type>
+</variable>
+
+<variable id="phv00091238.v1">
+	<name>5-ASA</name>
+	<description>Currently taking aminosalicylates, topical or oral</description>
+	<type>String</type>
+</variable>
+
+<variable id="phv00091239.v1">
+	<name>6MP</name>
+	<description>Currently taking 6-mercaptopurine</description>
+</variable>
+
+<variable id="phv00091240.v1">
+	<name>MTX</name>
+	<description>Currently taking methotrexate</description>
+	<type>String</type>
+</variable>
+
+<variable id="phv00091241.v1">
+	<name>Calcineurin</name>
+	<description>Currently taking calcineurin inhibitor (e.g. Cyclosprine)</description>
+	<type>String</type>
+</variable>
+
+<variable id="phv00091242.v1">
+	<name>Abic</name>
+	<description>Currently taking antibiotic</description>
+	<type>String</type>
+</variable>
+
+<variable id="phv00091243.v1">
+	<name>Anti-TNF</name>
+	<description>Currently taking anti-TNF alpha inhibitor</description>
+	<type>String</type>
+</variable>
+
+<variable id="phv00091244.v1">
+	<name>Abic prescribed</name>
+	<description>After endoscopy was antibiotic given to patient</description>
+	<type>String</type>
+</variable>
+
+<variable id="phv00091245.v1">
+	<name>PDAI</name>
+	<description>Pouchitis Disease Activity Index Score</description>
+	<type>Integar</type>
+	<logical_min>0</logical_min>
+	<logical_max>18</logical_max>
+	<comment>Pouchitis is defined as a total score of &gt;=7</comment>
+</variable>
+
+</data_table>

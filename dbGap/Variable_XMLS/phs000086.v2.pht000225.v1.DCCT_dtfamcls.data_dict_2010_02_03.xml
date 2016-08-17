@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./datadict_v2.xsl"?>
+<data_table id="pht000225.v1" study_id="phs000086.v2" participant_set="1" date_created="Wed Feb  3 09:16:23 2010">
+
+<variable id="phv00027098.v1">
+	<name>AGE</name>
+	<description>Patient&#39;s age at close-out</description>
+	<type>byte</type>
+	<unit>YEARS</unit>
+</variable>
+
+<variable id="phv00027099.v1">
+	<name>DURATION</name>
+	<description>Duration of diabetes at closeout (years)</description>
+	<type>float</type>
+	<unit>YEARS</unit>
+</variable>
+
+<variable id="phv00027100.v1">
+	<name>RELATION</name>
+	<description>Relation of subject to DCCT proband</description>
+	<type>str3</type>
+	<value code="C1">CHILD (first child, 2=second child, etc.)</value>
+	<value code="FA">FATHER</value>
+	<value code="MO">MOTHER</value>
+	<value code="PT">PATIENT</value>
+	<value code="S1">SIBLING (first sibling, 2=second sibling, etc.)</value>
+</variable>
+
+<variable id="phv00027101.v1">
+	<name>CLASS</name>
+	<description>Classification of diabetes (iddm/niddm)</description>
+	<type>str5</type>
+	<unit>IDDM/NIDDM</unit>
+</variable>
+
+<variable id="phv00027102.v1">
+	<name>GENDER</name>
+	<description>Subject&#39;s gender</description>
+	<type>byte</type>
+	<value code="1">MALE</value>
+	<value code="2">FEMALE</value>
+</variable>
+
+<variable id="phv00027103.v1">
+	<name>HT20</name>
+	<description>Hypertension observed at closeout</description>
+	<type>byte</type>
+	<value code="0">NO HYPERTENSION /CLOSEOUT</value>
+	<value code="1">HYPERTENTION/CLOSEOUT</value>
+</variable>
+
+<variable id="phv00027104.v1">
+	<name>DBP</name>
+	<description>Diastolic blood pressure at closeout</description>
+	<type>int</type>
+	<unit>MMHG</unit>
+</variable>
+
+<variable id="phv00027105.v1">
+	<name>SBP</name>
+	<description>Systolic blood pressure at closeout</description>
+	<type>int</type>
+	<unit>MMHG</unit>
+</variable>
+
+<variable id="phv00027106.v1">
+	<name>ETDRSPAT</name>
+	<description>ETDRS score at closeout</description>
+	<type>byte</type>
+	<unit>ETDRS SCORE</unit>
+</variable>
+
+<variable id="phv00027107.v1">
+	<name>RETANY</name>
+	<description>Presence of clinically significant macular edema (csme), laser surgery, ETDRS=47/&lt;47+</description>
+	<type>byte</type>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00027108.v1">
+	<name>NEPH2</name>
+	<description>Nephropathy - 1=(aer&lt;40) 2=(40&lt;=aer&lt;300) 3=renal event</description>
+	<type>byte</type>
+	<value code="1">AER &lt;40</value>
+	<value code="2">AER &lt;300</value>
+	<value code="3">RENAL EVENT</value>
+</variable>
+
+<variable id="phv00027109.v1">
+	<name>ANYMA</name>
+	<description>Any microaneurysm present at closeout</description>
+	<type>byte</type>
+	<value code="0">NO MICROANEURYSM/CLOSEOUT</value>
+	<value code="1">ANY MICROANEURYSM/CLOSEOUT</value>
+</variable>
+
+<variable id="phv00027110.v1">
+	<name>GROUP</name>
+	<description>DCCT treatment group (standard/experimental)</description>
+	<type>str12</type>
+	<value code="1">STANDARD TREATMENT</value>
+	<value code="2">EXPERIMENTAL TREATMENT</value>
+</variable>
+
+<variable id="phv00027111.v1">
+	<name>STATUS</name>
+	<description>Status of subject (living/dead)</description>
+	<type>str6</type>
+	<unit>STATUS</unit>
+</variable>
+
+<variable id="phv00027112.v1">
+	<name>AER</name>
+	<description>AER (mg/24hour) at closeout</description>
+	<type>float</type>
+	<unit>MG/24HOURS</unit>
+</variable>
+
+<variable id="phv00027113.v1">
+	<name>HBA</name>
+	<description>HbA1c value at closeout (glycemic index)</description>
+	<type>float</type>
+	<unit>PERCENT</unit>
+</variable>
+
+<variable id="phv00027114.v1">
+	<name>IBW</name>
+	<description>Percent of ideal body weight at closeout</description>
+	<type>float</type>
+	<unit>PERCENT</unit>
+</variable>
+
+<variable id="phv00027115.v1">
+	<name>MBP</name>
+	<description>Mean blood pressure at closeout</description>
+	<type>float</type>
+	<unit>MMHG</unit>
+</variable>
+
+<variable id="phv00027116.v1">
+	<name>RETBASE</name>
+	<description>Cohort of DCCT proband (primary/secondary cohort)</description>
+	<type>str4</type>
+	<unit>PRIMARY/SECONDARY COHORT</unit>
+</variable>
+
+<variable id="phv00027117.v1">
+	<name>PROBAND</name>
+	<description>Subject is DCCT proband or relative</description>
+	<type>byte</type>
+	<value code="0">RELATIVE</value>
+	<value code="1">DCCT PROBAND</value>
+</variable>
+
+<variable id="phv00027118.v1">
+	<name>AER40</name>
+	<description>AER value (mg/24hours) at closeout; 1 if AER &gt; 40 (MG/24HR)/CLOSEOUT</description>
+	<type>byte</type>
+	<value code="1">AER &gt; 40 (MG/24HR)/CLOSEOUT</value>
+</variable>
+
+<variable id="phv00027119.v1">
+	<name>LAER</name>
+	<description>Log of AER</description>
+	<type>float</type>
+	<unit>AER-LOG</unit>
+</variable>
+
+<variable id="phv00027120.v1">
+	<name>LETDRS</name>
+	<description>Log of ETDRS</description>
+	<type>float</type>
+	<unit>ETDRS-LOG</unit>
+</variable>
+
+<variable id="phv00027121.v1">
+	<name>RETRES</name>
+	<description>Residual of log ETDRS</description>
+	<type>float</type>
+	<unit>RESIDUAL OF LOG ETDRS</unit>
+</variable>
+
+<variable id="phv00027122.v1">
+	<name>RETRESTD</name>
+	<description>Standardized residual of log ETDRS</description>
+	<type>float</type>
+	<unit>STANDARDIZED RESIDUAL OF LOG ETDRS</unit>
+</variable>
+
+<variable id="phv00027123.v1">
+	<name>AERES</name>
+	<description>Residual of log AER</description>
+	<type>float</type>
+	<unit>RESIDUAL OF LOG AER</unit>
+</variable>
+
+<variable id="phv00027124.v1">
+	<name>AERESTD</name>
+	<description>Standardized residual of log AER</description>
+	<type>float</type>
+	<unit>STANDARDIZED RESIDUAL OF LOG AER</unit>
+</variable>
+
+<variable id="phv00027125.v1">
+	<name>MASK_PAT</name>
+	<description>Patient ID number</description>
+	<type>int</type>
+</variable>
+
+</data_table>

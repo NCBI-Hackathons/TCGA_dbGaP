@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./datadict_v2.xsl"?>
+<data_table id="pht001296.v1" study_id="phs000280.v1" participant_set="1" date_created="Fri Jul  9 11:26:39 2010">
+
+<variable id="phv00091482.v1">
+	<name>Individual_ID</name>
+	<description>Subject Identifier</description>
+	<type>string</type>
+</variable>
+
+<variable id="phv00091483.v1">
+	<name>PREVHF01</name>
+	<description>Prevalent HF at Visit 1</description>
+	<type>encoded</type>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+	<value code=".">Missing</value>
+</variable>
+
+<variable id="phv00091484.v1">
+	<name>PREVMI05</name>
+	<description>Prevlnt MI (composite ECG OR MED HIST)</description>
+	<type>encoded</type>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+	<value code=".">Missing</value>
+</variable>
+
+<variable id="phv00091485.v1">
+	<name>RACEGRP</name>
+	<description>RACE (from FTRA23)</description>
+	<type>encoded</type>
+	<value code="B">African American</value>
+	<value code="W">White</value>
+</variable>
+
+<variable id="phv00091486.v1">
+	<name>GENDER</name>
+	<description>SEX (from FTRA22)</description>
+	<type>encoded</type>
+	<comment>dbGaP staff has detected that some values shown in this variable (gender) are not concordant with values shown in other variables, recording gender for same subject.</comment>
+	<value code="F">Female</value>
+	<value code="M">Male</value>
+</variable>
+
+<variable id="phv00091487.v1">
+	<name>V1AGE01</name>
+	<description>AGE AT VISIT 1</description>
+	<type>integer</type>
+	<logical_min>44</logical_min>
+	<logical_max>66</logical_max>
+</variable>
+
+<variable id="phv00091488.v1">
+	<name>BMI01</name>
+	<description>BODY MASS INDEX IN KG/(M*M)</description>
+	<type>decimal</type>
+	<logical_min>14.20238</logical_min>
+	<logical_max>65.91044</logical_max>
+</variable>
+
+<variable id="phv00091489.v1">
+	<name>HYPERT05</name>
+	<description>HYPERTENSION, DEFINITION 5</description>
+	<type>encoded</type>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+	<value code=".">Missing</value>
+</variable>
+
+<variable id="phv00091490.v1">
+	<name>DIABTS03</name>
+	<description>DIABETES w/ fasting glucose cutpt.&lt;126</description>
+	<type>encoded</type>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+	<value code=".">Missing</value>
+</variable>
+
+<variable id="phv00091491.v1">
+	<name>afibprev</name>
+	<description>Prevalent atrial fibrillation</description>
+	<type>encoded</type>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00091492.v1">
+	<name>afibinc</name>
+	<description>Incident atrial fibrillation</description>
+	<type>encoded</type>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00091493.v1">
+	<name>tte</name>
+	<description>Time to event (in months)</description>
+	<type>decimal</type>
+	<logical_min>0.263158</logical_min>
+	<logical_max>217.4671</logical_max>
+</variable>
+
+<variable id="phv00091494.v1">
+	<name>CENTERID</name>
+	<description>Field Center</description>
+	<type>encoded</type>
+	<value code="A">ARIC field center, labeled as A</value>
+	<value code="B">ARIC field center, labeled as B</value>
+	<value code="C">ARIC field center, labeled as C</value>
+	<value code="D">ARIC field center, labeled as D</value>
+</variable>
+
+</data_table>

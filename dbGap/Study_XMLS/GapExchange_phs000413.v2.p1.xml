@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GaPExchange xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="./dbGaPEx2.1.5.xsd">
+
+<MetaVariables>
+	<Submitter/>
+	<Method/>
+</MetaVariables>
+<MetaLinks/>
+
+<Projects>
+	<Project/>
+</Projects>
+
+<Studies>
+
+<Study source="dbGaP" accession="phs000413.v2.p1" parentStudy="phs000413.v2.p1" createDate="2012-10-04" modDate="2012-11-19">
+
+<Configuration>
+	<Data_Provider><![CDATA[
+		<table border="1">
+		<tr><th>Title</th><th>Name</th><th>Institute</th></tr>
+		<tr><td>Principal Investigator</td><td>James R. Downing, MD</td><td>Dept. of Pathology, St. Jude Children&#39; Research Hospital, Memphis, TN, USA</td></tr>
+		</table>
+	]]></Data_Provider>
+	<StudyNameEntrez>Transcriptome Sequencing of Pediatric AML FAB-M7</StudyNameEntrez>
+	<StudyNameReportPage>Analysis of Somatic Mutations in Pediatric AML FAB-M7 Subtype by Whole Transcriptome Sequencing</StudyNameReportPage>
+	<StudyTypes>
+		<StudyType>Case Set</StudyType>
+		<StudyType>Cohort</StudyType>
+		<StudyType>Tumor vs. Matched-Normal</StudyType>
+	</StudyTypes>
+	<Description><![CDATA[
+<p>High resolution analysis of DNA copy number abnormalities and loss-of-heterozygosity on acute myeloblastic leukemia samples utilizing SNP arrays has demonstrated that in contrast to pediatric ALL, de novo AML is characterized by a very low burden of genomic alterations (Radtke, et al., PNAS, 2009). Samples for this study represented a cross-section of the different subtypes of pediatric AML. The only AML subtype that was an outlier from the above observations was acute megakaryocytic leukemia (AML FAB-M7), with the majority of these cases being characterized by complex chromosomal rearrangements and a high number of copy number alterations. To more fully define the genomic landscape of this subtype, we performed transcriptome sequence analysis on 14 pediatric FAB-M7 cases and mutation recurrence screening in a panel of 62 adult and pediatric AML FAB-M7 samples using the Illumina platform. Our results identified chromosomal rearrangements resulting in the expression of novel fusion transcripts in 11/14 cases. Remarkably, in 7/14 cases we detected an inversion on chromosome 16 that results in the juxtaposition of the CBFA2T3 gene next to the GLIS2 gene resulting in a CBFA2T3-GLIS2 chimeric gene that encoded an in frame fusion protein. This fusion led to the acquisition or preservation of self-renewal in colony forming assays, providing functional evidence for a role in leukemogenesis. In addition to novel chimeric transcripts, we found mutations in genes previously identified to play a role in megakaryoblastic leukemia that carry a proliferative advantage to the cell, such as JAK2 and MPL. These data demonstrate that AML FAB-M7 is characterized by cooperating Class I and Class II mutations leading to leukemogenesis.</p>]]>
+	</Description>
+	<StudyInEx><![CDATA[
+<p>Cases of acute megakaryoblastic leukemia as determined by morphology and flow cytometry of diagnostic bone marrow and/or peripheral blood samples. The cases in this cohort have had transcriptome sequencing of RNA (N=14) as well as whole genome sequencing (N=4) and exome sequencing (N=15) of tumor and normal DNA performed. Cases were selected that had appropriate consent for genetic studies, and suitable material for sequencing (high purity tumor populations and available normal DNA obtained at disease remission).</p>]]>
+	</StudyInEx>
+	<StudyProjects>
+		<Project/>
+	</StudyProjects>
+	<Publications>
+		<Publication>
+			<Pubmed pmid="23153540"/>
+		</Publication>
+	</Publications>
+	<Diseases>
+		<Disease vocab_source="MESH" vocab_term="Acute Megakaryoblastic Leukemia"/>
+		<Disease vocab_source="MESH" vocab_term="Acute Myeloid Leukemia"/>
+	</Diseases>
+	<Attributions>
+		<Header title="Principal Investigator">
+			<AttName>James R. Downing, MD</AttName>
+			<Institution>Dept. of Pathology, St. Jude Children&#39; Research Hospital, Memphis, TN, USA</Institution>
+		</Header>
+	</Attributions>
+	<DisplayPublicSummary>yes</DisplayPublicSummary>
+	<StudyHistory><![CDATA[
+<p>Transcriptome, whole genome, and exome sequencing of acute megakaryoblastic leukemia and corresponding matched germline. SNP array of acute megakaryoblastic leukemia and matched germline.</p>]]>
+	</StudyHistory>
+	<ConsentGroups>
+		<ConsentGroup groupNum="1" shortName="GRU" longName="General Research Use"/>
+	</ConsentGroups>
+</Configuration>
+
+  <AuthorizedAccess>
+    <DacInfo ssDacId="0">
+      <DacName>NCI</DacName>
+      <DacFullName>NCI</DacFullName>
+      <DacEmail>0</DacEmail>
+      <DacPhone></DacPhone>
+      <DacUrl></DacUrl>
+    </DacInfo>
+    <Policy Policy_ID="phs000413.v2.p1_policy" ref_ssDacId="0">
+      <DisplayResearchStatement>yes</DisplayResearchStatement>
+      <DisplayPublicSummary>yes</DisplayPublicSummary>
+      <EmbargoLength>9</EmbargoLength>
+      <YearsUntilRenewal>1</YearsUntilRenewal>
+      <WeeksCancelRequest>8</WeeksCancelRequest>
+      <PdfSupplementReqired>no</PdfSupplementReqired>
+      <AcknowledgementText>
+        <para>
+          http://dbgap.ncbi.nlm.nih.gov/aa/wga.cgi?page=DUC&amp;view_pdf&amp;stacc=phs000413.v2.p1
+        </para>
+      </AcknowledgementText>
+      <DocumentSet>
+        <DataUseCertificate Label="Data Use Certificate" FilePath="https://dbgap.ncbi.nlm.nih.gov/aa/wga.cgi?page=DUC&amp;view_pdf&amp;stacc=phs000413.v2.p1" FileName="DUC_M7_Subtype_by_Whole_Transcriptome_Sequencing.pdf"/>
+      </DocumentSet>
+    </Policy>
+    <ConsentGroups>
+      <ParticipantSet groupNum-REF="1">
+        <ConsentName>General Research Use</ConsentName>
+        <ConsentAbbrev>GRU</ConsentAbbrev>
+        <UseLimitation>Use of the data set is limited to research purposes only.</UseLimitation>
+        <IrbRequired>No</IrbRequired>
+      </ParticipantSet>
+    </ConsentGroups>
+  </AuthorizedAccess>
+
+
+</Study>
+
+</Studies>
+
+</GaPExchange>

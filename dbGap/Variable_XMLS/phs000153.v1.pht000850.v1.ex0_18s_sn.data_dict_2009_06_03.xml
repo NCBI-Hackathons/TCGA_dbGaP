@@ -1,0 +1,511 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./datadict_v2.xsl"?>
+<data_table id="pht000850.v1" study_id="phs000153.v1" participant_set="1" date_created="Wed Jun  3 15:57:02 2009">
+
+<variable id="phv00074244.v1">
+	<name>shareid</name>
+	<description>UNIQUE PARTICIPANT ID</description>
+</variable>
+
+<variable id="phv00074245.v1">
+	<name>FK5</name>
+	<description>MARITAL STATUS</description>
+	<value code="1">SINGLE</value>
+	<value code="2">MARRIED</value>
+	<value code="3">WIDOW</value>
+	<value code="4">DIVOCED</value>
+	<value code="5">SEPARATED</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00074246.v1">
+	<name>FK6</name>
+	<description>HOME STATUS</description>
+	<value code="0">ALONE</value>
+	<value code="1">WITH SPOUSE</value>
+	<value code="2">WITH CHILDREN</value>
+	<value code="3">WITH SPOUSE &amp; CHILDREN</value>
+	<value code="4">WITH SIBLINGS</value>
+	<value code="5">WITH FRIEND</value>
+	<value code="6">WITH OTHER RELATIVES</value>
+	<value code="7">IN NURSING HOME</value>
+	<value code="8">OTHER INSTITUTION</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00074247.v1">
+	<name>FK8</name>
+	<description>HEALTH STATUS</description>
+	<value code="1">EXCELLENT</value>
+	<value code="2">GOOD</value>
+	<value code="3">FAIR</value>
+	<value code="4">POOR</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00074248.v1">
+	<name>FK9</name>
+	<description>HEALTH COMPARISON</description>
+	<value code="1">BETTER</value>
+	<value code="2">ABOUT THE SAME</value>
+	<value code="3">WORSE THAN MOST SAME AGE</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00074249.v1">
+	<name>FK10</name>
+	<description>WORKING STATUS</description>
+	<value code="0">NEVER WORKED</value>
+	<value code="1">WORKING FULLTIME</value>
+	<value code="2">WORKING PARTTIME</value>
+	<value code="3">RETIRED BECAUSE OF AGE</value>
+	<value code="4">RETIRED BECAUSE HEALTH</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00074250.v1">
+	<name>FK11</name>
+	<description>HEAVY WORK ABILITY</description>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00074251.v1">
+	<name>FK14</name>
+	<description>SOCIAL ACTIVITIES</description>
+	<value code="0">NO ACTIVITY</value>
+	<value code="8">INAPPLICABLE</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00074252.v1">
+	<name>FK15</name>
+	<description>RECREATIONAL ACTIVITIES</description>
+	<value code="0">NO ACTIVITY</value>
+	<value code="8">INAPPLICABLE</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00074253.v1">
+	<name>FK16</name>
+	<description>ORGANIZATIONAL ACTIVITIES</description>
+	<value code="0">NO ACTIVITY</value>
+	<value code="8">INAPPLICABLE</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00074254.v1">
+	<name>FK17</name>
+	<description>ABILITY TO GO PLACES</description>
+	<value code="1">AS OFTEN AS LIKE</value>
+	<value code="2">MOST OF THE TIME</value>
+	<value code="3">NOT NEARLY AS OFTEN</value>
+	<value code="4">(MEANING NOT KNOWN)</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00074255.v1">
+	<name>FK47</name>
+	<description>WEIGHT (TO NEAREST POUND)</description>
+	<unit>POUNDS</unit>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00074256.v1">
+	<name>FK48</name>
+	<description>HEIGHT (INCHES)</description>
+	<unit>INCHES</unit>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00074257.v1">
+	<name>FK53</name>
+	<description>ARM SPAN (CM)</description>
+	<unit>CM</unit>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00074258.v1">
+	<name>FK54</name>
+	<description>CHEST DIAMETER (CM)</description>
+	<unit>CM</unit>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00074259.v1">
+	<name>FK55</name>
+	<description>BLOOD PRESSURE, SYSTOLIC-NURSE</description>
+	<unit>MM HG</unit>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00074260.v1">
+	<name>FK56</name>
+	<description>BLOOD PRESSURE, DIASTOLIC-NURSE</description>
+	<unit>MM HG</unit>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00074261.v1">
+	<name>FK68</name>
+	<description>BLOOD PRESSURE, SYSTOLIC</description>
+	<unit>MM HG</unit>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00074262.v1">
+	<name>FK69</name>
+	<description>BLOOD PRESSURE, DIASTOLIC</description>
+	<unit>MM HG</unit>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00074263.v1">
+	<name>FK110</name>
+	<description>MEDICINE USE: INSULIN</description>
+	<value code="0">NO</value>
+	<value code="1">YES, NOW</value>
+	<value code="2">YES, NOT NOW</value>
+	<value code="3">MAYBE</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00074264.v1">
+	<name>FK111</name>
+	<description>TYPE OF INSULIN</description>
+</variable>
+
+<variable id="phv00074265.v1">
+	<name>FK120</name>
+	<description>MEDICINE USE: SLEEPING PILLS</description>
+	<value code="0">NO</value>
+	<value code="1">YES, NOW</value>
+	<value code="2">YES, NOT NOW</value>
+	<value code="3">MAYBE</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00074266.v1">
+	<name>FK121</name>
+	<description>TYPE OF SLEEPING PILLS</description>
+</variable>
+
+<variable id="phv00074267.v1">
+	<name>FK122</name>
+	<description>MEDICINE USE: SEDATIVE/HYPNOTIC</description>
+	<value code="0">NO</value>
+	<value code="1">YES, NOW</value>
+	<value code="2">YES, NOT NOW</value>
+	<value code="3">MAYBE</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00074268.v1">
+	<name>FK123</name>
+	<description>TYPE OF SEDATIVE/HYPNOTIC</description>
+</variable>
+
+<variable id="phv00074269.v1">
+	<name>FK124</name>
+	<description>MEDICINE USE: ANTIDEPRESSANTS</description>
+	<value code="0">NO</value>
+	<value code="1">YES, NOW</value>
+	<value code="2">YES, NOT NOW</value>
+	<value code="3">MAYBE</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00074270.v1">
+	<name>FK125</name>
+	<description>TYPE OF ANTIDEPRESSANTS</description>
+</variable>
+
+<variable id="phv00074271.v1">
+	<name>FK131</name>
+	<description>SMOKING HISTORY: NUMBER OF CIGARETTES SMOKED PER DAY</description>
+	<unit>CIGARETTES/DAY</unit>
+	<value code="0">NON SMOKER</value>
+	<value code="1">= OR &lt;1 PER DAY</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00074272.v1">
+	<name>FK132</name>
+	<description>SMOKING HISTORY: DOES PATIENT INHALE</description>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00074273.v1">
+	<name>FK133</name>
+	<description>SMOKING HISTORY: WHAT BRAND DID PATIENT SMOKE</description>
+</variable>
+
+<variable id="phv00074274.v1">
+	<name>FK134</name>
+	<description>SMOKING HISTORY: CODE BRAND</description>
+	<value code="0">NON SMOKER</value>
+	<value code="888">BRAND NOT LISTED</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00074275.v1">
+	<name>FK135</name>
+	<description>SMOKING HISTORY: NUMBER OF HOURS SINCE LAST CIGARETTE</description>
+	<unit>HOURS</unit>
+	<value code="0">= NON SMOKER</value>
+	<value code="1">= OR &lt;1 HOUR</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00074276.v1">
+	<name>FK136</name>
+	<description>SMOKING HISTORY: DOES PATIENT NOW SMOKE CIGARS</description>
+	<value code="0">NO</value>
+	<value code="1">YES, INHALE</value>
+	<value code="2">YES, NO INHALE</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00074277.v1">
+	<name>FK137</name>
+	<description>SMOKING HISTORY: DOES PATIENT NOW SMOKE A PIPE</description>
+	<value code="0">NO</value>
+	<value code="1">YES, INHALE</value>
+	<value code="2">YES, NO INHALE</value>
+	<value code=".">UNKNONW</value>
+</variable>
+
+<variable id="phv00074278.v1">
+	<name>FK138</name>
+	<description>DIET: # CUPS OF COFFEE PER DAY</description>
+	<unit>CUPS OF COFFEE/DAY</unit>
+	<value code="0">NEVER</value>
+	<value code="1">1 OR &lt; 1 PER DAY</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00074279.v1">
+	<name>FK139</name>
+	<description>DIET: # CUPS OF DECAF COFFEE PER DAY</description>
+	<unit>CUPS OF DECAF COFFEE/DAY</unit>
+	<value code="0">NEVER</value>
+	<value code="1">1 OR &lt; 1 PER DAY</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00074280.v1">
+	<name>FK140</name>
+	<description>DIET: # CUPS OF TEA PER DAY</description>
+	<unit>CUPS OF TEA/DAY</unit>
+	<value code="0">NEVER</value>
+	<value code="1">1 OR &lt; 1 PER DAY</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00074281.v1">
+	<name>FK141</name>
+	<description>DIET: # OF BEERS PER WEEK</description>
+	<unit>BEERS/WEEK</unit>
+	<value code="0">NEVER</value>
+	<value code="1">1 OR &lt; 1 PER WEEK</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00074282.v1">
+	<name>FK142</name>
+	<description>DIET: # OF GLASSES OF WINE PER WEEK</description>
+	<unit>GLASSES OF WINE/WEEK</unit>
+	<value code="0">NEVER</value>
+	<value code="1">1 OR &lt; 1 PER WEEK</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00074283.v1">
+	<name>FK143</name>
+	<description>DIET: # OF COCKTAILS PER WEEK</description>
+	<unit>COCKTAILS/WEEK</unit>
+	<value code="0">NEVER</value>
+	<value code="1">1 OR &lt; 1 PER WEEK</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00074284.v1">
+	<name>FK144</name>
+	<description>DIET: # OF DAYS PER WEEK DRINKS BEER</description>
+	<unit>DAYS PER WEEK</unit>
+	<value code="0">NEVER</value>
+	<value code="1">1 OR &lt; 1 PER DAY</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00074285.v1">
+	<name>FK145</name>
+	<description>DIET: # OF DAYS PER WEEK DRINKS WINE</description>
+	<unit>DAYS PER WEEK</unit>
+	<value code="0">NEVER</value>
+	<value code="1">1 OR &lt; 1 PER DAY</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00074286.v1">
+	<name>FK146</name>
+	<description>DIET: # OF DAYS PER WEEK DRINKS COCKTAILS</description>
+	<unit>DAYS PER WEEK</unit>
+	<value code="0">NEVER</value>
+	<value code="1">1 OR &lt; 1 PER DAY</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00074287.v1">
+	<name>FK147</name>
+	<description>DIET: LIMIT OF BEER AT ONE PERIOD OF TIME</description>
+	<unit>BEERS</unit>
+	<value code="0">NO</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00074288.v1">
+	<name>FK148</name>
+	<description>DIET: LIMIT OF WINE AT ONE PERIOD OF TIME</description>
+	<unit>GLASSES OF WINE</unit>
+	<value code="0">NO</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00074289.v1">
+	<name>FK149</name>
+	<description>DIET: LIMIT COCKTAIL ONE PERIOD TIME</description>
+	<unit>COCKTAILS</unit>
+	<value code="0">NO</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00074290.v1">
+	<name>FK259</name>
+	<description>EXAMINER ASSESSES SUBJECT&#39;S MENTAL STATUS</description>
+	<value code="0">NO</value>
+	<value code="1">NORMAL</value>
+	<value code="2">NORMAL BUT PHYSICAL IMPAIRED</value>
+	<value code="3">POSSIBLE DEMENTIA</value>
+	<value code="4">DEMENTIA PRESENT</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00074291.v1">
+	<name>FK264</name>
+	<description>DEPRESSION SCALE: FELT EVERYTHING I DID WAS AN EFFORT</description>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00074292.v1">
+	<name>FK265</name>
+	<description>DEPRESSION SCALE: MY SLEEP WAS RESTLESS</description>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00074293.v1">
+	<name>FK266</name>
+	<description>DEPRESSION SCALE: I FELT DEPRESSED</description>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00074294.v1">
+	<name>FK267</name>
+	<description>DEPRESSION SCALE: I WAS HAPPY</description>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00074295.v1">
+	<name>FK268</name>
+	<description>DEPRESSION SCALE: I FELT LONELY</description>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00074296.v1">
+	<name>FK269</name>
+	<description>DEPRESSION SCALE: PEOPLE WERE UNFRIENDLY</description>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00074297.v1">
+	<name>FK270</name>
+	<description>DEPRESSION SCALE: I ENJOYED LIFE</description>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00074298.v1">
+	<name>FK271</name>
+	<description>DEPRESSION SCALE: I FELT SAD</description>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00074299.v1">
+	<name>FK272</name>
+	<description>DEPRESSION SCALE: I FELT THAT PEOPLE DISLIKED ME</description>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00074300.v1">
+	<name>FK273</name>
+	<description>DEPRESSION SCALE: I COULD NOT GET GOING</description>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00074301.v1">
+	<name>FK274</name>
+	<description>EYE HISTORY: CATARACT OPERATION OR LENS IMPLANT IN EYE</description>
+	<value code="0">NO</value>
+	<value code="1">YES, LEFT</value>
+	<value code="2">YES, RIGHT</value>
+	<value code="3">BOTH</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00074302.v1">
+	<name>FK275</name>
+	<description>WORKING, TYPICAL WORKDAY INDOOR OR OUTDOOR</description>
+	<value code="0">ALL INDOORS</value>
+	<value code="1">LESS THAN 4 HRS OUTDOORS</value>
+	<value code="2">MORE THAN 4 HRS OUTDOORS</value>
+	<value code="8">HOUSEWIFE</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00074303.v1">
+	<name>FK369</name>
+	<description>BLOOD PRESSURE: SYSTOLIC - 2ND PHYSICIAN</description>
+	<unit>MM HG</unit>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00074304.v1">
+	<name>FK370</name>
+	<description>BLOOD PRESSURE: DIASTOLIC - 2ND PHYSICIAN</description>
+	<unit>MM HG</unit>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+</data_table>

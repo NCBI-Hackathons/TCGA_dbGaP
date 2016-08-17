@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./datadict_v2.xsl"?>
+<data_table id="pht001058.v1" study_id="phs000219.v1" participant_set="1" date_created="Tue Jan 19 13:07:36 2010">
+
+<unique_key phv="00081237" version="1">SUBJID</unique_key>
+<unique_key phv="00081241" version="1">VISIT</unique_key>
+
+<variable id="phv00081237.v1">
+	<name>SUBJID</name>
+	<description>Subject&#39;s ID</description>
+	<type>String</type>
+</variable>
+
+<variable id="phv00081238.v1">
+	<name>CASE_CONTROL</name>
+	<description>Subject type</description>
+	<type>Encoded value</type>
+	<value code="ADP">AD Participant</value>
+	<value code="CASE">Case</value>
+	<value code="CCCS">Control with Change in Cognitive Status</value>
+	<value code="CNTL">Control</value>
+	<value code="FAM">Family member</value>
+	<value code="UASB">Unaffected Sibling</value>
+</variable>
+
+<variable id="phv00081239.v1">
+	<name>INV</name>
+	<description>Investigator&#39;s ID</description>
+	<type>String</type>
+</variable>
+
+<variable id="phv00081240.v1">
+	<name>INVSITE</name>
+	<description>Investigator site ID</description>
+	<type>String</type>
+</variable>
+
+<variable id="phv00081241.v1">
+	<name>VISIT</name>
+	<description>Visit name</description>
+	<type>String</type>
+</variable>
+
+<variable id="phv00081242.v1">
+	<name>VISIT_DATE</name>
+	<description>Visit date</description>
+	<type>Date</type>
+	<comment>Truncated to YYYY</comment>
+</variable>
+
+<variable id="phv00081243.v1">
+	<name>OTHRN</name>
+	<description>Other reason</description>
+	<type>String</type>
+</variable>
+
+<variable id="phv00081244.v1">
+	<name>RNCHG</name>
+	<description>Reason for change (of affection status)</description>
+	<type>Encoded Value</type>
+	<value code="NI">Neuroimaging</value>
+	<value code="NP">Neuropsychology</value>
+	<value code="OT">Other</value>
+</variable>
+
+<variable id="phv00081245.v1">
+	<name>STILLCONT</name>
+	<description>Still a control?</description>
+	<type>Encoded Value</type>
+	<value code="N">No</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00081246.v1">
+	<name>AMST</name>
+	<description>Amnestic</description>
+	<type>Encoded Value</type>
+	<value code="N">No</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00081247.v1">
+	<name>MTPD</name>
+	<description>Multiple Domains</description>
+	<type>Encoded Value</type>
+	<value code="N">No</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00081248.v1">
+	<name>OTHTX</name>
+	<description>Other (cause[s] of dementia) - specify</description>
+	<type>String</type>
+</variable>
+
+<variable id="phv00081249.v1">
+	<name>SNGD</name>
+	<description>Single Domain</description>
+	<type>Encoded Value</type>
+	<value code="N">No</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00081250.v1">
+	<name>AMNESTIC_CIND_RESP</name>
+	<description>AMNESTIC - CIND subclass</description>
+	<type>Encoded Value</type>
+	<value code="N">No</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00081251.v1">
+	<name>DEGEN_CIND_RESP</name>
+	<description>EARLY DEGENERATIVE (NON-AD) - CIND subclass</description>
+	<type>Encoded Value</type>
+	<value code="N">No</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00081252.v1">
+	<name>METABOLIC_DISORDERS_CIND_RESP</name>
+	<description>MEDICAL AND TOXIC METABOLIC DISORDERS - CIND subclass</description>
+	<type>Encoded Value</type>
+	<value code="N">No</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00081253.v1">
+	<name>NEUROLOGICAL_CIND_RESP</name>
+	<description>NEUROLOGICAL - CIND subclass</description>
+	<type>Encoded Value</type>
+	<value code="N">No</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00081254.v1">
+	<name>OTHER_CIND_RESP</name>
+	<description>OTHER (MIXED/NON SPECIFIED ETC.) - CIND subclass</description>
+	<type>Encoded Value</type>
+	<value code="N">No</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00081255.v1">
+	<name>PSYCHIATRIC_CIND_RESP</name>
+	<description>PSYCHIATRIC - CIND subclass</description>
+	<type>Encoded Value</type>
+	<value code="N">No</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00081256.v1">
+	<name>VASCULAR_CIND_RESP</name>
+	<description>VASCULAR - CIND subclass</description>
+	<type>Encoded Value</type>
+	<value code="N">No</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00081257.v1">
+	<name>AD_DEMENTIA_RESP</name>
+	<description>Alzheimers Disease - cause of Dementia</description>
+	<type>Encoded Value</type>
+	<value code="N">No</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00081258.v1">
+	<name>DLB_DEMENTIA_RESP</name>
+	<description>Dementia with Lewy Bodies - cause of Dementia</description>
+	<type>Encoded Value</type>
+	<value code="N">No</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00081259.v1">
+	<name>FTD_DEMENTIA_RESP</name>
+	<description>Fronto Temporal Dementia - cause of Dementia</description>
+	<type>Encoded Value</type>
+	<value code="N">No</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00081260.v1">
+	<name>AD_VAD_DEMENTIA_RESP</name>
+	<description>Mixed Alzheimer&#39;s/Vascular Dementia - cause of Dementia</description>
+	<type>Encoded Value</type>
+	<value code="N">No</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00081261.v1">
+	<name>OTHER_DEMENTIA_RESP</name>
+	<description>OTHER - cause of Dementia</description>
+	<type>Encoded Value</type>
+	<value code="N">No</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00081262.v1">
+	<name>PD_DEMENTIA_RESP</name>
+	<description>Parkinson&#39;s Disease - cause of Dementia</description>
+	<type>Encoded Value</type>
+	<value code="N">No</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00081263.v1">
+	<name>VAD_DEMENTIA_RESP</name>
+	<description>Vascular dementia - cause of Dementia</description>
+	<type>Encoded Value</type>
+	<value code="N">No</value>
+	<value code="Y">Yes</value>
+</variable>
+
+</data_table>

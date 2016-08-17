@@ -1,0 +1,993 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./datadict_v2.xsl"?>
+<data_table id="pht001469.v1" study_id="phs000287.v1" participant_set="1" date_created="Thu Jul 22 17:49:34 2010">
+
+<variable id="phv00100866.v1">
+	<name>Individual_ID</name>
+	<description>Subject Identifier</description>
+	<type>string</type>
+</variable>
+
+<variable id="phv00100867.v1">
+	<name>PERSTAT</name>
+	<description>Cohort</description>
+	<type>encoded</type>
+	<comment><![CDATA[Dictionaries were submitted w/some SAS file derived code definitions (extracted by T.Y. - BROAD Institute); where possible, additional code meanings were extracted from submitted document: <a href="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" onclick="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" oncontextmenu="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;">VALUELBL</a> (or document &#39;CALCULATED VARIABLES&#39; [phd002771]), and inserted.]]></comment>
+	<value code="1">Old cohort</value>
+	<value code="2">New cohort</value>
+</variable>
+
+<variable id="phv00100868.v1">
+	<name>TECHAD54</name>
+	<description>TECHNICAL ADEQUACY</description>
+	<type>encoded</type>
+	<comment><![CDATA[Dictionaries were submitted w/some SAS file derived code definitions (extracted by T.Y. - BROAD Institute); where possible, additional code meanings were extracted from submitted document: <a href="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" onclick="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" oncontextmenu="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;">VALUELBL</a> (or document &#39;CALCULATED VARIABLES&#39; [phd002771]), and inserted.]]></comment>
+</variable>
+
+<variable id="phv00100869.v1">
+	<name>VENT54</name>
+	<description>GLOBAL BRAIN ATROPHY-VENTRICLES</description>
+	<type>encoded</type>
+	<comment><![CDATA[Dictionaries were submitted w/some SAS file derived code definitions (extracted by T.Y. - BROAD Institute); where possible, additional code meanings were extracted from submitted document: <a href="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" onclick="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" oncontextmenu="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;">VALUELBL</a> (or document &#39;CALCULATED VARIABLES&#39; [phd002771]), and inserted.]]></comment>
+</variable>
+
+<variable id="phv00100870.v1">
+	<name>SULCI54</name>
+	<description>GLOBAL BRAIN ATROPHY-SULCI</description>
+	<type>encoded</type>
+	<comment><![CDATA[Dictionaries were submitted w/some SAS file derived code definitions (extracted by T.Y. - BROAD Institute); where possible, additional code meanings were extracted from submitted document: <a href="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" onclick="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" oncontextmenu="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;">VALUELBL</a> (or document &#39;CALCULATED VARIABLES&#39; [phd002771]), and inserted.]]></comment>
+</variable>
+
+<variable id="phv00100871.v1">
+	<name>WHGRD54</name>
+	<description>WHITE MATTER, GRADE</description>
+	<type>encoded</type>
+	<comment><![CDATA[Dictionaries were submitted w/some SAS file derived code definitions (extracted by T.Y. - BROAD Institute); where possible, additional code meanings were extracted from submitted document: <a href="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" onclick="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" oncontextmenu="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;">VALUELBL</a> (or document &#39;CALCULATED VARIABLES&#39; [phd002771]), and inserted.]]></comment>
+</variable>
+
+<variable id="phv00100872.v1">
+	<name>BIDIST54</name>
+	<description>GLOBAL ATROPHY-BIFRONTAL DISTANCE</description>
+	<type>decimal</type>
+	<logical_min>1.8</logical_min>
+	<logical_max>6.3</logical_max>
+	<comment><![CDATA[Dictionaries were submitted w/some SAS file derived code definitions (extracted by T.Y. - BROAD Institute); where possible, additional code meanings were extracted from submitted document: <a href="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" onclick="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" oncontextmenu="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;">VALUELBL</a> (or document &#39;CALCULATED VARIABLES&#39; [phd002771]), and inserted.]]></comment>
+</variable>
+
+<variable id="phv00100873.v1">
+	<name>ITDIST54</name>
+	<description>GLOBAL ATROPHY-INNER TABLE DISTANCE</description>
+	<type>decimal</type>
+	<logical_min>1.2</logical_min>
+	<logical_max>13</logical_max>
+	<comment><![CDATA[Dictionaries were submitted w/some SAS file derived code definitions (extracted by T.Y. - BROAD Institute); where possible, additional code meanings were extracted from submitted document: <a href="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" onclick="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" oncontextmenu="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;">VALUELBL</a> (or document &#39;CALCULATED VARIABLES&#39; [phd002771]), and inserted.]]></comment>
+</variable>
+
+<variable id="phv00100874.v1">
+	<name>CNTSUL54</name>
+	<description>GLOBAL ATROPHY-CENTRAL SULCUS WIDTH</description>
+	<type>decimal</type>
+	<logical_min>0.1</logical_min>
+	<logical_max>0.9</logical_max>
+	<comment><![CDATA[Dictionaries were submitted w/some SAS file derived code definitions (extracted by T.Y. - BROAD Institute); where possible, additional code meanings were extracted from submitted document: <a href="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" onclick="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" oncontextmenu="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;">VALUELBL</a> (or document &#39;CALCULATED VARIABLES&#39; [phd002771]), and inserted.]]></comment>
+</variable>
+
+<variable id="phv00100875.v1">
+	<name>WHPLOC54</name>
+	<description>WHITE MATTER, PREDOMINANT LOCATION</description>
+	<type>encoded</type>
+	<comment><![CDATA[Dictionaries were submitted w/some SAS file derived code definitions (extracted by T.Y. - BROAD Institute); where possible, additional code meanings were extracted from submitted document: <a href="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" onclick="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" oncontextmenu="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;">VALUELBL</a> (or document &#39;CALCULATED VARIABLES&#39; [phd002771]), and inserted.]]></comment>
+</variable>
+
+<variable id="phv00100876.v1">
+	<name>WHSYM54</name>
+	<description>WHITE MATTER, SYMMETRY</description>
+	<type>encoded</type>
+	<comment><![CDATA[Dictionaries were submitted w/some SAS file derived code definitions (extracted by T.Y. - BROAD Institute); where possible, additional code meanings were extracted from submitted document: <a href="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" onclick="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" oncontextmenu="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;">VALUELBL</a> (or document &#39;CALCULATED VARIABLES&#39; [phd002771]), and inserted.]]></comment>
+</variable>
+
+<variable id="phv00100877.v1">
+	<name>WHBRST54</name>
+	<description>WHITE MATTER, BRAIN STEM LESIONS</description>
+	<type>encoded</type>
+	<comment><![CDATA[Dictionaries were submitted w/some SAS file derived code definitions (extracted by T.Y. - BROAD Institute); where possible, additional code meanings were extracted from submitted document: <a href="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" onclick="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" oncontextmenu="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;">VALUELBL</a> (or document &#39;CALCULATED VARIABLES&#39; [phd002771]), and inserted.]]></comment>
+</variable>
+
+<variable id="phv00100878.v1">
+	<name>PERISP54</name>
+	<description>PERIVASCULAR SPACES</description>
+	<type>encoded</type>
+	<comment><![CDATA[Dictionaries were submitted w/some SAS file derived code definitions (extracted by T.Y. - BROAD Institute); where possible, additional code meanings were extracted from submitted document: <a href="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" onclick="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" oncontextmenu="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;">VALUELBL</a> (or document &#39;CALCULATED VARIABLES&#39; [phd002771]), and inserted.]]></comment>
+</variable>
+
+<variable id="phv00100879.v1">
+	<name>INFARC54</name>
+	<description>CORTICAL INFARCTS</description>
+	<type>encoded</type>
+	<comment><![CDATA[Dictionaries were submitted w/some SAS file derived code definitions (extracted by T.Y. - BROAD Institute); where possible, additional code meanings were extracted from submitted document: <a href="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" onclick="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" oncontextmenu="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;">VALUELBL</a> (or document &#39;CALCULATED VARIABLES&#39; [phd002771]), and inserted.]]></comment>
+</variable>
+
+<variable id="phv00100880.v1">
+	<name>SMLINF54</name>
+	<description>SMALL INFARCT</description>
+	<type>encoded</type>
+	<comment><![CDATA[Dictionaries were submitted w/some SAS file derived code definitions (extracted by T.Y. - BROAD Institute); where possible, additional code meanings were extracted from submitted document: <a href="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" onclick="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" oncontextmenu="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;">VALUELBL</a> (or document &#39;CALCULATED VARIABLES&#39; [phd002771]), and inserted.]]></comment>
+</variable>
+
+<variable id="phv00100881.v1">
+	<name>FOCAL54</name>
+	<description>FOCAL BRAIN ATROPHY</description>
+	<type>encoded</type>
+	<comment><![CDATA[Dictionaries were submitted w/some SAS file derived code definitions (extracted by T.Y. - BROAD Institute); where possible, additional code meanings were extracted from submitted document: <a href="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" onclick="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" oncontextmenu="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;">VALUELBL</a> (or document &#39;CALCULATED VARIABLES&#39; [phd002771]), and inserted.]]></comment>
+</variable>
+
+<variable id="phv00100882.v1">
+	<name>PARHEM54</name>
+	<description>PARENCHYMAL HEMATOMA</description>
+	<type>encoded</type>
+	<comment><![CDATA[Dictionaries were submitted w/some SAS file derived code definitions (extracted by T.Y. - BROAD Institute); where possible, additional code meanings were extracted from submitted document: <a href="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" onclick="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" oncontextmenu="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;">VALUELBL</a> (or document &#39;CALCULATED VARIABLES&#39; [phd002771]), and inserted.]]></comment>
+</variable>
+
+<variable id="phv00100883.v1">
+	<name>OTHDIA54</name>
+	<description>OTHER DIAGNOSES</description>
+	<type>encoded</type>
+	<comment><![CDATA[Dictionaries were submitted w/some SAS file derived code definitions (extracted by T.Y. - BROAD Institute); where possible, additional code meanings were extracted from submitted document: <a href="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" onclick="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" oncontextmenu="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;">VALUELBL</a> (or document &#39;CALCULATED VARIABLES&#39; [phd002771]), and inserted.]]></comment>
+</variable>
+
+<variable id="phv00100884.v1">
+	<name>BGNUM54</name>
+	<description>SMALL BASAL GANGLIA INFARCT - NUMBER</description>
+	<type>encoded</type>
+	<comment><![CDATA[Dictionaries were submitted w/some SAS file derived code definitions (extracted by T.Y. - BROAD Institute); where possible, additional code meanings were extracted from submitted document: <a href="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" onclick="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" oncontextmenu="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;">VALUELBL</a> (or document &#39;CALCULATED VARIABLES&#39; [phd002771]), and inserted.]]></comment>
+</variable>
+
+<variable id="phv00100885.v1">
+	<name>BGSIDE54</name>
+	<description>SMALL BASAL GANGLIA INFARCT - SIDE</description>
+	<type>encoded</type>
+	<comment><![CDATA[Dictionaries were submitted w/some SAS file derived code definitions (extracted by T.Y. - BROAD Institute); where possible, additional code meanings were extracted from submitted document: <a href="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" onclick="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" oncontextmenu="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;">VALUELBL</a> (or document &#39;CALCULATED VARIABLES&#39; [phd002771]), and inserted.]]></comment>
+</variable>
+
+<variable id="phv00100886.v1">
+	<name>BGT154</name>
+	<description>SMALL BASAL GANGLIA INFARCT - T1</description>
+	<type>encoded</type>
+	<comment><![CDATA[Dictionaries were submitted w/some SAS file derived code definitions (extracted by T.Y. - BROAD Institute); where possible, additional code meanings were extracted from submitted document: <a href="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" onclick="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" oncontextmenu="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;">VALUELBL</a> (or document &#39;CALCULATED VARIABLES&#39; [phd002771]), and inserted.]]></comment>
+</variable>
+
+<variable id="phv00100887.v1">
+	<name>WMNUM54</name>
+	<description>SMALL WHITE MATTER INFARCT - NUMBER</description>
+	<type>encoded</type>
+	<comment><![CDATA[Dictionaries were submitted w/some SAS file derived code definitions (extracted by T.Y. - BROAD Institute); where possible, additional code meanings were extracted from submitted document: <a href="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" onclick="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" oncontextmenu="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;">VALUELBL</a> (or document &#39;CALCULATED VARIABLES&#39; [phd002771]), and inserted.]]></comment>
+</variable>
+
+<variable id="phv00100888.v1">
+	<name>WMSIDE54</name>
+	<description>SMALL WHITE MATTER INFARCT - SIDE</description>
+	<type>encoded</type>
+	<comment><![CDATA[Dictionaries were submitted w/some SAS file derived code definitions (extracted by T.Y. - BROAD Institute); where possible, additional code meanings were extracted from submitted document: <a href="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" onclick="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" oncontextmenu="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;">VALUELBL</a> (or document &#39;CALCULATED VARIABLES&#39; [phd002771]), and inserted.]]></comment>
+</variable>
+
+<variable id="phv00100889.v1">
+	<name>BSNUM54</name>
+	<description>SMALL BRAIN STEM INFARCT - NUMBER</description>
+	<type>encoded</type>
+	<comment><![CDATA[Dictionaries were submitted w/some SAS file derived code definitions (extracted by T.Y. - BROAD Institute); where possible, additional code meanings were extracted from submitted document: <a href="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" onclick="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" oncontextmenu="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;">VALUELBL</a> (or document &#39;CALCULATED VARIABLES&#39; [phd002771]), and inserted.]]></comment>
+</variable>
+
+<variable id="phv00100890.v1">
+	<name>BSSIDE54</name>
+	<description>SMALL BRAIN STEM INFARCT - SIDE</description>
+	<type>encoded</type>
+	<comment><![CDATA[Dictionaries were submitted w/some SAS file derived code definitions (extracted by T.Y. - BROAD Institute); where possible, additional code meanings were extracted from submitted document: <a href="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" onclick="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" oncontextmenu="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;">VALUELBL</a> (or document &#39;CALCULATED VARIABLES&#39; [phd002771]), and inserted.]]></comment>
+</variable>
+
+<variable id="phv00100891.v1">
+	<name>ACAF54</name>
+	<description>FOCAL ATROPHY, CEREBRUM-ACA FRONTAL</description>
+	<type>encoded</type>
+	<comment><![CDATA[Dictionaries were submitted w/some SAS file derived code definitions (extracted by T.Y. - BROAD Institute); where possible, additional code meanings were extracted from submitted document: <a href="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" onclick="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" oncontextmenu="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;">VALUELBL</a> (or document &#39;CALCULATED VARIABLES&#39; [phd002771]), and inserted.]]></comment>
+</variable>
+
+<variable id="phv00100892.v1">
+	<name>ACAP54</name>
+	<description>FOCAL ATROPHY, CEREBRUM-ACA PARIETAL</description>
+	<type>encoded</type>
+	<comment><![CDATA[Dictionaries were submitted w/some SAS file derived code definitions (extracted by T.Y. - BROAD Institute); where possible, additional code meanings were extracted from submitted document: <a href="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" onclick="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" oncontextmenu="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;">VALUELBL</a> (or document &#39;CALCULATED VARIABLES&#39; [phd002771]), and inserted.]]></comment>
+</variable>
+
+<variable id="phv00100893.v1">
+	<name>MCAF54</name>
+	<description>FOCAL ATROPHY, CEREBRUM-MCA FRONTAL</description>
+	<type>encoded</type>
+	<comment><![CDATA[Dictionaries were submitted w/some SAS file derived code definitions (extracted by T.Y. - BROAD Institute); where possible, additional code meanings were extracted from submitted document: <a href="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" onclick="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" oncontextmenu="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;">VALUELBL</a> (or document &#39;CALCULATED VARIABLES&#39; [phd002771]), and inserted.]]></comment>
+</variable>
+
+<variable id="phv00100894.v1">
+	<name>MCAP54</name>
+	<description>FOCAL ATROPHY, CEREBRUM-MCA PARIETAL</description>
+	<type>encoded</type>
+	<comment><![CDATA[Dictionaries were submitted w/some SAS file derived code definitions (extracted by T.Y. - BROAD Institute); where possible, additional code meanings were extracted from submitted document: <a href="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" onclick="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" oncontextmenu="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;">VALUELBL</a> (or document &#39;CALCULATED VARIABLES&#39; [phd002771]), and inserted.]]></comment>
+</variable>
+
+<variable id="phv00100895.v1">
+	<name>MCAT54</name>
+	<description>FOCAL ATROPHY, CEREBRUM-MCA TEMPORAL</description>
+	<type>encoded</type>
+	<comment><![CDATA[Dictionaries were submitted w/some SAS file derived code definitions (extracted by T.Y. - BROAD Institute); where possible, additional code meanings were extracted from submitted document: <a href="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" onclick="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" oncontextmenu="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;">VALUELBL</a> (or document &#39;CALCULATED VARIABLES&#39; [phd002771]), and inserted.]]></comment>
+</variable>
+
+<variable id="phv00100896.v1">
+	<name>PCAP54</name>
+	<description>FOCAL ATROPHY, CEREBRUM-PCA PARIETAL</description>
+	<type>encoded</type>
+	<comment><![CDATA[Dictionaries were submitted w/some SAS file derived code definitions (extracted by T.Y. - BROAD Institute); where possible, additional code meanings were extracted from submitted document: <a href="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" onclick="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" oncontextmenu="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;">VALUELBL</a> (or document &#39;CALCULATED VARIABLES&#39; [phd002771]), and inserted.]]></comment>
+</variable>
+
+<variable id="phv00100897.v1">
+	<name>PCAT54</name>
+	<description>FOCAL ATROPHY, CEREBRUM-PCA TEMPORAL</description>
+	<type>encoded</type>
+	<comment><![CDATA[Dictionaries were submitted w/some SAS file derived code definitions (extracted by T.Y. - BROAD Institute); where possible, additional code meanings were extracted from submitted document: <a href="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" onclick="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" oncontextmenu="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;">VALUELBL</a> (or document &#39;CALCULATED VARIABLES&#39; [phd002771]), and inserted.]]></comment>
+</variable>
+
+<variable id="phv00100898.v1">
+	<name>PCAO54</name>
+	<description>FOCAL ATROPHY, CEREBRUM-PCA OCCIPITAL</description>
+	<type>encoded</type>
+	<comment><![CDATA[Dictionaries were submitted w/some SAS file derived code definitions (extracted by T.Y. - BROAD Institute); where possible, additional code meanings were extracted from submitted document: <a href="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" onclick="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" oncontextmenu="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;">VALUELBL</a> (or document &#39;CALCULATED VARIABLES&#39; [phd002771]), and inserted.]]></comment>
+</variable>
+
+<variable id="phv00100899.v1">
+	<name>SCA54</name>
+	<description>FOCAL ATROPHY, CEREBELLUM-SCA</description>
+	<type>encoded</type>
+	<comment><![CDATA[Dictionaries were submitted w/some SAS file derived code definitions (extracted by T.Y. - BROAD Institute); where possible, additional code meanings were extracted from submitted document: <a href="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" onclick="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" oncontextmenu="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;">VALUELBL</a> (or document &#39;CALCULATED VARIABLES&#39; [phd002771]), and inserted.]]></comment>
+</variable>
+
+<variable id="phv00100900.v1">
+	<name>AICA54</name>
+	<description>FOCAL ATROPHY, CEREBELLUM-AICA</description>
+	<type>encoded</type>
+	<comment><![CDATA[Dictionaries were submitted w/some SAS file derived code definitions (extracted by T.Y. - BROAD Institute); where possible, additional code meanings were extracted from submitted document: <a href="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" onclick="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" oncontextmenu="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;">VALUELBL</a> (or document &#39;CALCULATED VARIABLES&#39; [phd002771]), and inserted.]]></comment>
+</variable>
+
+<variable id="phv00100901.v1">
+	<name>PICA54</name>
+	<description>FOCAL ATROPHY, CEREBELLUM-PICA</description>
+	<type>encoded</type>
+	<comment><![CDATA[Dictionaries were submitted w/some SAS file derived code definitions (extracted by T.Y. - BROAD Institute); where possible, additional code meanings were extracted from submitted document: <a href="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" onclick="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" oncontextmenu="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;">VALUELBL</a> (or document &#39;CALCULATED VARIABLES&#39; [phd002771]), and inserted.]]></comment>
+</variable>
+
+<variable id="phv00100902.v1">
+	<name>CBLWM54</name>
+	<description>FOCAL ATROPHY, DEEP CEREBELLAR WM</description>
+	<type>encoded</type>
+	<comment><![CDATA[Dictionaries were submitted w/some SAS file derived code definitions (extracted by T.Y. - BROAD Institute); where possible, additional code meanings were extracted from submitted document: <a href="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" onclick="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" oncontextmenu="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;">VALUELBL</a> (or document &#39;CALCULATED VARIABLES&#39; [phd002771]), and inserted.]]></comment>
+</variable>
+
+<variable id="phv00100903.v1">
+	<name>CAUD54</name>
+	<description>FOCAL ATROPHY, DEEP MATTER-CAUDATE</description>
+	<type>encoded</type>
+	<comment><![CDATA[Dictionaries were submitted w/some SAS file derived code definitions (extracted by T.Y. - BROAD Institute); where possible, additional code meanings were extracted from submitted document: <a href="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" onclick="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" oncontextmenu="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;">VALUELBL</a> (or document &#39;CALCULATED VARIABLES&#39; [phd002771]), and inserted.]]></comment>
+</variable>
+
+<variable id="phv00100904.v1">
+	<name>ACAMCA54</name>
+	<description>FOCAL ATROPHY, WATERSHED ACA-MCA</description>
+	<type>encoded</type>
+	<comment><![CDATA[Dictionaries were submitted w/some SAS file derived code definitions (extracted by T.Y. - BROAD Institute); where possible, additional code meanings were extracted from submitted document: <a href="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" onclick="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" oncontextmenu="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;">VALUELBL</a> (or document &#39;CALCULATED VARIABLES&#39; [phd002771]), and inserted.]]></comment>
+</variable>
+
+<variable id="phv00100905.v1">
+	<name>MCAPCA54</name>
+	<description>FOCAL ATROPHY, WATERSHED MCA-PCA</description>
+	<type>encoded</type>
+	<comment><![CDATA[Dictionaries were submitted w/some SAS file derived code definitions (extracted by T.Y. - BROAD Institute); where possible, additional code meanings were extracted from submitted document: <a href="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" onclick="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" oncontextmenu="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;">VALUELBL</a> (or document &#39;CALCULATED VARIABLES&#39; [phd002771]), and inserted.]]></comment>
+</variable>
+
+<variable id="phv00100906.v1">
+	<name>LINF154</name>
+	<description>LARGE INFARCT #1</description>
+	<type>encoded</type>
+	<comment><![CDATA[Dictionaries were submitted w/some SAS file derived code definitions (extracted by T.Y. - BROAD Institute); where possible, additional code meanings were extracted from submitted document: <a href="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" onclick="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" oncontextmenu="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;">VALUELBL</a> (or document &#39;CALCULATED VARIABLES&#39; [phd002771]), and inserted.]]></comment>
+</variable>
+
+<variable id="phv00100907.v1">
+	<name>ISIDE154</name>
+	<description>INFARCT #1, SIDE</description>
+	<type>encoded</type>
+	<comment><![CDATA[Dictionaries were submitted w/some SAS file derived code definitions (extracted by T.Y. - BROAD Institute); where possible, additional code meanings were extracted from submitted document: <a href="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" onclick="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" oncontextmenu="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;">VALUELBL</a> (or document &#39;CALCULATED VARIABLES&#39; [phd002771]), and inserted.]]></comment>
+</variable>
+
+<variable id="phv00100908.v1">
+	<name>ISZRL154</name>
+	<description>INFARCT #1, SIZE - RL</description>
+	<type>decimal</type>
+	<logical_min>0.3</logical_min>
+	<logical_max>6.5</logical_max>
+	<comment><![CDATA[Dictionaries were submitted w/some SAS file derived code definitions (extracted by T.Y. - BROAD Institute); where possible, additional code meanings were extracted from submitted document: <a href="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" onclick="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" oncontextmenu="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;">VALUELBL</a> (or document &#39;CALCULATED VARIABLES&#39; [phd002771]), and inserted.]]></comment>
+</variable>
+
+<variable id="phv00100909.v1">
+	<name>ISZAP154</name>
+	<description>INFARCT #1, SIZE - AP</description>
+	<type>decimal</type>
+	<logical_min>0.3</logical_min>
+	<logical_max>12.4</logical_max>
+	<comment><![CDATA[Dictionaries were submitted w/some SAS file derived code definitions (extracted by T.Y. - BROAD Institute); where possible, additional code meanings were extracted from submitted document: <a href="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" onclick="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" oncontextmenu="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;">VALUELBL</a> (or document &#39;CALCULATED VARIABLES&#39; [phd002771]), and inserted.]]></comment>
+</variable>
+
+<variable id="phv00100910.v1">
+	<name>IZ154</name>
+	<description>INFARCT #1, NO. SLICES</description>
+	<type>integer</type>
+	<logical_min>1</logical_min>
+	<logical_max>15</logical_max>
+	<comment><![CDATA[Dictionaries were submitted w/some SAS file derived code definitions (extracted by T.Y. - BROAD Institute); where possible, additional code meanings were extracted from submitted document: <a href="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" onclick="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" oncontextmenu="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;">VALUELBL</a> (or document &#39;CALCULATED VARIABLES&#39; [phd002771]), and inserted.]]></comment>
+</variable>
+
+<variable id="phv00100911.v1">
+	<name>IMRT1154</name>
+	<description>INFARCT #1, PREDOMINANT MR SIGNAL - T1</description>
+	<type>encoded</type>
+	<comment><![CDATA[Dictionaries were submitted w/some SAS file derived code definitions (extracted by T.Y. - BROAD Institute); where possible, additional code meanings were extracted from submitted document: <a href="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" onclick="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" oncontextmenu="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;">VALUELBL</a> (or document &#39;CALCULATED VARIABLES&#39; [phd002771]), and inserted.]]></comment>
+</variable>
+
+<variable id="phv00100912.v1">
+	<name>IMRPD154</name>
+	<description>INFARCT #1, PREDOMINANT MR SIGNAL - PD</description>
+	<type>encoded</type>
+	<comment><![CDATA[Dictionaries were submitted w/some SAS file derived code definitions (extracted by T.Y. - BROAD Institute); where possible, additional code meanings were extracted from submitted document: <a href="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" onclick="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" oncontextmenu="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;">VALUELBL</a> (or document &#39;CALCULATED VARIABLES&#39; [phd002771]), and inserted.]]></comment>
+</variable>
+
+<variable id="phv00100913.v1">
+	<name>IMRT2154</name>
+	<description>INFARCT #1, PREDOMINANT MR SIGNAL - T2</description>
+	<type>encoded</type>
+	<comment><![CDATA[Dictionaries were submitted w/some SAS file derived code definitions (extracted by T.Y. - BROAD Institute); where possible, additional code meanings were extracted from submitted document: <a href="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" onclick="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" oncontextmenu="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;">VALUELBL</a> (or document &#39;CALCULATED VARIABLES&#39; [phd002771]), and inserted.]]></comment>
+</variable>
+
+<variable id="phv00100914.v1">
+	<name>IHEM154</name>
+	<description>INFARCT #1, HEMORRHAGIC</description>
+	<type>encoded</type>
+	<comment><![CDATA[Dictionaries were submitted w/some SAS file derived code definitions (extracted by T.Y. - BROAD Institute); where possible, additional code meanings were extracted from submitted document: <a href="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" onclick="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" oncontextmenu="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;">VALUELBL</a> (or document &#39;CALCULATED VARIABLES&#39; [phd002771]), and inserted.]]></comment>
+</variable>
+
+<variable id="phv00100915.v1">
+	<name>ILOC1154</name>
+	<description>FIRST LOCATION OF INFARCT #1</description>
+	<type>integer</type>
+	<logical_min>1</logical_min>
+	<logical_max>23</logical_max>
+	<comment><![CDATA[Dictionaries were submitted w/some SAS file derived code definitions (extracted by T.Y. - BROAD Institute); where possible, additional code meanings were extracted from submitted document: <a href="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" onclick="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" oncontextmenu="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;">VALUELBL</a> (or document &#39;CALCULATED VARIABLES&#39; [phd002771]), and inserted.]]></comment>
+</variable>
+
+<variable id="phv00100916.v1">
+	<name>ILOC2154</name>
+	<description>SECOND LOCATION OF INFARCT #1</description>
+	<type>integer</type>
+	<logical_min>2</logical_min>
+	<logical_max>23</logical_max>
+	<comment><![CDATA[Dictionaries were submitted w/some SAS file derived code definitions (extracted by T.Y. - BROAD Institute); where possible, additional code meanings were extracted from submitted document: <a href="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" onclick="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" oncontextmenu="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;">VALUELBL</a> (or document &#39;CALCULATED VARIABLES&#39; [phd002771]), and inserted.]]></comment>
+</variable>
+
+<variable id="phv00100917.v1">
+	<name>ILOC3154</name>
+	<description>THIRD LOCATION OF INFARCT #1</description>
+	<type>integer</type>
+	<logical_min>3</logical_min>
+	<logical_max>23</logical_max>
+	<comment><![CDATA[Dictionaries were submitted w/some SAS file derived code definitions (extracted by T.Y. - BROAD Institute); where possible, additional code meanings were extracted from submitted document: <a href="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" onclick="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" oncontextmenu="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;">VALUELBL</a> (or document &#39;CALCULATED VARIABLES&#39; [phd002771]), and inserted.]]></comment>
+</variable>
+
+<variable id="phv00100918.v1">
+	<name>ILOC4154</name>
+	<description>FOURTH LOCATION OF INFARCT #1</description>
+	<type>encoded</type>
+	<comment><![CDATA[Dictionaries were submitted w/some SAS file derived code definitions (extracted by T.Y. - BROAD Institute); where possible, additional code meanings were extracted from submitted document: <a href="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" onclick="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" oncontextmenu="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;">VALUELBL</a> (or document &#39;CALCULATED VARIABLES&#39; [phd002771]), and inserted.]]></comment>
+</variable>
+
+<variable id="phv00100919.v1">
+	<name>LINF254</name>
+	<description>LARGE INFARCT #2</description>
+	<type>encoded</type>
+	<comment><![CDATA[Dictionaries were submitted w/some SAS file derived code definitions (extracted by T.Y. - BROAD Institute); where possible, additional code meanings were extracted from submitted document: <a href="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" onclick="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" oncontextmenu="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;">VALUELBL</a> (or document &#39;CALCULATED VARIABLES&#39; [phd002771]), and inserted.]]></comment>
+</variable>
+
+<variable id="phv00100920.v1">
+	<name>ISIDE254</name>
+	<description>INFARCT #2, SIDE</description>
+	<type>encoded</type>
+	<comment><![CDATA[Dictionaries were submitted w/some SAS file derived code definitions (extracted by T.Y. - BROAD Institute); where possible, additional code meanings were extracted from submitted document: <a href="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" onclick="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" oncontextmenu="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;">VALUELBL</a> (or document &#39;CALCULATED VARIABLES&#39; [phd002771]), and inserted.]]></comment>
+</variable>
+
+<variable id="phv00100921.v1">
+	<name>ISZRL254</name>
+	<description>INFARCT #2, SIZE - RL</description>
+	<type>decimal</type>
+	<logical_min>0.3</logical_min>
+	<logical_max>4.7</logical_max>
+	<comment><![CDATA[Dictionaries were submitted w/some SAS file derived code definitions (extracted by T.Y. - BROAD Institute); where possible, additional code meanings were extracted from submitted document: <a href="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" onclick="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" oncontextmenu="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;">VALUELBL</a> (or document &#39;CALCULATED VARIABLES&#39; [phd002771]), and inserted.]]></comment>
+</variable>
+
+<variable id="phv00100922.v1">
+	<name>ISZAP254</name>
+	<description>INFARCT #2, SIZE - AP</description>
+	<type>decimal</type>
+	<logical_min>0.3</logical_min>
+	<logical_max>9.9</logical_max>
+	<comment><![CDATA[Dictionaries were submitted w/some SAS file derived code definitions (extracted by T.Y. - BROAD Institute); where possible, additional code meanings were extracted from submitted document: <a href="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" onclick="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" oncontextmenu="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;">VALUELBL</a> (or document &#39;CALCULATED VARIABLES&#39; [phd002771]), and inserted.]]></comment>
+</variable>
+
+<variable id="phv00100923.v1">
+	<name>IZ254</name>
+	<description>INFARCT #2, NO. SLICES</description>
+	<type>integer</type>
+	<logical_min>1</logical_min>
+	<logical_max>14</logical_max>
+	<comment><![CDATA[Dictionaries were submitted w/some SAS file derived code definitions (extracted by T.Y. - BROAD Institute); where possible, additional code meanings were extracted from submitted document: <a href="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" onclick="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" oncontextmenu="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;">VALUELBL</a> (or document &#39;CALCULATED VARIABLES&#39; [phd002771]), and inserted.]]></comment>
+</variable>
+
+<variable id="phv00100924.v1">
+	<name>IMRT1254</name>
+	<description>INFARCT #2, PREDOMINANT MR SIGNAL - T1</description>
+	<type>encoded</type>
+	<comment><![CDATA[Dictionaries were submitted w/some SAS file derived code definitions (extracted by T.Y. - BROAD Institute); where possible, additional code meanings were extracted from submitted document: <a href="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" onclick="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" oncontextmenu="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;">VALUELBL</a> (or document &#39;CALCULATED VARIABLES&#39; [phd002771]), and inserted.]]></comment>
+</variable>
+
+<variable id="phv00100925.v1">
+	<name>IMRPD254</name>
+	<description>INFARCT #2, PREDOMINANT MR SIGNAL - PD</description>
+	<type>encoded</type>
+	<comment><![CDATA[Dictionaries were submitted w/some SAS file derived code definitions (extracted by T.Y. - BROAD Institute); where possible, additional code meanings were extracted from submitted document: <a href="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" onclick="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" oncontextmenu="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;">VALUELBL</a> (or document &#39;CALCULATED VARIABLES&#39; [phd002771]), and inserted.]]></comment>
+</variable>
+
+<variable id="phv00100926.v1">
+	<name>IMRT2254</name>
+	<description>INFARCT #2, PREDOMINANT MR SIGNAL - T2</description>
+	<type>encoded</type>
+	<comment><![CDATA[Dictionaries were submitted w/some SAS file derived code definitions (extracted by T.Y. - BROAD Institute); where possible, additional code meanings were extracted from submitted document: <a href="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" onclick="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" oncontextmenu="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;">VALUELBL</a> (or document &#39;CALCULATED VARIABLES&#39; [phd002771]), and inserted.]]></comment>
+</variable>
+
+<variable id="phv00100927.v1">
+	<name>IHEM254</name>
+	<description>INFARCT #2, HEMORRHAGIC</description>
+	<type>encoded</type>
+	<comment><![CDATA[Dictionaries were submitted w/some SAS file derived code definitions (extracted by T.Y. - BROAD Institute); where possible, additional code meanings were extracted from submitted document: <a href="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" onclick="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" oncontextmenu="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;">VALUELBL</a> (or document &#39;CALCULATED VARIABLES&#39; [phd002771]), and inserted.]]></comment>
+</variable>
+
+<variable id="phv00100928.v1">
+	<name>ILOC1254</name>
+	<description>FIRST LOCATION OF INFARCT #2</description>
+	<type>integer</type>
+	<logical_min>1</logical_min>
+	<logical_max>23</logical_max>
+	<comment><![CDATA[Dictionaries were submitted w/some SAS file derived code definitions (extracted by T.Y. - BROAD Institute); where possible, additional code meanings were extracted from submitted document: <a href="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" onclick="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" oncontextmenu="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;">VALUELBL</a> (or document &#39;CALCULATED VARIABLES&#39; [phd002771]), and inserted.]]></comment>
+</variable>
+
+<variable id="phv00100929.v1">
+	<name>ILOC2254</name>
+	<description>SECOND LOCATION OF INFARCT #2</description>
+	<type>encoded</type>
+	<comment><![CDATA[Dictionaries were submitted w/some SAS file derived code definitions (extracted by T.Y. - BROAD Institute); where possible, additional code meanings were extracted from submitted document: <a href="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" onclick="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" oncontextmenu="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;">VALUELBL</a> (or document &#39;CALCULATED VARIABLES&#39; [phd002771]), and inserted.]]></comment>
+</variable>
+
+<variable id="phv00100930.v1">
+	<name>ILOC3254</name>
+	<description>THIRD LOCATION OF INFARCT #2</description>
+	<type>encoded</type>
+	<comment><![CDATA[Dictionaries were submitted w/some SAS file derived code definitions (extracted by T.Y. - BROAD Institute); where possible, additional code meanings were extracted from submitted document: <a href="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" onclick="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" oncontextmenu="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;">VALUELBL</a> (or document &#39;CALCULATED VARIABLES&#39; [phd002771]), and inserted.]]></comment>
+</variable>
+
+<variable id="phv00100931.v1">
+	<name>ILOC4254</name>
+	<description>FOURTH LOCATION OF INFARCT #2</description>
+	<type>encoded</type>
+	<comment><![CDATA[Dictionaries were submitted w/some SAS file derived code definitions (extracted by T.Y. - BROAD Institute); where possible, additional code meanings were extracted from submitted document: <a href="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" onclick="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" oncontextmenu="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;">VALUELBL</a> (or document &#39;CALCULATED VARIABLES&#39; [phd002771]), and inserted.]]></comment>
+</variable>
+
+<variable id="phv00100932.v1">
+	<name>LINF354</name>
+	<description>LARGE INFARCT #3</description>
+	<type>encoded</type>
+	<comment><![CDATA[Dictionaries were submitted w/some SAS file derived code definitions (extracted by T.Y. - BROAD Institute); where possible, additional code meanings were extracted from submitted document: <a href="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" onclick="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" oncontextmenu="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;">VALUELBL</a> (or document &#39;CALCULATED VARIABLES&#39; [phd002771]), and inserted.]]></comment>
+</variable>
+
+<variable id="phv00100933.v1">
+	<name>ISIDE354</name>
+	<description>INFARCT #3, SIDE</description>
+	<type>encoded</type>
+	<comment><![CDATA[Dictionaries were submitted w/some SAS file derived code definitions (extracted by T.Y. - BROAD Institute); where possible, additional code meanings were extracted from submitted document: <a href="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" onclick="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" oncontextmenu="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;">VALUELBL</a> (or document &#39;CALCULATED VARIABLES&#39; [phd002771]), and inserted.]]></comment>
+</variable>
+
+<variable id="phv00100934.v1">
+	<name>ISZRL354</name>
+	<description>INFARCT #3, SIZE - RL</description>
+	<type>decimal</type>
+	<logical_min>0.3</logical_min>
+	<logical_max>5.7</logical_max>
+	<comment><![CDATA[Dictionaries were submitted w/some SAS file derived code definitions (extracted by T.Y. - BROAD Institute); where possible, additional code meanings were extracted from submitted document: <a href="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" onclick="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" oncontextmenu="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;">VALUELBL</a> (or document &#39;CALCULATED VARIABLES&#39; [phd002771]), and inserted.]]></comment>
+</variable>
+
+<variable id="phv00100935.v1">
+	<name>ISZAP354</name>
+	<description>INFARCT #3, SIZE - AP</description>
+	<type>decimal</type>
+	<logical_min>0.3</logical_min>
+	<logical_max>14</logical_max>
+	<comment><![CDATA[Dictionaries were submitted w/some SAS file derived code definitions (extracted by T.Y. - BROAD Institute); where possible, additional code meanings were extracted from submitted document: <a href="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" onclick="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" oncontextmenu="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;">VALUELBL</a> (or document &#39;CALCULATED VARIABLES&#39; [phd002771]), and inserted.]]></comment>
+</variable>
+
+<variable id="phv00100936.v1">
+	<name>IZ354</name>
+	<description>INFARCT #3, NO. SLICES</description>
+	<type>encoded</type>
+	<comment><![CDATA[Dictionaries were submitted w/some SAS file derived code definitions (extracted by T.Y. - BROAD Institute); where possible, additional code meanings were extracted from submitted document: <a href="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" onclick="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" oncontextmenu="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;">VALUELBL</a> (or document &#39;CALCULATED VARIABLES&#39; [phd002771]), and inserted.]]></comment>
+</variable>
+
+<variable id="phv00100937.v1">
+	<name>IMRT1354</name>
+	<description>INFARCT #3, PREDOMINANT MR SIGNAL - T1</description>
+	<type>encoded</type>
+	<comment><![CDATA[Dictionaries were submitted w/some SAS file derived code definitions (extracted by T.Y. - BROAD Institute); where possible, additional code meanings were extracted from submitted document: <a href="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" onclick="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" oncontextmenu="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;">VALUELBL</a> (or document &#39;CALCULATED VARIABLES&#39; [phd002771]), and inserted.]]></comment>
+</variable>
+
+<variable id="phv00100938.v1">
+	<name>IMRPD354</name>
+	<description>INFARCT #3, PREDOMINANT MR SIGNAL - PD</description>
+	<type>encoded</type>
+	<comment><![CDATA[Dictionaries were submitted w/some SAS file derived code definitions (extracted by T.Y. - BROAD Institute); where possible, additional code meanings were extracted from submitted document: <a href="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" onclick="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" oncontextmenu="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;">VALUELBL</a> (or document &#39;CALCULATED VARIABLES&#39; [phd002771]), and inserted.]]></comment>
+</variable>
+
+<variable id="phv00100939.v1">
+	<name>IMRT2354</name>
+	<description>INFARCT #3, PREDOMINANT MR SIGNAL - T2</description>
+	<type>encoded</type>
+	<comment><![CDATA[Dictionaries were submitted w/some SAS file derived code definitions (extracted by T.Y. - BROAD Institute); where possible, additional code meanings were extracted from submitted document: <a href="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" onclick="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" oncontextmenu="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;">VALUELBL</a> (or document &#39;CALCULATED VARIABLES&#39; [phd002771]), and inserted.]]></comment>
+</variable>
+
+<variable id="phv00100940.v1">
+	<name>IHEM354</name>
+	<description>INFARCT #3, HEMORRHAGIC</description>
+	<type>encoded</type>
+	<comment><![CDATA[Dictionaries were submitted w/some SAS file derived code definitions (extracted by T.Y. - BROAD Institute); where possible, additional code meanings were extracted from submitted document: <a href="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" onclick="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" oncontextmenu="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;">VALUELBL</a> (or document &#39;CALCULATED VARIABLES&#39; [phd002771]), and inserted.]]></comment>
+</variable>
+
+<variable id="phv00100941.v1">
+	<name>ILOC1354</name>
+	<description>FIRST LOCATION OF INFARCT #3</description>
+	<type>integer</type>
+	<logical_min>5</logical_min>
+	<logical_max>23</logical_max>
+	<comment><![CDATA[Dictionaries were submitted w/some SAS file derived code definitions (extracted by T.Y. - BROAD Institute); where possible, additional code meanings were extracted from submitted document: <a href="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" onclick="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" oncontextmenu="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;">VALUELBL</a> (or document &#39;CALCULATED VARIABLES&#39; [phd002771]), and inserted.]]></comment>
+</variable>
+
+<variable id="phv00100942.v1">
+	<name>ILOC2354</name>
+	<description>SECOND LOCATION OF INFARCT #3</description>
+	<type>encoded</type>
+	<comment><![CDATA[Dictionaries were submitted w/some SAS file derived code definitions (extracted by T.Y. - BROAD Institute); where possible, additional code meanings were extracted from submitted document: <a href="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" onclick="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" oncontextmenu="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;">VALUELBL</a> (or document &#39;CALCULATED VARIABLES&#39; [phd002771]), and inserted.]]></comment>
+</variable>
+
+<variable id="phv00100943.v1">
+	<name>ILOC3354</name>
+	<description>THIRD LOCATION OF INFARCT #3</description>
+	<type>encoded</type>
+	<comment><![CDATA[Dictionaries were submitted w/some SAS file derived code definitions (extracted by T.Y. - BROAD Institute); where possible, additional code meanings were extracted from submitted document: <a href="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" onclick="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" oncontextmenu="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;">VALUELBL</a> (or document &#39;CALCULATED VARIABLES&#39; [phd002771]), and inserted.]]></comment>
+</variable>
+
+<variable id="phv00100944.v1">
+	<name>ILOC4354</name>
+	<description>FOURTH LOCATION OF INFARCT #3</description>
+	<type>encoded</type>
+	<comment><![CDATA[Dictionaries were submitted w/some SAS file derived code definitions (extracted by T.Y. - BROAD Institute); where possible, additional code meanings were extracted from submitted document: <a href="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" onclick="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" oncontextmenu="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;">VALUELBL</a> (or document &#39;CALCULATED VARIABLES&#39; [phd002771]), and inserted.]]></comment>
+</variable>
+
+<variable id="phv00100945.v1">
+	<name>LINF454</name>
+	<description>LARGE INFARCT #4</description>
+	<type>encoded</type>
+	<comment><![CDATA[Dictionaries were submitted w/some SAS file derived code definitions (extracted by T.Y. - BROAD Institute); where possible, additional code meanings were extracted from submitted document: <a href="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" onclick="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" oncontextmenu="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;">VALUELBL</a> (or document &#39;CALCULATED VARIABLES&#39; [phd002771]), and inserted.]]></comment>
+</variable>
+
+<variable id="phv00100946.v1">
+	<name>ISIDE454</name>
+	<description>INFARCT #4, SIDE</description>
+	<type>encoded</type>
+	<comment><![CDATA[Dictionaries were submitted w/some SAS file derived code definitions (extracted by T.Y. - BROAD Institute); where possible, additional code meanings were extracted from submitted document: <a href="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" onclick="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" oncontextmenu="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;">VALUELBL</a> (or document &#39;CALCULATED VARIABLES&#39; [phd002771]), and inserted.]]></comment>
+</variable>
+
+<variable id="phv00100947.v1">
+	<name>ISZRL454</name>
+	<description>INFARCT #4, SIZE - RL</description>
+	<type>decimal</type>
+	<logical_min>0.3</logical_min>
+	<logical_max>3.9</logical_max>
+	<comment><![CDATA[Dictionaries were submitted w/some SAS file derived code definitions (extracted by T.Y. - BROAD Institute); where possible, additional code meanings were extracted from submitted document: <a href="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" onclick="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" oncontextmenu="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;">VALUELBL</a> (or document &#39;CALCULATED VARIABLES&#39; [phd002771]), and inserted.]]></comment>
+</variable>
+
+<variable id="phv00100948.v1">
+	<name>ISZAP454</name>
+	<description>INFARCT #4, SIZE - AP</description>
+	<type>decimal</type>
+	<logical_min>0.3</logical_min>
+	<logical_max>3.4</logical_max>
+	<comment><![CDATA[Dictionaries were submitted w/some SAS file derived code definitions (extracted by T.Y. - BROAD Institute); where possible, additional code meanings were extracted from submitted document: <a href="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" onclick="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" oncontextmenu="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;">VALUELBL</a> (or document &#39;CALCULATED VARIABLES&#39; [phd002771]), and inserted.]]></comment>
+</variable>
+
+<variable id="phv00100949.v1">
+	<name>IZ454</name>
+	<description>INFARCT #4, NO. SLICES</description>
+	<type>encoded</type>
+	<comment><![CDATA[Dictionaries were submitted w/some SAS file derived code definitions (extracted by T.Y. - BROAD Institute); where possible, additional code meanings were extracted from submitted document: <a href="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" onclick="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" oncontextmenu="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;">VALUELBL</a> (or document &#39;CALCULATED VARIABLES&#39; [phd002771]), and inserted.]]></comment>
+</variable>
+
+<variable id="phv00100950.v1">
+	<name>IMRT1454</name>
+	<description>INFARCT #4, PREDOMINANT MR SIGNAL - T1</description>
+	<type>encoded</type>
+	<comment><![CDATA[Dictionaries were submitted w/some SAS file derived code definitions (extracted by T.Y. - BROAD Institute); where possible, additional code meanings were extracted from submitted document: <a href="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" onclick="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" oncontextmenu="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;">VALUELBL</a> (or document &#39;CALCULATED VARIABLES&#39; [phd002771]), and inserted.]]></comment>
+</variable>
+
+<variable id="phv00100951.v1">
+	<name>IMRPD454</name>
+	<description>INFARCT #4, PREDOMINANT MR SIGNAL - PD</description>
+	<type>encoded</type>
+	<comment><![CDATA[Dictionaries were submitted w/some SAS file derived code definitions (extracted by T.Y. - BROAD Institute); where possible, additional code meanings were extracted from submitted document: <a href="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" onclick="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" oncontextmenu="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;">VALUELBL</a> (or document &#39;CALCULATED VARIABLES&#39; [phd002771]), and inserted.]]></comment>
+</variable>
+
+<variable id="phv00100952.v1">
+	<name>IMRT2454</name>
+	<description>INFARCT #4, PREDOMINANT MR SIGNAL - T2</description>
+	<type>encoded</type>
+	<comment><![CDATA[Dictionaries were submitted w/some SAS file derived code definitions (extracted by T.Y. - BROAD Institute); where possible, additional code meanings were extracted from submitted document: <a href="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" onclick="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" oncontextmenu="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;">VALUELBL</a> (or document &#39;CALCULATED VARIABLES&#39; [phd002771]), and inserted.]]></comment>
+</variable>
+
+<variable id="phv00100953.v1">
+	<name>IHEM454</name>
+	<description>INFARCT #4, HEMORRHAGIC</description>
+	<type>encoded</type>
+	<comment><![CDATA[Dictionaries were submitted w/some SAS file derived code definitions (extracted by T.Y. - BROAD Institute); where possible, additional code meanings were extracted from submitted document: <a href="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" onclick="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" oncontextmenu="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;">VALUELBL</a> (or document &#39;CALCULATED VARIABLES&#39; [phd002771]), and inserted.]]></comment>
+</variable>
+
+<variable id="phv00100954.v1">
+	<name>ILOC1454</name>
+	<description>FIRST LOCATION OF INFARCT #4</description>
+	<type>integer</type>
+	<logical_min>11</logical_min>
+	<logical_max>23</logical_max>
+	<comment><![CDATA[Dictionaries were submitted w/some SAS file derived code definitions (extracted by T.Y. - BROAD Institute); where possible, additional code meanings were extracted from submitted document: <a href="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" onclick="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" oncontextmenu="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;">VALUELBL</a> (or document &#39;CALCULATED VARIABLES&#39; [phd002771]), and inserted.]]></comment>
+</variable>
+
+<variable id="phv00100955.v1">
+	<name>ILOC2454</name>
+	<description>SECOND LOCATION OF INFARCT #4</description>
+	<type>encoded</type>
+	<comment><![CDATA[Dictionaries were submitted w/some SAS file derived code definitions (extracted by T.Y. - BROAD Institute); where possible, additional code meanings were extracted from submitted document: <a href="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" onclick="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" oncontextmenu="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;">VALUELBL</a> (or document &#39;CALCULATED VARIABLES&#39; [phd002771]), and inserted.]]></comment>
+</variable>
+
+<variable id="phv00100956.v1">
+	<name>ILOC3454</name>
+	<description>THIRD LOCATION OF INFARCT #4</description>
+	<type>encoded</type>
+	<comment><![CDATA[Dictionaries were submitted w/some SAS file derived code definitions (extracted by T.Y. - BROAD Institute); where possible, additional code meanings were extracted from submitted document: <a href="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" onclick="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" oncontextmenu="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;">VALUELBL</a> (or document &#39;CALCULATED VARIABLES&#39; [phd002771]), and inserted.]]></comment>
+</variable>
+
+<variable id="phv00100957.v1">
+	<name>LINF554</name>
+	<description>LARGE INFARCT #5</description>
+	<type>encoded</type>
+	<comment><![CDATA[Dictionaries were submitted w/some SAS file derived code definitions (extracted by T.Y. - BROAD Institute); where possible, additional code meanings were extracted from submitted document: <a href="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" onclick="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" oncontextmenu="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;">VALUELBL</a> (or document &#39;CALCULATED VARIABLES&#39; [phd002771]), and inserted.]]></comment>
+</variable>
+
+<variable id="phv00100958.v1">
+	<name>ISIDE554</name>
+	<description>INFARCT #5, SIDE</description>
+	<type>encoded</type>
+	<comment><![CDATA[Dictionaries were submitted w/some SAS file derived code definitions (extracted by T.Y. - BROAD Institute); where possible, additional code meanings were extracted from submitted document: <a href="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" onclick="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" oncontextmenu="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;">VALUELBL</a> (or document &#39;CALCULATED VARIABLES&#39; [phd002771]), and inserted.]]></comment>
+</variable>
+
+<variable id="phv00100959.v1">
+	<name>ISZRL554</name>
+	<description>INFARCT #5, SIZE - RL</description>
+	<type>decimal</type>
+	<logical_min>0.3</logical_min>
+	<logical_max>3.6</logical_max>
+	<comment><![CDATA[Dictionaries were submitted w/some SAS file derived code definitions (extracted by T.Y. - BROAD Institute); where possible, additional code meanings were extracted from submitted document: <a href="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" onclick="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" oncontextmenu="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;">VALUELBL</a> (or document &#39;CALCULATED VARIABLES&#39; [phd002771]), and inserted.]]></comment>
+</variable>
+
+<variable id="phv00100960.v1">
+	<name>ISZAP554</name>
+	<description>INFARCT #5, SIZE - AP</description>
+	<type>decimal</type>
+	<logical_min>0.3</logical_min>
+	<logical_max>4.1</logical_max>
+	<comment><![CDATA[Dictionaries were submitted w/some SAS file derived code definitions (extracted by T.Y. - BROAD Institute); where possible, additional code meanings were extracted from submitted document: <a href="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" onclick="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" oncontextmenu="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;">VALUELBL</a> (or document &#39;CALCULATED VARIABLES&#39; [phd002771]), and inserted.]]></comment>
+</variable>
+
+<variable id="phv00100961.v1">
+	<name>IZ554</name>
+	<description>INFARCT #5, NO. SLICES</description>
+	<type>encoded</type>
+	<comment><![CDATA[Dictionaries were submitted w/some SAS file derived code definitions (extracted by T.Y. - BROAD Institute); where possible, additional code meanings were extracted from submitted document: <a href="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" onclick="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" oncontextmenu="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;">VALUELBL</a> (or document &#39;CALCULATED VARIABLES&#39; [phd002771]), and inserted.]]></comment>
+</variable>
+
+<variable id="phv00100962.v1">
+	<name>IMRT1554</name>
+	<description>INFARCT #5, PREDOMINANT MR SIGNAL - T1</description>
+	<type>encoded</type>
+	<comment><![CDATA[Dictionaries were submitted w/some SAS file derived code definitions (extracted by T.Y. - BROAD Institute); where possible, additional code meanings were extracted from submitted document: <a href="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" onclick="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" oncontextmenu="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;">VALUELBL</a> (or document &#39;CALCULATED VARIABLES&#39; [phd002771]), and inserted.]]></comment>
+</variable>
+
+<variable id="phv00100963.v1">
+	<name>IMRPD554</name>
+	<description>INFARCT #5, PREDOMINANT MR SIGNAL - PD</description>
+	<type>encoded</type>
+	<comment><![CDATA[Dictionaries were submitted w/some SAS file derived code definitions (extracted by T.Y. - BROAD Institute); where possible, additional code meanings were extracted from submitted document: <a href="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" onclick="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" oncontextmenu="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;">VALUELBL</a> (or document &#39;CALCULATED VARIABLES&#39; [phd002771]), and inserted.]]></comment>
+</variable>
+
+<variable id="phv00100964.v1">
+	<name>IMRT2554</name>
+	<description>INFARCT #5, PREDOMINANT MR SIGNAL - T2</description>
+	<type>encoded</type>
+	<comment><![CDATA[Dictionaries were submitted w/some SAS file derived code definitions (extracted by T.Y. - BROAD Institute); where possible, additional code meanings were extracted from submitted document: <a href="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" onclick="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" oncontextmenu="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;">VALUELBL</a> (or document &#39;CALCULATED VARIABLES&#39; [phd002771]), and inserted.]]></comment>
+</variable>
+
+<variable id="phv00100965.v1">
+	<name>IHEM554</name>
+	<description>INFARCT #5, HEMORRHAGIC</description>
+	<type>encoded</type>
+	<comment><![CDATA[Dictionaries were submitted w/some SAS file derived code definitions (extracted by T.Y. - BROAD Institute); where possible, additional code meanings were extracted from submitted document: <a href="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" onclick="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" oncontextmenu="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;">VALUELBL</a> (or document &#39;CALCULATED VARIABLES&#39; [phd002771]), and inserted.]]></comment>
+</variable>
+
+<variable id="phv00100966.v1">
+	<name>ILOC1554</name>
+	<description>FIRST LOCATION OF INFARCT #5</description>
+	<type>encoded</type>
+	<comment><![CDATA[Dictionaries were submitted w/some SAS file derived code definitions (extracted by T.Y. - BROAD Institute); where possible, additional code meanings were extracted from submitted document: <a href="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" onclick="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" oncontextmenu="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;">VALUELBL</a> (or document &#39;CALCULATED VARIABLES&#39; [phd002771]), and inserted.]]></comment>
+</variable>
+
+<variable id="phv00100967.v1">
+	<name>HEM154</name>
+	<description>HEMATOMA #1</description>
+	<type>encoded</type>
+	<comment><![CDATA[Dictionaries were submitted w/some SAS file derived code definitions (extracted by T.Y. - BROAD Institute); where possible, additional code meanings were extracted from submitted document: <a href="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" onclick="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" oncontextmenu="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;">VALUELBL</a> (or document &#39;CALCULATED VARIABLES&#39; [phd002771]), and inserted.]]></comment>
+</variable>
+
+<variable id="phv00100968.v1">
+	<name>HSIDE154</name>
+	<description>HEMATOMA #1, SIDE</description>
+	<type>encoded</type>
+	<comment><![CDATA[Dictionaries were submitted w/some SAS file derived code definitions (extracted by T.Y. - BROAD Institute); where possible, additional code meanings were extracted from submitted document: <a href="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" onclick="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" oncontextmenu="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;">VALUELBL</a> (or document &#39;CALCULATED VARIABLES&#39; [phd002771]), and inserted.]]></comment>
+</variable>
+
+<variable id="phv00100969.v1">
+	<name>HSZRL154</name>
+	<description>HEMATOMA #1, SIZE - RL</description>
+	<type>decimal</type>
+	<logical_min>0.2</logical_min>
+	<logical_max>3.7</logical_max>
+	<comment><![CDATA[Dictionaries were submitted w/some SAS file derived code definitions (extracted by T.Y. - BROAD Institute); where possible, additional code meanings were extracted from submitted document: <a href="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" onclick="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" oncontextmenu="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;">VALUELBL</a> (or document &#39;CALCULATED VARIABLES&#39; [phd002771]), and inserted.]]></comment>
+</variable>
+
+<variable id="phv00100970.v1">
+	<name>HSZAP154</name>
+	<description>HEMATOMA #1, SIZE - AP</description>
+	<type>decimal</type>
+	<logical_min>0.3</logical_min>
+	<logical_max>3</logical_max>
+	<comment><![CDATA[Dictionaries were submitted w/some SAS file derived code definitions (extracted by T.Y. - BROAD Institute); where possible, additional code meanings were extracted from submitted document: <a href="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" onclick="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" oncontextmenu="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;">VALUELBL</a> (or document &#39;CALCULATED VARIABLES&#39; [phd002771]), and inserted.]]></comment>
+</variable>
+
+<variable id="phv00100971.v1">
+	<name>HZ154</name>
+	<description>HEMATOMA #1, NO. SLICES</description>
+	<type>encoded</type>
+	<comment><![CDATA[Dictionaries were submitted w/some SAS file derived code definitions (extracted by T.Y. - BROAD Institute); where possible, additional code meanings were extracted from submitted document: <a href="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" onclick="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" oncontextmenu="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;">VALUELBL</a> (or document &#39;CALCULATED VARIABLES&#39; [phd002771]), and inserted.]]></comment>
+</variable>
+
+<variable id="phv00100972.v1">
+	<name>HMRT1154</name>
+	<description>HEMATOMA #1, PREDOMINANT MR SIGNAL - T1</description>
+	<type>encoded</type>
+	<comment><![CDATA[Dictionaries were submitted w/some SAS file derived code definitions (extracted by T.Y. - BROAD Institute); where possible, additional code meanings were extracted from submitted document: <a href="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" onclick="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" oncontextmenu="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;">VALUELBL</a> (or document &#39;CALCULATED VARIABLES&#39; [phd002771]), and inserted.]]></comment>
+</variable>
+
+<variable id="phv00100973.v1">
+	<name>HMRPD154</name>
+	<description>HEMATOMA #1, PREDOMINANT MR SIGNAL - PD</description>
+	<type>encoded</type>
+	<comment><![CDATA[Dictionaries were submitted w/some SAS file derived code definitions (extracted by T.Y. - BROAD Institute); where possible, additional code meanings were extracted from submitted document: <a href="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" onclick="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" oncontextmenu="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;">VALUELBL</a> (or document &#39;CALCULATED VARIABLES&#39; [phd002771]), and inserted.]]></comment>
+</variable>
+
+<variable id="phv00100974.v1">
+	<name>HMRT2154</name>
+	<description>HEMATOMA #1, PREDOMINANT MR SIGNAL - T2</description>
+	<type>encoded</type>
+	<comment><![CDATA[Dictionaries were submitted w/some SAS file derived code definitions (extracted by T.Y. - BROAD Institute); where possible, additional code meanings were extracted from submitted document: <a href="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" onclick="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" oncontextmenu="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;">VALUELBL</a> (or document &#39;CALCULATED VARIABLES&#39; [phd002771]), and inserted.]]></comment>
+</variable>
+
+<variable id="phv00100975.v1">
+	<name>HAGE154</name>
+	<description>HEMATOMA #1, AGE</description>
+	<type>encoded</type>
+	<comment><![CDATA[Dictionaries were submitted w/some SAS file derived code definitions (extracted by T.Y. - BROAD Institute); where possible, additional code meanings were extracted from submitted document: <a href="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" onclick="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" oncontextmenu="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;">VALUELBL</a> (or document &#39;CALCULATED VARIABLES&#39; [phd002771]), and inserted.]]></comment>
+</variable>
+
+<variable id="phv00100976.v1">
+	<name>HLOC1154</name>
+	<description>FIRST LOCATION OF HEMATOMA #1</description>
+	<type>encoded</type>
+	<comment><![CDATA[Dictionaries were submitted w/some SAS file derived code definitions (extracted by T.Y. - BROAD Institute); where possible, additional code meanings were extracted from submitted document: <a href="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" onclick="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" oncontextmenu="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;">VALUELBL</a> (or document &#39;CALCULATED VARIABLES&#39; [phd002771]), and inserted.]]></comment>
+</variable>
+
+<variable id="phv00100977.v1">
+	<name>HLOC2154</name>
+	<description>SECOND LOCATION OF HEMATOMA #1</description>
+	<type>encoded</type>
+	<comment><![CDATA[Dictionaries were submitted w/some SAS file derived code definitions (extracted by T.Y. - BROAD Institute); where possible, additional code meanings were extracted from submitted document: <a href="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" onclick="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" oncontextmenu="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;">VALUELBL</a> (or document &#39;CALCULATED VARIABLES&#39; [phd002771]), and inserted.]]></comment>
+</variable>
+
+<variable id="phv00100978.v1">
+	<name>HEM254</name>
+	<description>HEMATOMA #2</description>
+	<type>encoded</type>
+	<comment><![CDATA[Dictionaries were submitted w/some SAS file derived code definitions (extracted by T.Y. - BROAD Institute); where possible, additional code meanings were extracted from submitted document: <a href="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" onclick="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" oncontextmenu="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;">VALUELBL</a> (or document &#39;CALCULATED VARIABLES&#39; [phd002771]), and inserted.]]></comment>
+</variable>
+
+<variable id="phv00100979.v1">
+	<name>HSIDE254</name>
+	<description>HEMATOMA #2, SIDE</description>
+	<type>encoded</type>
+	<comment><![CDATA[Dictionaries were submitted w/some SAS file derived code definitions (extracted by T.Y. - BROAD Institute); where possible, additional code meanings were extracted from submitted document: <a href="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" onclick="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" oncontextmenu="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;">VALUELBL</a> (or document &#39;CALCULATED VARIABLES&#39; [phd002771]), and inserted.]]></comment>
+</variable>
+
+<variable id="phv00100980.v1">
+	<name>HSZRL254</name>
+	<description>HEMATOMA #2, SIZE - RL</description>
+	<type>decimal</type>
+	<logical_min>0.1</logical_min>
+	<logical_max>0.7</logical_max>
+	<comment><![CDATA[Dictionaries were submitted w/some SAS file derived code definitions (extracted by T.Y. - BROAD Institute); where possible, additional code meanings were extracted from submitted document: <a href="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" onclick="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" oncontextmenu="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;">VALUELBL</a> (or document &#39;CALCULATED VARIABLES&#39; [phd002771]), and inserted.]]></comment>
+</variable>
+
+<variable id="phv00100981.v1">
+	<name>HSZAP254</name>
+	<description>HEMATOMA #2, SIZE - AP</description>
+	<type>decimal</type>
+	<logical_min>0.1</logical_min>
+	<logical_max>0.3</logical_max>
+	<comment><![CDATA[Dictionaries were submitted w/some SAS file derived code definitions (extracted by T.Y. - BROAD Institute); where possible, additional code meanings were extracted from submitted document: <a href="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" onclick="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" oncontextmenu="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;">VALUELBL</a> (or document &#39;CALCULATED VARIABLES&#39; [phd002771]), and inserted.]]></comment>
+</variable>
+
+<variable id="phv00100982.v1">
+	<name>HZ254</name>
+	<description>HEMATOMA #2, NO. SLICES</description>
+	<type>encoded</type>
+	<comment><![CDATA[Dictionaries were submitted w/some SAS file derived code definitions (extracted by T.Y. - BROAD Institute); where possible, additional code meanings were extracted from submitted document: <a href="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" onclick="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" oncontextmenu="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;">VALUELBL</a> (or document &#39;CALCULATED VARIABLES&#39; [phd002771]), and inserted.]]></comment>
+</variable>
+
+<variable id="phv00100983.v1">
+	<name>HMRT1254</name>
+	<description>HEMATOMA #2, PREDOMINANT MR SIGNAL - T1</description>
+	<type>encoded</type>
+	<comment><![CDATA[Dictionaries were submitted w/some SAS file derived code definitions (extracted by T.Y. - BROAD Institute); where possible, additional code meanings were extracted from submitted document: <a href="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" onclick="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" oncontextmenu="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;">VALUELBL</a> (or document &#39;CALCULATED VARIABLES&#39; [phd002771]), and inserted.]]></comment>
+</variable>
+
+<variable id="phv00100984.v1">
+	<name>HMRPD254</name>
+	<description>HEMATOMA #2, PREDOMINANT MR SIGNAL - PD</description>
+	<type>encoded</type>
+	<comment><![CDATA[Dictionaries were submitted w/some SAS file derived code definitions (extracted by T.Y. - BROAD Institute); where possible, additional code meanings were extracted from submitted document: <a href="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" onclick="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" oncontextmenu="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;">VALUELBL</a> (or document &#39;CALCULATED VARIABLES&#39; [phd002771]), and inserted.]]></comment>
+</variable>
+
+<variable id="phv00100985.v1">
+	<name>HMRT2254</name>
+	<description>HEMATOMA #2, PREDOMINANT MR SIGNAL - T2</description>
+	<type>encoded</type>
+	<comment><![CDATA[Dictionaries were submitted w/some SAS file derived code definitions (extracted by T.Y. - BROAD Institute); where possible, additional code meanings were extracted from submitted document: <a href="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" onclick="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" oncontextmenu="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;">VALUELBL</a> (or document &#39;CALCULATED VARIABLES&#39; [phd002771]), and inserted.]]></comment>
+</variable>
+
+<variable id="phv00100986.v1">
+	<name>HAGE254</name>
+	<description>HEMATOMA #2, AGE</description>
+	<type>encoded</type>
+	<comment><![CDATA[Dictionaries were submitted w/some SAS file derived code definitions (extracted by T.Y. - BROAD Institute); where possible, additional code meanings were extracted from submitted document: <a href="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" onclick="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" oncontextmenu="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;">VALUELBL</a> (or document &#39;CALCULATED VARIABLES&#39; [phd002771]), and inserted.]]></comment>
+</variable>
+
+<variable id="phv00100987.v1">
+	<name>HLOC1254</name>
+	<description>FIRST LOCATION OF HEMATOMA #2</description>
+	<type>encoded</type>
+	<comment><![CDATA[Dictionaries were submitted w/some SAS file derived code definitions (extracted by T.Y. - BROAD Institute); where possible, additional code meanings were extracted from submitted document: <a href="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" onclick="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" oncontextmenu="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;">VALUELBL</a> (or document &#39;CALCULATED VARIABLES&#39; [phd002771]), and inserted.]]></comment>
+</variable>
+
+<variable id="phv00100988.v1">
+	<name>HEM354</name>
+	<description>HEMATOMA #3</description>
+	<type>encoded</type>
+	<comment><![CDATA[Dictionaries were submitted w/some SAS file derived code definitions (extracted by T.Y. - BROAD Institute); where possible, additional code meanings were extracted from submitted document: <a href="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" onclick="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" oncontextmenu="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;">VALUELBL</a> (or document &#39;CALCULATED VARIABLES&#39; [phd002771]), and inserted.]]></comment>
+</variable>
+
+<variable id="phv00100989.v1">
+	<name>HSIDE354</name>
+	<description>HEMATOMA #3, SIDE</description>
+	<type>encoded</type>
+	<comment><![CDATA[Dictionaries were submitted w/some SAS file derived code definitions (extracted by T.Y. - BROAD Institute); where possible, additional code meanings were extracted from submitted document: <a href="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" onclick="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" oncontextmenu="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;">VALUELBL</a> (or document &#39;CALCULATED VARIABLES&#39; [phd002771]), and inserted.]]></comment>
+</variable>
+
+<variable id="phv00100990.v1">
+	<name>HSZRL354</name>
+	<description>HEMATOMA #3, SIZE - RL</description>
+	<type>decimal</type>
+	<logical_min>0.1</logical_min>
+	<logical_max>0.6</logical_max>
+	<comment><![CDATA[Dictionaries were submitted w/some SAS file derived code definitions (extracted by T.Y. - BROAD Institute); where possible, additional code meanings were extracted from submitted document: <a href="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" onclick="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" oncontextmenu="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;">VALUELBL</a> (or document &#39;CALCULATED VARIABLES&#39; [phd002771]), and inserted.]]></comment>
+</variable>
+
+<variable id="phv00100991.v1">
+	<name>HSZAP354</name>
+	<description>HEMATOMA #3, SIZE - AP</description>
+	<type>decimal</type>
+	<logical_min>0.1</logical_min>
+	<logical_max>0.6</logical_max>
+	<comment><![CDATA[Dictionaries were submitted w/some SAS file derived code definitions (extracted by T.Y. - BROAD Institute); where possible, additional code meanings were extracted from submitted document: <a href="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" onclick="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" oncontextmenu="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;">VALUELBL</a> (or document &#39;CALCULATED VARIABLES&#39; [phd002771]), and inserted.]]></comment>
+</variable>
+
+<variable id="phv00100992.v1">
+	<name>HZ354</name>
+	<description>HEMATOMA #3, NO. SLICES</description>
+	<type>encoded</type>
+	<comment><![CDATA[Dictionaries were submitted w/some SAS file derived code definitions (extracted by T.Y. - BROAD Institute); where possible, additional code meanings were extracted from submitted document: <a href="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" onclick="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" oncontextmenu="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;">VALUELBL</a> (or document &#39;CALCULATED VARIABLES&#39; [phd002771]), and inserted.]]></comment>
+</variable>
+
+<variable id="phv00100993.v1">
+	<name>HMRT1354</name>
+	<description>HEMATOMA #3, PREDOMINANT MR SIGNAL - T1</description>
+	<type>encoded</type>
+	<comment><![CDATA[Dictionaries were submitted w/some SAS file derived code definitions (extracted by T.Y. - BROAD Institute); where possible, additional code meanings were extracted from submitted document: <a href="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" onclick="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" oncontextmenu="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;">VALUELBL</a> (or document &#39;CALCULATED VARIABLES&#39; [phd002771]), and inserted.]]></comment>
+</variable>
+
+<variable id="phv00100994.v1">
+	<name>HMRPD354</name>
+	<description>HEMATOMA #3, PREDOMINANT MR SIGNAL - PD</description>
+	<type>encoded</type>
+	<comment><![CDATA[Dictionaries were submitted w/some SAS file derived code definitions (extracted by T.Y. - BROAD Institute); where possible, additional code meanings were extracted from submitted document: <a href="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" onclick="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" oncontextmenu="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;">VALUELBL</a> (or document &#39;CALCULATED VARIABLES&#39; [phd002771]), and inserted.]]></comment>
+</variable>
+
+<variable id="phv00100995.v1">
+	<name>HMRT2354</name>
+	<description>HEMATOMA #3, PREDOMINANT MR SIGNAL - T2</description>
+	<type>encoded</type>
+	<comment><![CDATA[Dictionaries were submitted w/some SAS file derived code definitions (extracted by T.Y. - BROAD Institute); where possible, additional code meanings were extracted from submitted document: <a href="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" onclick="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" oncontextmenu="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;">VALUELBL</a> (or document &#39;CALCULATED VARIABLES&#39; [phd002771]), and inserted.]]></comment>
+</variable>
+
+<variable id="phv00100996.v1">
+	<name>HAGE354</name>
+	<description>HEMATOMA #3, AGE</description>
+	<type>encoded</type>
+	<comment><![CDATA[Dictionaries were submitted w/some SAS file derived code definitions (extracted by T.Y. - BROAD Institute); where possible, additional code meanings were extracted from submitted document: <a href="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" onclick="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" oncontextmenu="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;">VALUELBL</a> (or document &#39;CALCULATED VARIABLES&#39; [phd002771]), and inserted.]]></comment>
+</variable>
+
+<variable id="phv00100997.v1">
+	<name>HLOC1354</name>
+	<description>FIRST LOCATION OF HEMATOMA #3</description>
+	<type>encoded</type>
+	<comment><![CDATA[Dictionaries were submitted w/some SAS file derived code definitions (extracted by T.Y. - BROAD Institute); where possible, additional code meanings were extracted from submitted document: <a href="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" onclick="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" oncontextmenu="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;">VALUELBL</a> (or document &#39;CALCULATED VARIABLES&#39; [phd002771]), and inserted.]]></comment>
+</variable>
+
+<variable id="phv00100998.v1">
+	<name>COMPLETE</name>
+	<description>COMPLETION STATUS</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>11</logical_max>
+	<comment><![CDATA[Dictionaries were submitted w/some SAS file derived code definitions (extracted by T.Y. - BROAD Institute); where possible, additional code meanings were extracted from submitted document: <a href="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" onclick="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;" oncontextmenu="javascript:getPage(this, &#39;document.cgi&#39;, 2782);return true;">VALUELBL</a> (or document &#39;CALCULATED VARIABLES&#39; [phd002771]), and inserted.]]></comment>
+</variable>
+
+</data_table>

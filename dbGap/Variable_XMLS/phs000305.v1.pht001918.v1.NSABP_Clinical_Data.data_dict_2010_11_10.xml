@@ -1,0 +1,414 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./datadict_v2.xsl"?>
+<data_table id="pht001918.v1" study_id="phs000305.v1" participant_set="1" date_created="Wed Nov 10 13:24:14 2010">
+
+<variable id="phv00124491.v1">
+	<name>SUBJID</name>
+	<description>Subject ID</description>
+	<type>integer</type>
+	<comment>Ten digit ID number</comment>
+</variable>
+
+<variable id="phv00124492.v1">
+	<name>Protocol</name>
+	<description>NSABP Trial</description>
+	<type>string</type>
+	<value code="P1">Protocol P-1</value>
+	<value code="P2">Protocol P-2</value>
+</variable>
+
+<variable id="phv00124493.v1">
+	<name>CASE</name>
+	<description>Case/Control Status</description>
+	<type>integer</type>
+	<value code="0">Control</value>
+	<value code="1">Case</value>
+</variable>
+
+<variable id="phv00124494.v1">
+	<name>EVENTTYPE</name>
+	<description>Type of breast event</description>
+	<type>integer</type>
+	<value code="1">Invasive Breast Cancer</value>
+	<value code="2">DCIS</value>
+</variable>
+
+<variable id="phv00124495.v1">
+	<name>MATCHID</name>
+	<description>Identifier of matched case/control set</description>
+	<type>integer</type>
+	<comment>Unique number for each matched set that includes 1 case and at least 1 control</comment>
+</variable>
+
+<variable id="phv00124496.v1">
+	<name>TRT</name>
+	<description>Treatment</description>
+	<type>integer</type>
+	<comment>Randomized treatment</comment>
+	<value code="1">Raloxifene</value>
+	<value code="2">Tamoxifen</value>
+</variable>
+
+<variable id="phv00124497.v1">
+	<name>AGE</name>
+	<description>Age at entry</description>
+	<type>integer</type>
+	<unit>Years</unit>
+	<logical_min>42</logical_min>
+	<logical_max>79</logical_max>
+</variable>
+
+<variable id="phv00124498.v1">
+	<name>PR5YR</name>
+	<description>Five year predicted breast cancer risk</description>
+	<type>decimal</type>
+	<unit>%</unit>
+	<logical_min>1.21</logical_min>
+	<logical_max>22.44</logical_max>
+	<comment>Actual score %</comment>
+</variable>
+
+<variable id="phv00124499.v1">
+	<name>LCIS</name>
+	<description>History of LCIS [lobular carcinoma in situ] at entry</description>
+	<type>integer</type>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00124500.v1">
+	<name>ATYPH</name>
+	<description>History of atypical hyperplasia at entry</description>
+	<type>integer</type>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00124501.v1">
+	<name>HYST</name>
+	<description>History of hysterectomy at entry</description>
+	<type>integer</type>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00124502.v1">
+	<name>NBREL</name>
+	<description>Number of first-degree relatives with breast cancer</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>5</logical_max>
+</variable>
+
+<variable id="phv00124503.v1">
+	<name>TIME</name>
+	<description>Length of follow-up</description>
+	<type>decimal</type>
+	<unit>Months</unit>
+	<logical_min>0.9</logical_min>
+	<logical_max>139</logical_max>
+	<comment>Difference between date of randomization and date of breast cancer for cases and date of last follow-up at risk for controls.  Time interval is calculated to the nearest 10th of a month</comment>
+</variable>
+
+<variable id="phv00124504.v1">
+	<name>TOFFTRT</name>
+	<description>Time on tamoxifen or raloxifene</description>
+	<type>decimal</type>
+	<unit>Months</unit>
+	<logical_min>0</logical_min>
+	<logical_max>60</logical_max>
+	<comment>Difference between date of randomization and the last date the participant went off therapy or the date of last follow-up (if the patient did not go off therapy).  Time interval is calculated to the nearest 10th of a month</comment>
+</variable>
+
+<variable id="phv00124505.v1">
+	<name>HT</name>
+	<description>Height</description>
+	<type>decimal</type>
+	<unit>cm</unit>
+	<logical_min>133.4</logical_min>
+	<logical_max>182.9</logical_max>
+</variable>
+
+<variable id="phv00124506.v1">
+	<name>WT</name>
+	<description>Weight</description>
+	<type>decimal</type>
+	<unit>kg</unit>
+	<logical_min>38.6</logical_min>
+	<logical_max>166.5</logical_max>
+</variable>
+
+<variable id="phv00124507.v1">
+	<name>SMOKE</name>
+	<description>Smoker at time entered on study</description>
+	<type>integer</type>
+	<value code="0">NO</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00124508.v1">
+	<name>HFS</name>
+	<description>Hot flash score</description>
+	<type>integer</type>
+	<comment>Highest severity reported during 66 months of follow-up.  Based on self-report.  Hot flashes were scaled as the response on a self-administered questionnaire to &quot;What was the extent to which you have had a problem within the last four weeks?&quot;</comment>
+	<value code="0">Not at all</value>
+	<value code="1">Slightly</value>
+	<value code="2">Moderately</value>
+	<value code="3">Quite a bit</value>
+	<value code="4">Extremely</value>
+</variable>
+
+<variable id="phv00124509.v1">
+	<name>er</name>
+	<description>Estrogen receptor status</description>
+	<type>string</type>
+	<comment>Missing if control or DCIS</comment>
+</variable>
+
+<variable id="phv00124510.v1">
+	<name>pr</name>
+	<description>Progesteron receptor status</description>
+	<type>string</type>
+	<comment>Missing if control or DCIS</comment>
+</variable>
+
+<variable id="phv00124511.v1">
+	<name>pnode</name>
+	<description>Nodal status</description>
+	<type>string</type>
+	<comment>Missing if control or DCIS</comment>
+</variable>
+
+<variable id="phv00124512.v1">
+	<name>mpsize</name>
+	<description>Maximum pathologic tumor size</description>
+	<type>string</type>
+	<comment>Missing if control or DCIS</comment>
+</variable>
+
+<variable id="phv00124513.v1">
+	<name>histtype</name>
+	<description>Histologic type</description>
+	<type>string</type>
+	<comment>Missing if control or DCIS</comment>
+</variable>
+
+<variable id="phv00124514.v1">
+	<name>stage</name>
+	<description>Tumor stage</description>
+	<type>string</type>
+	<comment>Missing if control or DCIS</comment>
+	<value code="I">Stage I</value>
+	<value code="IIA">Stage IIA</value>
+	<value code="IIB">Stage IIB</value>
+	<value code="III">Stage III</value>
+	<value code="IV">Stage IV</value>
+	<value code="Unknown">Unknown</value>
+</variable>
+
+<variable id="phv00124515.v1">
+	<name>FluoAtEntry</name>
+	<description>Fluoxetine use at time of entry</description>
+	<type>string</type>
+	<comment>Prozac, Rapiflux, Sarafem, Selfemra</comment>
+</variable>
+
+<variable id="phv00124516.v1">
+	<name>FluoAfterEntry</name>
+	<description>Fluoxetine use after entry</description>
+	<type>string</type>
+</variable>
+
+<variable id="phv00124517.v1">
+	<name>FluoAfterEntryTime</name>
+	<description>Time to start of fluoxetine use</description>
+	<type>decimal</type>
+	<unit>Months</unit>
+	<logical_min>1.8</logical_min>
+	<logical_max>86</logical_max>
+	<comment>Difference between date of randomization and start date of fluoxetine use.  Missing if did not start after entry.  Time interval is expressed as the number of months and is calculated to the nearest 10th of a month.</comment>
+</variable>
+
+<variable id="phv00124518.v1">
+	<name>ParoAtEntry</name>
+	<description>Paroxetine use at time of entry</description>
+	<type>string</type>
+	<comment>Paxil, Seroxat, Pexeva</comment>
+</variable>
+
+<variable id="phv00124519.v1">
+	<name>ParoAfterEntry</name>
+	<description>Paroxetine use after entry</description>
+	<type>string</type>
+</variable>
+
+<variable id="phv00124520.v1">
+	<name>ParoAfterEntryTime</name>
+	<description>Time to start of paroxetine</description>
+	<type>decimal</type>
+	<unit>Months</unit>
+	<logical_min>0.7</logical_min>
+	<logical_max>98.6</logical_max>
+	<comment>Difference between date of randomization and start date of paroxetine use.  Missing if did not start after entry.  Time interval is expressed as the number of months and is calculated to the nearest 10th of a month.</comment>
+</variable>
+
+<variable id="phv00124521.v1">
+	<name>SertAtEntry</name>
+	<description>Sertraline use at time of entry</description>
+	<type>string</type>
+	<comment>Zoloft</comment>
+</variable>
+
+<variable id="phv00124522.v1">
+	<name>SertAfterEntry</name>
+	<description>Sertraline use after entry</description>
+	<type>string</type>
+</variable>
+
+<variable id="phv00124523.v1">
+	<name>SertAfterEntryTime</name>
+	<description>Time to start of Sertraline Use</description>
+	<type>decimal</type>
+	<unit>Months</unit>
+	<logical_min>0.3</logical_min>
+	<logical_max>97.5</logical_max>
+	<comment>Difference between date of randomization and start date of Sertraline use.  Missing if did not start after entry.  Time interval is expressed as the number of months and is calculated to the nearest 10th of a month.</comment>
+</variable>
+
+<variable id="phv00124524.v1">
+	<name>BuprAtEntry</name>
+	<description>Buproprion use at time of entry</description>
+	<type>string</type>
+	<comment>Wellbutrin, Zyban, Prolev, Quomem, Aplenzin, Budeprion</comment>
+</variable>
+
+<variable id="phv00124525.v1">
+	<name>BuprAfterEntry</name>
+	<description>Buproprion use after entry</description>
+	<type>string</type>
+</variable>
+
+<variable id="phv00124526.v1">
+	<name>BuprAfterEntryTime</name>
+	<description>Time to start of Buproprion Use</description>
+	<type>decimal</type>
+	<unit>Months</unit>
+	<logical_min>3.2</logical_min>
+	<logical_max>102.9</logical_max>
+	<comment>Difference between date of randomization and start date of Buproprion use.  Missing if did not start after entry.  Time interval is expressed as the number of months and is calculated to the nearest 10th of a month.</comment>
+</variable>
+
+<variable id="phv00124527.v1">
+	<name>CimeAtEntry</name>
+	<description>Cimetidine use at time of entry</description>
+	<type>string</type>
+	<comment>Tagamet</comment>
+</variable>
+
+<variable id="phv00124528.v1">
+	<name>CimeAfterEntry</name>
+	<description>Cimetidine use after entry</description>
+	<type>string</type>
+</variable>
+
+<variable id="phv00124529.v1">
+	<name>CimeAfterEntryTime</name>
+	<description>Time to start of cimetidine use</description>
+	<type>decimal</type>
+	<unit>Months</unit>
+	<logical_min>6.4</logical_min>
+	<comment>Difference between date of randomization and start date of Cimetidine use.  Missing if did not start after entry.  Time interval is expressed as the number of months and is calculated to the nearest 10th of a month.</comment>
+</variable>
+
+<variable id="phv00124530.v1">
+	<name>DoxeAtEntry</name>
+	<description>Doxepin use at time of entry</description>
+	<type>string</type>
+	<comment>Sinequan, Adapin</comment>
+</variable>
+
+<variable id="phv00124531.v1">
+	<name>DoxeAfterEntry</name>
+	<description>Doxepin use after entry</description>
+	<type>string</type>
+</variable>
+
+<variable id="phv00124532.v1">
+	<name>DoxeAfterEntryTime</name>
+	<description>Time to start of doxepin use</description>
+	<type>decimal</type>
+	<unit>Months</unit>
+	<logical_min>23.6</logical_min>
+	<logical_max>40.2</logical_max>
+	<comment>Difference between date of randomization and start date of Doxepin use.  Missing if did not start after entry.  Time interval is expressed as the number of months and is calculated to the nearest 10th of a month.</comment>
+</variable>
+
+<variable id="phv00124533.v1">
+	<name>TiclAtEntry</name>
+	<description>Ticlopidine use at time of entry</description>
+	<type>string</type>
+	<comment>Ticlid</comment>
+</variable>
+
+<variable id="phv00124534.v1">
+	<name>TiclAfterEntry</name>
+	<description>Ticlopidine use after time of entry</description>
+	<type>string</type>
+</variable>
+
+<variable id="phv00124535.v1">
+	<name>TiclAfterEntryTime</name>
+	<description>Time to start of ticlopine use</description>
+	<type>decimal</type>
+	<unit>Months</unit>
+	<comment>Difference between date of randomization and start date of Ticlopidine use.  Missing if did not start after entry.  Time interval is expressed as the number of months and is calculated to the nearest 10th of a month.</comment>
+</variable>
+
+<variable id="phv00124536.v1">
+	<name>CitaAtEntry</name>
+	<description>Citalopram use at time of entry</description>
+	<type>string</type>
+	<comment>Celexa</comment>
+</variable>
+
+<variable id="phv00124537.v1">
+	<name>CitaAfterEntry</name>
+	<description>Citalopram use after entry</description>
+	<type>string</type>
+</variable>
+
+<variable id="phv00124538.v1">
+	<name>CitaAfterEntryTime</name>
+	<description>Time to start citalopram</description>
+	<type>decimal</type>
+	<unit>months</unit>
+	<logical_min>3.1</logical_min>
+	<logical_max>109.5</logical_max>
+	<comment>Difference between date of randomization and start date of citalopram use.  Missing if did not start after entry.  Time interval is expressed as the number of months and is calculated to the nearest 10th of a month.</comment>
+</variable>
+
+<variable id="phv00124539.v1">
+	<name>inhibitor</name>
+	<description>CYP2D6 inhibitor status</description>
+	<type>string</type>
+	<comment>See CYP2D6_Metabolizer.doc</comment>
+</variable>
+
+<variable id="phv00124540.v1">
+	<name>genotype</name>
+	<description>CYP2D6 genotype</description>
+	<type>string</type>
+	<comment>&quot;genotype&quot; - See CYP2D6_Metablizer.docUM=ultra metabolizer, EM=extensive metabolizer, IM=intermediate metabolizer, PM=poor metabolizer.</comment>
+</variable>
+
+<variable id="phv00124541.v1">
+	<name>Metabolizer</name>
+	<description>CYP2D6 metabolizer status</description>
+	<type>string</type>
+	<comment>Based on CYP2D6 genotype and CYP2D6 inhibitor status.</comment>
+	<value code="EM">Extensive metabolizer</value>
+	<value code="IM">Intermediate metabolizer</value>
+	<value code="PM">Poor metabolizer</value>
+</variable>
+
+</data_table>

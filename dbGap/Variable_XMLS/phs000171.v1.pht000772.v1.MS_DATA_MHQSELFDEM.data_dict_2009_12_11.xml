@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./datadict_v2.xsl"?>
+<data_table id="pht000772.v1" study_id="phs000171.v1" participant_set="1" date_created="Fri Dec 11 14:12:57 2009">
+
+<variable id="phv00073203.v1">
+	<name>SUBJID</name>
+	<description>Subject&#39;s ID</description>
+	<type>integer</type>
+</variable>
+
+<variable id="phv00073204.v1">
+	<name>CASE_CONTROL</name>
+	<description>Type of subject</description>
+	<type>string, encoded values</type>
+	<value code="CASE">Affected subject per Protocol</value>
+	<value code="CNTL">Control subject per Protocol</value>
+</variable>
+
+<variable id="phv00073205.v1">
+	<name>STUDY</name>
+	<description>Study Identifier</description>
+	<type>string</type>
+	<comment>Always RES101833</comment>
+</variable>
+
+<variable id="phv00073206.v1">
+	<name>INVSITE</name>
+	<description>Investigator site ID</description>
+	<type>string</type>
+	<comment>Numeric code identifying the site (for internal use)</comment>
+</variable>
+
+<variable id="phv00073207.v1">
+	<name>INV</name>
+	<description>Investigator&#39;s ID</description>
+	<type>string</type>
+	<comment>Numeric code identifying the investigator (for internal use)</comment>
+</variable>
+
+<variable id="phv00073208.v1">
+	<name>VISIT</name>
+	<description>Visit name</description>
+	<type>string, encoded values</type>
+	<value code="CSA">Common Subject Assessment</value>
+	<value code="ELIGIBILITY">Eligibility questionnaire</value>
+	<value code="BASELINE">Baseline assessment questionnaire</value>
+	<value code="LAB WBC">Lab results</value>
+	<value code="SELF REPORT">Subject completed self report questionnaire</value>
+</variable>
+
+<variable id="phv00073209.v1">
+	<name>VISIT_DATE</name>
+	<description>Visit date</description>
+	<type>date</type>
+	<unit>Year</unit>
+	<comment>Truncated to YYYY</comment>
+</variable>
+
+<variable id="phv00073210.v1">
+	<name>ETHORI_SL</name>
+	<description>Ethnic Origin - Subject</description>
+	<type>string, encoded values</type>
+	<value code="A">Asian</value>
+	<value code="B">Black</value>
+	<value code="H">American Hispanic</value>
+	<value code="K">Don&#39;t Know</value>
+	<value code="M">Native American / Eskimo</value>
+	<value code="W">White</value>
+	<value code="X">Other</value>
+</variable>
+
+<variable id="phv00073211.v1">
+	<name>ETHORTX_SL</name>
+	<description>Ethnic Origin - Other Text - Subject</description>
+	<type>string</type>
+	<comment>Free text for the &quot;Other&quot; selection</comment>
+</variable>
+
+<variable id="phv00073212.v1">
+	<name>FSLN1_SL</name>
+	<description>First language #1 - Subject</description>
+	<type>string, encoded values</type>
+	<value code="AK">Afrikaans</value>
+	<value code="AR">Arabic</value>
+	<value code="BG">Bulgarian</value>
+	<value code="BR">Breton</value>
+	<value code="CB">Cebuano</value>
+	<value code="CH">Chinese</value>
+	<value code="CL">Catalan</value>
+	<value code="CN">Cantonese</value>
+	<value code="CR">Cornish</value>
+	<value code="CT">Croatian</value>
+	<value code="CZ">Czech</value>
+	<value code="DN">Danish</value>
+	<value code="EN">English</value>
+	<value code="ES">Estonian</value>
+	<value code="FM">Flemish</value>
+	<value code="FN">Finnish</value>
+	<value code="FR">French</value>
+	<value code="GE">German</value>
+	<value code="GR">Greek</value>
+	<value code="HB">Hebrew</value>
+	<value code="HG">Hungarian</value>
+	<value code="HK">Hakka</value>
+	<value code="HL">Dutch</value>
+	<value code="IR">Irish</value>
+	<value code="IT">Italian</value>
+	<value code="JA">Japanese</value>
+	<value code="K">Don&#39;t Know</value>
+	<value code="KR">Korean</value>
+	<value code="LI">Lithuanian</value>
+	<value code="LT">Latvian</value>
+	<value code="MD">Mandarin</value>
+	<value code="MX">Manx</value>
+	<value code="NR">Norwegian</value>
+	<value code="PD">Polish</value>
+	<value code="PT">Portugese</value>
+	<value code="RM">Romanian</value>
+	<value code="RU">Russian</value>
+	<value code="SB">Serbian</value>
+	<value code="SC">Scottish</value>
+	<value code="SL">Slavonic (Czech and Slovakian language)</value>
+	<value code="SP">Spanish</value>
+	<value code="SW">Swedish</value>
+	<value code="TG">Tagalog</value>
+	<value code="TH">Thai</value>
+	<value code="TW">Taiwanese</value>
+	<value code="WL">Welsh</value>
+	<value code="X">Other</value>
+</variable>
+
+<variable id="phv00073213.v1">
+	<name>FSLN2_SL</name>
+	<description>First language #2 - Subject</description>
+	<type>string, encoded values</type>
+	<value code="AK">Afrikaans</value>
+	<value code="AR">Arabic</value>
+	<value code="BG">Bulgarian</value>
+	<value code="BR">Breton</value>
+	<value code="CB">Cebuano</value>
+	<value code="CH">Chinese</value>
+	<value code="CL">Catalan</value>
+	<value code="CN">Cantonese</value>
+	<value code="CR">Cornish</value>
+	<value code="CT">Croatian</value>
+	<value code="CZ">Czech</value>
+	<value code="DN">Danish</value>
+	<value code="EN">English</value>
+	<value code="ES">Estonian</value>
+	<value code="FM">Flemish</value>
+	<value code="FN">Finnish</value>
+	<value code="FR">French</value>
+	<value code="GE">German</value>
+	<value code="GR">Greek</value>
+	<value code="HB">Hebrew</value>
+	<value code="HG">Hungarian</value>
+	<value code="HK">Hakka</value>
+	<value code="HL">Dutch</value>
+	<value code="IR">Irish</value>
+	<value code="IT">Italian</value>
+	<value code="JA">Japanese</value>
+	<value code="K">Don&#39;t Know</value>
+	<value code="KR">Korean</value>
+	<value code="LI">Lithuanian</value>
+	<value code="LT">Latvian</value>
+	<value code="MD">Mandarin</value>
+	<value code="MX">Manx</value>
+	<value code="NR">Norwegian</value>
+	<value code="PD">Polish</value>
+	<value code="PT">Portugese</value>
+	<value code="RM">Romanian</value>
+	<value code="RU">Russian</value>
+	<value code="SB">Serbian</value>
+	<value code="SC">Scottish</value>
+	<value code="SL">Slavonic (Czech and Slovakian language)</value>
+	<value code="SP">Spanish</value>
+	<value code="SW">Swedish</value>
+	<value code="TG">Tagalog</value>
+	<value code="TH">Thai</value>
+	<value code="TW">Taiwanese</value>
+	<value code="WL">Welsh</value>
+	<value code="X">Other</value>
+</variable>
+
+<variable id="phv00073214.v1">
+	<name>FSLNTX1_SL</name>
+	<description>First language #1 - Other Text - Subject</description>
+	<type>string</type>
+	<comment>Free text for the &quot;Other&quot; selection</comment>
+</variable>
+
+<variable id="phv00073215.v1">
+	<name>FSLNTX2_SL</name>
+	<description>First language #2 - Other Text - Subject</description>
+	<type>string</type>
+	<comment>Free text for the &quot;Other&quot; selection</comment>
+</variable>
+
+</data_table>

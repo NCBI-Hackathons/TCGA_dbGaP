@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GaPExchange xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="./dbGaPEx2.1.5.xsd">
+
+<MetaVariables>
+	<Submitter/>
+	<Method/>
+</MetaVariables>
+<MetaLinks/>
+
+<Projects>
+	<Project/>
+</Projects>
+
+<Studies>
+
+<Study source="dbGaP" accession="phs000939.v1.p1" parentStudy="phs000939.v1.p1" createDate="2015-06-18" modDate="2015-06-23">
+
+<Configuration>
+	<Data_Provider><![CDATA[
+		<table border="1">
+		<tr><th>Title</th><th>Name</th><th>Institute</th></tr>
+		<tr><td>Principal Investigator</td><td>Bradley Bernstein, PhD</td><td>Massachusetts General Hospital, Boston, MA, USA</td></tr>
+		<tr><td>Co-Investigator</td><td>Russell Ryan, MD</td><td>Massachusetts General Hospital, Boston, MA, USA</td></tr>
+		<tr><td>Co-Investigator</td><td>Yotam Drier, MD</td><td>Massachusetts General Hospital, Boston, MA, USA</td></tr>
+		</table>
+	]]></Data_Provider>
+	<StudyNameEntrez>Epigenetic and Genetic Profiling in Lymphoma</StudyNameEntrez>
+	<StudyNameReportPage>Detection of Enhancer-Associated Rearrangements Reveals Mechanisms of Oncogene Dysregulation in B-cell Lymphoma</StudyNameReportPage>
+	<StudyTypes>
+		<StudyType>Case Set</StudyType>
+	</StudyTypes>
+	<Description><![CDATA[
+<p>Lymphomas are a prevalent and heterogeneous family of cancers arising in cells of the immune system. Drivers of lymphomagenesis include genomic rearrangements that juxtapose active regulatory elements with specific oncogene targets, as well as mutations affecting specific transcription factors and chromatin regulatory proteins. This study seeks to combine genome-wide genetic and epigenetic datasets to better understand mechanisms of oncogene dysregulation across distinct lymphoma types.</p>]]>
+	</Description>
+	<StudyProjects>
+		<Project/>
+	</StudyProjects>
+	<Publications>
+		<Publication>
+			<Journal authors="Ryan RJH, Drier Y, Whitton H, Cotton MJ, Kaur J, Issner R, Gillespie S, Epstein CB, Nardi V, Sohani AR, Hochberg E, Bernstein BE." title="Detection of Enhancer-Associated Rearrangements Reveals Mechanisms of Oncogene Dysregulation in B-cell Lymphoma."/>
+		</Publication>
+	</Publications>
+	<Diseases>
+		<Disease vocab_source="MESH" vocab_term="Lymphoma, B-Cell"/>
+		<Disease vocab_source="MESH" vocab_term="Lymphoma, Mantle-Cell"/>
+		<Disease vocab_source="MESH" vocab_term="Leukemia, Lymphocytic, Chronic, B-Cell"/>
+		<Disease vocab_source="MESH" vocab_term="Lymphoma, Large B-Cell, Diffuse"/>
+	</Diseases>
+	<Attributions>
+		<Header title="Principal Investigator">
+			<AttName>Bradley Bernstein, PhD</AttName>
+			<Institution>Massachusetts General Hospital, Boston, MA, USA</Institution>
+		</Header>
+		<Header title="Co-Investigator">
+			<AttName>Russell Ryan, MD</AttName>
+			<Institution>Massachusetts General Hospital, Boston, MA, USA</Institution>
+		</Header>
+		<Header title="Co-Investigator">
+			<AttName>Yotam Drier, MD</AttName>
+			<Institution>Massachusetts General Hospital, Boston, MA, USA</Institution>
+		</Header>
+	</Attributions>
+	<DisplayPublicSummary>yes</DisplayPublicSummary>
+	<StudyHistory><![CDATA[
+<p>All subjects were diagnosed with B cell lymphoma, sub-classified according to WHO 2008 criteria.</p>]]>
+	</StudyHistory>
+	<ConsentGroups>
+		<ConsentGroup groupNum="1" shortName="GRU" longName="General Research Use"/>
+	</ConsentGroups>
+</Configuration>
+
+  <AuthorizedAccess>
+    <DacInfo ssDacId="0">
+      <DacName>NHGRI</DacName>
+      <DacFullName>National Human Genome Research Institute</DacFullName>
+      <DacEmail>0</DacEmail>
+      <DacPhone></DacPhone>
+      <DacUrl></DacUrl>
+    </DacInfo>
+    <Policy Policy_ID="phs000939.v1.p1_policy" ref_ssDacId="0">
+      <DisplayResearchStatement>yes</DisplayResearchStatement>
+      <DisplayPublicSummary>yes</DisplayPublicSummary>
+      <EmbargoLength>0</EmbargoLength>
+      <YearsUntilRenewal>1</YearsUntilRenewal>
+      <WeeksCancelRequest>8</WeeksCancelRequest>
+      <PdfSupplementReqired>no</PdfSupplementReqired>
+      <AcknowledgementText>
+        <para>
+          http://dbgap.ncbi.nlm.nih.gov/aa/wga.cgi?page=DUC&amp;view_pdf&amp;stacc=phs000939.v1.p1
+        </para>
+      </AcknowledgementText>
+      <DocumentSet>
+        <DataUseCertificate Label="Data Use Certificate" FilePath="https://dbgap.ncbi.nlm.nih.gov/aa/wga.cgi?page=DUC&amp;view_pdf&amp;stacc=phs000939.v1.p1" FileName=""/>
+      </DocumentSet>
+    </Policy>
+    <ConsentGroups>
+      <ParticipantSet groupNum-REF="1">
+        <ConsentName>General Research Use</ConsentName>
+        <ConsentAbbrev>GRU</ConsentAbbrev>
+        <UseLimitation>Use of the data is limited only by the terms of the model Data Use Certification.</UseLimitation>
+        <IrbRequired>No</IrbRequired>
+      </ParticipantSet>
+    </ConsentGroups>
+  </AuthorizedAccess>
+
+
+</Study>
+
+</Studies>
+
+</GaPExchange>
