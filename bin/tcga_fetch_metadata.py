@@ -261,6 +261,7 @@ def main():
 				elif args.studyType !=None:
 					response = tcga.query_by_filter([args.studyType], ["studyType"], args.searchType)['data']
 					print response
+					print "Test"
 				# if response != None
 					# if args.searchType.lower()=='project':
 						
