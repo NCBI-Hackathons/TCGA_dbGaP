@@ -52,9 +52,7 @@ def main():
         try:
            response = requests.get('http://trace.ncbi.nlm.nih.gov/Traces/sra/?sp=runinfo&acc=' + gapID)
            rawdata = StringIO(response.text)
-           print rawdata
            df = pd.read_csv(rawdata, sep=",") 
-           print df
            s = df['Run']
            file = open('SRRlist.txt', "w")
            for item in s:        
