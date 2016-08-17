@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+#!/usr/bin/env python
 """
 Created on Wed Aug 17 10:03:52 2016
 
@@ -13,8 +13,8 @@ from argparse import RawTextHelpFormatter
 import pandas as pd
 from io import StringIO
 
-SRPS = []
-SRRS = []
+#SRPS = []
+#SRRS = []
 
 # --------------------------------------
 # define functions
@@ -36,26 +36,31 @@ def get_args():
             
 
 def main():
-	# parse the command line args
+    # parse the command line args
     args = get_args()
     if args.file is not None:
         try:
             csvdata  = pd.read_csv(args.file, sep = ",")
-            gapIDs = [x for x in csvdata['dbGap_accession_number']]
         except:
             print('File not found at the path entered.')
             sys.exit()
+        gapIDs = csvdata['dbGaP_accession_number']
     elif args.dbGapIds is not None:
         gapIDs = args.dbGapIds.split(',')
-            
-    for gapID in gapIDs:
-        response = requests.get('http://trace.ncbi.nlm.nih.gov/Traces/sra/?sp=runinfo&acc=' + gapID)
-        rawdata = StringIO(response.text)
-        df = pd.read_csv(rawdata, sep=",")
-        s = df['Run']
-        file = open('SRRlist.txt', "w")
-        for item in s:        
+    file = open('SRRlist.txt', "w")        
+    for gapID in gapIDs:  
+        try:
+           response = requests.get('http://trace.ncbi.nlm.nih.gov/Traces/sra/?sp=runinfo&acc=' + gapID)
+           rawdata = StringIO(response.text)
+           print rawdata
+           df = pd.read_csv(rawdata, sep=",") 
+           print df
+           s = df['Run']
+           file = open('SRRlist.txt', "w")
+           for item in s:        
             file.write(item + '\n')
+        except:
+              continue
         file.close()
     
 if __name__ == "__main__":
