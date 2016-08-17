@@ -249,7 +249,7 @@ def xmlParse(terms, stringency, studyType):
     else:
         try:
             with open('OUTPUT.csv','wb') as f:
-                f.write(','.join(['dbGaP_accession_no']) + '\n')
+                f.write(','.join(['dbGaP_accession_number']) + '\n')
                 for value in harmony.values():
                     f.write(','.join([value,'http://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=' + value]) + '\n')
             f.close()
