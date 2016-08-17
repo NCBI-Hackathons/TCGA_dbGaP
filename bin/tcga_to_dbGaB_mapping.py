@@ -1,5 +1,3 @@
-
-
 class Mapping:
     def __init__(self):
         self.diseaseDict = {}
@@ -37,16 +35,16 @@ class Mapping:
                     self.studyDict[values[2].strip(" \n")] += [values[0].strip(" ")]
             
 
-def main():
+    def main(self, stringency):
+        
+        self.init_diseaseDict("mapping\TCGA Disease and Primary Site.tsv")
+        self.make_disease_map("mapping\dbGaP to TCGA disease and primary site.tsv", stringency)
+        self.make_study_map("mapping\study_type_mapping.tsv")
+        return self.diseaseDict, self.studyDict
+
+
+"""if __name__ == "__main__":
     mapObj = Mapping()
-    mapObj.init_diseaseDict("mapping\TCGA Disease and Primary Site.tsv")
-    mapObj.make_disease_map("mapping\dbGaP to TCGA disease and primary site.tsv", "high")
-    mapObj.make_study_map("mapping\study_type_mapping.tsv")
-
-    print mapObj.diseaseDict
-    print mapObj.studyDict
-
-if __name__ == "__main__":
-    main()
+    mapObj.main()"""
             
     
