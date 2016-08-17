@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./datadict_v2.xsl"?>
+<data_table id="pht001987.v1" study_id="phs000200.v3" participant_set="1" date_created="Thu Oct 21 09:32:03 2010">
+
+<unique_key phv="00129431" version="1">SHAREID</unique_key>
+<unique_key phv="00129432" version="1">DRAWID</unique_key>
+<unique_key phv="00129433" version="1">TESTDY</unique_key>
+<unique_key phv="00129434" version="1">TESTID</unique_key>
+
+<variable id="phv00129431.v1">
+	<name>SHAREID</name>
+	<description>WHI SHARe ID</description>
+	<type>integer</type>
+</variable>
+
+<variable id="phv00129432.v1">
+	<name>DRAWID</name>
+	<description>WHI dbGaP Draw ID</description>
+	<type>string</type>
+</variable>
+
+<variable id="phv00129433.v1">
+	<name>TESTDY</name>
+	<description>Test Days Since Draw</description>
+	<type>integer</type>
+	<unit>days</unit>
+	<logical_min>62</logical_min>
+	<logical_max>5058</logical_max>
+	<comment>Number of days from date of specimen draw to when the specimen was sent to the lab for testing.</comment>
+</variable>
+
+<variable id="phv00129434.v1">
+	<name>TESTID</name>
+	<description>Test ID</description>
+	<type>string</type>
+	<comment>This variable is a concatenation of the Test Alpha ID and Version number, e.g. TRI-1.  Multiple versions are needed because a test may be performed in multiple labs, for different specimen types, or may have different methods.</comment>
+</variable>
+
+<variable id="phv00129435.v1">
+	<name>TESTVAL</name>
+	<description>Test Result Value</description>
+	<type>decimal</type>
+	<logical_min>0.27</logical_min>
+	<logical_max>67292</logical_max>
+</variable>
+
+</data_table>

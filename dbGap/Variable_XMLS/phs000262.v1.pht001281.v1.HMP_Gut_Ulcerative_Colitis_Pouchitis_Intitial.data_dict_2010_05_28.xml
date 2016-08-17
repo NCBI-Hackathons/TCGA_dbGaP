@@ -1,0 +1,438 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./datadict_v2.xsl"?>
+<data_table id="pht001281.v1" study_id="phs000262.v1" participant_set="1" date_created="Fri May 28 14:29:36 2010">
+
+<variable id="phv00091157.v1">
+	<name>Patient ID</name>
+	<description>De-identified subject&#39;s ID</description>
+	<type>Integer</type>
+</variable>
+
+<variable id="phv00091158.v1">
+	<name>Visit Name</name>
+	<description>Visit number [1-10, P1, P2]</description>
+	<type>Integer, string</type>
+	<comment>P1=acute pouchitis visit before antibiotics
+		P2= acute pouchitis visit after antibiotics. </comment>
+</variable>
+
+<variable id="phv00091159.v1">
+	<name>UC/IBDU</name>
+	<description>Diagnosis of UC vs. IBD-unclassified</description>
+	<type>String</type>
+	<comment>UC=ulcerative colitis
+		IBDU=inflammatory bowel disease-unclassified. </comment>
+	<value code="IBDU">inflammatory bowel disease-unclassified</value>
+	<value code="UC">ulcerative colitis</value>
+</variable>
+
+<variable id="phv00091160.v1">
+	<name>Year of IBD DX</name>
+	<description>Year of inflammatory bowel disease diagnosis</description>
+	<type>Integer, encoded value</type>
+	<unit>Year</unit>
+</variable>
+
+<variable id="phv00091161.v1">
+	<name>Gender</name>
+	<description>Gender</description>
+</variable>
+
+<variable id="phv00091162.v1">
+	<name>Father</name>
+	<description>Father with history of IBD</description>
+	<type>String</type>
+</variable>
+
+<variable id="phv00091163.v1">
+	<name>Mother</name>
+	<description>Mother with history of IBD</description>
+	<type>String</type>
+</variable>
+
+<variable id="phv00091164.v1">
+	<name>Sib CD</name>
+	<description>Number of siblings with Crohn&#39;s disease</description>
+	<type>Integar</type>
+</variable>
+
+<variable id="phv00091165.v1">
+	<name>Sib UC</name>
+	<description>Number of siblings with ulcerative colitis</description>
+	<type>Integar</type>
+</variable>
+
+<variable id="phv00091166.v1">
+	<name>Sib Unclear</name>
+	<description>Number of siblings with IBD, unclear if Crohn&#39;s disease or ulcerative colitis</description>
+	<type>Integar</type>
+</variable>
+
+<variable id="phv00091167.v1">
+	<name>Sib Unaff</name>
+	<description>Number of siblings unaffected by IBD</description>
+	<type>Integar</type>
+</variable>
+
+<variable id="phv00091168.v1">
+	<name>Sib Unknown</name>
+	<description>Number of siblings, history of IBD unknown</description>
+	<type>Integar</type>
+</variable>
+
+<variable id="phv00091169.v1">
+	<name>Off CD</name>
+	<description>Number of offspring with Crohn&#39;s disease</description>
+	<type>Integar</type>
+</variable>
+
+<variable id="phv00091170.v1">
+	<name>Off UC</name>
+	<description>Number of offspring with ulcerative colitis</description>
+	<type>Integar</type>
+</variable>
+
+<variable id="phv00091171.v1">
+	<name>Off Unclear</name>
+	<description>Number of offspring with IBD, unclear if Crohn&#39;s disease or ulcerative colitis</description>
+	<type>Integar</type>
+</variable>
+
+<variable id="phv00091172.v1">
+	<name>Off Unaff</name>
+	<description>Number of offspring unaffected by IBD</description>
+	<type>Integar</type>
+</variable>
+
+<variable id="phv00091173.v1">
+	<name>Off Unknown</name>
+	<description>Number of offspring, history of IBD unknown</description>
+	<type>Integar</type>
+</variable>
+
+<variable id="phv00091174.v1">
+	<name>Tob</name>
+	<description>Smoking at diagnosis or onset of symptoms</description>
+	<type>String</type>
+	<comment>Smoking defined as&gt;= 7 cigarettes/dayy for &gt;= 6 months</comment>
+</variable>
+
+<variable id="phv00091175.v1">
+	<name>Tob Year Start</name>
+	<description>If smoker or ex-smoker, year started smoking</description>
+	<type>Integar, encoded value</type>
+	<unit>Year</unit>
+</variable>
+
+<variable id="phv00091176.v1">
+	<name>Tob Year Stop</name>
+	<description>If smoker or ex-smoker, year stopped smoking</description>
+	<type>Integar, encoded value</type>
+	<unit>Year</unit>
+</variable>
+
+<variable id="phv00091177.v1">
+	<name>Proctitis</name>
+	<description>Inflammation involving the rectum</description>
+	<type>String</type>
+	<comment>Macroscopic or microscopic disease location</comment>
+</variable>
+
+<variable id="phv00091178.v1">
+	<name>Left</name>
+	<description>Inflammation extending to the splenic flexure</description>
+	<type>String</type>
+	<comment>Macroscopic or microscopic disease location</comment>
+</variable>
+
+<variable id="phv00091179.v1">
+	<name>Extensive</name>
+	<description>Inflammation extending beyond splenic flexure</description>
+	<type>String</type>
+	<comment>Macroscopic or microscopic disease location</comment>
+</variable>
+
+<variable id="phv00091180.v1">
+	<name>Periapp</name>
+	<description>Inflammation around appendiceal orifice</description>
+	<type>String</type>
+	<comment>Macroscopic or microscopic disease location</comment>
+</variable>
+
+<variable id="phv00091181.v1">
+	<name>Surg Chronic Disease</name>
+	<description>Indication for surgery = chronic disease</description>
+	<type>String</type>
+</variable>
+
+<variable id="phv00091182.v1">
+	<name>Surg Year Chronic Disease</name>
+	<description>Year of surgery for chronic disease</description>
+	<type>Integar, encoded value</type>
+	<unit>Year</unit>
+</variable>
+
+<variable id="phv00091183.v1">
+	<name>Surg Fulm</name>
+	<description>Indication for surgery = fulminant disease</description>
+	<type>String</type>
+</variable>
+
+<variable id="phv00091184.v1">
+	<name>Surg Year Fulm</name>
+	<description>Year of surgery for fulminant disease</description>
+	<type>Integar, encoded value</type>
+	<unit>Year</unit>
+</variable>
+
+<variable id="phv00091185.v1">
+	<name>Surg Dysp/Cancer</name>
+	<description>Indication for surgery = dysplasia or colon cancer</description>
+	<type>String</type>
+</variable>
+
+<variable id="phv00091186.v1">
+	<name>Surg Year Dysp/Cancer</name>
+	<description>Year of surgery for dysplasia or colon cancer</description>
+	<type>Integar, encoded value</type>
+	<unit>Year</unit>
+</variable>
+
+<variable id="phv00091187.v1">
+	<name>Stapled</name>
+	<description>Ileal pouch anal anastomosis stapled</description>
+	<type>String</type>
+</variable>
+
+<variable id="phv00091188.v1">
+	<name>Hand sewn</name>
+	<description>Ileal pouch anal anastomosis hand sewn</description>
+	<type>String</type>
+</variable>
+
+<variable id="phv00091189.v1">
+	<name>Appy</name>
+	<description>Appendectomy</description>
+	<type>String</type>
+</variable>
+
+<variable id="phv00091190.v1">
+	<name>Appy Year</name>
+	<description>Year of appendectomy</description>
+	<type>Integar, encoded value</type>
+	<unit>Year</unit>
+</variable>
+
+<variable id="phv00091191.v1">
+	<name>EIM</name>
+	<description>Has the patient ever had extra intestinal manifestations</description>
+	<type>String</type>
+</variable>
+
+<variable id="phv00091192.v1">
+	<name>Joint</name>
+	<description>Joint symptoms related to disease activity</description>
+	<type>String</type>
+</variable>
+
+<variable id="phv00091193.v1">
+	<name>AS/SI</name>
+	<description>Ankylosing spondylitiis/ sacro-ileitis</description>
+	<type>String</type>
+</variable>
+
+<variable id="phv00091194.v1">
+	<name>EN</name>
+	<description>Erythema nodosum</description>
+	<type>String</type>
+</variable>
+
+<variable id="phv00091195.v1">
+	<name>PG</name>
+	<description>Pyoderma gangrenosum</description>
+	<type>String</type>
+</variable>
+
+<variable id="phv00091196.v1">
+	<name>Oral</name>
+	<description>Oral aphthous ulcers</description>
+	<type>String</type>
+</variable>
+
+<variable id="phv00091197.v1">
+	<name>Ocular</name>
+	<description>Ocular inflammation</description>
+	<type>String</type>
+</variable>
+
+<variable id="phv00091198.v1">
+	<name>Osteo</name>
+	<description>Osteoporosis/osteopenia</description>
+	<type>String</type>
+</variable>
+
+<variable id="phv00091199.v1">
+	<name>PSC</name>
+	<description>Primary sclerosing cholangitis</description>
+	<type>String</type>
+</variable>
+
+<variable id="phv00091200.v1">
+	<name>Liver Other</name>
+	<description>Liver disease other than PSC</description>
+	<type>String</type>
+</variable>
+
+<variable id="phv00091201.v1">
+	<name>Non-GI Cancer</name>
+	<description>History of non-gastrointestinal cancer</description>
+	<type>String</type>
+</variable>
+
+<variable id="phv00091202.v1">
+	<name>Year Non-GI Cancer</name>
+	<description>Year of diagnosis of Non-GI cancer</description>
+</variable>
+
+<variable id="phv00091203.v1">
+	<name>Non-GI Dysp</name>
+	<description>History of non-GI Dysplasia</description>
+</variable>
+
+<variable id="phv00091204.v1">
+	<name>Year Non-GI Dysp</name>
+	<description>Year of diagnosis of non-GI Dysplasia</description>
+	<type>Integar, encoded value</type>
+	<unit>Year</unit>
+</variable>
+
+<variable id="phv00091205.v1">
+	<name>Non-GI Lympho</name>
+	<description>History of non-GI lymphoproliferative disorder</description>
+	<type>String</type>
+</variable>
+
+<variable id="phv00091206.v1">
+	<name>Year Non-GI Lympho</name>
+	<description>Year of diagnosis of non-GI lymphoproliferative disorder</description>
+	<type>Integar, encoded value</type>
+	<unit>Year</unit>
+</variable>
+
+<variable id="phv00091207.v1">
+	<name>GI Cancer</name>
+	<description>History of GI cancer, excluding colorectal cancer</description>
+	<type>String</type>
+</variable>
+
+<variable id="phv00091208.v1">
+	<name>Year GI Cancer</name>
+	<description>Year of diagnosis of GI cancer, excluding colorectal cancer</description>
+	<type>Integar, encoded value</type>
+	<unit>Year</unit>
+</variable>
+
+<variable id="phv00091209.v1">
+	<name>GI Lympho</name>
+	<description>Lymphoproliferative disorder involving GI system</description>
+	<type>String</type>
+</variable>
+
+<variable id="phv00091210.v1">
+	<name>Year GI Lympho</name>
+	<description>Year of diagnosis of lymphoproliferative disorder involving GI system</description>
+	<type>Integar, encoded value</type>
+	<unit>Year</unit>
+</variable>
+
+<variable id="phv00091211.v1">
+	<name>Dysp</name>
+	<description>Dysplasia of the colon</description>
+	<type>String</type>
+</variable>
+
+<variable id="phv00091212.v1">
+	<name>Year Dysp</name>
+	<description>Year of diagnosis of dysplasia of the colon</description>
+	<type>Integar, encoded value</type>
+	<unit>Year</unit>
+</variable>
+
+<variable id="phv00091213.v1">
+	<name>CRC</name>
+	<description>Colorectal cancer</description>
+	<type>String</type>
+</variable>
+
+<variable id="phv00091214.v1">
+	<name>Year CRC</name>
+	<description>Year of diagnosis of colorectal cancer</description>
+	<type>Integar, encoded value</type>
+	<unit>Year</unit>
+</variable>
+
+<variable id="phv00091215.v1">
+	<name>Ever Preg</name>
+	<description>Ever pregnant</description>
+	<type>String</type>
+</variable>
+
+<variable id="phv00091216.v1">
+	<name>Infert</name>
+	<description>Infertility</description>
+	<type>String</type>
+	<comment>Infertility defined as the inability to naturally conceive a child or the inability to carry a pregnancy to term</comment>
+</variable>
+
+<variable id="phv00091217.v1">
+	<name>Steroids</name>
+	<description>Currently taking corticosteroids, topical or oral</description>
+	<type>String</type>
+</variable>
+
+<variable id="phv00091218.v1">
+	<name>5-ASA</name>
+	<description>Currently taking aminosalicylates, topical or oral</description>
+	<type>String</type>
+</variable>
+
+<variable id="phv00091219.v1">
+	<name>6MP/AZA</name>
+	<description>Currently taking 6-mercaptopurine or azathioprine</description>
+	<type>String</type>
+</variable>
+
+<variable id="phv00091220.v1">
+	<name>MTX</name>
+	<description>Currently taking methotrexate</description>
+	<type>String</type>
+</variable>
+
+<variable id="phv00091221.v1">
+	<name>Calcineurin</name>
+	<description>Currently taking calcineurin inhibitor (e.g. Cyclosprine)</description>
+	<type>String</type>
+</variable>
+
+<variable id="phv00091222.v1">
+	<name>Abic</name>
+	<description>Currently taking antibiotic</description>
+	<type>String</type>
+</variable>
+
+<variable id="phv00091223.v1">
+	<name>Anti-TNF</name>
+	<description>Currently taking anti-TNF alpha inhibitor</description>
+	<type>String</type>
+</variable>
+
+<variable id="phv00091224.v1">
+	<name>PDAI</name>
+	<description>Pouchitis Disease Activity Index Score</description>
+	<type>Integar</type>
+	<logical_min>0</logical_min>
+	<logical_max>18</logical_max>
+	<comment>Pouchitis is defined as a total score of &gt;=7</comment>
+</variable>
+
+</data_table>

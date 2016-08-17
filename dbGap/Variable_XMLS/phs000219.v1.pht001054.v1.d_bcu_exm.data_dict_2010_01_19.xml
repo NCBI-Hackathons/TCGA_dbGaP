@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./datadict_v2.xsl"?>
+<data_table id="pht001054.v1" study_id="phs000219.v1" participant_set="1" date_created="Tue Jan 19 13:07:15 2010">
+
+<unique_key phv="00081146" version="1">SUBJID</unique_key>
+<unique_key phv="00081150" version="1">VISIT</unique_key>
+
+<variable id="phv00081146.v1">
+	<name>SUBJID</name>
+	<description>Subject&#39;s ID</description>
+	<type>String</type>
+</variable>
+
+<variable id="phv00081147.v1">
+	<name>CASE_CONTROL</name>
+	<description>Subject type</description>
+	<type>Encoded value</type>
+	<value code="ADP">AD Participant</value>
+	<value code="CASE">Case</value>
+	<value code="CCCS">Control with Change in Cognitive Status</value>
+	<value code="CNTL">Control</value>
+	<value code="FAM">Family member</value>
+	<value code="UASB">Unaffected Sibling</value>
+</variable>
+
+<variable id="phv00081148.v1">
+	<name>INV</name>
+	<description>Investigator&#39;s ID</description>
+	<type>String</type>
+</variable>
+
+<variable id="phv00081149.v1">
+	<name>INVSITE</name>
+	<description>Investigator site ID</description>
+	<type>String</type>
+</variable>
+
+<variable id="phv00081150.v1">
+	<name>VISIT</name>
+	<description>Visit name</description>
+	<type>String</type>
+</variable>
+
+<variable id="phv00081151.v1">
+	<name>VISIT_DATE</name>
+	<description>Visit date</description>
+	<type>Date</type>
+	<comment>Truncated to YYYY</comment>
+</variable>
+
+<variable id="phv00081152.v1">
+	<name>BCU_EXM_TX1</name>
+	<description>Bilateral Carotid Ultrasound Examination result desription (1)</description>
+	<type>String</type>
+</variable>
+
+<variable id="phv00081153.v1">
+	<name>BCU_EXM_TX2</name>
+	<description>Bilateral Carotid Ultrasound Examination result desription (2)</description>
+	<type>String</type>
+</variable>
+
+<variable id="phv00081154.v1">
+	<name>BCU_EXM_YN</name>
+	<description>Bilateral Carotid Ultrasound Examination</description>
+	<type>Encoded Value</type>
+	<value code="N">No</value>
+	<value code="Y">Yes</value>
+</variable>
+
+</data_table>

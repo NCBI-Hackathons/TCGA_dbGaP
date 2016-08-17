@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./datadict_v2.xsl"?>
+<data_table id="pht000720.v1" study_id="phs000144.v1" participant_set="1" date_created="Thu Jan 22 09:25:49 2009">
+
+<variable id="phv00071769.v1">
+	<name>Age_at_DX</name>
+	<description>Participant&#39;s age of diagnosis</description>
+	<type>integer</type>
+	<logical_min>40</logical_min>
+	<logical_max>89</logical_max>
+</variable>
+
+<variable id="phv00071771.v1">
+	<name>Gender</name>
+	<description>Gender of participant</description>
+	<type>encoded value</type>
+	<value code="F">Female</value>
+	<value code="M">Male</value>
+</variable>
+
+<variable id="phv00071773.v1">
+	<name>PackYears</name>
+	<description>Pack years smoked</description>
+	<type>integer</type>
+	<logical_min>1</logical_min>
+	<logical_max>100</logical_max>
+</variable>
+
+<variable id="phv00071770.v1">
+	<name>Race</name>
+	<description>Race of participant</description>
+	<type>encoded value</type>
+	<value code="AA">African American</value>
+	<value code="W">White</value>
+</variable>
+
+<variable id="phv00071772.v1">
+	<name>Smoking_Status</name>
+	<description>Never, Former, Current smoker</description>
+	<type>encoded value</type>
+	<value code="C">Current</value>
+	<value code="F">Fomer</value>
+	<value code="N">Never</value>
+</variable>
+
+<variable id="phv00071768.v1">
+	<name>TSP_Patient_ID</name>
+	<description>Unique patient code number</description>
+	<type>integer</type>
+</variable>
+
+<variable id="phv00071774.v1">
+	<name>Years_Quit</name>
+	<description>If former smoker, years since quitting</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>40</logical_max>
+</variable>
+
+</data_table>

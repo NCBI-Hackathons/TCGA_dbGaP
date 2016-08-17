@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./datadict_v2.xsl"?>
+<data_table id="pht001193.v1" study_id="phs000228.v1" participant_set="1" date_created="Tue Apr 20 22:10:11 2010">
+
+<variable id="phv00089635.v1">
+	<name>PROT</name>
+	<description>Protocol</description>
+	<type>Encoded</type>
+	<value code="7001">7001</value>
+</variable>
+
+<variable id="phv00089636.v1">
+	<name>RANDSID</name>
+	<description>Random ID for Patid</description>
+	<type>Integer</type>
+	<logical_min>1</logical_min>
+	<logical_max>9999999999</logical_max>
+</variable>
+
+<variable id="phv00089637.v1">
+	<name>PROTSEG</name>
+	<description>Protocol Segment</description>
+	<type>Encoded</type>
+	<value code="A">A</value>
+</variable>
+
+<variable id="phv00089638.v1">
+	<name>SN</name>
+	<description>EMMES Specimen Barcode ID</description>
+	<type>Integer</type>
+</variable>
+
+<variable id="phv00089639.v1">
+	<name>VISNO</name>
+	<description>Visit Number</description>
+	<type>Encoded</type>
+	<value code="0">0</value>
+	<value code="1">01</value>
+	<value code="01S">01S</value>
+	<value code="01T">01T</value>
+	<value code="2">&#39;02</value>
+	<value code="02S">02S</value>
+	<value code="02T">02T</value>
+	<value code="3">03</value>
+	<value code="03S">03S</value>
+	<value code="03T">03T</value>
+</variable>
+
+<variable id="phv00089640.v1">
+	<name>STUDY_DAY</name>
+	<description>Calculated field based on number of days pre or post subject&#39;s day of enrollment/first sampling</description>
+	<type>Integer</type>
+	<unit>days</unit>
+	<logical_min>-9999999999</logical_min>
+	<logical_max>9999999999</logical_max>
+</variable>
+
+<variable id="phv00089641.v1">
+	<name>ST</name>
+	<description>Specimen Type</description>
+	<type>Integer, encoded value</type>
+	<value code="DBL">G_DNA_ Blood whole</value>
+	<value code="D16">G_DNA_Stool</value>
+	<value code="D23">G_DNA_Buccal mucosa</value>
+	<value code="D22">G_DNA_Hard palate</value>
+	<value code="D24">G_DNA_Attached/Keritinized gingivae</value>
+	<value code="D25">G_DNA_Palatine Tonsils</value>
+	<value code="D14">G_DNA_Saliva</value>
+	<value code="D29">G_DNA_Subgingival plaque</value>
+	<value code="D28">G_DNA_Supragingival plaque</value>
+	<value code="D26">G_DNA_Throat</value>
+	<value code="D21">G_DNA_Tongue dorsum</value>
+	<value code="D27">G_DNA_Oral combined hard tissue (OCHT)</value>
+	<value code="D20">G_DNA_Oral combined soft tissue  (OCST)</value>
+	<value code="D35">G_DNA_Anterioir nares</value>
+	<value code="D32">G_DNA_L_Retroauricular crease</value>
+	<value code="D33">G_DNA_R_Antecubital fossa</value>
+	<value code="D31">G_DNA_R_Retroauricular crease</value>
+	<value code="D30">G_DNA_Skin tissue combined (STC)</value>
+	<value code="D42">G_DNA_Mid vagina</value>
+	<value code="D41">G_DNA_Posterior fornix</value>
+	<value code="D43">G_DNA_Vaginal introitus</value>
+	<value code="D40">G_DNA_Vaginal tissue combined (VTC)</value>
+	<value code="D34">G_DNA_L_Antecubital fossa</value>
+	<value code="V16">zg_VIR_NA_Stool</value>
+	<value code="V14">z05_VIR_NA_Saliva</value>
+	<value code="V40">zvc_VIR_NA_Vaginal tissue combined (VTC)</value>
+	<value code="R16">zg_RNA_Stool</value>
+	<value code="WBL">Blood whole</value>
+	<value code="2">Blood serum</value>
+	<value code="16">primary_g_Stool</value>
+	<value code="23">primary_o_Buccal mucosa (BUCC)</value>
+	<value code="22">primary_o_Hard palate (HPAL)</value>
+	<value code="24">primary_o_Attached gingivae (GING)</value>
+	<value code="25">primary_o_Palatine Tonsils(PTON)</value>
+	<value code="14">primary_o_Saliva (SAL)</value>
+	<value code="29">primary_o_Subgingival plaque(SUB)</value>
+	<value code="28">primary_o_Supragingival plaque (SUPRA)</value>
+	<value code="26">primary_o_Throat(THRO)</value>
+	<value code="21">primary_o_Tongue dorsum (TONG)</value>
+	<value code="27">primary_o1_Oral combined hard tissue (OCHT)</value>
+	<value code="20">primary_o2_Oral combined soft tissue (OCST)</value>
+	<value code="35">primary_s_Anterior nares (NASAL)</value>
+	<value code="34">primary_s_L_Antecubital fossa (ACF_L)</value>
+	<value code="32">primary_s_L_Retroauricular crease (RAC_L)</value>
+	<value code="33">primary_s_R_Antecubital fossa (ACF_R)</value>
+	<value code="31">primary_s_R_Retroauricular crease (RAC_R)</value>
+	<value code="30">primary_s1_ Skin combined tissue (STC)</value>
+	<value code="42">primary_v_Mid vagina (MIDVAG)</value>
+	<value code="41">primary_v_Posterior fornix (PFORN)</value>
+	<value code="43">primary_v_Vaginal introitus (INTRO)</value>
+	<value code="40">primary_v1_Vaginal combined tissue (VCT)</value>
+</variable>
+
+<variable id="phv00089642.v1">
+	<name>EXTMTHOD</name>
+	<description>Nucleic acid extraction method</description>
+	<type>Integer, encoded value</type>
+	<logical_min>1</logical_min>
+	<logical_max>3</logical_max>
+	<value code="1">MoBio Powersoil with MoBio collection fluid</value>
+	<value code="2">MoBio Powersoil with SCF-1 collection fluid</value>
+	<value code="3">MoBio Biostic</value>
+</variable>
+
+<variable id="phv00089643.v1">
+	<name>SITE</name>
+	<description>Site</description>
+	<type>String</type>
+	<value code="Houston">Houston</value>
+	<value code="St. Louis">St. Louis</value>
+</variable>
+
+<variable id="phv00089644.v1">
+	<name>SNPRNT</name>
+	<description>Parent EMMES Specimen Barcode ID</description>
+	<type>Integer</type>
+	<logical_min>700000000</logical_min>
+	<logical_max>799999999</logical_max>
+</variable>
+
+<variable id="phv00089645.v1">
+	<name>COMMENT</name>
+	<description>Comments</description>
+	<type>String</type>
+	<comment>&#39;Gated field&#39;, defined as a data that will not be released to dbGaP until all subjects have been enrolled, and data is reviewed to confirm that there is no possibility of subject identification.</comment>
+</variable>
+
+</data_table>

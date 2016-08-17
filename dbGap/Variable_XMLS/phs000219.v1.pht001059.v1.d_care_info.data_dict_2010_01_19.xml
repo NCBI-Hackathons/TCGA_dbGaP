@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./datadict_v2.xsl"?>
+<data_table id="pht001059.v1" study_id="phs000219.v1" participant_set="1" date_created="Tue Jan 19 13:07:11 2010">
+
+<unique_key phv="00081264" version="1">SUBJID</unique_key>
+<unique_key phv="00081268" version="1">VISIT</unique_key>
+
+<variable id="phv00081264.v1">
+	<name>SUBJID</name>
+	<description>Subject&#39;s ID</description>
+	<type>String</type>
+</variable>
+
+<variable id="phv00081265.v1">
+	<name>CASE_CONTROL</name>
+	<description>Subject type</description>
+	<type>Encoded value</type>
+	<value code="ADP">AD Participant</value>
+	<value code="CASE">Case</value>
+	<value code="CCCS">Control with Change in Cognitive Status</value>
+	<value code="CNTL">Control</value>
+	<value code="FAM">Family member</value>
+	<value code="UASB">Unaffected Sibling</value>
+</variable>
+
+<variable id="phv00081266.v1">
+	<name>INV</name>
+	<description>Investigator&#39;s ID</description>
+	<type>String</type>
+</variable>
+
+<variable id="phv00081267.v1">
+	<name>INVSITE</name>
+	<description>Investigator site ID</description>
+	<type>String</type>
+</variable>
+
+<variable id="phv00081268.v1">
+	<name>VISIT</name>
+	<description>Visit name</description>
+	<type>String</type>
+</variable>
+
+<variable id="phv00081269.v1">
+	<name>VISIT_DATE</name>
+	<description>Visit date</description>
+	<type>Date</type>
+	<comment>Truncated to YYYY</comment>
+</variable>
+
+<variable id="phv00081270.v1">
+	<name>FREQ</name>
+	<description>How often do you see the subject?</description>
+	<type>Encoded Value</type>
+	<value code="C">Continuously (lives with patient)</value>
+	<value code="DL">Daily</value>
+	<value code="LO">Less often</value>
+	<value code="MO">Monthly</value>
+	<value code="MTOW">More than once per week</value>
+	<value code="W">Weekly</value>
+	<value code="Y">Yearly</value>
+</variable>
+
+<variable id="phv00081271.v1">
+	<name>HOW_LONG</name>
+	<description>How long have you known the subject?</description>
+	<type>Encoded Value</type>
+	<value code="0-2">0-2 years</value>
+	<value code="10-25">10-25 years</value>
+	<value code="26-50">26-50 years</value>
+	<value code="3-4">3-4 years</value>
+	<value code="5-9">5-9 years</value>
+	<value code="&gt; 50Y">&gt; 50 years</value>
+</variable>
+
+<variable id="phv00081272.v1">
+	<name>OTHTX</name>
+	<description>Other (relationship to subject) - specify</description>
+	<type>String</type>
+</variable>
+
+<variable id="phv00081273.v1">
+	<name>RELATION</name>
+	<description>Relationship to subject</description>
+	<type>Encoded Value</type>
+	<value code="B">Sibling</value>
+	<value code="C">Son/daughter</value>
+	<value code="CT">Caretaker/Warden</value>
+	<value code="F">Friend</value>
+	<value code="I">In-Law (son/daughter)</value>
+	<value code="IL">In-Law (sister/brother)</value>
+	<value code="N">Nurse</value>
+	<value code="O">Other</value>
+	<value code="S">Spouse/cohabitee</value>
+</variable>
+
+<variable id="phv00081274.v1">
+	<name>SEX</name>
+	<description>Sex of caregiver/informant</description>
+	<type>Encoded Value</type>
+	<value code="F">Female</value>
+	<value code="M">Male</value>
+</variable>
+
+</data_table>

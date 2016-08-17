@@ -1,0 +1,3266 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./datadict_v2.xsl"?>
+<data_table id="pht000325.v1" study_id="phs000086.v1" participant_set="1" date_created="Thu Jan 29 15:38:12 2009">
+
+<variable id="phv00048609.v1">
+	<name>clinic</name>
+	<description>A1. Identifying information: de-identified EDIC clinic number</description>
+	<type>byte</type>
+</variable>
+
+<variable id="phv00048610.v1">
+	<name>edicyear</name>
+	<description>A5. Identifying information. EDIC follow-up year</description>
+	<type>byte</type>
+	<unit>Year</unit>
+</variable>
+
+<variable id="phv00048608.v1">
+	<name>form</name>
+	<description>EDIC form number</description>
+	<type>byte</type>
+</variable>
+
+<variable id="phv00048951.v1">
+	<name>fsasdate</name>
+	<description>De-identified form date</description>
+	<type>int</type>
+</variable>
+
+<variable id="phv00048952.v1">
+	<name>height</name>
+	<description>Q3. Physical examination, average height of 4 measurement (cm)</description>
+	<type>float</type>
+	<unit>cm</unit>
+</variable>
+
+<variable id="phv00048953.v1">
+	<name>mask_pat</name>
+	<description>A2. Identifying information. De-identified patient ID</description>
+	<type>int</type>
+</variable>
+
+<variable id="phv00048686.v1">
+	<name>ob7030be</name>
+	<description>F3. Diabetes management: units 70/30 insulin used-bedtime</description>
+	<type>byte</type>
+	<unit>Units</unit>
+</variable>
+
+<variable id="phv00048683.v1">
+	<name>ob7030br</name>
+	<description>F3. Diabetes management: units 70/30 insulin used-breakfast</description>
+	<type>byte</type>
+	<unit>Units</unit>
+</variable>
+
+<variable id="phv00048684.v1">
+	<name>ob7030lu</name>
+	<description>F3. Diabetes management: units 70/30 insulin used-lunch</description>
+	<type>byte</type>
+	<unit>Units</unit>
+</variable>
+
+<variable id="phv00048687.v1">
+	<name>ob7030ot</name>
+	<description>F3. Diabetes management: units 70/30 insulin used-other</description>
+	<type>byte</type>
+	<unit>Units</unit>
+</variable>
+
+<variable id="phv00048685.v1">
+	<name>ob7030su</name>
+	<description>F3. Diabetes management: units 70/30 insulin used-supper</description>
+	<type>byte</type>
+	<unit>Units</unit>
+</variable>
+
+<variable id="phv00048660.v1">
+	<name>obbplen</name>
+	<description>F1. Diabetes management: type of insulin-Beef/pork Lente</description>
+	<type>byte</type>
+	<value code="1">Insulin-Beef/pork Lente</value>
+</variable>
+
+<variable id="phv00048659.v1">
+	<name>obbpnph</name>
+	<description>F1. Diabetes management: type of insulin-Beef/pork NPH (neutral protamine hagedorn)</description>
+	<type>byte</type>
+	<value code="1">Insulin-Beef/pork NPR (neutral protamine hagedorn)</value>
+</variable>
+
+<variable id="phv00048658.v1">
+	<name>obbpreg</name>
+	<description>F1. Diabetes management: type of insulin-Beef/pork Regular</description>
+	<type>byte</type>
+	<value code="1">Insulin-Beef/pork Regular</value>
+</variable>
+
+<variable id="phv00048598.v1">
+	<name>obcardab</name>
+	<description>Q10. Physical examination, cardiovascular examination: other cardiac abnormality</description>
+	<type>byte</type>
+	<value code="1">Absent</value>
+	<value code="2">Present</value>
+</variable>
+
+<variable id="phv00048626.v1">
+	<name>obdaded</name>
+	<description>B3. Demographic and general information, education of patient and household providers: father&#39;s education level</description>
+	<type>byte</type>
+	<value code="1">Graduate school</value>
+	<value code="2">College qraduate</value>
+	<value code="3">Some college or trade school</value>
+	<value code="4">Secondary school qraduate</value>
+	<value code="5">Some secondary school</value>
+	<value code="6">Elementary school</value>
+	<value code="7">None</value>
+	<value code="8">Unknown</value>
+</variable>
+
+<variable id="phv00048616.v1">
+	<name>obdadjob</name>
+	<description>B2. Demographic and general information, occupation of patient and household providers: father&#39;s occupation</description>
+	<type>byte</type>
+	<value code="1">Professional, technical or similar worker</value>
+	<value code="10">Homemaker</value>
+	<value code="11">Student</value>
+	<value code="12">Other or unknown</value>
+	<value code="2">Manager, official, or proprietor</value>
+	<value code="3">Craftsman, foreman, or similar worker</value>
+	<value code="4">Clerical or similar worker</value>
+	<value code="5">Sales worker</value>
+	<value code="6">Operative or similar worker</value>
+	<value code="7">Service worker</value>
+	<value code="8">Laborer</value>
+	<value code="9">Farmer</value>
+</variable>
+
+<variable id="phv00048621.v1">
+	<name>obdadnoj</name>
+	<description>B2. Demographic and general information, occupation of patient and household providers: father unemployed or retired</description>
+	<type>byte</type>
+	<value code="1">Unemployed or retired</value>
+</variable>
+
+<variable id="phv00048942.v1">
+	<name>obdiasr</name>
+	<description>Q8b. Physical examination, sitting blood pressure: diastolic</description>
+	<type>int</type>
+	<unit>mm Hg</unit>
+</variable>
+
+<variable id="phv00048599.v1">
+	<name>obdmurmr</name>
+	<description>Q10. Physical examination, cardiovascular examination: diastolic murmur</description>
+	<type>byte</type>
+	<value code="1">Absent</value>
+	<value code="2">Present</value>
+</variable>
+
+<variable id="phv00048638.v1">
+	<name>obdrink1</name>
+	<description>D1. Drinking status: during the past 12 months, has the patient consumed an average of at least one alcoholic beverage per week?</description>
+	<type>byte</type>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+</variable>
+
+<variable id="phv00048639.v1">
+	<name>obdrink2</name>
+	<description>D2. Drinking status: bottles of beer in last 7 days</description>
+	<type>float</type>
+	<unit>12-ounce bottles of beer/week</unit>
+</variable>
+
+<variable id="phv00048640.v1">
+	<name>obdrink3</name>
+	<description>D3. Drinking status: bottles of light beer in last 7 days</description>
+	<type>byte</type>
+	<unit>12-ounce bottles of beer/week</unit>
+</variable>
+
+<variable id="phv00048641.v1">
+	<name>obdrink4</name>
+	<description>D4. Drinking status: glasses of wine in last 7 days</description>
+	<type>byte</type>
+	<unit>4-ounce glasses of wine/week</unit>
+</variable>
+
+<variable id="phv00048642.v1">
+	<name>obdrink5</name>
+	<description>D5. Drinking status: hard liquor in last 7 days</description>
+	<type>byte</type>
+	<unit>1 1/2-ounce shots of hard liquor/week</unit>
+</variable>
+
+<variable id="phv00048643.v1">
+	<name>obdrink6</name>
+	<description>D6. Drinking status: does the total amount of alcohol consumed by the patient in the past week exceed 560 grams?</description>
+	<type>byte</type>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+</variable>
+
+<variable id="phv00048644.v1">
+	<name>obexer1</name>
+	<description>E1. Exercise and activity: patient&#39;s level of activity</description>
+	<type>byte</type>
+	<value code="1">Sedentary</value>
+	<value code="2">Moderate activity</value>
+	<value code="3">Strenuous activity</value>
+</variable>
+
+<variable id="phv00048645.v1">
+	<name>obexer2</name>
+	<description>E2. Exercise and activity: hours and minutes of light activity</description>
+	<type>int</type>
+	<unit>Minutes</unit>
+</variable>
+
+<variable id="phv00048646.v1">
+	<name>obexer3</name>
+	<description>E3. Exercise and activity: hours and minutes of moderate activity</description>
+	<type>int</type>
+	<unit>Minutes</unit>
+</variable>
+
+<variable id="phv00048647.v1">
+	<name>obexer4</name>
+	<description>E4. Exercise and activity: hours and minutes of hard activity</description>
+	<type>int</type>
+	<unit>Minutes</unit>
+</variable>
+
+<variable id="phv00048648.v1">
+	<name>obexer5</name>
+	<description>E5. Exercise and activity: hours and minutes of very hard activity</description>
+	<type>int</type>
+	<unit>Minutes</unit>
+</variable>
+
+<variable id="phv00048693.v1">
+	<name>obf4</name>
+	<description>F4. Diabetes management: describe insulin regimen</description>
+	<type>byte</type>
+	<value code="1">Insulin regimen</value>
+</variable>
+
+<variable id="phv00048548.v1">
+	<name>obf4a</name>
+	<description>F4. Diabetes management: total number of units/day of insulin</description>
+	<type>byte</type>
+	<unit>units/day</unit>
+</variable>
+
+<variable id="phv00048694.v1">
+	<name>obf5a</name>
+	<description>F5a. Diabetes management: different basal rates used/day</description>
+	<type>byte</type>
+	<unit>Basal rate/day</unit>
+</variable>
+
+<variable id="phv00048695.v1">
+	<name>obf5b</name>
+	<description>F5b. Diabetes management: units of basal insulin infused daily</description>
+	<type>byte</type>
+	<unit>Units basal rate/day</unit>
+</variable>
+
+<variable id="phv00048696.v1">
+	<name>obf5c</name>
+	<description>F5c. Diabetes management: technical problems-insulin infusion pump</description>
+	<type>byte</type>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+</variable>
+
+<variable id="phv00048697.v1">
+	<name>obf6a</name>
+	<description>F6a. Diabetes management: prescribed change in insulin regimen</description>
+	<type>byte</type>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+	<value code="3">Uncertain</value>
+</variable>
+
+<variable id="phv00048698.v1">
+	<name>obf6a1</name>
+	<description>F6a1. Diabetes management: change dose-symptomatic polyuria, polydipsia</description>
+	<type>byte</type>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+	<value code="3">Uncertain</value>
+</variable>
+
+<variable id="phv00048699.v1">
+	<name>obf6a2</name>
+	<description>F6a2. Diabetes management: change dose-nocturia</description>
+	<type>byte</type>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+	<value code="3">Uncertain</value>
+</variable>
+
+<variable id="phv00048700.v1">
+	<name>obf6a3</name>
+	<description>F6a3. Diabetes management: change dose-unacceptable degree hypoglycemia</description>
+	<type>byte</type>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+	<value code="3">Uncertain</value>
+</variable>
+
+<variable id="phv00048701.v1">
+	<name>obf6a4</name>
+	<description>F6a4. Diabetes management: change dose-recurrent ketonuria</description>
+	<type>byte</type>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+	<value code="3">Uncertain</value>
+</variable>
+
+<variable id="phv00048702.v1">
+	<name>obf6a5</name>
+	<description>F6a5. Diabetes management: change dose-hemoglobin A1c above limit</description>
+	<type>byte</type>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+	<value code="3">Uncertain</value>
+</variable>
+
+<variable id="phv00048703.v1">
+	<name>obf6a6</name>
+	<description>F6a6. Diabetes management: change dose-other</description>
+	<type>byte</type>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+	<value code="3">Uncertain</value>
+</variable>
+
+<variable id="phv00048704.v1">
+	<name>obf7a</name>
+	<description>F7a. Diabetes management: self blood glucose monitoring</description>
+	<type>byte</type>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+	<value code="3">Uncertain</value>
+</variable>
+
+<variable id="phv00048705.v1">
+	<name>obf7b</name>
+	<description>F7b. Diabetes management: frequency per day of SBGM (self blood glucose monitoring)</description>
+	<type>byte</type>
+	<unit>Frequency per day</unit>
+</variable>
+
+<variable id="phv00048706.v1">
+	<name>obf7c</name>
+	<description>F7c. Diabetes management: urine glucose monitoring</description>
+	<type>byte</type>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+	<value code="3">Uncertain</value>
+</variable>
+
+<variable id="phv00048707.v1">
+	<name>obf7d</name>
+	<description>F7d. Diabetes management: frequency per day of UGM (urine glucose monitoring)</description>
+	<type>byte</type>
+	<unit>Frequency per day</unit>
+</variable>
+
+<variable id="phv00048708.v1">
+	<name>obf7e1</name>
+	<description>F7e1. Diabetes management: adjust usual regimen; glucose monitoring</description>
+	<type>byte</type>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+</variable>
+
+<variable id="phv00048709.v1">
+	<name>obf7e2</name>
+	<description>F7e2. Diabetes management: adjust usual regimen; food intake</description>
+	<type>byte</type>
+	<value code="0">Missing data</value>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+</variable>
+
+<variable id="phv00048710.v1">
+	<name>obf7e3</name>
+	<description>F7e3. Diabetes management: adjust usual regimen; exercise</description>
+	<type>byte</type>
+	<value code="0">Missing data</value>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+	<value code="3">Missing data</value>
+</variable>
+
+<variable id="phv00048627.v1">
+	<name>obfried</name>
+	<description>B3. Demographic and general information, education of patient and household providers: guardian/friend&#39;s education level</description>
+	<type>byte</type>
+	<value code="1">Graduate school</value>
+	<value code="2">College qraduate</value>
+	<value code="3">Some college or trade school</value>
+	<value code="4">Secondary school qraduate</value>
+	<value code="5">Some secondary school</value>
+	<value code="6">Elementary school</value>
+	<value code="7">None</value>
+	<value code="8">Unknown</value>
+</variable>
+
+<variable id="phv00048617.v1">
+	<name>obfrijob</name>
+	<description>B2. Demographic and general information, occupation of patient and household providers: guardian/friend&#39;s occupation</description>
+	<type>byte</type>
+	<value code="1">Professional, technical or similar worker</value>
+	<value code="10">Homemaker</value>
+	<value code="11">Student</value>
+	<value code="12">Other or unknown</value>
+	<value code="2">Manager, official, or proprietor</value>
+	<value code="3">Craftsman, foreman, or similar worker</value>
+	<value code="4">Clerical or similar worker</value>
+	<value code="5">Sales worker</value>
+	<value code="6">Operative or similar worker</value>
+	<value code="7">Service worker</value>
+	<value code="8">Laborer</value>
+	<value code="9">Farmer</value>
+</variable>
+
+<variable id="phv00048622.v1">
+	<name>obfrinoj</name>
+	<description>B2. Demographic and general information, occupation of patient and household providers: guardian/friend&#39;s unemployed/retired</description>
+	<type>byte</type>
+	<value code="1">Unemployed or retired</value>
+</variable>
+
+<variable id="phv00048711.v1">
+	<name>obg1</name>
+	<description>G1. Transfer to inactive status: since last visit-on inactive status</description>
+	<type>byte</type>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+</variable>
+
+<variable id="phv00048712.v1">
+	<name>obg1a</name>
+	<description>G1a. Transfer to inactive status: currently on transfer to inactive status</description>
+	<type>byte</type>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+</variable>
+
+<variable id="phv00048955.v1">
+	<name>obg1a1</name>
+	<description>G1a1. Transfer to inactive status. De-identified date of return to active status (Month/Day/Year)</description>
+	<type>long</type>
+</variable>
+
+<variable id="phv00048956.v1">
+	<name>obg1a2</name>
+	<description>G1a2. Transfer to inactive status. De-identified new transfer-inactive status-date (Month/Day/Year)</description>
+	<type>long</type>
+</variable>
+
+<variable id="phv00048713.v1">
+	<name>obh1</name>
+	<description>H1. Modifications of follow-up schedule for endpoint:  modified follow-up schedule at any time</description>
+	<type>byte</type>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+</variable>
+
+<variable id="phv00048714.v1">
+	<name>obh2</name>
+	<description>H2. Modifications of follow-up schedule for endpoint: currently on modified follow-up schedule</description>
+	<type>byte</type>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+</variable>
+
+<variable id="phv00048944.v1">
+	<name>obhiblp</name>
+	<description>Q8d. Physical examination, sitting blood pressure: blood pressure meets definition of hypertension</description>
+	<type>int</type>
+	<value code="1">No</value>
+	<value code="106">Missing data</value>
+	<value code="2">Yes</value>
+	<value code="7">Missing data</value>
+</variable>
+
+<variable id="phv00048656.v1">
+	<name>obhu7030</name>
+	<description>F1. Diabetes management: type of insulin-Human 70/30</description>
+	<type>byte</type>
+	<value code="1">Insulin-Human 70/30</value>
+</variable>
+
+<variable id="phv00048691.v1">
+	<name>obhulbed</name>
+	<description>F3. Diabetes management: units HumaLog insulin used-bedtime</description>
+	<type>byte</type>
+	<unit>Units</unit>
+</variable>
+
+<variable id="phv00048688.v1">
+	<name>obhulbrk</name>
+	<description>F3. Diabetes management: units HumaLog insulin used-breakfast</description>
+	<type>byte</type>
+	<unit>Units</unit>
+</variable>
+
+<variable id="phv00048653.v1">
+	<name>obhulen</name>
+	<description>F1. Diabetes management: type of insulin-Human Lente</description>
+	<type>byte</type>
+	<value code="1">Insulin-Human Lente</value>
+</variable>
+
+<variable id="phv00048689.v1">
+	<name>obhullun</name>
+	<description>F3. Diabetes management: units HumaLog insulin used-lunch</description>
+	<type>byte</type>
+	<unit>Units</unit>
+</variable>
+
+<variable id="phv00048657.v1">
+	<name>obhulog</name>
+	<description>F1. Diabetes management: type of insulin-HumaLog</description>
+	<type>byte</type>
+	<value code="1">Insulin-HumaLog</value>
+</variable>
+
+<variable id="phv00048692.v1">
+	<name>obhuloth</name>
+	<description>F3. Diabetes management: units HumaLog insulin used-other</description>
+	<type>byte</type>
+	<unit>Units</unit>
+</variable>
+
+<variable id="phv00048690.v1">
+	<name>obhulsup</name>
+	<description>F3. Diabetes management: units HumaLog insulin used-supper</description>
+	<type>byte</type>
+	<unit>Units</unit>
+</variable>
+
+<variable id="phv00048651.v1">
+	<name>obhunph</name>
+	<description>F1. Diabetes management: type of insulin-Human NPH (neutral protamine hagedorn)</description>
+	<type>byte</type>
+	<value code="1">Insulin-Human NPH (neutral protamine hagedorn)</value>
+</variable>
+
+<variable id="phv00048649.v1">
+	<name>obhureg</name>
+	<description>F1. Diabetes management: type of insulin-Human regular</description>
+	<type>byte</type>
+	<value code="1">Insulin-Human regular</value>
+</variable>
+
+<variable id="phv00048655.v1">
+	<name>obhuult</name>
+	<description>F1. Diabetes management: type of insulin-Human Ultralente</description>
+	<type>byte</type>
+	<value code="1">Insulin-Human Ultralente</value>
+</variable>
+
+<variable id="phv00048943.v1">
+	<name>obhypdoc</name>
+	<description>Q8c. Physical examination, sitting blood pressure: hypertension documented sent to coordinator center</description>
+	<type>byte</type>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+</variable>
+
+<variable id="phv00048715.v1">
+	<name>obi1a</name>
+	<description>I1a. Diabetes control - answer for all patients: frequency of DKA  since last annual visit</description>
+	<type>byte</type>
+	<unit>Frequency of DKA</unit>
+</variable>
+
+<variable id="phv00048716.v1">
+	<name>obi1b</name>
+	<description>I1b. Diabetes control - answer for all patients: experience of other symptoms of hyperglycemia (month/day/year)</description>
+	<type>byte</type>
+	<value code="0">Missing data</value>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+</variable>
+
+<variable id="phv00048717.v1">
+	<name>obi2</name>
+	<description>I2. Diabetes control - answer for all patients: haw many days has the patient moderate or large ketonuria since the last visit?</description>
+	<type>byte</type>
+	<unit>Days</unit>
+</variable>
+
+<variable id="phv00048718.v1">
+	<name>obi2a</name>
+	<description>I2a. Diabetes control - answer for all patients: haw many days has the patient moderate or large ketonuria since the last visit? (unknown)</description>
+	<type>byte</type>
+	<value code="1">Unknown</value>
+</variable>
+
+<variable id="phv00048719.v1">
+	<name>obi2aa</name>
+	<description>I2aa. Diabetes control - answer for all patients: haw many days has the patient moderate or large ketonuria since the last visit? (explained by change in routine)</description>
+	<type>byte</type>
+	<unit>Days</unit>
+</variable>
+
+<variable id="phv00048720.v1">
+	<name>obi2b</name>
+	<description>I2b. Diabetes control - answer for all patients: haw many days has the patient moderate or large ketonuria since the last visit? (due to illness)</description>
+	<type>byte</type>
+	<unit>Days</unit>
+</variable>
+
+<variable id="phv00048721.v1">
+	<name>obi2c</name>
+	<description>I2c. Diabetes control - answer for all patients: haw many days has the patient moderate or large ketonuria since the last visit? (due to equipment failed)</description>
+	<type>byte</type>
+	<unit>Days</unit>
+</variable>
+
+<variable id="phv00048722.v1">
+	<name>obi2d</name>
+	<description>I2d. Diabetes control - answer for all patients: haw many days has the patient moderate or large ketonuria since the last visit? (spontaneous or unexplained)</description>
+	<type>byte</type>
+	<unit>Days</unit>
+</variable>
+
+<variable id="phv00048723.v1">
+	<name>obi3a</name>
+	<description>I3a. Diabetes control - answer for all patients: number of  hospitalizations for hypoglycemia</description>
+	<type>byte</type>
+	<unit>Times</unit>
+</variable>
+
+<variable id="phv00048724.v1">
+	<name>obi3b1</name>
+	<description>I3b1. Diabetes control - answer for all patients: hypoglycemia - lost of consciousness without seizure</description>
+	<type>byte</type>
+	<unit>Times</unit>
+</variable>
+
+<variable id="phv00048725.v1">
+	<name>obi3b2</name>
+	<description>I3b2. Diabetes control - answer for all patients: hypoglycemia-lost of consciousness with seizure</description>
+	<type>byte</type>
+	<unit>Times</unit>
+</variable>
+
+<variable id="phv00048726.v1">
+	<name>obi3c1</name>
+	<description>I3c1. Diabetes control - answer for all patients: how many times? Hypoglycemia-required professional medical help</description>
+	<type>byte</type>
+	<unit>Times</unit>
+</variable>
+
+<variable id="phv00048727.v1">
+	<name>obi3c2</name>
+	<description>I3c2. Diabetes control - answer for all patients: how many times? Hypoglycemia-require help of another person</description>
+	<type>byte</type>
+	<unit>Times</unit>
+</variable>
+
+<variable id="phv00048728.v1">
+	<name>obi3c3</name>
+	<description>I3c3. Diabetes control - answer for all patients: how many times? Hypoglycemia-not need doctor or other person</description>
+	<type>byte</type>
+	<unit>Times</unit>
+</variable>
+
+<variable id="phv00048729.v1">
+	<name>obi3d1</name>
+	<description>I3d1. Diabetes control - answer for all patients: frequency receive glucagon</description>
+	<type>byte</type>
+	<unit>Times</unit>
+</variable>
+
+<variable id="phv00048730.v1">
+	<name>obi3d2</name>
+	<description>I3d2. Diabetes control - answer for all patients: frequency receive IV glucose to treat hypoglycemia</description>
+	<type>byte</type>
+	<unit>Times</unit>
+</variable>
+
+<variable id="phv00048731.v1">
+	<name>obi3d3</name>
+	<description>I3d3. Diabetes control - answer for all patients: episodes result in injury of patient or others</description>
+	<type>byte</type>
+	<unit>Times</unit>
+</variable>
+
+<variable id="phv00048732.v1">
+	<name>obi3e</name>
+	<description>I3e. Diabetes control - answer for all patients: recurrent hypoglycemic unable to help self</description>
+	<type>byte</type>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+</variable>
+
+<variable id="phv00048733.v1">
+	<name>obi3f</name>
+	<description>I3f. Diabetes control - answer for all patients: recurrent hypoglycemic able to help self</description>
+	<type>byte</type>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+</variable>
+
+<variable id="phv00048734.v1">
+	<name>obi3g</name>
+	<description>I3g. Diabetes control - answer for all patients: last 7 days-mild hypoglycemia treat self</description>
+	<type>float</type>
+	<unit>Times</unit>
+	<value code="0.5">Missing data</value>
+</variable>
+
+<variable id="phv00048735.v1">
+	<name>obi3h1</name>
+	<description>I3h1. Diabetes control - answer for all patients: hypoglycemia occurred while awake/asleep</description>
+	<type>byte</type>
+	<value code="1">While the patient was awake</value>
+	<value code="2">While the patient was asleep</value>
+	<value code="3">Both</value>
+</variable>
+
+<variable id="phv00048736.v1">
+	<name>obi3h2a</name>
+	<description>I3h2a. Diabetes control - answer for all patients: reason hypoglycemia; missed meal or snack</description>
+	<type>byte</type>
+	<value code="1">Missed meal or snack</value>
+	<value code="2">Missing data</value>
+</variable>
+
+<variable id="phv00048737.v1">
+	<name>obi3h2b</name>
+	<description>I3h2b. Diabetes control - answer for all patients: reason hypoglycemia; decreased foot intake</description>
+	<type>byte</type>
+	<value code="1">Decreased foot intake</value>
+</variable>
+
+<variable id="phv00048738.v1">
+	<name>obi3h2c</name>
+	<description>I3h2c. Diabetes control - answer for all patients: reason hypoglycemia; delayed meal or snack</description>
+	<type>byte</type>
+	<value code="1">Delayed meal or snack</value>
+</variable>
+
+<variable id="phv00048739.v1">
+	<name>obi3h2d</name>
+	<description>I3h2d. Diabetes control - answer for all patients: reason hypoglycemia; increased exercise level</description>
+	<type>byte</type>
+	<value code="1">Increased exercise level</value>
+</variable>
+
+<variable id="phv00048740.v1">
+	<name>obi3h2e</name>
+	<description>I3h2e. Diabetes control - answer for all patients: reason hypoglycemia; too much insulin taken</description>
+	<type>byte</type>
+	<value code="1">Too much insulin taken</value>
+</variable>
+
+<variable id="phv00048741.v1">
+	<name>obi3h2f</name>
+	<description>I3h2f. Diabetes control - answer for all patients: reason hypoglycemia; lack early warning-low blood glucose</description>
+	<type>byte</type>
+	<value code="1">Lack early warning-low blood glucose</value>
+</variable>
+
+<variable id="phv00048742.v1">
+	<name>obi3h2g</name>
+	<description>I3h2g. Diabetes control - answer for all patients: reason hypoglycemia; other</description>
+	<type>byte</type>
+	<value code="1">Other</value>
+</variable>
+
+<variable id="phv00048743.v1">
+	<name>obi3h2h</name>
+	<description>I3h2h. Diabetes control - answer for all patients: reason hypoglycemia; unexplained</description>
+	<type>byte</type>
+	<value code="1">Unexplained</value>
+</variable>
+
+<variable id="phv00048744.v1">
+	<name>obi3h3a</name>
+	<description>I3h3ha. Diabetes control - answer for all patients: symptoms with hypoglycemia; adrenergic warning</description>
+	<type>byte</type>
+	<value code="1">Adrenergic warning</value>
+</variable>
+
+<variable id="phv00048745.v1">
+	<name>obi3h3b</name>
+	<description>I3h3b. Diabetes control - answer for all patients: symptoms with hypoglycemia; diaphoresis (sweat)</description>
+	<type>byte</type>
+	<value code="1">Diaphoresis (sweat)</value>
+</variable>
+
+<variable id="phv00048746.v1">
+	<name>obi3h3c</name>
+	<description>I3h3c. Diabetes control - answer for all patients: symptoms with hypoglycemia; altered mental status</description>
+	<type>byte</type>
+	<value code="1">Altered mental status</value>
+</variable>
+
+<variable id="phv00048747.v1">
+	<name>obi3h3d</name>
+	<description>I3h3d. Diabetes control - answer for all patients: symptoms with mild hypoglycemia; other</description>
+	<type>byte</type>
+	<value code="1">Other</value>
+</variable>
+
+<variable id="phv00048748.v1">
+	<name>obi3h3e</name>
+	<description>I3h3e. Diabetes control - answer for all patients: symptoms with mild hypoglycemia; none</description>
+	<type>byte</type>
+	<value code="1">No symptoms of mild hypoglycemia</value>
+</variable>
+
+<variable id="phv00048661.v1">
+	<name>obinsreg</name>
+	<description>F2. Diabetes management: current insulin regimen</description>
+	<type>byte</type>
+	<value code="1">Insulin infusion pump</value>
+	<value code="2">Three or more daily injections</value>
+	<value code="3">One or two daily injections</value>
+	<value code="4">Other</value>
+</variable>
+
+<variable id="phv00048749.v1">
+	<name>obj1a</name>
+	<description>J1a. Verification of event, cardiovascular event: myocardial infarction</description>
+	<type>byte</type>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+</variable>
+
+<variable id="phv00048750.v1">
+	<name>obj1b</name>
+	<description>J1b. Verification of event, cardiovascular event: angina pectoris</description>
+	<type>byte</type>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+</variable>
+
+<variable id="phv00048751.v1">
+	<name>obj1c</name>
+	<description>J1c. Verification of event, cardiovascular event: coronary artery disease</description>
+	<type>byte</type>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+</variable>
+
+<variable id="phv00048752.v1">
+	<name>obj1d</name>
+	<description>J1d. Verification of event, cardiovascular event: arrhythmia</description>
+	<type>byte</type>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+</variable>
+
+<variable id="phv00048753.v1">
+	<name>obj2</name>
+	<description>J2. Verification of event, chest pain: if patient has complained of pain</description>
+	<type>byte</type>
+	<value code="1">Patient has pain</value>
+</variable>
+
+<variable id="phv00048754.v1">
+	<name>obj2a1a</name>
+	<description>J2a1a. Verification of event, chest pain: complained of pain in l anterior chest</description>
+	<type>byte</type>
+	<value code="1">Patient has pain in l anterior chest</value>
+</variable>
+
+<variable id="phv00048755.v1">
+	<name>obj2a1b</name>
+	<description>J2a1b. Verification of event, chest pain: complained of pain in left arm</description>
+	<type>byte</type>
+	<value code="1">Patient has pain in left arm</value>
+</variable>
+
+<variable id="phv00048756.v1">
+	<name>obj2a1c</name>
+	<description>J2a1c. Verification of event, chest pain: complained of pain in jaw</description>
+	<type>byte</type>
+	<value code="1">Patient has pain in jaw</value>
+</variable>
+
+<variable id="phv00048757.v1">
+	<name>obj2a1d</name>
+	<description>J2a1d. Verification of event, chest pain: complained of pain in sternum upper or middle</description>
+	<type>byte</type>
+	<value code="1">Patient has pain in sternum upper or middle</value>
+</variable>
+
+<variable id="phv00048758.v1">
+	<name>obj2a1e</name>
+	<description>J2a1e. Verification of event, chest pain: complained of pain in sternum lower</description>
+	<type>byte</type>
+	<value code="1">Patient has pain in sternum lower</value>
+</variable>
+
+<variable id="phv00048759.v1">
+	<name>obj2a2a</name>
+	<description>J2a2a. Verification of event, chest pain: complained of pain in the back</description>
+	<type>byte</type>
+	<value code="1">Patient has pain in the back</value>
+</variable>
+
+<variable id="phv00048760.v1">
+	<name>obj2a2b</name>
+	<description>J2a2b. Verification of event, chest pain: complained of pain in the shoulder</description>
+	<type>byte</type>
+	<value code="1">Patient has pain in the shoulder</value>
+</variable>
+
+<variable id="phv00048761.v1">
+	<name>obj2a2c</name>
+	<description>J2a2c. Verification of event, chest pain: complained of pain in the right arm</description>
+	<type>byte</type>
+	<value code="1">Patient has pain in the right arm</value>
+</variable>
+
+<variable id="phv00048762.v1">
+	<name>obj2a2d</name>
+	<description>J2a2d. Verification of event, chest pain: complained of pain in the abdomen</description>
+	<type>byte</type>
+	<value code="1">Patient has pain in the abdomen</value>
+</variable>
+
+<variable id="phv00048763.v1">
+	<name>obj2b1</name>
+	<description>J2b1. Verification of event, chest pain: pain lasted for more than 20 min</description>
+	<type>byte</type>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+</variable>
+
+<variable id="phv00048764.v1">
+	<name>obj2b2</name>
+	<description>J2b2. Verification of event, chest pain: definite non-cardiac cause for pain</description>
+	<type>byte</type>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+</variable>
+
+<variable id="phv00048765.v1">
+	<name>obj2b3</name>
+	<description>J2b3. Verification of event, chest pain: additional doses of nitrates or calcium channel blockers</description>
+	<type>byte</type>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+</variable>
+
+<variable id="phv00048766.v1">
+	<name>obj2c</name>
+	<description>J2c. Verification of event, chest pain: feeling of press. or heaviness in chest</description>
+	<type>byte</type>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+</variable>
+
+<variable id="phv00048767.v1">
+	<name>obj2d1</name>
+	<description>J2d1. Verification of event, chest pain: pain/discomfort: walking up hill or hurrying</description>
+	<type>byte</type>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+</variable>
+
+<variable id="phv00048768.v1">
+	<name>obj2d2</name>
+	<description>J2d2. Verification of event, chest pain: pain/discomfort: walking ordinary pace</description>
+	<type>byte</type>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+</variable>
+
+<variable id="phv00048769.v1">
+	<name>obj2d3</name>
+	<description>J2d3. Verification of event, chest pain: does the patient get pain or discomfort when stop, slow down, or continue at the same pace</description>
+	<type>byte</type>
+	<value code="1">Stop</value>
+	<value code="2">Slow down</value>
+	<value code="3">Continue at the same pace</value>
+</variable>
+
+<variable id="phv00048770.v1">
+	<name>obj2d4</name>
+	<description>J2d4. Verification of event, chest pain: what happened to the patient pain or discomfort when standing still?</description>
+	<type>byte</type>
+	<value code="1">Relieved</value>
+	<value code="2">Not relieved</value>
+</variable>
+
+<variable id="phv00048771.v1">
+	<name>obj2d5</name>
+	<description>J2d5. Verification of event, chest pain: if relieved when standing still, how soon does the pain go away? (10 min or more)</description>
+	<type>byte</type>
+	<value code="1">10 minutes or less</value>
+	<value code="2">More than 10 minutes</value>
+</variable>
+
+<variable id="phv00048772.v1">
+	<name>obj2e</name>
+	<description>J2e. Verification of event, chest pain: were any diagnostic tests performed on this patient?</description>
+	<type>byte</type>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+</variable>
+
+<variable id="phv00048774.v1">
+	<name>obj2res1</name>
+	<description>J2e. Verification of event, chest pain: diagnostic tests; test 1 results</description>
+	<type>byte</type>
+	<value code="1">Positive</value>
+	<value code="2">Negative</value>
+	<value code="3">Uncertain</value>
+</variable>
+
+<variable id="phv00048776.v1">
+	<name>obj2res2</name>
+	<description>J2e. Verification of event, chest pain:  diagnostic tests; test 2 results</description>
+	<type>byte</type>
+	<value code="1">Positive</value>
+	<value code="2">Negative</value>
+	<value code="3">Uncertain</value>
+</variable>
+
+<variable id="phv00048778.v1">
+	<name>obj2res3</name>
+	<description>J2e. Verification of event, chest pain: diagnostic tests; test 3 results</description>
+	<type>byte</type>
+	<value code="1">Positive</value>
+	<value code="2">Negative</value>
+	<value code="3">Uncertain</value>
+</variable>
+
+<variable id="phv00048780.v1">
+	<name>obj2res4</name>
+	<description>J2e. Verification of event, chest pain: diagnostic tests; test 4 results</description>
+	<type>byte</type>
+	<value code="1">Positive</value>
+	<value code="2">Negative</value>
+	<value code="3">Uncertain</value>
+</variable>
+
+<variable id="phv00048782.v1">
+	<name>obj2res5</name>
+	<description>J2e. Verification of event, chest pain: diagnostic tests; test 5 results</description>
+	<type>byte</type>
+	<value code="1">Positive</value>
+	<value code="2">Negative</value>
+	<value code="3">Uncertain</value>
+</variable>
+
+<variable id="phv00048773.v1">
+	<name>obj2tes1</name>
+	<description>J2e. Verification of event, chest pain: diagnostic tests; test 1</description>
+	<type>str19</type>
+</variable>
+
+<variable id="phv00048775.v1">
+	<name>obj2tes2</name>
+	<description>J2e. Verification of event, chest pain: diagnostic tests; test 2</description>
+	<type>str20</type>
+</variable>
+
+<variable id="phv00048777.v1">
+	<name>obj2tes3</name>
+	<description>J2e. Verification of event, chest pain: diagnostic tests; test 3</description>
+	<type>str18</type>
+</variable>
+
+<variable id="phv00048779.v1">
+	<name>obj2tes4</name>
+	<description>J2e. Verification of event, chest pain: diagnostic tests; test 4</description>
+	<type>str19</type>
+</variable>
+
+<variable id="phv00048781.v1">
+	<name>obj2tes5</name>
+	<description>J2e. Verification of event, chest pain:  diagnostic tests; test 5</description>
+	<type>str20</type>
+</variable>
+
+<variable id="phv00048783.v1">
+	<name>obj3a</name>
+	<description>J3a. Verification of event, cerebrovascular events: has the patient suffered of  cerebrovascular accident since the last evaluation?</description>
+	<type>byte</type>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+</variable>
+
+<variable id="phv00048784.v1">
+	<name>obj3b</name>
+	<description>J3b. Verification of event, cerebrovascular events: has the patient suffered of  transient ischemic attack since the last evaluation?</description>
+	<type>byte</type>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+</variable>
+
+<variable id="phv00048785.v1">
+	<name>obj4a</name>
+	<description>J4a. Verification of event, peripheral vascular events: has the patient suffered of  amputation since the last evaluation?</description>
+	<type>byte</type>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+</variable>
+
+<variable id="phv00048786.v1">
+	<name>obj4b</name>
+	<description>J4b. Verification of event, peripheral vascular events: has the patient suffered of  lower extremity ulcer since the last evaluation?</description>
+	<type>byte</type>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+</variable>
+
+<variable id="phv00048787.v1">
+	<name>obj4c</name>
+	<description>J4c. Verification of event, peripheral vascular events: has the patient suffered of  other arterial events since the last evaluation?</description>
+	<type>byte</type>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+</variable>
+
+<variable id="phv00048788.v1">
+	<name>obj5</name>
+	<description>J5. Verification of event, intermittent claudication (peripheral ischemia): does patient have pain</description>
+	<type>byte</type>
+	<value code="1">Does patient have pain</value>
+</variable>
+
+<variable id="phv00048789.v1">
+	<name>obj5a</name>
+	<description>J5a. Verification of event, intermittent claudication (peripheral ischemia): pain in leg when walk</description>
+	<type>byte</type>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+</variable>
+
+<variable id="phv00048790.v1">
+	<name>obj5b</name>
+	<description>J5b. Verification of event, intermittent claudication (peripheral ischemia): pain begin when stand.</description>
+	<type>byte</type>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+</variable>
+
+<variable id="phv00048792.v1">
+	<name>obj5cl</name>
+	<description>J5cl. Verification of event, intermittent claudication (peripheral ischemia): pain in part of left leg</description>
+	<type>byte</type>
+	<value code="1">Buttock</value>
+	<value code="2">Thigh</value>
+	<value code="3">Calf</value>
+</variable>
+
+<variable id="phv00048791.v1">
+	<name>obj5cr</name>
+	<description>J5cr. Verification of event, intermittent claudication (peripheral ischemia): pain in part of right leg</description>
+	<type>byte</type>
+	<value code="1">Buttock</value>
+	<value code="2">Thigh</value>
+	<value code="3">Calf</value>
+</variable>
+
+<variable id="phv00048793.v1">
+	<name>obj5d</name>
+	<description>J5d. Verification of event, intermittent claudication (peripheral ischemia): pain in leg when hurrying</description>
+	<type>byte</type>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+</variable>
+
+<variable id="phv00048794.v1">
+	<name>obj5e</name>
+	<description>J5e. Verification of event, intermittent claudication (peripheral ischemia): pain in leg when working at an ordinary pace</description>
+	<type>byte</type>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+</variable>
+
+<variable id="phv00048795.v1">
+	<name>obj5f</name>
+	<description>J5f. Verification of event, intermittent claudication (peripheral ischemia): does pain ever disappear while the patient is walking</description>
+	<type>byte</type>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+</variable>
+
+<variable id="phv00048796.v1">
+	<name>obj5g</name>
+	<description>J5g. Verification of event, intermittent claudication (peripheral ischemia): what does patient do if she/he gets the pain when walking</description>
+	<type>byte</type>
+	<value code="1">Stop</value>
+	<value code="2">Slow down</value>
+	<value code="3">Continue at the same pace</value>
+</variable>
+
+<variable id="phv00048797.v1">
+	<name>obj5h</name>
+	<description>J5h. Verification of event, intermittent claudication (peripheral ischemia): what happens to pain if the patient stands still</description>
+	<type>byte</type>
+	<value code="1">Relieved</value>
+	<value code="2">Not relieved</value>
+</variable>
+
+<variable id="phv00048798.v1">
+	<name>obj5i</name>
+	<description>J5i. Verification of event, intermittent claudication (peripheral ischemia): is pain relieved by standing still, how soon does relief occur</description>
+	<type>byte</type>
+	<value code="1">Not applicable</value>
+	<value code="2">10 minutes or less</value>
+	<value code="3">More than 10 minutes</value>
+</variable>
+
+<variable id="phv00048799.v1">
+	<name>obj5j</name>
+	<description>J5j. Verification of event, intermittent claudication (peripheral ischemia): noticed change in severity</description>
+	<type>byte</type>
+	<value code="1">Increased</value>
+	<value code="2">Decreased</value>
+	<value code="3">Unchanged</value>
+</variable>
+
+<variable id="phv00048800.v1">
+	<name>obj5k</name>
+	<description>J5k. Verification of event, intermittent claudication (peripheral ischemia): diagnostic tests performed</description>
+	<type>byte</type>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+</variable>
+
+<variable id="phv00048802.v1">
+	<name>obj5res1</name>
+	<description>J5k. Verification of event, intermittent claudication (peripheral ischemia): diagnostic tests; test 1 results</description>
+	<type>byte</type>
+	<value code="1">Positive</value>
+	<value code="2">Negative</value>
+	<value code="3">Equivocal</value>
+</variable>
+
+<variable id="phv00048804.v1">
+	<name>obj5res2</name>
+	<description>J5k. Verification of event, intermittent claudication (peripheral ischemia): diagnostic tests; test 2 results</description>
+	<type>byte</type>
+	<value code="1">Positive</value>
+	<value code="2">Negative</value>
+	<value code="3">Equivocal</value>
+</variable>
+
+<variable id="phv00048806.v1">
+	<name>obj5res3</name>
+	<description>J5k. Verification of event, intermittent claudication (peripheral ischemia): diagnostic tests; test 3 results</description>
+	<type>byte</type>
+	<value code="1">Positive</value>
+	<value code="2">Negative</value>
+	<value code="3">Equivocal</value>
+</variable>
+
+<variable id="phv00048808.v1">
+	<name>obj5res4</name>
+	<description>J5k. Verification of event, intermittent claudication (peripheral ischemia): diagnostic tests; test 4 results</description>
+	<type>byte</type>
+	<value code="1">Positive</value>
+	<value code="2">Negative</value>
+	<value code="3">Equivocal</value>
+</variable>
+
+<variable id="phv00048810.v1">
+	<name>obj5res5</name>
+	<description>J5k. Verification of event, intermittent claudication (peripheral ischemia): diagnostic tests; test 5 results</description>
+	<type>byte</type>
+	<value code="1">Positive</value>
+	<value code="2">Negative</value>
+	<value code="3">Equivocal</value>
+</variable>
+
+<variable id="phv00048801.v1">
+	<name>obj5tes1</name>
+	<description>J5k. Verification of event, intermittent claudication (peripheral ischemia): diagnostic tests; test 1</description>
+	<type>str20</type>
+</variable>
+
+<variable id="phv00048803.v1">
+	<name>obj5tes2</name>
+	<description>J5k. Verification of event, intermittent claudication (peripheral ischemia): diagnostic tests; test 2</description>
+	<type>str17</type>
+</variable>
+
+<variable id="phv00048805.v1">
+	<name>obj5tes3</name>
+	<description>J5k. Verification of event, intermittent claudication (peripheral ischemia): diagnostic tests; test 3</description>
+	<type>str1</type>
+</variable>
+
+<variable id="phv00048807.v1">
+	<name>obj5tes4</name>
+	<description>J5k. Verification of event, intermittent claudication (peripheral ischemia): diagnostic tests; test 4</description>
+	<type>str1</type>
+</variable>
+
+<variable id="phv00048809.v1">
+	<name>obj5tes5</name>
+	<description>J5k. Verification of event, intermittent claudication (peripheral ischemia): diagnostic tests; test 5</description>
+	<type>str1</type>
+</variable>
+
+<variable id="phv00048811.v1">
+	<name>obj6a</name>
+	<description>J6a. Verification of event, psychiatric events: nervousness or anxiety</description>
+	<type>byte</type>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+</variable>
+
+<variable id="phv00048812.v1">
+	<name>obj6b</name>
+	<description>J6b. Verification of event, psychiatric events: unreasonable fears</description>
+	<type>byte</type>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+</variable>
+
+<variable id="phv00048813.v1">
+	<name>obj6c</name>
+	<description>J6c. Verification of event, psychiatric events: eating disturbance</description>
+	<type>byte</type>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+</variable>
+
+<variable id="phv00048814.v1">
+	<name>obj6d</name>
+	<description>J6d. Verification of event, psychiatric events: affective disorder</description>
+	<type>byte</type>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+</variable>
+
+<variable id="phv00048815.v1">
+	<name>obj6e</name>
+	<description>J6e. Verification of event, psychiatric events: suicide attempt</description>
+	<type>byte</type>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+</variable>
+
+<variable id="phv00048816.v1">
+	<name>obj6f</name>
+	<description>J6f. Verification of event, psychiatric events: criminal conduct</description>
+	<type>byte</type>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+</variable>
+
+<variable id="phv00048817.v1">
+	<name>obj6g</name>
+	<description>J6g. Verification of event, psychiatric events: psychiatric treatment</description>
+	<type>byte</type>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+</variable>
+
+<variable id="phv00048818.v1">
+	<name>obj6h</name>
+	<description>J6h. Verification of event, psychiatric events: other psychiatric condition</description>
+	<type>byte</type>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+</variable>
+
+<variable id="phv00048819.v1">
+	<name>obj7</name>
+	<description>J7. Verification of event, major accidents: experienced any major accidents</description>
+	<type>byte</type>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+</variable>
+
+<variable id="phv00048820.v1">
+	<name>obk1</name>
+	<description>K1. Renal complication: cystitis</description>
+	<type>byte</type>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+</variable>
+
+<variable id="phv00048821.v1">
+	<name>obk2</name>
+	<description>K2. Renal complication: cystitis pyelonephritis</description>
+	<type>byte</type>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+</variable>
+
+<variable id="phv00048822.v1">
+	<name>obk3</name>
+	<description>K3. Renal complication: cystitis uncontrollable hypertension</description>
+	<type>byte</type>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+</variable>
+
+<variable id="phv00048823.v1">
+	<name>obk4</name>
+	<description>K4. Renal complication: cystitis edema</description>
+	<type>byte</type>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+</variable>
+
+<variable id="phv00048824.v1">
+	<name>obk5</name>
+	<description>K5. Renal complication: cystitis dialysis</description>
+	<type>byte</type>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+</variable>
+
+<variable id="phv00048825.v1">
+	<name>obk6</name>
+	<description>K6. Renal complication: cystitis renal transplantation</description>
+	<type>byte</type>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+</variable>
+
+<variable id="phv00048826.v1">
+	<name>obk7</name>
+	<description>K7. Renal complication: cystitis other renal problem</description>
+	<type>byte</type>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+</variable>
+
+<variable id="phv00048868.v1">
+	<name>obl10l</name>
+	<description>L10. Ophthalmic complication: any other eye problems-left</description>
+	<type>byte</type>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+</variable>
+
+<variable id="phv00048867.v1">
+	<name>obl10r</name>
+	<description>L10. Ophthalmic complication: any other eye problems-right</description>
+	<type>byte</type>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+</variable>
+
+<variable id="phv00048869.v1">
+	<name>obl11</name>
+	<description>L11. Ophthalmic complications: will be sent to ophthalmologist special visit</description>
+	<type>byte</type>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+</variable>
+
+<variable id="phv00048828.v1">
+	<name>obl1al</name>
+	<description>L1. Ophthalmic complications: blurred or reduced vision-left eye</description>
+	<type>byte</type>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+</variable>
+
+<variable id="phv00048827.v1">
+	<name>obl1ar</name>
+	<description>L1. Ophthalmic complications: blurred or reduced vision-right eye</description>
+	<type>byte</type>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+</variable>
+
+<variable id="phv00048830.v1">
+	<name>obl2al</name>
+	<description>L2. Ophthalmic complications: floaters or flashing lights-left</description>
+	<type>byte</type>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+</variable>
+
+<variable id="phv00048829.v1">
+	<name>obl2ar</name>
+	<description>L2. Ophthalmic complications: floaters or flashing lights-right</description>
+	<type>byte</type>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+</variable>
+
+<variable id="phv00048831.v1">
+	<name>obl3ar</name>
+	<description>L3. Ophthalmic complications: right eye enucleated</description>
+	<type>byte</type>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+</variable>
+
+<variable id="phv00048832.v1">
+	<name>obl3bl</name>
+	<description>L3. Ophthalmic complications: left eye enucleated</description>
+	<type>byte</type>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+</variable>
+
+<variable id="phv00048833.v1">
+	<name>obl3cr</name>
+	<description>L3.  Ophthalmic complications: right eye enucleated since last visit</description>
+	<type>byte</type>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+</variable>
+
+<variable id="phv00048834.v1">
+	<name>obl3dl</name>
+	<description>L3.  Ophthalmic complications: left eye enucleated since last visit</description>
+	<type>byte</type>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+</variable>
+
+<variable id="phv00048835.v1">
+	<name>obl4ar</name>
+	<description>L4.  Ophthalmic complications: ocular surgery to re since last visit</description>
+	<type>byte</type>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+</variable>
+
+<variable id="phv00048836.v1">
+	<name>obl4bl</name>
+	<description>L4.  Ophthalmic complications: ocular surgery to le since last visit</description>
+	<type>byte</type>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+</variable>
+
+<variable id="phv00048837.v1">
+	<name>obl4cr</name>
+	<description>L4.  Ophthalmic complications: corneal transplant - right eye</description>
+	<type>byte</type>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+</variable>
+
+<variable id="phv00048838.v1">
+	<name>obl4dl</name>
+	<description>L4.  Ophthalmic complications: corneal transplant - left eye</description>
+	<type>byte</type>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+</variable>
+
+<variable id="phv00048839.v1">
+	<name>obl4er</name>
+	<description>L4.  Ophthalmic complications: other corneal surgery - right eye</description>
+	<type>byte</type>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+</variable>
+
+<variable id="phv00048840.v1">
+	<name>obl4fl</name>
+	<description>L4.  Ophthalmic complications: other corneal surgery - left eye</description>
+	<type>byte</type>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+</variable>
+
+<variable id="phv00048841.v1">
+	<name>obl4gr</name>
+	<description>L4.  Ophthalmic complications: procedure to lower IOP (intraocular pressure) in right eye</description>
+	<type>byte</type>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+</variable>
+
+<variable id="phv00048842.v1">
+	<name>obl4hl</name>
+	<description>L4.  Ophthalmic complications: procedure to lower IOP (intraocular pressure) in left eye</description>
+	<type>byte</type>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+</variable>
+
+<variable id="phv00048843.v1">
+	<name>obl4ir</name>
+	<description>L4.  Ophthalmic complications: cataract extraction in right eye</description>
+	<type>byte</type>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+</variable>
+
+<variable id="phv00048844.v1">
+	<name>obl4jl</name>
+	<description>L4.  Ophthalmic complications: cataract extraction in left eye</description>
+	<type>byte</type>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+</variable>
+
+<variable id="phv00048845.v1">
+	<name>obl4kr</name>
+	<description>L4.  Ophthalmic complications: vitrectomy - right eye</description>
+	<type>byte</type>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+</variable>
+
+<variable id="phv00048846.v1">
+	<name>obl4ll</name>
+	<description>L4.  Ophthalmic complications: vitrectomy - left eye</description>
+	<type>byte</type>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+</variable>
+
+<variable id="phv00048847.v1">
+	<name>obl4mr</name>
+	<description>L4.  Ophthalmic complications: retinal detachment surgery in right eye</description>
+	<type>byte</type>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+</variable>
+
+<variable id="phv00048848.v1">
+	<name>obl4nl</name>
+	<description>L4.  Ophthalmic complications: retinal detachment surgery in left eye</description>
+	<type>byte</type>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+</variable>
+
+<variable id="phv00048849.v1">
+	<name>obl4or</name>
+	<description>L4. Ophthalmic complications: other surgery to right eye</description>
+	<type>byte</type>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+</variable>
+
+<variable id="phv00048850.v1">
+	<name>obl4pl</name>
+	<description>L4.  Ophthalmic complications: other surgery to left eye</description>
+	<type>byte</type>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+</variable>
+
+<variable id="phv00048851.v1">
+	<name>obl5ar</name>
+	<description>L5.  Ophthalmic complications: photocoagulation of right eye</description>
+	<type>byte</type>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+</variable>
+
+<variable id="phv00048852.v1">
+	<name>obl5bl</name>
+	<description>L5.  Ophthalmic complications:  photocoagulation of left eye</description>
+	<type>byte</type>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+</variable>
+
+<variable id="phv00048853.v1">
+	<name>obl5cr</name>
+	<description>L5.  Ophthalmic complications:  scatter treatment of right eye</description>
+	<type>byte</type>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+</variable>
+
+<variable id="phv00048854.v1">
+	<name>obl5dl</name>
+	<description>L5.  Ophthalmic complications: scatter treatment of left eye</description>
+	<type>byte</type>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+</variable>
+
+<variable id="phv00048855.v1">
+	<name>obl5er</name>
+	<description>L5.  Ophthalmic complications: focal treatment of right eye</description>
+	<type>byte</type>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+</variable>
+
+<variable id="phv00048856.v1">
+	<name>obl5fl</name>
+	<description>L5.  Ophthalmic complications: focal treatment of left eye</description>
+	<type>byte</type>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+</variable>
+
+<variable id="phv00048857.v1">
+	<name>obl5gr</name>
+	<description>L5.  Ophthalmic complications: other treatment of right eye</description>
+	<type>byte</type>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+</variable>
+
+<variable id="phv00048858.v1">
+	<name>obl5hl</name>
+	<description>L5.  Ophthalmic complications: other treatment of left eye</description>
+	<type>byte</type>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+</variable>
+
+<variable id="phv00048859.v1">
+	<name>obl6ar</name>
+	<description>L6.  Ophthalmic complications: diagnosis of glaucoma in right eye</description>
+	<type>byte</type>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+</variable>
+
+<variable id="phv00048860.v1">
+	<name>obl6bl</name>
+	<description>L6. Ophthalmic complications:  diagnosis of glaucoma in left eye</description>
+	<type>byte</type>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+</variable>
+
+<variable id="phv00048861.v1">
+	<name>obl7ar</name>
+	<description>L7. Ophthalmic complications: used prescription medication in right eye</description>
+	<type>byte</type>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+</variable>
+
+<variable id="phv00048862.v1">
+	<name>obl7bl</name>
+	<description>L7. Ophthalmic complications: used prescription medication in left eye</description>
+	<type>byte</type>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+</variable>
+
+<variable id="phv00048863.v1">
+	<name>obl8ar</name>
+	<description>L8. Ophthalmic complications: MD-administered treatment to right eye</description>
+	<type>byte</type>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+</variable>
+
+<variable id="phv00048864.v1">
+	<name>obl8bl</name>
+	<description>L8. Ophthalmic complications: MD-administered treatment to left eye</description>
+	<type>byte</type>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+</variable>
+
+<variable id="phv00048865.v1">
+	<name>obl9ar</name>
+	<description>L9. Ophthalmic complications: symptoms of vitreous hemorrhage - right eye</description>
+	<type>byte</type>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+</variable>
+
+<variable id="phv00048866.v1">
+	<name>obl9bl</name>
+	<description>L9. Ophthalmic complications: symptoms of vitreous hemorrhage - left eye</description>
+	<type>byte</type>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+</variable>
+
+<variable id="phv00048676.v1">
+	<name>oblenbed</name>
+	<description>F3. Diabetes management: units Lente insulin used-bedtime</description>
+	<type>byte</type>
+	<unit>Units</unit>
+</variable>
+
+<variable id="phv00048673.v1">
+	<name>oblenbrk</name>
+	<description>F3. Diabetes management: units Lente insulin used-breakfast</description>
+	<type>byte</type>
+	<unit>Units</unit>
+</variable>
+
+<variable id="phv00048674.v1">
+	<name>oblenlun</name>
+	<description>F3. Diabetes management: units Lente insulin used lunch</description>
+	<type>byte</type>
+	<unit>Units</unit>
+</variable>
+
+<variable id="phv00048677.v1">
+	<name>oblenoth</name>
+	<description>F3. Diabetes management: units Lente insulin used-other</description>
+	<type>byte</type>
+	<unit>Units</unit>
+</variable>
+
+<variable id="phv00048675.v1">
+	<name>oblensup</name>
+	<description>F3. Diabetes management: units Lente insulin used-supper</description>
+	<type>byte</type>
+	<unit>Units</unit>
+</variable>
+
+<variable id="phv00048957.v1">
+	<name>oblstvst</name>
+	<description>A5. Identifying information. De-identified date of last completed visit (Month/Day/Year)</description>
+	<type>long</type>
+</variable>
+
+<variable id="phv00048870.v1">
+	<name>obm1</name>
+	<description>M1. Neurologic complication: pain/numbness in hands/feet</description>
+	<type>byte</type>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+</variable>
+
+<variable id="phv00048880.v1">
+	<name>obm10</name>
+	<description>M10. Neurologic complications: impotence</description>
+	<type>byte</type>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+</variable>
+
+<variable id="phv00048881.v1">
+	<name>obm11</name>
+	<description>M11. Neurologic complications: symptoms compatible with focal neuropathy</description>
+	<type>byte</type>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+</variable>
+
+<variable id="phv00048882.v1">
+	<name>obm12</name>
+	<description>M12. Neurologic complications: other neurological problem</description>
+	<type>byte</type>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+</variable>
+
+<variable id="phv00048883.v1">
+	<name>obm13</name>
+	<description>M13. Neurologic complications: will go to neurologist for visit</description>
+	<type>byte</type>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+</variable>
+
+<variable id="phv00048871.v1">
+	<name>obm1i</name>
+	<description>M1i. Neurologic complication: if pain, is patient taking medication</description>
+	<type>byte</type>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+</variable>
+
+<variable id="phv00048872.v1">
+	<name>obm2</name>
+	<description>M2. Neurologic complication: unexplained muscle weakness</description>
+	<type>byte</type>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+</variable>
+
+<variable id="phv00048873.v1">
+	<name>obm3</name>
+	<description>M3. Neurologic complication: vomiting/bloating after meals</description>
+	<type>byte</type>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+</variable>
+
+<variable id="phv00048874.v1">
+	<name>obm4</name>
+	<description>M4. Neurologic complication: recurrent diarrhea</description>
+	<type>byte</type>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+</variable>
+
+<variable id="phv00048875.v1">
+	<name>obm5</name>
+	<description>M5. Neurologic complication: diarrhea with fecal incontinence</description>
+	<type>byte</type>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+</variable>
+
+<variable id="phv00048876.v1">
+	<name>obm6</name>
+	<description>M6. Neurologic complication: urinary retention</description>
+	<type>byte</type>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+</variable>
+
+<variable id="phv00048877.v1">
+	<name>obm7</name>
+	<description>M7. Neurologic complications: dizziness or lightheadedness</description>
+	<type>byte</type>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+</variable>
+
+<variable id="phv00048878.v1">
+	<name>obm8</name>
+	<description>M8. Neurologic complications: fainting (not associated with hypoglycemia)</description>
+	<type>byte</type>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+</variable>
+
+<variable id="phv00048879.v1">
+	<name>obm9</name>
+	<description>M9. Neurologic complications: seizure (not due to hypoglycemia)</description>
+	<type>byte</type>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+</variable>
+
+<variable id="phv00048612.v1">
+	<name>obmarno</name>
+	<description>B1b. Demographic and general information: number of times married</description>
+	<type>byte</type>
+	<unit>Times</unit>
+</variable>
+
+<variable id="phv00048611.v1">
+	<name>obmarry</name>
+	<description>B1a. Demographic and general information: marital status of patient</description>
+	<type>byte</type>
+	<value code="1">Never married</value>
+	<value code="2">Married or remarried</value>
+	<value code="3">Separated</value>
+	<value code="4">Divorced</value>
+	<value code="5">Widowed</value>
+</variable>
+
+<variable id="phv00048602.v1">
+	<name>obmegaly</name>
+	<description>Q10. Physical examination, cardiovascular examination: cardiomegaly</description>
+	<type>byte</type>
+	<value code="1">Absent</value>
+	<value code="2">Present</value>
+</variable>
+
+<variable id="phv00048625.v1">
+	<name>obmomed</name>
+	<description>B3. Demographic and general information, education of patient and household providers: mother&#39;s education level</description>
+	<type>byte</type>
+	<value code="1">Graduate school</value>
+	<value code="2">College qraduate</value>
+	<value code="3">Some college or trade school</value>
+	<value code="4">Secondary school qraduate</value>
+	<value code="5">Some secondary school</value>
+	<value code="6">Elementary school</value>
+	<value code="7">None</value>
+	<value code="8">Unknown</value>
+</variable>
+
+<variable id="phv00048615.v1">
+	<name>obmomjob</name>
+	<description>B2. Demographic and general information, occupation of patient and household providers: mother&#39;s occupation</description>
+	<type>byte</type>
+	<value code="1">Professional, technical or similar worker</value>
+	<value code="10">Homemaker</value>
+	<value code="11">Student</value>
+	<value code="12">Other or unknown</value>
+	<value code="2">Manager, official, or proprietor</value>
+	<value code="3">Craftsman, foreman, or similar worker</value>
+	<value code="4">Clerical or similar worker</value>
+	<value code="5">Sales worker</value>
+	<value code="6">Operative or similar worker</value>
+	<value code="7">Service worker</value>
+	<value code="8">Laborer</value>
+	<value code="9">Farmer</value>
+</variable>
+
+<variable id="phv00048620.v1">
+	<name>obmomnoj</name>
+	<description>B2. Demographic and general information, occupation of patient and household providers: mother unemployed or retired</description>
+	<type>byte</type>
+	<value code="1">Unemployed or retired</value>
+</variable>
+
+<variable id="phv00048954.v1">
+	<name>obmrdate</name>
+	<description>B1c. Demographic and general information. De-identified date marital status changed</description>
+	<type>long</type>
+</variable>
+
+<variable id="phv00048884.v1">
+	<name>obn1a</name>
+	<description>N1a. Infection, major surgery, minor outpatient surgery, endocrinological, or skin complication: cutaneous/mucocutaneous</description>
+	<type>byte</type>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+</variable>
+
+<variable id="phv00048885.v1">
+	<name>obn1b</name>
+	<description>N1b. Infection, major surgery, minor outpatient surgery, endocrinological, or skin complication: post-operative or deep wound</description>
+	<type>byte</type>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+</variable>
+
+<variable id="phv00048886.v1">
+	<name>obn1c</name>
+	<description>N1c. Infection, major surgery, minor outpatient surgery, endocrinological, or skin complication: gangrene</description>
+	<type>byte</type>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+</variable>
+
+<variable id="phv00048887.v1">
+	<name>obn1d</name>
+	<description>N1d. Infection, major surgery, minor outpatient surgery, endocrinological, or skin complication: mononucleosis, epididymitis</description>
+	<type>byte</type>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+</variable>
+
+<variable id="phv00048888.v1">
+	<name>obn1e</name>
+	<description>N1e. Infection, major surgery, minor outpatient surgery, endocrinological, or skin complication: at insertion site</description>
+	<type>byte</type>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+</variable>
+
+<variable id="phv00048889.v1">
+	<name>obn2</name>
+	<description>N2. Infection, major surgery, minor outpatient surgery, endocrinological, or skin complication: major surgery</description>
+	<type>byte</type>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+</variable>
+
+<variable id="phv00048890.v1">
+	<name>obn3</name>
+	<description>N3. Infection, major surgery, minor outpatient surgery, endocrinological, or skin complication: autoimmune endocrine event</description>
+	<type>byte</type>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+</variable>
+
+<variable id="phv00048891.v1">
+	<name>obn3a</name>
+	<description>N3a. Infection, major surgery, minor outpatient surgery, endocrinological, or skin complication: autoimmune endocrine event: hypothyroidism</description>
+	<type>byte</type>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+</variable>
+
+<variable id="phv00048892.v1">
+	<name>obn3b</name>
+	<description>N3b. Infection, major surgery, minor outpatient surgery, endocrinological, or skin complication: autoimmune endocrine event: adrenal insufficiency</description>
+	<type>byte</type>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+</variable>
+
+<variable id="phv00048893.v1">
+	<name>obn3c</name>
+	<description>N3c. Infection, major surgery, minor outpatient surgery, endocrinological, or skin complication: autoimmune endocrine event: pernicious anemia</description>
+	<type>byte</type>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+</variable>
+
+<variable id="phv00048894.v1">
+	<name>obn3d</name>
+	<description>N3d. Infection, major surgery, minor outpatient surgery, endocrinological, or skin complication: autoimmune endocrine event: premature ovarian failure</description>
+	<type>byte</type>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+</variable>
+
+<variable id="phv00048671.v1">
+	<name>obnphbed</name>
+	<description>F3. Diabetes management: units NPH insulin used bedtime</description>
+	<type>byte</type>
+	<unit>Units</unit>
+</variable>
+
+<variable id="phv00048668.v1">
+	<name>obnphbrk</name>
+	<description>F3. Diabetes management: units NPH insulin used-breakfast</description>
+	<type>byte</type>
+	<unit>Units</unit>
+</variable>
+
+<variable id="phv00048669.v1">
+	<name>obnphlun</name>
+	<description>F3. Diabetes management: units NPH insulin used-lunch</description>
+	<type>byte</type>
+	<unit>Units</unit>
+</variable>
+
+<variable id="phv00048672.v1">
+	<name>obnphoth</name>
+	<description>F3. Diabetes management: units NPH insulin used-other</description>
+	<type>byte</type>
+	<unit>Units</unit>
+</variable>
+
+<variable id="phv00048670.v1">
+	<name>obnphsup</name>
+	<description>F3. Diabetes management: units NPH insulin used-supper</description>
+	<type>byte</type>
+	<unit>Units</unit>
+</variable>
+
+<variable id="phv00048895.v1">
+	<name>obo1a</name>
+	<description>O1a. Female/ reproductive: vaginal itching or discharge</description>
+	<type>byte</type>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+</variable>
+
+<variable id="phv00048896.v1">
+	<name>obo1b</name>
+	<description>O1b. Female/ reproductive: patient treated for vaginal itching</description>
+	<type>byte</type>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+</variable>
+
+<variable id="phv00048897.v1">
+	<name>obo2a</name>
+	<description>O2a. Female/ reproductive: does patient menstruate</description>
+	<type>byte</type>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+</variable>
+
+<variable id="phv00048958.v1">
+	<name>obo2b</name>
+	<description>O2b. Female/ reproductive. De-identified date of last menstrual period (Month/Day/Year)</description>
+	<type>long</type>
+</variable>
+
+<variable id="phv00048898.v1">
+	<name>obo2c</name>
+	<description>O2c. Female/ reproductive: last menstrual period &gt; 5 weeks ago</description>
+	<type>byte</type>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+</variable>
+
+<variable id="phv00048899.v1">
+	<name>obo2d</name>
+	<description>O2d. Female/ reproductive: was pregnancy test performed</description>
+	<type>byte</type>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+</variable>
+
+<variable id="phv00048900.v1">
+	<name>obo2e</name>
+	<description>O2e. Female/ reproductive: did test indicate pregnancy</description>
+	<type>byte</type>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+</variable>
+
+<variable id="phv00048959.v1">
+	<name>obo2e1</name>
+	<description>O2e1. Female/ reproductive. De-identified estimated date of conception (Month/Day/Year)</description>
+	<type>long</type>
+</variable>
+
+<variable id="phv00048901.v1">
+	<name>obo3</name>
+	<description>O3. Female/ reproductive: completed/terminated pregnancy</description>
+	<type>byte</type>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+</variable>
+
+<variable id="phv00048960.v1">
+	<name>obo3a</name>
+	<description>O3a. Female/ reproductive. De-identified estimated date of conception (Month/Day/Year)</description>
+	<type>long</type>
+</variable>
+
+<variable id="phv00048961.v1">
+	<name>obo3b</name>
+	<description>O3b. Female/ reproductive. De-identified date of termination (Month/Day/Year)</description>
+	<type>long</type>
+</variable>
+
+<variable id="phv00048902.v1">
+	<name>obo4a</name>
+	<description>O4a. Female/ reproductive: nodules in breast</description>
+	<type>byte</type>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+</variable>
+
+<variable id="phv00048903.v1">
+	<name>obo4b</name>
+	<description>O4b. Female/ reproductive: breast cancer</description>
+	<type>byte</type>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+	<value code="83">Missing data</value>
+</variable>
+
+<variable id="phv00048904.v1">
+	<name>obo4c</name>
+	<description>O4c. Female/ reproductive: breast discharge</description>
+	<type>byte</type>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+</variable>
+
+<variable id="phv00048905.v1">
+	<name>obo4d</name>
+	<description>O4d. Female/ reproductive: irregular menses</description>
+	<type>byte</type>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+</variable>
+
+<variable id="phv00048906.v1">
+	<name>obo4e</name>
+	<description>O4e. Female/ reproductive: dysmenorrhea</description>
+	<type>byte</type>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+</variable>
+
+<variable id="phv00048907.v1">
+	<name>obo5</name>
+	<description>O5. Female/ reproductive: other significant gynecologic condition</description>
+	<type>byte</type>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+</variable>
+
+<variable id="phv00048908.v1">
+	<name>obo6</name>
+	<description>O6. Female/ reproductive: ever used oral contraceptives</description>
+	<type>byte</type>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+</variable>
+
+<variable id="phv00048909.v1">
+	<name>obo7</name>
+	<description>O7. Female/ reproductive: uses other birth control</description>
+	<type>byte</type>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+</variable>
+
+<variable id="phv00048600.v1">
+	<name>obomurmr</name>
+	<description>Q10. Physical examination, cardiovascular examination: other murmur</description>
+	<type>byte</type>
+	<value code="1">Absent</value>
+	<value code="2">Present</value>
+</variable>
+
+<variable id="phv00048910.v1">
+	<name>obp1</name>
+	<description>P1. Medication, Rx: has used or is using prescription</description>
+	<type>byte</type>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+</variable>
+
+<variable id="phv00048911.v1">
+	<name>obp2</name>
+	<description>P2. Medication, Rx: used over-the-counter drugs</description>
+	<type>byte</type>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+</variable>
+
+<variable id="phv00048912.v1">
+	<name>obp3</name>
+	<description>P3. Medication, Rx:  vitamin supplements-regularly</description>
+	<type>byte</type>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+</variable>
+
+<variable id="phv00048623.v1">
+	<name>obpated</name>
+	<description>B3. Demographic and general information, education of patient and household providers: patient&#39;s education level</description>
+	<type>byte</type>
+	<value code="1">Graduate school</value>
+	<value code="2">College qraduate</value>
+	<value code="3">Some college or trade school</value>
+	<value code="4">Secondary school qraduate</value>
+	<value code="5">Some secondary school</value>
+	<value code="6">Elementary school</value>
+	<value code="7">None</value>
+	<value code="8">Unknown</value>
+</variable>
+
+<variable id="phv00048613.v1">
+	<name>obpatjob</name>
+	<description>B2. Demographic and general information, occupation of patient and household providers: patient&#39;s occupation</description>
+	<type>byte</type>
+	<value code="1">Professional, technical or similar worker</value>
+	<value code="10">Homemaker</value>
+	<value code="11">Student</value>
+	<value code="12">Other or unknown</value>
+	<value code="2">Manager, official, or proprietor</value>
+	<value code="3">Craftsman, foreman, or similar worker</value>
+	<value code="4">Clerical or similar worker</value>
+	<value code="5">Sales worker</value>
+	<value code="6">Operative or similar worker</value>
+	<value code="7">Service worker</value>
+	<value code="8">Laborer</value>
+	<value code="9">Farmer</value>
+</variable>
+
+<variable id="phv00048618.v1">
+	<name>obpatnoj</name>
+	<description>B2. Demographic and general information, occupation of patient and household providers: patient unemployed or retired</description>
+	<type>byte</type>
+	<value code="1">Unemployed or retired</value>
+</variable>
+
+<variable id="phv00048654.v1">
+	<name>obpolen</name>
+	<description>F1. Diabetes management: type of insulin-Pork Lente</description>
+	<type>byte</type>
+	<value code="1">Insulin-Pork Lente</value>
+</variable>
+
+<variable id="phv00048652.v1">
+	<name>obponph</name>
+	<description>F1. Diabetes management: type of insulin-Pork NPH (neutral protamine hagedorn)</description>
+	<type>byte</type>
+	<value code="1">Insulin-Pork NPR (neutral protamine hagedorn)</value>
+</variable>
+
+<variable id="phv00048650.v1">
+	<name>obporeg</name>
+	<description>F1. Diabetes management: type of insulin-Pork Regular</description>
+	<type>byte</type>
+	<value code="1">Insulin-Pork Regular</value>
+</variable>
+
+<variable id="phv00048940.v1">
+	<name>obpulse</name>
+	<description>Q7. Physical examination, pulse</description>
+	<type>int</type>
+	<unit>bpm</unit>
+</variable>
+
+<variable id="phv00048549.v1">
+	<name>obq11a1l</name>
+	<description>Q11a. Physical examination, peripheral pulse: grade of left carotid pulse</description>
+	<type>byte</type>
+	<value code="1">Normal</value>
+	<value code="2">Diminished</value>
+	<value code="3">Absent</value>
+</variable>
+
+<variable id="phv00048550.v1">
+	<name>obq11a1r</name>
+	<description>Q11a. Physical examination, peripheral pulse: grade of right carotid pulse</description>
+	<type>byte</type>
+	<value code="1">Normal</value>
+	<value code="2">Diminished</value>
+	<value code="3">Absent</value>
+</variable>
+
+<variable id="phv00048551.v1">
+	<name>obq11a2l</name>
+	<description>Q11a. Physical examination, peripheral pulse: grade of left brachial pulse</description>
+	<type>byte</type>
+	<value code="1">Normal</value>
+	<value code="2">Diminished</value>
+	<value code="3">Absent</value>
+</variable>
+
+<variable id="phv00048552.v1">
+	<name>obq11a2r</name>
+	<description>Q11a. Physical examination, peripheral pulse: grade of right brachial pulse</description>
+	<type>byte</type>
+	<value code="1">Normal</value>
+	<value code="2">Diminished</value>
+	<value code="3">Absent</value>
+</variable>
+
+<variable id="phv00048553.v1">
+	<name>obq11a3l</name>
+	<description>Q11a. Physical examination, peripheral pulse: grade of left radial pulse</description>
+	<type>byte</type>
+	<value code="1">Normal</value>
+	<value code="2">Diminished</value>
+	<value code="3">Absent</value>
+</variable>
+
+<variable id="phv00048554.v1">
+	<name>obq11a3r</name>
+	<description>Q11a. Physical examination, peripheral pulse: grade of right radial pulse</description>
+	<type>byte</type>
+	<value code="1">Normal</value>
+	<value code="2">Diminished</value>
+	<value code="3">Absent</value>
+</variable>
+
+<variable id="phv00048555.v1">
+	<name>obq11a4l</name>
+	<description>Q11a. Physical examination, peripheral pulse: grade of left femoral pulse</description>
+	<type>byte</type>
+	<value code="1">Normal</value>
+	<value code="2">Diminished</value>
+	<value code="3">Absent</value>
+</variable>
+
+<variable id="phv00048556.v1">
+	<name>obq11a4r</name>
+	<description>Q11a. Physical examination, peripheral pulse: grade of right femoral pulse</description>
+	<type>byte</type>
+	<value code="1">Normal</value>
+	<value code="2">Diminished</value>
+	<value code="3">Absent</value>
+</variable>
+
+<variable id="phv00048557.v1">
+	<name>obq11a5l</name>
+	<description>Q11a. Physical examination, peripheral pulse: grade of left popliteal pulse</description>
+	<type>byte</type>
+	<value code="1">Normal</value>
+	<value code="2">Diminished</value>
+	<value code="3">Absent</value>
+</variable>
+
+<variable id="phv00048558.v1">
+	<name>obq11a5r</name>
+	<description>Q11a. Physical examination, peripheral pulse: grade of right popliteal pulse</description>
+	<type>byte</type>
+	<value code="1">Normal</value>
+	<value code="2">Diminished</value>
+	<value code="3">Absent</value>
+</variable>
+
+<variable id="phv00048559.v1">
+	<name>obq11a6l</name>
+	<description>Q11a. Physical examination, peripheral pulse: grade of left posterior tibial pulse</description>
+	<type>byte</type>
+	<value code="1">Normal</value>
+	<value code="2">Diminished</value>
+	<value code="3">Absent</value>
+</variable>
+
+<variable id="phv00048560.v1">
+	<name>obq11a6r</name>
+	<description>Q11a. Physical examination, peripheral pulse: grade of right posterior tibial pulse</description>
+	<type>byte</type>
+	<value code="1">Normal</value>
+	<value code="2">Diminished</value>
+	<value code="3">Absent</value>
+</variable>
+
+<variable id="phv00048561.v1">
+	<name>obq11a7l</name>
+	<description>Q11a. Physical examination, peripheral pulse: grade of left diminished pedis pulse</description>
+	<type>byte</type>
+	<value code="1">Normal</value>
+	<value code="2">Diminished</value>
+	<value code="3">Absent</value>
+</variable>
+
+<variable id="phv00048562.v1">
+	<name>obq11a7r</name>
+	<description>Q11a. Physical examination, peripheral pulse: grade of right diminished pedis pulse</description>
+	<type>byte</type>
+	<value code="1">Normal</value>
+	<value code="2">Diminished</value>
+	<value code="3">Absent</value>
+</variable>
+
+<variable id="phv00048563.v1">
+	<name>obq11b1l</name>
+	<description>Q11b. Physical examination, peripheral pulse: left femoral bruit</description>
+	<type>byte</type>
+	<value code="1">Absent</value>
+	<value code="2">Present</value>
+</variable>
+
+<variable id="phv00048564.v1">
+	<name>obq11b1r</name>
+	<description>Q11b. Physical examination, peripheral pulse: right femoral bruit</description>
+	<type>byte</type>
+	<value code="1">Absent</value>
+	<value code="2">Present</value>
+</variable>
+
+<variable id="phv00048565.v1">
+	<name>obq11b2l</name>
+	<description>Q11b. Physical examination, peripheral pulse: left carotid bruit</description>
+	<type>byte</type>
+	<value code="1">Absent</value>
+	<value code="2">Present</value>
+</variable>
+
+<variable id="phv00048566.v1">
+	<name>obq11b2r</name>
+	<description>Q11b. Physical examination, peripheral pulse: right carotid bruit</description>
+	<type>byte</type>
+	<value code="1">Absent</value>
+	<value code="2">Present</value>
+</variable>
+
+<variable id="phv00048567.v1">
+	<name>obq11b3l</name>
+	<description>Q11b. Physical examination, peripheral pulse: left other bruit</description>
+	<type>byte</type>
+	<value code="1">Absent</value>
+	<value code="2">Present</value>
+</variable>
+
+<variable id="phv00048568.v1">
+	<name>obq11b3r</name>
+	<description>Q11b. Physical examination, peripheral pulse: right other bruit</description>
+	<type>byte</type>
+	<value code="1">Absent</value>
+	<value code="2">Present</value>
+</variable>
+
+<variable id="phv00048569.v1">
+	<name>obq12al</name>
+	<description>Q12. Physical examination, extremities and skin examinations: ulceration - left side</description>
+	<type>byte</type>
+	<value code="1">Absent</value>
+	<value code="2">Present</value>
+</variable>
+
+<variable id="phv00048570.v1">
+	<name>obq12ar</name>
+	<description>Q12. Physical examination, extremities and skin examinations: ulceration - right side</description>
+	<type>byte</type>
+	<value code="1">Absent</value>
+	<value code="2">Present</value>
+</variable>
+
+<variable id="phv00048571.v1">
+	<name>obq12bl</name>
+	<description>Q12. Physical examination, extremities and skin examinations: gangrene - left side</description>
+	<type>byte</type>
+	<value code="1">Absent</value>
+	<value code="2">Present</value>
+</variable>
+
+<variable id="phv00048572.v1">
+	<name>obq12br</name>
+	<description>Q12. Physical examination, extremities and skin examinations: gangrene - right side</description>
+	<type>byte</type>
+	<value code="1">Absent</value>
+	<value code="2">Present</value>
+</variable>
+
+<variable id="phv00048573.v1">
+	<name>obq12cl</name>
+	<description>Q12. Physical examination, extremities and skin examinations: necrobiosis - left side</description>
+	<type>byte</type>
+	<value code="1">Absent</value>
+	<value code="2">Present</value>
+</variable>
+
+<variable id="phv00048574.v1">
+	<name>obq12cr</name>
+	<description>Q12. Physical examination, extremities and skin examinations: necrobiosis - right side</description>
+	<type>byte</type>
+	<value code="1">Absent</value>
+	<value code="2">Present</value>
+</variable>
+
+<variable id="phv00048575.v1">
+	<name>obq12dl</name>
+	<description>Q12. Physical examination, extremities and skin examinations: xanthelasma - left side</description>
+	<type>byte</type>
+	<value code="1">Absent</value>
+	<value code="2">Present</value>
+</variable>
+
+<variable id="phv00048576.v1">
+	<name>obq12dr</name>
+	<description>Q12. Physical examination, extremities and skin examinations: xanthelasma - right side</description>
+	<type>byte</type>
+	<value code="1">Absent</value>
+	<value code="2">Present</value>
+</variable>
+
+<variable id="phv00048577.v1">
+	<name>obq12el</name>
+	<description>Q12. Physical examination, extremities and skin examinations: eruptive xanthoma - left side</description>
+	<type>byte</type>
+	<value code="1">Absent</value>
+	<value code="2">Present</value>
+</variable>
+
+<variable id="phv00048578.v1">
+	<name>obq12er</name>
+	<description>Q12. Physical examination, extremities and skin examinations: eruptive xanthoma - right side</description>
+	<type>byte</type>
+	<value code="1">Absent</value>
+	<value code="2">Present</value>
+</variable>
+
+<variable id="phv00048579.v1">
+	<name>obq12fl</name>
+	<description>Q12. Physical examination, extremities and skin examinations: charcot joint - left side</description>
+	<type>byte</type>
+	<value code="1">Absent</value>
+	<value code="2">Present</value>
+</variable>
+
+<variable id="phv00048580.v1">
+	<name>obq12fr</name>
+	<description>Q12. Physical examination, extremities and skin examinations: charcot joint - right side</description>
+	<type>byte</type>
+	<value code="1">Absent</value>
+	<value code="2">Present</value>
+</variable>
+
+<variable id="phv00048581.v1">
+	<name>obq12gl</name>
+	<description>Q12. Physical examination, extremities and skin examinations: deformity - left side</description>
+	<type>byte</type>
+	<value code="1">Absent</value>
+	<value code="2">Present</value>
+</variable>
+
+<variable id="phv00048582.v1">
+	<name>obq12gr</name>
+	<description>Q12. Physical examination, extremities and skin examinations: deformity - right side</description>
+	<type>byte</type>
+	<value code="1">Absent</value>
+	<value code="2">Present</value>
+</variable>
+
+<variable id="phv00048583.v1">
+	<name>obq13a</name>
+	<description>Q13a. Physical examination, injection site - lipoatrophy</description>
+	<type>byte</type>
+	<value code="1">Absent</value>
+	<value code="2">Present</value>
+</variable>
+
+<variable id="phv00048584.v1">
+	<name>obq13b</name>
+	<description>Q13b. Physical examination, injection site - lipohypertrophy</description>
+	<type>byte</type>
+	<value code="1">Absent</value>
+	<value code="2">Present</value>
+</variable>
+
+<variable id="phv00048585.v1">
+	<name>obq13c</name>
+	<description>Q13c. Physical examination, injection site - inflammation</description>
+	<type>byte</type>
+	<value code="1">Absent</value>
+	<value code="2">Present</value>
+</variable>
+
+<variable id="phv00048586.v1">
+	<name>obq14a</name>
+	<description>Q14a. Physical examination, feet-ulcers</description>
+	<type>byte</type>
+	<value code="1">Absent</value>
+	<value code="2">Present</value>
+</variable>
+
+<variable id="phv00048587.v1">
+	<name>obq14b</name>
+	<description>Q14b. Physical examination, feet - infection</description>
+	<type>byte</type>
+	<value code="1">Absent</value>
+	<value code="2">Present</value>
+</variable>
+
+<variable id="phv00048588.v1">
+	<name>obq14c</name>
+	<description>Q14c. Physical examination, feet - abnormal toenails</description>
+	<type>byte</type>
+	<value code="1">Absent</value>
+	<value code="2">Present</value>
+</variable>
+
+<variable id="phv00048589.v1">
+	<name>obq14d</name>
+	<description>Q14d. Physical examination, feet - other</description>
+	<type>byte</type>
+	<value code="1">Absent</value>
+	<value code="2">Present</value>
+</variable>
+
+<variable id="phv00048590.v1">
+	<name>obq15</name>
+	<description>Q15. Physical examination, other abnormalities on physical exam</description>
+	<type>byte</type>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+</variable>
+
+<variable id="phv00048913.v1">
+	<name>obq1a</name>
+	<description>Q1a. Physical examination, weight: 1st measurement</description>
+	<type>float</type>
+	<unit>kg</unit>
+</variable>
+
+<variable id="phv00048914.v1">
+	<name>obq1b</name>
+	<description>Q1b. Physical examination, weight:  2nd measurement</description>
+	<type>float</type>
+	<unit>kg</unit>
+</variable>
+
+<variable id="phv00048915.v1">
+	<name>obq1c</name>
+	<description>Q1c. Physical examination, weight:  3rd measurement</description>
+	<type>float</type>
+	<unit>kg</unit>
+</variable>
+
+<variable id="phv00048916.v1">
+	<name>obq1d</name>
+	<description>Q1d. Physical examination, weight:  4th measurement</description>
+	<type>float</type>
+	<unit>kg</unit>
+</variable>
+
+<variable id="phv00048917.v1">
+	<name>obq2</name>
+	<description>Q2. Physical examination: patient&#39;s desired weight</description>
+	<type>float</type>
+	<unit>kg</unit>
+</variable>
+
+<variable id="phv00048918.v1">
+	<name>obq3a</name>
+	<description>Q3a. Physical examination, height: 1st measurement</description>
+	<type>float</type>
+	<unit>cm</unit>
+</variable>
+
+<variable id="phv00048919.v1">
+	<name>obq3b</name>
+	<description>Q3b. Physical examination, height: 2nd measurement</description>
+	<type>float</type>
+	<unit>cm</unit>
+</variable>
+
+<variable id="phv00048920.v1">
+	<name>obq3c</name>
+	<description>Q3c. Physical examination, height: 3rd measurement</description>
+	<type>float</type>
+	<unit>cm</unit>
+</variable>
+
+<variable id="phv00048921.v1">
+	<name>obq3d</name>
+	<description>Q3d. Physical examination, height: 4th measurement</description>
+	<type>float</type>
+	<unit>cm</unit>
+</variable>
+
+<variable id="phv00048924.v1">
+	<name>obq4a</name>
+	<description>Q4a. Physical examination, waist circumference (cm) -natural: 1st measurement</description>
+	<type>float</type>
+	<unit>cm</unit>
+</variable>
+
+<variable id="phv00048923.v1">
+	<name>obq4atro</name>
+	<description>Q4. Physical examination, waist circumference (cm) -natural: lipoatrophy present?</description>
+	<type>byte</type>
+	<unit>cm</unit>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+</variable>
+
+<variable id="phv00048925.v1">
+	<name>obq4b</name>
+	<description>Q4b. Physical examination, waist circumference (cm) -natural: 2nd measurement</description>
+	<type>float</type>
+	<unit>cm</unit>
+</variable>
+
+<variable id="phv00048926.v1">
+	<name>obq4c</name>
+	<description>Q4c. Physical examination, waist circumference (cm) -natural: 3rd measurement</description>
+	<type>float</type>
+	<unit>cm</unit>
+</variable>
+
+<variable id="phv00048927.v1">
+	<name>obq4d</name>
+	<description>Q4d. Physical examination, waist circumference (cm) -natural: 4th measurement</description>
+	<type>float</type>
+	<unit>cm</unit>
+</variable>
+
+<variable id="phv00048922.v1">
+	<name>obq4hype</name>
+	<description>Q4. Physical examination, waist circumference (cm) -natural: lipohypertrophy present?</description>
+	<type>byte</type>
+	<unit>cm</unit>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+</variable>
+
+<variable id="phv00048930.v1">
+	<name>obq5a</name>
+	<description>Q5a. Physical examination, waist circumference (cm) -iliac: 1st measurement</description>
+	<type>float</type>
+	<unit>cm</unit>
+</variable>
+
+<variable id="phv00048929.v1">
+	<name>obq5atro</name>
+	<description>Q5. Physical examination, waist circumference (cm) -iliac: lipoatrophy present?</description>
+	<type>byte</type>
+	<unit>cm</unit>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+</variable>
+
+<variable id="phv00048931.v1">
+	<name>obq5b</name>
+	<description>Q5b. Physical examination, waist circumference (cm) -iliac: 2nd measurement</description>
+	<type>float</type>
+	<unit>cm</unit>
+</variable>
+
+<variable id="phv00048932.v1">
+	<name>obq5c</name>
+	<description>Q5c. Physical examination, waist circumference (cm) -iliac: 3rd measurement</description>
+	<type>float</type>
+	<unit>cm</unit>
+</variable>
+
+<variable id="phv00048933.v1">
+	<name>obq5d</name>
+	<description>Q5d. Physical examination, waist circumference (cm) -iliac: 4th measurement</description>
+	<type>float</type>
+	<unit>cm</unit>
+</variable>
+
+<variable id="phv00048928.v1">
+	<name>obq5hype</name>
+	<description>Q5. Physical examination, waist circumference (cm) -iliac: lipohypertrophy present?</description>
+	<type>byte</type>
+	<unit>cm</unit>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+</variable>
+
+<variable id="phv00048936.v1">
+	<name>obq6a</name>
+	<description>Q6a. Physical examination, hip circumference (cm):  1st measurement</description>
+	<type>float</type>
+	<unit>cm</unit>
+</variable>
+
+<variable id="phv00048935.v1">
+	<name>obq6atro</name>
+	<description>Q6. Physical examination, hip circumference (cm):  lipoatrophy present?</description>
+	<type>byte</type>
+	<unit>cm</unit>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+</variable>
+
+<variable id="phv00048937.v1">
+	<name>obq6b</name>
+	<description>Q6b. Physical examination, hip circumference (cm):  2nd measurement</description>
+	<type>float</type>
+	<unit>cm</unit>
+</variable>
+
+<variable id="phv00048938.v1">
+	<name>obq6c</name>
+	<description>Q6c. Physical examination, hip circumference (cm):  3rd measurement</description>
+	<type>float</type>
+	<unit>cm</unit>
+</variable>
+
+<variable id="phv00048939.v1">
+	<name>obq6d</name>
+	<description>Q6d. Physical examination, hip circumference (cm):  4th measurement</description>
+	<type>float</type>
+	<unit>cm</unit>
+</variable>
+
+<variable id="phv00048934.v1">
+	<name>obq6hype</name>
+	<description>Q6. Physical examination, hip circumference (cm): lipohypertrophy present?</description>
+	<type>byte</type>
+	<unit>cm</unit>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+</variable>
+
+<variable id="phv00048946.v1">
+	<name>obq9al</name>
+	<description>Q9a. Physical examination, left: brachial Doppler systolic blood pressure</description>
+	<type>int</type>
+</variable>
+
+<variable id="phv00048945.v1">
+	<name>obq9ar</name>
+	<description>Q9a. Physical examination, right: brachial Doppler systolic blood pressure</description>
+	<type>int</type>
+</variable>
+
+<variable id="phv00048948.v1">
+	<name>obq9bl</name>
+	<description>Q9b. Physical examination, left: dorsalis pedis Doppler systolic blood pressure</description>
+	<type>int</type>
+</variable>
+
+<variable id="phv00048947.v1">
+	<name>obq9br</name>
+	<description>Q9b. Physical examination, right: dorsalis pedis Doppler systolic blood pressure</description>
+	<type>int</type>
+</variable>
+
+<variable id="phv00048950.v1">
+	<name>obq9cl</name>
+	<description>Q9c. Physical examination, left: posterior tibial Doppler systolic blood pressure</description>
+	<type>int</type>
+</variable>
+
+<variable id="phv00048949.v1">
+	<name>obq9cr</name>
+	<description>Q9c. Physical examination, right: posterior tibial Doppler systolic blood pressure</description>
+	<type>int</type>
+</variable>
+
+<variable id="phv00048591.v1">
+	<name>obr1</name>
+	<description>R1. Contact with patient between annual visits: contact with patient since last annual visit</description>
+	<type>byte</type>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+	<value code="3">Yes</value>
+	<value code="4">Yes</value>
+	<value code="5">Yes</value>
+	<value code="7">Yes</value>
+</variable>
+
+<variable id="phv00048592.v1">
+	<name>obr2</name>
+	<description>R2. Contact with patient between annual visits: how many times contact with patient</description>
+	<type>float</type>
+	<unit>Times</unit>
+</variable>
+
+<variable id="phv00048593.v1">
+	<name>obr3a</name>
+	<description>R3a. Contact with patient between annual visits: telephone call</description>
+	<type>byte</type>
+	<value code="1">Telephone call</value>
+</variable>
+
+<variable id="phv00048594.v1">
+	<name>obr3b</name>
+	<description>R3b. Contact with patient between annual visits: talked to patient in person</description>
+	<type>byte</type>
+	<value code="1">Talked to patient in person</value>
+</variable>
+
+<variable id="phv00048595.v1">
+	<name>obr3c</name>
+	<description>R3c. Contact with patient between annual visits: sent card or letter</description>
+	<type>byte</type>
+	<value code="1">Sent card or letter</value>
+</variable>
+
+<variable id="phv00048596.v1">
+	<name>obr3d</name>
+	<description>R3d. Contact with patient between annual visits: sent newsletter or university publication</description>
+	<type>byte</type>
+	<value code="1">Sent newsletter or university publication</value>
+</variable>
+
+<variable id="phv00048597.v1">
+	<name>obr3e</name>
+	<description>R3e. Contact with patient between annual visits: other means of contacting patient</description>
+	<type>byte</type>
+	<value code="1">Other means of contacting patient</value>
+</variable>
+
+<variable id="phv00048666.v1">
+	<name>obregbed</name>
+	<description>F3. Diabetes management: units regular insulin used-bedtime</description>
+	<type>byte</type>
+	<unit>Units</unit>
+</variable>
+
+<variable id="phv00048663.v1">
+	<name>obregbrk</name>
+	<description>F3. Diabetes management: units regular insulin used-breakfast</description>
+	<type>byte</type>
+	<unit>Units</unit>
+</variable>
+
+<variable id="phv00048664.v1">
+	<name>obreglun</name>
+	<description>F3. Diabetes management: units regular insulin used-lunch</description>
+	<type>byte</type>
+	<unit>Units</unit>
+</variable>
+
+<variable id="phv00048667.v1">
+	<name>obregoth</name>
+	<description>F3. Diabetes management: units regular insulin used-other</description>
+	<type>byte</type>
+	<unit>Units</unit>
+</variable>
+
+<variable id="phv00048665.v1">
+	<name>obregsup</name>
+	<description>F3. Diabetes management: units regular insulin used-supper</description>
+	<type>byte</type>
+	<unit>Units</unit>
+</variable>
+
+<variable id="phv00048603.v1">
+	<name>obrhythm</name>
+	<description>Q10. Physical examination, cardiovascular examination: cardiac rhythm</description>
+	<type>byte</type>
+	<value code="1">Regular</value>
+	<value code="2">Irregular</value>
+</variable>
+
+<variable id="phv00048604.v1">
+	<name>obrub</name>
+	<description>Q10. Physical examination, cardiovascular examination: rub</description>
+	<type>byte</type>
+	<value code="1">Absent</value>
+	<value code="2">Present</value>
+</variable>
+
+<variable id="phv00048605.v1">
+	<name>obs3galp</name>
+	<description>Q10. Physical examination, cardiovascular examination: S3 gallop</description>
+	<type>byte</type>
+	<value code="1">Absent</value>
+	<value code="2">Present</value>
+</variable>
+
+<variable id="phv00048606.v1">
+	<name>obs4galp</name>
+	<description>Q10. Physical examination, cardiovascular examination: S4 gallop</description>
+	<type>byte</type>
+	<value code="1">Absent</value>
+	<value code="2">Present</value>
+</variable>
+
+<variable id="phv00048636.v1">
+	<name>obsmok9a</name>
+	<description>C9a. Smoking status: past 12 months lived where person smoked</description>
+	<type>byte</type>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+</variable>
+
+<variable id="phv00048637.v1">
+	<name>obsmok9b</name>
+	<description>C9b. Smoking status: past 12 months work where person smoked</description>
+	<type>byte</type>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+</variable>
+
+<variable id="phv00048628.v1">
+	<name>obsmoke1</name>
+	<description>C1. Smoking status: smoke cigarettes/cigars in past year</description>
+	<type>byte</type>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+</variable>
+
+<variable id="phv00048629.v1">
+	<name>obsmoke2</name>
+	<description>C2. Smoking status: currently smoke cigarettes/cigars</description>
+	<type>byte</type>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+</variable>
+
+<variable id="phv00048630.v1">
+	<name>obsmoke3</name>
+	<description>C3. Smoking status: months since quit cigarettes/cigars</description>
+	<type>byte</type>
+	<unit>Months</unit>
+</variable>
+
+<variable id="phv00048631.v1">
+	<name>obsmoke4</name>
+	<description>C4. Smoking status: how many cigarettes/cigars in past year</description>
+	<type>byte</type>
+	<unit>Cigarettes/cigars/past year</unit>
+</variable>
+
+<variable id="phv00048632.v1">
+	<name>obsmoke5</name>
+	<description>C5. Smoking status: smoked pipes or cigars in past year</description>
+	<type>byte</type>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+</variable>
+
+<variable id="phv00048633.v1">
+	<name>obsmoke6</name>
+	<description>C6. Smoking status: currently smoke pipes or cigars</description>
+	<type>byte</type>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+</variable>
+
+<variable id="phv00048634.v1">
+	<name>obsmoke7</name>
+	<description>C7. Smoking status: how long had it been since the patient quit smoking pipes or cigars?</description>
+	<type>byte</type>
+	<unit>Months</unit>
+</variable>
+
+<variable id="phv00048635.v1">
+	<name>obsmoke8</name>
+	<description>C8. Smoking status: pipefuls/cigars per week in past year</description>
+	<type>float</type>
+	<unit>Pipefuls/cigars/week</unit>
+</variable>
+
+<variable id="phv00048601.v1">
+	<name>obsmurmr</name>
+	<description>Q10. Physical examination, cardiovascular examination: systolic ejection murmur</description>
+	<type>byte</type>
+	<value code="1">Absent</value>
+	<value code="2">Present</value>
+</variable>
+
+<variable id="phv00048614.v1">
+	<name>obspjob</name>
+	<description>B2. Demographic and general information, occupation of patient and household providers: spouse&#39;s occupation</description>
+	<type>byte</type>
+	<value code="1">Professional, technical or similar worker</value>
+	<value code="10">Homemaker</value>
+	<value code="11">Student</value>
+	<value code="12">Other or unknown</value>
+	<value code="2">Manager, official, or proprietor</value>
+	<value code="3">Craftsman, foreman, or similar worker</value>
+	<value code="4">Clerical or similar worker</value>
+	<value code="5">Sales worker</value>
+	<value code="6">Operative or similar worker</value>
+	<value code="7">Service worker</value>
+	<value code="8">Laborer</value>
+	<value code="9">Farmer</value>
+</variable>
+
+<variable id="phv00048624.v1">
+	<name>obspoed</name>
+	<description>B3. Demographic and general information, education of patient and household providers: spouse&#39;s education level</description>
+	<type>byte</type>
+	<value code="1">Graduate school</value>
+	<value code="2">College qraduate</value>
+	<value code="3">Some college or trade school</value>
+	<value code="4">Secondary school qraduate</value>
+	<value code="5">Some secondary school</value>
+	<value code="6">Elementary school</value>
+	<value code="7">None</value>
+	<value code="8">Unknown</value>
+</variable>
+
+<variable id="phv00048619.v1">
+	<name>obsponoj</name>
+	<description>B2. Demographic and general information, occupation of patient and household providers: spouse unemployed or retired</description>
+	<type>byte</type>
+	<value code="1">Unemployed or retired</value>
+</variable>
+
+<variable id="phv00048941.v1">
+	<name>obsystr</name>
+	<description>Q8a. Physical examination, sitting blood pressure: systolic</description>
+	<type>int</type>
+	<unit>mm Hg</unit>
+</variable>
+
+<variable id="phv00048662.v1">
+	<name>obtotunt</name>
+	<description>F3. Diabetes management: total number of units/day of insulin</description>
+	<type>int</type>
+	<unit>Units/day</unit>
+</variable>
+
+<variable id="phv00048681.v1">
+	<name>obultbed</name>
+	<description>F3. Diabetes management: units Ultralente insulin used-bedtime</description>
+	<type>byte</type>
+	<unit>Units</unit>
+</variable>
+
+<variable id="phv00048678.v1">
+	<name>obultbrk</name>
+	<description>F3. Diabetes management: units Ultralente insulin used-breakfast</description>
+	<type>byte</type>
+	<unit>Units</unit>
+</variable>
+
+<variable id="phv00048679.v1">
+	<name>obultlun</name>
+	<description>F3. Diabetes management: units Ultralente insulin used-lunch</description>
+	<type>byte</type>
+	<unit>Units</unit>
+</variable>
+
+<variable id="phv00048682.v1">
+	<name>obultoth</name>
+	<description>F3. Diabetes management: units Ultralente insulin used-other</description>
+	<type>byte</type>
+	<unit>Units</unit>
+</variable>
+
+<variable id="phv00048680.v1">
+	<name>obultsup</name>
+	<description>F3. Diabetes management: units Ultralente insulin used-supper</description>
+	<type>byte</type>
+	<unit>Units</unit>
+</variable>
+
+<variable id="phv00048607.v1">
+	<name>obvenprs</name>
+	<description>Q10. Physical examination, cardiovascular examination: venous pressure</description>
+	<type>byte</type>
+	<value code="1">Normal</value>
+	<value code="2">Abnormal</value>
+</variable>
+
+</data_table>

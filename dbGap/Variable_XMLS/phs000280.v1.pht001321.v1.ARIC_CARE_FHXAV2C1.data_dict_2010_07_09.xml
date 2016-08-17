@@ -1,0 +1,504 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./datadict_v2.xsl"?>
+<data_table id="pht001321.v1" study_id="phs000280.v1" participant_set="1" date_created="Fri Jul  9 11:27:44 2010">
+
+<variable id="phv00093912.v1">
+	<name>Individual_ID</name>
+	<description>Subject Identifier</description>
+	<type>string</type>
+</variable>
+
+<variable id="phv00093913.v1">
+	<name>FHXAFLAG</name>
+	<description>=1 if form is present</description>
+	<type>encoded</type>
+	<value code="1">Presence of form</value>
+	<value code=".">Missing</value>
+</variable>
+
+<variable id="phv00093914.v1">
+	<name>FHXACY</name>
+	<description>CONTACT YEAR [4]</description>
+	<type>integer</type>
+	<unit>Year</unit>
+	<value code=".">Missing</value>
+</variable>
+
+<variable id="phv00093915.v1">
+	<name>FHXA01</name>
+	<description>CURRENT MARITAL STATUS            Q1</description>
+	<type>encoded</type>
+	<value code="D">Divorced</value>
+	<value code="M">Married</value>
+	<value code="N">Never married</value>
+	<value code="S">Separated</value>
+	<value code="W">Widowed</value>
+</variable>
+
+<variable id="phv00093916.v1">
+	<name>FHXA02</name>
+	<description>AT VISIT 1, NATURAL MOTHER LIVING Q2</description>
+	<type>encoded</type>
+	<value code="N">No</value>
+	<value code="U">Unknown</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00093917.v1">
+	<name>FHXA03A</name>
+	<description>NATURAL MOTHER LIVING NOW?        Q3A</description>
+	<type>encoded</type>
+	<value code="N">No</value>
+	<value code="U">Unknown</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00093918.v1">
+	<name>FHXA03C</name>
+	<description>CAUSE OF DEATH                    Q3C</description>
+	<type>encoded</type>
+	<value code="A">Heart attack</value>
+	<value code="C">Cancer</value>
+	<value code="O">Other</value>
+	<value code="S">Stroke</value>
+	<value code="U">Unknown</value>
+</variable>
+
+<variable id="phv00093919.v1">
+	<name>FHXA04</name>
+	<description>AT VISIT 1, NATURAL FATHER LIVING Q4</description>
+	<type>encoded</type>
+	<value code="N">No</value>
+	<value code="U">Unknown</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00093920.v1">
+	<name>FHXA05A</name>
+	<description>NATURAL FATHER LIVING NOW?        Q5A</description>
+	<type>encoded</type>
+	<value code="N">No</value>
+	<value code="U">Unknown</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00093921.v1">
+	<name>FHXA05C</name>
+	<description>CAUSE OF DEATH                    Q5C</description>
+	<type>encoded</type>
+	<value code="A">Heart attack</value>
+	<value code="C">Cancer</value>
+	<value code="O">Other</value>
+	<value code="S">Stroke</value>
+	<value code="U">Unknown</value>
+</variable>
+
+<variable id="phv00093922.v1">
+	<name>FHXA08</name>
+	<description>BROTHER OR SISTER?                Q8</description>
+	<type>encoded</type>
+	<value code="B">Brother</value>
+	<value code="S">Sister</value>
+</variable>
+
+<variable id="phv00093923.v1">
+	<name>FHXA10</name>
+	<description>IS SIBLING ALIVE?                 Q10</description>
+	<type>encoded</type>
+	<value code="N">No</value>
+	<value code="U">Unknown</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00093924.v1">
+	<name>FHXA11</name>
+	<description>IF NOT, AGE AT DEATH              Q11</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>95</logical_max>
+	<comment>The encoded value descriptions were not submitted at this time. If you have any questions, please visit http://www.cscc.unc.edu/ARIC/pubuse/.</comment>
+</variable>
+
+<variable id="phv00093925.v1">
+	<name>FHXA12</name>
+	<description>DID SIBLING EVER HAVE HEART ATTCK Q12</description>
+	<type>encoded</type>
+	<value code="N">No</value>
+	<value code="U">Unknown</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00093926.v1">
+	<name>FHXA13</name>
+	<description>IF SO, AGE AT TIME OF HEART ATTCK Q13</description>
+	<type>integer</type>
+	<logical_min>8</logical_min>
+	<logical_max>90</logical_max>
+	<comment>The encoded value descriptions were not submitted at this time. If you have any questions, please visit http://www.cscc.unc.edu/ARIC/pubuse/.</comment>
+</variable>
+
+<variable id="phv00093927.v1">
+	<name>FHXA14</name>
+	<description>DID SIBLING EVER HAVE A STROKE?   Q14</description>
+	<type>encoded</type>
+	<value code="N">No</value>
+	<value code="U">Unknown</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00093928.v1">
+	<name>FHXA15</name>
+	<description>IF SO, AGE AT TIME OF STROKE      Q15</description>
+	<type>integer</type>
+	<logical_min>19</logical_min>
+	<logical_max>92</logical_max>
+	<comment>The encoded value descriptions were not submitted at this time. If you have any questions, please visit http://www.cscc.unc.edu/ARIC/pubuse/.</comment>
+</variable>
+
+<variable id="phv00093929.v1">
+	<name>FHXA17</name>
+	<description>BROTHER OR SISTER?                Q17</description>
+	<type>encoded</type>
+	<value code="B">Brother</value>
+	<value code="S">Sister</value>
+</variable>
+
+<variable id="phv00093930.v1">
+	<name>FHXA19</name>
+	<description>IS SIBLING ALIVE?                 Q19</description>
+	<type>encoded</type>
+	<value code="N">No</value>
+	<value code="U">Unknown</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00093931.v1">
+	<name>FHXA20</name>
+	<description>IF NOT, AGE AT DEATH              Q20</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>87</logical_max>
+	<comment>The encoded value descriptions were not submitted at this time. If you have any questions, please visit http://www.cscc.unc.edu/ARIC/pubuse/.</comment>
+</variable>
+
+<variable id="phv00093932.v1">
+	<name>FHXA21</name>
+	<description>DID SIBLING EVER HAVE HEART ATTCK Q21</description>
+	<type>encoded</type>
+	<value code="N">No</value>
+	<value code="U">Unknown</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00093933.v1">
+	<name>FHXA22</name>
+	<description>IF SO, AGE AT TIME OF HEART ATTCK Q22</description>
+	<type>integer</type>
+	<logical_min>19</logical_min>
+	<logical_max>81</logical_max>
+	<comment>The encoded value descriptions were not submitted at this time. If you have any questions, please visit http://www.cscc.unc.edu/ARIC/pubuse/.</comment>
+</variable>
+
+<variable id="phv00093934.v1">
+	<name>FHXA23</name>
+	<description>DID SIBLING EVER HAVE A STROKE?   Q23</description>
+	<type>encoded</type>
+	<value code="N">No</value>
+	<value code="U">Unknown</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00093935.v1">
+	<name>FHXA24</name>
+	<description>IF SO, AGE AT TIME OF STROKE      Q24</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>84</logical_max>
+	<comment>The encoded value descriptions were not submitted at this time. If you have any questions, please visit http://www.cscc.unc.edu/ARIC/pubuse/.</comment>
+</variable>
+
+<variable id="phv00093936.v1">
+	<name>FHXA26</name>
+	<description>BROTHER OR SISTER?                Q26</description>
+	<type>encoded</type>
+	<value code="B">Brother</value>
+	<value code="S">Sister</value>
+</variable>
+
+<variable id="phv00093937.v1">
+	<name>FHXA28</name>
+	<description>IS SIBLING ALIVE?                 Q28</description>
+	<type>encoded</type>
+	<value code="N">No</value>
+	<value code="U">Unknown</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00093938.v1">
+	<name>FHXA29</name>
+	<description>IF NOT, AGE AT DEATH              Q29</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>90</logical_max>
+	<comment>The encoded value descriptions were not submitted at this time. If you have any questions, please visit http://www.cscc.unc.edu/ARIC/pubuse/.</comment>
+</variable>
+
+<variable id="phv00093939.v1">
+	<name>FHXA30</name>
+	<description>DID SIBLING EVER HAVE HEART ATTCK Q30</description>
+	<type>encoded</type>
+	<value code="N">No</value>
+	<value code="U">Unknown</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00093940.v1">
+	<name>FHXA31</name>
+	<description>IF SO, AGE AT TIME OF HEART ATTCK Q31</description>
+	<type>integer</type>
+	<logical_min>2</logical_min>
+	<logical_max>81</logical_max>
+	<comment>The encoded value descriptions were not submitted at this time. If you have any questions, please visit http://www.cscc.unc.edu/ARIC/pubuse/.</comment>
+</variable>
+
+<variable id="phv00093941.v1">
+	<name>FHXA32</name>
+	<description>DID SIBLING EVER HAVE A STROKE?   Q32</description>
+	<type>encoded</type>
+	<value code="N">No</value>
+	<value code="U">Unknown</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00093942.v1">
+	<name>FHXA33</name>
+	<description>IF SO, AGE AT TIME OF STROKE      Q33</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>80</logical_max>
+	<comment>The encoded value descriptions were not submitted at this time. If you have any questions, please visit http://www.cscc.unc.edu/ARIC/pubuse/.</comment>
+</variable>
+
+<variable id="phv00093943.v1">
+	<name>FHXA35</name>
+	<description>BROTHER OR SISTER?                Q35</description>
+	<type>encoded</type>
+	<value code="B">Brother</value>
+	<value code="S">Sister</value>
+</variable>
+
+<variable id="phv00093944.v1">
+	<name>FHXA37</name>
+	<description>IS SIBLING ALIVE?                 Q37</description>
+	<type>encoded</type>
+	<value code="N">No</value>
+	<value code="U">Unknown</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00093945.v1">
+	<name>FHXA38</name>
+	<description>IF NOT, AGE AT DEATH              Q38</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>85</logical_max>
+	<comment>The encoded value descriptions were not submitted at this time. If you have any questions, please visit http://www.cscc.unc.edu/ARIC/pubuse/.</comment>
+</variable>
+
+<variable id="phv00093946.v1">
+	<name>FHXA39</name>
+	<description>DID SIBLING EVER HAVE HEART ATTCK Q39</description>
+	<type>encoded</type>
+	<value code="N">No</value>
+	<value code="U">Unknown</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00093947.v1">
+	<name>FHXA40</name>
+	<description>IF SO, AGE AT TIME OF HEART ATTCK Q40</description>
+	<type>integer</type>
+	<logical_min>14</logical_min>
+	<logical_max>81</logical_max>
+	<comment>The encoded value descriptions were not submitted at this time. If you have any questions, please visit http://www.cscc.unc.edu/ARIC/pubuse/.</comment>
+</variable>
+
+<variable id="phv00093948.v1">
+	<name>FHXA41</name>
+	<description>DID SIBLING EVER HAVE A STROKE?   Q41</description>
+	<type>encoded</type>
+	<value code="N">No</value>
+	<value code="U">Unknown</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00093949.v1">
+	<name>FHXA42</name>
+	<description>IF SO, AGE AT TIME OF STROKE      Q42</description>
+	<type>integer</type>
+	<logical_min>3</logical_min>
+	<logical_max>77</logical_max>
+	<comment>The encoded value descriptions were not submitted at this time. If you have any questions, please visit http://www.cscc.unc.edu/ARIC/pubuse/.</comment>
+</variable>
+
+<variable id="phv00093950.v1">
+	<name>FHXA44</name>
+	<description>BROTHER OR SISTER?                Q44</description>
+	<type>encoded</type>
+	<value code="B">Brother</value>
+	<value code="S">Sister</value>
+</variable>
+
+<variable id="phv00093951.v1">
+	<name>FHXA46</name>
+	<description>IS SIBLING ALIVE?                 Q46</description>
+	<type>encoded</type>
+	<value code="N">No</value>
+	<value code="U">Unknown</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00093952.v1">
+	<name>FHXA47</name>
+	<description>IF NOT, AGE AT DEATH              Q47</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>85</logical_max>
+	<comment>The encoded value descriptions were not submitted at this time. If you have any questions, please visit http://www.cscc.unc.edu/ARIC/pubuse/.</comment>
+</variable>
+
+<variable id="phv00093953.v1">
+	<name>FHXA48</name>
+	<description>DID SIBLING EVER HAVE HEART ATTCK Q48</description>
+	<type>encoded</type>
+	<value code="N">No</value>
+	<value code="U">Unknown</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00093954.v1">
+	<name>FHXA49</name>
+	<description>IF SO, AGE AT TIME OF HEART ATTCK Q49</description>
+	<type>integer</type>
+	<logical_min>1</logical_min>
+	<logical_max>75</logical_max>
+	<comment>The encoded value descriptions were not submitted at this time. If you have any questions, please visit http://www.cscc.unc.edu/ARIC/pubuse/.</comment>
+</variable>
+
+<variable id="phv00093955.v1">
+	<name>FHXA50</name>
+	<description>DID SIBLING EVER HAVE A STROKE?   Q50</description>
+	<type>encoded</type>
+	<value code="N">No</value>
+	<value code="U">Unknown</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00093956.v1">
+	<name>FHXA51</name>
+	<description>IF SO, AGE AT TIME OF STROKE      Q51</description>
+	<type>integer</type>
+	<logical_min>4</logical_min>
+	<logical_max>76</logical_max>
+	<comment>The encoded value descriptions were not submitted at this time. If you have any questions, please visit http://www.cscc.unc.edu/ARIC/pubuse/.</comment>
+</variable>
+
+<variable id="phv00093957.v1">
+	<name>FHXA53</name>
+	<description>METHOD OF DATA COLLECTION         Q53</description>
+	<type>encoded</type>
+	<value code="C">Computer</value>
+	<value code="P">Paper form</value>
+</variable>
+
+<variable id="phv00093958.v1">
+	<name>FHXA03B</name>
+	<description>IF NOT, AGE AT DEATH              Q3B</description>
+	<type>integer</type>
+	<logical_min>29</logical_min>
+	<logical_max>99</logical_max>
+	<comment>The encoded value descriptions were not submitted at this time. If you have any questions, please visit http://www.cscc.unc.edu/ARIC/pubuse/.</comment>
+</variable>
+
+<variable id="phv00093959.v1">
+	<name>FHXA05B</name>
+	<description>IF NOT, AGE AT DEATH              Q5B</description>
+	<type>integer</type>
+	<logical_min>23</logical_min>
+	<logical_max>99</logical_max>
+	<comment>The encoded value descriptions were not submitted at this time. If you have any questions, please visit http://www.cscc.unc.edu/ARIC/pubuse/.</comment>
+</variable>
+
+<variable id="phv00093960.v1">
+	<name>FHXA06A</name>
+	<description>NUM OF FULL BROTHERS AND SISTERS? Q6A</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>20</logical_max>
+	<comment>The encoded value descriptions were not submitted at this time. If you have any questions, please visit http://www.cscc.unc.edu/ARIC/pubuse/.</comment>
+</variable>
+
+<variable id="phv00093961.v1">
+	<name>FHXA06B</name>
+	<description>NUMBER OF BROTHERS?               Q6B</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>15</logical_max>
+	<comment>The encoded value descriptions were not submitted at this time. If you have any questions, please visit http://www.cscc.unc.edu/ARIC/pubuse/.</comment>
+</variable>
+
+<variable id="phv00093962.v1">
+	<name>FHXA06C</name>
+	<description>NUMBER OF SISTERS?                Q6C</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>12</logical_max>
+	<comment>The encoded value descriptions were not submitted at this time. If you have any questions, please visit http://www.cscc.unc.edu/ARIC/pubuse/.</comment>
+</variable>
+
+<variable id="phv00093963.v1">
+	<name>FHXA09</name>
+	<description>SIBLING&#39;S YEAR OF BIRTH           Q9</description>
+	<type>integer</type>
+	<logical_min>1800</logical_min>
+	<logical_max>1967</logical_max>
+	<comment>The encoded value descriptions were not submitted at this time. If you have any questions, please visit http://www.cscc.unc.edu/ARIC/pubuse/.</comment>
+</variable>
+
+<variable id="phv00093964.v1">
+	<name>FHXA18</name>
+	<description>SIBLING&#39;S YEAR OF BIRTH           Q18</description>
+	<type>integer</type>
+	<logical_min>1895</logical_min>
+	<logical_max>1963</logical_max>
+	<comment>The encoded value descriptions were not submitted at this time. If you have any questions, please visit http://www.cscc.unc.edu/ARIC/pubuse/.</comment>
+</variable>
+
+<variable id="phv00093965.v1">
+	<name>FHXA27</name>
+	<description>SIBLING&#39;S YEAR OF BIRTH           Q27</description>
+	<type>integer</type>
+	<logical_min>1895</logical_min>
+	<logical_max>1965</logical_max>
+	<comment>The encoded value descriptions were not submitted at this time. If you have any questions, please visit http://www.cscc.unc.edu/ARIC/pubuse/.</comment>
+</variable>
+
+<variable id="phv00093966.v1">
+	<name>FHXA36</name>
+	<description>SIBLING&#39;S YEAR OF BIRTH           Q36</description>
+	<type>integer</type>
+	<logical_min>1900</logical_min>
+	<logical_max>1963</logical_max>
+	<comment>The encoded value descriptions were not submitted at this time. If you have any questions, please visit http://www.cscc.unc.edu/ARIC/pubuse/.</comment>
+</variable>
+
+<variable id="phv00093967.v1">
+	<name>FHXA45</name>
+	<description>SIBLING&#39;S YEAR OF BIRTH           Q45</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>1965</logical_max>
+	<comment>The encoded value descriptions were not submitted at this time. If you have any questions, please visit http://www.cscc.unc.edu/ARIC/pubuse/.</comment>
+</variable>
+
+</data_table>

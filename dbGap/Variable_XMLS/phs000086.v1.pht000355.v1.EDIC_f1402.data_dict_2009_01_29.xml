@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./datadict_v2.xsl"?>
+<data_table id="pht000355.v1" study_id="phs000086.v1" participant_set="1" date_created="Thu Jan 29 15:39:23 2009">
+
+<variable id="phv00051561.v1">
+	<name>clinic</name>
+	<description>A1. Identification information. De-identified EDIC clinic number</description>
+	<type>byte</type>
+</variable>
+
+<variable id="phv00051560.v1">
+	<name>form</name>
+	<description>EDIC form number</description>
+	<type>int</type>
+</variable>
+
+<variable id="phv00051571.v1">
+	<name>fsasdate</name>
+	<description>A4. Identification information. De-identified date form completed</description>
+	<type>int</type>
+</variable>
+
+<variable id="phv00051572.v1">
+	<name>mask_pat</name>
+	<description>A2. Identification information. De-identified patient ID</description>
+	<type>int</type>
+</variable>
+
+<variable id="phv00051573.v1">
+	<name>nob1</name>
+	<description>B1. General information. De-identified date of death</description>
+	<type>int</type>
+</variable>
+
+<variable id="phv00051574.v1">
+	<name>nob2</name>
+	<description>B2. General information. De-identified date clinic learned of death</description>
+	<type>int</type>
+</variable>
+
+<variable id="phv00051562.v1">
+	<name>nob3</name>
+	<description>B3. General information. Place of death</description>
+	<type>byte</type>
+	<value code="1">Hospital unit (admitted)</value>
+	<value code="2">Hospital emergency room (not admitted)</value>
+	<value code="3">Home</value>
+	<value code="4">Work</value>
+	<value code="5">Auto</value>
+	<value code="6">Other</value>
+</variable>
+
+<variable id="phv00051563.v1">
+	<name>nob4</name>
+	<description>B4. General information. Patient pronounced dead by physician</description>
+	<type>byte</type>
+	<value code="1">Hospital unit (admitted)</value>
+	<value code="2">Hospital emergency room (not admitted)</value>
+	<value code="3">Home</value>
+	<value code="4">Work</value>
+	<value code="6">Other, specify</value>
+</variable>
+
+<variable id="phv00051564.v1">
+	<name>noc1</name>
+	<description>C1. Medical history and diagnosis. Antecedent medicinal history prior to death</description>
+	<type>byte</type>
+	<value code="1">Hospitalized for illness, critically ill - death expected</value>
+	<value code="2">Hospitalized for illness, death not expected</value>
+	<value code="3">Receiving treatment in emergency room for acute illness or trauma</value>
+	<value code="4">Home under medical treatment for illmess</value>
+	<value code="5">Discharged from hospital with 72 hours</value>
+	<value code="6">No antecedent illness known</value>
+</variable>
+
+<variable id="phv00051575.v1">
+	<name>nod1a</name>
+	<description>D1a. Post mortem information and diagnosis. De-identified date autopsy was performed</description>
+	<type>int</type>
+</variable>
+
+<variable id="phv00051565.v1">
+	<name>nod1b</name>
+	<description>D1b.  Post mortem information and diagnosis. Autopsy pending</description>
+	<type>byte</type>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+</variable>
+
+<variable id="phv00051566.v1">
+	<name>nod1c</name>
+	<description>D1c. Post mortem information and diagnosis. Autopsy report: preliminary or final</description>
+	<type>byte</type>
+	<value code="1">Preliminary autopsy repor</value>
+	<value code="2">Final autopsy report</value>
+</variable>
+
+<variable id="phv00051567.v1">
+	<name>nod1d</name>
+	<description>D1d. Post mortem information and diagnosis. Reason autopsy was not performed</description>
+	<type>byte</type>
+	<value code="1">Permission denied by family</value>
+	<value code="2">No pathologist available</value>
+	<value code="3">Other, specify</value>
+</variable>
+
+<variable id="phv00051568.v1">
+	<name>nod2</name>
+	<description>D2. Post-mortem diagnosis not available</description>
+	<type>byte</type>
+	<value code="1">Post-mortem diagnosis not available</value>
+</variable>
+
+<variable id="phv00051569.v1">
+	<name>nod3</name>
+	<description>D3. Post mortem information and diagnosis. Death certificate enclosed</description>
+	<type>byte</type>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+</variable>
+
+<variable id="phv00051570.v1">
+	<name>nod4</name>
+	<description>D4. Post mortem information and diagnosis. Autopsy report enclosed</description>
+	<type>byte</type>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+</variable>
+
+</data_table>

@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GaPExchange xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="./dbGaPEx2.1.5.xsd">
+
+<MetaVariables>
+	<Submitter/>
+	<Method/>
+</MetaVariables>
+<MetaLinks/>
+
+<Projects>
+	<Project/>
+</Projects>
+
+<Studies>
+
+<Study source="dbGaP" accession="phs000933.v1.p1" parentStudy="phs000933.v1.p1" createDate="2015-06-15" modDate="2015-08-20">
+
+<Configuration>
+	<Data_Provider><![CDATA[
+		<table border="1">
+		<tr><th>Title</th><th>Name</th><th>Institute</th></tr>
+		<tr><td>Principal Investigator</td><td>Ruth Halaban, PhD</td><td>Department of Dermatology, Yale University School of Medicine, New Haven CT, USA</td></tr>
+		<tr><td>Funding Source</td><td>Yale SPORE in Skin Cancer, 1 P50 CA121974</td><td>NCI, National Institutes of Health, Bethesda, MD, USA</td></tr>
+		<tr><td>Funding Source</td><td>Department of Dermatology</td><td>Yale University School of Medicine, New Haven CT, USA</td></tr>
+		<tr><td>Funding Source</td><td>Yale Cancer Center</td><td>Yale University School of Medicine, New Haven CT, USA</td></tr>
+		</table>
+	]]></Data_Provider>
+	<StudyNameEntrez>Melanoma Exome Sequencing</StudyNameEntrez>
+	<StudyNameReportPage>Melanoma Exome Sequencing</StudyNameReportPage>
+	<StudyTypes>
+		<StudyType>Case Set</StudyType>
+	</StudyTypes>
+	<Description><![CDATA[
+<p>This study reports on the whole-exome sequencing (WES) of 213 patient-derived melanoma samples, including matched normal DNA for 133 of the tumors. The goal is the elucidation of the genetic basis of sun-exposed melanoma. Specimens were collected by the Tissue Resource Core of the Yale SPORE in Skin Cancer with participants informed signed consent according to Health Insurance Portability and Accountability Act (HIPAA) regulations with a Human Investigative Committee protocol. The melanomas used for sequencing were from snap-frozen tumors or from short-term cell cultures. The cell cultures were routinely checked for mycoplasma contamination and were discarded when found positive. Matching normal DNA was from circulating lymphocytes or normal skin. Sequence capture was performed using SeqCap EZ Human Exome Library v1.0 and 2.0, and sequencing was performed using Illumina Genome Analyzer (GA) IIx and HiSeq 2000. Comprehensive bioinformatics analysis and functional validation revealed the prominent role of NF1 and RASopathy gene mutations in melanoma.</p>]]>
+	</Description>
+	<StudyInEx><![CDATA[
+<p>Cases with sun-exposed melanomas, or melanomas with unknown origin</p>]]>
+	</StudyInEx>
+	<StudyProjects>
+		<Project/>
+	</StudyProjects>
+	<Publications>
+		<Publication>
+			<Pubmed pmid="22842228"/>
+		</Publication>
+		<Publication>
+			<Pubmed pmid="26214590"/>
+		</Publication>
+	</Publications>
+	<Diseases>
+		<Disease vocab_source="MESH" vocab_term="Melanoma"/>
+		<Disease vocab_source="MESH" vocab_term="High-Throughput Nucleotide Sequencing"/>
+	</Diseases>
+	<Attributions>
+		<Header title="Principal Investigator">
+			<AttName>Ruth Halaban, PhD</AttName>
+			<Institution>Department of Dermatology, Yale University School of Medicine, New Haven CT, USA</Institution>
+		</Header>
+		<Header title="Funding Source">
+			<AttName>Yale SPORE in Skin Cancer, 1 P50 CA121974</AttName>
+			<Institution>NCI, National Institutes of Health, Bethesda, MD, USA</Institution>
+		</Header>
+		<Header title="Funding Source">
+			<AttName>Department of Dermatology</AttName>
+			<Institution>Yale University School of Medicine, New Haven CT, USA</Institution>
+		</Header>
+		<Header title="Funding Source">
+			<AttName>Yale Cancer Center</AttName>
+			<Institution>Yale University School of Medicine, New Haven CT, USA</Institution>
+		</Header>
+	</Attributions>
+	<DisplayPublicSummary>yes</DisplayPublicSummary>
+	<ConsentGroups>
+		<ConsentGroup groupNum="1" shortName="DS-M-MDS-GSO" longName="Disease-Specific (Melanoma, MDS, GSO)"/>
+	</ConsentGroups>
+</Configuration>
+
+  <AuthorizedAccess>
+    <DacInfo ssDacId="0">
+      <DacName>NCI</DacName>
+      <DacFullName>NCI</DacFullName>
+      <DacEmail>0</DacEmail>
+      <DacPhone></DacPhone>
+      <DacUrl></DacUrl>
+    </DacInfo>
+    <Policy Policy_ID="phs000933.v1.p1_policy" ref_ssDacId="0">
+      <DisplayResearchStatement>yes</DisplayResearchStatement>
+      <DisplayPublicSummary>yes</DisplayPublicSummary>
+      <EmbargoLength>0</EmbargoLength>
+      <YearsUntilRenewal>1</YearsUntilRenewal>
+      <WeeksCancelRequest>8</WeeksCancelRequest>
+      <PdfSupplementReqired>no</PdfSupplementReqired>
+      <AcknowledgementText>
+        <para>
+          http://dbgap.ncbi.nlm.nih.gov/aa/wga.cgi?page=DUC&amp;view_pdf&amp;stacc=phs000933.v1.p1
+        </para>
+      </AcknowledgementText>
+      <DocumentSet>
+        <DataUseCertificate Label="Data Use Certificate" FilePath="https://dbgap.ncbi.nlm.nih.gov/aa/wga.cgi?page=DUC&amp;view_pdf&amp;stacc=phs000933.v1.p1" FileName=""/>
+      </DocumentSet>
+    </Policy>
+    <ConsentGroups>
+      <ParticipantSet groupNum-REF="1">
+        <ConsentName>Disease-Specific (Melanoma, MDS, GSO)</ConsentName>
+        <ConsentAbbrev>DS-M-MDS-GSO</ConsentAbbrev>
+        <UseLimitation>Use of the data must be related to Melanoma.
+Use of the data includes methods development research (e.g., development of software or algorithms).
+Use of the data is limited to genetic studies only.</UseLimitation>
+        <IrbRequired>No</IrbRequired>
+      </ParticipantSet>
+    </ConsentGroups>
+  </AuthorizedAccess>
+
+
+</Study>
+
+</Studies>
+
+</GaPExchange>

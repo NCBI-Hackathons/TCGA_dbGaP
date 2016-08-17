@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GaPExchange xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="./dbGaPEx2.1.5.xsd">
+
+<MetaVariables>
+	<Submitter/>
+	<Method/>
+</MetaVariables>
+<MetaLinks/>
+
+<Projects>
+	<Project/>
+</Projects>
+
+<Studies>
+
+<Study source="dbGaP" accession="phs000983.v1.p1" parentStudy="phs000983.v1.p1" createDate="2015-09-01" modDate="2015-12-01">
+
+<Configuration>
+	<Data_Provider><![CDATA[
+		<table border="1">
+		<tr><th>Title</th><th>Name</th><th>Institute</th></tr>
+		<tr><td>Principal Investigator (NUgene)</td><td>Rex Chisholm, PhD</td><td>Northwestern University</td></tr>
+		<tr><td>Funding Source</td><td>U01-GM092691</td><td>National Human Genome Research Institute (NHGRI), National Institutes of Health, Bethesda, MD, USA</td></tr>
+		</table>
+	]]></Data_Provider>
+	<StudyNameEntrez>Pharmacogenomics of Rheumatoid Arthritis Therapy</StudyNameEntrez>
+	<StudyNameReportPage>Pharmacogenomics of Rheumatoid Arthritis Therapy</StudyNameReportPage>
+	<StudyTypes>
+		<StudyType>Case Set</StudyType>
+	</StudyTypes>
+	<Description><![CDATA[
+<p>Rheumatoid arthritis (RA) is the most common autoimmune inflammatory arthritis worldwide and affects 1.3 million adults in the USA. It has previously been studied using phenotype algorithms to identify electronic health records (EHR) case cohorts. Early genetic studies of EHR-linked cohorts of RA patients have been replicated in known associations. Further development of collections of EHR-linked cohorts for RA and other phenotypes may enable not only enhanced understanding of disease risks but also the investigation of outcomes and treatment responses.</p>]]>
+	</Description>
+	<StudyInEx><![CDATA[
+<p>Subjects were determined using an electronic algorithm deployed with an existing EMR. The algorithm used for identifying study subjects in the electronic health record is described in the following article: RJ Carroll et al. Portability of an algorithm to identify rheumatoid arthritis in electronic health records. JAMIA, 2012 Jun;19(e1):e162-9. Epub 2012 Feb 28. PMID: <a href="http://www.ncbi.nlm.nih.gov/pubmed/22374935" target="_blank">22374935</a>.</p>]]>
+	</StudyInEx>
+	<StudyProjects>
+		<Project/>
+	</StudyProjects>
+	<Publications>
+		<Publication>
+			<Pubmed pmid="22374935"/>
+		</Publication>
+	</Publications>
+	<Diseases>
+		<Disease vocab_source="MESH" vocab_term="Arthritis, Rheumatoid"/>
+	</Diseases>
+	<Attributions>
+		<Header title="Principal Investigator (NUgene)">
+			<AttName>Rex Chisholm, PhD</AttName>
+			<Institution>Northwestern University</Institution>
+		</Header>
+		<Header title="Funding Source">
+			<AttName>U01-GM092691</AttName>
+			<Institution>National Human Genome Research Institute (NHGRI), National Institutes of Health, Bethesda, MD, USA</Institution>
+		</Header>
+	</Attributions>
+	<DisplayPublicSummary>yes</DisplayPublicSummary>
+	<ConsentGroups>
+		<ConsentGroup groupNum="1" shortName="GRU" longName="General Research Use"/>
+	</ConsentGroups>
+</Configuration>
+
+  <AuthorizedAccess>
+    <DacInfo ssDacId="0">
+      <DacName>NIGMS</DacName>
+      <DacFullName>National Institute of General Medical Sciences DAC</DacFullName>
+      <DacEmail>0</DacEmail>
+      <DacPhone></DacPhone>
+      <DacUrl></DacUrl>
+    </DacInfo>
+    <Policy Policy_ID="phs000983.v1.p1_policy" ref_ssDacId="0">
+      <DisplayResearchStatement>yes</DisplayResearchStatement>
+      <DisplayPublicSummary>yes</DisplayPublicSummary>
+      <EmbargoLength>12</EmbargoLength>
+      <YearsUntilRenewal>1</YearsUntilRenewal>
+      <WeeksCancelRequest>8</WeeksCancelRequest>
+      <PdfSupplementReqired>no</PdfSupplementReqired>
+      <AcknowledgementText>
+        <para>
+          http://dbgap.ncbi.nlm.nih.gov/aa/wga.cgi?page=DUC&amp;view_pdf&amp;stacc=phs000983.v1.p1
+        </para>
+      </AcknowledgementText>
+      <DocumentSet>
+        <DataUseCertificate Label="Data Use Certificate" FilePath="https://dbgap.ncbi.nlm.nih.gov/aa/wga.cgi?page=DUC&amp;view_pdf&amp;stacc=phs000983.v1.p1" FileName=""/>
+      </DocumentSet>
+    </Policy>
+    <ConsentGroups>
+      <ParticipantSet groupNum-REF="1">
+        <ConsentName>General Research Use</ConsentName>
+        <ConsentAbbrev>GRU</ConsentAbbrev>
+        <UseLimitation>Use of the data is limited only by the terms of the model Data Use Certification.
+May be used for genetic studies to learn about, prevent, or treat health problems. No Insurance companies.</UseLimitation>
+        <IrbRequired>No</IrbRequired>
+      </ParticipantSet>
+    </ConsentGroups>
+  </AuthorizedAccess>
+
+
+</Study>
+
+</Studies>
+
+</GaPExchange>

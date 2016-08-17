@@ -1,0 +1,4027 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./datadict_v2.xsl"?>
+<data_table id="pht000029.v2" study_id="phs000008.v12" participant_set="5" date_created="Fri Nov 12 08:07:42 2010">
+
+<variable id="phv00007096.v1">
+	<name>IDTYPE</name>
+	<description>COHORT IDENTIFIER</description>
+	<value code="0">ORIGINAL COHORT GROUP</value>
+	<value code="1">OFFSPRING GROUP</value>
+	<value code="2">NEW OFFSPRING SPOUSE</value>
+	<value code="3">GENERATION 3</value>
+</variable>
+
+<variable id="phv00007097.v1">
+	<name>FT002</name>
+	<description>MARITAL STATUS</description>
+	<value code="1">SINGLE</value>
+	<value code="2">MARRIED</value>
+	<value code="3">WIDOWED</value>
+	<value code="4">DIVORCED</value>
+	<value code="5">SEPARATED</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007098.v1">
+	<name>FT004</name>
+	<description>WEIGHT (TO NEAREST POUND)</description>
+	<unit>POUNDS</unit>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007099.v1">
+	<name>FT005</name>
+	<description>PROTOCOL MODIFICATION FOR WEIGHT</description>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007100.v1">
+	<name>FT006</name>
+	<description>METHOD USED TO OBTAIN WEIGHT</description>
+	<value code="0">FHS PROTOCOL, CLINIC OR FIELD VISIT WITH PORTABLE SCALE</value>
+	<value code="1">RECORDED IN NH CHART</value>
+	<value code="2">OTHER</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007101.v1">
+	<name>FT008</name>
+	<description>HEIGHT (INCHES, TO NEXT LOWER 1/4 INCH)</description>
+	<unit>INCHES</unit>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007102.v1">
+	<name>FT009</name>
+	<description>PROTOCOL MODIFICATION FOR HEIGHT</description>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007103.v1">
+	<name>FT010</name>
+	<description>PROXY USED TO COMPLETE THIS EXAM</description>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00007104.v1">
+	<name>FT011</name>
+	<description>PROXY: RELATIONSHIP OF PROXY TO PARTICIPANT</description>
+	<value code="0">NO PROXY USED TO COMPLETE EXAM</value>
+	<value code="1">1ST DEGREE RELATIVE (SPOUSE, CHILD)</value>
+	<value code="2">OTHER RELATIVE</value>
+	<value code="3">FRIEND</value>
+	<value code="4">HEALTH CARE PROFESSIONAL</value>
+	<value code="5">OTHER</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007105.v1">
+	<name>FT012</name>
+	<description>PROXY: HOW LONG HAVE YOU KNOWN THE PARTICIPANT? (YEARS)</description>
+	<unit>YEARS</unit>
+	<value code="0">ZERO YEARS OR NO PROXY USED TO COMPLETE EXAM (347)</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007106.v1">
+	<name>FT013</name>
+	<description>PROXY: HOW LONG HAVE YOU KNOWN THE PARTICIPANT? (MONTHS)</description>
+	<unit>MONTHS</unit>
+	<value code="0">ZERO MONTHS OR NO PROXY USED TO COMPLETE EXAM</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007107.v1">
+	<name>FT014</name>
+	<description>PROXY: ARE YOU CURRENTLY LIVING IN THE SAME HOUSEHOLD WITH THE PARTICIPANT?</description>
+	<value code="0">NO OR NO PROXY USED TO COMPLETE EXAM</value>
+	<value code="1">YES</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007108.v1">
+	<name>FT015</name>
+	<description>PROXY: HOW OFTEN DID YOU TALK TO THE PARTICIPANT DURING THE PRIOR 11 MONTHS?</description>
+	<value code="0">NO PROXY USED TO COMPLETE EXAM</value>
+	<value code="1">ALMOST EVERY DAY</value>
+	<value code="2">SEVERAL TIMES A WEEK</value>
+	<value code="3">ONCE A WEEK</value>
+	<value code="4">1 TO 3 TIMES PER MONTH</value>
+	<value code="5">LESS THAN ONCE A MONTH</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007109.v1">
+	<name>FT016</name>
+	<description>PARTICIPANT ABLE TO RESPOND TO INTERVIEW?</description>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+	<value code="2">OTHER</value>
+	<value code=".">UNKNOWN/NOT OFF SITE EXAM</value>
+</variable>
+
+<variable id="phv00007110.v1">
+	<name>FT018</name>
+	<description>TECHNICIAN&#39;S SYSTOLIC BLOOD PRESSURE (TO NEAREST 2MM HG)</description>
+	<unit>MM HG</unit>
+	<value code=".">UNKNOWN/OFFSITE EXAM</value>
+</variable>
+
+<variable id="phv00007111.v1">
+	<name>FT019</name>
+	<description>TECHNICIANS&#39;S DIASTOLIC BLOOD PRESSURE (TO NEAREST 2MM HG)</description>
+	<unit>MM HG</unit>
+	<value code=".">UNKNOWN/OFFSITE EXAM</value>
+</variable>
+
+<variable id="phv00007112.v1">
+	<name>FT020</name>
+	<description>BP CUFF SIZE</description>
+	<value code="0">PEDIATRIC</value>
+	<value code="1">REGULAR</value>
+	<value code="2">LARGE AD.</value>
+	<value code="3">THIGH</value>
+	<value code=".">UNKNOWN/OFFSITE EXAM</value>
+</variable>
+
+<variable id="phv00007113.v1">
+	<name>FT021</name>
+	<description>PROTOCOL MODIFICATION FOR TECH BLOOD PRESSURE</description>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+	<value code=".">UNKNOWN/OFFSITE EXAM</value>
+</variable>
+
+<variable id="phv00007114.v1">
+	<name>FT026</name>
+	<description>I WAS BOTHERED BY THINGS THAT USUALLY DON&#39;T BOTHER ME</description>
+	<value code="0">RARELY OR NONE OF THE TIME (LESS THAN 1 DAY)</value>
+	<value code="1">SOME OR A LITTLE OF TIME (1-2 DAYS)</value>
+	<value code="2">OCCASIONALLY OR MODERATE AMOUNT OF TIME (3-4 DAYS)</value>
+	<value code="3">MOST OR ALL OF THE TIME (5-7 DAYS)</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007115.v1">
+	<name>FT027</name>
+	<description>I DID NOT FEEL LIKE EATING; MY APPETITE WAS POOR</description>
+	<value code="0">RARELY OR NONE OF THE TIME (LESS THAN 1 DAY)</value>
+	<value code="1">SOME OR A LITTLE OF TIME (1-2 DAYS)</value>
+	<value code="2">OCCASIONALLY OR MODERATE AMOUNT OF TIME (3-4 DAYS)</value>
+	<value code="3">MOST OR ALL OF THE TIME (5-7 DAYS)</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007116.v1">
+	<name>FT028</name>
+	<description>I FELT THAT I COULD NOT SHAKE OFF THE BLUES, EVEN WITH HELP FROMY FAMILY AND FRIENDS</description>
+	<value code="0">RARELY OR NONE OF THE TIME (LESS THAN 1 DAY)</value>
+	<value code="1">SOME OR A LITTLE OF TIME (1-2 DAYS)</value>
+	<value code="2">OCCASIONALLY OR MODERATE AMOUNT OF TIME (3-4 DAYS)</value>
+	<value code="3">MOST OR ALL OF THE TIME (5-7 DAYS)</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007117.v1">
+	<name>FT029</name>
+	<description>I FELT THAT I WAS JUST AS GOOD AS OTHER PEOPLE</description>
+	<value code="0">RARELY OR NONE OF THE TIME (LESS THAN 1 DAY)</value>
+	<value code="1">SOME OR A LITTLE OF TIME (1-2 DAYS)</value>
+	<value code="2">OCCASIONALLY OR MODERATE AMOUNT OF TIME (3-4 DAYS)</value>
+	<value code="3">MOST OR ALL OF THE TIME (5-7 DAYS)</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007118.v1">
+	<name>FT030</name>
+	<description>I HAD TROUBLE KEEPING MY MIND ON WHAT I WAS DOING</description>
+	<value code="0">RARELY OR NONE OF THE TIME (LESS THAN 1 DAY)</value>
+	<value code="1">SOME OR A LITTLE OF TIME (1-2 DAYS)</value>
+	<value code="2">OCCASIONALLY OR MODERATE AMOUNT OF TIME (3-4 DAYS)</value>
+	<value code="3">MOST OR ALL OF THE TIME (5-7 DAYS)</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007119.v1">
+	<name>FT031</name>
+	<description>I FELT DEPRESSED</description>
+	<value code="0">RARELY OR NONE OF THE TIME (LESS THAN 1 DAY)</value>
+	<value code="1">SOME OR A LITTLE OF TIME (1-2 DAYS)</value>
+	<value code="2">OCCASIONALLY OR MODERATE AMOUNT OF TIME (3-4 DAYS)</value>
+	<value code="3">MOST OR ALL OF THE TIME (5-7 DAYS)</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007120.v1">
+	<name>FT032</name>
+	<description>I FELT THAT EVERY THING I DID WAS AN EFFORT</description>
+	<value code="0">RARELY OR NONE OF THE TIME (LESS THAN 1 DAY)</value>
+	<value code="1">SOME OR A LITTLE OF TIME (1-2 DAYS)</value>
+	<value code="2">OCCASIONALLY OR MODERATE AMOUNT OF TIME (3-4 DAYS)</value>
+	<value code="3">MOST OR ALL OF THE TIME (5-7 DAYS)</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007121.v1">
+	<name>FT033</name>
+	<description>I FELT HOPEFUL ABOUT THE FUTURE</description>
+	<value code="0">RARELY OR NONE OF THE TIME (LESS THAN 1 DAY)</value>
+	<value code="1">SOME OR A LITTLE OF TIME (1-2 DAYS)</value>
+	<value code="2">OCCASIONALLY OR MODERATE AMOUNT OF TIME (3-4 DAYS)</value>
+	<value code="3">MOST OR ALL OF THE TIME (5-7 DAYS)</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007122.v1">
+	<name>FT034</name>
+	<description>I THOUGHT MY LIFE HAD BEEN A FAILURE</description>
+	<value code="0">RARELY OR NONE OF THE TIME (LESS THAN 1 DAY)</value>
+	<value code="1">SOME OR A LITTLE OF TIME (1-2 DAYS)</value>
+	<value code="2">OCCASIONALLY OR MODERATE AMOUNT OF TIME (3-4 DAYS)</value>
+	<value code="3">MOST OR ALL OF THE TIME (5-7 DAYS)</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007123.v1">
+	<name>FT035</name>
+	<description>I FELT FEARFUL</description>
+	<value code="0">RARELY OR NONE OF THE TIME (LESS THAN 1 DAY)</value>
+	<value code="1">SOME OR A LITTLE OF TIME (1-2 DAYS)</value>
+	<value code="2">OCCASIONALLY OR MODERATE AMOUNT OF TIME (3-4 DAYS)</value>
+	<value code="3">MOST OR ALL OF THE TIME (5-7 DAYS)</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007124.v1">
+	<name>FT036</name>
+	<description>MY SLEEP WAS RESTLESS</description>
+	<value code="0">RARELY OR NONE OF THE TIME (LESS THAN 1 DAY)</value>
+	<value code="1">SOME OR A LITTLE OF TIME (1-2 DAYS)</value>
+	<value code="2">OCCASIONALLY OR MODERATE AMOUNT OF TIME (3-4 DAYS)</value>
+	<value code="3">MOST OR ALL OF THE TIME (5-7 DAYS)</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007125.v1">
+	<name>FT037</name>
+	<description>I WAS HAPPY</description>
+	<value code="0">RARELY OR NONE OF THE TIME (LESS THAN 1 DAY)</value>
+	<value code="1">SOME OR A LITTLE OF TIME (1-2 DAYS)</value>
+	<value code="2">OCCASIONALLY OR MODERATE AMOUNT OF TIME (3-4 DAYS)</value>
+	<value code="3">MOST OR ALL OF THE TIME (5-7 DAYS)</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007126.v1">
+	<name>FT038</name>
+	<description>I TALKED LESS THAN USUAL</description>
+	<value code="0">RARELY OR NONE OF THE TIME (LESS THAN 1 DAY)</value>
+	<value code="1">SOME OR A LITTLE OF TIME (1-2 DAYS)</value>
+	<value code="2">OCCASIONALLY OR MODERATE AMOUNT OF TIME (3-4 DAYS)</value>
+	<value code="3">MOST OR ALL OF THE TIME (5-7 DAYS)</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007127.v1">
+	<name>FT039</name>
+	<description>I FELT LONELY</description>
+	<value code="0">RARELY OR NONE OF THE TIME (LESS THAN 1 DAY)</value>
+	<value code="1">SOME OR A LITTLE OF TIME (1-2 DAYS)</value>
+	<value code="2">OCCASIONALLY OR MODERATE AMOUNT OF TIME (3-4 DAYS)</value>
+	<value code="3">MOST OR ALL OF THE TIME (5-7 DAYS)</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007128.v1">
+	<name>FT040</name>
+	<description>PEOPLE WERE UNFRIENDLY</description>
+	<value code="0">RARELY OR NONE OF THE TIME (LESS THAN 1 DAY)</value>
+	<value code="1">SOME OR A LITTLE OF TIME (1-2 DAYS)</value>
+	<value code="2">OCCASIONALLY OR MODERATE AMOUNT OF TIME (3-4 DAYS)</value>
+	<value code="3">MOST OR ALL OF THE TIME (5-7 DAYS)</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007129.v1">
+	<name>FT041</name>
+	<description>I ENJOYED LIFE</description>
+	<value code="0">RARELY OR NONE OF THE TIME (LESS THAN 1 DAY)</value>
+	<value code="1">SOME OR A LITTLE OF TIME (1-2 DAYS)</value>
+	<value code="2">OCCASIONALLY OR MODERATE AMOUNT OF TIME (3-4 DAYS)</value>
+	<value code="3">MOST OR ALL OF THE TIME (5-7 DAYS)</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007130.v1">
+	<name>FT042</name>
+	<description>I HAD CRYING SPELLS</description>
+	<value code="0">RARELY OR NONE OF THE TIME (LESS THAN 1 DAY)</value>
+	<value code="1">SOME OR A LITTLE OF TIME (1-2 DAYS)</value>
+	<value code="2">OCCASIONALLY OR MODERATE AMOUNT OF TIME (3-4 DAYS)</value>
+	<value code="3">MOST OR ALL OF THE TIME (5-7 DAYS)</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007131.v1">
+	<name>FT043</name>
+	<description>I FELT SAD</description>
+	<value code="0">RARELY OR NONE OF THE TIME (LESS THAN 1 DAY)</value>
+	<value code="1">SOME OR A LITTLE OF TIME (1-2 DAYS)</value>
+	<value code="2">OCCASIONALLY OR MODERATE AMOUNT OF TIME (3-4 DAYS)</value>
+	<value code="3">MOST OR ALL OF THE TIME (5-7 DAYS)</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007132.v1">
+	<name>FT044</name>
+	<description>I FELT THAT PEOPLE DISLIKED ME</description>
+	<value code="0">RARELY OR NONE OF THE TIME (LESS THAN 1 DAY)</value>
+	<value code="1">SOME OR A LITTLE OF TIME (1-2 DAYS)</value>
+	<value code="2">OCCASIONALLY OR MODERATE AMOUNT OF TIME (3-4 DAYS)</value>
+	<value code="3">MOST OR ALL OF THE TIME (5-7 DAYS)</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007133.v1">
+	<name>FT045</name>
+	<description>I COULD NOT &quot;GET GOING&quot;</description>
+	<value code="0">RARELY OR NONE OF THE TIME (LESS THAN 1 DAY)</value>
+	<value code="1">SOME OR A LITTLE OF TIME (1-2 DAYS)</value>
+	<value code="2">OCCASIONALLY OR MODERATE AMOUNT OF TIME (3-4 DAYS)</value>
+	<value code="3">MOST OR ALL OF THE TIME (5-7 DAYS)</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007134.v1">
+	<name>FT063</name>
+	<description>MMSE: ILLITERATE OR LOW EDUCATION (FACTORS POTENTIALLY AFFECTING MENTAL STATUS)</description>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+	<value code="2">MAYBE</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007135.v1">
+	<name>FT064</name>
+	<description>MMSE: NOT FLUENT IN ENGLISH (FACTORS POTENTIALLY AFFECTING MENTAL STATUS)</description>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+	<value code="2">MAYBE</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007136.v1">
+	<name>FT065</name>
+	<description>MMSE: POOR EYESIGHT (FACTORS POTENTIALLY AFFECTING MENTAL STATUS)</description>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+	<value code="2">MAYBE</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007137.v1">
+	<name>FT066</name>
+	<description>MMSE: POOR HEARING (FACTORS POTENTIALLY AFFECTING MENTAL STATUS)</description>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+	<value code="2">MAYBE</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007138.v1">
+	<name>FT067</name>
+	<description>MMSE: DEPRESSION (FACTORS POTENTIALLY AFFECTING MENTAL STATUS)</description>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+	<value code="2">MAYBE</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007139.v1">
+	<name>FT068</name>
+	<description>MMSE: APHASIA (FACTORS POTENTIALLY AFFECTING MENTAL STATUS)</description>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+	<value code="2">MAYBE</value>
+</variable>
+
+<variable id="phv00007140.v1">
+	<name>FT069</name>
+	<description>MMSE: COMA (FACTORS POTENTIALLY AFFECTING MENTAL STATUS)</description>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+	<value code="2">MAYBE</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007141.v1">
+	<name>FT070</name>
+	<description>MMSE: PARKINSONISM OR NEUROLOGICALLY IMPAIRED (FACTORS POTENTIALLY AFFECTING MENTAL STATUS)</description>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+	<value code="2">MAYBE</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007142.v1">
+	<name>FT071</name>
+	<description>MMSE: OTHER (OTHER THAN THOSE LISTED ABOVE) (FACTORS POTENTIALLY AFFECTING MENTAL STATUS)</description>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+	<value code="2">MAYBE</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007143.v1">
+	<name>FT074</name>
+	<description>DOES ANYONE LIVE WITH YOU? CODE NURSING HOME RESIDENTS AS NO TO THESE QUESTIONS (FT074-FT080)</description>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007144.v1">
+	<name>FT075</name>
+	<description>DO YOU LIVE WITH SPOUSE? CODE NURSING HOME RESIDENTS AS NO TO THESE QUESTIONS (FT074-FT080)</description>
+	<value code="0">NO</value>
+	<value code="1">YES, LESS THAN 3 MONTHS PER YEAR</value>
+	<value code="2">YES, MORE THAN 3 MONTHS PER YEAR</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007145.v1">
+	<name>FT076</name>
+	<description>DO YOU LIVE WITH SIGNIFICANT OTHER? CODE NURSING HOME RESIDENTS AS NO TO THESE QUESTIONS (FT074-FT080)</description>
+	<value code="0">NO</value>
+	<value code="1">YES, LESS THAN 3 MONTHS PER YEAR</value>
+	<value code="2">YES, MORE THAN 3 MONTHS PER YEAR</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007146.v1">
+	<name>FT077</name>
+	<description>DO YOU LIVE WITH CHILDREN? CODE NURSING HOME RESIDENTS AS NO TO THESE QUESTIONS (FT074-FT080)</description>
+	<value code="0">NO</value>
+	<value code="1">YES, LESS THAN 3 MONTHS PER YEAR</value>
+	<value code="2">YES, MORE THAN 3 MONTHS PER YEAR</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007147.v1">
+	<name>FT078</name>
+	<description>DO YOU LIVE WITH FRIENDS? CODE NURSING HOME RESIDENTS AS NO TO THESE QUESTIONS (FT074-FT080)</description>
+	<value code="0">NO</value>
+	<value code="1">YES, LESS THAN 3 MONTHS PER YEAR</value>
+	<value code="2">YES, MORE THAN 3 MONTHS PER YEAR</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007148.v1">
+	<name>FT079</name>
+	<description>DO YOU LIVE WITH RELATIVES? CODE NURSING HOME RESIDENTS AS NO TO THESE QUESTIONS (FT074-FT080)</description>
+	<value code="0">NO</value>
+	<value code="1">YES, LESS THAN 3 MONTHS PER YEAR</value>
+	<value code="2">YES, MORE THAN 3 MONTHS PER YEAR</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007149.v1">
+	<name>FT080</name>
+	<description>DO YOU LIVE WITH PETS? CODE NURSING HOME RESIDENTS AS NO TO THESE QUESTIONS (FT074-FT080)</description>
+	<value code="0">NO</value>
+	<value code="1">YES, LESS THAN 3 MONTHS PER YEAR</value>
+	<value code="2">YES, MORE THAN 3 MONTHS PER YEAR</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007150.v1">
+	<name>FT081</name>
+	<description>ARE YOU CURRENTLY WORKING AT A PAYING JOB?</description>
+	<value code="0">NO</value>
+	<value code="1">YES, FULL TIME (&gt;= 32 HOURS)</value>
+	<value code="2">YES, PART TIME (&lt; 32 HOURS)</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007151.v1">
+	<name>FT082</name>
+	<description>DO YOU CURRENTLY DO UNPAID VOLUNTEER OR COMMUNITY WORK?</description>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007152.v1">
+	<name>FT083</name>
+	<description>DURING THE PAST SIX MONTHS (180 DAYS) HOW MANY DAYS WERE YOU SO SICK THAT YOU WERE UNABLE TO CARRY OUT YOUR USUAL ACTIVITIES?</description>
+	<unit>DAYS</unit>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007153.v1">
+	<name>FT084</name>
+	<description>IN GENERAL, HOW IS YOUR HEALTH NOW? (PROXY MAY NOT BE USED TO HELP COMPLETE THIS SECTION)</description>
+	<value code="1">EXCELLENT</value>
+	<value code="2">GOOD</value>
+	<value code="3">FAIR</value>
+	<value code="4">POOR</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007154.v1">
+	<name>FT085</name>
+	<description>COMPARE YOUR HEALTH TO MOST PEOPLE YOUR OWN AGE (PROXY MAY NOT BE USED TO HELP COMPLETE THIS SECTION)</description>
+	<value code="1">BETTER</value>
+	<value code="2">ABOUT THE SAME</value>
+	<value code="3">WORSE THAN MOST PEOPLE YOUR OWN AGE</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007155.v1">
+	<name>FT087</name>
+	<description>DURING THE COURSE OF A NORMAL DAY, CAN YOU DO THE FOLLOWING ACTIVITIES INDEPENDENTLY OR DO YOU NEED HUMAN ASSISTANCE OR THE USE OF A DEVICE? DRESSING (UNDRESSING AND REDRESSING)</description>
+	<value code="0">NO HELP NEEDED, INDEPENDENT</value>
+	<value code="1">USES DEVICE, INDEPENDENT</value>
+	<value code="2">HUMAN ASSISTANCE NEEDED, MINIMALLY DEPENDENT</value>
+	<value code="3">DEPENDENT</value>
+	<value code="4">DO NOT DO DURING A NORMAL DAY</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007156.v1">
+	<name>FT088</name>
+	<description>DURING THE COURSE OF A NORMAL DAY, CAN YOU DO THE FOLLOWING ACTIVITIES INDEPENDENTLY OR DO YOU NEED HUMAN ASSISTANCE OR THE USE OF A DEVICE? BATHING (INCLUDING GETTING IN AND OUT OF THE TUB OR SHOWER. DEVICE SUCH AS: BATH CHAIR, LONG HANDLED SPONGE, HANDLE HELD SHOWER, SAFETY BARS)</description>
+	<value code="0">NO HELP NEEDED, INDEPENDENT</value>
+	<value code="1">USES DEVICE, INDEPENDENT</value>
+	<value code="2">HUMAN ASSISTANCE NEEDED, MINIMALLY DEPENDENT</value>
+	<value code="3">DEPENDENT</value>
+	<value code="4">DO NOT DO DURING A NORMAL DAY</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007157.v1">
+	<name>FT089</name>
+	<description>DURING THE COURSE OF A NORMAL DAY, CAN YOU DO THE FOLLOWING ACTIVITIES INDEPENDENTLY OR DO YOU NEED HUMAN ASSISTANCE OR THE USE OF A DEVICE? EATING</description>
+	<value code="0">NO HELP NEEDED, INDEPENDENT</value>
+	<value code="1">USES DEVICE, INDEPENDENT</value>
+	<value code="2">HUMAN ASSISTANCE NEEDED, MINIMALLY DEPENDENT</value>
+	<value code="3">DEPENDENT</value>
+	<value code="4">DO NOT DO DURING A NORMAL DAY</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007158.v1">
+	<name>FT090</name>
+	<description>DURING THE COURSE OF A NORMAL DAY, CAN YOU DO THE FOLLOWING ACTIVITIES INDEPENDENTLY OR DO YOU NEED HUMAN ASSISTANCE OR THE USE OF A DEVICE? TRANSFERRING (GETTING IN AND OUT OF A CHAIR. DEVICE SUCH AS: SLIDING BOARD, GRAB BARS SPECIAL SEAT)</description>
+	<value code="0">NO HELP NEEDED, INDEPENDENT</value>
+	<value code="1">USES DEVICE, INDEPENDENT</value>
+	<value code="2">HUMAN ASSISTANCE NEEDED, MINIMALLY DEPENDENT</value>
+	<value code="3">DEPENDENT</value>
+	<value code="4">DO NOT DO DURING A NORMAL DAY</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007159.v1">
+	<name>FT091</name>
+	<description>DURING THE COURSE OF A NORMAL DAY, CAN YOU DO THE FOLLOWING ACTIVITIES INDEPENDENTLY OR DO YOU NEED HUMAN ASSISTANCE OR THE USE OF A DEVICE? TOILETING ACTIVITIES (USING BATHROOM FACILITIES AND HANDLE CLOTHING. DEVICE SUCH AS: SPECIAL TOILED SEAT,COMMODE)</description>
+	<value code="0">NO HELP NEEDED, INDEPENDENT</value>
+	<value code="1">USES DEVICE, INDEPENDENT</value>
+	<value code="2">HUMAN ASSISTANCE NEEDED, MINIMALLY DEPENDENT</value>
+	<value code="3">DEPENDENT</value>
+	<value code="4">DO NOT DO DURING A NORMAL DAY</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007160.v1">
+	<name>FT092</name>
+	<description>DURING THE COURSE OF A NORMAL DAY, CAN YOU DO THE FOLLOWING ACTIVITIES INDEPENDENTLY OR DO YOU NEED HUMAN ASSISTANCE OR THE USE OF A DEVICE? BLADDER CONTINENCE (ASK IF PERSON HAS &quot;ACCIDENTS&quot;. DEVICE SUCH AS: EXTERNAL CATHETER, DRAINAGE BAGS, ILEAL APPLIANCE, PROTECTIVE DEVICES)</description>
+	<value code="0">NO HELP NEEDED, INDEPENDENT</value>
+	<value code="1">USES DEVICE, INDEPENDENT</value>
+	<value code="2">HUMAN ASSISTANCE NEEDED, MINIMALLY DEPENDENT</value>
+	<value code="3">DEPENDENT</value>
+	<value code="4">DO NOT DO DURING A NORMAL DAY</value>
+	<value code="5">USE SPECIAL PRODUCTS</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007161.v1">
+	<name>FT093</name>
+	<description>DURING THE COURSE OF A NORMAL DAY, CAN YOU DO THE FOLLOWING ACTIVITIES INDEPENDENTLY OR DO YOU NEED HUMAN ASSISTANCE OR THE USE OF A DEVICE? BOWEL CONTINENCE (ASK IF PERSON HAS &quot;ACCIDENTS&quot;. DEVICE SUCH AS: SUPPOSITORIES, BEDPAN, REGULAR ENEMAS, COLOSTOMY)</description>
+	<value code="0">NO HELP NEEDED, INDEPENDENT</value>
+	<value code="1">USES DEVICE, INDEPENDENT</value>
+	<value code="2">HUMAN ASSISTANCE NEEDED, MINIMALLY DEPENDENT</value>
+	<value code="3">DEPENDENT</value>
+	<value code="4">DO NOT DO DURING A NORMAL DAY</value>
+	<value code="5">USE SPECIAL PRODUCTS</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007162.v1">
+	<name>FT094</name>
+	<description>DURING THE COURSE OF A NORMAL DAY, CAN YOU DO THE FOLLOWING ACTIVITIES INDEPENDENTLY OR DO YOU NEED HUMAN ASSISTANCE OR THE USE OF A DEVICE? WALKING ON LEVEL SURFACE ABOUT 50 YARDS (DEVICE SUCH AS: CANE, CRUTCHES, OR WALKER)</description>
+	<value code="0">NO HELP NEEDED, INDEPENDENT</value>
+	<value code="1">USES DEVICE, INDEPENDENT</value>
+	<value code="2">HUMAN ASSISTANCE NEEDED, MINIMALLY DEPENDENT</value>
+	<value code="3">DEPENDENT</value>
+	<value code="4">DO NOT DO DURING A NORMAL DAY</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007163.v1">
+	<name>FT095</name>
+	<description>DURING THE COURSE OF A NORMAL DAY, CAN YOU DO THE FOLLOWING ACTIVITIES INDEPENDENTLY OR DO YOU NEED HUMAN ASSISTANCE OR THE USE OF A DEVICE? WALKING UP AND DOWN ONE FLIGHT STAIRS (DEVICE SUCH AS: HANDRAIL, CANE)</description>
+	<value code="0">NO HELP NEEDED, INDEPENDENT</value>
+	<value code="1">USES DEVICE, INDEPENDENT</value>
+	<value code="2">HUMAN ASSISTANCE NEEDED, MINIMALLY DEPENDENT</value>
+	<value code="3">DEPENDENT</value>
+	<value code="4">DO NOT DO DURING A NORMAL DAY</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007164.v1">
+	<name>FT096</name>
+	<description>DURING THE COURSE OF A NORMAL DAY, CAN YOU DO THE FOLLOWING ACTIVITIES INDEPENDENTLY OR DO YOU NEED HUMAN ASSISTANCE OR THE USE OF A DEVICE? USING A TELEPHONE (DEVICE SUCH AS LARGE NUMBERS, VOICE ACTIVATION, AMPLIFICATION)</description>
+	<value code="0">NO HELP NEEDED, INDEPENDENT</value>
+	<value code="1">USES DEVICE, INDEPENDENT</value>
+	<value code="2">HUMAN ASSISTANCE NEEDED, MINIMALLY DEPENDENT</value>
+	<value code="3">DEPENDENT</value>
+	<value code="4">DO NOT DO DURING A NORMAL DAY</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007165.v1">
+	<name>FT097</name>
+	<description>DURING THE COURSE OF A NORMAL DAY, CAN YOU DO THE FOLLOWING ACTIVITIES INDEPENDENTLY OR DO YOU NEED HUMAN ASSISTANCE OR THE USE OF A DEVICE? PREPARING AND TAKING OWN MEDICATIONS</description>
+	<value code="0">NO HELP NEEDED, INDEPENDENT</value>
+	<value code="1">USES DEVICE, INDEPENDENT</value>
+	<value code="2">HUMAN ASSISTANCE NEEDED, MINIMALLY DEPENDENT</value>
+	<value code="3">DEPENDENT</value>
+	<value code="4">DO NOT DO DURING A NORMAL DAY</value>
+	<value code="8">TAKES NO MEDICATION REGULARLY</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007166.v1">
+	<name>FT099</name>
+	<description>HAVE YOU BEEN ADMITTED TO A NURSING HOME (OR SKILLED FACILITY) IN THE PAST TWO YEARS?</description>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007167.v1">
+	<name>FT100</name>
+	<description>IN THE PAST TWO YEARS, HAVE YOU BEEN VISITED BY A NURSING SERVICE, OR USED HOME, COMMUNITY, OR OUTPATIENT PROGRAMS?</description>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007168.v1">
+	<name>FT101</name>
+	<description>USE HOME HEALTH AIDES CURRENTLY</description>
+	<value code="0">NO</value>
+	<value code="1">1 OR MORE TIMES PER DAY</value>
+	<value code="2">1 OR MORE TIMES PER WEEK</value>
+	<value code="3">1 OR MORE TIMES PER MONTH</value>
+	<value code="4">OTHER</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007169.v1">
+	<name>FT102</name>
+	<description>USED HOME HEALTH AIDES SINCE LAST EXAM</description>
+	<value code="0">NO</value>
+	<value code="1">1 OR MORE TIMES PER DAY</value>
+	<value code="2">1 OR MORE TIMES PER WEEK</value>
+	<value code="3">1 OR MORE TIMES PER MONTH</value>
+	<value code="4">OTHER</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007170.v1">
+	<name>FT103</name>
+	<description>NUMBER OF MONTHS USED HOME HEALTH AIDE SINCE LAST EXAM</description>
+	<unit>MONTHS</unit>
+	<value code="0">NONE</value>
+	<value code="1">1 MONTH OR LESS</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007171.v1">
+	<name>FT104</name>
+	<description>HOMEMAKER VISITS CURRENTLY</description>
+	<value code="0">NO</value>
+	<value code="1">1 OR MORE TIMES PER DAY</value>
+	<value code="2">1 OR MORE TIMES PER WEEK</value>
+	<value code="3">1 OR MORE TIMES PER MONTH</value>
+	<value code="4">OTHER</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007172.v1">
+	<name>FT105</name>
+	<description>HOMEMAKER VISITS SINCE LAST EXAM</description>
+	<value code="0">NO</value>
+	<value code="1">1 OR MORE TIMES PER DAY</value>
+	<value code="2">1 OR MORE TIMES PER WEEK</value>
+	<value code="3">1 OR MORE TIMES PER MONTH</value>
+	<value code="4">OTHER</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007173.v1">
+	<name>FT106</name>
+	<description>NUMBER OF MONTHS HAD HOMEMAKER VISITS SINCE LAST EXAM</description>
+	<unit>MONTHS</unit>
+	<value code="0">NONE</value>
+	<value code="1">1 MONTH OR LESS</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007174.v1">
+	<name>FT107</name>
+	<description>USE VISITING NURSES CURRENTLY</description>
+	<value code="0">NO</value>
+	<value code="1">1 OR MORE TIMES PER DAY</value>
+	<value code="2">1 OR MORE TIMES PER WEEK</value>
+	<value code="3">1 OR MORE TIMES PER MONTH</value>
+	<value code="4">OTHER</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007175.v1">
+	<name>FT108</name>
+	<description>USED VISITING NURSES SINCE LAST EXAM</description>
+	<value code="0">NO</value>
+	<value code="1">1 OR MORE TIMES PER DAY</value>
+	<value code="2">1 OR MORE TIMES PER WEEK</value>
+	<value code="3">1 OR MORE TIMES PER MONTH</value>
+	<value code="4">OTHER</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007176.v1">
+	<name>FT109</name>
+	<description>NUMBER OF MONTHS USED VISITING NURSES SINCE LAST EXAM</description>
+	<unit>MONTHS</unit>
+	<value code="0">NONE</value>
+	<value code="1">1 MONTH OR LESS</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007177.v1">
+	<name>FT110</name>
+	<description>USE PERSONAL CARE ATTENDANT CURRENTLY</description>
+	<value code="0">NO</value>
+	<value code="1">1 OR MORE TIMES PER DAY</value>
+	<value code="2">1 OR MORE TIMES PER WEEK</value>
+	<value code="3">1 OR MORE TIMES PER MONTH</value>
+	<value code="4">OTHER</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007178.v1">
+	<name>FT111</name>
+	<description>USED PERSONAL CARE ATTENDANT SINCE LAST EXAM</description>
+	<value code="0">NO</value>
+	<value code="1">1 OR MORE TIMES PER DAY</value>
+	<value code="2">1 OR MORE TIMES PER WEEK</value>
+	<value code="3">1 OR MORE TIMES PER MONTH</value>
+	<value code="4">OTHER</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007179.v1">
+	<name>FT112</name>
+	<description>NUMBER OF MONTHS USED PERSONAL CARE ATTENDANT SINCE LAST EXAM</description>
+	<unit>MONTHS</unit>
+	<value code="0">NONE</value>
+	<value code="1">1 MONTH OR LESS</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007180.v1">
+	<name>FT113</name>
+	<description>USE REHABILITATION SERVICES CURRENTLY (SUCH AS PHYSICAL, OCCUPATIONAL, OR SPEECH THERAPY)</description>
+	<value code="0">NO</value>
+	<value code="1">1 OR MORE TIMES PER DAY</value>
+	<value code="2">1 OR MORE TIMES PER WEEK</value>
+	<value code="3">1 OR MORE TIMES PER MONTH</value>
+	<value code="4">OTHER</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007181.v1">
+	<name>FT114</name>
+	<description>USED REHABILITATION SERVICES SINCE LAST EXAM (SUCH AS PHYSICAL, OCCUPATIONAL, OR SPEECH THERAPY)</description>
+	<value code="0">NO</value>
+	<value code="1">1 OR MORE TIMES PER DAY</value>
+	<value code="2">1 OR MORE TIMES PER WEEK</value>
+	<value code="3">1 OR MORE TIMES PER MONTH</value>
+	<value code="4">OTHER</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007182.v1">
+	<name>FT115</name>
+	<description>NUMBER OF MONTHS USED REHABILITATION SERVICES SINCE LAST EXAM</description>
+	<unit>MONTHS</unit>
+	<value code="0">NONE</value>
+	<value code="1">1 MONTH OR LESS</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007183.v1">
+	<name>FT116</name>
+	<description>USE CARDIAC REHABILITATION CURRENTLY</description>
+	<value code="0">NO</value>
+	<value code="1">1 OR MORE TIMES PER DAY</value>
+	<value code="2">1 OR MORE TIMES PER WEEK</value>
+	<value code="3">1 OR MORE TIMES PER MONTH</value>
+	<value code="4">OTHER</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007184.v1">
+	<name>FT117</name>
+	<description>USED CARDIAC REHABILITATION SINCE LAST EXAM</description>
+	<value code="0">NO</value>
+	<value code="1">1 OR MORE TIMES PER DAY</value>
+	<value code="2">1 OR MORE TIMES PER WEEK</value>
+	<value code="3">1 OR MORE TIMES PER MONTH</value>
+	<value code="4">OTHER</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007185.v1">
+	<name>FT118</name>
+	<description>NUMBER OF MONTHS USED CARDIAC REHABILITATION SINCE LAST EXAM</description>
+	<unit>MONTHS</unit>
+	<value code="0">NONE</value>
+	<value code="1">1 MONTH OR LESS</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007186.v1">
+	<name>FT119</name>
+	<description>USE MEALS ON WHEELS CURRENTLY</description>
+	<value code="0">NO</value>
+	<value code="1">1 OR MORE TIMES PER DAY</value>
+	<value code="2">1 OR MORE TIMES PER WEEK</value>
+	<value code="3">1 OR MORE TIMES PER MONTH</value>
+	<value code="4">OTHER</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007187.v1">
+	<name>FT120</name>
+	<description>USED MEALS ON WHEELS SINCE LAST EXAM</description>
+	<value code="0">NO</value>
+	<value code="1">1 OR MORE TIMES PER DAY</value>
+	<value code="2">1 OR MORE TIMES PER WEEK</value>
+	<value code="3">1 OR MORE TIMES PER MONTH</value>
+	<value code="4">OTHER</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007188.v1">
+	<name>FT121</name>
+	<description>NUMBER OF MONTHS USED MEALS ON WHEELS SINCE LAST EXAM</description>
+	<unit>MONTHS</unit>
+	<value code="0">NONE</value>
+	<value code="1">1 MONTH OR LESS</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007189.v1">
+	<name>FT122</name>
+	<description>USE COMMUNITY DAY PROGRAMS CURRENTLY</description>
+	<value code="0">NO</value>
+	<value code="1">1 OR MORE TIMES PER DAY</value>
+	<value code="2">1 OR MORE TIMES PER WEEK</value>
+	<value code="3">1 OR MORE TIMES PER MONTH</value>
+	<value code="4">OTHER</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007190.v1">
+	<name>FT123</name>
+	<description>USED COMMUNITY DAY PROGRAMS SINCE LAST EXAM</description>
+	<value code="0">NO</value>
+	<value code="1">1 OR MORE TIMES PER DAY</value>
+	<value code="2">1 OR MORE TIMES PER WEEK</value>
+	<value code="3">1 OR MORE TIMES PER MONTH</value>
+	<value code="4">OTHER</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007191.v1">
+	<name>FT124</name>
+	<description>NUMBER OF MONTHS USED COMMUNITY DAY PROGRAMS SINCE LAST EXAM</description>
+	<unit>MONTHS</unit>
+	<value code="0">NONE</value>
+	<value code="1">1 MONTH OR LESS</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007192.v1">
+	<name>FT125</name>
+	<description>USE OTHER SERVICES CURRENTLY</description>
+	<value code="0">NO</value>
+	<value code="1">1 OR MORE TIMES PER DAY</value>
+	<value code="2">1 OR MORE TIMES PER WEEK</value>
+	<value code="3">1 OR MORE TIMES PER MONTH</value>
+	<value code="4">OTHER</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007193.v1">
+	<name>FT126</name>
+	<description>USED OTHER SERVICES SINCE LAST EXAM</description>
+	<value code="0">NO</value>
+	<value code="1">1 OR MORE TIMES PER DAY</value>
+	<value code="2">1 OR MORE TIMES PER WEEK</value>
+	<value code="3">1 OR MORE TIMES PER MONTH</value>
+	<value code="4">OTHER</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007194.v1">
+	<name>FT127</name>
+	<description>NUMBER OF MONTHS USED OTHER SERVICES SINCE LAST EXAM</description>
+	<unit>MONTHS</unit>
+	<value code="0">NONE</value>
+	<value code="1">1 MONTH OR LESS</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007195.v1">
+	<name>FT129</name>
+	<description>ARE YOU IN BED OR IN A CHAIR FOR MOST OR ALL OF THE DAY? (ON THE AVERAGE?)</description>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+	<value code=".">UNKNOWN OR NOT SURE</value>
+</variable>
+
+<variable id="phv00007196.v1">
+	<name>FT130</name>
+	<description>DO YOU NEED A SPECIAL AID (WHEELCHAIR, CANE, WALKER) TO GET AROUND?</description>
+	<value code="0">NO</value>
+	<value code="1">YES, ALWAYS</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007197.v1">
+	<name>FT131</name>
+	<description>IF YES TO FT130, WHICH EQUIPMENT DO YOU USE: CANE OR WALKING STICK</description>
+	<value code="0">NO</value>
+	<value code="1">YES, ALWAYS</value>
+	<value code="2">YES, SOMETIMES</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007198.v1">
+	<name>FT132</name>
+	<description>IF YES TO FT130, WHICH EQUIPMENT DO YOU USE: WHEELCHAIR</description>
+	<value code="0">NO</value>
+	<value code="1">YES, ALWAYS</value>
+	<value code="2">YES, SOMETIMES</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007199.v1">
+	<name>FT133</name>
+	<description>IF YES TO FT130, WHICH EQUIPMENT DO YOU USE: WALKER</description>
+	<value code="0">NO</value>
+	<value code="1">YES, ALWAYS</value>
+	<value code="2">YES, SOMETIMES</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007200.v1">
+	<name>FT134</name>
+	<description>IF YES TO FT130, WHICH EQUIPMENT DO YOU USE: OTHER</description>
+	<value code="0">NO</value>
+	<value code="1">YES, ALWAYS</value>
+	<value code="2">YES, SOMETIMES</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007201.v1">
+	<name>FT135</name>
+	<description>ROSOW-BRESLAU QUESTIONS: ARE YOU ABLE TO DO HEAVY WORK AROUND THE HOUSE, LIKE SHOVEL SNOW OR WASH WINDOWS, WALLS OR FLOORS WITHOUT HELP?</description>
+	<value code="0">NO, UNABLE TO DO</value>
+	<value code="1">YES, INDEPENDENT</value>
+	<value code="2">DOES NOT DO</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007202.v1">
+	<name>FT136</name>
+	<description>ROSOW-BRESLAU: ARE YOU ABLE TO WALK HALF A MILE WITHOUT HELP? (ABOUT 4 - 6 BLOCKS)</description>
+	<value code="0">NO, UNABLE TO DO</value>
+	<value code="1">YES, INDEPENDENT</value>
+	<value code="2">DOES NOT DO</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007203.v1">
+	<name>FT137</name>
+	<description>ROSOW-BRESLAU: IF YOU HAD TO, COULD YOU DO ALL THE HOUSEKEEPING YOURSELF? (LIKE WASHING THE CLOTHES AND CLEANING)</description>
+	<value code="0">NO, UNABLE TO DO</value>
+	<value code="1">YES, INDEPENDENT</value>
+	<value code="2">DOES NOT DO</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007204.v1">
+	<name>FT138</name>
+	<description>ROSOW-BRESLAU: IF YOU HAD TO, COULD YOU DO ALL THE COOKING YOURSELF?</description>
+	<value code="0">NO, UNABLE TO DO</value>
+	<value code="1">YES, INDEPENDENT</value>
+	<value code="2">DOES NOT DO</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007205.v1">
+	<name>FT139</name>
+	<description>ROSOW-BRESLAU: IF YOU HAD TO, COULD YOU DO ALL THE GROCERY SHOPPING YOURSELF?</description>
+	<value code="0">NO, UNABLE TO DO</value>
+	<value code="1">YES, INDEPENDENT</value>
+	<value code="2">DOES NOT DO</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007206.v1">
+	<name>FT140</name>
+	<description>ROSOW-BRESLAU: DO YOU DRIVE?</description>
+	<value code="0">NO</value>
+	<value code="1">YES, CURRENTLY</value>
+	<value code="2">YES, NOT NOW</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007207.v1">
+	<name>FT141</name>
+	<description>ROSOW-BRESLAU: REASON FOR NOT DRIVING NOW</description>
+	<value code="1">HEALTH</value>
+	<value code="2">OTHER NON-HEALTH REASON</value>
+	<value code="3">NEVER LICENSED</value>
+	<value code="8">N/A, CURRENT DRIVER</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007208.v1">
+	<name>FT143</name>
+	<description>NAGI: PULLING OR PUSHING LARGE OBJECTS LIKE A LIVING ROOM CHAIR</description>
+	<value code="0">NO DIFFICULTY</value>
+	<value code="1">A LITTLE DIFFICULTY</value>
+	<value code="2">SOME DIFFICULTY</value>
+	<value code="3">A LOT OF DIFFICULTY</value>
+	<value code="4">UNABLE TO DO</value>
+	<value code="5">DON&#39;T DO ON MD ORDERS</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007209.v1">
+	<name>FT144</name>
+	<description>NAGI: EITHER STOOPING, CROUCHING, OR KNEELING</description>
+	<value code="0">NO DIFFICULTY</value>
+	<value code="1">A LITTLE DIFFICULTY</value>
+	<value code="2">SOME DIFFICULTY</value>
+	<value code="3">A LOT OF DIFFICULTY</value>
+	<value code="4">UNABLE TO DO</value>
+	<value code="5">DON&#39;T DO ON MD ORDERS</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007210.v1">
+	<name>FT145</name>
+	<description>NAGI: REACHING OR EXTENDING ARMS BELOW SHOULDER LEVEL</description>
+	<value code="0">NO DIFFICULTY</value>
+	<value code="1">A LITTLE DIFFICULTY</value>
+	<value code="2">SOME DIFFICULTY</value>
+	<value code="3">A LOT OF DIFFICULTY</value>
+	<value code="4">UNABLE TO DO</value>
+	<value code="5">DON&#39;T DO ON MD ORDERS</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007211.v1">
+	<name>FT146</name>
+	<description>NAGI: REACHING OR EXTENDING ARMS ABOVE SHOULDER LEVEL</description>
+	<value code="0">NO DIFFICULTY</value>
+	<value code="1">A LITTLE DIFFICULTY</value>
+	<value code="2">SOME DIFFICULTY</value>
+	<value code="3">A LOT OF DIFFICULTY</value>
+	<value code="4">UNABLE TO DO</value>
+	<value code="5">DON&#39;T DO ON MD ORDERS</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007212.v1">
+	<name>FT147</name>
+	<description>NAGI: EITHER WRITING, HANDLING, OR FINGERING SMALL OBJECTS</description>
+	<value code="0">NO DIFFICULTY</value>
+	<value code="1">A LITTLE DIFFICULTY</value>
+	<value code="2">SOME DIFFICULTY</value>
+	<value code="3">A LOT OF DIFFICULTY</value>
+	<value code="4">UNABLE TO DO</value>
+	<value code="5">DON&#39;T DO ON MD ORDERS</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007213.v1">
+	<name>FT148</name>
+	<description>NAGI: STANDING IN PLACE FOR LONG PERIODS, SAY 15 MINUTES</description>
+	<value code="0">NO DIFFICULTY</value>
+	<value code="1">A LITTLE DIFFICULTY</value>
+	<value code="2">SOME DIFFICULTY</value>
+	<value code="3">A LOT OF DIFFICULTY</value>
+	<value code="4">UNABLE TO DO</value>
+	<value code="5">DON&#39;T DO ON MD ORDERS</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007214.v1">
+	<name>FT149</name>
+	<description>NAGI: SITTING FOR LONG PERIODS, SAY 1 HOUR</description>
+	<value code="0">NO DIFFICULTY</value>
+	<value code="1">A LITTLE DIFFICULTY</value>
+	<value code="2">SOME DIFFICULTY</value>
+	<value code="3">A LOT OF DIFFICULTY</value>
+	<value code="4">UNABLE TO DO</value>
+	<value code="5">DON&#39;T DO ON MD ORDERS</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007215.v1">
+	<name>FT150</name>
+	<description>NAGI: LIFTING OR CARRYING WEIGHTS UNDER 10 POUNDS (LIKE A BAG OF POTATOES)</description>
+	<value code="0">NO DIFFICULTY</value>
+	<value code="1">A LITTLE DIFFICULTY</value>
+	<value code="2">SOME DIFFICULTY</value>
+	<value code="3">A LOT OF DIFFICULTY</value>
+	<value code="4">UNABLE TO DO</value>
+	<value code="5">DON&#39;T DO ON MD ORDERS</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007216.v1">
+	<name>FT151</name>
+	<description>NAGI: LIFTING OR CARRYING WEIGHTS OVER 10 POUNDS (LIKE A VERY HEAVY BAG OF GROCERIES)</description>
+	<value code="0">NO DIFFICULTY</value>
+	<value code="1">A LITTLE DIFFICULTY</value>
+	<value code="2">SOME DIFFICULTY</value>
+	<value code="3">A LOT OF DIFFICULTY</value>
+	<value code="4">UNABLE TO DO</value>
+	<value code="5">DON&#39;T DO ON MD ORDERS</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007217.v1">
+	<name>FT152</name>
+	<description>NAGI: GETTING IN AND OUT OF CAR</description>
+	<value code="0">NO DIFFICULTY</value>
+	<value code="1">A LITTLE DIFFICULTY</value>
+	<value code="2">SOME DIFFICULTY</value>
+	<value code="3">A LOT OF DIFFICULTY</value>
+	<value code="4">UNABLE TO DO</value>
+	<value code="5">DON&#39;T DO ON MD ORDERS</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007218.v1">
+	<name>FT153</name>
+	<description>NAGI: PUTTING ON SOCKS OR STOCKINGS</description>
+	<value code="0">NO DIFFICULTY</value>
+	<value code="1">A LITTLE DIFFICULTY</value>
+	<value code="2">SOME DIFFICULTY</value>
+	<value code="3">A LOT OF DIFFICULTY</value>
+	<value code="4">UNABLE TO DO</value>
+	<value code="5">DON&#39;T DO ON MD ORDERS</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007219.v1">
+	<name>FT155</name>
+	<description>IN THE PAST YEAR, HAVE YOU ACCIDENTALLY FALLEN AND HIT THE FLOOR OR GROUND? (CODE AS NO IF DURING SPORTS ACTIVITY)</description>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+	<value code="2">MAYBE</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007220.v1">
+	<name>FT156</name>
+	<description>HOW MANY TIMES DID YOU FALL IN THE PAST YEAR?</description>
+	<value code="0">DID NOT FALL IN THE PAST YEAR</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007221.v1">
+	<name>FT157</name>
+	<description>FRACTURES: SINCE YOUR LAST CLINIC VISIT HAVE YOU BROKEN ANY BONES?</description>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+	<value code="2">MAYBE</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007223.v1">
+	<name>FT179</name>
+	<description>BERKMAN: HOW MANY CLOSE FRIENDS DO YOU HAVE: PEOPLE THAT YOU FEEL AT EASE WITH, CAN TALK TO ABOUT PRIVATE MATTERS?</description>
+	<value code="0">NONE</value>
+	<value code="1">1 OR 2</value>
+	<value code="2">3 TO 5</value>
+	<value code="3">6 TO 9</value>
+	<value code="4">10 OR MORE</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007224.v1">
+	<name>FT180</name>
+	<description>BERKMAN: HOW MANY OF THESE CLOSE FRIENDS DO YOU SEE AT LEAST ONCE A MONTH?</description>
+	<value code="0">NONE</value>
+	<value code="1">1 OR 2</value>
+	<value code="2">3 TO 5</value>
+	<value code="3">6 TO 9</value>
+	<value code="4">10 OR MORE</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007225.v1">
+	<name>FT181</name>
+	<description>BERKMAN: HOW MANY RELATIVES DO YOU HAVE, PEOPLE THAT YOU FEEL AT EASE WITH, CAN TALK TO ABOUT PRIVATE MATTERS?</description>
+	<value code="0">NONE</value>
+	<value code="1">1 OR 2</value>
+	<value code="2">3 TO 5</value>
+	<value code="3">6 TO 9</value>
+	<value code="4">10 OR MORE</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007226.v1">
+	<name>FT182</name>
+	<description>BERKMAN: HOW MANY OF THESE RELATIVES DO YOU SEE AT LEAST ONCE A MONTH?</description>
+	<value code="0">NONE</value>
+	<value code="1">1 OR 2</value>
+	<value code="2">3 TO 5</value>
+	<value code="3">6 TO 9</value>
+	<value code="4">10 OR MORE</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007227.v1">
+	<name>FT183</name>
+	<description>BERKMAN: DO YOU PARTICIPATE IN ANY GROUPS SUCH AS A SENIOR CENTER, SOCIAL OR WORK GROUP, CHURCH CONNECTED GROUP, SELF-HELP GROUP, OR CHARITY, PUBLIC SERVICE OR COMMUNITY GROUP?</description>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007228.v1">
+	<name>FT184</name>
+	<description>BERKMAN: ABOUT HOW OFTEN DO YOU GO TO RELIGIOUS MEETINGS OR SERVICES?</description>
+	<value code="0">NEVER OR ALMOST NEVER</value>
+	<value code="1">ONCE OR TWICE A YEAR</value>
+	<value code="2">EVERY FEW MONTHS</value>
+	<value code="3">ONCE OR TWICE A MONTH</value>
+	<value code="4">ONCE A WEEK</value>
+	<value code="5">MORE THAN ONCE A WEEK</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007229.v1">
+	<name>FT185</name>
+	<description>BERKMAN: DO YOU HAVE MEDICARE OR MEDICAID?</description>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007230.v1">
+	<name>FT186</name>
+	<description>BERKMAN: DO YOU HAVE HEALTH INSURANCE?</description>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007231.v1">
+	<name>FT187</name>
+	<description>BERKMAN: IS THERE SOMEONE AVAILABLE TO YOU WHOM YOU CAN COUNT ON TO LISTEN TO YOU WHEN YOU NEED TO TALK?</description>
+	<value code="0">NONE OF THE TIME</value>
+	<value code="1">A LITTLE OF THE TIME</value>
+	<value code="2">SOME OF THE TIME</value>
+	<value code="3">MOST OF THE TIME</value>
+	<value code="4">ALL OF THE TIME</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007232.v1">
+	<name>FT188</name>
+	<description>BERKMAN: IS THERE SOMEONE AVAILABLE TO GIVE YOU GOOD ADVICE ABOUT A PROBLEM?</description>
+	<value code="0">NONE OF THE TIME</value>
+	<value code="1">A LITTLE OF THE TIME</value>
+	<value code="2">SOME OF THE TIME</value>
+	<value code="3">MOST OF THE TIME</value>
+	<value code="4">ALL OF THE TIME</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007233.v1">
+	<name>FT189</name>
+	<description>BERKMAN: IS THERE SOMEONE AVAILABLE TO YOU WHO SHOWS YOU LOVE AND AFFECTION?</description>
+	<value code="0">NONE OF THE TIME</value>
+	<value code="1">A LITTLE OF THE TIME</value>
+	<value code="2">SOME OF THE TIME</value>
+	<value code="3">MOST OF THE TIME</value>
+	<value code="4">ALL OF THE TIME</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007234.v1">
+	<name>FT190</name>
+	<description>BERKMAN: CAN YOU COUNT ON ANYONE TO PROVIDE YOU WITH EMOTIONAL SUPPORT (TALKING OVER PROBLEMS OR HELPING YOU MAKE A DIFFICULT DECISION)?</description>
+	<value code="0">NONE OF THE TIME</value>
+	<value code="1">A LITTLE OF THE TIME</value>
+	<value code="2">SOME OF THE TIME</value>
+	<value code="3">MOST OF THE TIME</value>
+	<value code="4">ALL OF THE TIME</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007235.v1">
+	<name>FT191</name>
+	<description>BERKMAN: DO YOU HAVE AS MUCH CONTACT AS YOU WOULD LIKE WITH SOMEONE YOU FEEL CLOSE TO, SOMEONE IN WHOM YOU CAN TRUST AND CONFIDE?</description>
+	<value code="0">NONE OF THE TIME</value>
+	<value code="1">A LITTLE OF THE TIME</value>
+	<value code="2">SOME OF THE TIME</value>
+	<value code="3">MOST OF THE TIME</value>
+	<value code="4">ALL OF THE TIME</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007236.v1">
+	<name>FT193</name>
+	<description>HAND GRIP STRENGTH TEST: TRIAL 1 - RIGHT HAND (MEASURED TO THE NEAREST KILOGRAM)</description>
+	<unit>KILOGRAMS</unit>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007237.v1">
+	<name>FT194</name>
+	<description>HAND GRIP STRENGTH TEST: TRIAL 2 - RIGHT HAND (MEASURED TO THE NEAREST KILOGRAM)</description>
+	<unit>KILOGRAMS</unit>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007238.v1">
+	<name>FT195</name>
+	<description>HAND GRIP STRENGTH TEST: TRIAL 3 - RIGHT HAND (MEASURED TO THE NEAREST KILOGRAM)</description>
+	<unit>KILOGRAMS</unit>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007239.v1">
+	<name>FT196</name>
+	<description>HAND GRIP STRENGTH TEST: TRIAL 1 - LEFT HAND (MEASURED TO THE NEAREST KILOGRAM)</description>
+	<unit>KILOGRAMS</unit>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007240.v1">
+	<name>FT197</name>
+	<description>HAND GRIP STRENGTH TEST: TRIAL 2 - LEFT HAND (MEASURED TO THE NEAREST KILOGRAM)</description>
+	<unit>KILOGRAMS</unit>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007241.v1">
+	<name>FT198</name>
+	<description>HAND GRIP STRENGTH TEST: TRIAL 3 - LEFT HAND (MEASURED TO THE NEAREST KILOGRAM)</description>
+	<unit>KILOGRAMS</unit>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007242.v1">
+	<name>FT199</name>
+	<description>HAND GRIP STRENGTH TEST: WAS THIS TEST COMPLETED?</description>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+	<value code="8">NOT ATTEMPTED</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007243.v1">
+	<name>FT200</name>
+	<description>HAND GRIP STRENGTH TEST: IF TEST NOT COMPLETED, WHY?</description>
+	<value code="1">PHYSICAL LIMITATION</value>
+	<value code="2">REFUSED</value>
+	<value code="3">OTHER</value>
+	<value code=".">UNKNOWN OR TEST COMPLETED (FT197 = 1)</value>
+</variable>
+
+<variable id="phv00007244.v1">
+	<name>FT201</name>
+	<description>PHYSICAL FUNCTION TEST, SIDE BY SIDE STAND, HELD FOR 10 SECONDS</description>
+	<unit>SECONDS</unit>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+	<value code="8">NOT ATTEMPTED</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007245.v1">
+	<name>FT202</name>
+	<description>IF FT201 NOT ATTEMPTED OR NOT COMPLETED, WHY NOT?</description>
+	<value code="1">PHYSICAL LIMITATION</value>
+	<value code="2">REFUSED</value>
+	<value code="3">OTHER</value>
+	<value code=".">UNKNOWN OR TEST COMPLETED (FT201 = 1)</value>
+</variable>
+
+<variable id="phv00007246.v1">
+	<name>FT203</name>
+	<description>SIDE BY SIDE STAND: NUMBER OF SECONDS HELD IF LESS THAN 10 (SECONDS)</description>
+	<unit>SECONDS</unit>
+	<value code=".">UNKNOWN OR HELD FOR 10 SECONDS (FT201= 1)</value>
+</variable>
+
+<variable id="phv00007247.v1">
+	<name>FT204</name>
+	<description>SIDE BY SIDE STAND: NUMBER OF PERCENT SECONDS HELD IF LESS THAN 10 SECONDS</description>
+	<unit>PERCENT SECONDS</unit>
+	<value code=".">UNKNOWN OR HELD FOR 10 SECONDS (FT201= 1)</value>
+</variable>
+
+<variable id="phv00007248.v1">
+	<name>FT205</name>
+	<description>WAS SEMI-TANDEM TEST COMPLETED? HELD FOR 10 SECONDS</description>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+	<value code="8">NOT ATTEMPTED</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007249.v1">
+	<name>FT206</name>
+	<description>IF FT205 NOT ATTEMPTED OR NOT COMPLETED, WHY NOT?</description>
+	<value code="1">PHYSICAL LIMITATION</value>
+	<value code="2">REFUSED</value>
+	<value code="3">OTHER</value>
+	<value code=".">UNKNOWN OR TEST COMPLETED (FT205 = 1)</value>
+</variable>
+
+<variable id="phv00007250.v1">
+	<name>FT207</name>
+	<description>SEMI-TANDEM: NUMBER OF SECONDS HELD IF LESS THAN 10 SECONDS</description>
+	<unit>SECONDS</unit>
+	<value code=".">UNKNOWN OR HELD FOR 10 SECONDS (FT204 = 1)</value>
+</variable>
+
+<variable id="phv00007251.v1">
+	<name>FT208</name>
+	<description>NUMBER OF PERCENT SECOND HELD IF LESS THAN 10 SECONDS</description>
+	<unit>SECONDS</unit>
+	<value code=".">UNKNOWN OR HELD FOR 10 SECONDS (FT205= 1)</value>
+</variable>
+
+<variable id="phv00007252.v1">
+	<name>FT209</name>
+	<description>WAS TANDEM TEST COMPLETED? HELD FOR 10 SECONDS</description>
+	<unit>SECONDS</unit>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+	<value code="8">NOT ATTEMPTED</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007253.v1">
+	<name>FT210</name>
+	<description>IF FT209 NOT ATTEMPTED OR NOT COMPLETED, WHY NOT?</description>
+	<value code="1">PHYSICAL LIMITATION</value>
+	<value code="2">REFUSED</value>
+	<value code="3">OTHER</value>
+	<value code=".">UNKNOWN OR TEST COMPLETED (FT209 = 1)</value>
+</variable>
+
+<variable id="phv00007254.v1">
+	<name>FT211</name>
+	<description>TANDEM STAND: NUMBER OF SECONDS HELD IF LESS THAN 10 SECONDS</description>
+	<unit>SECONDS</unit>
+	<value code=".">UNKNOWN OR HELD FOR 10 SECONDS (FT209 = 1)</value>
+</variable>
+
+<variable id="phv00007255.v1">
+	<name>FT212</name>
+	<description>NUMBER OF PERCENT SECONDS HELD IF LESS THAN 10 SECONDS</description>
+	<unit>PERCENT SECONDS</unit>
+	<value code=".">UNKNOWN OR HELD FOR 10 SECONDS (FT209= 1)</value>
+</variable>
+
+<variable id="phv00007256.v1">
+	<name>FT214</name>
+	<description>WAS REPEATED CHAIR STANDS TEST COMPLETED?</description>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+	<value code="8">NOT ATTEMPTED</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007257.v1">
+	<name>FT215</name>
+	<description>IF FT214 NOT ATTEMPTED OR NOT COMPLETED, WHY NOT?</description>
+	<value code="1">PHYSICAL LIMITATION</value>
+	<value code="2">REFUSED</value>
+	<value code="3">OTHER</value>
+	<value code="4">TEST STOPPED AT 60 SEC</value>
+	<value code=".">UNKNOWN OR TEST COMPLETED (FT214 = 1)</value>
+</variable>
+
+<variable id="phv00007258.v1">
+	<name>FT216</name>
+	<description>IF OFFSITE VISIT, CHAIR HEIGHT IN INCHES</description>
+	<unit>INCHES</unit>
+	<value code=".">UNKNOWN OR NOT OFFSITE TEST</value>
+</variable>
+
+<variable id="phv00007259.v1">
+	<name>FT217</name>
+	<description>IF OFFSITE VISIT, CHAIR HEIGHT IN PERCENT INCHES</description>
+	<unit>PERCENT INCHES</unit>
+	<value code=".">UNKNOWN OR NOT OFFSITE TEST</value>
+</variable>
+
+<variable id="phv00007260.v1">
+	<name>FT218</name>
+	<description>REPEATED CHAIR STANDS: SECONDS TO COMPLETE FIVE STANDS (IF NOT COMPLETED IN ONE MINUTE - STOP)</description>
+	<unit>SECONDS</unit>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007261.v1">
+	<name>FT219</name>
+	<description>REPEATED CHAIR STANDS: % SECONDS TO COMPLETE FIVE STANDS (IF NOT COMPLETED IN ONE MINUTE - STOP)</description>
+	<unit>% SECONDS</unit>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007262.v1">
+	<name>FT220</name>
+	<description>REPEATED CHAIR STANDS: IF LESS THAN FIVE STANDS, ENTER THE NUMBER</description>
+	<value code=".">UNKNOWN OR COMPLETED 5 STANDS</value>
+</variable>
+
+<variable id="phv00007263.v1">
+	<name>FT221</name>
+	<description>REPEATED CHAIR STANDS: 30 SECOND HEART RATE FOR POST-REPEATED CHAIR STAND</description>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007264.v1">
+	<name>FT222</name>
+	<description>WAS WALKING AID USED FOR MEASURED WALKS?</description>
+	<value code="0">NO AID</value>
+	<value code="1">CANE</value>
+	<value code="2">WALKER</value>
+	<value code="3">WHEELCHAIR</value>
+	<value code="4">OTHER</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007265.v1">
+	<name>FT223</name>
+	<description>WAS THIS FIRST WALK TEST COMPLETED?</description>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+	<value code="8">NOT ATTEMPTED</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007266.v1">
+	<name>FT224</name>
+	<description>IF FT223 NOT ATTEMPTED OR NOT COMPLETED, WHY NOT?</description>
+	<value code="1">PHYSICAL LIMITATION</value>
+	<value code="2">REFUSED</value>
+	<value code="3">OTHER</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007267.v1">
+	<name>FT225</name>
+	<description>MEASURED WALKS - FIRST WALK: WALK TIME (SECONDS)</description>
+	<unit>SECONDS</unit>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007268.v1">
+	<name>FT226</name>
+	<description>MEASURED WALKS - FIRST WALK: WALK TIME (HUNDREDTHS OF A SECOND)</description>
+	<unit>HUNDREDTHS OF A SECOND</unit>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007269.v1">
+	<name>FT227</name>
+	<description>WAS THE SECOND WALK TEST COMPLETED?</description>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+	<value code="8">NOT ATTEMPTED</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007270.v1">
+	<name>FT228</name>
+	<description>IF FT223 NOT ATTEMPTED OR NOT COMPLETED, WHY NOT?</description>
+	<value code="1">PHYSICAL LIMITATION</value>
+	<value code="2">REFUSED</value>
+	<value code="3">OTHER</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007271.v1">
+	<name>FT229</name>
+	<description>MEASURED WALKS - SECOND WALK: WALK TIME (SECONDS)</description>
+	<unit>SECONDS</unit>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007272.v1">
+	<name>FT230</name>
+	<description>MEASURED WALKS-SECOND WALK: WALK TIME (HUNDREDTHS OF A SECOND)</description>
+	<unit>HUNDREDTHS OF A SECOND</unit>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007273.v1">
+	<name>FT231</name>
+	<description>WAS THE QUICK WALK TEST COMPLETED?</description>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+	<value code="8">NOT ATTEMPTED</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007274.v1">
+	<name>FT232</name>
+	<description>IF FT231 NOT ATTEMPTED OR NOT COMPLETED, WHY NOT?</description>
+	<value code="1">PHYSICAL LIMITATION</value>
+	<value code="2">REFUSED</value>
+	<value code="3">OTHER</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007275.v1">
+	<name>FT233</name>
+	<description>MEASURED WALKS - QUICK WALK: WALK TIME (SECONDS)</description>
+	<unit>SECONDS</unit>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007276.v1">
+	<name>FT234</name>
+	<description>MEASURED WALKS - QUICK WALK: WALK TIME (HUNDREDTHS OF A SECOND)</description>
+	<unit>HUNDREDTHS OF A SECOND</unit>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007277.v1">
+	<name>FT237</name>
+	<description>HOSPITALIZATION (NOT JUST E.R.) IN INTERIM</description>
+	<value code="0">NO</value>
+	<value code="1">YES, HOSPITALIZATION</value>
+	<value code="2">YES, MORE THAN 1 HOSPITALIZATION</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007278.v1">
+	<name>FT238</name>
+	<description>E.R. VISIT IN INTERIM</description>
+	<value code="0">NO</value>
+	<value code="1">YES, 1 VISIT</value>
+	<value code="2">YES, MORE THAN 1 VISIT</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007279.v1">
+	<name>FT239</name>
+	<description>DAY SURGERY IN INTERIM</description>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007280.v1">
+	<name>FT240</name>
+	<description>ILLNESS WITH VISIT TO DOCTOR IN INTERIM</description>
+	<value code="0">NO</value>
+	<value code="1">YES, ONE VISIT</value>
+	<value code="2">YES, MORE THAN ONE VISIT</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007281.v1">
+	<name>FT241</name>
+	<description>CHECK UP IN INTERIM BY DOCTOR</description>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007282.v1">
+	<name>FT243</name>
+	<description>IN THE INTERIM HAVE YOU TAKEN MEDICATION FOR THE TREATMENT OF HYPERTENSION?</description>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+	<value code="2">YES, NOT NOW</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007283.v1">
+	<name>FT244</name>
+	<description>ANY OF THE CARDIOVASCULAR MEDICATIONS IN THE FOLLOWING SECTION?</description>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007284.v1">
+	<name>FT245</name>
+	<description>CARDIOVASCULAR MEDICATIONS: CARDIAC GLYCOSIDES</description>
+	<value code="0">NO</value>
+	<value code="1">YES, NOW</value>
+	<value code="2">YES, NOT NOW</value>
+	<value code="3">MAYBE</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007285.v1">
+	<name>FT246</name>
+	<description>CARDIOVASCULAR MEDICATIONS: NITROGLYCERINE</description>
+	<value code="0">NO</value>
+	<value code="1">YES, NOW</value>
+	<value code="2">YES, NOT NOW</value>
+	<value code="3">MAYBE</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007286.v1">
+	<name>FT247</name>
+	<description>CARDIOVASCULAR MEDICATIONS: LONGER ACTING NITRATES (ISORDIL, CARDILATE, ETC)</description>
+	<value code="0">NO</value>
+	<value code="1">YES, NOW</value>
+	<value code="2">YES, NOT NOW</value>
+	<value code="3">MAYBE</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007287.v1">
+	<name>FT248</name>
+	<description>CARDIOVASCULAR MEDICATIONS: CALCIUM CHANNEL BLOCKERS</description>
+	<value code="0">NO</value>
+	<value code="1">YES, NOW</value>
+	<value code="2">YES, NOT NOW</value>
+	<value code="3">MAYBE</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007288.v1">
+	<name>FT249</name>
+	<description>CALCIUM CHANNEL BLOCKER GROUP</description>
+	<value code="0">DOES NOT TAKE CALCIUM CHANNEL BLOCKERS</value>
+	<value code="1">VERAPAMIL</value>
+	<value code="2">DILTIAZEM</value>
+	<value code="3">NIFEDIPINE</value>
+	<value code="4">NICARDIPINE</value>
+	<value code="5">ISRADIPINE</value>
+	<value code="6">AMLODIPINE</value>
+	<value code="7">FELODIPINE</value>
+	<value code="8">NIMODIPINE</value>
+	<value code="9">MIBEFRADIL</value>
+	<value code="10">NISOLDIPINE</value>
+	<value code="11">BEPRIDIL</value>
+	<value code="12">OTHER</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007289.v1">
+	<name>FT250</name>
+	<description>CALCIUM CHANNEL BLOCKER: TABLET SIZE OF CALCIUM CHANNEL BLOCKER (MG)</description>
+	<unit>MG</unit>
+	<value code="0">DOES NOT TAKE CALCIUM CHANNEL BLOCKERS</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007290.v1">
+	<name>FT251</name>
+	<description>CALCIUM CHANNEL BLOCKER: NUMBER OF TIMES CALCIUM CHANNEL BLOCKER TAKEN PER DAY</description>
+	<value code="0">DOES NOT TAKE CALCIUM CHANNEL BLOCKERS</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007291.v1">
+	<name>FT252</name>
+	<description>CARDIOVASCULAR MEDICATIONS: BETA BLOCKERS</description>
+	<value code="0">NO</value>
+	<value code="1">YES, NOW</value>
+	<value code="2">YES, NOT NOW</value>
+	<value code="3">MAYBE</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007292.v1">
+	<name>FT253</name>
+	<description>BETA BLOCKER GROUP</description>
+	<value code="0">DOES NOT TAKE BETA BLOCKERS</value>
+	<value code="1">PROPRANOLOL</value>
+	<value code="2">TIMOLOL</value>
+	<value code="3">NADOLOL</value>
+	<value code="4">ATENOLOL</value>
+	<value code="5">METOPROLOL</value>
+	<value code="6">PINDOLOL</value>
+	<value code="7">CARVEDILOL</value>
+	<value code="8">LABETOLOL</value>
+	<value code="9">OTHER</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007293.v1">
+	<name>FT254</name>
+	<description>BETA BLOCKER: DOSE (MG/DAY) OF BETA BLOCKERS</description>
+	<unit>MG/DAY</unit>
+	<value code="0">DOES NOT TAKE BETA BLOCKERS (241)</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007294.v1">
+	<name>FT255</name>
+	<description>CARDIOVASCULAR MEDICATIONS: LOOP DIURETICS (LASIX, ETC)</description>
+	<value code="0">NO</value>
+	<value code="1">YES, NOW</value>
+	<value code="2">YES, NOT NOW</value>
+	<value code="3">MAYBE</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007295.v1">
+	<name>FT256</name>
+	<description>CARDIOVASCULAR MEDICATIONS: THIAZIDE/K-SPARING DIURETICS (DYAZIDE, MAXIDE, ETC)</description>
+	<value code="0">NO</value>
+	<value code="1">YES, NOW</value>
+	<value code="2">YES, NOT NOW</value>
+	<value code="3">MAYBE</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007296.v1">
+	<name>FT257</name>
+	<description>CARDIOVASCULAR MEDICATIONS: THIAZIDE DIURETICS</description>
+	<value code="0">NO</value>
+	<value code="1">YES, NOW</value>
+	<value code="2">YES, NOT NOW</value>
+	<value code="3">MAYBE</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007297.v1">
+	<name>FT258</name>
+	<description>CARDIOVASCULAR MEDICATIONS: K-SPARING DIURETICS (ALDACTONE, TRIAMTERENE)</description>
+	<value code="0">NO</value>
+	<value code="1">YES, NOW</value>
+	<value code="2">YES, NOT NOW</value>
+	<value code="3">MAYBE</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007298.v1">
+	<name>FT259</name>
+	<description>CARDIOVASCULAR MEDICATIONS: POTASSIUM SUPPLEMENTS</description>
+	<value code="0">NO</value>
+	<value code="1">YES, NOW</value>
+	<value code="2">YES, NOT NOW</value>
+	<value code="3">MAYBE</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007299.v1">
+	<name>FT260</name>
+	<description>CARDIOVASCULAR MEDICATIONS: RESERPINE DERIVATIVES</description>
+	<value code="0">NO</value>
+	<value code="1">YES, NOW</value>
+	<value code="2">YES, NOT NOW</value>
+	<value code="3">MAYBE</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007300.v1">
+	<name>FT261</name>
+	<description>CARDIOVASCULAR MEDICATIONS: METHYLDOPA (ALDOMET)</description>
+	<value code="0">NO</value>
+	<value code="1">YES, NOW</value>
+	<value code="2">YES, NOT NOW</value>
+	<value code="3">MAYBE</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007301.v1">
+	<name>FT262</name>
+	<description>CARDIOVASCULAR MEDICATIONS: ALPHA-1 AGONIST (CLONIDINE, WYTENSIN, GUANABENZ)</description>
+	<value code="0">NO</value>
+	<value code="1">YES, NOW</value>
+	<value code="2">YES, NOT NOW</value>
+	<value code="3">MAYBE</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007302.v1">
+	<name>FT263</name>
+	<description>CARDIOVASCULAR MEDICATIONS: ALPHA-2 BLOCKERS (PRAZOSIN, TERAZOSIN, DOXAZOSIN)</description>
+	<value code="0">NO</value>
+	<value code="1">YES, NOW</value>
+	<value code="2">YES, NOT NOW</value>
+	<value code="3">MAYBE</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007303.v1">
+	<name>FT264</name>
+	<description>CARDIOVASCULAR MEDICATIONS: RENIN-ANGIOTENSIN BLOCKING DRUGS (ACE) (CAPTOPRIL, ENALAPRIL, LISINOPRIL)</description>
+	<value code="0">NO</value>
+	<value code="1">YES, NOW</value>
+	<value code="2">YES, NOT NOW</value>
+	<value code="3">MAYBE</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007304.v1">
+	<name>FT265</name>
+	<description>CARDIOVASCULAR MEDICATIONS: PERIPHERAL VASODILATORS (HYDRALAZINE, MINOXIDIL, ETC)</description>
+	<value code="0">NO</value>
+	<value code="1">YES, NOW</value>
+	<value code="2">YES, NOT NOW</value>
+	<value code="3">MAYBE</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007305.v1">
+	<name>FT266</name>
+	<description>CARDIOVASCULAR MEDICATIONS: ANGIOTENSIN II ANTAGONISTS (LOSARTAN, ETC)</description>
+	<value code="0">NO</value>
+	<value code="1">YES, NOW</value>
+	<value code="2">YES, NOT NOW</value>
+	<value code="3">MAYBE</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007306.v1">
+	<name>FT267</name>
+	<description>CARDIOVASCULAR MEDICATIONS: OTHER ANTI-HYPERTENSIVES</description>
+	<value code="0">NO</value>
+	<value code="1">YES, NOW</value>
+	<value code="2">YES, NOT NOW</value>
+	<value code="3">MAYBE</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007307.v1">
+	<name>FT268</name>
+	<description>CARDIOVASCULAR MEDICATIONS: ANTIARRHYTHMICS (QUINIDINE, PROCAINAMIDE, NORPACE, DISOPYRAMIDE, ETC.)</description>
+	<value code="0">NO</value>
+	<value code="1">YES, NOW</value>
+	<value code="2">YES, NOT NOW</value>
+	<value code="3">MAYBE</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007308.v1">
+	<name>FT269</name>
+	<description>CARDIOVASCULAR MEDICATIONS: ANTIPLATELET (ANTURANE, PERSANTINE, ETC.)</description>
+	<value code="0">NO</value>
+	<value code="1">YES, NOW</value>
+	<value code="2">YES, NOT NOW</value>
+	<value code="3">MAYBE</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007309.v1">
+	<name>FT270</name>
+	<description>CARDIOVASCULAR MEDICATIONS: ANTICOAGULANTS (COUMADIN, WARFARIN, ETC.)</description>
+	<value code="0">NO</value>
+	<value code="1">YES, NOW</value>
+	<value code="2">YES, NOT NOW</value>
+	<value code="3">MAYBE</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007310.v1">
+	<name>FT271</name>
+	<description>CARDIOVASCULAR MEDICATIONS: OTHER CARDIAC MEDICATION</description>
+	<value code="0">NO</value>
+	<value code="1">YES, NOW</value>
+	<value code="2">YES, NOT NOW</value>
+	<value code="3">MAYBE</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007311.v1">
+	<name>FT272</name>
+	<description>TAKE ASPIRIN REGULARLY?</description>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007312.v1">
+	<name>FT273</name>
+	<description>ASPIRIN: NUMBER ASPIRINS TAKEN REGULARLY</description>
+	<value code="0">DOES NOT TAKE ASPIRIN REGULARLY</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007313.v1">
+	<name>FT274</name>
+	<description>ASPIRIN: ASPIRIN FREQUENCY</description>
+	<value code="0">NEVER</value>
+	<value code="1">DAY</value>
+	<value code="2">WEEK</value>
+	<value code="3">MONTH</value>
+	<value code="4">YEAR</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007314.v1">
+	<name>FT275</name>
+	<description>ASPIRIN: USUAL ASPIRIN DOSE</description>
+	<value code="0">DOES NOT TAKE ASPIRIN REGULARLY</value>
+	<value code="81">BABY</value>
+	<value code="160">HALF DOSE</value>
+	<value code="325">NORMAL</value>
+	<value code="500">EXTRA OR LARGER</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007315.v1">
+	<name>FT276</name>
+	<description>NONCARDIOVASCULAR MEDICATIONS: ANTI CHOLESTEROL DRUGS (RESINS - E.G. QUESTRAN, COLESTID)</description>
+	<value code="0">NO</value>
+	<value code="1">YES, NOW</value>
+	<value code="2">YES, NOT NOW</value>
+	<value code="3">MAYBE</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007316.v1">
+	<name>FT277</name>
+	<description>NONCARDIOVASCULAR MEDICATIONS: ANTI CHOLESTEROL DRUGS (NIACIN OR NICOTINIC ACID)</description>
+	<value code="0">NO</value>
+	<value code="1">YES, NOW</value>
+	<value code="2">YES, NOT NOW</value>
+	<value code="3">MAYBE</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007317.v1">
+	<name>FT278</name>
+	<description>NONCARDIOVASCULAR MEDICATIONS: ANTI CHOLESTEROL DRUGS (FIBRATES - E.G. GEMFIBROZIL)</description>
+	<value code="0">NO</value>
+	<value code="1">YES, NOW</value>
+	<value code="2">YES, NOT NOW</value>
+	<value code="3">MAYBE</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007318.v1">
+	<name>FT279</name>
+	<description>NONCARDIOVASCULAR MEDICATIONS: ANTI CHOLESTEROL DRUGS (STATINS - E.G. LOVASTATIN, PRAVASTATIN)</description>
+	<value code="0">NO</value>
+	<value code="1">YES, NOW</value>
+	<value code="2">YES, NOT NOW</value>
+	<value code="3">MAYBE</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007319.v1">
+	<name>FT280</name>
+	<description>NONCARDIOVASCULAR MEDICATIONS: ANTI CHOLESTEROL DRUGS (OTHER)</description>
+	<value code="0">NO</value>
+	<value code="1">YES, NOW</value>
+	<value code="2">YES, NOT NOW</value>
+	<value code="3">MAYBE</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007320.v1">
+	<name>FT281</name>
+	<description>NONCARDIOVASCULAR MEDICATIONS: ANTIGOUT - URIC ACID LOWERING (ALLOPURINOL, PROBENECID, ETC.)</description>
+	<value code="0">NO</value>
+	<value code="1">YES, NOW</value>
+	<value code="2">YES, NOT NOW</value>
+	<value code="3">MAYBE</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007321.v1">
+	<name>FT282</name>
+	<description>NONCARDIOVASCULAR MEDICATIONS: ANTIGOUT (COLCHICINE)</description>
+	<value code="0">NO</value>
+	<value code="1">YES, NOW</value>
+	<value code="2">YES, NOT NOW</value>
+	<value code="3">MAYBE</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007322.v1">
+	<name>FT283</name>
+	<description>NONCARDIOVASCULAR MEDICATIONS: THYROID EXTRACT (DESICCATED THYROID)</description>
+	<value code="0">NO</value>
+	<value code="1">YES, NOW</value>
+	<value code="2">YES, NOT NOW</value>
+	<value code="3">MAYBE</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007323.v1">
+	<name>FT284</name>
+	<description>NONCARDIOVASCULAR MEDICATIONS: THYROXINE (SYNTHROID, ETC.)</description>
+	<value code="0">NO</value>
+	<value code="1">YES, NOW</value>
+	<value code="2">YES, NOT NOW</value>
+	<value code="3">MAYBE</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007324.v1">
+	<name>FT285</name>
+	<description>NONCARDIOVASCULAR MEDICATIONS: INSULIN</description>
+	<value code="0">NO</value>
+	<value code="1">YES, NOW</value>
+	<value code="2">YES, NOT NOW</value>
+	<value code="3">MAYBE</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007325.v1">
+	<name>FT286</name>
+	<description>INSULIN: TOTAL UNITS A DAY</description>
+	<unit>TOTAL UNITS A DAY</unit>
+	<value code="0">DOES NOT TAKE INSULIN</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007326.v1">
+	<name>FT287</name>
+	<description>NONCARDIOVASCULAR MEDICATIONS: ORAL HYPOGLYCEMICS</description>
+	<value code="0">NO</value>
+	<value code="1">YES, NOW</value>
+	<value code="2">YES, NOT NOW</value>
+	<value code="3">MAYBE</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007327.v1">
+	<name>FT288</name>
+	<description>ORAL HYPOGLYCEMICS: METFORMIN</description>
+	<value code="0">NO</value>
+	<value code="1">YES, NOW</value>
+	<value code="2">YES, NOT NOW</value>
+	<value code="3">MAYBE</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007328.v1">
+	<name>FT289</name>
+	<description>ORAL HYPOGLYCEMICS: ROSIGLITAZONE</description>
+	<value code="0">NO</value>
+	<value code="1">YES, NOW</value>
+	<value code="2">YES, NOT NOW</value>
+	<value code="3">MAYBE</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007329.v1">
+	<name>FT290</name>
+	<description>ORAL HYPOGLYCEMICS: GLIPIZIDE</description>
+	<value code="0">NO</value>
+	<value code="1">YES, NOW</value>
+	<value code="2">YES, NOT NOW</value>
+	<value code="3">MAYBE</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007330.v1">
+	<name>FT291</name>
+	<description>ORAL HYPOGLYCEMICS: GLYBURIDE</description>
+	<value code="0">NO</value>
+	<value code="1">YES, NOW</value>
+	<value code="2">YES, NOT NOW</value>
+	<value code="3">MAYBE</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007331.v1">
+	<name>FT292</name>
+	<description>ORAL HYPOGLYCEMICS: REPAGLINIDE</description>
+	<value code="0">NO</value>
+	<value code="1">YES, NOW</value>
+	<value code="2">YES, NOT NOW</value>
+	<value code="3">MAYBE</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007332.v1">
+	<name>FT293</name>
+	<description>ORAL HYPOGLYCEMICS: GLIMEPRIRIDE</description>
+	<value code="0">NO</value>
+	<value code="1">YES, NOW</value>
+	<value code="2">YES, NOT NOW</value>
+	<value code="3">MAYBE</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007333.v1">
+	<name>FT294</name>
+	<description>HYPOGLYCEMICS: CHLORPROPAMIDE</description>
+	<value code="0">NO</value>
+	<value code="1">YES, NOW</value>
+	<value code="2">YES, NOT NOW</value>
+	<value code="3">MAYBE</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007334.v1">
+	<name>FT295</name>
+	<description>ORAL HYPOGLYCEMICS: OTHER</description>
+	<value code="0">NO</value>
+	<value code="1">YES, NOW</value>
+	<value code="2">YES, NOT NOW</value>
+	<value code="3">MAYBE</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007335.v1">
+	<name>FT296</name>
+	<description>ORAL HYPOGLYCEMICS: UNKNOWN</description>
+	<value code="0">NO</value>
+	<value code="1">YES, NOW</value>
+	<value code="2">YES, NOT NOW</value>
+	<value code="3">MAYBE</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007336.v1">
+	<name>FT297</name>
+	<description>NONCARDIOVASCULAR MEDICATIONS: ORAL/PATCH ESTROGEN (FOR WOMEN USERS ALSO SEE ESTROGEN SECTION)</description>
+	<value code="0">NO</value>
+	<value code="1">YES, NOW</value>
+	<value code="2">YES, NOT NOW</value>
+	<value code="3">MAYBE</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007337.v1">
+	<name>FT298</name>
+	<description>NONCARDIOVASCULAR MEDICATIONS: ORAL GLUCOCORTICOIDS (PREDNISONE, CORTISONE, ETC.)</description>
+	<value code="0">NO</value>
+	<value code="1">YES, NOW</value>
+	<value code="2">YES, NOT NOW</value>
+	<value code="3">MAYBE</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007338.v1">
+	<name>FT299</name>
+	<description>NONCARDIOVASCULAR MEDICATIONS: NON-STEROIDAL ANTI-INFLAMMATORY AGENTS (NSAIDS) (MOTRIN, IBUPROFEN, NAPROSYN, INDOCIN, CLINORIL)</description>
+	<value code="0">NO</value>
+	<value code="1">YES, NOW</value>
+	<value code="2">YES, NOT NOW</value>
+	<value code="3">MAYBE</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007339.v1">
+	<name>FT300</name>
+	<description>NONCARDIOVASCULAR MEDICATIONS: ANALGESIC-NARCOTICS (DEMEROL, CODEINE, DILAUDID, ETC.)</description>
+	<value code="0">NO</value>
+	<value code="1">YES, NOW</value>
+	<value code="2">YES, NOT NOW</value>
+	<value code="3">MAYBE</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007340.v1">
+	<name>FT301</name>
+	<description>NONCARDIOVASCULAR MEDICATIONS: ANALGESIC NON-NARCOTICS (ACETAMINOPHEN, ETC.)</description>
+	<value code="0">NO</value>
+	<value code="1">YES, NOW</value>
+	<value code="2">YES, NOT NOW</value>
+	<value code="3">MAYBE</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007341.v1">
+	<name>FT302</name>
+	<description>NONCARDIOVASCULAR MEDICATIONS: ANTIHISTAMINES</description>
+	<value code="0">NO</value>
+	<value code="1">YES, NOW</value>
+	<value code="2">YES, NOT NOW</value>
+	<value code="3">MAYBE</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007342.v1">
+	<name>FT303</name>
+	<description>NONCARDIOVASCULAR MEDICATIONS: ANTIULCER (TAGAMET, RANITIDINE, PROBANTHINE, H ION INHIBITORS)</description>
+	<value code="0">NO</value>
+	<value code="1">YES, NOW</value>
+	<value code="2">YES, NOT NOW</value>
+	<value code="3">MAYBE</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007343.v1">
+	<name>FT304</name>
+	<description>NONCARDIOVASCULAR MEDICATIONS: ANTI-ANXIETY, SEDATIVE/HYPNOTICS (LIBRIUM, VALIUM, ETC.)</description>
+	<value code="0">NO</value>
+	<value code="1">YES, NOW</value>
+	<value code="2">YES, NOT NOW</value>
+	<value code="3">MAYBE</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007344.v1">
+	<name>FT305</name>
+	<description>NONCARDIOVASCULAR MEDICATIONS: SLEEPING PILLS</description>
+	<value code="0">NO</value>
+	<value code="1">YES, NOW</value>
+	<value code="2">YES, NOT NOW</value>
+	<value code="3">MAYBE</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007345.v1">
+	<name>FT306</name>
+	<description>NONCARDIOVASCULAR MEDICATIONS: ANTI-DEPRESSANTS</description>
+	<value code="0">NO</value>
+	<value code="1">YES, NOW</value>
+	<value code="2">YES, NOT NOW</value>
+	<value code="3">MAYBE</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007346.v1">
+	<name>FT307</name>
+	<description>NONCARDIOVASCULAR MEDICATIONS: EYE DROPS</description>
+	<value code="0">NO</value>
+	<value code="1">YES, NOW</value>
+	<value code="2">YES, NOT NOW</value>
+	<value code="3">MAYBE</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007347.v1">
+	<name>FT308</name>
+	<description>NONCARDIOVASCULAR MEDICATIONS: ANTIBIOTICS</description>
+	<value code="0">NO</value>
+	<value code="1">YES, NOW</value>
+	<value code="2">YES, NOT NOW</value>
+	<value code="3">MAYBE</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007348.v1">
+	<name>FT309</name>
+	<description>NONCARDIOVASCULAR MEDICATIONS: ANTI-PARKINSON DRUGS (SINEMET, L-DOPA, SYMMETREL, COGENTIN, ETC.)</description>
+	<value code="0">NO</value>
+	<value code="1">YES, NOW</value>
+	<value code="2">YES, NOT NOW</value>
+	<value code="3">MAYBE</value>
+</variable>
+
+<variable id="phv00007349.v1">
+	<name>FT310</name>
+	<description>NONCARDIOVASCULAR MEDICATIONS: MEDICATIONS FOR MEMORY LOSS OR DEMENTIA (TACRINE, DONEPAZIL)</description>
+	<value code="0">NO</value>
+	<value code="1">YES, NOW</value>
+	<value code="2">YES, NOT NOW</value>
+	<value code="3">MAYBE</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007350.v1">
+	<name>FT311</name>
+	<description>NONCARDIOVASCULAR MEDICATIONS: ANTICONVULSANTS (DILANTIN, PHENOBARBITAL, TEGRETOL, MYSOLINE, ETC.)</description>
+	<value code="0">NO</value>
+	<value code="1">YES, NOW</value>
+	<value code="2">YES, NOT NOW</value>
+	<value code="3">MAYBE</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007351.v1">
+	<name>FT312</name>
+	<description>NONCARDIOVASCULAR MEDICATIONS: BRONCHODILATORS AND AEROSOLS</description>
+	<value code="0">NO</value>
+	<value code="1">YES, NOW</value>
+	<value code="2">YES, NOT NOW</value>
+	<value code="3">MAYBE</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007352.v1">
+	<name>FT313</name>
+	<description>NONCARDIOVASCULAR MEDICATIONS: OSTEOPOROSIS MEDICATIONS</description>
+	<value code="0">NO</value>
+	<value code="1">YES, NOW</value>
+	<value code="2">YES, NOT NOW</value>
+	<value code="3">MAYBE</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007353.v1">
+	<name>FT314</name>
+	<description>OSTEOPOROSIS MEDICATIONS: BISPHOSPHORATES (ALENDRONATE, (FOSAMAX), ETIDRONATE)</description>
+	<value code="0">NO</value>
+	<value code="1">YES, NOW</value>
+	<value code="2">YES, NOT NOW</value>
+	<value code="3">MAYBE</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007354.v1">
+	<name>FT315</name>
+	<description>OSTEOPOROSIS MEDICATIONS: CALCITONIN</description>
+	<value code="0">NO</value>
+	<value code="1">YES, NOW</value>
+	<value code="2">YES, NOT NOW</value>
+	<value code="3">MAYBE</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007355.v1">
+	<name>FT316</name>
+	<description>OSTEOPOROSIS MEDICATIONS: SERMS, EVISTA (RALOXIFENE)</description>
+	<value code="0">NO</value>
+	<value code="1">YES, NOW</value>
+	<value code="2">YES, NOT NOW</value>
+	<value code="3">MAYBE</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007356.v1">
+	<name>FT317</name>
+	<description>OSTEOPOROSIS MEDICATIONS: OTHER</description>
+	<value code="0">NO OR NOT TAKING OSTEOPOR0SIS MEDICATIONS</value>
+	<value code="1">YES, NOW</value>
+	<value code="2">YES, NOT NOW</value>
+	<value code="3">MAYBE</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007357.v1">
+	<name>FT318</name>
+	<description>NONCARDIOVASCULAR MEDICATIONS: OTHERS (INCLUDING VITAMINS)</description>
+	<value code="0">NO</value>
+	<value code="1">YES, NOW</value>
+	<value code="2">YES, NOT NOW</value>
+	<value code="3">MAYBE</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007358.v1">
+	<name>FT319</name>
+	<description>MEDICAL HISTORY - BLOOD PRESSURE - 1ST READING (TO NEAREST 2MM HG)</description>
+	<unit>MM HG</unit>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007359.v1">
+	<name>FT320</name>
+	<description>MEDICAL HISTORY - BLOOD PRESSURE - 1ST READING (TO NEAREST 2MM HG)</description>
+	<unit>MM HG</unit>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007360.v1">
+	<name>FT321</name>
+	<description>MEDICAL HISTORY - BP CUFF SIZE - 1ST READING</description>
+	<value code="0">PEDI</value>
+	<value code="1">REGULAR ADULT</value>
+	<value code="2">LARGE ADULT</value>
+	<value code="3">THIGH</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007361.v1">
+	<name>FT322</name>
+	<description>MEDICAL HISTORY - PROTOCOL MODIFICATION - 1ST BP READING</description>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007362.v1">
+	<name>FT323</name>
+	<description>FEMALE HORMONE REPLACEMENT: ESTROGEN REPLACEMENT IN INTERIM (E.G. PREMARIN)</description>
+	<value code="0">NO</value>
+	<value code="1">YES, NOW</value>
+	<value code="2">YES, NOT NOW</value>
+	<value code="8">MAN</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007363.v1">
+	<name>FT324</name>
+	<description>FEMALE HORMONE REPLACEMENT: DOSE/DAY OF PREMARIN CONJUGATED ESTROGENS, OR OTHER ORAL ESTROGEN</description>
+	<value code="0">NO</value>
+	<value code="1">0.3 MG</value>
+	<value code="2">0.625 MG</value>
+	<value code="3">0.9 MG</value>
+	<value code="4">1.25 MG</value>
+	<value code="5">2.5 MG</value>
+	<value code="6">OTHER</value>
+	<value code="8">MAN</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007364.v1">
+	<name>FT325</name>
+	<description>FEMALE HORMONE REPLACEMENT: PATCH DOSE OF ESTROGEN</description>
+	<value code="0">NO</value>
+	<value code="1">0.5 MG/WEEK</value>
+	<value code="2">OTHER</value>
+	<value code="8">MAN</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007365.v1">
+	<name>FT326</name>
+	<description>FEMALE HORMONE REPLACEMENT: NUMBER OF DAYS A MONTH TAKING ESTROGENS</description>
+	<unit>DAYS</unit>
+	<value code="0">HAS NOT USED ESTROGEN REPLACEMENT IN INTERIM</value>
+	<value code="88">MAN</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007366.v1">
+	<name>FT327</name>
+	<description>FEMALE HORMONE REPLACEMENT: ESTROGEN CREAM USE IN INTERIM</description>
+	<value code="0">NO</value>
+	<value code="1">YES, NOW</value>
+	<value code="2">YES, NOT NOW</value>
+	<value code="8">MAN</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007367.v1">
+	<name>FT328</name>
+	<description>FEMALE HORMONE REPLACEMENT: PROGESTIN REPLACEMENT IN INTERIM (E.G. PROVERA)</description>
+	<value code="0">NO</value>
+	<value code="1">YES, NOW</value>
+	<value code="2">YES, NOT NOW</value>
+	<value code="8">MAN</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007368.v1">
+	<name>FT329</name>
+	<description>FEMALE HORMONE REPLACEMENT: DOSE/DAY OF PROGESTIN</description>
+	<value code="0">NO</value>
+	<value code="1">1.25 MG</value>
+	<value code="2">2.5 MG</value>
+	<value code="3">5.0 MG</value>
+	<value code="4">10.0 MG</value>
+	<value code="5">OTHER</value>
+	<value code="8">MAN</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007369.v1">
+	<name>FT330</name>
+	<description>FEMALE HORMONE REPLACEMENT: NUMBER OF DAYS A MONTH TAKING PROGESTINS</description>
+	<unit>DAYS</unit>
+	<value code="0">HAS NOT USED PROGESTIN REPLACEMENT IN INTERIM</value>
+	<value code="88">MAN</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007370.v1">
+	<name>FT331</name>
+	<description>PROSTATE TROUBLE IN INTERIM</description>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+	<value code="2">MAYBE</value>
+	<value code="8">WOMAN</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007371.v1">
+	<name>FT332</name>
+	<description>PROSTATE SURGERY IN INTERIM</description>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+	<value code="2">MAYBE</value>
+	<value code="8">WOMAN</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007372.v1">
+	<name>FT333</name>
+	<description>INTERIM DIAGNOSIS OF A THYROID CONDITION</description>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007373.v1">
+	<name>FT334</name>
+	<description>DO YOU DRINK BEER AT LEAST ONCE A MONTH?</description>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007374.v1">
+	<name>FT335</name>
+	<description>DO YOU DRINK WHITE WINE AT LEAST ONCE A MONTH?</description>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007375.v1">
+	<name>FT336</name>
+	<description>DO YOU DRINK RED WINE AT LEAST ONCE A MONTH?</description>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007376.v1">
+	<name>FT337</name>
+	<description>DO YOU DRINK LIQUOR/SPIRITS AT LEAST ONCE A MONTH?</description>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007377.v1">
+	<name>FT338</name>
+	<description>DO YOU DRINK OTHER BEVERAGE AT LEAST ONCE A MONTH?</description>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007378.v1">
+	<name>FT339</name>
+	<description>BEER: AVERAGE NUMBER OF BEER (12 OZ. BOTTLE, GLASS, CAN) YOU DRINK PER WEEK OVER THE PAST YEAR</description>
+	<unit>DRINKS PER WEEK</unit>
+	<value code="0">NONE OR DRANK BEER LESS THAN ONE PER WEEK</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007379.v1">
+	<name>FT340</name>
+	<description>BEER: AVERAGE NUMBER OF BEER (12 OZ. BOTTLE, GLASS, CAN) YOU DRINK PER MONTH OVER THE PAST YEAR</description>
+	<unit>DRINKS PER MONTH</unit>
+	<value code="0">NONE OR DRANK BEER LESS THAN ONE PER MONTH</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007380.v1">
+	<name>FT341</name>
+	<description>WHITE WINE: AVERAGE NUMBER OF WHITE WINE (4 OZ GLASS) YOU DRINK PER WEEK OVER THE PAST YEAR</description>
+	<unit>DRINKS PER WEEK</unit>
+	<value code="0">NONE OR DRANK WHITE WINE LESS THAN ONE PER WEEK</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007381.v1">
+	<name>FT342</name>
+	<description>WHITE WINE: AVERAGE NUMBER OF WHITE WINE (4 OZ GLASS) YOU DRINK PER MONTH OVER THE PAST YEAR</description>
+	<unit>DRINKS PER MONTH</unit>
+	<value code="0">NONE OR DRANK WHITE WINE LESS THAN ONE PER MONTH</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007382.v1">
+	<name>FT343</name>
+	<description>RED WINE: AVERAGE NUMBER OF RED WINE (4 OZ GLASS) YOU DRINK PER WEEK OVER THE PAST YEAR</description>
+	<unit>DRINKS PER WEEK</unit>
+	<value code="0">NONE OR DRANK RED WINE LESS THAN ONE PER WEEK</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007383.v1">
+	<name>FT344</name>
+	<description>RED WINE: AVERAGE NUMBER OF RED WINE (4 OZ GLASS) YOU DRINK PER MONTH OVER THE PAST YEAR</description>
+	<unit>DRINKS PER MONTH</unit>
+	<value code="0">NONE OR DRANK RED WINE LESS THAN ONE PER MONTH</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007384.v1">
+	<name>FT345</name>
+	<description>LIQUOR/SPIRITS: AVERAGE NUMBER OF LIQUOR/SPIRITS (1 OZ COCKTAIL/HIGHBALL) YOU DRINK PER WEEK OVER THE PAST YEAR</description>
+	<unit>DRINKS PER WEEK</unit>
+	<value code="0">NONE OR DRANK BEER LESS THAN ONE PER WEEK</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007385.v1">
+	<name>FT346</name>
+	<description>LIQUOR/SPIRITS: AVERAGE NUMBER OF LIQUOR/SPIRITS (1 OZ COCKTAIL/HIGHBALL YOU DRINK PER MONTH OVER THE PAST YEAR</description>
+	<unit>DRINKS PER MONTH</unit>
+	<value code="0">NONE OR DRANK LIQUOR/SPIRITS LESS THAN ONE PER MONTH</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007386.v1">
+	<name>FT347</name>
+	<description>OTHER BEVERAGE: AVERAGE NUMBER OF OTHER BEVERAGE YOU DRINK PER WEEK OVER THE PAST YEAR</description>
+	<unit>DRINKS PER WEEK</unit>
+	<value code="0">NONE OR DRANK OTHER BEVERAGE LESS THAN ONE PER WEEK</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007387.v1">
+	<name>FT348</name>
+	<description>OTHER BEVERAGE: AVERAGE NUMBER OF OTHER BEVERAGE YOU DRINK PER MONTH OVER THE PAST YEAR</description>
+	<unit>DRINKS PER MONTH</unit>
+	<value code="0">NONE OR DRANK OTHER BEVERAGE LESS THAN ONE PER MONTH</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007388.v1">
+	<name>FT349</name>
+	<description>SMOKING: SMOKED CIGARETTES REGULARLY IN THE LAST YEAR?</description>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007389.v1">
+	<name>FT350</name>
+	<description>SMOKING: HOW MANY CIGARETTES DO/DID YOU SMOKE A DAY?</description>
+	<value code="0">DID NOT SMOKE CIGARETTES IN THE LAST YEAR</value>
+	<value code="1">1 OR LESS</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007390.v1">
+	<name>FT351</name>
+	<description>DO YOU USUALLY COUGH ON MOST DAYS FOR 3 CONSECUTIVE MONTHS OR MORE DURING THE YEAR?</description>
+	<value code="0">NO</value>
+	<value code="1">YES, NEW IN INTERIM</value>
+	<value code="2">YES, OLD</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007391.v1">
+	<name>FT352</name>
+	<description>DO YOU USUALLY BRING UP PHLEGM FROM YOUR CHEST ON MOST DAYS FOR 3 CONSECUTIVE MONTHS OR MORE DURING THE YEAR?</description>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007392.v1">
+	<name>FT353</name>
+	<description>HAVE YOU HAD ASTHMA IN THE INTERIM?</description>
+	<value code="0">NO</value>
+	<value code="1">YES, NEW</value>
+	<value code="2">YES, OLD</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007393.v1">
+	<name>FT354</name>
+	<description>HAVE YOU HAD WHEEZING OR WHISTLING IN YOUR CHEST AT ANY TIME IN THE LAST 12 MONTHS?</description>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007394.v1">
+	<name>FT355</name>
+	<description>NIGHT COUGH</description>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007395.v1">
+	<name>FT356</name>
+	<description>DYSPNEA ON EXERTION</description>
+	<value code="0">NO</value>
+	<value code="1">CLIMBING STAIRS OR VIGOROUS EXERTION</value>
+	<value code="2">RAPID WALKING OR MODERATE EXERTION</value>
+	<value code="3">ANY SLIGHT EXERTION</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007396.v1">
+	<name>FT357</name>
+	<description>DYSPNEA HAS INCREASED OVER THE PAST TWO YEARS</description>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007397.v1">
+	<name>FT358</name>
+	<description>SLEEP ON 2 OR MORE PILLOWS TO HELP YOU BREATHE</description>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007398.v1">
+	<name>FT359</name>
+	<description>HAVE YOU AWAKENED SUDDENLY VERY SHORT OF BREATH, GASPING OR CHOKING (PND)? (CODE MOST SEVERE SYMPTOMS IN INTERIM)</description>
+	<value code="0">NEVER</value>
+	<value code="1">1 OR 2 TIMES/YEAR</value>
+	<value code="2">FEW NIGHTS/MONTH UNDER SPECIAL CIRCUMSTANCES</value>
+	<value code="3">AT LEAST ONCE WEEKLY, BUT IRREGULAR PATTERN</value>
+	<value code="4">3 TO 5 NIGHTS/WEEK</value>
+	<value code="5">5 TO 7 NIGHTS/WEEK</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007399.v1">
+	<name>FT360</name>
+	<description>ANKLE EDEMA BILATERALLY</description>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007400.v1">
+	<name>FT361</name>
+	<description>BEEN TOLD YOU HAVE HAD HEART FAILURE OR CONGESTIVE HEART FAILURE IN THE INTERIM</description>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007401.v1">
+	<name>FT362</name>
+	<description>BEEN HOSPITALIZED FOR HEART FAILURE IN INTERIM</description>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007402.v1">
+	<name>FT364</name>
+	<description>RESPIRATORY 1ST OPINIONS: 1ST EXAMINER BELIEVES CHRONIC BRONCHITIS (COUGH THAT PRODUCES SPUTUM AT LEAST 3 MONTHS IN PAST 12 MONTHS)</description>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+	<value code="2">MAYBE</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007403.v1">
+	<name>FT365</name>
+	<description>ANY CHEST DISCOMFORT SINCE LAST EXAM?</description>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+	<value code="2">MAYBE</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007404.v1">
+	<name>FT366</name>
+	<description>CHEST DISCOMFORT WITH EXERTION OR EXCITEMENT</description>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+	<value code="2">MAYBE</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007405.v1">
+	<name>FT367</name>
+	<description>CHEST DISCOMFORT WHEN QUIET OR RESTING</description>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+	<value code="2">MAYBE</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007406.v1">
+	<name>FT370</name>
+	<description>CHEST DISCOMFORT: USUAL DURATION (MINUTES)</description>
+	<unit>MINUTES</unit>
+	<value code="0">NO CHEST DISCOMFORT SINCE LAST EXAM</value>
+	<value code="1">1 MINUTE OR LESS</value>
+	<value code="900">15 HOURS OR MORE</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007407.v1">
+	<name>FT371</name>
+	<description>CHEST DISCOMFORT: LONGEST DURATION (MINUTES)</description>
+	<unit>MINUTES</unit>
+	<value code="0">NO CHEST DISCOMFORT SINCE LAST EXAM</value>
+	<value code="1">1 MINUTE OR LESS</value>
+	<value code="900">15 HOURS OR MORE</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007408.v1">
+	<name>FT372</name>
+	<description>CHEST DISCOMFORT: LOCATION</description>
+	<value code="0">NO CHEST DISCOMFORT SINCE LAST EXAM</value>
+	<value code="1">CENTRAL STERNUM AND UPPER CHEST</value>
+	<value code="2">LEFT UPPER QUADRANT</value>
+	<value code="3">LEFT LOWER RIBCAGE</value>
+	<value code="4">RIGHT CHEST</value>
+	<value code="5">OTHER</value>
+	<value code="6">COMBINATION</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007409.v1">
+	<name>FT373</name>
+	<description>CHEST DISCOMFORT: RADIATION</description>
+	<value code="0">NO</value>
+	<value code="1">LEFT SHOULDER OR LEFT ARM</value>
+	<value code="2">NECK</value>
+	<value code="3">RIGHT SHOULDER OR RIGHT ARM</value>
+	<value code="4">BACK</value>
+	<value code="5">ABDOMEN</value>
+	<value code="6">OTHER</value>
+	<value code="7">COMBINATION</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007410.v1">
+	<name>FT374</name>
+	<description>CHEST DISCOMFORT: FREQUENCY (NUMBER IN PAST MONTH)</description>
+	<value code="0">ZERO TIMES IN THE PAST MONTH OR NO CHEST DISCOMFORT SINCE LAST EXAM</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007411.v1">
+	<name>FT375</name>
+	<description>CHEST DISCOMFORT: FREQUENCY (NUMBER IN PAST YEAR)</description>
+	<value code="0">ZERO TIMES IN THE PAST YEAR OR NO CHEST DISCOMFORT SINCE LAST EXAM</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007412.v1">
+	<name>FT376</name>
+	<description>CHEST DISCOMFORT: TYPE</description>
+	<value code="0">NO CHEST DISCOMFORT SINCE LAST EXAM</value>
+	<value code="1">PRESSURE, HEAVY, VISE</value>
+	<value code="2">SHARP</value>
+	<value code="3">DULL</value>
+	<value code="4">OTHER</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007413.v1">
+	<name>FT377</name>
+	<description>CHEST DISCOMFORT: RELIEF BY NITROGLYCERINE IN &lt; 15 MINUTES</description>
+	<value code="0">NO RELIEF OR NO CHEST DISCOMFORT SINCE LAST EXAM</value>
+	<value code="1">YES</value>
+	<value code="8">NOT TRIED</value>
+	<value code=".">UNKNOWN/NO CHEST DISCOMFORT SINCE LAST EXAM</value>
+</variable>
+
+<variable id="phv00007414.v1">
+	<name>FT378</name>
+	<description>CHEST DISCOMFORT: RELIEF BY REST IN &lt; 15 MINUTES</description>
+	<value code="0">NO RELIEF OR NO CHEST DISCOMFORT SINCE LAST EXAM</value>
+	<value code="1">YES</value>
+	<value code="8">NOT TRIED</value>
+	<value code=".">UNKNOWN/NO CHEST DISCOMFORT SINCE LAST EXAM</value>
+</variable>
+
+<variable id="phv00007415.v1">
+	<name>FT379</name>
+	<description>CHEST DISCOMFORT: RELIEF SPONTANEOUSLY IN &lt; 15 MINUTES</description>
+	<value code="0">NO RELIEF OR NO CHEST DISCOMFORT SINCE LAST EXAM</value>
+	<value code="1">YES</value>
+	<value code="8">NOT TRIED</value>
+	<value code=".">UNKNOWN/NO CHEST DISCOMFORT SINCE LAST EXAM</value>
+</variable>
+
+<variable id="phv00007416.v1">
+	<name>FT380</name>
+	<description>CHEST DISCOMFORT: RELIEF BY OTHER CAUSE IN &lt; 15 MINUTES</description>
+	<unit>MINUTES</unit>
+	<value code="0">NO RELIEF OR NO CHEST DISCOMFORT SINCE LAST EXAM</value>
+	<value code="1">YES</value>
+	<value code="8">NOT TRIED</value>
+	<value code=".">UNKNOWN/NO CHEST DISCOMFORT SINCE LAST EXAM</value>
+</variable>
+
+<variable id="phv00007417.v1">
+	<name>FT385</name>
+	<description>HAVE YOU FAINTED OR LOST CONSCIOUSNESS IN THE INTERIM? IF DUE TO STROKE SKIP TO SCREEN 11 (IF EVENT IMMEDIATELY PRECEDED BY HEAD INJURY OR ACCIDENT CODE AS NO)</description>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+	<value code="2">MAYBE</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007418.v1">
+	<name>FT386</name>
+	<description>FAINTED/L.O.C. - NUMBER OF EPISODES IN THE PAST TWO YEARS</description>
+	<value code="0">NONE</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007419.v1">
+	<name>FT389</name>
+	<description>USUAL DURATION OF LOSS OF CONSCIOUSNESS (MINUTES)</description>
+	<unit>MINUTES</unit>
+	<value code="0">HAVE NOT FAINTED OR LOST CONSCIOUSNESS IN INTERIM</value>
+	<value code="1">ONE MINUTE OR LESS</value>
+	<value code=".">UNKNOW</value>
+</variable>
+
+<variable id="phv00007420.v1">
+	<name>FT390</name>
+	<description>FAINTED/L.O.C. - DID YOU HAVE ANY INJURY CAUSED BY THE EVENT?</description>
+	<value code="0">NO OR HAVE NOT FAINTED OR LOST CONSCIOUSNESS IN INTERIM</value>
+	<value code="1">YES</value>
+	<value code="2">MAYBE</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007421.v1">
+	<name>FT391</name>
+	<description>FAINTED/L.O.C. - ER/HOSPITALIZED OR SAW M.D.</description>
+	<value code="0">NO OR HAVE NOT FAINTED OR LOST CONSCIOUSNESS IN INTERIM</value>
+	<value code="1">HOSP/ER</value>
+	<value code="2">SAW M.D.</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007422.v1">
+	<name>FT392</name>
+	<description>SYNCOPE 1ST OPINIONS: SYNCOPE</description>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+	<value code="2">MAYBE</value>
+	<value code="3">PRESYNCOPE</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007423.v1">
+	<name>FT393</name>
+	<description>IF YES TO FT392, SYNCOPE 1ST OPINIONS: CARDIAC SYNCOPE</description>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+	<value code="2">MAYBE</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007424.v1">
+	<name>FT394</name>
+	<description>IF YES TO FT392, SYNCOPE 1ST OPINIONS: VASOVAGAL SYNCOPE</description>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+	<value code="2">MAYBE</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007425.v1">
+	<name>FT395</name>
+	<description>IF YES TO FT392, SYNCOPE 1ST OPINIONS: SYNCOPE - OTHER</description>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+	<value code="2">MAYBE</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007426.v1">
+	<name>FT396</name>
+	<description>SYNCOPE 1ST OPINIONS: SEIZURE DISORDER</description>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+	<value code="2">MAYBE</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007427.v1">
+	<name>FT397</name>
+	<description>SUDDEN MUSCULAR WEAKNESS IN INTERIM</description>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+	<value code="2">MAYBE</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007428.v1">
+	<name>FT398</name>
+	<description>SUDDEN SPEECH DIFFICULTY IN INTERIM</description>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+	<value code="2">MAYBE</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007429.v1">
+	<name>FT399</name>
+	<description>SUDDEN VISUAL DEFECT IN INTERIM</description>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+	<value code="2">MAYBE</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007430.v1">
+	<name>FT400</name>
+	<description>DOUBLE VISION IN INTERIM</description>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+	<value code="2">MAYBE</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007431.v1">
+	<name>FT401</name>
+	<description>SUDDEN LOSS OF VISION IN ONE EYE IN INTERIM</description>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+	<value code="2">MAYBE</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007432.v1">
+	<name>FT402</name>
+	<description>UNCONSCIOUSNESS IN INTERIM</description>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+	<value code="2">MAYBE</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007433.v1">
+	<name>FT403</name>
+	<description>NUMBNESS, TINGLING IN INTERIM</description>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+	<value code="2">MAYBE</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007434.v1">
+	<name>FT404</name>
+	<description>IF YES TO FT403, NUMBNESS AND TINGLING IS POSITIONAL</description>
+	<value code="0">NO OR NO NUMBNESS, TINGLING</value>
+	<value code="1">YES</value>
+	<value code="2">MAYBE</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007435.v1">
+	<name>FT405</name>
+	<description>HEAD CT OR MRI SCAN SINCE LAST EXAM</description>
+	<value code="0">NO</value>
+	<value code="1">CT</value>
+	<value code="2">MRI</value>
+	<value code="3">BOTH</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007436.v1">
+	<name>FT406</name>
+	<description>SEEN BY NEUROLOGIST SINCE LAST EXAM</description>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+	<value code="2">MAYBE</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007437.v1">
+	<name>FT410</name>
+	<description>DETAILS FOR &quot;SERIOUS&quot; CEREBROVASCULAR EVENT: ONSET TIME</description>
+	<value code="0">NO CEREBROVASCULAR EVENT IN THE INTERIM</value>
+	<value code="1">ACTIVE</value>
+	<value code="2">DURING SLEEP</value>
+	<value code="3">WHILE ARISING</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007438.v1">
+	<name>FT411</name>
+	<description>DETAILS FOR &quot;SERIOUS&quot; CEREBROVASCULAR EVENT: EXACT/APPROXIMATE HOUR EVENT TOOK PLACE (24 HOUR MILITARY TIME)</description>
+	<value code="0">0 HOURS OR NO CEREBROVASCULAR EVENT IN THE INTERIM</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007439.v1">
+	<name>FT412</name>
+	<description>DETAILS FOR &quot;SERIOUS&quot; CEREBROVASCULAR EVENT: EXACT/APPROXIMATE MINUTE EVENT TOOK PLACE(24 HOUR MILITARY TIME)</description>
+	<value code="0">0 HOURS OR NO CEREBROVASCULAR EVENT IN THE INTERIM</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007440.v1">
+	<name>FT413</name>
+	<description>DETAILS FOR &quot;SERIOUS&quot; CEREBROVASCULAR EVENT IN INTERIM DURATION EVENT LASTED (DAYS)</description>
+	<unit>DAYS</unit>
+	<value code="0">0 DAYS OR NO CEREBROVASCULAR EVENT IN THE INTERIM</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007441.v1">
+	<name>FT414</name>
+	<description>DETAILS FOR &quot;SERIOUS&quot; CEREBROVASCULAR EVENT DURATION EVENT LASTED (HOURS)</description>
+	<unit>HOURS</unit>
+	<value code="0">0 HOURS OR NO CEREBROVASCULAR EVENT IN THE INTERIM</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007442.v1">
+	<name>FT415</name>
+	<description>DETAILS FOR &quot;SERIOUS&quot; CEREBROVASCULAR EVENT DURATION EVENT LASTED (MINUTES)</description>
+	<unit>MINUTES</unit>
+	<value code="0">0 MINUTES OR NO CEREBROVASCULAR EVENT IN THE INTERIM</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007443.v1">
+	<name>FT416</name>
+	<description>DETAILS FOR &quot;SERIOUS&quot; CEREBROVASCULAR EVENT HOSPITALIZED OR SAW M.D.</description>
+	<value code="0">NO OR NO CEREBROVASCULAR EVENT IN THE INTERIM</value>
+	<value code="1">HOSPITALIZED</value>
+	<value code="2">SAW M.D.</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007444.v1">
+	<name>FT417</name>
+	<description>DETAILS FOR &quot;SERIOUS&quot; CEREBROVASCULAR EVENT NUMBER OF DAYS STAYED AT THE HOSPITAL</description>
+	<unit>DAYS</unit>
+	<value code="0">0 DAYS STAYED OR NO EVENT IN THE INTERIM</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007445.v1">
+	<name>FT420</name>
+	<description>NEUROLOGIST 1ST OPINION: DEMENTIA</description>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+	<value code="2">MAYBE</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007446.v1">
+	<name>FT421</name>
+	<description>NEUROLOGIST 1ST OPINION: PARKINSONISM IN INTERIM</description>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+	<value code="2">MAYBE</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007447.v1">
+	<name>FT422</name>
+	<description>NEUROLOGIST 1ST OPINION: OTHER EVENT IN INTERIM</description>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+	<value code="2">MAYBE</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007448.v1">
+	<name>FT423</name>
+	<description>CAN YOU WALK 50 FEET WITHOUT HELP?</description>
+	<value code="0">ABLE TO WALK 50 FEET WITHOUT HELP</value>
+	<value code="1">NEEDS HELP</value>
+	<value code="2">CAN&#39;T WALK</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007449.v1">
+	<name>FT424</name>
+	<description>DO YOU HAVE LOWER LIMB DISCOMFORT WHILE WALKING?</description>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+	<value code="2">CAN&#39;T WALK</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007450.v1">
+	<name>FT425</name>
+	<description>IF WALKING ON LEVEL GROUND, HOW MANY CITY BLOCKS UNTIL SYMPTOMS DEVELOP? (WHERE 10 BLOCKS = 1 MILE, CODE AS NO IF MORE THAN 98 BLOCKS REQUIRED TO DEVELOP SYMPTOMS)</description>
+	<value code="0">NO SYMPTOMS OR ZERO BLOCKS UNTIL SYMPTOMS DEVELOPE OR CAN&#39;T WALK</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007451.v1">
+	<name>FT427</name>
+	<description>VASCULAR SYMPTOMS: DISCOMFORT IN LEFT CALF WHILE WALKING</description>
+	<value code="0">NO OR NO LOWER LIMB DISCOMFORT OR CAN&#39;T WALK</value>
+	<value code="1">YES</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007452.v1">
+	<name>FT428</name>
+	<description>VASCULAR SYMPTOMS: DISCOMFORT IN RIGHT CALF WHILE WALKING</description>
+	<value code="0">NO OR NO LOWER LIMB DISCOMFORT OR CAN&#39;T WALK</value>
+	<value code="1">YES</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007453.v1">
+	<name>FT429</name>
+	<description>VASCULAR SYMPTOMS: DISCOMFORT IN LOWER LEFT EXTREMITY (NOT CALF) WHILE WALKING</description>
+	<value code="0">NO OR NO LOWER LIMB DISCOMFORT OR CAN&#39;T WALK</value>
+	<value code="1">YES</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007454.v1">
+	<name>FT430</name>
+	<description>VASCULAR SYMPTOMS: DISCOMFORT IN LOWER RIGHT EXTREMITY (NOT CALF) WHILE WALKING</description>
+	<value code="0">NO OR NO LOWER LIMB DISCOMFORT OR CAN&#39;T WALK</value>
+	<value code="1">YES</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007455.v1">
+	<name>FT431</name>
+	<description>VASCULAR SYMPTOMS: OCCURS WITH FIRST STEPS</description>
+	<value code="0">NO OR NO LOWER LIMB DISCOMFORT WHILE WALKING OR CAN&#39;T WALK</value>
+	<value code="1">YES</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007456.v1">
+	<name>FT432</name>
+	<description>VASCULAR SYMPTOMS: OCCURS AFTER WALKING A WHILE</description>
+	<value code="0">NO OR NO LOWER LIMB DISCOMFORT WHILE WALKING OR CAN&#39;T WALK</value>
+	<value code="1">YES</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007457.v1">
+	<name>FT433</name>
+	<description>VASCULAR SYMPTOMS: RELATED TO RAPIDITY OF WALKING OR STEEPNESS</description>
+	<value code="0">NO OR NO LOWER LIMB DISCOMFORT WHILE WALKING OR CAN&#39;T WALK</value>
+	<value code="1">YES</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007458.v1">
+	<name>FT434</name>
+	<description>VASCULAR SYMPTOMS: FORCED TO STOP WALKING</description>
+	<value code="0">NO OR NO LOWER LIMB DISCOMFORT WHILE WALKING OR CAN&#39;T WALK</value>
+	<value code="1">YES</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007459.v1">
+	<name>FT435</name>
+	<description>VASCULAR SYMPTOMS: TIME FOR DISCOMFORT TO BE RELIEVED BY STOPPING (MINUTES)</description>
+	<unit>MINUTES</unit>
+	<value code="0">NO RELIEF WITH STOPPING OR NO LOWER LIMB DISCOMFORT WHILE WALKING OR CAN&#39;T WALK</value>
+	<value code="88">NOT APPLICABLE</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007460.v1">
+	<name>FT436</name>
+	<description>VASCULAR SYMPTOMS: NUMBER OF DAYS/MONTH OF LOWER LIMB DISCOMFORT</description>
+	<unit>DAYS/MONTH</unit>
+	<value code="0">NO LOWER LIMB DISCOMFORT WHILE WALKING OR CAN&#39;T WALK</value>
+	<value code="1">1 DAY OR LESS</value>
+	<value code="88">NOT APPLICABLE</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007461.v1">
+	<name>FT437</name>
+	<description>VENOUS DISEASE: DEEP VEIN THROMBOSIS (BLOOD CLOTS IN LEGS OR ARMS)</description>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007462.v1">
+	<name>FT439</name>
+	<description>HEART VALVULAR SURGERY (MOST RECENT ONLY)</description>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+	<value code="2">MAYBE</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007463.v1">
+	<name>FT441</name>
+	<description>EXERCISE TOLERANCE TEST (MOST RECENT ONLY)</description>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+	<value code="2">MAYBE</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007464.v1">
+	<name>FT443</name>
+	<description>CORONARY ARTERIOGRAM (MOST RECENT ONLY)</description>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+	<value code="2">MAYBE</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007465.v1">
+	<name>FT445</name>
+	<description>CORONARY ARTERY ANGIOPLASTY</description>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+	<value code="2">MAYBE</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007466.v1">
+	<name>FT447</name>
+	<description>TYPE OF PROCEDURE DONE FOR CORONARY ARTERY ANGIOPLASTY</description>
+	<value code="0">NONE</value>
+	<value code="1">BALLOON</value>
+	<value code="2">STENT</value>
+	<value code="3">OTHER</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007467.v1">
+	<name>FT448</name>
+	<description>CORONARY BYPASS SURGERY</description>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+	<value code="2">MAYBE</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007468.v1">
+	<name>FT450</name>
+	<description>PERMANENT PACEMAKER INSERTION</description>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+	<value code="2">MAYBE</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007469.v1">
+	<name>FT452</name>
+	<description>CAROTID ARTERY SURGERY</description>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+	<value code="2">MAYBE</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007470.v1">
+	<name>FT454</name>
+	<description>THORACIC AORTA SURGERY</description>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+	<value code="2">MAYBE</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007471.v1">
+	<name>FT456</name>
+	<description>ABDOMINAL AORTA SURGERY</description>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+	<value code="2">MAYBE</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007472.v1">
+	<name>FT458</name>
+	<description>FEMORAL OR LOWER EXTREMITY SURGERY</description>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+	<value code="2">MAYBE</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007473.v1">
+	<name>FT462</name>
+	<description>OTHER CARDIOVASCULAR PROCEDURE</description>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+	<value code="2">MAYBE</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007474.v1">
+	<name>FT483</name>
+	<description>SYSTOLIC BLOOD PRESSURE - 2ND READING (TO NEAREST 2 MM HG)</description>
+	<unit>MM HG</unit>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007475.v1">
+	<name>FT484</name>
+	<description>DIASTOLIC BLOOD PRESSURE - 2ND READING (TO NEAREST 2 MM HG)</description>
+	<unit>MM HG</unit>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007476.v1">
+	<name>FT485</name>
+	<description>BP CUFF SIZE - 2ND BP READING</description>
+	<value code="0">PEDI</value>
+	<value code="1">REGULAR ADULT</value>
+	<value code="2">LARGE ADULT</value>
+	<value code="3">THIGH</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007477.v1">
+	<name>FT486</name>
+	<description>PROTOCOL MODIFICATION = 2ND BP READING</description>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007478.v1">
+	<name>FT488</name>
+	<description>ECG DONE</description>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007479.v1">
+	<name>FT489</name>
+	<description>ECG RATES AND INTERVALS: VENTRICULAR RATE PER MINUTE</description>
+	<unit>BEATS PER MINUTE</unit>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007480.v1">
+	<name>FT490</name>
+	<description>ECG RATES AND INTERVALS: P-R INTERVAL (HUNDREDTHS OF A SECOND)</description>
+	<unit>HUNDREDTHS OF A SECOND</unit>
+	<value code=".">FULLY PACED, ATRIAL FIBRILLATION, OR UNKNOWN</value>
+</variable>
+
+<variable id="phv00007481.v1">
+	<name>FT491</name>
+	<description>ECG RATES AND INTERVALS: QRS INTERVAL (HUNDREDTHS OF A SECOND)</description>
+	<unit>HUNDREDTHS OF A SECOND</unit>
+	<value code=".">FULLY PACED, UNKNOWN</value>
+</variable>
+
+<variable id="phv00007482.v1">
+	<name>FT492</name>
+	<description>ECG RATES AND INTERVALS: Q-T INTERVAL (HUNDREDTHS OF A SECOND)</description>
+	<unit>HUNDREDTHS OF A SECOND</unit>
+	<value code=".">FULLY PACED, UNKNOWN</value>
+</variable>
+
+<variable id="phv00007483.v1">
+	<name>FT493</name>
+	<description>ECG RATES AND INTERVALS:QRS ANGLE (PUT PLUS OR MINUS AS NEEDED)</description>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007484.v1">
+	<name>FT494</name>
+	<description>ECG: RHYTHM</description>
+	<value code="0">NORMAL SINUS (INCLUDING S.TACH, S.BRADY, S.ARRHY, 1 DEGREE AV BLOCK)</value>
+	<value code="1">NORMAL SINUS (INCLUDING S.TACH, S.BRADY, S.ARRHY, 1 DEGREE AV BLOCK)</value>
+	<value code="3">2ND DEGREE AV BLOCK, MOBITZ I (WENCKEBACH)</value>
+	<value code="4">2ND DEGREE AV BLOCK, MOBITZ II</value>
+	<value code="5">3RD DEGREE AV BLOCK/AV DISSOCIATION</value>
+	<value code="6">ATRIAL FIBRILLATION/ATRIAL FLUTTER</value>
+	<value code="7">NODAL</value>
+	<value code="8">PACED</value>
+	<value code="9">OTHER OR COMBINATION OF ABOVE</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007485.v1">
+	<name>FT495</name>
+	<description>ECG: VENTRICULAR CONDUCTION ABNORMALITIES: IV BLOCK</description>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+	<value code=".">FULLY PACED OR UNKNOWN</value>
+</variable>
+
+<variable id="phv00007486.v1">
+	<name>FT496</name>
+	<description>ECG: VENTRICULAR CONDUCTION ABNORMALITIES: PATTERN</description>
+	<value code="0">NO</value>
+	<value code="1">LEFT</value>
+	<value code="2">RIGHT</value>
+	<value code="3">INDETERMINATE</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007487.v1">
+	<name>FT497</name>
+	<description>ECG: VENTRICULAR CONDUCTION ABNORMALITIES: COMPLETE (QRS INTERVAL = 0.12 SEC OR GREATER)</description>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+	<value code=".">FULLY PACED OR UNKNOWN</value>
+</variable>
+
+<variable id="phv00007488.v1">
+	<name>FT498</name>
+	<description>ECG: VENTRICULAR CONDUCTION ABNORMALITIES: INCOMPLETE (QRS INTERVAL = 0.10 OR 0.11 SEC)</description>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+	<value code=".">FULLY PACED OR UNKNOWN</value>
+</variable>
+
+<variable id="phv00007489.v1">
+	<name>FT499</name>
+	<description>ECG: VENTRICULAR CONDUCTION ABNORMALITIES: HEMIBLOCK</description>
+	<value code="0">NO</value>
+	<value code="1">LEFT ANTERIOR</value>
+	<value code="2">LEFT POSTERIOR</value>
+	<value code=".">FULLY PACED OR UNKNOWN</value>
+</variable>
+
+<variable id="phv00007490.v1">
+	<name>FT500</name>
+	<description>ECG: VENTRICULAR CONDUCTION ABNORMALITIES: WPW SYNDROME</description>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+	<value code="2">MAYBE</value>
+	<value code=".">FULLY PACED OR UNKNOWN</value>
+</variable>
+
+<variable id="phv00007491.v1">
+	<name>FT501</name>
+	<description>ECG: ARRHYTHMIAS: ATRIAL PREMATURE BEATS</description>
+	<value code="0">NO</value>
+	<value code="1">ATRIAL</value>
+	<value code="2">ATRIAL ABERRATION</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007492.v1">
+	<name>FT502</name>
+	<description>ECG: ARRHYTHMIAS: VENTRICULAR PREMATURE BEATS</description>
+	<value code="0">NO</value>
+	<value code="1">SIMPLE</value>
+	<value code="2">MULTIFOCAL</value>
+	<value code="3">PAIRS</value>
+	<value code="4">RUN</value>
+	<value code="5">R ON T</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007493.v1">
+	<name>FT503</name>
+	<description>ECG: ARRHYTHMIAS: NUMBER OF VENTRICULAR PREMATURE BEATS IN 10 SECONDS (FROM 10 SECOND RHYTHM STRIP)</description>
+	<value code="0">NONE</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007494.v1">
+	<name>FT504</name>
+	<description>ECG: MYOCARDIAL INFARCTION LOCATION: ANTERIOR</description>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+	<value code="2">MAYBE</value>
+	<value code=".">FULLY PACED OR UNKNOWN</value>
+</variable>
+
+<variable id="phv00007495.v1">
+	<name>FT505</name>
+	<description>ECG: MYOCARDIAL INFARCTION LOCATION: INFERIOR</description>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+	<value code="2">MAYBE</value>
+	<value code=".">FULLY PACED OR UNKNOWN</value>
+</variable>
+
+<variable id="phv00007496.v1">
+	<name>FT506</name>
+	<description>ECG: MYOCARDIAL INFARCTION LOCATION: TRUE POSTERIOR</description>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+	<value code="2">MAYBE</value>
+	<value code=".">FULLY PACED OR UNKNOWN</value>
+</variable>
+
+<variable id="phv00007497.v1">
+	<name>FT507</name>
+	<description>ECG LVH: R &gt; 20 MM IN ANY LIMB LEAD</description>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+	<value code=".">FULLY PACED, COMPLETE LBBB, OR UNKNOWN</value>
+</variable>
+
+<variable id="phv00007498.v1">
+	<name>FT508</name>
+	<description>ECG LVH: R &gt; 11 MM IN AVL</description>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+	<value code=".">FULLY PACED, COMPLETE LBBB, OR UNKNOWN</value>
+</variable>
+
+<variable id="phv00007499.v1">
+	<name>FT509</name>
+	<description>ECG LVH: R IN LEAD I PLUS S &gt;= 25 MM IN LEAD III</description>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+	<value code=".">FULLY PACED, COMPLETE LBBB, OR UNKNOWN</value>
+</variable>
+
+<variable id="phv00007500.v1">
+	<name>FT510</name>
+	<description>ECG LVH: MEASURED VOLTAGE R AVL IN MM (1 MV = 10 MM STANDARD)</description>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007501.v1">
+	<name>FT511</name>
+	<description>ECG LVH: MEASURED VOLTAGE S V3 IN MM (1 MV = 10 MM STANDARD)</description>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007502.v1">
+	<name>FT512</name>
+	<description>ECG LVH: R IN V5 OR V6: S IN V1 OR V2: R &gt;= 25 MM</description>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007503.v1">
+	<name>FT513</name>
+	<description>ECG LVH: R IN V5 OR V6: S IN V1 OR V2: S &gt;= 25 MM</description>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007504.v1">
+	<name>FT514</name>
+	<description>ECG LVH: R IN V5 OR V6: S IN V1 OR V2: R OR S &gt;= 30 MM</description>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007505.v1">
+	<name>FT515</name>
+	<description>ECG LVH: R IN V5 OR V6: S IN V1 OR V2: R + S &gt;= 35 MM</description>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007506.v1">
+	<name>FT516</name>
+	<description>ECG LVH: INTRINSICOID DEFLECTION &gt;= 0.05 SEC</description>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007507.v1">
+	<name>FT517</name>
+	<description>ECG LVH: S-T DEPRESSION (STRAIN PATTERN)</description>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007508.v1">
+	<name>FT518</name>
+	<description>ECG: NONSPECIFIC S-T SEGMENT ABNORMALITY</description>
+	<value code="0">NO</value>
+	<value code="1">ST DEPRESSION</value>
+	<value code="2">ST FLATTENING</value>
+	<value code="3">OTHER</value>
+	<value code=".">FULLY PACED OR UNKNOWN</value>
+</variable>
+
+<variable id="phv00007509.v1">
+	<name>FT519</name>
+	<description>ECG: NONSPECIFIC T WAVE ABNORMALITY</description>
+	<value code="0">NO</value>
+	<value code="1">T INVERSION</value>
+	<value code="2">T FLATTENING</value>
+	<value code="3">OTHER</value>
+	<value code=".">FULLY PACED OR UNKNOWN</value>
+</variable>
+
+<variable id="phv00007510.v1">
+	<name>FT520</name>
+	<description>ECG: U-WAVE PRESENT</description>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+	<value code="2">MAYBE</value>
+	<value code=".">FULLY PACED OR UNKNOWN</value>
+</variable>
+
+<variable id="phv00007511.v1">
+	<name>FT521</name>
+	<description>ECG: ATRIAL ENLARGEMENT</description>
+	<value code="0">NONE</value>
+	<value code="1">LEFT</value>
+	<value code="2">RIGHT</value>
+	<value code="3">BOTH</value>
+	<value code=".">ATRIAL FIBRILLATION OR UNKNOWN</value>
+</variable>
+
+<variable id="phv00007512.v1">
+	<name>FT522</name>
+	<description>ECG: RVH (IF COMPLETE RBBB PRESENT, RVH = UNKNOWN)</description>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+	<value code="2">MAYBE</value>
+	<value code="9">COMPLETE RBBB PRESENT</value>
+	<value code=".">FULLY PACED OR UNKNOWN</value>
+</variable>
+
+<variable id="phv00007513.v1">
+	<name>FT523</name>
+	<description>ECG: LVH (IF COMPLETE LBBB PRESENT, LVH = UNKNOWN)</description>
+	<value code="0">NO</value>
+	<value code="1">LVH WITH STRAIN</value>
+	<value code="2">LVH WITH MILD S-T SEGMENT ABNORMALITY</value>
+	<value code="3">LVH BY VOLTAGE ONLY</value>
+	<value code="9">COMPLETE LBBB PRESENT</value>
+	<value code=".">FULLY PACED OR UNKNOWN</value>
+</variable>
+
+<variable id="phv00007514.v1">
+	<name>FT525</name>
+	<description>NON CARDIOVASCULAR DIAGNOSTIC 1ST EXAMINER OPINIONS - PROSTATE DISEASE</description>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+	<value code="2">MAYBE</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007515.v1">
+	<name>FT526</name>
+	<description>NON CARDIOVASCULAR DIAGNOSTIC 1ST EXAMINER OPINIONS - RENAL DISEASE</description>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+	<value code="2">MAYBE</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007516.v1">
+	<name>FT527</name>
+	<description>NON CARDIOVASCULAR DIAGNOSTIC 1ST EXAMINER OPINIONS - EMPHYSEMA</description>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+	<value code="2">MAYBE</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007517.v1">
+	<name>FT528</name>
+	<description>NON CARDIOVASCULAR DIAGNOSTIC 1ST EXAMINER OPINIONS - CHRONIC BRONCHITIS</description>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+	<value code="2">MAYBE</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007518.v1">
+	<name>FT529</name>
+	<description>NON CARDIOVASCULAR DIAGNOSTIC 1ST EXAMINER OPINIONS - PNEUMONIA</description>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+	<value code="2">MAYBE</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007519.v1">
+	<name>FT530</name>
+	<description>NON CARDIOVASCULAR DIAGNOSTIC 1ST EXAMINER OPINIONS - ASTHMA</description>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+	<value code="2">MAYBE</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007520.v1">
+	<name>FT531</name>
+	<description>NON CARDIOVASCULAR DIAGNOSTIC 1ST EXAMINER OPINIONS - OTHER PULMONARY DISEASE</description>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+	<value code="2">MAYBE</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007521.v1">
+	<name>FT532</name>
+	<description>NON CARDIOVASCULAR DIAGNOSTIC 1ST EXAMINER OPINIONS - GOUT</description>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+	<value code="2">MAYBE</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007522.v1">
+	<name>FT533</name>
+	<description>NON CARDIOVASCULAR DIAGNOSTIC 1ST EXAMINER OPINIONS - DEGENERATIVE JOINT DISEASE</description>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+	<value code="2">MAYBE</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007523.v1">
+	<name>FT534</name>
+	<description>NON CARDIOVASCULAR DIAGNOSTIC 1ST EXAMINER OPINIONS - RHEUMATOID ARTHRITIS</description>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+	<value code="2">MAYBE</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007524.v1">
+	<name>FT535</name>
+	<description>NON CARDIOVASCULAR DIAGNOSTIC 1ST EXAMINER OPINIONS - GALLBLADDER DISEASE</description>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+	<value code="2">MAYBE</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007525.v1">
+	<name>FT536</name>
+	<description>NON CARDIOVASCULAR DIAGNOSTIC 1ST EXAMINER OPINIONS - OTHER NON C-V DIAGNOSIS</description>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+	<value code="2">MAYBE</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007526.v1">
+	<name>FT542</name>
+	<description>CREATININE MG/100ML</description>
+	<unit>MG/100ML</unit>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007527.v1">
+	<name>FT543</name>
+	<description>GLUCOSE MG/100ML</description>
+	<unit>MG/100ML</unit>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007528.v1">
+	<name>FT544</name>
+	<description>HDL CHOLESTEROL MG/100ML</description>
+	<unit>MG/100ML</unit>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007529.v1">
+	<name>FT545</name>
+	<description>TOTAL CHOLESTEROL MG/100ML</description>
+	<unit>MG/100ML</unit>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007530.v1">
+	<name>FT546</name>
+	<description>TRIGLYCERIDES MG/100ML</description>
+	<unit>MG/100ML</unit>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007531.v1">
+	<name>FT537</name>
+	<description>BODY MASS INDEX</description>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007532.v1">
+	<name>FT539</name>
+	<description>TREATMENT FOR BLOOD PRESSURE</description>
+	<value code="0">NO</value>
+	<value code="1">YES (BY MEDS AND PHYSICIAN OPINION)</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00007534.v1">
+	<name>shareid</name>
+	<description>UNIQUE PARTICIPANT ID</description>
+</variable>
+
+</data_table>

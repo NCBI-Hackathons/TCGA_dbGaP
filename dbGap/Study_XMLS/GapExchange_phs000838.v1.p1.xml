@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GaPExchange xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="./dbGaPEx2.1.5.xsd">
+
+<MetaVariables>
+	<Submitter/>
+	<Method/>
+</MetaVariables>
+<MetaLinks/>
+
+<Projects>
+	<Project/>
+</Projects>
+
+<Studies>
+
+<Study source="dbGaP" accession="phs000838.v1.p1" parentStudy="phs000838.v1.p1" createDate="2014-11-17" modDate="2014-11-18">
+
+<Configuration>
+	<Data_Provider><![CDATA[
+		<table border="1">
+		<tr><th>Title</th><th>Name</th><th>Institute</th></tr>
+		<tr><td>Principal Investigator</td><td>Michael B Cook, PhD</td><td>National Cancer Institute, NIH, Rockville, MD, USA</td></tr>
+		</table>
+	]]></Data_Provider>
+	<StudyNameEntrez>Ghana Prostate Study</StudyNameEntrez>
+	<StudyNameReportPage>Ghana Prostate Study</StudyNameReportPage>
+	<StudyTypes>
+		<StudyType>Case-Control</StudyType>
+	</StudyTypes>
+	<Description><![CDATA[
+<p>Participants were recruited through the Ghana Prostate Study-a population-based component, and a clinical component. The population-based component was a probability sample designed using the 2000 Ghana Population and Housing Census data in an attempt to recruit approximately 1,000 men aged 50-74 years in the Greater Accra region (~3 million people), which successfully recruited 1,037 healthy men between 2004 and 2006 with a response percentage of 98.8 %. Consented individuals underwent an in-person interview, and within 7 days had a digital rectal examination (DRE) and provided an overnight fasting blood sample for prostate-specific antigen (PSA) testing, biomarker assays, and genetic analysis. Subjects who had a positive screen by PSA (&#62;2.5 ng/ml) or DRE underwent a transrectal ultrasound-guided biopsy. A total of 73 histologically confirmed prostate cancer cases were identified through the population-based screening component of the Ghana Prostate Study and were included in the case population in the published GWAS (Cook et al., Human genetics, 2013). From the remaining 964 screen-negative individuals, 836 had at least 20 &#956;g DNA extracted and available for analysis, and 500 of these were matched to cases for analysis by age (in 5-year categories).</p> <p>In the Ghana Prostate Study, we recruited 676 prostate cancer cases at Korle Bu Teaching Hospital in Accra, Ghana, between 2008 and 2012. All consented cases were interviewed and provided an overnight fasting blood sample. At the time of selection for this analysis we had recruited 582 prostate cancer cases, from which we selected 427 for analysis. Combined with the 73 cases diagnosed through the population-based component of the study, this yielded 500 available prostate cancer cases for analysis.</p>]]>
+	</Description>
+	<StudyInEx><![CDATA[
+<p>Cases had to have a pathologically confirmed diagnosis of prostate cancer. Controls underwent screening, and possibly biopsy, for prostate cancer and had to be negative for this malignancy.</p> <p>Pre-genotyping quality control metrics excluded six case samples and two controls. Twenty-seven (7 cases, 20 controls) samples were excluded due to low completion rate (lower than 94%) or extreme mean heterozygosity (lower than 13.5% or greater than 16.5%). A further five cases were excluded for having less than 80% African ancestry using the HapMap build 26 data (CEU, JPT &#43; CHB, YRI) as the continental reference populations in a STRUCTURE analysis. Principal components analysis (PCA) identified 16 individuals (5 cases, 11 controls) with significant deviation of eigenvectors and thus, they were excluded. Finally, unexpected relatedness (1st-2nd degree), assessed using the GLU qc.ibds module (<a href="http://code.google.com/p/glu-genetics/">http://code.google.com/p/glu-genetics/</a>) with an IBD0 threshold of 0.70, was detected for 11 pairs of full-sibling and one monozygotic twin; one individual randomly chosen from each related group was retained while two cases and nine controls were excluded. Note that one nuclear family involved three individuals and accounted for three related pairs, so, a total of 11 individuals were removed. In addition, one case sample was excluded due to incomplete phenotype with missing age. The final analytic data set included 474 prostate cancer cases and 458 screen-negative controls.</p>]]>
+	</StudyInEx>
+	<StudyProjects>
+		<Project/>
+	</StudyProjects>
+	<Publications>
+		<Publication>
+			<Pubmed pmid="24185611"/>
+		</Publication>
+		<Publication>
+			<Pubmed pmid="25217961"/>
+		</Publication>
+		<Publication>
+			<Pubmed pmid="25027329"/>
+		</Publication>
+		<Publication>
+			<Pubmed pmid="24747091"/>
+		</Publication>
+		<Publication>
+			<Pubmed pmid="21912428"/>
+		</Publication>
+		<Publication>
+			<Pubmed pmid="22111004"/>
+		</Publication>
+		<Publication>
+			<Pubmed pmid="24783269"/>
+		</Publication>
+	</Publications>
+	<Diseases>
+		<Disease vocab_source="MESH" vocab_term="Prostatic Neoplasms"/>
+		<Disease vocab_source="MESH" vocab_term="Prostatic Hyperplasia"/>
+	</Diseases>
+	<Attributions>
+		<Header title="Principal Investigator">
+			<AttName>Michael B Cook, PhD</AttName>
+			<Institution>National Cancer Institute, NIH, Rockville, MD, USA</Institution>
+		</Header>
+	</Attributions>
+	<DisplayPublicSummary>yes</DisplayPublicSummary>
+	<StudyURLs>
+		<Url name="Ghana Prostate Study" url="http://dceg.cancer.gov/research/cancer-types/prostate/ghana-prostate-cancer-study"/>
+	</StudyURLs>
+	<StudyHistory><![CDATA[
+<p>This is captured in the above two sections.</p>]]>
+	</StudyHistory>
+	<ConsentGroups>
+		<ConsentGroup groupNum="1" shortName="DS-UC-MDS" longName="Disease-Specific (Urinary Conditions, MDS)"/>
+	</ConsentGroups>
+</Configuration>
+
+  <AuthorizedAccess>
+    <DacInfo ssDacId="0">
+      <DacName>NCI</DacName>
+      <DacFullName>NCI</DacFullName>
+      <DacEmail>0</DacEmail>
+      <DacPhone></DacPhone>
+      <DacUrl></DacUrl>
+    </DacInfo>
+    <Policy Policy_ID="phs000838.v1.p1_policy" ref_ssDacId="0">
+      <DisplayResearchStatement>yes</DisplayResearchStatement>
+      <DisplayPublicSummary>yes</DisplayPublicSummary>
+      <EmbargoLength>0</EmbargoLength>
+      <YearsUntilRenewal>1</YearsUntilRenewal>
+      <WeeksCancelRequest>8</WeeksCancelRequest>
+      <PdfSupplementReqired>no</PdfSupplementReqired>
+      <AcknowledgementText>
+        <para>
+          http://dbgap.ncbi.nlm.nih.gov/aa/wga.cgi?page=DUC&amp;view_pdf&amp;stacc=phs000838.v1.p1
+        </para>
+      </AcknowledgementText>
+      <DocumentSet>
+        <DataUseCertificate Label="Data Use Certificate" FilePath="https://dbgap.ncbi.nlm.nih.gov/aa/wga.cgi?page=DUC&amp;view_pdf&amp;stacc=phs000838.v1.p1" FileName=""/>
+      </DocumentSet>
+    </Policy>
+    <ConsentGroups>
+      <ParticipantSet groupNum-REF="1">
+        <ConsentName>Disease-Specific (Urinary Conditions, MDS)</ConsentName>
+        <ConsentAbbrev>DS-UC-MDS</ConsentAbbrev>
+        <UseLimitation>Use of the data must be related to Urinary Conditions.
+Use of the data includes methods development research (e.g., development of software or algorithms).</UseLimitation>
+        <IrbRequired>No</IrbRequired>
+      </ParticipantSet>
+    </ConsentGroups>
+  </AuthorizedAccess>
+
+
+</Study>
+
+</Studies>
+
+</GaPExchange>

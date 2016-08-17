@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./datadict_v2.xsl"?>
+<data_table id="pht001002.v1" study_id="phs000200.v1" participant_set="1" date_created="Thu Dec 17 19:18:57 2009">
+
+<unique_key phv="00078747" version="1">SHAREID</unique_key>
+<unique_key phv="00078748" version="1">F33VTYP</unique_key>
+<unique_key phv="00078749" version="1">F33VY</unique_key>
+<unique_key phv="00078750" version="1">F33DAYS</unique_key>
+
+<variable id="phv00078747.v1">
+	<name>SHAREID</name>
+	<description>WHI SHARe ID</description>
+	<type>integer</type>
+</variable>
+
+<variable id="phv00078748.v1">
+	<name>F33VTYP</name>
+	<description>Visit type</description>
+	<type>encoded value</type>
+	<value code="2">Semi-Annual Visit</value>
+	<value code="3">Annual Visit</value>
+	<value code="4">Non-Routine Visit</value>
+	<value code="6">Diet Intervention</value>
+	<value code="7">Interim</value>
+	<value code="8">Amendment</value>
+</variable>
+
+<variable id="phv00078749.v1">
+	<name>F33VY</name>
+	<description>Visit year</description>
+	<type>integer</type>
+	<logical_min>1</logical_min>
+	<logical_max>11</logical_max>
+	<comment>Visit year for which this form was collected.</comment>
+</variable>
+
+<variable id="phv00078750.v1">
+	<name>F33DAYS</name>
+	<description>F33 Days since randomization/enrollment</description>
+	<type>integer</type>
+	<unit>days</unit>
+	<logical_min>14</logical_min>
+	<logical_max>4067</logical_max>
+</variable>
+
+<variable id="phv00078751.v1">
+	<name>F33WHOM</name>
+	<description>F33 Completed by whom</description>
+	<type>encoded value</type>
+	<comment>Who is completing this form
+		Not collected on all versions of Form 33. </comment>
+	<value code="1">WHI participant (self)</value>
+	<value code="2">Family or friend</value>
+	<value code="3">Health care provider</value>
+	<value code="8">Other</value>
+</variable>
+
+<variable id="phv00078752.v1">
+	<name>F33FAINT</name>
+	<description>F33 Fainted or Blacked out</description>
+	<type>encoded value</type>
+	<comment>Since your last medical update, have you fainted, blacked out, or lost consiousness?</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00078753.v1">
+	<name>F33FALLS</name>
+	<description>F33 Times Fallen</description>
+	<type>encoded value</type>
+	<comment>Since your last medical update, how many times did you fall and land on the floor or ground?</comment>
+	<value code="0">None</value>
+	<value code="1">1 time</value>
+	<value code="2">2 times</value>
+	<value code="3">3 or more times</value>
+</variable>
+
+<variable id="phv00078754.v1">
+	<name>PHYSEXAM</name>
+	<description>Physical Exam or check up</description>
+	<type>encoded value</type>
+	<comment>Since your last medical update, which of the following exams, tests, or procedures have you had: Physical exam or check up
+		Not collected on all versions of Form 33. </comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00078755.v1">
+	<name>EYEEXAM</name>
+	<description>F33 Eye exam</description>
+	<type>encoded value</type>
+	<comment>Since your last medical update, which of the following exams, tests, or procedures have you had: Eye exam
+		Not collected on all versions of Form 33. </comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00078756.v1">
+	<name>BRSTEXAM</name>
+	<description>Breast Exam</description>
+	<type>encoded value</type>
+	<comment>Since your last medical update, which of the following exams, tests, or procedures have you had: Breast exam</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00078757.v1">
+	<name>MAMMOGRM</name>
+	<description>F33 Mammogram</description>
+	<type>encoded value</type>
+	<comment>Since your last medical update, which of the following exams, tests, or procedures have you had: Mammogram</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00078758.v1">
+	<name>BRSTBPSY</name>
+	<description>F33 Breast Biopsy Aspiration</description>
+	<type>encoded value</type>
+	<comment>Since your last medical update, which of the following exams, tests, or procedures have you had: Test of breast tissue or fluid for disease (Breast biopsy or aspiration)</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00078759.v1">
+	<name>RCTLEXAM</name>
+	<description>Rectal Exam</description>
+	<type>encoded value</type>
+	<comment>Since your last medical update, which of the following exams, tests, or procedures have you had: Rectal exam</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00078760.v1">
+	<name>HEMOCLT</name>
+	<description>Hemoccult</description>
+	<type>encoded value</type>
+	<comment>Since your last medical update, which of the following exams, tests, or procedures have you had: Test for the presence of blood in your stool or bowel movement (Hemoccult, guaiac)</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00078761.v1">
+	<name>FLEXSIG</name>
+	<description>Flex Sig</description>
+	<type>encoded value</type>
+	<comment>Since your last medical update, which of the following exams, tests, or procedures have you had: Tube inserted into your bowel from below to check for bowel problems (Sigmoidoscopy, flex. sig., or colonoscopy)</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00078762.v1">
+	<name>BARIUM</name>
+	<description>Barium Enema</description>
+	<type>encoded value</type>
+	<comment>Since your last medical update, which of the following exams, tests, or procedures have you had: Barium enema x-ray
+		Not collected on all versions of Form 33. </comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00078763.v1">
+	<name>BPCHECK</name>
+	<description>Blood Pressure Check</description>
+	<type>encoded value</type>
+	<comment>Since your last medical update, which of the following exams, tests, or procedures have you had: Blood pressure check
+		Not collected on all versions of Form 33. </comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00078764.v1">
+	<name>CHOLCHK</name>
+	<description>Blood Cholesterol Test</description>
+	<type>encoded value</type>
+	<comment>Since your last medical update, which of the following exams, tests, or procedures have you had: Blood cholesterol test
+		Not collected on all versions of Form 33. </comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00078765.v1">
+	<name>ECG</name>
+	<description>ECG</description>
+	<type>encoded value</type>
+	<comment>Since your last medical update, which of the following exams, tests, or procedures have you had: Electrocardiogram (ECG)</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00078766.v1">
+	<name>PTCA</name>
+	<description>PTCA</description>
+	<type>encoded value</type>
+	<comment>Since your last medical update, which of the following exams, tests, or procedures have you had: Procedure to unblock narrowed blood vessels to your heart muscle (opening the arteries of the heart with a balloon or other device, sometimes called PTCA, coronary angioplasty, or coronary stent)
+		Not collected on all versions of Form 33.&lt;br/&gt;See also the outcomes dataset for adjudicated PTCA. </comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00078767.v1">
+	<name>OUTPDVT</name>
+	<description>Outpatient DVT</description>
+	<type>encoded value</type>
+	<comment>Since your last medical update, which of the following exams, tests, or procedures have you had: Shots at home for blood clots in legs followed by blood thinning medications (such as Coumadin, Warfarin)
+		Not collected on all versions of Form 33.&lt;br/&gt;See also the outcomes data set for adjudicated DVT in the HT. </comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00078768.v1">
+	<name>PAPSMR</name>
+	<description>Pap Smear</description>
+	<type>encoded value</type>
+	<comment>Since your last medical update, which of the following exams, tests, or procedures have you had: Pap smear</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00078769.v1">
+	<name>DANDC</name>
+	<description>D and C</description>
+	<type>encoded value</type>
+	<comment>Since your last medical update, which of the following exams, tests, or procedures have you had: Dilation and Curettage (D and C, womb scrape)</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00078770.v1">
+	<name>ENDOBPSY</name>
+	<description>Endometrial biopsy</description>
+	<type>encoded value</type>
+	<comment>Since your last medical update, which of the following exams, tests, or procedures have you had: Endometrial biopsy</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00078771.v1">
+	<name>HYSTEREC</name>
+	<description>Hysterectomy</description>
+	<type>encoded value</type>
+	<comment>Since your last medical update, which of the following exams, tests, or procedures have you had: Removal of the uterus or womb (Hysterectomy)</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+</data_table>

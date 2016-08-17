@@ -1,0 +1,522 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./datadict_v2.xsl"?>
+<data_table id="pht000703.v2" study_id="phs000166.v2" participant_set="1" date_created="Thu Sep  3 15:21:53 2009">
+
+<unique_key phv="00071098" version="2">subj_id</unique_key>
+<unique_key phv="00071099" version="2">protocol</unique_key>
+<unique_key phv="00071101" version="2">visit_month</unique_key>
+
+<variable id="phv00071098.v2">
+	<name>subj_id</name>
+	<description>Deidentified Subjects ID</description>
+	<type>integer</type>
+</variable>
+
+<variable id="phv00071099.v2">
+	<name>protocol</name>
+	<description>Study name</description>
+	<type>encoded value</type>
+	<logical_min>201</logical_min>
+	<logical_max>205</logical_max>
+	<value code="1">BAGS</value>
+	<value code="3">SOCS/SLIC run-in</value>
+	<value code="4">SOCS</value>
+	<value code="5">SLIC</value>
+	<value code="6">DICE</value>
+	<value code="9">IMPACT</value>
+	<value code="12">PRICE</value>
+	<value code="101">CAMP</value>
+	<value code="201">PEAK</value>
+	<value code="202">CLIC</value>
+	<value code="203">PACT</value>
+	<value code="204">AIMS</value>
+	<value code="205">MARS</value>
+</variable>
+
+<variable id="phv00071100.v2">
+	<name>visit_reference</name>
+	<description>Visit number used in trial</description>
+	<type>integer</type>
+	<logical_min>1</logical_min>
+	<logical_max>99</logical_max>
+</variable>
+
+<variable id="phv00071101.v2">
+	<name>visit_month</name>
+	<description>Months from Baseline to Follow-up visit. (visit date - Baseline date) / 30.25</description>
+	<type>decimal</type>
+	<unit>months</unit>
+	<logical_min>0</logical_min>
+	<logical_max>36.63</logical_max>
+</variable>
+
+<variable id="phv00071102.v2">
+	<name>visit_week</name>
+	<description>Weeks from Baseline to Follow-up visit. (visit date - Baseline date) / 7</description>
+	<type>decimal</type>
+	<unit>weeks</unit>
+	<logical_min>0</logical_min>
+	<logical_max>158.29</logical_max>
+</variable>
+
+<variable id="phv00071103.v2">
+	<name>case_control</name>
+	<description>Affection status. Subjects in the PEAK and AIMS protocols (Protocol=201 or 205) are classified as missing.  Because of their young age, no diagnosis, comparable to older subjects which included symptoms and lung function assessment, was made for these subjects.</description>
+	<type>encoded value</type>
+	<logical_min>2</logical_min>
+	<logical_max>2</logical_max>
+	<value code="1">control</value>
+	<value code="2">case</value>
+	<value code=".">missing</value>
+</variable>
+
+<variable id="phv00071105.v2">
+	<name>gender</name>
+	<description>Gender of participant</description>
+	<type>encoded value</type>
+	<logical_min>1</logical_min>
+	<logical_max>2</logical_max>
+	<value code="1">Male</value>
+	<value code="2">Female</value>
+	<value code=".">missing</value>
+</variable>
+
+<variable id="phv00071106.v2">
+	<name>race</name>
+	<description>Race of participant</description>
+	<type>encoded value</type>
+	<logical_min>1</logical_min>
+	<logical_max>4</logical_max>
+	<value code="1">Caucasian</value>
+	<value code="2">African American</value>
+	<value code="3">Hispanic</value>
+	<value code="4">Other</value>
+</variable>
+
+<variable id="phv00071107.v2">
+	<name>age</name>
+	<description>Age at Follow-up (visit date - date of birth) / 365.25</description>
+	<type>decimal</type>
+	<unit>years</unit>
+	<logical_min>1</logical_min>
+	<logical_max>18.34</logical_max>
+</variable>
+
+<variable id="phv00071108.v2">
+	<name>htcm</name>
+	<description>Standing Height at Follow-up</description>
+	<type>decimal</type>
+	<unit>cm</unit>
+	<logical_min>65.7</logical_min>
+	<logical_max>190</logical_max>
+</variable>
+
+<variable id="phv00071109.v2">
+	<name>wtkg</name>
+	<description>Weight at Follow-up</description>
+	<type>decimal</type>
+	<unit>kg</unit>
+	<logical_min>7.9</logical_min>
+	<logical_max>144</logical_max>
+</variable>
+
+<variable id="phv00071110.v2">
+	<name>bmi</name>
+	<description>BMI at Follow-up</description>
+	<type>decimal</type>
+	<unit>kg/m^2</unit>
+	<logical_min>10.87</logical_min>
+	<logical_max>46.17</logical_max>
+</variable>
+
+<variable id="phv00071111.v2">
+	<name>bmiz</name>
+	<description>BMIZ at Follow-up</description>
+	<type>decimal</type>
+	<logical_min>-7.68</logical_min>
+	<logical_max>5.05</logical_max>
+</variable>
+
+<variable id="phv00071113.v2">
+	<name>tx_grp_fup</name>
+	<description>Treatment group as assigned at Follow-up</description>
+	<type>encoded value</type>
+	<logical_min>4</logical_min>
+	<logical_max>19</logical_max>
+	<value code="1">Albuterol</value>
+	<value code="2">Azithromycin</value>
+	<value code="3">Beclomethasone</value>
+	<value code="4">Budesonide</value>
+	<value code="5">Flunisolide</value>
+	<value code="6">Fluticasone</value>
+	<value code="7">Montelukast</value>
+	<value code="8">Nedocromil</value>
+	<value code="9">Placebo</value>
+	<value code="10">Placebo+Triamcinolone</value>
+	<value code="11">Prednisone+Budesonide+Zafirlukast</value>
+	<value code="12">Salmeterol</value>
+	<value code="13">Salmeterol/Fluticasone Combination</value>
+	<value code="14">Salmeterol+Triamcinolone</value>
+	<value code="15">Triamcinolone</value>
+	<value code="16">Zafirlukast</value>
+	<value code="17">Azithtromycin + Budesonide + Salmeterol</value>
+	<value code="18">Montelukast + Budesonide + Salmeterol</value>
+	<value code="19">Placebo + Budesonide + Salmeterol</value>
+	<value code=".">Not randomized</value>
+</variable>
+
+<variable id="phv00071115.v2">
+	<name>cs_tx_fup</name>
+	<description>Treatment group assigned at Baseline was steroid arm</description>
+	<type>encoded value</type>
+	<logical_min>0</logical_min>
+	<logical_max>1</logical_max>
+	<value code="0">no</value>
+	<value code="1">yes</value>
+	<value code=".">missing</value>
+</variable>
+
+<variable id="phv00071116.v2">
+	<name>cs_dose_fup</name>
+	<description>Corticosteroid dose at Follow-up</description>
+	<type>integer</type>
+	<unit>mcg/day</unit>
+	<logical_min>100</logical_min>
+	<logical_max>2000</logical_max>
+</variable>
+
+<variable id="phv00071117.v2">
+	<name>cs_comb_tx_fup</name>
+	<description>Participant assigned to Combination Therapy Group (Steroid Treatment + other)</description>
+	<type>encoded value</type>
+	<logical_min>0</logical_min>
+	<logical_max>1</logical_max>
+	<value code="0">no</value>
+	<value code="1">yes</value>
+	<value code=".">missing</value>
+</variable>
+
+<variable id="phv00071118.v2">
+	<name>saba_tx_fup</name>
+	<description>Treatment group assigned at Follow-up was SABA arm</description>
+	<type>encoded value</type>
+	<logical_min>0</logical_min>
+	<logical_max>0</logical_max>
+	<value code="0">no</value>
+	<value code="1">yes</value>
+	<value code=".">missing</value>
+</variable>
+
+<variable id="phv00071119.v2">
+	<name>laba_tx_fup</name>
+	<description>Treatment group assigned at Baseline was LABA arm</description>
+	<type>encoded value</type>
+	<logical_min>0</logical_min>
+	<logical_max>1</logical_max>
+	<value code="0">no</value>
+	<value code="1">yes</value>
+	<value code=".">missing</value>
+</variable>
+
+<variable id="phv00071120.v2">
+	<name>bursts</name>
+	<description>Total prednisone bursts since last visit</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>5</logical_max>
+</variable>
+
+<variable id="phv00071121.v2">
+	<name>edhos</name>
+	<description>Total ER visit or Hospitalization since last visit</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>8</logical_max>
+</variable>
+
+<variable id="phv00071122.v2">
+	<name>prech</name>
+	<description>Change in Pre-FEV1 between Baseline and Follow-up.  The calculation is 100*(Follow-up PREFEV - Baseline PREFEV)/Baseline PREFEV</description>
+	<type>decimal</type>
+	<logical_min>-43.69</logical_min>
+	<logical_max>80.5</logical_max>
+</variable>
+
+<variable id="phv00071123.v2">
+	<name>prechpp</name>
+	<description>Change in Pre-FEV1 % predicted between Baseline and Follow-up.  The calculation is 100*(Follow-up PREFEV - Baseline PREFEV)/Baseline PREFEV</description>
+	<type>decimal</type>
+	<logical_min>-46.8</logical_min>
+	<logical_max>69.05</logical_max>
+</variable>
+
+<variable id="phv00071124.v2">
+	<name>eno</name>
+	<description>Exhaled nitric oxide at Follow-up</description>
+	<type>decimal</type>
+	<unit>ppb</unit>
+	<logical_min>0</logical_min>
+	<logical_max>281.5</logical_max>
+</variable>
+
+<variable id="phv00071125.v2">
+	<name>pc20</name>
+	<description>FEV1 PC20 meth at Follow-up</description>
+	<type>decimal</type>
+	<unit>mg/ml</unit>
+	<logical_min>0.07</logical_min>
+	<logical_max>25</logical_max>
+</variable>
+
+<variable id="phv00071126.v2">
+	<name>lnpc20</name>
+	<description>Natural log PC20 at Follow-up</description>
+	<type>decimal</type>
+	<logical_min>-2.66</logical_min>
+	<logical_max>3.22</logical_max>
+</variable>
+
+<variable id="phv00071127.v2">
+	<name>prefev</name>
+	<description>FEV1 at Follow-up</description>
+	<type>decimal</type>
+	<unit>liters</unit>
+	<logical_min>0.72</logical_min>
+	<logical_max>5.7</logical_max>
+</variable>
+
+<variable id="phv00071128.v2">
+	<name>prefvc</name>
+	<description>FVC at Follow-up</description>
+	<type>decimal</type>
+	<unit>liters</unit>
+	<logical_min>0.95</logical_min>
+	<logical_max>6.63</logical_max>
+</variable>
+
+<variable id="phv00071129.v2">
+	<name>preff</name>
+	<description>FEV1/FVC ratio at Follow-up</description>
+	<type>decimal</type>
+	<logical_min>49</logical_min>
+	<logical_max>100</logical_max>
+</variable>
+
+<variable id="phv00071130.v2">
+	<name>prefevpp</name>
+	<description>FEV1 percent predicted at Follow-up</description>
+	<type>decimal</type>
+	<logical_min>53.97</logical_min>
+	<logical_max>140.83</logical_max>
+</variable>
+
+<variable id="phv00071131.v2">
+	<name>prefvcpp</name>
+	<description>FVC percent predicted at Follow-up</description>
+	<type>decimal</type>
+	<logical_min>67.46</logical_min>
+	<logical_max>159.61</logical_max>
+</variable>
+
+<variable id="phv00071132.v2">
+	<name>posfev</name>
+	<description>Post-FEV1 at Follow-up</description>
+	<type>decimal</type>
+	<unit>liters</unit>
+	<logical_min>0.9</logical_min>
+	<logical_max>6</logical_max>
+</variable>
+
+<variable id="phv00071133.v2">
+	<name>posfvc</name>
+	<description>Post-FVC at Follow-up</description>
+	<type>decimal</type>
+	<unit>liters</unit>
+	<logical_min>1.03</logical_min>
+	<logical_max>6.83</logical_max>
+</variable>
+
+<variable id="phv00071134.v2">
+	<name>posff</name>
+	<description>Post-FEV1/FVC ratio at Follow-up</description>
+	<type>decimal</type>
+	<logical_min>60</logical_min>
+	<logical_max>100</logical_max>
+</variable>
+
+<variable id="phv00071135.v2">
+	<name>posfevpp</name>
+	<description>Post-FEV1 percent predicted at Follow-up</description>
+	<type>decimal</type>
+	<logical_min>60.04</logical_min>
+	<logical_max>146.53</logical_max>
+</variable>
+
+<variable id="phv00071136.v2">
+	<name>posfvcpp</name>
+	<description>Post-FVC percent predicted at Follow-up</description>
+	<type>decimal</type>
+	<logical_min>68.32</logical_min>
+	<logical_max>156.82</logical_max>
+</variable>
+
+<variable id="phv00071137.v2">
+	<name>bdrabpct</name>
+	<description>Bronchodilator percent change at Follow-up. The calculation is: (POSFEV - PREFEV)/PREFEV.</description>
+	<type>decimal</type>
+	<logical_min>-21.58</logical_min>
+	<logical_max>52.89</logical_max>
+</variable>
+
+<variable id="phv00076230.v1">
+	<name>maxposfev</name>
+	<description>Maximum FEV1 (following 4, 6, or 8 puffs of albuterol) at Follow-up</description>
+	<type>decimal</type>
+	<unit>liters</unit>
+	<logical_min>0.9</logical_min>
+	<logical_max>4.61</logical_max>
+</variable>
+
+<variable id="phv00076231.v1">
+	<name>maxposfevpp</name>
+	<description>Maximum FEV1 percent predicted (following 4, 6, or 8 puffs of albuterol) at Follow-up</description>
+	<type>decimal</type>
+	<logical_min>71.74</logical_min>
+	<logical_max>147.99</logical_max>
+</variable>
+
+<variable id="phv00076232.v1">
+	<name>maxbdrabpct</name>
+	<description>Bronchodilator percent change at Follow-up. The calculation is: (MAXPOSFEV - PREFEV)/PREFEV.</description>
+	<type>decimal</type>
+	<logical_min>-16.74</logical_min>
+	<logical_max>66.27</logical_max>
+</variable>
+
+<variable id="phv00071138.v2">
+	<name>eos</name>
+	<description>Blood eosinophils at Follow-up</description>
+	<type>decimal</type>
+	<unit>mm^3</unit>
+	<logical_min>0</logical_min>
+	<logical_max>1932</logical_max>
+</variable>
+
+<variable id="phv00071139.v2">
+	<name>log10eos</name>
+	<description>Log10 blood eosinophils at Follow-up</description>
+	<type>decimal</type>
+	<logical_min>0</logical_min>
+	<logical_max>3.29</logical_max>
+</variable>
+
+<variable id="phv00071140.v2">
+	<name>ige</name>
+	<description>Total IgE at Follow-up</description>
+	<type>decimal</type>
+	<unit>ng/ml</unit>
+	<logical_min>0</logical_min>
+	<logical_max>9400</logical_max>
+</variable>
+
+<variable id="phv00071141.v2">
+	<name>log10ige</name>
+	<description>Log10 IgE at Follow-up</description>
+	<type>decimal</type>
+	<logical_min>0</logical_min>
+	<logical_max>3.97</logical_max>
+</variable>
+
+<variable id="phv00071142.v2">
+	<name>ampf</name>
+	<description>Average Baseline AM peak flow (L/min) as recorded in daily diary card data between visits.  Average of daily measurements up to 4 weeks prior to visit with a minimum of 7 days.</description>
+	<type>decimal</type>
+	<unit>liters/minute</unit>
+	<logical_min>102.78</logical_min>
+	<logical_max>695</logical_max>
+</variable>
+
+<variable id="phv00071143.v2">
+	<name>totres</name>
+	<description>Baseline total rescue use per day (puffs) as recorded in daily diary card data between visits.  Average of daily measurements up to 4 weeks prior to visit with a minimum of 7 days.</description>
+	<type>decimal</type>
+	<unit>puffs</unit>
+	<logical_min>0</logical_min>
+	<logical_max>17.57</logical_max>
+</variable>
+
+<variable id="phv00071144.v2">
+	<name>amsym</name>
+	<description>Average Baseline AM symptoms as recorded in daily diary card data between visits. Maximum of daily wheezing &amp; coughing then average of daily measurements up to 4 weeks prior to visit with a minimum of 7 days.</description>
+	<type>decimal</type>
+	<logical_min>0</logical_min>
+	<logical_max>3</logical_max>
+</variable>
+
+<variable id="phv00071145.v2">
+	<name>pos_skintest</name>
+	<description>One or more skintest positive at Follow-up</description>
+	<type>encoded value</type>
+	<logical_min>0</logical_min>
+	<logical_max>1</logical_max>
+	<value code="0">no</value>
+	<value code="1">yes</value>
+	<value code=".">missing</value>
+</variable>
+
+<variable id="phv00071146.v2">
+	<name>nall_skintest</name>
+	<description>No. of skin tests (all tests) at Follow-up</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>11</logical_max>
+</variable>
+
+<variable id="phv00071147.v2">
+	<name>npos_skintest</name>
+	<description>No. of positive skin tests (all tests) at Follow-up</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>11</logical_max>
+</variable>
+
+<variable id="phv00071104.v2">
+	<name>case_control_peak</name>
+	<description>Affection status in PEAK. Subjects in the PEAK protocol were classified as &quot;case&quot; if they had asthma symptoms more than 2 days per week during the 3rd year of the study.  Therefore, this does not represent &quot;Baseline&quot; data. However, PEAK subjects were not on active study medication during the 3rd year.</description>
+	<type>encoded value</type>
+	<logical_min>1</logical_min>
+	<logical_max>2</logical_max>
+	<value code="1">control</value>
+	<value code="2">case</value>
+	<value code="4">Other</value>
+	<value code=".">missing</value>
+</variable>
+
+<variable id="phv00071112.v2">
+	<name>tanner_stage</name>
+	<description>Tanner stage at Follow-up</description>
+	<type>encoded value</type>
+</variable>
+
+<variable id="phv00071114.v2">
+	<name>run_in_tx</name>
+	<description>Treatment assigned during run-in at Follow-up</description>
+	<type>encoded value</type>
+	<value code="0">no</value>
+	<value code="1">yes</value>
+	<value code=".">missing</value>
+</variable>
+
+<variable id="phv00071148.v2">
+	<name>n_core_skintest</name>
+	<description>No. of core skin tests (all tests) at Follow-up</description>
+	<type>integer</type>
+</variable>
+
+<variable id="phv00071149.v2">
+	<name>npos_core_skintest</name>
+	<description>No. of positive core skin tests (all tests) at Follow-up</description>
+	<type>integer</type>
+</variable>
+
+</data_table>

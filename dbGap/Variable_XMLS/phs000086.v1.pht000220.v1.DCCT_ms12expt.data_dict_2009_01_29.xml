@@ -1,0 +1,1669 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./datadict_v2.xsl"?>
+<data_table id="pht000220.v1" study_id="phs000086.v1" participant_set="1" date_created="Thu Jan 29 15:38:26 2009">
+
+<variable id="phv00026711.v1">
+	<name>adult</name>
+	<description>Patient is adult &gt;=18 years</description>
+	<type>byte</type>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00026742.v1">
+	<name>aer00</name>
+	<description>Albumin excretion rate (mg/24hr) at baseline</description>
+	<type>float</type>
+	<unit>MG/24HOURS</unit>
+</variable>
+
+<variable id="phv00026889.v1">
+	<name>age</name>
+	<description>Patient&#39;s age (from master form) at entry</description>
+	<type>byte</type>
+	<unit>YEARS</unit>
+</variable>
+
+<variable id="phv00026897.v1">
+	<name>bcval5</name>
+	<description>Stimulated C-peptide values (pmol/ml, form 023a)</description>
+	<type>float</type>
+	<unit>PMOL/ML</unit>
+</variable>
+
+<variable id="phv00026890.v1">
+	<name>bmi</name>
+	<description><![CDATA[Body mass index (kg/m&#178;)]]></description>
+	<type>float</type>
+	<unit>KG/M2</unit>
+</variable>
+
+<variable id="phv00026895.v1">
+	<name>calories</name>
+	<description>Calories consumed (kcal)</description>
+	<type>float</type>
+	<unit>KCAL</unit>
+</variable>
+
+<variable id="phv00026738.v1">
+	<name>duration</name>
+	<description>IDDM duration at baseline (months)</description>
+	<type>int</type>
+	<unit>MONTHS</unit>
+</variable>
+
+<variable id="phv00026894.v1">
+	<name>educat</name>
+	<description>Mean education (years) - form 013</description>
+	<type>byte</type>
+	<unit>YEARS</unit>
+</variable>
+
+<variable id="phv00026722.v1">
+	<name>etd3oflg</name>
+	<description>3-step change (ETDRS) from baseline</description>
+	<type>byte</type>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00026723.v1">
+	<name>etd3ovis</name>
+	<description>Quarterly visit of 3-step change (ETDRS)</description>
+	<type>byte</type>
+	<unit>QUARTERLY VISIT</unit>
+</variable>
+
+<variable id="phv00026724.v1">
+	<name>etd3pflg</name>
+	<description>Persistent 3-step change (ETDRS) from baseline</description>
+	<type>byte</type>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00026725.v1">
+	<name>etd3pvis</name>
+	<description>Quarterly visit of persistent 3-step change (ETDRS)</description>
+	<type>byte</type>
+	<unit>QUARTERLY VISIT</unit>
+</variable>
+
+<variable id="phv00026730.v1">
+	<name>etd53flg</name>
+	<description>Severe non-proliferative diabetic retinopathy (npdr) (ETDRS 53/&lt;53)</description>
+	<type>byte</type>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00026731.v1">
+	<name>etd53vis</name>
+	<description>Quarterly visit of severe nonproliferative diabetic retinopathy (ETDRS 53/&lt;53)</description>
+	<type>byte</type>
+	<unit>QUARTERLY VISIT</unit>
+</variable>
+
+<variable id="phv00026708.v1">
+	<name>etdpat00</name>
+	<description>Grade on ETDRS scale (patient) - baseline</description>
+	<type>byte</type>
+	<value code="1">10/10</value>
+	<value code="10">53/&lt;53</value>
+	<value code="11">61/LESS THAN 61 OR GREATER</value>
+	<value code="2">20/&lt;20</value>
+	<value code="3">20/20</value>
+	<value code="4">35/&lt;35</value>
+	<value code="5">35/35</value>
+	<value code="6">43/&lt;43</value>
+	<value code="7">43/43</value>
+	<value code="8">47/&lt;47</value>
+	<value code="9">47/47</value>
+</variable>
+
+<variable id="phv00026715.v1">
+	<name>famiddm</name>
+	<description>Family history of IDDM</description>
+	<type>byte</type>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00026710.v1">
+	<name>female</name>
+	<description>Patient is female</description>
+	<type>byte</type>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00026893.v1">
+	<name>fulliq</name>
+	<description>Full scale I.Q. score</description>
+	<type>int</type>
+	<unit>I.Q. SCORE</unit>
+</variable>
+
+<variable id="phv00026736.v1">
+	<name>group</name>
+	<description>Treatment group (experimental, standard)</description>
+	<type>str12</type>
+	<value code="EXPERIMENTAL">INTENSIVE TREATMENT</value>
+	<value code="STANDARD">CONVENTIONAL TREATMENT</value>
+</variable>
+
+<variable id="phv00026739.v1">
+	<name>hbael</name>
+	<description>Hb1Ac at eligibility</description>
+	<type>float</type>
+	<unit>PERCENT</unit>
+</variable>
+
+<variable id="phv00026744.v1">
+	<name>hbaqv00</name>
+	<description>Baseline HbA1c</description>
+	<type>float</type>
+	<unit>PERCENT</unit>
+</variable>
+
+<variable id="phv00026745.v1">
+	<name>hbaqv01</name>
+	<description>Quarterly HbA1c values (at quarterly visit 01)</description>
+	<type>float</type>
+	<unit>PERCENT</unit>
+</variable>
+
+<variable id="phv00026746.v1">
+	<name>hbaqv02</name>
+	<description>Quarterly HbA1c values (at quarterly visit 02)</description>
+	<type>float</type>
+	<unit>PERCENT</unit>
+</variable>
+
+<variable id="phv00026747.v1">
+	<name>hbaqv03</name>
+	<description>Quarterly HbA1c values (at quarterly visit 03)</description>
+	<type>float</type>
+	<unit>PERCENT</unit>
+</variable>
+
+<variable id="phv00026748.v1">
+	<name>hbaqv04</name>
+	<description>Quarterly HbA1c values (at quarterly visit 04)</description>
+	<type>float</type>
+	<unit>PERCENT</unit>
+</variable>
+
+<variable id="phv00026749.v1">
+	<name>hbaqv05</name>
+	<description>Quarterly HbA1c values (at quarterly visit 05)</description>
+	<type>float</type>
+	<unit>PERCENT</unit>
+</variable>
+
+<variable id="phv00026750.v1">
+	<name>hbaqv06</name>
+	<description>Quarterly HbA1c values (at quarterly visit 06)</description>
+	<type>float</type>
+	<unit>PERCENT</unit>
+</variable>
+
+<variable id="phv00026751.v1">
+	<name>hbaqv07</name>
+	<description>Quarterly HbA1c values (at quarterly visit 07)</description>
+	<type>float</type>
+	<unit>PERCENT</unit>
+</variable>
+
+<variable id="phv00026752.v1">
+	<name>hbaqv08</name>
+	<description>Quarterly HbA1c values (at quarterly visit 08)</description>
+	<type>float</type>
+	<unit>PERCENT</unit>
+</variable>
+
+<variable id="phv00026753.v1">
+	<name>hbaqv09</name>
+	<description>Quarterly HbA1c values (at quarterly visit 09)</description>
+	<type>float</type>
+	<unit>PERCENT</unit>
+</variable>
+
+<variable id="phv00026754.v1">
+	<name>hbaqv10</name>
+	<description>Quarterly HbA1c values (at quarterly visit 10)</description>
+	<type>float</type>
+	<unit>PERCENT</unit>
+</variable>
+
+<variable id="phv00026755.v1">
+	<name>hbaqv11</name>
+	<description>Quarterly HbA1c values (at quarterly visit 11)</description>
+	<type>float</type>
+	<unit>PERCENT</unit>
+</variable>
+
+<variable id="phv00026756.v1">
+	<name>hbaqv12</name>
+	<description>Quarterly HbA1c values (at quarterly visit 12)</description>
+	<type>float</type>
+	<unit>PERCENT</unit>
+</variable>
+
+<variable id="phv00026757.v1">
+	<name>hbaqv13</name>
+	<description>Quarterly HbA1c values (at quarterly visit 13)</description>
+	<type>float</type>
+	<unit>PERCENT</unit>
+</variable>
+
+<variable id="phv00026758.v1">
+	<name>hbaqv14</name>
+	<description>Quarterly HbA1c values (at quarterly visit 14)</description>
+	<type>float</type>
+	<unit>PERCENT</unit>
+</variable>
+
+<variable id="phv00026759.v1">
+	<name>hbaqv15</name>
+	<description>Quarterly HbA1c values (at quarterly visit 15)</description>
+	<type>float</type>
+	<unit>PERCENT</unit>
+</variable>
+
+<variable id="phv00026760.v1">
+	<name>hbaqv16</name>
+	<description>Quarterly HbA1c values (at quarterly visit 16)</description>
+	<type>float</type>
+	<unit>PERCENT</unit>
+</variable>
+
+<variable id="phv00026761.v1">
+	<name>hbaqv17</name>
+	<description>Quarterly HbA1c values (at quarterly visit 17)</description>
+	<type>float</type>
+	<unit>PERCENT</unit>
+</variable>
+
+<variable id="phv00026762.v1">
+	<name>hbaqv18</name>
+	<description>Quarterly HbA1c values (at quarterly visit 18)</description>
+	<type>float</type>
+	<unit>PERCENT</unit>
+</variable>
+
+<variable id="phv00026763.v1">
+	<name>hbaqv19</name>
+	<description>Quarterly HbA1c values (at quarterly visit 19)</description>
+	<type>float</type>
+	<unit>PERCENT</unit>
+</variable>
+
+<variable id="phv00026764.v1">
+	<name>hbaqv20</name>
+	<description>Quarterly HbA1c values (at quarterly visit 20)</description>
+	<type>float</type>
+	<unit>PERCENT</unit>
+</variable>
+
+<variable id="phv00026765.v1">
+	<name>hbaqv21</name>
+	<description>Quarterly HbA1c values (at quarterly visit 21)</description>
+	<type>float</type>
+	<unit>PERCENT</unit>
+</variable>
+
+<variable id="phv00026766.v1">
+	<name>hbaqv22</name>
+	<description>Quarterly HbA1c values (at quarterly visit 22)</description>
+	<type>float</type>
+	<unit>PERCENT</unit>
+</variable>
+
+<variable id="phv00026767.v1">
+	<name>hbaqv23</name>
+	<description>Quarterly HbA1c values (at quarterly visit 23)</description>
+	<type>float</type>
+	<unit>PERCENT</unit>
+</variable>
+
+<variable id="phv00026768.v1">
+	<name>hbaqv24</name>
+	<description>Quarterly HbA1c values (at quarterly visit 24)</description>
+	<type>float</type>
+	<unit>PERCENT</unit>
+</variable>
+
+<variable id="phv00026769.v1">
+	<name>hbaqv25</name>
+	<description>Quarterly HbA1c values (at quarterly visit 25)</description>
+	<type>float</type>
+	<unit>PERCENT</unit>
+</variable>
+
+<variable id="phv00026770.v1">
+	<name>hbaqv26</name>
+	<description>Quarterly HbA1c values (at quarterly visit 26)</description>
+	<type>float</type>
+	<unit>PERCENT</unit>
+</variable>
+
+<variable id="phv00026771.v1">
+	<name>hbaqv27</name>
+	<description>Quarterly HbA1c values (at quarterly visit 27)</description>
+	<type>float</type>
+	<unit>PERCENT</unit>
+</variable>
+
+<variable id="phv00026772.v1">
+	<name>hbaqv28</name>
+	<description>Quarterly HbA1c values (at quarterly visit 28)</description>
+	<type>float</type>
+	<unit>PERCENT</unit>
+</variable>
+
+<variable id="phv00026773.v1">
+	<name>hbaqv29</name>
+	<description>Quarterly HbA1c values (at quarterly visit 29)</description>
+	<type>float</type>
+	<unit>PERCENT</unit>
+</variable>
+
+<variable id="phv00026774.v1">
+	<name>hbaqv30</name>
+	<description>Quarterly HbA1c values (at quarterly visit 30)</description>
+	<type>float</type>
+	<unit>PERCENT</unit>
+</variable>
+
+<variable id="phv00026775.v1">
+	<name>hbaqv31</name>
+	<description>Quarterly HbA1c values (at quarterly visit 31)</description>
+	<type>float</type>
+	<unit>PERCENT</unit>
+</variable>
+
+<variable id="phv00026776.v1">
+	<name>hbaqv32</name>
+	<description>Quarterly HbA1c values (at quarterly visit 32)</description>
+	<type>float</type>
+	<unit>PERCENT</unit>
+</variable>
+
+<variable id="phv00026777.v1">
+	<name>hbaqv33</name>
+	<description>Quarterly HbA1c values (at quarterly visit 33)</description>
+	<type>float</type>
+	<unit>PERCENT</unit>
+</variable>
+
+<variable id="phv00026778.v1">
+	<name>hbaqv34</name>
+	<description>Quarterly HbA1c values (at quarterly visit 34)</description>
+	<type>float</type>
+	<unit>PERCENT</unit>
+</variable>
+
+<variable id="phv00026779.v1">
+	<name>hbaqv35</name>
+	<description>Quarterly HbA1c values (at quarterly visit 35)</description>
+	<type>float</type>
+	<unit>PERCENT</unit>
+</variable>
+
+<variable id="phv00026780.v1">
+	<name>hbaqv36</name>
+	<description>Quarterly HbA1c values (at quarterly visit 36)</description>
+	<type>float</type>
+	<unit>PERCENT</unit>
+</variable>
+
+<variable id="phv00026899.v1">
+	<name>hdl</name>
+	<description>HDL cholesterol (serum, mg/dl, form 023c)</description>
+	<type>int</type>
+	<unit>MG/DL</unit>
+</variable>
+
+<variable id="phv00026938.v1">
+	<name>hypo2flg</name>
+	<description>Second hypoglycemia with coma/seizure</description>
+	<type>byte</type>
+	<value code="0">COMA</value>
+	<value code="1">SEIZURE</value>
+</variable>
+
+<variable id="phv00026939.v1">
+	<name>hypo2yrs</name>
+	<description>Years between first and second hypoglycemic event with coma or seizure</description>
+	<type>float</type>
+	<unit>YEARS</unit>
+</variable>
+
+<variable id="phv00026892.v1">
+	<name>insulin</name>
+	<description>Total insulin dosage units/weight (kg)</description>
+	<type>float</type>
+	<unit>IU/KG</unit>
+</variable>
+
+<variable id="phv00026726.v1">
+	<name>l6e3oflg</name>
+	<description>Late (18 months +) 3-step change from baseline</description>
+	<type>byte</type>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00026727.v1">
+	<name>l6e3ovis</name>
+	<description>Quarterly visit of late (18 months +) 3-step change</description>
+	<type>byte</type>
+	<unit>QUARTERLY VISIT</unit>
+</variable>
+
+<variable id="phv00026728.v1">
+	<name>l6e3pflg</name>
+	<description>Late (18 months +) persistent 3-step change from baseline</description>
+	<type>byte</type>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00026729.v1">
+	<name>l6e3pvis</name>
+	<description>Quarterly visit of late (18 months +) persistent 3-step change</description>
+	<type>byte</type>
+	<unit>QUARTERLY VISIT</unit>
+</variable>
+
+<variable id="phv00026743.v1">
+	<name>laer00</name>
+	<description>Log of baseline AER</description>
+	<type>float</type>
+	<unit>AER LOG</unit>
+</variable>
+
+<variable id="phv00026926.v1">
+	<name>laer04</name>
+	<description>Log of AER at quarterly visit 04 (1 year )</description>
+	<type>float</type>
+	<unit>AER LOG SCORE</unit>
+</variable>
+
+<variable id="phv00026927.v1">
+	<name>laer08</name>
+	<description>Log of AER at quarterly visit 08 (2 years)</description>
+	<type>float</type>
+	<unit>AER LOG SCORE</unit>
+</variable>
+
+<variable id="phv00026928.v1">
+	<name>laer12</name>
+	<description>Log of AER at quarterly visit 12 (3 years)</description>
+	<type>float</type>
+	<unit>AER LOG SCORE</unit>
+</variable>
+
+<variable id="phv00026929.v1">
+	<name>laer16</name>
+	<description>Log of AER at quarterly visit 16 (4 years)</description>
+	<type>float</type>
+	<unit>AER LOG SCORE</unit>
+</variable>
+
+<variable id="phv00026930.v1">
+	<name>laer20</name>
+	<description>Log of AER at quarterly visit 20 (5 years)</description>
+	<type>float</type>
+	<unit>AER LOG SCORE</unit>
+</variable>
+
+<variable id="phv00026931.v1">
+	<name>laer24</name>
+	<description>Log of AER at quarterly visit 24 (6 years)</description>
+	<type>float</type>
+	<unit>AER LOG SCORE</unit>
+</variable>
+
+<variable id="phv00026932.v1">
+	<name>laer28</name>
+	<description>Log of AER at quarterly visit 28 (7 years)</description>
+	<type>float</type>
+	<unit>AER LOG SCORE</unit>
+</variable>
+
+<variable id="phv00026933.v1">
+	<name>laer32</name>
+	<description>Log of AER at quarterly visit 32 (8 years)</description>
+	<type>float</type>
+	<unit>AER LOG SCORE</unit>
+</variable>
+
+<variable id="phv00026934.v1">
+	<name>laer36</name>
+	<description>Log of AER at quarterly visit 36 (9 years)</description>
+	<type>float</type>
+	<unit>AER LOG SCORE</unit>
+</variable>
+
+<variable id="phv00026935.v1">
+	<name>laerslop</name>
+	<description>Slope of log of annual AER</description>
+	<type>float</type>
+	<unit>AER LOG SLOPE</unit>
+</variable>
+
+<variable id="phv00026902.v1">
+	<name>lastqv</name>
+	<description>Last visit (quarter either for HbA1c, ETDRS or AER measurements)</description>
+	<type>byte</type>
+</variable>
+
+<variable id="phv00026900.v1">
+	<name>ldl</name>
+	<description>LDL cholesterol (serum, mg/dl, form 023c)</description>
+	<type>int</type>
+	<unit>MG/DL</unit>
+</variable>
+
+<variable id="phv00026904.v1">
+	<name>ldur</name>
+	<description>Log of IDDM duration at baseline (years)</description>
+	<type>float</type>
+	<unit>LOG OF IDDM DURATION</unit>
+</variable>
+
+<variable id="phv00026905.v1">
+	<name>lhbael</name>
+	<description>Log of HbA1c at eligibility</description>
+	<type>float</type>
+	<unit>LOG HB1AC SCORE</unit>
+</variable>
+
+<variable id="phv00026906.v1">
+	<name>lret00</name>
+	<description>Log of baseline ETDRS score</description>
+	<type>float</type>
+	<unit>ETDRS LOG SCORE</unit>
+</variable>
+
+<variable id="phv00026907.v1">
+	<name>lret02</name>
+	<description>Log of ETDRS score at quarterly visit 02 ( 6 months)</description>
+	<type>float</type>
+	<unit>ETDRS LOG SCORE</unit>
+</variable>
+
+<variable id="phv00026908.v1">
+	<name>lret04</name>
+	<description>Log of ETDRS score at quarterly visit 04 ( 12 months)</description>
+	<type>float</type>
+	<unit>ETDRS LOG SCORE</unit>
+</variable>
+
+<variable id="phv00026909.v1">
+	<name>lret06</name>
+	<description>Log of ETDRS score at quarterly visit 06 ( 18 months)</description>
+	<type>float</type>
+	<unit>ETDRS LOG SCORE</unit>
+</variable>
+
+<variable id="phv00026910.v1">
+	<name>lret08</name>
+	<description>Log of ETDRS score at quarterly visit 08 ( 24 months)</description>
+	<type>float</type>
+	<unit>ETDRS LOG SCORE</unit>
+</variable>
+
+<variable id="phv00026911.v1">
+	<name>lret10</name>
+	<description>Log of ETDRS score at quarterly visit 10 ( 30 months)</description>
+	<type>float</type>
+	<unit>ETDRS LOG SCORE</unit>
+</variable>
+
+<variable id="phv00026912.v1">
+	<name>lret12</name>
+	<description>Log of ETDRS score at quarterly visit 12 ( 36 months)</description>
+	<type>float</type>
+	<unit>ETDRS LOG SCORE</unit>
+</variable>
+
+<variable id="phv00026913.v1">
+	<name>lret14</name>
+	<description>Log of ETDRS score at quarterly visit 14 ( 42 months)</description>
+	<type>float</type>
+	<unit>ETDRS LOG SCORE</unit>
+</variable>
+
+<variable id="phv00026914.v1">
+	<name>lret16</name>
+	<description>Log of ETDRS score at quarterly visit 16 ( 48 months)</description>
+	<type>float</type>
+	<unit>ETDRS LOG SCORE</unit>
+</variable>
+
+<variable id="phv00026915.v1">
+	<name>lret18</name>
+	<description>Log of ETDRS score at quarterly visit 18 ( 54 months)</description>
+	<type>float</type>
+	<unit>ETDRS LOG SCORE</unit>
+</variable>
+
+<variable id="phv00026916.v1">
+	<name>lret20</name>
+	<description>Log of ETDRS score at quarterly visit 20 ( 60 months)</description>
+	<type>float</type>
+	<unit>ETDRS LOG SCORE</unit>
+</variable>
+
+<variable id="phv00026917.v1">
+	<name>lret22</name>
+	<description>Log of ETDRS score at quarterly visit 22 ( 66 months)</description>
+	<type>float</type>
+	<unit>ETDRS LOG SCORE</unit>
+</variable>
+
+<variable id="phv00026918.v1">
+	<name>lret24</name>
+	<description>Log of ETDRS score at quarterly visit 24 ( 72 months)</description>
+	<type>float</type>
+	<unit>ETDRS LOG SCORE</unit>
+</variable>
+
+<variable id="phv00026919.v1">
+	<name>lret26</name>
+	<description>Log of ETDRS score at quarterly visit 26 ( 78 months)</description>
+	<type>float</type>
+	<unit>ETDRS LOG SCORE</unit>
+</variable>
+
+<variable id="phv00026920.v1">
+	<name>lret28</name>
+	<description>Log of ETDRS score at quarterly visit 28 ( 84 months)</description>
+	<type>float</type>
+	<unit>ETDRS LOG SCORE</unit>
+</variable>
+
+<variable id="phv00026921.v1">
+	<name>lret30</name>
+	<description>Log of ETDRS score at quarterly visit 30 ( 90 months)</description>
+	<type>float</type>
+	<unit>ETDRS LOG SCORE</unit>
+</variable>
+
+<variable id="phv00026922.v1">
+	<name>lret32</name>
+	<description>Log of ETDRS score at quarterly visit 32 ( 96 months)</description>
+	<type>float</type>
+	<unit>ETDRS LOG SCORE</unit>
+</variable>
+
+<variable id="phv00026923.v1">
+	<name>lret34</name>
+	<description>Log of ETDRS score at quarterly visit 34 (102 months)</description>
+	<type>float</type>
+	<unit>ETDRS LOG SCORE</unit>
+</variable>
+
+<variable id="phv00026924.v1">
+	<name>lret36</name>
+	<description>Log of ETDRS score at quarterly visit 36 (108 months)</description>
+	<type>float</type>
+	<unit>ETDRS LOG SCORE</unit>
+</variable>
+
+<variable id="phv00026925.v1">
+	<name>lretslop</name>
+	<description>Slope of log of ETDRS score</description>
+	<type>float</type>
+	<unit>ETDRS LOG SLOPE</unit>
+</variable>
+
+<variable id="phv00026740.v1">
+	<name>ma3pflg</name>
+	<description>Persistent (&gt;=3) microaneurysm(s)</description>
+	<type>byte</type>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00026741.v1">
+	<name>ma3pvis</name>
+	<description>Quarterly visit of first observation of persistent (&gt;=3) microaneurysms</description>
+	<type>byte</type>
+	<unit>QUARTERLY VISIT</unit>
+</variable>
+
+<variable id="phv00026709.v1">
+	<name>married</name>
+	<description>Patient&#39;s marital status</description>
+	<type>byte</type>
+	<value code="0">NOT MARRIED</value>
+	<value code="1">MARRIED</value>
+</variable>
+
+<variable id="phv00026940.v1">
+	<name>mask_pat</name>
+	<description>Patient ID number</description>
+	<type>int</type>
+</variable>
+
+<variable id="phv00026891.v1">
+	<name>mbp</name>
+	<description>Mean arterial blood pressure</description>
+	<type>float</type>
+	<unit>MMHG</unit>
+</variable>
+
+<variable id="phv00026781.v1">
+	<name>mhba01</name>
+	<description>Mean HbA1c values up to quarterly visit 01</description>
+	<type>float</type>
+	<unit>PERCENT (MEAN)</unit>
+</variable>
+
+<variable id="phv00026782.v1">
+	<name>mhba02</name>
+	<description>Mean HbA1c values up to quarterly visit 02</description>
+	<type>float</type>
+	<unit>PERCENT (MEAN)</unit>
+</variable>
+
+<variable id="phv00026783.v1">
+	<name>mhba03</name>
+	<description>Mean HbA1c values up to quarterly visit 03</description>
+	<type>float</type>
+	<unit>PERCENT (MEAN)</unit>
+</variable>
+
+<variable id="phv00026784.v1">
+	<name>mhba04</name>
+	<description>Mean HbA1c values up to quarterly visit 04</description>
+	<type>float</type>
+	<unit>PERCENT (MEAN)</unit>
+</variable>
+
+<variable id="phv00026785.v1">
+	<name>mhba05</name>
+	<description>Mean HbA1c values up to quarterly visit 05</description>
+	<type>float</type>
+	<unit>PERCENT (MEAN)</unit>
+</variable>
+
+<variable id="phv00026786.v1">
+	<name>mhba06</name>
+	<description>Mean HbA1c values up to quarterly visit 06</description>
+	<type>float</type>
+	<unit>PERCENT (MEAN)</unit>
+</variable>
+
+<variable id="phv00026787.v1">
+	<name>mhba07</name>
+	<description>Mean HbA1c values up to quarterly visit 07</description>
+	<type>float</type>
+	<unit>PERCENT (MEAN)</unit>
+</variable>
+
+<variable id="phv00026788.v1">
+	<name>mhba08</name>
+	<description>Mean HbA1c values up to quarterly visit 08</description>
+	<type>float</type>
+	<unit>PERCENT (MEAN)</unit>
+</variable>
+
+<variable id="phv00026789.v1">
+	<name>mhba09</name>
+	<description>Mean HbA1c values up to quarterly visit 09</description>
+	<type>float</type>
+	<unit>PERCENT (MEAN)</unit>
+</variable>
+
+<variable id="phv00026790.v1">
+	<name>mhba10</name>
+	<description>Mean HbA1c values up to quarterly visit 10</description>
+	<type>float</type>
+	<unit>PERCENT (MEAN)</unit>
+</variable>
+
+<variable id="phv00026791.v1">
+	<name>mhba11</name>
+	<description>Mean HbA1c values up to quarterly visit 11</description>
+	<type>float</type>
+	<unit>PERCENT (MEAN)</unit>
+</variable>
+
+<variable id="phv00026792.v1">
+	<name>mhba12</name>
+	<description>Mean HbA1c values up to quarterly visit 12</description>
+	<type>float</type>
+	<unit>PERCENT (MEAN)</unit>
+</variable>
+
+<variable id="phv00026793.v1">
+	<name>mhba13</name>
+	<description>Mean HbA1c values up to quarterly visit 13</description>
+	<type>float</type>
+	<unit>PERCENT (MEAN)</unit>
+</variable>
+
+<variable id="phv00026794.v1">
+	<name>mhba14</name>
+	<description>Mean HbA1c values up to quarterly visit 14</description>
+	<type>float</type>
+	<unit>PERCENT (MEAN)</unit>
+</variable>
+
+<variable id="phv00026795.v1">
+	<name>mhba15</name>
+	<description>Mean HbA1c values up to quarterly visit 15</description>
+	<type>float</type>
+	<unit>PERCENT (MEAN)</unit>
+</variable>
+
+<variable id="phv00026796.v1">
+	<name>mhba16</name>
+	<description>Mean HbA1c values up to quarterly visit 16</description>
+	<type>float</type>
+	<unit>PERCENT (MEAN)</unit>
+</variable>
+
+<variable id="phv00026797.v1">
+	<name>mhba17</name>
+	<description>Mean HbA1c values up to quarterly visit 17</description>
+	<type>float</type>
+	<unit>PERCENT (MEAN)</unit>
+</variable>
+
+<variable id="phv00026798.v1">
+	<name>mhba18</name>
+	<description>Mean HbA1c values up to quarterly visit 18</description>
+	<type>float</type>
+	<unit>PERCENT (MEAN)</unit>
+</variable>
+
+<variable id="phv00026799.v1">
+	<name>mhba19</name>
+	<description>Mean HbA1c values up to quarterly visit 19</description>
+	<type>float</type>
+	<unit>PERCENT (MEAN)</unit>
+</variable>
+
+<variable id="phv00026800.v1">
+	<name>mhba20</name>
+	<description>Mean HbA1c values up to quarterly visit 20</description>
+	<type>float</type>
+	<unit>PERCENT (MEAN)</unit>
+</variable>
+
+<variable id="phv00026801.v1">
+	<name>mhba21</name>
+	<description>Mean HbA1c values up to quarterly visit 21</description>
+	<type>float</type>
+	<unit>PERCENT (MEAN)</unit>
+</variable>
+
+<variable id="phv00026802.v1">
+	<name>mhba22</name>
+	<description>Mean HbA1c values up to quarterly visit 22</description>
+	<type>float</type>
+	<unit>PERCENT (MEAN)</unit>
+</variable>
+
+<variable id="phv00026803.v1">
+	<name>mhba23</name>
+	<description>Mean HbA1c values up to quarterly visit 23</description>
+	<type>float</type>
+	<unit>PERCENT (MEAN)</unit>
+</variable>
+
+<variable id="phv00026804.v1">
+	<name>mhba24</name>
+	<description>Mean HbA1c values up to quarterly visit 24</description>
+	<type>float</type>
+	<unit>PERCENT (MEAN)</unit>
+</variable>
+
+<variable id="phv00026805.v1">
+	<name>mhba25</name>
+	<description>Mean HbA1c values up to quarterly visit 25</description>
+	<type>float</type>
+	<unit>PERCENT (MEAN)</unit>
+</variable>
+
+<variable id="phv00026806.v1">
+	<name>mhba26</name>
+	<description>Mean HbA1c values up to quarterly visit 26</description>
+	<type>float</type>
+	<unit>PERCENT (MEAN)</unit>
+</variable>
+
+<variable id="phv00026807.v1">
+	<name>mhba27</name>
+	<description>Mean HbA1c values up to quarterly visit 27</description>
+	<type>float</type>
+	<unit>PERCENT (MEAN)</unit>
+</variable>
+
+<variable id="phv00026808.v1">
+	<name>mhba28</name>
+	<description>Mean HbA1c values up to quarterly visit 28</description>
+	<type>float</type>
+	<unit>PERCENT (MEAN)</unit>
+</variable>
+
+<variable id="phv00026809.v1">
+	<name>mhba29</name>
+	<description>Mean HbA1c values up to quarterly visit 29</description>
+	<type>float</type>
+	<unit>PERCENT (MEAN)</unit>
+</variable>
+
+<variable id="phv00026810.v1">
+	<name>mhba30</name>
+	<description>Mean HbA1c values up to quarterly visit 30</description>
+	<type>float</type>
+	<unit>PERCENT (MEAN)</unit>
+</variable>
+
+<variable id="phv00026811.v1">
+	<name>mhba31</name>
+	<description>Mean HbA1c values up to quarterly visit 31</description>
+	<type>float</type>
+	<unit>PERCENT (MEAN)</unit>
+</variable>
+
+<variable id="phv00026812.v1">
+	<name>mhba32</name>
+	<description>Mean HbA1c values up to quarterly visit 32</description>
+	<type>float</type>
+	<unit>PERCENT (MEAN)</unit>
+</variable>
+
+<variable id="phv00026813.v1">
+	<name>mhba33</name>
+	<description>Mean HbA1c values up to quarterly visit 33</description>
+	<type>float</type>
+	<unit>PERCENT (MEAN)</unit>
+</variable>
+
+<variable id="phv00026814.v1">
+	<name>mhba34</name>
+	<description>Mean HbA1c values up to quarterly visit 34</description>
+	<type>float</type>
+	<unit>PERCENT (MEAN)</unit>
+</variable>
+
+<variable id="phv00026815.v1">
+	<name>mhba35</name>
+	<description>Mean HbA1c values up to quarterly visit 35</description>
+	<type>float</type>
+	<unit>PERCENT (MEAN)</unit>
+</variable>
+
+<variable id="phv00026816.v1">
+	<name>mhba36</name>
+	<description>Mean HbA1c values up to quarterly visit 36</description>
+	<type>float</type>
+	<unit>PERCENT (MEAN)</unit>
+</variable>
+
+<variable id="phv00026903.v1">
+	<name>mhbalv</name>
+	<description>Mean HbA1c up to last visit</description>
+	<type>float</type>
+	<unit>PERCENT (MEAN)</unit>
+</variable>
+
+<variable id="phv00026936.v1">
+	<name>mncv00</name>
+	<description>Baseline median motor nerve velocity</description>
+	<type>float</type>
+	<unit>M/SEC</unit>
+</variable>
+
+<variable id="phv00026937.v1">
+	<name>mncv20</name>
+	<description>5-year change: median motor nerve velocity</description>
+	<type>float</type>
+	<unit>M/SEC</unit>
+</variable>
+
+<variable id="phv00026732.v1">
+	<name>neph2flg</name>
+	<description>First occurrence of nephropathy level 2</description>
+	<type>byte</type>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00026733.v1">
+	<name>neph2vis</name>
+	<description>Quarterly visit of first occurrence of nephropathy level 2</description>
+	<type>byte</type>
+	<unit>QUARTERLY VISIT</unit>
+</variable>
+
+<variable id="phv00026734.v1">
+	<name>neph5flg</name>
+	<description>First occurrence of nephropathy level 5 (0=no,1=yes)</description>
+	<type>byte</type>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00026735.v1">
+	<name>neph5vis</name>
+	<description>Quarterly visit of first occurrence of nephropathy level 5</description>
+	<type>byte</type>
+	<unit>QUARTERLY VISIT</unit>
+</variable>
+
+<variable id="phv00026713.v1">
+	<name>neur0flg</name>
+	<description>Clinical neuropathy at baseline</description>
+	<type>byte</type>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00026720.v1">
+	<name>neur5flg</name>
+	<description>Clinical neuropathy observed at year 5</description>
+	<type>byte</type>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00026721.v1">
+	<name>neur5vis</name>
+	<description>Actual quarterly visit of neuropathy score at year  5</description>
+	<type>byte</type>
+	<unit>QUARTERLY VISIT</unit>
+</variable>
+
+<variable id="phv00026712.v1">
+	<name>phase3</name>
+	<description>Phase of randomization (0=2,1=3; 2=Feasibility, 3=Full-Scale)</description>
+	<type>byte</type>
+	<value code="0">2 (CODE DESCR)</value>
+	<value code="1">3 (CODE DESCR)</value>
+	<value code="2">FEASIBILITY</value>
+	<value code="3">FULL SCALE</value>
+</variable>
+
+<variable id="phv00026719.v1">
+	<name>primary</name>
+	<description>Patient belongs to primary (prevention)/secondary (intervention) baseline retinopathy stratum</description>
+	<type>byte</type>
+	<value code="0">SECONDARY STRATUM</value>
+	<value code="1">PRIMARY STRATUM</value>
+</variable>
+
+<variable id="phv00026896.v1">
+	<name>protein</name>
+	<description>Dietary protein (gm)</description>
+	<type>float</type>
+	<unit>GM</unit>
+</variable>
+
+<variable id="phv00026716.v1">
+	<name>ret20flg</name>
+	<description>Baseline ETDRS 20/20</description>
+	<type>byte</type>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00026717.v1">
+	<name>ret35flg</name>
+	<description>Baseline ETDRS 35/&lt;=35</description>
+	<type>byte</type>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00026718.v1">
+	<name>ret43flg</name>
+	<description>Baseline ETDRS 43/&lt;43 +</description>
+	<type>byte</type>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00026737.v1">
+	<name>retbase</name>
+	<description>Baseline retinopathy stratum</description>
+	<type>str4</type>
+	<value code="PRIM">PRIMARY STRATUM</value>
+	<value code="SCND">SECONDARY STRATUM</value>
+</variable>
+
+<variable id="phv00026817.v1">
+	<name>sdhba01</name>
+	<description>Standard deviation of HbA1c up to quarterly visit 01</description>
+	<type>byte</type>
+	<unit>PERCENT (SD)</unit>
+</variable>
+
+<variable id="phv00026818.v1">
+	<name>sdhba02</name>
+	<description>Standard deviation of HbA1c up to quarterly visit 02</description>
+	<type>float</type>
+	<unit>PERCENT (SD)</unit>
+</variable>
+
+<variable id="phv00026819.v1">
+	<name>sdhba03</name>
+	<description>Standard deviation of HbA1c up to quarterly visit 03</description>
+	<type>float</type>
+	<unit>PERCENT (SD)</unit>
+</variable>
+
+<variable id="phv00026820.v1">
+	<name>sdhba04</name>
+	<description>Standard deviation of HbA1c up to quarterly visit 04</description>
+	<type>float</type>
+	<unit>PERCENT (SD)</unit>
+</variable>
+
+<variable id="phv00026821.v1">
+	<name>sdhba05</name>
+	<description>Standard deviation of HbA1c up to quarterly visit 05</description>
+	<type>float</type>
+	<unit>PERCENT (SD)</unit>
+</variable>
+
+<variable id="phv00026822.v1">
+	<name>sdhba06</name>
+	<description>Standard deviation of HbA1c up to quarterly visit 06</description>
+	<type>float</type>
+	<unit>PERCENT (SD)</unit>
+</variable>
+
+<variable id="phv00026823.v1">
+	<name>sdhba07</name>
+	<description>Standard deviation of HbA1c up to quarterly visit 07</description>
+	<type>float</type>
+	<unit>PERCENT (SD)</unit>
+</variable>
+
+<variable id="phv00026824.v1">
+	<name>sdhba08</name>
+	<description>Standard deviation of HbA1c up to quarterly visit 08</description>
+	<type>float</type>
+	<unit>PERCENT (SD)</unit>
+</variable>
+
+<variable id="phv00026825.v1">
+	<name>sdhba09</name>
+	<description>Standard deviation of HbA1c up to quarterly visit 09</description>
+	<type>float</type>
+	<unit>PERCENT (SD)</unit>
+</variable>
+
+<variable id="phv00026826.v1">
+	<name>sdhba10</name>
+	<description>Standard deviation of HbA1c up to quarterly visit 10</description>
+	<type>float</type>
+	<unit>PERCENT (SD)</unit>
+</variable>
+
+<variable id="phv00026827.v1">
+	<name>sdhba11</name>
+	<description>Standard deviation of HbA1c up to quarterly visit 11</description>
+	<type>float</type>
+	<unit>PERCENT (SD)</unit>
+</variable>
+
+<variable id="phv00026828.v1">
+	<name>sdhba12</name>
+	<description>Standard deviation of HbA1c up to quarterly visit 12</description>
+	<type>float</type>
+	<unit>PERCENT (SD)</unit>
+</variable>
+
+<variable id="phv00026829.v1">
+	<name>sdhba13</name>
+	<description>Standard deviation of HbA1c up to quarterly visit 13</description>
+	<type>float</type>
+	<unit>PERCENT (SD)</unit>
+</variable>
+
+<variable id="phv00026830.v1">
+	<name>sdhba14</name>
+	<description>Standard deviation of HbA1c up to quarterly visit 14</description>
+	<type>float</type>
+	<unit>PERCENT (SD)</unit>
+</variable>
+
+<variable id="phv00026831.v1">
+	<name>sdhba15</name>
+	<description>Standard deviation of HbA1c up to quarterly visit 15</description>
+	<type>float</type>
+	<unit>PERCENT (SD)</unit>
+</variable>
+
+<variable id="phv00026832.v1">
+	<name>sdhba16</name>
+	<description>Standard deviation of HbA1c up to quarterly visit 16</description>
+	<type>float</type>
+	<unit>PERCENT (SD)</unit>
+</variable>
+
+<variable id="phv00026833.v1">
+	<name>sdhba17</name>
+	<description>Standard deviation of HbA1c up to quarterly visit 17</description>
+	<type>float</type>
+	<unit>PERCENT (SD)</unit>
+</variable>
+
+<variable id="phv00026834.v1">
+	<name>sdhba18</name>
+	<description>Standard deviation of HbA1c up to quarterly visit 18</description>
+	<type>float</type>
+	<unit>PERCENT (SD)</unit>
+</variable>
+
+<variable id="phv00026835.v1">
+	<name>sdhba19</name>
+	<description>Standard deviation of HbA1c up to quarterly visit 19</description>
+	<type>float</type>
+	<unit>PERCENT (SD)</unit>
+</variable>
+
+<variable id="phv00026836.v1">
+	<name>sdhba20</name>
+	<description>Standard deviation of HbA1c up to quarterly visit 20</description>
+	<type>float</type>
+	<unit>PERCENT (SD)</unit>
+</variable>
+
+<variable id="phv00026837.v1">
+	<name>sdhba21</name>
+	<description>Standard deviation of HbA1c up to quarterly visit 21</description>
+	<type>float</type>
+	<unit>PERCENT (SD)</unit>
+</variable>
+
+<variable id="phv00026838.v1">
+	<name>sdhba22</name>
+	<description>Standard deviation of HbA1c up to quarterly visit 22</description>
+	<type>float</type>
+	<unit>PERCENT (SD)</unit>
+</variable>
+
+<variable id="phv00026839.v1">
+	<name>sdhba23</name>
+	<description>Standard deviation of HbA1c up to quarterly visit 23</description>
+	<type>float</type>
+	<unit>PERCENT (SD)</unit>
+</variable>
+
+<variable id="phv00026840.v1">
+	<name>sdhba24</name>
+	<description>Standard deviation of HbA1c up to quarterly visit 24</description>
+	<type>float</type>
+	<unit>PERCENT (SD)</unit>
+</variable>
+
+<variable id="phv00026841.v1">
+	<name>sdhba25</name>
+	<description>Standard deviation of HbA1c up to quarterly visit 25</description>
+	<type>float</type>
+	<unit>PERCENT (SD)</unit>
+</variable>
+
+<variable id="phv00026842.v1">
+	<name>sdhba26</name>
+	<description>Standard deviation of HbA1c up to quarterly visit 26</description>
+	<type>float</type>
+	<unit>PERCENT (SD)</unit>
+</variable>
+
+<variable id="phv00026843.v1">
+	<name>sdhba27</name>
+	<description>Standard deviation of HbA1c up to quarterly visit 27</description>
+	<type>float</type>
+	<unit>PERCENT (SD)</unit>
+</variable>
+
+<variable id="phv00026844.v1">
+	<name>sdhba28</name>
+	<description>Standard deviation of HbA1c up to quarterly visit 28</description>
+	<type>float</type>
+	<unit>PERCENT (SD)</unit>
+</variable>
+
+<variable id="phv00026845.v1">
+	<name>sdhba29</name>
+	<description>Standard deviation of HbA1c up to quarterly visit 29</description>
+	<type>float</type>
+	<unit>PERCENT (SD)</unit>
+</variable>
+
+<variable id="phv00026846.v1">
+	<name>sdhba30</name>
+	<description>Standard deviation of HbA1c up to quarterly visit 30</description>
+	<type>float</type>
+	<unit>PERCENT (SD)</unit>
+</variable>
+
+<variable id="phv00026847.v1">
+	<name>sdhba31</name>
+	<description>Standard deviation of HbA1c up to quarterly visit 31</description>
+	<type>float</type>
+	<unit>PERCENT (SD)</unit>
+</variable>
+
+<variable id="phv00026848.v1">
+	<name>sdhba32</name>
+	<description>Standard deviation of HbA1c up to quarterly visit 32</description>
+	<type>float</type>
+	<unit>PERCENT (SD)</unit>
+</variable>
+
+<variable id="phv00026849.v1">
+	<name>sdhba33</name>
+	<description>Standard deviation of HbA1c up to quarterly visit 33</description>
+	<type>float</type>
+	<unit>PERCENT (SD)</unit>
+</variable>
+
+<variable id="phv00026850.v1">
+	<name>sdhba34</name>
+	<description>Standard deviation of HbA1c up to quarterly visit 34</description>
+	<type>float</type>
+	<unit>PERCENT (SD)</unit>
+</variable>
+
+<variable id="phv00026851.v1">
+	<name>sdhba35</name>
+	<description>Standard deviation of HbA1c up to quarterly visit 35</description>
+	<type>float</type>
+	<unit>PERCENT (SD)</unit>
+</variable>
+
+<variable id="phv00026852.v1">
+	<name>sdhba36</name>
+	<description>Standard deviation of HbA1c up to quarterly visit 36</description>
+	<type>float</type>
+	<unit>PERCENT (SD)</unit>
+</variable>
+
+<variable id="phv00026853.v1">
+	<name>slhba01</name>
+	<description>Slope of HbA1c up to quarterly visit 01</description>
+	<type>byte</type>
+	<unit>PERCENT (SLOPE)</unit>
+</variable>
+
+<variable id="phv00026854.v1">
+	<name>slhba02</name>
+	<description>Slope of HbA1c up to quarterly visit 02</description>
+	<type>float</type>
+	<unit>PERCENT (SLOPE)</unit>
+</variable>
+
+<variable id="phv00026855.v1">
+	<name>slhba03</name>
+	<description>Slope of HbA1c up to quarterly visit 03</description>
+	<type>float</type>
+	<unit>PERCENT (SLOPE)</unit>
+</variable>
+
+<variable id="phv00026856.v1">
+	<name>slhba04</name>
+	<description>Slope of HbA1c up to quarterly visit 04</description>
+	<type>float</type>
+	<unit>PERCENT (SLOPE)</unit>
+</variable>
+
+<variable id="phv00026857.v1">
+	<name>slhba05</name>
+	<description>Slope of HbA1c up to quarterly visit 05</description>
+	<type>float</type>
+	<unit>PERCENT (SLOPE)</unit>
+</variable>
+
+<variable id="phv00026858.v1">
+	<name>slhba06</name>
+	<description>Slope of HbA1c up to quarterly visit 06</description>
+	<type>float</type>
+	<unit>PERCENT (SLOPE)</unit>
+</variable>
+
+<variable id="phv00026859.v1">
+	<name>slhba07</name>
+	<description>Slope of HbA1c up to quarterly visit 07</description>
+	<type>float</type>
+	<unit>PERCENT (SLOPE)</unit>
+</variable>
+
+<variable id="phv00026860.v1">
+	<name>slhba08</name>
+	<description>Slope of HbA1c up to quarterly visit 08</description>
+	<type>float</type>
+	<unit>PERCENT (SLOPE)</unit>
+</variable>
+
+<variable id="phv00026861.v1">
+	<name>slhba09</name>
+	<description>Slope of HbA1c up to quarterly visit 09</description>
+	<type>float</type>
+	<unit>PERCENT (SLOPE)</unit>
+</variable>
+
+<variable id="phv00026862.v1">
+	<name>slhba10</name>
+	<description>Slope of HbA1c up to quarterly visit 10</description>
+	<type>float</type>
+	<unit>PERCENT (SLOPE)</unit>
+</variable>
+
+<variable id="phv00026863.v1">
+	<name>slhba11</name>
+	<description>Slope of HbA1c up to quarterly visit 11</description>
+	<type>float</type>
+	<unit>PERCENT (SLOPE)</unit>
+</variable>
+
+<variable id="phv00026864.v1">
+	<name>slhba12</name>
+	<description>Slope of HbA1c up to quarterly visit 12</description>
+	<type>float</type>
+	<unit>PERCENT (SLOPE)</unit>
+</variable>
+
+<variable id="phv00026865.v1">
+	<name>slhba13</name>
+	<description>Slope of HbA1c up to quarterly visit 13</description>
+	<type>float</type>
+	<unit>PERCENT (SLOPE)</unit>
+</variable>
+
+<variable id="phv00026866.v1">
+	<name>slhba14</name>
+	<description>Slope of HbA1c up to quarterly visit 14</description>
+	<type>float</type>
+	<unit>PERCENT (SLOPE)</unit>
+</variable>
+
+<variable id="phv00026867.v1">
+	<name>slhba15</name>
+	<description>Slope of HbA1c up to quarterly visit 15</description>
+	<type>float</type>
+	<unit>PERCENT (SLOPE)</unit>
+</variable>
+
+<variable id="phv00026868.v1">
+	<name>slhba16</name>
+	<description>Slope of HbA1c up to quarterly visit 16</description>
+	<type>float</type>
+	<unit>PERCENT (SLOPE)</unit>
+</variable>
+
+<variable id="phv00026869.v1">
+	<name>slhba17</name>
+	<description>Slope of HbA1c up to quarterly visit 17</description>
+	<type>float</type>
+	<unit>PERCENT (SLOPE)</unit>
+</variable>
+
+<variable id="phv00026870.v1">
+	<name>slhba18</name>
+	<description>Slope of HbA1c up to quarterly visit 18</description>
+	<type>float</type>
+	<unit>PERCENT (SLOPE)</unit>
+</variable>
+
+<variable id="phv00026871.v1">
+	<name>slhba19</name>
+	<description>Slope of HbA1c up to quarterly visit 19</description>
+	<type>float</type>
+	<unit>PERCENT (SLOPE)</unit>
+</variable>
+
+<variable id="phv00026872.v1">
+	<name>slhba20</name>
+	<description>Slope of HbA1c up to quarterly visit 20</description>
+	<type>float</type>
+	<unit>PERCENT (SLOPE)</unit>
+</variable>
+
+<variable id="phv00026873.v1">
+	<name>slhba21</name>
+	<description>Slope of HbA1c up to quarterly visit 21</description>
+	<type>float</type>
+	<unit>PERCENT (SLOPE)</unit>
+</variable>
+
+<variable id="phv00026874.v1">
+	<name>slhba22</name>
+	<description>Slope of HbA1c up to quarterly visit 22</description>
+	<type>float</type>
+	<unit>PERCENT (SLOPE)</unit>
+</variable>
+
+<variable id="phv00026875.v1">
+	<name>slhba23</name>
+	<description>Slope of HbA1c up to quarterly visit 23</description>
+	<type>float</type>
+	<unit>PERCENT (SLOPE)</unit>
+</variable>
+
+<variable id="phv00026876.v1">
+	<name>slhba24</name>
+	<description>Slope of HbA1c up to quarterly visit 24</description>
+	<type>float</type>
+	<unit>PERCENT (SLOPE)</unit>
+</variable>
+
+<variable id="phv00026877.v1">
+	<name>slhba25</name>
+	<description>Slope of HbA1c up to quarterly visit 25</description>
+	<type>float</type>
+	<unit>PERCENT (SLOPE)</unit>
+</variable>
+
+<variable id="phv00026878.v1">
+	<name>slhba26</name>
+	<description>Slope of HbA1c up to quarterly visit 26</description>
+	<type>float</type>
+	<unit>PERCENT (SLOPE)</unit>
+</variable>
+
+<variable id="phv00026879.v1">
+	<name>slhba27</name>
+	<description>Slope of HbA1c up to quarterly visit 27</description>
+	<type>float</type>
+	<unit>PERCENT (SLOPE)</unit>
+</variable>
+
+<variable id="phv00026880.v1">
+	<name>slhba28</name>
+	<description>Slope of HbA1c up to quarterly visit 28</description>
+	<type>float</type>
+	<unit>PERCENT (SLOPE)</unit>
+</variable>
+
+<variable id="phv00026881.v1">
+	<name>slhba29</name>
+	<description>Slope of HbA1c up to quarterly visit 29</description>
+	<type>float</type>
+	<unit>PERCENT (SLOPE)</unit>
+</variable>
+
+<variable id="phv00026882.v1">
+	<name>slhba30</name>
+	<description>Slope of HbA1c up to quarterly visit 30</description>
+	<type>float</type>
+	<unit>PERCENT (SLOPE)</unit>
+</variable>
+
+<variable id="phv00026883.v1">
+	<name>slhba31</name>
+	<description>Slope of HbA1c up to quarterly visit 31</description>
+	<type>float</type>
+	<unit>PERCENT (SLOPE)</unit>
+</variable>
+
+<variable id="phv00026884.v1">
+	<name>slhba32</name>
+	<description>Slope of HbA1c up to quarterly visit 32</description>
+	<type>float</type>
+	<unit>PERCENT (SLOPE)</unit>
+</variable>
+
+<variable id="phv00026885.v1">
+	<name>slhba33</name>
+	<description>Slope of HbA1c up to quarterly visit 33</description>
+	<type>float</type>
+	<unit>PERCENT (SLOPE)</unit>
+</variable>
+
+<variable id="phv00026886.v1">
+	<name>slhba34</name>
+	<description>Slope of HbA1c up to quarterly visit 34</description>
+	<type>float</type>
+	<unit>PERCENT (SLOPE)</unit>
+</variable>
+
+<variable id="phv00026887.v1">
+	<name>slhba35</name>
+	<description>Slope of HbA1c up to quarterly visit 35</description>
+	<type>float</type>
+	<unit>PERCENT (SLOPE)</unit>
+</variable>
+
+<variable id="phv00026888.v1">
+	<name>slhba36</name>
+	<description>Slope of HbA1c up to quarterly visit 36</description>
+	<type>float</type>
+	<unit>PERCENT (SLOPE)</unit>
+</variable>
+
+<variable id="phv00026714.v1">
+	<name>smoker</name>
+	<description>Smoking status at baseline</description>
+	<type>byte</type>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00026898.v1">
+	<name>trg</name>
+	<description>Triglycerides (serum, mg/dl, form 023c)</description>
+	<type>int</type>
+	<unit>MG/DL</unit>
+</variable>
+
+<variable id="phv00026901.v1">
+	<name>wpmean</name>
+	<description>Within-profile mean blood glucose values (mg/dl)</description>
+	<type>float</type>
+	<unit>MG/DL</unit>
+</variable>
+
+</data_table>

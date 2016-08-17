@@ -1,0 +1,672 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./datadict_v2.xsl"?>
+<data_table id="pht001404.v1" study_id="phs000280.v1" participant_set="1" date_created="Fri Jul  9 11:27:52 2010">
+
+<variable id="phv00097513.v1">
+	<name>Individual_ID</name>
+	<description>Subject Identifier</description>
+	<type>string</type>
+</variable>
+
+<variable id="phv00097514.v1">
+	<name>T_CRIP41</name>
+	<description>=1 FOR NORM. 1ST TRANS, &gt;1 FOR SUBSEQ.</description>
+	<type>encoded</type>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002884.1">DerVaribleDictonaryExam4.pdf</a>.]]></comment>
+	<value code="1">1 FOR NORM. 1ST TRANS, &gt;1 FOR SUBSEQ</value>
+</variable>
+
+<variable id="phv00097515.v1">
+	<name>CONTYR</name>
+	<description>CONTACT YEAR [10]</description>
+	<type>integer</type>
+	<unit>Year</unit>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002884.1">DerVaribleDictonaryExam4.pdf</a>.]]></comment>
+	<value code=".">Missing</value>
+</variable>
+
+<variable id="phv00097516.v1">
+	<name>QCREAD41</name>
+	<description>=1 IF REG READING, &gt;1 IF REREADING</description>
+	<type>encoded</type>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002884.1">DerVaribleDictonaryExam4.pdf</a>.]]></comment>
+	<value code="1">1 IF REG READING, &gt;1 IF REREADING</value>
+	<value code=".">Missing</value>
+</variable>
+
+<variable id="phv00097517.v1">
+	<name>SP_STU41</name>
+	<description>=0 FOR REG VIS.,&gt;0 FOR SPEC., 22=COMPAR</description>
+	<type>encoded</type>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002884.1">DerVaribleDictonaryExam4.pdf</a>.]]></comment>
+	<value code="0">FOR REG VIS.</value>
+	<value code=".">Missing</value>
+</variable>
+
+<variable id="phv00097518.v1">
+	<name>CALIB</name>
+	<description>CONVERSION FACTOR</description>
+	<type>decimal</type>
+	<logical_min>0.054</logical_min>
+	<logical_max>0.054</logical_max>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002884.1">DerVaribleDictonaryExam4.pdf</a>.]]></comment>
+</variable>
+
+<variable id="phv00097519.v1">
+	<name>QC41</name>
+	<description>SITE NAME OF QC REPEAT SCAN 01</description>
+	<type>string</type>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002884.1">DerVaribleDictonaryExam4.pdf</a>.]]></comment>
+</variable>
+
+<variable id="phv00097520.v1">
+	<name>QC42</name>
+	<description>SITE NAME OF QC REPEAT SCAN 02</description>
+	<type>string</type>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002884.1">DerVaribleDictonaryExam4.pdf</a>.]]></comment>
+</variable>
+
+<variable id="phv00097521.v1">
+	<name>QCCNT4</name>
+	<description>NUMBER OF QC REPEAT SCANS</description>
+	<type>integer</type>
+	<unit>Scans</unit>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002884.1">DerVaribleDictonaryExam4.pdf</a>.]]></comment>
+	<value code=".">Missing</value>
+</variable>
+
+<variable id="phv00097522.v1">
+	<name>LOPDMX23</name>
+	<description>MAX NEAR WALL WIDTH(LT COM CAR:OPT ANG)</description>
+	<type>decimal</type>
+	<logical_min>0.378</logical_min>
+	<logical_max>3.672</logical_max>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002884.1">DerVaribleDictonaryExam4.pdf</a>.]]></comment>
+</variable>
+
+<variable id="phv00097523.v1">
+	<name>ROPDMX23</name>
+	<description>MAX NEAR WALL WIDTH(RT COM CAR:OPT ANG)</description>
+	<type>decimal</type>
+	<logical_min>0.324</logical_min>
+	<logical_max>5.886</logical_max>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002884.1">DerVaribleDictonaryExam4.pdf</a>.]]></comment>
+</variable>
+
+<variable id="phv00097524.v1">
+	<name>LBIDMX23</name>
+	<description>MAX NEAR WALL WIDTH(LT BIF)</description>
+	<type>decimal</type>
+	<logical_min>0.324</logical_min>
+	<logical_max>6.588</logical_max>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002884.1">DerVaribleDictonaryExam4.pdf</a>.]]></comment>
+</variable>
+
+<variable id="phv00097525.v1">
+	<name>RBIDMX23</name>
+	<description>MAX NEAR WALL WIDTH(RT BIF)</description>
+	<type>decimal</type>
+	<logical_min>0.378</logical_min>
+	<logical_max>6.696</logical_max>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002884.1">DerVaribleDictonaryExam4.pdf</a>.]]></comment>
+</variable>
+
+<variable id="phv00097526.v1">
+	<name>LBNDMX23</name>
+	<description>MAX NEAR WALL WIDTH(LBIF FOCUS-NEARWALL)</description>
+	<type>decimal</type>
+	<logical_min>0.324</logical_min>
+	<logical_max>6.534</logical_max>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002884.1">DerVaribleDictonaryExam4.pdf</a>.]]></comment>
+</variable>
+
+<variable id="phv00097527.v1">
+	<name>RBNDMX23</name>
+	<description>MAX NEAR WALL WIDTH(RBIF FOCUS-NEARWA</description>
+	<type>decimal</type>
+	<logical_min>0.378</logical_min>
+	<logical_max>6.21</logical_max>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002884.1">DerVaribleDictonaryExam4.pdf</a>.]]></comment>
+</variable>
+
+<variable id="phv00097528.v1">
+	<name>LINDMX23</name>
+	<description>MAX NEAR WALL WIDTH(LT INT CAROTID)</description>
+	<type>decimal</type>
+	<logical_min>0.27</logical_min>
+	<logical_max>5.724</logical_max>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002884.1">DerVaribleDictonaryExam4.pdf</a>.]]></comment>
+</variable>
+
+<variable id="phv00097529.v1">
+	<name>RINDMX23</name>
+	<description>MAX NEAR WALL WIDTH(RT INT CAROTID)</description>
+	<type>decimal</type>
+	<logical_min>0.324</logical_min>
+	<logical_max>4.212</logical_max>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002884.1">DerVaribleDictonaryExam4.pdf</a>.]]></comment>
+</variable>
+
+<variable id="phv00097530.v1">
+	<name>QC1DMX23</name>
+	<description>MAX NEAR WALL WIDTH(QC SCAN 01)</description>
+	<type>decimal</type>
+	<logical_min>0.378</logical_min>
+	<logical_max>6.588</logical_max>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002884.1">DerVaribleDictonaryExam4.pdf</a>.]]></comment>
+</variable>
+
+<variable id="phv00097531.v1">
+	<name>QC2DMX23</name>
+	<description>MAX NEAR WALL WIDTH(QC SCAN 02)</description>
+	<type>decimal</type>
+	<logical_min>0.324</logical_min>
+	<logical_max>4.266</logical_max>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002884.1">DerVaribleDictonaryExam4.pdf</a>.]]></comment>
+</variable>
+
+<variable id="phv00097532.v1">
+	<name>LOPDAV23</name>
+	<description>AVG NEAR WALL WIDTH(LT COM CAR:OPT ANG)</description>
+	<type>decimal</type>
+	<logical_min>0.2835</logical_min>
+	<logical_max>3.132</logical_max>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002884.1">DerVaribleDictonaryExam4.pdf</a>.]]></comment>
+</variable>
+
+<variable id="phv00097533.v1">
+	<name>ROPDAV23</name>
+	<description>AVG NEAR WALL WIDTH(RT COM CAR:OPT ANG)</description>
+	<type>decimal</type>
+	<logical_min>0.324</logical_min>
+	<logical_max>3.051</logical_max>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002884.1">DerVaribleDictonaryExam4.pdf</a>.]]></comment>
+</variable>
+
+<variable id="phv00097534.v1">
+	<name>LBIDAV23</name>
+	<description>AVG NEAR WALL WIDTH(LT BIF)</description>
+	<type>decimal</type>
+	<logical_min>0.324</logical_min>
+	<logical_max>5.526</logical_max>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002884.1">DerVaribleDictonaryExam4.pdf</a>.]]></comment>
+</variable>
+
+<variable id="phv00097535.v1">
+	<name>RBIDAV23</name>
+	<description>AVG NEAR WALL WIDTH(RT BIF)</description>
+	<type>decimal</type>
+	<logical_min>0.351</logical_min>
+	<logical_max>5.9508</logical_max>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002884.1">DerVaribleDictonaryExam4.pdf</a>.]]></comment>
+</variable>
+
+<variable id="phv00097536.v1">
+	<name>LBNDAV23</name>
+	<description>AVG NEAR WALL WIDTH(LBIF FOCUS-NEARWALL)</description>
+	<type>decimal</type>
+	<logical_min>0.234</logical_min>
+	<logical_max>5.886</logical_max>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002884.1">DerVaribleDictonaryExam4.pdf</a>.]]></comment>
+</variable>
+
+<variable id="phv00097537.v1">
+	<name>RBNDAV23</name>
+	<description>AVG NEAR WALL WIDTH(RBIF FOCUS-NEARWA</description>
+	<type>decimal</type>
+	<logical_min>0.342</logical_min>
+	<logical_max>5.904</logical_max>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002884.1">DerVaribleDictonaryExam4.pdf</a>.]]></comment>
+</variable>
+
+<variable id="phv00097538.v1">
+	<name>LINDAV23</name>
+	<description>AVG NEAR WALL WIDTH(LT INT CAROTID)</description>
+	<type>decimal</type>
+	<logical_min>0.27</logical_min>
+	<logical_max>5.643</logical_max>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002884.1">DerVaribleDictonaryExam4.pdf</a>.]]></comment>
+</variable>
+
+<variable id="phv00097539.v1">
+	<name>RINDAV23</name>
+	<description>AVG NEAR WALL WIDTH(RT INT CAROTID)</description>
+	<type>decimal</type>
+	<logical_min>0.2808</logical_min>
+	<logical_max>3.78</logical_max>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002884.1">DerVaribleDictonaryExam4.pdf</a>.]]></comment>
+</variable>
+
+<variable id="phv00097540.v1">
+	<name>QC1DAV23</name>
+	<description>AVG NEAR WALL WIDTH(QC SCAN 01)</description>
+	<type>decimal</type>
+	<logical_min>0.324</logical_min>
+	<logical_max>5.9724</logical_max>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002884.1">DerVaribleDictonaryExam4.pdf</a>.]]></comment>
+</variable>
+
+<variable id="phv00097541.v1">
+	<name>QC2DAV23</name>
+	<description>AVG NEAR WALL WIDTH(QC SCAN 02)</description>
+	<type>decimal</type>
+	<logical_min>0.324</logical_min>
+	<logical_max>4.05</logical_max>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002884.1">DerVaribleDictonaryExam4.pdf</a>.]]></comment>
+</variable>
+
+<variable id="phv00097542.v1">
+	<name>LOPDMX45</name>
+	<description>MAX FAR WALL WIDTH(LT COM CAR:OPT ANG)</description>
+	<type>decimal</type>
+	<logical_min>0.324</logical_min>
+	<logical_max>3.942</logical_max>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002884.1">DerVaribleDictonaryExam4.pdf</a>.]]></comment>
+</variable>
+
+<variable id="phv00097543.v1">
+	<name>ROPDMX45</name>
+	<description>MAX FAR WALL WIDTH(RT COM CAR:OPT ANG)</description>
+	<type>decimal</type>
+	<logical_min>0.27</logical_min>
+	<logical_max>4.644</logical_max>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002884.1">DerVaribleDictonaryExam4.pdf</a>.]]></comment>
+</variable>
+
+<variable id="phv00097544.v1">
+	<name>LBIDMX45</name>
+	<description>MAX FAR WALL WIDTH(LT BIF)</description>
+	<type>decimal</type>
+	<logical_min>0.324</logical_min>
+	<logical_max>5.886</logical_max>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002884.1">DerVaribleDictonaryExam4.pdf</a>.]]></comment>
+</variable>
+
+<variable id="phv00097545.v1">
+	<name>RBIDMX45</name>
+	<description>MAX FAR WALL WIDTH(RT BIF)</description>
+	<type>decimal</type>
+	<logical_min>0.27</logical_min>
+	<logical_max>6.21</logical_max>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002884.1">DerVaribleDictonaryExam4.pdf</a>.]]></comment>
+</variable>
+
+<variable id="phv00097546.v1">
+	<name>LBFDMX45</name>
+	<description>MAX FAR WALL WIDTH(LBI   F FOCUS-FAR WAL</description>
+	<type>decimal</type>
+	<logical_min>0.27</logical_min>
+	<logical_max>6.372</logical_max>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002884.1">DerVaribleDictonaryExam4.pdf</a>.]]></comment>
+</variable>
+
+<variable id="phv00097547.v1">
+	<name>RBFDMX45</name>
+	<description>MAX FAR WALL WIDTH(RBIF FOCUS-FAR WALL)</description>
+	<type>decimal</type>
+	<logical_min>0.324</logical_min>
+	<logical_max>7.128</logical_max>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002884.1">DerVaribleDictonaryExam4.pdf</a>.]]></comment>
+</variable>
+
+<variable id="phv00097548.v1">
+	<name>LINDMX45</name>
+	<description>MAX FAR WALL WIDTH(LT INT CAROTID)</description>
+	<type>decimal</type>
+	<logical_min>0.162</logical_min>
+	<logical_max>5.994</logical_max>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002884.1">DerVaribleDictonaryExam4.pdf</a>.]]></comment>
+</variable>
+
+<variable id="phv00097549.v1">
+	<name>RINDMX45</name>
+	<description>MAX FAR WALL WIDTH(RT INT CAROTID)</description>
+	<type>decimal</type>
+	<logical_min>0.216</logical_min>
+	<logical_max>6.588</logical_max>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002884.1">DerVaribleDictonaryExam4.pdf</a>.]]></comment>
+</variable>
+
+<variable id="phv00097550.v1">
+	<name>QC1DMX45</name>
+	<description>MAX FAR WALL WIDTH(QC SCAN 01)</description>
+	<type>decimal</type>
+	<logical_min>0.324</logical_min>
+	<logical_max>7.128</logical_max>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002884.1">DerVaribleDictonaryExam4.pdf</a>.]]></comment>
+</variable>
+
+<variable id="phv00097551.v1">
+	<name>QC2DMX45</name>
+	<description>MAX FAR WALL WIDTH(QC SCAN 02)</description>
+	<type>decimal</type>
+	<logical_min>0.378</logical_min>
+	<logical_max>4.32</logical_max>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002884.1">DerVaribleDictonaryExam4.pdf</a>.]]></comment>
+</variable>
+
+<variable id="phv00097552.v1">
+	<name>LOPDAV45</name>
+	<description>AVG FAR WALL WIDTH(LT COM CAR:OPT ANG)</description>
+	<type>decimal</type>
+	<logical_min>0.2835</logical_min>
+	<logical_max>3.492</logical_max>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002884.1">DerVaribleDictonaryExam4.pdf</a>.]]></comment>
+</variable>
+
+<variable id="phv00097553.v1">
+	<name>ROPDAV45</name>
+	<description>AVG FAR WALL WIDTH(RT COM CAR:OPT ANG)</description>
+	<type>decimal</type>
+	<logical_min>0.27</logical_min>
+	<logical_max>4.4955</logical_max>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002884.1">DerVaribleDictonaryExam4.pdf</a>.]]></comment>
+</variable>
+
+<variable id="phv00097554.v1">
+	<name>LBIDAV45</name>
+	<description>AVG FAR WALL WIDTH(LT BIF)</description>
+	<type>decimal</type>
+	<logical_min>0.288</logical_min>
+	<logical_max>5.13</logical_max>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002884.1">DerVaribleDictonaryExam4.pdf</a>.]]></comment>
+</variable>
+
+<variable id="phv00097555.v1">
+	<name>RBIDAV45</name>
+	<description>AVG FAR WALL WIDTH(RT BIF)</description>
+	<type>decimal</type>
+	<logical_min>0.27</logical_min>
+	<logical_max>4.86</logical_max>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002884.1">DerVaribleDictonaryExam4.pdf</a>.]]></comment>
+</variable>
+
+<variable id="phv00097556.v1">
+	<name>LBFDAV45</name>
+	<description>AVG FAR WALL WIDTH(LBI   F FOCUS-FAR WAL</description>
+	<type>decimal</type>
+	<logical_min>0.216</logical_min>
+	<logical_max>6.148286</logical_max>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002884.1">DerVaribleDictonaryExam4.pdf</a>.]]></comment>
+</variable>
+
+<variable id="phv00097557.v1">
+	<name>RBFDAV45</name>
+	<description>AVG FAR WALL WIDTH(RBIF FOCUS-FAR WALL)</description>
+	<type>decimal</type>
+	<logical_min>0.297</logical_min>
+	<logical_max>5.24475</logical_max>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002884.1">DerVaribleDictonaryExam4.pdf</a>.]]></comment>
+</variable>
+
+<variable id="phv00097558.v1">
+	<name>LINDAV45</name>
+	<description>AVG FAR WALL WIDTH(LT INT CAROTID)</description>
+	<type>decimal</type>
+	<logical_min>0.162</logical_min>
+	<logical_max>5.5944</logical_max>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002884.1">DerVaribleDictonaryExam4.pdf</a>.]]></comment>
+</variable>
+
+<variable id="phv00097559.v1">
+	<name>RINDAV45</name>
+	<description>AVG FAR WALL WIDTH(RT INT CAROTID)</description>
+	<type>decimal</type>
+	<logical_min>0.216</logical_min>
+	<logical_max>6.48</logical_max>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002884.1">DerVaribleDictonaryExam4.pdf</a>.]]></comment>
+</variable>
+
+<variable id="phv00097560.v1">
+	<name>QC1DAV45</name>
+	<description>AVG FAR WALL WIDTH(QC SCAN 01)</description>
+	<type>decimal</type>
+	<logical_min>0.3105</logical_min>
+	<logical_max>7.128</logical_max>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002884.1">DerVaribleDictonaryExam4.pdf</a>.]]></comment>
+</variable>
+
+<variable id="phv00097561.v1">
+	<name>QC2DAV45</name>
+	<description>AVG FAR WALL WIDTH(QC SCAN 02)</description>
+	<type>decimal</type>
+	<logical_min>0.342</logical_min>
+	<logical_max>4.32</logical_max>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002884.1">DerVaribleDictonaryExam4.pdf</a>.]]></comment>
+</variable>
+
+<variable id="phv00097562.v1">
+	<name>LOPDMN34</name>
+	<description>MIN LUMEN DIAMETER(LT COM CAR:OPT ANG)</description>
+	<type>decimal</type>
+	<logical_min>1.62</logical_min>
+	<logical_max>10.8</logical_max>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002884.1">DerVaribleDictonaryExam4.pdf</a>.]]></comment>
+</variable>
+
+<variable id="phv00097563.v1">
+	<name>ROPDMN34</name>
+	<description>MIN LUMEN DIAMETER(RT COM CAR:OPT ANG)</description>
+	<type>decimal</type>
+	<logical_min>2.106</logical_min>
+	<logical_max>11.232</logical_max>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002884.1">DerVaribleDictonaryExam4.pdf</a>.]]></comment>
+</variable>
+
+<variable id="phv00097564.v1">
+	<name>LBIDMN34</name>
+	<description>MIN LUMEN DIAMETER(LT BIF)</description>
+	<type>decimal</type>
+	<logical_min>1.242</logical_min>
+	<logical_max>14.418</logical_max>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002884.1">DerVaribleDictonaryExam4.pdf</a>.]]></comment>
+</variable>
+
+<variable id="phv00097565.v1">
+	<name>RBIDMN34</name>
+	<description>MIN LUMEN DIAMETER(RT BIF)</description>
+	<type>decimal</type>
+	<logical_min>1.782</logical_min>
+	<logical_max>17.01</logical_max>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002884.1">DerVaribleDictonaryExam4.pdf</a>.]]></comment>
+</variable>
+
+<variable id="phv00097566.v1">
+	<name>LINDMN34</name>
+	<description>MIN LUMEN DIAMETER(LT INT CAROTID)</description>
+	<type>decimal</type>
+	<logical_min>0.81</logical_min>
+	<logical_max>11.34</logical_max>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002884.1">DerVaribleDictonaryExam4.pdf</a>.]]></comment>
+</variable>
+
+<variable id="phv00097567.v1">
+	<name>RINDMN34</name>
+	<description>MIN LUMEN DIAMETER(RT INT CAROTID)</description>
+	<type>decimal</type>
+	<logical_min>1.296</logical_min>
+	<logical_max>11.124</logical_max>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002884.1">DerVaribleDictonaryExam4.pdf</a>.]]></comment>
+</variable>
+
+<variable id="phv00097568.v1">
+	<name>QC1DMN34</name>
+	<description>MIN LUMEN DIAMETER(QC SCAN 01)</description>
+	<type>decimal</type>
+	<logical_min>1.944</logical_min>
+	<logical_max>13.068</logical_max>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002884.1">DerVaribleDictonaryExam4.pdf</a>.]]></comment>
+</variable>
+
+<variable id="phv00097569.v1">
+	<name>QC2DMN34</name>
+	<description>MIN LUMEN DIAMETER(QC SCAN 02)</description>
+	<type>decimal</type>
+	<logical_min>2.862</logical_min>
+	<logical_max>11.016</logical_max>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002884.1">DerVaribleDictonaryExam4.pdf</a>.]]></comment>
+</variable>
+
+<variable id="phv00097570.v1">
+	<name>LOPDAV25</name>
+	<description>AVG ARTERY DIAMETER(LT COM CAR:OPT ANG)</description>
+	<type>decimal</type>
+	<logical_min>4.6116</logical_min>
+	<logical_max>13.76229</logical_max>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002884.1">DerVaribleDictonaryExam4.pdf</a>.]]></comment>
+</variable>
+
+<variable id="phv00097571.v1">
+	<name>ROPDAV25</name>
+	<description>AVG ARTERY DIAMETER(RT COM CAR:OPT ANG)</description>
+	<type>decimal</type>
+	<logical_min>5.022</logical_min>
+	<logical_max>13.87029</logical_max>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002884.1">DerVaribleDictonaryExam4.pdf</a>.]]></comment>
+</variable>
+
+<variable id="phv00097572.v1">
+	<name>LBIDAV25</name>
+	<description>AVG ARTERY DIAMETER(LT BIF)</description>
+	<type>decimal</type>
+	<logical_min>4.8924</logical_min>
+	<logical_max>19.1592</logical_max>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002884.1">DerVaribleDictonaryExam4.pdf</a>.]]></comment>
+</variable>
+
+<variable id="phv00097573.v1">
+	<name>RBIDAV25</name>
+	<description>AVG ARTERY DIAMETER(RT BIF)</description>
+	<type>decimal</type>
+	<logical_min>4.928727</logical_min>
+	<logical_max>18.594</logical_max>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002884.1">DerVaribleDictonaryExam4.pdf</a>.]]></comment>
+</variable>
+
+<variable id="phv00097574.v1">
+	<name>LINDAV25</name>
+	<description>AVG ARTERY DIAMETER(LT INT CAROTID)</description>
+	<type>decimal</type>
+	<logical_min>4.1445</logical_min>
+	<logical_max>12.5928</logical_max>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002884.1">DerVaribleDictonaryExam4.pdf</a>.]]></comment>
+</variable>
+
+<variable id="phv00097575.v1">
+	<name>RINDAV25</name>
+	<description>AVG ARTERY DIAMETER(RT INT CAROTID)</description>
+	<type>decimal</type>
+	<logical_min>3.474</logical_min>
+	<logical_max>13.482</logical_max>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002884.1">DerVaribleDictonaryExam4.pdf</a>.]]></comment>
+</variable>
+
+<variable id="phv00097576.v1">
+	<name>QC1DAV25</name>
+	<description>AVG ARTERY DIAMETER(QC SCAN 01)</description>
+	<type>decimal</type>
+	<logical_min>4.044</logical_min>
+	<logical_max>17.28</logical_max>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002884.1">DerVaribleDictonaryExam4.pdf</a>.]]></comment>
+</variable>
+
+<variable id="phv00097577.v1">
+	<name>QC2DAV25</name>
+	<description>AVG ARTERY DIAMETER(QC SCAN 02)</description>
+	<type>decimal</type>
+	<logical_min>2.916</logical_min>
+	<logical_max>15.606</logical_max>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002884.1">DerVaribleDictonaryExam4.pdf</a>.]]></comment>
+</variable>
+
+<variable id="phv00097578.v1">
+	<name>LOPDDEEP</name>
+	<description>DEPTH VARIABLE(LT COM CAR:OPT ANG)</description>
+	<type>decimal</type>
+	<logical_min>277.1818</logical_min>
+	<logical_max>719.5455</logical_max>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002884.1">DerVaribleDictonaryExam4.pdf</a>.]]></comment>
+</variable>
+
+<variable id="phv00097579.v1">
+	<name>ROPDDEEP</name>
+	<description>DEPTH VARIABLE(RT COM CAR:OPT ANG)</description>
+	<type>decimal</type>
+	<logical_min>239.6364</logical_min>
+	<logical_max>719.375</logical_max>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002884.1">DerVaribleDictonaryExam4.pdf</a>.]]></comment>
+</variable>
+
+<variable id="phv00097580.v1">
+	<name>LBIDDEEP</name>
+	<description>DEPTH VARIABLE(LT BIF)</description>
+	<type>decimal</type>
+	<logical_min>330.4</logical_min>
+	<logical_max>724.2857</logical_max>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002884.1">DerVaribleDictonaryExam4.pdf</a>.]]></comment>
+</variable>
+
+<variable id="phv00097581.v1">
+	<name>RBIDDEEP</name>
+	<description>DEPTH VARIABLE(RT BIF)</description>
+	<type>decimal</type>
+	<logical_min>276.2727</logical_min>
+	<logical_max>720.8182</logical_max>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002884.1">DerVaribleDictonaryExam4.pdf</a>.]]></comment>
+</variable>
+
+<variable id="phv00097582.v1">
+	<name>LBFDDEEP</name>
+	<description>DEPTH VARIABLE(LBI   F FOCUS-FAR WALL)</description>
+	<type>decimal</type>
+	<logical_min>329.3636</logical_min>
+	<logical_max>715.7273</logical_max>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002884.1">DerVaribleDictonaryExam4.pdf</a>.]]></comment>
+</variable>
+
+<variable id="phv00097583.v1">
+	<name>RBFDDEEP</name>
+	<description>DEPTH VARIABLE(RBIF FOCUS-FAR WALL)</description>
+	<type>decimal</type>
+	<logical_min>283.9091</logical_min>
+	<logical_max>715.875</logical_max>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002884.1">DerVaribleDictonaryExam4.pdf</a>.]]></comment>
+</variable>
+
+<variable id="phv00097584.v1">
+	<name>LINDDEEP</name>
+	<description>DEPTH VARIABLE(LT INT CAROTID)</description>
+	<type>decimal</type>
+	<logical_min>267</logical_min>
+	<logical_max>720.4</logical_max>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002884.1">DerVaribleDictonaryExam4.pdf</a>.]]></comment>
+</variable>
+
+<variable id="phv00097585.v1">
+	<name>RINDDEEP</name>
+	<description>DEPTH VARIABLE(RT INT CAROTID)</description>
+	<type>decimal</type>
+	<logical_min>269.3636</logical_min>
+	<logical_max>723.1667</logical_max>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002884.1">DerVaribleDictonaryExam4.pdf</a>.]]></comment>
+</variable>
+
+<variable id="phv00097586.v1">
+	<name>DEPTH41</name>
+	<description>OVERALL AVERAGE DEPTH VARIABLE in pixels</description>
+	<type>decimal</type>
+	<logical_min>292.6545</logical_min>
+	<logical_max>692.9</logical_max>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002884.1">DerVaribleDictonaryExam4.pdf</a>.]]></comment>
+</variable>
+
+<variable id="phv00097587.v1">
+	<name>DEPTH42</name>
+	<description>OVERALL AVERAGE DEPTH VARIABLE in mm</description>
+	<type>decimal</type>
+	<logical_min>15.80335</logical_min>
+	<logical_max>37.4166</logical_max>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002884.1">DerVaribleDictonaryExam4.pdf</a>.]]></comment>
+</variable>
+
+</data_table>

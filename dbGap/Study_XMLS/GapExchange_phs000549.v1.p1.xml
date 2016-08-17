@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GaPExchange xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="./dbGaPEx2.1.5.xsd">
+
+<MetaVariables>
+	<Submitter/>
+	<Method/>
+</MetaVariables>
+<MetaLinks/>
+
+<Projects>
+	<Project/>
+</Projects>
+
+<Studies>
+
+<Study source="dbGaP" accession="phs000549.v1.p1" parentStudy="phs000549.v1.p1" createDate="2012-09-28" modDate="2013-06-18">
+
+<Configuration>
+	<Data_Provider><![CDATA[
+		<table border="1">
+		<tr><th>Title</th><th>Name</th><th>Institute</th></tr>
+		<tr><td>Principal Investigator</td><td>Ravindra Majeti, MD, PhD</td><td>Stanford University, Stanford, CA, USA</td></tr>
+		<tr><td>Funding Source</td><td>U01HL099999</td><td>Stanford University, Stanford, CA, USA</td></tr>
+		</table>
+	]]></Data_Provider>
+	<StudyNameEntrez>Clonal Evolution of Pre-Leukemic HSC Precedes Human AML</StudyNameEntrez>
+	<StudyNameReportPage>Clonal Evolution of Pre-Leukemic Hematopoietic Stem Cells Precedes Human Acute Myeloid Leukemia</StudyNameReportPage>
+	<StudyTypes>
+		<StudyType>Case Set</StudyType>
+	</StudyTypes>
+	<Description><![CDATA[
+<p>Acute myeloid leukemia is an aggressive clonal malignancy of the bone marrow that is the direct result of sequential acquisition of mutations in a single lineage of cells. In this study, we investigate a model in which this mutational acquisition occurs serially in long-lived self-renewing hematopoietic stem cells eventually resulting in frank acute myeloid leukemia. Coding mutations in multiple AML patients were identified using exome sequencing followed by sanger sequencing validation. The level of these mutations was then assessed in residual hematopoietic stem cells from each patient using targeted deep sequencing. These population-level estimates of mutant allele burden were then validated in single cell assays targeted to the identified mutations. This allowed for determination of the order of acquisition of the mutations that preceded the development of the leukemia. The results of this study identify pre-leukemic hematopoietic stem cell clones that could contribute to patient relapse and outcome.</p>]]>
+	</Description>
+	<StudyInEx><![CDATA[
+<p>Samples were included in this cohort study based on our ability to prospectively isolate hematopoietic stem cells from the diagnosis leukemia samples by differential cell surface marker expression.</p>]]>
+	</StudyInEx>
+	<StudyProjects>
+		<Project/>
+	</StudyProjects>
+	<Publications>
+		<Publication>
+			<Pubmed pmid="21383193"/>
+		</Publication>
+		<Publication>
+			<Pubmed pmid="22932223"/>
+		</Publication>
+	</Publications>
+	<Diseases>
+		<Disease vocab_source="MESH" vocab_term="Leukemia, Myeloid, Acute"/>
+	</Diseases>
+	<Attributions>
+		<Header title="Principal Investigator">
+			<AttName>Ravindra Majeti, MD, PhD</AttName>
+			<Institution>Stanford University, Stanford, CA, USA</Institution>
+		</Header>
+		<Header title="Funding Source">
+			<AttName>U01HL099999</AttName>
+			<Institution>Stanford University, Stanford, CA, USA</Institution>
+		</Header>
+	</Attributions>
+	<DisplayPublicSummary>yes</DisplayPublicSummary>
+	<StudyHistory><![CDATA[
+<p>This study was carried out using samples collected between 2006 and 2011. The research was preformed between January 2010 and April 2012.</p>]]>
+	</StudyHistory>
+	<ConsentGroups>
+		<ConsentGroup groupNum="1" shortName="DS-BD-MDS" longName="Disease-specific (Blood Disorders, MDS)"/>
+	</ConsentGroups>
+</Configuration>
+
+  <AuthorizedAccess>
+    <DacInfo ssDacId="0">
+      <DacName>NHLBI</DacName>
+      <DacFullName>National Heart, Lung, and Blood Institute DAC</DacFullName>
+      <DacEmail>0</DacEmail>
+      <DacPhone></DacPhone>
+      <DacUrl></DacUrl>
+    </DacInfo>
+    <Policy Policy_ID="phs000549.v1.p1_policy" ref_ssDacId="0">
+      <DisplayResearchStatement>yes</DisplayResearchStatement>
+      <DisplayPublicSummary>yes</DisplayPublicSummary>
+      <EmbargoLength>0</EmbargoLength>
+      <YearsUntilRenewal>1</YearsUntilRenewal>
+      <WeeksCancelRequest>8</WeeksCancelRequest>
+      <PdfSupplementReqired>no</PdfSupplementReqired>
+      <AcknowledgementText>
+        <para>
+          http://dbgap.ncbi.nlm.nih.gov/aa/wga.cgi?page=DUC&amp;view_pdf&amp;stacc=phs000549.v1.p1
+        </para>
+      </AcknowledgementText>
+      <DocumentSet>
+        <DataUseCertificate Label="Data Use Certificate" FilePath="https://dbgap.ncbi.nlm.nih.gov/aa/wga.cgi?page=DUC&amp;view_pdf&amp;stacc=phs000549.v1.p1" FileName="080912_DUC_Majeti.pdf"/>
+      </DocumentSet>
+    </Policy>
+    <ConsentGroups>
+      <ParticipantSet groupNum-REF="1">
+        <ConsentName>Disease-specific (Blood Disorders, MDS)</ConsentName>
+        <ConsentAbbrev>DS-BD-MDS</ConsentAbbrev>
+        <UseLimitation>Use of the data must be related to Blood Disorders. Use of the data includes methods development research (e.g., development of software or algorithms).</UseLimitation>
+        <IrbRequired>No</IrbRequired>
+      </ParticipantSet>
+    </ConsentGroups>
+  </AuthorizedAccess>
+
+
+</Study>
+
+</Studies>
+
+</GaPExchange>

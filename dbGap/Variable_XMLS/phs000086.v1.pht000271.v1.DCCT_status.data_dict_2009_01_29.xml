@@ -1,0 +1,438 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./datadict_v2.xsl"?>
+<data_table id="pht000271.v1" study_id="phs000086.v1" participant_set="1" date_created="Thu Jan 29 15:39:39 2009">
+
+<variable id="phv00031897.v1">
+	<name>changes</name>
+	<description>Total number of status changes</description>
+	<type>byte</type>
+	<unit>STATUS CHANGES</unit>
+</variable>
+
+<variable id="phv00031900.v1">
+	<name>curstat</name>
+	<description>Last status change is current</description>
+	<type>byte</type>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00031915.v1">
+	<name>curstat1</name>
+	<description>Status change number 1 is current</description>
+	<type>byte</type>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00031916.v1">
+	<name>curstat2</name>
+	<description>Status change number 2 is current</description>
+	<type>byte</type>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00031917.v1">
+	<name>curstat3</name>
+	<description>Status change number 3 is current</description>
+	<type>byte</type>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00031918.v1">
+	<name>curstat4</name>
+	<description>Status change number 4 is current</description>
+	<type>byte</type>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00031919.v1">
+	<name>curstat5</name>
+	<description>Status change number 5 is current</description>
+	<type>byte</type>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00031899.v1">
+	<name>devreas</name>
+	<description>Reason for last treatment deviation</description>
+	<type>str9</type>
+	<unit>TREATMENT DEVIATION</unit>
+</variable>
+
+<variable id="phv00031910.v1">
+	<name>devreas1</name>
+	<description>Reason for deviation number 1</description>
+	<type>str9</type>
+	<unit>REASON FOR DEVIATION</unit>
+</variable>
+
+<variable id="phv00031911.v1">
+	<name>devreas2</name>
+	<description>Reason for deviation number 2</description>
+	<type>str9</type>
+	<unit>REASON FOR DEVIATION</unit>
+</variable>
+
+<variable id="phv00031912.v1">
+	<name>devreas3</name>
+	<description>Reason for deviation number 3</description>
+	<type>str9</type>
+	<unit>REASON FOR DEVIATION</unit>
+</variable>
+
+<variable id="phv00031913.v1">
+	<name>devreas4</name>
+	<description>Reason for deviation number 4</description>
+	<type>str9</type>
+	<unit>REASON FOR DEVIATION</unit>
+</variable>
+
+<variable id="phv00031914.v1">
+	<name>devreas5</name>
+	<description>Reason for deviation number 5</description>
+	<type>str9</type>
+	<unit>REASON FOR DEVIATION</unit>
+</variable>
+
+<variable id="phv00031903.v1">
+	<name>end</name>
+	<description>End date of last status change</description>
+	<type>long</type>
+</variable>
+
+<variable id="phv00031930.v1">
+	<name>end1</name>
+	<description>End date of status change number 1</description>
+	<type>long</type>
+</variable>
+
+<variable id="phv00031931.v1">
+	<name>end2</name>
+	<description>End date of status change number 2</description>
+	<type>long</type>
+</variable>
+
+<variable id="phv00031932.v1">
+	<name>end3</name>
+	<description>End date of status change number 3</description>
+	<type>long</type>
+</variable>
+
+<variable id="phv00031933.v1">
+	<name>end4</name>
+	<description>End date of status change number 4</description>
+	<type>long</type>
+</variable>
+
+<variable id="phv00031934.v1">
+	<name>end5</name>
+	<description>End date of status change number 5</description>
+	<type>int</type>
+</variable>
+
+<variable id="phv00031892.v1">
+	<name>group</name>
+	<description>Randomization group</description>
+	<type>str12</type>
+	<value code="EXPERIMENTAL">INTENSIVE TREATMENT</value>
+	<value code="STANDARD">CONVENTIONAL TREATMENT</value>
+</variable>
+
+<variable id="phv00031940.v1">
+	<name>instudy</name>
+	<description>Total possible follow-up time</description>
+	<type>float</type>
+	<unit>MONTHS</unit>
+</variable>
+
+<variable id="phv00031953.v1">
+	<name>mask_pat</name>
+	<description>Patient ID number</description>
+	<type>int</type>
+</variable>
+
+<variable id="phv00031946.v1">
+	<name>ondev</name>
+	<description>Percent of follow-up on deviation</description>
+	<type>float</type>
+	<unit>PERCENT</unit>
+</variable>
+
+<variable id="phv00031947.v1">
+	<name>oninact</name>
+	<description>Percent of follow-up on inactive status</description>
+	<type>float</type>
+	<unit>PERCENT</unit>
+</variable>
+
+<variable id="phv00031948.v1">
+	<name>onpreg</name>
+	<description>Percent of follow-up time pregnant/seeking pregnancy</description>
+	<type>float</type>
+	<unit>PERCENT</unit>
+</variable>
+
+<variable id="phv00031949.v1">
+	<name>pctdev</name>
+	<description>Percent of total status change time on deviation</description>
+	<type>float</type>
+	<unit>PERCENT</unit>
+</variable>
+
+<variable id="phv00031950.v1">
+	<name>pctinact</name>
+	<description>Percent of total status change time inactive</description>
+	<type>float</type>
+	<unit>PERCENT</unit>
+</variable>
+
+<variable id="phv00031951.v1">
+	<name>pctpreg</name>
+	<description>Percent of total status change time pregnant/seeking pregnancy</description>
+	<type>float</type>
+	<unit>PERCENT</unit>
+</variable>
+
+<variable id="phv00031945.v1">
+	<name>pcttreat</name>
+	<description>Percent of follow-up time on assigned treatment</description>
+	<type>float</type>
+	<unit>PERCENT</unit>
+</variable>
+
+<variable id="phv00031894.v1">
+	<name>phase</name>
+	<description>Phase of randomization</description>
+	<type>byte</type>
+	<value code="2">FEASIBILITY</value>
+	<value code="3">FULL-SCALE</value>
+</variable>
+
+<variable id="phv00031901.v1">
+	<name>preg</name>
+	<description>Last deviation is due to pregnancy</description>
+	<type>byte</type>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00031920.v1">
+	<name>preg1</name>
+	<description>Deviation number 1 is due to pregnancy</description>
+	<type>byte</type>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00031921.v1">
+	<name>preg2</name>
+	<description>Deviation number 2 is due to pregnancy</description>
+	<type>byte</type>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00031922.v1">
+	<name>preg3</name>
+	<description>Deviation number 3 is due to pregnancy</description>
+	<type>byte</type>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00031923.v1">
+	<name>preg4</name>
+	<description>Deviation number 4 is due to pregnancy</description>
+	<type>byte</type>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00031924.v1">
+	<name>preg5</name>
+	<description>Deviation number 5 is due to pregnancy</description>
+	<type>byte</type>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00031895.v1">
+	<name>pstatus</name>
+	<description>Current patient status</description>
+	<type>str8</type>
+	<unit>PATIENT STATUS</unit>
+</variable>
+
+<variable id="phv00031896.v1">
+	<name>randsas</name>
+	<description>Randomization date (SAS value)</description>
+	<type>long</type>
+</variable>
+
+<variable id="phv00031902.v1">
+	<name>start</name>
+	<description>Start date of last status change</description>
+	<type>long</type>
+</variable>
+
+<variable id="phv00031925.v1">
+	<name>start1</name>
+	<description>Start date of status change number 1</description>
+	<type>long</type>
+</variable>
+
+<variable id="phv00031926.v1">
+	<name>start2</name>
+	<description>Start date of status change number 2</description>
+	<type>long</type>
+</variable>
+
+<variable id="phv00031927.v1">
+	<name>start3</name>
+	<description>Start date of status change number 3</description>
+	<type>long</type>
+</variable>
+
+<variable id="phv00031928.v1">
+	<name>start4</name>
+	<description>Start date of status change number 4</description>
+	<type>long</type>
+</variable>
+
+<variable id="phv00031929.v1">
+	<name>start5</name>
+	<description>Start date of status change number 5</description>
+	<type>int</type>
+</variable>
+
+<variable id="phv00031904.v1">
+	<name>statdur</name>
+	<description>Duration of last status change</description>
+	<type>float</type>
+	<unit>MONTHS</unit>
+</variable>
+
+<variable id="phv00031935.v1">
+	<name>statdur1</name>
+	<description>Duration of status change number 1</description>
+	<type>float</type>
+	<unit>MONTHS</unit>
+</variable>
+
+<variable id="phv00031936.v1">
+	<name>statdur2</name>
+	<description>Duration of status change number 2</description>
+	<type>float</type>
+	<unit>MONTHS</unit>
+</variable>
+
+<variable id="phv00031937.v1">
+	<name>statdur3</name>
+	<description>Duration of status change number 3</description>
+	<type>float</type>
+	<unit>MONTHS</unit>
+</variable>
+
+<variable id="phv00031938.v1">
+	<name>statdur4</name>
+	<description>Duration of status change number 4</description>
+	<type>float</type>
+	<unit>MONTHS</unit>
+</variable>
+
+<variable id="phv00031939.v1">
+	<name>statdur5</name>
+	<description>Duration of status change number 5</description>
+	<type>float</type>
+	<unit>MONTHS</unit>
+</variable>
+
+<variable id="phv00031952.v1">
+	<name>statpct</name>
+	<description>Last status change as percent of total duration</description>
+	<type>float</type>
+	<unit>PERCENT</unit>
+</variable>
+
+<variable id="phv00031898.v1">
+	<name>status</name>
+	<description>Reason for last status change</description>
+	<type>str9</type>
+	<unit>REASON FOR STATUS CHANGES</unit>
+</variable>
+
+<variable id="phv00031905.v1">
+	<name>status1</name>
+	<description>Reason for status change number 1</description>
+	<type>str9</type>
+	<unit>REASON FOR STATUS CHANGES</unit>
+</variable>
+
+<variable id="phv00031906.v1">
+	<name>status2</name>
+	<description>Reason for status change number 2</description>
+	<type>str9</type>
+	<unit>REASON FOR STATUS CHANGES</unit>
+</variable>
+
+<variable id="phv00031907.v1">
+	<name>status3</name>
+	<description>Reason for status change number 3</description>
+	<type>str9</type>
+	<unit>REASON FOR STATUS CHANGES</unit>
+</variable>
+
+<variable id="phv00031908.v1">
+	<name>status4</name>
+	<description>Reason for status change number 4</description>
+	<type>str9</type>
+	<unit>REASON FOR STATUS CHANGES</unit>
+</variable>
+
+<variable id="phv00031909.v1">
+	<name>status5</name>
+	<description>Reason for status change number 5</description>
+	<type>str9</type>
+	<unit>REASON FOR STATUS CHANGES</unit>
+</variable>
+
+<variable id="phv00031893.v1">
+	<name>stratum</name>
+	<description>Baseline retinopathy stratum (Primary Prevention; Secondary Intervention)</description>
+	<type>str22</type>
+</variable>
+
+<variable id="phv00031942.v1">
+	<name>totaldev</name>
+	<description>Total duration of deviations</description>
+	<type>float</type>
+	<unit>MONTHS</unit>
+</variable>
+
+<variable id="phv00031941.v1">
+	<name>totaldur</name>
+	<description>Total duration of status changes</description>
+	<type>float</type>
+	<unit>MONTHS</unit>
+</variable>
+
+<variable id="phv00031943.v1">
+	<name>totalina</name>
+	<description>Total duration of inactive status</description>
+	<type>float</type>
+	<unit>MONTHS</unit>
+</variable>
+
+<variable id="phv00031944.v1">
+	<name>totalprg</name>
+	<description>Total duration pregnant/seeking pregnancy</description>
+	<type>float</type>
+	<unit>MONTHS</unit>
+</variable>
+
+</data_table>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./datadict_v2.xsl"?>
+<data_table id="pht001078.v1" study_id="phs000219.v1" participant_set="1" date_created="Tue Jan 19 13:07:23 2010">
+
+<unique_key phv="00081864" version="1">SUBJID</unique_key>
+<unique_key phv="00081868" version="1">VISIT</unique_key>
+
+<variable id="phv00081864.v1">
+	<name>SUBJID</name>
+	<description>Subject&#39;s ID</description>
+	<type>String</type>
+</variable>
+
+<variable id="phv00081865.v1">
+	<name>CASE_CONTROL</name>
+	<description>Subject type</description>
+	<type>Encoded value</type>
+	<value code="ADP">AD Participant</value>
+	<value code="CASE">Case</value>
+	<value code="CCCS">Control with Change in Cognitive Status</value>
+	<value code="CNTL">Control</value>
+	<value code="FAM">Family member</value>
+	<value code="UASB">Unaffected Sibling</value>
+</variable>
+
+<variable id="phv00081866.v1">
+	<name>INV</name>
+	<description>Investigator&#39;s ID</description>
+	<type>String</type>
+</variable>
+
+<variable id="phv00081867.v1">
+	<name>INVSITE</name>
+	<description>Investigator site ID</description>
+	<type>String</type>
+</variable>
+
+<variable id="phv00081868.v1">
+	<name>VISIT</name>
+	<description>Visit name</description>
+	<type>String</type>
+</variable>
+
+<variable id="phv00081869.v1">
+	<name>VISIT_DATE</name>
+	<description>Visit date</description>
+	<type>Date</type>
+	<comment>Truncated to YYYY</comment>
+</variable>
+
+<variable id="phv00081870.v1">
+	<name>OTHTX</name>
+	<description>Other reason for sample destruction - specify</description>
+	<type>String</type>
+</variable>
+
+<variable id="phv00081871.v1">
+	<name>SLDNA</name>
+	<description>Has a request been made for sample destruction?</description>
+	<type>Encoded Value</type>
+	<value code="N">No</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00081872.v1">
+	<name>SLDNRN</name>
+	<description>If YES (request for sample destruction has been made), tick one reason</description>
+	<type>Encoded Value</type>
+	<value code="R">Subjects Request</value>
+	<value code="X">Other</value>
+</variable>
+
+<variable id="phv00081873.v1">
+	<name>SLDNRQDT</name>
+	<description>Date of request for blood sample destruction</description>
+	<type>Date</type>
+	<comment>Truncated to YYYY</comment>
+</variable>
+
+</data_table>

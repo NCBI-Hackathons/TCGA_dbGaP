@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GaPExchange xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="./dbGaPEx2.1.5.xsd">
+
+<MetaVariables>
+	<Submitter/>
+	<Method/>
+</MetaVariables>
+<MetaLinks/>
+
+<Projects>
+	<Project/>
+</Projects>
+
+<Studies>
+
+<Study source="dbGaP" accession="phs001058.v1.p1" parentStudy="phs001058.v1.p1" createDate="2016-01-06" modDate="2016-01-06">
+
+<Configuration>
+	<Data_Provider><![CDATA[
+		<table border="1">
+		<tr><th>Title</th><th>Name</th><th>Institute</th></tr>
+		<tr><td>Principal Investigator</td><td>Stacey Gabriel, PhD</td><td>Broad Institute, Boston, MA, USA</td></tr>
+		<tr><td>Co-Investigator</td><td>Sekar Kathiresan, MD</td><td>Broad Institute and Massachusetts General Hospital, Boston, MA, USA</td></tr>
+		</table>
+	]]></Data_Provider>
+	<StudyNameEntrez>MIGen_ExS: BioImage Study</StudyNameEntrez>
+	<StudyNameReportPage>Myocardial Infarction Genetics Exome Sequencing Consortium: BioImage Study</StudyNameReportPage>
+	<StudyTypes>
+		<StudyType>Case-Control</StudyType>
+	</StudyTypes>
+	<Description><![CDATA[
+<p>The BioImage Study (BioImage Study: A Clinical Study of Burden of Atherosclerotic Disease in an At-Risk Population, <a href="https://clinicaltrials.gov/ct2/show/NCT00738725" target="_blank">NCT00738725</a>), is a prospective, observational study aimed at characterizing subclinical atherosclerosis in U.S. adults (55 to 80 years old) at risk for clinical atherosclerotic cardiovascular disease (PMID: <a href="http://www.ncbi.nlm.nih.gov/pubmed/25790876" target="_blank">25790876</a>).</p> <p>All exome sequencing was performed at the Broad Institute of Harvard and MIT; samples sequence capture was performed using Illumina&#39;s ICE Capture reagent and sequencing was performed on an Illumina HiSeq 2000 or 2500.</p>]]>
+	</Description>
+	<StudyInEx><![CDATA[
+<p>We performed a nested case-control experiment for incident cardiovascular events. Cardiovascular events are defined as myocardial infarction, coronary revascularization, or stroke. We included participants who passed the following sample quality control measures: contamination &lt; 5%, missingness &lt; 5%, concordance with genome-wide array data when available, and Ti/Tv, total variants / depth, and F inbreeding coefficient outliers. We also excluded individuals who were genotypically found to be within three degrees of relatedness.</p> <p>Cases include those who developed cardiovascular events after a median follow-up of 2.7 years. We excluded individuals who had clinical cardiovascular disease at baseline examination. Controls were matched to each case in the matched nested case-control experiment. Controls were matched for age (+/- 2 years), sex, smoking status, and type 2 diabetes status.</p>]]>
+	</StudyInEx>
+	<StudyProjects>
+		<Project/>
+	</StudyProjects>
+	<Diseases>
+		<Disease vocab_source="MESH" vocab_term="Myocardial Infarction"/>
+	</Diseases>
+	<Attributions>
+		<Header title="Principal Investigator">
+			<AttName>Stacey Gabriel, PhD</AttName>
+			<Institution>Broad Institute, Boston, MA, USA</Institution>
+		</Header>
+		<Header title="Co-Investigator">
+			<AttName>Sekar Kathiresan, MD</AttName>
+			<Institution>Broad Institute and Massachusetts General Hospital, Boston, MA, USA</Institution>
+		</Header>
+	</Attributions>
+	<DisplayPublicSummary>yes</DisplayPublicSummary>
+	<ConsentGroups>
+		<ConsentGroup groupNum="1" shortName="DS-CVD" longName="Disease-Specific (Cardiovascular Disease)"/>
+	</ConsentGroups>
+</Configuration>
+
+  <AuthorizedAccess>
+    <DacInfo ssDacId="0">
+      <DacName>NHLBI</DacName>
+      <DacFullName>National Heart, Lung, and Blood Institute DAC</DacFullName>
+      <DacEmail>0</DacEmail>
+      <DacPhone></DacPhone>
+      <DacUrl></DacUrl>
+    </DacInfo>
+    <Policy Policy_ID="phs001058.v1.p1_policy" ref_ssDacId="0">
+      <DisplayResearchStatement>yes</DisplayResearchStatement>
+      <DisplayPublicSummary>yes</DisplayPublicSummary>
+      <EmbargoLength>0</EmbargoLength>
+      <YearsUntilRenewal>1</YearsUntilRenewal>
+      <WeeksCancelRequest>8</WeeksCancelRequest>
+      <PdfSupplementReqired>no</PdfSupplementReqired>
+      <AcknowledgementText>
+        <para>
+          http://dbgap.ncbi.nlm.nih.gov/aa/wga.cgi?page=DUC&amp;view_pdf&amp;stacc=phs001058.v1.p1
+        </para>
+      </AcknowledgementText>
+      <DocumentSet>
+        <DataUseCertificate Label="Data Use Certificate" FilePath="https://dbgap.ncbi.nlm.nih.gov/aa/wga.cgi?page=DUC&amp;view_pdf&amp;stacc=phs001058.v1.p1" FileName=""/>
+      </DocumentSet>
+    </Policy>
+    <ConsentGroups>
+      <ParticipantSet groupNum-REF="1">
+        <ConsentName>Disease-Specific (Cardiovascular Disease)</ConsentName>
+        <ConsentAbbrev>DS-CVD</ConsentAbbrev>
+        <UseLimitation>Use of the data must be related to Cardiovascular Disease.</UseLimitation>
+        <IrbRequired>No</IrbRequired>
+      </ParticipantSet>
+    </ConsentGroups>
+  </AuthorizedAccess>
+
+
+</Study>
+
+</Studies>
+
+</GaPExchange>

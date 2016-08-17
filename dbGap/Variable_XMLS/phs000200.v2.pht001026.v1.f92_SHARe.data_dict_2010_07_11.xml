@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./datadict_v2.xsl"?>
+<data_table id="pht001026.v1" study_id="phs000200.v2" participant_set="1" date_created="Sun Jul 11 18:40:42 2010">
+
+<unique_key phv="00079996" version="1">SHAREID</unique_key>
+<unique_key phv="00079997" version="1">F92VTYP</unique_key>
+<unique_key phv="00079998" version="1">F92VY</unique_key>
+<unique_key phv="00079999" version="1">F92DAYS</unique_key>
+<unique_key phv="00080000" version="1">PAPCOLDY</unique_key>
+
+<variable id="phv00079996.v1">
+	<name>SHAREID</name>
+	<description>WHI SHARe ID</description>
+	<type>integer</type>
+</variable>
+
+<variable id="phv00079997.v1">
+	<name>F92VTYP</name>
+	<description>Visit type</description>
+	<type>encoded value</type>
+	<value code="1">Screening Visit</value>
+	<value code="2">Semi-Annual Visit</value>
+	<value code="3">Annual Visit</value>
+	<value code="4">Non-Routine Visit</value>
+</variable>
+
+<variable id="phv00079998.v1">
+	<name>F92VY</name>
+	<description>Visit year</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>10</logical_max>
+	<comment>Visit year for which this form was collected.</comment>
+</variable>
+
+<variable id="phv00079999.v1">
+	<name>F92DAYS</name>
+	<description>F92 Days since randomization</description>
+	<type>integer</type>
+	<unit>days</unit>
+	<logical_min>-275</logical_min>
+	<logical_max>3720</logical_max>
+	<comment>Days between randomization and initiation of form</comment>
+</variable>
+
+<variable id="phv00080000.v1">
+	<name>PAPCOLDY</name>
+	<description>Days from randomization to pap smear collection</description>
+	<type>integer</type>
+	<unit>days</unit>
+	<logical_min>-430</logical_min>
+	<logical_max>3720</logical_max>
+</variable>
+
+<variable id="phv00080001.v1">
+	<name>PAPCOLBY</name>
+	<description>Pap smear collected by</description>
+	<type>encoded value</type>
+	<value code="1">CC staff</value>
+	<value code="2">Other</value>
+</variable>
+
+<variable id="phv00080002.v1">
+	<name>PAPREVDY</name>
+	<description>Days from randomization to pap smear review</description>
+	<type>integer</type>
+	<unit>days</unit>
+	<logical_min>-410</logical_min>
+	<logical_max>3735</logical_max>
+	<comment>Days from randomization to pap smear report review</comment>
+</variable>
+
+<variable id="phv00080003.v1">
+	<name>ENDOMETR</name>
+	<description>Cells present - Endometrial cells</description>
+	<type>encoded value</type>
+	<comment>Cells present: Endometrial cells?</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00080004.v1">
+	<name>ATYPENDO</name>
+	<description>Cells present - Atypical endocervical cells</description>
+	<type>encoded value</type>
+	<comment>Cells present: Atypical endocervical cells?</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00080005.v1">
+	<name>ATYPSQUM</name>
+	<description>Cells present - Atypical squamous cells</description>
+	<type>encoded value</type>
+	<comment>Cells present: Atypical squamous cells?</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00080006.v1">
+	<name>ENDOCERV</name>
+	<description>Cells present - Endocervical cells</description>
+	<type>encoded value</type>
+	<comment>Cells present: If cervix present, endocervical cells?</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00080007.v1">
+	<name>PAPRESLT</name>
+	<description>Pap smear results</description>
+	<type>encoded value</type>
+	<comment>Pap smear results
+		Responses 10 and 11 not available on all versions of Form 92. </comment>
+	<value code="1">Normal (no atypical cells)</value>
+	<value code="2">Abnormal, mild dysplasia, atypia</value>
+	<value code="3">Abnormal, moderate dysplasia</value>
+	<value code="4">Abnormal, severe dysplasia</value>
+	<value code="5">Abnormal, low grade squamous intraepithelial lesion (SIL), atypia</value>
+	<value code="6">Abnormal, high grade squamous intraepithelial lesion (SIL)</value>
+	<value code="7">Cancer</value>
+	<value code="8">Insufficient specimen, no results</value>
+	<value code="9">Slides damaged, cannot be read</value>
+	<value code="10">Atypical Squamous Cells of Undetermined Significance (ASCUS)</value>
+	<value code="11">Atypical glandular cells of undetermined significance (AGUS)/Atypical Squamous Cells of Undetermined Significance (AGCUS)</value>
+</variable>
+
+<variable id="phv00080008.v1">
+	<name>PAPREFER</name>
+	<description>Pap smear - referral for follow-up care</description>
+	<type>encoded value</type>
+	<comment>Was a referral made for follow-up care (pap)?</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00080009.v1">
+	<name>PAPREFDY</name>
+	<description>Days from randomization to pap smear referral</description>
+	<type>integer</type>
+	<unit>days</unit>
+	<logical_min>-167</logical_min>
+	<logical_max>2955</logical_max>
+</variable>
+
+<variable id="phv00080010.v1">
+	<name>FURESLT</name>
+	<description>Pap or biopsy follow-up results</description>
+	<type>encoded value</type>
+	<comment>Not collected on all versions of Form 92.</comment>
+	<value code="1">Normal</value>
+	<value code="2">Mild dysplasia, low squamous intraepithelial lesion (SIL), atypical cells</value>
+	<value code="3">Moderate to severe dysplasia, carcinoma in situ (CIS),cancer</value>
+</variable>
+
+</data_table>

@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GaPExchange xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="dbGaPEx2.1.5.xsd">
+
+<MetaVariables>
+	<Submitter/>
+	<Method/>
+</MetaVariables>
+<MetaLinks/>
+
+<Projects>
+	<Project/>
+</Projects>
+
+<Studies>
+
+<Study source="dbGaP" accession="phs000389.v1.p1" parentStudy="phs000389.v1.p1" createDate="2011-08-03" modDate="2011-09-19">
+
+<Configuration>
+	<Data_Provider><![CDATA[
+		<table border="1">
+		<tr><th>Title</th><th>Name</th><th>Institute</th></tr>
+		<tr><td>Principal Investigators</td><td>Joel Hirschhorn</td><td>Broad Institute and Children&#39;s Hospital Boston, Boston, MA, USA</td></tr>
+		<tr><td>Principal Investigators</td><td>Alexander P. Maxwell</td><td>Queen&#39;s University, Belfast, UK</td></tr>
+		<tr><td>Principal Investigators</td><td>Catherine Godson</td><td>University College, Dublin, Ireland</td></tr>
+		<tr><td>Principal Investigators</td><td>Jose Florez</td><td>Massachusetts General Hospital, Boston, MA, USA.</td></tr>
+		<tr><td>Co-Investigators</td><td>Denise Sadlier</td><td>University College, Dublin, Ireland</td></tr>
+		</table>
+	]]></Data_Provider>
+	<StudyNameEntrez>GENIE UK-ROI Diabetic Nephropathy GWAS</StudyNameEntrez>
+	<StudyNameReportPage>GEnetics of Nephropathy - an International Effort (GENIE) GWAS of Diabetic Nephropathy in the UK GoKinD and All-Ireland Cohorts</StudyNameReportPage>
+	<StudyTypes>
+		<StudyType>Case-Control</StudyType>
+	</StudyTypes>
+	<Description><![CDATA[
+<p>Diabetic kidney disease, or diabetic nephropathy (DN), is one of the leading causes of end-stage renal disease in the United States     and worldwide.  DN is a common complication of long-standing type 1 and type 2 diabetes. The clinical course is characterized by     development of proteinuria and gradual loss of kidney function.  Although existing treatments that decrease proteinuria have been shown     to moderately abate progression of diabetic kidney disease, many affected patients, who do not die from cardiovascular disease, go on     to develop terminal renal failure, necessitating costly renal replacement therapies, such as dialysis and renal transplantation.     Type 1 diabetes (T1D) can have its onset in childhood and affected individuals often develop end-stage renal disease in early adulthood,     leading to further loss of quality of life.  The genetic basis of the disease is not well understood.</p>     <p>The GENIE (<b>GE</b>netics of <b>N</b>ephropathy an <b>I</b>nternational <b>E</b>ffort) consortium was initiated to perform     the most comprehensive and well powered DN susceptibility genome wide association study (GWAS) analysis to date, using the     largest collection of type 1 diabetics with and without kidney disease across four study cohorts.  The UK-ROI samples were     genotyped as part of this project.</p>     <p><b>UK-ROI Sample Description</b><br/>     The UK-ROI collection consists of samples derived from the Republic of Ireland (Dr. Catherine Godson, PI, at University College,     Dublin, Ireland) and the United Kingdom (Warren 3 and Genetics of Kidneys in Diabetes UK, <b>UK GoKinD</b>, Dr. Alexander P. Maxwell, PI, at     Queen&#39;s University of Belfast, UK).  All study subjects met the inclusion criteria: white individuals with T1D, diagnosed before 31     years of age, whose parents and grandparents were born in the British Isles.</p>]]>
+	</Description>
+	<StudyInEx><![CDATA[
+<p><u>Case Definition</u>: individuals with end stage renal disease (ESRD; defined as those requiring renal replacement therapy or having     received a kidney transplant) or persistent proteinuria (&gt;0.5 g/24 hr) developing more than 10 years after the diagnosis of     type 1 diabetes. 903 individuals formed the case group.</p>     <p><u>Controls Definition</u>: individuals with absence of DN, defined as persistent normoalbuminuria (2 out of 3 albumin creatinine ratio     (ACR) measurements &lt;20 &#181;g of albumin/mg of creatinine) despite duration of T1D for at least 15 years, not taking an     antihypertensive medication, and having no history of treatment with ACE inhibitors; 1,001 individuals formed the control group.</p>     <p>Additionally, the following variables and covariates were utilized in the analyses in the study and are provided to ensure     consistency of findings for dbGaP users with original analyses:       <table border="1">         <tr>           <td>Age</td>           <td>Age of subject at recruitment, missing value set to -9</td>       </tr>       <tr>         <td>AgeDX</td>         <td>Age Diagnosis of Type 1 Diabetes, missing value set to -9</td>       </tr>       <tr>          <td>BMI</td>         <td>Body Mass Index at recruitment, missing values set to -9</td>       </tr>       <tr>         <td>Bsite_1</td>         <td>Biochemical site, 0=other, 1=Birmingham (dummy coding)</td>       </tr>       <tr>         <td>Bsite_2</td>         <td>Biochemical site, 0=other, 1=Dublin (dummy coding)</td>       </tr>        <tr>         <td></td>         <td>Note: The third site, Belfast, is denoted by Bsite_1=0 and Bsite_2=0</td>       </tr>       <tr>         <td>DurT1D</td>         <td>Subject&#39;s duration of Type 1 Diabetes in years, missing value set to -9</td>       </tr>       <tr>         <td>ESRD</td>         <td>ESRD status, 1=control, 2=case, missing value set to -9</td>       </tr>       <tr>         <td>HBA1C</td>         <td>Hemoglobin A1c value at recruitment, missing value set to -9</td>       </tr>       <tr>         <td>Kidney</td>         <td>DN status, 1=control, 2=case, missing value set to -9</td>       </tr>       <tr>          <td>LIPID</td>          <td>Lipid lowering drug at recruitment, 0=no, 1=yes, missing value set to -9</td>       </tr>       <tr>         <td>Sex</td>         <td>Subject&#39;s sex, 1=male, 2=female, missing values set to -9</td>       </tr>       <tr>         <td>Cohort</td>         <td>Cohort identifier variable: "All_Ireland" and "UKGoKinD" </td>       </tr>     </table>     </p>]]>
+	</StudyInEx>
+	<StudyProjects>
+		<Project/>
+	</StudyProjects>
+	<Publications>
+		<Publication>
+			<Pubmed pmid="11784718"/>
+		</Publication>
+		<Publication>
+			<Pubmed pmid="15319369"/>
+		</Publication>
+		<Publication>
+			<Pubmed pmid="15606694"/>
+		</Publication>
+		<Publication>
+			<Pubmed pmid="15957132"/>
+		</Publication>
+		<Publication>
+			<Pubmed pmid="16790529"/>
+		</Publication>
+		<Publication>
+			<Pubmed pmid="18508967"/>
+		</Publication>
+		<Publication>
+			<Pubmed pmid="18773191"/>
+		</Publication>
+		<Publication>
+			<Pubmed pmid="18793165"/>
+		</Publication>
+		<Publication>
+			<Pubmed pmid="18937679"/>
+		</Publication>
+		<Publication>
+			<Pubmed pmid="18959617"/>
+		</Publication>
+		<Publication>
+			<Pubmed pmid="19084216"/>
+		</Publication>
+		<Publication>
+			<Pubmed pmid="19247629"/>
+		</Publication>
+		<Publication>
+			<Pubmed pmid="19336575"/>
+		</Publication>
+		<Publication>
+			<Pubmed pmid="19401426"/>
+		</Publication>
+		<Publication>
+			<Pubmed pmid="19440041"/>
+		</Publication>
+		<Publication>
+			<Pubmed pmid="19481965"/>
+		</Publication>
+		<Publication>
+			<Pubmed pmid="19783860"/>
+		</Publication>
+		<Publication>
+			<Pubmed pmid="20150533"/>
+		</Publication>
+		<Publication>
+			<Pubmed pmid="20203694"/>
+		</Publication>
+		<Publication>
+			<Pubmed pmid="20458172"/>
+		</Publication>
+		<Publication>
+			<Pubmed pmid="20546278"/>
+		</Publication>
+		<Publication>
+			<Pubmed pmid="20854388"/>
+		</Publication>
+		<Publication>
+			<Pubmed pmid="20962522"/>
+		</Publication>
+		<Publication>
+			<Pubmed pmid="21103979"/>
+		</Publication>
+		<Publication>
+			<Pubmed pmid="21119753"/>
+		</Publication>
+		<Publication>
+			<Pubmed pmid="21237163"/>
+		</Publication>
+		<Publication>
+			<Pubmed pmid="21876774"/>
+		</Publication>
+		<Publication>
+			<Pubmed pmid="21896933"/>
+		</Publication>
+	</Publications>
+	<Diseases>
+		<Disease vocab_source="MESH" vocab_term="Diabetic Nephropathy"/>
+		<Disease vocab_source="MESH" vocab_term="Kidney Failure, Chronic"/>
+		<Disease vocab_source="MESH" vocab_term="Albuminuria"/>
+		<Disease vocab_source="MESH" vocab_term="Diabetes Mellitus, Type 1"/>
+		<Disease vocab_source="MESH" vocab_term="Diabetes Complications"/>
+	</Diseases>
+	<Attributions>
+		<Header title="Principal Investigators">
+			<AttName>Joel Hirschhorn</AttName>
+			<Institution>Broad Institute and Children&#39;s Hospital Boston, Boston, MA, USA</Institution>
+		</Header>
+		<Header title="Principal Investigators">
+			<AttName>Alexander P. Maxwell</AttName>
+			<Institution>Queen&#39;s University, Belfast, UK</Institution>
+		</Header>
+		<Header title="Principal Investigators">
+			<AttName>Catherine Godson</AttName>
+			<Institution>University College, Dublin, Ireland</Institution>
+		</Header>
+		<Header title="Principal Investigators">
+			<AttName>Jose Florez</AttName>
+			<Institution>Massachusetts General Hospital, Boston, MA, USA.</Institution>
+		</Header>
+		<Header title="Lead Analysts">
+			<AttName>Amy Jayne McKnight</AttName>
+			<Institution>Queen&#39;s University, Belfast, UK</Institution>
+		</Header>
+		<Header title="Lead Analysts">
+			<AttName>Rany Salem</AttName>
+			<Institution>Broad Institute and Children&#39;s Hospital Boston, Boston, MA, USA</Institution>
+		</Header>
+		<Header title="Co-Investigators">
+			<AttName>Denise Sadlier</AttName>
+			<Institution>University College, Dublin, Ireland</Institution>
+		</Header>
+		<Header title="Co-Investigators">
+			<AttName>Eoin Brennan</AttName>
+			<Institution>University College, Dublin, Ireland</Institution>
+		</Header>
+		<Header title="Project Managers">
+			<AttName>Candace Guiducci</AttName>
+			<Institution>Broad Institute and Children&#39;s Hospital Boston, Boston, MA, USA</Institution>
+		</Header>
+		<Header title="Project Managers">
+			<AttName>Daniel Mirel</AttName>
+			<Institution>Broad Institute and Children&#39;s Hospital Boston, Boston, MA, USA</Institution>
+		</Header>
+		<Header title="Analyst">
+			<AttName>Tamara Isacova</AttName>
+			<Institution>Massachusetts General Hospital, Boston, MA, USA.</Institution>
+		</Header>
+		<Header title="Funding Source">
+			<AttName>5R01DK081923</AttName>
+			<Institution>National Institutes of Health, Bethesda, MD, USA</Institution>
+		</Header>
+	</Attributions>
+	<DisplayPublicSummary>yes</DisplayPublicSummary>
+	<StudyHistory><![CDATA[
+<p>2001: An All Ireland DNA resource (267 cases and 442 controls) was created to investigate genetic predisposition to diabetic nephropathy     in carefully phenotyped individuals.  A complementary UK resource also received ethical approval to recruit individuals using similar     phenotypic criteria to the All Ireland collection; this was jointly funded by Diabetes UK and the Juvenile Diabetes Foundation.</p>     <p>2008: The Warren 3 - GoKinD UK (597 cases, 502 controls) and All Ireland combined collection of DNA was available for inclusion in     genetic studies investigating diabetic nephropathy.</p>     <p>Following the completion of focused loci and low-resolution genome-wide association studies in these collections, the GENIE consortium     was established to evaluate genetic susceptibility for diabetic nephropathy in worldwide collections.</p>     <p>2011: Completion of genotyping in 1,830 individuals on the Omni1-quad from the All Ireland-Warren3-GoKinD UK     resource [data released here].</p>]]>
+	</StudyHistory>
+	<ConsentGroups>
+		<ConsentGroup groupNum="0" shortName="NRUP" longName="Subjects did not participate in the study, did not complete a consent document and are included only for the pedigree structure and/or genotype controls, such as HapMap subjects."/>
+		<ConsentGroup groupNum="1" shortName="GRU" longName="General Research Use"/>
+	</ConsentGroups>
+</Configuration>
+
+  <AuthorizedAccess>
+    <DacInfo ssDacId="0">
+      <DacName>NIDDK</DacName>
+      <DacFullName>NIDDK Central Repository GWAS Data Access Committee</DacFullName>
+      <DacEmail>niddk-dac@mail.nih.gov</DacEmail>
+      <DacPhone></DacPhone>
+      <DacFax>301-480-3510</DacFax>
+      <DacUrl>http://www3.niddk.nih.gov/researchprograms/repositories/FAQ.shtml</DacUrl>
+    </DacInfo>
+    <Policy Policy_ID="phs000389.v1.p1_policy" ref_ssDacId="0">
+      <DisplayResearchStatement>yes</DisplayResearchStatement>
+      <DisplayPublicSummary>yes</DisplayPublicSummary>
+      <EmbargoLength>0</EmbargoLength>
+      <YearsUntilRenewal>1</YearsUntilRenewal>
+      <WeeksCancelRequest>8</WeeksCancelRequest>
+      <PdfSupplementReqired>yes</PdfSupplementReqired>
+      <AcknowledgementText>
+        <para>
+               http://dbgap.ncbi.nlm.nih.gov/aa/wga.cgi?page=DUC&amp;view_pdf&amp;stacc=phs000389.v1.p1
+            </para>
+      </AcknowledgementText>
+      <DocumentSet>
+        <DataUseCertificate Label="Data Use Certificate" FilePath="https://dbgap.ncbi.nlm.nih.gov/aa/wga.cgi?page=DUC&amp;view_pdf&amp;stacc=phs000389.v1.p1" FileName="ModeNIDDKdbGaPlDUC_2010April7_FINAL_edited_for_format_and_links_2-2011.pdf"/>
+      </DocumentSet>
+    </Policy>
+    <ConsentGroups>
+      <ParticipantSet groupNum-REF="1">
+        <ConsentName>General Research Use</ConsentName>
+        <ConsentAbbrev>GRU</ConsentAbbrev>
+        <UseLimitation>No restrictions on use</UseLimitation>
+        <IrbRequired>Yes</IrbRequired>
+      </ParticipantSet>
+    </ConsentGroups>
+  </AuthorizedAccess>
+
+
+</Study>
+
+</Studies>
+
+</GaPExchange>

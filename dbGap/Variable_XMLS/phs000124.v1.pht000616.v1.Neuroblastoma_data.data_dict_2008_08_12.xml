@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./datadict_v2.xsl"?>
+<data_table id="pht000616.v1" study_id="phs000124.v1" participant_set="1" date_created="Tue Aug 12 13:49:25 2008">
+
+<variable id="phv00065492.v1">
+	<name>age</name>
+	<description>Age of subject at diagnosis</description>
+	<type>integer</type>
+	<unit>days</unit>
+</variable>
+
+<variable id="phv00065490.v1">
+	<name>chop_no</name>
+	<description>Deidentified Sample ID</description>
+	<type>integer</type>
+</variable>
+
+<variable id="phv00065494.v1">
+	<name>GENDER</name>
+	<description>Gender of subject</description>
+	<type>encoded value</type>
+	<value code=".">missing</value>
+	<value code="1">male</value>
+	<value code="2">female</value>
+</variable>
+
+<variable id="phv00065491.v1">
+	<name>inss_stg</name>
+	<description>Tumor staging as per INSS standards</description>
+	<type>integer</type>
+	<value code=".">missing</value>
+	<value code="0">pending</value>
+	<value code="1">stage1</value>
+	<value code="2">stage2a</value>
+	<value code="3">stage2b</value>
+	<value code="4">stage3</value>
+	<value code="5">stage4</value>
+	<value code="6">stage4s</value>
+</variable>
+
+<variable id="phv00065496.v1">
+	<name>mycn</name>
+	<description>Status of MYCN gene amplification by fluorescence in situ hybridization</description>
+	<type>integer</type>
+	<value code=".">missing</value>
+	<value code="1">amplified</value>
+	<value code="2">not amplified</value>
+	<value code="3">uninitialized</value>
+	<value code="4">unsatisfactory</value>
+</variable>
+
+<variable id="phv00065495.v1">
+	<name>ploidy</name>
+	<description>DNA index by flow cytometry</description>
+	<value code="1">diploid/hypodiploid</value>
+	<value code="2">hyperdiploid</value>
+</variable>
+
+<variable id="phv00065493.v1">
+	<name>shimada</name>
+	<description>Classification by  histology to determine if a sample bears favourable or unfavourable prognosis</description>
+	<type>integer</type>
+	<value code=".">missing</value>
+	<value code="1">favourable histology</value>
+	<value code="2">unfavourable histology</value>
+	<value code="3">uninterpretable</value>
+	<value code="4">inadequate</value>
+</variable>
+
+</data_table>

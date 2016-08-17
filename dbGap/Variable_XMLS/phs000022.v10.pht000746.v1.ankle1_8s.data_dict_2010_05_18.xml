@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./datadict_v2.xsl"?>
+<data_table id="pht000746.v1" study_id="phs000022.v10" participant_set="5" date_created="Tue May 18 22:23:39 2010">
+
+<variable id="phv00072019.v1">
+	<name>IDTYPE</name>
+	<description>Framingham cohort identifier</description>
+	<type>encoded</type>
+	<coll_interval>Exam 8</coll_interval>
+	<value code="1">Offspring</value>
+</variable>
+
+<variable id="phv00072020.v1">
+	<name>H625</name>
+	<description>Cuff size, arm</description>
+	<type>encoded</type>
+	<coll_interval>Exam 8</coll_interval>
+	<value code="0">Pediatric</value>
+	<value code="1">Regular adult</value>
+	<value code="2">Large adult</value>
+	<value code="3">Thigh</value>
+	<value code=".">Unknown or did not have test</value>
+</variable>
+
+<variable id="phv00072021.v1">
+	<name>H626</name>
+	<description>Cuff size, ankle</description>
+	<type>encoded</type>
+	<coll_interval>Exam 8</coll_interval>
+	<value code="0">Pediatric</value>
+	<value code="1">Regular adult</value>
+	<value code="2">Large adult</value>
+	<value code="3">Thigh</value>
+	<value code=".">Unknown or did not have test</value>
+</variable>
+
+<variable id="phv00072022.v1">
+	<name>H627</name>
+	<description>Right arm, first reading</description>
+	<type>integer, encoded</type>
+	<unit>mmHg</unit>
+	<logical_min>84</logical_min>
+	<logical_max>210</logical_max>
+	<coll_interval>Exam 8</coll_interval>
+	<value code="300">Greater than or equal to 300</value>
+	<value code=".">Unknown or not done</value>
+</variable>
+
+<variable id="phv00072023.v1">
+	<name>H628</name>
+	<description>Right ankle, first reading</description>
+	<type>integer, encoded</type>
+	<unit>mmHg</unit>
+	<logical_min>50</logical_min>
+	<logical_max>268</logical_max>
+	<coll_interval>Exam 8</coll_interval>
+	<value code="300">Greater than or equal to 300</value>
+	<value code=".">Unknown or not done</value>
+</variable>
+
+<variable id="phv00072024.v1">
+	<name>H629</name>
+	<description>Left ankle, first reading</description>
+	<type>integer, encoded</type>
+	<unit>mmHg</unit>
+	<logical_min>44</logical_min>
+	<logical_max>258</logical_max>
+	<coll_interval>Exam 8</coll_interval>
+	<value code="300">Greater than or equal to 300</value>
+	<value code=".">Unknown or not done</value>
+</variable>
+
+<variable id="phv00072025.v1">
+	<name>H630</name>
+	<description>Left arm, first reading</description>
+	<type>integer, encoded</type>
+	<unit>mmHg</unit>
+	<logical_min>48</logical_min>
+	<logical_max>210</logical_max>
+	<coll_interval>Exam 8</coll_interval>
+	<value code="300">Greater than or equal to 300</value>
+	<value code=".">Unknown or not done</value>
+</variable>
+
+<variable id="phv00072026.v1">
+	<name>H631</name>
+	<description>Left arm, second reading</description>
+	<type>integer, encoded</type>
+	<unit>mmHg</unit>
+	<logical_min>78</logical_min>
+	<logical_max>212</logical_max>
+	<coll_interval>Exam 8</coll_interval>
+	<value code="300">Greater than or equal to 300</value>
+	<value code=".">Unknown or not done</value>
+</variable>
+
+<variable id="phv00072027.v1">
+	<name>H632</name>
+	<description>Left ankle, second reading</description>
+	<type>integer, encoded</type>
+	<unit>mmHg</unit>
+	<logical_min>42</logical_min>
+	<logical_max>252</logical_max>
+	<coll_interval>Exam 8</coll_interval>
+	<value code="300">Greater than or equal to 300</value>
+	<value code=".">Unknown or not done</value>
+</variable>
+
+<variable id="phv00072028.v1">
+	<name>H633</name>
+	<description>Right ankle, second reading</description>
+	<type>integer, encoded</type>
+	<unit>mmHg</unit>
+	<logical_min>50</logical_min>
+	<logical_max>272</logical_max>
+	<coll_interval>Exam 8</coll_interval>
+	<value code="300">Greater than or equal to 300</value>
+	<value code=".">Unknown or not done</value>
+</variable>
+
+<variable id="phv00072029.v1">
+	<name>H634</name>
+	<description>Right arm, second reading</description>
+	<type>integer, encoded</type>
+	<unit>mmHg</unit>
+	<logical_min>78</logical_min>
+	<logical_max>210</logical_max>
+	<coll_interval>Exam 8</coll_interval>
+	<value code="300">Greater than or equal to 300</value>
+	<value code=".">Unknown or not done</value>
+</variable>
+
+<variable id="phv00072030.v1">
+	<name>H635</name>
+	<description>Left arm, third reading</description>
+	<type>integer, encoded</type>
+	<unit>mmHg</unit>
+	<logical_min>86</logical_min>
+	<logical_max>214</logical_max>
+	<coll_interval>Exam 8</coll_interval>
+	<comment>To be obtained if first and second blood pressures differ by more than 10 mmHg</comment>
+	<value code="300">Greater than or equal to 300</value>
+	<value code=".">Unknown or not done</value>
+</variable>
+
+<variable id="phv00072031.v1">
+	<name>H636</name>
+	<description>Left ankle, third reading</description>
+	<type>integer, encoded</type>
+	<unit>mmHg</unit>
+	<logical_min>82</logical_min>
+	<logical_max>238</logical_max>
+	<coll_interval>Exam 8</coll_interval>
+	<comment>To be obtained if first and second blood pressures differ by more than 10 mmHg</comment>
+	<value code="300">Greater than or equal to 300</value>
+	<value code=".">Unknown or not done</value>
+</variable>
+
+<variable id="phv00072032.v1">
+	<name>H637</name>
+	<description>Right ankle, third reading</description>
+	<type>integer, encoded</type>
+	<unit>mmHg</unit>
+	<logical_min>92</logical_min>
+	<logical_max>228</logical_max>
+	<coll_interval>Exam 8</coll_interval>
+	<comment>To be obtained if first and second blood pressures differ by more than 10 mmHg</comment>
+	<value code="300">Greater than or equal to 300</value>
+	<value code=".">Unknown or not done</value>
+</variable>
+
+<variable id="phv00072033.v1">
+	<name>H638</name>
+	<description>Right arm, third reading</description>
+	<type>integer, encoded</type>
+	<unit>mmHg</unit>
+	<logical_min>94</logical_min>
+	<logical_max>204</logical_max>
+	<coll_interval>Exam 8</coll_interval>
+	<comment>To be obtained if first and second blood pressures differ by more than 10 mmHg</comment>
+	<value code="300">Greater than or equal to 300</value>
+	<value code=".">Unknown or not done</value>
+</variable>
+
+<variable id="phv00072034.v1">
+	<name>H639</name>
+	<description>Right ankle blood pressure site</description>
+	<type>encoded</type>
+	<coll_interval>Exam 8</coll_interval>
+	<value code="0">Posterior tibial (ankle)</value>
+	<value code="1">Dorsalis pedis (foot)</value>
+	<value code=".">Unknown or did not have test</value>
+</variable>
+
+<variable id="phv00072035.v1">
+	<name>H640</name>
+	<description>Left ankle blood pressure site</description>
+	<type>encoded</type>
+	<coll_interval>Exam 8</coll_interval>
+	<value code="0">Posterior tibial (ankle)</value>
+	<value code="1">Dorsalis pedis (foot)</value>
+	<value code=".">Unknown or did not have test</value>
+</variable>
+
+<variable id="phv00072036.v1">
+	<name>H641</name>
+	<description>Right lower extremity exclusions</description>
+	<type>encoded</type>
+	<coll_interval>Exam 8</coll_interval>
+	<comment>H641 modified - categories 1,2 and 3 were combined for confidentiality</comment>
+	<value code="0">None</value>
+	<value code="1">Venous stasis ulceration, amputation or other</value>
+	<value code=".">Unknown or did not have test</value>
+</variable>
+
+<variable id="phv00072037.v1">
+	<name>H642</name>
+	<description>Left lower extremity exclusions</description>
+	<type>encoded</type>
+	<coll_interval>Exam 8</coll_interval>
+	<comment>H642 modified - categories 1,2 and 3 were combined for confidentiality</comment>
+	<value code="0">None</value>
+	<value code="1">Venous stasis ulceration, amputation, or other</value>
+	<value code=".">Unknown or did not have test</value>
+</variable>
+
+<variable id="phv00072038.v1">
+	<name>H643</name>
+	<description>Right upper extremity exclusions</description>
+	<type>encoded</type>
+	<coll_interval>Exam 8</coll_interval>
+	<value code="0">None</value>
+	<value code="1">Mastectomy</value>
+	<value code="3">Other</value>
+	<value code=".">Unknown or did not have test</value>
+</variable>
+
+<variable id="phv00072039.v1">
+	<name>H644</name>
+	<description>Left upper extremity exclusions</description>
+	<type>encoded</type>
+	<coll_interval>Exam 8</coll_interval>
+	<value code="0">None</value>
+	<value code="1">Mastectomy</value>
+	<value code="3">Other</value>
+	<value code=".">Unknown or did not have test</value>
+</variable>
+
+<variable id="phv00072040.v1">
+	<name>H645</name>
+	<description>Protocol modification</description>
+	<type>encoded</type>
+	<coll_interval>Exam 8</coll_interval>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+	<value code="2">Incomplete, refused</value>
+	<value code=".">Unknown or did not have test</value>
+</variable>
+
+<variable id="phv00072041.v1">
+	<name>shareid</name>
+	<description>SHARe ID number</description>
+	<type>integer</type>
+	<coll_interval>Exam 8</coll_interval>
+</variable>
+
+</data_table>

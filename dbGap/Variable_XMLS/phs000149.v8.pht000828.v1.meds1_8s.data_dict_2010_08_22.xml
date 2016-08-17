@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./datadict_v2.xsl"?>
+<data_table id="pht000828.v1" study_id="phs000149.v8" participant_set="5" date_created="Sun Aug 22 19:11:37 2010">
+
+<unique_key phv="00073786" version="1">MEDNAME</unique_key>
+<unique_key phv="00073787" version="1">MEDSTREN</unique_key>
+<unique_key phv="00073788" version="1">MEDNUM</unique_key>
+<unique_key phv="00073790" version="1">MEDPRN</unique_key>
+<unique_key phv="00073803" version="1">shareid</unique_key>
+
+<variable id="phv00073773.v1">
+	<name>atc_cod2</name>
+	<description>ATC code for second drug in compound</description>
+	<type>encoded,string</type>
+	<coll_interval>Exam 8</coll_interval>
+	<comment>BLANK=not coded or single drug</comment>
+</variable>
+
+<variable id="phv00073774.v1">
+	<name>system2</name>
+	<description>Description/Label for anatomical main group - second drug in compound</description>
+	<type>encoded,string</type>
+	<coll_interval>Exam 8</coll_interval>
+	<comment>BLANK= not coded or single drug</comment>
+</variable>
+
+<variable id="phv00073775.v1">
+	<name>ther_gp2</name>
+	<description>Description/Label for therapeutic subgroup - second drug in compound</description>
+	<type>encoded,string</type>
+	<coll_interval>Exam 8</coll_interval>
+	<comment>BLANK=not coded or single drug</comment>
+</variable>
+
+<variable id="phv00073776.v1">
+	<name>phrm_gp2</name>
+	<description>Description/Label for pharmacological subgroup - second drug in compound</description>
+	<type>encoded,string</type>
+	<coll_interval>Exam 8</coll_interval>
+	<comment>BLANK=not coded or single drug</comment>
+</variable>
+
+<variable id="phv00073777.v1">
+	<name>chem_gp2</name>
+	<description>Description/Label for chemical subgroup - second drug in compound</description>
+	<type>encoded,string</type>
+	<coll_interval>Exam 8</coll_interval>
+	<comment>BLANK=not coded or single drug</comment>
+</variable>
+
+<variable id="phv00073778.v1">
+	<name>chem_nm2</name>
+	<description>Description/Label for chemical substance - second drug in compound</description>
+	<type>encoded,string</type>
+	<coll_interval>Exam 8</coll_interval>
+	<comment>BLANK=not coded or single drug</comment>
+</variable>
+
+<variable id="phv00073779.v1">
+	<name>atc_cod1</name>
+	<description>ATC code for medication or first drug in compound</description>
+	<type>encoded,string</type>
+	<coll_interval>Exam 8</coll_interval>
+	<comment>BLANK=not coded</comment>
+</variable>
+
+<variable id="phv00073780.v1">
+	<name>system1</name>
+	<description>Description/Label for anatomical main group - medication or first drug in compound</description>
+	<type>encoded,string</type>
+	<coll_interval>Exam 8</coll_interval>
+	<comment>BLANK=not coded</comment>
+</variable>
+
+<variable id="phv00073781.v1">
+	<name>ther_gp1</name>
+	<description>Description/Label for therapeutic subgroup - medication or first drug in compound</description>
+	<type>encoded,string</type>
+	<coll_interval>Exam 8</coll_interval>
+	<comment>BLANK=not coded</comment>
+</variable>
+
+<variable id="phv00073782.v1">
+	<name>phrm_gp1</name>
+	<description>Description/Label for pharmacological subgroup - medication or first drug in compound</description>
+	<type>encoded,string</type>
+	<coll_interval>Exam 8</coll_interval>
+	<comment>BLANK=not coded</comment>
+</variable>
+
+<variable id="phv00073783.v1">
+	<name>chem_gp1</name>
+	<description>Description/Label for chemical subgroup - medication or first drug in compound</description>
+	<type>encoded,string</type>
+	<coll_interval>Exam 8</coll_interval>
+	<comment>BLANK=not coded</comment>
+</variable>
+
+<variable id="phv00073784.v1">
+	<name>chem_nm1</name>
+	<description>Description/Label for chemical substance - medication or first drug in compound</description>
+	<type>encoded,string</type>
+	<coll_interval>Exam 8</coll_interval>
+	<comment>BLANK=not coded</comment>
+</variable>
+
+<variable id="phv00073785.v1">
+	<name>IDTYPE</name>
+	<description>Framingham Cohort Identifier</description>
+	<type>encoded</type>
+	<coll_interval>Exam 8</coll_interval>
+	<value code="1">Offspring cohort</value>
+</variable>
+
+<variable id="phv00073786.v1">
+	<name>MEDNAME</name>
+	<description>Medication name</description>
+	<type>string</type>
+	<coll_interval>Exam 8</coll_interval>
+</variable>
+
+<variable id="phv00073787.v1">
+	<name>MEDSTREN</name>
+	<description>Medication strength</description>
+	<type>encoded,string</type>
+	<coll_interval>Exam 8</coll_interval>
+	<comment>BLANK=missing</comment>
+</variable>
+
+<variable id="phv00073788.v1">
+	<name>MEDNUM</name>
+	<description>Number taken for a given period (medper)</description>
+	<type>decimal, encoded</type>
+	<logical_min>1</logical_min>
+	<logical_max>60</logical_max>
+	<coll_interval>Exam 8</coll_interval>
+	<value code=".">Unknown</value>
+</variable>
+
+<variable id="phv00073789.v1">
+	<name>MEDPER</name>
+	<description>Period range</description>
+	<type>encoded</type>
+	<coll_interval>Exam 8</coll_interval>
+	<value code="1">Day</value>
+	<value code="2">Week</value>
+	<value code="3">Month</value>
+	<value code=".">Unknown</value>
+</variable>
+
+<variable id="phv00073790.v1">
+	<name>MEDPRN</name>
+	<description>Medication taken as needed</description>
+	<type>encoded</type>
+	<coll_interval>Exam 8</coll_interval>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+	<value code=".">Unknown</value>
+</variable>
+
+<variable id="phv00073791.v1">
+	<name>atc_cod3</name>
+	<description>ATC code for third drug in compound</description>
+	<type>encoded,string</type>
+	<coll_interval>Exam 8</coll_interval>
+	<comment>BLANK=not coded or single drug</comment>
+</variable>
+
+<variable id="phv00073792.v1">
+	<name>atc_cod4</name>
+	<description>ATC code for fourth drug in compound</description>
+	<type>encoded,string</type>
+	<coll_interval>Exam 8</coll_interval>
+	<comment>BLANK=not coded or single drug</comment>
+</variable>
+
+<variable id="phv00073793.v1">
+	<name>system3</name>
+	<description>Description/Label for anatomical main group - third drug in compound</description>
+	<type>encoded,string</type>
+	<coll_interval>Exam 8</coll_interval>
+	<comment>BLANK=not coded or single drug</comment>
+</variable>
+
+<variable id="phv00073794.v1">
+	<name>ther_gp3</name>
+	<description>Description/Label for therapeutic subgroup - third drug in compound</description>
+	<type>encoded,string</type>
+	<coll_interval>Exam 8</coll_interval>
+	<comment>BLANK=not coded or single drug</comment>
+</variable>
+
+<variable id="phv00073795.v1">
+	<name>phrm_gp3</name>
+	<description>Description/Label for pharmacological subgroup - third drug in compound</description>
+	<type>encoded,string</type>
+	<coll_interval>Exam 8</coll_interval>
+	<comment>BLANK=not coded or single drug</comment>
+</variable>
+
+<variable id="phv00073796.v1">
+	<name>chem_gp3</name>
+	<description>Description/Label for chemical subgroup - third drug in compound</description>
+	<type>encoded,string</type>
+	<coll_interval>Exam 8</coll_interval>
+	<comment>BLANK=not coded or single drug</comment>
+</variable>
+
+<variable id="phv00073797.v1">
+	<name>chem_nm3</name>
+	<description>Description/Label for chemical substance - third drug in compound</description>
+	<type>encoded,string</type>
+	<coll_interval>Exam 8</coll_interval>
+	<comment>BLANK=not coded or single drug</comment>
+</variable>
+
+<variable id="phv00073798.v1">
+	<name>system4</name>
+	<description>Description/Label for anatomical main group - fourth drug in compound</description>
+	<type>encoded,string</type>
+	<coll_interval>Exam 8</coll_interval>
+	<comment>BLANK=not coded or single drug</comment>
+</variable>
+
+<variable id="phv00073799.v1">
+	<name>ther_gp4</name>
+	<description>Description/Label for therapeutic subgroup - fourth drug in compoud</description>
+	<type>encoded,string</type>
+	<coll_interval>Exam 8</coll_interval>
+	<comment>BLANK=not coded or single drug</comment>
+</variable>
+
+<variable id="phv00073800.v1">
+	<name>phrm_gp4</name>
+	<description>Description/Label for pharmacological subgroup - fourth drug in compound</description>
+	<type>encoded,string</type>
+	<coll_interval>Exam 8</coll_interval>
+	<comment>BLANK=not coded or single drug</comment>
+</variable>
+
+<variable id="phv00073801.v1">
+	<name>chem_gp4</name>
+	<description>Description/Label for chemical subgroup - fourth drug in compound</description>
+	<type>encoded,string</type>
+	<coll_interval>Exam 8</coll_interval>
+	<comment>BLANK=not coded or single drug</comment>
+</variable>
+
+<variable id="phv00073802.v1">
+	<name>chem_nm4</name>
+	<description>Description/Label for chemical substance - fourth drug in compound</description>
+	<type>encoded,string</type>
+	<coll_interval>Exam 8</coll_interval>
+	<comment>BLANK=not coded or single drug</comment>
+</variable>
+
+<variable id="phv00073803.v1">
+	<name>shareid</name>
+	<description>SHARE ID Number</description>
+	<type>integer</type>
+	<coll_interval>Exam 8</coll_interval>
+</variable>
+
+</data_table>

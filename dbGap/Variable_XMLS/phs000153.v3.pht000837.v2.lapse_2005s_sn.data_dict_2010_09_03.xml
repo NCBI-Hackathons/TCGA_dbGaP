@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./datadict_v2.xsl"?>
+<data_table id="pht000837.v2" study_id="phs000153.v3" participant_set="3" date_created="Fri Sep  3 13:36:12 2010">
+
+<variable id="phv00073892.v2">
+	<name>LAPSE</name>
+	<description>Number of months between an arbitrary date and Exam 1 date</description>
+	<type>integer, encoded</type>
+	<unit>months</unit>
+	<logical_min>-254</logical_min>
+	<logical_max>427</logical_max>
+	<coll_interval>Through 2005</coll_interval>
+	<comment>Negative numbers mean that the arbitrary date came after the Exam 1 date.</comment>
+	<value code=".">Unknown</value>
+</variable>
+
+<variable id="phv00073893.v2">
+	<name>idtype</name>
+	<description>Framingham Cohort Identifier</description>
+	<type>encoded</type>
+	<coll_interval>Through 2005</coll_interval>
+	<value code="0">Original Cohort (Gen1)</value>
+	<value code="1">First offspring recruits (Gen2)</value>
+	<value code="2">Spouses of first offspring recruits, aka NOS</value>
+	<value code="3">Second Offspring Recruits (Gen3)</value>
+</variable>
+
+<variable id="phv00073894.v2">
+	<name>shareid</name>
+	<description>SHARe ID number</description>
+	<coll_interval>Through 2005</coll_interval>
+</variable>
+
+</data_table>

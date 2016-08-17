@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GaPExchange xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="dbGaPEx2.1.5.xsd">
+
+<MetaVariables>
+	<Submitter/>
+	<Method/>
+</MetaVariables>
+<MetaLinks/>
+
+<Projects>
+	<Project/>
+</Projects>
+
+<Studies>
+
+<Study source="dbGaP" accession="phs000210.v1.p1" parentStudy="phs000210.v1.p1" createDate="2009-08-18" modDate="2010-11-19">
+
+<Configuration>
+	<Data_Provider><![CDATA[
+		<table border="1">
+		<tr><th>Title</th><th>Name</th><th>Institute</th></tr>
+		<tr><td>Principal Investigator</td><td>James N. Ingle, MD</td><td>Mayo Clinic, Rochester, MN, USA</td></tr>
+		<tr><td>Funding Source</td><td>GM 61388</td><td>National Institutes of Health, Bethesda, MD, USA</td></tr>
+		</table>
+	]]></Data_Provider>
+	<StudyNameEntrez>PGRN-RIKEN MA.27 Mayo Aromatase Inhibitor Musculoskeletal Adverse Events Study</StudyNameEntrez>
+	<StudyNameReportPage>A Genome-Wide Association Study in Patients Experiencing Musculoskeletal Adverse Events on NCIC CTG Trial MA.27 Evaluating Aromatase Inhibitors as Adjuvant Therapy in Early Breast Cancer.  A Collaboration Between the NIH Pharmacogenetics Research Network and the RIKEN Yokohama Institute Center for Genomic Medicine.</StudyNameReportPage>
+	<StudyTypes>
+		<StudyType>Nested Case-Control</StudyType>
+	</StudyTypes>
+	<Description><![CDATA[
+<p><u>Source of Patients</u><br/>  	The source of the patients for this genome-wide case control study was MA.27, which was conducted as a multi-cooperative group effort  	under the auspices of the NCI Breast Cancer Intergroup of North America. The NCIC Clinical Trials Group (CTG) serves as the  	coordinating group, with participation by the NCI-sponsored North Central Cancer  	Treatment Group, Eastern Cooperative Oncology Group (ECOG), Southwest Oncology Group, and Cancer and Leukemia Group B (CALGB).  	MA.27 involved postmenopausal women with histologically confirmed and completely resected invasive breast cancer with surgical  	margins clear of invasive carcinoma and DCIS in the following TMN categories (AJCC Version 6): pT1, pT2, pT3; pNx, pN0, pN1,  	pN2, pN3 (only when the sole basis is presence of 10 or more involved axillary nodes); MO.  The primary tumor must have been  	ER and/or progesterone receptor positive.  Patients were stratified by lymph node status at diagnosis, prior adjuvant chemotherapy,  	and trastuzumab use and were randomized to 5 years of adjuvant therapy with anastrozole or exemestane. The trial was activated  	on May 26, 2003, and reached its accrual objectives on July 31, 2008, after the randomization of 6827 North American patients,  	with the majority (79%) providing DNA and consent for genetic testing.  Non-North American patients were also entered by the  	International Breast Cancer Study Group but they did not contribute DNA.  From 2003 to December 21, 2004, patients also  	underwent a second randomization to celecoxib 400 mg twice daily or placebo but, after the entry of 1,622 patients, this  	treatment was discontinued because of reports of increased cardiovascular risk associated with celecoxib.  	</p>      <p><u>Case Definition for Musculoskeletal Adverse Events</u><br/>  	Cases were defined to have had at least one of the following six MSAE): 1. pain - joint, 2. pain - muscle, 3. pain - bone, 4.  	arthritis, 5. joint - function, 6. musculoskeletal - other. Cases were required to have at least grade 3 toxicity, according  	to the NCI Common Terminology Criteria for Adverse Events v3.0, or go off treatment for any grade of the six MSAEs; and  	were required to have had an MSAE within the first two years (i.e., a MSAE occurring after 2 years was not be considered  	a case). Subjects were excluded from the case group who met the case definition while on celecoxib or in the three months  	after stopping celecoxib but subjects were allowed to be cases if they developed their first MSAE more than three months  	after stopping celecoxib.  	</p>  	<p><u>Study Design</u><br/>  	The design was a nested matched case-control study with two controls selected for each case. Random matching from the potential control  	group (i.e., risk-set sampling such that controls had at least the same length of followup as the timing of the case event) was  	done by matching the case on the following factors: 1. treatment arm (exemestane vs. anastrozole, blinded), 2. prior  	adjuvant chemotherapy (yes vs. no), 3. age at start of treatment (+/- 5 years), 4. Celecoxib allocation (yes vs. no).  Attempts  	were made to exactly match each case with two controls according to the above criteria. If, however, controls could not be  	exactly matched, "close" matching was used to define a distance between each case and all potential controls in an optimal matching  	algorithm.  Race is a potential confounding factor, and 94% of the MA.27 population is Caucasian, 3% are Black, 1% Asian, 1%  	American Indian, and 1% are of unknown race. Because there are so few non-Caucasian participants, was restricted to only Caucasians.  	Following identification of cases and controls, the list was sent to the CALGB Pathology Coordinating Office (PCO) at Ohio State  	University Medical Center for plating of the samples.  Other patient factors that might influence the association of SNP  	genotypes with a MSAE, either as confounding factors or as effect modifiers, were included as investigational covariates.  	These include 1. body mass index (BMI), 2. bisphosphonate use, 3. fractures in past 10 years, 4. baseline ECOG performance status, 5.  	prior hormone replacement therapy, 6. prior adjuvant radiotherapy, and 7. prior taxane treatment.  An Honest Broker Process was  	utilized to ensure patient confidentiality.  	</p>  	<p><u>Genotype Assays and Quality Control</u><br/>  	A GWAS was performed with the Illumina Human610-Quad at the RIKEN Center for Genomic Medicine.  The DNA for all of the samples were  	adjusted to a concentration of 50 to 100 ng/&#181;L in a final volume of 50 &#181;L.  The 96-well plates were designed to have a unique  	distribution pattern with x duplicates per plate to evaluate genotype concordance.  Samples with &lt;98% call rate were removed  	from analyses.  SNPs with ambiguous call will be excluded using the following criteria: 1. low signal intensity of each  	allele, 2. low cluster separation score, 3. SNP call rate &lt;0.98, 4. SNPs with Hardy Weinberg Equilibrium p-value &lt;0.001 were excluded.  	X-chromosome SNPs were used to validate female sex and quality control measures were examined across the different submitting centers.  	For all pairs of subjects, the percentage of matching genotypes were computed to screen for unexpected duplicate samples.  All SNPs  	found to be associated with MSAE were subjected to visual inspection of the cluster plots to verify that the genotype clustering was  	adequate.  	</p>]]>
+	</Description>
+	<StudyInEx><![CDATA[
+<p><u>Inclusion Criteria for Parent Clinical Trial</u><br/>  	The trial from which the patients in this case-control study were  	identified was MA.27.  Inclusion criteria included postmenopausal women with histologically confirmed and completely resected  	invasive breast cancer with surgical margins clear of invasive carcinoma and DCIS in the following TMN categories (AJCC Version 6):  	pT1, pT2, pT3; pNx, pN0, pN1, pN2, pN3 (only when the sole basis is presence of 10 or more involved axillary nodes); MO.  The  	primary tumor must have been ER and/or progesterone receptor positive.</p>  	<p><u>Case Definition for Musculoskeletal Adverse Events</u><br/>  	Cases were defined to have had at least one of the following  	six MSAE): 1. pain - joint, 2. pain - muscle, 3. pain - bone, 4. arthritis, 5. joint - function, 6. musculoskeletal - other.  	Cases were required to have at least grade 3 toxicity, according to the NCI Common Terminology Criteria for Adverse Events v3.0,  	or go off treatment for any grade of the six MSAEs; and were required to have had an MSAE within the first two years (i.e., a  	MSAE occurring after 2 years was not be considered a case). Subjects were excluded from the case group who met the case  	definition while on celecoxib or in the three months after stopping celecoxib but subjects were allowed to be cases if  	they developed their first MSAE more than three months after stopping celecoxib.</p>  	<p><u>Selection of Controls</u><br/>  	The design was a matched case-control study with two controls selected for each case.  	Random matching from the potential control group was done by matching the case on the following factors: 1. treatment arm  	(exemestane vs. anastrozole, blinded), 2. prior adjuvant chemotherapy (yes vs. no), 3. age at start of treatment (+/- 5 years), 4.  	Celecoxib allocation (yes vs. no).  Attempts were made to exactly match each case with two controls according to the above criteria.  	If, however, controls could not be exactly matched, "close" matching was used to define a distance between each case and all potential  	controls in an optimal matching algorithm.  Race is a potential confounding factor, and 94% of the MA.27 population is Caucasian, 3%  	are Black, 1% Asian, 1% American Indian, and 1% are of unknown race. Because there are so few non-Caucasian participants, was  	restricted to only Caucasians.</p>]]>
+	</StudyInEx>
+	<StudyProjects>
+		<Project/>
+	</StudyProjects>
+	<Publications>
+		<Publication>
+			<Pubmed pmid="20876420"/>
+		</Publication>
+	</Publications>
+	<Diseases>
+		<Disease vocab_source="MESH" vocab_term="Breast Neoplasms"/>
+	</Diseases>
+	<Attributions>
+		<Header title="Principal Investigator">
+			<AttName>James N. Ingle, MD</AttName>
+			<Institution>Mayo Clinic, Rochester, MN, USA</Institution>
+		</Header>
+		<Header title="Funding Source">
+			<AttName>GM 61388</AttName>
+			<Institution>National Institutes of Health, Bethesda, MD, USA</Institution>
+		</Header>
+	</Attributions>
+	<DisplayPublicSummary>yes</DisplayPublicSummary>
+	<StudyHistory><![CDATA[
+<p>June 27, 2008: Protocol approved by The Breast Cancer Intergroup Correlative Sciences Committee and Clinical Investigations Branch,  	Cancer Therapy Evaluation Program, Division of Cancer Treatment and Diagnosis, National Cancer Institute.</p>]]>
+	</StudyHistory>
+	<ConsentGroups>
+		<ConsentGroup groupNum="1" shortName="HR" longName="Health Research"/>
+	</ConsentGroups>
+</Configuration>
+
+  <AuthorizedAccess>
+    <DacInfo ssDacId="0">
+      <DacName>NIGMS</DacName>
+      <DacFullName>National Institute of General Medical Sciences DAC</DacFullName>
+      <DacEmail>NIGMSDBGAPDataAccessCommitee@mail.nih.gov</DacEmail>
+      <DacPhone></DacPhone>
+      <DacUrl>http://grants.nih.gov/grants/gwas</DacUrl>
+    </DacInfo>
+    <Policy Policy_ID="phs000210.v1.p1_policy" ref_ssDacId="0">
+      <DisplayResearchStatement>yes</DisplayResearchStatement>
+      <DisplayPublicSummary>yes</DisplayPublicSummary>
+      <EmbargoLength>12</EmbargoLength>
+      <YearsUntilRenewal>1</YearsUntilRenewal>
+      <WeeksCancelRequest>8</WeeksCancelRequest>
+      <PdfSupplementReqired>no</PdfSupplementReqired>
+      <AcknowledgementText>
+        <para>
+               Approved Users should acknowledge the NIH GWAS Data Repository and the submitter (see Project-Specific sections below) who contributed the GWAS dataset in all publications resulting from analyses of the dataset, including the dbGaP accession number to the specific version of the dataset analyzed.
+               For this dataset, the PI and the depositing organization have requested that the following acknowledgement statement be used:  Samples and associated genotype and phenotype data used in this study were provided by the Mayo Clinic.  Funding support for the Mayo Clinic was provided through a cooperative agreement with the National Institute of General Medical Sciences (NIGMS), Grant U01 GM61388.  The datasets used for analyses described in this manuscript were obtained from dbGaP at http://www.ncbi.nlm.nih.gov/gap through dbGaP accession number [phs000210.v1.p1].  Dr. James Ingle and his collaborators request that publications resulting from this data cite their original publication (reference to appear on dbGaP before the end of embargo period).
+            </para>
+        <para>
+               Approved Users should acknowledge the NIH GWAS Data Repository and the submitter (see Project-Specific sections below) who contributed the GWAS dataset in all publications resulting from analyses of the dataset, including the dbGaP accession number to the specific version of the dataset analyzed.
+               For this dataset, the PI and the depositing organization have requested that the following acknowledgement statement be used:  Samples and associated genotype and phenotype data used in this study were provided by the Mayo Clinic.  Funding support for the Mayo Clinic was provided through a cooperative agreement with the National Institute of General Medical Sciences (NIGMS), Grant U01 GM61388.  The datasets used for analyses described in this manuscript were obtained from dbGaP at http://www.ncbi.nlm.nih.gov/gap through dbGaP accession number [phs000210.v1.p1].  Dr. James Ingle and his collaborators request that publications resulting from this data cite their original publication (reference to appear on dbGaP before the end of embargo period).
+            </para>
+      </AcknowledgementText>
+      <DocumentSet>
+        <DataUseCertificate Label="Data Use Certificate" FilePath="https://dbgap.ncbi.nlm.nih.gov/aa/wga.cgi?page=DUC&amp;view_pdf&amp;stacc=phs000210.v1.p1" FileName="PGRN-RIKEN_DUC_10-9-09_Mayo_Breast_Cancer_Study_FINAL.pdf"/>
+      </DocumentSet>
+    </Policy>
+    <ConsentGroups>
+      <ParticipantSet groupNum-REF="1">
+        <ConsentName>Health Research</ConsentName>
+        <ConsentAbbrev>HR</ConsentAbbrev>
+        <UseLimitation>Mayo Clinic data may be used only for genetic studies to learn about, prevent, or treat health problems. Investigators must state in the DAR their intention to publish or otherwise broadly share any findings from their study with the scientific community.</UseLimitation>
+        <IrbRequired>No</IrbRequired>
+      </ParticipantSet>
+    </ConsentGroups>
+  </AuthorizedAccess>
+  <Documents>
+    <Document phd="phd001818.1" type="protocol" createDate="2009-08-19" modDate="2009-08-27" urlToXml="http://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/GetDocumentXml.cgi?document_id=phd001818.1" urlToHtml="http://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/document.cgi?study_id=phs000210.v1.p1&amp;phd=1818">
+      <OrigName>TBCI_protocol.pdf</OrigName>
+      <DisplayName>TBCI Protocol</DisplayName>
+      <Description>TBCI Protocol</Description>
+      <displayStatus>public</displayStatus>
+      <xmlStatus>public</xmlStatus>
+    </Document>
+  </Documents>
+
+  <Annotations>
+    <DocumentPart phd="phd001818.1" sectionId="li1">
+      <phvList>
+        <phvRef variableId="76278"/>
+      </phvList>
+    </DocumentPart>
+    <DocumentPart phd="phd001818.1" sectionId="li10">
+      <phvList>
+        <phvRef variableId="76275"/>
+      </phvList>
+    </DocumentPart>
+    <DocumentPart phd="phd001818.1" sectionId="li11">
+      <phvList>
+        <phvRef variableId="76284"/>
+      </phvList>
+    </DocumentPart>
+    <DocumentPart phd="phd001818.1" sectionId="li12">
+      <phvList>
+        <phvRef variableId="76266"/>
+      </phvList>
+    </DocumentPart>
+    <DocumentPart phd="phd001818.1" sectionId="li13">
+      <phvList>
+        <phvRef variableId="76269"/>
+      </phvList>
+    </DocumentPart>
+    <DocumentPart phd="phd001818.1" sectionId="li14">
+      <phvList>
+        <phvRef variableId="76267"/>
+      </phvList>
+    </DocumentPart>
+    <DocumentPart phd="phd001818.1" sectionId="li15">
+      <phvList>
+        <phvRef variableId="76268"/>
+      </phvList>
+    </DocumentPart>
+    <DocumentPart phd="phd001818.1" sectionId="li16">
+      <phvList>
+        <phvRef variableId="76277"/>
+      </phvList>
+    </DocumentPart>
+    <DocumentPart phd="phd001818.1" sectionId="li17">
+      <phvList>
+        <phvRef variableId="76270"/>
+      </phvList>
+    </DocumentPart>
+    <DocumentPart phd="phd001818.1" sectionId="li18">
+      <phvList>
+        <phvRef variableId="76271"/>
+      </phvList>
+    </DocumentPart>
+    <DocumentPart phd="phd001818.1" sectionId="li19">
+      <phvList>
+        <phvRef variableId="76272"/>
+      </phvList>
+    </DocumentPart>
+    <DocumentPart phd="phd001818.1" sectionId="li2">
+      <phvList>
+        <phvRef variableId="76267"/>
+      </phvList>
+    </DocumentPart>
+    <DocumentPart phd="phd001818.1" sectionId="li20">
+      <phvList>
+        <phvRef variableId="76273"/>
+      </phvList>
+    </DocumentPart>
+    <DocumentPart phd="phd001818.1" sectionId="li21">
+      <phvList>
+        <phvRef variableId="76274"/>
+      </phvList>
+    </DocumentPart>
+    <DocumentPart phd="phd001818.1" sectionId="li22">
+      <phvList>
+        <phvRef variableId="76275"/>
+      </phvList>
+    </DocumentPart>
+    <DocumentPart phd="phd001818.1" sectionId="li23">
+      <phvList>
+        <phvRef variableId="76264"/>
+        <phvRef variableId="76265"/>
+      </phvList>
+    </DocumentPart>
+    <DocumentPart phd="phd001818.1" sectionId="li3">
+      <phvList>
+        <phvRef variableId="76268"/>
+      </phvList>
+    </DocumentPart>
+    <DocumentPart phd="phd001818.1" sectionId="li4">
+      <phvList>
+        <phvRef variableId="76277"/>
+      </phvList>
+    </DocumentPart>
+    <DocumentPart phd="phd001818.1" sectionId="li5">
+      <phvList>
+        <phvRef variableId="76270"/>
+      </phvList>
+    </DocumentPart>
+    <DocumentPart phd="phd001818.1" sectionId="li6">
+      <phvList>
+        <phvRef variableId="76271"/>
+      </phvList>
+    </DocumentPart>
+    <DocumentPart phd="phd001818.1" sectionId="li7">
+      <phvList>
+        <phvRef variableId="76272"/>
+      </phvList>
+    </DocumentPart>
+    <DocumentPart phd="phd001818.1" sectionId="li8">
+      <phvList>
+        <phvRef variableId="76273"/>
+      </phvList>
+    </DocumentPart>
+    <DocumentPart phd="phd001818.1" sectionId="li9">
+      <phvList>
+        <phvRef variableId="76274"/>
+      </phvList>
+    </DocumentPart>
+    <DocumentPart phd="phd001818.1" sectionId="p1">
+      <phvList>
+        <phvRef variableId="76265"/>
+      </phvList>
+    </DocumentPart>
+    <DocumentPart phd="phd001818.1" sectionId="p2">
+      <phvList>
+        <phvRef variableId="76288"/>
+        <phvRef variableId="76289"/>
+      </phvList>
+    </DocumentPart>
+    <DocumentPart phd="phd001818.1" sectionId="p3">
+      <phvList>
+        <phvRef variableId="76266"/>
+      </phvList>
+    </DocumentPart>
+    <DocumentPart phd="phd001818.1" sectionId="p4">
+      <phvList>
+        <phvRef variableId="76289"/>
+      </phvList>
+    </DocumentPart>
+  </Annotations>
+
+
+
+</Study>
+
+</Studies>
+
+</GaPExchange>

@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GaPExchange xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="./dbGaPEx2.1.5.xsd">
+
+<MetaVariables>
+	<Submitter/>
+	<Method/>
+</MetaVariables>
+<MetaLinks/>
+
+<Projects>
+	<Project/>
+</Projects>
+
+<Studies>
+
+<Study source="dbGaP" accession="phs000585.v1.p1" parentStudy="phs000585.v1.p1" createDate="2013-01-11" modDate="2013-02-13">
+
+<Configuration>
+	<Data_Provider><![CDATA[
+		<table border="1">
+		<tr><th>Title</th><th>Name</th><th>Institute</th></tr>
+		<tr><td>Principal Investigator</td><td>ICBP Consortium</td><td>Multiple Affiliations</td></tr>
+		<tr><td>Funding Source</td><td>Multiple Funding Sources</td><td>Cf. Supp. Material of &lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/21909115&quot;&gt;Nature.&lt;/a&gt; 2011 Sep 11;478(7367):103-9; &lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed?db=pubmed&amp;cmd=DetailsSearch&amp;term=21909110&quot;&gt;Nat. Genet.&lt;/a&gt; 2011 Sep 11;43(10):1005-11</td></tr>
+		</table>
+	]]></Data_Provider>
+	<StudyNameEntrez>International Consortium for Blood Pressure (ICBP)</StudyNameEntrez>
+	<StudyNameReportPage>International Consortium for Blood Pressure (ICBP)</StudyNameReportPage>
+	<StudyTypes>
+		<StudyType>Meta-Analysis</StudyType>
+	</StudyTypes>
+	<Description><![CDATA[
+<p>The ICBP consortium is an international effort to investigate blood-pressure genetics. The consortium was formed by two parent consortia, the CHARGE-BP consortium (Cohorts for Heart and Aging Research in Genomic Epidemiology - blood pressure) and the GBPGEN consortium (Global Blood Pressure Genetics Consortium).</p> <p>In a first effort we performed genome-wide association analyses based on genome-wide SNPs imputed to HapMap for systolic and diastolic blood pressure (SBP and DBP) and mean arterial pressure and pulse pressure (MAP and PP). Additional studies are under way.</p>]]>
+	</Description>
+	<StudyInEx><![CDATA[
+<p>Exclusion criteria varied slightly for each study and can be found in the Supplementary Materials of <a href="http://www.ncbi.nlm.nih.gov/pubmed/21909115">Nature.</a> 2011 Sep 11;478(7367):103-9, <a href="http://www.ncbi.nlm.nih.gov/pubmed?db=pubmed&cmd=DetailsSearch&term=21909110">Nat. Genet.</a>, 2011 Sep 11;43(10):1005-11, and other publications to follow.</p>]]>
+	</StudyInEx>
+	<StudyProjects>
+		<Project/>
+	</StudyProjects>
+	<Publications>
+		<Publication>
+			<Pubmed pmid="21909115"/>
+		</Publication>
+		<Publication>
+			<Pubmed pmid="21909110"/>
+		</Publication>
+	</Publications>
+	<Diseases>
+		<Disease vocab_source="MESH" vocab_term="Blood Pressure"/>
+		<Disease vocab_source="MESH" vocab_term="Hypertension"/>
+	</Diseases>
+	<Attributions>
+		<Header title="Principal Investigator">
+			<AttName>ICBP Consortium</AttName>
+			<Institution>Multiple Affiliations</Institution>
+		</Header>
+		<Header title="Funding Source">
+			<AttName>Multiple Funding Sources</AttName>
+			<Institution>Cf. Supp. Material of &lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/21909115&quot;&gt;Nature.&lt;/a&gt; 2011 Sep 11;478(7367):103-9; &lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed?db=pubmed&amp;cmd=DetailsSearch&amp;term=21909110&quot;&gt;Nat. Genet.&lt;/a&gt; 2011 Sep 11;43(10):1005-11</Institution>
+		</Header>
+	</Attributions>
+	<DisplayPublicSummary>no</DisplayPublicSummary>
+	<ConsentGroups>
+		<ConsentGroup groupNum="100" shortName="Analysis" longName="Analysis only"/>
+	</ConsentGroups>
+</Configuration>
+
+  <AuthorizedAccess>
+    <DacInfo ssDacId="0">
+      <DacName>NHLBI</DacName>
+      <DacFullName>National Heart, Lung, and Blood Institute DAC</DacFullName>
+      <DacEmail>0</DacEmail>
+      <DacPhone></DacPhone>
+      <DacUrl></DacUrl>
+    </DacInfo>
+    <Policy Policy_ID="phs000585.v1.p1_policy" ref_ssDacId="0">
+      <DisplayResearchStatement>yes</DisplayResearchStatement>
+      <DisplayPublicSummary>yes</DisplayPublicSummary>
+      <EmbargoLength>0</EmbargoLength>
+      <YearsUntilRenewal>1</YearsUntilRenewal>
+      <WeeksCancelRequest>8</WeeksCancelRequest>
+      <PdfSupplementReqired>yes</PdfSupplementReqired>
+      <AcknowledgementText>
+        <para>
+          http://dbgap.ncbi.nlm.nih.gov/aa/wga.cgi?page=DUC&amp;view_pdf&amp;stacc=phs000585.v1.p1
+        </para>
+      </AcknowledgementText>
+      <DocumentSet>
+        <DataUseCertificate Label="Data Use Certificate" FilePath="https://dbgap.ncbi.nlm.nih.gov/aa/wga.cgi?page=DUC&amp;view_pdf&amp;stacc=phs000585.v1.p1" FileName="ICBP_duc.pdf"/>
+      </DocumentSet>
+    </Policy>
+    <ConsentGroups>
+      <ParticipantSet groupNum-REF="1">
+        <ConsentName>Disease Specific for Cardiovascular Disease with IRB approval</ConsentName>
+        <ConsentAbbrev>DS-CVD-IRB</ConsentAbbrev>
+        <UseLimitation>Data is to be used for Cardiovascular Disease research.  IRB approval is required. Data use by commercial entities is not allowed.</UseLimitation>
+        <IrbRequired>Yes</IrbRequired>
+      </ParticipantSet>
+    </ConsentGroups>
+  </AuthorizedAccess>
+
+<Analyses>
+	<Analysis pha="3588" genomeBuild="37" snpBuild="135" analysisType="">
+		<Description>We performed genome-wide association analyses based on genome-wide SNPs imputed to HapMap per study for systolic blood pressure (SBP). Covariates were age, age2,BMI, and sex.  In the presence of anti-hypertensive medication, the BP was corrected by adding a constant (15mmHg for SBP).  The individual study results were meta-analyzed.</Description>
+		<Method>Quantitative trait analysis</Method>
+		<GtyPlatform probeNum="2716412" snpBatchId="">
+			<Vendor>multichip</Vendor>
+			<VendorURL>marker set used by ICBP</VendorURL>
+			<Platform>ICBP_Multichip_Imputation</Platform>
+		</GtyPlatform>
+		<Comment></Comment>
+	</Analysis>
+	<Analysis pha="3589" genomeBuild="37" snpBuild="135" analysisType="">
+		<Description>We performed genome-wide association analyses based on genome-wide SNPs imputed to HapMap per study for diastolic blood pressure (DBP). Covariates were age, age2,BMI, and sex.  In the presence of anti-hypertensive medication, the BP was corrected by adding a constant (10mmHg for DBP).  The individual study results were meta-analyzed.</Description>
+		<Method>Quantitative trait analysis</Method>
+		<GtyPlatform probeNum="2716412" snpBatchId="">
+			<Vendor>multichip</Vendor>
+			<VendorURL>marker set used by ICBP</VendorURL>
+			<Platform>ICBP_Multichip_Imputation</Platform>
+		</GtyPlatform>
+		<Comment></Comment>
+	</Analysis>
+	<Analysis pha="3590" genomeBuild="37" snpBuild="135" analysisType="">
+		<Description>We performed genome-wide association analyses based on genome-wide SNPs imputed to HapMap per study for Pulse Pressure (PP). Covariates were age, age2,BMI, and sex.  In the presence of anti-hypertensive medication, the BP was corrected by adding a constant (15mmHg for SBP and 10mmHg for DBP).  The individual study results were meta-analyzed.</Description>
+		<Method>Quantitative trait analysis</Method>
+		<GtyPlatform probeNum="2716412" snpBatchId="">
+			<Vendor>multichip</Vendor>
+			<VendorURL>marker set used by ICBP</VendorURL>
+			<Platform>ICBP_Multichip_Imputation</Platform>
+		</GtyPlatform>
+		<Comment></Comment>
+	</Analysis>
+	<Analysis pha="3591" genomeBuild="37" snpBuild="135" analysisType="">
+		<Description>We performed genome-wide association analyses based on genome-wide SNPs imputed to HapMap per study for Mean Arterial Pressure (MAP). Covariates were age, age2,BMI, and sex.  In the presence of anti-hypertensive medication, the BP was corrected by adding a constant (15mmHg for SBP and 10mmHg for DBP).  The individual study results were meta-analyzed.</Description>
+		<Method>Quantitative trait analysis</Method>
+		<GtyPlatform probeNum="2716412" snpBatchId="">
+			<Vendor>multichip</Vendor>
+			<VendorURL>marker set used by ICBP</VendorURL>
+			<Platform>ICBP_Multichip_Imputation</Platform>
+		</GtyPlatform>
+		<Comment></Comment>
+	</Analysis>
+</Analyses>
+
+</Study>
+
+</Studies>
+
+</GaPExchange>

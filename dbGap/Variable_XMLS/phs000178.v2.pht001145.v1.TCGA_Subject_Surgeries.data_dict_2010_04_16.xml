@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./datadict_v2.xsl"?>
+<data_table id="pht001145.v1" study_id="phs000178.v2" participant_set="2" date_created="Fri Apr 16 15:07:59 2010">
+
+<unique_key phv="00088169" version="1">BCRPATIENTBARCODE</unique_key>
+<unique_key phv="00088172" version="1">BCRSURGERYBARCODE</unique_key>
+
+<variable id="phv00088169.v1">
+	<name>BCRPATIENTBARCODE</name>
+	<description>Subject identifier</description>
+	<type>string</type>
+</variable>
+
+<variable id="phv00088170.v1">
+	<name>PROCEDURETYPE</name>
+	<description>Type of surgical procedure</description>
+	<type>string</type>
+</variable>
+
+<variable id="phv00088171.v1">
+	<name>DAYSTOPROCEDURE</name>
+	<description>Days elapsed from date of initial diagnosis to surgical procedure</description>
+	<type>integer</type>
+	<unit>days</unit>
+</variable>
+
+<variable id="phv00088172.v1">
+	<name>BCRSURGERYBARCODE</name>
+	<description>Unique identifier for a subject surgical procedure</description>
+	<type>string</type>
+</variable>
+
+</data_table>

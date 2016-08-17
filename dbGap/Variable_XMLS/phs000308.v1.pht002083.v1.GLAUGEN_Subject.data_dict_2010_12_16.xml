@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./datadict_v2.xsl"?>
+<data_table id="pht002083.v1" study_id="phs000308.v1" participant_set="1" date_created="Thu Dec 16 17:55:35 2010">
+
+<variable id="phv00142492.v1">
+	<name>SUBJID</name>
+	<description>GENEVA ID</description>
+	<type>integer</type>
+</variable>
+
+<variable id="phv00142493.v1">
+	<name>CONSENT</name>
+	<description>Consent group</description>
+	<type>encoded integer</type>
+	<value code="0">Subjects did not participate in the study, did not complete a consent document and are included only for the pedigree structure and/or genotype controls, such as HapMap subjects</value>
+	<value code="1">Massachusetts Eye and Ear Infirmary (MEEI)</value>
+	<value code="2">General Research Use (GRU)</value>
+</variable>
+
+<variable id="phv00142494.v1">
+	<name>SUBJ_SOURCE</name>
+	<description>Defines subject ID name space origin</description>
+	<type>string</type>
+</variable>
+
+<variable id="phv00142495.v1">
+	<name>SOURCE_SUBJID</name>
+	<description>Subject ID</description>
+	<type>string</type>
+</variable>
+
+</data_table>

@@ -1,0 +1,771 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./datadict_v2.xsl"?>
+<data_table id="pht001007.v1" study_id="phs000200.v3" participant_set="1" date_created="Thu Oct 21 09:32:57 2010">
+
+<unique_key phv="00079228" version="1">SHAREID</unique_key>
+<unique_key phv="00079229" version="1">F39VTYP</unique_key>
+<unique_key phv="00079230" version="1">F39VY</unique_key>
+
+<variable id="phv00079228.v1">
+	<name>SHAREID</name>
+	<description>WHI SHARe ID</description>
+	<type>integer</type>
+</variable>
+
+<variable id="phv00079229.v1">
+	<name>F39VTYP</name>
+	<description>Visit type</description>
+	<type>encoded value</type>
+	<value code="1">Screening Visit</value>
+	<value code="2">Semi Annual Visit</value>
+	<value code="3">Annual Visit</value>
+	<value code="4">Non-Routine Visit</value>
+</variable>
+
+<variable id="phv00079230.v1">
+	<name>F39VY</name>
+	<description>Visit year</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>9</logical_max>
+	<comment>Visit year for which this form was collected.</comment>
+</variable>
+
+<variable id="phv00079231.v1">
+	<name>F39DAYS</name>
+	<description>F39 Days since randomization/enrollment</description>
+	<type>integer</type>
+	<unit>days</unit>
+	<logical_min>-158</logical_min>
+	<logical_max>3494</logical_max>
+</variable>
+
+<variable id="phv00079232.v1">
+	<name>BIRTHMC</name>
+	<description>F39 Birth month answer code</description>
+	<type>encoded value</type>
+	<value code="0">Answer does not match birth month</value>
+	<value code="1">Answer matches birth month</value>
+	<value code="9">Not answered/missing</value>
+</variable>
+
+<variable id="phv00079233.v1">
+	<name>BIRTHDC</name>
+	<description>F39 Birth day answer code</description>
+	<type>encoded value</type>
+	<value code="0">Answer does not match birth day</value>
+	<value code="1">Answer matches birth day</value>
+	<value code="9">Not answered/missing</value>
+</variable>
+
+<variable id="phv00079234.v1">
+	<name>BIRTHYC</name>
+	<description>F39 Birth year answer code</description>
+	<type>encoded value</type>
+	<value code="0">Answer does not match birth year</value>
+	<value code="1">Answer matches birth year</value>
+	<value code="9">Not answered/missing</value>
+</variable>
+
+<variable id="phv00079235.v1">
+	<name>BRTHCITY</name>
+	<description>Birth city/town</description>
+	<type>encoded value</type>
+	<comment>Where were you born: city/town</comment>
+	<value code="0">Can&#39;t do/refused</value>
+	<value code="1">Answer given</value>
+	<value code="9">Not attempted/disabled</value>
+</variable>
+
+<variable id="phv00079236.v1">
+	<name>BRTHST</name>
+	<description>Birth state/country</description>
+	<type>encoded value</type>
+	<comment>Where were you born: state/country</comment>
+	<value code="0">Can&#39;t do/refused</value>
+	<value code="1">Answer given</value>
+	<value code="9">Not attempted/disabled</value>
+</variable>
+
+<variable id="phv00079237.v1">
+	<name>SOCKS1</name>
+	<description>Socks/Shirt - first trial</description>
+	<type>encoded value</type>
+	<value code="0">Error/refused</value>
+	<value code="1">Answer given</value>
+	<value code="9">Not attempted/disabled</value>
+</variable>
+
+<variable id="phv00079238.v1">
+	<name>BLUE1</name>
+	<description>Blue/Brown - first trial</description>
+	<type>encoded value</type>
+	<value code="0">Error/refused</value>
+	<value code="1">Answer given</value>
+	<value code="9">Not attempted/disabled</value>
+</variable>
+
+<variable id="phv00079239.v1">
+	<name>CHARITY1</name>
+	<description>Charity/Honesty - first trial</description>
+	<type>encoded value</type>
+	<value code="0">Error/refused</value>
+	<value code="1">Answer given</value>
+	<value code="9">Not attempted/disabled</value>
+</variable>
+
+<variable id="phv00079240.v1">
+	<name>PRESNO</name>
+	<description>Presentations for participant</description>
+	<type>integer</type>
+	<logical_min>1</logical_min>
+	<logical_max>4</logical_max>
+	<comment>Number of presentations (up to 7)  necessary for the participant to repeat the sequence of words &#39;socks, blue, charity&#39; or &#39;shirt, brown, honesty&#39;</comment>
+</variable>
+
+<variable id="phv00079241.v1">
+	<name>COUNT5</name>
+	<description>Count from 1 to 5</description>
+	<type>encoded value</type>
+	<value code="0">Unable to count forward</value>
+	<value code="1">Able to count forward</value>
+</variable>
+
+<variable id="phv00079242.v1">
+	<name>NUMBER1</name>
+	<description>1st number</description>
+	<type>encoded value</type>
+	<value code="1">1</value>
+	<value code="2">2</value>
+	<value code="4">4</value>
+	<value code="5">5</value>
+</variable>
+
+<variable id="phv00079243.v1">
+	<name>NUMBER2</name>
+	<description>2nd number</description>
+	<type>encoded value</type>
+	<value code="2">2</value>
+	<value code="3">3</value>
+	<value code="4">4</value>
+	<value code="5">5</value>
+</variable>
+
+<variable id="phv00079244.v1">
+	<name>NUMBER3</name>
+	<description>3rd number</description>
+	<type>encoded value</type>
+	<value code="1">1</value>
+	<value code="2">2</value>
+	<value code="3">3</value>
+	<value code="4">4</value>
+</variable>
+
+<variable id="phv00079245.v1">
+	<name>NUMBER4</name>
+	<description>4th number</description>
+	<type>encoded value</type>
+	<value code="1">1</value>
+	<value code="2">2</value>
+	<value code="3">3</value>
+	<value code="4">4</value>
+	<value code="5">5</value>
+</variable>
+
+<variable id="phv00079246.v1">
+	<name>NUMBER5</name>
+	<description>5th number</description>
+	<type>encoded value</type>
+	<value code="1">1</value>
+	<value code="2">2</value>
+	<value code="5">5</value>
+</variable>
+
+<variable id="phv00079247.v1">
+	<name>SPWORLD</name>
+	<description>Spell world</description>
+	<type>encoded value</type>
+	<value code="0">Unable to spell</value>
+	<value code="1">Able to spell</value>
+</variable>
+
+<variable id="phv00079248.v1">
+	<name>LETTER1</name>
+	<description>1st letter</description>
+	<type>encoded value</type>
+	<comment>World  in Spanish is  &#39;MUNDO&#39;</comment>
+	<value code="0">0</value>
+	<value code="1">1</value>
+	<value code="5">5</value>
+	<value code="D">D</value>
+	<value code="L">L</value>
+	<value code="O">O</value>
+	<value code="R">R</value>
+	<value code="W">W</value>
+</variable>
+
+<variable id="phv00079249.v1">
+	<name>LETTER2</name>
+	<description>2nd letter</description>
+	<type>encoded value</type>
+	<comment>World  in Spanish is  &#39;MUNDO&#39;</comment>
+	<value code="0">0</value>
+	<value code="2">2</value>
+	<value code="4">4</value>
+	<value code="D">D</value>
+	<value code="L">L</value>
+	<value code="N">N</value>
+	<value code="O">O</value>
+	<value code="R">R</value>
+</variable>
+
+<variable id="phv00079250.v1">
+	<name>LETTER3</name>
+	<description>3rd letter</description>
+	<type>encoded value</type>
+	<comment>World  in Spanish is  &#39;MUNDO&#39;</comment>
+	<value code="0">0</value>
+	<value code="3">3</value>
+	<value code="D">D</value>
+	<value code="L">L</value>
+	<value code="M">M</value>
+	<value code="N">N</value>
+	<value code="O">O</value>
+	<value code="R">R</value>
+	<value code="U">U</value>
+	<value code="W">W</value>
+</variable>
+
+<variable id="phv00079251.v1">
+	<name>LETTER4</name>
+	<description>4th letter</description>
+	<type>encoded value</type>
+	<comment>World  in Spanish is  &#39;MUNDO&#39;</comment>
+	<value code="0">0</value>
+	<value code="2">2</value>
+	<value code="4">4</value>
+	<value code="D">D</value>
+	<value code="L">L</value>
+	<value code="M">M</value>
+	<value code="O">O</value>
+	<value code="R">R</value>
+	<value code="U">U</value>
+	<value code="W">W</value>
+</variable>
+
+<variable id="phv00079252.v1">
+	<name>LETTER5</name>
+	<description>5th letter</description>
+	<type>encoded value</type>
+	<comment>World  in Spanish is  &#39;MUNDO&#39;</comment>
+	<value code="0">0</value>
+	<value code="1">1</value>
+	<value code="5">5</value>
+	<value code="D">D</value>
+	<value code="L">L</value>
+	<value code="M">M</value>
+	<value code="N">N</value>
+	<value code="O">O</value>
+	<value code="R">R</value>
+	<value code="W">W</value>
+</variable>
+
+<variable id="phv00079253.v1">
+	<name>SOCKS2</name>
+	<description>Socks/Shirt - remember earlier</description>
+	<type>encoded value</type>
+	<value code="0">Unable to recall/refused</value>
+	<value code="1">After Was it shirt, shoes, or socks</value>
+	<value code="2">Correct word/incorrect form; to wear</value>
+	<value code="3">Spontaneous recall</value>
+	<value code="9">Not attempted/disabled</value>
+</variable>
+
+<variable id="phv00079254.v1">
+	<name>BLUE2</name>
+	<description>Blue/Brown - remember earlier</description>
+	<type>encoded value</type>
+	<value code="0">Unable to recall/refused</value>
+	<value code="1">After Was it blue, black, brown</value>
+	<value code="2">Correct word/incorrect form; a color</value>
+	<value code="3">Spontaneous recall</value>
+	<value code="9">Not attempted/disabled</value>
+</variable>
+
+<variable id="phv00079255.v1">
+	<name>CHARITY2</name>
+	<description>Charity/Honesty - remember earlier</description>
+	<type>encoded value</type>
+	<value code="0">Unable to recall/refused</value>
+	<value code="1">After Was it honesty, charity, modesty</value>
+	<value code="2">Correct word/incorrect form; a quality</value>
+	<value code="3">Spontaneous recall</value>
+	<value code="9">Not attempted/disabled</value>
+</variable>
+
+<variable id="phv00079256.v1">
+	<name>TODAYMC</name>
+	<description>F39 Today&#39;s month answer code</description>
+	<type>encoded value</type>
+	<value code="0">Answer is not within one month of today&#39;s month</value>
+	<value code="1">Answer matches today&#39;s month exactly</value>
+	<value code="2">Answer is one month either side of today&#39;s month</value>
+	<value code="9">Not answered/missing</value>
+</variable>
+
+<variable id="phv00079257.v1">
+	<name>TODAYDC</name>
+	<description>F39 Today&#39;s day answer code</description>
+	<type>encoded value</type>
+	<value code="0">Answer is not within 5 days of today&#39;s day</value>
+	<value code="1">Answer matches today&#39;s day exactly</value>
+	<value code="2">Answer is 1 to 2 days either side of today&#39;s day</value>
+	<value code="3">Answer is 3 to 5 days either side of today&#39;s day</value>
+	<value code="9">Not answered/missing</value>
+</variable>
+
+<variable id="phv00079258.v1">
+	<name>TODAYYC</name>
+	<description>F39 Today&#39;s year answer code</description>
+	<type>encoded value</type>
+	<value code="0">Answer is not within 5 years of today&#39;s year</value>
+	<value code="1">Answer matches today&#39;s year exactly</value>
+	<value code="2">Answer is one year either side of today&#39;s year</value>
+	<value code="3">Answer is 2 to 5 years either side of today&#39;s year</value>
+	<value code="9">Not answered/missing</value>
+</variable>
+
+<variable id="phv00079259.v1">
+	<name>DAYWEEK</name>
+	<description>What is the day of the week</description>
+	<type>encoded value</type>
+	<value code="0">Error/refused</value>
+	<value code="1">Correct</value>
+	<value code="9">Not attempted/disabled</value>
+</variable>
+
+<variable id="phv00079260.v1">
+	<name>SEASON</name>
+	<description>What season of the year is it</description>
+	<type>encoded value</type>
+	<value code="0">Error/refused</value>
+	<value code="1">Correct</value>
+	<value code="9">Not attempted/disabled</value>
+</variable>
+
+<variable id="phv00079261.v1">
+	<name>STATE</name>
+	<description>What state are we in</description>
+	<type>encoded value</type>
+	<value code="0">Error/refused</value>
+	<value code="1">Correct</value>
+	<value code="9">Not attempted/disabled</value>
+</variable>
+
+<variable id="phv00079262.v1">
+	<name>COUNTRY</name>
+	<description>What country are we in</description>
+	<type>encoded value</type>
+	<value code="0">Error/refused</value>
+	<value code="1">Correct</value>
+	<value code="9">Not attempted/disabled</value>
+</variable>
+
+<variable id="phv00079263.v1">
+	<name>CITY</name>
+	<description>What city/town are we in</description>
+	<type>encoded value</type>
+	<value code="0">Error/refused</value>
+	<value code="1">Correct</value>
+	<value code="9">Not attempted/disabled</value>
+</variable>
+
+<variable id="phv00079264.v1">
+	<name>CLINIC</name>
+	<description>In a clinic, store, or home</description>
+	<type>encoded value</type>
+	<value code="0">Error/refused</value>
+	<value code="1">Correct</value>
+	<value code="9">Not attempted/disabled</value>
+</variable>
+
+<variable id="phv00079265.v1">
+	<name>PENCIL</name>
+	<description>Pencil: What is this</description>
+	<type>encoded value</type>
+	<value code="0">Error/refused</value>
+	<value code="1">Correct</value>
+	<value code="9">Not attempted/disabled</value>
+</variable>
+
+<variable id="phv00079266.v1">
+	<name>WATCH</name>
+	<description>Watch: What is this</description>
+	<type>encoded value</type>
+	<value code="0">Error/refused</value>
+	<value code="1">Correct</value>
+	<value code="9">Not attempted/disabled</value>
+</variable>
+
+<variable id="phv00079267.v1">
+	<name>FOREHEAD</name>
+	<description>Forehead: What part of face</description>
+	<type>encoded value</type>
+	<value code="0">Error/refused</value>
+	<value code="1">Correct</value>
+	<value code="9">Not attempted/disabled</value>
+</variable>
+
+<variable id="phv00079268.v1">
+	<name>CHIN</name>
+	<description>Chin: And this part</description>
+	<type>encoded value</type>
+	<value code="0">Error/refused</value>
+	<value code="1">Correct</value>
+	<value code="9">Not attempted/disabled</value>
+</variable>
+
+<variable id="phv00079269.v1">
+	<name>SHOULDER</name>
+	<description>Shoulder: And this body part</description>
+	<type>encoded value</type>
+	<value code="0">Error/refused</value>
+	<value code="1">Correct</value>
+	<value code="9">Not attempted/disabled</value>
+</variable>
+
+<variable id="phv00079270.v1">
+	<name>ELBOW</name>
+	<description>Elbow: And this part</description>
+	<type>encoded value</type>
+	<value code="0">Error/refused</value>
+	<value code="1">Correct</value>
+	<value code="9">Not attempted/disabled</value>
+</variable>
+
+<variable id="phv00079271.v1">
+	<name>KNUCKLE</name>
+	<description>Knuckle: And this part of hand</description>
+	<type>encoded value</type>
+	<value code="0">Error/refused</value>
+	<value code="1">Correct</value>
+	<value code="9">Not attempted/disabled</value>
+</variable>
+
+<variable id="phv00079272.v1">
+	<name>ANIMALS</name>
+	<description>What animals have four legs</description>
+	<type>integer</type>
+	<logical_min>2</logical_min>
+	<logical_max>39</logical_max>
+	<comment>What animals have four legs? Tell me as many as you can (in 30 seconds).</comment>
+</variable>
+
+<variable id="phv00079273.v1">
+	<name>ARMLEG</name>
+	<description>Arm and leg alike</description>
+	<type>encoded value</type>
+	<value code="0">Error/refused</value>
+	<value code="1">Lesser correct answer</value>
+	<value code="2">Limbs, extremities</value>
+	<value code="9">Not attempted/disabled</value>
+</variable>
+
+<variable id="phv00079274.v1">
+	<name>EMOTIONS</name>
+	<description>Laughing and crying alike</description>
+	<type>encoded value</type>
+	<value code="0">Error/refused</value>
+	<value code="1">Lesser correct answer</value>
+	<value code="2">Expressions of feelings, emotions</value>
+	<value code="9">Not attempted/disabled</value>
+</variable>
+
+<variable id="phv00079275.v1">
+	<name>EATSLEEP</name>
+	<description>Eating and sleeping alike</description>
+	<type>encoded value</type>
+	<value code="0">Error/refused</value>
+	<value code="1">Lesser correct answer</value>
+	<value code="2">Necessary bodily functions, essential for life</value>
+	<value code="9">Not attempted/disabled</value>
+</variable>
+
+<variable id="phv00079276.v1">
+	<name>SENTENCE</name>
+	<description>Repeat: I would like to go out</description>
+	<type>encoded value</type>
+	<value code="0">3 or more words missed/refused</value>
+	<value code="1">1 or 2 words missed</value>
+	<value code="2">Correct</value>
+	<value code="9">Not attempted/disabled</value>
+</variable>
+
+<variable id="phv00079277.v1">
+	<name>NOIFS</name>
+	<description>No ifs</description>
+	<type>encoded value</type>
+	<value code="0">Error/refused</value>
+	<value code="1">Correct</value>
+	<value code="9">Not attempted/disabled</value>
+</variable>
+
+<variable id="phv00079278.v1">
+	<name>ANDS</name>
+	<description>Ands</description>
+	<type>encoded value</type>
+	<value code="0">Error/refused</value>
+	<value code="1">Correct</value>
+	<value code="9">Not attempted/disabled</value>
+</variable>
+
+<variable id="phv00079279.v1">
+	<name>ORBUTS</name>
+	<description>Or buts</description>
+	<type>encoded value</type>
+	<value code="0">Error/refused</value>
+	<value code="1">Correct</value>
+	<value code="9">Not attempted/disabled</value>
+</variable>
+
+<variable id="phv00079280.v1">
+	<name>DOTHIS</name>
+	<description>Please do this</description>
+	<type>encoded value</type>
+	<value code="0">Does not read aloud or close eyes/refuse</value>
+	<value code="1">Reads aloud, but does not close eyes</value>
+	<value code="2">Closes eyes after prompting</value>
+	<value code="3">Closes eyes without prompting</value>
+	<value code="9">Not attempted/disabled</value>
+</variable>
+
+<variable id="phv00079281.v1">
+	<name>WRWOULD</name>
+	<description>Write Would</description>
+	<type>encoded value</type>
+	<value code="0">Error/refused</value>
+	<value code="1">Correct</value>
+	<value code="9">Not attempted/disabled</value>
+</variable>
+
+<variable id="phv00079282.v1">
+	<name>WRLIKE</name>
+	<description>Write Like</description>
+	<type>encoded value</type>
+	<value code="0">Error/refused</value>
+	<value code="1">Correct</value>
+	<value code="9">Not attempted/disabled</value>
+</variable>
+
+<variable id="phv00079283.v1">
+	<name>WRTO</name>
+	<description>Write To</description>
+	<type>encoded value</type>
+	<value code="0">Error/refused</value>
+	<value code="1">Correct</value>
+	<value code="9">Not attempted/disabled</value>
+</variable>
+
+<variable id="phv00079284.v1">
+	<name>WRGO</name>
+	<description>Write Go</description>
+	<type>encoded value</type>
+	<value code="0">Error/refused</value>
+	<value code="1">Correct</value>
+	<value code="9">Not attempted/disabled</value>
+</variable>
+
+<variable id="phv00079285.v1">
+	<name>WROUT</name>
+	<description>Write Out</description>
+	<type>encoded value</type>
+	<value code="0">Error/refused</value>
+	<value code="1">Correct</value>
+	<value code="9">Not attempted/disabled</value>
+</variable>
+
+<variable id="phv00079286.v1">
+	<name>WRHAND</name>
+	<description>Hand participant uses to write</description>
+	<type>encoded value</type>
+	<value code="1">Right</value>
+	<value code="2">Left</value>
+	<value code="9">Unknown</value>
+</variable>
+
+<variable id="phv00079287.v1">
+	<name>PENTAGN1</name>
+	<description>Pentagon 1</description>
+	<type>encoded value</type>
+	<value code="0">Less than 2 lines/refused</value>
+	<value code="1">2 or more lines, not an enclosure</value>
+	<value code="2">Nonpentagon enclosed figure</value>
+	<value code="3">5 sides, but longest:shortest side &gt; 2:1</value>
+	<value code="4">5 approximately equal sides</value>
+	<value code="9">Not attempted/disabled</value>
+</variable>
+
+<variable id="phv00079288.v1">
+	<name>PENTAGN2</name>
+	<description>Pentagon 2</description>
+	<type>encoded value</type>
+	<value code="0">Less than 2 lines/refused</value>
+	<value code="1">2 or more lines, not an enclosure</value>
+	<value code="2">Nonpentagon enclosed figure</value>
+	<value code="3">5 sides, but longest:shortest side &gt; 2:1</value>
+	<value code="4">5 approximately equal sides</value>
+	<value code="9">Not attempted/disabled</value>
+</variable>
+
+<variable id="phv00079289.v1">
+	<name>INTERSEC</name>
+	<description>Intersection</description>
+	<type>encoded value</type>
+	<value code="0">No enclosure/refused</value>
+	<value code="1">Other than 4-cornered enclosure</value>
+	<value code="2">4-cornered enclosure</value>
+	<value code="9">Not attempted/disabled</value>
+</variable>
+
+<variable id="phv00079290.v1">
+	<name>TAKEPAPR</name>
+	<description>Takes paper in correct hand</description>
+	<type>encoded value</type>
+	<value code="0">Error/refused</value>
+	<value code="1">Correct</value>
+	<value code="9">Not attempted/disabled</value>
+</variable>
+
+<variable id="phv00079291.v1">
+	<name>FOLDPAPR</name>
+	<description>Folds paper in half</description>
+	<type>encoded value</type>
+	<value code="0">Error/refused</value>
+	<value code="1">Correct</value>
+	<value code="9">Not attempted/disabled</value>
+</variable>
+
+<variable id="phv00079292.v1">
+	<name>HANDBACK</name>
+	<description>Hands paper back</description>
+	<type>encoded value</type>
+	<value code="0">Error/refused</value>
+	<value code="1">Correct</value>
+	<value code="9">Not attempted/disabled</value>
+</variable>
+
+<variable id="phv00079293.v1">
+	<name>SOCKS3</name>
+	<description>Socks/Shirt  - remember earlier 2</description>
+	<type>encoded value</type>
+	<value code="0">Unable to recall/refused</value>
+	<value code="1">After Was it shirt, shoes, or socks</value>
+	<value code="2">Correct word/incorrect form; to wear</value>
+	<value code="3">Spontaneous recall</value>
+	<value code="9">Not attempted/disabled</value>
+</variable>
+
+<variable id="phv00079294.v1">
+	<name>BLUE3</name>
+	<description>Blue/Brown - remember earlier 2</description>
+	<type>encoded value</type>
+	<value code="0">Unable to recall/refused</value>
+	<value code="1">After Was it blue, black, brown</value>
+	<value code="2">Correct word/incorrect form; a color</value>
+	<value code="3">Spontaneous recall</value>
+	<value code="9">Not attempted/disabled</value>
+</variable>
+
+<variable id="phv00079295.v1">
+	<name>CHARITY3</name>
+	<description>Charity/Honesty - remember earlier 2</description>
+	<type>encoded value</type>
+	<value code="0">Unable to recall/refused</value>
+	<value code="1">After Was it honesty, charity, modesty</value>
+	<value code="2">Correct word/incorrect form; a quality</value>
+	<value code="3">Spontaneous recall</value>
+	<value code="9">Not attempted/disabled</value>
+</variable>
+
+<variable id="phv00079296.v1">
+	<name>BRTHCTYR</name>
+	<description>Birth city/town - again</description>
+	<type>encoded value</type>
+	<value code="0">Does not match/refused</value>
+	<value code="1">Matches</value>
+	<value code="9">Not attempted/disabled</value>
+</variable>
+
+<variable id="phv00079297.v1">
+	<name>BRTHSTR</name>
+	<description>Birth state/country - again</description>
+	<type>encoded value</type>
+	<value code="0">Does not match/refused</value>
+	<value code="1">Matches</value>
+	<value code="9">Not attempted/disabled</value>
+</variable>
+
+<variable id="phv00079298.v1">
+	<name>SPECPROB</name>
+	<description>Special problems</description>
+	<type>encoded value</type>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00079299.v1">
+	<name>PRIMPROB</name>
+	<description>Primary problem</description>
+	<type>encoded value</type>
+	<comment>Sub-question of F39 V2 Q19 &#39;Special problems&#39;.</comment>
+	<value code="1">Vision</value>
+	<value code="2">Hearing</value>
+	<value code="3">Inability to write due to injury/illness</value>
+	<value code="4">Illiteracy/lack of education</value>
+	<value code="5">Language (difficulty speaking English)</value>
+	<value code="8">Other</value>
+</variable>
+
+<variable id="phv00079300.v1">
+	<name>HANDTHRW</name>
+	<description>Hand used to throw a ball</description>
+	<type>encoded value</type>
+	<value code="1">Always left</value>
+	<value code="2">Usually left</value>
+	<value code="3">No preference</value>
+	<value code="4">Usually right</value>
+	<value code="5">Always right</value>
+	<value code="9">Unknown</value>
+</variable>
+
+<variable id="phv00079301.v1">
+	<name>HANDHOLD</name>
+	<description>Hand used to hold a toothbrush</description>
+	<type>encoded value</type>
+	<value code="1">Always left</value>
+	<value code="2">Usually left</value>
+	<value code="3">No preference</value>
+	<value code="4">Usually right</value>
+	<value code="5">Always right</value>
+	<value code="9">Unknown</value>
+</variable>
+
+<variable id="phv00079302.v1">
+	<name>F39LANG</name>
+	<description>F39 language</description>
+	<type>encoded value</type>
+	<value code="1">English</value>
+	<value code="2">Spanish</value>
+</variable>
+
+<variable id="phv00079303.v1">
+	<name>F393MSE</name>
+	<description>F39 3MSE Score</description>
+	<type>encoded value, integer</type>
+	<logical_min>-9</logical_min>
+	<logical_max>100</logical_max>
+	<comment>If a response is &#39;unknown&#39;, &#39;not attempted/disabled&#39;, or missing (and there is a &#39;not attempted/disabled&#39; option), the algorithm adjusts the scoring of the question to prevent the participant from being penalized as if she had given an incorrect response.  The maximum points awarded for the question are subtracted from a counter set initially at 100.  Once all questions have been tallied, this counter becomes the denominator in determining the score - the percentage of correct answers versus the number of total possible points for that participant.  For example, if question 6.3 (&#39;What season of the year is it?&#39;) is &#39;not attempted/disabled&#39; or missing, 1 point is subtracted from the total possible score.  If this is the only such question on the Form 39, the score would be computed as a percentage of total points earned out of 99 possible points.  If the total points discounted as missing, &#39;unknown&#39;, or &#39;not attempted/disabled&#39; exceeds 20 (the denominator is less than 80), the test is not considered valid (indicated by a score of -9).</comment>
+	<value code="-9">Test is not valid</value>
+</variable>
+
+</data_table>

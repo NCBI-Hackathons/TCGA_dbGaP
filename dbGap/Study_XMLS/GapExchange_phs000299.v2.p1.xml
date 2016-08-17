@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GaPExchange xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="./dbGaPEx2.1.5.xsd">
+
+<MetaVariables>
+	<Submitter/>
+	<Method/>
+</MetaVariables>
+<MetaLinks/>
+
+<Projects>
+	<Project/>
+</Projects>
+
+<Studies>
+
+<Study source="dbGaP" accession="phs000299.v2.p1" parentStudy="phs000299.v2.p1" createDate="2012-10-01" modDate="2012-10-11">
+
+<Configuration>
+	<Data_Provider><![CDATA[
+		<table border="1">
+		<tr><th>Title</th><th>Name</th><th>Institute</th></tr>
+		<tr><td>Principal Investigator</td><td>Zemin Zhang, PhD</td><td>Genentech Inc., South San Francisco, CA, USA</td></tr>
+		<tr><td>Funding Source</td><td>Genentech Cancer Genome Program</td><td>Genentech Inc., South San Francisco, CA, USA</td></tr>
+		</table>
+	]]></Data_Provider>
+	<StudyNameEntrez>Genentech Lung Cancer Sequencing</StudyNameEntrez>
+	<StudyNameReportPage>Whole genome and transcriptome sequencing of lung cancer patients and cell lines at Genentech</StudyNameReportPage>
+	<StudyTypes>
+		<StudyType>Case Set</StudyType>
+	</StudyTypes>
+	<Description><![CDATA[
+<p>Version 1</p> <p>Whole genome sequencing was applied to tumor and adjacent normal lung tissue in an individual non-small-cell lung cancer patient. We present an analysis of somatic changes identified throughout the tumor genome, including single-nucleotide variants, copy number variants, and large-scale chromosomal rearrangements. Over 50,000 high-confidence single-nucleotide variants were identified, revealing evidence of substantial smoking-related DNA damage as well as distinct mutational pressures within the tumor resulting in uneven distribution of somatic mutations across the genome.</p> <p>Version 2</p> <p>Lung cancer is a highly heterogeneous disease in terms of both underlying genetic lesions and response to therapeutic treatments. We performed deep whole genome sequencing and transcriptome sequencing on 19 lung cancer cell lines and 3 lung tumor/normal pairs. Overall, our data show that cell line models exhibit similar mutation spectra to human tumor samples. Smoker and never-smoker cancer samples exhibit distinguishable patterns of mutations. A number of epigenetic regulators are frequently altered by mutations or copy number changes. A systematic survey of splice-site mutations identified over 100 splice site mutations associated with cancer specific aberrant splicing, including mutations in several known cancer-related genes. Differential usages of splice isoforms were also studied. Taken together, these data present a comprehensive genomic landscape of a large number of lung cancer samples and further demonstrate that cancer specific alternative splicing is a widespread phenomenon that has potential utility as therapeutic biomarkers.</p>]]>
+	</Description>
+	<StudyInEx><![CDATA[
+<p>Version 1</p> <p>A single patient sample was selected based primarily on tumor content (95%) and available tissue. Pathology examination determined a diagnosis of stage T2N1M0 disease with positive TTF1 and negative CK5 by immunohistochemistry to confirm a diagnosis of poorly differentiated adenocarcinoma. A portion of lung tissue with no apparent tumor infiltration was used as the matched normal control.</p> <p>Version 2</p> <p>Patients that were diagnosed with lung cancer were included in the study. Also included in the study are lung cancer cell lines obtained from ATCC.</p>]]>
+	</StudyInEx>
+	<StudyProjects>
+		<Project/>
+	</StudyProjects>
+	<Publications>
+		<Publication>
+			<Pubmed pmid="23033341"/>
+		</Publication>
+		<Publication>
+			<Pubmed pmid="20505728"/>
+		</Publication>
+	</Publications>
+	<Diseases>
+		<Disease vocab_source="MESH" vocab_term="Lung Neoplasms"/>
+		<Disease vocab_source="MESH" vocab_term="Carcinoma, Non-Small-Cell Lung"/>
+	</Diseases>
+	<Attributions>
+		<Header title="Principal Investigator">
+			<AttName>Zemin Zhang, PhD</AttName>
+			<Institution>Genentech Inc., South San Francisco, CA, USA</Institution>
+		</Header>
+		<Header title="Funding Source">
+			<AttName>Genentech Cancer Genome Program</AttName>
+			<Institution>Genentech Inc., South San Francisco, CA, USA</Institution>
+		</Header>
+	</Attributions>
+	<DisplayPublicSummary>yes</DisplayPublicSummary>
+	<StudyHistory><![CDATA[
+<p>Version 1</p> <p>A 51-year-old Caucasian male with poorly differentiated non-small-cell lung adenocarcinoma was selected for this study. The patient reported smoking an average of 25 cigarettes a day for 15 years prior to tumor excision.</p>]]>
+	</StudyHistory>
+	<ConsentGroups>
+		<ConsentGroup groupNum="1" shortName="HMB-MDS" longName="Health/Medical/Biomedical (MDS)"/>
+	</ConsentGroups>
+</Configuration>
+
+  <AuthorizedAccess>
+    <DacInfo ssDacId="0">
+      <DacName>NCI</DacName>
+      <DacFullName>NCI</DacFullName>
+      <DacEmail>0</DacEmail>
+      <DacPhone></DacPhone>
+      <DacUrl></DacUrl>
+    </DacInfo>
+    <Policy Policy_ID="phs000299.v2.p1_policy" ref_ssDacId="0">
+      <DisplayResearchStatement>yes</DisplayResearchStatement>
+      <DisplayPublicSummary>yes</DisplayPublicSummary>
+      <EmbargoLength>0</EmbargoLength>
+      <YearsUntilRenewal>1</YearsUntilRenewal>
+      <WeeksCancelRequest>8</WeeksCancelRequest>
+      <PdfSupplementReqired>no</PdfSupplementReqired>
+      <AcknowledgementText>
+        <para>
+          http://dbgap.ncbi.nlm.nih.gov/aa/wga.cgi?page=DUC&amp;view_pdf&amp;stacc=phs000299.v2.p1
+        </para>
+      </AcknowledgementText>
+      <DocumentSet>
+        <DataUseCertificate Label="Data Use Certificate" FilePath="https://dbgap.ncbi.nlm.nih.gov/aa/wga.cgi?page=DUC&amp;view_pdf&amp;stacc=phs000299.v2.p1" FileName="Genentech_DUC.pdf"/>
+      </DocumentSet>
+    </Policy>
+    <ConsentGroups>
+      <ParticipantSet groupNum-REF="1">
+        <ConsentName>Health/Medical/Biomedical (MDS)</ConsentName>
+        <ConsentAbbrev>HMB-MDS</ConsentAbbrev>
+        <UseLimitation>Use of this data is limited to health/medical/biomedical purposes, does not include the study of population origins or ancestry.
+Use of the data includes methods development research (e.g., development of software or algorithms).</UseLimitation>
+        <IrbRequired>No</IrbRequired>
+      </ParticipantSet>
+    </ConsentGroups>
+  </AuthorizedAccess>
+
+
+</Study>
+
+</Studies>
+
+</GaPExchange>

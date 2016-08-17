@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./datadict_v2.xsl"?>
+<data_table id="pht001050.v1" study_id="phs000219.v1" participant_set="1" date_created="Tue Jan 19 13:07:29 2010">
+
+<variable id="phv00081075.v1">
+	<name>SUBJID</name>
+	<description>Subject&#39;s ID</description>
+	<type>String</type>
+</variable>
+
+<variable id="phv00081076.v1">
+	<name>CASE_CONTROL</name>
+	<description>Subject type</description>
+	<type>Encoded value</type>
+	<value code="ADP">AD Participant</value>
+	<value code="CASE">Case</value>
+	<value code="CCCS">Control with Change in Cognitive Status</value>
+	<value code="CNTL">Control</value>
+	<value code="FAM">Family member</value>
+	<value code="UASB">Unaffected Sibling</value>
+</variable>
+
+<variable id="phv00081077.v1">
+	<name>INV</name>
+	<description>Investigator&#39;s ID</description>
+	<type>String</type>
+</variable>
+
+<variable id="phv00081078.v1">
+	<name>INVSITE</name>
+	<description>Investigator site ID</description>
+	<type>String</type>
+</variable>
+
+<variable id="phv00081079.v1">
+	<name>VISIT</name>
+	<description>Visit name</description>
+	<type>String</type>
+</variable>
+
+<variable id="phv00081080.v1">
+	<name>VISIT_DATE</name>
+	<description>Visit date</description>
+	<type>Date</type>
+	<comment>Truncated to YYYY</comment>
+</variable>
+
+<variable id="phv00081081.v1">
+	<name>ADDUR</name>
+	<description>Duration of known symptoms of AD?</description>
+	<type>Integer</type>
+</variable>
+
+<variable id="phv00081082.v1">
+	<name>AGEDIAG</name>
+	<description>Age at Physician&#39;s Diagnosis of AD?</description>
+	<type>Integer</type>
+</variable>
+
+<variable id="phv00081083.v1">
+	<name>AGEON</name>
+	<description>Age at onset of first symptoms noted by family?</description>
+	<type>Integer</type>
+</variable>
+
+<variable id="phv00081084.v1">
+	<name>ATRFCL</name>
+	<description>Does the participant have Focal Atrophy?</description>
+	<type>Encoded Value</type>
+	<value code="K">Don&#39;t Know</value>
+	<value code="N">No</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00081085.v1">
+	<name>ATRYN</name>
+	<description>Does the participant have Global Atrophy?</description>
+	<type>Encoded Value</type>
+	<value code="N">No</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00081086.v1">
+	<name>CMTX1</name>
+	<description>Other scan abnormalities - specify (1)</description>
+	<type>String</type>
+</variable>
+
+<variable id="phv00081087.v1">
+	<name>CMTX2</name>
+	<description>Other scan abnormalities - specify (2)</description>
+	<type>String</type>
+</variable>
+
+<variable id="phv00081088.v1">
+	<name>DIAGDT</name>
+	<description>Date of (any) Physician&#39;s Diagnosis of AD?</description>
+	<type>Date</type>
+	<comment>Truncated to YYYY</comment>
+</variable>
+
+<variable id="phv00081089.v1">
+	<name>FCLBF</name>
+	<description>Focal Atrophy: Bifrontal</description>
+	<type>Encoded Value</type>
+	<value code="N">No</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00081090.v1">
+	<name>FCLMT</name>
+	<description>Focal Atrophy: Medial Temporal</description>
+	<type>Encoded Value</type>
+	<value code="N">No</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00081091.v1">
+	<name>FCLOT</name>
+	<description>Focal Atrophy: Other</description>
+	<type>Encoded Value</type>
+	<value code="N">No</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00081092.v1">
+	<name>FCLPO</name>
+	<description>Focal Atrophy: Parieto / Occipital</description>
+	<type>Encoded Value</type>
+	<value code="N">No</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00081093.v1">
+	<name>IFCCRT</name>
+	<description>Infarcts: Cortical</description>
+	<type>Encoded Value</type>
+	<value code="ML">Multiple</value>
+	<value code="NONE">NONE</value>
+	<value code="SG">Single</value>
+</variable>
+
+<variable id="phv00081094.v1">
+	<name>IFCLCN</name>
+	<description>Infarcts: Lacunar/deep</description>
+	<type>Encoded Value</type>
+	<value code="ML">Multiple</value>
+	<value code="NONE">NONE</value>
+	<value code="SG">Single</value>
+</variable>
+
+<variable id="phv00081095.v1">
+	<name>IFCYN</name>
+	<description>Does the participant have Infarcts?</description>
+	<type>Encoded Value</type>
+	<value code="K">Don&#39;t Know</value>
+	<value code="N">No</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00081096.v1">
+	<name>OTHTX</name>
+	<description>Focal Atrophy  - other location: specify</description>
+	<type>String</type>
+</variable>
+
+<variable id="phv00081097.v1">
+	<name>PRVRE</name>
+	<description>Previous brain imaging results available?</description>
+	<type>Encoded Value</type>
+	<value code="N">No</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00081098.v1">
+	<name>SCNTYP</name>
+	<description>Imaging type</description>
+	<type>Encoded Value</type>
+	<value code="CT">Computed Tomography scan</value>
+	<value code="MRI">Magnetic Resonance Imaging</value>
+</variable>
+
+<variable id="phv00081099.v1">
+	<name>WMCH</name>
+	<description>White Matter Changes: If YES, please complete below</description>
+	<type>Encoded Value</type>
+	<value code="CNF">Confluent</value>
+	<value code="DSC">Subcortical confluent</value>
+	<value code="PNC">Punctate</value>
+	<value code="PVT">Periventricular: Caps/rims</value>
+</variable>
+
+<variable id="phv00081100.v1">
+	<name>WMCYN</name>
+	<description>Does the participant have White Matter Change?</description>
+	<type>Encoded Value</type>
+	<value code="K">Don&#39;t Know</value>
+	<value code="N">No</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00081101.v1">
+	<name>XRDT</name>
+	<description>Date of SCAN</description>
+	<type>Date</type>
+	<comment>Truncated to YYYY</comment>
+</variable>
+
+</data_table>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GaPExchange xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="./dbGaPEx2.1.5.xsd">
+
+<MetaVariables>
+	<Submitter/>
+	<Method/>
+</MetaVariables>
+<MetaLinks/>
+
+<Projects>
+	<Project/>
+</Projects>
+
+<Studies>
+
+<Study source="dbGaP" accession="phs000474.v3.p2" parentStudy="phs000474.v3.p2" createDate="2015-10-22" modDate="2016-04-21">
+
+<Configuration>
+	<Data_Provider><![CDATA[
+		<table border="1">
+		<tr><th>Title</th><th>Name</th><th>Institute</th></tr>
+		<tr><td>Principal Investigator</td><td>Hanna Gazda</td><td>Children&#39;s Hospital Boston, Boston, MA, USA</td></tr>
+		<tr><td>Funding Source</td><td>U54 HG003067</td><td>National Human Genome Research Institute, National Institues of Health, Bethesda, MD, USA</td></tr>
+		</table>
+	]]></Data_Provider>
+	<StudyNameEntrez>Biology and Molecular Analysis of Human Hematopoiesis Genetics</StudyNameEntrez>
+	<StudyNameReportPage>Biology and Molecular Analysis of Human Hematopoiesis Genetics</StudyNameReportPage>
+	<StudyTypes>
+		<StudyType>Probands</StudyType>
+		<StudyType>Mendelian</StudyType>
+		<StudyType>Family</StudyType>
+	</StudyTypes>
+	<Description><![CDATA[
+<p>In this study we have performed exome sequencing using the hybrid capture method that has previously been described (Gnirke et al., Nature Biotechnology, 2009) on genomic DNA samples from patients with the congenital bone marrow failure syndrome that affects the erythroid lineage, specifically, Diamond-Blackfan anemia. This disease is characterized by a hypoplastic anemia and approximately 50&#37; of cases are attributable to mutations in ribosomal protein gene subunits. The other 50&#37; of cases do not have a known genetic etiology and the purpose of this study is to attempt to delineate such causes.</p>]]>
+	</Description>
+	<StudyInEx><![CDATA[
+<p>We have selected probands with Diamond-Blackfan anemia diagnosed based upon clinical and laboratory criteria and have excluded patients with known genetic mutations. Details of this cohort that was used in this study have been described in prior publications (<a href="http://www.ncbi.nlm.nih.gov/pubmed?term=PMC2668101">Gazda</a> et al., Am J Hum Genet, 2008). The third version of the study includes data for 217 additional subjects that have been used as a replication study.</p>]]>
+	</StudyInEx>
+	<StudyProjects>
+		<Project/>
+	</StudyProjects>
+	<Diseases>
+		<Disease vocab_source="MESH" vocab_term="Anemia, Dyserythropoietic, Congenital"/>
+		<Disease vocab_source="MESH" vocab_term="Anemia, Diamond-Blackfan"/>
+	</Diseases>
+	<Attributions>
+		<Header title="Principal Investigator">
+			<AttName>Hanna Gazda</AttName>
+			<Institution>Children&#39;s Hospital Boston, Boston, MA, USA</Institution>
+		</Header>
+		<Header title="Funding Source">
+			<AttName>U54 HG003067</AttName>
+			<Institution>National Human Genome Research Institute, National Institues of Health, Bethesda, MD, USA</Institution>
+		</Header>
+	</Attributions>
+	<DisplayPublicSummary>yes</DisplayPublicSummary>
+	<StudyHistory><![CDATA[
+<ul><li>Study version 1 included data of n=144 subjects.</li></ul> <ul><li>Study version 2 included data of additional n=197 subjects.</li></ul> <ul><li>Study version 3 includes data of additional n=215 subjects.</li></ul>]]>
+	</StudyHistory>
+	<ConsentGroups>
+		<ConsentGroup groupNum="1" shortName="DS-BMF" longName="Disease-Specific (Bone Marrow Failure Conditions)"/>
+	</ConsentGroups>
+</Configuration>
+
+  <AuthorizedAccess>
+    <DacInfo ssDacId="0">
+      <DacName>NHGRI</DacName>
+      <DacFullName>National Human Genome Research Institute</DacFullName>
+      <DacEmail>0</DacEmail>
+      <DacPhone></DacPhone>
+      <DacUrl></DacUrl>
+    </DacInfo>
+    <Policy Policy_ID="phs000474.v3.p2_policy" ref_ssDacId="0">
+      <DisplayResearchStatement>yes</DisplayResearchStatement>
+      <DisplayPublicSummary>yes</DisplayPublicSummary>
+      <EmbargoLength>0</EmbargoLength>
+      <YearsUntilRenewal>1</YearsUntilRenewal>
+      <WeeksCancelRequest>8</WeeksCancelRequest>
+      <PdfSupplementReqired>no</PdfSupplementReqired>
+      <AcknowledgementText>
+        <para>
+          http://dbgap.ncbi.nlm.nih.gov/aa/wga.cgi?page=DUC&amp;view_pdf&amp;stacc=phs000474.v3.p2
+        </para>
+      </AcknowledgementText>
+      <DocumentSet>
+        <DataUseCertificate Label="Data Use Certificate" FilePath="https://dbgap.ncbi.nlm.nih.gov/aa/wga.cgi?page=DUC&amp;view_pdf&amp;stacc=phs000474.v3.p2" FileName=""/>
+      </DocumentSet>
+    </Policy>
+    <ConsentGroups>
+      <ParticipantSet groupNum-REF="1">
+        <ConsentName>Disease-Specific (Bone Marrow Failure Conditions)</ConsentName>
+        <ConsentAbbrev>DS-BMF</ConsentAbbrev>
+        <UseLimitation>Use of the data must be related to Bone Marrow Failure Conditions.</UseLimitation>
+        <IrbRequired>No</IrbRequired>
+      </ParticipantSet>
+    </ConsentGroups>
+  </AuthorizedAccess>
+
+
+</Study>
+
+</Studies>
+
+</GaPExchange>

@@ -1,0 +1,491 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./datadict_v2.xsl"?>
+<data_table id="pht001191.v2" study_id="phs000228.v2" participant_set="1" date_created="Tue Aug  3 17:16:45 2010">
+
+<unique_key phv="00089553" version="2">PROT</unique_key>
+<unique_key phv="00089554" version="2">RANDSID</unique_key>
+<unique_key phv="00089555" version="2">PROTSEG</unique_key>
+<unique_key phv="00089556" version="2">VISNO</unique_key>
+<unique_key phv="00089587" version="2">SITE</unique_key>
+
+<variable id="phv00089553.v2">
+	<name>PROT</name>
+	<description>Protocol</description>
+	<type>Encoded</type>
+	<value code="7001">7001</value>
+</variable>
+
+<variable id="phv00089554.v2">
+	<name>RANDSID</name>
+	<description>Random ID for Patid</description>
+	<type>Integer</type>
+</variable>
+
+<variable id="phv00089555.v2">
+	<name>PROTSEG</name>
+	<description>Protocol Segment</description>
+	<type>Encoded</type>
+	<value code="A">A</value>
+</variable>
+
+<variable id="phv00089556.v2">
+	<name>VISNO</name>
+	<description>Visit Number</description>
+	<type>Encoded</type>
+	<value code="00">00</value>
+	<value code="01">01</value>
+	<value code="01S">01S</value>
+	<value code="01T">01T</value>
+	<value code="02">02</value>
+	<value code="02S">02S</value>
+	<value code="02T">02T</value>
+	<value code="03">03</value>
+	<value code="03S">03S</value>
+	<value code="03T">03T</value>
+</variable>
+
+<variable id="phv00089557.v2">
+	<name>STUDY_DAY</name>
+	<description>Calculated field based on number of days pre or post subject&#39;s day of enrollment/first sampling</description>
+	<type>Integer</type>
+	<unit>days</unit>
+	<logical_min>-9999999999</logical_min>
+	<logical_max>9999999999</logical_max>
+</variable>
+
+<variable id="phv00089558.v2">
+	<name>DVDTOBC</name>
+	<description>Tobacco product use</description>
+	<type>Integer, encoded value</type>
+	<logical_min>0</logical_min>
+	<logical_max>1</logical_max>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00089559.v2">
+	<name>DVDTOBSP</name>
+	<description>Specify tobacco use</description>
+	<type>Integer, encoded value</type>
+	<logical_min>1</logical_min>
+	<logical_max>3</logical_max>
+	<value code="1">Cigarettes</value>
+	<value code="2">Chew</value>
+	<value code="3">Both</value>
+</variable>
+
+<variable id="phv00089560.v2">
+	<name>DVDCGFRQ</name>
+	<description>Frequency of cigarette</description>
+	<type>Integer, encoded value</type>
+	<logical_min>0</logical_min>
+	<logical_max>1</logical_max>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00089561.v2">
+	<name>DVDCHFRQ</name>
+	<description>Frequency of chew use</description>
+	<type>Integer, encoded value</type>
+	<logical_min>1</logical_min>
+	<logical_max>3</logical_max>
+	<value code="1">Mild (less than 3 times a day)</value>
+	<value code="2">Moderate (3 - 6 times a day)</value>
+	<value code="3">Severe (greater than 6 times a day)</value>
+</variable>
+
+<variable id="phv00089562.v2">
+	<name>DVDTMPF</name>
+	<description>Temperature fahrenheit</description>
+	<type>Integer</type>
+	<unit>degrees F</unit>
+	<logical_min>91.9</logical_min>
+	<logical_max>105.1</logical_max>
+</variable>
+
+<variable id="phv00089563.v2">
+	<name>DVDTMPC</name>
+	<description>Temperature celsius</description>
+	<type>Integer</type>
+	<unit>degrees C</unit>
+	<logical_min>33.3</logical_min>
+	<logical_max>40.6</logical_max>
+</variable>
+
+<variable id="phv00089564.v2">
+	<name>DVDBLOOD</name>
+	<description>Coriell blood collected</description>
+	<type>Integer, encoded value</type>
+	<logical_min>0</logical_min>
+	<logical_max>9</logical_max>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+	<value code="9">NA</value>
+</variable>
+
+<variable id="phv00089565.v2">
+	<name>DVDSERUM</name>
+	<description>Blood for serum collected</description>
+	<type>Integer, encoded value</type>
+	<logical_min>0</logical_min>
+	<logical_max>9</logical_max>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+	<value code="9">NA</value>
+</variable>
+
+<variable id="phv00089566.v2">
+	<name>DVDSTOOL</name>
+	<description>Stool collected</description>
+	<type>Integer, encoded value</type>
+	<logical_min>0</logical_min>
+	<logical_max>9</logical_max>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+	<value code="9">NA</value>
+</variable>
+
+<variable id="phv00089567.v2">
+	<name>DVDSAL</name>
+	<description>Saliva specimen collected</description>
+	<type>Integer, encoded value</type>
+	<logical_min>0</logical_min>
+	<logical_max>9</logical_max>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+	<value code="9">NA</value>
+</variable>
+
+<variable id="phv00089568.v2">
+	<name>DVDGING</name>
+	<description>Attchd gingivae spec coll</description>
+	<type>Integer, encoded value</type>
+	<logical_min>0</logical_min>
+	<logical_max>9</logical_max>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+	<value code="9">NA</value>
+</variable>
+
+<variable id="phv00089569.v2">
+	<name>DVDTONG</name>
+	<description>Tongue dorsum spec coll</description>
+	<type>Integer, encoded value</type>
+	<logical_min>0</logical_min>
+	<logical_max>9</logical_max>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+	<value code="9">NA</value>
+</variable>
+
+<variable id="phv00089570.v2">
+	<name>DVDPTON</name>
+	<description>Palatine tonsil spec coll</description>
+	<type>Integer, encoded value</type>
+	<logical_min>0</logical_min>
+	<logical_max>9</logical_max>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+	<value code="9">NA</value>
+</variable>
+
+<variable id="phv00089571.v2">
+	<name>DVDHPAL</name>
+	<description>Hard palate spec coll</description>
+	<type>Integer, encoded value</type>
+	<logical_min>0</logical_min>
+	<logical_max>9</logical_max>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+	<value code="9">NA</value>
+</variable>
+
+<variable id="phv00089572.v2">
+	<name>DVDTHRO</name>
+	<description>Throat specimen collected</description>
+	<type>Integer, encoded value</type>
+	<logical_min>0</logical_min>
+	<logical_max>9</logical_max>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+	<value code="9">NA</value>
+</variable>
+
+<variable id="phv00089573.v2">
+	<name>DVDBUCC</name>
+	<description>Buccal mucosa spec coll</description>
+	<type>Integer, encoded value</type>
+	<logical_min>0</logical_min>
+	<logical_max>9</logical_max>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+	<value code="9">NA</value>
+</variable>
+
+<variable id="phv00089574.v2">
+	<name>DVDSUPRA</name>
+	<description>Supra plaq spec collected</description>
+	<type>Integer, encoded value</type>
+	<logical_min>0</logical_min>
+	<logical_max>9</logical_max>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+	<value code="9">NA</value>
+</variable>
+
+<variable id="phv00089575.v2">
+	<name>DVDSUB</name>
+	<description>Sub plaq spec collected</description>
+	<type>Integer, encoded value</type>
+	<logical_min>0</logical_min>
+	<logical_max>9</logical_max>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+	<value code="9">NA</value>
+</variable>
+
+<variable id="phv00089576.v2">
+	<name>DVDRACR</name>
+	<description>Retroaur right spec coll</description>
+	<type>Integer, encoded value</type>
+	<logical_min>0</logical_min>
+	<logical_max>9</logical_max>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+	<value code="9">NA</value>
+</variable>
+
+<variable id="phv00089577.v2">
+	<name>DVDRACL</name>
+	<description>Retroaur left spec coll</description>
+	<type>Integer, encoded value</type>
+	<logical_min>0</logical_min>
+	<logical_max>9</logical_max>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+	<value code="9">NA</value>
+</variable>
+
+<variable id="phv00089578.v2">
+	<name>DVDACRR</name>
+	<description>Antecub fos rt spec coll</description>
+	<type>Integer, encoded value</type>
+	<logical_min>0</logical_min>
+	<logical_max>9</logical_max>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+	<value code="9">NA</value>
+</variable>
+
+<variable id="phv00089579.v2">
+	<name>DVDACRL</name>
+	<description>Antecub fos lft spec coll</description>
+	<type>Integer, encoded value</type>
+	<logical_min>0</logical_min>
+	<logical_max>9</logical_max>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+	<value code="9">NA</value>
+</variable>
+
+<variable id="phv00089580.v2">
+	<name>DVDNASAL</name>
+	<description>Anterior nares spec coll</description>
+	<type>Integer, encoded value</type>
+	<logical_min>0</logical_min>
+	<logical_max>9</logical_max>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+	<value code="9">NA</value>
+</variable>
+
+<variable id="phv00089581.v2">
+	<name>DVDINTPH</name>
+	<description>Introitus mean pH</description>
+	<type>Integer</type>
+	<unit>pH units</unit>
+	<logical_min>1</logical_min>
+	<logical_max>14</logical_max>
+</variable>
+
+<variable id="phv00089582.v2">
+	<name>DVDPFPH</name>
+	<description>PFornix mean pH</description>
+	<type>Integer</type>
+	<unit>pH units</unit>
+	<logical_min>1</logical_min>
+	<logical_max>14</logical_max>
+</variable>
+
+<variable id="phv00089583.v2">
+	<name>DVDVIRRT</name>
+	<description>Vag or vulv irritation</description>
+	<type>Integer, encoded value</type>
+	<logical_min>0</logical_min>
+	<logical_max>1</logical_max>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00089584.v2">
+	<name>DVDINTRO</name>
+	<description>Introitus spec collected</description>
+	<type>Integer, encoded value</type>
+	<logical_min>0</logical_min>
+	<logical_max>9</logical_max>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+	<value code="9">NA</value>
+</variable>
+
+<variable id="phv00089585.v2">
+	<name>DVDPFORN</name>
+	<description>Postr fornix spec coll</description>
+	<type>Integer, encoded value</type>
+	<logical_min>0</logical_min>
+	<logical_max>9</logical_max>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+	<value code="9">NA</value>
+</variable>
+
+<variable id="phv00089586.v2">
+	<name>DVDMIDVG</name>
+	<description>Midpoint spec collected</description>
+	<type>Integer, encoded value</type>
+	<logical_min>0</logical_min>
+	<logical_max>9</logical_max>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+	<value code="9">NA</value>
+</variable>
+
+<variable id="phv00089587.v2">
+	<name>SITE</name>
+	<description>Site</description>
+	<type>String</type>
+	<value code="Houston">Houston</value>
+	<value code="St. Louis">St. Louis</value>
+</variable>
+
+<variable id="phv00089588.v2">
+	<name>DVDEDLV</name>
+	<description>Highest grade of schooling finished</description>
+	<type>Integer, encoded value</type>
+	<logical_min>1</logical_min>
+	<logical_max>11</logical_max>
+	<comment>&#39;Gated field&#39;, defined as a data that will not be released to dbGaP until all subjects have been enrolled, and data is reviewed to confirm that there is no possibility of subject identification.</comment>
+	<value code="01">Didn&#39;t go to school</value>
+	<value code="02">Grade School (1-4 years)</value>
+	<value code="03">Grade School (5-8 years)</value>
+	<value code="04">Some high school (9-11 years)</value>
+	<value code="05">High school diploma or G.E.D.</value>
+	<value code="06">Vocational or training school</value>
+	<value code="07">Some college or Associate Degree</value>
+	<value code="08">College graduate or Baccalaureate Degree</value>
+	<value code="09">some college or professional school</value>
+	<value code="10">Master&#39;s Degree</value>
+	<value code="11">Doctoral Degree (Ph.D., M.D., J.D.)</value>
+</variable>
+
+<variable id="phv00089589.v2">
+	<name>DVDINSRH</name>
+	<description>Health insurance status</description>
+	<type>Integer, encoded value</type>
+	<logical_min>0</logical_min>
+	<logical_max>2</logical_max>
+	<comment>&#39;Gated field&#39;, defined as a data that will not be released to dbGaP until all subjects have been enrolled, and data is reviewed to confirm that there is no possibility of subject identification.</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+	<value code="2">Don&#39;t know/remember</value>
+</variable>
+
+<variable id="phv00089590.v2">
+	<name>DVDINSRD</name>
+	<description>Dental insurance status</description>
+	<type>Integer, encoded value</type>
+	<logical_min>0</logical_min>
+	<logical_max>2</logical_max>
+	<comment>&#39;Gated field&#39;, defined as a data that will not be released to dbGaP until all subjects have been enrolled, and data is reviewed to confirm that there is no possibility of subject identification.</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+	<value code="2">Don&#39;t know/remember</value>
+</variable>
+
+<variable id="phv00089591.v2">
+	<name>DVDOCPTN</name>
+	<description>Subject occupation</description>
+	<type>Integer, encoded value</type>
+	<logical_min>1</logical_min>
+	<logical_max>99</logical_max>
+	<comment>&#39;Gated field&#39;, defined as a data that will not be released to dbGaP until all subjects have been enrolled, and data is reviewed to confirm that there is no possibility of subject identification.</comment>
+	<value code="01">Accounting/Finance</value>
+	<value code="02">Advertising/Public Relations</value>
+	<value code="03">Arts/Entertainment/Publishing</value>
+	<value code="04">Automotive</value>
+	<value code="05">Banking/Mortgage</value>
+	<value code="06">Biotech</value>
+	<value code="07">Broadcast/Journalism</value>
+	<value code="08">Business Development</value>
+	<value code="09">Clerical/Administrative</value>
+	<value code="10">Construction/Trades</value>
+	<value code="11">Consultant</value>
+	<value code="12">Customer Services</value>
+	<value code="13">Design</value>
+	<value code="14">Education</value>
+	<value code="15">Engineering</value>
+	<value code="16">Entry Level</value>
+	<value code="17">Executive</value>
+	<value code="18">Food Service</value>
+	<value code="19">Government</value>
+	<value code="20">Grocery</value>
+	<value code="21">Healthcare</value>
+	<value code="22">Hospitality</value>
+	<value code="23">Human Resources</value>
+	<value code="24">Information Technology</value>
+	<value code="25">Insurance</value>
+	<value code="26">Law/Legal</value>
+	<value code="27">Management</value>
+	<value code="28">Manufacturing</value>
+	<value code="29">Marketing</value>
+	<value code="30">Pharmaceutical</value>
+	<value code="31">Professional Services</value>
+	<value code="32">Purchasing</value>
+	<value code="33">Quality Assurance (QA)</value>
+	<value code="34">Research</value>
+	<value code="35">Restaurant</value>
+	<value code="36">Retail</value>
+	<value code="37">Sales</value>
+	<value code="38">Science</value>
+	<value code="39">Security/Law Enforcement</value>
+	<value code="40">Shipping/Distribution</value>
+	<value code="41">Strategy</value>
+	<value code="42">Student</value>
+	<value code="43">Telecommunications</value>
+	<value code="44">Training</value>
+	<value code="45">Transportation</value>
+	<value code="46">Warehouse</value>
+	<value code="47">Other</value>
+	<value code="99">Unknown/Refused</value>
+</variable>
+
+<variable id="phv00089592.v2">
+	<name>DVDOCTSP</name>
+	<description>Other occupation, specify</description>
+	<type>String</type>
+	<comment>&#39;Gated field&#39;, defined as a data that will not be released to dbGaP until all subjects have been enrolled, and data is reviewed to confirm that there is no possibility of subject identification.</comment>
+</variable>
+
+<variable id="phv00089593.v2">
+	<name>DVDPGRES</name>
+	<description>Pregnancy results</description>
+	<type>Integer, encoded value</type>
+	<logical_min>0</logical_min>
+	<logical_max>1</logical_max>
+	<comment>&#39;Gated field&#39;, defined as a data that will not be released to dbGaP until all subjects have been enrolled, and data is reviewed to confirm that there is no possibility of subject identification.</comment>
+	<value code="0">Negative</value>
+	<value code="1">Positive</value>
+</variable>
+
+</data_table>

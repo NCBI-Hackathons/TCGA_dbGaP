@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GaPExchange xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="./dbGaPEx2.1.5.xsd">
+
+<MetaVariables>
+	<Submitter/>
+	<Method/>
+</MetaVariables>
+<MetaLinks/>
+
+<Projects>
+	<Project/>
+</Projects>
+
+<Studies>
+
+<Study source="dbGaP" accession="phs000932.v1.p1" parentStudy="phs000932.v1.p1" createDate="2015-06-15" modDate="2016-06-14">
+
+<Configuration>
+	<Data_Provider><![CDATA[
+		<table border="1">
+		<tr><th>Title</th><th>Name</th><th>Institute</th></tr>
+		<tr><td>Principal Investigator</td><td>David Craig, PhD</td><td>Translational Genomics Research Institute, Phoenix, AZ, USA</td></tr>
+		<tr><td>Co- Investigator</td><td>Winnie Liang, PhD</td><td>Translational Genomics Research Institute, Phoenix, AZ, USA</td></tr>
+		<tr><td>Funding Source</td><td>Melanoma Research Alliance Melanoma Dream Team Translational Cancer Research Grant (#SU2C-AACR-DT0612)</td><td>Stand Up To Cancer (SU2C), Los Angeles, CA, USA</td></tr>
+		</table>
+	]]></Data_Provider>
+	<StudyNameEntrez>Somatic Reference Standard for Cancer Sequencing</StudyNameEntrez>
+	<StudyNameReportPage>A Somatic Reference Standard for Cancer Genome Sequencing</StudyNameReportPage>
+	<StudyTypes>
+		<StudyType>Tumor vs. Matched-Normal</StudyType>
+	</StudyTypes>
+	<Description><![CDATA[
+<p>In this study, we separately performed PCR-free whole genome sequencing on the paired tumor/normal melanoma COLO-829 and lymphoblastoid COLO-829BL cell lines across three separate institutions (TGen, Illumina, Genome Sciences Centre at the British Columbia Cancer Agency). We performed a meta-analysis of all data, in combination with the originally reported analysis of these cell lines by <a href="http://www.ncbi.nlm.nih.gov/pubmed/20016485" target="_blank">Pleasance et al.</a>, and report a somatic reference standard based on consensus events. This standard can be used as a reference for tumor/normal whole genome analyses.</p>]]>
+	</Description>
+	<StudyProjects>
+		<Project/>
+	</StudyProjects>
+	<Publications>
+		<Publication>
+			<Pubmed pmid="20016485"/>
+		</Publication>
+		<Publication>
+			<Pubmed pmid="27094764"/>
+		</Publication>
+	</Publications>
+	<Diseases>
+		<Disease vocab_source="MESH" vocab_term="Melanoma"/>
+	</Diseases>
+	<Attributions>
+		<Header title="Principal Investigator">
+			<AttName>David Craig, PhD</AttName>
+			<Institution>Translational Genomics Research Institute, Phoenix, AZ, USA</Institution>
+		</Header>
+		<Header title="Co- Investigator">
+			<AttName>Winnie Liang, PhD</AttName>
+			<Institution>Translational Genomics Research Institute, Phoenix, AZ, USA</Institution>
+		</Header>
+		<Header title="Funding Source">
+			<AttName>Melanoma Research Alliance Melanoma Dream Team Translational Cancer Research Grant (#SU2C-AACR-DT0612)</AttName>
+			<Institution>Stand Up To Cancer (SU2C), Los Angeles, CA, USA</Institution>
+		</Header>
+	</Attributions>
+	<DisplayPublicSummary>yes</DisplayPublicSummary>
+	<ConsentGroups>
+		<ConsentGroup groupNum="1" shortName="GRU" longName="General Research Use"/>
+	</ConsentGroups>
+</Configuration>
+
+  <AuthorizedAccess>
+    <DacInfo ssDacId="0">
+      <DacName>NCI</DacName>
+      <DacFullName>NCI</DacFullName>
+      <DacEmail>0</DacEmail>
+      <DacPhone></DacPhone>
+      <DacUrl></DacUrl>
+    </DacInfo>
+    <Policy Policy_ID="phs000932.v1.p1_policy" ref_ssDacId="0">
+      <DisplayResearchStatement>yes</DisplayResearchStatement>
+      <DisplayPublicSummary>yes</DisplayPublicSummary>
+      <EmbargoLength>0</EmbargoLength>
+      <YearsUntilRenewal>1</YearsUntilRenewal>
+      <WeeksCancelRequest>8</WeeksCancelRequest>
+      <PdfSupplementReqired>no</PdfSupplementReqired>
+      <AcknowledgementText>
+        <para>
+          http://dbgap.ncbi.nlm.nih.gov/aa/wga.cgi?page=DUC&amp;view_pdf&amp;stacc=phs000932.v1.p1
+        </para>
+      </AcknowledgementText>
+      <DocumentSet>
+        <DataUseCertificate Label="Data Use Certificate" FilePath="https://dbgap.ncbi.nlm.nih.gov/aa/wga.cgi?page=DUC&amp;view_pdf&amp;stacc=phs000932.v1.p1" FileName=""/>
+      </DocumentSet>
+    </Policy>
+    <ConsentGroups>
+      <ParticipantSet groupNum-REF="1">
+        <ConsentName>General Research Use</ConsentName>
+        <ConsentAbbrev>GRU</ConsentAbbrev>
+        <UseLimitation>Use of the data is limited only by the terms of the model Data Use Certification.</UseLimitation>
+        <IrbRequired>No</IrbRequired>
+      </ParticipantSet>
+    </ConsentGroups>
+  </AuthorizedAccess>
+
+
+</Study>
+
+</Studies>
+
+</GaPExchange>

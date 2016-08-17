@@ -1,0 +1,454 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./datadict_v2.xsl"?>
+<data_table id="pht000715.v1" study_id="phs000167.v1" participant_set="1" date_created="Wed Apr 22 13:18:18 2009">
+
+<variable id="phv00071455.v1">
+	<name>SiteSubjID</name>
+	<description>150 = KN (Knowledge Networks), dash, then five digit ID numbers</description>
+	<type>numbers: 150, dash, then five digit ID#</type>
+</variable>
+
+<variable id="phv00071456.v1">
+	<name>site_number</name>
+	<description>150 = KN (Knowledge Networks)</description>
+	<type>integer</type>
+</variable>
+
+<variable id="phv00071457.v1">
+	<name>site_location</name>
+	<description>KN = Knowledge Networks</description>
+	<type>string</type>
+</variable>
+
+<variable id="phv00071458.v1">
+	<name>self_id_ancestry</name>
+	<description>EA = self-identified European Ancestry</description>
+	<type>string</type>
+</variable>
+
+<variable id="phv00071459.v1">
+	<name>collection</name>
+	<description>MGS2 = Molecular Genetics of Schizophrenia 2</description>
+	<type>string</type>
+</variable>
+
+<variable id="phv00071460.v1">
+	<name>previously_genotyped_+well</name>
+	<description>Y = at least 95% SNP genotyping success rate</description>
+	<type>string</type>
+</variable>
+
+<variable id="phv00071461.v1">
+	<name>sex</name>
+	<description>Gender where 1 = male, 2 = female</description>
+	<type>integer</type>
+</variable>
+
+<variable id="phv00071462.v1">
+	<name>sampling_age</name>
+	<description>Age when sampled as a control</description>
+	<type>integer</type>
+	<unit>Years old</unit>
+</variable>
+
+<variable id="phv00071463.v1">
+	<name>possible_schizophrenia_or_schizoaffective</name>
+	<description>N = answered &quot;no&quot; to the question: &quot;Have you ever received treatment for, or been diagnosed with, any of the following conditions:  schizophrenia or schizoaffective disorder?&quot;</description>
+	<type>string</type>
+</variable>
+
+<variable id="phv00071464.v1">
+	<name>possible_voices_or_paranoia</name>
+	<description>N = answered &quot;no&quot; to the question: &quot;Have you ever received treatment for, or been diagnosed with, any of the following conditions:  hearing voices others could not hear or believing things that others said were not true (such as that people were trying to harm you)?&quot;</description>
+	<type>string</type>
+</variable>
+
+<variable id="phv00071465.v1">
+	<name>possible_bipolar_or_manic_depression</name>
+	<description>N = answered &quot;no&quot; to the question: &quot;Have you ever received treatment for, or been diagnosed with, any of the following conditions:  bipolar disorder (manic-depression)?&quot;</description>
+	<type>string</type>
+</variable>
+
+<variable id="phv00071466.v1">
+	<name>PPDUALIN</name>
+	<description>Dual income HH (Household Head)</description>
+	<type>numbers (see key to right): 1, 0, -1, -2</type>
+	<value code="-2">&#39;Not asked,&#39; applicable?</value>
+	<value code="-1">&#39;REFUSED,&#39; applicable?</value>
+	<value code="0">No, applicable?</value>
+	<value code="1">Yes, if applicable?</value>
+</variable>
+
+<variable id="phv00071467.v1">
+	<name>PPEDUC</name>
+	<description>Education (Highest Degree Received)</description>
+	<type>numbers (see key to right): 1 to 9, -1, -2</type>
+	<value code="-2">&#39;Not asked,&#39; applicable?</value>
+	<value code="-1">&#39;REFUSED,&#39; applicable?</value>
+	<value code="1">Less than high school</value>
+	<value code="2">Some high school, no diploma</value>
+	<value code="3">Graduated from high school - Diploma or Equivalent (GED)</value>
+	<value code="4">Some college, no degree</value>
+	<value code="5">Associate degree (for example: AA, AS)</value>
+	<value code="6">Bachelor&#39;s degree</value>
+	<value code="7">Master&#39;s degree</value>
+	<value code="8">Professional degree (for example: MD, DDS, LLB, JD)</value>
+	<value code="9">Doctorate degree</value>
+</variable>
+
+<variable id="phv00071468.v1">
+	<name>PPEDUCAT</name>
+	<description>Education (Categorical)</description>
+	<type>numbers (see key to right): 1 to 4, -1, -2</type>
+	<value code="-2">&#39;Not asked,&#39; applicable?</value>
+	<value code="-1">&#39;REFUSED,&#39; applicable?</value>
+	<value code="1">Less than high school</value>
+	<value code="2">High school</value>
+	<value code="3">Some college</value>
+	<value code="4">Bachelor&#39;s degree or higher</value>
+</variable>
+
+<variable id="phv00071469.v1">
+	<name>PPETH</name>
+	<description>Race/Ethnicity</description>
+	<type>numbers (see key to right): 1 to 4, -1, -2</type>
+	<value code="-2">&#39;Not asked,&#39; applicable?</value>
+	<value code="-1">&#39;REFUSED,&#39; applicable?</value>
+	<value code="1">White, non-Hispanic</value>
+	<value code="2">Black/African-American, non-Hispanic</value>
+	<value code="3">Other, non-Hispanic</value>
+	<value code="4">Hispanic</value>
+</variable>
+
+<variable id="phv00071470.v1">
+	<name>PPHHHEAD</name>
+	<description>Household Head</description>
+	<type>numbers (see key to right): 1, 0, -1, -2</type>
+	<value code="-2">&#39;Not asked,&#39; applicable?</value>
+	<value code="-1">&#39;REFUSED,&#39; applicable?</value>
+	<value code="0">No, if applicable?</value>
+	<value code="1">Yes, if applicable?</value>
+</variable>
+
+<variable id="phv00071471.v1">
+	<name>PPHHSIZE</name>
+	<description>Household Size (count)</description>
+	<type>numbers (see key to right): 1 to 9, -1, -2</type>
+	<unit>Count</unit>
+	<value code="-2">&#39;Not asked,&#39; applicable?</value>
+	<value code="-1">&#39;REFUSED,&#39; applicable?</value>
+</variable>
+
+<variable id="phv00071472.v1">
+	<name>PPHOUSE</name>
+	<description>Housing Type</description>
+	<type>numbers (see key to right): 1 to 7, -1, -2</type>
+	<value code="-2">&#39;Not asked,&#39; applicable?</value>
+	<value code="-1">&#39;REFUSED,&#39; applicable?</value>
+	<value code="1">A single-family house detached from any other house</value>
+	<value code="2">A single-family house attached to one or more houses, e.g. townhouse</value>
+	<value code="3">An apartment</value>
+	<value code="4">A condominium or co-op</value>
+	<value code="5">College dormitory</value>
+	<value code="6">A manufactured or mobile home</value>
+	<value code="7">Other</value>
+</variable>
+
+<variable id="phv00071473.v1">
+	<name>PPINCIMP</name>
+	<description>Household Income</description>
+	<type>numbers (see key to right): 1 to 19, -1, -2</type>
+	<value code="-2">&#39;Not asked,&#39; applicable?</value>
+	<value code="-1">&#39;REFUSED,&#39; applicable?</value>
+	<value code="1">Less than $5,000</value>
+	<value code="2">$5,000 to $7,499</value>
+	<value code="3">$7,500 to $9,999</value>
+	<value code="4">$10,000 to $12,499</value>
+	<value code="5">$12,500 to $14,999</value>
+	<value code="6">$15,000 to $19,999</value>
+	<value code="7">$20,000 to $24,999</value>
+	<value code="8">$25,000 to $29,999</value>
+	<value code="9">$30,000 to $34,999</value>
+	<value code="10">$35,000 to $39,999</value>
+	<value code="11">$40,000 to $49,999</value>
+	<value code="12">$50,000 to $59,999</value>
+	<value code="13">$60,000 to $74,999</value>
+	<value code="14">$75,000 to $84,999</value>
+	<value code="15">$85,000 to $99,999</value>
+	<value code="16">$100,000 to $124,999</value>
+	<value code="17">$125,000 to $149,999</value>
+	<value code="18">$150,000 to $174,999</value>
+	<value code="19">$175,000 or more</value>
+</variable>
+
+<variable id="phv00071474.v1">
+	<name>PPMARIT</name>
+	<description>Marital Status</description>
+	<type>numbers (see key to right): 1 to 5, -1, -2</type>
+	<value code="-2">&#39;Not asked,&#39; applicable?</value>
+	<value code="-1">&#39;REFUSED,&#39; applicable?</value>
+	<value code="1">Married</value>
+	<value code="2">Single (never married)</value>
+	<value code="3">Divorced</value>
+	<value code="4">Widowed</value>
+	<value code="5">Separated</value>
+</variable>
+
+<variable id="phv00071475.v1">
+	<name>PPMSACAT</name>
+	<description>MSA (metropolitan statistical area) Status</description>
+	<type>numbers (see key to right): 1, 0, -1, -2</type>
+	<value code="-2">&#39;Not asked,&#39; applicable?</value>
+	<value code="-1">&#39;REFUSED,&#39; applicable?</value>
+	<value code="0">&#39;no&#39;  applicable?</value>
+	<value code="1">Metro</value>
+	<value code="2">NonMetro</value>
+</variable>
+
+<variable id="phv00071476.v1">
+	<name>PPREG4</name>
+	<description>Region 4 - Based On State Of Residence</description>
+	<type>numbers (see key to right): 1 to 4, -1, -2</type>
+	<value code="-2">&#39;Not asked,&#39; applicable?</value>
+	<value code="-1">&#39;REFUSED,&#39; applicable?</value>
+	<value code="1">NorthEast states of ME, NH, VT, MA, RI, CT, NY, NJ, PA</value>
+	<value code="2">MidWest states of OH, IN, IL, MI, WI, MN, IA, MO, ND, SD, NE, KS</value>
+	<value code="3">South states of DE, MD, DC, VA, WV, NC, SC, GA, FL, KY, TN, AL, MS, AR, LA, OK, TX</value>
+	<value code="4">West states of MT, ID, WY, CO, NM, AZ, UT, NV, WA, OR, CA, AK, HI</value>
+</variable>
+
+<variable id="phv00071477.v1">
+	<name>PPRENT</name>
+	<description>Ownership Status Of Living Quarters</description>
+	<type>numbers (see key to right): 1 to 3, -1, -2</type>
+	<value code="-2">&#39;Not asked,&#39; applicable?</value>
+	<value code="-1">&#39;REFUSED,&#39; applicable?</value>
+	<value code="1">Own</value>
+	<value code="2">Rent</value>
+	<value code="3">Do not pay for housing</value>
+</variable>
+
+<variable id="phv00071478.v1">
+	<name>PPSTATEN</name>
+	<description>State</description>
+	<type>numbers (see key to right): 11 to 16, 21 to 23, 31 to 35, 41 to 47, 51 to 59, 61</type>
+	<value code="-2">&#39;Not asked,&#39; applicable?</value>
+	<value code="-1">&#39;REFUSED,&#39; applicable?</value>
+	<value code="11">ME</value>
+	<value code="12">NH</value>
+	<value code="13">VT</value>
+	<value code="14">MA</value>
+	<value code="15">RI</value>
+	<value code="16">CT</value>
+	<value code="21">NY</value>
+	<value code="22">NJ</value>
+	<value code="23">PA</value>
+	<value code="31">OH</value>
+	<value code="32">IN</value>
+	<value code="33">IL</value>
+	<value code="34">MI</value>
+	<value code="35">WI</value>
+	<value code="41">MN</value>
+	<value code="42">IA</value>
+	<value code="43">MO</value>
+	<value code="44">ND</value>
+	<value code="45">SD</value>
+	<value code="46">NE</value>
+	<value code="47">KS</value>
+	<value code="51">DE</value>
+	<value code="52">MD</value>
+	<value code="53">DC</value>
+	<value code="54">VA</value>
+	<value code="55">WV</value>
+	<value code="56">NC</value>
+	<value code="57">SC</value>
+	<value code="58">GA</value>
+	<value code="59">FL</value>
+	<value code="61">KY</value>
+	<value code="62">TN</value>
+	<value code="63">AL</value>
+	<value code="64">MS</value>
+	<value code="71">AR</value>
+	<value code="72">LA</value>
+	<value code="73">OK</value>
+	<value code="74">TX</value>
+	<value code="81">MT</value>
+	<value code="82">ID</value>
+	<value code="83">WY</value>
+	<value code="84">CO</value>
+	<value code="85">NM</value>
+	<value code="86">AZ</value>
+	<value code="87">UT</value>
+	<value code="88">NV</value>
+	<value code="91">WA</value>
+	<value code="92">OR</value>
+	<value code="93">CA</value>
+	<value code="94">AK</value>
+	<value code="95">HI</value>
+</variable>
+
+<variable id="phv00071479.v1">
+	<name>PPT01</name>
+	<description>Presence Of Household Members - Children under 2 years old</description>
+	<type>numbers (see key to right): 0 to 2, -1, -2</type>
+	<value code="-2">&#39;Not asked,&#39; applicable?</value>
+	<value code="-1">&#39;REFUSED,&#39; applicable?</value>
+	<value code="0">No kids</value>
+	<value code="1">One kid under 2 years old</value>
+	<value code="2">Two kids under 2 years old</value>
+</variable>
+
+<variable id="phv00071480.v1">
+	<name>PPT1317</name>
+	<description>Presence Of Household Members - Children 13-17 years old</description>
+	<type>numbers (see key to right): 0 to 4, -1, -2</type>
+	<value code="-2">&#39;Not asked,&#39; applicable?</value>
+	<value code="-1">&#39;REFUSED,&#39; applicable?</value>
+	<value code="0">No, applicable?</value>
+	<value code="1">One kid 13-17 years old</value>
+	<value code="2">two kids 13-17 years old</value>
+	<value code="3">three kids 13-17 years old</value>
+	<value code="4">four kids 13-17 years old</value>
+</variable>
+
+<variable id="phv00071481.v1">
+	<name>PPT18OV</name>
+	<description>Presence Of Household Members - Adults 18+ years old</description>
+	<type>numbers (see key to right): 1 to 7, -1, -2</type>
+	<value code="-2">&#39;Not asked,&#39; applicable?</value>
+	<value code="-1">&#39;REFUSED,&#39; applicable?</value>
+	<value code="1">One adult 18+</value>
+	<value code="2">Two adults 18+</value>
+	<value code="3">Three adults 18+</value>
+	<value code="4">Four adults 18+</value>
+	<value code="5">Five adults 18+</value>
+	<value code="6">Six adults 18+</value>
+	<value code="7">Seven adults 18+</value>
+	<value code="8">Eight adults 18+</value>
+</variable>
+
+<variable id="phv00071482.v1">
+	<name>PPT25</name>
+	<description>Presence Of Household Members - Children 2-5 years old</description>
+	<type>numbers (see key to right): 0 to 5, -1, -2</type>
+	<value code="-2">&#39;Not asked,&#39; applicable?</value>
+	<value code="-1">&#39;REFUSED,&#39; applicable?</value>
+	<value code="0">No, applicable?</value>
+	<value code="1">One kid 2-5 years old</value>
+	<value code="2">Two kids 2-5 years old</value>
+	<value code="3">Three kids 2-5 years old</value>
+	<value code="4">Four kids 2-5 years old</value>
+	<value code="5">Five kids 2-5 years old</value>
+</variable>
+
+<variable id="phv00071483.v1">
+	<name>PPT612</name>
+	<description>Presence Of Household Members - Children 6-12 years old</description>
+	<type>numbers (see key to right): 0 to 4, -1, -2</type>
+	<value code="-2">&#39;Not asked,&#39; applicable?</value>
+	<value code="-1">&#39;REFUSED,&#39; applicable?</value>
+	<value code="0">No, applicable?</value>
+	<value code="1">One kid 6-12 years old</value>
+	<value code="2">Two kids 6-12 years old</value>
+	<value code="3">Three kids 6-12 years old</value>
+	<value code="4">Four kids 6-12 years old</value>
+</variable>
+
+<variable id="phv00071484.v1">
+	<name>PPWORK</name>
+	<description>Current Employment Status</description>
+	<type>numbers (see key to right): 1 to 9, -1, -2</type>
+	<value code="-2">&#39;Not asked,&#39; applicable?</value>
+	<value code="-1">&#39;REFUSED,&#39; applicable?</value>
+	<value code="1">I work as a paid employee</value>
+	<value code="2">I am self-employed</value>
+	<value code="3">I am an owner or partner in a small business, professional practice, or farm</value>
+	<value code="4">I work at least 15 hours a week without pay in a family business or farm</value>
+	<value code="5">I am unemployed, temporarily laid off, but looking for work</value>
+	<value code="6">I am retired</value>
+	<value code="7">I am disabled</value>
+	<value code="8">I am a homemaker</value>
+	<value code="9">Other</value>
+</variable>
+
+<variable id="phv00071485.v1">
+	<name>AGEGROUP</name>
+	<description>Age Group</description>
+	<type>numbers (see key to right): 1 to 8, -1, -2</type>
+	<value code="-2">&#39;Not asked,&#39; applicable?</value>
+	<value code="-1">&#39;REFUSED,&#39; applicable?</value>
+	<value code="1">Less than 18 years old</value>
+	<value code="2">18-24</value>
+	<value code="3">25-34 years old</value>
+	<value code="4">35-44 years old</value>
+	<value code="5">45-54 years old</value>
+	<value code="6">55-64 years old</value>
+	<value code="7">65-74 years old</value>
+	<value code="8">75 and over</value>
+</variable>
+
+<variable id="phv00071486.v1">
+	<name>ppagecat</name>
+	<description>Age Category (another way)</description>
+	<type>numbers (see key to right): 1 to 7, 99, -1, -2</type>
+	<value code="-2">&#39;Not asked,&#39; applicable?</value>
+	<value code="-1">&#39;REFUSED,&#39; applicable?</value>
+	<value code="1">18-24 years old</value>
+	<value code="2">25-34 years old</value>
+	<value code="3">35-44 years old</value>
+	<value code="4">45-54 years old</value>
+	<value code="5">55-64 years old</value>
+	<value code="6">65-74 years old</value>
+	<value code="7">75 and over</value>
+</variable>
+
+<variable id="phv00071487.v1">
+	<name>ppagect4</name>
+	<description>Age Category (yet another way)</description>
+	<type>numbers (see key to right): 1 to 4, 99, -1, -2</type>
+</variable>
+
+<variable id="phv00071488.v1">
+	<name>ppreg9</name>
+	<description>Region 9 - Based On State Of Residence</description>
+	<type>numbers (see key to right): 1 to 9, -1, -2</type>
+	<value code="-2">&#39;Not asked,&#39; applicable?</value>
+	<value code="-1">&#39;REFUSED,&#39; applicable?</value>
+	<value code="1">New England states of ME, NH, VT, MA, RI, CT</value>
+	<value code="2">Mid-Atlantic states of NY, NJ, PA</value>
+	<value code="3">East-North Central states of OH, IN, IL, MI, WI</value>
+	<value code="4">West-North Central states of MN, IA, MO, ND, SD, NE, KS</value>
+	<value code="5">South Atlantic states of DE, MD, DC, VA, WV, NC, SC, GA, FL</value>
+	<value code="6">East-South Central states of KY, TN, AL, MS</value>
+	<value code="7">West-South Central states of AR, LA, OK, TX</value>
+	<value code="8">Mountain states of MT, ID, WY, CO, NM, AZ, UT, NV</value>
+	<value code="9">Mountain states of MT, ID, WY, CO, NM, AZ, UT, NV</value>
+	<value code="10">Mountain states of MT, ID, WY, CO, NM, AZ, UT, NV</value>
+	<value code="11">Pacific states of WA, OR, CA, AK, HI</value>
+</variable>
+
+<variable id="phv00071489.v1">
+	<name>X1_Other__Specify_</name>
+	<description>Now, please check all the ethnic backgrounds that apply to your paternal grandfather (that is, your father&#39;s father).  - If response  17 = Other, Specify:</description>
+	<type>string</type>
+</variable>
+
+<variable id="phv00071490.v1">
+	<name>X2_Other__Specify_</name>
+	<description>Now, please check all the ethnic backgrounds that apply to your paternal grandmother (that is, your father&#39;s mother).  -  If response 17 = Other, Specify:</description>
+	<type>string</type>
+</variable>
+
+<variable id="phv00071491.v1">
+	<name>X3_Other__Specify_</name>
+	<description>Now, please check all the ethnic backgrounds that apply to your maternal grandfather (that is, your mother&#39;s father).  - If response 17 = Other, Specify:</description>
+	<type>string</type>
+</variable>
+
+<variable id="phv00071492.v1">
+	<name>X4_Other__Specify_</name>
+	<description>Now, please check all the ethnic backgrounds that apply to your maternal grandmother (that is, your mother&#39;s mother). - If response 17 = Other, Specify:</description>
+	<type>string</type>
+</variable>
+
+</data_table>

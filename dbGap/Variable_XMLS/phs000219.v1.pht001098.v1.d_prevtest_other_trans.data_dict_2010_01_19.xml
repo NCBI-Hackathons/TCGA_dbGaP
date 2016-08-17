@@ -1,0 +1,1374 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./datadict_v2.xsl"?>
+<data_table id="pht001098.v1" study_id="phs000219.v1" participant_set="1" date_created="Tue Jan 19 13:07:18 2010">
+
+<unique_key phv="00082313" version="1">SUBJID</unique_key>
+<unique_key phv="00082317" version="1">VISIT</unique_key>
+
+<variable id="phv00082313.v1">
+	<name>SUBJID</name>
+	<description>Subject&#39;s ID</description>
+	<type>String</type>
+</variable>
+
+<variable id="phv00082314.v1">
+	<name>CASE_CONTROL</name>
+	<description>Subject type</description>
+	<type>Encoded value</type>
+	<value code="ADP">AD Participant</value>
+	<value code="CASE">Case</value>
+	<value code="CCCS">Control with Change in Cognitive Status</value>
+	<value code="CNTL">Control</value>
+	<value code="FAM">Family member</value>
+	<value code="UASB">Unaffected Sibling</value>
+</variable>
+
+<variable id="phv00082315.v1">
+	<name>INV</name>
+	<description>Investigator&#39;s ID</description>
+	<type>String</type>
+</variable>
+
+<variable id="phv00082316.v1">
+	<name>INVSITE</name>
+	<description>Investigator site ID</description>
+	<type>String</type>
+</variable>
+
+<variable id="phv00082317.v1">
+	<name>VISIT</name>
+	<description>Visit name</description>
+	<type>String</type>
+</variable>
+
+<variable id="phv00082318.v1">
+	<name>VISIT_DATE</name>
+	<description>Visit date</description>
+	<type>Date</type>
+	<comment>Truncated to YYYY</comment>
+</variable>
+
+<variable id="phv00082319.v1">
+	<name>DIAGYR</name>
+	<description>If Yes, in what year was MCI diagnosis made?</description>
+	<type>Date</type>
+</variable>
+
+<variable id="phv00082320.v1">
+	<name>MCIYN</name>
+	<description>Diagnosed with MCI prior to AD?</description>
+	<type>Encoded Value</type>
+	<value code="K">Don&#39;t Know</value>
+	<value code="N">NO</value>
+	<value code="Y">YES</value>
+</variable>
+
+<variable id="phv00082321.v1">
+	<name>PRVRE</name>
+	<description>Previous Neuropysychological or Neurocognitive tests</description>
+	<type>Encoded Value</type>
+	<value code="N">NO</value>
+	<value code="Y">YES</value>
+</variable>
+
+<variable id="phv00082322.v1">
+	<name>MMSE_DATE</name>
+	<description>MMSE: Test date</description>
+	<comment>Truncated to YYYY</comment>
+</variable>
+
+<variable id="phv00082323.v1">
+	<name>MMSE_INTERPRETATION</name>
+	<description>MMSE: Interpretation</description>
+	<type>Encoded Value</type>
+	<value code="IMP">Impaired</value>
+	<value code="NA">N/A</value>
+	<value code="NOT">NOT IMPAIRED</value>
+</variable>
+
+<variable id="phv00082324.v1">
+	<name>MMSE_RAWSCORE</name>
+	<description>MMSE: Raw Score</description>
+</variable>
+
+<variable id="phv00082325.v1">
+	<name>CLOCK_DATE</name>
+	<description>CLOCK: Test date</description>
+	<comment>Truncated to YYYY</comment>
+</variable>
+
+<variable id="phv00082326.v1">
+	<name>CLOCK_INTERPRETATION</name>
+	<description>CLOCK: Interpretation</description>
+	<type>Encoded Value</type>
+	<value code="IMP">Impaired</value>
+	<value code="NA">N/A</value>
+	<value code="NOT">NOT IMPAIRED</value>
+</variable>
+
+<variable id="phv00082327.v1">
+	<name>CLOCK_RAWSCORE</name>
+	<description>CLOCK: Raw Score</description>
+</variable>
+
+<variable id="phv00082328.v1">
+	<name>SIB_DATE</name>
+	<description>SIB: Test date</description>
+	<comment>Truncated to YYYY</comment>
+</variable>
+
+<variable id="phv00082329.v1">
+	<name>SIB_INTERPRETATION</name>
+	<description>SIB: Interpretation</description>
+	<type>Encoded Value</type>
+	<value code="IMP">Impaired</value>
+	<value code="NA">N/A</value>
+	<value code="NOT">NOT IMPAIRED</value>
+</variable>
+
+<variable id="phv00082330.v1">
+	<name>SIB_RAWSCORE</name>
+	<description>SIB: Raw Score</description>
+</variable>
+
+<variable id="phv00082331.v1">
+	<name>MDRS_DRS_DATE</name>
+	<description>MDRS: Test date</description>
+	<comment>Truncated to YYYY</comment>
+</variable>
+
+<variable id="phv00082332.v1">
+	<name>MDRS_DRS_INTERPRETATION</name>
+	<description>MDRS: Interpretation</description>
+	<type>Encoded Value</type>
+	<value code="IMP">Impaired</value>
+	<value code="NA">N/A</value>
+	<value code="NOT">NOT IMPAIRED</value>
+</variable>
+
+<variable id="phv00082333.v1">
+	<name>MDRS_DRS_RAWSCORE</name>
+	<description>MDRS: Raw Score</description>
+</variable>
+
+<variable id="phv00082334.v1">
+	<name>OARS_DATE</name>
+	<description>OARS: Test date</description>
+	<comment>Truncated to YYYY</comment>
+</variable>
+
+<variable id="phv00082335.v1">
+	<name>OARS_INTERPRETATION</name>
+	<description>OARS: Interpretation</description>
+	<type>Encoded Value</type>
+	<value code="IMP">Impaired</value>
+	<value code="NA">N/A</value>
+	<value code="NOT">NOT IMPAIRED</value>
+</variable>
+
+<variable id="phv00082336.v1">
+	<name>OARS_RAWSCORE</name>
+	<description>OARS: Raw Score</description>
+</variable>
+
+<variable id="phv00082337.v1">
+	<name>TRAIL_DATE</name>
+	<description>TRAIL: Test date</description>
+	<comment>Truncated to YYYY</comment>
+</variable>
+
+<variable id="phv00082338.v1">
+	<name>TRAIL_INTERPRETATION</name>
+	<description>TRAIL: Interpretation</description>
+	<type>Encoded Value</type>
+	<value code="IMP">Impaired</value>
+	<value code="NA">N/A</value>
+	<value code="NOT">NOT IMPAIRED</value>
+</variable>
+
+<variable id="phv00082339.v1">
+	<name>TRAIL_RAWSCORE</name>
+	<description>TRAIL: Raw Score</description>
+</variable>
+
+<variable id="phv00082340.v1">
+	<name>TRAIL_A_DATE</name>
+	<description>TRAIL A: Test date</description>
+	<comment>Truncated to YYYY</comment>
+</variable>
+
+<variable id="phv00082341.v1">
+	<name>TRAIL_A_INTERPRETATION</name>
+	<description>TRAIL A: Interpretation</description>
+	<type>Encoded Value</type>
+	<value code="IMP">Impaired</value>
+	<value code="NA">N/A</value>
+	<value code="NOT">NOT IMPAIRED</value>
+</variable>
+
+<variable id="phv00082342.v1">
+	<name>TRAIL_A_RAWSCORE</name>
+	<description>TRAIL A: Raw Score</description>
+</variable>
+
+<variable id="phv00082343.v1">
+	<name>TRAIL_B_DATE</name>
+	<description>TRAIL B: Test date</description>
+	<comment>Truncated to YYYY</comment>
+</variable>
+
+<variable id="phv00082344.v1">
+	<name>TRAIL_B_INTERPRETATION</name>
+	<description>TRAIL B: Interpretation</description>
+	<type>Encoded Value</type>
+	<value code="IMP">Impaired</value>
+	<value code="NA">N/A</value>
+	<value code="NOT">NOT IMPAIRED</value>
+</variable>
+
+<variable id="phv00082345.v1">
+	<name>TRAIL_B_RAWSCORE</name>
+	<description>TRAIL B: Raw Score</description>
+</variable>
+
+<variable id="phv00082346.v1">
+	<name>OTH_3MS_DATE</name>
+	<description>3MS : Other - Test date</description>
+	<comment>Truncated to YYYY</comment>
+</variable>
+
+<variable id="phv00082347.v1">
+	<name>OTH_3MS_INTERPRETATION</name>
+	<description>3MS: Other - Interpretation</description>
+	<type>Encoded Value</type>
+	<value code="IMP">Impaired</value>
+	<value code="NA">N/A</value>
+	<value code="NOT">NOT IMPAIRED</value>
+</variable>
+
+<variable id="phv00082348.v1">
+	<name>OTH_3MS_RAWSCORE</name>
+	<description>3MS: Other - Raw Score</description>
+</variable>
+
+<variable id="phv00082349.v1">
+	<name>OTH_ADAS_DATE</name>
+	<description>ADAS: Other - Test date</description>
+	<comment>Truncated to YYYY</comment>
+</variable>
+
+<variable id="phv00082350.v1">
+	<name>OTH_ADAS_INTERPRETATION</name>
+	<description>ADAS: Other - Interpretation</description>
+	<type>Encoded Value</type>
+	<value code="IMP">Impaired</value>
+	<value code="NA">N/A</value>
+	<value code="NOT">NOT IMPAIRED</value>
+</variable>
+
+<variable id="phv00082351.v1">
+	<name>OTH_ADAS_RAWSCORE</name>
+	<description>ADAS: Other - Raw Score</description>
+</variable>
+
+<variable id="phv00082352.v1">
+	<name>OTH_AS_DATE</name>
+	<description>ALTERNATING SEQUENCE: Other - Test date</description>
+	<comment>Truncated to YYYY</comment>
+</variable>
+
+<variable id="phv00082353.v1">
+	<name>OTH_AS_INTERPRETATION</name>
+	<description>ALTERNATING SEQUENCE: Other - Interpretation</description>
+	<type>Encoded Value</type>
+	<value code="IMP">Impaired</value>
+	<value code="NA">N/A</value>
+	<value code="NOT">NOT IMPAIRED</value>
+</variable>
+
+<variable id="phv00082354.v1">
+	<name>OTH_AS_RAWSCORE</name>
+	<description>ALTERNATING SEQUENCE: Other - Raw Score</description>
+</variable>
+
+<variable id="phv00082355.v1">
+	<name>OTH_BDI_DATE</name>
+	<description>BECK DEPRESSION INVENTORY: Other - Test date</description>
+	<comment>Truncated to YYYY</comment>
+</variable>
+
+<variable id="phv00082356.v1">
+	<name>OTH_BDI_INTERPRETATION</name>
+	<description>BECK DEPRESSION INVENTORY: Other - Interpretation</description>
+	<type>Encoded Value</type>
+	<value code="IMP">Impaired</value>
+	<value code="NA">N/A</value>
+	<value code="NOT">NOT IMPAIRED</value>
+</variable>
+
+<variable id="phv00082357.v1">
+	<name>OTH_BDI_RAWSCORE</name>
+	<description>BECK DEPRESSION INVENTORY: Other - Raw Score</description>
+</variable>
+
+<variable id="phv00082358.v1">
+	<name>OTH_BEM_114_DATE</name>
+	<description>BEM-114: Other - Test date</description>
+	<comment>Truncated to YYYY</comment>
+</variable>
+
+<variable id="phv00082359.v1">
+	<name>OTH_BEM_114_INTERPRETATION</name>
+	<description>BEM-114: Other - Interpretation</description>
+	<type>Encoded Value</type>
+	<value code="IMP">Impaired</value>
+	<value code="NA">N/A</value>
+	<value code="NOT">NOT IMPAIRED</value>
+</variable>
+
+<variable id="phv00082360.v1">
+	<name>OTH_BEM_114_RAWSCORE</name>
+	<description>BEM-114: Other - Raw Score</description>
+</variable>
+
+<variable id="phv00082361.v1">
+	<name>OTH_BENTON_TEST_DATE</name>
+	<description>BENTON TEST: Other - Test date</description>
+	<comment>Truncated to YYYY</comment>
+</variable>
+
+<variable id="phv00082362.v1">
+	<name>OTH_BENTON_TEST_INTERPRETATION</name>
+	<description>BENTON TEST: Other - Interpretation</description>
+	<type>Encoded Value</type>
+	<value code="IMP">Impaired</value>
+	<value code="NA">N/A</value>
+	<value code="NOT">NOT IMPAIRED</value>
+</variable>
+
+<variable id="phv00082363.v1">
+	<name>OTH_BENTON_TEST_RAWSCORE</name>
+	<description>BENTON TEST: Other - Raw Score</description>
+</variable>
+
+<variable id="phv00082364.v1">
+	<name>OTH_BNT_DATE</name>
+	<description>BOSTON NAMING TEST: Other - Test date</description>
+	<comment>Truncated to YYYY</comment>
+</variable>
+
+<variable id="phv00082365.v1">
+	<name>OTH_BNT_INTERPRETATION</name>
+	<description>BOSTON NAMING TEST: Other - Interpretation</description>
+	<type>Encoded Value</type>
+	<value code="IMP">Impaired</value>
+	<value code="NA">N/A</value>
+	<value code="NOT">NOT IMPAIRED</value>
+</variable>
+
+<variable id="phv00082366.v1">
+	<name>OTH_BNT_RAWSCORE</name>
+	<description>BOSTON NAMING TEST: Other - Raw Score</description>
+</variable>
+
+<variable id="phv00082367.v1">
+	<name>OTH_BUSCHICE_DATE</name>
+	<description>BUSCHICE: Other - Test date</description>
+	<comment>Truncated to YYYY</comment>
+</variable>
+
+<variable id="phv00082368.v1">
+	<name>OTH_BUSCHICE_INTERPRETATION</name>
+	<description>BUSCHICE: Other - Interpretation</description>
+	<type>Encoded Value</type>
+	<value code="IMP">Impaired</value>
+	<value code="NA">N/A</value>
+	<value code="NOT">NOT IMPAIRED</value>
+</variable>
+
+<variable id="phv00082369.v1">
+	<name>OTH_BUSCHICE_RAWSCORE</name>
+	<description>BUSCHICE: Other - Raw Score</description>
+</variable>
+
+<variable id="phv00082370.v1">
+	<name>OTH_CERAD_TEST_DATE</name>
+	<description>CERAD TEST: Other - Test date</description>
+	<comment>Truncated to YYYY</comment>
+</variable>
+
+<variable id="phv00082371.v1">
+	<name>OTH_CERAD_TEST_INTERPRETATION</name>
+	<description>CERAD TEST: Other - Interpretation</description>
+	<type>Encoded Value</type>
+	<value code="IMP">Impaired</value>
+	<value code="NA">N/A</value>
+	<value code="NOT">NOT IMPAIRED</value>
+</variable>
+
+<variable id="phv00082372.v1">
+	<name>OTH_CERAD_TEST_RAWSCORE</name>
+	<description>CERAD TEST: Other - Raw Score</description>
+</variable>
+
+<variable id="phv00082373.v1">
+	<name>OTH_CDR_DATE</name>
+	<description>CLINICAL DEMENTIA RATING: Other - Test date</description>
+	<comment>Truncated to YYYY</comment>
+</variable>
+
+<variable id="phv00082374.v1">
+	<name>OTH_CDR_INTERPRETATION</name>
+	<description>CLINICAL DEMENTIA RATING: Other - Interpretation</description>
+	<type>Encoded Value</type>
+	<value code="IMP">Impaired</value>
+	<value code="NA">N/A</value>
+	<value code="NOT">NOT IMPAIRED</value>
+</variable>
+
+<variable id="phv00082375.v1">
+	<name>OTH_CDR_RAWSCORE</name>
+	<description>CLINICAL DEMENTIA RATING: Other - Raw Score</description>
+</variable>
+
+<variable id="phv00082376.v1">
+	<name>OTH_CLOCK_DATE</name>
+	<description>CLOCK: Other - Test date</description>
+	<comment>Truncated to YYYY</comment>
+</variable>
+
+<variable id="phv00082377.v1">
+	<name>OTH_CLOCK_INTERPRETATION</name>
+	<description>CLOCK: Other - Interpretation</description>
+	<type>Encoded Value</type>
+	<value code="IMP">Impaired</value>
+	<value code="NA">N/A</value>
+	<value code="NOT">NOT IMPAIRED</value>
+</variable>
+
+<variable id="phv00082378.v1">
+	<name>OTH_CLOCK_RAWSCORE</name>
+	<description>CLOCK: Other - Raw Score</description>
+</variable>
+
+<variable id="phv00082379.v1">
+	<name>OTH_CLOCK_15_DATE</name>
+	<description>CLOCK /15: Other - Test date</description>
+	<comment>Truncated to YYYY</comment>
+</variable>
+
+<variable id="phv00082380.v1">
+	<name>OTH_CLOCK_15_INTERPRETATION</name>
+	<description>CLOCK /15: Other - Interpretation</description>
+	<type>Encoded Value</type>
+	<value code="IMP">Impaired</value>
+	<value code="NA">N/A</value>
+	<value code="NOT">NOT IMPAIRED</value>
+</variable>
+
+<variable id="phv00082381.v1">
+	<name>OTH_CLOCK_15_RAWSCORE</name>
+	<description>CLOCK /15: Other - Raw Score</description>
+</variable>
+
+<variable id="phv00082382.v1">
+	<name>OTH_CLOCK_COMM_DATE</name>
+	<description>CLOCK-COMMAND: Other - Test date</description>
+	<comment>Truncated to YYYY</comment>
+</variable>
+
+<variable id="phv00082383.v1">
+	<name>OTH_CLOCK_COMM_INTERPRETATION</name>
+	<description>CLOCK-COMMAND: Other - Interpretation</description>
+	<type>Encoded Value</type>
+	<value code="IMP">Impaired</value>
+	<value code="NA">N/A</value>
+	<value code="NOT">NOT IMPAIRED</value>
+</variable>
+
+<variable id="phv00082384.v1">
+	<name>OTH_CLOCK_COMM_RAWSCORE</name>
+	<description>CLOCK-COMMAND: Other - Raw Score</description>
+</variable>
+
+<variable id="phv00082385.v1">
+	<name>OTH_CLOCK_COPY_DATE</name>
+	<description>CLOCK-COPY: Other - Test date</description>
+	<comment>Truncated to YYYY</comment>
+</variable>
+
+<variable id="phv00082386.v1">
+	<name>OTH_CLOCK_COPY_INTERPRETATION</name>
+	<description>CLOCK-COPY: Other - Interpretation</description>
+	<type>Encoded Value</type>
+	<value code="IMP">Impaired</value>
+	<value code="NA">N/A</value>
+	<value code="NOT">NOT IMPAIRED</value>
+</variable>
+
+<variable id="phv00082387.v1">
+	<name>OTH_CLOCK_COPY_RAWSCORE</name>
+	<description>CLOCK-COPY: Other - Raw Score</description>
+</variable>
+
+<variable id="phv00082388.v1">
+	<name>OTH_COMPLEX_FIG_DATE</name>
+	<description>COMPLEX FIGURE: Other - Test date</description>
+	<comment>Truncated to YYYY</comment>
+</variable>
+
+<variable id="phv00082389.v1">
+	<name>OTH_COMPLEX_FIG_INTERPRETATION</name>
+	<description>COMPLEX FIGURE: Other - Interpretation</description>
+	<type>Encoded Value</type>
+	<value code="IMP">Impaired</value>
+	<value code="NA">N/A</value>
+	<value code="NOT">NOT IMPAIRED</value>
+</variable>
+
+<variable id="phv00082390.v1">
+	<name>OTH_COMPLEX_FIG_RAWSCORE</name>
+	<description>COMPLEX FIGURE: Other - Raw Score</description>
+</variable>
+
+<variable id="phv00082391.v1">
+	<name>OTH_CFDR_DATE</name>
+	<description>COMPLEX FIGURE DE REY: Other - Test date</description>
+	<comment>Truncated to YYYY</comment>
+</variable>
+
+<variable id="phv00082392.v1">
+	<name>OTH_CFDR_INTERPRETATION</name>
+	<description>COMPLEX FIGURE DE REY: Other - Interpretation</description>
+	<type>Encoded Value</type>
+	<value code="IMP">Impaired</value>
+	<value code="NA">N/A</value>
+	<value code="NOT">NOT IMPAIRED</value>
+</variable>
+
+<variable id="phv00082393.v1">
+	<name>OTH_CFDR_RAWSCORE</name>
+	<description>COMPLEX FIGURE DE REY: Other - Raw Score</description>
+</variable>
+
+<variable id="phv00082394.v1">
+	<name>OTH_CTP_DATE</name>
+	<description>COOKIE THEFT PICTURE: Other - Test date</description>
+	<comment>Truncated to YYYY</comment>
+</variable>
+
+<variable id="phv00082395.v1">
+	<name>OTH_CTP_INTERPRETATION</name>
+	<description>COOKIE THEFT PICTURE: Other - Interpretation</description>
+	<type>Encoded Value</type>
+	<value code="IMP">Impaired</value>
+	<value code="NA">N/A</value>
+	<value code="NOT">NOT IMPAIRED</value>
+</variable>
+
+<variable id="phv00082396.v1">
+	<name>OTH_CTP_RAWSCORE</name>
+	<description>COOKIE THEFT PICTURE: Other - Raw Score</description>
+</variable>
+
+<variable id="phv00082397.v1">
+	<name>OTH_CORSI_BKS_DATE</name>
+	<description>CORSI BLOCKS: Other - Test date</description>
+	<comment>Truncated to YYYY</comment>
+</variable>
+
+<variable id="phv00082398.v1">
+	<name>OTH_CORSI_BKS_INTERPRETATION</name>
+	<description>CORSI BLOCKS: Other - Interpretation</description>
+	<type>Encoded Value</type>
+	<value code="IMP">Impaired</value>
+	<value code="NA">N/A</value>
+	<value code="NOT">NOT IMPAIRED</value>
+</variable>
+
+<variable id="phv00082399.v1">
+	<name>OTH_CORSI_BKS_RAWSCORE</name>
+	<description>CORSI BLOCKS: Other - Raw Score</description>
+</variable>
+
+<variable id="phv00082400.v1">
+	<name>OTH_CVLT_DATE</name>
+	<description>CVLT: Other - Test date</description>
+	<comment>Truncated to YYYY</comment>
+</variable>
+
+<variable id="phv00082401.v1">
+	<name>OTH_CVLT_INTERPRETATION</name>
+	<description>CVLT: Other - Interpretation</description>
+	<type>Encoded Value</type>
+	<value code="IMP">Impaired</value>
+	<value code="NA">N/A</value>
+	<value code="NOT">NOT IMPAIRED</value>
+</variable>
+
+<variable id="phv00082402.v1">
+	<name>OTH_CVLT_RAWSCORE</name>
+	<description>CVLT: Other - Raw Score</description>
+</variable>
+
+<variable id="phv00082403.v1">
+	<name>OTH_DIGIT_SPAN_DATE</name>
+	<description>DIGIT SPAN: Other - Test date</description>
+	<comment>Truncated to YYYY</comment>
+</variable>
+
+<variable id="phv00082404.v1">
+	<name>OTH_DIGIT_SPAN_INTERPRETATION</name>
+	<description>DIGIT SPAN: Other - Interpretation</description>
+	<type>Encoded Value</type>
+	<value code="IMP">Impaired</value>
+	<value code="NA">N/A</value>
+	<value code="NOT">NOT IMPAIRED</value>
+</variable>
+
+<variable id="phv00082405.v1">
+	<name>OTH_DIGIT_SPAN_RAWSCORE</name>
+	<description>DIGIT SPAN: Other - Raw Score</description>
+</variable>
+
+<variable id="phv00082406.v1">
+	<name>OTH_DRS_DATE</name>
+	<description>DRS: Other - Test date</description>
+	<comment>Truncated to YYYY</comment>
+</variable>
+
+<variable id="phv00082407.v1">
+	<name>OTH_DRS_INTERPRETATION</name>
+	<description>DRS: Other - Interpretation</description>
+	<type>Encoded Value</type>
+	<value code="IMP">Impaired</value>
+	<value code="NA">N/A</value>
+	<value code="NOT">NOT IMPAIRED</value>
+</variable>
+
+<variable id="phv00082408.v1">
+	<name>OTH_DRS_RAWSCORE</name>
+	<description>DRS: Other - Raw Score</description>
+</variable>
+
+<variable id="phv00082409.v1">
+	<name>OTH_DRS2_DATE</name>
+	<description>DRS-2: Other - Test date</description>
+	<comment>Truncated to YYYY</comment>
+</variable>
+
+<variable id="phv00082410.v1">
+	<name>OTH_DRS2_INTERPRETATION</name>
+	<description>DRS-2: Other - Interpretation</description>
+	<type>Encoded Value</type>
+	<value code="IMP">Impaired</value>
+	<value code="NA">N/A</value>
+	<value code="NOT">NOT IMPAIRED</value>
+</variable>
+
+<variable id="phv00082411.v1">
+	<name>OTH_DRS2_RAWSCORE</name>
+	<description>DRS-2: Other - Raw Score</description>
+</variable>
+
+<variable id="phv00082412.v1">
+	<name>OTH_EIS_DATE</name>
+	<description>EMORY IMPAIRMENT SCREEN: Other - Test date</description>
+	<comment>Truncated to YYYY</comment>
+</variable>
+
+<variable id="phv00082413.v1">
+	<name>OTH_EIS_INTERPRETATION</name>
+	<description>EMORY IMPAIRMENT SCREEN: Other - Interpretation</description>
+	<type>Encoded Value</type>
+	<value code="IMP">Impaired</value>
+	<value code="NA">N/A</value>
+	<value code="NOT">NOT IMPAIRED</value>
+</variable>
+
+<variable id="phv00082414.v1">
+	<name>OTH_EIS_RAWSCORE</name>
+	<description>EMORY IMPAIRMENT SCREEN: Other - Raw Score</description>
+</variable>
+
+<variable id="phv00082415.v1">
+	<name>OTH_EMS_DATE</name>
+	<description>EMS: Other - Test date</description>
+	<comment>Truncated to YYYY</comment>
+</variable>
+
+<variable id="phv00082416.v1">
+	<name>OTH_EMS_INTERPRETATION</name>
+	<description>EMS: Other - Interpretation</description>
+	<type>Encoded Value</type>
+	<value code="IMP">Impaired</value>
+	<value code="NA">N/A</value>
+	<value code="NOT">NOT IMPAIRED</value>
+</variable>
+
+<variable id="phv00082417.v1">
+	<name>OTH_EMS_RAWSCORE</name>
+	<description>EMS: Other - Raw Score</description>
+</variable>
+
+<variable id="phv00082418.v1">
+	<name>OTH_FAS_DATE</name>
+	<description>FAS: Other - Test date</description>
+	<comment>Truncated to YYYY</comment>
+</variable>
+
+<variable id="phv00082419.v1">
+	<name>OTH_FAS_INTERPRETATION</name>
+	<description>FAS: Other - Interpretation</description>
+	<type>Encoded Value</type>
+	<value code="IMP">Impaired</value>
+	<value code="NA">N/A</value>
+	<value code="NOT">NOT IMPAIRED</value>
+</variable>
+
+<variable id="phv00082420.v1">
+	<name>OTH_FAS_RAWSCORE</name>
+	<description>FAS: Other - Raw Score</description>
+</variable>
+
+<variable id="phv00082421.v1">
+	<name>OTH_FOLSTEIN_DATE</name>
+	<description>FOLSTEIN: Other - Test date</description>
+	<comment>Truncated to YYYY</comment>
+</variable>
+
+<variable id="phv00082422.v1">
+	<name>OTH_FOLSTEIN_INTERPRETATION</name>
+	<description>FOLSTEIN: Other - Interpretation</description>
+	<type>Encoded Value</type>
+	<value code="IMP">Impaired</value>
+	<value code="NA">N/A</value>
+	<value code="NOT">NOT IMPAIRED</value>
+</variable>
+
+<variable id="phv00082423.v1">
+	<name>OTH_FOLSTEIN_RAWSCORE</name>
+	<description>FOLSTEIN: Other - Raw Score</description>
+</variable>
+
+<variable id="phv00082424.v1">
+	<name>OTH_FRVL_DATE</name>
+	<description>FREE RECALL VERBAL LEARNING TEST: Other - Test date</description>
+	<comment>Truncated to YYYY</comment>
+</variable>
+
+<variable id="phv00082425.v1">
+	<name>OTH_FRVL_INTERPRETATION</name>
+	<description>FREE RECALL VERBAL LEARNING TEST: Other - Interpretation</description>
+	<type>Encoded Value</type>
+	<value code="IMP">Impaired</value>
+	<value code="NA">N/A</value>
+	<value code="NOT">NOT IMPAIRED</value>
+</variable>
+
+<variable id="phv00082426.v1">
+	<name>OTH_FRVL_RAWSCORE</name>
+	<description>FREE RECALL VERBAL LEARNING TEST: Other - Raw Score</description>
+</variable>
+
+<variable id="phv00082427.v1">
+	<name>OTH_GDS_DATE</name>
+	<description>GERIATRIC DEPRESSION SCALE: Other - Test date</description>
+	<comment>Truncated to YYYY</comment>
+</variable>
+
+<variable id="phv00082428.v1">
+	<name>OTH_GDS_INTERPRETATION</name>
+	<description>GERIATRIC DEPRESSION SCALE: Other - Interpretation</description>
+	<type>Encoded Value</type>
+	<value code="IMP">Impaired</value>
+	<value code="NA">N/A</value>
+	<value code="NOT">NOT IMPAIRED</value>
+</variable>
+
+<variable id="phv00082429.v1">
+	<name>OTH_GDS_RAWSCORE</name>
+	<description>GERIATRIC DEPRESSION SCALE: Other - Raw Score</description>
+</variable>
+
+<variable id="phv00082430.v1">
+	<name>OTH_LEXICAL_FAS_DATE</name>
+	<description>LEXICAL FAS: Other - Test date</description>
+	<comment>Truncated to YYYY</comment>
+</variable>
+
+<variable id="phv00082431.v1">
+	<name>OTH_LEXICAL_FAS_INTERPRETATION</name>
+	<description>LEXICAL FAS: Other - Interpretation</description>
+	<type>Encoded Value</type>
+	<value code="IMP">Impaired</value>
+	<value code="NA">N/A</value>
+	<value code="NOT">NOT IMPAIRED</value>
+</variable>
+
+<variable id="phv00082432.v1">
+	<name>OTH_LEXICAL_FAS_RAWSCORE</name>
+	<description>LEXICAL FAS: Other - Raw Score</description>
+</variable>
+
+<variable id="phv00082433.v1">
+	<name>OTH_LOOPS_RAMP_DATE</name>
+	<description>LOOPS &amp; RAMPARTS: Other - Test date</description>
+	<comment>Truncated to YYYY</comment>
+</variable>
+
+<variable id="phv00082434.v1">
+	<name>OTH_LOOPS_RAMP_INTERPRETATION</name>
+	<description>LOOPS &amp; RAMPARTS: Other - Interpretation</description>
+	<type>Encoded Value</type>
+	<value code="IMP">Impaired</value>
+	<value code="NA">N/A</value>
+	<value code="NOT">NOT IMPAIRED</value>
+</variable>
+
+<variable id="phv00082435.v1">
+	<name>OTH_LOOPS_RAMP_RAWSCORE</name>
+	<description>LOOPS &amp; RAMPARTS: Other - Raw Score</description>
+</variable>
+
+<variable id="phv00082436.v1">
+	<name>OTH_LWLM_DATE</name>
+	<description>LO-WORD LIST MEMORY: Other - Test date</description>
+	<comment>Truncated to YYYY</comment>
+</variable>
+
+<variable id="phv00082437.v1">
+	<name>OTH_LWLM_INTERPRETATION</name>
+	<description>LO-WORD LIST MEMORY: Other - Interpretation</description>
+	<type>Encoded Value</type>
+	<value code="IMP">Impaired</value>
+	<value code="NA">N/A</value>
+	<value code="NOT">NOT IMPAIRED</value>
+</variable>
+
+<variable id="phv00082438.v1">
+	<name>OTH_LWLM_RAWSCORE</name>
+	<description>LO-WORD LIST MEMORY: Other - Raw Score</description>
+</variable>
+
+<variable id="phv00082439.v1">
+	<name>OTH_LAS_DATE</name>
+	<description>LURIA ALTERNATING SEQUENCES: Other - Test date</description>
+	<comment>Truncated to YYYY</comment>
+</variable>
+
+<variable id="phv00082440.v1">
+	<name>OTH_LAS_INTERPRETATION</name>
+	<description>LURIA ALTERNATING SEQUENCES: Other - Interpretation</description>
+	<type>Encoded Value</type>
+	<value code="IMP">Impaired</value>
+	<value code="NA">N/A</value>
+	<value code="NOT">NOT IMPAIRED</value>
+</variable>
+
+<variable id="phv00082441.v1">
+	<name>OTH_LAS_RAWSCORE</name>
+	<description>LURIA ALTERNATING SEQUENCES: Other - Raw Score</description>
+</variable>
+
+<variable id="phv00082442.v1">
+	<name>OTH_M_N_DATE</name>
+	<description>M&amp;N: Other - Test date</description>
+	<comment>Truncated to YYYY</comment>
+</variable>
+
+<variable id="phv00082443.v1">
+	<name>OTH_M_N_INTERPRETATION</name>
+	<description>M&amp;N: Other - Interpretation</description>
+	<type>Encoded Value</type>
+	<value code="IMP">Impaired</value>
+	<value code="NA">N/A</value>
+	<value code="NOT">NOT IMPAIRED</value>
+</variable>
+
+<variable id="phv00082444.v1">
+	<name>OTH_M_N_RAWSCORE</name>
+	<description>M&amp;N: Other - Raw Score</description>
+</variable>
+
+<variable id="phv00082445.v1">
+	<name>OTH_M_N_SEQ_DATE</name>
+	<description>M, N SEQUENCE: Other - Test date</description>
+	<comment>Truncated to YYYY</comment>
+</variable>
+
+<variable id="phv00082446.v1">
+	<name>OTH_M_N_SEQ_INTERPRETATION</name>
+	<description>M, N SEQUENCE: Other - Interpretation</description>
+	<type>Encoded Value</type>
+	<value code="IMP">Impaired</value>
+	<value code="NA">N/A</value>
+	<value code="NOT">NOT IMPAIRED</value>
+</variable>
+
+<variable id="phv00082447.v1">
+	<name>OTH_M_N_SEQ_RAWSCORE</name>
+	<description>M, N SEQUENCE: Other - Raw Score</description>
+</variable>
+
+<variable id="phv00082448.v1">
+	<name>OTH_MAYO_CLC_MSE_DATE</name>
+	<description>MAYO CLINIC MSE: Other - Test date</description>
+	<comment>Truncated to YYYY</comment>
+</variable>
+
+<variable id="phv00082449.v1">
+	<name>OTH_MAYO_CLC_MSE_INTER</name>
+	<description>MAYO CLINIC MSE: Other - Interpretation</description>
+	<type>Encoded Value</type>
+	<value code="IMP">Impaired</value>
+	<value code="NA">N/A</value>
+	<value code="NOT">NOT IMPAIRED</value>
+</variable>
+
+<variable id="phv00082450.v1">
+	<name>OTH_MAYO_CLC_MSE_RAWSCORE</name>
+	<description>MAYO CLINIC MSE: Other - Raw Score</description>
+</variable>
+
+<variable id="phv00082451.v1">
+	<name>OTH_MCSMS38_DATE</name>
+	<description>MAYO CLINIC SHORT MENTAL STATE TEST /38: Other - Test date</description>
+	<comment>Truncated to YYYY</comment>
+</variable>
+
+<variable id="phv00082452.v1">
+	<name>OTH_MCSMS38_INTERPRETATION</name>
+	<description>MAYO CLINIC SHORT MENTAL STATE TEST /38: Other - Interpretation</description>
+	<type>Encoded Value</type>
+	<value code="IMP">Impaired</value>
+	<value code="NA">N/A</value>
+	<value code="NOT">NOT IMPAIRED</value>
+</variable>
+
+<variable id="phv00082453.v1">
+	<name>OTH_MCMS38_RAWSCORE</name>
+	<description>MAYO CLINIC SHORT MENTAL STATE TEST /38: Other - Raw Score</description>
+</variable>
+
+<variable id="phv00082454.v1">
+	<name>OTH_MIS_DATE</name>
+	<description>MEMORY IMPAIRMENT SCREEN: Other - Test date</description>
+	<comment>Truncated to YYYY</comment>
+</variable>
+
+<variable id="phv00082455.v1">
+	<name>OTH_MIS_INTERPRETATION</name>
+	<description>MEMORY IMPAIRMENT SCREEN: Other - Interpretation</description>
+	<type>Encoded Value</type>
+	<value code="IMP">Impaired</value>
+	<value code="NA">N/A</value>
+	<value code="NOT">NOT IMPAIRED</value>
+</variable>
+
+<variable id="phv00082456.v1">
+	<name>OTH_MIS_RAWSCORE</name>
+	<description>MEMORY IMPAIRMENT SCREEN: Other - Raw Score</description>
+</variable>
+
+<variable id="phv00082457.v1">
+	<name>OTH_MMSE_DATE</name>
+	<description>MMSE: Other - Test date</description>
+	<comment>Truncated to YYYY</comment>
+</variable>
+
+<variable id="phv00082458.v1">
+	<name>OTH_MMSE_INTERPRETATION</name>
+	<description>MMSE: Other - Interpretation</description>
+	<type>Encoded Value</type>
+	<value code="IMP">Impaired</value>
+	<value code="NA">N/A</value>
+	<value code="NOT">NOT IMPAIRED</value>
+</variable>
+
+<variable id="phv00082459.v1">
+	<name>OTH_MMSE_RAWSCORE</name>
+	<description>MMSE: Other - Raw Score</description>
+</variable>
+
+<variable id="phv00082460.v1">
+	<name>OTH_MMSE_UNSFUL_DATE</name>
+	<description>MMSE ATTEMPTS UNSUCCESSFUL: Other - Test date</description>
+	<comment>Truncated to YYYY</comment>
+</variable>
+
+<variable id="phv00082461.v1">
+	<name>OTH_MMSE_UNSFUL_INTERPRETATION</name>
+	<description>MMSE ATTEMPTS UNSUCCESSFUL: Other - Interpretation</description>
+	<type>Encoded Value</type>
+	<value code="IMP">Impaired</value>
+	<value code="NA">N/A</value>
+	<value code="NOT">NOT IMPAIRED</value>
+</variable>
+
+<variable id="phv00082462.v1">
+	<name>OTH_MMSE_UNSFUL_RAWSCORE</name>
+	<description>MMSE ATTEMPTS UNSUCCESSFUL: Other - Raw Score</description>
+</variable>
+
+<variable id="phv00082463.v1">
+	<name>OTH_MTN_DATE</name>
+	<description>MTN: Other - Test date</description>
+	<comment>Truncated to YYYY</comment>
+</variable>
+
+<variable id="phv00082464.v1">
+	<name>OTH_MTN_INTERPRETATION</name>
+	<description>MTN: Other - Interpretation</description>
+	<type>Encoded Value</type>
+	<value code="IMP">Impaired</value>
+	<value code="NA">N/A</value>
+	<value code="NOT">NOT IMPAIRED</value>
+</variable>
+
+<variable id="phv00082465.v1">
+	<name>OTH_MTN_RAWSCORE</name>
+	<description>MTN: Other - Raw Score</description>
+</variable>
+
+<variable id="phv00082466.v1">
+	<name>OTH_PALMS_PYR_DATE</name>
+	<description>PALMS &amp; PYRAMIDS: Other - Test date</description>
+	<comment>Truncated to YYYY</comment>
+</variable>
+
+<variable id="phv00082467.v1">
+	<name>OTH_PALMS_PYR_INTERPRETATION</name>
+	<description>PALMS &amp; PYRAMIDS: Other - Interpretation</description>
+	<type>Encoded Value</type>
+	<value code="IMP">Impaired</value>
+	<value code="NA">N/A</value>
+	<value code="NOT">NOT IMPAIRED</value>
+</variable>
+
+<variable id="phv00082468.v1">
+	<name>OTH_PALMS_PYR_RAWSCORE</name>
+	<description>PALMS &amp; PYRAMIDS: Other - Raw Score</description>
+</variable>
+
+<variable id="phv00082469.v1">
+	<name>OTH_PECPA_DATE</name>
+	<description>PECPA: Other - Test date</description>
+	<comment>Truncated to YYYY</comment>
+</variable>
+
+<variable id="phv00082470.v1">
+	<name>OTH_PECPA_INTERPRETATION</name>
+	<description>PECPA: Other - Interpretation</description>
+	<type>Encoded Value</type>
+	<value code="IMP">Impaired</value>
+	<value code="NA">N/A</value>
+	<value code="NOT">NOT IMPAIRED</value>
+</variable>
+
+<variable id="phv00082471.v1">
+	<name>OTH_PECPA_RAWSCORE</name>
+	<description>PECPA: Other - Raw Score</description>
+</variable>
+
+<variable id="phv00082472.v1">
+	<name>OTH_PECPA_2R_DATE</name>
+	<description>PECPA-2R: Other - Test date</description>
+	<comment>Truncated to YYYY</comment>
+</variable>
+
+<variable id="phv00082473.v1">
+	<name>OTH_PECPA_2R_INTERPRETATION</name>
+	<description>PECPA-2R: Other - Interpretation</description>
+	<type>Encoded Value</type>
+	<value code="IMP">Impaired</value>
+	<value code="NA">N/A</value>
+	<value code="NOT">NOT IMPAIRED</value>
+</variable>
+
+<variable id="phv00082474.v1">
+	<name>OTH_PECPA_2R_RAWSCORE</name>
+	<description>PECPA-2R: Other - Raw Score</description>
+</variable>
+
+<variable id="phv00082475.v1">
+	<name>OTH_PICA_DATE</name>
+	<description>PICA: Other - Test date</description>
+	<comment>Truncated to YYYY</comment>
+</variable>
+
+<variable id="phv00082476.v1">
+	<name>OTH_PICA_INTERPRETATION</name>
+	<description>PICA: Other - Interpretation</description>
+	<type>Encoded Value</type>
+	<value code="IMP">Impaired</value>
+	<value code="NA">N/A</value>
+	<value code="NOT">NOT IMPAIRED</value>
+</variable>
+
+<variable id="phv00082477.v1">
+	<name>OTH_PICA_RAWSCORE</name>
+	<description>PICA: Other - Raw Score</description>
+</variable>
+
+<variable id="phv00082478.v1">
+	<name>OTH_PMTD_DATE</name>
+	<description>PROTOCOL MONTREAL TOULOUSE DIAGRAM: Other - Test date</description>
+	<comment>Truncated to YYYY</comment>
+</variable>
+
+<variable id="phv00082479.v1">
+	<name>OTH_PMTD_INTERPRETATION</name>
+	<description>PROTOCOL MONTREAL TOULOUSE DIAGRAM: Other - Interpretation</description>
+	<type>Encoded Value</type>
+	<value code="IMP">Impaired</value>
+	<value code="NA">N/A</value>
+	<value code="NOT">NOT IMPAIRED</value>
+</variable>
+
+<variable id="phv00082480.v1">
+	<name>OTH_PMTD_RAWSCORE</name>
+	<description>PROTOCOL MONTREAL TOULOUSE DIAGRAM: Other - Raw Score</description>
+</variable>
+
+<variable id="phv00082481.v1">
+	<name>OTH_RAMPARTS_DATE</name>
+	<description>RAMPARTS: Other - Test date</description>
+	<comment>Truncated to YYYY</comment>
+</variable>
+
+<variable id="phv00082482.v1">
+	<name>OTH_RAMPARTS_INTERPRETATION</name>
+	<description>RAMPARTS: Other - Interpretation</description>
+	<type>Encoded Value</type>
+	<value code="IMP">Impaired</value>
+	<value code="NA">N/A</value>
+	<value code="NOT">NOT IMPAIRED</value>
+</variable>
+
+<variable id="phv00082483.v1">
+	<name>OTH_RAMPARTS_RAWSCORE</name>
+	<description>RAMPARTS: Other - Raw Score</description>
+</variable>
+
+<variable id="phv00082484.v1">
+	<name>OTH_REY_DIAGRAM_DATE</name>
+	<description>REY DIAGRAM: Other - Test date</description>
+	<comment>Truncated to YYYY</comment>
+</variable>
+
+<variable id="phv00082485.v1">
+	<name>OTH_REY_DIAGRAM_INTERPRETATION</name>
+	<description>REY DIAGRAM: Other - Interpretation</description>
+	<type>Encoded Value</type>
+	<value code="IMP">Impaired</value>
+	<value code="NA">N/A</value>
+	<value code="NOT">NOT IMPAIRED</value>
+</variable>
+
+<variable id="phv00082486.v1">
+	<name>OTH_REY_DIAGRAM_RAWSCORE</name>
+	<description>REY DIAGRAM: Other - Raw Score</description>
+</variable>
+
+<variable id="phv00082487.v1">
+	<name>OTH_SEM_TASK_DATE</name>
+	<description>SEMANTIC TASK: Other - Test date</description>
+	<comment>Truncated to YYYY</comment>
+</variable>
+
+<variable id="phv00082488.v1">
+	<name>OTH_SEM_TASK_INTERPRETATION</name>
+	<description>SEMANTIC TASK: Other - Interpretation</description>
+	<type>Encoded Value</type>
+	<value code="IMP">Impaired</value>
+	<value code="NA">N/A</value>
+	<value code="NOT">NOT IMPAIRED</value>
+</variable>
+
+<variable id="phv00082489.v1">
+	<name>OTH_SEM_TASK_RAWSCORE</name>
+	<description>SEMANTIC TASK: Other - Raw Score</description>
+</variable>
+
+<variable id="phv00082490.v1">
+	<name>OTH_STROOP_DATE</name>
+	<description>STROOP: Other - Test date</description>
+	<comment>Truncated to YYYY</comment>
+</variable>
+
+<variable id="phv00082491.v1">
+	<name>OTH_STROOP_INTERPRETATION</name>
+	<description>STROOP: Other - Interpretation</description>
+	<type>Encoded Value</type>
+	<value code="IMP">Impaired</value>
+	<value code="NA">N/A</value>
+	<value code="NOT">NOT IMPAIRED</value>
+</variable>
+
+<variable id="phv00082492.v1">
+	<name>OTH_STROOP_RAWSCORE</name>
+	<description>STROOP: Other - Raw Score</description>
+</variable>
+
+<variable id="phv00082493.v1">
+	<name>OTH_TRAIL_A_DATE</name>
+	<description>TRAIL A: Other - Test date</description>
+	<comment>Truncated to YYYY</comment>
+</variable>
+
+<variable id="phv00082494.v1">
+	<name>OTH_TRAIL_A_INTERPRETATION</name>
+	<description>TRAIL A: Other - Interpretation</description>
+	<type>Encoded Value</type>
+	<value code="IMP">Impaired</value>
+	<value code="NA">N/A</value>
+	<value code="NOT">NOT IMPAIRED</value>
+</variable>
+
+<variable id="phv00082495.v1">
+	<name>OTH_TRAIL_A_RAWSCORE</name>
+	<description>TRAIL A: Other - Raw Score</description>
+</variable>
+
+<variable id="phv00082496.v1">
+	<name>OTH_TRAIL_B_DATE</name>
+	<description>TRAIL B: Other - Test date</description>
+	<comment>Truncated to YYYY</comment>
+</variable>
+
+<variable id="phv00082497.v1">
+	<name>OTH_TRAIL_B_INTERPRETATION</name>
+	<description>TRAIL B: Other - Interpretation</description>
+	<type>Encoded Value</type>
+	<value code="IMP">Impaired</value>
+	<value code="NA">N/A</value>
+	<value code="NOT">NOT IMPAIRED</value>
+</variable>
+
+<variable id="phv00082498.v1">
+	<name>OTH_TRAIL_B_RAWSCORE</name>
+	<description>TRAIL B: Other - Raw Score</description>
+</variable>
+
+<variable id="phv00082499.v1">
+	<name>OTH_VLT_DATE</name>
+	<description>VERBAL LEARNING TEST: Other - Test date</description>
+	<comment>Truncated to YYYY</comment>
+</variable>
+
+<variable id="phv00082500.v1">
+	<name>OTH_VLT_INTERPRETATION</name>
+	<description>VERBAL LEARNING TEST: Other - Interpretation</description>
+	<type>Encoded Value</type>
+	<value code="IMP">Impaired</value>
+	<value code="NA">N/A</value>
+	<value code="NOT">NOT IMPAIRED</value>
+</variable>
+
+<variable id="phv00082501.v1">
+	<name>OTH_VLT_RAWSCORE</name>
+	<description>VERBAL LEARNING TEST: Other - Raw Score</description>
+</variable>
+
+<variable id="phv00082502.v1">
+	<name>OTH_WAB_DATE</name>
+	<description>WAB: Other - Test date</description>
+	<comment>Truncated to YYYY</comment>
+</variable>
+
+<variable id="phv00082503.v1">
+	<name>OTH_WAB_INTERPRETATION</name>
+	<description>WAB: Other - Interpretation</description>
+	<type>Encoded Value</type>
+	<value code="IMP">Impaired</value>
+	<value code="NA">N/A</value>
+	<value code="NOT">NOT IMPAIRED</value>
+</variable>
+
+<variable id="phv00082504.v1">
+	<name>OTH_WAB_RAWSCORE</name>
+	<description>WAB: Other - Raw Score</description>
+</variable>
+
+<variable id="phv00082505.v1">
+	<name>OTH_WAB_AQ_DATE</name>
+	<description>WAB-AQ: Other - Test date</description>
+	<comment>Truncated to YYYY</comment>
+</variable>
+
+<variable id="phv00082506.v1">
+	<name>OTH_WAB_AQ_INTERPRETATION</name>
+	<description>WAB-AQ: Other - Interpretation</description>
+	<type>Encoded Value</type>
+	<value code="IMP">Impaired</value>
+	<value code="NA">N/A</value>
+	<value code="NOT">NOT IMPAIRED</value>
+</variable>
+
+<variable id="phv00082507.v1">
+	<name>OTH_WAB_AQ_RAWSCORE</name>
+	<description>WAB-AQ: Other - Raw Score</description>
+</variable>
+
+<variable id="phv00082508.v1">
+	<name>OTH_WAISS_111_DATE</name>
+	<description>WAISS-111: Other - Test date</description>
+	<comment>Truncated to YYYY</comment>
+</variable>
+
+<variable id="phv00082509.v1">
+	<name>OTH_WAISS_111_INTERPRETATION</name>
+	<description>WAISS-111: Other - Interpretation</description>
+	<type>Encoded Value</type>
+	<value code="IMP">Impaired</value>
+	<value code="NA">N/A</value>
+	<value code="NOT">NOT IMPAIRED</value>
+</variable>
+
+<variable id="phv00082510.v1">
+	<name>OTH_WAISS_111_RAWSCORE</name>
+	<description>WAISS-111: Other - Raw Score</description>
+</variable>
+
+<variable id="phv00082511.v1">
+	<name>OTH_WISCONSIN_DATE</name>
+	<description>WISCONSIN: Other - Test date</description>
+	<comment>Truncated to YYYY</comment>
+</variable>
+
+<variable id="phv00082512.v1">
+	<name>OTH_WISCONSIN_INTERPRETATION</name>
+	<description>WISCONSIN: Other - Interpretation</description>
+	<type>Encoded Value</type>
+	<value code="IMP">Impaired</value>
+	<value code="NA">N/A</value>
+	<value code="NOT">NOT IMPAIRED</value>
+</variable>
+
+<variable id="phv00082513.v1">
+	<name>OTH_WISCONSIN_RAWSCORE</name>
+	<description>WISCONSIN: Other - Raw Score</description>
+</variable>
+
+<variable id="phv00082514.v1">
+	<name>OTH_WR_DATE</name>
+	<description>WORDLIST RECOGNITION: Other - Test date</description>
+	<comment>Truncated to YYYY</comment>
+</variable>
+
+<variable id="phv00082515.v1">
+	<name>OTH_WR_INTERPRETATION</name>
+	<description>WORDLIST RECOGNITION: Other - Interpretation</description>
+	<type>Encoded Value</type>
+	<value code="IMP">Impaired</value>
+	<value code="NA">N/A</value>
+	<value code="NOT">NOT IMPAIRED</value>
+</variable>
+
+<variable id="phv00082516.v1">
+	<name>OTH_WR_RAWSCORE</name>
+	<description>WORDLIST RECOGNITION: Other - Raw Score</description>
+</variable>
+
+</data_table>

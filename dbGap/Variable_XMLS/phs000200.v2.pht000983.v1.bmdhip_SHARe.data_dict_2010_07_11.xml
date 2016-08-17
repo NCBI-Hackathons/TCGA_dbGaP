@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./datadict_v2.xsl"?>
+<data_table id="pht000983.v1" study_id="phs000200.v2" participant_set="1" date_created="Sun Jul 11 18:39:55 2010">
+
+<unique_key phv="00077316" version="1">SHAREID</unique_key>
+<unique_key phv="00077317" version="1">HIPVTYP</unique_key>
+<unique_key phv="00077318" version="1">HIPVY</unique_key>
+
+<variable id="phv00077316.v1">
+	<name>SHAREID</name>
+	<description>WHI SHARe ID</description>
+	<type>integer</type>
+</variable>
+
+<variable id="phv00077317.v1">
+	<name>HIPVTYP</name>
+	<description>Hip scan visit type</description>
+	<type>encoded value</type>
+	<value code="1">Screening</value>
+	<value code="2">Semi-Annual</value>
+	<value code="3">Annual</value>
+	<value code="4">Non-Routine</value>
+</variable>
+
+<variable id="phv00077318.v1">
+	<name>HIPVY</name>
+	<description>Hip scan visit year</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>11</logical_max>
+	<comment>Visit year for which this BMD scan was collected.</comment>
+</variable>
+
+<variable id="phv00077319.v1">
+	<name>HIPDAYS</name>
+	<description>Hip scan days from randomization/enrollment</description>
+	<type>integer</type>
+	<unit>days</unit>
+	<logical_min>-791</logical_min>
+	<logical_max>4002</logical_max>
+</variable>
+
+<variable id="phv00077320.v1">
+	<name>HIPSDSCN</name>
+	<description>Side of the Hip Scan</description>
+	<type>encoded value</type>
+	<value code="1">Right side</value>
+	<value code="2">Left side</value>
+</variable>
+
+<variable id="phv00077321.v1">
+	<name>HIPAREA</name>
+	<description>Area of the Total Hip (cm squared)</description>
+	<type>decimal</type>
+	<unit>cm squared</unit>
+	<logical_min>24.42</logical_min>
+	<logical_max>48.23</logical_max>
+</variable>
+
+<variable id="phv00077322.v1">
+	<name>HIPBMC</name>
+	<description>BMC of the Total Hip (grams)</description>
+	<type>decimal</type>
+	<unit>g</unit>
+	<logical_min>12.49</logical_min>
+	<logical_max>60.31</logical_max>
+</variable>
+
+<variable id="phv00077323.v1">
+	<name>HIPBMDCOR</name>
+	<description>BMD of the Total Hip (corrected) (g/cm sq)</description>
+	<type>decimal</type>
+	<unit>g/cm squared</unit>
+	<logical_min>0.396</logical_min>
+	<logical_max>1.445</logical_max>
+	<comment>Corrected BMD value is based on recommendations from the UCSF quality assurance report.  For details see the Data Preparation document.</comment>
+</variable>
+
+<variable id="phv00077324.v1">
+	<name>HIPINBMD</name>
+	<description>BMD of the Hip Intertrochanter (g/cm sq)</description>
+	<type>decimal</type>
+	<unit>g/cm squared</unit>
+	<logical_min>0.441</logical_min>
+	<logical_max>1.774</logical_max>
+</variable>
+
+<variable id="phv00077325.v1">
+	<name>HIPTRBMD</name>
+	<description>BMD of the Hip Trochanter (g/cm squared)</description>
+	<type>decimal</type>
+	<unit>g/cm squared</unit>
+	<logical_min>0.286</logical_min>
+	<logical_max>1.202</logical_max>
+</variable>
+
+<variable id="phv00077326.v1">
+	<name>HIPNKBMD</name>
+	<description>BMD of the Hip Neck (g/cm squared)</description>
+	<type>decimal</type>
+	<unit>g/cm squared</unit>
+	<logical_min>0.372</logical_min>
+	<logical_max>1.653</logical_max>
+</variable>
+
+<variable id="phv00077327.v1">
+	<name>HIPWDBMD</name>
+	<description>BMD of the Hip Wards Triangle (g/cm sq)</description>
+	<type>decimal</type>
+	<unit>g/cm squared</unit>
+	<logical_min>0.151</logical_min>
+	<logical_max>1.358</logical_max>
+</variable>
+
+<variable id="phv00077328.v1">
+	<name>HIPSID</name>
+	<description>Hip scanner ID</description>
+	<type>encoded value</type>
+	<value code="1">Scanner 1</value>
+	<value code="2">Scanner 2</value>
+	<value code="3">Scanner 3</value>
+	<value code="4">Scanner 4</value>
+	<value code="5">Scanner 5</value>
+	<value code="6">Scanner 6</value>
+	<value code="7">Scanner 7</value>
+</variable>
+
+</data_table>

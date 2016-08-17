@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GaPExchange xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="./dbGaPEx2.1.5.xsd">
+
+<MetaVariables>
+	<Submitter/>
+	<Method/>
+</MetaVariables>
+<MetaLinks/>
+
+<Projects>
+	<Project/>
+</Projects>
+
+<Studies>
+
+<Study source="dbGaP" accession="phs000694.v1.p1" parentStudy="phs000694.v1.p1" createDate="2014-01-06" modDate="2014-01-06">
+
+<Configuration>
+	<Data_Provider><![CDATA[
+		<table border="1">
+		<tr><th>Title</th><th>Name</th><th>Institute</th></tr>
+		<tr><td>Principal Investigator</td><td>Levi Garraway</td><td>Dana Farber Cancer Institute, Boston, MA, USA</td></tr>
+		<tr><td>Funding Source</td><td>NIH 1U01HG006492-01</td><td>National Institutes of Health, Bethesda, MD, USA</td></tr>
+		</table>
+	]]></Data_Provider>
+	<StudyNameEntrez>Clinical Cancer Sequencing</StudyNameEntrez>
+	<StudyNameReportPage>Clinical Cancer Sequencing</StudyNameReportPage>
+	<StudyTypes>
+		<StudyType>Case Set</StudyType>
+	</StudyTypes>
+	<Description><![CDATA[
+<p>Translating whole exome sequencing (WES) for prospective clinical use may impact the care of cancer patients; however, multiple innovations are necessary for clinical implementation. These include: (1) rapid and robust WES from formalin-fixed paraffin embedded (FFPE) tumor tissue, (2) analytical output similar to data from frozen samples, and (3) clinical interpretation of WES data for prospective use. In this study, we describe a prospective clinical WES platform for archival FFPE tumor samples. The platform employs computational methods for effective clinical analysis and interpretation of WES data. When applied retrospectively to 511 exomes, the interpretative framework revealed a "long tail" of somatic alterations in clinically important genes. Prospective application of this approach identified clinically relevant alterations in 15/16 patients. Overall, this methodology may inform the widespread implementation of precision cancer medicine.</p>]]>
+	</Description>
+	<StudyProjects>
+		<Project/>
+	</StudyProjects>
+	<Diseases>
+		<Disease vocab_source="MESH" vocab_term="Neoplasms"/>
+	</Diseases>
+	<Attributions>
+		<Header title="Principal Investigator">
+			<AttName>Levi Garraway</AttName>
+			<Institution>Dana Farber Cancer Institute, Boston, MA, USA</Institution>
+		</Header>
+		<Header title="Funding Source">
+			<AttName>NIH 1U01HG006492-01</AttName>
+			<Institution>National Institutes of Health, Bethesda, MD, USA</Institution>
+		</Header>
+	</Attributions>
+	<DisplayPublicSummary>yes</DisplayPublicSummary>
+	<ConsentGroups>
+		<ConsentGroup groupNum="1" shortName="DS-CA-MDS" longName="Disease-Specific (Cancer, MDS)"/>
+	</ConsentGroups>
+</Configuration>
+
+  <AuthorizedAccess>
+    <DacInfo ssDacId="0">
+      <DacName>NHGRI</DacName>
+      <DacFullName>National Human Genome Research Institute</DacFullName>
+      <DacEmail>0</DacEmail>
+      <DacPhone></DacPhone>
+      <DacUrl></DacUrl>
+    </DacInfo>
+    <Policy Policy_ID="phs000694.v1.p1_policy" ref_ssDacId="0">
+      <DisplayResearchStatement>yes</DisplayResearchStatement>
+      <DisplayPublicSummary>yes</DisplayPublicSummary>
+      <EmbargoLength>0</EmbargoLength>
+      <YearsUntilRenewal>1</YearsUntilRenewal>
+      <WeeksCancelRequest>8</WeeksCancelRequest>
+      <PdfSupplementReqired>no</PdfSupplementReqired>
+      <AcknowledgementText>
+        <para>
+          http://dbgap.ncbi.nlm.nih.gov/aa/wga.cgi?page=DUC&amp;view_pdf&amp;stacc=phs000694.v1.p1
+        </para>
+      </AcknowledgementText>
+      <DocumentSet>
+        <DataUseCertificate Label="Data Use Certificate" FilePath="https://dbgap.ncbi.nlm.nih.gov/aa/wga.cgi?page=DUC&amp;view_pdf&amp;stacc=phs000694.v1.p1" FileName="Clinica_20Cancer_20Sequencing_20DUC.pdf"/>
+      </DocumentSet>
+    </Policy>
+    <ConsentGroups>
+      <ParticipantSet groupNum-REF="1">
+        <ConsentName>Disease-Specific (Cancer, MDS)</ConsentName>
+        <ConsentAbbrev>DS-CA-MDS</ConsentAbbrev>
+        <UseLimitation>Use of the data must be related to Cancer.
+Use of the data includes methods development research (e.g., development of software or algorithms).</UseLimitation>
+        <IrbRequired>No</IrbRequired>
+      </ParticipantSet>
+    </ConsentGroups>
+  </AuthorizedAccess>
+
+
+</Study>
+
+</Studies>
+
+</GaPExchange>

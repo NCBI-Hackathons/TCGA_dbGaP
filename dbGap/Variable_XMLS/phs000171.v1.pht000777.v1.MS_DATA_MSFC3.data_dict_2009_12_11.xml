@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./datadict_v2.xsl"?>
+<data_table id="pht000777.v1" study_id="phs000171.v1" participant_set="1" date_created="Fri Dec 11 14:12:58 2009">
+
+<variable id="phv00073270.v1">
+	<name>SUBJID</name>
+	<description>Subject&#39;s ID</description>
+	<type>string</type>
+</variable>
+
+<variable id="phv00073271.v1">
+	<name>CASE_CONTROL</name>
+	<description>Type of subject</description>
+	<type>string, encoded values</type>
+	<value code="CASE">Affected subject per Protocol</value>
+	<value code="CNTL">Control subject per Protocol</value>
+</variable>
+
+<variable id="phv00073272.v1">
+	<name>STUDY</name>
+	<description>Study ID</description>
+	<type>string</type>
+	<comment>Always RES101833</comment>
+</variable>
+
+<variable id="phv00073273.v1">
+	<name>INVSITE</name>
+	<description>Investigator site ID</description>
+	<type>string</type>
+	<comment>Numeric code identifying the site (for internal use)</comment>
+</variable>
+
+<variable id="phv00073274.v1">
+	<name>INV</name>
+	<description>Investigator&#39;s ID</description>
+	<type>string</type>
+	<comment>Numeric code identifying the investigator (for internal use)</comment>
+</variable>
+
+<variable id="phv00073275.v1">
+	<name>VISIT</name>
+	<description>Visit name</description>
+	<type>string</type>
+	<value code="CSA">Common Subject Assessment</value>
+	<value code="ELIGIBILITY">Eligibility questionnaire</value>
+	<value code="BASELINE">Baseline assessment questionnaire</value>
+	<value code="LAB WBC">Lab results</value>
+	<value code="SELF REPORT">Subject completed self report questionnaire</value>
+</variable>
+
+<variable id="phv00073276.v1">
+	<name>VISIT_DATE</name>
+	<description>Visit date</description>
+	<type>date</type>
+	<comment>Truncated to YYYY</comment>
+</variable>
+
+<variable id="phv00073277.v1">
+	<name>GT2AT</name>
+	<description>Greater than 2 attempts</description>
+	<type>Encoded Value</type>
+	<value code="Y">Yes</value>
+	<value code="N">No</value>
+</variable>
+
+<variable id="phv00073278.v1">
+	<name>GT2ATTX</name>
+	<description>Greater than 2 attempts - specify</description>
+	<type>String</type>
+</variable>
+
+<variable id="phv00073279.v1">
+	<name>TR1AFTX</name>
+	<description>Trial 1 - Affected circumstances</description>
+	<type>String</type>
+</variable>
+
+<variable id="phv00073280.v1">
+	<name>TR1RN</name>
+	<description>Trial 1 - Reason not complete</description>
+	<type>Encoded Value</type>
+	<value code="UCT">Unable to complete trial due to physical limitations</value>
+	<value code="X">Other</value>
+</variable>
+
+<variable id="phv00073281.v1">
+	<name>TR1RNTX</name>
+	<description>Trial 1 - Reason not complete - specify</description>
+	<type>String</type>
+</variable>
+
+<variable id="phv00073282.v1">
+	<name>TR1SEC</name>
+	<description>Trial 1 - Time in seconds</description>
+	<type>Decimal</type>
+	<unit>Seconds</unit>
+	<logical_min>0</logical_min>
+	<logical_max>999.9</logical_max>
+</variable>
+
+<variable id="phv00073283.v1">
+	<name>TR2AFTX</name>
+	<description>Trial 2 - Affected circumstances</description>
+	<type>String</type>
+</variable>
+
+<variable id="phv00073284.v1">
+	<name>TR2RN</name>
+	<description>Trial 2 - Reason not complete</description>
+	<type>Encoded Value</type>
+	<value code="UCT">Unable to complete trial due to physical limitations</value>
+	<value code="X">Other</value>
+</variable>
+
+<variable id="phv00073285.v1">
+	<name>TR2RNTX</name>
+	<description>Trial 2 - Reason not complete - specify</description>
+	<type>String</type>
+</variable>
+
+<variable id="phv00073286.v1">
+	<name>TR2SEC</name>
+	<description>Trial 2 - Time in seconds</description>
+	<type>Decimal</type>
+	<unit>Seconds</unit>
+	<logical_min>0</logical_min>
+	<logical_max>999.9</logical_max>
+</variable>
+
+</data_table>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./datadict_v2.xsl"?>
+<data_table id="pht000620.v1" study_id="phs000125.v1" participant_set="1" date_created="Thu Oct  2 11:28:22 2008">
+
+<variable id="phv00065546.v1">
+	<name>sharing_level</name>
+	<description>Sharing levels</description>
+	<type>integer</type>
+	<value code="0">Subjects did not participate in the study, did not complete a consent document and are included only for the pedigree structure and/or genotype controls, such as HapMap subjects.</value>
+	<value code="1">HEALTH RESEARCH</value>
+	<value code="2">ALCOHOL AND RELATED CONDITIONS</value>
+</variable>
+
+<variable id="phv00066657.v1">
+	<name>source_subject_id</name>
+	<description>Source subject ID</description>
+</variable>
+
+<variable id="phv00065545.v1">
+	<name>subject_id</name>
+	<description>Unique random subject ID, which is a de-identified ID given by the study to a person.</description>
+	<type>integer</type>
+</variable>
+
+<variable id="phv00066656.v1">
+	<name>subject_source</name>
+	<description>HapMap subjects with Coriell identifiers</description>
+</variable>
+
+<variable id="phv00065547.v1">
+	<name>type</name>
+	<description>Affection status - case or control</description>
+	<type>string</type>
+	<value code="CA">CASE</value>
+	<value code="CO">CONTROL</value>
+</variable>
+
+</data_table>

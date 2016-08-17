@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./datadict_v2.xsl"?>
+<data_table id="pht001513.v1" study_id="phs000200.v3" participant_set="1" date_created="Thu Oct 21 09:31:32 2010">
+
+<unique_key phv="00111518" version="1">SHAREID</unique_key>
+<unique_key phv="00111520" version="1">CAROTID</unique_key>
+<unique_key phv="00111521" version="1">STRKHEMO</unique_key>
+<unique_key phv="00111522" version="1">STRKISCH</unique_key>
+<unique_key phv="00111523" version="1">STROKE</unique_key>
+
+<variable id="phv00111518.v1">
+	<name>SHAREID</name>
+	<description>WHI SHARe ID</description>
+	<type>integer</type>
+</variable>
+
+<variable id="phv00111519.v1">
+	<name>ASCSOURCE</name>
+	<description>Ascertainment Source</description>
+	<type>encoded value</type>
+	<comment>Ascertainment Source
+		This file has one row for every form 121 or 132 recording Stroke or Carotid outcome(s).  A participant may have more than one of these forms and one form may record several different types of outcomes.  Only the first occurrence of each outcome is counted, e.g. Limiting the file to rows where STROKE=1 will find a single row for each participant with a Stroke outcome. </comment>
+	<value code="1">Local Form 121</value>
+	<value code="2">Central Form 121</value>
+	<value code="3">Central Form 132</value>
+</variable>
+
+<variable id="phv00111520.v1">
+	<name>CAROTID</name>
+	<description>Carotid Artery Disease</description>
+	<type>encoded value</type>
+	<comment>Carotid Artery Disease is adjudicated for CT and OS participants. Carotid Artery Disease occurring on or after a Stroke is not counted.</comment>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00111521.v1">
+	<name>STRKHEMO</name>
+	<description>Hemorrhagic Stroke</description>
+	<type>encoded value</type>
+	<comment>Defined as a Stroke where the diagnosis question indicates a hemorrhagic stroke. Hemorrhagic Stroke is adjudicated for CT and OS participants.  Form 121 and early versions of 132 were not able to record Hemorrhagic/Ischemic classification for procedure related Strokes.  See the Stroke Diagnosis variable for more detail.</comment>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00111522.v1">
+	<name>STRKISCH</name>
+	<description>Ischemic Stroke</description>
+	<type>encoded value</type>
+	<comment>Defined as a Stroke where the diagnosis question indicates an iscemic stroke. Ischemic Stroke is adjudicated for CT and OS participants.  Form 121 and early versions of 132 were not able to record Hemorrhagic/Ischemic classification for procedure related Strokes. See the Stroke Diagnosis variable for more detail.</comment>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00111523.v1">
+	<name>STROKE</name>
+	<description>Stroke</description>
+	<type>encoded value</type>
+	<comment>Defined as the first occurence of Stroke or a Death due to Cerebrovascular.  Stroke is adjudicated for CT and OS participants.  In order to be able to classify strokes, WHI uses central adjudications if possible, even though Strokes were only fully centrally adjudicated in HT participants. This file does not include Strokes determined solely by the cause of death.</comment>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00111524.v1">
+	<name>STROKEDX</name>
+	<description>Stroke diagnosis</description>
+	<type>encoded value</type>
+	<comment>Value 6 was only on form 121 and early versions of form 132.  Strokes with a diagnosis code of 6 were unable to be classified as Hemorrhagic or Ischemic.</comment>
+	<value code="1">Subarachnoid hemorrhage</value>
+	<value code="2">Intraparenchymal  hemorrhage</value>
+	<value code="3">Other or unspec intracranial hemorrhage</value>
+	<value code="4">Occlusion of cerebral arteries w/infarction</value>
+	<value code="5">Acute but ill-defined cerebrovascular disease</value>
+	<value code="6">Central nervous system complications during/from procedure</value>
+</variable>
+
+<variable id="phv00111525.v1">
+	<name>STROKEPROC</name>
+	<description>Stroke occur. during/resulted from procedure</description>
+	<type>encoded value</type>
+	<comment>Stroke occurred during or resulted from a procedure.
+		Not collected on early versions of F132.  A stroke is defined as procedure-related if it occurs within 24 hours after any procedure or within 30 days after a cardioversion or invasive cardiovascular procedure. </comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+	<value code="9">Unknown</value>
+</variable>
+
+<variable id="phv00111526.v1">
+	<name>STROKEOUTPAT</name>
+	<description>F132 Stroke diagnosed or managed as outpatient</description>
+	<type>encoded value</type>
+	<comment>Was the stroke diagnosed or managed as an outpatient?*&lt;br/&gt; *The outpatient setting includes any emergency department or observation unit, short hospital stays of less than 24 hours duration or a direct admission to a rehab facility without an associated admission to an acute care hospital.
+		Only collected after WHI closeout. </comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00111527.v1">
+	<name>STROKEOXFORD</name>
+	<description>Oxfordshire Classification</description>
+	<type>encoded value</type>
+	<value code="1">Total Anterior Circulation Infarction (TACI )</value>
+	<value code="2">Partial Anterior Circulation Infarction  (PACI)</value>
+	<value code="3">Lacunar Infarction (LACI)</value>
+	<value code="4">Posterior Circulation Infarction (POCI)</value>
+</variable>
+
+<variable id="phv00111528.v1">
+	<name>STROKETOAST</name>
+	<description>TOAST Classification</description>
+	<type>encoded value</type>
+	<comment>Trial of Org 10172 in Acute Stroke Treatment (TOAST) Classification
+		A &#39;probable&#39; diagnosis is made if the clinical findings, neuroimaging data, and results of diagnostic studies are consistent with one subtype and other etiologies have been excluded.  A &#39;possible&#39; diagnosis is made when the clinical findings and neuroimaging data suggest a specific subtype but other studies are not done. </comment>
+	<value code="1">Probable large artery atherosclerosis</value>
+	<value code="2">Probable cardioembolism</value>
+	<value code="3">Probable small vessel occlusion (lacune)</value>
+	<value code="4">Probable stroke of other determined etiology</value>
+	<value code="5">Possible large artery atherosclerosis</value>
+	<value code="6">Possible cardioembolism</value>
+	<value code="7">Possible small vessel occlusion (lacune)</value>
+	<value code="10">Possible Stroke of other determined etiology</value>
+	<value code="11">Stroke undetermined two or more causes identified</value>
+	<value code="12">Stroke undetermind negative evaluation</value>
+	<value code="13">Stroke undetermined incomplete evaluation</value>
+</variable>
+
+<variable id="phv00111529.v1">
+	<name>STROKEBASE</name>
+	<description>Stroke diagnosis based on</description>
+	<type>encoded value</type>
+	<value code="1">Rapid neuro deficit andCT/MRI lesion and w/o evid. of blood</value>
+	<value code="2">Rapid neuro deficit duration &gt;= 24 hrs and rad n/a</value>
+	<value code="3">Rapid neuro deficit duration &gt;= 24hrs and rad early no acute</value>
+	<value code="4">Surgical evidence of ischemic infarction</value>
+	<value code="5">CT or MRI blood hemor. in subarachnoid or intra-parenchymal</value>
+	<value code="6">Positive lumbar puncture</value>
+	<value code="7">Surgical evidence of hemorrhage</value>
+	<value code="8">None of the above</value>
+</variable>
+
+<variable id="phv00111530.v1">
+	<name>STROKE28DEATH</name>
+	<description>Hospitalized stroke within 28 days of death</description>
+	<type>encoded value</type>
+	<comment>If stroke fatal: Hospitalized stroke within 28 days of death</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00111531.v1">
+	<name>STROKEPREV</name>
+	<description>Previous stroke and no other lethal disease</description>
+	<type>encoded value</type>
+	<comment>If stroke fatal: Previous stroke and no known potentially lethal non-cerebrovascular disease process</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00111532.v1">
+	<name>STROKEPOSTMORT</name>
+	<description>Stroke diagnosed at post-mortem</description>
+	<type>encoded value</type>
+	<comment>If stroke fatal: Stroke diagnosed as cause of death at post-mortem examination</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00111533.v1">
+	<name>STROKEDEATHCERT</name>
+	<description>Stroke listed on death certificate</description>
+	<type>encoded value</type>
+	<comment>If stroke fatal: Stroke listed as underlying cause of death on death certificate</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00111534.v1">
+	<name>STROKEGLASGOW</name>
+	<description>Glascow stroke outcome scale</description>
+	<type>encoded value</type>
+	<comment>Participant&#39;s functional status at the time of discharge (Glasgow Outcome Scale)</comment>
+	<value code="1">Good recovery</value>
+	<value code="2">Moderately disabled</value>
+	<value code="3">Severely disabled</value>
+	<value code="4">Vegetative survival</value>
+	<value code="5">Deceased</value>
+	<value code="6">Unable to assign category</value>
+</variable>
+
+<variable id="phv00111535.v1">
+	<name>CARDX</name>
+	<description>Carotid artery disease diagnosis</description>
+	<type>encoded value</type>
+	<comment>Collected on all versions of form 121, only collected on form 132 after WHI closeout.</comment>
+	<value code="1">Occlusion/stenosis w/o documentation of cerebral infarction</value>
+	<value code="2">Occlusion/stenosis w documentation of cerebral infarcation</value>
+</variable>
+
+<variable id="phv00111536.v1">
+	<name>CARBHOSP</name>
+	<description>Carotid artery disease based on hosp discharge</description>
+	<type>encoded value</type>
+	<comment>Carotid artery disease based on: Symptomatic disease with carotid artery disease listed on the hospital discharge summary
+		Collected on all versions of form 121, only collected on form 132 after WHI closeout. </comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00111537.v1">
+	<name>CARBABNORMAL</name>
+	<description>Carotid artery disease based on abnormal findings</description>
+	<type>encoded value</type>
+	<comment>Carotid artery disease based on: Symptomatic disease with abnormal findings (&gt;= 50% stenosis) on carotid angiogram, MRA, or Doppler flow study
+		Collected on all versions of form 121, only collected on form 132 after WHI closeout. </comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00111538.v1">
+	<name>CARBPROC</name>
+	<description>Carotid artery disease based on vasc/surg proc.</description>
+	<type>encoded value</type>
+	<comment>Carotid artery disease based on: Vascular or surgical procedure to improve flow to the ipsilateral brain.
+		Collected on all versions of form 121, only collected on form 132 after WHI closeout. </comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+</data_table>

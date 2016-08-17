@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GaPExchange xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="dbGaPEx2.1.5.xsd">
+
+<MetaVariables>
+	<Submitter/>
+	<Method/>
+</MetaVariables>
+<MetaLinks/>
+
+<Projects>
+	<Project/>
+</Projects>
+
+<Studies>
+
+<Study source="dbGaP" accession="phs000203.v1.p1" parentStudy="phs000203.v1.p1" createDate="2009-06-17" modDate="2011-08-08">
+
+<Configuration>
+	<Data_Provider><![CDATA[
+		<table border="1">
+		<tr><th>Title</th><th>Name</th><th>Institute</th></tr>
+		<tr><td>Principal Investigator</td><td>Christopher G. Chute, MD, DRPH</td><td>Mayo Clinic College of Medicine, Rochester, MN, USA</td></tr>
+		<tr><td>Institute</td><td>Mayo Clinic</td><td>Mayo Clinic, Rochester, MN, USA</td></tr>
+		<tr><td>Funding Source</td><td>HG04599-02</td><td>National Human Genome Research Institute, National Institutes of Health, Bethesda, MD, USA</td></tr>
+		<tr><td>Funding Source for Genotyping</td><td>U01-HG004424</td><td>National Human Genome Research Institute, National Institutes of Health, Bethesda, MD, USA</td></tr>
+		</table>
+	]]></Data_Provider>
+	<StudyNameEntrez>A Genome-Wide Association Study of Peripheral Arterial Disease</StudyNameEntrez>
+	<StudyNameReportPage>A Genome-Wide Association Study of Peripheral Arterial Disease</StudyNameReportPage>
+	<StudyTypes>
+		<StudyType>Case-Control</StudyType>
+	</StudyTypes>
+	<Description><![CDATA[
+<p>The Electronic Medical Record Phenotypes and Community-engaged Genomic Association Study aims to identify genetic variants 	mediating susceptibility to peripheral arterial disease (PAD). The study leverages a biorepository of blood samples of 1688 PAD 	cases and 1649 controls, and the electronic medical record (EMR) to annotate the biorepository.  PAD cases were identified 	from the vascular laboratory database as having an ankle brachial index (ABI) &lt;0.9 at rest or after exercise or having 	non-compressible vessels. Controls were without prior history of atherosclerotic vascular disease and when tested, no evidence 	of ischemia on a stress test. Phenotypes and environmental exposures including age, ethnicity, demographic and anthropometric 	data are derived from the Mayo Electronic Medical Record (EMR).  Comorbidities were determined using algorithms for diabetes 	and hypertension based on ICD-9 codes and medication use. Relevant laboratory data, including lipid levels, fasting blood 	sugar and serum creatinine at index date or within a 1-year window of the index date were extracted. Medication classes 	at index date were identified using Mayo&#39;s Natural Language Processing-based system with RxNorm codification and NDF-RT 	terminologies mapping. Smoking status was confirmed by natural language processing of clinical notes. Genotyping of ~600,000 	SNPs across the genome is being conducted at the Broad Institute using the Illumina 660W platform. Statistical analyses 	will be conducted to identify genetic variants associated with susceptibility to PAD.</p>]]>
+	</Description>
+	<StudyInEx><![CDATA[
+<p><b>PAD patients.</b> The PAD patients were identified from the non-invasive Vascular Laboratory at the Mayo Clinic Rochester. 	Patients seen at Mayo Clinic who are suspected of having PAD/claudication are referred for lower extremity non-invasive arterial 	evaluation at this laboratory.  We used the following criteria to define presence of PAD:  1) an ankle brachial index of &lt;0.9 	at rest or 1 min after exercise on the treadmill, along with an abnormal continuous wave Doppler signal in one of the lower 	extremity arteries, or 2) presence of non-compressible vessels.  We excluded patients with PAD secondary to vasculitis, radiation 	to the abdomen or lower extremities, trauma to lower extremity artery, thrombophilia and in situ thrombosis formation, and 	end-stage renal disease.</p> 	<p><b>Control subjects.</b>  Controls subjects were identified from patients referred to the Cardiovascular Health Clinic for 	screening for cardiovascular disease.  A large proportion of these patients underwent stress exercise ECG to rule out coronary 	artery disease.  We excluded patients who had a positive stress ECG, those who were younger than age 50, or those who had 	history of prior coronary heart disease.  A proportion of the subjects who underwent exercise ECG also underwent measurement 	of ankle brachial index.  The prevalence of an abnormal ABI in patients who had a negative stress ECG was &lt;1%.</p>]]>
+	</StudyInEx>
+	<StudyProjects>
+		<Project/>
+	</StudyProjects>
+	<Publications>
+		<Publication>
+			<Pubmed pmid="18385739"/>
+		</Publication>
+		<Publication>
+			<Pubmed pmid="18176561"/>
+		</Publication>
+	</Publications>
+	<Diseases>
+		<Disease vocab_source="MESH" vocab_term="Peripheral Vascular Diseases"/>
+	</Diseases>
+	<Attributions>
+		<Header title="Principal Investigator">
+			<AttName>Christopher G. Chute, MD, DRPH</AttName>
+			<Institution>Mayo Clinic College of Medicine, Rochester, MN, USA</Institution>
+		</Header>
+		<Header title="Institute">
+			<AttName>Mayo Clinic</AttName>
+			<Institution>Mayo Clinic, Rochester, MN, USA</Institution>
+		</Header>
+		<Header title="Funding Source">
+			<AttName>HG04599-02</AttName>
+			<Institution>National Human Genome Research Institute, National Institutes of Health, Bethesda, MD, USA</Institution>
+		</Header>
+		<Header title="Funding Source for Genotyping">
+			<AttName>U01-HG004424</AttName>
+			<Institution>National Human Genome Research Institute, National Institutes of Health, Bethesda, MD, USA</Institution>
+		</Header>
+	</Attributions>
+	<DisplayPublicSummary>yes</DisplayPublicSummary>
+	<StudyHistory><![CDATA[
+<p><u>Motivation for the study:</u> Sequencing of the human genome, subsequent validation of single nucleotide 	polymorphisms (SNPs), and advances in genotyping technology with decreasing costs have made possible studies that involve 	genotyping of 500,000 or more SNPs across the genome (genome-wide association studies).  Combining genome-wide association 	data with clinical information from the electronic medical record (EMR) provides new opportunities to identify genetic variants 	that influence susceptibility to the common &#39;complex&#39; diseases that afflict humans; this knowledge can be used to improve 	diagnosis, prognosis, prevention, and treatment of these diseases.  Existing health care systems can be leveraged for 	genomic research given the potential for speed, efficiency, cost-effectiveness, and rapid translation to improved care of 	patients.  However, optimal approaches for conducting genome-wide research in biorepositories to identify genes that 	influence susceptibility to complex diseases have yet to be established.</p> 	<p>An important goal of the project is to delineate optimal strategies for extracting comprehensive and unbiased phenotype/exposure 	data from the Mayo EMR, obtaining suitable consent for genome-wide association studies and broad data sharing, and interacting 	with participants, communities, and IRBs.  We will attempt to define potential sources of bias and error in phenotypic and exposure 	data derived from EMR, and identify approaches for improving data collection and standardization for genomic research. 	Additionally, we will identify sources of concern among biorepository participants and other relevant groups regarding current 	consent and consultation processes for application of genome-wide technologies, and for sharing of data; define needs for 	additional consent and/or consultation, and recommend approaches for improving consent and consultation processes in 	biorepository-based research.  Using state of the art statistical genetic methods, we will identify genetic variants associated 	with two distinct phenotypes of PAD using phenotype and covariate information derived from EMR data.  We will make the 	resulting data rapidly and widely available for research use and work collaboratively to share experience and expertise 	across participating biorepositories.</p>]]>
+	</StudyHistory>
+	<ConsentGroups>
+		<ConsentGroup groupNum="0" shortName="NRUP" longName="Subjects did not participate in the study, did not complete a consent document and are included only for the pedigree structure and/or genotype controls, such as HapMap subjects."/>
+		<ConsentGroup groupNum="1" shortName="HR_MYO" longName="Health Research - Mayo Clinic"/>
+	</ConsentGroups>
+</Configuration>
+
+  <AuthorizedAccess>
+    <DacInfo ssDacId="0">
+      <DacName>NHGRI</DacName>
+      <DacFullName>National Human Genome Research Institute</DacFullName>
+      <DacEmail>nhgridac@mail.nih.gov</DacEmail>
+      <DacPhone></DacPhone>
+      <DacFax>301-480-2770</DacFax>
+      <DacUrl>http://grants.nih.gov/grants/gwas</DacUrl>
+    </DacInfo>
+    <Policy Policy_ID="phs000203.v1.p1_policy" ref_ssDacId="0">
+      <DisplayResearchStatement>yes</DisplayResearchStatement>
+      <DisplayPublicSummary>yes</DisplayPublicSummary>
+      <EmbargoLength>12</EmbargoLength>
+      <YearsUntilRenewal>1</YearsUntilRenewal>
+      <WeeksCancelRequest>8</WeeksCancelRequest>
+      <PdfSupplementReqired>no</PdfSupplementReqired>
+      <AcknowledgementText>
+        <para>
+               http://dbgap.ncbi.nlm.nih.gov/aa/wga.cgi?page=DUC&amp;view_pdf&amp;stacc=phs000203.v1.p1
+            </para>
+      </AcknowledgementText>
+      <DocumentSet>
+        <DataUseCertificate Label="Data Use Certificate" FilePath="https://dbgap.ncbi.nlm.nih.gov/aa/wga.cgi?page=DUC&amp;view_pdf&amp;stacc=phs000203.v1.p1" FileName="eMERGE_GWAS_DUC_09-23-2011.pdf"/>
+      </DocumentSet>
+    </Policy>
+    <ConsentGroups>
+      <ParticipantSet groupNum-REF="1">
+        <ConsentName>Health Research - Mayo Clinic</ConsentName>
+        <ConsentAbbrev>HR_MYO</ConsentAbbrev>
+        <UseLimitation>Mayo Clinic Data may only be used for genetic studies to learn about, prevent, or treat health problems.
+Investigators must state in the Data Use Request their intention to publish or otherwise broadly share any findings from his or her study with the scientific community.</UseLimitation>
+        <IrbRequired>No</IrbRequired>
+      </ParticipantSet>
+    </ConsentGroups>
+  </AuthorizedAccess>
+  <Documents>
+    <Document phd="phd001644.1" type="protocol" createDate="2009-06-18" modDate="2010-10-12" urlToXml="http://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/GetDocumentXml.cgi?document_id=phd001644.1" urlToHtml="http://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/document.cgi?study_id=phs000203.v1.p1&amp;phd=1644">
+      <OrigName>NU_Type2Diabetes_pseudocode.pdf</OrigName>
+      <DisplayName>Pseudocode to Select T2DM (Type 2 Diabetes Mellitus) Cases &amp;amp; Controls</DisplayName>
+      <Description>Pseudocode to Select T2DM (Type 2 Diabetes Mellitus) Cases &amp;amp; Controls</Description>
+      <displayStatus>public</displayStatus>
+      <xmlStatus>public</xmlStatus>
+    </Document>
+    <Document phd="phd001645.1" type="protocol" createDate="2009-06-18" modDate="2010-10-12" urlToXml="http://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/GetDocumentXml.cgi?document_id=phd001645.1" urlToHtml="http://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/document.cgi?study_id=phs000203.v1.p1&amp;phd=1645">
+      <OrigName>Vanderbilt_phenotype_criteria_Hypertension.pdf</OrigName>
+      <DisplayName>Hypertension Phenotype Criteria</DisplayName>
+      <Description>Hypertension Phenotype Criteria</Description>
+      <displayStatus>public</displayStatus>
+      <xmlStatus>public</xmlStatus>
+    </Document>
+    <Document phd="phd003623.1" type="protocol" createDate="2011-07-19" modDate="2011-07-19" urlToXml="http://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/GetDocumentXml.cgi?document_id=phd003623.1" urlToHtml="http://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/document.cgi?study_id=phs000203.v1.p1&amp;phd=3623">
+      <OrigName>Mayo PAD algorithm.pdf</OrigName>
+      <DisplayName>Mayo Algorithm for Identifying PAD patients from the EMR</DisplayName>
+      <Description>Mayo Algorithm for Identifying PAD patients from the EMR</Description>
+      <displayStatus>public</displayStatus>
+      <xmlStatus>public</xmlStatus>
+    </Document>
+  </Documents>
+
+  <Annotations>
+    <DocumentPart phd="phd001644.1" sectionId="list1">
+      <phvList>
+        <phvRef variableId="76121"/>
+      </phvList>
+    </DocumentPart>
+    <DocumentPart phd="phd001645.1" sectionId="sec1">
+      <phvList>
+        <phvRef variableId="76119"/>
+      </phvList>
+    </DocumentPart>
+    <DocumentPart phd="phd003623.1" sectionId="li1">
+      <phvList>
+        <phvRef variableId="76110"/>
+      </phvList>
+    </DocumentPart>
+    <DocumentPart phd="phd003623.1" sectionId="li2">
+      <phvList>
+        <phvRef variableId="76110"/>
+      </phvList>
+    </DocumentPart>
+    <DocumentPart phd="phd003623.1" sectionId="li3">
+      <phvList>
+        <phvRef variableId="76110"/>
+      </phvList>
+    </DocumentPart>
+    <DocumentPart phd="phd003623.1" sectionId="p1">
+      <phvList>
+        <phvRef variableId="76110"/>
+      </phvList>
+    </DocumentPart>
+    <DocumentPart phd="phd003623.1" sectionId="p2">
+      <phvList>
+        <phvRef variableId="76110"/>
+      </phvList>
+    </DocumentPart>
+  </Annotations>
+
+
+
+</Study>
+
+</Studies>
+
+</GaPExchange>

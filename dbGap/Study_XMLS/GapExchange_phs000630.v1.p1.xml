@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GaPExchange xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="./dbGaPEx2.1.5.xsd">
+
+<MetaVariables>
+	<Submitter/>
+	<Method/>
+</MetaVariables>
+<MetaLinks/>
+
+<Projects>
+	<Project/>
+</Projects>
+
+<Studies>
+
+<Study source="dbGaP" accession="phs000630.v1.p1" parentStudy="phs000630.v1.p1" createDate="2013-06-26" modDate="2013-07-15">
+
+<Configuration>
+	<Data_Provider><![CDATA[
+		<table border="1">
+		<tr><th>Title</th><th>Name</th><th>Institute</th></tr>
+		<tr><td>Principal Investigators</td><td>Mark Daly, PhD</td><td>Massachusetts General Hospital, Boston, MA, USA</td></tr>
+		<tr><td>Principal Investigators</td><td>Benjamin Neale, PhD</td><td>Massachusetts General Hospital, Boston, MA, USA</td></tr>
+		<tr><td>Funding Source</td><td>Autism ARRA Sequencing Award</td><td>National Institute of Mental Health, National Institutes of Health, Bethesda, MD, USA</td></tr>
+		</table>
+	]]></Data_Provider>
+	<StudyNameEntrez>Exome Chip Study of NIMH Controls</StudyNameEntrez>
+	<StudyNameReportPage>Exome Chip Study of NIMH Controls</StudyNameReportPage>
+	<StudyTypes>
+		<StudyType>Control Set</StudyType>
+	</StudyTypes>
+	<Description><![CDATA[
+<p>Here, we report exome chip genotyping results of 1052 samples from the NIMH control set, a collection of healthy controls for general research use. The samples are all unrelated.</p>]]>
+	</Description>
+	<StudyInEx><![CDATA[
+<p>DNA quality was assessed by Picogreen quantification. SNP concordance and gender concordance checks were used to confirm that no significant contamination by foreign DNA was present and the samples were consistent with reported NIMH listed genders.</p>]]>
+	</StudyInEx>
+	<StudyProjects>
+		<Project/>
+	</StudyProjects>
+	<Publications>
+		<Publication>
+			<Pubmed pmid="22843986"/>
+		</Publication>
+	</Publications>
+	<Diseases>
+		<Disease vocab_source="MESH" vocab_term="Normalcy"/>
+	</Diseases>
+	<Attributions>
+		<Header title="Principal Investigators">
+			<AttName>Mark Daly, PhD</AttName>
+			<Institution>Massachusetts General Hospital, Boston, MA, USA</Institution>
+		</Header>
+		<Header title="Principal Investigators">
+			<AttName>Benjamin Neale, PhD</AttName>
+			<Institution>Massachusetts General Hospital, Boston, MA, USA</Institution>
+		</Header>
+		<Header title="Funding Source">
+			<AttName>Autism ARRA Sequencing Award</AttName>
+			<Institution>National Institute of Mental Health, National Institutes of Health, Bethesda, MD, USA</Institution>
+		</Header>
+	</Attributions>
+	<DisplayPublicSummary>yes</DisplayPublicSummary>
+	<ConsentGroups>
+		<ConsentGroup groupNum="1" shortName="GRU" longName="General Research Use"/>
+	</ConsentGroups>
+</Configuration>
+
+  <AuthorizedAccess>
+    <DacInfo ssDacId="0">
+      <DacName>NIMH</DacName>
+      <DacFullName>NIMH</DacFullName>
+      <DacEmail>0</DacEmail>
+      <DacPhone></DacPhone>
+      <DacUrl></DacUrl>
+    </DacInfo>
+    <Policy Policy_ID="phs000630.v1.p1_policy" ref_ssDacId="0">
+      <DisplayResearchStatement>yes</DisplayResearchStatement>
+      <DisplayPublicSummary>yes</DisplayPublicSummary>
+      <EmbargoLength>0</EmbargoLength>
+      <YearsUntilRenewal>1</YearsUntilRenewal>
+      <WeeksCancelRequest>8</WeeksCancelRequest>
+      <PdfSupplementReqired>no</PdfSupplementReqired>
+      <AcknowledgementText>
+        <para>
+          http://dbgap.ncbi.nlm.nih.gov/aa/wga.cgi?page=DUC&amp;view_pdf&amp;stacc=phs000630.v1.p1
+        </para>
+      </AcknowledgementText>
+      <DocumentSet>
+        <DataUseCertificate Label="Data Use Certificate" FilePath="https://dbgap.ncbi.nlm.nih.gov/aa/wga.cgi?page=DUC&amp;view_pdf&amp;stacc=phs000630.v1.p1" FileName="Daly_Mark_DUC_Exome_Chip_Study.pdf"/>
+      </DocumentSet>
+    </Policy>
+    <ConsentGroups>
+      <ParticipantSet groupNum-REF="1">
+        <ConsentName>General Research Use</ConsentName>
+        <ConsentAbbrev>GRU</ConsentAbbrev>
+        <UseLimitation>Use of the data is limited only by the terms of the model Data Use Certification.</UseLimitation>
+        <IrbRequired>No</IrbRequired>
+      </ParticipantSet>
+    </ConsentGroups>
+  </AuthorizedAccess>
+
+
+</Study>
+
+</Studies>
+
+</GaPExchange>

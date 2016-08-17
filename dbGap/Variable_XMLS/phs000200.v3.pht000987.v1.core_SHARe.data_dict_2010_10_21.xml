@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./datadict_v2.xsl"?>
+<data_table id="pht000987.v1" study_id="phs000200.v3" participant_set="1" date_created="Thu Oct 21 09:32:12 2010">
+
+<unique_key phv="00077369" version="1">SHAREID</unique_key>
+<unique_key phv="00077370" version="1">COREVTYP</unique_key>
+<unique_key phv="00077371" version="1">COREVY</unique_key>
+
+<variable id="phv00077369.v1">
+	<name>SHAREID</name>
+	<description>WHI SHARe ID</description>
+	<type>integer</type>
+</variable>
+
+<variable id="phv00077370.v1">
+	<name>COREVTYP</name>
+	<description>Visit Type</description>
+	<type>encoded value</type>
+	<value code="1">Screening Visit</value>
+	<value code="2">Semi-Annual Visit</value>
+	<value code="3">Annual Visit</value>
+	<value code="4">Non-Routine Visit</value>
+</variable>
+
+<variable id="phv00077371.v1">
+	<name>COREVY</name>
+	<description>Visit year</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>6</logical_max>
+	<comment>Visit year for which the draw used for core analytes was collected.</comment>
+</variable>
+
+<variable id="phv00077372.v1">
+	<name>COREDAYS</name>
+	<description>Core Days since randomization/enrollment</description>
+	<type>integer</type>
+	<unit>days</unit>
+	<logical_min>-182</logical_min>
+	<logical_max>2917</logical_max>
+	<comment>Number of days from randomization/enrollment to date of blood draw.</comment>
+</variable>
+
+<variable id="phv00077373.v1">
+	<name>FASTHRS</name>
+	<description>Fasting hours</description>
+	<type>integer</type>
+	<unit>hours</unit>
+	<logical_min>0</logical_min>
+	<logical_max>24</logical_max>
+	<comment>Number of hours since had anything to eat or drink besides water before blood draw.</comment>
+</variable>
+
+<variable id="phv00077374.v1">
+	<name>VIGACT</name>
+	<description>Vigorous activity in last 8 hours</description>
+	<type>encoded value</type>
+	<comment>Engaged in vigorous physical activity in last eight hours before blood draw.</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00077375.v1">
+	<name>ANTIINFL</name>
+	<description>Anti-inflammatory use in last 48 hours</description>
+	<type>encoded value</type>
+	<comment>Took aspirin or anti-inflammatory agents in last 48 hours before blood draw.</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00077376.v1">
+	<name>LIPEMIC</name>
+	<description>Serum is lipemic</description>
+	<type>encoded value</type>
+	<comment>For HRT and HRT + DM screening visit and annual visits.  Serum is lipemic.</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00077377.v1">
+	<name>COREACAR</name>
+	<description>Core Alpha-Carotene (ug/ml)</description>
+	<type>decimal</type>
+	<unit>mcg/mL</unit>
+	<logical_min>0.001</logical_min>
+	<logical_max>1.266</logical_max>
+</variable>
+
+<variable id="phv00077378.v1">
+	<name>COREATOC</name>
+	<description>Core Alpha-Tocopherol (ug/ml)</description>
+	<type>decimal</type>
+	<unit>mcg/mL</unit>
+	<logical_min>0.11</logical_min>
+	<logical_max>87.19</logical_max>
+</variable>
+
+<variable id="phv00077379.v1">
+	<name>COREBCAR</name>
+	<description>Core Beta-Carotene (ug/ml)</description>
+	<type>decimal</type>
+	<unit>mcg/mL</unit>
+	<logical_min>0.005</logical_min>
+	<logical_max>5.667</logical_max>
+</variable>
+
+<variable id="phv00077380.v1">
+	<name>COREBCXA</name>
+	<description>Core Beta-Cryptoxanthine (ug/ml)</description>
+	<type>decimal</type>
+	<unit>mcg/mL</unit>
+	<logical_min>0.006</logical_min>
+	<logical_max>1.816</logical_max>
+</variable>
+
+<variable id="phv00077381.v1">
+	<name>COREF7AG</name>
+	<description>Core Factor VII Antigen, activity (%)</description>
+	<type>decimal</type>
+	<unit>%</unit>
+	<logical_min>18</logical_min>
+	<logical_max>895</logical_max>
+</variable>
+
+<variable id="phv00077382.v1">
+	<name>COREF7C</name>
+	<description>Core Factor VII  concentration (%)</description>
+	<type>decimal</type>
+	<unit>%</unit>
+	<logical_min>14</logical_min>
+	<logical_max>291</logical_max>
+</variable>
+
+<variable id="phv00077383.v1">
+	<name>COREFIBR</name>
+	<description>Core Fibrinogen (mg/dl)</description>
+	<type>decimal</type>
+	<unit>mg/dL</unit>
+	<logical_min>104</logical_min>
+	<logical_max>763</logical_max>
+</variable>
+
+<variable id="phv00077384.v1">
+	<name>COREGLUC</name>
+	<description>Core Glucose (mg/dl)</description>
+	<type>decimal</type>
+	<unit>mg/dL</unit>
+	<logical_min>28</logical_min>
+	<logical_max>446</logical_max>
+</variable>
+
+<variable id="phv00077385.v1">
+	<name>COREGTOC</name>
+	<description>Core Gamma-Tocopherol (ug/ml)</description>
+	<type>decimal</type>
+	<unit>mcg/mL</unit>
+	<logical_min>0.05</logical_min>
+	<logical_max>14.12</logical_max>
+</variable>
+
+<variable id="phv00077386.v1">
+	<name>COREHDL2</name>
+	<description>Core High-Density Lipoprotein-2 (mg/dl)</description>
+	<type>decimal</type>
+	<unit>mg/dL</unit>
+	<logical_min>2</logical_min>
+	<logical_max>62</logical_max>
+</variable>
+
+<variable id="phv00077387.v1">
+	<name>COREHDL3</name>
+	<description>Core High-Density Lipoprotein-3 (mg/dl)</description>
+	<type>decimal</type>
+	<unit>mg/dL</unit>
+	<logical_min>14</logical_min>
+	<logical_max>88</logical_max>
+</variable>
+
+<variable id="phv00077388.v1">
+	<name>COREHDLC</name>
+	<description>Core HDL Cholesterol (mg/dl)</description>
+	<type>decimal</type>
+	<unit>mg/dL</unit>
+	<logical_min>18</logical_min>
+	<logical_max>142</logical_max>
+	<comment>High-Density Lipoprotein Cholesterol</comment>
+</variable>
+
+<variable id="phv00077389.v1">
+	<name>COREINSU</name>
+	<description>Core Insulin (uIU/ml) (RIA method)</description>
+	<type>decimal</type>
+	<unit>uIU/mL</unit>
+	<logical_min>3.1</logical_min>
+	<logical_max>359.2</logical_max>
+	<comment>The insulin test for the core analytes changed.  The majority of insulin testing used the RIA method.  Later testing, however, used an automated ES300 method. Therefore, insulin results are split into two separate variables, dependent on the method used, RIA or ES300.  The ES300 and RIA methods gave comparable results at insulin levels that WHI participants were likely to have, but the correlation between the ES300 and RIA methods was not as good when insulin values exceeded 60 uIU/ml.</comment>
+</variable>
+
+<variable id="phv00077390.v1">
+	<name>COREINSU2</name>
+	<description>Core Insulin (uIU/ml) (automated ES300 method)</description>
+	<type>decimal</type>
+	<unit>uIU/mL</unit>
+	<logical_min>1.3</logical_min>
+	<logical_max>1749</logical_max>
+	<comment>The insulin test for the core analytes changed.  The majority of insulin testing used the RIA method.  Later testing, however, used an automated ES300 method. Therefore, insulin results are split into two separate variables, dependent on the method used, RIA or ES300.  The ES300 and RIA methods gave comparable results at insulin levels that WHI participants were likely to have, but the correlation between the ES300 and RIA methods was not as good when insulin values exceeded 60 uIU/ml.</comment>
+</variable>
+
+<variable id="phv00077391.v1">
+	<name>CORELDLC</name>
+	<description>Core LDL Cholesterol (mg/dl)</description>
+	<type>decimal</type>
+	<unit>mg/dL</unit>
+	<logical_min>23</logical_min>
+	<logical_max>447</logical_max>
+	<comment>Low-Density Lipoprotein Cholesterol</comment>
+</variable>
+
+<variable id="phv00077392.v1">
+	<name>CORELPA</name>
+	<description>Core Apolipoprotein(a) (mg/dl)</description>
+	<type>decimal</type>
+	<unit>mg/dL</unit>
+	<logical_min>1</logical_min>
+	<logical_max>251</logical_max>
+</variable>
+
+<variable id="phv00077393.v1">
+	<name>CORELYCP</name>
+	<description>Core Lycopene (ug/ml)</description>
+	<type>decimal</type>
+	<unit>mcg/mL</unit>
+	<logical_min>0.001</logical_min>
+	<logical_max>1.692</logical_max>
+</variable>
+
+<variable id="phv00077394.v1">
+	<name>CORELZXA</name>
+	<description>Core Lutein and Zeaxanthin (ug/ml)</description>
+	<type>decimal</type>
+	<unit>mcg/mL</unit>
+	<logical_min>0.018</logical_min>
+	<logical_max>2.532</logical_max>
+</variable>
+
+<variable id="phv00077395.v1">
+	<name>CORERETI</name>
+	<description>Core Retinol (ug/ml)</description>
+	<type>decimal</type>
+	<unit>mcg/mL</unit>
+	<logical_min>0.1</logical_min>
+	<logical_max>1.67</logical_max>
+</variable>
+
+<variable id="phv00077396.v1">
+	<name>CORETCHO</name>
+	<description>Core Total Cholesterol (mg/dl)</description>
+	<type>decimal</type>
+	<unit>mg/dL</unit>
+	<logical_min>97</logical_min>
+	<logical_max>560</logical_max>
+</variable>
+
+<variable id="phv00077397.v1">
+	<name>CORETRI</name>
+	<description>Core Triglyceride (mg/dl)</description>
+	<type>decimal</type>
+	<unit>mg/dL</unit>
+	<logical_min>36</logical_min>
+	<logical_max>1370</logical_max>
+</variable>
+
+</data_table>

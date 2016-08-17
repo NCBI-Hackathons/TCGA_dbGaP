@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GaPExchange xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="./dbGaPEx2.1.5.xsd">
+
+<MetaVariables>
+	<Submitter/>
+	<Method/>
+</MetaVariables>
+<MetaLinks/>
+
+<Projects>
+	<Project/>
+</Projects>
+
+<Studies>
+
+<Study source="dbGaP" accession="phs000811.v1.p1" parentStudy="phs000811.v1.p1" createDate="2014-10-03" modDate="2015-01-06">
+
+<Configuration>
+	<Data_Provider><![CDATA[
+		<table border="1">
+		<tr><th>Title</th><th>Name</th><th>Institute</th></tr>
+		<tr><td>Principal Investigator</td><td>Sameek Roychowdhury, MD, PhD</td><td>The Ohio State University, Columbus, OH, USA</td></tr>
+		<tr><td>Funding Source</td><td>MRSG-12-194-01-TBG (Prostate Cancer Foundation)</td><td>American Cancer Society, Atlanta, GA, USA</td></tr>
+		<tr><td>Funding Source</td><td>UM1HG006508-01A1 (Young Investigator Award)</td><td>Fore Cancer Research, Pelotonia, Columbus, OH, USA</td></tr>
+		</table>
+	]]></Data_Provider>
+	<StudyNameEntrez>Comparison of custom capture for targeted next generation DNA sequencing</StudyNameEntrez>
+	<StudyNameReportPage>Comparison of Custom Capture for Targeted Next Generation DNA Sequencing</StudyNameReportPage>
+	<StudyTypes>
+		<StudyType>Mixed</StudyType>
+		<StudyType>Cross-Sectional</StudyType>
+		<StudyType>Tumor vs. Matched-Normal</StudyType>
+	</StudyTypes>
+	<Description><![CDATA[
+<p>Targeted, capture-based DNA sequencing is an economical way to sequence a customized region of the genome. Several targeted sequencing kits are available, but the efficacies of these kits have not been compared. We appraised four targeted DNA technologies for next generation sequencing, considering on-target sequencing, uniformity, and single nucleotide variation and copy number variation discovery. The technologies which utilized sonication to fragment genomic material showed impressive uniformity of capture. The other two had shorter preparation times, but sacrificed uniformity. One of those technologies, which needs transposase to fragment genomic material, has a weakness that requires all samples be pooled and the final one, which uses restriction enzyme digestion, is limited depending on restriction enzymes digest sites. Naturally, all technologies showed some concordance for calling SNVs, the kits that used restriction enzymes or transposase missed several SNVs, due, in large part, to lack of coverage. All technologies showed high integrity for copy number variant calling when compared to SNP arrays. This study aids laboratories in their decision of the proper technology to use for their intended applications.</p>]]>
+	</Description>
+	<StudyInEx><![CDATA[
+<p>We used matched six pairs of tumor and normal samples, where tumor purity was at least 60%. We also used one cell and its matched B-lymphoblastoid cell line. We used two well-characterized cancer cell lines.</p>]]>
+	</StudyInEx>
+	<StudyProjects>
+		<Project/>
+	</StudyProjects>
+	<Publications>
+		<Publication>
+			<Pubmed pmid="25528188"/>
+		</Publication>
+	</Publications>
+	<Diseases>
+		<Disease vocab_source="MESH" vocab_term="Neoplasms"/>
+		<Disease vocab_source="MESH" vocab_term="DNA"/>
+		<Disease vocab_source="MESH" vocab_term="Genome"/>
+	</Diseases>
+	<Attributions>
+		<Header title="Principal Investigator">
+			<AttName>Sameek Roychowdhury, MD, PhD</AttName>
+			<Institution>The Ohio State University, Columbus, OH, USA</Institution>
+		</Header>
+		<Header title="Funding Source">
+			<AttName>MRSG-12-194-01-TBG (Prostate Cancer Foundation)</AttName>
+			<Institution>American Cancer Society, Atlanta, GA, USA</Institution>
+		</Header>
+		<Header title="Funding Source">
+			<AttName>UM1HG006508-01A1 (Young Investigator Award)</AttName>
+			<Institution>Fore Cancer Research, Pelotonia, Columbus, OH, USA</Institution>
+		</Header>
+	</Attributions>
+	<DisplayPublicSummary>yes</DisplayPublicSummary>
+	<ConsentGroups>
+		<ConsentGroup groupNum="1" shortName="GRU" longName="General Research Use"/>
+	</ConsentGroups>
+</Configuration>
+
+  <AuthorizedAccess>
+    <DacInfo ssDacId="0">
+      <DacName>NHGRI</DacName>
+      <DacFullName>National Human Genome Research Institute</DacFullName>
+      <DacEmail>0</DacEmail>
+      <DacPhone></DacPhone>
+      <DacUrl></DacUrl>
+    </DacInfo>
+    <Policy Policy_ID="phs000811.v1.p1_policy" ref_ssDacId="0">
+      <DisplayResearchStatement>yes</DisplayResearchStatement>
+      <DisplayPublicSummary>yes</DisplayPublicSummary>
+      <EmbargoLength>0</EmbargoLength>
+      <YearsUntilRenewal>1</YearsUntilRenewal>
+      <WeeksCancelRequest>8</WeeksCancelRequest>
+      <PdfSupplementReqired>no</PdfSupplementReqired>
+      <AcknowledgementText>
+        <para>
+          http://dbgap.ncbi.nlm.nih.gov/aa/wga.cgi?page=DUC&amp;view_pdf&amp;stacc=phs000811.v1.p1
+        </para>
+      </AcknowledgementText>
+      <DocumentSet>
+        <DataUseCertificate Label="Data Use Certificate" FilePath="https://dbgap.ncbi.nlm.nih.gov/aa/wga.cgi?page=DUC&amp;view_pdf&amp;stacc=phs000811.v1.p1" FileName="ROYCHOWDJURY_DUC.pdf"/>
+      </DocumentSet>
+    </Policy>
+    <ConsentGroups>
+      <ParticipantSet groupNum-REF="1">
+        <ConsentName>General Research Use</ConsentName>
+        <ConsentAbbrev>GRU</ConsentAbbrev>
+        <UseLimitation>Use of the data is limited only by the terms of the model Data Use Certification.</UseLimitation>
+        <IrbRequired>No</IrbRequired>
+      </ParticipantSet>
+    </ConsentGroups>
+  </AuthorizedAccess>
+
+
+</Study>
+
+</Studies>
+
+</GaPExchange>

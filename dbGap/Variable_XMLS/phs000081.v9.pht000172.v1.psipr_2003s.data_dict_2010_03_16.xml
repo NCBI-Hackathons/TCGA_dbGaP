@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./datadict_v2.xsl"?>
+<data_table id="pht000172.v1" study_id="phs000081.v9" participant_set="4" date_created="Tue Mar 16 16:46:25 2010">
+
+<unique_key phv="00023895" version="1">STNO</unique_key>
+<unique_key phv="00023896" version="1">VISIT</unique_key>
+<unique_key phv="00023901" version="1">shareid</unique_key>
+
+<variable id="phv00023894.v1">
+	<name>IDTYPE</name>
+	<description>COHORT IDENTIFIER</description>
+	<value code="0">ORIGINAL COHORT GROUP</value>
+	<value code="1">OFFSPRING GROUP</value>
+	<value code="3">GENERATION 3</value>
+</variable>
+
+<variable id="phv00023895.v1">
+	<name>STNO</name>
+	<description>STROKE NUMBER (NTH STROKE)</description>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00023896.v1">
+	<name>VISIT</name>
+	<description>VISIT NUMBER (NTH VISIT)</description>
+	<value code="1">ACUTE</value>
+	<value code="4">6 MONTHS POST STROKE</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00023897.v1">
+	<name>barthel_score</name>
+	<description>BARTHEL INDEX</description>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00023898.v1">
+	<name>MMSE_score</name>
+	<description>MINI-MENTAL STATE EXAM</description>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00023899.v1">
+	<name>CESD_score</name>
+	<description>CENTER FOR EPIDEMIOLOGICAL STUDIES DEPRESSION SCALE</description>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00023900.v1">
+	<name>datestro</name>
+	<description>DATE OF STROKE, NUMBER OF DAYS SINCE EXAM 1</description>
+	<unit>DAYS</unit>
+</variable>
+
+<variable id="phv00023901.v1">
+	<name>shareid</name>
+	<description>UNIQUE PARTICIPANT ID</description>
+</variable>
+
+</data_table>

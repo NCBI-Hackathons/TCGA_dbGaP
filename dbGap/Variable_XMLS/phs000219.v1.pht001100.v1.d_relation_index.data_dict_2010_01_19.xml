@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./datadict_v2.xsl"?>
+<data_table id="pht001100.v1" study_id="phs000219.v1" participant_set="1" date_created="Tue Jan 19 13:07:05 2010">
+
+<variable id="phv00082524.v1">
+	<name>SUBJID</name>
+	<description>Subject&#39;s ID</description>
+	<type>String</type>
+</variable>
+
+<variable id="phv00082525.v1">
+	<name>CASE_CONTROL</name>
+	<description>Subject type</description>
+	<type>Encoded value</type>
+	<value code="ADP">AD Participant</value>
+	<value code="CASE">Case</value>
+	<value code="CCCS">Control with Change in Cognitive Status</value>
+	<value code="CNTL">Control</value>
+	<value code="FAM">Family member</value>
+	<value code="UASB">Unaffected Sibling</value>
+</variable>
+
+<variable id="phv00082526.v1">
+	<name>INV</name>
+	<description>Investigator&#39;s ID</description>
+	<type>String</type>
+</variable>
+
+<variable id="phv00082527.v1">
+	<name>INVSITE</name>
+	<description>Investigator site ID</description>
+	<type>String</type>
+</variable>
+
+<variable id="phv00082528.v1">
+	<name>VISIT</name>
+	<description>Visit name</description>
+	<type>String</type>
+</variable>
+
+<variable id="phv00082529.v1">
+	<name>VISIT_DATE</name>
+	<description>Visit date</description>
+	<type>Date</type>
+	<comment>Truncated to YYYY</comment>
+</variable>
+
+<variable id="phv00082530.v1">
+	<name>FAMID</name>
+	<description>Family ID</description>
+	<type>String</type>
+	<comment>The original intent was to &lt;b&gt;optionally&lt;/b&gt; collect data from biological relatives with Alzheimer&#39;s and unaffected siblings of AD cases but as this was not a required component of the study very little pedigree data was collected. In review, the data collected is very sparse and incomplete.</comment>
+	<value code="NA">Not available</value>
+</variable>
+
+<variable id="phv00082531.v1">
+	<name>SBFAMRL</name>
+	<description>Participant&#39;s relationship to index case</description>
+	<type>Encoded Value</type>
+	<comment>Additional Primary Key field
+		The original intent was to &lt;b&gt;optionally&lt;/b&gt; collect data from biological relatives with Alzheimer&#39;s and unaffected siblings of AD cases but as this was not a required component of the study very little pedigree data was collected. In review, the data collected is very sparse and incomplete. </comment>
+	<value code="BR">Brother</value>
+	<value code="BRDT">Niece - brother&#39;s daughter</value>
+	<value code="BRSN">Nephew - brother&#39;s son</value>
+	<value code="DT">Daughter</value>
+	<value code="F">Father</value>
+	<value code="FBR">Uncle - father&#39;s brother</value>
+	<value code="FBRC">Cousin - father&#39;s brother&#39;s child</value>
+	<value code="FSS">Aunt - father&#39;s sister</value>
+	<value code="FSSC">Cousin - father&#39;s sister&#39;s child</value>
+	<value code="HB">Husband</value>
+	<value code="HBRF">Half brother - same father</value>
+	<value code="HBRM">Half brother - same mother</value>
+	<value code="HSSF">Half sister - same father</value>
+	<value code="HSSM">Half sister - same mother</value>
+	<value code="M">Mother</value>
+	<value code="MBR">Uncle - mother&#39;s brother</value>
+	<value code="MBRC">Cousin - mother&#39;s brother&#39;s child</value>
+	<value code="MSS">Aunt - mother&#39;s sister</value>
+	<value code="MSSC">Cousin - mother&#39;s sister&#39;s child</value>
+	<value code="SL">Self</value>
+	<value code="SN">Son</value>
+	<value code="SS">Sister</value>
+	<value code="SSDT">Niece - sister&#39;s daughter</value>
+	<value code="SSSN">Nephew - sister&#39;s son</value>
+	<value code="WF">Wife</value>
+	<value code="X">Other</value>
+</variable>
+
+<variable id="phv00082532.v1">
+	<name>SBID</name>
+	<description>Index case: Subject ID</description>
+	<type>String</type>
+	<comment>The original intent was to &lt;b&gt;optionally&lt;/b&gt; collect data from biological relatives with Alzheimer&#39;s and unaffected siblings of AD cases but as this was not a required component of the study very little pedigree data was collected. In review, the data collected is very sparse and incomplete.</comment>
+</variable>
+
+<variable id="phv00082533.v1">
+	<name>SBTY</name>
+	<description>Subject type</description>
+	<type>Encoded Value</type>
+	<comment>The original intent was to &lt;b&gt;optionally&lt;/b&gt; collect data from biological relatives with Alzheimer&#39;s and unaffected siblings of AD cases but as this was not a required component of the study very little pedigree data was collected. In review, the data collected is very sparse and incomplete.</comment>
+	<value code="AFAM">Affected Biological Relative</value>
+	<value code="CASE">Case</value>
+	<value code="CNTL">Control</value>
+	<value code="UFAM">Unaffected Biological Relative</value>
+</variable>
+
+<variable id="phv00082534.v1">
+	<name>OTHTX</name>
+	<description>Participant&#39;s relationship to index case - other : specify</description>
+	<type>String</type>
+	<comment>The original intent was to &lt;b&gt;optionally&lt;/b&gt; collect data from biological relatives with Alzheimer&#39;s and unaffected siblings of AD cases but as this was not a required component of the study very little pedigree data was collected. In review, the data collected is very sparse and incomplete.</comment>
+</variable>
+
+</data_table>

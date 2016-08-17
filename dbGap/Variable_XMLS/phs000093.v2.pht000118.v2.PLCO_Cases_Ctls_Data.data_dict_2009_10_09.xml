@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./datadict_v2.xsl"?>
+<data_table id="pht000118.v2" study_id="phs000093.v2" participant_set="2" date_created="Fri Oct  9 09:27:21 2009">
+
+<variable id="phv00022942.v2">
+	<name>GENEVA_ID</name>
+	<description>Unique subject ID</description>
+	<type>integer</type>
+	<comment>GENEVA IDs were randomly assigned to all subjects included in the phenotype dataset. This study consists of two datasets, PLCO and Eagle, and you are currently looking at a variable from the PLCO dataset.  To access the Eagle dataset, please select the Eagle study in the Associated Variables navigation box to the right.</comment>
+</variable>
+
+<variable id="phv00022943.v2">
+	<name>CASE_STATUS</name>
+	<description>Case or control status</description>
+	<type>encoded value</type>
+	<comment>This study consists of two datasets, PLCO and Eagle, and you are currently looking at a variable from the PLCO dataset.  To access the Eagle dataset, please select the Eagle study in the Associated Variables navigation box to the right.</comment>
+	<value code="0">Control</value>
+	<value code="1">Case</value>
+	<value code="99">Non-eligible case</value>
+</variable>
+
+<variable id="phv00022944.v2">
+	<name>SEX</name>
+	<description>Gender: male or female</description>
+	<type>encoded value</type>
+	<comment>Male and female PLCO participants completed separate questionnaires. The actual questionnaires can be viewed by going to the PLCO Questionnaires in the Associated Documents navigation box under Documents.
+		This study consists of two datasets, PLCO and Eagle, and you are currently looking at a variable from the PLCO dataset. To access the Eagle dataset, please select the Eagle study in the Associated Variables navigation box to the right. </comment>
+	<value code="1">Male</value>
+	<value code="2">Female</value>
+</variable>
+
+<variable id="phv00022949.v2">
+	<name>AGE</name>
+	<description>Age level at diagnosis (for cases) or age at randomization (for controls)</description>
+	<type>encoded value</type>
+	<unit>Years</unit>
+	<comment>This study consists of two datasets, PLCO and Eagle, and you are currently looking at a variable from the PLCO dataset.  To access the Eagle dataset, please select the Eagle study in the Associated Variables navigation box to the right.</comment>
+	<value code="0">59 or less</value>
+	<value code="1">60-64</value>
+	<value code="2">65-69</value>
+	<value code="3">70-74</value>
+	<value code="4">75-79</value>
+	<value code="5">80-84</value>
+	<value code="6">85-89</value>
+	<value code="7">90+</value>
+</variable>
+
+<variable id="phv00022950.v2">
+	<name>MORPHOLOGY</name>
+	<description>Type of lung tumor</description>
+	<type>encoded value</type>
+	<comment>This study consists of two datasets, PLCO and Eagle, and you are currently looking at a variable from the PLCO dataset.  To access the Eagle dataset, please select the Eagle study in the Associated Variables navigation box to the right.</comment>
+	<value code="1">Squamous or epidermoid carcinoma (SQ)</value>
+	<value code="2">Adenocarcinoma (AD)</value>
+	<value code="3">Small cell carcinoma (SM)</value>
+	<value code="4">Large cell carcinoma (LG)</value>
+	<value code="7">Other non-small cell lung cancer (NSCLC)</value>
+	<value code="8">Other lung cancer</value>
+	<value code="99">Missing information or non-eligible tumor, classified as a non-case</value>
+</variable>
+
+<variable id="phv00022951.v2">
+	<name>STAGE</name>
+	<description>Lung cancer stage</description>
+	<type>encoded value</type>
+	<comment>Indicates the lung cancer staging, according to the &quot;Revisions in the International System for Staging Lung Cancer&quot; [Chest 1997 Jun; 111(6): 1710-7]. Pathologic staging
+		This study consists of two datasets, PLCO and Eagle, and you are currently looking at a variable from the PLCO dataset.  To access the Eagle dataset, please select the Eagle study in the Associated Variables navigation box to the right. </comment>
+	<value code="0">Stage 0</value>
+	<value code="1">Stage 1</value>
+	<value code="2">Stage II</value>
+	<value code="3">Stage III</value>
+	<value code="4">Stage IV</value>
+	<value code="99">Other or unknown or missing</value>
+</variable>
+
+<variable id="phv00022947.v2">
+	<name>SMOKING_STATUS</name>
+	<description>Smoking status</description>
+	<type>encoded value</type>
+	<comment>Smoker defined as having smoked regularly for 6 months or longer
+		This study consists of two datasets, PLCO and Eagle, and you are currently looking at a variable from the PLCO dataset.  To access the Eagle dataset, please select the Eagle study in the Associated Variables navigation box to the right. </comment>
+	<value code="0">Never smoker</value>
+	<value code="1">Former smoker</value>
+	<value code="2">Current smoker</value>
+	<value code="99">Unknown or missing smoking status</value>
+</variable>
+
+<variable id="phv00022948.v2">
+	<name>PACK_YEARS</name>
+	<description>Cumulative number of Pack-Years smoked</description>
+	<type>encoded value</type>
+	<unit>Pack-Years</unit>
+	<comment>Cumulative quantity of Pack-Years, calculated as Pack/day*years, where 1 pack=20 cigarettes. The questionnaire asks for age started (Q11) and age stopped (Q13) smoking and the category of cigarettes smoked per day (1-10, 11-20, etc-Q14). The number of packs per day is based on the midpoint of the range of cigarettes smoked per day. Pack years are derived by multiplying packs per day times duration.
+		This study consists of two datasets, PLCO and Eagle, and you are currently looking at a variable from the PLCO dataset.  To access the Eagle dataset, please select the Eagle study in the Associated Variables navigation box to the right. </comment>
+	<value code="0">0</value>
+	<value code="1">&gt;0-15</value>
+	<value code="2">&gt;15-30</value>
+	<value code="3">&gt;30-40</value>
+	<value code="4">&gt;40-50</value>
+	<value code="5">&gt;50-60</value>
+	<value code="6">&gt;60-70</value>
+	<value code="7">&gt;70-80</value>
+	<value code="8">&gt;80</value>
+	<value code="99">Unknown or missing</value>
+</variable>
+
+<variable id="phv00022945.v2">
+	<name>FTND</name>
+	<description>Fagerstrom Test for Nicotine Dependence</description>
+	<type>integer</type>
+	<comment>Calculated as the sum of the coded scores of questions C1-C6 inclusive where C1 answers coded: 0=After 60 minutes, 1=31-60 minutes, 2=6-30 minutes, 3=within 5 minutes, 99=Unknown or missing;C2 answers coded: 0=No, 1=Yes, 99=Unknown or missing;C3 answers coded: 1=The first one in the morning, 0=Any other, 99=Unknown or missing;C4 answers coded: 0=Less than 10, 1=11-20, 2=21-30, 3=More than 30, 99=Unknown or missing;C5 answers coded: 0=No, 1=Yes, 99=Unknown or missing;C6 answers coded: 0=No, 1=Yes, 99=Unknown or missing. No FTND score for PLCO study participants
+		This study consists of two datasets, PLCO and Eagle, and you are currently looking at a variable from the PLCO dataset.  To access the Eagle dataset, please select the Eagle study in the Associated Variables navigation box to the right. </comment>
+	<value code="99">Unknown or missing</value>
+</variable>
+
+<variable id="phv00022946.v2">
+	<name>FH_OF_LUNG_CANCER</name>
+	<description>Family history of lung cancer</description>
+	<type>encoded value</type>
+	<comment>Family history of lung cancer defined as having at least one 1st degree relative with lung cancer
+		This study consists of two datasets, PLCO and Eagle, and you are currently looking at a variable from the PLCO dataset.  To access the Eagle dataset, please select the Eagle study in the Associated Variables navigation box to the right. </comment>
+	<value code="0">None</value>
+	<value code="1">At least one 1st degree relative with lung cancer</value>
+	<value code="99">Missing or incomplete</value>
+</variable>
+
+</data_table>

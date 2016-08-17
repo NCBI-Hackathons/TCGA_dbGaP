@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./datadict_v2.xsl"?>
+<data_table id="pht000115.v1" study_id="phs000091.v1" participant_set="1" date_created="Tue Apr  7 11:27:00 2009">
+
+<variable id="phv00022868.v1">
+	<name>idg</name>
+	<description>GENEVA identification number</description>
+	<type>continuous integer</type>
+</variable>
+
+<variable id="phv00022869.v1">
+	<name>hisp</name>
+	<description>Hispanic ethnicity</description>
+	<type>enumerated integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>1</logical_max>
+	<value code="0">Not Hispanic</value>
+	<value code="1">Hispanic</value>
+</variable>
+
+<variable id="phv00022873.v1">
+	<name>race</name>
+	<description>Race variable for NHS</description>
+	<type>enumerated integer</type>
+	<logical_min>1</logical_min>
+	<logical_max>4</logical_max>
+	<value code="1">White</value>
+	<value code="2">African-American</value>
+	<value code="3">American-Indian</value>
+	<value code="4">Asian</value>
+	<value code="5">Hawaiian</value>
+</variable>
+
+<variable id="phv00022874.v1">
+	<name>case</name>
+	<description>Diabetes case or control</description>
+	<type>enumerated integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>1</logical_max>
+	<value code="0">Control (without diabetes)</value>
+	<value code="1">Case of diagnosed type 2 diabetes</value>
+	<value code="2">Uncertain diabetes type</value>
+</variable>
+
+<variable id="phv00022875.v1">
+	<name>age_cat</name>
+	<description>Age categories</description>
+	<type>enumerated integer</type>
+	<logical_min>1</logical_min>
+	<logical_max>6</logical_max>
+	<value code="1">&lt;45 years</value>
+	<value code="2">45-49 years</value>
+	<value code="3">50-54 years</value>
+	<value code="4">55-59 years</value>
+	<value code="5">60-64 years</value>
+	<value code="6">65-69 years</value>
+</variable>
+
+<variable id="phv00022876.v1">
+	<name>bmi_cat</name>
+	<description>Body mass index categories</description>
+	<type>enumerated integer</type>
+	<logical_min>1</logical_min>
+	<logical_max>3</logical_max>
+	<value code="1">BMI&lt;25.0</value>
+	<value code="2">BMI 25.0-29.9</value>
+	<value code="3">BMI &gt;/= 30.0</value>
+</variable>
+
+<variable id="phv00022877.v1">
+	<name>smk</name>
+	<description>Cigarette smoking</description>
+	<type>enumerated integer</type>
+	<logical_min>1</logical_min>
+	<logical_max>3</logical_max>
+	<value code="1">Never</value>
+	<value code="2">Past</value>
+	<value code="3">Current</value>
+</variable>
+
+<variable id="phv00022878.v1">
+	<name>alc_cat</name>
+	<description>Alcohol intake categories</description>
+	<type>enumerated integer</type>
+	<unit>G/DAY</unit>
+	<logical_min>1</logical_min>
+	<logical_max>5</logical_max>
+	<value code="1">No alcohol intake</value>
+	<value code="2">&lt; 5.0 g/day</value>
+	<value code="3">5.0-14.9 g/day</value>
+	<value code="4">15.0-29.9 g/day</value>
+	<value code="5">&gt;/= 30.0 g/day</value>
+</variable>
+
+<variable id="phv00022879.v1">
+	<name>act</name>
+	<description>Physical activity</description>
+	<type>continuous decimal</type>
+	<unit>MET-HRS/WEEK</unit>
+	<logical_min>0.2</logical_min>
+	<logical_max>175.4</logical_max>
+</variable>
+
+<variable id="phv00022880.v1">
+	<name>heme</name>
+	<description>Heme iron intake</description>
+	<type>continuous decimal</type>
+	<unit>MG/DAY</unit>
+	<logical_min>0</logical_min>
+	<logical_max>3.6</logical_max>
+</variable>
+
+<variable id="phv00022881.v1">
+	<name>magn</name>
+	<description>Magnesium intake</description>
+	<type>continuous integer</type>
+	<unit>MG/DAY</unit>
+	<logical_min>99</logical_min>
+	<logical_max>917</logical_max>
+</variable>
+
+<variable id="phv00022882.v1">
+	<name>ceraf</name>
+	<description>Cereal fiber intake</description>
+	<type>continuous decimal</type>
+	<unit>G/DAY</unit>
+	<logical_min>0</logical_min>
+	<logical_max>38.5</logical_max>
+</variable>
+
+<variable id="phv00022883.v1">
+	<name>pufa</name>
+	<description>Polyunsaturated fat intake</description>
+	<type>continuous decimal</type>
+	<unit>ENERGY%</unit>
+	<logical_min>1.6</logical_min>
+	<logical_max>16.2</logical_max>
+</variable>
+
+<variable id="phv00022884.v1">
+	<name>trans</name>
+	<description>Trans-fat intake</description>
+	<type>continuous decimal</type>
+	<unit>ENERGY%</unit>
+	<logical_min>0.3</logical_min>
+	<logical_max>4.4</logical_max>
+</variable>
+
+<variable id="phv00022885.v1">
+	<name>gl</name>
+	<description>Glycemic load</description>
+	<type>continuous integer</type>
+	<logical_min>25</logical_min>
+	<logical_max>187</logical_max>
+</variable>
+
+<variable id="phv00022886.v1">
+	<name>pmh</name>
+	<description>Menopausal status and hormone use</description>
+	<type>enumerated integer</type>
+	<logical_min>1</logical_min>
+	<logical_max>4</logical_max>
+	<value code="1">Premenopausal</value>
+	<value code="2">Postmenopausal / never user of hormone replacement therapy (HRT)</value>
+	<value code="3">Postmenopausal / current user of HRT</value>
+	<value code="4">Postmenopausal / past user of HRT</value>
+</variable>
+
+<variable id="phv00022887.v1">
+	<name>woman</name>
+	<description>Participant&#39;s sex</description>
+	<type>enumerated integer</type>
+	<logical_min>1</logical_min>
+	<logical_max>1</logical_max>
+	<value code="0">Man</value>
+	<value code="1">Woman</value>
+</variable>
+
+</data_table>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./datadict_v2.xsl"?>
+<data_table id="pht001340.v1" study_id="phs000280.v1" participant_set="1" date_created="Fri Jul  9 11:25:59 2010">
+
+<variable id="phv00094682.v1">
+	<name>Individual_ID</name>
+	<description>Subject Identifier</description>
+	<type>string</type>
+</variable>
+
+<variable id="phv00094683.v1">
+	<name>LIPBFLAG</name>
+	<description>=1 if form is present</description>
+	<type>encoded</type>
+	<value code="1">Presence of form</value>
+	<value code=".">Missing</value>
+</variable>
+
+<variable id="phv00094684.v1">
+	<name>LIPBCY</name>
+	<description>CONTACT YEAR [4]</description>
+	<type>integer</type>
+	<unit>Year</unit>
+	<value code=".">Missing</value>
+</variable>
+
+<variable id="phv00094685.v1">
+	<name>LIPB01A</name>
+	<description>CHOLESTEROL (VALUE)               Q1A</description>
+	<type>integer</type>
+	<logical_min>80</logical_min>
+	<logical_max>558</logical_max>
+	<comment>The encoded value descriptions were not submitted at this time. If you have any questions, please visit http://www.cscc.unc.edu/ARIC/pubuse/.</comment>
+</variable>
+
+<variable id="phv00094686.v1">
+	<name>LIPB01B</name>
+	<description>CHOLESTEROL (RUN)                 Q1B</description>
+	<type>string</type>
+</variable>
+
+<variable id="phv00094687.v1">
+	<name>LIPB02A</name>
+	<description>TRIGLYCERIDE (VALUE)              Q2A</description>
+	<type>integer</type>
+	<logical_min>11</logical_min>
+	<logical_max>2376</logical_max>
+	<comment>The encoded value descriptions were not submitted at this time. If you have any questions, please visit http://www.cscc.unc.edu/ARIC/pubuse/.</comment>
+</variable>
+
+<variable id="phv00094688.v1">
+	<name>LIPB02B</name>
+	<description>TRIGLYCERIDE (RUN)                Q2B</description>
+	<type>string</type>
+</variable>
+
+<variable id="phv00094689.v1">
+	<name>LIPB03A</name>
+	<description>HDL CHOLESTREROL (VALUE)          Q3A</description>
+	<type>integer</type>
+	<logical_min>5</logical_min>
+	<logical_max>202</logical_max>
+	<comment>The encoded value descriptions were not submitted at this time. If you have any questions, please visit http://www.cscc.unc.edu/ARIC/pubuse/.</comment>
+</variable>
+
+<variable id="phv00094690.v1">
+	<name>LIPB03B</name>
+	<description>HDL CHOLESTEROL (RUN)             Q3B</description>
+	<type>string</type>
+</variable>
+
+<variable id="phv00094691.v1">
+	<name>LIPB04A</name>
+	<description>HDL(3) CHOLESTEROL (VALUE)        Q4A</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>92</logical_max>
+	<comment>The encoded value descriptions were not submitted at this time. If you have any questions, please visit http://www.cscc.unc.edu/ARIC/pubuse/.</comment>
+</variable>
+
+<variable id="phv00094692.v1">
+	<name>LIPB04B</name>
+	<description>HDL(3) CHOLESTEROL (RUN)          Q4B</description>
+	<type>string</type>
+</variable>
+
+</data_table>

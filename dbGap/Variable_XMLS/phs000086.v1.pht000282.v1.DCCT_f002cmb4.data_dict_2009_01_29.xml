@@ -1,0 +1,3267 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./datadict_v2.xsl"?>
+<data_table id="pht000282.v1" study_id="phs000086.v1" participant_set="1" date_created="Thu Jan 29 15:39:51 2009">
+
+<variable id="phv00034108.v1">
+	<name>form</name>
+	<description>DCCT form number</description>
+	<type>byte</type>
+	<unit>DCCT FORM</unit>
+</variable>
+
+<variable id="phv00034107.v1">
+	<name>fsasdate</name>
+	<description>Form date as SAS date value</description>
+	<type>long</type>
+</variable>
+
+<variable id="phv00034495.v1">
+	<name>mask_pat</name>
+	<description>Patient ID number</description>
+	<type>int</type>
+</variable>
+
+<variable id="phv00034143.v1">
+	<name>ob40plus</name>
+	<description>Patient is over 40 years old</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+</variable>
+
+<variable id="phv00034428.v1">
+	<name>obabdom</name>
+	<description>Abdominal abnormality</description>
+	<type>byte</type>
+	<value code="1">NORMAL</value>
+	<value code="2">ABNORMAL</value>
+	<value code="3">EXAM NOT DONE</value>
+</variable>
+
+<variable id="phv00034216.v1">
+	<name>obabuse</name>
+	<description>Patient has a history of drug, alcohol or substance abuse</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+</variable>
+
+<variable id="phv00034214.v1">
+	<name>oballerg</name>
+	<description>Patient has allergies to medications</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+</variable>
+
+<variable id="phv00034200.v1">
+	<name>obamintr</name>
+	<description>Average number of units of intermediate-acting insulin in A.M. (00=0)</description>
+	<type>byte</type>
+	<unit>I.U.</unit>
+</variable>
+
+<variable id="phv00034199.v1">
+	<name>obamlong</name>
+	<description>Average number of units of long-acting or ultra-lente insulin A.M. (00=0)</description>
+	<type>byte</type>
+	<unit>I.U.</unit>
+</variable>
+
+<variable id="phv00034201.v1">
+	<name>obamshrt</name>
+	<description>Average number of units of short-acting insulin A.M. (00=0)</description>
+	<type>byte</type>
+	<unit>I.U.</unit>
+</variable>
+
+<variable id="phv00034122.v1">
+	<name>obaspirn</name>
+	<description>Average number of aspirin or other prostaglandin inhibitors - containing tablets per month</description>
+	<type>int</type>
+	<unit>ASPIRIN-PROSTAGLANDIN INHIBITORS/MONTH</unit>
+</variable>
+
+<variable id="phv00034194.v1">
+	<name>obbfpork</name>
+	<description>Indicate type of insulin used: conventional beef/pork insulin</description>
+	<type>byte</type>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00034209.v1">
+	<name>obbldadj</name>
+	<description>Patient adjusts insulin dose using self blood glucose monitoring</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+</variable>
+
+<variable id="phv00034208.v1">
+	<name>obblood</name>
+	<description>Average weekly frequency of blood testing for glucose</description>
+	<type>byte</type>
+	<unit>BLOOD TESTS/WEEK</unit>
+</variable>
+
+<variable id="phv00034421.v1">
+	<name>obbodysz</name>
+	<description>Patient&#39;s body frame size</description>
+	<type>byte</type>
+	<value code="1">SMALL</value>
+	<value code="2">MEDIUM</value>
+	<value code="3">LARGE</value>
+</variable>
+
+<variable id="phv00034111.v1">
+	<name>obbpdate</name>
+	<description>Date of second blood pressure reading</description>
+	<type>str6</type>
+</variable>
+
+<variable id="phv00034427.v1">
+	<name>obbreast</name>
+	<description>Breast abnormality</description>
+	<type>byte</type>
+	<value code="1">NORMAL</value>
+	<value code="2">ABNORMAL</value>
+	<value code="3">EXAM NOT DONE</value>
+</variable>
+
+<variable id="phv00034468.v1">
+	<name>obbruit1</name>
+	<description>Right femoral bruit</description>
+	<type>byte</type>
+	<value code="1">ABSENT</value>
+	<value code="2">PRESENT</value>
+</variable>
+
+<variable id="phv00034469.v1">
+	<name>obbruit2</name>
+	<description>Left femoral bruit</description>
+	<type>byte</type>
+	<value code="0">MISSING/ERROR VALUE</value>
+	<value code="1">ABSENT</value>
+	<value code="2">PRESENT</value>
+</variable>
+
+<variable id="phv00034470.v1">
+	<name>obbruit3</name>
+	<description>Right carotid bruit</description>
+	<type>byte</type>
+	<value code="1">ABSENT</value>
+	<value code="2">PRESENT</value>
+</variable>
+
+<variable id="phv00034471.v1">
+	<name>obbruit4</name>
+	<description>Left carotid bruit</description>
+	<type>byte</type>
+	<value code="0">MISSING/ERROR VALUE</value>
+	<value code="1">ABSENT</value>
+	<value code="2">PRESENT</value>
+</variable>
+
+<variable id="phv00034472.v1">
+	<name>obbruit5</name>
+	<description>Right other bruit</description>
+	<type>long</type>
+	<value code="1">ABSENT</value>
+	<value code="2">PRESENT</value>
+	<value code="3">MISSING/ERROR VALUES</value>
+	<value code="7">MISSING/ERROR VALUES</value>
+	<value code="90112">MISSING/ERROR VALUE</value>
+</variable>
+
+<variable id="phv00034473.v1">
+	<name>obbruit6</name>
+	<description>Left other bruit</description>
+	<type>byte</type>
+	<value code="0">MISSING/ERROR VALUE</value>
+	<value code="1">ABSENT</value>
+	<value code="2">PRESENT</value>
+	<value code="3">MISSING/ERROR VALUES</value>
+	<value code="7">MISSING/ERROR VALUES</value>
+</variable>
+
+<variable id="phv00034188.v1">
+	<name>obc10</name>
+	<description>Frequency (in the past year) - patient experienced severe hypoglycemia requiring parenteral glucagon treatment</description>
+	<type>byte</type>
+	<unit>GLUCAGON</unit>
+</variable>
+
+<variable id="phv00034189.v1">
+	<name>obc11</name>
+	<description>Frequency (in the past year) - patient experienced severe hypoglycemia requiring assistance other than described in question OBC 9 and OBC10</description>
+	<type>byte</type>
+	<unit>OTHER ASSISTANCE REQUIRED</unit>
+</variable>
+
+<variable id="phv00034190.v1">
+	<name>obc12</name>
+	<description>Frequency (in the past year) - patient experienced hypoglycemia mild enough for self-treatment</description>
+	<type>byte</type>
+	<unit>SELF-TREATMENT(S)</unit>
+</variable>
+
+<variable id="phv00034191.v1">
+	<name>obc13</name>
+	<description>Total number of times ever lost consciousness due to hypoglycemia</description>
+	<type>byte</type>
+	<unit>L.O.C.</unit>
+</variable>
+
+<variable id="phv00034192.v1">
+	<name>obc14</name>
+	<description>Patient experienced more than two seizures in past two years</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+</variable>
+
+<variable id="phv00034193.v1">
+	<name>obc15</name>
+	<description>Patient has a history of hypoglycemic episodes without warning</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+</variable>
+
+<variable id="phv00034179.v1">
+	<name>obc2othr</name>
+	<description>Symptoms/conditions present at onset of IDDM: other condition at onset</description>
+	<type>byte</type>
+	<value code="1">ABSENT</value>
+	<value code="2">PRESENT</value>
+	<value code="3">UNKNOWN;</value>
+</variable>
+
+<variable id="phv00034185.v1">
+	<name>obc8a</name>
+	<description>Frequency (in the past year) - patient experienced severe hypoglycemia with loss of consciousness and without seizure</description>
+	<type>byte</type>
+	<unit>L.O.C. WITHOUT SEIZURE(S)</unit>
+</variable>
+
+<variable id="phv00034186.v1">
+	<name>obc8b</name>
+	<description>Frequency (in the past year) - patient experienced severe hypoglycemia with loss of consciousness and with seizure</description>
+	<type>byte</type>
+	<unit>L.O.C. WITH SEIZURE(S)</unit>
+</variable>
+
+<variable id="phv00034187.v1">
+	<name>obc9</name>
+	<description>Frequency (in the past year) - patient experienced severe hypoglycemia requiring i.v. glucose treatment</description>
+	<type>byte</type>
+	<unit>GLUCOSE (I.V.)</unit>
+</variable>
+
+<variable id="phv00034121.v1">
+	<name>obcalday</name>
+	<description>Patient&#39;s current diet includes a daily caloric prescription (yes/no).  If yes what is the caloric prescription?</description>
+	<type>int</type>
+	<unit>KCAL/WEEK</unit>
+	<value code="0">ERROR/UNKNOWN</value>
+</variable>
+
+<variable id="phv00034206.v1">
+	<name>obcalrx</name>
+	<description>Patient&#39;s current diet includes a daily caloric prescription</description>
+	<type>int</type>
+	<value code="1">NO</value>
+	<value code="1200">UNKNOWN</value>
+	<value code="2">YES</value>
+</variable>
+
+<variable id="phv00034452.v1">
+	<name>obcardab</name>
+	<description>Examine for:  other cardiac abnormality</description>
+	<type>byte</type>
+	<value code="1">ABSENT</value>
+	<value code="2">PRESENT</value>
+</variable>
+
+<variable id="phv00034213.v1">
+	<name>obcare</name>
+	<description>Setting of diabetes care</description>
+	<type>byte</type>
+	<value code="1">FAMILY PRACTITIONER</value>
+	<value code="2">PEDIATRICIAN</value>
+	<value code="3">DIABETOLOGIST</value>
+	<value code="4">INTERNIST</value>
+	<value code="5">OTHER, SPECIFY</value>
+</variable>
+
+<variable id="phv00034439.v1">
+	<name>obcatle</name>
+	<description>Examine for: left eye cataract</description>
+	<type>byte</type>
+	<value code="1">ABSENT</value>
+	<value code="2">PRESENT</value>
+</variable>
+
+<variable id="phv00034438.v1">
+	<name>obcatre</name>
+	<description>Examine for: right eye cataract</description>
+	<type>byte</type>
+	<value code="1">ABSENT</value>
+	<value code="2">PRESENT</value>
+</variable>
+
+<variable id="phv00034348.v1">
+	<name>obcv1</name>
+	<description>Patient has a history of: hypertension, treated, but not within two years</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+</variable>
+
+<variable id="phv00034357.v1">
+	<name>obcv10</name>
+	<description>Patient has a history of: transient ischemic attacks</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+</variable>
+
+<variable id="phv00034358.v1">
+	<name>obcv11</name>
+	<description>Patient has a history of: atherothrombotic brain infarction</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+</variable>
+
+<variable id="phv00034359.v1">
+	<name>obcv12</name>
+	<description>Patient has a history of: palpitations</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+</variable>
+
+<variable id="phv00034360.v1">
+	<name>obcv13</name>
+	<description>Patient has a history of: heart murmur</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+</variable>
+
+<variable id="phv00034361.v1">
+	<name>obcv14</name>
+	<description>Patient has a history of: intermittent claudication</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+</variable>
+
+<variable id="phv00034362.v1">
+	<name>obcv15</name>
+	<description>Patient has a history of: treatment for hyperlipidemia (not due to IDDM)</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+</variable>
+
+<variable id="phv00034363.v1">
+	<name>obcv16</name>
+	<description>Patient has a history of: other significant cardiovascular condition</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+</variable>
+
+<variable id="phv00034364.v1">
+	<name>obcv17</name>
+	<description>Patient will be excluded due to other co-condition</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+</variable>
+
+<variable id="phv00034349.v1">
+	<name>obcv2</name>
+	<description>Patient has a history of: hypertension, untreated</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+</variable>
+
+<variable id="phv00034350.v1">
+	<name>obcv3</name>
+	<description>Patient has a history of: hypertension, treated within past two years</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+</variable>
+
+<variable id="phv00034351.v1">
+	<name>obcv4</name>
+	<description>Patient has a history of: angina</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+</variable>
+
+<variable id="phv00034352.v1">
+	<name>obcv5</name>
+	<description>Patient has a history of: congestive heart failure</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+</variable>
+
+<variable id="phv00034353.v1">
+	<name>obcv6</name>
+	<description>Patient has a history of: myocardial infarction</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+</variable>
+
+<variable id="phv00034354.v1">
+	<name>obcv7</name>
+	<description>Patient has a history of: coronary heart disease</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+</variable>
+
+<variable id="phv00034355.v1">
+	<name>obcv8</name>
+	<description>Patient has a history of: peripheral vascular disease</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+</variable>
+
+<variable id="phv00034356.v1">
+	<name>obcv9</name>
+	<description>Patient has a history of: arrhythmia requiring treatment</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+</variable>
+
+<variable id="phv00034453.v1">
+	<name>obcvstop</name>
+	<description>Patient will be excluded based on result(s) of cardiovascular examination</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+</variable>
+
+<variable id="phv00034166.v1">
+	<name>obcyear</name>
+	<description>How many years in college?</description>
+	<type>byte</type>
+	<unit>YEARS</unit>
+</variable>
+
+<variable id="phv00034198.v1">
+	<name>obd1othr</name>
+	<description>Indicate type of insulin used: other type of insulin</description>
+	<type>byte</type>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00034161.v1">
+	<name>obdaded</name>
+	<description>Father&#39;s education</description>
+	<type>byte</type>
+	<value code="1">GRADUATE SCHOOL</value>
+	<value code="2">COLLEGE GRADUATE</value>
+	<value code="3">SOME COLLEGE OR TRADE SCHOOL</value>
+	<value code="4">SECONDARY SCHOOL GRADUATE</value>
+	<value code="5">SOME SECONDARY SCHOOL</value>
+	<value code="6">ELEMENTARY SCHOOL</value>
+	<value code="7">NONE</value>
+	<value code="8">UNKNOWN</value>
+</variable>
+
+<variable id="phv00034151.v1">
+	<name>obdadjob</name>
+	<description>Father&#39;s occupation</description>
+	<type>byte</type>
+	<value code="1">PROFESSIONAL, TECHNICAL, or SIMILAR WORKER</value>
+	<value code="10">HOMEMAKER</value>
+	<value code="11">STUDENT</value>
+	<value code="12">OTHER OR UNKNOWN</value>
+	<value code="2">MANAGER, OFFICIAL, OR PROPRIETOR</value>
+	<value code="3">CRAFTSMAN, FOREMAN, OR SIMILAR WORKER</value>
+	<value code="4">CLERICAL OR SIMILAR WORKER</value>
+	<value code="5">SALES WORKER</value>
+	<value code="6">OPERATIVE OR SIMILAR WORKER</value>
+	<value code="7">SERVICE WORKER</value>
+	<value code="8">LABORER</value>
+	<value code="9">FARMER</value>
+</variable>
+
+<variable id="phv00034156.v1">
+	<name>obdadnoj</name>
+	<description>Father unemployed or retired</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+</variable>
+
+<variable id="phv00034134.v1">
+	<name>obdbp1</name>
+	<description>First diastolic blood pressure reading (mmhg)</description>
+	<type>byte</type>
+	<unit>MMHG</unit>
+</variable>
+
+<variable id="phv00034136.v1">
+	<name>obdbp2</name>
+	<description>Second diastolic blood pressure reading (mmhg)</description>
+	<type>byte</type>
+	<unit>MMHG</unit>
+</variable>
+
+<variable id="phv00034178.v1">
+	<name>obddka</name>
+	<description>Symptoms/conditions present at onset of IDDM: documented diabetic ketoacidosis</description>
+	<type>byte</type>
+	<value code="1">ABSENT</value>
+	<value code="2">PRESENT</value>
+	<value code="3">UNKNOWN;</value>
+</variable>
+
+<variable id="phv00034183.v1">
+	<name>obdhsp2</name>
+	<description>Patient has experienced &gt; 2 hospitalizations because of Diabetic Ketoacidosis in past year</description>
+	<type>byte</type>
+	<value code="0">UNKNOWN/ERROR VALUE</value>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+</variable>
+
+<variable id="phv00034205.v1">
+	<name>obdiet</name>
+	<description>Type of routine diet patient follows</description>
+	<type>byte</type>
+	<value code="1">UNRESTRICTED</value>
+	<value code="2">AVOIDS SWEETS</value>
+	<value code="3">EXCHANGE OR POINT SYSTEM</value>
+	<value code="4">CREME, CARBOHYDRATES, or CALORIC</value>
+	<value code="5">OTHER</value>
+</variable>
+
+<variable id="phv00034212.v1">
+	<name>obdietc</name>
+	<description>Number of routine dietician contacts patient had in past year</description>
+	<type>byte</type>
+	<unit>DIETICIAN CONTACTS</unit>
+</variable>
+
+<variable id="phv00034182.v1">
+	<name>obdkahsp</name>
+	<description>Number of hospitalizations for Diabetic Ketoacidosis in past year</description>
+	<type>byte</type>
+	<unit>HOSPITALIZATIONS FOR DKA</unit>
+</variable>
+
+<variable id="phv00034449.v1">
+	<name>obdmurmr</name>
+	<description>Examine for: diastolic murmur</description>
+	<type>byte</type>
+	<value code="1">ABSENT</value>
+	<value code="2">PRESENT</value>
+</variable>
+
+<variable id="phv00034229.v1">
+	<name>obdrnk1</name>
+	<description>Has patient ever consumed at least one (alcoholic) drink/week for one year or more</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+</variable>
+
+<variable id="phv00034238.v1">
+	<name>obdrnk10</name>
+	<description>During heavy drinking period: how many 12-oz bottles of &quot;light&quot; beer did patient consume/week?</description>
+	<type>byte</type>
+	<unit>LIGHT BEER BOTTLES/WEEK</unit>
+</variable>
+
+<variable id="phv00034239.v1">
+	<name>obdrnk11</name>
+	<description>During heavy drinking period: how many 4-oz glasses of wine did patient consume/week?</description>
+	<type>byte</type>
+	<unit>GLASSES OF WINE/WEEK</unit>
+</variable>
+
+<variable id="phv00034240.v1">
+	<name>obdrnk12</name>
+	<description>During heavy drinking period: how many 1.5-oz shots of hard liquor did patient consume/week?</description>
+	<type>byte</type>
+	<unit>SHOTS OF LIQUOR/WEEK</unit>
+</variable>
+
+<variable id="phv00034241.v1">
+	<name>obdrnk13</name>
+	<description>During heavy drinking period: total alcohol consumption/week &gt; 560 gms alcohol</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+</variable>
+
+<variable id="phv00034242.v1">
+	<name>obdrnk14</name>
+	<description>Period of heavy alcohol consumption (&gt; 560 gms/week) lasted 5 or more years</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+</variable>
+
+<variable id="phv00034243.v1">
+	<name>obdrnk15</name>
+	<description>Period of heavy alcohol consumption (&gt; 560 gms/week) lasted less than 5 years</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+</variable>
+
+<variable id="phv00034230.v1">
+	<name>obdrnk2</name>
+	<description>During last year, has patient consumed - on average -  at least one (alcoholic) drink/week</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+</variable>
+
+<variable id="phv00034231.v1">
+	<name>obdrnk3</name>
+	<description>How many 12-oz bottles of beer did patient consume during past week?</description>
+	<type>byte</type>
+	<unit>BEER BOTTLES/WEEK</unit>
+</variable>
+
+<variable id="phv00034232.v1">
+	<name>obdrnk4</name>
+	<description>How many 12-oz bottles of &quot;light&quot; beer did patient consume during past week?</description>
+	<type>byte</type>
+	<unit>LIGHT BEER BOTTLES/WEEK</unit>
+</variable>
+
+<variable id="phv00034233.v1">
+	<name>obdrnk5</name>
+	<description>How many 4-oz glasses of wine did patient consume during past week?</description>
+	<type>byte</type>
+	<unit>GLASSES OF WINE/WEEK</unit>
+</variable>
+
+<variable id="phv00034234.v1">
+	<name>obdrnk6</name>
+	<description>How many 1.5-oz shots of hard liquor did patient consume during past week?</description>
+	<type>byte</type>
+	<unit>SHOTS OF LIQUOR/WEEK</unit>
+</variable>
+
+<variable id="phv00034235.v1">
+	<name>obdrnk7</name>
+	<description>Total alcohol consumption during past week &gt; 560 gms alcohol</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+</variable>
+
+<variable id="phv00034236.v1">
+	<name>obdrnk8</name>
+	<description>Did patient have periods when alcohol consumption was greater than now?</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+</variable>
+
+<variable id="phv00034237.v1">
+	<name>obdrnk9</name>
+	<description>During heavy drinking period: how many 12-oz bottles of beer did patient consume/week?</description>
+	<type>byte</type>
+	<unit>BEER BOTTLES/WEEK</unit>
+</variable>
+
+<variable id="phv00034175.v1">
+	<name>obdx15yr</name>
+	<description>Patient has been diagnosed more than 15 years ago</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+</variable>
+
+<variable id="phv00034174.v1">
+	<name>obdx1yr</name>
+	<description>Patient has been diagnosed less than 1 year ago</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+</variable>
+
+<variable id="phv00034217.v1">
+	<name>obendocr</name>
+	<description>Patient has a history of endocrine disorder</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+</variable>
+
+<variable id="phv00034424.v1">
+	<name>obent</name>
+	<description>Abnormality of ears, nose and throat</description>
+	<type>byte</type>
+	<value code="1">NORMAL</value>
+	<value code="2">ABNORMAL</value>
+	<value code="3">EXAM NOT DONE</value>
+</variable>
+
+<variable id="phv00034344.v1">
+	<name>obent1</name>
+	<description>Patient has a history of: any significant pathology of ears-nose-mouth-neck</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+</variable>
+
+<variable id="phv00034345.v1">
+	<name>obent2</name>
+	<description>Patient will be excluded due to ear-nose-mouth-neck pathology</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+</variable>
+
+<variable id="phv00034493.v1">
+	<name>obexcltp</name>
+	<description>Type of exclusion</description>
+	<type>byte</type>
+	<value code="1">TEMPORARY</value>
+	<value code="2">PERMANENT</value>
+</variable>
+
+<variable id="phv00034244.v1">
+	<name>obexer1</name>
+	<description>Patient&#39;s activity level on the job</description>
+	<type>byte</type>
+	<value code="1">SEDENTARY</value>
+	<value code="2">MODERATE</value>
+	<value code="3">STRENUOUS</value>
+</variable>
+
+<variable id="phv00034129.v1">
+	<name>obexer2</name>
+	<description>During past week: How many hours and minutes of light activity</description>
+	<type>int</type>
+	<unit>HOURSMINUTES</unit>
+</variable>
+
+<variable id="phv00034130.v1">
+	<name>obexer3</name>
+	<description>During past week: How many hours and minutes of moderate activity</description>
+	<type>int</type>
+	<unit>HOURSMINUTES</unit>
+</variable>
+
+<variable id="phv00034131.v1">
+	<name>obexer4</name>
+	<description>During past week: How many hours and minutes of hard activity</description>
+	<type>int</type>
+	<unit>HOURSMINUTES</unit>
+</variable>
+
+<variable id="phv00034132.v1">
+	<name>obexer5</name>
+	<description>During past week: How many hours and minutes of very hard activity</description>
+	<type>int</type>
+	<unit>HOURSMINUTES</unit>
+</variable>
+
+<variable id="phv00034476.v1">
+	<name>obextr1</name>
+	<description>Ulceration - right side</description>
+	<type>byte</type>
+	<value code="1">ABSENT</value>
+	<value code="2">PRESENT</value>
+</variable>
+
+<variable id="phv00034485.v1">
+	<name>obextr10</name>
+	<description>Deformity - left side</description>
+	<type>byte</type>
+	<value code="1">ABSENT</value>
+	<value code="2">PRESENT</value>
+</variable>
+
+<variable id="phv00034486.v1">
+	<name>obextr11</name>
+	<description>Lipoatrophy - right side</description>
+	<type>byte</type>
+	<value code="1">ABSENT</value>
+	<value code="2">PRESENT</value>
+</variable>
+
+<variable id="phv00034487.v1">
+	<name>obextr12</name>
+	<description>Lipoatrophy - left side</description>
+	<type>byte</type>
+	<value code="1">ABSENT</value>
+	<value code="2">PRESENT</value>
+</variable>
+
+<variable id="phv00034488.v1">
+	<name>obextr13</name>
+	<description>Lipohypertrophy - right side</description>
+	<type>byte</type>
+	<value code="1">ABSENT</value>
+	<value code="2">PRESENT</value>
+</variable>
+
+<variable id="phv00034489.v1">
+	<name>obextr14</name>
+	<description>Lipohypertrophy - left side</description>
+	<type>byte</type>
+	<value code="1">ABSENT</value>
+	<value code="2">PRESENT</value>
+</variable>
+
+<variable id="phv00034490.v1">
+	<name>obextr15</name>
+	<description>Excluding extremity/skin abnormality - right side</description>
+	<type>byte</type>
+	<value code="1">ABSENT</value>
+	<value code="2">PRESENT</value>
+</variable>
+
+<variable id="phv00034491.v1">
+	<name>obextr16</name>
+	<description>Excluding extremity/skin abnormality - left side</description>
+	<type>byte</type>
+	<value code="1">ABSENT</value>
+	<value code="2">PRESENT</value>
+</variable>
+
+<variable id="phv00034477.v1">
+	<name>obextr2</name>
+	<description>Ulceration - left side</description>
+	<type>byte</type>
+	<value code="1">ABSENT</value>
+	<value code="2">PRESENT</value>
+</variable>
+
+<variable id="phv00034478.v1">
+	<name>obextr3</name>
+	<description>Skin discoloration - right side</description>
+	<type>byte</type>
+	<value code="1">ABSENT</value>
+	<value code="2">PRESENT</value>
+</variable>
+
+<variable id="phv00034479.v1">
+	<name>obextr4</name>
+	<description>Skin discoloration - left side</description>
+	<type>byte</type>
+	<value code="1">ABSENT</value>
+	<value code="2">PRESENT</value>
+</variable>
+
+<variable id="phv00034480.v1">
+	<name>obextr5</name>
+	<description>Gangrene - right side</description>
+	<type>byte</type>
+	<value code="1">ABSENT</value>
+	<value code="2">PRESENT</value>
+</variable>
+
+<variable id="phv00034481.v1">
+	<name>obextr6</name>
+	<description>Gangrene - left side</description>
+	<type>byte</type>
+	<value code="1">ABSENT</value>
+	<value code="2">PRESENT</value>
+</variable>
+
+<variable id="phv00034482.v1">
+	<name>obextr7</name>
+	<description>Charcot joint - right side</description>
+	<type>byte</type>
+	<value code="1">ABSENT</value>
+	<value code="2">PRESENT</value>
+</variable>
+
+<variable id="phv00034483.v1">
+	<name>obextr8</name>
+	<description>Charcot joint - left side</description>
+	<type>byte</type>
+	<value code="1">ABSENT</value>
+	<value code="2">PRESENT</value>
+</variable>
+
+<variable id="phv00034484.v1">
+	<name>obextr9</name>
+	<description>Deformity - right side</description>
+	<type>byte</type>
+	<value code="1">ABSENT</value>
+	<value code="2">PRESENT</value>
+</variable>
+
+<variable id="phv00034330.v1">
+	<name>obextrm1</name>
+	<description>Patient has a history of: gangrene</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+</variable>
+
+<variable id="phv00034331.v1">
+	<name>obextrm2</name>
+	<description>Patient has a history of: amputation</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+</variable>
+
+<variable id="phv00034332.v1">
+	<name>obextrm3</name>
+	<description>Patient has a history of: ulcers</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+</variable>
+
+<variable id="phv00034333.v1">
+	<name>obextrm4</name>
+	<description>Patient has a history of: cellulitis</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+</variable>
+
+<variable id="phv00034334.v1">
+	<name>obextrm5</name>
+	<description>Patient has a history of: Charcot&#39;s joint(s)</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+</variable>
+
+<variable id="phv00034335.v1">
+	<name>obextrm6</name>
+	<description>Patient has a history of: other significant extremity condition</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+</variable>
+
+<variable id="phv00034336.v1">
+	<name>obextrm7</name>
+	<description>Patient will be excluded due to extremity condition</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+</variable>
+
+<variable id="phv00034337.v1">
+	<name>obeye1</name>
+	<description>Patient has a history of: severe myopia</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+</variable>
+
+<variable id="phv00034338.v1">
+	<name>obeye2</name>
+	<description>Patient has a history of: abnormal color vision</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+</variable>
+
+<variable id="phv00034339.v1">
+	<name>obeye3</name>
+	<description>Patient has a history of: photocoagulation</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+</variable>
+
+<variable id="phv00034340.v1">
+	<name>obeye4</name>
+	<description>Patient has a history of: aphakia (cataract extraction)</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+</variable>
+
+<variable id="phv00034341.v1">
+	<name>obeye5</name>
+	<description>Patient has a history of: glaucoma requiring medication</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+</variable>
+
+<variable id="phv00034342.v1">
+	<name>obeye6</name>
+	<description>Patient has a history of: other significant eye pathology</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+</variable>
+
+<variable id="phv00034343.v1">
+	<name>obeye7</name>
+	<description>Patient will be excluded due to other eye pathology</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+</variable>
+
+<variable id="phv00034442.v1">
+	<name>obeyestp</name>
+	<description>Patient will be excluded based on result(s) of ocular examination</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+</variable>
+
+<variable id="phv00034245.v1">
+	<name>obfam1</name>
+	<description>Number of persons living in patient&#39;s household</description>
+	<type>byte</type>
+	<unit>PERSONS/HOUSEHOLD</unit>
+	<value code="0">ERROR/UNKNOWN</value>
+</variable>
+
+<variable id="phv00034254.v1">
+	<name>obfam10</name>
+	<description>Diabetic history of patient&#39;s relatives: oldest diabetic sibling used insulin</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+</variable>
+
+<variable id="phv00034255.v1">
+	<name>obfam11</name>
+	<description>Diabetic history of patient&#39;s relatives: oldest diabetic sibling&#39;s age at onset</description>
+	<type>byte</type>
+	<unit>YEARS</unit>
+	<value code="0">UNKNOWN</value>
+	<value code="1">&lt;1YEAR</value>
+</variable>
+
+<variable id="phv00034256.v1">
+	<name>obfam12</name>
+	<description>Diabetic history of patient&#39;s relatives: 2nd oldest diabetic sibling used insulin</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+</variable>
+
+<variable id="phv00034257.v1">
+	<name>obfam13</name>
+	<description>Diabetic history of patient&#39;s relatives: 2nd oldest diabetic sibling&#39;s age at onset</description>
+	<type>byte</type>
+	<unit>YEARS</unit>
+	<value code="0">UNKNOWN</value>
+	<value code="1">&lt;1YEAR</value>
+</variable>
+
+<variable id="phv00034258.v1">
+	<name>obfam14</name>
+	<description>Diabetic history of patient&#39;s relatives: 3rd oldest diabetic sibling used insulin</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+</variable>
+
+<variable id="phv00034259.v1">
+	<name>obfam15</name>
+	<description>Diabetic history of patient&#39;s relatives: 3rd oldest diabetic sibling&#39;s age at onset</description>
+	<type>byte</type>
+	<unit>YEARS</unit>
+	<value code="0">UNKNOWN</value>
+	<value code="1">&lt;1YEAR</value>
+</variable>
+
+<variable id="phv00034260.v1">
+	<name>obfam16</name>
+	<description>Diabetic history of patient&#39;s children: number of children</description>
+	<type>byte</type>
+	<unit>CHILDREN</unit>
+</variable>
+
+<variable id="phv00034261.v1">
+	<name>obfam17</name>
+	<description>Diabetic history of patient&#39;s children: number of diabetic children</description>
+	<type>byte</type>
+	<unit>DIABETIC CHILDREN</unit>
+</variable>
+
+<variable id="phv00034262.v1">
+	<name>obfam18</name>
+	<description>Diabetic history of patient&#39;s children: oldest diabetic child used insulin</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+</variable>
+
+<variable id="phv00034263.v1">
+	<name>obfam19</name>
+	<description>Diabetic history of patient&#39;s children: oldest diabetic child&#39;s age at onset</description>
+	<type>byte</type>
+	<unit>YEARS</unit>
+	<value code="0">UNKNOWN</value>
+	<value code="1">&lt;1YEAR</value>
+</variable>
+
+<variable id="phv00034246.v1">
+	<name>obfam2</name>
+	<description>Diabetic history of patient&#39;s relatives: father diabetic</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+	<value code="3">UNKNOWN</value>
+	<value code="40">UNKNOWN/ERROR VALUE</value>
+</variable>
+
+<variable id="phv00034264.v1">
+	<name>obfam20</name>
+	<description>Diabetic history of patient&#39;s children: 2nd oldest diabetic child used insulin</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+</variable>
+
+<variable id="phv00034265.v1">
+	<name>obfam21</name>
+	<description>Diabetic history of patient&#39;s children: 2nd oldest diabetic child&#39;s age at onset</description>
+	<type>byte</type>
+	<unit>YEARS</unit>
+	<value code="0">UNKNOWN</value>
+	<value code="1">&lt;1YEAR</value>
+</variable>
+
+<variable id="phv00034266.v1">
+	<name>obfam22</name>
+	<description>Diabetic history of patient&#39;s children: 3rd oldest diabetic child used insulin</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+</variable>
+
+<variable id="phv00034267.v1">
+	<name>obfam23</name>
+	<description>Diabetic history of patient&#39;s children: 3rd oldest child&#39;s age at onset</description>
+	<type>byte</type>
+	<unit>YEARS</unit>
+	<value code="0">UNKNOWN</value>
+	<value code="1">&lt;1YEAR</value>
+</variable>
+
+<variable id="phv00034268.v1">
+	<name>obfam24</name>
+	<description>Family history: hypertension in parents</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+	<value code="3">UNKNOWN</value>
+</variable>
+
+<variable id="phv00034269.v1">
+	<name>obfam25</name>
+	<description>Family history: hypertension in grandparents</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+	<value code="3">UNKNOWN</value>
+</variable>
+
+<variable id="phv00034270.v1">
+	<name>obfam26</name>
+	<description>Family history: hypertension in siblings</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+	<value code="3">UNKNOWN</value>
+	<value code="4">NOT APPLICABLE</value>
+</variable>
+
+<variable id="phv00034271.v1">
+	<name>obfam27</name>
+	<description>Family history: hypertension in children</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+	<value code="3">UNKNOWN</value>
+	<value code="4">NOT APPLICABLE</value>
+</variable>
+
+<variable id="phv00034272.v1">
+	<name>obfam28</name>
+	<description>Family history: myocardial infarction in parents</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+	<value code="3">UNKNOWN</value>
+</variable>
+
+<variable id="phv00034273.v1">
+	<name>obfam29</name>
+	<description>Family history: myocardial infarction in grandparents</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+	<value code="3">UNKNOWN</value>
+</variable>
+
+<variable id="phv00034247.v1">
+	<name>obfam3</name>
+	<description>If diabetic: father treated with insulin</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+	<value code="3">UNKNOWN</value>
+</variable>
+
+<variable id="phv00034274.v1">
+	<name>obfam30</name>
+	<description>Family history: myocardial infarction in siblings</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+	<value code="3">UNKNOWN</value>
+	<value code="4">NOT APPLICABLE</value>
+</variable>
+
+<variable id="phv00034275.v1">
+	<name>obfam31</name>
+	<description>Family history: myocardial infarction in children</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+	<value code="3">UNKNOWN</value>
+	<value code="4">NOT APPLICABLE</value>
+</variable>
+
+<variable id="phv00034276.v1">
+	<name>obfam32</name>
+	<description>Family history: myocardial infarction in parents before age 40</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+	<value code="3">UNKNOWN</value>
+</variable>
+
+<variable id="phv00034277.v1">
+	<name>obfam33</name>
+	<description>Family history: myocardial infarction in grandparents before age 40</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+	<value code="3">UNKNOWN</value>
+	<value code="4">NOT APPLICABLE</value>
+</variable>
+
+<variable id="phv00034278.v1">
+	<name>obfam34</name>
+	<description>Family history: myocardial infarction in siblings before age 40</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+	<value code="3">UNKNOWN</value>
+	<value code="4">NOT APPLICABLE</value>
+</variable>
+
+<variable id="phv00034279.v1">
+	<name>obfam35</name>
+	<description>Family history: myocardial infarction in children before age 40</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+	<value code="3">UNKNOWN</value>
+	<value code="4">NOT APPLICABLE</value>
+</variable>
+
+<variable id="phv00034280.v1">
+	<name>obfam36</name>
+	<description>Family history: myocardial infarction in diabetic parents before age 40</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+	<value code="3">UNKNOWN</value>
+</variable>
+
+<variable id="phv00034281.v1">
+	<name>obfam37</name>
+	<description>Family history: myocardial infarction in diabetic grandparent before age 40</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+	<value code="3">UNKNOWN</value>
+</variable>
+
+<variable id="phv00034282.v1">
+	<name>obfam38</name>
+	<description>Family history: myocardial infarction in diabetic siblings before age 40</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+	<value code="3">UNKNOWN</value>
+	<value code="4">NOT APPLICABLE</value>
+</variable>
+
+<variable id="phv00034283.v1">
+	<name>obfam39</name>
+	<description>Family history: myocardial infarction in diabetic children before age 40</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+	<value code="3">UNKNOWN</value>
+	<value code="4">NOT APPLICABLE</value>
+</variable>
+
+<variable id="phv00034248.v1">
+	<name>obfam4</name>
+	<description>If diabetic: father&#39;s age at diabetes onset</description>
+	<type>byte</type>
+	<unit>YEARS</unit>
+	<value code="0">UNKNOWN</value>
+	<value code="1">&lt;1YEAR</value>
+</variable>
+
+<variable id="phv00034284.v1">
+	<name>obfam40</name>
+	<description>Family history: autoimmune endocrine disease in parents</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+	<value code="3">UNKNOWN</value>
+</variable>
+
+<variable id="phv00034285.v1">
+	<name>obfam41</name>
+	<description>Family history: autoimmune endocrine disease - grandparents</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+	<value code="3">UNKNOWN</value>
+</variable>
+
+<variable id="phv00034286.v1">
+	<name>obfam42</name>
+	<description>Family history: autoimmune endocrine disease in siblings</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+	<value code="3">UNKNOWN</value>
+	<value code="4">NOT APPLICABLE</value>
+</variable>
+
+<variable id="phv00034287.v1">
+	<name>obfam43</name>
+	<description>Family history: autoimmune endocrine disease in children</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+	<value code="3">UNKNOWN</value>
+	<value code="4">NOT APPLICABLE</value>
+</variable>
+
+<variable id="phv00034288.v1">
+	<name>obfam44</name>
+	<description>Family history: eye disease in parents</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+	<value code="3">UNKNOWN</value>
+</variable>
+
+<variable id="phv00034289.v1">
+	<name>obfam45</name>
+	<description>Family history: eye disease in grandparents</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+	<value code="3">UNKNOWN</value>
+</variable>
+
+<variable id="phv00034290.v1">
+	<name>obfam46</name>
+	<description>Family history: eye disease in sibling</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+	<value code="3">UNKNOWN</value>
+	<value code="4">NOT APPLICABLE</value>
+</variable>
+
+<variable id="phv00034291.v1">
+	<name>obfam47</name>
+	<description>Family history: eye disease in children</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+	<value code="3">UNKNOWN</value>
+	<value code="4">NOT APPLICABLE</value>
+</variable>
+
+<variable id="phv00034292.v1">
+	<name>obfam48</name>
+	<description>Family history: eye disease in diabetic parents</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+	<value code="3">UNKNOWN</value>
+</variable>
+
+<variable id="phv00034293.v1">
+	<name>obfam49</name>
+	<description>Family history: eye disease in diabetic grandparents</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+	<value code="3">UNKNOWN</value>
+</variable>
+
+<variable id="phv00034249.v1">
+	<name>obfam5</name>
+	<description>Diabetic history of patient&#39;s relatives: mother diabetic</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+	<value code="3">UNKNOWN</value>
+</variable>
+
+<variable id="phv00034294.v1">
+	<name>obfam50</name>
+	<description>Family history: eye disease in diabetic siblings</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+	<value code="3">UNKNOWN</value>
+	<value code="4">NOT APPLICABLE</value>
+</variable>
+
+<variable id="phv00034295.v1">
+	<name>obfam51</name>
+	<description>Family history: eye disease in diabetic children</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+	<value code="3">UNKNOWN</value>
+	<value code="4">NOT APPLICABLE</value>
+</variable>
+
+<variable id="phv00034296.v1">
+	<name>obfam52</name>
+	<description>Family history: renal disease in parents</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+	<value code="3">UNKNOWN</value>
+</variable>
+
+<variable id="phv00034297.v1">
+	<name>obfam53</name>
+	<description>Family history: renal disease in grandparents</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+	<value code="3">UNKNOWN</value>
+</variable>
+
+<variable id="phv00034298.v1">
+	<name>obfam54</name>
+	<description>Family history: renal disease in siblings</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+	<value code="3">UNKNOWN</value>
+	<value code="4">NOT APPLICABLE</value>
+</variable>
+
+<variable id="phv00034299.v1">
+	<name>obfam55</name>
+	<description>Family history: renal disease in children</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+	<value code="3">UNKNOWN</value>
+	<value code="4">NOT APPLICABLE</value>
+</variable>
+
+<variable id="phv00034300.v1">
+	<name>obfam56</name>
+	<description>Family history: renal disease in diabetic parents</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+	<value code="3">UNKNOWN</value>
+</variable>
+
+<variable id="phv00034301.v1">
+	<name>obfam57</name>
+	<description>Family history: renal disease in diabetic grandparents</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+	<value code="3">UNKNOWN</value>
+</variable>
+
+<variable id="phv00034302.v1">
+	<name>obfam58</name>
+	<description>Family history: renal disease in diabetic siblings</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+	<value code="3">UNKNOWN</value>
+	<value code="4">NOT APPLICABLE</value>
+</variable>
+
+<variable id="phv00034303.v1">
+	<name>obfam59</name>
+	<description>Family history: renal disease in diabetic children</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+	<value code="3">UNKNOWN</value>
+	<value code="4">NOT APPLICABLE</value>
+</variable>
+
+<variable id="phv00034250.v1">
+	<name>obfam6</name>
+	<description>If diabetic: mother treated with insulin</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+	<value code="3">UNKNOWN</value>
+</variable>
+
+<variable id="phv00034304.v1">
+	<name>obfam60</name>
+	<description>Family history: psychiatric disorders in parents</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+	<value code="3">UNKNOWN</value>
+</variable>
+
+<variable id="phv00034305.v1">
+	<name>obfam61</name>
+	<description>Family history: psychiatric disorders in grandparents</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+	<value code="3">UNKNOWN</value>
+</variable>
+
+<variable id="phv00034306.v1">
+	<name>obfam62</name>
+	<description>Family history: psychiatric disorders in siblings</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+	<value code="3">UNKNOWN</value>
+	<value code="4">NOT APPLICABLE</value>
+</variable>
+
+<variable id="phv00034307.v1">
+	<name>obfam63</name>
+	<description>Family history: psychiatric disorders in children</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+	<value code="3">UNKNOWN</value>
+	<value code="4">NOT APPLICABLE</value>
+</variable>
+
+<variable id="phv00034308.v1">
+	<name>obfam64</name>
+	<description>Family history: neurologic disease in parents</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+	<value code="3">UNKNOWN</value>
+	<value code="4">NOT APPLICABLE</value>
+</variable>
+
+<variable id="phv00034309.v1">
+	<name>obfam65</name>
+	<description>Family history: neurologic disease in grandparents</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+	<value code="3">UNKNOWN</value>
+	<value code="4">NOT APPLICABLE</value>
+</variable>
+
+<variable id="phv00034310.v1">
+	<name>obfam66</name>
+	<description>Family history: neurologic disease in siblings</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+	<value code="3">UNKNOWN</value>
+	<value code="4">NOT APPLICABLE</value>
+</variable>
+
+<variable id="phv00034311.v1">
+	<name>obfam67</name>
+	<description>Family history: neurologic disease in children</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+	<value code="3">UNKNOWN</value>
+	<value code="4">NOT APPLICABLE</value>
+</variable>
+
+<variable id="phv00034312.v1">
+	<name>obfam68</name>
+	<description>Family history: neurologic disease in diabetic parents</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+	<value code="3">UNKNOWN</value>
+</variable>
+
+<variable id="phv00034313.v1">
+	<name>obfam69</name>
+	<description>Family history: neurologic disease in diabetic grandparents</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+	<value code="3">UNKNOWN</value>
+</variable>
+
+<variable id="phv00034251.v1">
+	<name>obfam7</name>
+	<description>If diabetic: mother&#39;s age at diabetes onset</description>
+	<type>byte</type>
+	<unit>YEARS</unit>
+	<value code="0">UNKNOWN</value>
+	<value code="1">&lt;1YEAR</value>
+</variable>
+
+<variable id="phv00034314.v1">
+	<name>obfam70</name>
+	<description>Family history: neurologic disease in diabetic siblings</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+	<value code="3">UNKNOWN</value>
+	<value code="4">NOT APPLICABLE</value>
+</variable>
+
+<variable id="phv00034315.v1">
+	<name>obfam71</name>
+	<description>Family history: neurologic disease in diabetic children</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+	<value code="3">UNKNOWN</value>
+	<value code="4">NOT APPLICABLE</value>
+</variable>
+
+<variable id="phv00034316.v1">
+	<name>obfam72</name>
+	<description>Family history: hyperlipidemia in parents</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+	<value code="3">UNKNOWN</value>
+</variable>
+
+<variable id="phv00034317.v1">
+	<name>obfam73</name>
+	<description>Family history: hyperlipidemia in grandparents</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+	<value code="3">UNKNOWN</value>
+</variable>
+
+<variable id="phv00034318.v1">
+	<name>obfam74</name>
+	<description>Family history: hyperlipidemia in siblings</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+	<value code="3">UNKNOWN</value>
+	<value code="4">NOT APPLICABLE</value>
+</variable>
+
+<variable id="phv00034319.v1">
+	<name>obfam75</name>
+	<description>Family history: hyperlipidemia in children</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+	<value code="3">UNKNOWN</value>
+	<value code="4">NOT APPLICABLE</value>
+</variable>
+
+<variable id="phv00034252.v1">
+	<name>obfam8</name>
+	<description>Diabetic history of patient&#39;s relatives: number of patient&#39;s siblings</description>
+	<type>byte</type>
+	<unit>SIBLINGS</unit>
+	<value code="0">NONE</value>
+	<value code="99">UNKNOWN</value>
+</variable>
+
+<variable id="phv00034253.v1">
+	<name>obfam9</name>
+	<description>Diabetic history of patient&#39;s relatives: number of diabetic siblings</description>
+	<type>byte</type>
+	<unit>DIABETIC SIBLINGS</unit>
+	<value code="0">NONE</value>
+	<value code="99">UNKNOWN</value>
+</variable>
+
+<variable id="phv00034399.v1">
+	<name>obfem1</name>
+	<description>Patient has a history of: nodules in breast</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+</variable>
+
+<variable id="phv00034407.v1">
+	<name>obfem10</name>
+	<description>Patient&#39;s number of pregnancies</description>
+	<type>byte</type>
+	<unit>PREGNANCIES</unit>
+</variable>
+
+<variable id="phv00034408.v1">
+	<name>obfem11</name>
+	<description>Number of live births</description>
+	<type>byte</type>
+	<unit>LIVE BIRTHS</unit>
+</variable>
+
+<variable id="phv00034409.v1">
+	<name>obfem12</name>
+	<description>Patient has a history of: use of oral contraceptives (ever)</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+</variable>
+
+<variable id="phv00034410.v1">
+	<name>obfem13</name>
+	<description>Patient has a history of: use of oral contraceptives (now)</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+</variable>
+
+<variable id="phv00034411.v1">
+	<name>obfem14</name>
+	<description>Patient has a history of: use of other birth control</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+</variable>
+
+<variable id="phv00034412.v1">
+	<name>obfem15</name>
+	<description>Patient will be excluded due to other gynecologic condition</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+</variable>
+
+<variable id="phv00034400.v1">
+	<name>obfem2</name>
+	<description>Patient has a history of: breast cancer</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+</variable>
+
+<variable id="phv00034401.v1">
+	<name>obfem3</name>
+	<description>Patient has a history of: breast discharge</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+</variable>
+
+<variable id="phv00034402.v1">
+	<name>obfem4</name>
+	<description>Patient has a history of: irregular menses</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+</variable>
+
+<variable id="phv00034403.v1">
+	<name>obfem5</name>
+	<description>Patient has a history of: dysmenorrhea</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+</variable>
+
+<variable id="phv00034404.v1">
+	<name>obfem6</name>
+	<description>Patient has a history of: vaginitis</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+</variable>
+
+<variable id="phv00034405.v1">
+	<name>obfem7</name>
+	<description>Patient has a history of: other significant gynecologic condition</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+</variable>
+
+<variable id="phv00034406.v1">
+	<name>obfem8</name>
+	<description>Patient has a history of: not menstruating in last 3 months</description>
+	<type>byte</type>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00034109.v1">
+	<name>obfem9</name>
+	<description>Date last menstrual period started</description>
+	<type>str6</type>
+</variable>
+
+<variable id="phv00034215.v1">
+	<name>obfluora</name>
+	<description>Patient has allergies to fluorescein</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+	<value code="3">UNKNOWN</value>
+</variable>
+
+<variable id="phv00034162.v1">
+	<name>obfried</name>
+	<description>Guardian&#39;s or friend&#39;s education</description>
+	<type>byte</type>
+	<value code="1">GRADUATE SCHOOL</value>
+	<value code="2">COLLEGE GRADUATE</value>
+	<value code="3">SOME COLLEGE OR TRADE SCHOOL</value>
+	<value code="4">SECONDARY SCHOOL GRADUATE</value>
+	<value code="5">SOME SECONDARY SCHOOL</value>
+	<value code="6">ELEMENTARY SCHOOL</value>
+	<value code="7">NONE</value>
+	<value code="8">UNKNOWN</value>
+</variable>
+
+<variable id="phv00034152.v1">
+	<name>obfrijob</name>
+	<description>Guardian&#39;s or friend&#39;s occupation</description>
+	<type>byte</type>
+	<value code="1">PROFESSIONAL, TECHNICAL, or SIMILAR WORKER</value>
+	<value code="10">HOMEMAKER</value>
+	<value code="11">STUDENT</value>
+	<value code="12">OTHER OR UNKNOWN</value>
+	<value code="2">MANAGER, OFFICIAL, OR PROPRIETOR</value>
+	<value code="3">CRAFTSMAN, FOREMAN, OR SIMILAR WORKER</value>
+	<value code="4">CLERICAL OR SIMILAR WORKER</value>
+	<value code="5">SALES WORKER</value>
+	<value code="6">OPERATIVE OR SIMILAR WORKER</value>
+	<value code="7">SERVICE WORKER</value>
+	<value code="8">LABORER</value>
+	<value code="9">FARMER</value>
+</variable>
+
+<variable id="phv00034157.v1">
+	<name>obfrinoj</name>
+	<description>Guardian/friend unemployed or retired</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+</variable>
+
+<variable id="phv00034441.v1">
+	<name>obfundle</name>
+	<description>Examine for: left eye other fundoscopic abnormality</description>
+	<type>byte</type>
+	<value code="1">ABSENT</value>
+	<value code="2">PRESENT</value>
+</variable>
+
+<variable id="phv00034440.v1">
+	<name>obfundre</name>
+	<description>Examine for: right eye other fundoscopic abnormality</description>
+	<type>byte</type>
+	<value code="1">ABSENT</value>
+	<value code="2">PRESENT</value>
+</variable>
+
+<variable id="phv00034432.v1">
+	<name>obgenit</name>
+	<description>Abnormality of genitalia</description>
+	<type>byte</type>
+	<value code="1">NORMAL</value>
+	<value code="2">ABNORMAL</value>
+	<value code="3">EXAM NOT DONE</value>
+	<value code="62">MISSING/ERROR VALUES</value>
+</variable>
+
+<variable id="phv00034365.v1">
+	<name>obgi1</name>
+	<description>Patient has a history of: liver disease, jaundice</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+</variable>
+
+<variable id="phv00034366.v1">
+	<name>obgi2</name>
+	<description>Patient has a history of: chronic liver disease, jaundice</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+</variable>
+
+<variable id="phv00034367.v1">
+	<name>obgi3</name>
+	<description>Patient has a history of: pancreatitis</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+</variable>
+
+<variable id="phv00034368.v1">
+	<name>obgi4</name>
+	<description>Patient has a history of: chronic pancreatitis</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+</variable>
+
+<variable id="phv00034369.v1">
+	<name>obgi5</name>
+	<description>Patient has a history of: other significant gastrointestinal condition</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+</variable>
+
+<variable id="phv00034370.v1">
+	<name>obgi6</name>
+	<description>Patient will be excluded due to other gastrointestinal condition</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+</variable>
+
+<variable id="phv00034164.v1">
+	<name>obgrade</name>
+	<description>Grade reached in elementary or secondary school</description>
+	<type>byte</type>
+	<unit>SCHOOL GRADE</unit>
+</variable>
+
+<variable id="phv00034371.v1">
+	<name>obgu1</name>
+	<description>Patient has a history of: diseases of upper urinary tract</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+</variable>
+
+<variable id="phv00034380.v1">
+	<name>obgu10</name>
+	<description>Presence of kidney/bladder infections: number of kidney/bladder infections ever</description>
+	<type>byte</type>
+	<unit>KIDNEY OR BLADDER INFECTIONS</unit>
+</variable>
+
+<variable id="phv00034381.v1">
+	<name>obgu11</name>
+	<description>Patient will be excluded due to genitourinary condition</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+</variable>
+
+<variable id="phv00034372.v1">
+	<name>obgu2</name>
+	<description>Patient has a history of: chronic disease of upper urinary tract</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+</variable>
+
+<variable id="phv00034373.v1">
+	<name>obgu3</name>
+	<description>Patient has a history of: diseases of lower urinary tract</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+</variable>
+
+<variable id="phv00034374.v1">
+	<name>obgu4</name>
+	<description>Patient has a history of: chronic disease of lower urinary tract</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+</variable>
+
+<variable id="phv00034375.v1">
+	<name>obgu5</name>
+	<description>Patient has a family history of: urinary tract diseases</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+</variable>
+
+<variable id="phv00034376.v1">
+	<name>obgu6</name>
+	<description>Patient has a history of: disease of genital tract</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+</variable>
+
+<variable id="phv00034377.v1">
+	<name>obgu7</name>
+	<description>Patient has a history of: kidney or bladder infection(s) w/antibiotics</description>
+	<type>byte</type>
+	<value code="0">UNKNOWN/ERROR VALUE</value>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+</variable>
+
+<variable id="phv00034378.v1">
+	<name>obgu8</name>
+	<description>Presence of kidney/bladder infections: number of kidney infections ever</description>
+	<type>byte</type>
+	<unit>KIDNEY INFECTIONS</unit>
+</variable>
+
+<variable id="phv00034379.v1">
+	<name>obgu9</name>
+	<description>Presence of kidney/bladder infections: number of bladder infections ever</description>
+	<type>byte</type>
+	<unit>BLADDER INFECTIONS</unit>
+</variable>
+
+<variable id="phv00034167.v1">
+	<name>obgyear</name>
+	<description>How many years in graduate school?</description>
+	<type>byte</type>
+	<unit>YEARS</unit>
+</variable>
+
+<variable id="phv00034113.v1">
+	<name>obheight</name>
+	<description>Patient&#39;s height (cm)</description>
+	<type>float</type>
+	<unit>CM</unit>
+</variable>
+
+<variable id="phv00034419.v1">
+	<name>obhibp1</name>
+	<description>First blood pressure reading exceeds upper limits</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+</variable>
+
+<variable id="phv00034420.v1">
+	<name>obhibp2</name>
+	<description>Second blood pressure reading exceeds upper limits</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+</variable>
+
+<variable id="phv00034195.v1">
+	<name>obhpbeef</name>
+	<description>Indicate type of insulin used: highly purified beef insulin</description>
+	<type>byte</type>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00034196.v1">
+	<name>obhppork</name>
+	<description>Indicate type of insulin used: highly purified pork insulin</description>
+	<type>byte</type>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00034115.v1">
+	<name>obht12mo</name>
+	<description>Adolescent: patient&#39;s height (cm) 12 months ago</description>
+	<type>float</type>
+	<unit>CM</unit>
+	<value code="0">ERROR/UNKNOWN</value>
+	<value code="3">ERROR VALUE</value>
+</variable>
+
+<variable id="phv00034116.v1">
+	<name>obht24mo</name>
+	<description>Adolescent: patient&#39;s height (cm) 24 months ago</description>
+	<type>float</type>
+	<unit>CM</unit>
+	<value code="0">ERROR/UNKNOWN</value>
+</variable>
+
+<variable id="phv00034197.v1">
+	<name>obhuman</name>
+	<description>Indicate type of insulin used: human insulin</description>
+	<type>byte</type>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00034184.v1">
+	<name>obhyphsp</name>
+	<description>Number of hospitalizations for hypoglycemia in past year</description>
+	<type>byte</type>
+	<unit>HOSPITALIZATIONS FOR HYPOGLYCEMIA</unit>
+</variable>
+
+<variable id="phv00034170.v1">
+	<name>obhyprx</name>
+	<description>Patient has been treated for hypertension in past two years</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+</variable>
+
+<variable id="phv00034422.v1">
+	<name>obibw</name>
+	<description>Patient&#39;s weight is &gt; 130% ideal body weight</description>
+	<type>int</type>
+	<value code="1">NO</value>
+	<value code="186">MISSING/ERROR VALUES</value>
+	<value code="2">YES</value>
+	<value code="7">MISSING/ERROR VALUES</value>
+</variable>
+
+<variable id="phv00034492.v1">
+	<name>obinelig</name>
+	<description>Judged ineligible for any reason</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+</variable>
+
+<variable id="phv00034176.v1">
+	<name>obketon</name>
+	<description>Symptoms/conditions present at onset of IDDM: ketonuria</description>
+	<type>byte</type>
+	<value code="1">ABSENT</value>
+	<value code="2">PRESENT</value>
+	<value code="3">UNKNOWN;</value>
+</variable>
+
+<variable id="phv00034142.v1">
+	<name>obless13</name>
+	<description>Patient is less than 13 years old</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+</variable>
+
+<variable id="phv00034426.v1">
+	<name>oblungs</name>
+	<description>Lung abnormality</description>
+	<type>byte</type>
+	<value code="1">NORMAL</value>
+	<value code="2">ABNORMAL</value>
+	<value code="3">EXAM NOT DONE</value>
+</variable>
+
+<variable id="phv00034429.v1">
+	<name>oblymph</name>
+	<description>Abnormality of lymphatic system</description>
+	<type>byte</type>
+	<value code="1">NORMAL</value>
+	<value code="2">ABNORMAL</value>
+	<value code="3">EXAM NOT DONE</value>
+</variable>
+
+<variable id="phv00034147.v1">
+	<name>obmarno</name>
+	<description>Number of times married</description>
+	<type>byte</type>
+	<unit>MARRIAGES</unit>
+</variable>
+
+<variable id="phv00034146.v1">
+	<name>obmarry</name>
+	<description>Patient&#39;s marital status</description>
+	<type>byte</type>
+	<value code="1">NEVER MARRIED</value>
+	<value code="2">MARRIED OR REMARRIED</value>
+	<value code="3">SEPARATED</value>
+	<value code="4">DIVORCED</value>
+	<value code="5">WIDOWED</value>
+</variable>
+
+<variable id="phv00034112.v1">
+	<name>obmaryrs</name>
+	<description>Years since marital status changed</description>
+	<type>float</type>
+	<unit>YEARS</unit>
+</variable>
+
+<variable id="phv00034172.v1">
+	<name>obmed4yr</name>
+	<description>Patient has taken required medication for  &gt; 4 months in past year</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+</variable>
+
+<variable id="phv00034173.v1">
+	<name>obmedexc</name>
+	<description>Patient uses excluding medication (see Chapter 8 of Manual of Operations)</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+</variable>
+
+<variable id="phv00034171.v1">
+	<name>obmednow</name>
+	<description>Patient is taking prescribed medication</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+</variable>
+
+<variable id="phv00034445.v1">
+	<name>obmegaly</name>
+	<description>Examine for: cardiomegaly</description>
+	<type>byte</type>
+	<value code="1">ABSENT</value>
+	<value code="2">PRESENT</value>
+</variable>
+
+<variable id="phv00034160.v1">
+	<name>obmomed</name>
+	<description>Mother&#39;s education</description>
+	<type>byte</type>
+	<value code="1">GRADUATE SCHOOL</value>
+	<value code="2">COLLEGE GRADUATE</value>
+	<value code="3">SOME COLLEGE OR TRADE SCHOOL</value>
+	<value code="4">SECONDARY SCHOOL GRADUATE</value>
+	<value code="5">SOME SECONDARY SCHOOL</value>
+	<value code="6">ELEMENTARY SCHOOL</value>
+	<value code="7">NONE</value>
+	<value code="8">UNKNOWN</value>
+</variable>
+
+<variable id="phv00034150.v1">
+	<name>obmomjob</name>
+	<description>Mother&#39;s occupation</description>
+	<type>byte</type>
+	<value code="1">PROFESSIONAL, TECHNICAL, or SIMILAR WORKER</value>
+	<value code="10">HOMEMAKER</value>
+	<value code="11">STUDENT</value>
+	<value code="12">OTHER OR UNKNOWN</value>
+	<value code="2">MANAGER, OFFICIAL, OR PROPRIETOR</value>
+	<value code="3">CRAFTSMAN, FOREMAN, OR SIMILAR WORKER</value>
+	<value code="4">CLERICAL OR SIMILAR WORKER</value>
+	<value code="5">SALES WORKER</value>
+	<value code="6">OPERATIVE OR SIMILAR WORKER</value>
+	<value code="7">SERVICE WORKER</value>
+	<value code="8">LABORER</value>
+	<value code="9">FARMER</value>
+</variable>
+
+<variable id="phv00034155.v1">
+	<name>obmomnoj</name>
+	<description>Mother unemployed or retired</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+</variable>
+
+<variable id="phv00034326.v1">
+	<name>obmuscl1</name>
+	<description>Patient has a history of: arthritis</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+</variable>
+
+<variable id="phv00034327.v1">
+	<name>obmuscl2</name>
+	<description>Patient has a history of: muscle pain or weakness</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+</variable>
+
+<variable id="phv00034328.v1">
+	<name>obmuscl3</name>
+	<description>Patient has a history of: other significant musculoskeletal condition</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+</variable>
+
+<variable id="phv00034329.v1">
+	<name>obmuscl4</name>
+	<description>Patient will be excluded due to musculoskeletal condition</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+</variable>
+
+<variable id="phv00034382.v1">
+	<name>obneur1</name>
+	<description>Patient has a history of: severe symptomatic peripheral neuropathy</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+</variable>
+
+<variable id="phv00034383.v1">
+	<name>obneur2</name>
+	<description>Patient has a history of: seizures</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+</variable>
+
+<variable id="phv00034384.v1">
+	<name>obneur3</name>
+	<description>Patient has a history of: impotence</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+	<value code="3">N.A.</value>
+</variable>
+
+<variable id="phv00034385.v1">
+	<name>obneur4</name>
+	<description>Patient has a history of: use of autonomic nervous system drugs</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+</variable>
+
+<variable id="phv00034386.v1">
+	<name>obneur5</name>
+	<description>Patient has a history of: dizziness upon standing</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+</variable>
+
+<variable id="phv00034387.v1">
+	<name>obneur6</name>
+	<description>Patient has a history of: use of medication for dizziness</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+</variable>
+
+<variable id="phv00034388.v1">
+	<name>obneur7</name>
+	<description>Patient has a history of: other significant neurologic condition</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+</variable>
+
+<variable id="phv00034389.v1">
+	<name>obneur8</name>
+	<description>Patient will be excluded due to other neurologic condition</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+</variable>
+
+<variable id="phv00034475.v1">
+	<name>obneuro</name>
+	<description>Your opinion: does patient have significant neuropathy or neurological disease?</description>
+	<type>byte</type>
+	<value code="0">UNKNOWN/MISSING VALUE</value>
+	<value code="1">DEFINITELY</value>
+	<value code="2">QUESTIONABLE</value>
+	<value code="3">NO</value>
+</variable>
+
+<variable id="phv00034423.v1">
+	<name>obnogrow</name>
+	<description>Adolescent: failed to maintain growth in past two years</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+</variable>
+
+<variable id="phv00034211.v1">
+	<name>obnursec</name>
+	<description>Number of routine nurse contacts patient had in past year</description>
+	<type>byte</type>
+	<unit>NURSE CONTACTS</unit>
+</variable>
+
+<variable id="phv00034450.v1">
+	<name>obomurmr</name>
+	<description>Examine for: other murmur</description>
+	<type>byte</type>
+	<value code="1">ABSENT</value>
+	<value code="2">PRESENT</value>
+</variable>
+
+<variable id="phv00034119.v1">
+	<name>obonset</name>
+	<description>Month and year of Insulin Dependent Diabetes Mellitus (IDDM) onset</description>
+	<type>int</type>
+</variable>
+
+<variable id="phv00034180.v1">
+	<name>oboralha</name>
+	<description>Patient has previously used oral hypoglycemic agents</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+</variable>
+
+<variable id="phv00034413.v1">
+	<name>obother1</name>
+	<description>Patient has a history of: hypothyroidism</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+</variable>
+
+<variable id="phv00034414.v1">
+	<name>obother2</name>
+	<description>Patient has a history of: treated hypothyroidism</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+</variable>
+
+<variable id="phv00034415.v1">
+	<name>obother3</name>
+	<description>Patient has a history of: connective tissue disease</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+</variable>
+
+<variable id="phv00034416.v1">
+	<name>obother4</name>
+	<description>Patient has a history of: blood diseases</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+</variable>
+
+<variable id="phv00034417.v1">
+	<name>obother5</name>
+	<description>Patient has a history of: gastric surgery</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+</variable>
+
+<variable id="phv00034418.v1">
+	<name>obother6</name>
+	<description>Patient will be excluded due to other medical condition(s)</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+</variable>
+
+<variable id="phv00034437.v1">
+	<name>obp2le</name>
+	<description>Examine for: right eye neovascularization characterizing eye as P2 (or worse)</description>
+	<type>byte</type>
+	<value code="1">ABSENT</value>
+	<value code="2">PRESENT</value>
+</variable>
+
+<variable id="phv00034436.v1">
+	<name>obp2re</name>
+	<description>Examine for: left eye neovascularization characterizing eye as P2 (or worse)</description>
+	<type>byte</type>
+	<value code="1">ABSENT</value>
+	<value code="2">PRESENT</value>
+</variable>
+
+<variable id="phv00034158.v1">
+	<name>obpated</name>
+	<description>Patient&#39;s education</description>
+	<type>byte</type>
+	<value code="1">GRADUATE SCHOOL</value>
+	<value code="2">COLLEGE GRADUATE</value>
+	<value code="3">SOME COLLEGE OR TRADE SCHOOL</value>
+	<value code="4">SECONDARY SCHOOL GRADUATE</value>
+	<value code="5">SOME SECONDARY SCHOOL</value>
+	<value code="6">ELEMENTARY SCHOOL</value>
+	<value code="7">NONE</value>
+	<value code="8">UNKNOWN</value>
+</variable>
+
+<variable id="phv00034148.v1">
+	<name>obpatjob</name>
+	<description>Patient&#39;s occupation</description>
+	<type>byte</type>
+	<value code="1">PROFESSIONAL, TECHNICAL, or SIMILAR WORKER</value>
+	<value code="10">HOMEMAKER</value>
+	<value code="11">STUDENT</value>
+	<value code="12">OTHER OR UNKNOWN</value>
+	<value code="2">MANAGER, OFFICIAL, OR PROPRIETOR</value>
+	<value code="3">CRAFTSMAN, FOREMAN, OR SIMILAR WORKER</value>
+	<value code="4">CLERICAL OR SIMILAR WORKER</value>
+	<value code="5">SALES WORKER</value>
+	<value code="6">OPERATIVE OR SIMILAR WORKER</value>
+	<value code="7">SERVICE WORKER</value>
+	<value code="8">LABORER</value>
+	<value code="9">FARMER</value>
+</variable>
+
+<variable id="phv00034153.v1">
+	<name>obpatnoj</name>
+	<description>Patient unemployed or retired</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+</variable>
+
+<variable id="phv00034110.v1">
+	<name>obpedate</name>
+	<description>Date of physical examination</description>
+	<type>str6</type>
+</variable>
+
+<variable id="phv00034431.v1">
+	<name>obpelvis</name>
+	<description>Abnormality of pelvis</description>
+	<type>byte</type>
+	<value code="1">NORMAL</value>
+	<value code="2">ABNORMAL</value>
+	<value code="3">EXAM NOT DONE</value>
+</variable>
+
+<variable id="phv00034474.v1">
+	<name>obpervas</name>
+	<description>There is evidence of significant peripheral vascular disease</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+</variable>
+
+<variable id="phv00034210.v1">
+	<name>obphysc</name>
+	<description>Number of routine physician contacts patient had in past year</description>
+	<type>byte</type>
+	<unit>PHYSICIAN CONTACTS</unit>
+</variable>
+
+<variable id="phv00034203.v1">
+	<name>obpmintr</name>
+	<description>Average number of units of intermediate-acting insulin P.M. (00=0)</description>
+	<type>byte</type>
+	<unit>I.U.</unit>
+</variable>
+
+<variable id="phv00034202.v1">
+	<name>obpmlong</name>
+	<description>Average number of units of long-acting or ultra-lente insulin P.M. (00=0)</description>
+	<type>byte</type>
+	<unit>I.U.</unit>
+</variable>
+
+<variable id="phv00034204.v1">
+	<name>obpmshrt</name>
+	<description>Average number of units of short-acting insulin P.M. (00=0)</description>
+	<type>byte</type>
+	<unit>I.U.</unit>
+</variable>
+
+<variable id="phv00034454.v1">
+	<name>obppul1</name>
+	<description>Grade of right carotid pulse</description>
+	<type>byte</type>
+	<value code="1">NORMAL</value>
+	<value code="2">DIMINISHED</value>
+	<value code="3">ABSENT</value>
+</variable>
+
+<variable id="phv00034463.v1">
+	<name>obppul10</name>
+	<description>Grade of left popliteal pulse</description>
+	<type>byte</type>
+	<value code="1">NORMAL</value>
+	<value code="2">DIMINISHED</value>
+	<value code="3">ABSENT</value>
+</variable>
+
+<variable id="phv00034464.v1">
+	<name>obppul11</name>
+	<description>Grade of right posterior tibial pulse</description>
+	<type>byte</type>
+	<value code="1">NORMAL</value>
+	<value code="2">DIMINISHED</value>
+	<value code="3">ABSENT</value>
+</variable>
+
+<variable id="phv00034465.v1">
+	<name>obppul12</name>
+	<description>Grade of left posterior tibial pulse</description>
+	<type>byte</type>
+	<value code="1">NORMAL</value>
+	<value code="2">DIMINISHED</value>
+	<value code="3">ABSENT</value>
+</variable>
+
+<variable id="phv00034466.v1">
+	<name>obppul13</name>
+	<description>Grade of right dorsal pedis pulse</description>
+	<type>byte</type>
+	<value code="1">NORMAL</value>
+	<value code="2">DIMINISHED</value>
+	<value code="3">ABSENT</value>
+</variable>
+
+<variable id="phv00034467.v1">
+	<name>obppul14</name>
+	<description>Grade of left dorsal pedis pulse</description>
+	<type>byte</type>
+	<value code="1">NORMAL</value>
+	<value code="2">DIMINISHED</value>
+	<value code="3">ABSENT</value>
+</variable>
+
+<variable id="phv00034455.v1">
+	<name>obppul2</name>
+	<description>Grade of left carotid pulse</description>
+	<type>byte</type>
+	<value code="1">NORMAL</value>
+	<value code="2">DIMINISHED</value>
+	<value code="3">ABSENT</value>
+</variable>
+
+<variable id="phv00034456.v1">
+	<name>obppul3</name>
+	<description>Grade of right brachial pulse</description>
+	<type>byte</type>
+	<value code="1">NORMAL</value>
+	<value code="2">DIMINISHED</value>
+	<value code="3">ABSENT</value>
+</variable>
+
+<variable id="phv00034457.v1">
+	<name>obppul4</name>
+	<description>Grade of left brachial pulse</description>
+	<type>byte</type>
+	<value code="1">NORMAL</value>
+	<value code="2">DIMINISHED</value>
+	<value code="3">ABSENT</value>
+</variable>
+
+<variable id="phv00034458.v1">
+	<name>obppul5</name>
+	<description>Grade of right radial pulse</description>
+	<type>byte</type>
+	<value code="1">NORMAL</value>
+	<value code="2">DIMINISHED</value>
+	<value code="3">ABSENT</value>
+</variable>
+
+<variable id="phv00034459.v1">
+	<name>obppul6</name>
+	<description>Grade of left radial pulse</description>
+	<type>byte</type>
+	<value code="1">NORMAL</value>
+	<value code="2">DIMINISHED</value>
+	<value code="3">ABSENT</value>
+</variable>
+
+<variable id="phv00034460.v1">
+	<name>obppul7</name>
+	<description>Grade of right femoral pulse</description>
+	<type>byte</type>
+	<value code="1">NORMAL</value>
+	<value code="2">DIMINISHED</value>
+	<value code="3">ABSENT</value>
+</variable>
+
+<variable id="phv00034461.v1">
+	<name>obppul8</name>
+	<description>Grade of left femoral pulse</description>
+	<type>byte</type>
+	<value code="1">NORMAL</value>
+	<value code="2">DIMINISHED</value>
+	<value code="3">ABSENT</value>
+</variable>
+
+<variable id="phv00034462.v1">
+	<name>obppul9</name>
+	<description>Grade of right popliteal pulse</description>
+	<type>byte</type>
+	<value code="1">NORMAL</value>
+	<value code="2">DIMINISHED</value>
+	<value code="3">ABSENT</value>
+</variable>
+
+<variable id="phv00034390.v1">
+	<name>obpsych1</name>
+	<description>Patient has a history of: nervousness or anxiety</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+</variable>
+
+<variable id="phv00034391.v1">
+	<name>obpsych2</name>
+	<description>Patient has a history of: unreasonable fears</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+</variable>
+
+<variable id="phv00034392.v1">
+	<name>obpsych3</name>
+	<description>Patient has a history of: eating disturbance</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+</variable>
+
+<variable id="phv00034393.v1">
+	<name>obpsych4</name>
+	<description>Patient has a history of: affective disorder</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+</variable>
+
+<variable id="phv00034394.v1">
+	<name>obpsych5</name>
+	<description>Patient has a history of: suicide attempt</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+</variable>
+
+<variable id="phv00034395.v1">
+	<name>obpsych6</name>
+	<description>Patient has a history of: criminal conduct</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+</variable>
+
+<variable id="phv00034396.v1">
+	<name>obpsych7</name>
+	<description>Patient has a history of: psychiatric treatment</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+</variable>
+
+<variable id="phv00034397.v1">
+	<name>obpsych8</name>
+	<description>Patient has a history of: other psychiatric condition</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+</variable>
+
+<variable id="phv00034398.v1">
+	<name>obpsych9</name>
+	<description>Patient will be excluded due to psychiatric condition</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+</variable>
+
+<variable id="phv00034141.v1">
+	<name>obpulse</name>
+	<description>Patient&#39;s pulse (bpm)</description>
+	<type>int</type>
+	<unit>BEATS/MINUTE</unit>
+</variable>
+
+<variable id="phv00034181.v1">
+	<name>obpumpmd</name>
+	<description>Patient has a history of previous pump or MDI (Multiple Daily Injections) use</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+</variable>
+
+<variable id="phv00034145.v1">
+	<name>obrace</name>
+	<description>Patient&#39;s race</description>
+	<type>byte</type>
+	<value code="1">WHITE - NOT OF HISPANIC ORIGIN</value>
+	<value code="2">BLACK - NOT OF HISPANIC ORIGIN</value>
+	<value code="3">HISPANIC</value>
+	<value code="4">ASIAN OR PACIFIC ISLANDER</value>
+	<value code="5">AMERICAN INDIAN OR ALASKAN NATIVE</value>
+</variable>
+
+<variable id="phv00034120.v1">
+	<name>obrange</name>
+	<description>Range (years ago) of IDDM onset (if exact date is not known) - Note: This variable appears corrupt.  It was intended to code either (1) a single time of onset (&quot;years ago&quot;) or (2) a range of two estimates.  It is not clear how to interpret the values in the dataset.</description>
+	<type>int</type>
+</variable>
+
+<variable id="phv00034430.v1">
+	<name>obrectum</name>
+	<description>Abnormality of rectum</description>
+	<type>byte</type>
+	<value code="1">NORMAL</value>
+	<value code="2">ABNORMAL</value>
+	<value code="3">EXAM NOT DONE</value>
+</variable>
+
+<variable id="phv00034494.v1">
+	<name>obreeval</name>
+	<description>Will temporary exclusion of patient be re-evaluated?</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+	<value code="3">UNKNOWN/ERROR VALUE</value>
+</variable>
+
+<variable id="phv00034346.v1">
+	<name>obresp1</name>
+	<description>Patient has a history of: any significant respiratory pathology</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+</variable>
+
+<variable id="phv00034347.v1">
+	<name>obresp2</name>
+	<description>Patient will be excluded due to respiratory pathology</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+</variable>
+
+<variable id="phv00034443.v1">
+	<name>obrhythm</name>
+	<description>Examine for: cardiac rhythm</description>
+	<type>byte</type>
+	<value code="1">REGULAR</value>
+	<value code="2">ABNORMAL</value>
+</variable>
+
+<variable id="phv00034451.v1">
+	<name>obrub</name>
+	<description>Examine for: cardiac rub</description>
+	<type>byte</type>
+	<value code="1">ABSENT</value>
+	<value code="2">PRESENT</value>
+</variable>
+
+<variable id="phv00034446.v1">
+	<name>obs3galp</name>
+	<description>Examine for: S3 gallop</description>
+	<type>byte</type>
+	<value code="1">ABSENT</value>
+	<value code="2">PRESENT</value>
+</variable>
+
+<variable id="phv00034447.v1">
+	<name>obs4galp</name>
+	<description>Examine for: S4 gallop</description>
+	<type>byte</type>
+	<value code="1">ABSENT</value>
+	<value code="2">PRESENT</value>
+</variable>
+
+<variable id="phv00034133.v1">
+	<name>obsbp1</name>
+	<description>First systolic blood pressure reading (mmhg)</description>
+	<type>int</type>
+	<unit>MMHG</unit>
+</variable>
+
+<variable id="phv00034135.v1">
+	<name>obsbp2</name>
+	<description>Second systolic blood pressure reading (mmhg)</description>
+	<type>int</type>
+	<unit>MMHG</unit>
+</variable>
+
+<variable id="phv00034169.v1">
+	<name>obscp</name>
+	<description>Patient has a spouse, child or parent participating in DCCT</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+</variable>
+
+<variable id="phv00034177.v1">
+	<name>obsdka</name>
+	<description>Symptoms/conditions present at onset of IDDM: suspected diabetic ketoacidosis</description>
+	<type>byte</type>
+	<value code="1">ABSENT</value>
+	<value code="2">PRESENT</value>
+	<value code="3">UNKNOWN</value>
+</variable>
+
+<variable id="phv00034144.v1">
+	<name>obsex</name>
+	<description>Patient&#39;s gender</description>
+	<type>byte</type>
+	<value code="1">MALE</value>
+	<value code="2">FEMALE</value>
+</variable>
+
+<variable id="phv00034218.v1">
+	<name>obshrtlf</name>
+	<description>Patient has a life-limiting condition</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+</variable>
+
+<variable id="phv00034320.v1">
+	<name>obskin1</name>
+	<description>Patient has a history of: eruptive xanthoma</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+</variable>
+
+<variable id="phv00034321.v1">
+	<name>obskin2</name>
+	<description>Patient has a history of: xanthelasma</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+</variable>
+
+<variable id="phv00034322.v1">
+	<name>obskin3</name>
+	<description>Patient has a history of: necrobiosis</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+</variable>
+
+<variable id="phv00034323.v1">
+	<name>obskin4</name>
+	<description>Patient has a history of: shin spot</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+</variable>
+
+<variable id="phv00034324.v1">
+	<name>obskin5</name>
+	<description>Patient has a history of: other significant skin condition</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+</variable>
+
+<variable id="phv00034325.v1">
+	<name>obskin6</name>
+	<description>Patient will be excluded due to skin condition</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+</variable>
+
+<variable id="phv00034219.v1">
+	<name>obsmok1</name>
+	<description>Patient has smoked cigarettes</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+</variable>
+
+<variable id="phv00034226.v1">
+	<name>obsmok10</name>
+	<description>Patient smokes cigars</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+</variable>
+
+<variable id="phv00034125.v1">
+	<name>obsmok11</name>
+	<description>Cigars currently smoked per day</description>
+	<type>byte</type>
+	<unit>CIGARS/DAY</unit>
+</variable>
+
+<variable id="phv00034126.v1">
+	<name>obsmok12</name>
+	<description>Years and months since last quit cigars</description>
+	<type>int</type>
+	<unit>YEARSMONTHS</unit>
+</variable>
+
+<variable id="phv00034227.v1">
+	<name>obsmok13</name>
+	<description>Patient never quit smoking cigars</description>
+	<type>byte</type>
+	<value code="1">NEVER QUIT SMOKING CIGARS</value>
+</variable>
+
+<variable id="phv00034228.v1">
+	<name>obsmok14</name>
+	<description>Age at which patient started smoking cigars</description>
+	<type>byte</type>
+	<unit>YEARS</unit>
+	<value code="0">ERROR/UNKNOWN</value>
+</variable>
+
+<variable id="phv00034127.v1">
+	<name>obsmok15</name>
+	<description>Total Years and months not smoking cigars</description>
+	<type>int</type>
+	<unit>YEARSMONTHS</unit>
+</variable>
+
+<variable id="phv00034128.v1">
+	<name>obsmok16</name>
+	<description>Cigars per day when smoking most</description>
+	<type>byte</type>
+	<unit>CIGARS/DAY</unit>
+</variable>
+
+<variable id="phv00034220.v1">
+	<name>obsmok2</name>
+	<description>Patient smoke cigarettes/cigarillos</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+</variable>
+
+<variable id="phv00034221.v1">
+	<name>obsmok3</name>
+	<description>Number of cigarettes/cigarillos patient smokes per day</description>
+	<type>float</type>
+	<unit>CIGARETTES/DAY</unit>
+</variable>
+
+<variable id="phv00034123.v1">
+	<name>obsmok4</name>
+	<description>Years and months since last quit cigarettes  - Note: Variable includes 71 cases with a value (0), i.e., zero years since last quit smoking.  When tabulated against variable OBSMOK5 (Never Quit), 58 of these cases are patients who never quit smoking.  Is is suggested that data users treat the remaining 13 measurements as erroneous.</description>
+	<type>int</type>
+	<unit>YEARSMONTHS</unit>
+	<value code="0">ERROR/UNKNOWN</value>
+</variable>
+
+<variable id="phv00034222.v1">
+	<name>obsmok5</name>
+	<description>Patient never quit smoking cigarettes</description>
+	<type>byte</type>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00034223.v1">
+	<name>obsmok6</name>
+	<description>Age at which patient started smoking cigarettes</description>
+	<type>byte</type>
+	<unit>YEARS</unit>
+	<value code="0">ERROR/UNKNOWN</value>
+	<value code="2">ERROR VALUE</value>
+</variable>
+
+<variable id="phv00034124.v1">
+	<name>obsmok7</name>
+	<description>Total number of years and months not smoking cigarettes</description>
+	<type>int</type>
+	<unit>YEARSMONTHS</unit>
+</variable>
+
+<variable id="phv00034224.v1">
+	<name>obsmok8</name>
+	<description>Number of cigarettes/cigarillos per day patient smoked when smoking the heaviest</description>
+	<type>byte</type>
+	<unit>CIGARETTES/DAY</unit>
+</variable>
+
+<variable id="phv00034225.v1">
+	<name>obsmok9</name>
+	<description>Patient has smoked cigars</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+</variable>
+
+<variable id="phv00034448.v1">
+	<name>obsmurmr</name>
+	<description>Examine for: systolic ejection murmur</description>
+	<type>byte</type>
+	<value code="1">ABSENT</value>
+	<value code="2">PRESENT</value>
+</variable>
+
+<variable id="phv00034159.v1">
+	<name>obspoed</name>
+	<description>Spouse&#39;s education</description>
+	<type>byte</type>
+	<value code="1">GRADUATE SCHOOL</value>
+	<value code="2">COLLEGE GRADUATE</value>
+	<value code="3">SOME COLLEGE OR TRADE SCHOOL</value>
+	<value code="4">SECONDARY SCHOOL GRADUATE</value>
+	<value code="5">SOME SECONDARY SCHOOL</value>
+	<value code="6">ELEMENTARY SCHOOL</value>
+	<value code="7">NONE</value>
+	<value code="8">UNKNOWN</value>
+</variable>
+
+<variable id="phv00034149.v1">
+	<name>obspojob</name>
+	<description>Spouse&#39;s occupation</description>
+	<type>byte</type>
+	<value code="1">PROFESSIONAL, TECHNICAL, or SIMILAR WORKER</value>
+	<value code="10">HOMEMAKER</value>
+	<value code="11">STUDENT</value>
+	<value code="12">OTHER OR UNKNOWN</value>
+	<value code="2">MANAGER, OFFICIAL, OR PROPRIETOR</value>
+	<value code="3">CRAFTSMAN, FOREMAN, OR SIMILAR WORKER</value>
+	<value code="4">CLERICAL OR SIMILAR WORKER</value>
+	<value code="5">SALES WORKER</value>
+	<value code="6">OPERATIVE OR SIMILAR WORKER</value>
+	<value code="7">SERVICE WORKER</value>
+	<value code="8">LABORER</value>
+	<value code="9">FARMER</value>
+</variable>
+
+<variable id="phv00034154.v1">
+	<name>obsponoj</name>
+	<description>Spouse unemployed or retired</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+</variable>
+
+<variable id="phv00034140.v1">
+	<name>obstadbp</name>
+	<description>Standing diastolic blood pressure reading (mmhg)</description>
+	<type>byte</type>
+	<unit>MMHG</unit>
+</variable>
+
+<variable id="phv00034139.v1">
+	<name>obstasbp</name>
+	<description>Standing systolic blood pressure reading (mmhg)</description>
+	<type>int</type>
+	<unit>MMHG</unit>
+</variable>
+
+<variable id="phv00034163.v1">
+	<name>obstudnt</name>
+	<description>Patient is a student</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+</variable>
+
+<variable id="phv00034168.v1">
+	<name>obstudy</name>
+	<description>Is patient now participating in another study?</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+</variable>
+
+<variable id="phv00034138.v1">
+	<name>obsupdbp</name>
+	<description>Supine diastolic blood pressure reading (mmhg)</description>
+	<type>byte</type>
+	<unit>MMHG</unit>
+</variable>
+
+<variable id="phv00034137.v1">
+	<name>obsupsbp</name>
+	<description>Supine systolic blood pressure reading (mmhg)</description>
+	<type>int</type>
+	<unit>MMHG</unit>
+</variable>
+
+<variable id="phv00034433.v1">
+	<name>obtannr2</name>
+	<description>Patient is at or beyond Tanner stage 2</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+</variable>
+
+<variable id="phv00034425.v1">
+	<name>obthyrd</name>
+	<description>Thyroid abnormality</description>
+	<type>byte</type>
+	<value code="1">NORMAL</value>
+	<value code="2">ABNORMAL</value>
+	<value code="3">EXAM NOT DONE</value>
+</variable>
+
+<variable id="phv00034435.v1">
+	<name>obtnboob</name>
+	<description>Tanner stage of breasts</description>
+	<type>byte</type>
+	<unit>TANNER STAGE</unit>
+</variable>
+
+<variable id="phv00034434.v1">
+	<name>obtnhair</name>
+	<description>Tanner stage of pubic hair</description>
+	<type>byte</type>
+	<unit>TANNER STAGE</unit>
+</variable>
+
+<variable id="phv00034165.v1">
+	<name>obtyear</name>
+	<description>How many years in trade school?</description>
+	<type>byte</type>
+	<unit>YEARS</unit>
+</variable>
+
+<variable id="phv00034207.v1">
+	<name>oburine</name>
+	<description>Average weekly frequency of urine testing for glucose</description>
+	<type>byte</type>
+	<unit>URINE TESTS/WEEK</unit>
+</variable>
+
+<variable id="phv00034444.v1">
+	<name>obvenprs</name>
+	<description>Examine for: venous pressure</description>
+	<type>byte</type>
+	<value code="1">REGULAR</value>
+	<value code="2">ABNORMAL</value>
+</variable>
+
+<variable id="phv00034114.v1">
+	<name>obweight</name>
+	<description>Patient&#39;s weight (kg)</description>
+	<type>float</type>
+	<unit>KG</unit>
+</variable>
+
+<variable id="phv00034117.v1">
+	<name>obwt12mo</name>
+	<description>Adolescent: patient&#39;s weight (kg) 12 months ago</description>
+	<type>float</type>
+	<unit>KG</unit>
+	<value code="0">ERROR/UNKNOWN</value>
+	<value code="4.5">ERROR VALUE</value>
+</variable>
+
+<variable id="phv00034118.v1">
+	<name>obwt24mo</name>
+	<description>Adolescent: patient&#39;s weight (kg) 24 months ago</description>
+	<type>float</type>
+	<unit>KG</unit>
+	<value code="0">ERROR/UNKNOWN</value>
+</variable>
+
+</data_table>

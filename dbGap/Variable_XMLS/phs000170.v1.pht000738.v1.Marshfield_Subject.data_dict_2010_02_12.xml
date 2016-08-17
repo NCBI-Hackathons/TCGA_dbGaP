@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./datadict_v2.xsl"?>
+<data_table id="pht000738.v1" study_id="phs000170.v1" participant_set="1" date_created="Fri Feb 12 12:28:53 2010">
+
+<variable id="phv00071871.v1">
+	<name>SUBJID</name>
+	<description>Deidentified Subject/eMERGE ID</description>
+	<type>integer</type>
+</variable>
+
+<variable id="phv00071872.v1">
+	<name>CONSENT</name>
+	<description>Consent group as determined by DAC</description>
+	<type>encoded value</type>
+	<value code="0">Subjects did not participate in the study, did not complete a consent document and are included only for the pedigree structure and/or genotype controls, such as HapMap subjects</value>
+	<value code="1">Health Research - Marshfield Clinic (HR_MC).  May be used for genetic studies to learn about, prevent, or treat health problems.  No distribution to insurance companies.</value>
+</variable>
+
+<variable id="phv00071873.v1">
+	<name>SUBJ_SOURCE</name>
+	<description>Repository source of the subject</description>
+</variable>
+
+<variable id="phv00071874.v1">
+	<name>SOURCE_SUBJID</name>
+	<description>Subject ID used at the subject source</description>
+</variable>
+
+<variable id="phv00071875.v1">
+	<name>AFFECTION_STATUS</name>
+	<description>Final affection status derived from electronic algorithm, but may have been superseded by the result of manual validation (if done).</description>
+	<type>encoded value</type>
+	<comment><![CDATA[The affection status was derived using an electronic algorithm with &gt;95% PPV (Positive Predictive Value).  Manual chart reviews were performed on a portion of the subjects, using the same diagnostic criteria as the original algorithm.  If the result of the manual chart review did not match the electronic algorithm, the final value will reflect the manually derived status. 
+		Pages 1-11 of "<a href="javascript:getPage(this, &#39;document.cgi&#39;, 1563);return true;" onclick="javascript:getPage(this, &#39;document.cgi&#39;, 1563);return true;" oncontextmenu="javascript:getPage(this, &#39;document.cgi&#39;, 1563);return true;">Marshfield-CataractDefinition</a>" document, provide algorithm for cataract detection. ]]></comment>
+	<value code="1">Case_Surgery</value>
+	<value code="2">Case_Diagnosis</value>
+	<value code="3">Control</value>
+	<value code=".">Missing</value>
+	<value code="NA">Not Assessed</value>
+</variable>
+
+</data_table>

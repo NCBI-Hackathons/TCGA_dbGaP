@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./datadict_v2.xsl"?>
+<data_table id="pht001049.v1" study_id="phs000219.v1" participant_set="1" date_created="Tue Jan 19 13:07:21 2010">
+
+<unique_key phv="00081068" version="1">SUBJID</unique_key>
+<unique_key phv="00081072" version="1">VISIT</unique_key>
+
+<variable id="phv00081068.v1">
+	<name>SUBJID</name>
+	<description>Subject&#39;s ID</description>
+	<type>String</type>
+</variable>
+
+<variable id="phv00081069.v1">
+	<name>CASE_CONTROL</name>
+	<description>Subject type</description>
+	<type>Encoded value</type>
+	<value code="ADP">AD Participant</value>
+	<value code="CASE">Case</value>
+	<value code="CCCS">Control with Change in Cognitive Status</value>
+	<value code="CNTL">Control</value>
+	<value code="FAM">Family member</value>
+	<value code="UASB">Unaffected Sibling</value>
+</variable>
+
+<variable id="phv00081070.v1">
+	<name>INV</name>
+	<description>Investigator&#39;s ID</description>
+	<type>String</type>
+</variable>
+
+<variable id="phv00081071.v1">
+	<name>INVSITE</name>
+	<description>Investigator site ID</description>
+	<type>String</type>
+</variable>
+
+<variable id="phv00081072.v1">
+	<name>VISIT</name>
+	<description>Visit name</description>
+	<type>String</type>
+	<comment>CCCS=Control with Change in Cognitive Status - page recorded at visit 3; CCCS4=Control with Change in Cognitive Status - page recorded at Visit 4</comment>
+</variable>
+
+<variable id="phv00081073.v1">
+	<name>VISIT_DATE</name>
+	<description>Visit date</description>
+	<type>Date</type>
+	<comment>Truncated to YYYY</comment>
+</variable>
+
+<variable id="phv00081074.v1">
+	<name>ADCD</name>
+	<description>Diagnosis (DSM-IV) of dementia of Alzheimer&#39;s type</description>
+	<type>Encoded Value</type>
+	<value code="290.0">With late onset, uncomplicated</value>
+	<value code="290.3">With late onset, with delirium</value>
+	<value code="290.10">With early onset, uncomplicated</value>
+	<value code="290.11">With early onset, with delirium</value>
+	<value code="290.12">With early onset, with delusions</value>
+	<value code="290.13">With early onset, with depressed mood</value>
+	<value code="290.20">With late onset, with delusions</value>
+	<value code="290.21">With late onset, with depressed mood</value>
+</variable>
+
+</data_table>

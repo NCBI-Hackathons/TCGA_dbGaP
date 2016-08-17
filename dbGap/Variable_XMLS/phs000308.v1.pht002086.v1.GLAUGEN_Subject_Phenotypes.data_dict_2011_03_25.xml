@@ -1,0 +1,479 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./datadict_v2.xsl"?>
+<data_table id="pht002086.v1" study_id="phs000308.v1" participant_set="1" date_created="Fri Mar 25 12:38:10 2011">
+
+  <variable id="phv00142505.v1">
+    <name>GENEVA_ID</name>
+    <description>NHS/HPFS/GEP: Unique GENEVA ID</description>
+    <type>integer</type>
+  </variable>
+
+  <variable id="phv00142506.v1">
+    <name>GENEVA_matchid</name>
+    <description>NHS/HPFS: GENEVA_ID of the case in a matched case-control set</description>
+    <type>integer</type>
+  </variable>
+
+  <variable id="phv00142507.v1">
+    <name>rtype</name>
+    <description>NHS/HPFS/GEP: Case type based on combination of elevated intraocular pressure (IOP)(defined as maximum intraocular pressure &gt;= 22 mm Hg) and reproducible visual field (VF) loss. For cases only.</description>
+    <type>encoded integer</type>
+    <logical_min>1</logical_min>
+    <logical_max>9</logical_max>
+    <comment>NOTE: NHS/HPFS cases only have rtype values (1,2) while GEP cases have rtype values (1,2,3,4)</comment>
+    <value code="1">elevated IOP, reproducible VF loss,</value>
+    <value code="2">no elevation in IOP, reproducible VF loss</value>
+    <value code="3">elevated IOP, VF loss present but not reproduced, abnormal disc</value>
+    <value code="4">no elevation in IOP, VF loss present but not reproduced, abnormal disc</value>
+    <value code="9">missing</value>
+  </variable>
+
+  <variable id="phv00142508.v1">
+    <name>dateofextraction</name>
+    <description>NHS/HPFS/GEP: Year of DNA extraction (should be used with the &quot;site&quot;, &quot;spec&quot; and &quot;methodofextraction&quot; variables)</description>
+    <type>integer</type>
+    <logical_min>2000</logical_min>
+    <logical_max>2009</logical_max>
+  </variable>
+
+  <variable id="phv00142509.v1">
+    <name>methodofextraction</name>
+    <description>NHS/HPFS/GEP: DNA extraction method</description>
+    <type>string</type>
+    <value>QIAGEN</value>
+    <value>GENTRA</value>
+    <value>DNAzol</value>
+  </variable>
+
+  <variable id="phv00142510.v1">
+    <name>spec</name>
+    <description>NHS/HPFS/GEP: Type specimen from which DNA extracted</description>
+    <type>string</type>
+    <value>Blood</value>
+    <value>Cheek</value>
+  </variable>
+
+  <variable id="phv00142511.v1">
+    <name>agedx</name>
+    <description>NHS/HPFS: Cases: age at index date (glaucoma diagnosis). Controls: 1) if matched to a case (see variable GENEVA_matchid) then age at index date -- matched case&#39;s diagnosis date 2) if not matched to a case (variable GENEVA_matchid is missing) then age </description>
+    <type>integer</type>
+    <unit>years</unit>
+    <logical_min>40</logical_min>
+  </variable>
+
+  <variable id="phv00142512.v1">
+    <name>hgla</name>
+    <description>NHS/HPFS: Family history of glaucoma in 1st degree relatives (defined as history of glaucoma in biological parents, siblings or children). GEP: Family history of glaucoma in parents or siblings</description>
+    <type>encoded integer</type>
+    <logical_min>0</logical_min>
+    <logical_max>9</logical_max>
+    <value code="0">No</value>
+    <value code="1">Yes</value>
+    <value code="9">missing</value>
+  </variable>
+
+  <variable id="phv00142513.v1">
+    <name>gender</name>
+    <description>NHS/HPFS/GEP: Gender</description>
+    <type>encoded integer</type>
+    <logical_min>0</logical_min>
+    <logical_max>1</logical_max>
+    <value code="0">Male</value>
+    <value code="1">Female</value>
+  </variable>
+
+  <variable id="phv00142514.v1">
+    <name>sdbh</name>
+    <description>NHS/HPFS/GEP: Self-report of history of diabetes mellitus</description>
+    <type>encoded integer</type>
+    <logical_min>0</logical_min>
+    <logical_max>9</logical_max>
+    <value code="0">No</value>
+    <value code="1">Yes</value>
+    <value code="9">Missing</value>
+  </variable>
+
+  <variable id="phv00142515.v1">
+    <name>hbph</name>
+    <description>NHS/HPFS/GEP: Self-report of history of systemic hypertension</description>
+    <type>encoded integer</type>
+    <logical_min>0</logical_min>
+    <logical_max>9</logical_max>
+    <value code="0">No</value>
+    <value code="1">Yes</value>
+    <value code="9">Missing</value>
+  </variable>
+
+  <variable id="phv00142516.v1">
+    <name>packyr</name>
+    <description>NHS/HPFS: Cigarette smoking (pack years) as of index date. For NHS/HPFS only.</description>
+    <type>encoded integer</type>
+    <unit>pack-year</unit>
+    <logical_min>1</logical_min>
+    <logical_max>9999</logical_max>
+    <value code="1">never</value>
+    <value code="2">&lt;10</value>
+    <value code="3">10-19</value>
+    <value code="4">20-29</value>
+    <value code="5">30+</value>
+    <value code="9999">Missing</value>
+  </variable>
+
+  <variable id="phv00142517.v1">
+    <name>smkst</name>
+    <description>NHS/HPFS/GEP: Cigarette smoking status as of index date (NHS/HPFS) or at enrollment (GEP)</description>
+    <type>encoded integer</type>
+    <logical_min>1</logical_min>
+    <logical_max>9</logical_max>
+    <value code="1">never,</value>
+    <value code="2">past,</value>
+    <value code="3">curr. 1ppd,</value>
+    <value code="4">curr. &gt;1ppd,</value>
+    <value code="9">Missing</value>
+  </variable>
+
+  <variable id="phv00142518.v1">
+    <name>bmi</name>
+    <description>NHS/HPFS: BMI (kg/m2) averaged over all questionnaires as of index date.  For NHS/HPFS only.</description>
+    <type>decimal, encoded integer</type>
+    <unit>kg/m2</unit>
+    <logical_min>16.597</logical_min>
+    <logical_max>9999</logical_max>
+    <value code="9999">Missing</value>
+  </variable>
+
+  <variable id="phv00142519.v1">
+    <name>weight</name>
+    <description>NHS/HPFS: Weight (lbs) averaged over all questionnaires as of index date.  For NHS/HPFS only.</description>
+    <type>decimal, encoded integer</type>
+    <unit>lbs</unit>
+    <logical_min>95.833</logical_min>
+    <logical_max>9999</logical_max>
+    <value code="9999">Missing</value>
+  </variable>
+
+  <variable id="phv00142520.v1">
+    <name>height</name>
+    <description>NHS/HPFS: Height (inches) averaged over all questionnaires as of index date. For NHS/HPFS only.</description>
+    <type>decimal, encoded integer</type>
+    <unit>inches</unit>
+    <logical_min>58</logical_min>
+    <logical_max>9999</logical_max>
+    <value code="9999">Missing</value>
+  </variable>
+
+  <variable id="phv00142521.v1">
+    <name>phy</name>
+    <description>NHS/HPFS: Physical activity (Met-hours/week) averaged over all questionnaires as of index date. For NHS/HPFS only.</description>
+    <type>decimal, encoded integer</type>
+    <unit>MET-hours/wk</unit>
+    <logical_min>0</logical_min>
+    <logical_max>9999</logical_max>
+    <value code="9999">Missing</value>
+  </variable>
+
+  <variable id="phv00142522.v1">
+    <name>caff</name>
+    <description>NHS/HPFS: caffeine intake (mg per day) averaged over all questionnaires as of index date. For NHS/HPFS only.</description>
+    <type>decimal, encoded integer</type>
+    <unit>mg/day</unit>
+    <logical_min>0</logical_min>
+    <logical_max>9999</logical_max>
+    <value code="9999">Missing</value>
+  </variable>
+
+  <variable id="phv00142523.v1">
+    <name>alco</name>
+    <description>NHS/HPFS: alcohol intake (g per day) average over all questionnaires as of index date. For NHS/HPFS only.</description>
+    <type>decimal, encoded integer</type>
+    <unit>g/day</unit>
+    <logical_min>0</logical_min>
+    <logical_max>9999</logical_max>
+    <value code="9999">Missing</value>
+  </variable>
+
+  <variable id="phv00142524.v1">
+    <name>gly</name>
+    <description>NHS/HPFS: glycemic load: average over all questionnaires as of index date.</description>
+    <type>decimal, encoded integer</type>
+    <logical_min>36.66</logical_min>
+    <logical_max>9999</logical_max>
+    <comment>Glycemic load values calculated by multiplying each food&#39;s glycemic index by its carbohydrate value and by the frequency of consumption, then summing over all foods.</comment>
+    <value code="9999">Missing</value>
+  </variable>
+
+  <variable id="phv00142525.v1">
+    <name>tfat</name>
+    <description>NHS/HPFS: energy adjusted total fat intake intake (g per day) averaged over all questionnaires as of index date.  For NHS/HPFS only.</description>
+    <type>decimal, encoded integer</type>
+    <unit>mg/day</unit>
+    <logical_min>12.11</logical_min>
+    <logical_max>9999</logical_max>
+    <value code="9999">Missing</value>
+  </variable>
+
+  <variable id="phv00142526.v1">
+    <name>pfn6</name>
+    <description>NHS/HPFS: energy adjusted total omega-6 polyunsaturated fat intake (g per day) averaged over all questionnaires as of index date. For NHS/HPFS only.</description>
+    <type>decimal, encoded integer</type>
+    <unit>mg/day</unit>
+    <logical_min>1.53</logical_min>
+    <logical_max>9999</logical_max>
+    <value code="9999">Missing</value>
+  </variable>
+
+  <variable id="phv00142527.v1">
+    <name>pfn3</name>
+    <description>NHS/HPFS: energy adjusted total omega-3 polyunsaturated fat intake (g per day) averaged over all questionnaires as of index date.  For NHS/HPFS only.</description>
+    <type>decimal, encoded integer</type>
+    <unit>mg/day</unit>
+    <logical_min>0.31</logical_min>
+    <logical_max>9999</logical_max>
+    <value code="9999">Missing</value>
+  </variable>
+
+  <variable id="phv00142528.v1">
+    <name>antxsc</name>
+    <description>NHS/HPFS: Total antioxidant score: average over all questionnaires as of index date.  For NHS/HPFS only.</description>
+    <type>integer, encoded integer</type>
+    <logical_min>7</logical_min>
+    <logical_max>9999</logical_max>
+    <value code="9999">Missing</value>
+  </variable>
+
+  <variable id="phv00142529.v1">
+    <name>race</name>
+    <description>NHS/HPFS/GEP: Race</description>
+    <type>encoded integer</type>
+    <logical_min>1</logical_min>
+    <logical_max>4</logical_max>
+    <value code="1">White</value>
+    <value code="2">Black</value>
+    <value code="3">Asian</value>
+    <value code="4">Other</value>
+  </variable>
+
+  <variable id="phv00142530.v1">
+    <name>caco</name>
+    <description>NHS/HPFS/GEP: Case or control status</description>
+    <type>encoded integer</type>
+    <logical_min>1</logical_min>
+    <logical_max>2</logical_max>
+    <value code="1">Case</value>
+    <value code="2">Control</value>
+  </variable>
+
+  <variable id="phv00142531.v1">
+    <name>site</name>
+    <description>NHS/HPFS/GEP: Study site</description>
+    <type>encoded integer</type>
+    <value code="1">GEP</value>
+    <value code="2">NHS</value>
+    <value code="3">HPFS</value>
+  </variable>
+
+  <variable id="phv00142532.v1">
+    <name>ethn</name>
+    <description>NHS/HPFS/GEP: Ethnicity</description>
+    <type>encoded integer</type>
+    <logical_min>1</logical_min>
+    <logical_max>9</logical_max>
+    <value code="1">Non-hispanic</value>
+    <value code="2">Hispanic</value>
+    <value code="9">Missing</value>
+  </variable>
+
+  <variable id="phv00142533.v1">
+    <name>prob1</name>
+    <description>NHS/HPFS/GEP: Variable used to flag problematic cases or controls who can be excluded in secondary analyses.</description>
+    <type>encoded integer</type>
+    <logical_min>1</logical_min>
+    <logical_max>9</logical_max>
+    <value code="1">NHS/HPFS case who was found to be a prevalent case (diagnosed before 1980 in NHS or before 1986 in HPFS)</value>
+    <value code="2">GEP case with 1 visual field only showing loss in either eye whose cup: disc ratio does not meet abnormal criterion (&gt;=0.7 in either eye or difference in cup: disc ratio &gt;=0.2)</value>
+    <value code="3">NHS/HPFS control who has exfoliation glaucoma (not primary open-angle glaucoma)</value>
+    <value code="4">NHS/HPFS control who was incidence density sampled at time of index case and was a control but later converted to primary open-angle glaucoma case</value>
+    <value code="5">GEP control who has abnormal cup: disc ratio (&gt;=0.7 in either eye or difference in cup: disc ratio &gt;=0.2)</value>
+    <value code="9">No problem in case or control definition</value>
+  </variable>
+
+  <variable id="phv00142534.v1">
+    <name>consenttype</name>
+    <description>NHS/HPFS/GEP: Consent coverage</description>
+    <type>encoded integer</type>
+    <logical_min>1</logical_min>
+    <logical_max>2</logical_max>
+    <value code="1">Limited to research on the etiology of glaucoma and related areas</value>
+    <value code="2">General research use</value>
+  </variable>
+
+  <variable id="phv00142535.v1">
+    <name>ageenroll</name>
+    <description>GEP: Cases: age at enrollment (enrollment was after diagnosis). Controls: age at enrollment (same value as agedx).  For GEP only.</description>
+    <type>integer, encoded integer</type>
+    <unit>years</unit>
+    <logical_min>40</logical_min>
+    <value code="999">Missing</value>
+  </variable>
+
+  <variable id="phv00142536.v1">
+    <name>odvfpa</name>
+    <description>NHS/HPFS/GEP: Cases: Zone of VF loss OD on earliest VF indicates paracentral loss. For cases only.</description>
+    <type>encoded integer</type>
+    <logical_min>0</logical_min>
+    <logical_max>9</logical_max>
+    <comment>NOTE: In GEP, for cases with severe optic neuropathy consistent with Snellen acuity of 20/200 or less, all were graded as yes</comment>
+    <value code="0">No</value>
+    <value code="1">Yes</value>
+    <value code="9">missing</value>
+  </variable>
+
+  <variable id="phv00142537.v1">
+    <name>osvfpa</name>
+    <description>NHS/HPFS/GEP: Cases: Zone of VF loss OS on earliest VF indicates paracentral loss. For cases only.</description>
+    <type>encoded integer</type>
+    <logical_min>0</logical_min>
+    <logical_max>9</logical_max>
+    <comment>NOTE: In GEP, for cases with severe optic neuropathy consistent with Snellen acuity of 20/200 or less, all were graded as yes</comment>
+    <value code="0">No</value>
+    <value code="1">Yes</value>
+    <value code="9">missing</value>
+  </variable>
+
+  <variable id="phv00142538.v1">
+    <name>odvfpe</name>
+    <description>NHS/HPFS/GEP: Cases: Zone of VF loss OD on earliest VF indicates peripheral loss (nasal step. nasal depression. temporal wedge).  For cases only.</description>
+    <type>encoded integer</type>
+    <logical_min>0</logical_min>
+    <logical_max>9</logical_max>
+    <comment>NOTE: In GEP, for cases with severe optic neuropathy consistent with Snellen acuity of 20/200 or less, all were graded as yes</comment>
+    <value code="0">No</value>
+    <value code="1">Yes</value>
+    <value code="9">missing</value>
+  </variable>
+
+  <variable id="phv00142539.v1">
+    <name>osvfpe</name>
+    <description>NHS/HPFS/GEP: Cases: Zone of VF loss OS on earliest VF indicates peripheral loss (nasal step. nasal depression. temporal wedge). For cases only.</description>
+    <type>encoded integer</type>
+    <logical_min>0</logical_min>
+    <logical_max>9</logical_max>
+    <comment>NOTE: In GEP, for cases with severe optic neuropathy consistent with Snellen acuity of 20/200 or less, all were graded as yes</comment>
+    <value code="0">No</value>
+    <value code="1">Yes</value>
+    <value code="9">missing</value>
+  </variable>
+
+  <variable id="phv00142540.v1">
+    <name>odiop</name>
+    <description>NHS/HPFS: Cases: Maximum untreated intraocular pressure (IOP) in right eye (OD).  For cases only. GEP: IOP in OD at enrollment</description>
+    <type>integer, encoded integer</type>
+    <unit>mmHg</unit>
+    <logical_min>2</logical_min>
+    <logical_max>99</logical_max>
+    <comment>Controls: missing</comment>
+    <value code="99">missing</value>
+  </variable>
+
+  <variable id="phv00142541.v1">
+    <name>osiop</name>
+    <description>NHS/HPFS: Cases: Maximum untreated intraocular pressure (IOP) in left eye (OS).  For cases only. GEP: IOP in OS at enrollment.</description>
+    <type>integer, encoded integer</type>
+    <unit>mmHg</unit>
+    <logical_min>2</logical_min>
+    <logical_max>99</logical_max>
+    <value code="99">missing</value>
+  </variable>
+
+  <variable id="phv00142542.v1">
+    <name>odvfpsd</name>
+    <description>NHS/HPFS/GEP: Cases: Pattern Standard Deviation (PSD) on earliest VF OD. For cases only.</description>
+    <type>decimal, encoded integer</type>
+    <logical_min>1.43</logical_min>
+    <logical_max>15.16</logical_max>
+    <comment>Missing or visual field testing was done with a machine that doesn&#39;t provide PSD.</comment>
+    <value code="99">missing</value>
+  </variable>
+
+  <variable id="phv00142543.v1">
+    <name>osvfpsd</name>
+    <description>NHS/HPFS/GEP: Cases: Pattern Standard Deviation (PSD) on earliest VF OS. For cases only.</description>
+    <type>decimal, encoded integer</type>
+    <logical_min>1.4</logical_min>
+    <logical_max>16.46</logical_max>
+    <comment>Missing or visual field testing was done with a machine that doesn&#39;t provide PSD.</comment>
+    <value code="99">missing</value>
+  </variable>
+
+  <variable id="phv00142544.v1">
+    <name>odvcdr</name>
+    <description>NHS/HPFS: Cases: Recent vertical cup:disc ratio in right eye (OD).  For cases only. GEP: Vertical cup:disc ratio OD at enrollment</description>
+    <type>decimal, encoded integer</type>
+    <logical_min>0.01</logical_min>
+    <logical_max>99</logical_max>
+    <value code="99">missing</value>
+  </variable>
+
+  <variable id="phv00142545.v1">
+    <name>osvcdr</name>
+    <description>NHS/HPFS: Cases: Recent vertical cup:disc ratio in left eye (OS).  For cases only. GEP: Vertical cup:disc ratio OS at enrollment.</description>
+    <type>decimal, encoded integer</type>
+    <logical_min>0.01</logical_min>
+    <logical_max>99</logical_max>
+    <value code="99">missing</value>
+  </variable>
+
+  <variable id="phv00142546.v1">
+    <name>hbphace</name>
+    <description>NHS/HPFS: Systemic ACE use as of index date. GEP: Systemic ACE use at DNA collection date.</description>
+    <type>encoded integer</type>
+    <logical_min>0</logical_min>
+    <logical_max>9</logical_max>
+    <value code="0">No</value>
+    <value code="1">Yes</value>
+    <value code="9">Missing</value>
+  </variable>
+
+  <variable id="phv00142547.v1">
+    <name>hbphbbl</name>
+    <description>NHS/HPFS: Systemic Beta Blocker use as of index date. GEP: Systemic Beta Blocker use at DNA collection date</description>
+    <type>encoded integer</type>
+    <logical_min>0</logical_min>
+    <logical_max>9</logical_max>
+    <value code="0">No</value>
+    <value code="1">Yes</value>
+    <value code="9">Missing</value>
+  </variable>
+
+  <variable id="phv00142548.v1">
+    <name>hbphccb</name>
+    <description>NHS/HPFS: Systemic Calcium channel blocker use as of index date. GEP: Systemic Calcium channel blocker use at DNA collection.</description>
+    <type>encoded integer</type>
+    <logical_min>0</logical_min>
+    <logical_max>9</logical_max>
+    <value code="0">No</value>
+    <value code="1">Yes</value>
+    <value code="9">Missing</value>
+  </variable>
+
+  <variable id="phv00142549.v1">
+    <name>eyesxltp</name>
+    <description>NHS/HPFS/GEP: Cases: History of laser trabeculoplasty in either eye. For cases only.</description>
+    <type>encoded integer</type>
+    <logical_min>0</logical_min>
+    <logical_max>1</logical_max>
+    <value code="0">No</value>
+    <value code="1">Yes</value>
+  </variable>
+
+  <variable id="phv00142550.v1">
+    <name>eyesxgfs</name>
+    <description>NHS/HPFS/GEP: Cases: History of trabeculectomy, angle surgery (s.a. trabectome)  or glaucoma drainage device implant in either eye. For cases only.</description>
+    <type>encoded integer</type>
+    <logical_min>0</logical_min>
+    <logical_max>1</logical_max>
+    <value code="0">No</value>
+    <value code="1">Yes</value>
+  </variable>
+
+</data_table>

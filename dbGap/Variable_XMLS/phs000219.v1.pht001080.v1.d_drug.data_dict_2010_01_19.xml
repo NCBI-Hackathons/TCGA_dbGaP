@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./datadict_v2.xsl"?>
+<data_table id="pht001080.v1" study_id="phs000219.v1" participant_set="1" date_created="Tue Jan 19 13:07:29 2010">
+
+<unique_key phv="00081896" version="1">SUBJID</unique_key>
+<unique_key phv="00081898" version="1">INV</unique_key>
+<unique_key phv="00081899" version="1">INVSITE</unique_key>
+<unique_key phv="00081900" version="1">VISIT</unique_key>
+<unique_key phv="00081901" version="1">VISIT_DATE</unique_key>
+<unique_key phv="00081902" version="1">SUBSETSN</unique_key>
+<unique_key phv="00081903" version="1">REPEATSN</unique_key>
+<unique_key phv="00081919" version="1">DGSPDT</unique_key>
+<unique_key phv="00081920" version="1">DGSTDT</unique_key>
+<unique_key phv="00081922" version="1">DGVTX</unique_key>
+
+<variable id="phv00081896.v1">
+	<name>SUBJID</name>
+	<description>Subject&#39;s ID</description>
+	<type>String</type>
+</variable>
+
+<variable id="phv00081897.v1">
+	<name>CASE_CONTROL</name>
+	<description>Subject type</description>
+	<type>Encoded value</type>
+	<value code="ADP">AD Participant</value>
+	<value code="CASE">Case</value>
+	<value code="CCCS">Control with Change in Cognitive Status</value>
+	<value code="CNTL">Control</value>
+	<value code="FAM">Family member</value>
+	<value code="UASB">Unaffected Sibling</value>
+</variable>
+
+<variable id="phv00081898.v1">
+	<name>INV</name>
+	<description>Investigator&#39;s ID</description>
+	<type>String</type>
+</variable>
+
+<variable id="phv00081899.v1">
+	<name>INVSITE</name>
+	<description>Investigator site ID</description>
+	<type>String</type>
+</variable>
+
+<variable id="phv00081900.v1">
+	<name>VISIT</name>
+	<description>Visit name</description>
+	<type>String</type>
+</variable>
+
+<variable id="phv00081901.v1">
+	<name>VISIT_DATE</name>
+	<description>Visit date</description>
+	<type>Date</type>
+	<comment>Truncated to YYYY</comment>
+</variable>
+
+<variable id="phv00081902.v1">
+	<name>SUBSETSN</name>
+	<description>Sequence number per module</description>
+	<type>Encoded value</type>
+	<comment>Additional Primary Key field</comment>
+	<value code="1">Alzheimer&#39;s Disease Medications</value>
+	<value code="2">Prescription Medications, Case</value>
+	<value code="3">Concurrent Vitamins</value>
+	<value code="4">Over The Counter Medications</value>
+	<value code="5">Alzheimer&#39;s Disease Medications</value>
+	<value code="6">Prescription Medications, Case</value>
+	<value code="7">Concurrent Vitamins</value>
+	<value code="8">Over the counter medications (code=8)</value>
+	<value code="9">Over the counter medications (code=9)</value>
+</variable>
+
+<variable id="phv00081903.v1">
+	<name>REPEATSN</name>
+	<description>Row number within module</description>
+	<type>Integer</type>
+	<comment>Additional Primary Key field</comment>
+</variable>
+
+<variable id="phv00081904.v1">
+	<name>CMATC1_1</name>
+	<description>Anatomical Therapeutic Classification (ATC) -  text #1</description>
+	<type>String</type>
+	<comment>Derived</comment>
+</variable>
+
+<variable id="phv00081905.v1">
+	<name>CMATC2_1</name>
+	<description>Anatomical Therapeutic Classification (ATC) -  text #2</description>
+	<type>String</type>
+	<comment>Derived</comment>
+</variable>
+
+<variable id="phv00081906.v1">
+	<name>CMATC3_1</name>
+	<description>Anatomical Therapeutic Classification (ATC) -  text #3</description>
+	<type>String</type>
+	<comment>Derived</comment>
+</variable>
+
+<variable id="phv00081907.v1">
+	<name>CMATC4_1</name>
+	<description>Anatomical Therapeutic Classification (ATC) -  text #4</description>
+	<type>String</type>
+	<comment>Derived</comment>
+</variable>
+
+<variable id="phv00081908.v1">
+	<name>CMATC5_1</name>
+	<description>Anatomical Therapeutic Classification (ATC) -  text #5</description>
+	<type>String</type>
+	<comment>Derived</comment>
+</variable>
+
+<variable id="phv00081909.v1">
+	<name>CMATC6_1</name>
+	<description>Anatomical Therapeutic Classification (ATC) -  text #6</description>
+	<type>String</type>
+	<comment>Derived</comment>
+</variable>
+
+<variable id="phv00081910.v1">
+	<name>CMDRGCOL</name>
+	<description>Drug collection code</description>
+	<type>String</type>
+	<comment>Derived</comment>
+</variable>
+
+<variable id="phv00081911.v1">
+	<name>CMDRGSYN</name>
+	<description>Drug synonym</description>
+	<type>String</type>
+	<comment>Derived</comment>
+</variable>
+
+<variable id="phv00081912.v1">
+	<name>DGCMP</name>
+	<description>Drug Compliance</description>
+	<type>Encoded Value</type>
+	<value code="80+">80%+ compliance</value>
+	<value code="80-">80%- compliance</value>
+</variable>
+
+<variable id="phv00081913.v1">
+	<name>DGDS</name>
+	<description>Drug Dose</description>
+	<type>Decimal</type>
+</variable>
+
+<variable id="phv00081914.v1">
+	<name>DGFQ</name>
+	<description>Frequency</description>
+	<type>Encoded Value</type>
+	<value code="1D">Once Daily</value>
+	<value code="2D">Twice Daily</value>
+	<value code="2W">Every 2 weeks</value>
+	<value code="2XW">2 x weekly</value>
+	<value code="3D">Three Times Daily</value>
+	<value code="3XW">3 x Weekly</value>
+	<value code="4D">Four Times Daily</value>
+	<value code="&gt;4D">More than Four Times Daily</value>
+	<value code="DL">Daily</value>
+	<value code="K">Don&#39;t Know</value>
+	<value code="MO">Monthly</value>
+	<value code="N">Never</value>
+	<value code="PRN">As needed</value>
+	<value code="R">Rarely</value>
+	<value code="REG">Regularly</value>
+	<value code="W">Weekly</value>
+</variable>
+
+<variable id="phv00081915.v1">
+	<name>DGINVTX</name>
+	<description>Indication</description>
+	<type>String</type>
+</variable>
+
+<variable id="phv00081916.v1">
+	<name>DGLSDY</name>
+	<description>Day of last medicine dose</description>
+	<type>Encoded Value</type>
+	<value code="&gt;48H">&gt; 48 Hours</value>
+	<value code="TD">Today</value>
+	<value code="YD">Yesterday</value>
+</variable>
+
+<variable id="phv00081917.v1">
+	<name>DGLSTM</name>
+	<description>Examination Time</description>
+	<type>Time</type>
+</variable>
+
+<variable id="phv00081918.v1">
+	<name>DGOG</name>
+	<description>Ongoing</description>
+	<type>Encoded Value</type>
+	<value code="N">No</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00081919.v1">
+	<name>DGSPDT</name>
+	<description>Date stopped</description>
+	<type>Date</type>
+	<comment>Truncated to YYYY</comment>
+</variable>
+
+<variable id="phv00081920.v1">
+	<name>DGSTDT</name>
+	<description>Date started</description>
+	<type>Date</type>
+	<comment>Truncated to YYYY</comment>
+</variable>
+
+<variable id="phv00081921.v1">
+	<name>DGU</name>
+	<description>Drug Unit</description>
+	<type>Encoded Value</type>
+	<value code="CAP">Capsule</value>
+	<value code="CAPLT">Caplet</value>
+	<value code="G">Gram(s)</value>
+	<value code="GTT">Drops</value>
+	<value code="IU">International units</value>
+	<value code="LOZ">Lozenge</value>
+	<value code="MCG">Microgram(s)</value>
+	<value code="MG">Mg</value>
+	<value code="ML">Ml</value>
+	<value code="PUFF">Puff</value>
+	<value code="TAB">Tablet</value>
+	<value code="TBLSP">Tablespoon</value>
+	<value code="TSP">Teaspoon</value>
+	<value code="UG">Microgram</value>
+	<value code="UNK">Unknown</value>
+</variable>
+
+<variable id="phv00081922.v1">
+	<name>DGVTX</name>
+	<description>Drug Name</description>
+	<type>String</type>
+	<comment>Additional Primary Key field
+		Defaulted values. </comment>
+</variable>
+
+<variable id="phv00081923.v1">
+	<name>DGRC</name>
+	<description>Is the participant taking any medications</description>
+	<type>Encoded Value</type>
+	<value code="K">Don&#39;t Know</value>
+	<value code="N">No</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00081924.v1">
+	<name>OTHDG</name>
+	<description>Other Drugs</description>
+	<type>String</type>
+</variable>
+
+</data_table>

@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./datadict_v2.xsl"?>
+<data_table id="pht001969.v1" study_id="phs000286.v1" participant_set="1" date_created="Fri Feb  4 19:57:50 2011">
+
+<variable id="phv00128197.v1">
+	<name>Individual_ID</name>
+	<description>Subject Identifier</description>
+	<type>string</type>
+</variable>
+
+<variable id="phv00128198.v1">
+	<name>PULA2</name>
+	<description>Time of testing (hh:mm) military time</description>
+	<type>string</type>
+</variable>
+
+<variable id="phv00128199.v1">
+	<name>PULA8</name>
+	<description>Spirometry technician identifier (3 Digit ID unique to each technician)</description>
+	<type>string</type>
+</variable>
+
+<variable id="phv00128200.v1">
+	<name>PULA9</name>
+	<description>J1= Jackson Spiromter # 1, J2 =Jackson Spirometer # 2</description>
+	<type>string</type>
+</variable>
+
+<variable id="phv00128201.v1">
+	<name>PULA50</name>
+	<description>Pulmonary reading center overreading comments on test</description>
+	<type>string</type>
+</variable>
+
+<variable id="phv00128202.v1">
+	<name>PULA59</name>
+	<description>Flag showing (FVC, FEV1, FEV1/FVC) = Normal, Below Normal &amp; &gt;50% predicted, Less than 50% predicted, -1= Missing Data</description>
+	<type>string</type>
+</variable>
+
+<variable id="phv00128203.v1">
+	<name>pula10</name>
+	<description>Computer QC (Flow) - Quality Control Score assigned by computer for flow aspects of curve</description>
+	<type>integer</type>
+</variable>
+
+<variable id="phv00128204.v1">
+	<name>pula11</name>
+	<description>Computer QC (Volume) - Quality Control Score assigned by computer for volume aspects</description>
+	<type>integer</type>
+</variable>
+
+<variable id="phv00128205.v1">
+	<name>pula12</name>
+	<description>Reader QC (Flow) - Pulmonary reading center reader quality score for flow aspects</description>
+	<type>integer</type>
+</variable>
+
+<variable id="phv00128206.v1">
+	<name>pula13</name>
+	<description>Reader QC (FVC) - Pulmonary reading center reader quality score for forced vital capacity</description>
+	<type>integer</type>
+</variable>
+
+<variable id="phv00128207.v1">
+	<name>pula14</name>
+	<description>Reader QC (FEV1) - Pulmonary reading center reader quality score for FEV 1.0</description>
+	<type>integer</type>
+</variable>
+
+<variable id="phv00128208.v1">
+	<name>pula16</name>
+	<description>Number of Trials - Total number of trials for spirometry</description>
+	<type>integer</type>
+	<logical_min>1</logical_min>
+	<logical_max>15</logical_max>
+</variable>
+
+<variable id="phv00128209.v1">
+	<name>pula17</name>
+	<description>BEST_FVC - Best forced vital capacity from best curve (best curve is an acceptable curve that has Max [FVC + FEV1 ] ): measured in liters</description>
+	<type>decimal</type>
+	<logical_min>0.22</logical_min>
+	<logical_max>9.38</logical_max>
+</variable>
+
+<variable id="phv00128210.v1">
+	<name>pula18</name>
+	<description>BEST_FEV1 - Forced expiratory volume in 1 second, FEV1.0 from the best curve: measured in liters</description>
+	<type>decimal</type>
+	<logical_min>-0.04</logical_min>
+	<logical_max>5.37</logical_max>
+</variable>
+
+<variable id="phv00128211.v1">
+	<name>pula19</name>
+	<description>BEST_PEF - Peak expiratory flow from the best curve: measured in liters</description>
+	<type>decimal</type>
+	<logical_min>0</logical_min>
+	<logical_max>29.62</logical_max>
+</variable>
+
+<variable id="phv00128212.v1">
+	<name>pula20</name>
+	<description>BEST_2575 - FEF 25-75 (mid flow)  from the best curve: measured in liters</description>
+	<type>decimal</type>
+	<logical_min>0</logical_min>
+	<logical_max>8.67</logical_max>
+</variable>
+
+<variable id="phv00128213.v1">
+	<name>pula21</name>
+	<description>BEST_FEV3 - Forced Expiratory Volume in 3 seconds, FEV 3.0, from best</description>
+	<type>decimal</type>
+	<logical_min>-0.17</logical_min>
+	<logical_max>6.22</logical_max>
+</variable>
+
+<variable id="phv00128214.v1">
+	<name>pula22</name>
+	<description>BEST_FEV1_FVC - FEV1/FVC % from best curve</description>
+	<type>decimal</type>
+	<logical_min>-17.02</logical_min>
+	<logical_max>100</logical_max>
+</variable>
+
+<variable id="phv00128215.v1">
+	<name>pula23</name>
+	<description>BEST_FEV1_FEV6 - FEV1/FEV6 % from best curve</description>
+	<type>decimal</type>
+	<logical_min>0</logical_min>
+	<logical_max>109.41</logical_max>
+</variable>
+
+<variable id="phv00128216.v1">
+	<name>pula24</name>
+	<description>BEST_FEV6 - Forced expiratory volume in 6 seconds, FEV6.0, from best</description>
+	<type>decimal</type>
+	<logical_min>-0.16</logical_min>
+	<logical_max>9</logical_max>
+</variable>
+
+<variable id="phv00128217.v1">
+	<name>pula25</name>
+	<description>BEST_Trial# - trial number for the best curve</description>
+	<type>integer</type>
+</variable>
+
+<variable id="phv00128218.v1">
+	<name>pula26</name>
+	<description>BEST_FEF50 - FEF 50: Flow at 50% of FVC from best curve</description>
+	<type>decimal</type>
+	<logical_min>0</logical_min>
+	<logical_max>11.99</logical_max>
+</variable>
+
+<variable id="phv00128219.v1">
+	<name>pula27</name>
+	<description>SCND_FVC - Best forced vital capacity from 2nd best curve (Second best curve is second highest  [FVC + FEV1 ] ): measured in liters</description>
+	<type>decimal</type>
+	<logical_min>-1</logical_min>
+	<logical_max>6.46</logical_max>
+</variable>
+
+<variable id="phv00128220.v1">
+	<name>pula28</name>
+	<description>SCND_FEV1 - Forced expiratory volume in 1 second, FEV1.0  from the 2nd best curve: measured in liters</description>
+	<type>decimal</type>
+	<logical_min>-1</logical_min>
+	<logical_max>5.4</logical_max>
+</variable>
+
+<variable id="phv00128221.v1">
+	<name>pula29</name>
+	<description>SCND_PEF - Peak expiratory flow from the 2nd best curve: measured in liters per second</description>
+	<type>decimal</type>
+	<logical_min>-1</logical_min>
+	<logical_max>13.66</logical_max>
+</variable>
+
+<variable id="phv00128222.v1">
+	<name>pula30</name>
+	<description>SCND_2575 - FEF 25-75 (mid flow) from the 2nd best curve: measured in</description>
+	<type>decimal</type>
+	<logical_min>-1</logical_min>
+	<logical_max>8.24</logical_max>
+</variable>
+
+<variable id="phv00128223.v1">
+	<name>pula31</name>
+	<description>SCND_FEV3 - Forced expiratory volume in 3 seconds, FEV3.0, from 2nd best curve: measured in liters</description>
+	<type>decimal</type>
+	<logical_min>-1</logical_min>
+	<logical_max>6.16</logical_max>
+</variable>
+
+<variable id="phv00128224.v1">
+	<name>pula32</name>
+	<description>SCND_FEV1_FVC - FEV1/FVC % from second best curve</description>
+	<type>decimal</type>
+	<logical_min>-39.65</logical_min>
+	<logical_max>100</logical_max>
+</variable>
+
+<variable id="phv00128225.v1">
+	<name>pula33</name>
+	<description>SCND_FEV1_FVE6 - FEV1/FEV6 % from 2nd best curve</description>
+	<type>decimal</type>
+	<logical_min>-1</logical_min>
+	<logical_max>109.08</logical_max>
+</variable>
+
+<variable id="phv00128226.v1">
+	<name>pula34</name>
+	<description>SCND_FEV6 - Forced expiratory volume in 6 seconds, FEV6.0, from 2nd best curve; measured in liters</description>
+	<type>decimal</type>
+	<logical_min>-1</logical_min>
+	<logical_max>6.41</logical_max>
+</variable>
+
+<variable id="phv00128227.v1">
+	<name>pula35</name>
+	<description>SCND_Trial# - Trial number for the 2nd best curve</description>
+	<type>integer</type>
+	<logical_min>-1</logical_min>
+	<logical_max>11</logical_max>
+</variable>
+
+<variable id="phv00128228.v1">
+	<name>pula36</name>
+	<description>SCND_FEF50 - FEF 50: Flow at 50% of FVC from 2nd best curve</description>
+	<type>decimal</type>
+	<logical_min>-1</logical_min>
+	<logical_max>15.96</logical_max>
+</variable>
+
+<variable id="phv00128229.v1">
+	<name>pula37</name>
+	<description>THRD_FVC - Best forced vital capacity from 3rd best curve (Third best curve is third highest [ FVC + FEV1 ] ): measured in liters</description>
+	<type>decimal</type>
+	<logical_min>-1</logical_min>
+	<logical_max>6.35</logical_max>
+</variable>
+
+<variable id="phv00128230.v1">
+	<name>pula38</name>
+	<description>THRD_FEV1 - Forced expiratory volume in 1 second, FEV1.0 from the 3rd best curve: measured in liters</description>
+	<type>decimal</type>
+	<logical_min>-1</logical_min>
+	<logical_max>5.29</logical_max>
+</variable>
+
+<variable id="phv00128231.v1">
+	<name>pula39</name>
+	<description>THRD_PEF - Peak expiratory flow from the 3rd best curve: measured in liters per second</description>
+	<type>decimal</type>
+	<logical_min>-1</logical_min>
+	<logical_max>13.33</logical_max>
+</variable>
+
+<variable id="phv00128232.v1">
+	<name>pula40</name>
+	<description>THRD_2575 - FEF 25-75 (mid flow) from the 3rd best curve: measured in liters</description>
+	<type>decimal</type>
+	<logical_min>-1</logical_min>
+	<logical_max>8.39</logical_max>
+</variable>
+
+<variable id="phv00128233.v1">
+	<name>pula41</name>
+	<description>THRD_FEV3 - Forced expiratory volume in 3 seconds, FEV3.0, from 3rd best curve: measured in liters</description>
+	<type>decimal</type>
+	<logical_min>-1</logical_min>
+	<logical_max>6.23</logical_max>
+</variable>
+
+<variable id="phv00128234.v1">
+	<name>pula42</name>
+	<description>THRD_FEV1_FVC - FEV1/FVC % from 3rd best curve</description>
+	<type>decimal</type>
+	<logical_min>-8.2</logical_min>
+	<logical_max>100</logical_max>
+</variable>
+
+<variable id="phv00128235.v1">
+	<name>pula43</name>
+	<description>THRD_FEV1_FEV6 - FEV1/FEV6 % from 3rd best curve</description>
+	<type>decimal</type>
+	<logical_min>-1</logical_min>
+	<logical_max>327.45</logical_max>
+</variable>
+
+<variable id="phv00128236.v1">
+	<name>pula44</name>
+	<description>THRD_FEV6 - Forced expiratory volume in 6 seconds, FEV6.0, from 3rd best curve: measured in liters</description>
+	<type>decimal</type>
+	<logical_min>-1</logical_min>
+	<logical_max>6.3</logical_max>
+</variable>
+
+<variable id="phv00128237.v1">
+	<name>pula45</name>
+	<description>THRD_Trial# - Trial number for the 3rd best curve</description>
+	<type>integer</type>
+	<logical_min>-1</logical_min>
+	<logical_max>11</logical_max>
+</variable>
+
+<variable id="phv00128238.v1">
+	<name>pula46</name>
+	<description>THRD_FEF50 - FEF 50: Flow at 50% of FVC from 3rd best curve</description>
+	<type>decimal</type>
+	<logical_min>-1</logical_min>
+	<logical_max>23.24</logical_max>
+</variable>
+
+<variable id="phv00128239.v1">
+	<name>pula47</name>
+	<description>Best_MIP - Lowest maximum Inspiratory pressure</description>
+	<type>encoded</type>
+	<comment>Please find encoded value descriptions in associated documents. Some of the values might be encoded and code descriptions have not been submitted at this time.</comment>
+</variable>
+
+<variable id="phv00128240.v1">
+	<name>pula48</name>
+	<description>Scnd_MIP - Second lowest maximum inspiratory pressure</description>
+	<type>encoded</type>
+	<comment>Please find encoded value descriptions in associated documents. Some of the values might be encoded and code descriptions have not been submitted at this time.</comment>
+</variable>
+
+<variable id="phv00128241.v1">
+	<name>pula49</name>
+	<description>Thrd_MIP - Third lowest maximum inspiratory pressure</description>
+	<type>encoded</type>
+	<comment>Please find encoded value descriptions in associated documents. Some of the values might be encoded and code descriptions have not been submitted at this time.</comment>
+</variable>
+
+<variable id="phv00128242.v1">
+	<name>FVC01PP</name>
+	<description>Derived FVC % predicted</description>
+	<type>decimal</type>
+	<logical_min>6.88</logical_min>
+	<logical_max>298.9396</logical_max>
+</variable>
+
+<variable id="phv00128243.v1">
+	<name>FEV01PP</name>
+	<description>Derived FEV1 % predicted</description>
+	<type>decimal</type>
+	<logical_min>-50.3027</logical_min>
+	<logical_max>226.0477</logical_max>
+</variable>
+
+</data_table>

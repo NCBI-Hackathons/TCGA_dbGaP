@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./datadict_v2.xsl"?>
+<data_table id="pht000638.v1" study_id="phs000142.v1" participant_set="1" date_created="Tue Jul 21 13:06:47 2009">
+
+<variable id="phv00066463.v1">
+	<name>study_site</name>
+	<description>Study Site</description>
+	<type>enumerated integer</type>
+	<value code="1">United Kingdom</value>
+	<value code="2">Australia</value>
+</variable>
+
+<variable id="phv00066464.v1">
+	<name>subjid</name>
+	<description>Subject ID</description>
+	<type>integer</type>
+</variable>
+
+<variable id="phv00066465.v1">
+	<name>famid</name>
+	<description>Family ID</description>
+	<type>integer</type>
+</variable>
+
+<variable id="phv00066466.v1">
+	<name>age</name>
+	<description>Age</description>
+	<type>integer</type>
+	<unit>years</unit>
+	<logical_min>18</logical_min>
+	<logical_max>90</logical_max>
+</variable>
+
+<variable id="phv00066467.v1">
+	<name>zygosity</name>
+	<description>Monozygotic vs. dizygotic vs. trizygotic</description>
+	<type>enumerated integer</type>
+	<value code="1">Monozygotic</value>
+	<value code="2">Dizygotic</value>
+	<value code="3">Trizygotic</value>
+	<value code="-99">Unknown</value>
+</variable>
+
+<variable id="phv00066468.v1">
+	<name>sex</name>
+	<description>Gender of participant</description>
+	<type>enumerated integer</type>
+	<value code="1">Male</value>
+	<value code="2">Female</value>
+	<value code="NA">Not applicable</value>
+	<value code="UNK">Unknown</value>
+</variable>
+
+<variable id="phv00066469.v1">
+	<name>ethnicity</name>
+	<description>Subject ethnicity</description>
+	<type>enumerated integer</type>
+	<value code="1">European</value>
+	<value code="2">Australian Aboriginal</value>
+	<value code="3">Asian</value>
+	<value code="4">African</value>
+	<value code="5">Hispanic</value>
+	<value code="6">Asian Indian</value>
+	<value code="7">Pacific Islander</value>
+	<value code="UNK">unknown</value>
+</variable>
+
+<variable id="phv00066470.v1">
+	<name>mean_sphe</name>
+	<description>Mean spherical equivalent (plus or minus)</description>
+	<type>decimal</type>
+	<unit>diopters</unit>
+	<logical_min>0</logical_min>
+	<logical_max>30</logical_max>
+</variable>
+
+<variable id="phv00066471.v1">
+	<name>sphr</name>
+	<description>Sphere right eye (plus or minus)</description>
+	<type>decimal</type>
+	<unit>diopters</unit>
+	<logical_min>0</logical_min>
+	<logical_max>30</logical_max>
+</variable>
+
+<variable id="phv00066472.v1">
+	<name>cylr</name>
+	<description>Cylinder right eye (minus cylinder)</description>
+	<type>decimal</type>
+	<unit>diopters</unit>
+	<logical_min>0</logical_min>
+	<logical_max>10</logical_max>
+</variable>
+
+<variable id="phv00066473.v1">
+	<name>axisr</name>
+	<description>Axis right eye</description>
+	<type>integer</type>
+	<unit>degrees</unit>
+	<logical_min>1</logical_min>
+	<logical_max>180</logical_max>
+</variable>
+
+<variable id="phv00066474.v1">
+	<name>sphl</name>
+	<description>Sphere left eye (plus or minus)</description>
+	<type>decimal</type>
+	<unit>diopters</unit>
+	<logical_min>0</logical_min>
+	<logical_max>30</logical_max>
+</variable>
+
+<variable id="phv00066475.v1">
+	<name>cyll</name>
+	<description>Cylinder left eye (minus cylinder)</description>
+	<type>decimal</type>
+	<unit>diopters</unit>
+	<logical_min>0</logical_min>
+	<logical_max>10</logical_max>
+</variable>
+
+<variable id="phv00066476.v1">
+	<name>axisl</name>
+	<description>Axis left eye</description>
+	<type>decimal</type>
+	<unit>diopters</unit>
+	<logical_min>1</logical_min>
+	<logical_max>180</logical_max>
+</variable>
+
+<variable id="phv00066477.v1">
+	<name>iopr</name>
+	<description>Intraocular pressure - right eye</description>
+	<type>integer</type>
+	<unit>mmHg</unit>
+	<logical_min>0</logical_min>
+	<logical_max>45</logical_max>
+</variable>
+
+<variable id="phv00066478.v1">
+	<name>iopl</name>
+	<description>Intraocular pressure - left eye</description>
+	<type>integer</type>
+	<unit>mmHg</unit>
+	<logical_min>0</logical_min>
+	<logical_max>45</logical_max>
+</variable>
+
+<variable id="phv00066479.v1">
+	<name>cctr</name>
+	<description>Central corneal thickness - right eye</description>
+	<type>decimal</type>
+	<unit>micrometers</unit>
+	<logical_min>200</logical_min>
+	<logical_max>800</logical_max>
+</variable>
+
+<variable id="phv00066480.v1">
+	<name>cctl</name>
+	<description>Central corneal thickness - left eye</description>
+	<type>decimal</type>
+	<unit>micrometers</unit>
+	<logical_min>200</logical_min>
+	<logical_max>800</logical_max>
+</variable>
+
+<variable id="phv00066481.v1">
+	<name>cdr_r</name>
+	<description>Optic nerve cup to disc ratio - right eye</description>
+	<type>decimal</type>
+	<unit>ratio</unit>
+	<logical_min>0</logical_min>
+	<logical_max>1</logical_max>
+</variable>
+
+<variable id="phv00066482.v1">
+	<name>cdr_l</name>
+	<description>Optic nerve cup to disc ratio - left eye</description>
+	<type>decimal</type>
+	<unit>ratio</unit>
+	<logical_min>0</logical_min>
+	<logical_max>1</logical_max>
+</variable>
+
+<variable id="phv00066483.v1">
+	<name>al_r</name>
+	<description>Axial length - right eye</description>
+	<type>decimal</type>
+	<unit>mm</unit>
+	<logical_min>18</logical_min>
+	<logical_max>40</logical_max>
+</variable>
+
+<variable id="phv00066484.v1">
+	<name>al_l</name>
+	<description>Axial length - left eye</description>
+	<type>decimal</type>
+	<unit>mm</unit>
+	<logical_min>18</logical_min>
+	<logical_max>40</logical_max>
+</variable>
+
+<variable id="phv00066485.v1">
+	<name>cataract</name>
+	<description>Presence of cataract (lens cloudiness)</description>
+	<type>enumerated integer</type>
+	<value code="0">No cataract</value>
+	<value code="1">Has a cataract</value>
+</variable>
+
+<variable id="phv00066486.v1">
+	<name>rkvalueh</name>
+	<description>Keratometry reading horizontally - right eye</description>
+	<type>decimal</type>
+	<unit>diopters</unit>
+	<logical_min>35</logical_min>
+	<logical_max>50</logical_max>
+</variable>
+
+<variable id="phv00066487.v1">
+	<name>rkvaluev</name>
+	<description>Keratometry reading vertically - right eye</description>
+	<type>decimal</type>
+	<unit>diopters</unit>
+	<logical_min>35</logical_min>
+	<logical_max>50</logical_max>
+</variable>
+
+<variable id="phv00066488.v1">
+	<name>lkvalueh</name>
+	<description>Keratometry reading horizontally - left eye</description>
+	<type>decimal</type>
+	<unit>diopters</unit>
+	<logical_min>35</logical_min>
+	<logical_max>50</logical_max>
+</variable>
+
+<variable id="phv00066489.v1">
+	<name>lkvaluev</name>
+	<description>Keratometry reading vertically - left eye</description>
+	<type>decimal</type>
+	<unit>diopters</unit>
+	<logical_min>35</logical_min>
+	<logical_max>50</logical_max>
+</variable>
+
+<variable id="phv00066490.v1">
+	<name>smoker</name>
+	<description>Subject history of smoking cigarettes</description>
+	<type>enumerated integer</type>
+	<value code="0">Never smoked</value>
+	<value code="1">Current smoker</value>
+	<value code="2">Past smoker</value>
+</variable>
+
+<variable id="phv00076190.v1">
+	<name>individ</name>
+	<description>Within pedigree individual id</description>
+	<type>integer</type>
+</variable>
+
+</data_table>

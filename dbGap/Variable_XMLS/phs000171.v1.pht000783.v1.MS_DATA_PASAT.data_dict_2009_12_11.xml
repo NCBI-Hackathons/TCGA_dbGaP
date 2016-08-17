@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./datadict_v2.xsl"?>
+<data_table id="pht000783.v1" study_id="phs000171.v1" participant_set="1" date_created="Fri Dec 11 14:12:55 2009">
+
+<variable id="phv00073390.v1">
+	<name>SUBJID</name>
+	<description>Subject&#39;s ID</description>
+	<type>string</type>
+</variable>
+
+<variable id="phv00073391.v1">
+	<name>CASE_CONTROL</name>
+	<description>Type of subject</description>
+	<type>string, encoded values</type>
+	<value code="CASE">Affected subject per Protocol</value>
+	<value code="CNTL">Control subject per Protocol</value>
+</variable>
+
+<variable id="phv00073392.v1">
+	<name>STUDY</name>
+	<description>Study ID</description>
+	<type>string</type>
+	<comment>Always RES101833</comment>
+</variable>
+
+<variable id="phv00073393.v1">
+	<name>INVSITE</name>
+	<description>Investigator site ID</description>
+	<type>string</type>
+	<comment>Numeric code identifying the site (for internal use)</comment>
+</variable>
+
+<variable id="phv00073394.v1">
+	<name>INV</name>
+	<description>Investigator&#39;s ID</description>
+	<type>string</type>
+	<comment>Numeric code identifying the investigator (for internal use)</comment>
+</variable>
+
+<variable id="phv00073395.v1">
+	<name>VISIT</name>
+	<description>Visit name</description>
+	<type>string</type>
+	<value code="CSA">Common Subject Assessment</value>
+	<value code="ELIGIBILITY">Eligibility questionnaire</value>
+	<value code="BASELINE">Baseline assessment questionnaire</value>
+	<value code="LAB WBC">Lab results</value>
+	<value code="SELF REPORT">Subject completed self report questionnaire</value>
+</variable>
+
+<variable id="phv00073396.v1">
+	<name>VISIT_DATE</name>
+	<description>Visit date</description>
+	<type>date</type>
+	<comment>Truncated to YYYY</comment>
+</variable>
+
+<variable id="phv00073397.v1">
+	<name>FRMTYP</name>
+	<description>Form type</description>
+	<type>Encoded Value</type>
+	<value code="A">Form A</value>
+	<value code="B">Form B</value>
+</variable>
+
+<variable id="phv00073398.v1">
+	<name>P3AFTX</name>
+	<description>Record any circumstances that affect the patient&#39;s performance</description>
+	<type>String</type>
+</variable>
+
+<variable id="phv00073399.v1">
+	<name>P3RN</name>
+	<description>PASAT (Paced Auditory Serial Addition Test ) 3 not completed</description>
+	<type>Encoded Value</type>
+	<value code="UCT">Unable to complete due to physical limitations</value>
+	<value code="X">Other</value>
+</variable>
+
+<variable id="phv00073400.v1">
+	<name>P3RNTX</name>
+	<description>PASAT (Paced Auditory Serial Addition Test ) 3 not completed - specify</description>
+	<type>String</type>
+</variable>
+
+<variable id="phv00073401.v1">
+	<name>TOT1SC</name>
+	<description>Total correct - first half</description>
+	<type>Integer</type>
+</variable>
+
+<variable id="phv00073402.v1">
+	<name>TOT2SC</name>
+	<description>Total correct - second half</description>
+	<type>Integer</type>
+</variable>
+
+<variable id="phv00073403.v1">
+	<name>TOTCER</name>
+	<description>Total commission errors</description>
+	<type>Integer</type>
+</variable>
+
+<variable id="phv00073404.v1">
+	<name>TOTOER</name>
+	<description>Total ommission errors</description>
+	<type>Integer</type>
+</variable>
+
+<variable id="phv00073405.v1">
+	<name>TOTSC</name>
+	<description>Total score</description>
+	<type>Integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>60</logical_max>
+</variable>
+
+</data_table>

@@ -1,0 +1,604 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./datadict_v2.xsl"?>
+<data_table id="pht000307.v2" study_id="phs000013.v6" participant_set="3" date_created="Wed May 27 17:18:18 2009">
+
+<variable id="phv00036428.v2">
+	<name>APPROX</name>
+	<description>STOP_AGE APPROXIMATED</description>
+	<comment></comment>
+	<type></type>
+	<unit></unit>
+	<logical_min></logical_min>
+	<logical_max></logical_max>
+	<curator_type></curator_type>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00036420.v2">
+	<name>CAUSE</name>
+	<description>CAUSE PERIODS STOPPED</description>
+	<comment></comment>
+	<type></type>
+	<unit></unit>
+	<logical_min></logical_min>
+	<logical_max></logical_max>
+	<curator_type></curator_type>
+	<value code=".">UNKNOWN AS OF OFFSPRING EXAM 7</value>
+	<value code="0">NOT STOPPED AS OF LAST ATTENDED EXAM</value>
+	<value code="1">NATURAL</value>
+	<value code="2">SURGICAL (SEE NOTE AT END OF MANUAL)</value>
+	<value code="3">OTHER (FOR EXAMPLE RADIATION, CHEMO, ETC.)</value>
+	<value code="4">HORMONE USE BEFORE REPORTING PERIODS STOPPED  (IN MOST CASES STOP_AGE = .; IN SOME CASES STOP_AGE WAS DETERMINED THROUGH CHART REVIEW)</value>
+</variable>
+
+<variable id="phv00036444.v2">
+	<name>EST1</name>
+	<description>CURRENT ESTROGEN USER AT TIME OF EXAM 1</description>
+	<comment></comment>
+	<type></type>
+	<unit></unit>
+	<logical_min></logical_min>
+	<logical_max></logical_max>
+	<curator_type></curator_type>
+	<value code=".">UNKNOWN OR DID NOT ATTEND EXAM</value>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00036445.v2">
+	<name>EST2</name>
+	<description>CURRENT ESTROGEN USER AT TIME OF EXAM 2</description>
+	<comment></comment>
+	<type></type>
+	<unit></unit>
+	<logical_min></logical_min>
+	<logical_max></logical_max>
+	<curator_type></curator_type>
+	<value code=".">UNKNOWN OR DID NOT ATTEND EXAM</value>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00036446.v2">
+	<name>EST3</name>
+	<description>CURRENT ESTROGEN USER AT TIME OF EXAM 3</description>
+	<comment></comment>
+	<type></type>
+	<unit></unit>
+	<logical_min></logical_min>
+	<logical_max></logical_max>
+	<curator_type></curator_type>
+	<value code=".">UNKNOWN OR DID NOT ATTEND EXAM</value>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+	<value code="3">CREAM ONLY</value>
+</variable>
+
+<variable id="phv00036447.v2">
+	<name>EST4</name>
+	<description>CURRENT ESTROGEN USER AT TIME OF EXAM 4</description>
+	<comment></comment>
+	<type></type>
+	<unit></unit>
+	<logical_min></logical_min>
+	<logical_max></logical_max>
+	<curator_type></curator_type>
+	<value code=".">UNKNOWN OR DID NOT ATTEND EXAM</value>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+	<value code="3">CREAM ONLY</value>
+</variable>
+
+<variable id="phv00036448.v2">
+	<name>EST5</name>
+	<description>CURRENT ESTROGEN USER AT TIME OF EXAM 5</description>
+	<comment></comment>
+	<type></type>
+	<unit></unit>
+	<logical_min></logical_min>
+	<logical_max></logical_max>
+	<curator_type></curator_type>
+	<value code=".">UNKNOWN OR DID NOT ATTEND EXAM</value>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+	<value code="3">CREAM ONLY</value>
+</variable>
+
+<variable id="phv00036449.v2">
+	<name>EST6</name>
+	<description>CURRENT ESTROGEN USER AT TIME OF EXAM 6</description>
+	<comment></comment>
+	<type></type>
+	<unit></unit>
+	<logical_min></logical_min>
+	<logical_max></logical_max>
+	<curator_type></curator_type>
+	<value code=".">UNKNOWN OR DID NOT ATTEND EXAM</value>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+	<value code="3">CREAM ONLY</value>
+</variable>
+
+<variable id="phv00036443.v2">
+	<name>EST7</name>
+	<description>CURRENT ESTROGEN USER AT TIME OF EXAM 7</description>
+	<comment></comment>
+	<type></type>
+	<unit></unit>
+	<logical_min></logical_min>
+	<logical_max></logical_max>
+	<curator_type></curator_type>
+	<value code=".">UNKNOWN OR DID NOT ATTEND EXAM</value>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+	<value code="3">CREAM ONLY</value>
+</variable>
+
+<variable id="phv00036418.v2">
+	<name>IDTYPE</name>
+	<description>COHORT IDENTIFIER</description>
+	<comment></comment>
+	<type></type>
+	<unit></unit>
+	<logical_min></logical_min>
+	<logical_max></logical_max>
+	<curator_type></curator_type>
+	<value code="0">ORIGINAL COHORT GROUP</value>
+	<value code="1">OFFSPRING GROUP</value>
+	<value code="2">NEW OFFSPRING SPOUSE</value>
+	<value code="3">GENERATION 3</value>
+</variable>
+
+<variable id="phv00036436.v2">
+	<name>MSTAT1</name>
+	<description>PERIODS STOPPED 1 YEAR OR MORE AT TIME OF EXAM 1 OR CURRENT   ESTROGEN USER</description>
+	<comment></comment>
+	<type></type>
+	<unit></unit>
+	<logical_min></logical_min>
+	<logical_max></logical_max>
+	<curator_type></curator_type>
+	<value code=".">UNKNOWN OR DID NOT ATTEND EXAM</value>
+	<value code="0">PERIODS NOT STOPPED AND NO/UNKOWN CURRENT ESTROGEN USE</value>
+	<value code="1">PERIODS STOPPED AND NO/UNKNOWN CURRENT ESTROGEN USE</value>
+	<value code="2">PERIODS STOPPED FOR &gt; 6 MONTHS BUT &lt; 1 YEAR AND NO   CURRENT ESTROGEN USE</value>
+	<value code="5">CURRENT ESTROGEN USER</value>
+</variable>
+
+<variable id="phv00036437.v2">
+	<name>MSTAT2</name>
+	<description>PERIODS STOPPED 1 YEAR OR MORE AT TIME OF EXAM 2 OR CURRENT   ESTROGEN USER</description>
+	<comment></comment>
+	<type></type>
+	<unit></unit>
+	<logical_min></logical_min>
+	<logical_max></logical_max>
+	<curator_type></curator_type>
+	<value code=".">UNKNOWN OR DID NOT ATTEND EXAM</value>
+	<value code="0">PERIODS NOT STOPPED AND NO/UNKOWN CURRENT ESTROGEN USE</value>
+	<value code="1">PERIODS STOPPED AND NO/UNKNOWN CURRENT ESTROGEN USE</value>
+	<value code="2">PERIODS STOPPED FOR &gt; 6 MONTHS BUT &lt; 1 YEAR AND NO   CURRENT ESTROGEN USE</value>
+	<value code="5">CURRENT ESTROGEN USER</value>
+</variable>
+
+<variable id="phv00036438.v2">
+	<name>MSTAT3</name>
+	<description>PERIODS STOPPED 1 YEAR OR MORE AT TIME OF EXAM 3 OR CURRENT   ESTROGEN USER</description>
+	<comment></comment>
+	<type></type>
+	<unit></unit>
+	<logical_min></logical_min>
+	<logical_max></logical_max>
+	<curator_type></curator_type>
+	<value code=".">UNKNOWN OR DID NOT ATTEND EXAM</value>
+	<value code="0">PERIODS NOT STOPPED AND NO/UNKOWN CURRENT ESTROGEN USE</value>
+	<value code="1">PERIODS STOPPED AND NO/UNKNOWN CURRENT ESTROGEN USE</value>
+	<value code="2">PERIODS STOPPED FOR &gt; 6 MONTHS BUT &lt; 1 YEAR AND NO  CURRENT ESTROGEN USE</value>
+	<value code="5">CURRENT ESTROGEN USER</value>
+</variable>
+
+<variable id="phv00036439.v2">
+	<name>MSTAT4</name>
+	<description>PERIODS STOPPED 1 YEAR OR MORE AT TIME OF EXAM 4 OR CURRENT   ESTROGEN USER</description>
+	<comment></comment>
+	<type></type>
+	<unit></unit>
+	<logical_min></logical_min>
+	<logical_max></logical_max>
+	<curator_type></curator_type>
+	<value code=".">UNKNOWN OR DID NOT ATTEND EXAM</value>
+	<value code="0">PERIODS NOT STOPPED AND NO/UNKOWN CURRENT ESTROGEN USE</value>
+	<value code="1">PERIODS STOPPED AND NO/UNKNOWN CURRENT ESTROGEN USE</value>
+	<value code="2">PERIODS STOPPED FOR &gt; 6 MONTHS BUT &lt; 1 YEAR AND NO   CURRENT ESTROGEN USE</value>
+	<value code="5">CURRENT ESTROGEN USER</value>
+</variable>
+
+<variable id="phv00036440.v2">
+	<name>MSTAT5</name>
+	<description>PERIODS STOPPED 1 YEAR OR MORE AT TIME OF EXAM 5 OR CURRENT   ESTROGEN USER</description>
+	<comment></comment>
+	<type></type>
+	<unit></unit>
+	<logical_min></logical_min>
+	<logical_max></logical_max>
+	<curator_type></curator_type>
+	<value code=".">UNKNOWN OR DID NOT ATTEND EXAM</value>
+	<value code="0">PERIODS NOT STOPPED AND NO/UNKOWN CURRENT ESTROGEN USE</value>
+	<value code="1">PERIODS STOPPED AND NO/UNKNOWN CURRENT ESTROGEN USE</value>
+	<value code="2">PERIODS STOPPED FOR &gt; 6 MONTHS BUT &lt; 1 YEAR AND NO  CURRENT ESTROGEN USE</value>
+	<value code="5">CURRENT ESTROGEN USER</value>
+</variable>
+
+<variable id="phv00036441.v2">
+	<name>MSTAT6</name>
+	<description>PERIODS STOPPED 1 YEAR OR MORE AT TIME OF EXAM 6 OR CURRENT   ESTROGEN USER</description>
+	<comment></comment>
+	<type></type>
+	<unit></unit>
+	<logical_min></logical_min>
+	<logical_max></logical_max>
+	<curator_type></curator_type>
+	<value code=".">UNKNOWN OR DID NOT ATTEND EXAM</value>
+	<value code="0">PERIODS NOT STOPPED AND NO/UNKOWN CURRENT ESTROGEN USE</value>
+	<value code="1">PERIODS STOPPED AND NO/UNKNOWN CURRENT ESTROGEN USE</value>
+	<value code="2">PERIODS STOPPED FOR &gt; 6 MONTHS BUT &lt; 1 YEAR AND NO  CURRENT ESTROGEN USE</value>
+	<value code="5">CURRENT ESTROGEN USER</value>
+</variable>
+
+<variable id="phv00036442.v2">
+	<name>MSTAT7</name>
+	<description>PERIODS STOPPED 1 YEAR OR MORE AT TIME OF EXAM 7 OR CURRENT   ESTROGEN USER</description>
+	<comment></comment>
+	<type></type>
+	<unit></unit>
+	<logical_min></logical_min>
+	<logical_max></logical_max>
+	<curator_type></curator_type>
+	<value code=".">UNKNOWN OR DID NOT ATTEND EXAM</value>
+	<value code="0">PERIODS NOT STOPPED AND NO/UNKOWN CURRENT ESTROGEN USE</value>
+	<value code="1">PERIODS STOPPED AND NO/UNKNOWN CURRENT ESTROGEN USE</value>
+	<value code="2">PERIODS STOPPED FOR &gt; 6 MONTHS BUT &lt; 1 YEAR AND NO   CURRENT ESTROGEN USE</value>
+	<value code="5">CURRENT ESTROGEN USER</value>
+</variable>
+
+<variable id="phv00036450.v2">
+	<name>OCP1</name>
+	<description>ORAL CONTRACEPTIVE (OCP) USE FOR WOMEN 40 YEARS OR OLDER  AT TIME OF EXAM 1</description>
+	<comment></comment>
+	<type></type>
+	<unit></unit>
+	<logical_min></logical_min>
+	<logical_max></logical_max>
+	<curator_type></curator_type>
+	<value code=".">UNKNOWN OR DID NOT ATTEND EXAM</value>
+	<value code="0">NOT CURRENT OCP USER OR LESS THAN 40 YEARS OLD</value>
+	<value code="1">CURRENT OCP USER</value>
+	<value code="8">AGE AT EXAM &lt; 40</value>
+</variable>
+
+<variable id="phv00036451.v2">
+	<name>OCP2</name>
+	<description>ORAL CONTRACEPTIVE (OCP) USE FOR WOMEN 40 YEARS OR OLDER  AT TIME OF EXAM 2</description>
+	<comment></comment>
+	<type></type>
+	<unit></unit>
+	<logical_min></logical_min>
+	<logical_max></logical_max>
+	<curator_type></curator_type>
+	<value code=".">UNKNOWN OR DID NOT ATTEND EXAM</value>
+	<value code="0">NOT CURRENT OCP USER OR LESS THAN 40 YEARS OLD</value>
+	<value code="1">CURRENT OCP USER</value>
+	<value code="8">AGE AT EXAM &lt; 40</value>
+</variable>
+
+<variable id="phv00036452.v2">
+	<name>OCP3</name>
+	<description>ORAL CONTRACEPTIVE (OCP) USE FOR WOMEN 40 YEARS OR OLDER  AT TIME OF EXAM 3</description>
+	<comment></comment>
+	<type></type>
+	<unit></unit>
+	<logical_min></logical_min>
+	<logical_max></logical_max>
+	<curator_type></curator_type>
+	<value code=".">UNKNOWN OR DID NOT ATTEND EXAM</value>
+	<value code="0">NOT CURRENT OCP USER OR LESS THAN 40 YEARS OLD</value>
+	<value code="1">CURRENT OCP USER</value>
+	<value code="8">AGE AT EXAM &lt; 40</value>
+</variable>
+
+<variable id="phv00036453.v2">
+	<name>OCP4</name>
+	<description>ORAL CONTRACEPTIVE (OCP) USE FOR WOMEN 40 YEARS OR OLDER  AT TIME OF EXAM 4</description>
+	<comment></comment>
+	<type></type>
+	<unit></unit>
+	<logical_min></logical_min>
+	<logical_max></logical_max>
+	<curator_type></curator_type>
+	<value code=".">UNKNOWN OR DID NOT ATTEND EXAM</value>
+	<value code="0">NOT CURRENT OCP USER OR LESS THAN 40 YEARS OLD</value>
+	<value code="1">CURRENT OCP USER</value>
+	<value code="8">AGE AT EXAM &lt; 40</value>
+</variable>
+
+<variable id="phv00036454.v2">
+	<name>OCP5</name>
+	<description>ORAL CONTRACEPTIVE (OCP) USE FOR WOMEN 40 YEARS OR OLDER  AT TIME OF EXAM 5</description>
+	<comment></comment>
+	<type></type>
+	<unit></unit>
+	<logical_min></logical_min>
+	<logical_max></logical_max>
+	<curator_type></curator_type>
+	<value code=".">UNKNOWN OR DID NOT ATTEND EXAM</value>
+	<value code="0">NOT CURRENT OCP USER OR LESS THAN 40 YEARS OLD</value>
+	<value code="1">CURRENT OCP USER</value>
+	<value code="8">AGE AT EXAM &lt; 40</value>
+</variable>
+
+<variable id="phv00036455.v2">
+	<name>OCP6</name>
+	<description>ORAL CONTRACEPTIVE (OCP) USE FOR WOMEN 40 YEARS OR OLDER  AT TIME OF EXAM 6</description>
+	<comment></comment>
+	<type></type>
+	<unit></unit>
+	<logical_min></logical_min>
+	<logical_max></logical_max>
+	<curator_type></curator_type>
+	<value code=".">UNKNOWN OR DID NOT ATTEND EXAM</value>
+	<value code="0">NOT CURRENT OCP USER OR LESS THAN 40 YEARS OLD</value>
+	<value code="1">CURRENT OCP USER</value>
+	<value code="8">AGE AT EXAM &lt; 40</value>
+</variable>
+
+<variable id="phv00036456.v2">
+	<name>OCP7</name>
+	<description>ORAL CONTRACEPTIVE (OCP) USE FOR WOMEN 40 YEARS OR OLDER  AT TIME OF EXAM 7</description>
+	<comment></comment>
+	<type></type>
+	<unit></unit>
+	<logical_min></logical_min>
+	<logical_max></logical_max>
+	<curator_type></curator_type>
+	<value code=".">UNKNOWN OR DID NOT ATTEND EXAM</value>
+	<value code="0">NOT CURRENT OCP USER OR LESS THAN 40 YEARS OLD</value>
+	<value code="1">CURRENT OCP USER</value>
+	<value code="8">AGE AT EXAM &lt; 40</value>
+</variable>
+
+<variable id="phv00036429.v2">
+	<name>OVREM1</name>
+	<description>REPORT OF NUMBER OF OVARIES REMOVED AT TIME OF EXAM 1  CUMULATIVE (IF ONLY ONE OVARY REMOVED THEN OVREM1 = 1, IF TWO THEN OVREM1 = 2)</description>
+	<comment></comment>
+	<type></type>
+	<unit></unit>
+	<logical_min></logical_min>
+	<logical_max></logical_max>
+	<curator_type></curator_type>
+	<value code=".">UNKNOWN OR DID NOT ATTEND EXAM</value>
+	<value code="0">NO OVARIES REMOVED</value>
+	<value code="1">ONE OVARY REMOVED</value>
+	<value code="2">TWO OVARIES REMOVED</value>
+</variable>
+
+<variable id="phv00036430.v2">
+	<name>OVREM2</name>
+	<description>REPORT OF NUMBER OF OVARIES REMOVED AT TIME OF EXAM 2  CUMULATIVE (IF ONLY ONE OVARY REMOVED THEN OVREM2 = 1, IF TWO THEN OVREM2 = 2)</description>
+	<comment></comment>
+	<type></type>
+	<unit></unit>
+	<logical_min></logical_min>
+	<logical_max></logical_max>
+	<curator_type></curator_type>
+	<value code=".">UNKNOWN OR DID NOT ATTEND EXAM</value>
+	<value code="0">NO OVARIES REMOVED</value>
+	<value code="1">ONE OVARY REMOVED</value>
+	<value code="2">TWO OVARIES REMOVED</value>
+</variable>
+
+<variable id="phv00036431.v2">
+	<name>OVREM3</name>
+	<description>REPORT OF NUMBER OF OVARIES REMOVED AT TIME OF EXAM 3  CUMULATIVE (IF ONLY ONE OVARY REMOVED THEN OVREM3 = 1, IF TWO THEN OVREM3 = 2)</description>
+	<comment></comment>
+	<type></type>
+	<unit></unit>
+	<logical_min></logical_min>
+	<logical_max></logical_max>
+	<curator_type></curator_type>
+	<value code=".">UNKNOWN OR DID NOT ATTEND EXAM</value>
+	<value code="0">NO OVARIES REMOVED</value>
+	<value code="1">ONE OVARY REMOVED</value>
+	<value code="2">TWO OVARIES REMOVED</value>
+</variable>
+
+<variable id="phv00036432.v2">
+	<name>OVREM4</name>
+	<description>REPORT OF NUMBER OF OVARIES REMOVED AT TIME OF EXAM 4  CUMULATIVE (IF ONLY ONE OVARY REMOVED THEN OVREM4 = 1, IF TWO THEN OVREM4 = 2)</description>
+	<comment></comment>
+	<type></type>
+	<unit></unit>
+	<logical_min></logical_min>
+	<logical_max></logical_max>
+	<curator_type></curator_type>
+	<value code=".">UNKNOWN OR DID NOT ATTEND EXAM</value>
+	<value code="0">NO OVARIES REMOVED</value>
+	<value code="1">ONE OVARY REMOVED</value>
+	<value code="2">TWO OVARIES REMOVED</value>
+</variable>
+
+<variable id="phv00036433.v2">
+	<name>OVREM5</name>
+	<description>REPORT OF NUMBER OF OVARIES REMOVED AT TIME OF EXAM 5  CUMULATIVE (IF ONLY ONE OVARY REMOVED THEN OVREM5 = 1, IF TWO THEN OVREM5 = 2)</description>
+	<comment></comment>
+	<type></type>
+	<unit></unit>
+	<logical_min></logical_min>
+	<logical_max></logical_max>
+	<curator_type></curator_type>
+	<value code=".">UNKNOWN OR DID NOT ATTEND EXAM</value>
+	<value code="0">NO OVARIES REMOVED</value>
+	<value code="1">ONE OVARY REMOVED</value>
+	<value code="2">TWO OVARIES REMOVED</value>
+</variable>
+
+<variable id="phv00036434.v2">
+	<name>OVREM6</name>
+	<description>REPORT OF NUMBER OF OVARIES REMOVED AT TIME OF EXAM 6  CUMULATIVE (IF ONLY ONE OVARY REMOVED THEN OVREM6 = 1, IF TWO THEN OVREM6 = 2)</description>
+	<comment></comment>
+	<type></type>
+	<unit></unit>
+	<logical_min></logical_min>
+	<logical_max></logical_max>
+	<curator_type></curator_type>
+	<value code=".">UNKNOWN OR DID NOT ATTEND EXAM</value>
+	<value code="0">NO OVARIES REMOVED</value>
+	<value code="1">ONE OVARY REMOVED</value>
+	<value code="2">TWO OVARIES REMOVED</value>
+</variable>
+
+<variable id="phv00036435.v2">
+	<name>OVREM7</name>
+	<description>REPORT OF NUMBER OF OVARIES REMOVED AT TIME OF EXAM 7  CUMULATIVE (IF ONLY ONE OVARY REMOVED THEN OVREM7 = 1, IF TWO THEN OVREM7 = 2)</description>
+	<comment></comment>
+	<type></type>
+	<unit></unit>
+	<logical_min></logical_min>
+	<logical_max></logical_max>
+	<curator_type></curator_type>
+	<value code=".">UNKNOWN OR DID NOT ATTEND EXAM</value>
+	<value code="0">NO OVARIES REMOVED</value>
+	<value code="1">ONE OVARY REMOVED</value>
+	<value code="2">TWO OVARIES REMOVED</value>
+</variable>
+
+<variable id="phv00036457.v2">
+	<name>shareid</name>
+	<description>UNIQUE PARTICIPANT ID</description>
+	<comment></comment>
+	<type></type>
+	<unit></unit>
+	<logical_min></logical_min>
+	<logical_max></logical_max>
+	<curator_type></curator_type>
+</variable>
+
+<variable id="phv00036421.v2">
+	<name>STOP1</name>
+	<description>PERIODS STOPPED 1 YEAR OR MORE AT TIME OF EXAM 1</description>
+	<comment></comment>
+	<type></type>
+	<unit></unit>
+	<logical_min></logical_min>
+	<logical_max></logical_max>
+	<curator_type></curator_type>
+	<value code=".">UNKNOWN OR DID NOT ATTEND EXAM</value>
+	<value code="0">PERIODS NOT STOPPED FOR ONE YEAR OR MORE</value>
+	<value code="1">PERIODS STOPPED FOR ONE YEAR OR MORE</value>
+	<value code="2">PERIODS STOPPED FOR &gt; 6 MONTHS BUT &lt; 1 YEAR</value>
+</variable>
+
+<variable id="phv00036422.v2">
+	<name>STOP2</name>
+	<description>PERIODS STOPPED 1 YEAR OR MORE AT TIME OF EXAM 2</description>
+	<comment></comment>
+	<type></type>
+	<unit></unit>
+	<logical_min></logical_min>
+	<logical_max></logical_max>
+	<curator_type></curator_type>
+	<value code=".">UNKNOWN OR DID NOT ATTEND EXAM</value>
+	<value code="0">PERIODS NOT STOPPED FOR ONE YEAR OR MORE</value>
+	<value code="1">PERIODS STOPPED FOR ONE YEAR OR MORE</value>
+	<value code="2">PERIODS STOPPED FOR &gt; 6 MONTHS BUT &lt; 1 YEAR</value>
+</variable>
+
+<variable id="phv00036423.v2">
+	<name>STOP3</name>
+	<description>PERIODS STOPPED 1 YEAR OR MORE AT TIME OF EXAM 3</description>
+	<comment></comment>
+	<type></type>
+	<unit></unit>
+	<logical_min></logical_min>
+	<logical_max></logical_max>
+	<curator_type></curator_type>
+	<value code=".">UNKNOWN OR DID NOT ATTEND EXAM</value>
+	<value code="0">PERIODS NOT STOPPED FOR ONE YEAR OR MORE</value>
+	<value code="1">PERIODS STOPPED FOR ONE YEAR OR MORE</value>
+	<value code="2">PERIODS STOPPED FOR &gt; 6 MONTHS BUT &lt; 1 YEAR</value>
+</variable>
+
+<variable id="phv00036424.v2">
+	<name>STOP4</name>
+	<description>PERIODS STOPPED 1 YEAR OR MORE AT TIME OF EXAM 4</description>
+	<comment></comment>
+	<type></type>
+	<unit></unit>
+	<logical_min></logical_min>
+	<logical_max></logical_max>
+	<curator_type></curator_type>
+	<value code=".">UNKNOWN OR DID NOT ATTEND EXAM</value>
+	<value code="0">PERIODS NOT STOPPED FOR ONE YEAR OR MORE</value>
+	<value code="1">PERIODS STOPPED FOR ONE YEAR OR MORE</value>
+	<value code="2">PERIODS STOPPED FOR &gt; 6 MONTHS BUT &lt; 1 YEAR</value>
+</variable>
+
+<variable id="phv00036425.v2">
+	<name>STOP5</name>
+	<description>PERIODS STOPPED 1 YEAR OR MORE AT TIME OF EXAM 5</description>
+	<comment></comment>
+	<type></type>
+	<unit></unit>
+	<logical_min></logical_min>
+	<logical_max></logical_max>
+	<curator_type></curator_type>
+	<value code=".">UNKNOWN OR DID NOT ATTEND EXAM</value>
+	<value code="0">PERIODS NOT STOPPED FOR ONE YEAR OR MORE</value>
+	<value code="1">PERIODS STOPPED FOR ONE YEAR OR MORE</value>
+	<value code="2">PERIODS STOPPED FOR &gt; 6 MONTHS BUT &lt; 1 YEAR</value>
+</variable>
+
+<variable id="phv00036426.v2">
+	<name>STOP6</name>
+	<description>PERIODS STOPPED 1 YEAR OR MORE AT TIME OF EXAM 6</description>
+	<comment></comment>
+	<type></type>
+	<unit></unit>
+	<logical_min></logical_min>
+	<logical_max></logical_max>
+	<curator_type></curator_type>
+	<value code=".">UNKNOWN OR DID NOT ATTEND EXAM</value>
+	<value code="0">PERIODS NOT STOPPED FOR ONE YEAR OR MORE</value>
+	<value code="1">PERIODS STOPPED FOR ONE YEAR OR MORE</value>
+	<value code="2">PERIODS STOPPED FOR &gt; 6 MONTHS BUT &lt; 1 YEAR</value>
+</variable>
+
+<variable id="phv00036427.v2">
+	<name>STOP7</name>
+	<description>PERIODS STOPPED 1 YEAR OR MORE AT TIME OF EXAM 7</description>
+	<comment></comment>
+	<type></type>
+	<unit></unit>
+	<logical_min></logical_min>
+	<logical_max></logical_max>
+	<curator_type></curator_type>
+	<value code=".">UNKNOWN OR DID NOT ATTEND EXAM</value>
+	<value code="0">PERIODS NOT STOPPED FOR ONE YEAR OR MORE</value>
+	<value code="1">PERIODS STOPPED FOR ONE YEAR OR MORE</value>
+	<value code="2">PERIODS STOPPED FOR &gt; 6 MONTHS BUT &lt; 1 YEAR</value>
+</variable>
+
+<variable id="phv00036419.v2">
+	<name>STOP_AGE</name>
+	<description>AGE WHEN PERIODS REPORTED STOPPED FOR ONE YEAR OR MORE (YEARS)</description>
+	<comment></comment>
+	<type></type>
+	<unit></unit>
+	<logical_min></logical_min>
+	<logical_max></logical_max>
+	<curator_type></curator_type>
+	<value code=".">UNKNOWN AS OF LAST ATTENDED EXAM OR CAUSE=4</value>
+	<value code="0">NOT STOPPED AS OF LAST ATTENDED EXAM</value>
+</variable>
+
+</data_table>

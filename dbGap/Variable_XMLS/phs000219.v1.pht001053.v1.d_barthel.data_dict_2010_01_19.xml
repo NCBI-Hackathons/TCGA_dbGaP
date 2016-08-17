@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./datadict_v2.xsl"?>
+<data_table id="pht001053.v1" study_id="phs000219.v1" participant_set="1" date_created="Tue Jan 19 13:07:19 2010">
+
+<unique_key phv="00081127" version="1">SUBJID</unique_key>
+<unique_key phv="00081131" version="1">VISIT</unique_key>
+<unique_key phv="00081132" version="1">VISIT_DATE</unique_key>
+<unique_key phv="00081133" version="1">ASDT</unique_key>
+
+<variable id="phv00081127.v1">
+	<name>SUBJID</name>
+	<description>Subject&#39;s ID</description>
+	<type>String</type>
+</variable>
+
+<variable id="phv00081128.v1">
+	<name>CASE_CONTROL</name>
+	<description>Subject type</description>
+	<type>Encoded value</type>
+	<value code="ADP">AD Participant</value>
+	<value code="CASE">Case</value>
+	<value code="CCCS">Control with Change in Cognitive Status</value>
+	<value code="CNTL">Control</value>
+	<value code="FAM">Family member</value>
+	<value code="UASB">Unaffected Sibling</value>
+</variable>
+
+<variable id="phv00081129.v1">
+	<name>INV</name>
+	<description>Investigator&#39;s ID</description>
+	<type>String</type>
+</variable>
+
+<variable id="phv00081130.v1">
+	<name>INVSITE</name>
+	<description>Investigator site ID</description>
+	<type>String</type>
+</variable>
+
+<variable id="phv00081131.v1">
+	<name>VISIT</name>
+	<description>Visit name</description>
+	<type>String</type>
+</variable>
+
+<variable id="phv00081132.v1">
+	<name>VISIT_DATE</name>
+	<description>Visit date</description>
+	<type>Date</type>
+	<comment>Truncated to YYYY</comment>
+</variable>
+
+<variable id="phv00081133.v1">
+	<name>ASDT</name>
+	<description>Assessment Date</description>
+	<type>Date</type>
+	<comment>Truncated to YYYY</comment>
+</variable>
+
+<variable id="phv00081134.v1">
+	<name>ASTM</name>
+	<description>Assessment Time</description>
+	<type>Unknowm type</type>
+</variable>
+
+<variable id="phv00081135.v1">
+	<name>BATH</name>
+	<description>Bathing ability</description>
+	<type>Encoded Value</type>
+	<value code="0">Dependent</value>
+	<value code="5">Independent (or in shower)</value>
+</variable>
+
+<variable id="phv00081136.v1">
+	<name>BLADD</name>
+	<description>Bladder ability</description>
+	<type>Encoded Value</type>
+	<value code="0">Incontinent, or catheterized and unable to manage alone</value>
+	<value code="5">Occasional accident</value>
+	<value code="10">Continent</value>
+</variable>
+
+<variable id="phv00081137.v1">
+	<name>BOWEL</name>
+	<description>Bowel ability</description>
+	<type>Encoded Value</type>
+	<value code="0">Incontinent (or needs to be given enemas)</value>
+	<value code="5">Occasional accident</value>
+	<value code="10">Continent</value>
+</variable>
+
+<variable id="phv00081138.v1">
+	<name>DRESS</name>
+	<description>Dressing ability</description>
+	<type>Encoded Value</type>
+	<value code="0">Dependent</value>
+	<value code="5">Needs help but can do about half unaided</value>
+	<value code="10">Independent (including buttons, zips, laces, etc.)</value>
+</variable>
+
+<variable id="phv00081139.v1">
+	<name>FEEDING</name>
+	<description>Feeding ability</description>
+	<type>Encoded Value</type>
+	<value code="0">Unable</value>
+	<value code="5">Needs help cutting, spreading butter, etc., or requires modified diet</value>
+	<value code="10">Independent</value>
+</variable>
+
+<variable id="phv00081140.v1">
+	<name>GROOM</name>
+	<description>Grooming ability</description>
+	<type>Encoded Value</type>
+	<value code="0">Needs help with personal care</value>
+	<value code="5">Independent face / hair / teeth / shaving (implements provided)</value>
+</variable>
+
+<variable id="phv00081141.v1">
+	<name>MOBLTY</name>
+	<description>Mobility (on level surfaces)</description>
+	<type>Encoded Value</type>
+	<value code="0">Immobile or &lt;50 yards</value>
+	<value code="5">Wheelchair independent, including corners, &gt; 50 yards</value>
+	<value code="10">Walks with help of one person (verbal or physical) &gt; 50 yards</value>
+	<value code="15">Independent (but may use any aid; for example, stick) &gt; 50 yards</value>
+</variable>
+
+<variable id="phv00081142.v1">
+	<name>STAIRS</name>
+	<description>Stairs (ability to use)</description>
+	<type>Encoded Value</type>
+	<value code="0">Unable</value>
+	<value code="5">Needs help (verbal, physical, carrying aid)</value>
+	<value code="10">Independent</value>
+</variable>
+
+<variable id="phv00081143.v1">
+	<name>TOILT</name>
+	<description>Toilet use</description>
+	<type>Encoded Value</type>
+	<value code="0">Dependent</value>
+	<value code="5">Needs some help, but can do something alone</value>
+	<value code="10">Independent (on and off, dressing, wiping)</value>
+</variable>
+
+<variable id="phv00081144.v1">
+	<name>TOTSC</name>
+	<description>Total Score (Barthel Index)</description>
+	<type>Integer</type>
+</variable>
+
+<variable id="phv00081145.v1">
+	<name>TRSFR</name>
+	<description>Transfers (bed to chair and back)</description>
+	<type>Encoded Value</type>
+	<value code="0">Unable, no sitting balance</value>
+	<value code="5">Major help (one or two people, physical), can sit</value>
+	<value code="10">Minor help (verbal or physical)</value>
+	<value code="15">Independent</value>
+</variable>
+
+</data_table>

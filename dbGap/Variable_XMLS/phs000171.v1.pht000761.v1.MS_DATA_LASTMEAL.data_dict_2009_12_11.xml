@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./datadict_v2.xsl"?>
+<data_table id="pht000761.v1" study_id="phs000171.v1" participant_set="1" date_created="Fri Dec 11 14:12:50 2009">
+
+<variable id="phv00072917.v1">
+	<name>SUBJID</name>
+	<description>Subject&#39;s ID</description>
+	<type>string</type>
+</variable>
+
+<variable id="phv00072918.v1">
+	<name>CASE_CONTROL</name>
+	<description>Type of subject</description>
+	<type>string, encoded values</type>
+	<value code="CASE">Affected subject per Protocol</value>
+	<value code="CNTL">Control subject per Protocol</value>
+</variable>
+
+<variable id="phv00072919.v1">
+	<name>STUDY</name>
+	<description>Study ID</description>
+	<type>string</type>
+	<comment>Always RES101833</comment>
+</variable>
+
+<variable id="phv00072920.v1">
+	<name>INVSITE</name>
+	<description>Investigator site ID</description>
+	<type>string</type>
+	<comment>Numeric code identifying the site (for internal use)</comment>
+</variable>
+
+<variable id="phv00072921.v1">
+	<name>INV</name>
+	<description>Investigator&#39;s ID</description>
+	<type>string</type>
+	<comment>Numeric code identifying the investigator (for internal use)</comment>
+</variable>
+
+<variable id="phv00072922.v1">
+	<name>VISIT</name>
+	<description>Visit name</description>
+	<type>string</type>
+	<value code="CSA">Common Subject Assessment</value>
+	<value code="ELIGIBILITY">Eligibility questionnaire</value>
+	<value code="BASELINE">Baseline assessment questionnaire</value>
+	<value code="LAB WBC">Lab results</value>
+	<value code="SELF REPORT">Subject completed self report questionnaire</value>
+</variable>
+
+<variable id="phv00072923.v1">
+	<name>VISIT_DATE</name>
+	<description>Visit date</description>
+	<type>date</type>
+	<comment>Truncated to YYYY</comment>
+</variable>
+
+<variable id="phv00072924.v1">
+	<name>LSML</name>
+	<description>What did you last eat (before blood draw)?</description>
+	<type>Encoded Value</type>
+	<value code="LB">Light breakfast, like drink and toast</value>
+	<value code="FB">Full breakfast, like bacon and eggs</value>
+	<value code="LM">Light meal, like drink and sandwich</value>
+	<value code="FM">Full meal like, meat, starch and vegetables</value>
+</variable>
+
+<variable id="phv00072925.v1">
+	<name>LSMLDY</name>
+	<description>Last meal day (before blood draw)</description>
+	<type>Encoded Value</type>
+	<value code="TD">Today</value>
+	<value code="YD">Yesterday</value>
+	<value code="NA">Not Applicable (Fasting for &gt; 48 hours)</value>
+</variable>
+
+<variable id="phv00072926.v1">
+	<name>LSMLTM</name>
+	<description>Last meal time (before blood draw)</description>
+	<type>string</type>
+	<comment>24hr time</comment>
+</variable>
+
+</data_table>

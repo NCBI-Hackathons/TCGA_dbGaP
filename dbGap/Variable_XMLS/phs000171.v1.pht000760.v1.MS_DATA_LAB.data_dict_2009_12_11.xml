@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./datadict_v2.xsl"?>
+<data_table id="pht000760.v1" study_id="phs000171.v1" participant_set="1" date_created="Fri Dec 11 14:12:45 2009">
+
+<unique_key phv="00072884" version="1">SUBJID</unique_key>
+<unique_key phv="00072889" version="1">VISIT</unique_key>
+
+<variable id="phv00072884.v1">
+	<name>SUBJID</name>
+	<description>Subject&#39;s ID</description>
+	<type>string</type>
+</variable>
+
+<variable id="phv00072885.v1">
+	<name>CASE_CONTROL</name>
+	<description>Type of subject</description>
+	<type>string, encoded values</type>
+	<value code="CASE">Affected subject per Protocol</value>
+	<value code="CNTL">Control subject per Protocol</value>
+</variable>
+
+<variable id="phv00072886.v1">
+	<name>STUDY</name>
+	<description>Study ID</description>
+	<type>string</type>
+	<comment>Always RES101833</comment>
+</variable>
+
+<variable id="phv00072887.v1">
+	<name>INVSITE</name>
+	<description>Investigator site ID</description>
+	<type>string</type>
+	<comment>Numeric code identifying the site (for internal use)</comment>
+</variable>
+
+<variable id="phv00072888.v1">
+	<name>INV</name>
+	<description>Investigator&#39;s ID</description>
+	<type>string</type>
+	<comment>Numeric code identifying the investigator (for internal use)</comment>
+</variable>
+
+<variable id="phv00072889.v1">
+	<name>VISIT</name>
+	<description>Visit name</description>
+	<type>string</type>
+	<value code="CSA">Common Subject Assessment</value>
+	<value code="ELIGIBILITY">Eligibility questionnaire</value>
+	<value code="BASELINE">Baseline assessment questionnaire</value>
+	<value code="LAB WBC">Lab results</value>
+	<value code="SELF REPORT">Subject completed self report questionnaire</value>
+</variable>
+
+<variable id="phv00072890.v1">
+	<name>LAB</name>
+	<description>Laboratory ID</description>
+	<type>Integer</type>
+	<comment><![CDATA[Id associated with the lab values 
+		See document: lab_ranges <a href="javascript:getPage(this, &#39;document.cgi&#39;, 1536);return true;" onclick="javascript:getPage(this, &#39;document.cgi&#39;, 1536);return true;" oncontextmenu="javascript:getPage(this, &#39;document.cgi&#39;, 1536);return true;">(phd001536)</a> for normal lab ranges. ]]></comment>
+	<value code="1015">GeneMSA</value>
+	<value code="1016">GeneMSA, Holland</value>
+	<value code="1017">GeneMSA, USA</value>
+</variable>
+
+<variable id="phv00072891.v1">
+	<name>VISIT_DATE</name>
+	<description>Visit date</description>
+	<type>date</type>
+	<comment>Truncated to YYYY</comment>
+</variable>
+
+<variable id="phv00072892.v1">
+	<name>WBC_10E9_L</name>
+	<description>Total WBC</description>
+	<type>Decimal</type>
+	<unit>10*9/L</unit>
+	<comment><![CDATA[See document: lab_ranges <a href="javascript:getPage(this, &#39;document.cgi&#39;, 1536);return true;" onclick="javascript:getPage(this, &#39;document.cgi&#39;, 1536);return true;" oncontextmenu="javascript:getPage(this, &#39;document.cgi&#39;, 1536);return true;">(phd001536)</a> for normal lab ranges]]></comment>
+</variable>
+
+<variable id="phv00072893.v1">
+	<name>BASO_10E9_L</name>
+	<description>Basophils</description>
+	<type>Decimal</type>
+	<unit>10*9/L</unit>
+	<comment><![CDATA[See document: lab_ranges <a href="javascript:getPage(this, &#39;document.cgi&#39;, 1536);return true;" onclick="javascript:getPage(this, &#39;document.cgi&#39;, 1536);return true;" oncontextmenu="javascript:getPage(this, &#39;document.cgi&#39;, 1536);return true;">(phd001536)</a> for normal lab ranges]]></comment>
+</variable>
+
+<variable id="phv00072894.v1">
+	<name>BASO_PCT</name>
+	<description>Basophils (%)</description>
+	<type>Decimal</type>
+	<unit>%</unit>
+	<comment><![CDATA[See document: lab_ranges <a href="javascript:getPage(this, &#39;document.cgi&#39;, 1536);return true;" onclick="javascript:getPage(this, &#39;document.cgi&#39;, 1536);return true;" oncontextmenu="javascript:getPage(this, &#39;document.cgi&#39;, 1536);return true;">(phd001536)</a> for normal lab ranges]]></comment>
+	<value code="ND">Not Done</value>
+</variable>
+
+<variable id="phv00072895.v1">
+	<name>CHOL_MG_DL</name>
+	<description>Total Cholesterol</description>
+	<type>Decimal</type>
+	<unit>MG/DL</unit>
+	<comment><![CDATA[See document: lab_ranges <a href="javascript:getPage(this, &#39;document.cgi&#39;, 1536);return true;" onclick="javascript:getPage(this, &#39;document.cgi&#39;, 1536);return true;" oncontextmenu="javascript:getPage(this, &#39;document.cgi&#39;, 1536);return true;">(phd001536)</a> for normal lab ranges]]></comment>
+</variable>
+
+<variable id="phv00072896.v1">
+	<name>CHOL_MMOL_L</name>
+	<description>Total Cholesterol</description>
+	<type>Decimal</type>
+	<unit>MMOL/L</unit>
+	<comment><![CDATA[See document: lab_ranges <a href="javascript:getPage(this, &#39;document.cgi&#39;, 1536);return true;" onclick="javascript:getPage(this, &#39;document.cgi&#39;, 1536);return true;" oncontextmenu="javascript:getPage(this, &#39;document.cgi&#39;, 1536);return true;">(phd001536)</a> for normal lab ranges]]></comment>
+</variable>
+
+<variable id="phv00072897.v1">
+	<name>EOS_10E9_L</name>
+	<description>Eosinophils</description>
+	<type>Decimal</type>
+	<unit>10*9/L</unit>
+	<comment><![CDATA[See document: lab_ranges <a href="javascript:getPage(this, &#39;document.cgi&#39;, 1536);return true;" onclick="javascript:getPage(this, &#39;document.cgi&#39;, 1536);return true;" oncontextmenu="javascript:getPage(this, &#39;document.cgi&#39;, 1536);return true;">(phd001536)</a> for normal lab ranges]]></comment>
+</variable>
+
+<variable id="phv00072898.v1">
+	<name>EOS_PCT</name>
+	<description>Eosinophils (%)</description>
+	<type>Decimal</type>
+	<unit>%</unit>
+	<comment><![CDATA[See document: lab_ranges <a href="javascript:getPage(this, &#39;document.cgi&#39;, 1536);return true;" onclick="javascript:getPage(this, &#39;document.cgi&#39;, 1536);return true;" oncontextmenu="javascript:getPage(this, &#39;document.cgi&#39;, 1536);return true;">(phd001536)</a> for normal lab ranges]]></comment>
+</variable>
+
+<variable id="phv00072899.v1">
+	<name>HCT_PCT</name>
+	<description>Hematocrit (%)</description>
+	<type>Decimal</type>
+	<unit>%</unit>
+	<comment><![CDATA[See document: lab_ranges <a href="javascript:getPage(this, &#39;document.cgi&#39;, 1536);return true;" onclick="javascript:getPage(this, &#39;document.cgi&#39;, 1536);return true;" oncontextmenu="javascript:getPage(this, &#39;document.cgi&#39;, 1536);return true;">(phd001536)</a> for normal lab ranges]]></comment>
+</variable>
+
+<variable id="phv00072900.v1">
+	<name>HCT_L_L</name>
+	<description>Hematocrit</description>
+	<type>Decimal</type>
+	<unit>L/L</unit>
+	<comment><![CDATA[See document: lab_ranges <a href="javascript:getPage(this, &#39;document.cgi&#39;, 1536);return true;" onclick="javascript:getPage(this, &#39;document.cgi&#39;, 1536);return true;" oncontextmenu="javascript:getPage(this, &#39;document.cgi&#39;, 1536);return true;">(phd001536)</a> for normal lab ranges]]></comment>
+</variable>
+
+<variable id="phv00072901.v1">
+	<name>HDLCH_MG_DL</name>
+	<description>HDL Cholesterol</description>
+	<type>Decimal</type>
+	<unit>MG/DL</unit>
+	<comment><![CDATA[See document: lab_ranges <a href="javascript:getPage(this, &#39;document.cgi&#39;, 1536);return true;" onclick="javascript:getPage(this, &#39;document.cgi&#39;, 1536);return true;" oncontextmenu="javascript:getPage(this, &#39;document.cgi&#39;, 1536);return true;">(phd001536)</a> for normal lab ranges]]></comment>
+</variable>
+
+<variable id="phv00072902.v1">
+	<name>HDLCH_MMOL_L</name>
+	<description>HDL Cholesterol</description>
+	<type>Decimal</type>
+	<unit>MMOL/L</unit>
+	<comment><![CDATA[See document: lab_ranges <a href="javascript:getPage(this, &#39;document.cgi&#39;, 1536);return true;" onclick="javascript:getPage(this, &#39;document.cgi&#39;, 1536);return true;" oncontextmenu="javascript:getPage(this, &#39;document.cgi&#39;, 1536);return true;">(phd001536)</a> for normal lab ranges]]></comment>
+</variable>
+
+<variable id="phv00072903.v1">
+	<name>LDLCH_MG_DL</name>
+	<description>LDL Cholesterol</description>
+	<type>Decimal</type>
+	<unit>MG/DL</unit>
+	<comment><![CDATA[See document: lab_ranges <a href="javascript:getPage(this, &#39;document.cgi&#39;, 1536);return true;" onclick="javascript:getPage(this, &#39;document.cgi&#39;, 1536);return true;" oncontextmenu="javascript:getPage(this, &#39;document.cgi&#39;, 1536);return true;">(phd001536)</a> for normal lab ranges]]></comment>
+</variable>
+
+<variable id="phv00072904.v1">
+	<name>LDLCH_MMOL_L</name>
+	<description>LDL Cholesterol</description>
+	<type>Decimal</type>
+	<unit>MMOL/L</unit>
+	<comment><![CDATA[See document: lab_ranges <a href="javascript:getPage(this, &#39;document.cgi&#39;, 1536);return true;" onclick="javascript:getPage(this, &#39;document.cgi&#39;, 1536);return true;" oncontextmenu="javascript:getPage(this, &#39;document.cgi&#39;, 1536);return true;">(phd001536)</a> for normal lab ranges]]></comment>
+</variable>
+
+<variable id="phv00072905.v1">
+	<name>LYMPH_10E9_L</name>
+	<description>Lymphocytes</description>
+	<type>Decimal</type>
+	<unit>10*9/L</unit>
+	<comment><![CDATA[See document: lab_ranges <a href="javascript:getPage(this, &#39;document.cgi&#39;, 1536);return true;" onclick="javascript:getPage(this, &#39;document.cgi&#39;, 1536);return true;" oncontextmenu="javascript:getPage(this, &#39;document.cgi&#39;, 1536);return true;">(phd001536)</a> for normal lab ranges]]></comment>
+</variable>
+
+<variable id="phv00072906.v1">
+	<name>LYMPH_PCT</name>
+	<description>Lymphocytes (%)</description>
+	<type>Decimal</type>
+	<unit>%</unit>
+	<comment><![CDATA[See document: lab_ranges <a href="javascript:getPage(this, &#39;document.cgi&#39;, 1536);return true;" onclick="javascript:getPage(this, &#39;document.cgi&#39;, 1536);return true;" oncontextmenu="javascript:getPage(this, &#39;document.cgi&#39;, 1536);return true;">(phd001536)</a> for normal lab ranges]]></comment>
+</variable>
+
+<variable id="phv00072907.v1">
+	<name>MONO_10E9_L</name>
+	<description>Monocytes</description>
+	<type>Decimal</type>
+	<unit>10*9/L</unit>
+	<comment><![CDATA[See document: lab_ranges <a href="javascript:getPage(this, &#39;document.cgi&#39;, 1536);return true;" onclick="javascript:getPage(this, &#39;document.cgi&#39;, 1536);return true;" oncontextmenu="javascript:getPage(this, &#39;document.cgi&#39;, 1536);return true;">(phd001536)</a> for normal lab ranges]]></comment>
+</variable>
+
+<variable id="phv00072908.v1">
+	<name>MONO_PCT</name>
+	<description>Monocytes (%)</description>
+	<type>Decimal</type>
+	<unit>%</unit>
+	<comment><![CDATA[See document: lab_ranges <a href="javascript:getPage(this, &#39;document.cgi&#39;, 1536);return true;" onclick="javascript:getPage(this, &#39;document.cgi&#39;, 1536);return true;" oncontextmenu="javascript:getPage(this, &#39;document.cgi&#39;, 1536);return true;">(phd001536)</a> for normal lab ranges]]></comment>
+</variable>
+
+<variable id="phv00072909.v1">
+	<name>NEUT_10E9_L</name>
+	<description>Neutrophils</description>
+	<type>Decimal</type>
+	<unit>10*9/L</unit>
+	<comment><![CDATA[See document: lab_ranges <a href="javascript:getPage(this, &#39;document.cgi&#39;, 1536);return true;" onclick="javascript:getPage(this, &#39;document.cgi&#39;, 1536);return true;" oncontextmenu="javascript:getPage(this, &#39;document.cgi&#39;, 1536);return true;">(phd001536)</a> for normal lab ranges]]></comment>
+</variable>
+
+<variable id="phv00072910.v1">
+	<name>NEUT_PCT</name>
+	<description>Neutrophils (%)</description>
+	<type>Decimal</type>
+	<unit>%</unit>
+	<comment><![CDATA[See document: lab_ranges <a href="javascript:getPage(this, &#39;document.cgi&#39;, 1536);return true;" onclick="javascript:getPage(this, &#39;document.cgi&#39;, 1536);return true;" oncontextmenu="javascript:getPage(this, &#39;document.cgi&#39;, 1536);return true;">(phd001536)</a> for normal lab ranges]]></comment>
+</variable>
+
+<variable id="phv00072911.v1">
+	<name>TRIG_MG_DL</name>
+	<description>Triglycerides</description>
+	<type>Decimal</type>
+	<unit>MG/DL</unit>
+	<comment><![CDATA[See document: lab_ranges <a href="javascript:getPage(this, &#39;document.cgi&#39;, 1536);return true;" onclick="javascript:getPage(this, &#39;document.cgi&#39;, 1536);return true;" oncontextmenu="javascript:getPage(this, &#39;document.cgi&#39;, 1536);return true;">(phd001536)</a> for normal lab ranges]]></comment>
+</variable>
+
+<variable id="phv00072912.v1">
+	<name>TRIG_MMOL_L</name>
+	<description>Triglycerides</description>
+	<type>Decimal</type>
+	<unit>MMOL/L</unit>
+	<comment><![CDATA[See document: lab_ranges <a href="javascript:getPage(this, &#39;document.cgi&#39;, 1536);return true;" onclick="javascript:getPage(this, &#39;document.cgi&#39;, 1536);return true;" oncontextmenu="javascript:getPage(this, &#39;document.cgi&#39;, 1536);return true;">(phd001536)</a> for normal lab ranges]]></comment>
+</variable>
+
+<variable id="phv00072913.v1">
+	<name>TSH_MIU_L</name>
+	<description>Tsh (Thyroid stimulating hormone) - Milli-International-Units (MIU)</description>
+	<type>Decimal</type>
+	<unit>MIU/L</unit>
+	<comment><![CDATA[See document: lab_ranges <a href="javascript:getPage(this, &#39;document.cgi&#39;, 1536);return true;" onclick="javascript:getPage(this, &#39;document.cgi&#39;, 1536);return true;" oncontextmenu="javascript:getPage(this, &#39;document.cgi&#39;, 1536);return true;">(phd001536)</a> for normal lab ranges]]></comment>
+</variable>
+
+<variable id="phv00072914.v1">
+	<name>TSH_MU_L</name>
+	<description>Tsh (Thyroid stimulating hormone) - Milliunits (MU)</description>
+	<type>Decimal</type>
+	<unit>MU/L</unit>
+	<comment><![CDATA[See document: lab_ranges <a href="javascript:getPage(this, &#39;document.cgi&#39;, 1536);return true;" onclick="javascript:getPage(this, &#39;document.cgi&#39;, 1536);return true;" oncontextmenu="javascript:getPage(this, &#39;document.cgi&#39;, 1536);return true;">(phd001536)</a> for normal lab ranges]]></comment>
+</variable>
+
+<variable id="phv00072915.v1">
+	<name>HBA1H_PCT</name>
+	<description>HBA1C - HPLC</description>
+	<type>Decimal</type>
+	<unit>%</unit>
+	<comment><![CDATA[See document: lab_ranges <a href="javascript:getPage(this, &#39;document.cgi&#39;, 1536);return true;" onclick="javascript:getPage(this, &#39;document.cgi&#39;, 1536);return true;" oncontextmenu="javascript:getPage(this, &#39;document.cgi&#39;, 1536);return true;">(phd001536)</a> for normal lab ranges]]></comment>
+</variable>
+
+<variable id="phv00072916.v1">
+	<name>HBA1I_PCT</name>
+	<description>HBA1C - immuno assay</description>
+	<type>Decimal</type>
+	<unit>%</unit>
+	<comment><![CDATA[See document: lab_ranges <a href="javascript:getPage(this, &#39;document.cgi&#39;, 1536);return true;" onclick="javascript:getPage(this, &#39;document.cgi&#39;, 1536);return true;" oncontextmenu="javascript:getPage(this, &#39;document.cgi&#39;, 1536);return true;">(phd001536)</a> for normal lab ranges]]></comment>
+</variable>
+
+</data_table>

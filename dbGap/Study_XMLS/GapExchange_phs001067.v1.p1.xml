@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GaPExchange xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="./dbGaPEx2.1.5.xsd">
+
+<MetaVariables>
+	<Submitter/>
+	<Method/>
+</MetaVariables>
+<MetaLinks/>
+
+<Projects>
+	<Project/>
+</Projects>
+
+<Studies>
+
+<Study source="dbGaP" accession="phs001067.v1.p1" parentStudy="phs001067.v1.p1" createDate="2016-02-01" modDate="2016-02-01">
+
+<Configuration>
+	<Data_Provider><![CDATA[
+		<table border="1">
+		<tr><th>Title</th><th>Name</th><th>Institute</th></tr>
+		<tr><td>Principal Investigator</td><td>Joseph DeRisi, PhD</td><td>Howard Hughes Medical Institute, University of California, San Francisco, USA</td></tr>
+		<tr><td>Funding Source</td><td>8 KL2TR000143-08</td><td>National Center for Advancing Translational Sciences (NCATS), National Institutes of Health, Bethesda, MD, USA</td></tr>
+		</table>
+	]]></Data_Provider>
+	<StudyNameEntrez>Metagenomic Deep Sequencing in Meningitis and Encephalitis</StudyNameEntrez>
+	<StudyNameReportPage>Metagenomic Deep Sequencing in Meningitis and Encephalitis</StudyNameReportPage>
+	<StudyTypes>
+		<StudyType>Case Set</StudyType>
+	</StudyTypes>
+	<Description><![CDATA[
+<p>This is a prospective observational study seeking to identify pathogens in cases of unexplained neurological disease, particularly those in which there is a presumed infectious cause. This next generation analytical approach will hopefully allow for rapid identification of foreign genomic material, and through a sophisticated bioinformatics pipeline developed in the DeRisi lab, these foreign genomic sequences can be aligned to all known sequences in publicly available databases (i.e. GenBank) which may allow for identification of novel pathogens or known pathogens that are not frequently tested for as part of standard diagnostic work-ups.</p>]]>
+	</Description>
+	<StudyInEx><![CDATA[
+<p>Inclusion criterion:<br/> Unexplained neurologic syndrome that may have an infectious or autoimmune cause in either an adult or child.</p> <p>Exclusion criterion:<br/> Prisoner</p>]]>
+	</StudyInEx>
+	<StudyProjects>
+		<Project/>
+	</StudyProjects>
+	<Publications>
+		<Publication>
+			<Pubmed pmid="26290222"/>
+		</Publication>
+		<Publication>
+			<Pubmed pmid="24896819"/>
+		</Publication>
+	</Publications>
+	<Diseases>
+		<Disease vocab_source="MESH" vocab_term="Encephalitis"/>
+		<Disease vocab_source="MESH" vocab_term="Meningitis"/>
+		<Disease vocab_source="MESH" vocab_term="Myelitis"/>
+	</Diseases>
+	<Attributions>
+		<Header title="Principal Investigator">
+			<AttName>Joseph DeRisi, PhD</AttName>
+			<Institution>Howard Hughes Medical Institute, University of California, San Francisco, USA</Institution>
+		</Header>
+		<Header title="Funding Source">
+			<AttName>8 KL2TR000143-08</AttName>
+			<Institution>National Center for Advancing Translational Sciences (NCATS), National Institutes of Health, Bethesda, MD, USA</Institution>
+		</Header>
+	</Attributions>
+	<DisplayPublicSummary>yes</DisplayPublicSummary>
+	<ConsentGroups>
+		<ConsentGroup groupNum="1" shortName="DS-NDR-IRB" longName="Disease-Specific (Neurological Disorders Research, IRB)"/>
+	</ConsentGroups>
+</Configuration>
+
+  <AuthorizedAccess>
+    <DacInfo ssDacId="0">
+      <DacName>NIAID</DacName>
+      <DacFullName>NIAID DAC</DacFullName>
+      <DacEmail>0</DacEmail>
+      <DacPhone></DacPhone>
+      <DacUrl></DacUrl>
+    </DacInfo>
+    <Policy Policy_ID="phs001067.v1.p1_policy" ref_ssDacId="0">
+      <DisplayResearchStatement>yes</DisplayResearchStatement>
+      <DisplayPublicSummary>yes</DisplayPublicSummary>
+      <EmbargoLength>0</EmbargoLength>
+      <YearsUntilRenewal>1</YearsUntilRenewal>
+      <WeeksCancelRequest>8</WeeksCancelRequest>
+      <PdfSupplementReqired>yes</PdfSupplementReqired>
+      <AcknowledgementText>
+        <para>
+          http://dbgap.ncbi.nlm.nih.gov/aa/wga.cgi?page=DUC&amp;view_pdf&amp;stacc=phs001067.v1.p1
+        </para>
+      </AcknowledgementText>
+      <DocumentSet>
+        <DataUseCertificate Label="Data Use Certificate" FilePath="https://dbgap.ncbi.nlm.nih.gov/aa/wga.cgi?page=DUC&amp;view_pdf&amp;stacc=phs001067.v1.p1" FileName=""/>
+      </DocumentSet>
+    </Policy>
+    <ConsentGroups>
+      <ParticipantSet groupNum-REF="1">
+        <ConsentName>Disease-Specific (Neurological Disorders Research, IRB)</ConsentName>
+        <ConsentAbbrev>DS-NDR-IRB</ConsentAbbrev>
+        <UseLimitation>Use of the data must be related to Neurological Disorders Research.
+Requestor must provide documentation of local IRB approval.</UseLimitation>
+        <IrbRequired>Yes</IrbRequired>
+      </ParticipantSet>
+    </ConsentGroups>
+  </AuthorizedAccess>
+
+
+</Study>
+
+</Studies>
+
+</GaPExchange>

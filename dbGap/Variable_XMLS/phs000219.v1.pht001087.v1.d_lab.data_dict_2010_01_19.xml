@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./datadict_v2.xsl"?>
+<data_table id="pht001087.v1" study_id="phs000219.v1" participant_set="1" date_created="Tue Jan 19 13:07:08 2010">
+
+<unique_key phv="00082070" version="1">SUBJID</unique_key>
+<unique_key phv="00082074" version="1">VISIT</unique_key>
+
+<variable id="phv00082070.v1">
+	<name>SUBJID</name>
+	<description>Subject&#39;s ID</description>
+	<type>string</type>
+</variable>
+
+<variable id="phv00082071.v1">
+	<name>CASE_CONTROL</name>
+	<description>Case, Control or Family</description>
+	<type>string</type>
+</variable>
+
+<variable id="phv00082072.v1">
+	<name>INV</name>
+	<description>Investigator&#39;s ID</description>
+	<type>string</type>
+</variable>
+
+<variable id="phv00082073.v1">
+	<name>INVSITE</name>
+	<description>Investigator site ID</description>
+	<type>string</type>
+</variable>
+
+<variable id="phv00082074.v1">
+	<name>VISIT</name>
+	<description>Visit name</description>
+	<type>string</type>
+</variable>
+
+<variable id="phv00082075.v1">
+	<name>LAB</name>
+	<description>Laboratory ID</description>
+	<type>Integer</type>
+	<comment><![CDATA[ID associated with lab values
+		See document &#39;normal lab ranges&#39; <a href="javascript:getPage(this, &#39;document.cgi&#39;, 2051);return true;" onclick="javascript:getPage(this, &#39;document.cgi&#39;, 2051);return true;" oncontextmenu="javascript:getPage(this, &#39;document.cgi&#39;, 2051);return true;">(phd002051)</a> for normal lab range values. ]]></comment>
+	<value code="1006">MDS Montreal</value>
+	<value code="1007">MDS Vancouver</value>
+	<value code="1008">MDS London</value>
+	<value code="1019">MDS Toronto</value>
+</variable>
+
+<variable id="phv00082076.v1">
+	<name>VISIT_DATE</name>
+	<description>Visit date</description>
+	<type>date</type>
+	<comment>Truncated to YYYY</comment>
+</variable>
+
+<variable id="phv00082077.v1">
+	<name>CHOL_MMOL_L</name>
+	<description>Total Cholesterol</description>
+	<type>Decimal</type>
+	<unit>MMOL/L</unit>
+	<comment><![CDATA[See document &#39;normal lab ranges&#39; <a href="javascript:getPage(this, &#39;document.cgi&#39;, 2051);return true;" onclick="javascript:getPage(this, &#39;document.cgi&#39;, 2051);return true;" oncontextmenu="javascript:getPage(this, &#39;document.cgi&#39;, 2051);return true;">(phd002051)</a> for normal lab range values]]></comment>
+</variable>
+
+<variable id="phv00082078.v1">
+	<name>HB_G_L</name>
+	<description>Hemoglobin</description>
+	<type>Decimal</type>
+	<unit>G/L</unit>
+	<comment><![CDATA[See document &#39;normal lab ranges&#39; <a href="javascript:getPage(this, &#39;document.cgi&#39;, 2051);return true;" onclick="javascript:getPage(this, &#39;document.cgi&#39;, 2051);return true;" oncontextmenu="javascript:getPage(this, &#39;document.cgi&#39;, 2051);return true;">(phd002051)</a> for normal lab range values]]></comment>
+</variable>
+
+<variable id="phv00082079.v1">
+	<name>HBA1C_PCT</name>
+	<description>Glycosylated Hemoglobin</description>
+	<type>Decimal</type>
+	<unit>%</unit>
+	<comment><![CDATA[See document &#39;normal lab ranges&#39; <a href="javascript:getPage(this, &#39;document.cgi&#39;, 2051);return true;" onclick="javascript:getPage(this, &#39;document.cgi&#39;, 2051);return true;" oncontextmenu="javascript:getPage(this, &#39;document.cgi&#39;, 2051);return true;">(phd002051)</a> for normal lab range values]]></comment>
+</variable>
+
+<variable id="phv00082080.v1">
+	<name>HDLCH_MMOL_L</name>
+	<description>HDL Cholesterol</description>
+	<type>Decimal</type>
+	<unit>MMOL/L</unit>
+	<comment><![CDATA[See document &#39;normal lab ranges&#39; <a href="javascript:getPage(this, &#39;document.cgi&#39;, 2051);return true;" onclick="javascript:getPage(this, &#39;document.cgi&#39;, 2051);return true;" oncontextmenu="javascript:getPage(this, &#39;document.cgi&#39;, 2051);return true;">(phd002051)</a> for normal lab range values]]></comment>
+</variable>
+
+<variable id="phv00082081.v1">
+	<name>HSCRP_MG_L</name>
+	<description>High Sensitivity C-Reactive Protein</description>
+	<type>Decimal</type>
+	<unit>MG/L</unit>
+	<comment><![CDATA[See document &#39;normal lab ranges&#39; <a href="javascript:getPage(this, &#39;document.cgi&#39;, 2051);return true;" onclick="javascript:getPage(this, &#39;document.cgi&#39;, 2051);return true;" oncontextmenu="javascript:getPage(this, &#39;document.cgi&#39;, 2051);return true;">(phd002051)</a> for normal lab range values]]></comment>
+</variable>
+
+<variable id="phv00082082.v1">
+	<name>LDLCH_MMOL_L</name>
+	<description>LDL Cholesterol</description>
+	<type>Decimal</type>
+	<unit>MMOL/L</unit>
+	<comment><![CDATA[See document &#39;normal lab ranges&#39; <a href="javascript:getPage(this, &#39;document.cgi&#39;, 2051);return true;" onclick="javascript:getPage(this, &#39;document.cgi&#39;, 2051);return true;" oncontextmenu="javascript:getPage(this, &#39;document.cgi&#39;, 2051);return true;">(phd002051)</a> for normal lab range values]]></comment>
+</variable>
+
+<variable id="phv00082083.v1">
+	<name>TRIG_MMOL_L</name>
+	<description>Triglycerides</description>
+	<type>Decimal</type>
+	<unit>MMOL/L</unit>
+	<comment><![CDATA[See document &#39;normal lab ranges&#39; <a href="javascript:getPage(this, &#39;document.cgi&#39;, 2051);return true;" onclick="javascript:getPage(this, &#39;document.cgi&#39;, 2051);return true;" oncontextmenu="javascript:getPage(this, &#39;document.cgi&#39;, 2051);return true;">(phd002051)</a> for normal lab range values]]></comment>
+</variable>
+
+<variable id="phv00082084.v1">
+	<name>WBC_GIGA_L</name>
+	<description>Total WBC</description>
+	<type>Decimal</type>
+	<unit>G/L</unit>
+	<comment><![CDATA[See document &#39;normal lab ranges&#39; <a href="javascript:getPage(this, &#39;document.cgi&#39;, 2051);return true;" onclick="javascript:getPage(this, &#39;document.cgi&#39;, 2051);return true;" oncontextmenu="javascript:getPage(this, &#39;document.cgi&#39;, 2051);return true;">(phd002051)</a> for normal lab range values]]></comment>
+</variable>
+
+<variable id="phv00082085.v1">
+	<name>LDL_MMOL_L</name>
+	<description>LDL Calculated</description>
+	<type>Decimal</type>
+	<unit>MMOL/L</unit>
+	<comment><![CDATA[See document &#39;normal lab ranges&#39; <a href="javascript:getPage(this, &#39;document.cgi&#39;, 2051);return true;" onclick="javascript:getPage(this, &#39;document.cgi&#39;, 2051);return true;" oncontextmenu="javascript:getPage(this, &#39;document.cgi&#39;, 2051);return true;">(phd002051)</a> for normal lab range values]]></comment>
+</variable>
+
+<variable id="phv00082086.v1">
+	<name>PLT_10E9_L</name>
+	<description>Platelets</description>
+	<type>Decimal</type>
+	<unit>10*9/L</unit>
+	<comment><![CDATA[See document &#39;normal lab ranges&#39; <a href="javascript:getPage(this, &#39;document.cgi&#39;, 2051);return true;" onclick="javascript:getPage(this, &#39;document.cgi&#39;, 2051);return true;" oncontextmenu="javascript:getPage(this, &#39;document.cgi&#39;, 2051);return true;">(phd002051)</a> for normal lab range values]]></comment>
+</variable>
+
+</data_table>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./datadict_v2.xsl"?>
+<data_table id="pht000821.v3" study_id="phs000007.v13" participant_set="5" date_created="Mon Feb 28 17:31:21 2011">
+
+<variable id="phv00073721.v1">
+	<name>idtype</name>
+	<description>Framingham Cohort Identifier</description>
+	<type>encoded</type>
+	<coll_interval>Exam 1</coll_interval>
+	<value code="3">Gen 3</value>
+</variable>
+
+<variable id="phv00073720.v2">
+	<name>ang2</name>
+	<description>Angiopoietin-2</description>
+	<type>decimal, encoded</type>
+	<unit>ng/ml</unit>
+	<logical_min>0.328</logical_min>
+	<logical_max>21</logical_max>
+	<coll_interval>Exam 1</coll_interval>
+	<comment>For those samples with ang2 below the lower limit of the assay, the ang2 value was set to 0.328.  For those samples with ang2 above the upper limit of the assay, the ang2 value was set to 21.000.</comment>
+	<value code=".">unknown</value>
+</variable>
+
+<variable id="phv00073722.v2">
+	<name>tie2</name>
+	<description>Angiopoietin Tie-2 Receptor</description>
+	<type>decimal, encoded</type>
+	<unit>ng/ml</unit>
+	<logical_min>5.388</logical_min>
+	<logical_max>45.57</logical_max>
+	<coll_interval>Exam 1</coll_interval>
+	<value code=".">unknown</value>
+</variable>
+
+<variable id="phv00073723.v2">
+	<name>shareid</name>
+	<description>SHARE ID Number</description>
+	<type>integer</type>
+	<coll_interval>Exam 1</coll_interval>
+</variable>
+
+</data_table>

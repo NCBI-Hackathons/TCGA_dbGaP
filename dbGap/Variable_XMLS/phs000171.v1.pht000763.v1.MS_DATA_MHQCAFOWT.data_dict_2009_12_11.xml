@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./datadict_v2.xsl"?>
+<data_table id="pht000763.v1" study_id="phs000171.v1" participant_set="1" date_created="Fri Dec 11 14:12:52 2009">
+
+<variable id="phv00072944.v1">
+	<name>SUBJID</name>
+	<description>Subject&#39;s ID</description>
+	<type>integer</type>
+</variable>
+
+<variable id="phv00072945.v1">
+	<name>CASE_CONTROL</name>
+	<description>Type of subject</description>
+	<type>string, encoded values</type>
+	<value code="CASE">Affected subject per Protocol</value>
+	<value code="CNTL">Control subject per Protocol</value>
+</variable>
+
+<variable id="phv00072946.v1">
+	<name>STUDY</name>
+	<description>Study Identifier</description>
+	<type>string</type>
+	<comment>Always RES101833</comment>
+</variable>
+
+<variable id="phv00072947.v1">
+	<name>INVSITE</name>
+	<description>Investigator site ID</description>
+	<type>string</type>
+	<comment>Numeric code identifying the site (for internal use)</comment>
+</variable>
+
+<variable id="phv00072948.v1">
+	<name>INV</name>
+	<description>Investigator&#39;s ID</description>
+	<type>string</type>
+	<comment>Numeric code identifying the investigator (for internal use)</comment>
+</variable>
+
+<variable id="phv00072949.v1">
+	<name>VISIT</name>
+	<description>Visit name</description>
+	<type>string, encoded values</type>
+	<value code="CSA">Common Subject Assessment</value>
+	<value code="ELIGIBILITY">Eligibility questionnaire</value>
+	<value code="BASELINE">Baseline assessment questionnaire</value>
+	<value code="LAB WBC">Lab results</value>
+	<value code="SELF REPORT">Subject completed self report questionnaire</value>
+</variable>
+
+<variable id="phv00072950.v1">
+	<name>VISIT_DATE</name>
+	<description>Visit date</description>
+	<type>date</type>
+	<unit>Year</unit>
+	<comment>Truncated to YYYY</comment>
+</variable>
+
+<variable id="phv00072951.v1">
+	<name>EDDUR</name>
+	<description>How many years did you go to school?</description>
+	<type>string, encoded values</type>
+	<value code="&lt;4Y">&lt;= 4 years</value>
+	<value code="5B10Y">5 to 10 years</value>
+	<value code="11B15Y">11 to 15 years</value>
+	<value code="&gt;15Y">&gt; 15 years</value>
+</variable>
+
+<variable id="phv00072952.v1">
+	<name>CAFUSE</name>
+	<description>How many cups (or cans) of drinks with caffeine do you have per day?</description>
+	<type>string, encoded values</type>
+	<value code="NONE">None</value>
+	<value code="1B3">1 to 3</value>
+	<value code="4B6">4 to 6</value>
+	<value code="&gt;6">more than 6</value>
+</variable>
+
+<variable id="phv00072953.v1">
+	<name>MEMCH</name>
+	<description>Has your memory problem gotten worse in the last year?</description>
+	<type>string, encoded values</type>
+	<value code="K">Don&#39;t Know</value>
+	<value code="N">No</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00072954.v1">
+	<name>MEMWK</name>
+	<description>Are you concerned about your memory because it affects how you work or the way you live from day to day?</description>
+	<type>string, encoded values</type>
+	<value code="K">Don&#39;t Know</value>
+	<value code="N">No</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00072955.v1">
+	<name>OWT</name>
+	<description>Has the doctor ever told you that you were overweight?</description>
+	<type>string, encoded values</type>
+	<value code="K">Don&#39;t Know</value>
+	<value code="N">No</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00072956.v1">
+	<name>SBHS1</name>
+	<description>Overweight as: young child, 10 years or less (&lt;10Y)</description>
+	<type>string, encoded values</type>
+	<comment>What ages (in years) were you overweight?</comment>
+	<value code="N">No</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00072957.v1">
+	<name>SBHS2</name>
+	<description>Overweight as: teenager, 11 to 19 YEARS (11-19Y)</description>
+	<type>string, encoded values</type>
+	<comment>What ages (in years) were you overweight?</comment>
+	<value code="N">No</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00072958.v1">
+	<name>SBHS3</name>
+	<description>Overweight as: young adult, 20 to 30 years (20-30Y)</description>
+	<type>string, encoded values</type>
+	<comment>What ages (in years) were you overweight?</comment>
+	<value code="N">No</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00072959.v1">
+	<name>SBHS4</name>
+	<description>Overweight as: adult 31 to 50 years (31-50Y)</description>
+	<type>string, encoded values</type>
+	<comment>What ages (in years) were you overweight?</comment>
+	<value code="N">No</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00072960.v1">
+	<name>SBHS5</name>
+	<description>Overweight as: older adult, more than 50 years (&gt;50Y)</description>
+	<type>string, encoded values</type>
+	<comment>What ages (in years) were you overweight?</comment>
+	<value code="N">No</value>
+	<value code="Y">Yes</value>
+</variable>
+
+</data_table>

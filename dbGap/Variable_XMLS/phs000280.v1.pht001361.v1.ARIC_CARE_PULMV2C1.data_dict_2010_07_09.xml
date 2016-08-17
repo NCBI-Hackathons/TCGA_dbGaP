@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./datadict_v2.xsl"?>
+<data_table id="pht001361.v1" study_id="phs000280.v1" participant_set="1" date_created="Fri Jul  9 11:27:28 2010">
+
+<variable id="phv00095959.v1">
+	<name>Individual_ID</name>
+	<description>Subject Identifier</description>
+	<type>string</type>
+</variable>
+
+<variable id="phv00095960.v1">
+	<name>GENDER</name>
+	<description>SEX (from FTRA22)</description>
+	<type>encoded</type>
+	<comment><![CDATA[dbGaP staff has detected that some values shown in this variable (gender) are not concordant with values shown in other variables, recording gender for same subject.
+		For further information, consult the document <a href="GetPdf.cgi?id=phd002882.1">DerVaribleDictonaryExam2.pdf</a>. ]]></comment>
+	<value code="F">Female</value>
+	<value code="M">Male</value>
+</variable>
+
+<variable id="phv00095961.v1">
+	<name>FEF2522</name>
+	<description>FEF(25) Predicted</description>
+	<type>decimal</type>
+	<logical_min>3.49184</logical_min>
+	<logical_max>10.214</logical_max>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002882.1">DerVaribleDictonaryExam2.pdf</a>.]]></comment>
+</variable>
+
+<variable id="phv00095962.v1">
+	<name>FEF25752</name>
+	<description>FEF(25-75) Predicted</description>
+	<type>decimal</type>
+	<logical_min>1.668656</logical_min>
+	<logical_max>4.3686</logical_max>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002882.1">DerVaribleDictonaryExam2.pdf</a>.]]></comment>
+</variable>
+
+<variable id="phv00095963.v1">
+	<name>FEF5022</name>
+	<description>FEF(50) Predicted</description>
+	<type>decimal</type>
+	<logical_min>2.87584</logical_min>
+	<logical_max>7.611</logical_max>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002882.1">DerVaribleDictonaryExam2.pdf</a>.]]></comment>
+</variable>
+
+<variable id="phv00095964.v1">
+	<name>FEF7522</name>
+	<description>FEF(75) Predicted</description>
+	<type>decimal</type>
+	<logical_min>1.481</logical_min>
+	<logical_max>4.037</logical_max>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002882.1">DerVaribleDictonaryExam2.pdf</a>.]]></comment>
+</variable>
+
+<variable id="phv00095965.v1">
+	<name>FEV1FVC2</name>
+	<description>FEF(1)/FVC Predicted(%)</description>
+	<type>decimal</type>
+	<unit>%</unit>
+	<logical_min>64.49168</logical_min>
+	<logical_max>84.84</logical_max>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002882.1">DerVaribleDictonaryExam2.pdf</a>.]]></comment>
+</variable>
+
+<variable id="phv00095966.v1">
+	<name>FEV3FVC2</name>
+	<description>FEF(3)/FVC Predicted(%)</description>
+	<type>decimal</type>
+	<unit>%</unit>
+	<logical_min>79.42378</logical_min>
+	<logical_max>96.6314</logical_max>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002882.1">DerVaribleDictonaryExam2.pdf</a>.]]></comment>
+</variable>
+
+<variable id="phv00095967.v1">
+	<name>FEF_122</name>
+	<description>FEV(1) Predicted (Liters)</description>
+	<type>decimal</type>
+	<unit>L</unit>
+	<logical_min>1.22892</logical_min>
+	<logical_max>4.8774</logical_max>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002882.1">DerVaribleDictonaryExam2.pdf</a>.]]></comment>
+</variable>
+
+<variable id="phv00095968.v1">
+	<name>FEF_322</name>
+	<description>FEV(3) Predicted (Liters)</description>
+	<type>decimal</type>
+	<unit>L</unit>
+	<logical_min>1.292984</logical_min>
+	<logical_max>5.8337</logical_max>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002882.1">DerVaribleDictonaryExam2.pdf</a>.]]></comment>
+</variable>
+
+<variable id="phv00095969.v1">
+	<name>FEF_522</name>
+	<description>FEV(.5) Predicted (Liters)</description>
+	<type>decimal</type>
+	<unit>L</unit>
+	<logical_min>1.0758</logical_min>
+	<logical_max>3.8637</logical_max>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002882.1">DerVaribleDictonaryExam2.pdf</a>.]]></comment>
+</variable>
+
+<variable id="phv00095970.v1">
+	<name>FVC22</name>
+	<description>FVC Predicted (Liters)</description>
+	<type>decimal</type>
+	<unit>L</unit>
+	<logical_min>1.272392</logical_min>
+	<logical_max>6.2628</logical_max>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002882.1">DerVaribleDictonaryExam2.pdf</a>.]]></comment>
+</variable>
+
+<variable id="phv00095971.v1">
+	<name>PEFR22</name>
+	<description>PEFR Predicted (Liters)</description>
+	<type>decimal</type>
+	<unit>L</unit>
+	<logical_min>3.6212</logical_min>
+	<logical_max>11.033</logical_max>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002882.1">DerVaribleDictonaryExam2.pdf</a>.]]></comment>
+</variable>
+
+</data_table>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./datadict_v2.xsl"?>
+<data_table id="pht000741.v2" study_id="phs000007.v13" participant_set="5" date_created="Mon Feb 28 17:27:10 2011">
+
+<variable id="phv00156626.v1">
+	<name>fxsite</name>
+	<description>Fracture Location</description>
+	<type>encoded</type>
+	<coll_interval>Cases reviewed through Nov 2010</coll_interval>
+	<value code="1">Clavicle/collarbone</value>
+	<value code="2">Upper arm/elbow</value>
+	<value code="3">Forearm/wrist</value>
+	<value code="4">Hand</value>
+	<value code="5">Back</value>
+	<value code="6">Pelvis</value>
+	<value code="7">Hip</value>
+	<value code="8">Leg</value>
+	<value code="9">Foot</value>
+	<value code="10">Toe</value>
+	<value code="11">Other</value>
+	<value code="12">Ankle</value>
+	<value code="13">Kneecap</value>
+	<value code="14">Ribs</value>
+	<value code="15">Sternum</value>
+	<value code="16">Shoulder</value>
+	<value code="17">Face</value>
+	<value code="18">Skull</value>
+	<value code="19">Finger</value>
+</variable>
+
+<variable id="phv00071883.v2">
+	<name>idtype</name>
+	<description>Framingham Heart Study Cohort Identifier</description>
+	<type>encoded</type>
+	<coll_interval>Cases reviewed through Nov 2010</coll_interval>
+	<value code="0">Original Cohort</value>
+</variable>
+
+<variable id="phv00156627.v1">
+	<name>fxyear</name>
+	<description>Fracture Year</description>
+	<type>integer</type>
+	<unit>years</unit>
+	<logical_min>29</logical_min>
+	<logical_max>56</logical_max>
+	<coll_interval>Cases reviewed through Nov 2010</coll_interval>
+	<comment>Modified date - number of years since exam 1</comment>
+</variable>
+
+<variable id="phv00071887.v2">
+	<name>shareid</name>
+	<description>Framingham Heart Study participant SHARe ID number</description>
+	<type>integer</type>
+	<coll_interval>Cases reviewed through Nov 2010</coll_interval>
+</variable>
+
+</data_table>

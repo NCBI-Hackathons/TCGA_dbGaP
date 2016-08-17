@@ -1,0 +1,597 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./datadict_v2.xsl"?>
+<data_table id="pht001071.v1" study_id="phs000219.v1" participant_set="1" date_created="Tue Jan 19 13:07:24 2010">
+
+<unique_key phv="00081586" version="1">SUBJID</unique_key>
+<unique_key phv="00081590" version="1">VISIT</unique_key>
+
+<variable id="phv00081586.v1">
+	<name>SUBJID</name>
+	<description>Subject&#39;s ID</description>
+	<type>String</type>
+</variable>
+
+<variable id="phv00081587.v1">
+	<name>CASE_CONTROL</name>
+	<description>Subject type</description>
+	<type>Encoded value</type>
+	<value code="ADP">AD Participant</value>
+	<value code="CASE">Case</value>
+	<value code="CCCS">Control with Change in Cognitive Status</value>
+	<value code="CNTL">Control</value>
+	<value code="FAM">Family member</value>
+	<value code="UASB">Unaffected Sibling</value>
+</variable>
+
+<variable id="phv00081588.v1">
+	<name>INV</name>
+	<description>Investigator&#39;s ID</description>
+	<type>String</type>
+</variable>
+
+<variable id="phv00081589.v1">
+	<name>INVSITE</name>
+	<description>Investigator site ID</description>
+	<type>String</type>
+</variable>
+
+<variable id="phv00081590.v1">
+	<name>VISIT</name>
+	<description>Visit name</description>
+	<type>String</type>
+</variable>
+
+<variable id="phv00081591.v1">
+	<name>VISIT_DATE</name>
+	<description>Visit date</description>
+	<type>Date</type>
+	<comment>Truncated to YYYY</comment>
+</variable>
+
+<variable id="phv00081592.v1">
+	<name>DIAGTX1</name>
+	<description>Other diagnosis - text1</description>
+	<type>String</type>
+</variable>
+
+<variable id="phv00081593.v1">
+	<name>DIAGTX2</name>
+	<description>Other diagnosis - text2</description>
+	<type>String</type>
+</variable>
+
+<variable id="phv00081594.v1">
+	<name>DIAGTX3</name>
+	<description>Other diagnosis - text3</description>
+	<type>String</type>
+</variable>
+
+<variable id="phv00081595.v1">
+	<name>ANX_SBHS</name>
+	<description>ANXIETY OR PANIC DISORDER: Subject History of disease</description>
+	<type>Encoded Value</type>
+	<value code="K">Don&#39;t Know</value>
+	<value code="N">No</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00081596.v1">
+	<name>ANX_FAMHS</name>
+	<description>ANXIETY OR PANIC DISORDER: Family History of disease</description>
+	<type>Encoded Value</type>
+	<value code="K">Don&#39;t Know</value>
+	<value code="N">No</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00081597.v1">
+	<name>ANX_FAMNO</name>
+	<description>ANXIETY OR PANIC DISORDER: Number of family members with history of disease</description>
+	<type>Integer</type>
+</variable>
+
+<variable id="phv00081598.v1">
+	<name>BPD_SBHS</name>
+	<description>MANIC DEPRESSION OR BIPOLAR DISORDER: Subject History of disease</description>
+	<type>Encoded Value</type>
+	<value code="K">Don&#39;t Know</value>
+	<value code="N">No</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00081599.v1">
+	<name>BPD_FAMHS</name>
+	<description>MANIC DEPRESSION OR BIPOLAR DISORDER: Family History of disease</description>
+	<type>Encoded Value</type>
+	<value code="K">Don&#39;t Know</value>
+	<value code="N">No</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00081600.v1">
+	<name>BPD_FAMNO</name>
+	<description>MANIC DEPRESSION OR BIPOLAR DISORDER: Number of family members with history of disease</description>
+	<type>Integer</type>
+</variable>
+
+<variable id="phv00081601.v1">
+	<name>BRCN_SBHS</name>
+	<description>BREAST CANCER: Subject History of disease</description>
+	<type>Encoded Value</type>
+	<value code="K">Don&#39;t Know</value>
+	<value code="N">No</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00081602.v1">
+	<name>BRCN_FAMHS</name>
+	<description>BREAST CANCER: Family History of disease</description>
+	<type>Encoded Value</type>
+	<value code="K">Don&#39;t Know</value>
+	<value code="N">No</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00081603.v1">
+	<name>BRCN_FAMNO</name>
+	<description>BREAST CANCER: Number of family members with history of disease</description>
+	<type>Integer</type>
+</variable>
+
+<variable id="phv00081604.v1">
+	<name>CC_SBHS</name>
+	<description>COLON CANCER: Subject History of disease</description>
+	<type>Encoded Value</type>
+	<value code="K">Don&#39;t Know</value>
+	<value code="N">No</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00081605.v1">
+	<name>CC_FAMHS</name>
+	<description>COLON CANCER: Family History of disease</description>
+	<type>Encoded Value</type>
+	<value code="K">Don&#39;t Know</value>
+	<value code="N">No</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00081606.v1">
+	<name>CC_FAMNO</name>
+	<description>COLON CANCER: Number of family members with history of disease</description>
+	<type>Integer</type>
+</variable>
+
+<variable id="phv00081607.v1">
+	<name>DLM_SBHS</name>
+	<description>DEPRESSION THAT NEEDS TREATMENT: Subject History of disease</description>
+	<type>Encoded Value</type>
+	<value code="K">Don&#39;t Know</value>
+	<value code="N">No</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00081608.v1">
+	<name>DLM_FAMHS</name>
+	<description>DEPRESSION THAT NEEDS TREATMENT: Family History of disease</description>
+	<type>Encoded Value</type>
+	<value code="K">Don&#39;t Know</value>
+	<value code="N">No</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00081609.v1">
+	<name>DLM_FAMNO</name>
+	<description>DEPRESSION THAT NEEDS TREATMENT: Number of family members with history of disease</description>
+	<type>Integer</type>
+</variable>
+
+<variable id="phv00081610.v1">
+	<name>DLMP_SBHS</name>
+	<description>DEPRESSION AFTER PREGNANCY (POST-PARTUM DEPRESSION): Subject History of disease</description>
+	<type>Encoded Value</type>
+	<value code="K">Don&#39;t Know</value>
+	<value code="N">No</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00081611.v1">
+	<name>DLMP_FAMHS</name>
+	<description>DEPRESSION AFTER PREGNANCY (POST-PARTUM DEPRESSION): Family History of disease</description>
+	<type>Encoded Value</type>
+	<value code="K">Don&#39;t Know</value>
+	<value code="N">No</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00081612.v1">
+	<name>DLMP_FAMNO</name>
+	<description>DEPRESSION AFTER PREGNANCY (POST-PARTUM DEPRESSION): Number of family members with history of disease</description>
+	<type>Integer</type>
+</variable>
+
+<variable id="phv00081613.v1">
+	<name>EPCV_SBHS</name>
+	<description>EPILEPSY OR CONVULSIONS: Subject History of disease</description>
+	<type>Encoded Value</type>
+	<value code="K">Don&#39;t Know</value>
+	<value code="N">No</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00081614.v1">
+	<name>EPCV_FAMHS</name>
+	<description>EPILEPSY OR CONVULSIONS: Family History of disease</description>
+	<type>Encoded Value</type>
+	<value code="K">Don&#39;t Know</value>
+	<value code="N">No</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00081615.v1">
+	<name>EPCV_FAMNO</name>
+	<description>EPILEPSY OR CONVULSIONS: Number of family members with history of disease</description>
+	<type>Integer</type>
+</variable>
+
+<variable id="phv00081616.v1">
+	<name>LCNR_SBHS</name>
+	<description>LUNG CANCER: Subject History of disease</description>
+	<type>Encoded Value</type>
+	<value code="K">Don&#39;t Know</value>
+	<value code="N">No</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00081617.v1">
+	<name>LCNR_FAMHS</name>
+	<description>LUNG CANCER: Family History of disease</description>
+	<type>Encoded Value</type>
+	<value code="K">Don&#39;t Know</value>
+	<value code="N">No</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00081618.v1">
+	<name>LCNR_FAMNO</name>
+	<description>LUNG CANCER: Number of family members with history of disease</description>
+	<type>Integer</type>
+</variable>
+
+<variable id="phv00081619.v1">
+	<name>MEML_SBHS</name>
+	<description>SEVERE MEMORY LOSS (LIKE ALZHEIMER&#39;S DISEASE): Subject History of disease</description>
+	<type>Encoded Value</type>
+	<value code="K">Don&#39;t Know</value>
+	<value code="N">No</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00081620.v1">
+	<name>MEML_FAMHS</name>
+	<description>SEVERE MEMORY LOSS (LIKE ALZHEIMER&#39;S DISEASE): Family History of disease</description>
+	<type>Encoded Value</type>
+	<value code="K">Don&#39;t Know</value>
+	<value code="N">No</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00081621.v1">
+	<name>MEML_FAMNO</name>
+	<description>SEVERE MEMORY LOSS (LIKE ALZHEIMER&#39;S DISEASE): Number of family members with history of disease</description>
+	<type>Integer</type>
+</variable>
+
+<variable id="phv00081622.v1">
+	<name>MGR_SBHS</name>
+	<description>MIGRAINE HEADACHES: Subject History of disease</description>
+	<type>Encoded Value</type>
+	<value code="K">Don&#39;t Know</value>
+	<value code="N">No</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00081623.v1">
+	<name>MGR_FAMHS</name>
+	<description>MIGRAINE HEADACHES: Family History of disease</description>
+	<type>Encoded Value</type>
+	<value code="K">Don&#39;t Know</value>
+	<value code="N">No</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00081624.v1">
+	<name>MGR_FAMNO</name>
+	<description>MIGRAINE HEADACHES: Number of family members with history of disease</description>
+	<type>Integer</type>
+</variable>
+
+<variable id="phv00081625.v1">
+	<name>MS_SBHS</name>
+	<description>MULTIPLE SCLEROSIS: Subject History of disease</description>
+	<type>Encoded Value</type>
+	<value code="K">Don&#39;t Know</value>
+	<value code="N">No</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00081626.v1">
+	<name>MS_FAMHS</name>
+	<description>MULTIPLE SCLEROSIS: Family History of disease</description>
+	<type>Encoded Value</type>
+	<value code="K">Don&#39;t Know</value>
+	<value code="N">No</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00081627.v1">
+	<name>MS_FAMNO</name>
+	<description>MULTIPLE SCLEROSIS: Number of family members with history of disease</description>
+	<type>Integer</type>
+</variable>
+
+<variable id="phv00081628.v1">
+	<name>OCB_SBHS</name>
+	<description>OBSESSIVE/COMPULSIVE DISORDER: Subject History of disease</description>
+	<type>Encoded Value</type>
+	<value code="K">Don&#39;t Know</value>
+	<value code="N">No</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00081629.v1">
+	<name>OCB_FAMHS</name>
+	<description>OBSESSIVE/COMPULSIVE DISORDER: Family History of disease</description>
+	<type>Encoded Value</type>
+	<value code="K">Don&#39;t Know</value>
+	<value code="N">No</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00081630.v1">
+	<name>OCB_FAMNO</name>
+	<description>OBSESSIVE/COMPULSIVE DISORDER: Number of family members with history of disease</description>
+	<type>Integer</type>
+</variable>
+
+<variable id="phv00081631.v1">
+	<name>PCNR_SBHS</name>
+	<description>PROSTATE CANCER: Subject History of disease</description>
+	<type>Encoded Value</type>
+	<value code="K">Don&#39;t Know</value>
+	<value code="N">No</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00081632.v1">
+	<name>PCNR_FAMHS</name>
+	<description>PROSTATE CANCER: Family History of disease</description>
+	<type>Encoded Value</type>
+	<value code="K">Don&#39;t Know</value>
+	<value code="N">No</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00081633.v1">
+	<name>PCNR_FAMNO</name>
+	<description>PROSTATE CANCER: Number of family members with history of disease</description>
+	<type>Integer</type>
+</variable>
+
+<variable id="phv00081634.v1">
+	<name>PD_SBHS</name>
+	<description>PARKINSON&#39;S DISEASE: Subject History of disease</description>
+	<type>Encoded Value</type>
+	<value code="K">Don&#39;t Know</value>
+	<value code="N">No</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00081635.v1">
+	<name>PD_FAMHS</name>
+	<description>PARKINSON&#39;S DISEASE: Family History of disease</description>
+	<type>Encoded Value</type>
+	<value code="K">Don&#39;t Know</value>
+	<value code="N">No</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00081636.v1">
+	<name>PD_FAMNO</name>
+	<description>PARKINSON&#39;S DISEASE: Number of family members with history of disease</description>
+	<type>Integer</type>
+</variable>
+
+<variable id="phv00081637.v1">
+	<name>PHN_SBHS</name>
+	<description>PAIN DUE TO VIRUS (POST HERPETIC NEURALGIA): Subject History of disease</description>
+	<type>Encoded Value</type>
+	<value code="K">Don&#39;t Know</value>
+	<value code="N">No</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00081638.v1">
+	<name>PHN_FAMHS</name>
+	<description>PAIN DUE TO VIRUS (POST HERPETIC NEURALGIA): Family History of disease</description>
+	<type>Encoded Value</type>
+	<value code="K">Don&#39;t Know</value>
+	<value code="N">No</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00081639.v1">
+	<name>PHN_FAMNO</name>
+	<description>PAIN DUE TO VIRUS (POST HERPETIC NEURALGIA): Number of family members with history of disease</description>
+	<type>Integer</type>
+</variable>
+
+<variable id="phv00081640.v1">
+	<name>PSOR_SBHS</name>
+	<description>PSORIASIS: Subject History of disease</description>
+	<type>Encoded Value</type>
+	<value code="K">Don&#39;t Know</value>
+	<value code="N">No</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00081641.v1">
+	<name>PSOR_FAMHS</name>
+	<description>PSORIASIS: Family History of disease</description>
+	<type>Encoded Value</type>
+	<value code="K">Don&#39;t Know</value>
+	<value code="N">No</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00081642.v1">
+	<name>PSOR_FAMNO</name>
+	<description>PSORIASIS: Number of family members with history of disease</description>
+	<type>Integer</type>
+</variable>
+
+<variable id="phv00081643.v1">
+	<name>SC_SBHS</name>
+	<description>STOMACH CANCER: Subject History of disease</description>
+	<type>Encoded Value</type>
+	<value code="K">Don&#39;t Know</value>
+	<value code="N">No</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00081644.v1">
+	<name>SC_FAMHS</name>
+	<description>STOMACH CANCER: Family History of disease</description>
+	<type>Encoded Value</type>
+	<value code="K">Don&#39;t Know</value>
+	<value code="N">No</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00081645.v1">
+	<name>SC_FAMNO</name>
+	<description>STOMACH CANCER: Number of family members with history of disease</description>
+	<type>Integer</type>
+</variable>
+
+<variable id="phv00081646.v1">
+	<name>SCH_SBHS</name>
+	<description>SCHIZOPHRENIA: Subject History of disease</description>
+	<type>Encoded Value</type>
+	<value code="K">Don&#39;t Know</value>
+	<value code="N">No</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00081647.v1">
+	<name>SCH_FAMHS</name>
+	<description>SCHIZOPHRENIA: Family History of disease</description>
+	<type>Encoded Value</type>
+	<value code="K">Don&#39;t Know</value>
+	<value code="N">No</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00081648.v1">
+	<name>SCH_FAMNO</name>
+	<description>SCHIZOPHRENIA: Number of family members with history of disease</description>
+	<type>Integer</type>
+</variable>
+
+<variable id="phv00081649.v1">
+	<name>UC_SBHS</name>
+	<description>UTERUS CANCER: Subject History of disease</description>
+	<type>Encoded Value</type>
+	<value code="K">Don&#39;t Know</value>
+	<value code="N">No</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00081650.v1">
+	<name>UC_FAMHS</name>
+	<description>UTERUS CANCER: Family History of disease</description>
+	<type>Encoded Value</type>
+	<value code="K">Don&#39;t Know</value>
+	<value code="N">No</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00081651.v1">
+	<name>UC_FAMNO</name>
+	<description>UTERUS CANCER: Number of family members with history of disease</description>
+	<type>Integer</type>
+</variable>
+
+<variable id="phv00081652.v1">
+	<name>X1_SBHS</name>
+	<description>OTHER1: Subject History of disease</description>
+	<type>Encoded Value</type>
+	<value code="K">Don&#39;t Know</value>
+	<value code="N">No</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00081653.v1">
+	<name>X1_FAMHS</name>
+	<description>OTHER1: Family History of disease</description>
+	<type>Encoded Value</type>
+	<value code="K">Don&#39;t Know</value>
+	<value code="N">No</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00081654.v1">
+	<name>X1_FAMNO</name>
+	<description>OTHER1: Number of family members with history of disease</description>
+	<type>Integer</type>
+</variable>
+
+<variable id="phv00081655.v1">
+	<name>X2_SBHS</name>
+	<description>OTHER2: Subject History of disease</description>
+	<type>Encoded Value</type>
+	<value code="K">Don&#39;t Know</value>
+	<value code="N">No</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00081656.v1">
+	<name>X2_FAMHS</name>
+	<description>OTHER2: Family History of disease</description>
+	<type>Encoded Value</type>
+	<value code="K">Don&#39;t Know</value>
+	<value code="N">No</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00081657.v1">
+	<name>X2_FAMNO</name>
+	<description>OTHER2: Number of family members with history of disease</description>
+	<type>Integer</type>
+</variable>
+
+<variable id="phv00081658.v1">
+	<name>X3_SBHS</name>
+	<description>OTHER3: Subject History of disease</description>
+	<type>Encoded Value</type>
+	<value code="K">Don&#39;t Know</value>
+	<value code="N">No</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00081659.v1">
+	<name>X3_FAMHS</name>
+	<description>OTHER3: Family History of disease</description>
+	<type>Encoded Value</type>
+	<value code="K">Don&#39;t Know</value>
+	<value code="N">No</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00081660.v1">
+	<name>X3_FAMNO</name>
+	<description>OTHER3: Number of family members with history of disease</description>
+	<type>Integer</type>
+</variable>
+
+</data_table>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./datadict_v2.xsl"?>
+<data_table id="pht000142.v4" study_id="phs000055.v7" participant_set="4" date_created="Fri Sep 25 16:40:41 2009">
+
+<variable id="phv00023171.v4">
+	<name>IDTYPE</name>
+	<description>Framingham Cohort Identifier</description>
+	<type>encoded</type>
+	<coll_interval>Reviewed through 2008</coll_interval>
+	<value code="0">Original cohort</value>
+	<value code="1">Offspring cohort</value>
+	<value code="2">New offspring spouse cohort</value>
+	<value code="3">Generation 3 cohort</value>
+</variable>
+
+<variable id="phv00036342.v3">
+	<name>afirhythm</name>
+	<description>Type of rhythm</description>
+	<type>encoded</type>
+	<coll_interval>Reviewed through 2008</coll_interval>
+	<value code="1">Atrial Fibrillation</value>
+	<value code="2">Atrial Flutter</value>
+	<value code="3">Atrial Fibrillation/Flutter</value>
+</variable>
+
+<variable id="phv00023172.v4">
+	<name>afidate</name>
+	<description>Date of initial AF</description>
+	<type>integer, encoded</type>
+	<unit>days</unit>
+	<logical_min>-8271</logical_min>
+	<logical_max>21382</logical_max>
+	<coll_interval>Reviewed through 2008</coll_interval>
+	<comment>Number of days since Exam 1</comment>
+	<value code=".">Unknown</value>
+</variable>
+
+<variable id="phv00023173.v4">
+	<name>shareid</name>
+	<description>SHARE ID Number</description>
+	<type>integer</type>
+	<coll_interval>Reviewed through 2008</coll_interval>
+</variable>
+
+</data_table>

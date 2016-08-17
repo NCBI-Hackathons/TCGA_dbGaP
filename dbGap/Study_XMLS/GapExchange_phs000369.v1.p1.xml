@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GaPExchange xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="dbGaPEx2.1.5.xsd">
+
+<MetaVariables>
+	<Submitter/>
+	<Method/>
+</MetaVariables>
+<MetaLinks/>
+
+<Projects>
+	<Project/>
+</Projects>
+
+<Studies>
+
+<Study source="dbGaP" accession="phs000369.v1.p1" parentStudy="phs000369.v1.p1" createDate="2011-06-21" modDate="2011-06-21">
+
+<Configuration>
+	<Data_Provider><![CDATA[
+		<table border="1">
+		<tr><th>Title</th><th>Name</th><th>Institute</th></tr>
+		<tr><td>Principal Investigators</td><td>Todd Golub</td><td>Broad Institute, Cambridge, MA and Dana Farber Cancer Institute, Boston, MA, USA</td></tr>
+		<tr><td>Principal Investigators</td><td>Matthew Meyerson</td><td>Broad Institute, Cambridge, MA and Dana Farber Cancer Institute, Boston, MA, USA</td></tr>
+		<tr><td>Funding Source</td><td>Slim Initiative for Genomic Medicine</td><td>Carlos Slim Health Institute, Mexico City, Mexico</td></tr>
+		</table>
+	]]></Data_Provider>
+	<StudyNameEntrez>Sequence Analysis of Mutations and Translocations Across Breast Cancer Subtypes</StudyNameEntrez>
+	<StudyNameReportPage>Sequence Analysis of Mutations and Translocations Across Breast Cancer Subtypes</StudyNameReportPage>
+	<StudyTypes>
+		<StudyType>Case Set</StudyType>
+		<StudyType>Tumor vs. Matched-Normal</StudyType>
+		<StudyType>Exome Sequencing</StudyType>
+	</StudyTypes>
+	<Description><![CDATA[
+<p>This study combined whole exome (103 samples) and whole genome (22 samples) sequencing over a total of 108 breast tumors and     matched normal DNA to identify novel mutations and translocations.  Samples were subjected to paired-end Illumina sequencing     with goal of 30x coverage of tumor/normal for whole genomes and 100x tumor/normal coverage for whole exomes.  From these     sequences, we used various computational techniques to identify somatic point mutations, insertion/deletions and structural     rearrangements in these tumors.  From these data, we identified new insights into the rates of background mutations in these     cancers, novel recurrent mutated genes, and multiple gene rearrangements.  One of these rearrangements appears to be a     recurrent event in breast cancer.</p>]]>
+	</Description>
+	<StudyProjects>
+		<Project/>
+	</StudyProjects>
+	<Publications>
+		<Publication>
+			<Journal authors="Shantanu Banerji, Kristian Cibulskis, Claudia Rangel-Escareno, Lihua Zou, Abbie M. Frederick, Michael S. Lawrence, Andrey Y. Sivachenko, Carrie Sougnez, Maria L. Cortes, Juan C. Fernandez-Lopez, Shouyong Peng, Kristin G. Ardlie, Daniel Auclair, Veronica Bautista-Pi&#241;a, Scott L. Carter, Joshua Francis, Antonio Maffuz-Aziz, Robert C. Onofrio, Melissa Parkin, Nam Pho, Valeria Quintanar-Jurado, Alex H. Ramos, Rosa Rebollar-Vega, Sergio Rodriguez-Cuevas, Sandra L. Romero-Cordoba, Steven E. Schumacher, Nicolas Stransky, Kristin M. Thompson, Laura Uribe-Figueroa, Jose Baselga, Rameen Beroukhim,, Kornelia Polyak, Dennis C. Sgroi, Andrea L. Richardson,, Gerardo Jimenez-Sanchez, Eric S. Lander, Stacey B. Gabriel, Levi A. Garraway, Todd R. Golub, Jorge Melendez-Zajgla, Gad Getz, Alfredo Hidalgo-Miranda, and Matthew Meyerson" title="Sequence analysis of mutations and translocations across breast cancer subtypes" journal="Nature, In Review"/>
+		</Publication>
+	</Publications>
+	<Diseases>
+		<Disease vocab_source="MESH" vocab_term="Carcinoma, Ductal, Breast"/>
+	</Diseases>
+	<Attributions>
+		<Header title="Principal Investigators">
+			<AttName>Todd Golub</AttName>
+			<Institution>Broad Institute, Cambridge, MA and Dana Farber Cancer Institute, Boston, MA, USA</Institution>
+		</Header>
+		<Header title="Principal Investigators">
+			<AttName>Matthew Meyerson</AttName>
+			<Institution>Broad Institute, Cambridge, MA and Dana Farber Cancer Institute, Boston, MA, USA</Institution>
+		</Header>
+		<Header title="Funding Source">
+			<AttName>Slim Initiative for Genomic Medicine</AttName>
+			<Institution>Carlos Slim Health Institute, Mexico City, Mexico</Institution>
+		</Header>
+	</Attributions>
+	<DisplayPublicSummary>yes</DisplayPublicSummary>
+	<ConsentGroups>
+		<ConsentGroup groupNum="1" shortName="GRU" longName="General Research Use"/>
+		<ConsentGroup groupNum="2" shortName="CRGM" longName="Cancer Research and General Methods"/>
+	</ConsentGroups>
+</Configuration>
+
+  <AuthorizedAccess>
+    <DacInfo ssDacId="0">
+      <DacName>eNCI DAC</DacName>
+      <DacFullName>Extramural NCI Data Access Committee</DacFullName>
+      <DacEmail>ncidac@mail.nih.gov</DacEmail>
+      <DacPhone></DacPhone>
+      <DacFax>301-435-5477</DacFax>
+      <DacUrl>http://grants.nih.gov/grants/gwas</DacUrl>
+    </DacInfo>
+    <Policy Policy_ID="phs000369.v1.p1_policy" ref_ssDacId="0">
+      <DisplayResearchStatement>yes</DisplayResearchStatement>
+      <DisplayPublicSummary>yes</DisplayPublicSummary>
+      <EmbargoLength>0</EmbargoLength>
+      <YearsUntilRenewal>1</YearsUntilRenewal>
+      <WeeksCancelRequest>8</WeeksCancelRequest>
+      <PdfSupplementReqired>no</PdfSupplementReqired>
+      <AcknowledgementText>
+        <para>
+          http://dbgap.ncbi.nlm.nih.gov/aa/wga.cgi?page=DUC&amp;view_pdf&amp;stacc=phs000369.v1.p1
+        </para>
+      </AcknowledgementText>
+      <DocumentSet>
+        <DataUseCertificate Label="Data Use Certificate" FilePath="https://dbgap.ncbi.nlm.nih.gov/aa/wga.cgi?page=DUC&amp;view_pdf&amp;stacc=phs000369.v1.p1" FileName="DUC-Genomic_Sequencing_of_Breast_Carcinoma-Updated_6.21.2011.pdf"/>
+      </DocumentSet>
+    </Policy>
+    <ConsentGroups>
+      <ParticipantSet groupNum-REF="1">
+        <ConsentName>General Research Use</ConsentName>
+        <ConsentAbbrev>GRU</ConsentAbbrev>
+        <UseLimitation>Use of the dataset is limited to research purposes only.</UseLimitation>
+        <IrbRequired>No</IrbRequired>
+      </ParticipantSet>
+      <ParticipantSet groupNum-REF="2">
+        <ConsentName>Cancer Research and General Methods</ConsentName>
+        <ConsentAbbrev>CRGM</ConsentAbbrev>
+        <UseLimitation>Use of the data is limited to scientific research relevant to the etiology, prevention, treatment, and late complications of treatment of cancer and for the development of applications proposing analytical methods, software, or other research tools.</UseLimitation>
+        <IrbRequired>No</IrbRequired>
+      </ParticipantSet>
+    </ConsentGroups>
+  </AuthorizedAccess>
+
+
+</Study>
+
+</Studies>
+
+</GaPExchange>

@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./datadict_v2.xsl"?>
+<data_table id="pht000227.v1" study_id="phs000086.v2" participant_set="1" date_created="Wed Feb  3 09:15:37 2010">
+
+<variable id="phv00027212.v1">
+	<name>D_PUMP</name>
+	<description>Number of days on pump</description>
+	<type>int</type>
+	<unit>DAYS/PUMP</unit>
+</variable>
+
+<variable id="phv00027213.v1">
+	<name>D_MDI</name>
+	<description>Number of days on MDI</description>
+	<type>int</type>
+	<unit>DAYS/MDI</unit>
+</variable>
+
+<variable id="phv00027214.v1">
+	<name>D_STD</name>
+	<description>Number of days on standard treatment</description>
+	<type>int</type>
+	<unit>DAYS/STANDARD</unit>
+</variable>
+
+<variable id="phv00027215.v1">
+	<name>EV_PUMP</name>
+	<description>Number of infections while on pump</description>
+	<type>byte</type>
+	<unit>INFECTIONS/PUMP</unit>
+</variable>
+
+<variable id="phv00027216.v1">
+	<name>EV_MDI</name>
+	<description>Number of infections while on MDI</description>
+	<type>byte</type>
+	<unit>INFECTIONS/MDI</unit>
+</variable>
+
+<variable id="phv00027217.v1">
+	<name>EV_STD</name>
+	<description>Number of infections while on standard treatment</description>
+	<type>byte</type>
+	<unit>INFECTIONS/STANDARD</unit>
+</variable>
+
+<variable id="phv00027218.v1">
+	<name>GROUP</name>
+	<description>Randomization group</description>
+	<type>str12</type>
+	<value code="EXPERIMENTAL">INTENSIVE TREATMENT</value>
+	<value code="STANDARD">CONVENTIONAL TREATMENT</value>
+</variable>
+
+<variable id="phv00027219.v1">
+	<name>REG_MIX</name>
+	<description>Indicator of treatment mode (1=pump, 2=mdi, 3=std, 4=mix)</description>
+	<type>byte</type>
+	<value code="1">PUMP</value>
+	<value code="2">MDI</value>
+	<value code="3">STD</value>
+	<value code="4">MIX</value>
+</variable>
+
+<variable id="phv00027220.v1">
+	<name>R_PUMP</name>
+	<description>Event rate while on pump</description>
+	<type>float</type>
+	<unit>EVENTS ON PUMP</unit>
+</variable>
+
+<variable id="phv00027221.v1">
+	<name>R_MDI</name>
+	<description>Event rate while on MDI</description>
+	<type>float</type>
+	<unit>EVENTS ON MDI</unit>
+</variable>
+
+<variable id="phv00027222.v1">
+	<name>R_STD</name>
+	<description>Event rate while on standard treatment</description>
+	<type>float</type>
+	<unit>EVENTS ON STANDARD</unit>
+</variable>
+
+<variable id="phv00027223.v1">
+	<name>TDAY</name>
+	<description>Days on total combined regiments</description>
+	<type>int</type>
+	<unit>DAYS</unit>
+</variable>
+
+<variable id="phv00027224.v1">
+	<name>TEVENT</name>
+	<description>Sum of events for total combined regimen</description>
+	<type>byte</type>
+	<unit>EVENTS</unit>
+</variable>
+
+<variable id="phv00027225.v1">
+	<name>I_PUMP</name>
+	<description>Indicator - events occurred while on pump</description>
+	<type>byte</type>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00027226.v1">
+	<name>I_MDI</name>
+	<description>Indicator - events occurred while on MDI</description>
+	<type>byte</type>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00027227.v1">
+	<name>I_STD</name>
+	<description>Indicator - events occurred while on standard treatment</description>
+	<type>byte</type>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00027228.v1">
+	<name>AWPUMP</name>
+	<description>Indicator - always on pump</description>
+	<type>byte</type>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00027229.v1">
+	<name>AWMDI</name>
+	<description>Indicator - always on MDI</description>
+	<type>byte</type>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00027230.v1">
+	<name>AWSTD</name>
+	<description>Indicator - always on standard treatment</description>
+	<type>byte</type>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00027231.v1">
+	<name>AYPUMP</name>
+	<description>Indicator - any time on pump</description>
+	<type>byte</type>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00027232.v1">
+	<name>AYMDI</name>
+	<description>Indicator - any time on MDI</description>
+	<type>byte</type>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00027233.v1">
+	<name>AYSTD</name>
+	<description>Indicator - any time on standard treatment</description>
+	<type>byte</type>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00027234.v1">
+	<name>MASK_PAT</name>
+	<description>Patient ID number</description>
+	<type>int</type>
+</variable>
+
+</data_table>

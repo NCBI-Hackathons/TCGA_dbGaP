@@ -1,0 +1,3372 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./datadict_v2.xsl"?>
+<data_table id="pht000114.v1" study_id="phs000090.v1" participant_set="1" date_created="Thu Dec 17 21:55:19 2009">
+
+<variable id="phv00022795.v1">
+	<name>geneva_id</name>
+	<description>De-identified participant ID</description>
+	<type>continuous integer</type>
+	<comment><![CDATA[Variable created specifically for <a href="http://www.genevastudy.org//">GENEVA</a>.]]></comment>
+</variable>
+
+<variable id="phv00022796.v1">
+	<name>tcal</name>
+	<description><![CDATA[Daily <a href="http://www.ncbi.nlm.nih.gov/sites/entrez?Db=mesh&Cmd=DetailsSearch&Term=%22energy+intake%22%5BMeSH+Terms%5D+OR+energy+intake%5BText+Word%5D">energy intake</a> (kcal)]]></description>
+	<type>continuous decimal</type>
+	<unit>kcal</unit>
+	<logical_min>500.59</logical_min>
+	<logical_max>4191.56</logical_max>
+</variable>
+
+<variable id="phv00022797.v1">
+	<name>prot</name>
+	<description><![CDATA[<a href="http://www.ncbi.nlm.nih.gov/mesh/68011506?ordinalpos=2&itool=EntrezSystem2.PEntrez.Mesh.Mesh_ResultsPanel.Mesh_RVDocSum">Protein</a> (g) [daily nutrient intake]]]></description>
+	<type>continuous decimal</type>
+	<unit>g</unit>
+	<logical_min>13.33</logical_min>
+	<logical_max>267.84</logical_max>
+</variable>
+
+<variable id="phv00022798.v1">
+	<name>tfat</name>
+	<description>Total fat (g)</description>
+	<type>continuous decimal</type>
+	<unit>g</unit>
+	<logical_min>5.41</logical_min>
+	<logical_max>235.12</logical_max>
+</variable>
+
+<variable id="phv00022799.v1">
+	<name>carb</name>
+	<description><![CDATA[<a href="http://www.ncbi.nlm.nih.gov/mesh/68002241?ordinalpos=1&itool=EntrezSystem2.PEntrez.Mesh.Mesh_ResultsPanel.Mesh_RVDocSum">Carbohydrate</a> (g), [daily nutrient intake]]]></description>
+	<type>continuous decimal</type>
+	<unit>g</unit>
+	<logical_min>20.95</logical_min>
+	<logical_max>748.03</logical_max>
+</variable>
+
+<variable id="phv00022800.v1">
+	<name>dfib</name>
+	<description>Dietary fiber (g) [daily nutrient intake]</description>
+	<type>continuous decimal</type>
+	<unit>g</unit>
+	<logical_min>0.78</logical_min>
+	<logical_max>92.48</logical_max>
+</variable>
+
+<variable id="phv00022801.v1">
+	<name>calc</name>
+	<description><![CDATA[<a href="http://www.ncbi.nlm.nih.gov/mesh/68002118?ordinalpos=1&itool=EntrezSystem2.PEntrez.Mesh.Mesh_ResultsPanel.Mesh_RVDocSum">Calcium</a> (mg), [daily nutrient intake]]]></description>
+	<type>continuous decimal</type>
+	<unit>mg</unit>
+	<logical_min>76.29</logical_min>
+	<logical_max>3961.7</logical_max>
+</variable>
+
+<variable id="phv00022802.v1">
+	<name>magn</name>
+	<description><![CDATA[<a href="http://www.ncbi.nlm.nih.gov/mesh/68008274?ordinalpos=1&itool=EntrezSystem2.PEntrez.Mesh.Mesh_ResultsPanel.Mesh_RVDocSum">Magnesium</a> (mg)]]></description>
+	<type>continuous decimal</type>
+	<unit>mg</unit>
+	<logical_min>31.27</logical_min>
+	<logical_max>863.86</logical_max>
+</variable>
+
+<variable id="phv00022803.v1">
+	<name>pota</name>
+	<description><![CDATA[<a href="http://www.ncbi.nlm.nih.gov/mesh/68011188?ordinalpos=1&itool=EntrezSystem2.PEntrez.Mesh.Mesh_ResultsPanel.Mesh_RVDocSum">Potassium</a> (mg) [daily nutrient intake]]]></description>
+	<type>continuous decimal</type>
+	<unit>mg</unit>
+	<logical_min>409.41</logical_min>
+	<logical_max>9097.44</logical_max>
+</variable>
+
+<variable id="phv00022804.v1">
+	<name>sfat</name>
+	<description><![CDATA[<a href="http://www.ncbi.nlm.nih.gov/sites/entrez?Db=mesh&Cmd=DetailsSearch&Term=%22fatty+acids%22%5BMeSH+Terms%5D">Saturated fatty acid</a> (g) [daily nutrient intake]]]></description>
+	<type>continuous decimal</type>
+	<unit>g</unit>
+	<logical_min>1.18</logical_min>
+	<logical_max>89.6</logical_max>
+</variable>
+
+<variable id="phv00022805.v1">
+	<name>mfat</name>
+	<description><![CDATA[<a href="http://www.ncbi.nlm.nih.gov/sites/entrez?Db=mesh&Cmd=DetailsSearch&Term=%22fatty+acids,+monounsaturated%22%5BMeSH+Terms%5D">Monounsaturated fatty acid</a> (g)]]></description>
+	<type>continuous decimal</type>
+	<unit>g</unit>
+	<logical_min>1.04</logical_min>
+	<logical_max>98.08</logical_max>
+</variable>
+
+<variable id="phv00022806.v1">
+	<name>pfat</name>
+	<description>Polyunsaturated fatty acid (g) [daily nutrient intake]</description>
+	<type>continuous decimal</type>
+	<unit>g</unit>
+	<logical_min>1.32</logical_min>
+	<logical_max>58</logical_max>
+</variable>
+
+<variable id="phv00022807.v1">
+	<name>p_tfat</name>
+	<description>Total fat (%kcal) [percentages of daily total energy intake from total fat]</description>
+	<type>continuous decimal</type>
+	<unit>%kcal</unit>
+	<logical_min>5.86</logical_min>
+	<logical_max>62.62</logical_max>
+</variable>
+
+<variable id="phv00022808.v1">
+	<name>p_mfat</name>
+	<description><![CDATA[<a href="http://www.ncbi.nlm.nih.gov/sites/entrez?Db=mesh&Cmd=DetailsSearch&Term=%22fatty+acids,+monounsaturated%22%5BMeSH+Terms%5D">Monounsaturated fatty acid</a> (%kcal) [percentages of daily total energy intake from monounsaturated fat]]]></description>
+	<type>continuous decimal</type>
+	<unit>%kcal</unit>
+	<logical_min>1.13</logical_min>
+	<logical_max>27.24</logical_max>
+</variable>
+
+<variable id="phv00022809.v1">
+	<name>p_pfat</name>
+	<description>Polyunsaturated fatty acid (%kcal) [percentages of daily total energy intake from polyunsaturated fat]</description>
+	<type>continuous decimal</type>
+	<unit>%kcal</unit>
+	<logical_min>0.84</logical_min>
+	<logical_max>16.26</logical_max>
+</variable>
+
+<variable id="phv00022810.v1">
+	<name>p_prot</name>
+	<description><![CDATA[<a href="http://www.ncbi.nlm.nih.gov/mesh/68011506?ordinalpos=2&itool=EntrezSystem2.PEntrez.Mesh.Mesh_ResultsPanel.Mesh_RVDocSum">Protein</a> (%kcal) [percentages of daily total energy intake from protein]]]></description>
+	<type>continuous decimal</type>
+	<unit>%kcal</unit>
+	<logical_min>3.95</logical_min>
+	<logical_max>48.83</logical_max>
+</variable>
+
+<variable id="phv00022811.v1">
+	<name>p_carb</name>
+	<description><![CDATA[<a href="http://www.ncbi.nlm.nih.gov/mesh/68002241?ordinalpos=1&itool=EntrezSystem2.PEntrez.Mesh.Mesh_ResultsPanel.Mesh_RVDocSum">Carbohydrate</a> (%kcal) [percentages of daily total energy intake from carbohydrate]]]></description>
+	<type>continuous decimal</type>
+	<unit>%kcal</unit>
+	<logical_min>6.87</logical_min>
+	<logical_max>94.99</logical_max>
+</variable>
+
+<variable id="phv00022812.v1">
+	<name>p_sfat</name>
+	<description><![CDATA[<a href="http://www.ncbi.nlm.nih.gov/sites/entrez?Db=mesh&Cmd=DetailsSearch&Term=%22fatty+acids%22%5BMeSH+Terms%5D">Saturated fatty acid</a> (%kcal) [percentages of daily total energy intake from saturated fat]]]></description>
+	<type>continuous decimal</type>
+	<unit>%kcal</unit>
+	<logical_min>1.28</logical_min>
+	<logical_max>29.03</logical_max>
+</variable>
+
+<variable id="phv00022813.v1">
+	<name>keys</name>
+	<description>Keys score</description>
+	<type>continuous decimal</type>
+	<logical_min>4.52</logical_min>
+	<logical_max>85.83</logical_max>
+</variable>
+
+<variable id="phv00022814.v1">
+	<name>cigt01</name>
+	<description><![CDATA[Cigarette <a href="http://www.ncbi.nlm.nih.gov/mesh/68012907?ordinalpos=1&itool=EntrezSystem2.PEntrez.Mesh.Mesh_ResultsPanel.Mesh_RVDocSum">smoking</a> status at visit 1]]></description>
+	<type>enumerated integer</type>
+	<logical_min>1</logical_min>
+	<logical_max>4</logical_max>
+	<value code="1">Current smoker</value>
+	<value code="2">Former smoker</value>
+	<value code="3">Never smoker</value>
+	<value code="4">Unknown, but one of the other 3 categories may be ruled out</value>
+</variable>
+
+<variable id="phv00022815.v1">
+	<name>cigtyr01</name>
+	<description><![CDATA[Cigarette years of <a href="http://www.ncbi.nlm.nih.gov/mesh/68012907?ordinalpos=1&itool=EntrezSystem2.PEntrez.Mesh.Mesh_ResultsPanel.Mesh_RVDocSum">smoking</a> (average number of cigarettes per day, times the number of years smoked) at visit 1]]></description>
+	<type>continuous integer</type>
+	<unit>Cigarette/years</unit>
+	<logical_min>0</logical_min>
+	<logical_max>3960</logical_max>
+</variable>
+
+<variable id="phv00022816.v1">
+	<name>cursmk01</name>
+	<description>Current cigarette smoker at visit 1</description>
+	<type>enumerated integer</type>
+	<value code="1">Yes</value>
+	<value code="0">No</value>
+</variable>
+
+<variable id="phv00022817.v1">
+	<name>forsmk01</name>
+	<description>Former cigarette smoker at visit 1</description>
+	<type>enumerated integer</type>
+	<value code="1">Yes</value>
+	<value code="0">No</value>
+</variable>
+
+<variable id="phv00022818.v1">
+	<name>evrsmk01</name>
+	<description>Ever smoked cigarettes at visit 1</description>
+	<type>enumerated integer</type>
+	<value code="1">Yes</value>
+	<value code="0">No</value>
+</variable>
+
+<variable id="phv00022819.v1">
+	<name>work_i02</name>
+	<description>Physical activity at work index, definition 2</description>
+	<type>continuous decimal</type>
+	<logical_min>1</logical_min>
+	<logical_max>4.87</logical_max>
+</variable>
+
+<variable id="phv00022820.v1">
+	<name>sprt_i02</name>
+	<description><![CDATA[Sport <a href="http://www.ncbi.nlm.nih.gov/sites/entrez?Db=mesh&Cmd=DetailsSearch&Term=%22motor+activity%22%5BMeSH+Terms%5D+OR+physical+activity%5BText+Word%5D">physical activity</a> index, definition 2]]></description>
+	<type>enumerated integer</type>
+	<logical_min>1</logical_min>
+	<logical_max>5</logical_max>
+</variable>
+
+<variable id="phv00022821.v1">
+	<name>lisr_i01</name>
+	<description><![CDATA[Leisure <a href="http://www.ncbi.nlm.nih.gov/sites/entrez?Db=mesh&Cmd=DetailsSearch&Term=%22motor+activity%22%5BMeSH+Terms%5D+OR+physical+activity%5BText+Word%5D">physical activity</a> index]]></description>
+	<type>continuous decimal</type>
+	<logical_min>1</logical_min>
+	<logical_max>4.5</logical_max>
+	<comment>Measured on fasting samples</comment>
+</variable>
+
+<variable id="phv00022822.v1">
+	<name>bmi01</name>
+	<description><![CDATA[<a href="http://www.ncbi.nlm.nih.gov/sites/entrez?Db=mesh&Cmd=DetailsSearch&Term=%22body+mass+index%22%5BMeSH+Terms%5D+OR+Body+mass+index%5BText+Word%5D">Body mass index</a> in kg/(m*m) at visit 1]]></description>
+	<type>continuous decimal</type>
+	<unit>kg/(m*m)</unit>
+	<logical_min>14.2</logical_min>
+	<logical_max>60.62</logical_max>
+</variable>
+
+<variable id="phv00022823.v1">
+	<name>sit_ht01</name>
+	<description>Sitting height in cm at visit 1</description>
+	<type>continuous integer</type>
+	<unit>cm</unit>
+	<logical_min>67</logical_min>
+	<logical_max>141</logical_max>
+</variable>
+
+<variable id="phv00022824.v1">
+	<name>mntrcp01</name>
+	<description>Mean triceps skinfold in mm at visit 1</description>
+	<type>continuous decimal</type>
+	<unit>mm</unit>
+	<logical_min>2.5</logical_min>
+	<logical_max>67</logical_max>
+</variable>
+
+<variable id="phv00022825.v1">
+	<name>mnsscp01</name>
+	<description><![CDATA[Mean <a href="http://www.ncbi.nlm.nih.gov/mesh/68012885?ordinalpos=1&itool=EntrezSystem2.PEntrez.Mesh.Mesh_ResultsPanel.Mesh_RVDocSum">subscapular skinfold</a> in mm at visit 1]]></description>
+	<type>continuous decimal</type>
+	<unit>mm</unit>
+	<logical_min>3.5</logical_min>
+	<logical_max>67</logical_max>
+</variable>
+
+<variable id="phv00022826.v1">
+	<name>anta01</name>
+	<description><![CDATA[Standing <a href="http://www.ncbi.nlm.nih.gov/mesh/68001827?ordinalpos=1&itool=EntrezSystem2.PEntrez.Mesh.Mesh_ResultsPanel.Mesh_RVDocSum">height</a> to nearest cm at visit 1]]></description>
+	<type>continuous integer</type>
+	<unit>cm</unit>
+	<logical_min>125</logical_min>
+	<logical_max>199</logical_max>
+</variable>
+
+<variable id="phv00022827.v1">
+	<name>anta04</name>
+	<description><![CDATA[<a href="http://www.ncbi.nlm.nih.gov/mesh/68001835?ordinalpos=16&itool=EntrezSystem2.PEntrez.Mesh.Mesh_ResultsPanel.Mesh_RVDocSum">Weight</a> to the nearest lb at visit 1]]></description>
+	<type>continuous integer</type>
+	<unit>lb</unit>
+	<logical_min>80</logical_min>
+	<logical_max>401</logical_max>
+</variable>
+
+<variable id="phv00022828.v1">
+	<name>anta07a</name>
+	<description>Waist girth to nearest cm at visit 1</description>
+	<type>continuous integer</type>
+	<unit>cm</unit>
+	<logical_min>52</logical_min>
+	<logical_max>178</logical_max>
+</variable>
+
+<variable id="phv00022829.v1">
+	<name>anta07b</name>
+	<description><![CDATA[<a href="http://www.ncbi.nlm.nih.gov/mesh/68006615?ordinalpos=1&itool=EntrezSystem2.PEntrez.Mesh.Mesh_ResultsPanel.Mesh_RVDocSum">Hip</a> girth to nearest cm at visit 1]]></description>
+	<type>continuous integer</type>
+	<unit>cm</unit>
+	<logical_min>56</logical_min>
+	<logical_max>192</logical_max>
+</variable>
+
+<variable id="phv00022830.v1">
+	<name>anta07c</name>
+	<description>Calf girth to nearest cm at visit 1</description>
+	<type>continuous integer</type>
+	<unit>cm</unit>
+	<logical_min>24</logical_min>
+	<logical_max>60</logical_max>
+</variable>
+
+<variable id="phv00022831.v1">
+	<name>anta08</name>
+	<description>Wrist breadth to the nearest mm at visit 1</description>
+	<type>continuous integer</type>
+	<unit>mm</unit>
+	<logical_min>29</logical_min>
+	<logical_max>72</logical_max>
+</variable>
+
+<variable id="phv00022832.v1">
+	<name>prvchd05</name>
+	<description><![CDATA[Prevalent <a href="http://www.ncbi.nlm.nih.gov/sites/entrez?Db=mesh&Cmd=DetailsSearch&Term=%22coronary+disease%22%5BMeSH+Terms%5D+OR+coronary+heart+disease%5BText+Word%5D">coronary heart disease</a> at baseline at baseline]]></description>
+	<type>enumerated integer</type>
+	<value code="1">Yes</value>
+	<value code="0">No</value>
+</variable>
+
+<variable id="phv00022833.v1">
+	<name>racegrp</name>
+	<description>Race</description>
+	<type>text</type>
+	<value code="B">African American</value>
+	<value code="W">White</value>
+</variable>
+
+<variable id="phv00022834.v1">
+	<name>gender</name>
+	<description>Sex</description>
+	<type>text</type>
+	<value code="M">Male</value>
+	<value code="F">Female</value>
+</variable>
+
+<variable id="phv00022835.v1">
+	<name>v1age01</name>
+	<description>Age at visit 1</description>
+	<type>continuous integer</type>
+	<unit>Years</unit>
+	<logical_min>44</logical_min>
+	<logical_max>66</logical_max>
+</variable>
+
+<variable id="phv00022836.v1">
+	<name>drnkr01</name>
+	<description>Drinker status at visit 1</description>
+	<type>enumerated integer</type>
+	<value code="1">Current drinker</value>
+	<value code="2">Former drinker</value>
+	<value code="3">Never drinker</value>
+	<value code="4">Unknown</value>
+</variable>
+
+<variable id="phv00022837.v1">
+	<name>ethanl03</name>
+	<description>Usual ethanol intake in grams/week at visit 1</description>
+	<type>continuous decimal</type>
+	<unit>g/week</unit>
+	<logical_min>0</logical_min>
+	<logical_max>1494.9</logical_max>
+</variable>
+
+<variable id="phv00022838.v1">
+	<name>hypert05</name>
+	<description><![CDATA[<a href="http://www.ncbi.nlm.nih.gov/mesh/68006973?ordinalpos=1&itool=EntrezSystem2.PEntrez.Mesh.Mesh_ResultsPanel.Mesh_RVDocSum">Hypertension</a>, definition 5 at visit 1]]></description>
+	<type>enumerated integer</type>
+	<value code="1">Systolic blood pressure &gt;=140 or diastolic blood pressure &gt;=90 or took blood pressure lowering medications in previous two weeks</value>
+	<value code="0">All negative</value>
+</variable>
+
+<variable id="phv00022839.v1">
+	<name>glusiu01</name>
+	<description><![CDATA[Blood <a href="http://www.ncbi.nlm.nih.gov/mesh/68005947?ordinalpos=1&itool=EntrezSystem2.PEntrez.Mesh.Mesh_ResultsPanel.Mesh_RVDocSum">glucose</a> level in mmol/L at visit 1]]></description>
+	<type>continuous decimal</type>
+	<unit>mmol/L</unit>
+	<logical_min>1.94</logical_min>
+	<logical_max>34.86</logical_max>
+</variable>
+
+<variable id="phv00022840.v1">
+	<name>tchsiu01</name>
+	<description><![CDATA[Total <a href="http://www.ncbi.nlm.nih.gov/mesh/68002784?ordinalpos=1&itool=EntrezSystem2.PEntrez.Mesh.Mesh_ResultsPanel.Mesh_RVDocSum">cholesterol</a> in mmol/L]]></description>
+	<type>continuous decimal</type>
+	<unit>mmol/L</unit>
+	<logical_min>1.24</logical_min>
+	<logical_max>15.36</logical_max>
+</variable>
+
+<variable id="phv00022841.v1">
+	<name>apasiu01</name>
+	<description><![CDATA[<a href="http://www.ncbi.nlm.nih.gov/mesh/68016632?ordinalpos=2&itool=EntrezSystem2.PEntrez.Mesh.Mesh_ResultsPanel.Mesh_RVDocSum">Apolipoprotein</a> AI in mg/L]]></description>
+	<type>continuous integer</type>
+	<unit>mg/L</unit>
+	<logical_min>200</logical_min>
+	<logical_max>3040</logical_max>
+</variable>
+
+<variable id="phv00022842.v1">
+	<name>apbsiu01</name>
+	<description><![CDATA[<a href="http://www.ncbi.nlm.nih.gov/mesh/68001055?ordinalpos=1&itool=EntrezSystem2.PEntrez.Mesh.Mesh_ResultsPanel.Mesh_RVDocSum">Apolipoprotein</a> B in mg/L]]></description>
+	<type>continuous integer</type>
+	<unit>mg/L</unit>
+	<logical_min>120</logical_min>
+	<logical_max>2940</logical_max>
+</variable>
+
+<variable id="phv00022843.v1">
+	<name>trgsiu01</name>
+	<description><![CDATA[Total <a href="http://www.ncbi.nlm.nih.gov/sites/entrez?Db=mesh&Cmd=DetailsSearch&Term=%22triglycerides%22%5BMeSH+Terms%5D+OR+triglycerides%5BText+Word%5D">triglycerides</a> in mmol/L]]></description>
+	<type>continuous decimal</type>
+	<unit>mmol/L</unit>
+	<logical_min>0.27</logical_min>
+	<logical_max>21.77</logical_max>
+</variable>
+
+<variable id="phv00022844.v1">
+	<name>inssiu01</name>
+	<description><![CDATA[<a href="http://www.ncbi.nlm.nih.gov/mesh/68007328?ordinalpos=1&itool=EntrezSystem2.PEntrez.Mesh.Mesh_ResultsPanel.Mesh_RVDocSum">Insulin</a> in pmol/L at visit 1]]></description>
+	<type>continuous decimal</type>
+	<unit>pmol/L</unit>
+	<logical_min>7.17</logical_min>
+	<logical_max>6672.75</logical_max>
+</variable>
+
+<variable id="phv00022845.v1">
+	<name>diabts03</name>
+	<description><![CDATA[<a href="http://www.ncbi.nlm.nih.gov/mesh/68003920?ordinalpos=1&itool=EntrezSystem2.PEntrez.Mesh.Mesh_ResultsPanel.Mesh_RVDocSum">Diabetes</a> with fasting <a href="http://www.ncbi.nlm.nih.gov/mesh/68005947?ordinalpos=1&itool=EntrezSystem2.PEntrez.Mesh.Mesh_ResultsPanel.Mesh_RVDocSum">glucose</a> cut point 126mg/dL  at visit 1]]></description>
+	<type>enumerated integer</type>
+	<value code="1">Fasting glucose &gt;=126 mg/dL or non-fasting glucose &gt;=200mg/dL or self-report of physician diagnosis or took diabetic medication in previous two weeks</value>
+	<value code="0">All negative</value>
+</variable>
+
+<variable id="phv00022846.v1">
+	<name>cholmdcode01</name>
+	<description><![CDATA[<a href="http://www.ncbi.nlm.nih.gov/mesh/68002784?ordinalpos=1&itool=EntrezSystem2.PEntrez.Mesh.Mesh_ResultsPanel.Mesh_RVDocSum">Cholesterol</a>-lowering medication within 2 weeks]]></description>
+	<type>enumerated integer</type>
+	<value code="1">Yes</value>
+	<value code="0">No</value>
+</variable>
+
+<variable id="phv00022847.v1">
+	<name>cholmdcode02</name>
+	<description><![CDATA[Medications which secondarily affect <a href="http://www.ncbi.nlm.nih.gov/mesh/68002784?ordinalpos=1&itool=EntrezSystem2.PEntrez.Mesh.Mesh_ResultsPanel.Mesh_RVDocSum">cholesterol</a>]]></description>
+	<type>enumerated integer</type>
+	<value code="1">Yes</value>
+	<value code="0">No</value>
+</variable>
+
+<variable id="phv00022848.v1">
+	<name>hyptmd01</name>
+	<description><![CDATA[<a href="http://www.ncbi.nlm.nih.gov/mesh/68006973?ordinalpos=1&itool=EntrezSystem2.PEntrez.Mesh.Mesh_ResultsPanel.Mesh_RVDocSum">Hypertension</a> lowering medication use; definition 1, at visit 1]]></description>
+	<type>enumerated integer</type>
+	<value code="1">Yes</value>
+	<value code="0">No</value>
+</variable>
+
+<variable id="phv00022850.v1">
+	<name>hdlsiu02</name>
+	<description><![CDATA[Re-calibrated HDL <a href="http://www.ncbi.nlm.nih.gov/mesh/68002784?ordinalpos=1&itool=EntrezSystem2.PEntrez.Mesh.Mesh_ResultsPanel.Mesh_RVDocSum">cholesterol</a> in mmol/L]]></description>
+	<type>continuous decimal</type>
+	<unit>mmol/L</unit>
+	<logical_min>0.25</logical_min>
+	<logical_max>4.18</logical_max>
+</variable>
+
+<variable id="phv00022851.v1">
+	<name>hd3siu02</name>
+	<description><![CDATA[Re-calibrated HDL(3) <a href="http://www.ncbi.nlm.nih.gov/mesh/68002784?ordinalpos=1&itool=EntrezSystem2.PEntrez.Mesh.Mesh_ResultsPanel.Mesh_RVDocSum">cholesterol</a> in mmol/L]]></description>
+	<type>continuous decimal</type>
+	<unit>mmol/L</unit>
+	<logical_min>0.05</logical_min>
+	<logical_max>2.39</logical_max>
+</variable>
+
+<variable id="phv00022852.v1">
+	<name>hd2siu02</name>
+	<description><![CDATA[Re-calibrated HDL(2) <a href="http://www.ncbi.nlm.nih.gov/mesh/68002784?ordinalpos=1&itool=EntrezSystem2.PEntrez.Mesh.Mesh_ResultsPanel.Mesh_RVDocSum">cholesterol</a> in mmol/L]]></description>
+	<type>continuous decimal</type>
+	<unit>mmol/L</unit>
+	<logical_min>0</logical_min>
+	<logical_max>2.12</logical_max>
+</variable>
+
+<variable id="phv00022853.v1">
+	<name>ldlsiu02</name>
+	<description><![CDATA[Re-calibrated <a href="http://www.ncbi.nlm.nih.gov/sites/entrez?Db=mesh&Cmd=DetailsSearch&Term=%22cholesterol,+ldl%22%5BMeSH+Terms%5D+OR+LDL+cholesterol%5BText+Word%5D">LDL cholesterol</a> in mmol/L]]></description>
+	<type>continuous decimal</type>
+	<unit>mmol/L</unit>
+	<logical_min>0</logical_min>
+	<logical_max>13.5</logical_max>
+</variable>
+
+<variable id="phv00022854.v1">
+	<name>menops01</name>
+	<description><![CDATA[<a href="http://www.ncbi.nlm.nih.gov/sites/entrez?Db=mesh&Cmd=DetailsSearch&Term=Menopause%5BMULTI%5D">Menopausal status</a> at visit 1]]></description>
+	<type>enumerated integer</type>
+	<logical_min>1</logical_min>
+	<logical_max>6</logical_max>
+	<value code="1">Primary amenorrhea</value>
+	<value code="2">Premenopause</value>
+	<value code="3">Perimenopause</value>
+	<value code="4">Post menopause, natural</value>
+	<value code="5">Post menopause, surgical</value>
+	<value code="6">Unknown ovarian status</value>
+</variable>
+
+<variable id="phv00022855.v1">
+	<name>hormon02</name>
+	<description><![CDATA[<a href="http://www.ncbi.nlm.nih.gov/mesh/68006728?ordinalpos=1&itool=EntrezSystem2.PEntrez.Mesh.Mesh_ResultsPanel.Mesh_RVDocSum">Hormone</a> use at visit 1]]></description>
+	<type>enumerated integer</type>
+	<logical_min>1</logical_min>
+	<logical_max>4</logical_max>
+	<value code="1">Current estrogen user</value>
+	<value code="2">Current estrogen and progestin user</value>
+	<value code="3">Never used hormones</value>
+	<value code="4">Former hormone user or former user of other medications reported by participants as hormones</value>
+</variable>
+
+<variable id="phv00022856.v1">
+	<name>sbpa21</name>
+	<description><![CDATA[Systolic <a href="http://www.ncbi.nlm.nih.gov/mesh/68001794?ordinalpos=2&itool=EntrezSystem2.PEntrez.Mesh.Mesh_ResultsPanel.Mesh_RVDocSum">blood pressure</a> (average of 2nd and 3rd readings) at visit 1]]></description>
+	<type>continuous integer</type>
+	<unit>mm Hg</unit>
+	<logical_min>61</logical_min>
+	<logical_max>242</logical_max>
+</variable>
+
+<variable id="phv00022857.v1">
+	<name>sbpa22</name>
+	<description><![CDATA[Diastolic <a href="http://www.ncbi.nlm.nih.gov/mesh/68001794?ordinalpos=2&itool=EntrezSystem2.PEntrez.Mesh.Mesh_ResultsPanel.Mesh_RVDocSum">blood pressure</a> (average of 2nd and 3rd readings) at visit 1]]></description>
+	<type>continuous integer</type>
+	<unit>mm Hg</unit>
+	<logical_min>0</logical_min>
+	<logical_max>144</logical_max>
+	<comment>Although the ARIC [The Atherosclerosis Risk in Communities] study has extensive quality assurance steps in place, the ARIC dataset may contain values that appear nonsensical or extreme. It is the responsibility of individual investigators to check for such values and decide how they are to be handled in the context of a particular analysis.</comment>
+</variable>
+
+<variable id="phv00022858.v1">
+	<name>tiab01</name>
+	<description><![CDATA[Told by physician had <a href="http://www.ncbi.nlm.nih.gov/mesh/68020521?ordinalpos=1&itool=EntrezSystem2.PEntrez.Mesh.Mesh_ResultsPanel.Mesh_RVDocSum">stroke</a>/TIA [<a href="http://www.ncbi.nlm.nih.gov/mesh/68002546?ordinalpos=1&itool=EntrezSystem2.PEntrez.Mesh.Mesh_ResultsPanel.Mesh_RVDocSum">transient ischemic attack</a>]]]></description>
+	<type>text</type>
+	<value code="Y">Yes</value>
+	<value code="N">No</value>
+</variable>
+
+<variable id="phv00022859.v1">
+	<name>hom10d</name>
+	<description><![CDATA[<a href="http://www.ncbi.nlm.nih.gov/mesh/68020521?ordinalpos=1&itool=EntrezSystem2.PEntrez.Mesh.Mesh_ResultsPanel.Mesh_RVDocSum">Stroke</a> ever diagnosed]]></description>
+	<type>text</type>
+	<value code="Y">Yes</value>
+	<value code="N">No</value>
+	<value code="U">Unknown</value>
+</variable>
+
+<variable id="phv00022861.v1">
+	<name>futimea</name>
+	<description><![CDATA[Follow-up time for IN_04SP (MI [<a href="http://www.ncbi.nlm.nih.gov/mesh/68009203?ordinalpos=1&itool=EntrezSystem2.PEntrez.Mesh.Mesh_ResultsPanel.Mesh_RVDocSum">myocardial infarction</a>, heart attack], fatal CHD [<a href="http://www.ncbi.nlm.nih.gov/sites/entrez?Db=mesh&Cmd=DetailsSearch&Term=%22coronary+disease%22%5BMeSH+Terms%5D+OR+coronary+heart+disease%5BText+Word%5D">coronary heart disease</a>], silent MI detected by ECG, or revascularization procedure by December 31, 2004)]]></description>
+	<type>continuous integer</type>
+	<unit>Days</unit>
+	<logical_min>2</logical_min>
+	<logical_max>6611</logical_max>
+</variable>
+
+<variable id="phv00022862.v1">
+	<name>momhistorychd</name>
+	<description><![CDATA[New maternal history of CHD [<a href="http://www.ncbi.nlm.nih.gov/sites/entrez?Db=mesh&Cmd=DetailsSearch&Term=%22coronary+disease%22%5BMeSH+Terms%5D+OR+coronary+heart+disease%5BText+Word%5D">coronary heart disease</a>]]]></description>
+	<type>enumerated integer</type>
+	<value code="1">Yes</value>
+	<value code="0">No</value>
+</variable>
+
+<variable id="phv00022863.v1">
+	<name>dadhistorychd</name>
+	<description><![CDATA[New paternal history of CHD [<a href="http://www.ncbi.nlm.nih.gov/sites/entrez?Db=mesh&Cmd=DetailsSearch&Term=%22coronary+disease%22%5BMeSH+Terms%5D+OR+coronary+heart+disease%5BText+Word%5D">coronary heart disease</a>]]]></description>
+	<type>enumerated integer</type>
+	<value code="1">Yes</value>
+	<value code="0">No</value>
+</variable>
+
+<variable id="phv00022865.v1">
+	<name>hema09</name>
+	<description><![CDATA[<a href="http://www.ncbi.nlm.nih.gov/mesh/68005340?ordinalpos=1&itool=EntrezSystem2.PEntrez.Mesh.Mesh_ResultsPanel.Mesh_RVDocSum">Fibrinogen</a> value at visit 1]]></description>
+	<type>continuous integer</type>
+	<logical_min>97</logical_min>
+	<logical_max>854</logical_max>
+	<comment><![CDATA[<a href="javascript:getPage(this, &#39;document.cgi&#39;, 231);return true;" onclick="javascript:getPage(this, &#39;document.cgi&#39;, 231);return true;" oncontextmenu="javascript:getPage(this, &#39;document.cgi&#39;, 231);return true;">&quot;Hemostasis Determinations&quot;</a>  gives information on assays and quality control]]></comment>
+</variable>
+
+<variable id="phv00022866.v1">
+	<name>hmta03</name>
+	<description><![CDATA[<a href="http://www.ncbi.nlm.nih.gov/sites/entrez?Db=mesh&Cmd=DetailsSearch&Term=(%22european+continental+ancestry+group%22%5BMeSH+Terms%5D+OR+White%5BText+Word%5D)+AND+(%22blood%22%5BSubheading%5D+OR+%22blood%22%5BMeSH+Terms%5D+OR+blood%5BText+Word%5D)+AND+count%5BAll+Fields%5D">White blood count</a> at visit 1]]></description>
+	<type>continuous decimal</type>
+	<logical_min>1.5</logical_min>
+	<logical_max>70.5</logical_max>
+	<comment>Only version available; template for an on-screen version for data entry</comment>
+</variable>
+
+<variable id="phv00022867.v1">
+	<name>erha21</name>
+	<description><![CDATA[<a href="http://www.ncbi.nlm.nih.gov/mesh/68006339?ordinalpos=1&itool=EntrezSystem2.PEntrez.Mesh.Mesh_ResultsPanel.Mesh_RVDocSum">Heart rate</a> per minute (visit 1)]]></description>
+	<type>continuous integer</type>
+	<unit>per min</unit>
+	<logical_min>37</logical_min>
+	<logical_max>130</logical_max>
+</variable>
+
+<variable id="phv00066391.v1">
+	<name>wsthpr01</name>
+	<description><![CDATA[<a href="http://www.ncbi.nlm.nih.gov/sites/entrez?Db=mesh&Cmd=DetailsSearch&Term=%22waist-hip+ratio%22%5BMeSH+Terms%5D+OR+Waist-to-hip+ratio%5BText+Word%5D">Waist-to-hip ratio</a> at visit 1]]></description>
+	<type>continuous decimal</type>
+	<logical_min>0.49</logical_min>
+	<logical_max>1.39</logical_max>
+</variable>
+
+<variable id="phv00066392.v1">
+	<name>fast0802</name>
+	<description>Fasting time of 8 hours or more at visit 1</description>
+	<type>enumerated integer</type>
+	<value code="1">Yes</value>
+	<value code="0">No</value>
+</variable>
+
+<variable id="phv00066393.v1">
+	<name>fast1202</name>
+	<description>Fasting time of 12 hours or more at visit 1</description>
+	<type>enumerated integer</type>
+	<value code="1">Yes</value>
+	<value code="0">No</value>
+</variable>
+
+<variable id="phv00066394.v1">
+	<name>hyptmdcode01</name>
+	<description><![CDATA[<a href="http://www.ncbi.nlm.nih.gov/mesh/68006973?ordinalpos=1&itool=EntrezSystem2.PEntrez.Mesh.Mesh_ResultsPanel.Mesh_RVDocSum">Hypertension</a> lowering medication use within past 2 weeks at visit 1]]></description>
+	<type>enumerated integer</type>
+	<value code="1">Yes</value>
+	<value code="0">No</value>
+</variable>
+
+<variable id="phv00066395.v1">
+	<name>mi04</name>
+	<description><![CDATA[MI [<a href="http://www.ncbi.nlm.nih.gov/mesh/68009203?ordinalpos=1&itool=EntrezSystem2.PEntrez.Mesh.Mesh_ResultsPanel.Mesh_RVDocSum">myocardial infarction</a>, heart attack] by December 31, 2004]]></description>
+	<type>enumerated integer</type>
+	<value code="1">Yes</value>
+	<value code="0">No</value>
+</variable>
+
+<variable id="phv00066396.v1">
+	<name>fatchd04</name>
+	<description><![CDATA[Fatal CHD [<a href="http://www.ncbi.nlm.nih.gov/sites/entrez?Db=mesh&Cmd=DetailsSearch&Term=%22coronary+disease%22%5BMeSH+Terms%5D+OR+coronary+heart+disease%5BText+Word%5D">coronary heart disease</a>] by December 31, 2004]]></description>
+	<type>enumerated integer</type>
+	<value code="1">Yes</value>
+	<value code="0">No</value>
+</variable>
+
+<variable id="phv00066397.v1">
+	<name>inc_by04</name>
+	<description><![CDATA[MI  [<a href="http://www.ncbi.nlm.nih.gov/mesh/68009203?ordinalpos=1&itool=EntrezSystem2.PEntrez.Mesh.Mesh_ResultsPanel.Mesh_RVDocSum">myocardial infarction</a>], heart attack]or fatal CHD [<a href="http://www.ncbi.nlm.nih.gov/sites/entrez?Db=mesh&Cmd=DetailsSearch&Term=%22coronary+disease%22%5BMeSH+Terms%5D+OR+coronary+heart+disease%5BText+Word%5D">coronary heart disease</a>] by December 31, 2004]]></description>
+	<type>enumerated integer</type>
+	<value code="1">Yes</value>
+	<value code="0">No</value>
+</variable>
+
+<variable id="phv00066398.v1">
+	<name>in_by04p</name>
+	<description><![CDATA[MI [<a href="http://www.ncbi.nlm.nih.gov/mesh/68009203?ordinalpos=1&itool=EntrezSystem2.PEntrez.Mesh.Mesh_ResultsPanel.Mesh_RVDocSum">myocardial infarction</a>, heart attack], fatal CHD [<a href="http://www.ncbi.nlm.nih.gov/sites/entrez?Db=mesh&Cmd=DetailsSearch&Term=%22coronary+disease%22%5BMeSH+Terms%5D+OR+coronary+heart+disease%5BText+Word%5D">coronary heart disease</a>], or revascularization procedure by December 31, 2004]]></description>
+	<type>enumerated integer</type>
+	<value code="1">Yes</value>
+	<value code="0">No</value>
+</variable>
+
+<variable id="phv00066399.v1">
+	<name>in_04s</name>
+	<description><![CDATA[MI [<a href="http://www.ncbi.nlm.nih.gov/mesh/68009203?ordinalpos=1&itool=EntrezSystem2.PEntrez.Mesh.Mesh_ResultsPanel.Mesh_RVDocSum">myocardial infarction</a>, heart attack], fatal CHD [<a href="http://www.ncbi.nlm.nih.gov/sites/entrez?Db=mesh&Cmd=DetailsSearch&Term=%22coronary+disease%22%5BMeSH+Terms%5D+OR+coronary+heart+disease%5BText+Word%5D">coronary heart disease</a>], or silent MI detected by ECG by December 31, 2004]]></description>
+	<type>enumerated integer</type>
+	<value code="1">Yes</value>
+	<value code="0">No</value>
+</variable>
+
+<variable id="phv00066400.v1">
+	<name>in_04sp</name>
+	<description><![CDATA[MI [<a href="http://www.ncbi.nlm.nih.gov/mesh/68009203?ordinalpos=1&itool=EntrezSystem2.PEntrez.Mesh.Mesh_ResultsPanel.Mesh_RVDocSum">myocardial infarction</a>, heart attack], fatal CHD [<a href="http://www.ncbi.nlm.nih.gov/sites/entrez?Db=mesh&Cmd=DetailsSearch&Term=%22coronary+disease%22%5BMeSH+Terms%5D+OR+coronary+heart+disease%5BText+Word%5D">coronary heart disease</a>], silent MI detected by ECG, or revascularization procedure by December 31, 2004]]></description>
+	<type>enumerated integer</type>
+	<value code="1">Yes</value>
+	<value code="0">No</value>
+</variable>
+
+<variable id="phv00066401.v1">
+	<name>dead04</name>
+	<description>Death by December 31, 2004</description>
+	<type>enumerated integer</type>
+	<value code="1">Yes</value>
+	<value code="0">No</value>
+</variable>
+
+<variable id="phv00066402.v1">
+	<name>futimed</name>
+	<description><![CDATA[Follow-up time for DEAD04 (death by December 31, 2004) and for FATCHD04 (fatal CHD [<a href="http://www.ncbi.nlm.nih.gov/sites/entrez?Db=mesh&Cmd=DetailsSearch&Term=%22coronary+disease%22%5BMeSH+Terms%5D+OR+coronary+heart+disease%5BText+Word%5D">coronary heart disease</a>] by December 31, 2004)]]></description>
+	<type>continuous integer</type>
+	<unit>Days</unit>
+	<logical_min>40</logical_min>
+	<logical_max>6611</logical_max>
+</variable>
+
+<variable id="phv00066403.v1">
+	<name>futime</name>
+	<description><![CDATA[Follow-up time for INC_BY04 (MI [<a href="http://www.ncbi.nlm.nih.gov/mesh/68009203?ordinalpos=1&itool=EntrezSystem2.PEntrez.Mesh.Mesh_ResultsPanel.Mesh_RVDocSum">myocardial infarction</a>, heart attack] or fatal CHD [<a href="http://www.ncbi.nlm.nih.gov/sites/entrez?Db=mesh&Cmd=DetailsSearch&Term=%22coronary+disease%22%5BMeSH+Terms%5D+OR+coronary+heart+disease%5BText+Word%5D">coronary heart disease</a>] by December 31, 2004)]]></description>
+	<type>continuous integer</type>
+	<unit>Days</unit>
+	<logical_min>2</logical_min>
+	<logical_max>6611</logical_max>
+</variable>
+
+<variable id="phv00066404.v1">
+	<name>futimes</name>
+	<description><![CDATA[Follow-up time for IN_04S (MI [<a href="http://www.ncbi.nlm.nih.gov/mesh/68009203?ordinalpos=1&itool=EntrezSystem2.PEntrez.Mesh.Mesh_ResultsPanel.Mesh_RVDocSum">myocardial infarction</a>, heart attack], fatal CHD [<a href="http://www.ncbi.nlm.nih.gov/sites/entrez?Db=mesh&Cmd=DetailsSearch&Term=%22coronary+disease%22%5BMeSH+Terms%5D+OR+coronary+heart+disease%5BText+Word%5D">coronary heart disease</a>], or silent MI detected by ECG by December 31, 2004)]]></description>
+	<type>continuous integer</type>
+	<unit>Days</unit>
+	<logical_min>2</logical_min>
+	<logical_max>6611</logical_max>
+</variable>
+
+<variable id="phv00066405.v1">
+	<name>futimep</name>
+	<description><![CDATA[Follow-up time for IN_BY04P (MI [<a href="http://www.ncbi.nlm.nih.gov/mesh/68009203?ordinalpos=1&itool=EntrezSystem2.PEntrez.Mesh.Mesh_ResultsPanel.Mesh_RVDocSum">myocardial infarction</a>, heart attack], fatal CHD [<a href="http://www.ncbi.nlm.nih.gov/sites/entrez?Db=mesh&Cmd=DetailsSearch&Term=%22coronary+disease%22%5BMeSH+Terms%5D+OR+coronary+heart+disease%5BText+Word%5D">coronary heart disease</a>], or revascularization procedure by December 31, 2004)]]></description>
+	<type>continuous integer</type>
+	<unit>Days</unit>
+	<logical_min>2</logical_min>
+	<logical_max>6611</logical_max>
+</variable>
+
+<variable id="phv00066406.v1">
+	<name>in04dp</name>
+	<description><![CDATA[Definite or probable incident <a href="http://www.ncbi.nlm.nih.gov/mesh/68020521?ordinalpos=1&itool=EntrezSystem2.PEntrez.Mesh.Mesh_ResultsPanel.Mesh_RVDocSum">stroke</a> by December 31, 2004]]></description>
+	<type>enumerated integer</type>
+	<value code="1">Yes</value>
+	<value code="0">No</value>
+</variable>
+
+<variable id="phv00066407.v1">
+	<name>in04isc</name>
+	<description><![CDATA[Definite or probable ischemic incident <a href="http://www.ncbi.nlm.nih.gov/mesh/68020521?ordinalpos=1&itool=EntrezSystem2.PEntrez.Mesh.Mesh_ResultsPanel.Mesh_RVDocSum">stroke</a> by December 31, 2004]]></description>
+	<type>enumerated integer</type>
+	<value code="1">Yes</value>
+	<value code="0">No</value>
+</variable>
+
+<variable id="phv00066408.v1">
+	<name>in04hem</name>
+	<description><![CDATA[Definite or probable <a href="http://www.ncbi.nlm.nih.gov/sites/entrez?Db=mesh&Cmd=DetailsSearch&Term=%22intracranial+hemorrhages%22%5BMeSH+Terms%5D">hemorrhagic incident stroke</a> by December 31, 2004]]></description>
+	<type>enumerated integer</type>
+	<value code="1">Yes</value>
+	<value code="0">No</value>
+</variable>
+
+<variable id="phv00066409.v1">
+	<name>in04chm</name>
+	<description><![CDATA[Definite or probable combined ischemic or <a href="http://www.ncbi.nlm.nih.gov/sites/entrez?Db=mesh&Cmd=DetailsSearch&Term=%22intracranial+hemorrhages%22%5BMeSH+Terms%5D">hemorrhagic</a> incident <a href="http://www.ncbi.nlm.nih.gov/mesh/68020521?ordinalpos=1&itool=EntrezSystem2.PEntrez.Mesh.Mesh_ResultsPanel.Mesh_RVDocSum">stroke</a> by December 31, 2004]]></description>
+	<type>enumerated integer</type>
+	<value code="1">Yes</value>
+	<value code="0">No</value>
+</variable>
+
+<variable id="phv00066410.v1">
+	<name>ft04dp</name>
+	<description><![CDATA[Follow-up time for IN04DP (definite or probable incident <a href="http://www.ncbi.nlm.nih.gov/mesh/68020521?ordinalpos=1&itool=EntrezSystem2.PEntrez.Mesh.Mesh_ResultsPanel.Mesh_RVDocSum">stroke</a> by December 31, 2004)]]></description>
+	<type>continuous integer</type>
+	<unit>Days</unit>
+	<logical_min>5</logical_min>
+	<logical_max>6611</logical_max>
+</variable>
+
+<variable id="phv00066411.v1">
+	<name>ft04isc</name>
+	<description><![CDATA[Follow-up time for IN04ISC (definite or probable ischemic incident <a href="http://www.ncbi.nlm.nih.gov/mesh/68020521?ordinalpos=1&itool=EntrezSystem2.PEntrez.Mesh.Mesh_ResultsPanel.Mesh_RVDocSum">stroke</a> by December 31, 2004)]]></description>
+	<type>continuous integer</type>
+	<unit>Days</unit>
+	<logical_min>5</logical_min>
+	<logical_max>6611</logical_max>
+</variable>
+
+<variable id="phv00066412.v1">
+	<name>ft04hem</name>
+	<description><![CDATA[Follow-up time for IN04HEM (definite or probable hemorrhagic incident <a href="http://www.ncbi.nlm.nih.gov/mesh/68020521?ordinalpos=1&itool=EntrezSystem2.PEntrez.Mesh.Mesh_ResultsPanel.Mesh_RVDocSum">stroke</a> by December 31, 2004)]]></description>
+	<type>continuous integer</type>
+	<unit>Days</unit>
+	<logical_min>40</logical_min>
+	<logical_max>6611</logical_max>
+</variable>
+
+<variable id="phv00066413.v1">
+	<name>ft04chm</name>
+	<description><![CDATA[Follow-up time for IN04CHM (definite or probable combined ischemic or hemorrhagic incident <a href="http://www.ncbi.nlm.nih.gov/mesh/68020521?ordinalpos=1&itool=EntrezSystem2.PEntrez.Mesh.Mesh_ResultsPanel.Mesh_RVDocSum">stroke</a> by December 31, 2004)]]></description>
+	<type>continuous integer</type>
+	<unit>Days</unit>
+	<logical_min>40</logical_min>
+	<logical_max>6611</logical_max>
+</variable>
+
+<variable id="phv00066415.v1">
+	<name>centerid</name>
+	<description><![CDATA[<a href="http://www.chaicore.com/aric/index.html">ARIC</a> [The Atherosclerosis Risk in Communities] field center]]></description>
+	<type>text</type>
+	<comment><![CDATA[Field centers, labeled as A, B, C, or D, are not listed in the same alphabetic order as the actual field center names
+		Variable created specifically for <a href="http://www.genevastudy.org//">GENEVA</a>.  Documentation regarding the source for this variable is not available. ]]></comment>
+	<value code="A">ARIC field center A</value>
+	<value code="B">ARIC field center B</value>
+	<value code="C">ARIC field center C</value>
+	<value code="D">ARIC field center D</value>
+</variable>
+
+<variable id="phv00066416.v1">
+	<name>futimemi</name>
+	<description><![CDATA[Follow-up time for MI04 (MI [<a href="http://www.ncbi.nlm.nih.gov/mesh/68009203?ordinalpos=1&itool=EntrezSystem2.PEntrez.Mesh.Mesh_ResultsPanel.Mesh_RVDocSum">myocardial infarction</a>, heart attack] by December 31, 2004)]]></description>
+	<type>continuous integer</type>
+	<unit>Days</unit>
+	<logical_min>2</logical_min>
+	<logical_max>6611</logical_max>
+	<comment><![CDATA[However, DATEMI is defined in <a href="javascript:getPage(this, &#39;document.cgi&#39;, 240);return true;" onclick="javascript:getPage(this, &#39;document.cgi&#39;, 240);return true;" oncontextmenu="javascript:getPage(this, &#39;document.cgi&#39;, 240);return true;">&quot;ARIC Surveillance Variable Dictionary Incident CHD &quot;</a>  document, and V1DATE01 is defined in <a href="javascript:getPage(this, &#39;document.cgi&#39;, 2066);return true;" onclick="javascript:getPage(this, &#39;document.cgi&#39;, 2066);return true;" oncontextmenu="javascript:getPage(this, &#39;document.cgi&#39;, 2066);return true;">&quot;ARIC Visit 1, Derived Variable (12) Dictionary, November, 2007&quot;</a> document]]></comment>
+</variable>
+
+<variable id="phv00066417.v1">
+	<name>v1year</name>
+	<description>Visit 1, year visit took place</description>
+	<type>integer</type>
+	<comment><![CDATA[Variable created specifically for <a href="http://www.genevastudy.org//">GENEVA</a>.  Documentation regarding the source for this variable is not available.]]></comment>
+	<value code="1986">1986</value>
+	<value code="1987">1987</value>
+	<value code="1988">1988</value>
+	<value code="1989">1989</value>
+	<value code="1990">1990</value>
+</variable>
+
+<variable id="phv00066418.v1">
+	<name>v1month</name>
+	<description>Visit 1 - month visit took place</description>
+	<type>enumerated integer</type>
+	<comment><![CDATA[Variable created specifically for <a href="http://www.genevastudy.org//">GENEVA</a>.  Documentation regarding the source for this variable is not available.]]></comment>
+	<value code="1">January</value>
+	<value code="2">February</value>
+	<value code="3">March</value>
+	<value code="4">April</value>
+	<value code="5">May</value>
+	<value code="6">June</value>
+	<value code="7">July</value>
+	<value code="8">August</value>
+	<value code="9">September</value>
+	<value code="10">October</value>
+	<value code="11">November</value>
+	<value code="12">December</value>
+</variable>
+
+<variable id="phv00080468.v1">
+	<name>dm_inc</name>
+	<description><![CDATA[Incident <a href="http://www.ncbi.nlm.nih.gov/mesh/68003920?ordinalpos=1&itool=EntrezSystem2.PEntrez.Mesh.Mesh_ResultsPanel.Mesh_RVDocSum">diabetes</a> indicator]]></description>
+	<type>enumerated integer</type>
+	<comment><![CDATA[Variable created specifically for <a href="http://www.genevastudy.org//">GENEVA</a>.  Documentation regarding the source for this variable is not available.]]></comment>
+	<value code="1">Yes</value>
+	<value code="0">No</value>
+</variable>
+
+<variable id="phv00080469.v1">
+	<name>futimedm</name>
+	<description><![CDATA[Follow-up time for incident <a href="http://www.ncbi.nlm.nih.gov/mesh/68003920?ordinalpos=1&itool=EntrezSystem2.PEntrez.Mesh.Mesh_ResultsPanel.Mesh_RVDocSum">diabetes</a>]]></description>
+	<type>continuous decimal</type>
+	<unit>Days</unit>
+	<logical_min>10.1</logical_min>
+	<logical_max>4350</logical_max>
+	<comment><![CDATA[An interpolated time to diabetes variable using information about glucose levels at the last visit without diabetes and the first visit at which the participant is classified as diabetic.
+		Variable created specifically for <a href="http://www.genevastudy.org//">GENEVA</a>.  Documentation regarding the source for this variable is not available. ]]></comment>
+</variable>
+
+<variable id="phv00080470.v1">
+	<name>dmleft</name>
+	<description><![CDATA[Time to last visit without <a href="http://www.ncbi.nlm.nih.gov/mesh/68003920?ordinalpos=1&itool=EntrezSystem2.PEntrez.Mesh.Mesh_ResultsPanel.Mesh_RVDocSum">diabetes</a>]]></description>
+	<type>continuous integer</type>
+	<unit>Days</unit>
+	<logical_min>0</logical_min>
+	<logical_max>4350</logical_max>
+	<comment><![CDATA[Because diabetes was detected only at visits, the most appropriate way to use time to incident diabetes is as an interval censored variable.  DMLEFT and DMRIGHT define the interval.
+		Variable created specifically for <a href="http://www.genevastudy.org//">GENEVA</a>.  Documentation regarding the source for this variable is not available. ]]></comment>
+</variable>
+
+<variable id="phv00080471.v1">
+	<name>dmright</name>
+	<description><![CDATA[Time to first visit with <a href="http://www.ncbi.nlm.nih.gov/mesh/68003920?ordinalpos=1&itool=EntrezSystem2.PEntrez.Mesh.Mesh_ResultsPanel.Mesh_RVDocSum">diabetes</a>]]></description>
+	<type>continuous integer</type>
+	<unit>Days</unit>
+	<logical_min>938</logical_min>
+	<logical_max>99999</logical_max>
+	<comment><![CDATA[Because diabetes was detected only at visits, the most appropriate way to use time to incident diabetes is as an interval censored variable.  DMLEFT and DMRIGHT define the interval.
+		Variable created specifically for <a href="http://www.genevastudy.org//">GENEVA</a>.  Documentation regarding the source for this variable is not available. ]]></comment>
+	<value code="99999">Diabetes not developed in the course of follow-up</value>
+</variable>
+
+<variable id="phv00080472.v1">
+	<name>dmvisit</name>
+	<description><![CDATA[Visit at which <a href="http://www.ncbi.nlm.nih.gov/mesh/68003920?ordinalpos=1&itool=EntrezSystem2.PEntrez.Mesh.Mesh_ResultsPanel.Mesh_RVDocSum">diabetes</a> ascertained]]></description>
+	<type>enumerated integer</type>
+	<logical_min>1</logical_min>
+	<logical_max>4</logical_max>
+	<comment><![CDATA[Variable created specifically for <a href="http://www.genevastudy.org//">GENEVA</a>.  Documentation regarding the source for this variable is not available.]]></comment>
+	<value code="1">Visit 1</value>
+	<value code="2">Visit 2</value>
+	<value code="3">Visit 3</value>
+	<value code="4">Visit 4</value>
+</variable>
+
+<variable id="phv00080473.v1">
+	<name>dm_class</name>
+	<description><![CDATA[<a href="http://www.ncbi.nlm.nih.gov/mesh/68003920?ordinalpos=1&itool=EntrezSystem2.PEntrez.Mesh.Mesh_ResultsPanel.Mesh_RVDocSum">Diabetes</a> status classification of subject]]></description>
+	<type>text</type>
+	<comment><![CDATA[Variable created specifically for <a href="http://www.genevastudy.org//">GENEVA</a>.  Documentation regarding the source for this variable is not available.]]></comment>
+	<value code="Incident Diabetes Mellitus at visit 2, visit 3 or ">Incident Diabetes Mellitus at visit 2, visit 3 or visit 4</value>
+	<value code="Incident Diabetes Mellitus at V2, V3 or V4">Incident Diabetes Mellitus at V2, V3 or V4</value>
+	<value code="No Diabetes Mellitus at V1, not seen again">No Diabetes Mellitus at V1, not seen again</value>
+	<value code="No Diabetes Mellitus at visit 1, not seen again">No Diabetes Mellitus at visit 1, not seen again</value>
+	<value code="Not an incident Diabetes Mellitus case">Not an incident Diabetes Mellitus case</value>
+	<value code="Prevalent Diabetes Mellitus at visit 1">Prevalent Diabetes Mellitus at visit 1</value>
+	<value code="Prevalent Diabetes Mellitus at V1">Prevalent Diabetes Mellitus at V1</value>
+</variable>
+
+<variable id="phv00080474.v1">
+	<name>agenatmenopausef</name>
+	<description><![CDATA[Age at natural <a href="http://www.ncbi.nlm.nih.gov/mesh/68008593?ordinalpos=1&itool=EntrezSystem2.PEntrez.Mesh.Mesh_ResultsPanel.Mesh_RVDocSum">menopause</a>]]></description>
+	<type>continuous integer</type>
+	<unit>Years</unit>
+	<logical_min>30</logical_min>
+	<logical_max>61</logical_max>
+	<comment>Defined using data from all visits</comment>
+</variable>
+
+<variable id="phv00080475.v1">
+	<name>agesrgmenopausef</name>
+	<description><![CDATA[Age at surgical <a href="http://www.ncbi.nlm.nih.gov/mesh/68008593?ordinalpos=1&itool=EntrezSystem2.PEntrez.Mesh.Mesh_ResultsPanel.Mesh_RVDocSum">menopause</a>]]></description>
+	<type>continuous integer</type>
+	<unit>Years</unit>
+	<logical_min>30</logical_min>
+	<logical_max>58</logical_max>
+	<comment>Defined using data from all visits</comment>
+</variable>
+
+<variable id="phv00080476.v1">
+	<name>whynoagemeno</name>
+	<description>Reason for &quot;no age&quot; at menopause</description>
+	<type>text</type>
+	<comment>Defined using data from all visits</comment>
+	<value code="No age reported, post, natural">No age reported, post, natural</value>
+	<value code="No age reported, post, radiation">No age reported, post, radiation</value>
+	<value code="No age reported, post, surgical">No age reported, post, surgical</value>
+	<value code="Nonresponse to relevant questions">Nonresponse to relevant questions</value>
+	<value code="Not post at last contact (pre-v4)">Not post at last contact (pre-v4)</value>
+	<value code="Perimenopause at visit 4">Perimenopause at visit 4</value>
+	<value code="Premenopause at visit 4">Premenopause at visit 4</value>
+	<value code="Primary amenorrhea">Primary amenorrhea</value>
+	<value code="Unknown b/c hysterectomy">Unknown b/c hysterectomy</value>
+	<value code="Valid info">Valid info</value>
+</variable>
+
+<variable id="phv00080477.v1">
+	<name>anksbp13</name>
+	<description><![CDATA[Redefined supine ankle SBP [systolic <a href="http://www.ncbi.nlm.nih.gov/mesh/68001794?ordinalpos=2&itool=EntrezSystem2.PEntrez.Mesh.Mesh_ResultsPanel.Mesh_RVDocSum">blood pressure</a>] at visit 1]]></description>
+	<type>continuous integer</type>
+	<unit>mm Hg</unit>
+	<logical_min>46</logical_min>
+	<logical_max>245</logical_max>
+</variable>
+
+<variable id="phv00080478.v1">
+	<name>armsbp13</name>
+	<description><![CDATA[Redefined supine brachial SBP [systolic <a href="http://www.ncbi.nlm.nih.gov/mesh/68001794?ordinalpos=2&itool=EntrezSystem2.PEntrez.Mesh.Mesh_ResultsPanel.Mesh_RVDocSum">blood pressure</a>] at visit 1]]></description>
+	<type>continuous integer</type>
+	<unit>mm Hg</unit>
+	<logical_min>64</logical_min>
+	<logical_max>244</logical_max>
+</variable>
+
+<variable id="phv00080479.v1">
+	<name>abi04</name>
+	<description><![CDATA[<a href="http://www.ncbi.nlm.nih.gov/sites/entrez?Db=mesh&Cmd=DetailsSearch&Term=%22ankle+brachial+index%22%5BMeSH+Terms%5D+OR+Ankle-brachial+index%5BText+Word%5D">Ankle-brachial index</a> at visit 1, (Definition 4)]]></description>
+	<type>continuous decimal</type>
+	<logical_min>0.37</logical_min>
+	<logical_max>1.8</logical_max>
+	<comment>At the ARIC [The Atherosclerosis Risk in Communities] examination visits arm and ankle systolic blood pressures were measured on resting subjects using the Dinamap 1846 SX. Brachial artery systolic pressures were measured in the right arm every five minutes during the carotid ultrasound examination. Posterior tibial artery systolic pressures were measured two times 5 to 8 minutes apart in one randomly selected leg. The ABI was calculated by dividing the average of the two ankle pressure measurements by the average of the first two brachial pressure readings (1, 2). The correlation between the duplicate blood pressure readings was 0.92 in the leg and 0.90 in the arm. The mean absolute difference between the duplicate readings was 0.5 mmHg (95% confidence interval (CI) 0.3-0.6) in the leg and 3.0 mmHg (95% CI 2.8-3.2) in the arm. Presence or absence of (PAD) was defined as an ABI less than 0.90 in men and less than 0.85 in women.</comment>
+</variable>
+
+<variable id="phv00080480.v1">
+	<name>legank_lr01</name>
+	<description><![CDATA[Leg for ankle BP [<a href="http://www.ncbi.nlm.nih.gov/mesh/68001794?ordinalpos=2&itool=EntrezSystem2.PEntrez.Mesh.Mesh_ResultsPanel.Mesh_RVDocSum">blood pressure</a>] at visit 1]]></description>
+	<type>text</type>
+	<value code="List">List</value>
+	<value code="L">Left</value>
+	<value code="R">Right</value>
+	<value code=".">Missing</value>
+</variable>
+
+<variable id="phv00080481.v1">
+	<name>chma05</name>
+	<description><![CDATA[<a href="http://www.ncbi.nlm.nih.gov/mesh/68012964?ordinalpos=1&itool=EntrezSystem2.PEntrez.Mesh.Mesh_ResultsPanel.Mesh_RVDocSum">Sodium</a> in mmol/L at visit 1]]></description>
+	<type>continuous integer</type>
+	<unit>mmol/L</unit>
+	<logical_min>126</logical_min>
+	<logical_max>155</logical_max>
+	<comment><![CDATA[<a href="javascript:getPage(this, &#39;document.cgi&#39;, 227);return true;" onclick="javascript:getPage(this, &#39;document.cgi&#39;, 227);return true;" oncontextmenu="javascript:getPage(this, &#39;document.cgi&#39;, 227);return true;"> &quot;Clinical Chemistry Determinations &quot;</a>  document gives information on assays and quality control]]></comment>
+</variable>
+
+<variable id="phv00080482.v1">
+	<name>chma06</name>
+	<description><![CDATA[<a href="http://www.ncbi.nlm.nih.gov/mesh/68011188?ordinalpos=1&itool=EntrezSystem2.PEntrez.Mesh.Mesh_ResultsPanel.Mesh_RVDocSum">Potassium</a> in mmol/L at visit 1]]></description>
+	<type>continuous decimal</type>
+	<unit>mmol/L</unit>
+	<logical_min>2.5</logical_min>
+	<logical_max>6.6</logical_max>
+	<comment><![CDATA[<a href="javascript:getPage(this, &#39;document.cgi&#39;, 227);return true;" onclick="javascript:getPage(this, &#39;document.cgi&#39;, 227);return true;" oncontextmenu="javascript:getPage(this, &#39;document.cgi&#39;, 227);return true;">&quot;Clinical Chemistry Determinations &quot;</a> document gives information on assays and quality control]]></comment>
+</variable>
+
+<variable id="phv00080483.v1">
+	<name>chma09</name>
+	<description><![CDATA[<a href="http://www.ncbi.nlm.nih.gov/mesh/68003404?ordinalpos=1&itool=EntrezSystem2.PEntrez.Mesh.Mesh_ResultsPanel.Mesh_RVDocSum">Creatinine</a> in mg/dl at visit 1]]></description>
+	<type>continuous decimal</type>
+	<unit>mg/dL</unit>
+	<logical_min>0.4</logical_min>
+	<logical_max>18</logical_max>
+	<comment><![CDATA[<a href="javascript:getPage(this, &#39;document.cgi&#39;, 227);return true;" onclick="javascript:getPage(this, &#39;document.cgi&#39;, 227);return true;" oncontextmenu="javascript:getPage(this, &#39;document.cgi&#39;, 227);return true;"> &quot;Clinical Chemistry Determinations &quot; </a>  document gives information on assays and quality control]]></comment>
+</variable>
+
+<variable id="phv00080484.v1">
+	<name>chma10</name>
+	<description><![CDATA[<a href="http://www.ncbi.nlm.nih.gov/mesh/68002118?ordinalpos=1&itool=EntrezSystem2.PEntrez.Mesh.Mesh_ResultsPanel.Mesh_RVDocSum">Calcium</a> in mg/dl at visit 1]]></description>
+	<type>continuous decimal</type>
+	<unit>mg/dL</unit>
+	<logical_min>7.2</logical_min>
+	<logical_max>13.2</logical_max>
+	<comment><![CDATA[<a href="javascript:getPage(this, &#39;document.cgi&#39;, 227);return true;" onclick="javascript:getPage(this, &#39;document.cgi&#39;, 227);return true;" oncontextmenu="javascript:getPage(this, &#39;document.cgi&#39;, 227);return true;"> &quot;Clinical Chemistry Determinations &quot; </a>  document gives information on assays and quality control]]></comment>
+</variable>
+
+<variable id="phv00080485.v1">
+	<name>chma11</name>
+	<description><![CDATA[<a href="http://www.ncbi.nlm.nih.gov/mesh/68008274?ordinalpos=1&itool=EntrezSystem2.PEntrez.Mesh.Mesh_ResultsPanel.Mesh_RVDocSum">Magnesium</a> in meq/l at visit 1]]></description>
+	<type>continuous decimal</type>
+	<unit>meq/L</unit>
+	<logical_min>0.5</logical_min>
+	<logical_max>2.6</logical_max>
+	<comment><![CDATA[<a href="javascript:getPage(this, &#39;document.cgi&#39;, 227);return true;" onclick="javascript:getPage(this, &#39;document.cgi&#39;, 227);return true;" oncontextmenu="javascript:getPage(this, &#39;document.cgi&#39;, 227);return true;"> &quot;Clinical Chemistry Determinations &quot;</a>  document gives information on assays and quality control]]></comment>
+</variable>
+
+<variable id="phv00080486.v1">
+	<name>chma12</name>
+	<description><![CDATA[<a href="http://www.ncbi.nlm.nih.gov/mesh/68010758?ordinalpos=1&itool=EntrezSystem2.PEntrez.Mesh.Mesh_ResultsPanel.Mesh_RVDocSum">Phosphorus</a> in mg/dl at visit 1]]></description>
+	<type>continuous decimal</type>
+	<unit>mg/dL</unit>
+	<logical_min>1</logical_min>
+	<logical_max>7.8</logical_max>
+	<comment><![CDATA[<a href="javascript:getPage(this, &#39;document.cgi&#39;, 227);return true;" onclick="javascript:getPage(this, &#39;document.cgi&#39;, 227);return true;" oncontextmenu="javascript:getPage(this, &#39;document.cgi&#39;, 227);return true;"> &quot;Clinical Chemistry Determinations &quot;</a>  document gives information on assays and quality control]]></comment>
+</variable>
+
+<variable id="phv00080487.v1">
+	<name>chma15</name>
+	<description><![CDATA[<a href="http://www.ncbi.nlm.nih.gov/mesh/68014527?ordinalpos=1&itool=EntrezSystem2.PEntrez.Mesh.Mesh_ResultsPanel.Mesh_RVDocSum">Uric acid</a> in mg/dl at visit 1]]></description>
+	<type>continuous decimal</type>
+	<unit>mg/dL</unit>
+	<logical_min>0.2</logical_min>
+	<logical_max>15.9</logical_max>
+	<comment><![CDATA[<a href="javascript:getPage(this, &#39;document.cgi&#39;, 227);return true;" onclick="javascript:getPage(this, &#39;document.cgi&#39;, 227);return true;" oncontextmenu="javascript:getPage(this, &#39;document.cgi&#39;, 227);return true;"> &quot;Clinical Chemistry Determinations &quot;</a>  document gives information on assays and quality control]]></comment>
+</variable>
+
+<variable id="phv00080488.v1">
+	<name>prevhf01</name>
+	<description><![CDATA[Prevalent <a href="http://www.ncbi.nlm.nih.gov/mesh/68006333?ordinalpos=1&itool=EntrezSystem2.PEntrez.Mesh.Mesh_ResultsPanel.Mesh_RVDocSum">heart failure</a> at visit 1]]></description>
+	<type>enumerated integer</type>
+	<value code="1">Yes</value>
+	<value code="0">No</value>
+	<value code=".">Missing</value>
+</variable>
+
+<variable id="phv00080489.v1">
+	<name>nlvhsc01</name>
+	<description>Cornell voltage in mm (visit 1)</description>
+	<type>continuous decimal</type>
+	<unit>mm</unit>
+	<logical_min>1.02</logical_min>
+	<logical_max>47.7</logical_max>
+</variable>
+
+<variable id="phv00080490.v1">
+	<name>clvh01</name>
+	<description><![CDATA[LVH [left <a href="http://www.ncbi.nlm.nih.gov/mesh/68006352?ordinalpos=1&itool=EntrezSystem2.PEntrez.Mesh.Mesh_ResultsPanel.Mesh_RVDocSum">ventricular</a> <a href="http://www.ncbi.nlm.nih.gov/mesh/68006984?ordinalpos=1&itool=EntrezSystem2.PEntrez.Mesh.Mesh_ResultsPanel.Mesh_RVDocSum">hypertrophy</a>] present by Cornell definition (visit 1)]]></description>
+	<value code="1">Yes</value>
+	<value code="0">No</value>
+</variable>
+
+<variable id="phv00080491.v1">
+	<name>prevmi05</name>
+	<description><![CDATA[Prevalent MI [<a href="http://www.ncbi.nlm.nih.gov/mesh/68009203?ordinalpos=1&itool=EntrezSystem2.PEntrez.Mesh.Mesh_ResultsPanel.Mesh_RVDocSum">myocardial infarction</a>, heart attack] (composite ECG [electroencephalogram]or medical history)]]></description>
+	<type>enumerated integer</type>
+	<value code="1">Yes</value>
+	<value code="0">No</value>
+	<value code=".t">Missing value</value>
+	<value code=".">Missing value</value>
+</variable>
+
+<variable id="phv00080492.v1">
+	<name>roseic03</name>
+	<description><![CDATA[Rose <a href="http://www.ncbi.nlm.nih.gov/sites/entrez?Db=mesh&Cmd=DetailsSearch&Term=%22intermittent+claudication%22%5BMeSH+Terms%5D+OR+intermittent+claudication%5BText+Word%5D">intermittent claudication</a> at visit 1, Definition 3]]></description>
+	<type>enumerated integer</type>
+	<value code="1">Yes</value>
+	<value code="0">No</value>
+	<value code=".">Missing</value>
+</variable>
+
+<variable id="phv00080493.v1">
+	<name>plaque01</name>
+	<description>Plaque in any site (visit 1)</description>
+	<type>enumerated integer</type>
+	<value code="1">Yes</value>
+	<value code="0">No</value>
+	<value code=".t">Missing</value>
+</variable>
+
+<variable id="phv00080494.v1">
+	<name>plaque03</name>
+	<description>Alt plaque in any site (visit 1)</description>
+	<type>enumerated integer</type>
+	<value code="1">Yes</value>
+	<value code="0">No</value>
+	<value code=".t">Missing</value>
+</variable>
+
+<variable id="phv00080495.v1">
+	<name>ecgra274</name>
+	<description>P-R interval (visit 1) [electrocardiography related variable]</description>
+	<type>continuous integer</type>
+	<logical_min>20</logical_min>
+	<logical_max>398</logical_max>
+</variable>
+
+<variable id="phv00080496.v1">
+	<name>ecgra277</name>
+	<description>QRS interval (visit 1) [electrocardiography related variable]</description>
+	<type>continuous integer</type>
+	<logical_min>61</logical_min>
+	<logical_max>253</logical_max>
+</variable>
+
+<variable id="phv00080497.v1">
+	<name>erha18</name>
+	<description>QT interval duration in millisecond (visit 1)</description>
+	<type>continuous decimal</type>
+	<unit>Millisec</unit>
+	<logical_min>0</logical_min>
+	<logical_max>9.99</logical_max>
+	<comment>Although the ARIC [The Atherosclerosis Risk in Communities] study has extensive quality assurance steps in place, the ARIC dataset may contain values that appear nonsensical or extreme. It is the responsibility of individual investigators to check for such values and decide how they are to be handled in the context of a particular analysis.</comment>
+</variable>
+
+<variable id="phv00080498.v1">
+	<name>erha20</name>
+	<description>R-R (M.M.) (visit 1)</description>
+	<type>continuous integer</type>
+	<unit>mm</unit>
+	<logical_min>0</logical_min>
+	<logical_max>300</logical_max>
+	<comment>Although the ARIC [The Atherosclerosis Risk in Communities] study has extensive quality assurance steps in place, the ARIC dataset may contain values that appear nonsensical or extreme. It is the responsibility of individual investigators to check for such values and decide how they are to be handled in the context of a particular analysis.</comment>
+</variable>
+
+<variable id="phv00080499.v1">
+	<name>hema07</name>
+	<description><![CDATA[<a href="http://www.ncbi.nlm.nih.gov/mesh/68005169?ordinalpos=1&itool=EntrezSystem2.PEntrez.Mesh.Mesh_ResultsPanel.Mesh_RVDocSum">Factor VIII</a>: C value at visit 1]]></description>
+	<type>continuous integer</type>
+	<logical_min>20</logical_min>
+	<logical_max>540</logical_max>
+	<comment><![CDATA[<a href="javascript:getPage(this, &#39;document.cgi&#39;, 231);return true;" onclick="javascript:getPage(this, &#39;document.cgi&#39;, 231);return true;" oncontextmenu="javascript:getPage(this, &#39;document.cgi&#39;, 231);return true;"> &quot;Hemostasis Determinations&quot;</a>  gives information on assays and quality control]]></comment>
+</variable>
+
+<variable id="phv00080500.v1">
+	<name>hema11</name>
+	<description><![CDATA[<a href="http://www.ncbi.nlm.nih.gov/mesh/68005167?ordinalpos=1&itool=EntrezSystem2.PEntrez.Mesh.Mesh_ResultsPanel.Mesh_RVDocSum">Factor VII</a> value at visit 1]]></description>
+	<type>continuous integer</type>
+	<logical_min>17</logical_min>
+	<logical_max>616</logical_max>
+	<comment><![CDATA[<a href="javascript:getPage(this, &#39;document.cgi&#39;, 231);return true;" onclick="javascript:getPage(this, &#39;document.cgi&#39;, 231);return true;" oncontextmenu="javascript:getPage(this, &#39;document.cgi&#39;, 231);return true;"> &quot;Hemostasis Determinations&quot;</a>  gives information on assays and quality control]]></comment>
+</variable>
+
+<variable id="phv00080501.v1">
+	<name>hema17</name>
+	<description><![CDATA[<a href="http://www.ncbi.nlm.nih.gov/mesh/68014841?ordinalpos=1&itool=EntrezSystem2.PEntrez.Mesh.Mesh_ResultsPanel.Mesh_RVDocSum">Von Willebrand&#39;s Factor</a> value at visit 1]]></description>
+	<type>continuous integer</type>
+	<logical_min>22</logical_min>
+	<logical_max>456</logical_max>
+	<comment><![CDATA[<a href="javascript:getPage(this, &#39;document.cgi&#39;, 231);return true;" onclick="javascript:getPage(this, &#39;document.cgi&#39;, 231);return true;" oncontextmenu="javascript:getPage(this, &#39;document.cgi&#39;, 231);return true;"> &quot;Hemostasis Determinations&quot;</a>  gives information on assays and quality control]]></comment>
+</variable>
+
+<variable id="phv00080502.v1">
+	<name>hmta01</name>
+	<description><![CDATA[<a href="http://www.ncbi.nlm.nih.gov/mesh/68006400?ordinalpos=1&itool=EntrezSystem2.PEntrez.Mesh.Mesh_ResultsPanel.Mesh_RVDocSum">Hematocrit</a> at visit 1]]></description>
+	<type>continuous decimal</type>
+	<logical_min>17.3</logical_min>
+	<logical_max>59.2</logical_max>
+	<comment>Only version available; template for an on-screen version for data entry</comment>
+</variable>
+
+<variable id="phv00080503.v1">
+	<name>hmta02</name>
+	<description><![CDATA[<a href="http://www.ncbi.nlm.nih.gov/mesh/68006454?ordinalpos=1&itool=EntrezSystem2.PEntrez.Mesh.Mesh_ResultsPanel.Mesh_RVDocSum">Hemoglobin</a> at visit 1]]></description>
+	<type>continuous decimal</type>
+	<logical_min>5.9</logical_min>
+	<logical_max>19.4</logical_max>
+	<comment>Only version available; template for an on-screen version for data entry</comment>
+</variable>
+
+<variable id="phv00080504.v1">
+	<name>hom10e</name>
+	<description><![CDATA[<a href="http://www.ncbi.nlm.nih.gov/mesh/68003920?ordinalpos=1&itool=EntrezSystem2.PEntrez.Mesh.Mesh_ResultsPanel.Mesh_RVDocSum">Diabetes</a> ever diagnosed (visit 1)]]></description>
+	<type>text</type>
+	<value code="Y">Yes</value>
+	<value code="N">No</value>
+	<value code="U">Unknown</value>
+</variable>
+
+<variable id="phv00080505.v1">
+	<name>hom29</name>
+	<description>Age 1st regularly smoked cigarettes (visit 1)</description>
+	<type>continuous integer</type>
+	<unit>Years</unit>
+	<logical_min>0</logical_min>
+	<logical_max>62</logical_max>
+</variable>
+
+<variable id="phv00080506.v1">
+	<name>hom35</name>
+	<description>Overall number of cigarettes per day (visit 1)</description>
+	<type>continuous integer</type>
+	<unit>Cigarettes/day</unit>
+	<logical_min>0</logical_min>
+	<logical_max>99</logical_max>
+</variable>
+
+<variable id="phv00080507.v1">
+	<name>mhxa33</name>
+	<description><![CDATA[Leg <a href="http://www.ncbi.nlm.nih.gov/mesh/68010146?ordinalpos=1&itool=EntrezSystem2.PEntrez.Mesh.Mesh_ResultsPanel.Mesh_RVDocSum">pain</a> while walking at visit 1]]></description>
+	<type>text</type>
+	<value code="Y">Yes</value>
+	<value code="N">No</value>
+</variable>
+
+<variable id="phv00080508.v1">
+	<name>mhxa34</name>
+	<description><![CDATA[Leg <a href="http://www.ncbi.nlm.nih.gov/mesh/68010146?ordinalpos=1&itool=EntrezSystem2.PEntrez.Mesh.Mesh_ResultsPanel.Mesh_RVDocSum">pain</a> sitting still-standing at visit 1]]></description>
+	<type>text</type>
+	<value code="Y">Yes</value>
+	<value code="N">No</value>
+</variable>
+
+<variable id="phv00080509.v1">
+	<name>rhxa01</name>
+	<description><![CDATA[Age when <a href="http://www.ncbi.nlm.nih.gov/mesh/68008598?ordinalpos=1&itool=EntrezSystem2.PEntrez.Mesh.Mesh_ResultsPanel.Mesh_RVDocSum">menstruation</a> began (visit 1)]]></description>
+	<type>continuous integer</type>
+	<unit>Years</unit>
+	<logical_min>0</logical_min>
+	<logical_max>59</logical_max>
+	<comment>Although the ARIC [The Atherosclerosis Risk in Communities] study has extensive quality assurance steps in place, the ARIC dataset may contain values that appear nonsensical or extreme. It is the responsibility of individual investigators to check for such values and decide how they are to be handled in the context of a particular analysis.</comment>
+</variable>
+
+<variable id="phv00080510.v1">
+	<name>rhxa02</name>
+	<description>Number of pregnancies (visit 1)</description>
+	<type>continuous integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>23</logical_max>
+</variable>
+
+<variable id="phv00080511.v1">
+	<name>rhxa03</name>
+	<description>Number of liveborn children (visit 1)</description>
+	<type>continuous integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>16</logical_max>
+</variable>
+
+<variable id="phv00080512.v1">
+	<name>rhxa08</name>
+	<description><![CDATA[Age when <a href="http://www.ncbi.nlm.nih.gov/mesh/68008593?ordinalpos=1&itool=EntrezSystem2.PEntrez.Mesh.Mesh_ResultsPanel.Mesh_RVDocSum">menopause</a> began (visit 1)]]></description>
+	<type>continuous integer</type>
+	<unit>Years</unit>
+	<logical_min>0</logical_min>
+	<logical_max>61</logical_max>
+	<comment>Although the ARIC [The Atherosclerosis Risk in Communities] study has extensive quality assurance steps in place, the ARIC dataset may contain values that appear nonsensical or extreme. It is the responsibility of individual investigators to check for such values and decide how they are to be handled in the context of a particular analysis.</comment>
+</variable>
+
+<variable id="phv00080513.v1">
+	<name>rhxa09</name>
+	<description><![CDATA[Cause of <a href="http://www.ncbi.nlm.nih.gov/mesh/68008593?ordinalpos=1&itool=EntrezSystem2.PEntrez.Mesh.Mesh_ResultsPanel.Mesh_RVDocSum">menopause</a> (visit 1)]]></description>
+	<type>text</type>
+	<value code="I">Missing</value>
+	<value code="N">Natural</value>
+	<value code="R">Radiation</value>
+	<value code="S">Surgery</value>
+	<value code="U">Unknown</value>
+</variable>
+
+<variable id="phv00080514.v1">
+	<name>rhxa11</name>
+	<description><![CDATA[Ever taken <a href="http://www.ncbi.nlm.nih.gov/mesh/68003276?ordinalpos=1&itool=EntrezSystem2.PEntrez.Mesh.Mesh_ResultsPanel.Mesh_RVDocSum">birth control pills</a>  (visit 1)]]></description>
+	<type>text</type>
+	<value code="Y">Yes</value>
+	<value code="N">No</value>
+	<value code="F">Missing</value>
+</variable>
+
+<variable id="phv00080515.v1">
+	<name>rhxa16</name>
+	<description><![CDATA[Ever taken female <a href="http://www.ncbi.nlm.nih.gov/mesh/68006728?ordinalpos=1&itool=EntrezSystem2.PEntrez.Mesh.Mesh_ResultsPanel.Mesh_RVDocSum">hormones</a> (visit 1)]]></description>
+	<type>text</type>
+	<value code="Y">Yes</value>
+	<value code="N">No</value>
+	<value code="U">Unknown</value>
+</variable>
+
+<variable id="phv00080516.v1">
+	<name>rhxa45</name>
+	<description><![CDATA[<a href="http://www.ncbi.nlm.nih.gov/mesh/68007044?ordinalpos=1&itool=EntrezSystem2.PEntrez.Mesh.Mesh_ResultsPanel.Mesh_RVDocSum">Hysterectomy</a> (visit 1)]]></description>
+	<type>text</type>
+	<value code="Y">Yes</value>
+	<value code="N">No</value>
+	<value code="U">Unknown</value>
+</variable>
+
+<variable id="phv00080517.v1">
+	<name>rhxa46</name>
+	<description><![CDATA[<a href="http://www.ncbi.nlm.nih.gov/mesh/68014599?ordinalpos=1&itool=EntrezSystem2.PEntrez.Mesh.Mesh_ResultsPanel.Mesh_RVDocSum">Uterus</a> removed (visit 1)]]></description>
+	<type>text</type>
+	<value code="Y">Yes</value>
+	<value code="N">No</value>
+	<value code="U">Unknown</value>
+</variable>
+
+<variable id="phv00080518.v1">
+	<name>rhxa47</name>
+	<description><![CDATA[Age when <a href="http://www.ncbi.nlm.nih.gov/mesh/68014599?ordinalpos=1&itool=EntrezSystem2.PEntrez.Mesh.Mesh_ResultsPanel.Mesh_RVDocSum">uterus</a> removed (visit 1)]]></description>
+	<type>continuous integer</type>
+	<unit>Years</unit>
+	<logical_min>0</logical_min>
+	<logical_max>63</logical_max>
+	<comment>Although the ARIC [The Atherosclerosis Risk in Communities] study has extensive quality assurance steps in place, the ARIC dataset may contain values that appear nonsensical or extreme. It is the responsibility of individual investigators to check for such values and decide how they are to be handled in the context of a particular analysis.</comment>
+</variable>
+
+<variable id="phv00080519.v1">
+	<name>rhxa48</name>
+	<description><![CDATA[<a href="http://www.ncbi.nlm.nih.gov/mesh/68010053?ordinalpos=1&itool=EntrezSystem2.PEntrez.Mesh.Mesh_ResultsPanel.Mesh_RVDocSum">Ovary</a> or ovaries removed (visit 1)]]></description>
+	<type>text</type>
+	<value code="O">Yes, one</value>
+	<value code="B">Yes, both</value>
+	<value code="N">No</value>
+	<value code="U">Unknown</value>
+</variable>
+
+<variable id="phv00080520.v1">
+	<name>rhxa49</name>
+	<description><![CDATA[Age when <a href="http://www.ncbi.nlm.nih.gov/mesh/68010053?ordinalpos=1&itool=EntrezSystem2.PEntrez.Mesh.Mesh_ResultsPanel.Mesh_RVDocSum">ovary</a> or ovaries removed (visit 1)]]></description>
+	<type>continuous integer</type>
+	<unit>Years</unit>
+	<logical_min>13</logical_min>
+	<logical_max>63</logical_max>
+</variable>
+
+<variable id="phv00080521.v1">
+	<name>ubmd03</name>
+	<description>Reader ID</description>
+	<type>text</type>
+	<logical_min>11</logical_min>
+	<logical_max>91</logical_max>
+</variable>
+
+<variable id="phv00080522.v1">
+	<name>ubmd04</name>
+	<description>Sonographer ID</description>
+	<type>text</type>
+</variable>
+
+<variable id="phv00080523.v1">
+	<name>lopamx45</name>
+	<description>Maximum far wall width (L common carotid:  opt ang)</description>
+	<type>continuous decimal</type>
+	<unit>mm</unit>
+	<logical_min>0.27</logical_min>
+	<logical_max>3.42</logical_max>
+</variable>
+
+<variable id="phv00080524.v1">
+	<name>lanamx45</name>
+	<description>Maximum far wall width (L common carotid: anterior angle)</description>
+	<type>continuous decimal</type>
+	<logical_min>0.13</logical_min>
+	<logical_max>3.42</logical_max>
+</variable>
+
+<variable id="phv00080525.v1">
+	<name>lpoamx45</name>
+	<description>Maximum far wall width (L common carotid: pst ang)</description>
+	<type>continuous decimal</type>
+	<unit>mm</unit>
+	<logical_min>0.27</logical_min>
+	<logical_max>5.23</logical_max>
+</variable>
+
+<variable id="phv00080526.v1">
+	<name>lbiamx45</name>
+	<description>Maximum far wall width (L bifurcation)</description>
+	<type>continuous decimal</type>
+	<logical_min>0.27</logical_min>
+	<logical_max>6.1</logical_max>
+</variable>
+
+<variable id="phv00080527.v1">
+	<name>linamx45</name>
+	<description>Maximum far wall width (L internal carotid)</description>
+	<type>continuous decimal</type>
+	<logical_min>0.2</logical_min>
+	<logical_max>5.49</logical_max>
+</variable>
+
+<variable id="phv00080528.v1">
+	<name>ropamx45</name>
+	<description>Maximum far wall width (R common carotid: opt ang)</description>
+	<type>continuous decimal</type>
+	<unit>mm</unit>
+	<logical_min>0.27</logical_min>
+	<logical_max>3.55</logical_max>
+</variable>
+
+<variable id="phv00080529.v1">
+	<name>ranamx45</name>
+	<description>Maximum far wall width (R common carotid: an ang)</description>
+	<type>continuous decimal</type>
+	<logical_min>0.27</logical_min>
+	<logical_max>2.88</logical_max>
+</variable>
+
+<variable id="phv00080530.v1">
+	<name>rpoamx45</name>
+	<description>Maximum far wall width (R common carotid: pst ang)</description>
+	<type>continuous decimal</type>
+	<unit>mm</unit>
+	<logical_min>0.27</logical_min>
+	<logical_max>3.75</logical_max>
+</variable>
+
+<variable id="phv00080531.v1">
+	<name>rbiamx45</name>
+	<description>Maximum far wall width (R bifurcation)</description>
+	<type>continuous decimal</type>
+	<logical_min>0.2</logical_min>
+	<logical_max>6.97</logical_max>
+</variable>
+
+<variable id="phv00080532.v1">
+	<name>rinamx45</name>
+	<description>Maximum far wall width (R internal carotid)</description>
+	<type>continuous decimal</type>
+	<unit>mm</unit>
+	<logical_min>0.2</logical_min>
+	<logical_max>5.83</logical_max>
+</variable>
+
+<variable id="phv00080533.v1">
+	<name>lopaav45</name>
+	<description>Average far wall width (L common carotid: opt ang)</description>
+	<type>continuous decimal</type>
+	<unit>mm</unit>
+	<logical_min>0.22</logical_min>
+	<logical_max>2.7</logical_max>
+</variable>
+
+<variable id="phv00080534.v1">
+	<name>lanaav45</name>
+	<description>Average far wall width (L common carotid: anterior angle)</description>
+	<type>continuous decimal</type>
+	<logical_min>0.13</logical_min>
+	<logical_max>2.81</logical_max>
+</variable>
+
+<variable id="phv00080535.v1">
+	<name>lpoaav45</name>
+	<description>Average far wall width (L common carotid: pst ang)</description>
+	<type>continuous decimal</type>
+	<unit>mm</unit>
+	<logical_min>0.2</logical_min>
+	<logical_max>3.33</logical_max>
+</variable>
+
+<variable id="phv00080536.v1">
+	<name>lbiaav45</name>
+	<description>Average fall wall width (L bifurcation)</description>
+	<type>continuous decimal</type>
+	<logical_min>0.22</logical_min>
+	<logical_max>4.2</logical_max>
+</variable>
+
+<variable id="phv00080537.v1">
+	<name>linaav45</name>
+	<description>Average far wall width (L internal carotid)</description>
+	<type>continuous decimal</type>
+	<logical_min>0.2</logical_min>
+	<logical_max>5.27</logical_max>
+</variable>
+
+<variable id="phv00080538.v1">
+	<name>ropaav45</name>
+	<description>Average far wall width (R common carotid: opt ang)</description>
+	<type>continuous decimal</type>
+	<unit>mm</unit>
+	<logical_min>0.22</logical_min>
+	<logical_max>3.55</logical_max>
+</variable>
+
+<variable id="phv00080539.v1">
+	<name>ranaav45</name>
+	<description>Average far wall width (R common carotid: ant ang)</description>
+	<type>continuous decimal</type>
+	<logical_min>0.22</logical_min>
+	<logical_max>2.76</logical_max>
+</variable>
+
+<variable id="phv00080540.v1">
+	<name>rpoaav45</name>
+	<description>Average far wall width (R common carotid: pst ang)</description>
+	<type>continuous decimal</type>
+	<unit>mm</unit>
+	<logical_min>0.23</logical_min>
+	<logical_max>2.75</logical_max>
+</variable>
+
+<variable id="phv00080541.v1">
+	<name>rbiaav45</name>
+	<description>Average far wall width (R bifurcation)</description>
+	<type>continuous decimal</type>
+	<logical_min>0.16</logical_min>
+	<logical_max>4.71</logical_max>
+</variable>
+
+<variable id="phv00080542.v1">
+	<name>rinaav45</name>
+	<description>Average far wall width (R internal carotid)</description>
+	<type>continuous decimal</type>
+	<unit>mm</unit>
+	<logical_min>0.2</logical_min>
+	<logical_max>5.69</logical_max>
+</variable>
+
+<variable id="phv00080543.v1">
+	<name>lopada45</name>
+	<description>Derived average far wall thickness (L opt)</description>
+	<type>continuous decimal</type>
+	<unit>mm</unit>
+	<logical_min>0.22</logical_min>
+	<logical_max>2.7</logical_max>
+</variable>
+
+<variable id="phv00080544.v1">
+	<name>ropada45</name>
+	<description>Derived average far wall thickness (R opt)</description>
+	<type>continuous decimal</type>
+	<unit>mm</unit>
+	<logical_min>0.22</logical_min>
+	<logical_max>3.55</logical_max>
+</variable>
+
+<variable id="phv00080545.v1">
+	<name>lbiada45</name>
+	<description>Derived average far wall thickness (L bifurcation)</description>
+	<type>continuous decimal</type>
+	<logical_min>0.22</logical_min>
+	<logical_max>4.2</logical_max>
+</variable>
+
+<variable id="phv00080546.v1">
+	<name>rbiada45</name>
+	<description>Derived average far wall thickness (R bifurcation)</description>
+	<type>continuous decimal</type>
+	<logical_min>0.16</logical_min>
+	<logical_max>4.71</logical_max>
+</variable>
+
+<variable id="phv00080547.v1">
+	<name>linada45</name>
+	<description>Derived average far wall thickness (L internal carotid)</description>
+	<type>continuous decimal</type>
+	<logical_min>0.2</logical_min>
+	<logical_max>5.27</logical_max>
+</variable>
+
+<variable id="phv00080548.v1">
+	<name>rinada45</name>
+	<description>Derived average far wall thickness (R internal carotid)</description>
+	<type>continuous decimal</type>
+	<unit>mm</unit>
+	<logical_min>0.2</logical_min>
+	<logical_max>5.69</logical_max>
+</variable>
+
+<variable id="phv00080549.v1">
+	<name>lopawa45</name>
+	<description>Weight for derived average far wall thickness (L opt)</description>
+	<type>continuous decimal</type>
+	<logical_min>0.17</logical_min>
+	<logical_max>1</logical_max>
+	<comment>The weights are fractions (proportion of sites, out of 6, available for the calculations, so the values correspond to 1/6, 2/6, 3/6, 4/6, 5/6, 6/6).   They are a measure of precision.  Regression models using the ultrasound measurements as dependent variables will usually be more precise if weighted regression is used.</comment>
+</variable>
+
+<variable id="phv00080550.v1">
+	<name>ropawa45</name>
+	<description>Weight for derived average far wall thickness (R opt)</description>
+	<type>continuous decimal</type>
+	<logical_min>0.17</logical_min>
+	<logical_max>1</logical_max>
+	<comment>The weights are fractions (proportion of sites, out of 6, available for the calculations, so the values correspond to 1/6, 2/6, 3/6, 4/6, 5/6, 6/6).   They are a measure of precision.  Regression models using the ultrasound measurements as dependent variables will usually be more precise if weighted regression is used.</comment>
+</variable>
+
+<variable id="phv00080551.v1">
+	<name>lbiawa45</name>
+	<description>Weight for derived average far wall thickness (L bifurcation) [LBIADA45]</description>
+	<type>continuous decimal</type>
+	<logical_min>0.17</logical_min>
+	<logical_max>1</logical_max>
+</variable>
+
+<variable id="phv00080552.v1">
+	<name>rbiawa45</name>
+	<description>Weight for Derived average far wall thickness (R bifurcation)</description>
+	<type>continuous decimal</type>
+	<logical_min>0.17</logical_min>
+	<logical_max>1</logical_max>
+	<comment>The weights are fractions (proportion of sites, out of 6, available for the calculations, so the values correspond to 1/6, 2/6, 3/6, 4/6, 5/6, 6/6).   They are a measure of precision.  Regression models using the ultrasound measurements as dependent variables will usually be more precise if weighted regression is used.</comment>
+</variable>
+
+<variable id="phv00080553.v1">
+	<name>linawa45</name>
+	<description>Weight for [LINADA45]</description>
+	<type>continuous decimal</type>
+	<logical_min>0.17</logical_min>
+	<logical_max>1</logical_max>
+</variable>
+
+<variable id="phv00080554.v1">
+	<name>rinawa45</name>
+	<description>Weight for derived average far wall thickness (R internal carotid)</description>
+	<type>continuous decimal</type>
+	<logical_min>0.17</logical_min>
+	<logical_max>1</logical_max>
+	<comment>The weights are fractions (proportion of sites, out of 6, available for the calculations, so the values correspond to 1/6, 2/6, 3/6, 4/6, 5/6, 6/6).   They are a measure of precision.  Regression models using the ultrasound measurements as dependent variables will usually be more precise if weighted regression is used.</comment>
+</variable>
+
+<variable id="phv00080555.v1">
+	<name>sum45_1</name>
+	<description>Mean of the DA45 variables</description>
+	<type>continuous decimal</type>
+	<logical_min>0.37</logical_min>
+	<logical_max>2.81</logical_max>
+</variable>
+
+<variable id="phv00080556.v1">
+	<name>lopart45</name>
+	<description>Derived average far wall thickness (L opt)</description>
+	<type>continuous decimal</type>
+	<unit>mm</unit>
+	<logical_min>0.2</logical_min>
+	<logical_max>2.63</logical_max>
+</variable>
+
+<variable id="phv00080557.v1">
+	<name>ropart45</name>
+	<description>Derived average far wall thickness (R opt)</description>
+	<type>continuous decimal</type>
+	<unit>mm</unit>
+	<logical_min>0.16</logical_min>
+	<logical_max>3.52</logical_max>
+</variable>
+
+<variable id="phv00080558.v1">
+	<name>lbiart45</name>
+	<description>Derived average far wall thickness (L bifurcation)</description>
+	<type>continuous decimal</type>
+	<logical_min>0.23</logical_min>
+	<logical_max>4.2</logical_max>
+</variable>
+
+<variable id="phv00080559.v1">
+	<name>rbiart45</name>
+	<description>Derived average far wall thickness (R bifurcation)</description>
+	<type>continuous decimal</type>
+	<logical_min>0.1</logical_min>
+	<logical_max>4.73</logical_max>
+</variable>
+
+<variable id="phv00080560.v1">
+	<name>linart45</name>
+	<description>Derived average far wall thickness (L internal carotid)</description>
+	<type>continuous decimal</type>
+	<logical_min>-0.25</logical_min>
+	<logical_max>5.15</logical_max>
+	<comment>Although the ARIC study has extensive quality assurance steps in place, the ARIC [The Atherosclerosis Risk in Communities] dataset may contain values that appear nonsensical or extreme. It is the responsibility of individual investigators to check for such values and decide how they are to be handled in the context of a particular analysis.</comment>
+</variable>
+
+<variable id="phv00080561.v1">
+	<name>rinart45</name>
+	<description>Derived average far wall thickness (R internal carotid)</description>
+	<type>continuous decimal</type>
+	<unit>mm</unit>
+	<logical_min>-0.13</logical_min>
+	<logical_max>5.57</logical_max>
+	<comment>Although the ARIC [The Atherosclerosis Risk in Communities] study has extensive quality assurance steps in place, the ARIC dataset may contain values that appear nonsensical or extreme. It is the responsibility of individual investigators to check for such values and decide how they are to be handled in the context of a particular analysis.</comment>
+</variable>
+
+<variable id="phv00080562.v1">
+	<name>lopawt45</name>
+	<description>Weight for derived average far wall thickness (L opt)</description>
+	<type>continuous decimal</type>
+	<logical_min>0.17</logical_min>
+	<logical_max>1</logical_max>
+	<comment>The weights are fractions (proportion of sites, out of 6, available for the calculations, so the values correspond to 1/6, 2/6, 3/6, 4/6, 5/6, 6/6).   They are a measure of precision.  Regression models using the ultrasound measurements as dependent variables will usually be more precise if weighted regression is used.</comment>
+</variable>
+
+<variable id="phv00080563.v1">
+	<name>ropawt45</name>
+	<description>Weight for derived average far wall thickness (R opt)</description>
+	<type>continuous decimal</type>
+	<logical_min>0.17</logical_min>
+	<logical_max>1</logical_max>
+	<comment>The weights are fractions (proportion of sites, out of 6, available for the calculations, so the values correspond to 1/6, 2/6, 3/6, 4/6, 5/6, 6/6).   They are a measure of precision.  Regression models using the ultrasound measurements as dependent variables will usually be more precise if weighted regression is used.</comment>
+</variable>
+
+<variable id="phv00080564.v1">
+	<name>lbiawt45</name>
+	<description>Weight for derived average far wall thickness (L bifurcation) [LBIART45]</description>
+	<type>continuous decimal</type>
+	<logical_min>0.17</logical_min>
+	<logical_max>1</logical_max>
+</variable>
+
+<variable id="phv00080565.v1">
+	<name>rbiawt45</name>
+	<description>Weight for Derived average far wall thickness (R bifurcation)</description>
+	<type>continuous decimal</type>
+	<logical_min>0.17</logical_min>
+	<logical_max>1</logical_max>
+	<comment>The weights are fractions (proportion of sites, out of 6, available for the calculations, so the values correspond to 1/6, 2/6, 3/6, 4/6, 5/6, 6/6).   They are a measure of precision.  Regression models using the ultrasound measurements as dependent variables will usually be more precise if weighted regression is used.</comment>
+</variable>
+
+<variable id="phv00080566.v1">
+	<name>linawt45</name>
+	<description>Weight for [LINART45]</description>
+	<type>continuous decimal</type>
+	<logical_min>0.17</logical_min>
+	<logical_max>1</logical_max>
+</variable>
+
+<variable id="phv00080567.v1">
+	<name>rinawt45</name>
+	<description>Weight for derived average far wall thickness (R internal carotid)</description>
+	<type>continuous decimal</type>
+	<logical_min>0.17</logical_min>
+	<logical_max>1</logical_max>
+	<comment>The weights are fractions (proportion of sites, out of 6, available for the calculations, so the values correspond to 1/6, 2/6, 3/6, 4/6, 5/6, 6/6).   They are a measure of precision.  Regression models using the ultrasound measurements as dependent variables will usually be more precise if weighted regression is used.</comment>
+</variable>
+
+<variable id="phv00080568.v1">
+	<name>mna45_1</name>
+	<description>Mean of the RT45 variables</description>
+	<type>continuous decimal</type>
+	<logical_min>0.36</logical_min>
+	<logical_max>2.74</logical_max>
+</variable>
+
+<variable id="phv00080569.v1">
+	<name>chmb07</name>
+	<description><![CDATA[<a href="http://www.ncbi.nlm.nih.gov/mesh/68005947?ordinalpos=1&itool=EntrezSystem2.PEntrez.Mesh.Mesh_ResultsPanel.Mesh_RVDocSum">Glucose</a> in mg/dl at visit 2 (Dec Pt Req Q7)]]></description>
+	<type>continuous integer</type>
+	<unit>mg/dL</unit>
+	<logical_min>19</logical_min>
+	<logical_max>605</logical_max>
+	<comment><![CDATA[<a href="javascript:getPage(this, &#39;document.cgi&#39;, 2064);return true;" onclick="javascript:getPage(this, &#39;document.cgi&#39;, 2064);return true;" oncontextmenu="javascript:getPage(this, &#39;document.cgi&#39;, 2064);return true;"> &quot;Clinical Chemistry Determinations &quot;</a>  document gives information on assays and quality control]]></comment>
+</variable>
+
+<variable id="phv00080570.v1">
+	<name>v2age22</name>
+	<description>Age at visit 2</description>
+	<type>continuous integer</type>
+	<unit>Years</unit>
+	<logical_min>46</logical_min>
+	<logical_max>70</logical_max>
+</variable>
+
+<variable id="phv00080571.v1">
+	<name>diabts23</name>
+	<description><![CDATA[Diabts22 [<a href="http://www.ncbi.nlm.nih.gov/mesh/68003920?ordinalpos=1&itool=EntrezSystem2.PEntrez.Mesh.Mesh_ResultsPanel.Mesh_RVDocSum">diabetes</a> - lower cut point 140 mg/dL, phd2067] using chmb07=126]]></description>
+	<type>enumerated integer</type>
+	<value code="1">Yes</value>
+	<value code="0">No</value>
+	<value code=".t">Missing</value>
+</variable>
+
+<variable id="phv00080572.v1">
+	<name>menops21</name>
+	<description><![CDATA[<a href="http://www.ncbi.nlm.nih.gov/sites/entrez?Db=mesh&Cmd=DetailsSearch&Term=Menopause%5BMULTI%5D">Menopausal status</a> variable at visit 2]]></description>
+	<type>enumerated integer</type>
+	<logical_min>2</logical_min>
+	<logical_max>8</logical_max>
+	<value code="1">Primary amenorrhea</value>
+	<value code="2">Premenopause</value>
+	<value code="3">Perimenopause</value>
+	<value code="4">Post natural</value>
+	<value code="5">Post surgical</value>
+	<value code="6">Unknown ovarian</value>
+	<value code="7">Post Radiation</value>
+	<value code="8">Post Unknown</value>
+	<value code=".t">Special Missing</value>
+	<value code=".">Missing</value>
+</variable>
+
+<variable id="phv00080573.v1">
+	<name>fast0823</name>
+	<description>Fasting time of 8 hours or more, Definition 2, at visit 2</description>
+	<type>enumerated integer</type>
+	<value code="1">Yes</value>
+	<value code="0">No</value>
+</variable>
+
+<variable id="phv00080574.v1">
+	<name>hhxb05d</name>
+	<description><![CDATA[<a href="http://www.ncbi.nlm.nih.gov/mesh/68003920?ordinalpos=1&itool=EntrezSystem2.PEntrez.Mesh.Mesh_ResultsPanel.Mesh_RVDocSum">Diabetes</a> ever diagnosed (visit 2)]]></description>
+	<type>text</type>
+	<value code="Y">Yes</value>
+	<value code="N">No</value>
+	<value code="U">Unknown</value>
+</variable>
+
+<variable id="phv00080575.v1">
+	<name>hmtb01</name>
+	<description><![CDATA[<a href="http://www.ncbi.nlm.nih.gov/mesh/68006400?ordinalpos=1&itool=EntrezSystem2.PEntrez.Mesh.Mesh_ResultsPanel.Mesh_RVDocSum">Hematocrit</a> at visit 2]]></description>
+	<type>continuous decimal</type>
+	<logical_min>18.8</logical_min>
+	<logical_max>60.6</logical_max>
+</variable>
+
+<variable id="phv00080576.v1">
+	<name>hmtb02</name>
+	<description><![CDATA[<a href="http://www.ncbi.nlm.nih.gov/mesh/68006454?ordinalpos=1&itool=EntrezSystem2.PEntrez.Mesh.Mesh_ResultsPanel.Mesh_RVDocSum">Hemoglobin</a> at visit 2]]></description>
+	<type>continuous decimal</type>
+	<logical_min>6.2</logical_min>
+	<logical_max>20.4</logical_max>
+</variable>
+
+<variable id="phv00080577.v1">
+	<name>hmtb13</name>
+	<description><![CDATA[<a href="http://www.ncbi.nlm.nih.gov/sites/entrez?Db=mesh&Cmd=DetailsSearch&Term=(%22european+continental+ancestry+group%22%5BMeSH+Terms%5D+OR+White%5BText+Word%5D)+AND+(%22blood%22%5BSubheading%5D+OR+%22blood%22%5BMeSH+Terms%5D+OR+blood%5BText+Word%5D)+AND+count%5BAll+Fields%5D">Mean corpuscular volume</a> (MCV) at visit 2]]></description>
+	<type>continuous integer</type>
+	<logical_min>53</logical_min>
+	<logical_max>140</logical_max>
+</variable>
+
+<variable id="phv00080578.v1">
+	<name>bpua02</name>
+	<description><![CDATA[<a href="http://www.ncbi.nlm.nih.gov/mesh/68000842?ordinalpos=2&itool=EntrezSystem2.PEntrez.Mesh.Mesh_ResultsPanel.Mesh_RVDocSum">Ankle</a> systolic BP <a href="http://www.ncbi.nlm.nih.gov/mesh/68001794?ordinalpos=2&itool=EntrezSystem2.PEntrez.Mesh.Mesh_ResultsPanel.Mesh_RVDocSum">[blood pressure]</a> at visit 3]]></description>
+	<type>continuous integer</type>
+	<unit>mm Hg</unit>
+	<logical_min>47</logical_min>
+	<logical_max>241</logical_max>
+</variable>
+
+<variable id="phv00080579.v1">
+	<name>armsbp33</name>
+	<description><![CDATA[Redefined supine brachial SBP [systolic <a href="http://www.ncbi.nlm.nih.gov/mesh/68001794?ordinalpos=2&itool=EntrezSystem2.PEntrez.Mesh.Mesh_ResultsPanel.Mesh_RVDocSum">blood pressure</a>] at visit 3]]></description>
+	<type>continuous integer</type>
+	<unit>mm Hg</unit>
+	<logical_min>76</logical_min>
+	<logical_max>245</logical_max>
+</variable>
+
+<variable id="phv00080580.v1">
+	<name>abi34</name>
+	<description><![CDATA[<a href="http://www.ncbi.nlm.nih.gov/sites/entrez?Db=mesh&Cmd=DetailsSearch&Term=%22ankle+brachial+index%22%5BMeSH+Terms%5D+OR+Ankle-brachial+index%5BText+Word%5D">Ankle-brachial index</a> at visit 3, (Definition 4)]]></description>
+	<type>continuous decimal</type>
+	<logical_min>0.29</logical_min>
+	<logical_max>1.69</logical_max>
+	<comment>At the ARIC [The Atherosclerosis Risk in Communities] examination visits arm and ankle systolic blood pressures were measured on resting subjects using the Dinamap 1846 SX. Brachial artery systolic pressures were measured in the right arm every five minutes during the carotid ultrasound examination. Posterior tibial artery systolic pressures were measured two times 5 to 8 minutes apart in one randomly selected leg. The ABI was calculated by dividing the average of the two ankle pressure measurements by the average of the first two brachial pressure readings (1, 2). The correlation between the duplicate blood pressure readings was 0.92 in the leg and 0.90 in the arm. The mean absolute difference between the duplicate readings was 0.5 mmHg (95% confidence interval (CI) 0.3-0.6) in the leg and 3.0 mmHg (95% CI 2.8-3.2) in the arm. Presence or absence of (PAD) was defined as an ABI less than 0.90 in men and less than 0.85 in women.</comment>
+</variable>
+
+<variable id="phv00080581.v1">
+	<name>legank_lr31</name>
+	<description><![CDATA[Leg for ankle BP [<a href="http://www.ncbi.nlm.nih.gov/mesh/68001794?ordinalpos=2&itool=EntrezSystem2.PEntrez.Mesh.Mesh_ResultsPanel.Mesh_RVDocSum">blood pressure</a>] at visit 3, Definition 1]]></description>
+	<type>text</type>
+	<value code="List">List</value>
+	<value code="L">Left</value>
+	<value code="R">Right</value>
+	<value code=".">Missing</value>
+</variable>
+
+<variable id="phv00080582.v1">
+	<name>legsam13</name>
+	<description><![CDATA[Same leg-ankle <a href="http://www.ncbi.nlm.nih.gov/mesh/68001794?ordinalpos=2&itool=EntrezSystem2.PEntrez.Mesh.Mesh_ResultsPanel.Mesh_RVDocSum">blood pressure</a> at visit 1 and visit 3]]></description>
+	<type>text</type>
+	<value code="Y">Yes</value>
+	<value code="N">No</value>
+	<value code=".">Missing value</value>
+</variable>
+
+<variable id="phv00080583.v1">
+	<name>amha1a</name>
+	<description><![CDATA[Age where subject first told had <a href="http://www.ncbi.nlm.nih.gov/mesh/68003920?ordinalpos=1&itool=EntrezSystem2.PEntrez.Mesh.Mesh_ResultsPanel.Mesh_RVDocSum">diabetes</a> [Q1A] at visit 3]]></description>
+	<type>continuous integer</type>
+	<unit>Years</unit>
+	<logical_min>2</logical_min>
+	<logical_max>72</logical_max>
+</variable>
+
+<variable id="phv00080584.v1">
+	<name>menops31</name>
+	<description><![CDATA[<a href="http://www.ncbi.nlm.nih.gov/sites/entrez?Db=mesh&Cmd=DetailsSearch&Term=Menopause%5BMULTI%5D">Menopausal status</a> variable at visit 3]]></description>
+	<type>enumerated integer</type>
+	<logical_min>2</logical_min>
+	<logical_max>8</logical_max>
+	<value code="2">Premenopause</value>
+	<value code="3">Perimenopause</value>
+	<value code="4">Post natural</value>
+	<value code="5">Post surgical</value>
+	<value code="6">Unknown ovarian</value>
+	<value code="7">Post radiation</value>
+	<value code="8">Post unknown</value>
+	<value code=".t">Special missing</value>
+	<value code=".">Missing</value>
+</variable>
+
+<variable id="phv00080585.v1">
+	<name>v3age31</name>
+	<description>Age at visit 3</description>
+	<type>continuous integer</type>
+	<unit>Years</unit>
+	<logical_min>49</logical_min>
+	<logical_max>73</logical_max>
+</variable>
+
+<variable id="phv00080586.v1">
+	<name>diabts34</name>
+	<description><![CDATA[<a href="http://www.ncbi.nlm.nih.gov/mesh/68003920?ordinalpos=1&itool=EntrezSystem2.PEntrez.Mesh.Mesh_ResultsPanel.Mesh_RVDocSum">Diabetes</a> using lower cut point 126 mg/dL at visit 3]]></description>
+	<type>enumerated integer</type>
+	<value code="1">Yes</value>
+	<value code="0">No</value>
+	<value code=".t">Missing</value>
+</variable>
+
+<variable id="phv00080587.v1">
+	<name>fast0834</name>
+	<description>Fasting time of 8 hours or more at visit 3</description>
+	<type>enumerated integer</type>
+	<value code="1">Yes</value>
+	<value code="0">No</value>
+	<value code=".t">Missing</value>
+</variable>
+
+<variable id="phv00080588.v1">
+	<name>lipc4a</name>
+	<description><![CDATA[<a href="http://www.ncbi.nlm.nih.gov/mesh/68005947?ordinalpos=1&itool=EntrezSystem2.PEntrez.Mesh.Mesh_ResultsPanel.Mesh_RVDocSum">Glucose</a> in mg/dl [Q4A] at visit 3]]></description>
+	<type>continuous integer</type>
+	<unit>mg/dL</unit>
+	<logical_min>52</logical_min>
+	<logical_max>685</logical_max>
+	<comment><![CDATA[<a href="javascript:getPage(this, &#39;document.cgi&#39;, 2078);return true;" onclick="javascript:getPage(this, &#39;document.cgi&#39;, 2078);return true;" oncontextmenu="javascript:getPage(this, &#39;document.cgi&#39;, 2078);return true;"> &quot;Lipid and Lipoprotein Determinations&quot;</a>  gives information on assays and quality control]]></comment>
+</variable>
+
+<variable id="phv00080589.v1">
+	<name>phxa8k</name>
+	<description><![CDATA[<a href="http://www.ncbi.nlm.nih.gov/mesh/68003920?ordinalpos=1&itool=EntrezSystem2.PEntrez.Mesh.Mesh_ResultsPanel.Mesh_RVDocSum">Diabetes</a> ever diagnosed (visit 3)]]></description>
+	<type>text</type>
+	<value code="Y">Yes</value>
+	<value code="N">No</value>
+	<value code="U">Unknown</value>
+</variable>
+
+<variable id="phv00080590.v1">
+	<name>bpub02</name>
+	<description><![CDATA[<a href="http://www.ncbi.nlm.nih.gov/mesh/68000842?ordinalpos=2&itool=EntrezSystem2.PEntrez.Mesh.Mesh_ResultsPanel.Mesh_RVDocSum">Ankle</a> systolic BP <a href="http://www.ncbi.nlm.nih.gov/mesh/68001794?ordinalpos=2&itool=EntrezSystem2.PEntrez.Mesh.Mesh_ResultsPanel.Mesh_RVDocSum">[blood pressure]</a> at visit 4]]></description>
+	<type>continuous integer</type>
+	<unit>mm Hg</unit>
+	<logical_min>57</logical_min>
+	<logical_max>241</logical_max>
+</variable>
+
+<variable id="phv00080591.v1">
+	<name>armsbp43</name>
+	<description><![CDATA[Redefined supine brachial SBP [systolic <a href="http://www.ncbi.nlm.nih.gov/mesh/68001794?ordinalpos=2&itool=EntrezSystem2.PEntrez.Mesh.Mesh_ResultsPanel.Mesh_RVDocSum">blood pressure</a>] at visit 4]]></description>
+	<type>continuous integer</type>
+	<unit>mm Hg</unit>
+	<logical_min>46</logical_min>
+	<logical_max>236</logical_max>
+</variable>
+
+<variable id="phv00080592.v1">
+	<name>abi44</name>
+	<description><![CDATA[<a href="http://www.ncbi.nlm.nih.gov/sites/entrez?Db=mesh&Cmd=DetailsSearch&Term=%22ankle+brachial+index%22%5BMeSH+Terms%5D+OR+Ankle-brachial+index%5BText+Word%5D">Ankle-brachial index</a> at visit 4, (Definition 4)]]></description>
+	<type>continuous decimal</type>
+	<logical_min>0.41</logical_min>
+	<logical_max>1.97</logical_max>
+	<comment>At the ARIC [The Atherosclerosis Risk in Communities] examination visits arm and ankle systolic blood pressures were measured on resting subjects using the Dinamap 1846 SX. Brachial artery systolic pressures were measured in the right arm every five minutes during the carotid ultrasound examination. Posterior tibial artery systolic pressures were measured two times 5 to 8 minutes apart in one randomly selected leg. The ABI was calculated by dividing the average of the two ankle pressure measurements by the average of the first two brachial pressure readings (1, 2). The correlation between the duplicate blood pressure readings was 0.92 in the leg and 0.90 in the arm. The mean absolute difference between the duplicate readings was 0.5 mmHg (95% confidence interval (CI) 0.3-0.6) in the leg and 3.0 mmHg (95% CI 2.8-3.2) in the arm. Presence or absence of (PAD) was defined as an ABI less than 0.90 in men and less than 0.85 in women.</comment>
+</variable>
+
+<variable id="phv00080593.v1">
+	<name>legank_lr41</name>
+	<description><![CDATA[Leg for ankle BP [<a href="http://www.ncbi.nlm.nih.gov/mesh/68001794?ordinalpos=2&itool=EntrezSystem2.PEntrez.Mesh.Mesh_ResultsPanel.Mesh_RVDocSum">blood pressure</a>] at visit 4, Definition 1]]></description>
+	<type>text</type>
+	<value code="List">List</value>
+	<value code="L">Left</value>
+	<value code="R">Right</value>
+	<value code=".">Missing</value>
+</variable>
+
+<variable id="phv00080594.v1">
+	<name>legsam14</name>
+	<description><![CDATA[Same leg-ankle <a href="http://www.ncbi.nlm.nih.gov/mesh/68001794?ordinalpos=2&itool=EntrezSystem2.PEntrez.Mesh.Mesh_ResultsPanel.Mesh_RVDocSum">blood pressure</a> at visit 1 and visit 4]]></description>
+	<type>text</type>
+	<value code="Y">Yes</value>
+	<value code="N">No</value>
+	<value code=".">Missing value</value>
+</variable>
+
+<variable id="phv00080595.v1">
+	<name>legsam34</name>
+	<description><![CDATA[Same leg - ankle <a href="http://www.ncbi.nlm.nih.gov/mesh/68001794?ordinalpos=2&itool=EntrezSystem2.PEntrez.Mesh.Mesh_ResultsPanel.Mesh_RVDocSum">blood pressure</a> at visit 3 and visit 4]]></description>
+	<type>text</type>
+	<value code="Y">Yes</value>
+	<value code="N">No</value>
+	<value code=".">Missing value</value>
+</variable>
+
+<variable id="phv00080596.v1">
+	<name>menops41</name>
+	<description><![CDATA[<a href="http://www.ncbi.nlm.nih.gov/sites/entrez?Db=mesh&Cmd=DetailsSearch&Term=Menopause%5BMULTI%5D">Menopausal status</a> at visit 4]]></description>
+	<type>enumerated integer</type>
+	<logical_min>2</logical_min>
+	<logical_max>8</logical_max>
+	<value code="2">Premenopause</value>
+	<value code="3">Perimenopause</value>
+	<value code="4">Post natural</value>
+	<value code="5">Post surgical</value>
+	<value code="6">Unknown ovarian</value>
+	<value code="7">Post radiation</value>
+	<value code="8">Post unknown</value>
+	<value code=".t">Special missing</value>
+	<value code=".">Missing</value>
+</variable>
+
+<variable id="phv00080597.v1">
+	<name>ethanl41</name>
+	<description>Usual ethanol intake in g/week at visit 4</description>
+	<type>continuous decimal</type>
+	<unit>g/week</unit>
+	<logical_min>0</logical_min>
+	<logical_max>1293.6</logical_max>
+</variable>
+
+<variable id="phv00080598.v1">
+	<name>bmi41</name>
+	<description><![CDATA[<a href="http://www.ncbi.nlm.nih.gov/sites/entrez?Db=mesh&Cmd=DetailsSearch&Term=%22body+mass+index%22%5BMeSH+Terms%5D+OR+Body+mass+index%5BText+Word%5D">Body mass index</a> in kg/(m*m) at visit 4]]></description>
+	<type>continuous decimal</type>
+	<unit>kg/(m*m)</unit>
+	<logical_min>13.52</logical_min>
+	<logical_max>59.23</logical_max>
+</variable>
+
+<variable id="phv00080599.v1">
+	<name>fast0841</name>
+	<description>Fasting time of 8 hours or more at visit 4</description>
+	<type>enumerated integer</type>
+	<value code="1">Yes</value>
+	<value code="0">No</value>
+	<value code=".t">Missing</value>
+</variable>
+
+<variable id="phv00080600.v1">
+	<name>diabts42</name>
+	<description><![CDATA[<a href="http://www.ncbi.nlm.nih.gov/mesh/68003920?ordinalpos=1&itool=EntrezSystem2.PEntrez.Mesh.Mesh_ResultsPanel.Mesh_RVDocSum">Diabetes</a> using lower cut point 126 mg/dL at visit 4]]></description>
+	<type>enumerated integer</type>
+	<value code="1">Yes</value>
+	<value code="0">No</value>
+	<value code=".t">Missing</value>
+</variable>
+
+<variable id="phv00080601.v1">
+	<name>v4age41</name>
+	<description>Age at visit 4</description>
+	<unit>Years</unit>
+	<logical_min>52</logical_min>
+	<logical_max>75</logical_max>
+</variable>
+
+<variable id="phv00080602.v1">
+	<name>hyptmdcode41</name>
+	<description><![CDATA[<a href="http://www.ncbi.nlm.nih.gov/mesh/68006973?ordinalpos=1&itool=EntrezSystem2.PEntrez.Mesh.Mesh_ResultsPanel.Mesh_RVDocSum">Hypertension</a> lowering medication within past 2 weeks at visit 4]]></description>
+	<type>enumerated integer</type>
+	<value code="1">Yes</value>
+	<value code="0">No</value>
+</variable>
+
+<variable id="phv00080603.v1">
+	<name>lipd4a</name>
+	<description><![CDATA[Fasting <a href="http://www.ncbi.nlm.nih.gov/mesh/68005947?ordinalpos=1&itool=EntrezSystem2.PEntrez.Mesh.Mesh_ResultsPanel.Mesh_RVDocSum">glucose</a> (value) [Q4A] at visit 4]]></description>
+	<type>continuous integer</type>
+	<unit>mg/dL</unit>
+	<logical_min>36</logical_min>
+	<logical_max>712</logical_max>
+	<comment>No available manual for the corresponding visit 4 glucose and insulin variables</comment>
+</variable>
+
+<variable id="phv00080604.v1">
+	<name>lipd5a</name>
+	<description><![CDATA[Two-our <a href="http://www.ncbi.nlm.nih.gov/mesh/68005947?ordinalpos=1&itool=EntrezSystem2.PEntrez.Mesh.Mesh_ResultsPanel.Mesh_RVDocSum">glucose</a> (value) [Q5A] at visit 4]]></description>
+	<type>continuous integer</type>
+	<unit>mg/dL</unit>
+	<logical_min>34</logical_min>
+	<logical_max>625</logical_max>
+	<comment><![CDATA[Measured as part of an oral glucose tolerance test.  Screening is documented on pages 47-49 of <a href="javascript:getPage(this, &#39;document.cgi&#39;, 2065);return true;" onclick="javascript:getPage(this, &#39;document.cgi&#39;, 2065);return true;" oncontextmenu="javascript:getPage(this, &#39;document.cgi&#39;, 2065);return true;">&quot;Atherosclerosis Risk in Communities Study Protocol&quot;</a>  , OGTT procedures are described on pages 72-75.]]></comment>
+</variable>
+
+<variable id="phv00080605.v1">
+	<name>lipd6a</name>
+	<description><![CDATA[<a href="http://www.ncbi.nlm.nih.gov/mesh/68003404?ordinalpos=1&itool=EntrezSystem2.PEntrez.Mesh.Mesh_ResultsPanel.Mesh_RVDocSum">Creatinine</a> (value) [Q6A] at visit 4]]></description>
+	<type>continuous decimal</type>
+	<logical_min>0</logical_min>
+	<logical_max>19.3</logical_max>
+</variable>
+
+<variable id="phv00080606.v1">
+	<name>lipd7a</name>
+	<description><![CDATA[<a href="http://www.ncbi.nlm.nih.gov/mesh/68007328?ordinalpos=1&itool=EntrezSystem2.PEntrez.Mesh.Mesh_ResultsPanel.Mesh_RVDocSum">Insulin</a> (value) [Q7A] at visit 4]]></description>
+	<type>continuous integer</type>
+	<unit>uU/mL</unit>
+	<logical_min>0</logical_min>
+	<logical_max>275</logical_max>
+	<comment>Insulin was measured by a radioimmunoassay (Boehringer Mannheim).</comment>
+</variable>
+
+<variable id="phv00080607.v1">
+	<name>mhqa6a</name>
+	<description><![CDATA[Ever told had <a href="http://www.ncbi.nlm.nih.gov/mesh/68006073?ordinalpos=1&itool=EntrezSystem2.PEntrez.Mesh.Mesh_ResultsPanel.Mesh_RVDocSum">gout</a> [Q6A] at visit 4]]></description>
+	<type>text</type>
+	<value code="Y">Yes</value>
+	<value code="N">No</value>
+</variable>
+
+<variable id="phv00080608.v1">
+	<name>phxb6c</name>
+	<description><![CDATA[<a href="http://www.ncbi.nlm.nih.gov/mesh/68003920?ordinalpos=1&itool=EntrezSystem2.PEntrez.Mesh.Mesh_ResultsPanel.Mesh_RVDocSum">Diabetes</a> ever diagnosed (visit 4)]]></description>
+	<type>text</type>
+	<unit>Cigarettes/day</unit>
+	<value code="Y">Yes</value>
+	<value code="N">No</value>
+	<value code="U">Unknown</value>
+</variable>
+
+<variable id="phv00080609.v1">
+	<name>sbpd19</name>
+	<description><![CDATA[1st and 2nd systolic <a href="http://www.ncbi.nlm.nih.gov/mesh/68001794?ordinalpos=2&itool=EntrezSystem2.PEntrez.Mesh.Mesh_ResultsPanel.Mesh_RVDocSum">blood pressure</a> average [Q19] at visit 4]]></description>
+	<unit>mm Hg</unit>
+	<logical_min>73</logical_min>
+	<logical_max>251</logical_max>
+</variable>
+
+<variable id="phv00080610.v1">
+	<name>sbpd20</name>
+	<description><![CDATA[1st and 2nd diastolic <a href="http://www.ncbi.nlm.nih.gov/mesh/68001794?ordinalpos=2&itool=EntrezSystem2.PEntrez.Mesh.Mesh_ResultsPanel.Mesh_RVDocSum">blood pressure</a> average [Q20] at visit 4]]></description>
+	<unit>mm Hg</unit>
+	<logical_min>18</logical_min>
+	<logical_max>136</logical_max>
+</variable>
+
+<variable id="phv00080611.v1">
+	<name>aspirincode01</name>
+	<description><![CDATA[Used aspirin-containing <a href="http://www.ncbi.nlm.nih.gov/mesh/68000700?ordinalpos=1&itool=EntrezSystem2.PEntrez.Mesh.Mesh_ResultsPanel.Mesh_RVDocSum">analgesics</a> in last 2 weeks, based on 2004 Med Code, (visit 1)]]></description>
+	<type>enumerated integer</type>
+	<value code="1">Yes</value>
+	<value code="0">No</value>
+</variable>
+
+<variable id="phv00080612.v1">
+	<name>statincode01</name>
+	<description>Used statin at visit 1 in last 2 weeks based on 2004 Med Code</description>
+	<type>enumerated integer</type>
+	<value code="1">Yes</value>
+	<value code="0">No</value>
+</variable>
+
+<variable id="phv00080613.v1">
+	<name>afinc</name>
+	<description><![CDATA[Incidence of <a href="http://www.ncbi.nlm.nih.gov/sites/entrez?Db=mesh&Cmd=DetailsSearch&Term=%22atrial+fibrillation%22%5BMeSH+Terms%5D+OR+atrial+fibrillation%5BText+Word%5D">atrial fibrillation</a>]]></description>
+	<type>enumerated integer</type>
+	<value code="1">Yes</value>
+	<value code="0">No</value>
+</variable>
+
+<variable id="phv00080615.v1">
+	<name>futimeaf</name>
+	<description><![CDATA[Definite time for incidence of AF [<a href="http://www.ncbi.nlm.nih.gov/sites/entrez?Db=mesh&Cmd=DetailsSearch&Term=%22atrial+fibrillation%22%5BMeSH+Terms%5D+OR+atrial+fibrillation%5BText+Word%5D">atrial fibrillation</a>]]]></description>
+	<type>continuous integer</type>
+	<unit>Days</unit>
+	<logical_min>14</logical_min>
+	<logical_max>6611</logical_max>
+</variable>
+
+<variable id="phv00080616.v1">
+	<name>hscrp</name>
+	<description><![CDATA[HsCRP [high sensitivity <a href="http://www.ncbi.nlm.nih.gov/mesh/68002097?ordinalpos=1&itool=EntrezSystem2.PEntrez.Mesh.Mesh_ResultsPanel.Mesh_RVDocSum">C-reactive protein</a> assay] in mg/L at visit 4]]></description>
+	<type>continuous decimal</type>
+	<unit>mg/L</unit>
+	<logical_min>0.15</logical_min>
+	<logical_max>142.74</logical_max>
+</variable>
+
+<variable id="phv00080617.v1">
+	<name>albfinal</name>
+	<description><![CDATA[Visit 4, urine <a href="http://www.ncbi.nlm.nih.gov/mesh/68000418?ordinalpos=1&itool=EntrezSystem2.PEntrez.Mesh.Mesh_ResultsPanel.Mesh_RVDocSum">albumin</a>]]></description>
+	<type>continuous integer</type>
+	<logical_min>1</logical_min>
+	<logical_max>6480</logical_max>
+</variable>
+
+<variable id="phv00080618.v1">
+	<name>creafinal</name>
+	<description><![CDATA[Visit 4, urine <a href="http://www.ncbi.nlm.nih.gov/mesh/68003404?ordinalpos=1&itool=EntrezSystem2.PEntrez.Mesh.Mesh_ResultsPanel.Mesh_RVDocSum">creatinine</a>]]></description>
+	<type>continuous decimal</type>
+	<logical_min>0.8</logical_min>
+	<logical_max>618</logical_max>
+</variable>
+
+<variable id="phv00080619.v1">
+	<name>acrfinal</name>
+	<description><![CDATA[Visit 4, urine <a href="http://www.ncbi.nlm.nih.gov/mesh/68000418?ordinalpos=1&itool=EntrezSystem2.PEntrez.Mesh.Mesh_ResultsPanel.Mesh_RVDocSum">albumin</a>-to-<a href="http://www.ncbi.nlm.nih.gov/mesh/68003404?ordinalpos=1&itool=EntrezSystem2.PEntrez.Mesh.Mesh_ResultsPanel.Mesh_RVDocSum">creatinine</a> ratio]]></description>
+	<type>continuous decimal</type>
+	<logical_min>0.25</logical_min>
+	<logical_max>9555.36</logical_max>
+</variable>
+
+<variable id="phv00080620.v1">
+	<name>ubmd05days</name>
+	<description>Time from visit 1 to ultrasound scan in days</description>
+	<type>continuous integer</type>
+	<unit>Days</unit>
+	<logical_min>-129</logical_min>
+	<logical_max>371</logical_max>
+</variable>
+
+<variable id="phv00080621.v1">
+	<name>daysv1tov2</name>
+	<description>Time from visit 1 to visit 2 in days</description>
+	<type>continuous integer</type>
+	<unit>Days</unit>
+	<logical_min>820</logical_min>
+	<logical_max>2086</logical_max>
+	<comment><![CDATA[Variable created specifically for <a href="http://www.genevastudy.org//">GENEVA</a>.  Documentation regarding the source for this variable is not available.]]></comment>
+</variable>
+
+<variable id="phv00080622.v1">
+	<name>daysv1tov3</name>
+	<description>Time from visit 1 to visit 3 in days</description>
+	<type>continuous integer</type>
+	<unit>Days</unit>
+	<logical_min>1673</logical_min>
+	<logical_max>3204</logical_max>
+	<comment><![CDATA[Variable created specifically for <a href="http://www.genevastudy.org//">GENEVA</a>.  Documentation regarding the source for this variable is not available.]]></comment>
+</variable>
+
+<variable id="phv00080623.v1">
+	<name>daysv1tov4</name>
+	<description>Time from visit 1 to visit 4 in days</description>
+	<type>continuous integer</type>
+	<unit>Days</unit>
+	<logical_min>2688</logical_min>
+	<logical_max>4350</logical_max>
+	<comment><![CDATA[Variable created specifically for <a href="http://www.genevastudy.org//">GENEVA</a>.  Documentation regarding the source for this variable is not available.]]></comment>
+</variable>
+
+<variable id="phv00080624.v1">
+	<name>v2year</name>
+	<description>Visit 2, year visit took place</description>
+	<type>integer</type>
+	<unit>Year</unit>
+	<comment><![CDATA[Variable created specifically for <a href="http://www.genevastudy.org//">GENEVA</a>.  Documentation regarding the source for this variable is not available.]]></comment>
+	<value code="1990">1990</value>
+	<value code="1991">1991</value>
+	<value code="1992">1992</value>
+	<value code="1993">1993</value>
+</variable>
+
+<variable id="phv00080625.v1">
+	<name>v2month</name>
+	<description>Visit 2, month visit took place</description>
+	<type>enumerated integer</type>
+	<comment><![CDATA[Variable created specifically for <a href="http://www.genevastudy.org//">GENEVA</a>.  Documentation regarding the source for this variable is not available.]]></comment>
+	<value code="1">January</value>
+	<value code="2">February</value>
+	<value code="3">March</value>
+	<value code="4">April</value>
+	<value code="5">May</value>
+	<value code="6">June</value>
+	<value code="7">July</value>
+	<value code="8">August</value>
+	<value code="9">September</value>
+	<value code="10">October</value>
+	<value code="11">November</value>
+	<value code="12">December</value>
+</variable>
+
+<variable id="phv00080626.v1">
+	<name>v3year</name>
+	<description>Visit 3, year visit took place</description>
+	<type>integer</type>
+	<unit>Year</unit>
+	<comment><![CDATA[Variable created specifically for <a href="http://www.genevastudy.org//">GENEVA</a>.  Documentation regarding the source for this variable is not available.]]></comment>
+	<value code="1993">1993</value>
+	<value code="1994">1994</value>
+	<value code="1995">1995</value>
+	<value code="1996">1996</value>
+</variable>
+
+<variable id="phv00080627.v1">
+	<name>v3month</name>
+	<description>Visit 3, month visit took place</description>
+	<type>enumerated integer</type>
+	<comment><![CDATA[Variable created specifically for <a href="http://www.genevastudy.org//">GENEVA</a>.  Documentation regarding the source for this variable is not available.]]></comment>
+	<value code="1">January</value>
+	<value code="2">February</value>
+	<value code="3">March</value>
+	<value code="4">April</value>
+	<value code="5">May</value>
+	<value code="6">June</value>
+	<value code="7">July</value>
+	<value code="8">August</value>
+	<value code="9">September</value>
+	<value code="10">October</value>
+	<value code="11">November</value>
+	<value code="12">December</value>
+</variable>
+
+<variable id="phv00080628.v1">
+	<name>v4year</name>
+	<description>Visit 4, year visit took place</description>
+	<type>integer</type>
+	<unit>Year</unit>
+	<comment><![CDATA[Variable created specifically for <a href="http://www.genevastudy.org//">GENEVA</a>.  Documentation regarding the source for this variable is not available.]]></comment>
+	<value code="1996">1996</value>
+	<value code="1997">1997</value>
+	<value code="1998">1998</value>
+	<value code="1999">1999</value>
+</variable>
+
+<variable id="phv00080629.v1">
+	<name>v4month</name>
+	<description>Visit 4, month visit took place</description>
+	<type>enumerated integer</type>
+	<comment><![CDATA[Variable created specifically for <a href="http://www.genevastudy.org//">GENEVA</a>.  Documentation regarding the source for this variable is not available.]]></comment>
+	<value code="1">January</value>
+	<value code="2">February</value>
+	<value code="3">March</value>
+	<value code="4">April</value>
+	<value code="5">May</value>
+	<value code="6">June</value>
+	<value code="7">July</value>
+	<value code="8">August</value>
+	<value code="9">September</value>
+	<value code="10">October</value>
+	<value code="11">November</value>
+	<value code="12">December</value>
+</variable>
+
+<variable id="phv00080630.v1">
+	<name>centeridv2</name>
+	<description>Field Center at visit 2</description>
+	<type>text</type>
+	<comment><![CDATA[Variable created specifically for <a href="http://www.genevastudy.org//">GENEVA</a>.  Documentation regarding the source for this variable is not available.]]></comment>
+	<value code="A">ARIC [The Atherosclerosis Risk in Communities] field center A</value>
+	<value code="B">ARIC [The Atherosclerosis Risk in Communities] field center B</value>
+	<value code="C">ARIC [The Atherosclerosis Risk in Communities] field center C</value>
+	<value code="D">ARIC [The Atherosclerosis Risk in Communities] field center D</value>
+</variable>
+
+<variable id="phv00080631.v1">
+	<name>centeridv3</name>
+	<description>Field Center at visit 3</description>
+	<type>text</type>
+	<comment><![CDATA[Variable created specifically for <a href="http://www.genevastudy.org//">GENEVA</a>.  Documentation regarding the source for this variable is not available.]]></comment>
+	<value code="A">ARIC [The Atherosclerosis Risk in Communities] field center A</value>
+	<value code="B">ARIC [The Atherosclerosis Risk in Communities] field center B</value>
+	<value code="C">ARIC [The Atherosclerosis Risk in Communities] field center C</value>
+	<value code="D">ARIC [The Atherosclerosis Risk in Communities] field center D</value>
+</variable>
+
+<variable id="phv00080632.v1">
+	<name>centeridv4</name>
+	<description>Field Center at visit 4</description>
+	<type>text</type>
+	<comment><![CDATA[Variable created specifically for <a href="http://www.genevastudy.org//">GENEVA</a>.  Documentation regarding the source for this variable is not available.]]></comment>
+	<value code="A">ARIC [The Atherosclerosis Risk in Communities] field center A</value>
+	<value code="B">ARIC [The Atherosclerosis Risk in Communities] field center B</value>
+	<value code="C">ARIC [The Atherosclerosis Risk in Communities] field center C</value>
+	<value code="D">ARIC [The Atherosclerosis Risk in Communities] field center D</value>
+</variable>
+
+<variable id="phv00080633.v1">
+	<name>db_ret</name>
+	<description><![CDATA[<a href="http://www.ncbi.nlm.nih.gov/sites/entrez?Db=mesh&Cmd=DetailsSearch&Term=%22diabetic+retinopathy%22%5BMeSH+Terms%5D+OR+Diabetic+retinopathy%5BText+Word%5D">Diabetic retinopathy</a> (visit 3)]]></description>
+	<type>enumerated integer</type>
+	<comment>Defined only in participants with diabetes at visit 3</comment>
+	<value code="1">Yes</value>
+	<value code="0">No</value>
+</variable>
+
+<variable id="phv00080634.v1">
+	<name>prlf_db_ret</name>
+	<description><![CDATA[Proliferative <a href="http://www.ncbi.nlm.nih.gov/sites/entrez?Db=mesh&Cmd=DetailsSearch&Term=%22diabetic+retinopathy%22%5BMeSH+Terms%5D+OR+diabetic+retinopathy%5BText+Word%5D">diabetic retinopathy</a> at visit 3 at visit 3]]></description>
+	<type>enumerated integer</type>
+	<comment>Defined only in participants with diabetes at visit 3</comment>
+	<value code="1">Yes</value>
+	<value code="0">No</value>
+</variable>
+
+<variable id="phv00080635.v1">
+	<name>macula_edema</name>
+	<description><![CDATA[<a href="http://www.ncbi.nlm.nih.gov/sites/entrez?Db=mesh&Cmd=DetailsSearch&Term=%22macular+edema%22%5BMeSH+Terms%5D+OR+Macular+edema%5BText+Word%5D">Macular edema</a> in diabetics at visit 3]]></description>
+	<type>enumerated integer</type>
+	<comment>Defined only in participants with diabetes at visit 3</comment>
+	<value code="1">Yes</value>
+	<value code="0">No</value>
+</variable>
+
+<variable id="phv00080636.v1">
+	<name>v1_db_med</name>
+	<description>Self-reported diabetic medicines at visit 1</description>
+	<type>enumerated integer</type>
+	<value code="1">Yes</value>
+	<value code="0">No</value>
+</variable>
+
+<variable id="phv00080637.v1">
+	<name>v2_db_med</name>
+	<description>Self-reported diabetic medications at visit 2</description>
+	<type>enumerated integer</type>
+	<value code="1">Yes</value>
+	<value code="0">No</value>
+</variable>
+
+<variable id="phv00080638.v1">
+	<name>v3_db_med</name>
+	<description>Self-reported diabetic medications at visit 3</description>
+	<type>enumerated integer</type>
+	<value code="1">Yes</value>
+	<value code="0">No</value>
+</variable>
+
+<variable id="phv00080639.v1">
+	<name>v4_db_med</name>
+	<description>Self-reported diabetic medications at visit 4</description>
+	<type>enumerated integer</type>
+	<value code="1">Yes</value>
+	<value code="0">No</value>
+</variable>
+
+<variable id="phv00080640.v1">
+	<name>v2cvdcrsweight</name>
+	<description><![CDATA[Visit 2, CVD [<a href="http://www.ncbi.nlm.nih.gov/mesh/68002318?ordinalpos=1&itool=EntrezSystem2.PEntrez.Mesh.Mesh_ResultsPanel.Mesh_RVDocSum">cardiovascular disease</a>] cohort random sample stratum weight]]></description>
+	<type>continuous decimal</type>
+	<logical_min>4.99</logical_min>
+	<logical_max>28.5</logical_max>
+	<comment><![CDATA[Cardiovascular disease case-cohort random sample where primary exclusion was cardiovascular disease at visit 2.  Stratification is on race, gender and age.
+		Variable created specifically for <a href="http://www.genevastudy.org//">GENEVA</a>.  Documentation regarding the source for this variable is not available. ]]></comment>
+</variable>
+
+<variable id="phv00080641.v1">
+	<name>v2cvdcrsstrata</name>
+	<description><![CDATA[Visit 2, CVD [<a href="http://www.ncbi.nlm.nih.gov/mesh/68002318?ordinalpos=1&itool=EntrezSystem2.PEntrez.Mesh.Mesh_ResultsPanel.Mesh_RVDocSum">cardiovascular disease</a>] cohort random sample stratum]]></description>
+	<type>text</type>
+	<comment><![CDATA[Cardiovascular disease case-cohort random sample where primary exclusion was cardiovascular disease at visit 2.  Stratification is on race, gender and age.
+		Variable created specifically for <a href="http://www.genevastudy.org//">GENEVA</a>.  Documentation regarding the source for this variable is not available. ]]></comment>
+	<value code="BFGE55">African American female, age greater than or equal to 55 years</value>
+	<value code="BFLE54">African American female, age less than or equal to 54 years</value>
+	<value code="BMGE55">African American male, age greater than or equal to 55 years</value>
+	<value code="BMLE54">African American male, age less than or equal to 54 years</value>
+	<value code="WFGE55">White female, age greater than or equal to 55 years</value>
+	<value code="WFLE54">White female, age less than or equal to 54 years</value>
+	<value code="WMGE55">White male, age greater than or equal to 55 years</value>
+	<value code="WMLE54">White male, age less than or equal to 54 years</value>
+</variable>
+
+<variable id="phv00080642.v1">
+	<name>v2crp</name>
+	<description><![CDATA[HsCRP [high sensitivity <a href="http://www.ncbi.nlm.nih.gov/mesh/68002097?ordinalpos=1&itool=EntrezSystem2.PEntrez.Mesh.Mesh_ResultsPanel.Mesh_RVDocSum">C-reactive protein</a> assay] in mg/L in visit 2 CVD [<a href="http://www.ncbi.nlm.nih.gov/mesh/68002318?ordinalpos=1&itool=EntrezSystem2.PEntrez.Mesh.Mesh_ResultsPanel.Mesh_RVDocSum">cardiovascular disease</a>] cohort random sample]]></description>
+	<type>continuous decimal</type>
+	<unit>mg/L</unit>
+	<logical_min>0</logical_min>
+	<logical_max>17.95</logical_max>
+	<comment>Cardiovascular disease case-cohort random sample where primary exclusion was cardiovascular disease at visit 2.  Stratification is on race, gender and age.</comment>
+</variable>
+
+<variable id="phv00080643.v1">
+	<name>v2icam</name>
+	<description><![CDATA[SICAM-1 in ng/mL in visit 2, CVD [<a href="http://www.ncbi.nlm.nih.gov/mesh/68002318?ordinalpos=1&itool=EntrezSystem2.PEntrez.Mesh.Mesh_ResultsPanel.Mesh_RVDocSum">cardiovascular disease</a>] cohort random sample]]></description>
+	<type>continuous decimal</type>
+	<unit>ng/mL</unit>
+	<logical_min>5.08</logical_min>
+	<logical_max>1840.1</logical_max>
+	<comment>Cardiovascular disease case-cohort random sample where primary exclusion was cardiovascular disease at visit 2.  Stratification is on race, gender and age.</comment>
+</variable>
+
+<variable id="phv00080644.v1">
+	<name>v2lppla2</name>
+	<description><![CDATA[OpPla2 in mg/L in visit 2, CVD [<a href="http://www.ncbi.nlm.nih.gov/mesh/68002318?ordinalpos=1&itool=EntrezSystem2.PEntrez.Mesh.Mesh_ResultsPanel.Mesh_RVDocSum">cardiovascular disease</a>] cohort random sample]]></description>
+	<type>continuous decimal</type>
+	<unit>mg/L</unit>
+	<logical_min>0.08</logical_min>
+	<logical_max>0.95</logical_max>
+	<comment>Cardiovascular disease case-cohort random sample where primary exclusion was cardiovascular disease at visit 2.  Stratification is on race, gender and age.</comment>
+</variable>
+
+<variable id="phv00080645.v1">
+	<name>crsv2cvd</name>
+	<description><![CDATA[In visit 2 CVD [<a href="http://www.ncbi.nlm.nih.gov/mesh/68002318?ordinalpos=1&itool=EntrezSystem2.PEntrez.Mesh.Mesh_ResultsPanel.Mesh_RVDocSum">cardiovascular disease</a>] cohort random sample (V2 CVD CRS)]]></description>
+	<type>enumerated integer</type>
+	<comment><![CDATA[Cardiovascular disease case-cohort random sample where primary exclusion was cardiovascular disease at visit 2.  Stratification is on race, gender and age.
+		Variable created specifically for <a href="http://www.genevastudy.org//">GENEVA</a>.  Documentation regarding the source for this variable is not available. ]]></comment>
+	<value code="1">Yes</value>
+	<value code="0">No</value>
+</variable>
+
+<variable id="phv00080646.v1">
+	<name>crsv1dm</name>
+	<description><![CDATA[In visit 1 <a href="http://www.ncbi.nlm.nih.gov/mesh/68003920?ordinalpos=1&itool=EntrezSystem2.PEntrez.Mesh.Mesh_ResultsPanel.Mesh_RVDocSum">diabetes</a> cohort random sample (V1 DM CRS)]]></description>
+	<type>enumerated integer</type>
+	<comment><![CDATA[Diabetes case-cohort random sample with exclusions described in Duncan et al in Diabetes 2007
+		Variable created specifically for <a href="http://www.genevastudy.org//">GENEVA</a>.  Documentation regarding the source for this variable is not available. ]]></comment>
+	<value code="1">Yes</value>
+	<value code="0">No</value>
+</variable>
+
+<variable id="phv00080647.v1">
+	<name>v1dmcrsweight</name>
+	<description><![CDATA[Visit 1, <a href="http://www.ncbi.nlm.nih.gov/mesh/68003920?ordinalpos=1&itool=EntrezSystem2.PEntrez.Mesh.Mesh_ResultsPanel.Mesh_RVDocSum">Diabetes Mellitus</a> cohort random sample stratum weight]]></description>
+	<type>continuous decimal</type>
+	<logical_min>7.18</logical_min>
+	<logical_max>22.65</logical_max>
+	<comment><![CDATA[Diabetes case-cohort random sample with exclusions described in Duncan et al in Diabetes 2007
+		Variable created specifically for <a href="http://www.genevastudy.org//">GENEVA</a>.  Documentation regarding the source for this variable is not available. ]]></comment>
+</variable>
+
+<variable id="phv00080648.v1">
+	<name>v1il6</name>
+	<description><![CDATA[<a href="http://www.ncbi.nlm.nih.gov/mesh/68015850?ordinalpos=2&itool=EntrezSystem2.PEntrez.Mesh.Mesh_ResultsPanel.Mesh_RVDocSum">IL6</a> in pg/ml in visit 1, <a href="http://www.ncbi.nlm.nih.gov/mesh/68003920?ordinalpos=1&itool=EntrezSystem2.PEntrez.Mesh.Mesh_ResultsPanel.Mesh_RVDocSum">Diabetes Mellitus</a> cohort random sample]]></description>
+	<type>continuous decimal</type>
+	<logical_min>0.19</logical_min>
+	<logical_max>24.84</logical_max>
+	<comment>Diabetes case-cohort random sample with exclusions described in Duncan et al in Diabetes 2007</comment>
+</variable>
+
+<variable id="phv00080649.v1">
+	<name>v1dmcrsstrata</name>
+	<description><![CDATA[Visit 1, <a href="http://www.ncbi.nlm.nih.gov/mesh/68003920?ordinalpos=1&itool=EntrezSystem2.PEntrez.Mesh.Mesh_ResultsPanel.Mesh_RVDocSum">Diabetes Mellitus</a> cohort random sample stratum]]></description>
+	<type>text</type>
+	<comment><![CDATA[Diabetes case-cohort random sample with exclusions described in Duncan et al in Diabetes 2007
+		Variable created specifically for <a href="http://www.genevastudy.org//">GENEVA</a>.  Documentation regarding the source for this variable is not available. ]]></comment>
+	<value code="B">African American</value>
+	<value code="W">White</value>
+</variable>
+
+<variable id="phv00080650.v1">
+	<name>v1cvdcrsweight</name>
+	<description><![CDATA[Visit 1, CVD [<a href="http://www.ncbi.nlm.nih.gov/mesh/68002318?ordinalpos=1&itool=EntrezSystem2.PEntrez.Mesh.Mesh_ResultsPanel.Mesh_RVDocSum">cardiovascular disease</a>] cohort random sample stratum weight]]></description>
+	<type>continuous decimal</type>
+	<logical_min>1.02</logical_min>
+	<logical_max>50.22</logical_max>
+	<comment><![CDATA[Cardiovascular disease case-cohort random sample where primary exclusion was cardiovascular disease at baseline.  Stratification is on gender, age and carotid IMT [intima media thickness].
+		Variable created specifically for <a href="http://www.genevastudy.org//">GENEVA</a>.  Documentation regarding the source for this variable is not available. ]]></comment>
+</variable>
+
+<variable id="phv00080651.v1">
+	<name>crsv1cvd</name>
+	<description><![CDATA[In visit 1 CVD [<a href="http://www.ncbi.nlm.nih.gov/mesh/68002318?ordinalpos=1&itool=EntrezSystem2.PEntrez.Mesh.Mesh_ResultsPanel.Mesh_RVDocSum">cardiovascular disease</a>] cohort random sample (V1 CVD CRS)]]></description>
+	<type>enumerated integer</type>
+	<comment><![CDATA[Cardiovascular disease case-cohort random sample where primary exclusion was cardiovascular disease at baseline.  Stratification is on gender, age and carotid IMT [intima media thickness ].
+		Variable created specifically for <a href="http://www.genevastudy.org//">GENEVA</a>.  Documentation regarding the source for this variable is not available. ]]></comment>
+	<value code="1">Yes</value>
+	<value code="0">No</value>
+</variable>
+
+<variable id="phv00080652.v1">
+	<name>v1cvdcrsstrata</name>
+	<description><![CDATA[Visit 1, CVD [<a href="http://www.ncbi.nlm.nih.gov/mesh/68002318?ordinalpos=1&itool=EntrezSystem2.PEntrez.Mesh.Mesh_ResultsPanel.Mesh_RVDocSum">cardiovascular disease</a>] cohort random sample stratum]]></description>
+	<type>text</type>
+	<comment><![CDATA[Cardiovascular disease case-cohort random sample where primary exclusion was cardiovascular disease at baseline.  Stratification is on gender, age and carotid IMT [intima media thickness].
+		Variable created specifically for <a href="http://www.genevastudy.org//">GENEVA</a>.  Documentation regarding the source for this variable is not available. ]]></comment>
+	<value code="FGE55NTN">Female, age greater than or equal to 55 years, not thin</value>
+	<value code="FGE55_TN">Female, age greater than or equal to 55 years, thin</value>
+	<value code="FLE54NTN">Female, age less than or equal to 54 years, not thin</value>
+	<value code="FLE54_TN">Female, age less than or equal to 54 years, thin</value>
+	<value code="MGE55NTN">Male, age greater than or equal to 55 years, not thin</value>
+	<value code="MGE55_TN">Male, age greater than or equal to 55 years, thin</value>
+	<value code="MLE54NTN">Male, age less than or equal to 54 years, not thin</value>
+	<value code="MLE54_TN">Male, age less than or equal to 54 years, thin</value>
+</variable>
+
+<variable id="phv00080653.v1">
+	<name>v1mcp1</name>
+	<description><![CDATA[MCP1 in visit 1 CVD [<a href="http://www.ncbi.nlm.nih.gov/mesh/68002318?ordinalpos=1&itool=EntrezSystem2.PEntrez.Mesh.Mesh_ResultsPanel.Mesh_RVDocSum">cardiovascular disease</a>] cohort random sample]]></description>
+	<type>continuous decimal</type>
+	<logical_min>153.07</logical_min>
+	<logical_max>7269.28</logical_max>
+	<comment>Cardiovascular disease case-cohort random sample where primary exclusion was cardiovascular disease at baseline.  Stratification is on gender, age and carotid IMT [intima media thickness].</comment>
+</variable>
+
+<variable id="phv00080654.v1">
+	<name>v1pselectin</name>
+	<description><![CDATA[P-Selectin in visit 1 CVD [<a href="http://www.ncbi.nlm.nih.gov/mesh/68002318?ordinalpos=1&itool=EntrezSystem2.PEntrez.Mesh.Mesh_ResultsPanel.Mesh_RVDocSum">cardiovascular disease</a>] cohort random sample]]></description>
+	<type>continuous decimal</type>
+	<logical_min>1.18</logical_min>
+	<logical_max>177.09</logical_max>
+	<comment>Cardiovascular disease case-cohort random sample where primary exclusion was cardiovascular disease at baseline.  Stratification is on gender, age and carotid IMT [intima media thickness].</comment>
+</variable>
+
+<variable id="phv00080655.v1">
+	<name>v1crp</name>
+	<description><![CDATA[CRP [<a href="http://www.ncbi.nlm.nih.gov/mesh/68002097?ordinalpos=1&itool=EntrezSystem2.PEntrez.Mesh.Mesh_ResultsPanel.Mesh_RVDocSum">C-reactive protein</a>] in visit 1 CVD [<a href="http://www.ncbi.nlm.nih.gov/mesh/68002318?ordinalpos=1&itool=EntrezSystem2.PEntrez.Mesh.Mesh_ResultsPanel.Mesh_RVDocSum">cardiovascular disease</a>] cohort random sample]]></description>
+	<type>continuous integer</type>
+	<logical_min>26</logical_min>
+	<logical_max>48930</logical_max>
+	<comment><![CDATA[Cardiovascular disease case-cohort random sample where primary exclusion was cardiovascular disease at baseline.  Stratification is on gender, age and carotid IMT [intima media thickness].
+		Variable created specifically for <a href="http://www.genevastudy.org//">GENEVA</a>.  Documentation regarding the source for this variable is not available. ]]></comment>
+</variable>
+
+<variable id="phv00080656.v1">
+	<name>v1ddimer</name>
+	<description><![CDATA[<a href="http://www.genevastudy.org//">D-dimer</a> in visit 1,  CVD [<a href="http://www.ncbi.nlm.nih.gov/mesh/68002318?ordinalpos=1&itool=EntrezSystem2.PEntrez.Mesh.Mesh_ResultsPanel.Mesh_RVDocSum">cardiovascular disease</a>] cohort random sample]]></description>
+	<type>continuous integer</type>
+	<logical_min>104</logical_min>
+	<logical_max>21216</logical_max>
+	<comment>Cardiovascular disease case-cohort random sample where primary exclusion was cardiovascular disease at baseline.  Stratification is on gender, age and carotid IMT [intima media thickness].</comment>
+</variable>
+
+<variable id="phv00080657.v1">
+	<name>v1pai1</name>
+	<description><![CDATA[PAI-1 in visit 1 CVD [<a href="http://www.ncbi.nlm.nih.gov/mesh/68002318?ordinalpos=1&itool=EntrezSystem2.PEntrez.Mesh.Mesh_ResultsPanel.Mesh_RVDocSum">cardiovascular disease</a>] cohort random sample]]></description>
+	<type>continuous decimal</type>
+	<logical_min>0.94</logical_min>
+	<logical_max>633.2</logical_max>
+	<comment>Cardiovascular disease case-cohort random sample where primary exclusion was cardiovascular disease at baseline.  Stratification is on gender, age and carotid IMT [intima media thickness].</comment>
+</variable>
+
+<variable id="phv00080658.v1">
+	<name>v1fviia</name>
+	<description><![CDATA[<a href="http://www.ncbi.nlm.nih.gov/mesh/68015942?ordinalpos=1&itool=EntrezSystem2.PEntrez.Mesh.Mesh_ResultsPanel.Mesh_RVDocSum">Factor VIIa</a> in visit 1 CVD [<a href="http://www.ncbi.nlm.nih.gov/mesh/68002318?ordinalpos=1&itool=EntrezSystem2.PEntrez.Mesh.Mesh_ResultsPanel.Mesh_RVDocSum">cardiovascular disease</a>] cohort random sample]]></description>
+	<type>continuous decimal</type>
+	<logical_min>10.4</logical_min>
+	<logical_max>7392</logical_max>
+	<comment>Cardiovascular disease case-cohort random sample where primary exclusion was cardiovascular disease at baseline.  Stratification is on gender, age and carotid IMT [intima media thickness].</comment>
+</variable>
+
+<variable id="phv00080659.v1">
+	<name>v1fviiag</name>
+	<description><![CDATA[Factor VIIag in visit 1 CVD [<a href="http://www.ncbi.nlm.nih.gov/mesh/68002318?ordinalpos=1&itool=EntrezSystem2.PEntrez.Mesh.Mesh_ResultsPanel.Mesh_RVDocSum">cardiovascular disease</a>] cohort random sample]]></description>
+	<type>continuous decimal</type>
+	<logical_min>63.5</logical_min>
+	<logical_max>444.6</logical_max>
+	<comment>Cardiovascular disease case-cohort random sample where primary exclusion was cardiovascular disease at baseline.  Stratification is on gender, age and carotid IMT [intima media thickness ].</comment>
+</variable>
+
+<variable id="phv00080660.v1">
+	<name>work_i03</name>
+	<description>Physical activity at work index, definition 3</description>
+	<type>continuous decimal</type>
+	<logical_min>1</logical_min>
+	<logical_max>4.87</logical_max>
+</variable>
+
+<variable id="phv00080661.v1">
+	<name>elevel01</name>
+	<description>Education level, definition 1, at visit 1</description>
+	<type>enumerated integer</type>
+	<value code="1">Grade school or 0 years education</value>
+	<value code="2">High school, but no degree</value>
+	<value code="3">High school graduate</value>
+	<value code="4">Vocational school</value>
+	<value code="5">College</value>
+	<value code="6">Graduate school or Professional school</value>
+</variable>
+
+<variable id="phv00080662.v1">
+	<name>elevel02</name>
+	<description>Education level, definition 2, at visit 1</description>
+	<type>enumerated integer</type>
+	<value code="1">Basic Education or 0 Years Education</value>
+	<value code="2">Intermediate Education</value>
+	<value code="3">Advanced Education</value>
+</variable>
+
+<variable id="phv00080663.v1">
+	<name>chma13</name>
+	<description><![CDATA[<a href="http://www.ncbi.nlm.nih.gov/mesh/68000418?ordinalpos=1&itool=EntrezSystem2.PEntrez.Mesh.Mesh_ResultsPanel.Mesh_RVDocSum">Albumin</a> in gm/dl at visit 1]]></description>
+	<type>continuous decimal</type>
+	<unit>gm/dL</unit>
+	<logical_min>2</logical_min>
+	<logical_max>5.1</logical_max>
+</variable>
+
+<variable id="phv00080664.v1">
+	<name>chma14</name>
+	<description><![CDATA[Total <a href="http://www.ncbi.nlm.nih.gov/mesh/68011506?ordinalpos=2&itool=EntrezSystem2.PEntrez.Mesh.Mesh_ResultsPanel.Mesh_RVDocSum">protein</a> in gm/dl at visit 1]]></description>
+	<type>continuous decimal</type>
+	<unit>gm/dL</unit>
+	<logical_min>5.2</logical_min>
+	<logical_max>9.7</logical_max>
+</variable>
+
+<variable id="phv00080665.v1">
+	<name>dtia39</name>
+	<description>Consumed chocolate bar or pieces [in the past year]</description>
+	<type>text</type>
+	<value code="A">More than 6 per day</value>
+	<value code="B">4-6  per  day</value>
+	<value code="C">2-3  per  day</value>
+	<value code="D">1  per  day</value>
+	<value code="E">5-6 per week</value>
+	<value code="F">2-4 per week</value>
+	<value code="G">1 per week</value>
+	<value code="H">1-3 per month</value>
+	<value code="I">Almost never</value>
+</variable>
+
+<variable id="phv00080666.v1">
+	<name>dtia61</name>
+	<description>Consumed coffee [in the past year]</description>
+	<type>text</type>
+	<value code="A">More than 6 per day</value>
+	<value code="B">4-6  per  day</value>
+	<value code="C">2-3  per  day</value>
+	<value code="D">1  per  day</value>
+	<value code="E">5-6 per week</value>
+	<value code="F">2-4 per week</value>
+	<value code="G">1 per week</value>
+	<value code="H">1-3 per month</value>
+	<value code="I">Almost never</value>
+</variable>
+
+<variable id="phv00080667.v1">
+	<name>dtia62</name>
+	<description>Consumed hot or iced tea [in the past year]</description>
+	<type>text</type>
+	<value code="A">More than 6 per day</value>
+	<value code="B">4-6  per  day</value>
+	<value code="C">2-3  per  day</value>
+	<value code="D">1  per  day</value>
+	<value code="E">5-6 per week</value>
+	<value code="F">2-4 per week</value>
+	<value code="G">1 per week</value>
+	<value code="H">1-3 per month</value>
+	<value code="I">Almost never</value>
+</variable>
+
+<variable id="phv00080668.v1">
+	<name>dtia63</name>
+	<description>Consumed low calorie soft drinks [in the past year]</description>
+	<type>text</type>
+	<value code="A">More than 6 per day</value>
+	<value code="B">4-6  per  day</value>
+	<value code="C">2-3  per  day</value>
+	<value code="D">1  per  day</value>
+	<value code="E">5-6 per week</value>
+	<value code="F">2-4 per week</value>
+	<value code="G">1 per week</value>
+	<value code="H">1-3 per month</value>
+	<value code="I">Almost never</value>
+</variable>
+
+<variable id="phv00080669.v1">
+	<name>dtia64</name>
+	<description>Consumed regular soft drinks [in the past year]</description>
+	<type>text</type>
+	<value code="A">More than 6 per day</value>
+	<value code="B">4-6  per  day</value>
+	<value code="C">2-3  per  day</value>
+	<value code="D">1  per  day</value>
+	<value code="E">5-6 per week</value>
+	<value code="F">2-4 per week</value>
+	<value code="G">1 per week</value>
+	<value code="H">1-3 per month</value>
+	<value code="I">Almost never</value>
+</variable>
+
+<variable id="phv00080670.v1">
+	<name>dtia65</name>
+	<description>Consumed fruit-flavored punch [in the past year]</description>
+	<type>text</type>
+	<value code="A">More than 6 per day</value>
+	<value code="B">4-6  per  day</value>
+	<value code="C">2-3  per  day</value>
+	<value code="D">1  per  day</value>
+	<value code="E">5-6 per week</value>
+	<value code="F">2-4 per week</value>
+	<value code="G">1 per week</value>
+	<value code="H">1-3 per month</value>
+	<value code="I">Almost never</value>
+</variable>
+
+<variable id="phv00080671.v1">
+	<name>dtia90</name>
+	<description>Drink alcoholic beverages</description>
+	<type>text</type>
+	<value code="Y">Yes</value>
+	<value code="N">No</value>
+</variable>
+
+<variable id="phv00080672.v1">
+	<name>dtia91</name>
+	<description>Consumed alcoholic beverages</description>
+	<type>text</type>
+	<value code="Y">Yes</value>
+	<value code="N">No</value>
+</variable>
+
+<variable id="phv00080673.v1">
+	<name>dtia92</name>
+	<description>Number of years stopped drinking</description>
+	<type>continuous integer</type>
+	<unit>Years</unit>
+	<logical_min>0</logical_min>
+	<logical_max>50</logical_max>
+</variable>
+
+<variable id="phv00080674.v1">
+	<name>dtia93</name>
+	<description>Number of years that you drank</description>
+	<type>continuous integer</type>
+	<unit>Years</unit>
+	<logical_min>0</logical_min>
+	<logical_max>50</logical_max>
+</variable>
+
+<variable id="phv00080675.v1">
+	<name>dtia94a</name>
+	<description>Drink wine?</description>
+	<type>text</type>
+	<value code="Y">Yes</value>
+	<value code="N">No</value>
+</variable>
+
+<variable id="phv00080676.v1">
+	<name>dtia94b</name>
+	<description>Drink beer?</description>
+	<type>text</type>
+	<value code="Y">Yes</value>
+	<value code="N">No</value>
+</variable>
+
+<variable id="phv00080677.v1">
+	<name>dtia94c</name>
+	<description>Drinks made from hard liquor?</description>
+	<type>text</type>
+	<value code="Y">Yes</value>
+	<value code="N">No</value>
+</variable>
+
+<variable id="phv00080678.v1">
+	<name>dtia94d</name>
+	<description>Drink others</description>
+	<type>text</type>
+	<value code="Y">Yes</value>
+	<value code="N">No</value>
+</variable>
+
+<variable id="phv00080679.v1">
+	<name>dtia94e</name>
+	<description>List other drinks (specify)</description>
+	<type>text</type>
+</variable>
+
+<variable id="phv00080680.v1">
+	<name>dtia95</name>
+	<description>Number of drinks per week consumed</description>
+	<type>continuous integer</type>
+	<unit>Drinks/wk</unit>
+	<logical_min>0</logical_min>
+	<logical_max>99</logical_max>
+</variable>
+
+<variable id="phv00080681.v1">
+	<name>dtia96</name>
+	<description>Number of glasses wine consumed per week</description>
+	<type>continuous integer</type>
+	<unit>Glasses/wk</unit>
+	<logical_min>0</logical_min>
+	<logical_max>40</logical_max>
+</variable>
+
+<variable id="phv00080682.v1">
+	<name>dtia97</name>
+	<description>Number of cans of beer consumed per week</description>
+	<type>continuous integer</type>
+	<unit>Cans/wk</unit>
+	<logical_min>0</logical_min>
+	<logical_max>92</logical_max>
+</variable>
+
+<variable id="phv00080683.v1">
+	<name>dtia98</name>
+	<description>Number of hard liquor drinks per week</description>
+	<type>continuous integer</type>
+	<unit>Drinks/wk</unit>
+	<logical_min>0</logical_min>
+	<logical_max>99</logical_max>
+</variable>
+
+<variable id="phv00080684.v1">
+	<name>dtia99</name>
+	<description>Number of drinks in the past 24 hours</description>
+	<type>continuous integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>32</logical_max>
+</variable>
+
+<variable id="phv00080685.v1">
+	<name>dtia100a</name>
+	<description>Drank wine in the past 24 hours</description>
+	<value code="Y">Yes</value>
+	<value code="N">No</value>
+</variable>
+
+<variable id="phv00080686.v1">
+	<name>dtia100b</name>
+	<description>Drank beer in the past 24 hours</description>
+	<value code="Y">Yes</value>
+	<value code="N">No</value>
+</variable>
+
+<variable id="phv00080687.v1">
+	<name>dtia100c</name>
+	<description>Drank liquor in the past 24 hours</description>
+	<value code="Y">Yes</value>
+	<value code="N">No</value>
+</variable>
+
+<variable id="phv00080688.v1">
+	<name>dtia101</name>
+	<description><![CDATA[<a href="http://www.ncbi.nlm.nih.gov/mesh/68001835?ordinalpos=16&itool=EntrezSystem2.PEntrez.Mesh.Mesh_ResultsPanel.Mesh_RVDocSum">Weight</a> at the age of 25]]></description>
+	<unit>lb</unit>
+	<logical_min>0</logical_min>
+	<logical_max>340</logical_max>
+	<comment>Although the ARIC [The Atherosclerosis Risk in Communities] study has extensive quality assurance steps in place, the ARIC dataset may contain values that appear nonsensical or extreme. It is the responsibility of individual investigators to check for such values and decide how they are to be handled in the context of a particular analysis.</comment>
+</variable>
+
+<variable id="phv00080689.v1">
+	<name>ecgra078</name>
+	<description><![CDATA[<a href="http://www.ncbi.nlm.nih.gov/mesh/68006339?ordinalpos=1&itool=EntrezSystem2.PEntrez.Mesh.Mesh_ResultsPanel.Mesh_RVDocSum">Heart rate</a> per minute (visit 1) [electrocardiography related variable]]]></description>
+	<type>continuous integer</type>
+	<unit>Beats/min</unit>
+	<logical_min>34</logical_min>
+	<logical_max>121</logical_max>
+</variable>
+
+<variable id="phv00080690.v1">
+	<name>ecgra275</name>
+	<description>Q-T interval (visit 1) [electrocardiography related variable]</description>
+	<type>continuous integer</type>
+	<logical_min>285</logical_min>
+	<logical_max>561</logical_max>
+</variable>
+
+<variable id="phv00080691.v1">
+	<name>hom31</name>
+	<description>Age stopped smoking cigarettes (visit 1)</description>
+	<type>continuous integer</type>
+	<unit>Years</unit>
+	<logical_min>12</logical_min>
+	<logical_max>65</logical_max>
+</variable>
+
+<variable id="phv00080692.v1">
+	<name>hom32</name>
+	<description>Number of cigarettes per day (visit 1)</description>
+	<type>continuous integer</type>
+	<unit>Cigarettes/day</unit>
+	<logical_min>0</logical_min>
+	<logical_max>80</logical_max>
+</variable>
+
+<variable id="phv00080693.v1">
+	<name>bmi21</name>
+	<description><![CDATA[<a href="http://www.ncbi.nlm.nih.gov/sites/entrez?Db=mesh&Cmd=DetailsSearch&Term=%22body+mass+index%22%5BMeSH+Terms%5D+OR+Body+mass+index%5BText+Word%5D">Body mass index</a> in kg/(m*m) at visit 2]]></description>
+	<type>continuous decimal</type>
+	<unit>kg/(m*m)</unit>
+	<logical_min>13.66</logical_min>
+	<logical_max>62.35</logical_max>
+</variable>
+
+<variable id="phv00080694.v1">
+	<name>mntrcp21</name>
+	<description>Mean triceps skinfold in mm at visit 2</description>
+	<type>continuous integer</type>
+	<unit>mm</unit>
+	<logical_min>3</logical_min>
+	<logical_max>65</logical_max>
+</variable>
+
+<variable id="phv00080695.v1">
+	<name>mnsscp21</name>
+	<description><![CDATA[Mean <a href="http://www.ncbi.nlm.nih.gov/mesh/68012885?ordinalpos=1&itool=EntrezSystem2.PEntrez.Mesh.Mesh_ResultsPanel.Mesh_RVDocSum">subscapular skinfold</a> in mm at visit 2]]></description>
+	<type>continuous integer</type>
+	<unit>mm</unit>
+	<logical_min>0</logical_min>
+	<logical_max>68</logical_max>
+	<comment>Although the ARIC [The Atherosclerosis Risk in Communities] study has extensive quality assurance steps in place, the ARIC dataset may contain values that appear nonsensical or extreme. It is the responsibility of individual investigators to check for such values and decide how they are to be handled in the context of a particular analysis.</comment>
+</variable>
+
+<variable id="phv00080696.v1">
+	<name>wsthpr21</name>
+	<description><![CDATA[<a href="http://www.ncbi.nlm.nih.gov/sites/entrez?Db=mesh&Cmd=DetailsSearch&Term=%22waist-hip+ratio%22%5BMeSH+Terms%5D+OR+Waist-to-hip+ratio%5BText+Word%5D">Waist-to-hip ratio</a> at visit 2]]></description>
+	<type>continuous decimal</type>
+	<logical_min>0.54</logical_min>
+	<logical_max>1.39</logical_max>
+</variable>
+
+<variable id="phv00080697.v1">
+	<name>antb01</name>
+	<description><![CDATA[<a href="http://www.ncbi.nlm.nih.gov/mesh/68001835?ordinalpos=16&itool=EntrezSystem2.PEntrez.Mesh.Mesh_ResultsPanel.Mesh_RVDocSum">Weight</a> to the nearest lb at visit 2]]></description>
+	<type>continuous integer</type>
+	<unit>lb</unit>
+	<logical_min>72</logical_min>
+	<logical_max>371</logical_max>
+</variable>
+
+<variable id="phv00080698.v1">
+	<name>antb04a</name>
+	<description>Waist girth to nearest cm at visit 2</description>
+	<type>continuous integer</type>
+	<unit>cm</unit>
+	<logical_min>56</logical_min>
+	<logical_max>175</logical_max>
+</variable>
+
+<variable id="phv00080699.v1">
+	<name>antb04b</name>
+	<description><![CDATA[<a href="http://www.ncbi.nlm.nih.gov/mesh/68006615?ordinalpos=1&itool=EntrezSystem2.PEntrez.Mesh.Mesh_ResultsPanel.Mesh_RVDocSum">Hip</a> girth to nearest cm at visit 2]]></description>
+	<type>continuous integer</type>
+	<unit>cm</unit>
+	<logical_min>63</logical_min>
+	<logical_max>173</logical_max>
+</variable>
+
+<variable id="phv00080700.v1">
+	<name>chmb08</name>
+	<description><![CDATA[<a href="http://www.ncbi.nlm.nih.gov/mesh/68003404?ordinalpos=1&itool=EntrezSystem2.PEntrez.Mesh.Mesh_ResultsPanel.Mesh_RVDocSum">Creatinine</a> in mg/dl at visit 2]]></description>
+	<type>continuous decimal</type>
+	<unit>mg/dL</unit>
+	<logical_min>0.6</logical_min>
+	<logical_max>12.8</logical_max>
+</variable>
+
+<variable id="phv00080701.v1">
+	<name>hhxb44</name>
+	<description>Have you ever smoked cigarettes (visit 2)</description>
+	<type>text</type>
+	<value code="Y">Yes</value>
+	<value code="N">No</value>
+</variable>
+
+<variable id="phv00080702.v1">
+	<name>hhxb45</name>
+	<description>Do you smoke cigarettes now (visit 2)</description>
+	<type>text</type>
+	<value code="Y">Yes</value>
+	<value code="N">No</value>
+</variable>
+
+<variable id="phv00080703.v1">
+	<name>hhxb46</name>
+	<description>When smoked last cigarette (visit 2)</description>
+	<type>text</type>
+	<value code="A">Less than 2 months ago</value>
+	<value code="B">2=12 months ago</value>
+	<value code="C">13-24 months ago</value>
+	<value code="D">25-36 months ago</value>
+	<value code="E">More than 36 months ago</value>
+</variable>
+
+<variable id="phv00080704.v1">
+	<name>hhxb47</name>
+	<description>Prior quitting, number of cigarettes per day (visit 2)</description>
+	<type>continuous integer</type>
+	<unit>Cigarettes/day</unit>
+	<logical_min>0</logical_min>
+	<logical_max>99</logical_max>
+</variable>
+
+<variable id="phv00080705.v1">
+	<name>hhxb48</name>
+	<description>Number of cigarettes smoked per day now (visit 2)</description>
+	<type>continuous integer</type>
+	<unit>Cigarettes/day</unit>
+	<logical_min>0</logical_min>
+	<logical_max>80</logical_max>
+</variable>
+
+<variable id="phv00080706.v1">
+	<name>bmi32</name>
+	<description><![CDATA[<a href="http://www.ncbi.nlm.nih.gov/sites/entrez?Db=mesh&Cmd=DetailsSearch&Term=%22body+mass+index%22%5BMeSH+Terms%5D+OR+Body+mass+index%5BText+Word%5D">Body mass index</a> in kg/(m*m) at visit 3]]></description>
+	<type>continuous decimal</type>
+	<unit>kg/(m*m)</unit>
+	<logical_min>13.3</logical_min>
+	<logical_max>61.96</logical_max>
+</variable>
+
+<variable id="phv00080707.v1">
+	<name>wsthpr31</name>
+	<description><![CDATA[<a href="http://www.ncbi.nlm.nih.gov/sites/entrez?Db=mesh&Cmd=DetailsSearch&Term=%22waist-hip+ratio%22%5BMeSH+Terms%5D+OR+Waist-to-hip+ratio%5BText+Word%5D">Waist-to-hip ratio</a> at visit 3]]></description>
+	<type>continuous decimal</type>
+	<logical_min>0.5</logical_min>
+	<logical_max>1.98</logical_max>
+</variable>
+
+<variable id="phv00080708.v1">
+	<name>antc1</name>
+	<description><![CDATA[Standing <a href="http://www.ncbi.nlm.nih.gov/mesh/68001827?ordinalpos=1&itool=EntrezSystem2.PEntrez.Mesh.Mesh_ResultsPanel.Mesh_RVDocSum">height</a> to nearest cm at visit 3]]></description>
+	<type>continuous integer</type>
+	<unit>cm</unit>
+	<logical_min>125</logical_min>
+	<logical_max>200</logical_max>
+</variable>
+
+<variable id="phv00080709.v1">
+	<name>antc2</name>
+	<description><![CDATA[<a href="http://www.ncbi.nlm.nih.gov/mesh/68001835?ordinalpos=16&itool=EntrezSystem2.PEntrez.Mesh.Mesh_ResultsPanel.Mesh_RVDocSum">Weight</a> to the nearest lb at visit 3]]></description>
+	<type>continuous integer</type>
+	<unit>lb</unit>
+	<logical_min>74</logical_min>
+	<logical_max>416</logical_max>
+</variable>
+
+<variable id="phv00080710.v1">
+	<name>antc3a</name>
+	<description>Waist girth to nearest cm at visit 3</description>
+	<type>continuous integer</type>
+	<unit>cm</unit>
+	<logical_min>52</logical_min>
+	<logical_max>171</logical_max>
+</variable>
+
+<variable id="phv00080711.v1">
+	<name>antc3b</name>
+	<description><![CDATA[<a href="http://www.ncbi.nlm.nih.gov/mesh/68006615?ordinalpos=1&itool=EntrezSystem2.PEntrez.Mesh.Mesh_ResultsPanel.Mesh_RVDocSum">Hip</a> girth to nearest cm at visit 3]]></description>
+	<type>continuous integer</type>
+	<unit>cm</unit>
+	<logical_min>51</logical_min>
+	<logical_max>186</logical_max>
+</variable>
+
+<variable id="phv00080712.v1">
+	<name>phxa25</name>
+	<description>Ever smoke cigarettes (visit 3)</description>
+	<type>text</type>
+	<value code="Y">Yes</value>
+	<value code="N">No</value>
+</variable>
+
+<variable id="phv00080713.v1">
+	<name>phxa27</name>
+	<description>Do you now smoke cigarettes (visit 3)</description>
+	<type>text</type>
+	<value code="Y">Yes</value>
+	<value code="N">No</value>
+</variable>
+
+<variable id="phv00080714.v1">
+	<name>phxa28</name>
+	<description>When did you smoke last cigarette (visit 3)</description>
+	<type>text</type>
+	<value code="A">Less than 2 months ago</value>
+	<value code="B">At least 2 months, but less than 12 months</value>
+	<value code="C">At least 12 months, but less than 24 months</value>
+	<value code="D">At least 24 months, but less than 36 months</value>
+	<value code="E">36 or more months ago</value>
+</variable>
+
+<variable id="phv00080715.v1">
+	<name>phxa30</name>
+	<description>Cigarettes smoked per day now (visit 3)</description>
+	<type>continuous integer</type>
+	<unit>Cigarettes/day</unit>
+	<logical_min>0</logical_min>
+	<logical_max>99</logical_max>
+</variable>
+
+<variable id="phv00080716.v1">
+	<name>phxa29</name>
+	<description>Prior to quitting, number of cigarettes per day (visit 3)</description>
+	<type>continuous integer</type>
+	<unit>Cigarettes/day</unit>
+	<logical_min>0</logical_min>
+	<logical_max>99</logical_max>
+</variable>
+
+<variable id="phv00080717.v1">
+	<name>wsthpr41</name>
+	<description><![CDATA[<a href="http://www.ncbi.nlm.nih.gov/sites/entrez?Db=mesh&Cmd=DetailsSearch&Term=%22waist-hip+ratio%22%5BMeSH+Terms%5D+OR+Waist-to-hip+ratio%5BText+Word%5D">Waist-to-hip ratio</a> at visit 4]]></description>
+	<type>continuous decimal</type>
+	<logical_min>0.46</logical_min>
+	<logical_max>1.64</logical_max>
+</variable>
+
+<variable id="phv00080718.v1">
+	<name>antd1</name>
+	<description><![CDATA[Standing <a href="http://www.ncbi.nlm.nih.gov/mesh/68001827?ordinalpos=1&itool=EntrezSystem2.PEntrez.Mesh.Mesh_ResultsPanel.Mesh_RVDocSum">height</a> to nearest cm at visit 4]]></description>
+	<type>continuous integer</type>
+	<unit>cm</unit>
+	<logical_min>139</logical_min>
+	<logical_max>239</logical_max>
+</variable>
+
+<variable id="phv00080719.v1">
+	<name>antd2</name>
+	<description><![CDATA[<a href="http://www.ncbi.nlm.nih.gov/mesh/68001835?ordinalpos=16&itool=EntrezSystem2.PEntrez.Mesh.Mesh_ResultsPanel.Mesh_RVDocSum">Weight</a> to nearest lb at visit 4]]></description>
+	<type>continuous integer</type>
+	<unit>lb</unit>
+	<logical_min>79</logical_min>
+	<logical_max>406</logical_max>
+</variable>
+
+<variable id="phv00080720.v1">
+	<name>antd3a</name>
+	<description>Waist girth to nearest cm at visit 4</description>
+	<type>continuous integer</type>
+	<unit>cm</unit>
+	<logical_min>51</logical_min>
+	<logical_max>169</logical_max>
+</variable>
+
+<variable id="phv00080721.v1">
+	<name>antd3b</name>
+	<description><![CDATA[<a href="http://www.ncbi.nlm.nih.gov/mesh/68006615?ordinalpos=1&itool=EntrezSystem2.PEntrez.Mesh.Mesh_ResultsPanel.Mesh_RVDocSum">Hip</a> girth to nearest cm at visit 4]]></description>
+	<type>continuous integer</type>
+	<unit>cm</unit>
+	<logical_min>51</logical_min>
+	<logical_max>252</logical_max>
+</variable>
+
+<variable id="phv00080722.v1">
+	<name>phxb7</name>
+	<description>Ever smoked cigarettes (visit 4)</description>
+	<type>text</type>
+	<value code="Y">Yes</value>
+	<value code="N">No</value>
+</variable>
+
+<variable id="phv00080723.v1">
+	<name>phxb8</name>
+	<description>Do you now smoke cigarettes (visit 4)</description>
+	<type>text</type>
+	<value code="Y">Yes</value>
+	<value code="N">No</value>
+</variable>
+
+<variable id="phv00080724.v1">
+	<name>phxb9</name>
+	<description>When did you smoke last cigarette (visit 4)</description>
+	<type>text</type>
+	<value code="A">Less than 2 months ago</value>
+	<value code="B">At least 2 months, but less than 12 months</value>
+	<value code="C">At least 12 months, but less than 24 months</value>
+	<value code="D">At least 24 months, but less than 36 months</value>
+	<value code="E">36 or more months ago</value>
+</variable>
+
+<variable id="phv00080725.v1">
+	<name>phxb10</name>
+	<description>Prior to quitting, number of cigarettes per day (visit 4)</description>
+	<type>continuous integer</type>
+	<unit>Cigarettes/day</unit>
+	<logical_min>0</logical_min>
+	<logical_max>90</logical_max>
+</variable>
+
+<variable id="phv00080726.v1">
+	<name>phxb11</name>
+	<description>Cigarettes smoked per day now (visit 4)</description>
+	<type>continuous integer</type>
+	<unit>Cigarettes/day</unit>
+	<logical_min>0</logical_min>
+	<logical_max>99</logical_max>
+</variable>
+
+<variable id="phv00080727.v1">
+	<name>v1marital</name>
+	<description>Marital status at visit 1</description>
+	<type>text</type>
+	<value code="D">Divorced</value>
+	<value code="M">Married</value>
+	<value code="N">Never married</value>
+	<value code="S">Separated</value>
+	<value code="W">Widow/widower</value>
+</variable>
+
+<variable id="phv00080728.v1">
+	<name>warfv1</name>
+	<description><![CDATA[<a href="http://www.ncbi.nlm.nih.gov/mesh/68014859?ordinalpos=1&itool=EntrezSystem2.PEntrez.Mesh.Mesh_ResultsPanel.Mesh_RVDocSum">Warfarin</a> use (visit 1)]]></description>
+	<type>enumerated integer</type>
+	<value code="1">Yes</value>
+	<value code="0">No</value>
+</variable>
+
+<variable id="phv00080729.v1">
+	<name>warfv2</name>
+	<description><![CDATA[<a href="http://www.ncbi.nlm.nih.gov/mesh/68014859?ordinalpos=1&itool=EntrezSystem2.PEntrez.Mesh.Mesh_ResultsPanel.Mesh_RVDocSum">Warfarin</a> use (visit 2)]]></description>
+	<type>enumerated integer</type>
+	<value code="1">Yes</value>
+	<value code="0">No</value>
+</variable>
+
+<variable id="phv00080730.v1">
+	<name>warfv3</name>
+	<description><![CDATA[<a href="http://www.ncbi.nlm.nih.gov/mesh/68014859?ordinalpos=1&itool=EntrezSystem2.PEntrez.Mesh.Mesh_ResultsPanel.Mesh_RVDocSum">Warfarin</a> use (visit 3)]]></description>
+	<type>enumerated integer</type>
+	<value code="1">Yes</value>
+	<value code="0">No</value>
+</variable>
+
+<variable id="phv00080731.v1">
+	<name>warfv4</name>
+	<description><![CDATA[<a href="http://www.ncbi.nlm.nih.gov/mesh/68014859?ordinalpos=1&itool=EntrezSystem2.PEntrez.Mesh.Mesh_ResultsPanel.Mesh_RVDocSum">Warfarin</a> use (visit 4)]]></description>
+	<type>enumerated integer</type>
+	<value code="1">Yes</value>
+	<value code="0">No</value>
+</variable>
+
+<variable id="phv00080732.v1">
+	<name>birthyear</name>
+	<description>Year of birth</description>
+	<type>continuous integer</type>
+	<logical_min>1920</logical_min>
+	<logical_max>1945</logical_max>
+</variable>
+
+<variable id="phv00080733.v1">
+	<name>afprev</name>
+	<description><![CDATA[Prevalent <a href="http://www.ncbi.nlm.nih.gov/sites/entrez?Db=mesh&Cmd=DetailsSearch&Term=%22atrial+fibrillation%22%5BMeSH+Terms%5D+OR+atrial+fibrillation%5BText+Word%5D">atrial fibrillation</a> or missing ECG <a href="http://www.ncbi.nlm.nih.gov/sites/entrez?Db=mesh&Cmd=DetailsSearch&Term=%22electroencephalography%22%5BMeSH+Terms%5D+OR+electroencephalogram%5BText+Word%5D">[electroencephalogram]</a> information at baseline]]></description>
+	<type>enumerated integer</type>
+	<comment>Replaces an earlier variable INCLUDEAF</comment>
+	<value code="1">Yes</value>
+	<value code="0">No</value>
+</variable>
+
+</data_table>

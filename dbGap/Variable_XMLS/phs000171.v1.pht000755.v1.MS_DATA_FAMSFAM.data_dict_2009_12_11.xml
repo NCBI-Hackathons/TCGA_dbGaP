@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./datadict_v2.xsl"?>
+<data_table id="pht000755.v1" study_id="phs000171.v1" participant_set="1" date_created="Fri Dec 11 14:12:43 2009">
+
+<variable id="phv00072812.v1">
+	<name>SUBJID</name>
+	<description>Subject&#39;s ID</description>
+	<type>integer</type>
+</variable>
+
+<variable id="phv00072813.v1">
+	<name>CASE_CONTROL</name>
+	<description>Type of subject</description>
+	<type>string, encoded values</type>
+	<value code="CASE">Affected subject per Protocol</value>
+	<value code="CNTL">Control subject per Protocol</value>
+</variable>
+
+<variable id="phv00072814.v1">
+	<name>STUDY</name>
+	<description>Study Identifier</description>
+	<type>string</type>
+	<comment>Always RES101833</comment>
+</variable>
+
+<variable id="phv00072815.v1">
+	<name>INVSITE</name>
+	<description>Investigator site ID</description>
+	<type>string</type>
+	<comment>Numeric code identifying the site (for internal use)</comment>
+</variable>
+
+<variable id="phv00072816.v1">
+	<name>INV</name>
+	<description>Investigator&#39;s ID</description>
+	<type>string</type>
+	<comment>Numeric code identifying the investigator (for internal use)</comment>
+</variable>
+
+<variable id="phv00072817.v1">
+	<name>VISIT</name>
+	<description>Visit name</description>
+	<type>string, encoded values</type>
+	<value code="CSA">Common Subject Assessment</value>
+	<value code="ELIGIBILITY">Eligibility questionnaire</value>
+	<value code="BASELINE">Baseline assessment questionnaire</value>
+	<value code="LAB WBC">Lab results</value>
+	<value code="SELF REPORT">Subject completed self report questionnaire</value>
+</variable>
+
+<variable id="phv00072818.v1">
+	<name>VISIT_DATE</name>
+	<description>Visit date</description>
+	<type>date</type>
+	<unit>Year</unit>
+	<comment>Truncated to YYYY</comment>
+</variable>
+
+<variable id="phv00072819.v1">
+	<name>GS1</name>
+	<description>I feel close to my friends</description>
+	<type>integer, encoded values</type>
+	<comment>FAMS - FAMILY/SOCIAL WELL-BEING 
+		By selecting one (1) per line, please indicate how true each statement has been for you during the past 7 days. </comment>
+	<value code="0">Not at all</value>
+	<value code="1">A little bit</value>
+	<value code="2">Somewhat</value>
+	<value code="3">Quite a bit</value>
+	<value code="4">Very much</value>
+</variable>
+
+<variable id="phv00072820.v1">
+	<name>GS2</name>
+	<description>I get emotional support from my family</description>
+	<type>integer, encoded values</type>
+	<comment>FAMS - FAMILY/SOCIAL WELL-BEING 
+		By selecting one (1) per line, please indicate how true each statement has been for you during the past 7 days. </comment>
+	<value code="0">Not at all</value>
+	<value code="1">A little bit</value>
+	<value code="2">Somewhat</value>
+	<value code="3">Quite a bit</value>
+	<value code="4">Very much</value>
+</variable>
+
+<variable id="phv00072821.v1">
+	<name>GS3</name>
+	<description>I get support from my friends</description>
+	<type>integer, encoded values</type>
+	<comment>FAMS - FAMILY/SOCIAL WELL-BEING 
+		By selecting one (1) per line, please indicate how true each statement has been for you during the past 7 days. </comment>
+	<value code="0">Not at all</value>
+	<value code="1">A little bit</value>
+	<value code="2">Somewhat</value>
+	<value code="3">Quite a bit</value>
+	<value code="4">Very much</value>
+</variable>
+
+<variable id="phv00072822.v1">
+	<name>GS4</name>
+	<description>My family has accepted my illness</description>
+	<type>integer, encoded values</type>
+	<comment>FAMS - FAMILY/SOCIAL WELL-BEING 
+		By selecting one (1) per line, please indicate how true each statement has been for you during the past 7 days. </comment>
+	<value code="0">Not at all</value>
+	<value code="1">A little bit</value>
+	<value code="2">Somewhat</value>
+	<value code="3">Quite a bit</value>
+	<value code="4">Very much</value>
+</variable>
+
+<variable id="phv00072823.v1">
+	<name>GS5</name>
+	<description>I am satisfied with family communication about my illness</description>
+	<type>integer, encoded values</type>
+	<comment>FAMS - FAMILY/SOCIAL WELL-BEING 
+		By selecting one (1) per line, please indicate how true each statement has been for you during the past 7 days. </comment>
+	<value code="0">Not at all</value>
+	<value code="1">A little bit</value>
+	<value code="2">Somewhat</value>
+	<value code="3">Quite a bit</value>
+	<value code="4">Very much</value>
+</variable>
+
+<variable id="phv00072824.v1">
+	<name>MS13</name>
+	<description>My family has trouble understanding when my condition gets worse</description>
+	<type>integer, encoded values</type>
+	<comment>FAMS - FAMILY/SOCIAL WELL-BEING 
+		By selecting one (1) per line, please indicate how true each statement has been for you during the past 7 days. </comment>
+	<value code="0">Not at all</value>
+	<value code="1">A little bit</value>
+	<value code="2">Somewhat</value>
+	<value code="3">Quite a bit</value>
+	<value code="4">Very much</value>
+</variable>
+
+<variable id="phv00072825.v1">
+	<name>MS14</name>
+	<description>I feel &quot;left out&quot; of things</description>
+	<type>integer, encoded values</type>
+	<comment>FAMS - FAMILY/SOCIAL WELL-BEING 
+		By selecting one (1) per line, please indicate how true each statement has been for you during the past 7 days. </comment>
+	<value code="0">Not at all</value>
+	<value code="1">A little bit</value>
+	<value code="2">Somewhat</value>
+	<value code="3">Quite a bit</value>
+	<value code="4">Very much</value>
+</variable>
+
+</data_table>

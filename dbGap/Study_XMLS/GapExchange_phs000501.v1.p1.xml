@@ -1,0 +1,1532 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GaPExchange xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="./dbGaPEx2.1.5.xsd">
+
+<MetaVariables>
+	<Submitter/>
+	<Method/>
+</MetaVariables>
+<MetaLinks/>
+
+<Projects>
+	<Project/>
+</Projects>
+
+<Studies>
+
+<Study source="dbGaP" accession="phs000501.v1.p1" parentStudy="phs000501.v1.p1" createDate="2012-05-23" modDate="2012-08-31">
+
+<Configuration>
+	<StudyNameEntrez>Compilation of Aggregate Genomic Data for General Research Use</StudyNameEntrez>
+	<StudyNameReportPage>Compilation of Aggregate Genomic Data for General Research Use</StudyNameReportPage>
+	<StudyTypes>
+		<StudyType>Aggregate Genomic Data</StudyType>
+	</StudyTypes>
+	<Description><![CDATA[
+<p>This study contains all authorized aggregate genomic data from datasets currently in dbGaP that are approved for general research use (GRU) and have no further limitations beyond those outlined in model Data Use Certification Agreement. Access to this study will be granted for one year and any additional authorized aggregate GRU datasets that become available during this one-year period. This study does not include individual-level data.</p>]]>
+	</Description>
+	<StudyInEx><![CDATA[
+<p><b>Data Included in this Study</b> <ul> <li>Aggregate genomic data designated for general research use with no further use limitations or restrictions, i.e.,</li> <ul> <li>Data use does not require approval by an Institutional Review Board for secondary analyses</li> <li>Data have no publication embargo</li> <li>Data have no other use limitations or requirements (e.g. collaboration, publication, restricted to use by not-for-profit or academic organizations, restricted to use for health, medical, and/or biomedical research)</li> </ul> </ul> </p> <p><b>Data Excluded from this Study</b> <ul> <li>Individual-level data</li> </ul> </p>]]>
+	</StudyInEx>
+	<StudyProjects>
+		<Project/>
+	</StudyProjects>
+	<DisplayPublicSummary>no</DisplayPublicSummary>
+	<StudyHistory><![CDATA[
+<p>In response to requests from the scientific community, the NIH implemented a change in the procedures for accessing aggregate-level data. Under the modified procedures, interested investigators can request all aggregate datasets designated for general research use with a single application. Additionally, to help expedite the processing of requests for aggregate genomic datasets, the requests will be reviewed by a single, central Data Access Committee. The request process for these datasets is identical to those for individual-level, controlled-access data, such as the expectation that investigators will abide by the <a href="http://grants.nih.gov/grants/guide/notice-files/NOT-OD-07-088.html" target="_blank"><i>NIH Policy for Sharing of Data Obtained in NIH Supported or Conducted Genome-Wide Association Studies</i></a> and <a href="https://dbgap.ncbi.nlm.nih.gov/aa/GWAS_Code_of_Conduct.html" target="_blank">dbGaP Genomic User Code of Conduct</a>.</p>]]>
+	</StudyHistory>
+	<ConsentGroups>
+		<ConsentGroup groupNum="100" shortName="Analysis" longName="Analysis only"/>
+	</ConsentGroups>
+</Configuration>
+
+  <AuthorizedAccess>
+    <DacInfo ssDacId="0">
+      <DacName>OD</DacName>
+      <DacFullName>OD</DacFullName>
+      <DacEmail>0</DacEmail>
+      <DacPhone></DacPhone>
+      <DacUrl></DacUrl>
+    </DacInfo>
+    <Policy Policy_ID="phs000501.v1.p1_policy" ref_ssDacId="0">
+      <DisplayResearchStatement>yes</DisplayResearchStatement>
+      <DisplayPublicSummary>yes</DisplayPublicSummary>
+      <EmbargoLength>0</EmbargoLength>
+      <YearsUntilRenewal>1</YearsUntilRenewal>
+      <WeeksCancelRequest>8</WeeksCancelRequest>
+      <PdfSupplementReqired>no</PdfSupplementReqired>
+      <AcknowledgementText>
+        <para>
+          http://dbgap.ncbi.nlm.nih.gov/aa/wga.cgi?page=DUC&amp;view_pdf&amp;stacc=phs000501.v1.p1
+        </para>
+      </AcknowledgementText>
+      <DocumentSet>
+        <DataUseCertificate Label="Data Use Certificate" FilePath="https://dbgap.ncbi.nlm.nih.gov/aa/wga.cgi?page=DUC&amp;view_pdf&amp;stacc=phs000501.v1.p1" FileName="CADA_ModelDUC.pdf"/>
+      </DocumentSet>
+    </Policy>
+    <ConsentGroups>
+      <ParticipantSet groupNum-REF="1">
+        <ConsentName>General Research Use</ConsentName>
+        <ConsentAbbrev>GRU</ConsentAbbrev>
+        <UseLimitation>Use of the data has no further limitations beyond those outlined in the model Data Use Certification Agreement.</UseLimitation>
+        <IrbRequired>No</IrbRequired>
+      </ParticipantSet>
+    </ConsentGroups>
+  </AuthorizedAccess>
+
+<Analyses>
+	<Analysis pha="3" genomeBuild="36.3" snpBuild="129" analysisType="">
+		<Description><![CDATA[
+This analysis of association between genotype and the Parkinson disease status defined by <a href="http://www.ninds.nih.gov/">National Institute of Neurological Disorders and Stroke (NINDS)</a> was computed by the dbGaP group at NCBI. It contained 269 cases and 266 neurologically normal controls which were derived from the <a href="http://ccr.coriell.org/ninds/index.html"> NINDS Neurogenetics repository at Coriell Cell Repositories</a>. The genotyping data was generated and provided by the laboratory of Dr. Andrew Singleton, NIA and Dr. John Hardy, NIA using the &quot; <i>Illumina Infinium I</i> &quot; and &quot; <i>HumanHap 300</i> &quot; chips (NIH Intramural funding from NIA and NINDS).
+		]]></Description>
+		<Method>SNP Genotypic Association in Additive model</Method>
+		<GtyPlatform probeNum="408803" snpBatchId="">
+			<Vendor>Illumina</Vendor>
+			<VendorURL>Human-1 and HumanHap300v1.1 ~400k markers used by NINDS</VendorURL>
+			<Platform>Illumina Infinium 1 and HumanHap300</Platform>
+		</GtyPlatform>
+		<Comment></Comment>
+	</Analysis>
+	<Analysis pha="4" genomeBuild="36.3" snpBuild="129" analysisType="">
+		<Description><![CDATA[
+This analysis of association between genotype and the Parkinson disease status defined by <a href="http://www.ninds.nih.gov/">National Institute of Neurological Disorders and Stroke (NINDS)</a> was computed by the dbGaP group at NCBI. It contained 269 cases and 266 neurologically normal controls which were derived from the <a href="http://ccr.coriell.org/ninds/index.html"> NINDS Neurogenetics repository at Coriell Cell Repositories</a>. The genotyping data was generated and provided by the laboratory of Dr. Andrew Singleton, NIA and Dr. John Hardy, NIA using the &quot; <i>Illumina Infinium I</i> &quot; and &quot; <i>HumanHap 300</i> &quot; chips (NIH Intramural funding from NIA and NINDS).
+		]]></Description>
+		<Method>SNP Genotypic Association</Method>
+		<GtyPlatform probeNum="408803" snpBatchId="">
+			<Vendor>Illumina</Vendor>
+			<VendorURL>Human-1 and HumanHap300v1.1 ~400k markers used by NINDS</VendorURL>
+			<Platform>Illumina Infinium 1 and HumanHap300</Platform>
+		</GtyPlatform>
+		<Comment></Comment>
+	</Analysis>
+	<Analysis pha="2845" genomeBuild="36.3" snpBuild="129" analysisType="">
+		<Description><![CDATA[
+Genome-wide genotyping data from an initial 1,251 neuroblastoma patient and 2,236 disease-free control discover set were filtered based on pre-specified quality control measures where individual SNPs were excluded from further analysis if they showed: 1) deviation from Hardy Weinberg equilibrium with P &lt; 0.0001; 2) individual SNP genotype yield &lt; 98%; or 3) minor allele frequency (MAF) &lt; 5%.</brk>This resulted in 464,934 SNPs being utilized in the subsequent analyses. In addition, 33 samples had genotype yields &lt; 90% and were removed (23 cases and 10 controls). Finally, since the case samples were accrued nation-wide, while the control set was recruited locally in Philadelphia, we performed principal components analyses to identify outlier samples in order to reduce the effects of population stratification. This approach removed 379 samples (196 cases and 183 controls), leaving 1,032 cases and 2,043 controls for our discovery case series with self-reported ethnicity of Caucasian.Of the 1,032 patients included in the discovery case series, clinical and biological covariate data obtained at diagnosis was available for most. A total of 883 patients (85.6%) had complete outcome data available with a median follow-up interval of 4.02 years for patients without an event.
+		]]></Description>
+		<Method>Tests for Association Using Cochran-Armitage Test on Genotype Frequencies</Method>
+		<GtyPlatform probeNum="572163" snpBatchId="">
+			<Vendor>Illumina</Vendor>
+			<VendorURL>combination of two batches, if the alleles are different for the same rs#, please keep two separate lines (for different chips) as two markers .</VendorURL>
+			<Platform>HumanHap550v1.1 and HumanHap550v3.0</Platform>
+		</GtyPlatform>
+		<Comment></Comment>
+	</Analysis>
+	<Analysis pha="2846" genomeBuild="36.3" snpBuild="129" analysisType="">
+		<Description><![CDATA[
+This analysis of association between genotype and the amyotrophic lateral sclerosis (ALS) disease status defined by <a href=?http://www.ninds.nih.gov/"> EL Escorial diagnostic criteria</a> was computed by Traynor&#39;s group. It contained 276 cases and 271 neurologically normal controls which were derived from the <a href="http://ccr.coriell.org/ninds/index.html" > NINDS Neurogenetics repository at Coriell Cell Repositories</a>. The genotyping data was generated and provided by the laboratory of Dr. Andrew Singleton, NIA, Dr. Bryan J. Traynor, NINDS, and Dr. John Hardy, NIA using the Illumina Infinium II HumanHap240S, Infinium II HumanHap300 and Infinium II HumanHap550v1 chips (NIH Intramural funding from NIA and NINDS, additional funding from the ALS Association and the Packard Center for ALS Research at Johns Hopkins).
+		]]></Description>
+		<Method>Tests for Association Using Cochran-Armitage Test on Genotype Frequencies</Method>
+		<GtyPlatform probeNum="555352" snpBatchId="38431">
+			<Vendor>Illumina</Vendor>
+			<VendorURL>550v1 only</VendorURL>
+			<Platform>HumanHap550v1</Platform>
+		</GtyPlatform>
+		<Comment></Comment>
+	</Analysis>
+	<Analysis pha="2848" genomeBuild="36.3" snpBuild="129" analysisType="">
+		<Description>A total of 1311 SLE case and 1783 control DNA samples (all North Americans of European descent) were genotyped for over 500,000 single nucleotide polymorphisms. Genotypes from 1557 additional controls were obtained from public data repositories. Control samples from the NYCP (N=1861) were genotyped on the IlluminaHumanHap550 Genotyping BeadChip at The Feinstein Institute. 1465 samples (464 cases, 1001 controls) were genotyped on the HumanHap550v1 chip and 1875 samples (1015 cases, 860 controls) were genotyped on the HumanHap550v3 chip.</Description>
+		<Method>stratified analysis</Method>
+		<GtyPlatform probeNum="572163" snpBatchId="">
+			<Vendor>Illumina</Vendor>
+			<VendorURL>combination of two batches, if the alleles are different for the same rs#, please keep two separate lines (for different chips) as two markers .</VendorURL>
+			<Platform>HumanHap550v1.1 and HumanHap550v3.0</Platform>
+		</GtyPlatform>
+		<Comment></Comment>
+	</Analysis>
+	<Analysis pha="2868" genomeBuild="36.3" snpBuild="129" analysisType="">
+		<Description><![CDATA[
+This analysis is for stage I of a designed two-stage GWAS. The genotyping was performed using HumanHap550 BeadChips (Illumina, Inc.). Following quality control filtering a final dataset of 463,185 SNPs was analyzed in 1,713 PD cases and 3,978 controls from the United States and Germany.
+<p>To assess the homogeneity of our cohort, pair-wise Identity by State distances were calculated using HapMap data as a reference. The results of these analyses reveal that our samples share common Caucasian ancestry. Power calculations showed that our sample had 80% power to detect variants conferring an odds ratio (OR) of 1.3 with an allele frequency of 10%. Each SNP was tested for association using a trend model.</p>
+The genotype data being made available within the dbGaP Study Accession phs000089.v3.p2, consist of cases and controls from the United States from the stage I analysis that are eligible for inclusion in dbGap.  Samples for this study are available through Coriell under the NINDS Repository Collection.
+		]]></Description>
+		<Method> Genome-wide Association</Method>
+		<GtyPlatform probeNum="555352" snpBatchId="38431">
+			<Vendor>Illumina</Vendor>
+			<VendorURL>550v1 only</VendorURL>
+			<Platform>HumanHap550v1</Platform>
+		</GtyPlatform>
+		<Comment></Comment>
+	</Analysis>
+	<Analysis pha="2876" genomeBuild="36.3" snpBuild="129" analysisType="">
+		<Description> To investigate genetic variants that affect iron concentrations in persons not affected by overt genetic disorders of iron metabolism, a genome-wide association study was conducted in participants of European descent from the InCHIANTI Study (N=1206) and the Baltimore Longitudinal Study of Aging (BLSA, N=713).  Genome-wide data from each study was filtered if they deviated from Hardy Weinberg Equilibrium (P &#60;0.0001), had low call rate (&#60;99%) or low minor allele frequency (MAF &#60; 1%). The resulting 475,322 autosomal SNPs that passed quality control were used for association analysis.</Description>
+		<Method>genome-wide association between genotype and Serum Iron concentrations 
+</Method>
+		<GtyPlatform probeNum="555352" snpBatchId="38431">
+			<Vendor>Illumina</Vendor>
+			<VendorURL>550v1 only</VendorURL>
+			<Platform>HumanHap550v1</Platform>
+		</GtyPlatform>
+		<Comment></Comment>
+	</Analysis>
+	<Analysis pha="2895" genomeBuild="37.1" snpBuild="132" analysisType="">
+		<Description>Genome-wide genotyping data was generated on the Illumina HumanHap550 Beadchip for 1,627 neuroblastoma patients and 3,254 genetically matched disease-free controls. All samples passed our pre-specified quality control measures, and 1,529 neuroblastoma cases have complete clinical phenotype data, as provided by the COG.  To correct for potential effects of population structure, genome-wide IBS estimates for all pair-wise comparisons among all case subjects and control subjects were analyzed to identify two matched controls for each case. SNPs were excluded from further analysis if they showed: 1) deviation from Hardy Weinberg equilibrium with P &#60; 0.001; 2) individual SNP genotype yield &#60; 95%; 3) minor allele frequency (MAF) &#60; 5%; or 4) were not present on both version 1 (V1) and version 3 (V3). This resulted in 480,279 SNPs being utilized in the subsequent analyses.</Description>
+		<Method>categorical analysis</Method>
+		<GtyPlatform probeNum="561466" snpBatchId="51468">
+			<Vendor>Illumina</Vendor>
+			<VendorURL> http://www.ncbi.nlm.nih.gov/SNP/snp_viewBatch.cgi?sbid=51468</VendorURL>
+			<Platform>HumanHap550v3</Platform>
+		</GtyPlatform>
+		<Comment></Comment>
+	</Analysis>
+	<Analysis pha="2896" genomeBuild="37.1" snpBuild="132" analysisType="">
+		<Description><![CDATA[
+This analysis of association between genotype and nine quantitative traits related to metabolic syndrome was conducted in a population sample from the 1966 Northern Finland Birth Cohort (NFBC66).  NFBC66 individuals are from the two northernmost provinces of Finland, were all born in 1966 and were age 31 at the time of assessment, were not ascertained for any particular disorder/disease, consented to the use of their DNA for genetic analysis studies, and were successfully genotyped on the Illumina 370 CNV platform.  Genotyping was done at the Broad Institute using the Illumina 370CNV Genotyping Beadchip.
+<p>Please note: Following publication of our paper <a href=http://www.ncbi.nlm.nih.gov/sites/entrez?db=pubmed&cmd=DetailsSearch&term=19060910>Nat Genet. 2009 Jan;41(1):35-46</a>, the project was able to have more samples genotyped and we have used this final set of genotype data in the submission to dbGaP; therefore the number of genotyped subjects in dbGaP is higher than that in our previously published analysis.</p>
+		]]></Description>
+		<Method>QTL analysis</Method>
+		<GtyPlatform probeNum="370404" snpBatchId="1047132">
+			<Vendor>Illumina</Vendor>
+			<VendorURL>similar to 16 but alleles from dbSNP set and complete set</VendorURL>
+			<Platform>HumanCNV370v1-Complete</Platform>
+		</GtyPlatform>
+		<Comment></Comment>
+	</Analysis>
+	<Analysis pha="2897" genomeBuild="37.1" snpBuild="132" analysisType="">
+		<Description><![CDATA[
+This analysis of association between genotype and nine quantitative traits related to metabolic syndrome was conducted in a population sample from the 1966 Northern Finland Birth Cohort (NFBC66).  NFBC66 individuals are from the two northernmost provinces of Finland, were all born in 1966 and were age 31 at the time of assessment, were not ascertained for any particular disorder/disease, consented to the use of their DNA for genetic analysis studies, and were successfully genotyped on the Illumina 370 CNV platform.  Genotyping was done at the Broad Institute using the Illumina 370CNV Genotyping Beadchip.
+<p>Please note: Following publication of our paper <a href=http://www.ncbi.nlm.nih.gov/sites/entrez?db=pubmed&cmd=DetailsSearch&term=19060910>Nat Genet. 2009 Jan;41(1):35-46</a>, the project was able to have more samples genotyped and we have used this final set of genotype data in the submission to dbGaP; therefore the number of genotyped subjects in dbGaP is higher than that in our previously published analysis.</p>
+		]]></Description>
+		<Method>QTL analysis</Method>
+		<GtyPlatform probeNum="370404" snpBatchId="1047132">
+			<Vendor>Illumina</Vendor>
+			<VendorURL>similar to 16 but alleles from dbSNP set and complete set</VendorURL>
+			<Platform>HumanCNV370v1-Complete</Platform>
+		</GtyPlatform>
+		<Comment></Comment>
+	</Analysis>
+	<Analysis pha="2898" genomeBuild="37.1" snpBuild="132" analysisType="">
+		<Description><![CDATA[
+This analysis of association between genotype and nine quantitative traits related to metabolic syndrome was conducted in a population sample from the 1966 Northern Finland Birth Cohort (NFBC66).  NFBC66 individuals are from the two northernmost provinces of Finland, were all born in 1966 and were age 31 at the time of assessment, were not ascertained for any particular disorder/disease, consented to the use of their DNA for genetic analysis studies, and were successfully genotyped on the Illumina 370 CNV platform.  Genotyping was done at the Broad Institute using the Illumina 370CNV Genotyping Beadchip.
+<p>Please note: Following publication of our paper <a href=http://www.ncbi.nlm.nih.gov/sites/entrez?db=pubmed&cmd=DetailsSearch&term=19060910>Nat Genet. 2009 Jan;41(1):35-46</a>, the project was able to have more samples genotyped and we have used this final set of genotype data in the submission to dbGaP; therefore the number of genotyped subjects in dbGaP is higher than that in our previously published analysis.</p>
+		]]></Description>
+		<Method>QTL analysis</Method>
+		<GtyPlatform probeNum="370404" snpBatchId="1047132">
+			<Vendor>Illumina</Vendor>
+			<VendorURL>similar to 16 but alleles from dbSNP set and complete set</VendorURL>
+			<Platform>HumanCNV370v1-Complete</Platform>
+		</GtyPlatform>
+		<Comment></Comment>
+	</Analysis>
+	<Analysis pha="2899" genomeBuild="37.1" snpBuild="132" analysisType="">
+		<Description><![CDATA[
+This analysis of association between genotype and nine quantitative traits related to metabolic syndrome was conducted in a population sample from the 1966 Northern Finland Birth Cohort (NFBC66).  NFBC66 individuals are from the two northernmost provinces of Finland, were all born in 1966 and were age 31 at the time of assessment, were not ascertained for any particular disorder/disease, consented to the use of their DNA for genetic analysis studies, and were successfully genotyped on the Illumina 370 CNV platform.  Genotyping was done at the Broad Institute using the Illumina 370CNV Genotyping Beadchip.
+<p>Please note: Following publication of our paper <a href=http://www.ncbi.nlm.nih.gov/sites/entrez?db=pubmed&cmd=DetailsSearch&term=19060910>Nat Genet. 2009 Jan;41(1):35-46</a>, the project was able to have more samples genotyped and we have used this final set of genotype data in the submission to dbGaP; therefore the number of genotyped subjects in dbGaP is higher than that in our previously published analysis.</p>
+		]]></Description>
+		<Method>QTL analysis</Method>
+		<GtyPlatform probeNum="370404" snpBatchId="1047132">
+			<Vendor>Illumina</Vendor>
+			<VendorURL>similar to 16 but alleles from dbSNP set and complete set</VendorURL>
+			<Platform>HumanCNV370v1-Complete</Platform>
+		</GtyPlatform>
+		<Comment></Comment>
+	</Analysis>
+	<Analysis pha="2900" genomeBuild="37.1" snpBuild="132" analysisType="">
+		<Description><![CDATA[
+This analysis of association between genotype and nine quantitative traits related to metabolic syndrome was conducted in a population sample from the 1966 Northern Finland Birth Cohort (NFBC66).  NFBC66 individuals are from the two northernmost provinces of Finland, were all born in 1966 and were age 31 at the time of assessment, were not ascertained for any particular disorder/disease, consented to the use of their DNA for genetic analysis studies, and were successfully genotyped on the Illumina 370 CNV platform.  Genotyping was done at the Broad Institute using the Illumina 370CNV Genotyping Beadchip.
+<p>Please note: Following publication of our paper <a href=http://www.ncbi.nlm.nih.gov/sites/entrez?db=pubmed&cmd=DetailsSearch&term=19060910>Nat Genet. 2009 Jan;41(1):35-46</a>, the project was able to have more samples genotyped and we have used this final set of genotype data in the submission to dbGaP; therefore the number of genotyped subjects in dbGaP is higher than that in our previously published analysis.</p>
+		]]></Description>
+		<Method>QTL analysis</Method>
+		<GtyPlatform probeNum="370404" snpBatchId="1047132">
+			<Vendor>Illumina</Vendor>
+			<VendorURL>similar to 16 but alleles from dbSNP set and complete set</VendorURL>
+			<Platform>HumanCNV370v1-Complete</Platform>
+		</GtyPlatform>
+		<Comment></Comment>
+	</Analysis>
+	<Analysis pha="2901" genomeBuild="37.1" snpBuild="132" analysisType="">
+		<Description><![CDATA[
+This analysis of association between genotype and nine quantitative traits related to metabolic syndrome was conducted in a population sample from the 1966 Northern Finland Birth Cohort (NFBC66).  NFBC66 individuals are from the two northernmost provinces of Finland, were all born in 1966 and were age 31 at the time of assessment, were not ascertained for any particular disorder/disease, consented to the use of their DNA for genetic analysis studies, and were successfully genotyped on the Illumina 370 CNV platform.  Genotyping was done at the Broad Institute using the Illumina 370CNV Genotyping Beadchip.
+<p>Please note: Following publication of our paper <a href=http://www.ncbi.nlm.nih.gov/sites/entrez?db=pubmed&cmd=DetailsSearch&term=19060910>Nat Genet. 2009 Jan;41(1):35-46</a>, the project was able to have more samples genotyped and we have used this final set of genotype data in the submission to dbGaP; therefore the number of genotyped subjects in dbGaP is higher than that in our previously published analysis.</p>
+		]]></Description>
+		<Method>QTL analysis</Method>
+		<GtyPlatform probeNum="370404" snpBatchId="1047132">
+			<Vendor>Illumina</Vendor>
+			<VendorURL>similar to 16 but alleles from dbSNP set and complete set</VendorURL>
+			<Platform>HumanCNV370v1-Complete</Platform>
+		</GtyPlatform>
+		<Comment></Comment>
+	</Analysis>
+	<Analysis pha="2902" genomeBuild="37.1" snpBuild="132" analysisType="">
+		<Description><![CDATA[
+This analysis of association between genotype and nine quantitative traits related to metabolic syndrome was conducted in a population sample from the 1966 Northern Finland Birth Cohort (NFBC66).  NFBC66 individuals are from the two northernmost provinces of Finland, were all born in 1966 and were age 31 at the time of assessment, were not ascertained for any particular disorder/disease, consented to the use of their DNA for genetic analysis studies, and were successfully genotyped on the Illumina 370 CNV platform.  Genotyping was done at the Broad Institute using the Illumina 370CNV Genotyping Beadchip.
+<p>Please note: Following publication of our paper <a href=http://www.ncbi.nlm.nih.gov/sites/entrez?db=pubmed&cmd=DetailsSearch&term=19060910>Nat Genet. 2009 Jan;41(1):35-46</a>, the project was able to have more samples genotyped and we have used this final set of genotype data in the submission to dbGaP; therefore the number of genotyped subjects in dbGaP is higher than that in our previously published analysis.</p>
+		]]></Description>
+		<Method>QTL analysis</Method>
+		<GtyPlatform probeNum="370404" snpBatchId="1047132">
+			<Vendor>Illumina</Vendor>
+			<VendorURL>similar to 16 but alleles from dbSNP set and complete set</VendorURL>
+			<Platform>HumanCNV370v1-Complete</Platform>
+		</GtyPlatform>
+		<Comment></Comment>
+	</Analysis>
+	<Analysis pha="2903" genomeBuild="37.1" snpBuild="132" analysisType="">
+		<Description><![CDATA[
+This analysis of association between genotype and nine quantitative traits related to metabolic syndrome was conducted in a population sample from the 1966 Northern Finland Birth Cohort (NFBC66).  NFBC66 individuals are from the two northernmost provinces of Finland, were all born in 1966 and were age 31 at the time of assessment, were not ascertained for any particular disorder/disease, consented to the use of their DNA for genetic analysis studies, and were successfully genotyped on the Illumina 370 CNV platform.  Genotyping was done at the Broad Institute using the Illumina 370CNV Genotyping Beadchip.
+<p>Please note: Following publication of our paper <a href=http://www.ncbi.nlm.nih.gov/sites/entrez?db=pubmed&cmd=DetailsSearch&term=19060910>Nat Genet. 2009 Jan;41(1):35-46</a>, the project was able to have more samples genotyped and we have used this final set of genotype data in the submission to dbGaP; therefore the number of genotyped subjects in dbGaP is higher than that in our previously published analysis.</p>
+		]]></Description>
+		<Method>QTL analysis</Method>
+		<GtyPlatform probeNum="370404" snpBatchId="1047132">
+			<Vendor>Illumina</Vendor>
+			<VendorURL>similar to 16 but alleles from dbSNP set and complete set</VendorURL>
+			<Platform>HumanCNV370v1-Complete</Platform>
+		</GtyPlatform>
+		<Comment></Comment>
+	</Analysis>
+	<Analysis pha="2904" genomeBuild="37.1" snpBuild="132" analysisType="">
+		<Description><![CDATA[
+This analysis of association between genotype and nine quantitative traits related to metabolic syndrome was conducted in a population sample from the 1966 Northern Finland Birth Cohort (NFBC66).  NFBC66 individuals are from the two northernmost provinces of Finland, were all born in 1966 and were age 31 at the time of assessment, were not ascertained for any particular disorder/disease, consented to the use of their DNA for genetic analysis studies, and were successfully genotyped on the Illumina 370 CNV platform.  Genotyping was done at the Broad Institute using the Illumina 370CNV Genotyping Beadchip.
+<p>Please note: Following publication of our paper <a href=http://www.ncbi.nlm.nih.gov/sites/entrez?db=pubmed&cmd=DetailsSearch&term=19060910>Nat Genet. 2009 Jan;41(1):35-46</a>, the project was able to have more samples genotyped and we have used this final set of genotype data in the submission to dbGaP; therefore the number of genotyped subjects in dbGaP is higher than that in our previously published analysis.</p>
+		]]></Description>
+		<Method>QTL analysis</Method>
+		<GtyPlatform probeNum="370404" snpBatchId="1047132">
+			<Vendor>Illumina</Vendor>
+			<VendorURL>similar to 16 but alleles from dbSNP set and complete set</VendorURL>
+			<Platform>HumanCNV370v1-Complete</Platform>
+		</GtyPlatform>
+		<Comment></Comment>
+	</Analysis>
+	<Analysis pha="3006" genomeBuild="37.1" snpBuild="132" analysisType="">
+		<Description><![CDATA[
+The National Heart, Lung and Blood Institute (NHLBI) Family Heart Study (FamHS) is a genetic epidemiological family study conducted in four clinical centers over two visits, approximately 8 years apart.  Genotyping for Phase 1 was conducted at Washington University in St. Louis, MO using the IIlumina HumMap 550 chip.  The results presented here are from FamHS genome wide association analysis for association between genotypes and the phenotypic trait as <b>&#34;Body Mass Index(Weight in kg/ Height in m&#94;2)&#34;</b> at Visit 1.  The sample size is 856 and the covariates are Age, Age squared, Age cubed, Sex, Clinical Centers.
+		]]></Description>
+		<Method>Quantitative trait analysis</Method>
+		<GtyPlatform probeNum="561466" snpBatchId="51468">
+			<Vendor>Illumina</Vendor>
+			<VendorURL> http://www.ncbi.nlm.nih.gov/SNP/snp_viewBatch.cgi?sbid=51468</VendorURL>
+			<Platform>HumanHap550v3</Platform>
+		</GtyPlatform>
+		<Comment></Comment>
+	</Analysis>
+	<Analysis pha="3007" genomeBuild="37.1" snpBuild="132" analysisType="">
+		<Description><![CDATA[
+The National Heart, Lung and Blood Institute (NHLBI) Family Heart Study (FamHS) is a genetic epidemiological family study conducted in four clinical centers over two visits, approximately 8 years apart.  Genotyping for Phase 1 was conducted at Washington University in St. Louis, MO using the IIlumina HumMap 550 chip.  The results presented here are from FamHS genome wide association analysis for association between genotypes and the phenotypic trait as <b>&#34;Body Mass Index(Weight in kg/Height in m&#94;2)&#34;</b> at Visit 2.  The sample size is 974 and the covariates are Age, Age squared, Age cubed, Sex, Clinical Centers.
+		]]></Description>
+		<Method>Quantitative trait analysis</Method>
+		<GtyPlatform probeNum="561466" snpBatchId="51468">
+			<Vendor>Illumina</Vendor>
+			<VendorURL> http://www.ncbi.nlm.nih.gov/SNP/snp_viewBatch.cgi?sbid=51468</VendorURL>
+			<Platform>HumanHap550v3</Platform>
+		</GtyPlatform>
+		<Comment></Comment>
+	</Analysis>
+	<Analysis pha="3008" genomeBuild="37.1" snpBuild="132" analysisType="">
+		<Description><![CDATA[
+The National Heart, Lung and Blood Institute (NHLBI) Family Heart Study (FamHS) is a genetic epidemiological family study conducted in four clinical centers over two visits, approximately 8 years apart.  Genotyping for Phase 1 was conducted at Washington University in St. Louis, MO using the IIlumina HumMap 550 chip.  The results presented here are from FamHS genome wide association analysis for association between genotypes and the phenotypic trait as <b>&#34;Elbow Breadth (mm)&#34;</b> at Visit 1.  The sample size is 851 and the covariates are Age, Age squared, Age cubed, Sex, Clinical Centers.
+		]]></Description>
+		<Method>Quantitative trait analysis</Method>
+		<GtyPlatform probeNum="561466" snpBatchId="51468">
+			<Vendor>Illumina</Vendor>
+			<VendorURL> http://www.ncbi.nlm.nih.gov/SNP/snp_viewBatch.cgi?sbid=51468</VendorURL>
+			<Platform>HumanHap550v3</Platform>
+		</GtyPlatform>
+		<Comment></Comment>
+	</Analysis>
+	<Analysis pha="3009" genomeBuild="37.1" snpBuild="132" analysisType="">
+		<Description><![CDATA[
+The National Heart, Lung and Blood Institute (NHLBI) Family Heart Study (FamHS) is a genetic epidemiological family study conducted in four clinical centers over two visits, approximately 8 years apart.  Genotyping for Phase 1 was conducted at Washington University in St. Louis, MO using the IIlumina HumMap 550 chip.  The results presented here are from FamHS genome wide association analysis for association between genotypes and the phenotypic trait as <b>&#34;Fat Free Mass Lewis&#34;</b> at Visit 2.  The sample size is 813 and the covariates are Age, Age squared, Age cubed, Sex, Clinical Centers.
+		]]></Description>
+		<Method>Quantitative trait analysis</Method>
+		<GtyPlatform probeNum="561466" snpBatchId="51468">
+			<Vendor>Illumina</Vendor>
+			<VendorURL> http://www.ncbi.nlm.nih.gov/SNP/snp_viewBatch.cgi?sbid=51468</VendorURL>
+			<Platform>HumanHap550v3</Platform>
+		</GtyPlatform>
+		<Comment></Comment>
+	</Analysis>
+	<Analysis pha="3010" genomeBuild="37.1" snpBuild="132" analysisType="">
+		<Description><![CDATA[
+The National Heart, Lung and Blood Institute (NHLBI) Family Heart Study (FamHS) is a genetic epidemiological family study conducted in four clinical centers over two visits, approximately 8 years apart.  Genotyping for Phase 1 was conducted at Washington University in St. Louis, MO using the IIlumina HumMap 550 chip.  The results presented here are from FamHS genome wide association analysis for association between genotypes and the phenotypic trait as <b>&#34;Height (cm)&#34;</b> at Visit 1.  The sample size is 856 and the covariates are Age, Age squared, Age cubed, Sex, Clinical Centers.
+		]]></Description>
+		<Method>Quantitative trait analysis</Method>
+		<GtyPlatform probeNum="561466" snpBatchId="51468">
+			<Vendor>Illumina</Vendor>
+			<VendorURL> http://www.ncbi.nlm.nih.gov/SNP/snp_viewBatch.cgi?sbid=51468</VendorURL>
+			<Platform>HumanHap550v3</Platform>
+		</GtyPlatform>
+		<Comment></Comment>
+	</Analysis>
+	<Analysis pha="3011" genomeBuild="37.1" snpBuild="132" analysisType="">
+		<Description><![CDATA[
+The National Heart, Lung and Blood Institute (NHLBI) Family Heart Study (FamHS) is a genetic epidemiological family study conducted in four clinical centers over two visits, approximately 8 years apart.  Genotyping for Phase 1 was conducted at Washington University in St. Louis, MO using the IIlumina HumMap 550 chip.  The results presented here are from FamHS genome wide association analysis for association between genotypes and the phenotypic trait as <b>&#34;Height(m)&#34;</b> at Visit 2.  The sample size is 974 and the covariates are Age, Age squared, Age cubed, Sex, Clinical Centers.
+		]]></Description>
+		<Method>Quantitative trait analysis</Method>
+		<GtyPlatform probeNum="561466" snpBatchId="51468">
+			<Vendor>Illumina</Vendor>
+			<VendorURL> http://www.ncbi.nlm.nih.gov/SNP/snp_viewBatch.cgi?sbid=51468</VendorURL>
+			<Platform>HumanHap550v3</Platform>
+		</GtyPlatform>
+		<Comment></Comment>
+	</Analysis>
+	<Analysis pha="3012" genomeBuild="37.1" snpBuild="132" analysisType="">
+		<Description><![CDATA[
+The National Heart, Lung and Blood Institute (NHLBI) Family Heart Study (FamHS) is a genetic epidemiological family study conducted in four clinical centers over two visits, approximately 8 years apart.  Genotyping for Phase 1 was conducted at Washington University in St. Louis, MO using the IIlumina HumMap 550 chip.  The results presented here are from FamHS genome wide association analysis for association between genotypes and the phenotypic trait as <b>&#34;Log Transformed Subscapular/Triceps Ratio (mm)&#34;</b> at Visit 1.  The sample size is 855 and the covariates are Age, Age squared, Age cubed, Sex, Clinical Centers.
+		]]></Description>
+		<Method>Quantitative trait analysis</Method>
+		<GtyPlatform probeNum="561466" snpBatchId="51468">
+			<Vendor>Illumina</Vendor>
+			<VendorURL> http://www.ncbi.nlm.nih.gov/SNP/snp_viewBatch.cgi?sbid=51468</VendorURL>
+			<Platform>HumanHap550v3</Platform>
+		</GtyPlatform>
+		<Comment></Comment>
+	</Analysis>
+	<Analysis pha="3013" genomeBuild="37.1" snpBuild="132" analysisType="">
+		<Description><![CDATA[
+The National Heart, Lung and Blood Institute (NHLBI) Family Heart Study (FamHS) is a genetic epidemiological family study conducted in four clinical centers over two visits, approximately 8 years apart.  Genotyping for Phase 1 was conducted at Washington University in St. Louis, MO using the IIlumina HumMap 550 chip.  The results presented here are from FamHS genome wide association analysis for association between genotypes and the phenotypic trait as <b>&#34;Log Transformed Waist to Hip Ratio (cm)&#34;</b> at Visit 2.  The sample size is 973 and the covariates are Age, Age squared, Age cubed, Sex, Clinical Centers.
+		]]></Description>
+		<Method>Quantitative trait analysis</Method>
+		<GtyPlatform probeNum="561466" snpBatchId="51468">
+			<Vendor>Illumina</Vendor>
+			<VendorURL> http://www.ncbi.nlm.nih.gov/SNP/snp_viewBatch.cgi?sbid=51468</VendorURL>
+			<Platform>HumanHap550v3</Platform>
+		</GtyPlatform>
+		<Comment></Comment>
+	</Analysis>
+	<Analysis pha="3014" genomeBuild="37.1" snpBuild="132" analysisType="">
+		<Description><![CDATA[
+The National Heart, Lung and Blood Institute (NHLBI) Family Heart Study (FamHS) is a genetic epidemiological family study conducted in four clinical centers over two visits, approximately 8 years apart.  Genotyping for Phase 1 was conducted at Washington University in St. Louis, MO using the IIlumina HumMap 550 chip.  The results presented here are from FamHS genome wide association analysis for association between genotypes and the phenotypic trait as <b>&#34;Obesity World Health Organization (unaffected: BMI&lt;30kg/m2, affected: BMI&#8805;30kg/m2)&#34;</b> at Visit 1.  The sample size is 856 and the covariates for this categorical trait are age, age squared, age cubed, sex, clinical centers.
+		]]></Description>
+		<Method>Quantitative trait analysis</Method>
+		<GtyPlatform probeNum="561466" snpBatchId="51468">
+			<Vendor>Illumina</Vendor>
+			<VendorURL> http://www.ncbi.nlm.nih.gov/SNP/snp_viewBatch.cgi?sbid=51468</VendorURL>
+			<Platform>HumanHap550v3</Platform>
+		</GtyPlatform>
+		<Comment></Comment>
+	</Analysis>
+	<Analysis pha="3015" genomeBuild="37.1" snpBuild="132" analysisType="">
+		<Description><![CDATA[
+The National Heart, Lung and Blood Institute (NHLBI) Family Heart Study (FamHS) is a genetic epidemiological family study conducted in four clinical centers over two visits, approximately 8 years apart.  Genotyping for Phase 1 was conducted at Washington University in St. Louis, MO using the IIlumina HumMap 550 chip.  The results presented here are from FamHS genome wide association analysis for association between genotypes and the phenotypic trait as <b>&#34;Obesity World Health Organization (unaffected: BMI&lt;30kg/m2, affected: BMI&#8805;30kg/m2)&#34;</b> at Visit 2.  The sample size is 974 and the covariates for this categorical trait are age, age squared, age cubed, sex, clinical centers.
+		]]></Description>
+		<Method>Quantitative trait analysis</Method>
+		<GtyPlatform probeNum="561466" snpBatchId="51468">
+			<Vendor>Illumina</Vendor>
+			<VendorURL> http://www.ncbi.nlm.nih.gov/SNP/snp_viewBatch.cgi?sbid=51468</VendorURL>
+			<Platform>HumanHap550v3</Platform>
+		</GtyPlatform>
+		<Comment></Comment>
+	</Analysis>
+	<Analysis pha="3016" genomeBuild="37.1" snpBuild="132" analysisType="">
+		<Description><![CDATA[
+The National Heart, Lung and Blood Institute (NHLBI) Family Heart Study (FamHS) is a genetic epidemiological family study conducted in four clinical centers over two visits, approximately 8 years apart.  Genotyping for Phase 1 was conducted at Washington University in St. Louis, MO using the IIlumina HumMap 550 chip.  The results presented here are from FamHS genome wide association analysis for association between genotypes and the phenotypic trait as <b>&#34;Percent Body Fat Elderly&#34;</b> at Visit 2.  The sample size is 813 and the covariates are Age, Age squared, Age cubed, Sex, Clinical Centers.
+		]]></Description>
+		<Method>Quantitative trait analysis</Method>
+		<GtyPlatform probeNum="561466" snpBatchId="51468">
+			<Vendor>Illumina</Vendor>
+			<VendorURL> http://www.ncbi.nlm.nih.gov/SNP/snp_viewBatch.cgi?sbid=51468</VendorURL>
+			<Platform>HumanHap550v3</Platform>
+		</GtyPlatform>
+		<Comment></Comment>
+	</Analysis>
+	<Analysis pha="3017" genomeBuild="37.1" snpBuild="132" analysisType="">
+		<Description><![CDATA[
+The National Heart, Lung and Blood Institute (NHLBI) Family Heart Study (FamHS) is a genetic epidemiological family study conducted in four clinical centers over two visits, approximately 8 years apart.  Genotyping for Phase 1 was conducted at Washington University in St. Louis, MO using the IIlumina HumMap 550 chip.  The results presented here are from FamHS genome wide association analysis for association between genotypes and the phenotypic trait as <b>&#34;Percent Body Fat Lukaski&#34;</b> at Visit 2.  The sample size is 809 and the covariates are Age, Age squared, Age cubed, Sex, Clinical Centers.
+		]]></Description>
+		<Method>Quantitative trait analysis</Method>
+		<GtyPlatform probeNum="561466" snpBatchId="51468">
+			<Vendor>Illumina</Vendor>
+			<VendorURL> http://www.ncbi.nlm.nih.gov/SNP/snp_viewBatch.cgi?sbid=51468</VendorURL>
+			<Platform>HumanHap550v3</Platform>
+		</GtyPlatform>
+		<Comment></Comment>
+	</Analysis>
+	<Analysis pha="3018" genomeBuild="37.1" snpBuild="132" analysisType="">
+		<Description><![CDATA[
+The National Heart, Lung and Blood Institute (NHLBI) Family Heart Study (FamHS) is a genetic epidemiological family study conducted in four clinical centers over two visits, approximately 8 years apart.  Genotyping for Phase 1 was conducted at Washington University in St. Louis, MO using the IIlumina HumMap 550 chip.  The results presented here are from FamHS genome wide association analysis for association between genotypes and the phenotypic trait as <b>&#34;Percent Body Fat Native American&#34;</b> at Visit 2.  The sample size is 812 and the covariates are Age, Age squared, Age cubed, Sex, Clinical Centers.
+		]]></Description>
+		<Method>Quantitative trait analysis</Method>
+		<GtyPlatform probeNum="561466" snpBatchId="51468">
+			<Vendor>Illumina</Vendor>
+			<VendorURL> http://www.ncbi.nlm.nih.gov/SNP/snp_viewBatch.cgi?sbid=51468</VendorURL>
+			<Platform>HumanHap550v3</Platform>
+		</GtyPlatform>
+		<Comment></Comment>
+	</Analysis>
+	<Analysis pha="3019" genomeBuild="37.1" snpBuild="132" analysisType="">
+		<Description><![CDATA[
+The National Heart, Lung and Blood Institute (NHLBI) Family Heart Study (FamHS) is a genetic epidemiological family study conducted in four clinical centers over two visits, approximately 8 years apart.  Genotyping for Phase 1 was conducted at Washington University in St. Louis, MO using the IIlumina HumMap 550 chip.  The results presented here are from FamHS genome wide association analysis for association between genotypes and the phenotypic trait as <b>&#34;Subscapular+Triceps (mm)&#34;</b> at Visit 1.  The sample size is 855 and the covariates are Age, Age squared, Age cubed, Sex, Clinical Centers.
+		]]></Description>
+		<Method>Quantitative trait analysis</Method>
+		<GtyPlatform probeNum="561466" snpBatchId="51468">
+			<Vendor>Illumina</Vendor>
+			<VendorURL> http://www.ncbi.nlm.nih.gov/SNP/snp_viewBatch.cgi?sbid=51468</VendorURL>
+			<Platform>HumanHap550v3</Platform>
+		</GtyPlatform>
+		<Comment></Comment>
+	</Analysis>
+	<Analysis pha="3020" genomeBuild="37.1" snpBuild="132" analysisType="">
+		<Description><![CDATA[
+The National Heart, Lung and Blood Institute (NHLBI) Family Heart Study (FamHS) is a genetic epidemiological family study conducted in four clinical centers over two visits, approximately 8 years apart.  Genotyping for Phase 1 was conducted at Washington University in St. Louis, MO using the IIlumina HumMap 550 chip.  The results presented here are from FamHS genome wide association analysis for association between genotypes and the phenotypic trait as <b>&#34;Mean of 2 Subscapular Measurments (mm)&#34;</b> at Visit 1.  The sample size is 855 and the covariates are Age, Age squared, Age cubed, Sex, Clinical Centers.
+		]]></Description>
+		<Method>Quantitative trait analysis</Method>
+		<GtyPlatform probeNum="561466" snpBatchId="51468">
+			<Vendor>Illumina</Vendor>
+			<VendorURL> http://www.ncbi.nlm.nih.gov/SNP/snp_viewBatch.cgi?sbid=51468</VendorURL>
+			<Platform>HumanHap550v3</Platform>
+		</GtyPlatform>
+		<Comment></Comment>
+	</Analysis>
+	<Analysis pha="3021" genomeBuild="37.1" snpBuild="132" analysisType="">
+		<Description><![CDATA[
+The National Heart, Lung and Blood Institute (NHLBI) Family Heart Study (FamHS) is a genetic epidemiological family study conducted in four clinical centers over two visits, approximately 8 years apart.  Genotyping for Phase 1 was conducted at Washington University in St. Louis, MO using the IIlumina HumMap 550 chip.  The results presented here are from FamHS genome wide association analysis for association between genotypes and the phenotypic trait as <b>&#34;Subscapular/Triceps Ratio (mm)&#34;</b> at Visit 1.  The sample size is 855 and the covariates are Age, Age squared, Age cubed, Sex, Clinical Centers.
+		]]></Description>
+		<Method>Quantitative trait analysis</Method>
+		<GtyPlatform probeNum="561466" snpBatchId="51468">
+			<Vendor>Illumina</Vendor>
+			<VendorURL> http://www.ncbi.nlm.nih.gov/SNP/snp_viewBatch.cgi?sbid=51468</VendorURL>
+			<Platform>HumanHap550v3</Platform>
+		</GtyPlatform>
+		<Comment></Comment>
+	</Analysis>
+	<Analysis pha="3022" genomeBuild="37.1" snpBuild="132" analysisType="">
+		<Description><![CDATA[
+The National Heart, Lung and Blood Institute (NHLBI) Family Heart Study (FamHS) is a genetic epidemiological family study conducted in four clinical centers over two visits, approximately 8 years apart.  Genotyping for Phase 1 was conducted at Washington University in St. Louis, MO using the IIlumina HumMap 550 chip.  The results presented here are from FamHS genome wide association analysis for association between genotypes and the phenotypic trait as <b>&#34;Mean of 2 Triceps Measurements (mm)&#34;</b> at Visit 1.  The sample size is 855 and the covariates are Age, Age squared, Age cubed, Sex, Clinical Centers.
+		]]></Description>
+		<Method>Quantitative trait analysis</Method>
+		<GtyPlatform probeNum="561466" snpBatchId="51468">
+			<Vendor>Illumina</Vendor>
+			<VendorURL> http://www.ncbi.nlm.nih.gov/SNP/snp_viewBatch.cgi?sbid=51468</VendorURL>
+			<Platform>HumanHap550v3</Platform>
+		</GtyPlatform>
+		<Comment></Comment>
+	</Analysis>
+	<Analysis pha="3023" genomeBuild="37.1" snpBuild="132" analysisType="">
+		<Description><![CDATA[
+The National Heart, Lung and Blood Institute (NHLBI) Family Heart Study (FamHS) is a genetic epidemiological family study conducted in four clinical centers over two visits, approximately 8 years apart.  Genotyping for Phase 1 was conducted at Washington University in St. Louis, MO using the IIlumina HumMap 550 chip.  The results presented here are from FamHS genome wide association analysis for association between genotypes and the phenotypic trait as <b>&#34;Waist Girth (cm) Adjusted for Age, Sex, Clinical Centers ,and BMI&#34;</b> at Visit 1.  The sample size is 855 and the covariates are Age, Age squared, Age cubed, Sex, Clinical Centers, BMI.
+		]]></Description>
+		<Method>Quantitative trait analysis</Method>
+		<GtyPlatform probeNum="561466" snpBatchId="51468">
+			<Vendor>Illumina</Vendor>
+			<VendorURL> http://www.ncbi.nlm.nih.gov/SNP/snp_viewBatch.cgi?sbid=51468</VendorURL>
+			<Platform>HumanHap550v3</Platform>
+		</GtyPlatform>
+		<Comment></Comment>
+	</Analysis>
+	<Analysis pha="3024" genomeBuild="37.1" snpBuild="132" analysisType="">
+		<Description><![CDATA[
+The National Heart, Lung and Blood Institute (NHLBI) Family Heart Study (FamHS) is a genetic epidemiological family study conducted in four clinical centers over two visits, approximately 8 years apart.  Genotyping for Phase 1 was conducted at Washington University in St. Louis, MO using the IIlumina HumMap 550 chip.  The results presented here are from FamHS genome wide association analysis for association between genotypes and the phenotypic trait as <b>&#34;Waist Girth (cm)&#34;</b> at Visit 1.  The sample size is 855 and the covariates are Age, Age squared, Age cubed, Sex, Clinical Centers.
+		]]></Description>
+		<Method>Quantitative trait analysis</Method>
+		<GtyPlatform probeNum="561466" snpBatchId="51468">
+			<Vendor>Illumina</Vendor>
+			<VendorURL> http://www.ncbi.nlm.nih.gov/SNP/snp_viewBatch.cgi?sbid=51468</VendorURL>
+			<Platform>HumanHap550v3</Platform>
+		</GtyPlatform>
+		<Comment></Comment>
+	</Analysis>
+	<Analysis pha="3025" genomeBuild="37.1" snpBuild="132" analysisType="">
+		<Description><![CDATA[
+The National Heart, Lung and Blood Institute (NHLBI) Family Heart Study (FamHS) is a genetic epidemiological family study conducted in four clinical centers over two visits, approximately 8 years apart.  Genotyping for Phase 1 was conducted at Washington University in St. Louis, MO using the IIlumina HumMap 550 chip.  The results presented here are from FamHS genome wide association analysis for association between genotypes and the phenotypic trait as <b>&#34;Waist Girth (cm)&#34;</b> at Visit 2.  The sample size is 973 and the covariates are Age, Age squared, Age cubed, Sex, Clinical Centers.
+		]]></Description>
+		<Method>Quantitative trait analysis</Method>
+		<GtyPlatform probeNum="561466" snpBatchId="51468">
+			<Vendor>Illumina</Vendor>
+			<VendorURL> http://www.ncbi.nlm.nih.gov/SNP/snp_viewBatch.cgi?sbid=51468</VendorURL>
+			<Platform>HumanHap550v3</Platform>
+		</GtyPlatform>
+		<Comment></Comment>
+	</Analysis>
+	<Analysis pha="3026" genomeBuild="37.1" snpBuild="132" analysisType="">
+		<Description><![CDATA[
+The National Heart, Lung and Blood Institute (NHLBI) Family Heart Study (FamHS) is a genetic epidemiological family study conducted in four clinical centers over two visits, approximately 8 years apart.  Genotyping for Phase 1 was conducted at Washington University in St. Louis, MO using the IIlumina HumMap 550 chip.  The results presented here are from FamHS genome wide association analysis for association between genotypes and the phenotypic trait as <b>&#34;Weight (lb)&#34;</b> at Visit 1.  The sample size is 856 and the covariates are Age, Age squared, Age cubed, Sex, Clinical Centers.
+		]]></Description>
+		<Method>Quantitative trait analysis</Method>
+		<GtyPlatform probeNum="561466" snpBatchId="51468">
+			<Vendor>Illumina</Vendor>
+			<VendorURL> http://www.ncbi.nlm.nih.gov/SNP/snp_viewBatch.cgi?sbid=51468</VendorURL>
+			<Platform>HumanHap550v3</Platform>
+		</GtyPlatform>
+		<Comment></Comment>
+	</Analysis>
+	<Analysis pha="3027" genomeBuild="37.1" snpBuild="132" analysisType="">
+		<Description><![CDATA[
+The National Heart, Lung and Blood Institute (NHLBI) Family Heart Study (FamHS) is a genetic epidemiological family study conducted in four clinical centers over two visits, approximately 8 years apart.  Genotyping for Phase 1 was conducted at Washington University in St. Louis, MO using the IIlumina HumMap 550 chip.  The results presented here are from FamHS genome wide association analysis for association between genotypes and the phenotypic trait as <b>&#34;Weight (lb)&#34;</b> at Visit 2.  The sample size is 974 and the covariates are Age, Age squared, Age cubed, Sex, Clinical Centers.
+		]]></Description>
+		<Method>Quantitative trait analysis</Method>
+		<GtyPlatform probeNum="561466" snpBatchId="51468">
+			<Vendor>Illumina</Vendor>
+			<VendorURL> http://www.ncbi.nlm.nih.gov/SNP/snp_viewBatch.cgi?sbid=51468</VendorURL>
+			<Platform>HumanHap550v3</Platform>
+		</GtyPlatform>
+		<Comment></Comment>
+	</Analysis>
+	<Analysis pha="3028" genomeBuild="37.1" snpBuild="132" analysisType="">
+		<Description><![CDATA[
+The National Heart, Lung and Blood Institute (NHLBI) Family Heart Study (FamHS) is a genetic epidemiological family study conducted in four clinical centers over two visits, approximately 8 years apart.  Genotyping for Phase 1 was conducted at Washington University in St. Louis, MO using the IIlumina HumMap 550 chip.  The results presented here are from FamHS genome wide association analysis for association between genotypes and the phenotypic trait as <b>&#34;Waist to Hip Ratio (cm)&#34;</b> at Visit 2.  The sample size is 973 and the covariates are Age, Age squared, Age cubed, Sex, Clinical Centers.
+		]]></Description>
+		<Method>Quantitative trait analysis</Method>
+		<GtyPlatform probeNum="561466" snpBatchId="51468">
+			<Vendor>Illumina</Vendor>
+			<VendorURL> http://www.ncbi.nlm.nih.gov/SNP/snp_viewBatch.cgi?sbid=51468</VendorURL>
+			<Platform>HumanHap550v3</Platform>
+		</GtyPlatform>
+		<Comment></Comment>
+	</Analysis>
+	<Analysis pha="3029" genomeBuild="37.1" snpBuild="132" analysisType="">
+		<Description><![CDATA[
+The National Heart, Lung and Blood Institute (NHLBI) Family Heart Study (FamHS) is a genetic epidemiological family study conducted in four clinical centers over two visits, approximately 8 years apart.  Genotyping for Phase 1 was conducted at Washington University in St. Louis, MO using the IIlumina HumMap 550 chip.  The results presented here are from FamHS genome wide association analysis for association between genotypes and the phenotypic trait as <b>&#34;Waist to Hip Ratio (cm)&#34;</b> at Visit 1.  The sample size is 855 and the covariates are Age, Age squared, Age cubed, Sex, Clinical Centers.
+		]]></Description>
+		<Method>Quantitative trait analysis</Method>
+		<GtyPlatform probeNum="561466" snpBatchId="51468">
+			<Vendor>Illumina</Vendor>
+			<VendorURL> http://www.ncbi.nlm.nih.gov/SNP/snp_viewBatch.cgi?sbid=51468</VendorURL>
+			<Platform>HumanHap550v3</Platform>
+		</GtyPlatform>
+		<Comment></Comment>
+	</Analysis>
+	<Analysis pha="3030" genomeBuild="37.1" snpBuild="132" analysisType="">
+		<Description><![CDATA[
+The National Heart, Lung and Blood Institute (NHLBI) Family Heart Study (FamHS) is a genetic epidemiological family study conducted in four clinical centers over two visits, approximately 8 years apart.  Genotyping for Phase 1 was conducted at Washington University in St. Louis, MO using the IIlumina HumMap 550 chip.  The results presented here are from FamHS genome wide association analysis for association between genotypes and the phenotypic trait as <b>&#34;BLOM  Transformed AORTA Calcium&#34;</b> at Visit 2.  The sample size is 973 and the covariates are Age, Age squared, Age cubed, Sex, Clinical Centers.
+		]]></Description>
+		<Method>Quantitative trait analysis</Method>
+		<GtyPlatform probeNum="561466" snpBatchId="51468">
+			<Vendor>Illumina</Vendor>
+			<VendorURL> http://www.ncbi.nlm.nih.gov/SNP/snp_viewBatch.cgi?sbid=51468</VendorURL>
+			<Platform>HumanHap550v3</Platform>
+		</GtyPlatform>
+		<Comment></Comment>
+	</Analysis>
+	<Analysis pha="3031" genomeBuild="37.1" snpBuild="132" analysisType="">
+		<Description><![CDATA[
+The National Heart, Lung and Blood Institute (NHLBI) Family Heart Study (FamHS) is a genetic epidemiological family study conducted in four clinical centers over two visits, approximately 8 years apart.  Genotyping for Phase 1 was conducted at Washington University in St. Louis, MO using the IIlumina HumMap 550 chip.  The results presented here are from FamHS genome wide association analysis for association between genotypes and the phenotypic trait as <b>&#34;BLOM  Transformed CAC, Coronary Calcium&#34;</b> at Visit 2.  The sample size is 974 and the covariates are Age, Age squared, Age cubed, Sex, Clinical Centers.
+		]]></Description>
+		<Method>Quantitative trait analysis</Method>
+		<GtyPlatform probeNum="561466" snpBatchId="51468">
+			<Vendor>Illumina</Vendor>
+			<VendorURL> http://www.ncbi.nlm.nih.gov/SNP/snp_viewBatch.cgi?sbid=51468</VendorURL>
+			<Platform>HumanHap550v3</Platform>
+		</GtyPlatform>
+		<Comment></Comment>
+	</Analysis>
+	<Analysis pha="3032" genomeBuild="37.1" snpBuild="132" analysisType="">
+		<Description><![CDATA[
+The National Heart, Lung and Blood Institute (NHLBI) Family Heart Study (FamHS) is a genetic epidemiological family study conducted in four clinical centers over two visits, approximately 8 years apart.  Genotyping for Phase 1 was conducted at Washington University in St. Louis, MO using the IIlumina HumMap 550 chip.  The results presented here are from FamHS genome wide association analysis for association between genotypes and the phenotypic trait as <b>&#34;Calculated Common Arterial Diameter&#34;</b> at Visit 1.  The sample size is 821 and the covariates are Age, Age squared, Age cubed, Sex, Clinical Centers.
+		]]></Description>
+		<Method>Quantitative trait analysis</Method>
+		<GtyPlatform probeNum="561466" snpBatchId="51468">
+			<Vendor>Illumina</Vendor>
+			<VendorURL> http://www.ncbi.nlm.nih.gov/SNP/snp_viewBatch.cgi?sbid=51468</VendorURL>
+			<Platform>HumanHap550v3</Platform>
+		</GtyPlatform>
+		<Comment></Comment>
+	</Analysis>
+	<Analysis pha="3033" genomeBuild="37.1" snpBuild="132" analysisType="">
+		<Description><![CDATA[
+The National Heart, Lung and Blood Institute (NHLBI) Family Heart Study (FamHS) is a genetic epidemiological family study conducted in four clinical centers over two visits, approximately 8 years apart.  Genotyping for Phase 1 was conducted at Washington University in St. Louis, MO using the IIlumina HumMap 550 chip.  The results presented here are from FamHS genome wide association analysis for association between genotypes and the phenotypic trait as <b>&#34;Internal Arterial Diameter&#34;</b> at Visit 1.  The sample size is 794 and the covariates are Age, Age squared, Age cubed, Sex, Clinical Centers.
+		]]></Description>
+		<Method>Quantitative trait analysis</Method>
+		<GtyPlatform probeNum="561466" snpBatchId="51468">
+			<Vendor>Illumina</Vendor>
+			<VendorURL> http://www.ncbi.nlm.nih.gov/SNP/snp_viewBatch.cgi?sbid=51468</VendorURL>
+			<Platform>HumanHap550v3</Platform>
+		</GtyPlatform>
+		<Comment></Comment>
+	</Analysis>
+	<Analysis pha="3034" genomeBuild="37.1" snpBuild="132" analysisType="">
+		<Description><![CDATA[
+The National Heart, Lung and Blood Institute (NHLBI) Family Heart Study (FamHS) is a genetic epidemiological family study conducted in four clinical centers over two visits, approximately 8 years apart.  Genotyping for Phase 1 was conducted at Washington University in St. Louis, MO using the IIlumina HumMap 550 chip.  The results presented here are from FamHS genome wide association analysis for association between genotypes and the phenotypic trait as <b>&#34;Log Transformed Calculated Bifurcation Far Intima-Media Wall Thickness&#34;</b> at Visit 1.  The sample size is 742 and the covariates are Age, Age squared, Age cubed, Sex, Clinical Centers.
+		]]></Description>
+		<Method>Quantitative trait analysis</Method>
+		<GtyPlatform probeNum="561466" snpBatchId="51468">
+			<Vendor>Illumina</Vendor>
+			<VendorURL> http://www.ncbi.nlm.nih.gov/SNP/snp_viewBatch.cgi?sbid=51468</VendorURL>
+			<Platform>HumanHap550v3</Platform>
+		</GtyPlatform>
+		<Comment></Comment>
+	</Analysis>
+	<Analysis pha="3035" genomeBuild="37.1" snpBuild="132" analysisType="">
+		<Description><![CDATA[
+The National Heart, Lung and Blood Institute (NHLBI) Family Heart Study (FamHS) is a genetic epidemiological family study conducted in four clinical centers over two visits, approximately 8 years apart.  Genotyping for Phase 1 was conducted at Washington University in St. Louis, MO using the IIlumina HumMap 550 chip.  The results presented here are from FamHS genome wide association analysis for association between genotypes and the phenotypic trait as <b>&#34;Log Transformed Calculated Optimal Bifurcation Arterial Diameter&#34;</b> at Visit 1.  The sample size is 724 and the covariates are Age, Age squared, Age cubed, Sex, Clinical Centers.
+		]]></Description>
+		<Method>Quantitative trait analysis</Method>
+		<GtyPlatform probeNum="561466" snpBatchId="51468">
+			<Vendor>Illumina</Vendor>
+			<VendorURL> http://www.ncbi.nlm.nih.gov/SNP/snp_viewBatch.cgi?sbid=51468</VendorURL>
+			<Platform>HumanHap550v3</Platform>
+		</GtyPlatform>
+		<Comment></Comment>
+	</Analysis>
+	<Analysis pha="3036" genomeBuild="37.1" snpBuild="132" analysisType="">
+		<Description><![CDATA[
+The National Heart, Lung and Blood Institute (NHLBI) Family Heart Study (FamHS) is a genetic epidemiological family study conducted in four clinical centers over two visits, approximately 8 years apart.  Genotyping for Phase 1 was conducted at Washington University in St. Louis, MO using the IIlumina HumMap 550 chip.  The results presented here are from FamHS genome wide association analysis for association between genotypes and the phenotypic trait as <b>&#34;Log Transformed Calculated Optimal Bifurcation Far Intima-Media Wall Thickness&#34;</b> at Visit 1.  The sample size is 674 and the covariates are Age, Age squared, Age cubed, Sex, Clinical Centers.
+		]]></Description>
+		<Method>Quantitative trait analysis</Method>
+		<GtyPlatform probeNum="561466" snpBatchId="51468">
+			<Vendor>Illumina</Vendor>
+			<VendorURL> http://www.ncbi.nlm.nih.gov/SNP/snp_viewBatch.cgi?sbid=51468</VendorURL>
+			<Platform>HumanHap550v3</Platform>
+		</GtyPlatform>
+		<Comment></Comment>
+	</Analysis>
+	<Analysis pha="3037" genomeBuild="37.1" snpBuild="132" analysisType="">
+		<Description><![CDATA[
+The National Heart, Lung and Blood Institute (NHLBI) Family Heart Study (FamHS) is a genetic epidemiological family study conducted in four clinical centers over two visits, approximately 8 years apart.  Genotyping for Phase 1 was conducted at Washington University in St. Louis, MO using the IIlumina HumMap 550 chip.  The results presented here are from FamHS genome wide association analysis for association between genotypes and the phenotypic trait as <b>&#34;Log Transformed Calculated Common Far Intima-Media Wall Thickness&#34;</b> at Visit 1.  The sample size is 798 and the covariates are Age, Age squared, Age cubed, Sex, Clinical Centers.
+		]]></Description>
+		<Method>Quantitative trait analysis</Method>
+		<GtyPlatform probeNum="561466" snpBatchId="51468">
+			<Vendor>Illumina</Vendor>
+			<VendorURL> http://www.ncbi.nlm.nih.gov/SNP/snp_viewBatch.cgi?sbid=51468</VendorURL>
+			<Platform>HumanHap550v3</Platform>
+		</GtyPlatform>
+		<Comment></Comment>
+	</Analysis>
+	<Analysis pha="3038" genomeBuild="37.1" snpBuild="132" analysisType="">
+		<Description><![CDATA[
+The National Heart, Lung and Blood Institute (NHLBI) Family Heart Study (FamHS) is a genetic epidemiological family study conducted in four clinical centers over two visits, approximately 8 years apart.  Genotyping for Phase 1 was conducted at Washington University in St. Louis, MO using the IIlumina HumMap 550 chip.  The results presented here are from FamHS genome wide association analysis for association between genotypes and the phenotypic trait as <b>&#34;Log Transformed Calculated Internal Far Intima-Media Wall Thickness&#34;</b> at Visit 1.  The sample size is 631 and the covariates are Age, Age squared, Age cubed, Sex, Clinical Centers.
+		]]></Description>
+		<Method>Quantitative trait analysis</Method>
+		<GtyPlatform probeNum="561466" snpBatchId="51468">
+			<Vendor>Illumina</Vendor>
+			<VendorURL> http://www.ncbi.nlm.nih.gov/SNP/snp_viewBatch.cgi?sbid=51468</VendorURL>
+			<Platform>HumanHap550v3</Platform>
+		</GtyPlatform>
+		<Comment></Comment>
+	</Analysis>
+	<Analysis pha="3039" genomeBuild="37.1" snpBuild="132" analysisType="">
+		<Description><![CDATA[
+The National Heart, Lung and Blood Institute (NHLBI) Family Heart Study (FamHS) is a genetic epidemiological family study conducted in four clinical centers over two visits, approximately 8 years apart.  Genotyping for Phase 1 was conducted at Washington University in St. Louis, MO using the IIlumina HumMap 550 chip.  The results presented here are from FamHS genome wide association analysis for association between genotypes and the phenotypic trait as <b>&#34;Average  2nd &#x26; 3rd Diastolic Blood Pressure mmHg&#34;</b> at Visit 2.  The sample size is 974 and the covariates are Age, Age squared, Age cubed, Sex, Clinical Centers.
+		]]></Description>
+		<Method>Quantitative trait analysis</Method>
+		<GtyPlatform probeNum="561466" snpBatchId="51468">
+			<Vendor>Illumina</Vendor>
+			<VendorURL> http://www.ncbi.nlm.nih.gov/SNP/snp_viewBatch.cgi?sbid=51468</VendorURL>
+			<Platform>HumanHap550v3</Platform>
+		</GtyPlatform>
+		<Comment></Comment>
+	</Analysis>
+	<Analysis pha="3040" genomeBuild="37.1" snpBuild="132" analysisType="">
+		<Description><![CDATA[
+The National Heart, Lung and Blood Institute (NHLBI) Family Heart Study (FamHS) is a genetic epidemiological family study conducted in four clinical centers over two visits, approximately 8 years apart.  Genotyping for Phase 1 was conducted at Washington University in St. Louis, MO using the IIlumina HumMap 550 chip.  The results presented here are from FamHS genome wide association analysis for association between genotypes and the phenotypic trait as <b>&#34;Average 2nd &#x26;3rd Diastolic Blood Pressure mmHg&#34;</b> at Visit 1.  The sample size is 854 and the covariates are age, age squared, age cubed, sex, clinical centers.
+		]]></Description>
+		<Method>Quantitative trait analysis</Method>
+		<GtyPlatform probeNum="561466" snpBatchId="51468">
+			<Vendor>Illumina</Vendor>
+			<VendorURL> http://www.ncbi.nlm.nih.gov/SNP/snp_viewBatch.cgi?sbid=51468</VendorURL>
+			<Platform>HumanHap550v3</Platform>
+		</GtyPlatform>
+		<Comment></Comment>
+	</Analysis>
+	<Analysis pha="3041" genomeBuild="37.1" snpBuild="132" analysisType="">
+		<Description><![CDATA[
+The National Heart, Lung and Blood Institute (NHLBI) Family Heart Study (FamHS) is a genetic epidemiological family study conducted in four clinical centers over two visits, approximately 8 years apart.  Genotyping for Phase 1 was conducted at Washington University in St. Louis, MO using the IIlumina HumMap 550 chip.  The results presented here are from FamHS genome wide association analysis for association between genotypes and the phenotypic trait as <b>&#34;Taking Medication for Hypertension or Systolic Blood Pressure&#8805;140 or Diastolic Blood Pressure&#8805;90&#34;</b> at Visit 1.  The sample size is 897 and the covariates for this categorical trait are age, age squared, age cubed, sex, clinical centers.
+		]]></Description>
+		<Method>Quantitative trait analysis</Method>
+		<GtyPlatform probeNum="561466" snpBatchId="51468">
+			<Vendor>Illumina</Vendor>
+			<VendorURL> http://www.ncbi.nlm.nih.gov/SNP/snp_viewBatch.cgi?sbid=51468</VendorURL>
+			<Platform>HumanHap550v3</Platform>
+		</GtyPlatform>
+		<Comment></Comment>
+	</Analysis>
+	<Analysis pha="3042" genomeBuild="37.1" snpBuild="132" analysisType="">
+		<Description><![CDATA[
+The National Heart, Lung and Blood Institute (NHLBI) Family Heart Study (FamHS) is a genetic epidemiological family study conducted in four clinical centers over two visits, approximately 8 years apart.  Genotyping for Phase 1 was conducted at Washington University in St. Louis, MO using the IIlumina HumMap 550 chip.  The results presented here are from FamHS genome wide association analysis for association between genotypes and the phenotypic trait as <b>&#34;Taking Medication for Hypertension or Systolic Blood Pressure&#8805;140 or Diastolic Blood Pressure&#8805;90&#34;</b> at Visit 2.  The sample size is 974 and the covariates for this categorical trait are age, age squared, age cubed, sex, clinical centers.
+		]]></Description>
+		<Method>Quantitative trait analysis</Method>
+		<GtyPlatform probeNum="561466" snpBatchId="51468">
+			<Vendor>Illumina</Vendor>
+			<VendorURL> http://www.ncbi.nlm.nih.gov/SNP/snp_viewBatch.cgi?sbid=51468</VendorURL>
+			<Platform>HumanHap550v3</Platform>
+		</GtyPlatform>
+		<Comment></Comment>
+	</Analysis>
+	<Analysis pha="3043" genomeBuild="37.1" snpBuild="132" analysisType="">
+		<Description><![CDATA[
+The National Heart, Lung and Blood Institute (NHLBI) Family Heart Study (FamHS) is a genetic epidemiological family study conducted in four clinical centers over two visits, approximately 8 years apart.  Genotyping for Phase 1 was conducted at Washington University in St. Louis, MO using the IIlumina HumMap 550 chip.  The results presented here are from FamHS genome wide association analysis for association between genotypes and the phenotypic trait as <b>&#34;Index of Ankle over Arm/DBP&#34;</b> at Visit 1.  The sample size is 683 and the covariates are Age, Age squared, Age cubed, Sex, Clinical Centers.
+		]]></Description>
+		<Method>Quantitative trait analysis</Method>
+		<GtyPlatform probeNum="561466" snpBatchId="51468">
+			<Vendor>Illumina</Vendor>
+			<VendorURL> http://www.ncbi.nlm.nih.gov/SNP/snp_viewBatch.cgi?sbid=51468</VendorURL>
+			<Platform>HumanHap550v3</Platform>
+		</GtyPlatform>
+		<Comment></Comment>
+	</Analysis>
+	<Analysis pha="3044" genomeBuild="37.1" snpBuild="132" analysisType="">
+		<Description><![CDATA[
+The National Heart, Lung and Blood Institute (NHLBI) Family Heart Study (FamHS) is a genetic epidemiological family study conducted in four clinical centers over two visits, approximately 8 years apart.  Genotyping for Phase 1 was conducted at Washington University in St. Louis, MO using the IIlumina HumMap 550 chip.  The results presented here are from FamHS genome wide association analysis for association between genotypes and the phenotypic trait as <b>&#34;Index of Ankle over Arm/SBP&#34;</b> at Visit 1.  The sample size is 683 and the covariates are Age, Age squared, Age cubed, Sex, Clinical Centers.
+		]]></Description>
+		<Method>Quantitative trait analysis</Method>
+		<GtyPlatform probeNum="561466" snpBatchId="51468">
+			<Vendor>Illumina</Vendor>
+			<VendorURL> http://www.ncbi.nlm.nih.gov/SNP/snp_viewBatch.cgi?sbid=51468</VendorURL>
+			<Platform>HumanHap550v3</Platform>
+		</GtyPlatform>
+		<Comment></Comment>
+	</Analysis>
+	<Analysis pha="3045" genomeBuild="37.1" snpBuild="132" analysisType="">
+		<Description><![CDATA[
+The National Heart, Lung and Blood Institute (NHLBI) Family Heart Study (FamHS) is a genetic epidemiological family study conducted in four clinical centers over two visits, approximately 8 years apart.  Genotyping for Phase 1 was conducted at Washington University in St. Louis, MO using the IIlumina HumMap 550 chip.  The results presented here are from FamHS genome wide association analysis for association between genotypes and the phenotypic trait as <b>&#34;Mean Arterial Pressure&#34;</b> at Visit 2.  The sample size is 974 and the covariates are Age, Age squared, Age cubed, Sex, Clinical Centers.
+		]]></Description>
+		<Method>Quantitative trait analysis</Method>
+		<GtyPlatform probeNum="561466" snpBatchId="51468">
+			<Vendor>Illumina</Vendor>
+			<VendorURL> http://www.ncbi.nlm.nih.gov/SNP/snp_viewBatch.cgi?sbid=51468</VendorURL>
+			<Platform>HumanHap550v3</Platform>
+		</GtyPlatform>
+		<Comment></Comment>
+	</Analysis>
+	<Analysis pha="3046" genomeBuild="37.1" snpBuild="132" analysisType="">
+		<Description><![CDATA[
+The National Heart, Lung and Blood Institute (NHLBI) Family Heart Study (FamHS) is a genetic epidemiological family study conducted in four clinical centers over two visits, approximately 8 years apart.  Genotyping for Phase 1 was conducted at Washington University in St. Louis, MO using the IIlumina HumMap 550 chip.  The results presented here are from FamHS genome wide association analysis for association between genotypes and the phenotypic trait as <b>&#34;Pulse Obliteration Pressure&#34;</b> at Visit 1.  The sample size is 851 and the covariates are Age, Age squared, Age cubed, Sex, Clinical Centers.
+		]]></Description>
+		<Method>Quantitative trait analysis</Method>
+		<GtyPlatform probeNum="561466" snpBatchId="51468">
+			<Vendor>Illumina</Vendor>
+			<VendorURL> http://www.ncbi.nlm.nih.gov/SNP/snp_viewBatch.cgi?sbid=51468</VendorURL>
+			<Platform>HumanHap550v3</Platform>
+		</GtyPlatform>
+		<Comment></Comment>
+	</Analysis>
+	<Analysis pha="3047" genomeBuild="37.1" snpBuild="132" analysisType="">
+		<Description><![CDATA[
+The National Heart, Lung and Blood Institute (NHLBI) Family Heart Study (FamHS) is a genetic epidemiological family study conducted in four clinical centers over two visits, approximately 8 years apart.  Genotyping for Phase 1 was conducted at Washington University in St. Louis, MO using the IIlumina HumMap 550 chip.  The results presented here are from FamHS genome wide association analysis for association between genotypes and the phenotypic trait as <b>&#34;Average 2nd &#x26; 3rd Systolic Blood Pressure mmHg&#34;</b> at Visit 2.  The sample size is 974 and the covariates are Age, Age squared, Age cubed, Sex, Clinical Centers.
+		]]></Description>
+		<Method>Quantitative trait analysis</Method>
+		<GtyPlatform probeNum="561466" snpBatchId="51468">
+			<Vendor>Illumina</Vendor>
+			<VendorURL> http://www.ncbi.nlm.nih.gov/SNP/snp_viewBatch.cgi?sbid=51468</VendorURL>
+			<Platform>HumanHap550v3</Platform>
+		</GtyPlatform>
+		<Comment></Comment>
+	</Analysis>
+	<Analysis pha="3048" genomeBuild="37.1" snpBuild="132" analysisType="">
+		<Description><![CDATA[
+The National Heart, Lung and Blood Institute (NHLBI) Family Heart Study (FamHS) is a genetic epidemiological family study conducted in four clinical centers over two visits, approximately 8 years apart.  Genotyping for Phase 1 was conducted at Washington University in St. Louis, MO using the IIlumina HumMap 550 chip.  The results presented here are from FamHS genome wide association analysis for association between genotypes and the phenotypic trait as <b>&#34;Average 2nd &#x26; 3rd Systolic Blood Pressure mmHg&#34;</b> at Visit 1.  The sample size is 854 and the covariates are Age, Age squared, Age cubed, Sex, Clinical Centers.
+		]]></Description>
+		<Method>Quantitative trait analysis</Method>
+		<GtyPlatform probeNum="561466" snpBatchId="51468">
+			<Vendor>Illumina</Vendor>
+			<VendorURL> http://www.ncbi.nlm.nih.gov/SNP/snp_viewBatch.cgi?sbid=51468</VendorURL>
+			<Platform>HumanHap550v3</Platform>
+		</GtyPlatform>
+		<Comment></Comment>
+	</Analysis>
+	<Analysis pha="3049" genomeBuild="37.1" snpBuild="132" analysisType="">
+		<Description><![CDATA[
+The National Heart, Lung and Blood Institute (NHLBI) Family Heart Study (FamHS) is a genetic epidemiological family study conducted in four clinical centers over two visits, approximately 8 years apart.  Genotyping for Phase 1 was conducted at Washington University in St. Louis, MO using the IIlumina HumMap 550 chip.  The results presented here are from FamHS genome wide association analysis for association between genotypes and the phenotypic trait as <b>&#34;Average 1st &#x26; 2nd Standing Diastolic Blood Pressure mmHg&#34;</b> at Visit 1.  The sample size is 669 and the covariates are Age, Age squared, Age cubed, Sex, Clinical Centers.
+		]]></Description>
+		<Method>Quantitative trait analysis</Method>
+		<GtyPlatform probeNum="561466" snpBatchId="51468">
+			<Vendor>Illumina</Vendor>
+			<VendorURL> http://www.ncbi.nlm.nih.gov/SNP/snp_viewBatch.cgi?sbid=51468</VendorURL>
+			<Platform>HumanHap550v3</Platform>
+		</GtyPlatform>
+		<Comment></Comment>
+	</Analysis>
+	<Analysis pha="3050" genomeBuild="37.1" snpBuild="132" analysisType="">
+		<Description><![CDATA[
+The National Heart, Lung and Blood Institute (NHLBI) Family Heart Study (FamHS) is a genetic epidemiological family study conducted in four clinical centers over two visits, approximately 8 years apart.  Genotyping for Phase 1 was conducted at Washington University in St. Louis, MO using the IIlumina HumMap 550 chip.  The results presented here are from FamHS genome wide association analysis for association between genotypes and the phenotypic trait as <b>&#34;Average 1st &#x26; 2nd Standing Systolic Blood Pressure mmHg&#34;</b> at Visit 1.  The sample size is 669 and the covariates are Age, Age squared, Age cubed, Sex, Clinical Centers.
+		]]></Description>
+		<Method>Quantitative trait analysis</Method>
+		<GtyPlatform probeNum="561466" snpBatchId="51468">
+			<Vendor>Illumina</Vendor>
+			<VendorURL> http://www.ncbi.nlm.nih.gov/SNP/snp_viewBatch.cgi?sbid=51468</VendorURL>
+			<Platform>HumanHap550v3</Platform>
+		</GtyPlatform>
+		<Comment></Comment>
+	</Analysis>
+	<Analysis pha="3051" genomeBuild="37.1" snpBuild="132" analysisType="">
+		<Description><![CDATA[
+The National Heart, Lung and Blood Institute (NHLBI) Family Heart Study (FamHS) is a genetic epidemiological family study conducted in four clinical centers over two visits, approximately 8 years apart.  Genotyping for Phase 1 was conducted at Washington University in St. Louis, MO using the IIlumina HumMap 550 chip.  The results presented here are from FamHS genome wide association analysis for association between genotypes and the phenotypic trait as <b>&#34;Log Transformed Heart Rate Beats per Minute&#34;</b> at Visit 1.  The sample size is 853 and the covariates are Age, Age squared, Age cubed, Sex, Clinical Centers.
+		]]></Description>
+		<Method>Quantitative trait analysis</Method>
+		<GtyPlatform probeNum="561466" snpBatchId="51468">
+			<Vendor>Illumina</Vendor>
+			<VendorURL> http://www.ncbi.nlm.nih.gov/SNP/snp_viewBatch.cgi?sbid=51468</VendorURL>
+			<Platform>HumanHap550v3</Platform>
+		</GtyPlatform>
+		<Comment></Comment>
+	</Analysis>
+	<Analysis pha="3052" genomeBuild="37.1" snpBuild="132" analysisType="">
+		<Description><![CDATA[
+The National Heart, Lung and Blood Institute (NHLBI) Family Heart Study (FamHS) is a genetic epidemiological family study conducted in four clinical centers over two visits, approximately 8 years apart.  Genotyping for Phase 1 was conducted at Washington University in St. Louis, MO using the IIlumina HumMap 550 chip.  The results presented here are from FamHS genome wide association analysis for association between genotypes and the phenotypic trait as <b>&#34;Log Transformed Left Ventricular Hypertrophy Index&#34;</b> at Visit 1.  The sample size is 851 and the covariates are Age, Age squared, Age cubed, Sex, Clinical Centers.
+		]]></Description>
+		<Method>Quantitative trait analysis</Method>
+		<GtyPlatform probeNum="561466" snpBatchId="51468">
+			<Vendor>Illumina</Vendor>
+			<VendorURL> http://www.ncbi.nlm.nih.gov/SNP/snp_viewBatch.cgi?sbid=51468</VendorURL>
+			<Platform>HumanHap550v3</Platform>
+		</GtyPlatform>
+		<Comment></Comment>
+	</Analysis>
+	<Analysis pha="3053" genomeBuild="37.1" snpBuild="132" analysisType="">
+		<Description><![CDATA[
+The National Heart, Lung and Blood Institute (NHLBI) Family Heart Study (FamHS) is a genetic epidemiological family study conducted in four clinical centers over two visits, approximately 8 years apart.  Genotyping for Phase 1 was conducted at Washington University in St. Louis, MO using the IIlumina HumMap 550 chip.  The results presented here are from FamHS genome wide association analysis for association between genotypes and the phenotypic trait as <b>&#34;QT index&#34;</b> at Visit 1.  The sample size is 851 and the covariates are Age, Age squared, Age cubed, Sex, Clinical Centers.
+		]]></Description>
+		<Method>Quantitative trait analysis</Method>
+		<GtyPlatform probeNum="561466" snpBatchId="51468">
+			<Vendor>Illumina</Vendor>
+			<VendorURL> http://www.ncbi.nlm.nih.gov/SNP/snp_viewBatch.cgi?sbid=51468</VendorURL>
+			<Platform>HumanHap550v3</Platform>
+		</GtyPlatform>
+		<Comment></Comment>
+	</Analysis>
+	<Analysis pha="3054" genomeBuild="37.1" snpBuild="132" analysisType="">
+		<Description><![CDATA[
+The National Heart, Lung and Blood Institute (NHLBI) Family Heart Study (FamHS) is a genetic epidemiological family study conducted in four clinical centers over two visits, approximately 8 years apart.  Genotyping for Phase 1 was conducted at Washington University in St. Louis, MO using the IIlumina HumMap 550 chip.  The results presented here are from FamHS genome wide association analysis for association between genotypes and the phenotypic trait as <b>&#34;QT interval, MSEC&#34;</b> at Visit 1.  The sample size is 853 and the covariates are Age, Age squared, Age cubed, Sex, Clinical Centers.
+		]]></Description>
+		<Method>Quantitative trait analysis</Method>
+		<GtyPlatform probeNum="561466" snpBatchId="51468">
+			<Vendor>Illumina</Vendor>
+			<VendorURL> http://www.ncbi.nlm.nih.gov/SNP/snp_viewBatch.cgi?sbid=51468</VendorURL>
+			<Platform>HumanHap550v3</Platform>
+		</GtyPlatform>
+		<Comment></Comment>
+	</Analysis>
+	<Analysis pha="3055" genomeBuild="37.1" snpBuild="132" analysisType="">
+		<Description><![CDATA[
+The National Heart, Lung and Blood Institute (NHLBI) Family Heart Study (FamHS) is a genetic epidemiological family study conducted in four clinical centers over two visits, approximately 8 years apart.  Genotyping for Phase 1 was conducted at Washington University in St. Louis, MO using the IIlumina HumMap 550 chip.  The results presented here are from FamHS genome wide association analysis for association between genotypes and the phenotypic trait as <b>&#34;Derived Coronary Heart Disease (Miocardial Infarction or Bypass Operation or Balloon Angioplasty)&#34;</b> at Visit 1.  The sample size is 889 and the covariates for this categorical trait are age, age squared, age cubed, sex, clinical centers.
+		]]></Description>
+		<Method>Quantitative trait analysis</Method>
+		<GtyPlatform probeNum="561466" snpBatchId="51468">
+			<Vendor>Illumina</Vendor>
+			<VendorURL> http://www.ncbi.nlm.nih.gov/SNP/snp_viewBatch.cgi?sbid=51468</VendorURL>
+			<Platform>HumanHap550v3</Platform>
+		</GtyPlatform>
+		<Comment></Comment>
+	</Analysis>
+	<Analysis pha="3056" genomeBuild="37.1" snpBuild="132" analysisType="">
+		<Description><![CDATA[
+The National Heart, Lung and Blood Institute (NHLBI) Family Heart Study (FamHS) is a genetic epidemiological family study conducted in four clinical centers over two visits, approximately 8 years apart.  Genotyping for Phase 1 was conducted at Washington University in St. Louis, MO using the IIlumina HumMap 550 chip.  The results presented here are from FamHS genome wide association analysis for association between genotypes and the phenotypic trait as <b>&#34;Derived Coronary Heart Disease (Miocardial Infarction or Bypass Operation or Balloon Angioplasty)&#34;</b> at Visit 2.  The sample size is 974 and the covariates for this categorical trait are age, age squared, age cubed, sex, clinical centers.
+		]]></Description>
+		<Method>Quantitative trait analysis</Method>
+		<GtyPlatform probeNum="561466" snpBatchId="51468">
+			<Vendor>Illumina</Vendor>
+			<VendorURL> http://www.ncbi.nlm.nih.gov/SNP/snp_viewBatch.cgi?sbid=51468</VendorURL>
+			<Platform>HumanHap550v3</Platform>
+		</GtyPlatform>
+		<Comment></Comment>
+	</Analysis>
+	<Analysis pha="3057" genomeBuild="37.1" snpBuild="132" analysisType="">
+		<Description><![CDATA[
+The National Heart, Lung and Blood Institute (NHLBI) Family Heart Study (FamHS) is a genetic epidemiological family study conducted in four clinical centers over two visits, approximately 8 years apart.  Genotyping for Phase 1 was conducted at Washington University in St. Louis, MO using the IIlumina HumMap 550 chip.  The results presented here are from FamHS genome wide association analysis for association between genotypes and the phenotypic trait as <b>&#34;BLOM  Transformed Glucose mg/dL(1/gluc*gluc)&#34;</b> at Visit 2.  The sample size is 960 and the covariates are Age, Age squared, Age cubed, Sex, Clinical Centers.
+		]]></Description>
+		<Method>Quantitative trait analysis</Method>
+		<GtyPlatform probeNum="561466" snpBatchId="51468">
+			<Vendor>Illumina</Vendor>
+			<VendorURL> http://www.ncbi.nlm.nih.gov/SNP/snp_viewBatch.cgi?sbid=51468</VendorURL>
+			<Platform>HumanHap550v3</Platform>
+		</GtyPlatform>
+		<Comment></Comment>
+	</Analysis>
+	<Analysis pha="3058" genomeBuild="37.1" snpBuild="132" analysisType="">
+		<Description><![CDATA[
+The National Heart, Lung and Blood Institute (NHLBI) Family Heart Study (FamHS) is a genetic epidemiological family study conducted in four clinical centers over two visits, approximately 8 years apart.  Genotyping for Phase 1 was conducted at Washington University in St. Louis, MO using the IIlumina HumMap 550 chip.  The results presented here are from FamHS genome wide association analysis for association between genotypes and the phenotypic trait as <b>&#34;BLOM  Transformed Glucose mg/dL&#34;</b> at Visit 1.  The sample size is 874 and the covariates are Age, Age squared, Age cubed, Sex, Clinical Centers.
+		]]></Description>
+		<Method>Quantitative trait analysis</Method>
+		<GtyPlatform probeNum="561466" snpBatchId="51468">
+			<Vendor>Illumina</Vendor>
+			<VendorURL> http://www.ncbi.nlm.nih.gov/SNP/snp_viewBatch.cgi?sbid=51468</VendorURL>
+			<Platform>HumanHap550v3</Platform>
+		</GtyPlatform>
+		<Comment></Comment>
+	</Analysis>
+	<Analysis pha="3059" genomeBuild="37.1" snpBuild="132" analysisType="">
+		<Description><![CDATA[
+The National Heart, Lung and Blood Institute (NHLBI) Family Heart Study (FamHS) is a genetic epidemiological family study conducted in four clinical centers over two visits, approximately 8 years apart.  Genotyping for Phase 1 was conducted at Washington University in St. Louis, MO using the IIlumina HumMap 550 chip.  The results presented here are from FamHS genome wide association analysis for association between genotypes and the phenotypic trait as <b>&#34;Taking Medication for Diabetes or Glucose mg/dL &#8805;126&#34;</b> at Visit 1.  The sample size is 875 and the covariates for this categorical trait are age, age squared, age cubed, sex, clinical centers.
+		]]></Description>
+		<Method>Quantitative trait analysis</Method>
+		<GtyPlatform probeNum="561466" snpBatchId="51468">
+			<Vendor>Illumina</Vendor>
+			<VendorURL> http://www.ncbi.nlm.nih.gov/SNP/snp_viewBatch.cgi?sbid=51468</VendorURL>
+			<Platform>HumanHap550v3</Platform>
+		</GtyPlatform>
+		<Comment></Comment>
+	</Analysis>
+	<Analysis pha="3060" genomeBuild="37.1" snpBuild="132" analysisType="">
+		<Description><![CDATA[
+The National Heart, Lung and Blood Institute (NHLBI) Family Heart Study (FamHS) is a genetic epidemiological family study conducted in four clinical centers over two visits, approximately 8 years apart.  Genotyping for Phase 1 was conducted at Washington University in St. Louis, MO using the IIlumina HumMap 550 chip.  The results presented here are from FamHS genome wide association analysis for association between genotypes and the phenotypic trait as <b>&#34;Taking Medication for Diabetes or Glucose mg/dL &#8805;126&#34;</b> at Visit 2.  The sample size is 962 and the covariates for this categorical trait are age, age squared, age cubed, sex, clinical centers.
+		]]></Description>
+		<Method>Quantitative trait analysis</Method>
+		<GtyPlatform probeNum="561466" snpBatchId="51468">
+			<Vendor>Illumina</Vendor>
+			<VendorURL> http://www.ncbi.nlm.nih.gov/SNP/snp_viewBatch.cgi?sbid=51468</VendorURL>
+			<Platform>HumanHap550v3</Platform>
+		</GtyPlatform>
+		<Comment></Comment>
+	</Analysis>
+	<Analysis pha="3061" genomeBuild="37.1" snpBuild="132" analysisType="">
+		<Description><![CDATA[
+The National Heart, Lung and Blood Institute (NHLBI) Family Heart Study (FamHS) is a genetic epidemiological family study conducted in four clinical centers over two visits, approximately 8 years apart.  Genotyping for Phase 1 was conducted at Washington University in St. Louis, MO using the IIlumina HumMap 550 chip.  The results presented here are from FamHS genome wide association analysis for association between genotypes and the phenotypic trait as <b>&#34;Glucose mg/dL(1/glucose*glucose)&#34;</b> at Visit 1.  The sample size is 874 and the covariates are Age, Age squared, Age cubed, Sex, Clinical Centers.
+		]]></Description>
+		<Method>Quantitative trait analysis</Method>
+		<GtyPlatform probeNum="561466" snpBatchId="51468">
+			<Vendor>Illumina</Vendor>
+			<VendorURL> http://www.ncbi.nlm.nih.gov/SNP/snp_viewBatch.cgi?sbid=51468</VendorURL>
+			<Platform>HumanHap550v3</Platform>
+		</GtyPlatform>
+		<Comment></Comment>
+	</Analysis>
+	<Analysis pha="3062" genomeBuild="37.1" snpBuild="132" analysisType="">
+		<Description><![CDATA[
+The National Heart, Lung and Blood Institute (NHLBI) Family Heart Study (FamHS) is a genetic epidemiological family study conducted in four clinical centers over two visits, approximately 8 years apart.  Genotyping for Phase 1 was conducted at Washington University in St. Louis, MO using the IIlumina HumMap 550 chip.  The results presented here are from FamHS genome wide association analysis for association between genotypes and the phenotypic trait as <b>&#34;Log Transformed HOMA (Homeostasis Model Assessment Insulin Resistance Index)=INSULIN*GLUCOSE/22.5&#34;</b> at Visit 1.  The sample size is 870 and the covariates are Age, Age squared, Age cubed, Sex, Clinical Centers.
+		]]></Description>
+		<Method>Quantitative trait analysis</Method>
+		<GtyPlatform probeNum="561466" snpBatchId="51468">
+			<Vendor>Illumina</Vendor>
+			<VendorURL> http://www.ncbi.nlm.nih.gov/SNP/snp_viewBatch.cgi?sbid=51468</VendorURL>
+			<Platform>HumanHap550v3</Platform>
+		</GtyPlatform>
+		<Comment></Comment>
+	</Analysis>
+	<Analysis pha="3063" genomeBuild="37.1" snpBuild="132" analysisType="">
+		<Description><![CDATA[
+The National Heart, Lung and Blood Institute (NHLBI) Family Heart Study (FamHS) is a genetic epidemiological family study conducted in four clinical centers over two visits, approximately 8 years apart.  Genotyping for Phase 1 was conducted at Washington University in St. Louis, MO using the IIlumina HumMap 550 chip.  The results presented here are from FamHS genome wide association analysis for association between genotypes and the phenotypic trait as <b>&#34;Log Transformed Insulin mU/L&#34;</b> at Visit 1.  The sample size is 870 and the covariates are Age, Age squared, Age cubed, Sex, Clinical Centers.
+		]]></Description>
+		<Method>Quantitative trait analysis</Method>
+		<GtyPlatform probeNum="561466" snpBatchId="51468">
+			<Vendor>Illumina</Vendor>
+			<VendorURL> http://www.ncbi.nlm.nih.gov/SNP/snp_viewBatch.cgi?sbid=51468</VendorURL>
+			<Platform>HumanHap550v3</Platform>
+		</GtyPlatform>
+		<Comment></Comment>
+	</Analysis>
+	<Analysis pha="3064" genomeBuild="37.1" snpBuild="132" analysisType="">
+		<Description><![CDATA[
+The National Heart, Lung and Blood Institute (NHLBI) Family Heart Study (FamHS) is a genetic epidemiological family study conducted in four clinical centers over two visits, approximately 8 years apart.  Genotyping for Phase 1 was conducted at Washington University in St. Louis, MO using the IIlumina HumMap 550 chip.  The results presented here are from FamHS genome wide association analysis for association between genotypes and the phenotypic trait as <b>&#34;Meta bolic syndrome - NCEP&#34;</b> at Visit 1.  The sample size is 897 and the covariates are age, age squared, age cubed, sex, clinical centers.
+		]]></Description>
+		<Method>Quantitative trait analysis</Method>
+		<GtyPlatform probeNum="561466" snpBatchId="51468">
+			<Vendor>Illumina</Vendor>
+			<VendorURL> http://www.ncbi.nlm.nih.gov/SNP/snp_viewBatch.cgi?sbid=51468</VendorURL>
+			<Platform>HumanHap550v3</Platform>
+		</GtyPlatform>
+		<Comment></Comment>
+	</Analysis>
+	<Analysis pha="3065" genomeBuild="37.1" snpBuild="132" analysisType="">
+		<Description><![CDATA[
+The National Heart, Lung and Blood Institute (NHLBI) Family Heart Study (FamHS) is a genetic epidemiological family study conducted in four clinical centers over two visits, approximately 8 years apart.  Genotyping for Phase 1 was conducted at Washington University in St. Louis, MO using the IIlumina HumMap 550 chip.  The results presented here are from FamHS genome wide association analysis for association between genotypes and the phenotypic trait as <b>&#34;Metabolic syndrome - NCEP&#34;</b> at Visit 2. The sample size is 974 and the covariates are age, age squared, age cubed, sex, clinical centers.
+		]]></Description>
+		<Method>Quantitative trait analysis</Method>
+		<GtyPlatform probeNum="561466" snpBatchId="51468">
+			<Vendor>Illumina</Vendor>
+			<VendorURL> http://www.ncbi.nlm.nih.gov/SNP/snp_viewBatch.cgi?sbid=51468</VendorURL>
+			<Platform>HumanHap550v3</Platform>
+		</GtyPlatform>
+		<Comment></Comment>
+	</Analysis>
+	<Analysis pha="3066" genomeBuild="37.1" snpBuild="132" analysisType="">
+		<Description><![CDATA[
+The National Heart, Lung and Blood Institute (NHLBI) Family Heart Study (FamHS) is a genetic epidemiological family study conducted in four clinical centers over two visits, approximately 8 years apart.  Genotyping for Phase 1 was conducted at Washington University in St. Louis, MO using the IIlumina HumMap 550 chip.  The results presented here are from FamHS genome wide association analysis for association between genotypes and the phenotypic trait as <b>&#34;Sum Job Strain factors-Lifestyle:Dissatisfaction,Exertion,Insecurity,Latitude,Workload&#34;</b> at Visit 1.  The sample size is 804 and the covariates are Age, Age squared, Age cubed, Sex, Clinical Centers.
+		]]></Description>
+		<Method>Quantitative trait analysis</Method>
+		<GtyPlatform probeNum="561466" snpBatchId="51468">
+			<Vendor>Illumina</Vendor>
+			<VendorURL> http://www.ncbi.nlm.nih.gov/SNP/snp_viewBatch.cgi?sbid=51468</VendorURL>
+			<Platform>HumanHap550v3</Platform>
+		</GtyPlatform>
+		<Comment></Comment>
+	</Analysis>
+	<Analysis pha="3067" genomeBuild="37.1" snpBuild="132" analysisType="">
+		<Description><![CDATA[
+The National Heart, Lung and Blood Institute (NHLBI) Family Heart Study (FamHS) is a genetic epidemiological family study conducted in four clinical centers over two visits, approximately 8 years apart.  Genotyping for Phase 1 was conducted at Washington University in St. Louis, MO using the IIlumina HumMap 550 chip.  The results presented here are from FamHS genome wide association analysis for association between genotypes and the phenotypic trait as <b>&#34;Sum Social Support Factors-Lifestyle:Instrumental,Emotional,Society,Network&#34;</b> at Visit 1.  The sample size is 838 and the covariates are Age, Age squared, Age cubed, Sex, Clinical Centers.
+		]]></Description>
+		<Method>Quantitative trait analysis</Method>
+		<GtyPlatform probeNum="561466" snpBatchId="51468">
+			<Vendor>Illumina</Vendor>
+			<VendorURL> http://www.ncbi.nlm.nih.gov/SNP/snp_viewBatch.cgi?sbid=51468</VendorURL>
+			<Platform>HumanHap550v3</Platform>
+		</GtyPlatform>
+		<Comment></Comment>
+	</Analysis>
+	<Analysis pha="3068" genomeBuild="37.1" snpBuild="132" analysisType="">
+		<Description><![CDATA[
+The National Heart, Lung and Blood Institute (NHLBI) Family Heart Study (FamHS) is a genetic epidemiological family study conducted in four clinical centers over two visits, approximately 8 years apart.  Genotyping for Phase 1 was conducted at Washington University in St. Louis, MO using the IIlumina HumMap 550 chip.  The results presented here are from FamHS genome wide association analysis for association between genotypes and the phenotypic trait as <b>&#34;Fibrinogen mg/dL&#34;</b> at Visit 1.  The sample size is 842 and the covariates are Age, Age squared, Age cubed, Sex, Clinical Centers.
+		]]></Description>
+		<Method>Quantitative trait analysis</Method>
+		<GtyPlatform probeNum="561466" snpBatchId="51468">
+			<Vendor>Illumina</Vendor>
+			<VendorURL> http://www.ncbi.nlm.nih.gov/SNP/snp_viewBatch.cgi?sbid=51468</VendorURL>
+			<Platform>HumanHap550v3</Platform>
+		</GtyPlatform>
+		<Comment></Comment>
+	</Analysis>
+	<Analysis pha="3069" genomeBuild="37.1" snpBuild="132" analysisType="">
+		<Description><![CDATA[
+The National Heart, Lung and Blood Institute (NHLBI) Family Heart Study (FamHS) is a genetic epidemiological family study conducted in four clinical centers over two visits, approximately 8 years apart.  Genotyping for Phase 1 was conducted at Washington University in St. Louis, MO using the IIlumina HumMap 550 chip.  The results presented here are from FamHS genome wide association analysis for association between genotypes and the phenotypic trait as <b>&#34;Log Transformed Creatinine mg/dL&#34;</b> at Visit 1.  The sample size is 883 and the covariates are Age, Age squared, Age cubed, Sex, Clinical Centers.
+		]]></Description>
+		<Method>Quantitative trait analysis</Method>
+		<GtyPlatform probeNum="561466" snpBatchId="51468">
+			<Vendor>Illumina</Vendor>
+			<VendorURL> http://www.ncbi.nlm.nih.gov/SNP/snp_viewBatch.cgi?sbid=51468</VendorURL>
+			<Platform>HumanHap550v3</Platform>
+		</GtyPlatform>
+		<Comment></Comment>
+	</Analysis>
+	<Analysis pha="3070" genomeBuild="37.1" snpBuild="132" analysisType="">
+		<Description><![CDATA[
+The National Heart, Lung and Blood Institute (NHLBI) Family Heart Study (FamHS) is a genetic epidemiological family study conducted in four clinical centers over two visits, approximately 8 years apart.  Genotyping for Phase 1 was conducted at Washington University in St. Louis, MO using the IIlumina HumMap 550 chip.  The results presented here are from FamHS genome wide association analysis for association between genotypes and the phenotypic trait as <b>&#34;Log Transformed C Reative Protein (mg/L)&#34;</b> at Visit 2.  The sample size is 953 and the covariates are Age, Age squared, Age cubed, Sex, Clinical Centers.
+		]]></Description>
+		<Method>Quantitative trait analysis</Method>
+		<GtyPlatform probeNum="561466" snpBatchId="51468">
+			<Vendor>Illumina</Vendor>
+			<VendorURL> http://www.ncbi.nlm.nih.gov/SNP/snp_viewBatch.cgi?sbid=51468</VendorURL>
+			<Platform>HumanHap550v3</Platform>
+		</GtyPlatform>
+		<Comment></Comment>
+	</Analysis>
+	<Analysis pha="3071" genomeBuild="37.1" snpBuild="132" analysisType="">
+		<Description><![CDATA[
+The National Heart, Lung and Blood Institute (NHLBI) Family Heart Study (FamHS) is a genetic epidemiological family study conducted in four clinical centers over two visits, approximately 8 years apart.  Genotyping for Phase 1 was conducted at Washington University in St. Louis, MO using the IIlumina HumMap 550 chip.  The results presented here are from FamHS genome wide association analysis for association between genotypes and the phenotypic trait as <b>&#34;Log Transformed Monocyte Chemoattractant Protein-1(pg/ml)&#34;</b> at Visit 2.  The sample size is 926 and the covariates are Age, Age squared, Age cubed, Sex, Clinical Centers.
+		]]></Description>
+		<Method>Quantitative trait analysis</Method>
+		<GtyPlatform probeNum="561466" snpBatchId="51468">
+			<Vendor>Illumina</Vendor>
+			<VendorURL> http://www.ncbi.nlm.nih.gov/SNP/snp_viewBatch.cgi?sbid=51468</VendorURL>
+			<Platform>HumanHap550v3</Platform>
+		</GtyPlatform>
+		<Comment></Comment>
+	</Analysis>
+	<Analysis pha="3072" genomeBuild="37.1" snpBuild="132" analysisType="">
+		<Description><![CDATA[
+The National Heart, Lung and Blood Institute (NHLBI) Family Heart Study (FamHS) is a genetic epidemiological family study conducted in four clinical centers over two visits, approximately 8 years apart.  Genotyping for Phase 1 was conducted at Washington University in St. Louis, MO using the IIlumina HumMap 550 chip.  The results presented here are from FamHS genome wide association analysis for association between genotypes and the phenotypic trait as <b>&#34;Intercellular adhesion molecule(ng/mL)&#34;</b> at Visit 2.  The sample size is 963 and the covariates are Age, Age squared, Age cubed, Sex, Clinical Centers.
+		]]></Description>
+		<Method>Quantitative trait analysis</Method>
+		<GtyPlatform probeNum="561466" snpBatchId="51468">
+			<Vendor>Illumina</Vendor>
+			<VendorURL> http://www.ncbi.nlm.nih.gov/SNP/snp_viewBatch.cgi?sbid=51468</VendorURL>
+			<Platform>HumanHap550v3</Platform>
+		</GtyPlatform>
+		<Comment></Comment>
+	</Analysis>
+	<Analysis pha="3073" genomeBuild="37.1" snpBuild="132" analysisType="">
+		<Description><![CDATA[
+The National Heart, Lung and Blood Institute (NHLBI) Family Heart Study (FamHS) is a genetic epidemiological family study conducted in four clinical centers over two visits, approximately 8 years apart.  Genotyping for Phase 1 was conducted at Washington University in St. Louis, MO using the IIlumina HumMap 550 chip.  The results presented here are from FamHS genome wide association analysis for association between genotypes and the phenotypic trait as <b>&#34;Cholesterol mg/dL&#34;</b> at Visit 1.  The sample size is 872 and the covariates are Age, Age squared, Age cubed, Sex, Clinical Centers.
+		]]></Description>
+		<Method>Quantitative trait analysis</Method>
+		<GtyPlatform probeNum="561466" snpBatchId="51468">
+			<Vendor>Illumina</Vendor>
+			<VendorURL> http://www.ncbi.nlm.nih.gov/SNP/snp_viewBatch.cgi?sbid=51468</VendorURL>
+			<Platform>HumanHap550v3</Platform>
+		</GtyPlatform>
+		<Comment></Comment>
+	</Analysis>
+	<Analysis pha="3074" genomeBuild="37.1" snpBuild="132" analysisType="">
+		<Description><![CDATA[
+The National Heart, Lung and Blood Institute (NHLBI) Family Heart Study (FamHS) is a genetic epidemiological family study conducted in four clinical centers over two visits, approximately 8 years apart.  Genotyping for Phase 1 was conducted at Washington University in St. Louis, MO using the IIlumina HumMap 550 chip.  The results presented here are from FamHS genome wide association analysis for association between genotypes and the phenotypic trait as <b>&#34;High-Density Lipoprotein Cholesterol mg/dL&#34;</b> at Visit 1.  The sample size is 872 and the covariates are Age, Age squared, Age cubed, Sex, Clinical Centers.
+		]]></Description>
+		<Method>Quantitative trait analysis</Method>
+		<GtyPlatform probeNum="561466" snpBatchId="51468">
+			<Vendor>Illumina</Vendor>
+			<VendorURL> http://www.ncbi.nlm.nih.gov/SNP/snp_viewBatch.cgi?sbid=51468</VendorURL>
+			<Platform>HumanHap550v3</Platform>
+		</GtyPlatform>
+		<Comment></Comment>
+	</Analysis>
+	<Analysis pha="3075" genomeBuild="37.1" snpBuild="132" analysisType="">
+		<Description><![CDATA[
+The National Heart, Lung and Blood Institute (NHLBI) Family Heart Study (FamHS) is a genetic epidemiological family study conducted in four clinical centers over two visits, approximately 8 years apart.  Genotyping for Phase 1 was conducted at Washington University in St. Louis, MO using the IIlumina HumMap 550 chip.  The results presented here are from FamHS genome wide association analysis for association between genotypes and the phenotypic trait as <b>&#34;High-Density Lipoprotein Cholesterol mg/dL&#34;</b> at Visit 2.  The sample size is 959 and the covariates are Age, Age squared, Age cubed, Sex, Clinical Centers.
+		]]></Description>
+		<Method>Quantitative trait analysis</Method>
+		<GtyPlatform probeNum="561466" snpBatchId="51468">
+			<Vendor>Illumina</Vendor>
+			<VendorURL> http://www.ncbi.nlm.nih.gov/SNP/snp_viewBatch.cgi?sbid=51468</VendorURL>
+			<Platform>HumanHap550v3</Platform>
+		</GtyPlatform>
+		<Comment></Comment>
+	</Analysis>
+	<Analysis pha="3076" genomeBuild="37.1" snpBuild="132" analysisType="">
+		<Description><![CDATA[
+The National Heart, Lung and Blood Institute (NHLBI) Family Heart Study (FamHS) is a genetic epidemiological family study conducted in four clinical centers over two visits, approximately 8 years apart.  Genotyping for Phase 1 was conducted at Washington University in St. Louis, MO using the IIlumina HumMap 550 chip.  The results presented here are from FamHS genome wide association analysis for association between genotypes and the phenotypic trait as <b>&#34;Low-Density Lipoprotein Cholesterol mg/dL&#34;</b> at Visit 1.  The sample size is 872 and the covariates are Age, Age squared, Age cubed, Sex, Clinical Centers.
+		]]></Description>
+		<Method>Quantitative trait analysis</Method>
+		<GtyPlatform probeNum="561466" snpBatchId="51468">
+			<Vendor>Illumina</Vendor>
+			<VendorURL> http://www.ncbi.nlm.nih.gov/SNP/snp_viewBatch.cgi?sbid=51468</VendorURL>
+			<Platform>HumanHap550v3</Platform>
+		</GtyPlatform>
+		<Comment></Comment>
+	</Analysis>
+	<Analysis pha="3077" genomeBuild="37.1" snpBuild="132" analysisType="">
+		<Description><![CDATA[
+The National Heart, Lung and Blood Institute (NHLBI) Family Heart Study (FamHS) is a genetic epidemiological family study conducted in four clinical centers over two visits, approximately 8 years apart.  Genotyping for Phase 1 was conducted at Washington University in St. Louis, MO using the IIlumina HumMap 550 chip.  The results presented here are from FamHS genome wide association analysis for association between genotypes and the phenotypic trait as <b>&#34;Low-Density Lipoprotein Cholesterol mg/dL&#34;</b> at Visit 2.  The sample size is 944 and the covariates are Age, Age squared, Age cubed, Sex, Clinical Centers.
+		]]></Description>
+		<Method>Quantitative trait analysis</Method>
+		<GtyPlatform probeNum="561466" snpBatchId="51468">
+			<Vendor>Illumina</Vendor>
+			<VendorURL> http://www.ncbi.nlm.nih.gov/SNP/snp_viewBatch.cgi?sbid=51468</VendorURL>
+			<Platform>HumanHap550v3</Platform>
+		</GtyPlatform>
+		<Comment></Comment>
+	</Analysis>
+	<Analysis pha="3078" genomeBuild="37.1" snpBuild="132" analysisType="">
+		<Description><![CDATA[
+The National Heart, Lung and Blood Institute (NHLBI) Family Heart Study (FamHS) is a genetic epidemiological family study conducted in four clinical centers over two visits, approximately 8 years apart.  Genotyping for Phase 1 was conducted at Washington University in St. Louis, MO using the IIlumina HumMap 550 chip.  The results presented here are from FamHS genome wide association analysis for association between genotypes and the phenotypic trait as <b>&#34;Log Transformed Cholesterol mg/dL&#34;</b> at Visit 1.  The sample size is 872 and the covariates are Age, Age squared, Age cubed, Sex, Clinical Centers.
+		]]></Description>
+		<Method>Quantitative trait analysis</Method>
+		<GtyPlatform probeNum="561466" snpBatchId="51468">
+			<Vendor>Illumina</Vendor>
+			<VendorURL> http://www.ncbi.nlm.nih.gov/SNP/snp_viewBatch.cgi?sbid=51468</VendorURL>
+			<Platform>HumanHap550v3</Platform>
+		</GtyPlatform>
+		<Comment></Comment>
+	</Analysis>
+	<Analysis pha="3079" genomeBuild="37.1" snpBuild="132" analysisType="">
+		<Description><![CDATA[
+The National Heart, Lung and Blood Institute (NHLBI) Family Heart Study (FamHS) is a genetic epidemiological family study conducted in four clinical centers over two visits, approximately 8 years apart.  Genotyping for Phase 1 was conducted at Washington University in St. Louis, MO using the IIlumina HumMap 550 chip.  The results presented here are from FamHS genome wide association analysis for association between genotypes and the phenotypic trait as <b>&#34;Log Transformed Derived Lipoprotein(a) mg/dL&#34;</b> at Visit 1.  The sample size is 876 and the covariates are Age, Age squared, Age cubed, Sex, Clinical Centers.
+		]]></Description>
+		<Method>Quantitative trait analysis</Method>
+		<GtyPlatform probeNum="561466" snpBatchId="51468">
+			<Vendor>Illumina</Vendor>
+			<VendorURL> http://www.ncbi.nlm.nih.gov/SNP/snp_viewBatch.cgi?sbid=51468</VendorURL>
+			<Platform>HumanHap550v3</Platform>
+		</GtyPlatform>
+		<Comment></Comment>
+	</Analysis>
+	<Analysis pha="3080" genomeBuild="37.1" snpBuild="132" analysisType="">
+		<Description><![CDATA[
+The National Heart, Lung and Blood Institute (NHLBI) Family Heart Study (FamHS) is a genetic epidemiological family study conducted in four clinical centers over two visits, approximately 8 years apart.  Genotyping for Phase 1 was conducted at Washington University in St. Louis, MO using the IIlumina HumMap 550 chip.  The results presented here are from FamHS genome wide association analysis for association between genotypes and the phenotypic trait as <b>&#34;Log Transformed Triglycerides mg/dL&#34;</b> at Visit 1.  The sample size is 872 and the covariates are Age, Age squared, Age cubed, Sex, Clinical Centers.
+		]]></Description>
+		<Method>Quantitative trait analysis</Method>
+		<GtyPlatform probeNum="561466" snpBatchId="51468">
+			<Vendor>Illumina</Vendor>
+			<VendorURL> http://www.ncbi.nlm.nih.gov/SNP/snp_viewBatch.cgi?sbid=51468</VendorURL>
+			<Platform>HumanHap550v3</Platform>
+		</GtyPlatform>
+		<Comment></Comment>
+	</Analysis>
+	<Analysis pha="3081" genomeBuild="37.1" snpBuild="132" analysisType="">
+		<Description><![CDATA[
+The National Heart, Lung and Blood Institute (NHLBI) Family Heart Study (FamHS) is a genetic epidemiological family study conducted in four clinical centers over two visits, approximately 8 years apart.  Genotyping for Phase 1 was conducted at Washington University in St. Louis, MO using the IIlumina HumMap 550 chip.  The results presented here are from FamHS genome wide association analysis for association between genotypes and the phenotypic trait as <b>&#34;Log Transformed Triglycerides mg/dL&#34;</b> at Visit 2.  The sample size is 960 and the covariates are Age, Age squared, Age cubed, Sex, Clinical Centers.
+		]]></Description>
+		<Method>Quantitative trait analysis</Method>
+		<GtyPlatform probeNum="561466" snpBatchId="51468">
+			<Vendor>Illumina</Vendor>
+			<VendorURL> http://www.ncbi.nlm.nih.gov/SNP/snp_viewBatch.cgi?sbid=51468</VendorURL>
+			<Platform>HumanHap550v3</Platform>
+		</GtyPlatform>
+		<Comment></Comment>
+	</Analysis>
+	<Analysis pha="3082" genomeBuild="37.1" snpBuild="132" analysisType="">
+		<Description><![CDATA[
+The National Heart, Lung and Blood Institute (NHLBI) Family Heart Study (FamHS) is a genetic epidemiological family study conducted in four clinical centers over two visits, approximately 8 years apart.  Genotyping for Phase 1 was conducted at Washington University in St. Louis, MO using the IIlumina HumMap 550 chip.  The results presented here are from FamHS genome wide association analysis for association between genotypes and the phenotypic trait as <b>&#34;Log Transformed TG/HDL&#34;</b> at Visit 2.  The sample size is 959 and the covariates are Age, Age squared, Age cubed, Sex, Clinical Centers.
+		]]></Description>
+		<Method>Quantitative trait analysis</Method>
+		<GtyPlatform probeNum="561466" snpBatchId="51468">
+			<Vendor>Illumina</Vendor>
+			<VendorURL> http://www.ncbi.nlm.nih.gov/SNP/snp_viewBatch.cgi?sbid=51468</VendorURL>
+			<Platform>HumanHap550v3</Platform>
+		</GtyPlatform>
+		<Comment></Comment>
+	</Analysis>
+	<Analysis pha="3083" genomeBuild="37.1" snpBuild="132" analysisType="">
+		<Description><![CDATA[
+The National Heart, Lung and Blood Institute (NHLBI) Family Heart Study (FamHS) is a genetic epidemiological family study conducted in four clinical centers over two visits, approximately 8 years apart.  Genotyping for Phase 1 was conducted at Washington University in St. Louis, MO using the IIlumina HumMap 550 chip.  The results presented here are from FamHS genome wide association analysis for association between genotypes and the phenotypic trait as <b>&#34;Log Transformed Cholesterol mg/dL&#34;</b> at Visit 2.  The sample size is 960 and the covariates are Age, Age squared, Age cubed, Sex, Clinical Centers.
+		]]></Description>
+		<Method>Quantitative trait analysis</Method>
+		<GtyPlatform probeNum="561466" snpBatchId="51468">
+			<Vendor>Illumina</Vendor>
+			<VendorURL> http://www.ncbi.nlm.nih.gov/SNP/snp_viewBatch.cgi?sbid=51468</VendorURL>
+			<Platform>HumanHap550v3</Platform>
+		</GtyPlatform>
+		<Comment></Comment>
+	</Analysis>
+	<Analysis pha="3084" genomeBuild="37.1" snpBuild="132" analysisType="">
+		<Description><![CDATA[
+The National Heart, Lung and Blood Institute (NHLBI) Family Heart Study (FamHS) is a genetic epidemiological family study conducted in four clinical centers over two visits, approximately 8 years apart.  Genotyping for Phase 1 was conducted at Washington University in St. Louis, MO using the IIlumina HumMap 550 chip.  The results presented here are from FamHS genome wide association analysis for association between genotypes and the phenotypic trait as <b>&#34;Albumin g/dL&#34;</b> at Visit 1.  The sample size is 883 and the covariates are Age, Age squared, Age cubed, Sex, Clinical Centers.
+		]]></Description>
+		<Method>Quantitative trait analysis</Method>
+		<GtyPlatform probeNum="561466" snpBatchId="51468">
+			<Vendor>Illumina</Vendor>
+			<VendorURL> http://www.ncbi.nlm.nih.gov/SNP/snp_viewBatch.cgi?sbid=51468</VendorURL>
+			<Platform>HumanHap550v3</Platform>
+		</GtyPlatform>
+		<Comment></Comment>
+	</Analysis>
+	<Analysis pha="3085" genomeBuild="37.1" snpBuild="132" analysisType="">
+		<Description><![CDATA[
+The National Heart, Lung and Blood Institute (NHLBI) Family Heart Study (FamHS) is a genetic epidemiological family study conducted in four clinical centers over two visits, approximately 8 years apart.  Genotyping for Phase 1 was conducted at Washington University in St. Louis, MO using the IIlumina HumMap 550 chip.  The results presented here are from FamHS genome wide association analysis for association between genotypes and the phenotypic trait as <b>&#34;Calcium mg/dL&#34;</b> at Visit 1.  The sample size is 883 and the covariates are Age, Age squared, Age cubed, Sex, Clinical Centers.
+		]]></Description>
+		<Method>Quantitative trait analysis</Method>
+		<GtyPlatform probeNum="561466" snpBatchId="51468">
+			<Vendor>Illumina</Vendor>
+			<VendorURL> http://www.ncbi.nlm.nih.gov/SNP/snp_viewBatch.cgi?sbid=51468</VendorURL>
+			<Platform>HumanHap550v3</Platform>
+		</GtyPlatform>
+		<Comment></Comment>
+	</Analysis>
+	<Analysis pha="3086" genomeBuild="37.1" snpBuild="132" analysisType="">
+		<Description><![CDATA[
+The National Heart, Lung and Blood Institute (NHLBI) Family Heart Study (FamHS) is a genetic epidemiological family study conducted in four clinical centers over two visits, approximately 8 years apart.  Genotyping for Phase 1 was conducted at Washington University in St. Louis, MO using the IIlumina HumMap 550 chip.  The results presented here are from FamHS genome wide association analysis for association between genotypes and the phenotypic trait as <b>&#34;Potassium mmol/L&#34;</b> at Visit 1.  The sample size is 883 and the covariates are Age, Age squared, Age cubed, Sex, Clinical Centers.
+		]]></Description>
+		<Method>Quantitative trait analysis</Method>
+		<GtyPlatform probeNum="561466" snpBatchId="51468">
+			<Vendor>Illumina</Vendor>
+			<VendorURL> http://www.ncbi.nlm.nih.gov/SNP/snp_viewBatch.cgi?sbid=51468</VendorURL>
+			<Platform>HumanHap550v3</Platform>
+		</GtyPlatform>
+		<Comment></Comment>
+	</Analysis>
+	<Analysis pha="3087" genomeBuild="37.1" snpBuild="132" analysisType="">
+		<Description><![CDATA[
+The National Heart, Lung and Blood Institute (NHLBI) Family Heart Study (FamHS) is a genetic epidemiological family study conducted in four clinical centers over two visits, approximately 8 years apart.  Genotyping for Phase 1 was conducted at Washington University in St. Louis, MO using the IIlumina HumMap 550 chip.  The results presented here are from FamHS genome wide association analysis for association between genotypes and the phenotypic trait as <b>&#34;Log Transformed Relative Basophil%&#34;</b> at Visit 1.  The sample size is 710 and the covariates are Age, Age squared, Age cubed, Sex, Clinical Centers.
+		]]></Description>
+		<Method>Quantitative trait analysis</Method>
+		<GtyPlatform probeNum="561466" snpBatchId="51468">
+			<Vendor>Illumina</Vendor>
+			<VendorURL> http://www.ncbi.nlm.nih.gov/SNP/snp_viewBatch.cgi?sbid=51468</VendorURL>
+			<Platform>HumanHap550v3</Platform>
+		</GtyPlatform>
+		<Comment></Comment>
+	</Analysis>
+	<Analysis pha="3088" genomeBuild="37.1" snpBuild="132" analysisType="">
+		<Description><![CDATA[
+The National Heart, Lung and Blood Institute (NHLBI) Family Heart Study (FamHS) is a genetic epidemiological family study conducted in four clinical centers over two visits, approximately 8 years apart.  Genotyping for Phase 1 was conducted at Washington University in St. Louis, MO using the IIlumina HumMap 550 chip.  The results presented here are from FamHS genome wide association analysis for association between genotypes and the phenotypic trait as <b>&#34;Log Transformed Relative Eosinophil%&#34;</b> at Visit 1.  The sample size is 710 and the covariates are Age, Age squared, Age cubed, Sex, Clinical Centers.
+		]]></Description>
+		<Method>Quantitative trait analysis</Method>
+		<GtyPlatform probeNum="561466" snpBatchId="51468">
+			<Vendor>Illumina</Vendor>
+			<VendorURL> http://www.ncbi.nlm.nih.gov/SNP/snp_viewBatch.cgi?sbid=51468</VendorURL>
+			<Platform>HumanHap550v3</Platform>
+		</GtyPlatform>
+		<Comment></Comment>
+	</Analysis>
+	<Analysis pha="3089" genomeBuild="37.1" snpBuild="132" analysisType="">
+		<Description><![CDATA[
+The National Heart, Lung and Blood Institute (NHLBI) Family Heart Study (FamHS) is a genetic epidemiological family study conducted in four clinical centers over two visits, approximately 8 years apart.  Genotyping for Phase 1 was conducted at Washington University in St. Louis, MO using the IIlumina HumMap 550 chip.  The results presented here are from FamHS genome wide association analysis for association between genotypes and the phenotypic trait as <b>&#34;Log Transformed Relative Monocyte%&#34;</b> at Visit 1.  The sample size is 710 and the covariates are Age, Age squared, Age cubed, Sex, Clinical Centers.
+		]]></Description>
+		<Method>Quantitative trait analysis</Method>
+		<GtyPlatform probeNum="561466" snpBatchId="51468">
+			<Vendor>Illumina</Vendor>
+			<VendorURL> http://www.ncbi.nlm.nih.gov/SNP/snp_viewBatch.cgi?sbid=51468</VendorURL>
+			<Platform>HumanHap550v3</Platform>
+		</GtyPlatform>
+		<Comment></Comment>
+	</Analysis>
+	<Analysis pha="3090" genomeBuild="37.1" snpBuild="132" analysisType="">
+		<Description><![CDATA[
+The National Heart, Lung and Blood Institute (NHLBI) Family Heart Study (FamHS) is a genetic epidemiological family study conducted in four clinical centers over two visits, approximately 8 years apart.  Genotyping for Phase 1 was conducted at Washington University in St. Louis, MO using the IIlumina HumMap 550 chip.  The results presented here are from FamHS genome wide association analysis for association between genotypes and the phenotypic trait as <b>&#34;Log Transformed Red Blood Cell Distribution Width%&#34;</b> at Visit 1.  The sample size is 767 and the covariates are Age, Age squared, Age cubed, Sex, Clinical Centers.
+		]]></Description>
+		<Method>Quantitative trait analysis</Method>
+		<GtyPlatform probeNum="561466" snpBatchId="51468">
+			<Vendor>Illumina</Vendor>
+			<VendorURL> http://www.ncbi.nlm.nih.gov/SNP/snp_viewBatch.cgi?sbid=51468</VendorURL>
+			<Platform>HumanHap550v3</Platform>
+		</GtyPlatform>
+		<Comment></Comment>
+	</Analysis>
+	<Analysis pha="3091" genomeBuild="37.1" snpBuild="132" analysisType="">
+		<Description><![CDATA[
+The National Heart, Lung and Blood Institute (NHLBI) Family Heart Study (FamHS) is a genetic epidemiological family study conducted in four clinical centers over two visits, approximately 8 years apart.  Genotyping for Phase 1 was conducted at Washington University in St. Louis, MO using the IIlumina HumMap 550 chip.  The results presented here are from FamHS genome wide association analysis for association between genotypes and the phenotypic trait as <b>&#34;Log Transformed White Blood Cell Count 10e9/L&#34;</b> at Visit 1.  The sample size is 849 and the covariates are Age, Age squared, Age cubed, Sex, Clinical Centers.
+		]]></Description>
+		<Method>Quantitative trait analysis</Method>
+		<GtyPlatform probeNum="561466" snpBatchId="51468">
+			<Vendor>Illumina</Vendor>
+			<VendorURL> http://www.ncbi.nlm.nih.gov/SNP/snp_viewBatch.cgi?sbid=51468</VendorURL>
+			<Platform>HumanHap550v3</Platform>
+		</GtyPlatform>
+		<Comment></Comment>
+	</Analysis>
+	<Analysis pha="3092" genomeBuild="37.1" snpBuild="132" analysisType="">
+		<Description><![CDATA[
+The National Heart, Lung and Blood Institute (NHLBI) Family Heart Study (FamHS) is a genetic epidemiological family study conducted in four clinical centers over two visits, approximately 8 years apart.  Genotyping for Phase 1 was conducted at Washington University in St. Louis, MO using the IIlumina HumMap 550 chip.  The results presented here are from FamHS genome wide association analysis for association between genotypes and the phenotypic trait as <b>&#34;Magnesium mg/dL&#34;</b> at Visit 1.  The sample size is 883 and the covariates are Age, Age squared, Age cubed, Sex, Clinical Centers.
+		]]></Description>
+		<Method>Quantitative trait analysis</Method>
+		<GtyPlatform probeNum="561466" snpBatchId="51468">
+			<Vendor>Illumina</Vendor>
+			<VendorURL> http://www.ncbi.nlm.nih.gov/SNP/snp_viewBatch.cgi?sbid=51468</VendorURL>
+			<Platform>HumanHap550v3</Platform>
+		</GtyPlatform>
+		<Comment></Comment>
+	</Analysis>
+	<Analysis pha="3093" genomeBuild="37.1" snpBuild="132" analysisType="">
+		<Description><![CDATA[
+The National Heart, Lung and Blood Institute (NHLBI) Family Heart Study (FamHS) is a genetic epidemiological family study conducted in four clinical centers over two visits, approximately 8 years apart.  Genotyping for Phase 1 was conducted at Washington University in St. Louis, MO using the IIlumina HumMap 550 chip.  The results presented here are from FamHS genome wide association analysis for association between genotypes and the phenotypic trait as <b>&#34;Sodium mmol/L&#34;</b> at Visit 1.  The sample size is 883 and the covariates are Age, Age squared, Age cubed, Sex, Clinical Centers.
+		]]></Description>
+		<Method>Quantitative trait analysis</Method>
+		<GtyPlatform probeNum="561466" snpBatchId="51468">
+			<Vendor>Illumina</Vendor>
+			<VendorURL> http://www.ncbi.nlm.nih.gov/SNP/snp_viewBatch.cgi?sbid=51468</VendorURL>
+			<Platform>HumanHap550v3</Platform>
+		</GtyPlatform>
+		<Comment></Comment>
+	</Analysis>
+	<Analysis pha="3094" genomeBuild="37.1" snpBuild="132" analysisType="">
+		<Description><![CDATA[
+The National Heart, Lung and Blood Institute (NHLBI) Family Heart Study (FamHS) is a genetic epidemiological family study conducted in four clinical centers over two visits, approximately 8 years apart.  Genotyping for Phase 1 was conducted at Washington University in St. Louis, MO using the IIlumina HumMap 550 chip.  The results presented here are from FamHS genome wide association analysis for association between genotypes and the phenotypic trait as <b>&#34;Relative Lymphocyte%&#34;</b> at Visit 1.  The sample size is 710 and the covariates are Age, Age squared, Age cubed, Sex, Clinical Centers.
+		]]></Description>
+		<Method>Quantitative trait analysis</Method>
+		<GtyPlatform probeNum="561466" snpBatchId="51468">
+			<Vendor>Illumina</Vendor>
+			<VendorURL> http://www.ncbi.nlm.nih.gov/SNP/snp_viewBatch.cgi?sbid=51468</VendorURL>
+			<Platform>HumanHap550v3</Platform>
+		</GtyPlatform>
+		<Comment></Comment>
+	</Analysis>
+	<Analysis pha="3095" genomeBuild="37.1" snpBuild="132" analysisType="">
+		<Description><![CDATA[
+The National Heart, Lung and Blood Institute (NHLBI) Family Heart Study (FamHS) is a genetic epidemiological family study conducted in four clinical centers over two visits, approximately 8 years apart.  Genotyping for Phase 1 was conducted at Washington University in St. Louis, MO using the IIlumina HumMap 550 chip.  The results presented here are from FamHS genome wide association analysis for association between genotypes and the phenotypic trait as <b>&#34;Relative Neutrophil%&#34;</b> at Visit 1.  The sample size is 717 and the covariates are Age, Age squared, Age cubed, Sex, Clinical Centers.
+		]]></Description>
+		<Method>Quantitative trait analysis</Method>
+		<GtyPlatform probeNum="561466" snpBatchId="51468">
+			<Vendor>Illumina</Vendor>
+			<VendorURL> http://www.ncbi.nlm.nih.gov/SNP/snp_viewBatch.cgi?sbid=51468</VendorURL>
+			<Platform>HumanHap550v3</Platform>
+		</GtyPlatform>
+		<Comment></Comment>
+	</Analysis>
+	<Analysis pha="3096" genomeBuild="37.1" snpBuild="132" analysisType="">
+		<Description><![CDATA[
+The National Heart, Lung and Blood Institute (NHLBI) Family Heart Study (FamHS) is a genetic epidemiological family study conducted in four clinical centers over two visits, approximately 8 years apart.  Genotyping for Phase 1 was conducted at Washington University in St. Louis, MO using the IIlumina HumMap 550 chip.  The results presented here are from FamHS genome wide association analysis for association between genotypes and the phenotypic trait as <b>&#34;Hemoglobin g/dL&#34;</b> at Visit 1.  The sample size is 849 and the covariates are Age, Age squared, Age cubed, Sex, Clinical Centers.
+		]]></Description>
+		<Method>Quantitative trait analysis</Method>
+		<GtyPlatform probeNum="561466" snpBatchId="51468">
+			<Vendor>Illumina</Vendor>
+			<VendorURL> http://www.ncbi.nlm.nih.gov/SNP/snp_viewBatch.cgi?sbid=51468</VendorURL>
+			<Platform>HumanHap550v3</Platform>
+		</GtyPlatform>
+		<Comment></Comment>
+	</Analysis>
+	<Analysis pha="3097" genomeBuild="37.1" snpBuild="132" analysisType="">
+		<Description><![CDATA[
+The National Heart, Lung and Blood Institute (NHLBI) Family Heart Study (FamHS) is a genetic epidemiological family study conducted in four clinical centers over two visits, approximately 8 years apart.  Genotyping for Phase 1 was conducted at Washington University in St. Louis, MO using the IIlumina HumMap 550 chip.  The results presented here are from FamHS genome wide association analysis for association between genotypes and the phenotypic trait as <b>&#34;Hematocrit%&#34;</b> at Visit 1.  The sample size is 849 and the covariates are Age, Age squared, Age cubed, Sex, Clinical Centers.
+		]]></Description>
+		<Method>Quantitative trait analysis</Method>
+		<GtyPlatform probeNum="561466" snpBatchId="51468">
+			<Vendor>Illumina</Vendor>
+			<VendorURL> http://www.ncbi.nlm.nih.gov/SNP/snp_viewBatch.cgi?sbid=51468</VendorURL>
+			<Platform>HumanHap550v3</Platform>
+		</GtyPlatform>
+		<Comment></Comment>
+	</Analysis>
+	<Analysis pha="3098" genomeBuild="37.1" snpBuild="132" analysisType="">
+		<Description><![CDATA[
+The National Heart, Lung and Blood Institute (NHLBI) Family Heart Study (FamHS) is a genetic epidemiological family study conducted in four clinical centers over two visits, approximately 8 years apart.  Genotyping for Phase 1 was conducted at Washington University in St. Louis, MO using the IIlumina HumMap 550 chip.  The results presented here are from FamHS genome wide association analysis for association between genotypes and the phenotypic trait as <b>&#34;Mean Red Blood Cell Hemoglobin pg&#34;</b> at Visit 1.  The sample size is 767 and the covariates are Age, Age squared, Age cubed, Sex, Clinical Centers.
+		]]></Description>
+		<Method>Quantitative trait analysis</Method>
+		<GtyPlatform probeNum="561466" snpBatchId="51468">
+			<Vendor>Illumina</Vendor>
+			<VendorURL> http://www.ncbi.nlm.nih.gov/SNP/snp_viewBatch.cgi?sbid=51468</VendorURL>
+			<Platform>HumanHap550v3</Platform>
+		</GtyPlatform>
+		<Comment></Comment>
+	</Analysis>
+	<Analysis pha="3099" genomeBuild="37.1" snpBuild="132" analysisType="">
+		<Description><![CDATA[
+The National Heart, Lung and Blood Institute (NHLBI) Family Heart Study (FamHS) is a genetic epidemiological family study conducted in four clinical centers over two visits, approximately 8 years apart.  Genotyping for Phase 1 was conducted at Washington University in St. Louis, MO using the IIlumina HumMap 550 chip.  The results presented here are from FamHS genome wide association analysis for association between genotypes and the phenotypic trait as <b>&#34;Mean Red Blood Cell Volume fl&#34;</b> at Visit 1.  The sample size is 767 and the covariates are Age, Age squared, Age cubed, Sex, Clinical Centers.
+		]]></Description>
+		<Method>Quantitative trait analysis</Method>
+		<GtyPlatform probeNum="561466" snpBatchId="51468">
+			<Vendor>Illumina</Vendor>
+			<VendorURL> http://www.ncbi.nlm.nih.gov/SNP/snp_viewBatch.cgi?sbid=51468</VendorURL>
+			<Platform>HumanHap550v3</Platform>
+		</GtyPlatform>
+		<Comment></Comment>
+	</Analysis>
+	<Analysis pha="3100" genomeBuild="37.1" snpBuild="132" analysisType="">
+		<Description><![CDATA[
+The National Heart, Lung and Blood Institute (NHLBI) Family Heart Study (FamHS) is a genetic epidemiological family study conducted in four clinical centers over two visits, approximately 8 years apart.  Genotyping for Phase 1 was conducted at Washington University in St. Louis, MO using the IIlumina HumMap 550 chip.  The results presented here are from FamHS genome wide association analysis for association between genotypes and the phenotypic trait as <b>&#34;Platelet Count 10e9/L&#34;</b> at Visit 1.  The sample size is 849 and the covariates are Age, Age squared, Age cubed, Sex, Clinical Centers.
+		]]></Description>
+		<Method>Quantitative trait analysis</Method>
+		<GtyPlatform probeNum="561466" snpBatchId="51468">
+			<Vendor>Illumina</Vendor>
+			<VendorURL> http://www.ncbi.nlm.nih.gov/SNP/snp_viewBatch.cgi?sbid=51468</VendorURL>
+			<Platform>HumanHap550v3</Platform>
+		</GtyPlatform>
+		<Comment></Comment>
+	</Analysis>
+	<Analysis pha="3101" genomeBuild="37.1" snpBuild="132" analysisType="">
+		<Description><![CDATA[
+The National Heart, Lung and Blood Institute (NHLBI) Family Heart Study (FamHS) is a genetic epidemiological family study conducted in four clinical centers over two visits, approximately 8 years apart.  Genotyping for Phase 1 was conducted at Washington University in St. Louis, MO using the IIlumina HumMap 550 chip.  The results presented here are from FamHS genome wide association analysis for association between genotypes and the phenotypic trait as <b>&#34;Red Blood Cell Count 10e12/L&#34;</b> at Visit 1.  The sample size is 767 and the covariates are Age, Age squared, Age cubed, Sex, Clinical Centers.
+		]]></Description>
+		<Method>Quantitative trait analysis</Method>
+		<GtyPlatform probeNum="561466" snpBatchId="51468">
+			<Vendor>Illumina</Vendor>
+			<VendorURL> http://www.ncbi.nlm.nih.gov/SNP/snp_viewBatch.cgi?sbid=51468</VendorURL>
+			<Platform>HumanHap550v3</Platform>
+		</GtyPlatform>
+		<Comment></Comment>
+	</Analysis>
+	<Analysis pha="3102" genomeBuild="37.1" snpBuild="132" analysisType="">
+		<Description><![CDATA[
+The National Heart, Lung and Blood Institute (NHLBI) Family Heart Study (FamHS) is a genetic epidemiological family study conducted in four clinical centers over two visits, approximately 8 years apart.  Genotyping for Phase 1 was conducted at Washington University in St. Louis, MO using the IIlumina HumMap 550 chip.  The results presented here are from FamHS genome wide association analysis for association between genotypes and the phenotypic trait as <b>&#34;Forced Expiratory Volume/1sec (FEV1)&#34;</b> at Visit 1.  The sample size is 821 and the covariates are Age, Age squared, Age cubed, Sex, Clinical Centers.
+		]]></Description>
+		<Method>Quantitative trait analysis</Method>
+		<GtyPlatform probeNum="561466" snpBatchId="51468">
+			<Vendor>Illumina</Vendor>
+			<VendorURL> http://www.ncbi.nlm.nih.gov/SNP/snp_viewBatch.cgi?sbid=51468</VendorURL>
+			<Platform>HumanHap550v3</Platform>
+		</GtyPlatform>
+		<Comment></Comment>
+	</Analysis>
+	<Analysis pha="3103" genomeBuild="37.1" snpBuild="132" analysisType="">
+		<Description><![CDATA[
+The National Heart, Lung and Blood Institute (NHLBI) Family Heart Study (FamHS) is a genetic epidemiological family study conducted in four clinical centers over two visits, approximately 8 years apart.  Genotyping for Phase 1 was conducted at Washington University in St. Louis, MO using the IIlumina HumMap 550 chip.  The results presented here are from FamHS genome wide association analysis for association between genotypes and the phenotypic trait as <b>&#34;Derived FEV1/FVC Ratio&#34;</b> at Visit 1.  The sample size is 816 and the covariates are Age, Age squared, Age cubed, Sex, Clinical Centers.
+		]]></Description>
+		<Method>Quantitative trait analysis</Method>
+		<GtyPlatform probeNum="561466" snpBatchId="51468">
+			<Vendor>Illumina</Vendor>
+			<VendorURL> http://www.ncbi.nlm.nih.gov/SNP/snp_viewBatch.cgi?sbid=51468</VendorURL>
+			<Platform>HumanHap550v3</Platform>
+		</GtyPlatform>
+		<Comment></Comment>
+	</Analysis>
+	<Analysis pha="3104" genomeBuild="37.1" snpBuild="132" analysisType="">
+		<Description><![CDATA[
+The National Heart, Lung and Blood Institute (NHLBI) Family Heart Study (FamHS) is a genetic epidemiological family study conducted in four clinical centers over two visits, approximately 8 years apart.  Genotyping for Phase 1 was conducted at Washington University in St. Louis, MO using the IIlumina HumMap 550 chip.  The results presented here are from FamHS genome wide association analysis for association between genotypes and the phenotypic trait as <b>&#34;Forced Vital Capacity (FVC)&#34;</b> at Visit 1.  The sample size is 821 and the covariates are Age, Age squared, Age cubed, Sex, Clinical Centers.
+		]]></Description>
+		<Method>Quantitative trait analysis</Method>
+		<GtyPlatform probeNum="561466" snpBatchId="51468">
+			<Vendor>Illumina</Vendor>
+			<VendorURL> http://www.ncbi.nlm.nih.gov/SNP/snp_viewBatch.cgi?sbid=51468</VendorURL>
+			<Platform>HumanHap550v3</Platform>
+		</GtyPlatform>
+		<Comment></Comment>
+	</Analysis>
+	<Analysis pha="3127" genomeBuild="37.1" snpBuild="132" analysisType="">
+		<Description>A case/control genome-wide association study for asthma was performed in 843 cases and 580 controls of European American ethnicity.  Subjects were from the United States and were participants in the Chicago Asthma Genetics Study (CAG), the NHLBI Collaborative Studies on the Genetics of Asthma (CSGA), and the Severe Asthma Research Program (SARP).  Samples were genotyped on the Illumina 1Mv1 chip.</Description>
+		<Method>categorical analysis</Method>
+		<GtyPlatform probeNum="1069796" snpBatchId="52075">
+			<Vendor>Illumina</Vendor>
+			<VendorURL>Illumina 1M chip part 1</VendorURL>
+			<Platform>ILMN1M_1</Platform>
+		</GtyPlatform>
+		<GtyPlatform probeNum="1062" snpBatchId="856524">
+			<Vendor>Illumina</Vendor>
+			<VendorURL>Illumina 1M chip part 2</VendorURL>
+			<Platform>ILMN1M_2</Platform>
+		</GtyPlatform>
+		<Comment></Comment>
+	</Analysis>
+	<Analysis pha="3128" genomeBuild="37.1" snpBuild="132" analysisType="">
+		<Description>A case/control genome-wide association studies for asthma was performed in 541 cases and 451 controls of self-reported African American ethnicity.  Subjects were from the United States and were participants in the Chicago Asthma Genetics Study (CAG), the NHLBI Collaborative Studies on the Genetics of Asthma (CSGA), and the Severe Asthma Research Program (SARP).  Samples were genotyped on the Illumina 1Mv1 chip.</Description>
+		<Method>categorical analysis</Method>
+		<GtyPlatform probeNum="1069796" snpBatchId="52075">
+			<Vendor>Illumina</Vendor>
+			<VendorURL>Illumina 1M chip part 1</VendorURL>
+			<Platform>ILMN1M_1</Platform>
+		</GtyPlatform>
+		<GtyPlatform probeNum="1062" snpBatchId="856524">
+			<Vendor>Illumina</Vendor>
+			<VendorURL>Illumina 1M chip part 2</VendorURL>
+			<Platform>ILMN1M_2</Platform>
+		</GtyPlatform>
+		<Comment></Comment>
+	</Analysis>
+	<Analysis pha="3130" genomeBuild="37.1" snpBuild="132" analysisType="">
+		<Description>A study seeking sequence variants associating with smoking initiation. Chip data was on the Illumina 300k set of SNPs. Ever smokers are treated
+ as cases and never smokers as controls.</Description>
+		<Method>categorical analysis</Method>
+		<GtyPlatform probeNum="353202" snpBatchId="1047132">
+			<Vendor>Illumina</Vendor>
+			<VendorURL> http://www.ncbi.nlm.nih.gov/SNP/snp_viewBatch.cgi?sbid=1047132</VendorURL>
+			<Platform>ILLUMINA HumanCNV370v1-Duo</Platform>
+		</GtyPlatform>
+		<Comment></Comment>
+	</Analysis>
+	<Analysis pha="3131" genomeBuild="37.1" snpBuild="132" analysisType="">
+		<Description>The number of cigarettes smoked per day was ascertained through questionaires given to individuals participating in multiple disease projects at deCODE genetics. Current smokers were asked how much they currently smoke and previous smokers were asked how much they smoked before quitting. Smokers were given a choice between four categories: 0-9 cigaretes per day, 10-19 cigarettes per day, 20-29 cigarettes per day and 30 or more cigarettes per day.</Description>
+		<Method>Linear regression analysis</Method>
+		<GtyPlatform probeNum="353202" snpBatchId="1047132">
+			<Vendor>Illumina</Vendor>
+			<VendorURL> http://www.ncbi.nlm.nih.gov/SNP/snp_viewBatch.cgi?sbid=1047132</VendorURL>
+			<Platform>ILLUMINA HumanCNV370v1-Duo</Platform>
+		</GtyPlatform>
+		<Comment></Comment>
+	</Analysis>
+</Analyses>
+
+</Study>
+
+</Studies>
+
+</GaPExchange>

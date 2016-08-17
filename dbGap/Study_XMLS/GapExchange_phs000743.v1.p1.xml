@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GaPExchange xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="./dbGaPEx2.1.5.xsd">
+
+<MetaVariables>
+	<Submitter/>
+	<Method/>
+</MetaVariables>
+<MetaLinks/>
+
+<Projects>
+	<Project/>
+</Projects>
+
+<Studies>
+
+<Study source="dbGaP" accession="phs000743.v1.p1" parentStudy="phs000743.v1.p1" createDate="2014-05-02" modDate="2016-06-29">
+
+<Configuration>
+	<Data_Provider><![CDATA[
+		<table border="1">
+		<tr><th>Title</th><th>Name</th><th>Institute</th></tr>
+		<tr><td>Principal Investigator</td><td>Markku Laakso, MD, PhD</td><td>University of Eastern Finland and Kuopio University Hospital, Kuopio, Finland</td></tr>
+		</table>
+	]]></Data_Provider>
+	<StudyNameEntrez>METSIM (METabolic Syndrome In Men) Study</StudyNameEntrez>
+	<StudyNameReportPage>METSIM (<u>MET</u>abolic <u>S</u>yndrome <u>I</u>n <u>M</u>en) Study</StudyNameReportPage>
+	<StudyTypes>
+		<StudyType>Population</StudyType>
+		<StudyType>Cohort</StudyType>
+	</StudyTypes>
+	<Description><![CDATA[
+<p>The METSIM Study includes 10,197 men, aged from 45 to 73 years, randomly selected from the population register of the town of Kuopio, Eastern Finland, and examined in 2005-2010. The aim of the study is to investigate genetic and non-genetic factors associated with the risk of type 2 diabetes (T2D), cardiovascular disease (CVD), and insulin resistance-related traits in a cross-sectional and longitudinal setting. Study protocol includes collection of data on CVD risk factors (smoking, exercise, diet, history of chronic diseases including coronary heart disease, stroke, cardiac failure, medication, history of diabetes or early onset coronary heart disease in the family), questionnaire on the FINDRISC Score, measurement of height, weight, waist, hip, blood pressure, and bioimpedance for the evaluation of fat percentage.</p> <p><b>July 2016</b> - This first study release includes phenotype and whole exome sequencing data of n=982 participants in substudy: Type 2 Diabetes Genetic Exploration by Next-Generation Sequencing in Multi-Ethnic Samples (T2D-GENES) Project 1: Metabolic Syndrome in Men Study (METSIM) - <a href="study.cgi?study_id=phs001100">phs001100</a>.</p>]]>
+	</Description>
+	<StudyInEx><![CDATA[
+<p>Men, aged 45-73 years, randomly selected from the population of Kuopio, Eastern Finland, examined in 2005-2010.</p>]]>
+	</StudyInEx>
+	<StudyProjects>
+		<Project/>
+	</StudyProjects>
+	<Publications>
+		<Publication>
+			<Pubmed pmid="19223598"/>
+		</Publication>
+		<Publication>
+			<Pubmed pmid="19502414"/>
+		</Publication>
+		<Publication>
+			<Pubmed pmid="21421807"/>
+		</Publication>
+	</Publications>
+	<Diseases>
+		<Disease vocab_source="MESH" vocab_term="Metabolic Syndrome X"/>
+		<Disease vocab_source="MESH" vocab_term="Diabetes Mellitus, Type 2"/>
+		<Disease vocab_source="MESH" vocab_term="Cardiovascular Diseases"/>
+	</Diseases>
+	<Attributions>
+		<Header title="Principal Investigator">
+			<AttName>Markku Laakso, MD, PhD</AttName>
+			<Institution>University of Eastern Finland and Kuopio University Hospital, Kuopio, Finland</Institution>
+		</Header>
+	</Attributions>
+	<DisplayPublicSummary>yes</DisplayPublicSummary>
+	<ConsentGroups>
+		<ConsentGroup groupNum="0" shortName="NRUP" longName="Subjects did not participate in the study, did not complete a consent document and are included only for the pedigree structure and/or genotype controls, such as HapMap subjects"/>
+		<ConsentGroup groupNum="1" shortName="DS-T2D-IRB-RD" longName="Disease-Specific (Type 2 Diabetes, IRB, RD)"/>
+	</ConsentGroups>
+</Configuration>
+
+  <AuthorizedAccess>
+    <DacInfo ssDacId="0">
+      <DacName>NIDDK</DacName>
+      <DacFullName>NIDDK Central Repository GWAS Data Access Committee</DacFullName>
+      <DacEmail>0</DacEmail>
+      <DacPhone></DacPhone>
+      <DacUrl></DacUrl>
+    </DacInfo>
+    <Policy Policy_ID="phs000743.v1.p1_policy" ref_ssDacId="0">
+      <DisplayResearchStatement>yes</DisplayResearchStatement>
+      <DisplayPublicSummary>yes</DisplayPublicSummary>
+      <EmbargoLength>0</EmbargoLength>
+      <YearsUntilRenewal>1</YearsUntilRenewal>
+      <WeeksCancelRequest>8</WeeksCancelRequest>
+      <PdfSupplementReqired>yes</PdfSupplementReqired>
+      <AcknowledgementText>
+        <para>
+          http://dbgap.ncbi.nlm.nih.gov/aa/wga.cgi?page=DUC&amp;view_pdf&amp;stacc=phs000743.v1.p1
+        </para>
+      </AcknowledgementText>
+      <DocumentSet>
+        <DataUseCertificate Label="Data Use Certificate" FilePath="https://dbgap.ncbi.nlm.nih.gov/aa/wga.cgi?page=DUC&amp;view_pdf&amp;stacc=phs000743.v1.p1" FileName=""/>
+      </DocumentSet>
+    </Policy>
+    <ConsentGroups>
+      <ParticipantSet groupNum-REF="1">
+        <ConsentName>Disease-Specific (Type 2 Diabetes, IRB, RD)</ConsentName>
+        <ConsentAbbrev>DS-T2D-IRB-RD</ConsentAbbrev>
+        <UseLimitation>Use of the data must be related to Type 2 Diabetes and related disorders.
+Requestor must provide documentation of local IRB approval.</UseLimitation>
+        <IrbRequired>Yes</IrbRequired>
+      </ParticipantSet>
+      <ParticipantSet groupNum-REF="999">
+        <ConsentName>Exchange Area</ConsentName>
+        <ConsentAbbrev>EA</ConsentAbbrev>
+        <UseLimitation>Access limited to study investigators only.</UseLimitation>
+        <IrbRequired>Yes</IrbRequired>
+      </ParticipantSet>
+    </ConsentGroups>
+  </AuthorizedAccess>
+
+
+</Study>
+
+</Studies>
+
+</GaPExchange>

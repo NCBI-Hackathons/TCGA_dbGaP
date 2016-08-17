@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./datadict_v2.xsl"?>
+<data_table id="pht000749.v1" study_id="phs000171.v1" participant_set="1" date_created="Fri Dec 11 14:12:37 2009">
+
+<variable id="phv00072719.v1">
+	<name>SUBJID</name>
+	<description>Subject&#39;s ID</description>
+	<type>string</type>
+</variable>
+
+<variable id="phv00072720.v1">
+	<name>CASE_CONTROL</name>
+	<description>Type of subject</description>
+	<type>string, encoded values</type>
+	<value code="CASE">Affected subject per Protocol</value>
+	<value code="CNTL">Control subject per Protocol</value>
+</variable>
+
+<variable id="phv00072721.v1">
+	<name>STUDY</name>
+	<description>Study ID</description>
+	<type>string</type>
+	<comment>Always RES101833</comment>
+</variable>
+
+<variable id="phv00072722.v1">
+	<name>INVSITE</name>
+	<description>Investigator site ID</description>
+	<type>string</type>
+	<comment>Numeric code identifying the site (for internal use)</comment>
+</variable>
+
+<variable id="phv00072723.v1">
+	<name>INV</name>
+	<description>Investigator&#39;s ID</description>
+	<type>string</type>
+	<comment>Numeric code identifying the investigator (for internal use)</comment>
+</variable>
+
+<variable id="phv00072724.v1">
+	<name>VISIT</name>
+	<description>Visit name</description>
+	<type>string</type>
+	<value code="CSA">Common Subject Assessment</value>
+	<value code="ELIGIBILITY">Eligibility questionnaire</value>
+	<value code="BASELINE">Baseline assessment questionnaire</value>
+	<value code="LAB WBC">Lab results</value>
+	<value code="SELF REPORT">Subject completed self report questionnaire</value>
+</variable>
+
+<variable id="phv00072725.v1">
+	<name>VISIT_DATE</name>
+	<description>Visit date</description>
+	<type>date</type>
+	<comment>Truncated to YYYY</comment>
+</variable>
+
+<variable id="phv00072726.v1">
+	<name>CLINIC</name>
+	<description>Recruitment through: clinic</description>
+	<type>Encoded Value</type>
+	<value code="Y">Yes</value>
+	<value code="N">No</value>
+</variable>
+
+<variable id="phv00072727.v1">
+	<name>CLNSBTYP</name>
+	<description>If recruitment through clinic: type of clinic - subject</description>
+	<type>Encoded Value</type>
+	<value code="PG">Prospective (new subject to this clinic)</value>
+	<value code="RG">Retrospective (return subject to this clinic)</value>
+	<value code="SP">Prospective (new subject to this speciality clinic)</value>
+	<value code="SR">Retrospective (return subject to this speciality clinic)</value>
+</variable>
+
+<variable id="phv00072728.v1">
+	<name>RECRTTYP</name>
+	<description>Recruitment type</description>
+	<type>Encoded Value</type>
+	<value code="POD">Previous or ongoing studies of this disease</value>
+	<value code="POA">Previous or ongoing study of another disease</value>
+	<value code="DR">Disease registry</value>
+	<value code="PGS">Previous genetic study</value>
+	<value code="X">Other, specify</value>
+</variable>
+
+<variable id="phv00072729.v1">
+	<name>RECRUIT</name>
+	<description>Recruitment from existing study populations</description>
+	<type>Encoded Value</type>
+	<value code="Y">Yes</value>
+	<value code="N">No</value>
+</variable>
+
+<variable id="phv00072730.v1">
+	<name>REFERRAL</name>
+	<description>Recruitment through: referral</description>
+	<type>Encoded Value</type>
+	<value code="Y">Yes</value>
+	<value code="N">No</value>
+</variable>
+
+<variable id="phv00072731.v1">
+	<name>REFTYP</name>
+	<description>If recruitment through referral: type of referral</description>
+	<type>Encoded Value</type>
+	<value code="PC">Primary care physician</value>
+	<value code="AD">Response to advertisements</value>
+	<value code="DS">Disorder related specialist</value>
+	<value code="SS">Response to school survey</value>
+	<value code="OS">Other specialist</value>
+	<value code="S">Other, self referral</value>
+	<value code="RA">Referral from relative or acquaintance</value>
+</variable>
+
+<variable id="phv00072732.v1">
+	<name>OTHTX</name>
+	<description>Other (referral type) - text</description>
+	<type>String</type>
+	<comment>Free text field</comment>
+</variable>
+
+</data_table>

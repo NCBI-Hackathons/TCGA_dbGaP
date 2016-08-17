@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./datadict_v2.xsl"?>
+<data_table id="pht001186.v2" study_id="phs000228.v2" participant_set="1" date_created="Tue Aug  3 17:16:47 2010">
+
+<unique_key phv="00089424" version="2">PROT</unique_key>
+<unique_key phv="00089425" version="2">RANDSID</unique_key>
+<unique_key phv="00089426" version="2">PROTSEG</unique_key>
+<unique_key phv="00089428" version="2">SITE</unique_key>
+
+<variable id="phv00089424.v2">
+	<name>PROT</name>
+	<description>Protocol</description>
+	<type>Encoded</type>
+	<value code="7001">7001</value>
+</variable>
+
+<variable id="phv00089425.v2">
+	<name>RANDSID</name>
+	<description>Random ID for Patid</description>
+	<type>Integer</type>
+</variable>
+
+<variable id="phv00089426.v2">
+	<name>PROTSEG</name>
+	<description>Protocol Segment</description>
+	<type>Encoded</type>
+	<value code="A">A</value>
+</variable>
+
+<variable id="phv00089427.v2">
+	<name>START</name>
+	<description>Enrollment/First sampling indicated as quarter and year e.g., Q1_2009. The date of enrollment (not provided as a date to dbGAP) sets the subject timeline for all events, enrollment = Day 0, all other periods are provided as days pre or post this Day 0 event.</description>
+	<type>Encoded</type>
+	<value code="Q3_2008">Q3_2008</value>
+	<value code="Q4_2008">Q4_2008</value>
+	<value code="Q1_2009">Q1_2009</value>
+	<value code="Q2_2009">Q2_2009</value>
+	<value code="Q3_2009">Q3_2009</value>
+	<value code="Q4_2009">Q4_2009</value>
+	<value code="Q1_2010">Q1_2010</value>
+	<value code="Q2_2010">Q2_2010</value>
+	<value code="Q3_2010">Q3_2010</value>
+	<value code="Q4_2010">Q4_2010</value>
+</variable>
+
+<variable id="phv00089428.v2">
+	<name>SITE</name>
+	<description>Site</description>
+	<type>Encoded</type>
+	<value code="Houston">Houston</value>
+	<value code="St. Louis">St. Louis</value>
+</variable>
+
+<variable id="phv00089429.v2">
+	<name>HMPCOMM</name>
+	<description>Comments</description>
+	<type>String</type>
+	<comment>&#39;Gated field&#39;, defined as data that will not be released to dbGaP until all subjects have been enrolled, and data is reviewed to confirm that there is no possibility of subject identification.</comment>
+</variable>
+
+</data_table>

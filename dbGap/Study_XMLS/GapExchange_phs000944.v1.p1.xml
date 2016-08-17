@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GaPExchange xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="./dbGaPEx2.1.5.xsd">
+
+<MetaVariables>
+	<Submitter/>
+	<Method/>
+</MetaVariables>
+<MetaLinks/>
+
+<Projects>
+	<Project/>
+</Projects>
+
+<Studies>
+
+<Study source="dbGaP" accession="phs000944.v1.p1" parentStudy="phs000944.v1.p1" createDate="2015-06-29" modDate="2016-03-04">
+
+<Configuration>
+	<Data_Provider><![CDATA[
+		<table border="1">
+		<tr><th>Title</th><th>Name</th><th>Institute</th></tr>
+		<tr><td>Principal Investigator</td><td>Scott T. Weiss, MD, MS</td><td>Partners HealthCare System, Boston, MA, USA</td></tr>
+		<tr><td>Funding Source</td><td>Institutional</td><td>Partners HealthCare System, Boston, MA, USA</td></tr>
+		</table>
+	]]></Data_Provider>
+	<StudyNameEntrez>eMERGE Clinical Center at Partners HealthCare</StudyNameEntrez>
+	<StudyNameReportPage>eMERGE Phase III Clinical Center at Partners HealthCare</StudyNameReportPage>
+	<StudyTypes>
+		<StudyType>Cross-Sectional</StudyType>
+	</StudyTypes>
+	<Description><![CDATA[
+<p>The Partners HealthCare Biobank is a large research data and sample repository working within the framework of Partners Personalized Medicine. It provides researchers access to high quality, consented samples to help foster research, advance understanding of the causes of common diseases, and advance the practice of medicine. The Partners Biobank provides banked samples (plasma, serum and DNA) collected from consented patients. These samples are available for distribution to Partners HealthCare investigators with appropriate approval from the Partners Institutional Review board (IRB). They are linked to clinical data that originates in the Electronic Medical Record (EMR), as well as additional health information collected in a self-reported survey.</p> <p>The Partners Biobank will be genotyping 25,000 subjects with the Illumina Multiethnic Beadchip 1.6 million SNPs with exome and custom content (&#62; 60,000 LoFs). Of the participants genotyped so far, 4929 of 4962 (99.3%) individuals have genotype data that passed the default quality thresholds for the Infinium array (call rate &#62;= 0.99).</p> <p>We are submitting the genotype data to dbGaP for 4929 subjects with 12 phenotypes (based on icd9 codes). We will do annual releases until we reach the full 25,000 genotyped subjects.</p>]]>
+	</Description>
+	<StudyInEx><![CDATA[
+<p><b><i>Primary Inclusion Criteria:</i></b></p> <p><ul> <li>Adults &#8805; 18 years of age seen at a Partners facility, including employees of Partners Healthcare (PHS) and PHS subsidiaries, such as BWH and MGH.</li> </ul></p> <p><b><i>Primary Exclusion Criteria:</i></b></p> <p><ul> <li>&#60; 18 years of age, unless subjects are consented through a collaborating study that approaches pediatric subjects for consent in their study and the Partners Biobank.</li> <li>Members of vulnerable patient populations, unless subjects are consented through a collaborating study. Such populations include, but are not limited to:</li> <ol> <li>Patients who are medically unstable.</li> <li>Patients who are acutely ill in the ICU.</li> <li>Patients who are pregnant and in active labor*.</li> <li>Patients who are deemed to be temporarily or permanently incompetent by his/her treating physician.</li> <li>Patients who are in trauma in the ED.</li> <li>Employees who directly report to the Principal Investigator or serve on the recruitment team for the Partners Biobank.</li> <li>Patients who have withdrawn from the Biobank.</li> </ol> <li>Subject does not consent to the collection of specimens or use of discarded specimens for the Partners Biobank.</li> </ul> <br/>*Patients who may be pregnant but are not in active labor may be recruited for the Partners Biobank directly by Partners Biobank recruiters without the participation of a collaborating investigator. </p>]]>
+	</StudyInEx>
+	<StudyProjects>
+		<Project/>
+	</StudyProjects>
+	<Diseases>
+		<Disease vocab_source="MESH" vocab_term="Hypercholesterolemia"/>
+		<Disease vocab_source="MESH" vocab_term="Asthma"/>
+		<Disease vocab_source="MESH" vocab_term="Arthritis, Rheumatoid"/>
+		<Disease vocab_source="MESH" vocab_term="Attention Deficit Disorder with Hyperactivity"/>
+		<Disease vocab_source="MESH" vocab_term="Bipolar Disorder"/>
+		<Disease vocab_source="MESH" vocab_term="Coronary Disease"/>
+		<Disease vocab_source="MESH" vocab_term="Depression"/>
+		<Disease vocab_source="MESH" vocab_term="Heart Failure"/>
+		<Disease vocab_source="MESH" vocab_term="Inflammatory Bowel Diseases"/>
+		<Disease vocab_source="MESH" vocab_term="Multiple Sclerosis"/>
+		<Disease vocab_source="MESH" vocab_term="Schizophrenia"/>
+		<Disease vocab_source="MESH" vocab_term="Stroke"/>
+	</Diseases>
+	<Attributions>
+		<Header title="Principal Investigator">
+			<AttName>Scott T. Weiss, MD, MS</AttName>
+			<Institution>Partners HealthCare System, Boston, MA, USA</Institution>
+		</Header>
+		<Header title="Funding Source">
+			<AttName>Institutional</AttName>
+			<Institution>Partners HealthCare System, Boston, MA, USA</Institution>
+		</Header>
+	</Attributions>
+	<DisplayPublicSummary>yes</DisplayPublicSummary>
+	<StudyURLs>
+		<Url name="Partners HealthCare Biobank" url="http://www.partners.org/biobank"/>
+	</StudyURLs>
+	<StudyHistory><![CDATA[
+<p>The Partners Biobank started enrolling subjects in April, 2010. To date, more than 27,000 patients have consented to join the Partners Biobank at Brigham and Women&#39;s Hospital (BWH), Massachusetts General Hospital (MGH), and Spaulding Rehabilitation Hospital (SRH). An additional 1,000 to 2,000 patients are consented each month. Samples are collected at the participating hospitals within Partners HealthCare. </p> <p>The Biobank is already providing samples and data to investigators affiliated with a Partners HealthCare institution, such as MGH or BWH. The data includes curated disease populations (defined with computed phenotype algorithms that include natural language processing), calculated healthy controls (leveraging the Charlson comorbidity index), self-reported survey data, and clinical data from the EMR. Proving genotyping data in conjunction with this rich data set is the next logical step for the Biobank to continue to support medical research.</p>]]>
+	</StudyHistory>
+	<ConsentGroups>
+		<ConsentGroup groupNum="0" shortName="NRUP" longName="Subjects did not participate in the study, did not complete a consent document and are included only for the pedigree structure and/or genotype controls, such as HapMap subjects"/>
+		<ConsentGroup groupNum="1" shortName="HMB-MDS" longName="Health/Medical/Biomedical (MDS)"/>
+	</ConsentGroups>
+</Configuration>
+
+  <AuthorizedAccess>
+    <DacInfo ssDacId="0">
+      <DacName>NHGRI</DacName>
+      <DacFullName>National Human Genome Research Institute</DacFullName>
+      <DacEmail>0</DacEmail>
+      <DacPhone></DacPhone>
+      <DacUrl></DacUrl>
+    </DacInfo>
+    <Policy Policy_ID="phs000944.v1.p1_policy" ref_ssDacId="0">
+      <DisplayResearchStatement>yes</DisplayResearchStatement>
+      <DisplayPublicSummary>yes</DisplayPublicSummary>
+      <EmbargoLength>0</EmbargoLength>
+      <YearsUntilRenewal>1</YearsUntilRenewal>
+      <WeeksCancelRequest>8</WeeksCancelRequest>
+      <PdfSupplementReqired>no</PdfSupplementReqired>
+      <AcknowledgementText>
+        <para>
+          http://dbgap.ncbi.nlm.nih.gov/aa/wga.cgi?page=DUC&amp;view_pdf&amp;stacc=phs000944.v1.p1
+        </para>
+      </AcknowledgementText>
+      <DocumentSet>
+        <DataUseCertificate Label="Data Use Certificate" FilePath="https://dbgap.ncbi.nlm.nih.gov/aa/wga.cgi?page=DUC&amp;view_pdf&amp;stacc=phs000944.v1.p1" FileName=""/>
+      </DocumentSet>
+    </Policy>
+    <ConsentGroups>
+      <ParticipantSet groupNum-REF="1">
+        <ConsentName>Health/Medical/Biomedical (MDS)</ConsentName>
+        <ConsentAbbrev>HMB-MDS</ConsentAbbrev>
+        <UseLimitation>Use of this data is limited to health/medical/biomedical purposes, does not include the study of population origins or ancestry.
+Use of the data includes methods development research (e.g., development of software or algorithms).</UseLimitation>
+        <IrbRequired>No</IrbRequired>
+      </ParticipantSet>
+    </ConsentGroups>
+  </AuthorizedAccess>
+  <Documents>
+    <Document phd="phd005498.1" type="consent-form" createDate="2016-03-03" modDate="2016-03-04" urlToXml="http://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/GetDocumentXml.cgi?document_id=phd005498.1" urlToHtml="http://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/document.cgi?study_id=phs000944.v1.p1&amp;phd=5498">
+      <OrigName>BiobankConsentForm_20150408.pdf</OrigName>
+      <DisplayName>Biobank Consent Form</DisplayName>
+      <Description>Biobank Consent Form</Description>
+      <displayStatus>public</displayStatus>
+      <xmlStatus>public</xmlStatus>
+    </Document>
+    <Document phd="phd005499.1" type="consent-form" createDate="2016-03-03" modDate="2016-03-04" urlToXml="http://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/GetDocumentXml.cgi?document_id=phd005499.1" urlToHtml="http://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/document.cgi?study_id=phs000944.v1.p1&amp;phd=5499">
+      <OrigName>BiobankFactSheet_20150408.pdf</OrigName>
+      <DisplayName>Additional Information about Consenting to the Partners HealthCare Biobank</DisplayName>
+      <Description>Additional Information about Consenting to the Partners HealthCare Biobank</Description>
+      <displayStatus>public</displayStatus>
+      <xmlStatus>public</xmlStatus>
+    </Document>
+  </Documents>
+
+  <Annotations>
+    <DocumentPart phd="phd005498.1" sectionId="sec1.1">
+      <phvList>
+        <phvRef variableId="251989"/>
+      </phvList>
+    </DocumentPart>
+    <DocumentPart phd="phd005499.1" sectionId="phd005499">
+      <phvList>
+        <phvRef variableId="251989"/>
+      </phvList>
+    </DocumentPart>
+  </Annotations>
+
+
+
+</Study>
+
+</Studies>
+
+</GaPExchange>

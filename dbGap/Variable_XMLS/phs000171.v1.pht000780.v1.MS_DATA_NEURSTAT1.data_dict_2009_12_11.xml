@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./datadict_v2.xsl"?>
+<data_table id="pht000780.v1" study_id="phs000171.v1" participant_set="1" date_created="Fri Dec 11 14:12:52 2009">
+
+<variable id="phv00073349.v1">
+	<name>SUBJID</name>
+	<description>Subject&#39;s ID</description>
+	<type>string</type>
+</variable>
+
+<variable id="phv00073350.v1">
+	<name>CASE_CONTROL</name>
+	<description>Type of subject</description>
+	<type>string, encoded values</type>
+	<value code="CASE">Affected subject per Protocol</value>
+	<value code="CNTL">Control subject per Protocol</value>
+</variable>
+
+<variable id="phv00073351.v1">
+	<name>STUDY</name>
+	<description>Study ID</description>
+	<type>string</type>
+	<comment>Always RES101833</comment>
+</variable>
+
+<variable id="phv00073352.v1">
+	<name>INVSITE</name>
+	<description>Investigator site ID</description>
+	<type>string</type>
+	<comment>Numeric code identifying the site (for internal use)</comment>
+</variable>
+
+<variable id="phv00073353.v1">
+	<name>INV</name>
+	<description>Investigator&#39;s ID</description>
+	<type>string</type>
+	<comment>Numeric code identifying the investigator (for internal use)</comment>
+</variable>
+
+<variable id="phv00073354.v1">
+	<name>VISIT</name>
+	<description>Visit name</description>
+	<type>string</type>
+	<value code="CSA">Common Subject Assessment</value>
+	<value code="ELIGIBILITY">Eligibility questionnaire</value>
+	<value code="BASELINE">Baseline assessment questionnaire</value>
+	<value code="LAB WBC">Lab results</value>
+	<value code="SELF REPORT">Subject completed self report questionnaire</value>
+</variable>
+
+<variable id="phv00073355.v1">
+	<name>VISIT_DATE</name>
+	<description>Visit date</description>
+	<type>date</type>
+	<comment>Truncated to YYYY</comment>
+</variable>
+
+<variable id="phv00073356.v1">
+	<name>WLKRNG</name>
+	<description>Walking range</description>
+	<type>Integer, encoded</type>
+	<unit>Meters</unit>
+	<comment>Value in Meters except for 999 which indicates &gt;1000 M walked</comment>
+	<value code="999">&gt; 1000 M</value>
+</variable>
+
+<variable id="phv00073357.v1">
+	<name>MNWLK</name>
+	<description>Minutes spent walking</description>
+	<type>Integer</type>
+	<unit>Minutes</unit>
+</variable>
+
+<variable id="phv00073358.v1">
+	<name>WLKDST</name>
+	<description>Walking distance</description>
+	<type>Encoded Value</type>
+	<value code="&gt;100">&gt;/= 100 meters, but &lt;200 meters</value>
+	<value code="&gt;200">&gt;/= 200 meters, but &lt;300 meters</value>
+	<value code="&gt;300">&gt;/= 300 meters, but &lt;500 meters</value>
+	<value code="&gt;500">&gt;/= 500 meters but not unrestricted</value>
+	<value code="UNR">(unrestricted)</value>
+</variable>
+
+<variable id="phv00073359.v1">
+	<name>ACTDST</name>
+	<description>Actual distance walked</description>
+	<type>Integer</type>
+	<unit>Meters</unit>
+</variable>
+
+<variable id="phv00073360.v1">
+	<name>WLKAST</name>
+	<description>Walking assistance - type</description>
+	<type>Encoded Value</type>
+	<value code="UA">Unilateral assistance</value>
+	<value code="BA">Bilateral assistance</value>
+	<value code="X">Other person</value>
+</variable>
+
+<variable id="phv00073361.v1">
+	<name>ASTDST</name>
+	<description>Assisted walking distance</description>
+	<type>Integer, encoded</type>
+	<unit>Meters</unit>
+	<comment>Value in Meters except for 999 which indicates &gt;1000 M walked</comment>
+	<value code="999">&gt; 1000 M</value>
+</variable>
+
+<variable id="phv00073362.v1">
+	<name>ASTBY</name>
+	<description>Walking assisted by</description>
+	<type>Encoded Value</type>
+	<value code="CNCR">Cane(s)/Crutch(es)</value>
+	<value code="X">Other, specify</value>
+</variable>
+
+<variable id="phv00073363.v1">
+	<name>OTHTX</name>
+	<description>Other - specify</description>
+	<type>String</type>
+</variable>
+
+</data_table>

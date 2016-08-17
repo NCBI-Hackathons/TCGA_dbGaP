@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GaPExchange xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="dbGaPEx2.1.5.xsd">
+
+<MetaVariables>
+	<Submitter/>
+	<Method/>
+</MetaVariables>
+<MetaLinks/>
+
+<Projects>
+	<Project/>
+</Projects>
+
+<Studies>
+
+<Study source="dbGaP" accession="phs000188.v1.p1" parentStudy="phs000188.v1.p1" createDate="2009-04-28" modDate="2011-10-24">
+
+<Configuration>
+	<Data_Provider><![CDATA[
+		<table border="1">
+		<tr><th>Title</th><th>Name</th><th>Institute</th></tr>
+		<tr><td>Principal Investigator</td><td>Dan Roden, MD</td><td>Vanderbilt University Medical Center, Nashville, TN, USA</td></tr>
+		<tr><td>Funding Source</td><td>1U01-HG04603-01</td><td>National Institutes of Health, Bethesda, MD, USA</td></tr>
+		<tr><td>Funding Source for Genotyping</td><td>U01-HG004424</td><td>National Human Genome Research Institute, National Institutes of Health, Bethesda, MD, USA</td></tr>
+		</table>
+	]]></Data_Provider>
+	<StudyNameEntrez>Vanderbilt Genome-Electronic Records (VGER) Project: QRS Duration</StudyNameEntrez>
+	<StudyNameReportPage>Vanderbilt Genome-Electronic Records (VGER) Project: QRS Duration</StudyNameReportPage>
+	<StudyTypes>
+		<StudyType>Case Set</StudyType>
+	</StudyTypes>
+	<Description><![CDATA[
+<p>An important potential enabling resource for Personalized Medicine is the combination of a DNA repository with Electronic 	Medical Record (EMR) systems sufficiently robust to provide excellence in clinical care and to serve as resources for 	analysis of disease susceptibility and therapeutic outcomes across patient populations. The Vanderbilt EMR is a state of 	the art clinical and research tool (that includes &gt;1.7 million records), and is associated with a DNA repository which has 	been in development for over 3 years; these are the key components of VGER, the Vanderbilt Genome-Electronic Records project, 	a part of NHGRI&#39;s eMERGE network. The VGER model acquires DNA from discarded blood samples collected from routine patient care, 	and can link these to de-identified data extracted and readily updated from the EMR. The phenotype we analyze here is the QRS 	duration on the electrocardiogram, since slow conduction (indicated by longer QRS duration) is a marker of arrhythmia 	susceptibility.</p>]]>
+	</Description>
+	<StudyInEx><![CDATA[
+<p> 		<u> 			<b>Patient Population:</b> 		</u> 		<ul> 			<li>Patients with DNA whose first electrocardiogram (ECG) is designated as "normal" and lacking an exclusion criteria.</li> 			<li>For this study, case and control are drawn from the same population. The only difference will be the QRSd.</li> 			<li>From this population, we will select 3000 patients with "normal" ECGs, and analyze QRSd as a continuous variable.</li> 		</ul> 	</p> 	<p> 		<u> 			<b>Hypothetical timeline for a single patient:</b> 		</u> 			<img src="GetImage.cgi?study_id=phs000188&image_name=HypotheticalTimelineSinglePt.jpg"/> 	</p> 	<p> 		<u>Notes:</u> 		<ul> 			<li>ECG1 is the study ECG since it is the first normal ECG and preceded by no abnormal ECGs</li> 			<li>The "Mildly abnormal" ECG cannot be abnormal by presence of heart disease.  It can have abnormal rate, be recorded in the presence of Na-channel blocking meds, etc.   For instance, a HR >100 is OK but not a bundle branch block.</li> 			<li>Y duration = from first entry in the electronic medical record (EMR) until one month following normal ECG</li> 			<li>Z duration = most recent clinic visit or problem list (if present) to one week following the normal ECG.  Labs values, though, must be +/- 48h from the ECG time</li> 		</ul> 	</p> 	<p> 		<u> 			<b>Exclusion criteria:</b> 		</u> 		<table border="1"> 			<tr> 				<td> 					<b>Criterion</b> 				</td> 				<td> 					<b>Source/Method</b> 				</td> 			</tr> 			<tr> 				<td>Impression diagnoses contains: 						<ul> 							<li>bundle branch blocks</li> 							<li>intraventricular conduction delay</li> 							<li>myocardial infarction and ischemia</li> 							<li>cardiac pacing</li> 							<li>extrasystoles (PVCs, PACs, etc)</li> 							<li>tachycardia (ventricular, atrial, supraventricular, etc)</li> 							<li>arrhythmias</li> 							<li>AV blocks (any degree)</li> 							<li>aberrant conduction</li> 							<li>hypertrophy (LVH,RVH)</li> 							<li>electrocardiographic wave form abnormalities suggestive of disease (e.g., q waves and ST changes).</li> 						</ul> 				</td> 				<td>Natural Language Processing (NLP) on ECG impression.  Excludes all but negated terms (e.g., exclude those with 					possible, probable, or asserted bundle branch blocks).  Also excludes normalization negations like "LBBB 					no longer present." 				</td> 			</tr> 			<tr> 				<td>No Known <u>heart disease</u> at or before ECG time</td> 				<td> 					<ul> 						<li>NLP for notes, Problem Lists at or near ECG time, ignoring Family Medical History and Allergy 							sections</li> 						<li>ICD9 and CPT codes at or near ECG time describing heart disease</li> 						<li>EMR Lab calues:</li> 								<ul> 									<li>Positive cardiac enzymes (CPK-MB &gt; 8, Troponin &gt; 0.05)</li> 									<li>BNP &gt; 100</li> 								</ul> 					</ul> 				</td> 			</tr> 			<tr> 				<td>ECGs recorded during treatment with <u>sodium channel blocking drugs</u> are excluded:</td> 				<td>Presence of drug names (detected via NLP) from problem list or notes at or near ECG time.  We used coded inpatient 				medication data for ECGs done while an inpatient.</td> 			</tr> 			<tr> 				<td>Absence of both a problem list and note containing medications and past medical history before or immediately after the 				time of the ECG.</td> 				<td>Note section tagging to detect non-empty past medical history and medication sections.</td> 			</tr> 			<tr> 				<td>ECGs recorded during these lab abnormalities are ignored</td> 				<td>EMR Lab values: 					<ul> 						<li>K &gt; 6, K &lt; 3.5</li> 						<li>Ca &lt; 8 or Ca &gt; 11</li> 						<li>Mg &lt; 1.7</li> 					</ul> 				</td> 			</tr> 		</table> 	</p> 	<p> 		<u> 			<b>Definitions:</b> 		</u> 		<table border="1"> 			<tr> 				<td> 					<b>Term</b> 				</td> 				<td> 					<b>Definition</b> 				</td> 			</tr> 			<tr> 				<td>Normal ECG</td> 				<td> 					<ul> 						<li>QRSd between 65-120 ms</li> 						<li>ECG designated as "NORMAL"</li> 						<li>Heart Rate between 50-100</li> 					</ul> 				</td> 			</tr> 			<tr> 				<td>Sodium channel blocking drugs</td> 				<td>flecainide, propafenone, mexiletine, lidocaine, quinidine, procainamide, disopyramide, amiodarone, imipramine, 				amitryptiline (&gt;25mg total daily dose), lithium, encainide, moricizine, quinine, desipramine, propoxyphene, 				tocainide</td> 			</tr> 			<tr> 				<td>Heart disease</td> 				<td>Presence of concepts (must be "probable" or "asserted"): 					<ul> 						<li>Any presence of coronary disease concepts</li> 						<li>Any type of heart failure</li> 						<li>Any type of valvular disease</li> 						<li>Any type of cardiomyopathy</li> 						<li>Ventricular hypertrophy</li> 						<li>Any type of arrhythmia</li> 						<li>Any type of cardiac conduction problem</li> 						<li>Heart transplants</li> 					</ul> 				Presence of ICD9 near ECG: 					<ul> 						<li>(codes representing concepts above)</li> 					</ul> 				Presence of CPT codes representing cardiac surgery. 				</td> 			</tr> 		</table> 	</p>]]>
+	</StudyInEx>
+	<StudyProjects>
+		<Project/>
+	</StudyProjects>
+	<Diseases>
+		<Disease vocab_source="MESH" vocab_term="Heart Conduction System"/>
+	</Diseases>
+	<Attributions>
+		<Header title="Principal Investigator">
+			<AttName>Dan Roden, MD</AttName>
+			<Institution>Vanderbilt University Medical Center, Nashville, TN, USA</Institution>
+		</Header>
+		<Header title="Funding Source">
+			<AttName>1U01-HG04603-01</AttName>
+			<Institution>National Institutes of Health, Bethesda, MD, USA</Institution>
+		</Header>
+		<Header title="Funding Source for Genotyping">
+			<AttName>U01-HG004424</AttName>
+			<Institution>National Human Genome Research Institute, National Institutes of Health, Bethesda, MD, USA</Institution>
+		</Header>
+	</Attributions>
+	<DisplayPublicSummary>yes</DisplayPublicSummary>
+	<StudyURLs>
+		<Url name="The eMERGE Network" url="https://www.mc.vanderbilt.edu/victr/dcc/projects/acc/index.php/Main_Page"/>
+	</StudyURLs>
+	<StudyHistory><![CDATA[
+<p> 		<b>QRS Duration Time Line</b> 		<ul> 			<li>February 2007 - BioVU became operational</li> 			<li>January 2008 - Began QRS phenotyping process </li> 			<li>January/March 2009 - Selected samples to be genotyped</li> 			<li>April 2009 - Samples shipped and received at The Broad Institute</li> 		</ul> 	</p>]]>
+	</StudyHistory>
+	<ConsentGroups>
+		<ConsentGroup groupNum="0" shortName="NRUP" longName="Subjects did not participate in the study, did not complete a consent document and are included only for the pedigree structure and/or genotype controls, such as HapMap subjects."/>
+		<ConsentGroup groupNum="1" shortName="HR_VU" longName="Health Research - Vanderbilt University"/>
+		<ConsentGroup groupNum="2" shortName="HR_NWU" longName="Health Research - Northwestern University"/>
+	</ConsentGroups>
+</Configuration>
+
+  <AuthorizedAccess>
+    <DacInfo ssDacId="0">
+      <DacName>NHGRI</DacName>
+      <DacFullName>National Human Genome Research Institute</DacFullName>
+      <DacEmail>nhgridac@mail.nih.gov</DacEmail>
+      <DacPhone></DacPhone>
+      <DacFax>301-480-2770</DacFax>
+      <DacUrl>http://grants.nih.gov/grants/gwas</DacUrl>
+    </DacInfo>
+    <Policy Policy_ID="phs000188.v1.p1_policy" ref_ssDacId="0">
+      <DisplayResearchStatement>yes</DisplayResearchStatement>
+      <DisplayPublicSummary>yes</DisplayPublicSummary>
+      <EmbargoLength>12</EmbargoLength>
+      <YearsUntilRenewal>1</YearsUntilRenewal>
+      <WeeksCancelRequest>8</WeeksCancelRequest>
+      <PdfSupplementReqired>no</PdfSupplementReqired>
+      <AcknowledgementText>
+        <para>
+               http://dbgap.ncbi.nlm.nih.gov/aa/wga.cgi?page=DUC&amp;view_pdf&amp;stacc=phs000188.v1.p1
+            </para>
+      </AcknowledgementText>
+      <DocumentSet>
+        <DataUseCertificate Label="Data Use Certificate" FilePath="https://dbgap.ncbi.nlm.nih.gov/aa/wga.cgi?page=DUC&amp;view_pdf&amp;stacc=phs000188.v1.p1" FileName="eMERGE_GWAS_DUC_09-23-2011.pdf"/>
+      </DocumentSet>
+    </Policy>
+    <ConsentGroups>
+      <ParticipantSet groupNum-REF="1">
+        <ConsentName>Health Research - Vanderbilt University</ConsentName>
+        <ConsentAbbrev>HR_VU</ConsentAbbrev>
+        <UseLimitation>May be used for genetic studies to learn about, prevent, or treat health problems</UseLimitation>
+        <IrbRequired>No</IrbRequired>
+      </ParticipantSet>
+      <ParticipantSet groupNum-REF="2">
+        <ConsentName>Health Research - Northwestern University</ConsentName>
+        <ConsentAbbrev>HR_NWU</ConsentAbbrev>
+        <UseLimitation>May be used for genetic studies to learn about, prevent, or treat health problems. No Permitted Use: Insurance companies.</UseLimitation>
+        <IrbRequired>No</IrbRequired>
+      </ParticipantSet>
+    </ConsentGroups>
+  </AuthorizedAccess>
+
+
+</Study>
+
+</Studies>
+
+</GaPExchange>

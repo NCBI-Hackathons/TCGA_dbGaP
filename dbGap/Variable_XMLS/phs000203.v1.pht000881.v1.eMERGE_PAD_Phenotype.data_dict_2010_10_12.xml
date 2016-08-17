@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./datadict_v2.xsl"?>
+<data_table id="pht000881.v1" study_id="phs000203.v1" participant_set="1" date_created="Tue Oct 12 15:18:01 2010">
+
+<variable id="phv00076109.v1">
+	<name>SUBJID</name>
+	<description>Deidentified Subject/eMERGE ID</description>
+	<type>Integer</type>
+	<comment><![CDATA[Non-enumerated value domain. Deidentified ID where the first two digits denote the origination site of the samples; site key: Marshfield Clinic=16; Vanderbilt University=27; Group Health Cooperative=38; Mayo Clinic=49; Northwestern University=52 
+		External variable resource: <a href="https://cdebrowser.nci.nih.gov">caDSR</a>; enter source ID: 2181644 (Public ID) ]]></comment>
+</variable>
+
+<variable id="phv00076110.v1">
+	<name>case_control</name>
+	<description>Case - control status</description>
+	<type>String, Encoded value</type>
+	<comment><![CDATA[External variable resource: <a href="https://cdebrowser.nci.nih.gov">caDSR</a>; enter source ID: 2529082 (Public ID)   NOTE: The codes from NCI Thesaurus are based on the Version 10.07d (July 26, 2010).  The source files can be accessed from: http://evs.nci.nih.gov/ftp1/NCI_Thesaurus]]></comment>
+	<value code=".">Missing value</value>
+	<value code="C28143">Control</value>
+	<value code="C49152">Case</value>
+</variable>
+
+<variable id="phv00076111.v1">
+	<name>Sex</name>
+	<description>Gender of participant</description>
+	<type>String, Encoded value</type>
+	<comment><![CDATA[External variable resource: <a href="https://cdebrowser.nci.nih.gov">caDSR</a>; enter source ID: 2200604 (Public ID)   NOTE: The codes from NCI Thesaurus are based on the Version 10.07d (July 26, 2010).  The source files can be accessed from: http://evs.nci.nih.gov/ftp1/NCI_Thesaurus]]></comment>
+	<value code=".">Missing value</value>
+	<value code="C46109">Male</value>
+	<value code="C46110">Female</value>
+	<value code="NA">Not Assessed</value>
+</variable>
+
+<variable id="phv00076112.v1">
+	<name>Race</name>
+	<description>Race of participant</description>
+	<type>String, Encoded value</type>
+	<comment><![CDATA[External variable resource: <a href="https://cdebrowser.nci.nih.gov">caDSR</a>; enter source ID: 106 (Public ID)   NOTE: The codes from NCI Thesaurus are based on the Version 10.07d (July 26, 2010).  The source files can be accessed from: http://evs.nci.nih.gov/ftp1/NCI_Thesaurus]]></comment>
+	<value code=".">Missing value</value>
+	<value code="C16352">Black or African American</value>
+	<value code="C17649">Other</value>
+	<value code="C17998">Unknown</value>
+	<value code="C41219">Native Hawaiian or other Pacific Islander</value>
+	<value code="C41259">American Indian or Alaska Native</value>
+	<value code="C41260">Asian</value>
+	<value code="C41261">White</value>
+	<value code="C43234">Not reported</value>
+	<value code="C54031">Missing</value>
+	<value code="NA">Not Assessed</value>
+</variable>
+
+<variable id="phv00076113.v1">
+	<name>Ethnicity</name>
+	<description>Ethnicity of participant</description>
+	<type>String, Encoded value</type>
+	<comment><![CDATA[External variable resource: <a href="https://cdebrowser.nci.nih.gov">caDSR</a>; enter source ID: 2002440 (Public ID)   NOTE: The codes from NCI Thesaurus are based on the Version 10.07d (July 26, 2010).  The source files can be accessed from: http://evs.nci.nih.gov/ftp1/NCI_Thesaurus]]></comment>
+	<value code=".">Missing value</value>
+	<value code="C17459">Hispanic or Latino</value>
+	<value code="C41221">Unknown</value>
+	<value code="C41222">Not Hispanic or Latino</value>
+	<value code="NA">Not Assessed</value>
+</variable>
+
+<variable id="phv00076114.v1">
+	<name>decade_birth</name>
+	<description>Decade of birth</description>
+	<type>Integer, encoded value</type>
+	<unit>Deciles</unit>
+	<comment><![CDATA[Patients born prior to 1920 are represented in one group (&#62;=89 years of age) 
+		External variable resource: <a href="https://cdebrowser.nci.nih.gov">caDSR</a>; enter source ID: 3018429 (Public ID) ]]></comment>
+</variable>
+
+<variable id="phv00076115.v1">
+	<name>Weight</name>
+	<description>Subject&#39;s weight at enrollment</description>
+	<type>Decimal, encoded value</type>
+	<unit>Pounds</unit>
+	<comment><![CDATA[External variable resource: <a href="https://cdebrowser.nci.nih.gov">caDSR</a>; enter source ID: 2179689 (Public ID)]]></comment>
+	<value code=".">Missing value</value>
+</variable>
+
+<variable id="phv00076116.v1">
+	<name>Height</name>
+	<description>Subject&#39;s height at enrollment</description>
+	<type>Decimal, encoded value</type>
+	<unit>Inches</unit>
+	<comment><![CDATA[External variable resource: <a href="https://cdebrowser.nci.nih.gov">caDSR</a>; enter source ID: 2179643 (Public ID)]]></comment>
+	<value code=".">Missing value</value>
+</variable>
+
+<variable id="phv00076117.v1">
+	<name>Body_Mass_Index</name>
+	<description>Imputed BMI based on 6-months (+/- ) time period</description>
+	<type>Decimal, encoded value</type>
+	<comment><![CDATA[External variable resource: <a href="https://cdebrowser.nci.nih.gov">caDSR</a>; enter source ID: 2006410 (Public ID)]]></comment>
+	<value code=".">Missing value</value>
+</variable>
+
+<variable id="phv00076118.v1">
+	<name>Smoking_Status</name>
+	<description>Smoking status at enrollment</description>
+	<type>Encoded value</type>
+	<comment><![CDATA[External variable resource: <a href="https://cdebrowser.nci.nih.gov">caDSR</a>; enter source ID: 2183382 (Public ID)   NOTE: The codes from NCI Thesaurus are based on the Version 10.07d (July 26, 2010).  The source files can be accessed from: http://evs.nci.nih.gov/ftp1/NCI_Thesaurus]]></comment>
+	<value code=".">Missing value</value>
+	<value code="C65108">Never Smoker</value>
+	<value code="C67147">Current Smoker</value>
+	<value code="C67148">Past Smoker</value>
+	<value code="C67151">Unknown</value>
+	<value code="C68751">Ever Smoker</value>
+</variable>
+
+<variable id="phv00076119.v1">
+	<name>hypertension</name>
+	<description>Hypertension status</description>
+	<type>encoded value</type>
+	<comment><![CDATA[External variable resource: <a href="https://cdebrowser.nci.nih.gov">caDSR</a>; enter source ID: 2183378 (Public ID)   NOTE: The codes from NCI Thesaurus are based on the Version 10.07d (July 26, 2010).  The source files can be accessed from: http://evs.nci.nih.gov/ftp1/NCI_Thesaurus]]></comment>
+	<value code=".">Missing value</value>
+	<value code="C49487">No</value>
+	<value code="C49488">Yes</value>
+</variable>
+
+<variable id="phv00076120.v1">
+	<name>Type_1_Diabetes</name>
+	<description>Type 1 diabetes status</description>
+	<type>Encoded value</type>
+	<comment><![CDATA[At time of enrollment  -  NOTE: Possible is not part of the caDSR data element. 
+		External variable resource: <a href="https://cdebrowser.nci.nih.gov">caDSR</a>; enter source ID: 2239985 (Public ID)   NOTE: The codes from NCI Thesaurus are based on the Version 10.07d (July 26, 2010). The source files can be accessed from: http://evs.nci.nih.gov/ftp1/NCI_Thesaurus. ]]></comment>
+	<value code=".">Missing value</value>
+	<value code="C17998">Unknown</value>
+	<value code="C49487">No</value>
+	<value code="C49488">Yes</value>
+	<value code="C82490">Possible</value>
+</variable>
+
+<variable id="phv00076121.v1">
+	<name>Type_2_Diabetes</name>
+	<description>Type 2 diabetes status</description>
+	<type>Encoded value</type>
+	<comment><![CDATA[Indication could be from a diagnosis code, medications, or lab values. Y=yes; P=possible; N=no (T2D control); U=uncertain or otherwise excluded as a case or a control; not enough information  -  NOTE: Possible is not part of the caDSR data element. 
+		External variable resource: <a href="https://cdebrowser.nci.nih.gov">caDSR</a>; enter source ID: 2635744 (Public ID)   NOTE: The codes from NCI Thesaurus are based on the Version 10.07d (July 26, 2010).  The source files can be accessed from: http://evs.nci.nih.gov/ftp1/NCI_Thesaurus. ]]></comment>
+	<value code=".">Missing value</value>
+	<value code="C17998">Unknown</value>
+	<value code="C49487">No</value>
+	<value code="C49488">Yes</value>
+	<value code="C82490">Possible</value>
+</variable>
+
+<variable id="phv00076122.v1">
+	<name>dyslipidemia</name>
+	<description>Total cholesterol &gt;= 200 OR Triglycerides &gt;= 150 OR HDL cholesterol &lt;= 40 OR &#39;C49488=Yes&#39; (taking) lipid lowering medications</description>
+	<type>Encoded value</type>
+	<comment><![CDATA[External variable resource: <a href="https://cdebrowser.nci.nih.gov">caDSR</a>; enter source ID: 2534931 (Public ID)   NOTE: The codes from NCI Thesaurus are based on the Version 10.07d (July 26, 2010).  The source files can be accessed from: http://evs.nci.nih.gov/ftp1/NCI_Thesaurus]]></comment>
+	<value code=".">Missing value</value>
+	<value code="C49487">No</value>
+	<value code="C49488">Yes</value>
+</variable>
+
+<variable id="phv00076123.v1">
+	<name>Statin_Use_ABI_Date</name>
+	<description>Was statin used on ABI/index date?</description>
+	<type>encoded value</type>
+	<comment><![CDATA[External variable resource: <a href="https://cdebrowser.nci.nih.gov">caDSR</a>; enter source ID: 2480494 (Public ID)   NOTE: The codes from NCI Thesaurus are based on the Version 10.07d (July 26, 2010).  The source files can be accessed from: http://evs.nci.nih.gov/ftp1/NCI_Thesaurus]]></comment>
+	<value code=".">Missing value</value>
+	<value code="C49487">No</value>
+	<value code="C49488">Yes</value>
+</variable>
+
+<variable id="phv00076124.v1">
+	<name>Non_Statin_Lipid_Lowering_Drug</name>
+	<description>Was any non-statin lipid lowering drug used?</description>
+	<type>Encoded value</type>
+	<comment><![CDATA[External variable resource: <a href="https://cdebrowser.nci.nih.gov">caDSR</a>; enter source ID: 2220270 (Public ID)   NOTE: The codes from NCI Thesaurus are based on the Version 10.07d (July 26, 2010).  The source files can be accessed from: http://evs.nci.nih.gov/ftp1/NCI_Thesaurus]]></comment>
+	<value code="C49487">No</value>
+	<value code="C49488">Yes</value>
+</variable>
+
+<variable id="phv00076125.v1">
+	<name>Serum_Total_Cholesterol</name>
+	<description>Modeled total cholesterol at age 50</description>
+	<type>decimal, encoded value</type>
+	<unit>Mg/dL</unit>
+	<comment><![CDATA[External variable resource: <a href="https://cdebrowser.nci.nih.gov">caDSR</a>; enter source ID: 2655820 (Public ID)]]></comment>
+	<value code=".">Missing value</value>
+</variable>
+
+<variable id="phv00076126.v1">
+	<name>Serum_HDL_Cholesterol</name>
+	<description>Modeled HDL cholesterol at age 50</description>
+	<type>Decimal, encoded value</type>
+	<unit>Mg/dL</unit>
+	<comment><![CDATA[External variable resource: <a href="https://cdebrowser.nci.nih.gov">caDSR</a>; enter source ID: 2655832 (Public ID)]]></comment>
+	<value code=".">Missing value</value>
+</variable>
+
+<variable id="phv00076127.v1">
+	<name>Serum_LDL_Cholesterol</name>
+	<description>Modeled LDL cholesterol at age 50</description>
+	<type>Decimal, encoded value</type>
+	<unit>Mg/dL</unit>
+	<comment><![CDATA[External variable resource: <a href="https://cdebrowser.nci.nih.gov">caDSR</a>; enter source ID: 2656096 (Public ID)]]></comment>
+	<value code=".">Missing value</value>
+</variable>
+
+<variable id="phv00076128.v1">
+	<name>Triglycerides</name>
+	<description>Modeled triglycerides at age 50</description>
+	<type>Decimal, encoded value</type>
+	<unit>Mg/dL</unit>
+	<comment><![CDATA[External variable resource: <a href="https://cdebrowser.nci.nih.gov">caDSR</a>; enter source ID: 2656092 (Public ID)]]></comment>
+	<value code=".">Missing value</value>
+</variable>
+
+<variable id="phv00076129.v1">
+	<name>ABI_Pre_Exercise</name>
+	<description>Ankle-Brachial Index measurement at rest or pre-exercise</description>
+	<type>Decimal, encoded value</type>
+	<comment><![CDATA[External variable resource: <a href="https://cdebrowser.nci.nih.gov">caDSR</a>; enter source ID: 2261686 (Public ID)]]></comment>
+	<value code=".">Missing value</value>
+</variable>
+
+<variable id="phv00076130.v1">
+	<name>ABI_Post_Exercise</name>
+	<description>Ankle-Brachial Index measurement after exercise</description>
+	<type>Decimal, encoded value</type>
+	<comment><![CDATA[External variable resource: <a href="https://cdebrowser.nci.nih.gov">caDSR</a>; enter source ID: 2261686 (Public ID)]]></comment>
+	<value code=".">Missing value</value>
+</variable>
+
+<variable id="phv00076131.v1">
+	<name>Non_Compressible_Vessel</name>
+	<description>Does patient have non-compressible vessels?</description>
+	<type>Encoded value</type>
+	<comment><![CDATA[External variable resource: <a href="https://cdebrowser.nci.nih.gov">caDSR</a>; enter source ID: 3017441 (Public ID)   NOTE: The codes from NCI Thesaurus are based on the Version 10.07d (July 26, 2010).  The source files can be accessed from: http://evs.nci.nih.gov/ftp1/NCI_Thesaurus]]></comment>
+	<value code="C17998">Unknown</value>
+	<value code="C49487">No</value>
+	<value code="C49488">Yes</value>
+</variable>
+
+<variable id="phv00076132.v1">
+	<name>Coronary_Heart_Disease_History</name>
+	<description>Includes history of heart attack, unstable angina, bypass surgery, coronary angioplasty/stenting</description>
+	<type>Encoded value</type>
+	<comment><![CDATA[External variable resource: <a href="https://cdebrowser.nci.nih.gov">caDSR</a>; enter source ID: 2195439 (Public ID)   NOTE: The codes from NCI Thesaurus are based on the Version 10.07d (July 26, 2010).  The source files can be accessed from: http://evs.nci.nih.gov/ftp1/NCI_Thesaurus]]></comment>
+	<value code="C49487">No</value>
+	<value code="C49488">Yes</value>
+</variable>
+
+<variable id="phv00076133.v1">
+	<name>Cerebrovascular_Disease_History</name>
+	<description>Includes history of stroke, carotid endarterectomy, carotid angioplasty</description>
+	<type>Encoded value</type>
+	<comment><![CDATA[External variable resource: <a href="https://cdebrowser.nci.nih.gov">caDSR</a>; enter source ID: 2180040 (Public ID)   NOTE: The codes from NCI Thesaurus are based on the Version 10.07d (July 26, 2010).  The source files can be accessed from: http://evs.nci.nih.gov/ftp1/NCI_Thesaurus]]></comment>
+	<value code="C49487">No</value>
+	<value code="C49488">Yes</value>
+</variable>
+
+<variable id="phv00076134.v1">
+	<name>Stress_Test</name>
+	<description>Does the patient have treadmill stress test results?</description>
+	<type>Encoded value</type>
+	<comment><![CDATA[External variable resource: <a href="https://cdebrowser.nci.nih.gov">caDSR</a>; enter source ID: 3014599 (Public ID)   NOTE: The codes from NCI Thesaurus are based on the Version 10.07d (July 26, 2010).  The source files can be accessed from: http://evs.nci.nih.gov/ftp1/NCI_Thesaurus]]></comment>
+	<value code="C17998">Unknown</value>
+	<value code="C49487">No</value>
+	<value code="C49488">Yes</value>
+</variable>
+
+<variable id="phv00076135.v1">
+	<name>Observation_Age</name>
+	<description>Age when clinical event recorded in record</description>
+	<type>Integer, encoded value</type>
+	<unit>Years</unit>
+	<logical_min>18</logical_min>
+	<logical_max>89</logical_max>
+	<comment><![CDATA[External variable resource: <a href="https://cdebrowser.nci.nih.gov">caDSR</a>; enter source ID: 2003852 (Public ID)]]></comment>
+	<value code=".">Missing value</value>
+</variable>
+
+<variable id="phv00129447.v1">
+	<name>ABI_Comment</name>
+	<description>Textual comments about confirming why the subject is a PAD case based on the ABI measurement</description>
+	<type>string</type>
+</variable>
+
+</data_table>

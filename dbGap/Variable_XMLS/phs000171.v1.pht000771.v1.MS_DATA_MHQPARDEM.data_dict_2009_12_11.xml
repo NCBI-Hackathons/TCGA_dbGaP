@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./datadict_v2.xsl"?>
+<data_table id="pht000771.v1" study_id="phs000171.v1" participant_set="1" date_created="Fri Dec 11 14:12:40 2009">
+
+<variable id="phv00073186.v1">
+	<name>SUBJID</name>
+	<description>Subject&#39;s ID</description>
+	<type>integer</type>
+</variable>
+
+<variable id="phv00073187.v1">
+	<name>CASE_CONTROL</name>
+	<description>Case, Control</description>
+	<type>string, encoded values</type>
+	<value code="CASE">Affected subject per Protocol</value>
+	<value code="CNTL">Control subject per Protocol</value>
+</variable>
+
+<variable id="phv00073188.v1">
+	<name>STUDY</name>
+	<description>Study Identifier</description>
+	<type>string</type>
+	<comment>Always RES101833</comment>
+</variable>
+
+<variable id="phv00073189.v1">
+	<name>INVSITE</name>
+	<description>Investigator site ID</description>
+	<type>string</type>
+	<comment>Numeric code identifying the site (for internal use)</comment>
+</variable>
+
+<variable id="phv00073190.v1">
+	<name>INV</name>
+	<description>Investigator&#39;s ID</description>
+	<type>string</type>
+	<comment>Numeric code identifying the investigator (for internal use)</comment>
+</variable>
+
+<variable id="phv00073191.v1">
+	<name>VISIT</name>
+	<description>Visit name</description>
+	<type>string, encoded values</type>
+	<value code="CSA">Common Subject Assessment</value>
+	<value code="ELIGIBILITY">Eligibility questionnaire</value>
+	<value code="BASELINE">Baseline assessment questionnaire</value>
+	<value code="LAB WBC">Lab results</value>
+	<value code="SELF REPORT">Subject completed self report questionnaire</value>
+</variable>
+
+<variable id="phv00073192.v1">
+	<name>VISIT_DATE</name>
+	<description>Visit date</description>
+	<type>date</type>
+	<unit>Year</unit>
+	<comment>Truncated to YYYY</comment>
+</variable>
+
+<variable id="phv00073193.v1">
+	<name>ETH_M</name>
+	<description>Ethnic Group - Biological Mother</description>
+	<type>string, encoded values</type>
+	<value code="ASJW">Ashkenazi Jewish</value>
+	<value code="FN">Finnish</value>
+	<value code="FRCD">French Canadian</value>
+	<value code="HNSA">Hispanic from North, South or Central America</value>
+	<value code="M">North American &#39;Original Peoples&#39; or First Nation</value>
+	<value code="NA">Not Applicable</value>
+</variable>
+
+<variable id="phv00073194.v1">
+	<name>ETH_F</name>
+	<description>Ethnic Group - Biological Father</description>
+	<type>string, encoded values</type>
+	<value code="ASJW">Ashkenazi Jewish</value>
+	<value code="FN">Finnish</value>
+	<value code="FRCD">French Canadian</value>
+	<value code="HNSA">Hispanic from North, South or Central America</value>
+	<value code="M">North American &#39;Original Peoples&#39; or First Nation</value>
+	<value code="NA">Not Applicable</value>
+</variable>
+
+<variable id="phv00073195.v1">
+	<name>ETHORI_M</name>
+	<description>Ethnic Origin - Biological Mother</description>
+	<type>string, encoded values</type>
+	<value code="A">Asian</value>
+	<value code="B">Black</value>
+	<value code="H">American Hispanic</value>
+	<value code="K">Don&#39;t Know</value>
+	<value code="M">Native American / Eskimo</value>
+	<value code="W">White</value>
+	<value code="X">Other</value>
+</variable>
+
+<variable id="phv00073196.v1">
+	<name>ETHORI_F</name>
+	<description>Ethnic Origin - Biological Father</description>
+	<type>string, encoded values</type>
+	<value code="A">Asian</value>
+	<value code="B">Black</value>
+	<value code="H">American Hispanic</value>
+	<value code="K">Don&#39;t Know</value>
+	<value code="M">Native American / Eskimo</value>
+	<value code="W">White</value>
+	<value code="X">Other</value>
+</variable>
+
+<variable id="phv00073197.v1">
+	<name>ETHORTX_M</name>
+	<description>Ethnic Origin - Other Text - Biological Mother</description>
+	<type>string</type>
+	<comment>Free text for the &quot;Other&quot; selection</comment>
+</variable>
+
+<variable id="phv00073198.v1">
+	<name>ETHORTX_F</name>
+	<description>Ethnic Origin - Other Text - Biological Father</description>
+	<type>string</type>
+	<comment>Free text for the &quot;Other&quot; selection</comment>
+</variable>
+
+<variable id="phv00073199.v1">
+	<name>FSLN_M</name>
+	<description>First language - Biological Mother</description>
+	<type>string, encoded values</type>
+	<value code="AK">Afrikaans</value>
+	<value code="AR">Arabic</value>
+	<value code="BG">Bulgarian</value>
+	<value code="BR">Breton</value>
+	<value code="CB">Cebuano</value>
+	<value code="CH">Chinese</value>
+	<value code="CL">Catalan</value>
+	<value code="CN">Cantonese</value>
+	<value code="CR">Cornish</value>
+	<value code="CT">Croatian</value>
+	<value code="CZ">Czech</value>
+	<value code="DN">Danish</value>
+	<value code="EN">English</value>
+	<value code="ES">Estonian</value>
+	<value code="FM">Flemish</value>
+	<value code="FN">Finnish</value>
+	<value code="FR">French</value>
+	<value code="GE">German</value>
+	<value code="GR">Greek</value>
+	<value code="HB">Hebrew</value>
+	<value code="HG">Hungarian</value>
+	<value code="HK">Hakka</value>
+	<value code="HL">Dutch</value>
+	<value code="IR">Irish</value>
+	<value code="IT">Italian</value>
+	<value code="JA">Japanese</value>
+	<value code="K">Don&#39;t Know</value>
+	<value code="KR">Korean</value>
+	<value code="LI">Lithuanian</value>
+	<value code="LT">Latvian</value>
+	<value code="MD">Mandarin</value>
+	<value code="MX">Manx</value>
+	<value code="NR">Norwegian</value>
+	<value code="PD">Polish</value>
+	<value code="PT">Portugese</value>
+	<value code="RM">Romanian</value>
+	<value code="RU">Russian</value>
+	<value code="SB">Serbian</value>
+	<value code="SC">Scottish</value>
+	<value code="SL">Slavonic (Czech and Slovakian language)</value>
+	<value code="SP">Spanish</value>
+	<value code="SW">Swedish</value>
+	<value code="TG">Tagalog</value>
+	<value code="TH">Thai</value>
+	<value code="TW">Taiwanese</value>
+	<value code="WL">Welsh</value>
+	<value code="X">Other</value>
+</variable>
+
+<variable id="phv00073200.v1">
+	<name>FSLN_F</name>
+	<description>First language - Biological Father</description>
+	<type>string, encoded values</type>
+	<value code="AK">Afrikaans</value>
+	<value code="AR">Arabic</value>
+	<value code="BG">Bulgarian</value>
+	<value code="BR">Breton</value>
+	<value code="CB">Cebuano</value>
+	<value code="CH">Chinese</value>
+	<value code="CL">Catalan</value>
+	<value code="CN">Cantonese</value>
+	<value code="CR">Cornish</value>
+	<value code="CT">Croatian</value>
+	<value code="CZ">Czech</value>
+	<value code="DN">Danish</value>
+	<value code="EN">English</value>
+	<value code="ES">Estonian</value>
+	<value code="FM">Flemish</value>
+	<value code="FN">Finnish</value>
+	<value code="FR">French</value>
+	<value code="GE">German</value>
+	<value code="GR">Greek</value>
+	<value code="HB">Hebrew</value>
+	<value code="HG">Hungarian</value>
+	<value code="HK">Hakka</value>
+	<value code="HL">Dutch</value>
+	<value code="IR">Irish</value>
+	<value code="IT">Italian</value>
+	<value code="JA">Japanese</value>
+	<value code="K">Don&#39;t Know</value>
+	<value code="KR">Korean</value>
+	<value code="LI">Lithuanian</value>
+	<value code="LT">Latvian</value>
+	<value code="MD">Mandarin</value>
+	<value code="MX">Manx</value>
+	<value code="NR">Norwegian</value>
+	<value code="PD">Polish</value>
+	<value code="PT">Portugese</value>
+	<value code="RM">Romanian</value>
+	<value code="RU">Russian</value>
+	<value code="SB">Serbian</value>
+	<value code="SC">Scottish</value>
+	<value code="SL">Slavonic (Czech and Slovakian language)</value>
+	<value code="SP">Spanish</value>
+	<value code="SW">Swedish</value>
+	<value code="TG">Tagalog</value>
+	<value code="TH">Thai</value>
+	<value code="TW">Taiwanese</value>
+	<value code="WL">Welsh</value>
+	<value code="X">Other</value>
+</variable>
+
+<variable id="phv00073201.v1">
+	<name>FSLNTX_M</name>
+	<description>First language - Other Text - Biological Mother</description>
+	<type>string</type>
+	<comment>Free text for the &quot;Other&quot; selection</comment>
+</variable>
+
+<variable id="phv00073202.v1">
+	<name>FSLNTX_F</name>
+	<description>First language - Other Text - Biological Father</description>
+	<type>string</type>
+	<comment>Free text for the &quot;Other&quot; selection</comment>
+</variable>
+
+</data_table>

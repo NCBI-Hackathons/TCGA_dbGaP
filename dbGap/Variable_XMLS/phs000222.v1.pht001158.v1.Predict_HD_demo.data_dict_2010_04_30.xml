@@ -1,0 +1,608 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./datadict_v2.xsl"?>
+<data_table id="pht001158.v1" study_id="phs000222.v1" participant_set="1" date_created="Fri Apr 30 17:43:19 2010">
+
+<variable id="phv00088351.v1">
+	<name>id</name>
+	<description>Anonymized Participant ID</description>
+	<type>integer</type>
+</variable>
+
+<variable id="phv00088352.v1">
+	<name>status</name>
+	<description>Case/Control Status</description>
+	<type>string</type>
+	<value code="case">case</value>
+	<value code="cont">cont</value>
+</variable>
+
+<variable id="phv00088353.v1">
+	<name>demage</name>
+	<description>Age at baseline demographic assessment</description>
+	<type>integer</type>
+	<unit>Years</unit>
+</variable>
+
+<variable id="phv00088354.v1">
+	<name>dem2</name>
+	<description>Gender</description>
+	<type>encoded value</type>
+	<value code="1">Female</value>
+	<value code="2">Male</value>
+</variable>
+
+<variable id="phv00088355.v1">
+	<name>demvisit</name>
+	<description>Visit</description>
+	<type>integer</type>
+	<unit>Visits</unit>
+</variable>
+
+<variable id="phv00088356.v1">
+	<name>demdays</name>
+	<description>Days since demo</description>
+	<type>integer</type>
+	<unit>Days</unit>
+</variable>
+
+<variable id="phv00088357.v1">
+	<name>dem45b</name>
+	<description>Result of predictive testing</description>
+	<type>encoded value</type>
+	<value code="1">Gene positive</value>
+	<value code="2">Gene negative</value>
+	<value code="N">Not Applicable</value>
+	<value code="U">Unavailable</value>
+</variable>
+
+<variable id="phv00088358.v1">
+	<name>testage</name>
+	<description>Age at predictive test</description>
+	<type>integer</type>
+	<unit>Years</unit>
+	<value code="N">Not Applicable</value>
+	<value code="U">Unavailable</value>
+</variable>
+
+<variable id="phv00088359.v1">
+	<name>dem42</name>
+	<description>Initial symptom/participant</description>
+	<type>encoded value</type>
+	<value code="1">Motor</value>
+	<value code="2">Cognitive</value>
+	<value code="3">Psychiatric</value>
+	<value code="4">Oculomotor</value>
+	<value code="5">Other</value>
+	<value code="6">Mixed</value>
+	<value code="N">Not Applicable</value>
+	<value code="U">Unavailable</value>
+</variable>
+
+<variable id="phv00088360.v1">
+	<name>dem43</name>
+	<description>Initial symptom/family</description>
+	<type>encoded value</type>
+	<value code="1">Motor</value>
+	<value code="2">Cognitive</value>
+	<value code="3">Psychiatric</value>
+	<value code="4">Oculomotor</value>
+	<value code="5">Other</value>
+	<value code="6">Mixed</value>
+	<value code="N">Not Applicable</value>
+	<value code="U">Unavailable</value>
+</variable>
+
+<variable id="phv00088361.v1">
+	<name>dem44</name>
+	<description>Rater&#39;s judgement/initial symptom</description>
+	<type>encoded value</type>
+	<value code="1">Motor</value>
+	<value code="2">Cognitive</value>
+	<value code="3">Psychiatric</value>
+	<value code="4">Oculomotor</value>
+	<value code="5">Other</value>
+	<value code="6">Mixed</value>
+	<value code="N">Not Applicable</value>
+	<value code="U">Unavailable</value>
+</variable>
+
+<variable id="phv00088362.v1">
+	<name>psympdays</name>
+	<description>Relative time subject noticed symptoms</description>
+	<type>integer</type>
+	<unit>Days</unit>
+	<value code="N">Not Applicable</value>
+	<value code="U">Unavailable</value>
+</variable>
+
+<variable id="phv00088363.v1">
+	<name>fsympdays</name>
+	<description>Relative time companion noticed symptoms</description>
+	<type>integer</type>
+	<unit>Days</unit>
+	<value code="N">Not Applicable</value>
+	<value code="U">Unavailable</value>
+</variable>
+
+<variable id="phv00088364.v1">
+	<name>rsympdays</name>
+	<description>Relative time rater estimates onset</description>
+	<type>integer</type>
+	<unit>Days</unit>
+	<value code="N">Not Applicable</value>
+	<value code="U">Unavailable</value>
+</variable>
+
+<variable id="phv00088365.v1">
+	<name>dem3a</name>
+	<description>Ethnic Category</description>
+	<type>encoded value</type>
+	<value code="1">Hispanic or Latino</value>
+	<value code="2">Not Hispanic or Latino</value>
+	<value code="3">Unknown or not reported</value>
+	<value code="N">Not Applicable</value>
+	<value code="U">Unavailable</value>
+</variable>
+
+<variable id="phv00088366.v1">
+	<name>dem3b</name>
+	<description>Race Category</description>
+	<type>encoded value</type>
+	<value code="1">American Indian/Alaska Native</value>
+	<value code="2">Asian</value>
+	<value code="3">Native Hawaiian or Other Pacific Islander</value>
+	<value code="4">Black or African American</value>
+	<value code="5">White</value>
+	<value code="6">More than one race</value>
+	<value code="7">Unknown or not reported</value>
+	<value code="N">Not Applicable</value>
+	<value code="U">Unavailable</value>
+</variable>
+
+<variable id="phv00088367.v1">
+	<name>dem4</name>
+	<description>Education Level (00-20)</description>
+	<type>integer</type>
+	<unit>Years</unit>
+	<value code="N">Not Applicable</value>
+	<value code="U">Unavailable</value>
+</variable>
+
+<variable id="phv00088368.v1">
+	<name>dem5</name>
+	<description>Handedness</description>
+	<type>encoded value</type>
+	<value code="1">Right</value>
+	<value code="2">Left</value>
+	<value code="3">Mixed</value>
+	<value code="N">Not Applicable</value>
+	<value code="U">Unavailable</value>
+</variable>
+
+<variable id="phv00088369.v1">
+	<name>dem6</name>
+	<description>Height</description>
+	<type>integer, encoded value</type>
+	<unit>Cm</unit>
+	<value code="N">Not Applicable</value>
+	<value code="U">Unavailable</value>
+</variable>
+
+<variable id="phv00088370.v1">
+	<name>dem7a</name>
+	<description>Occupation during most of career</description>
+	<type>encoded value</type>
+	<value code="1">Professional or technical worker</value>
+	<value code="2">Manager, administrator, clerical, sales worker</value>
+	<value code="3">Craftsman or foreman</value>
+	<value code="4">Service worker, farmer, farm manager, domestic worker</value>
+	<value code="5">Laborer, farm laborer, farm foreman</value>
+	<value code="6">Not in labor force</value>
+	<value code="N">Not Applicable</value>
+	<value code="U">Unavailable</value>
+</variable>
+
+<variable id="phv00088371.v1">
+	<name>dem7b</name>
+	<description>Current occupation</description>
+	<type>encoded value</type>
+	<value code="1">Professional or technical worker</value>
+	<value code="2">Manager, administrator, clerical, sales worker</value>
+	<value code="3">Craftsman or foreman</value>
+	<value code="4">Service worker, farmer, farm manager, domestic worker</value>
+	<value code="5">Laborer, farm laborer, farm foreman</value>
+	<value code="6">Not in labor force</value>
+	<value code="N">Not Applicable</value>
+	<value code="U">Unavailable</value>
+</variable>
+
+<variable id="phv00088372.v1">
+	<name>dem8a</name>
+	<description>Marital Status</description>
+	<type>encoded value</type>
+	<value code="1">Single</value>
+	<value code="2">Married</value>
+	<value code="3">Divorced</value>
+	<value code="4">Widowed</value>
+	<value code="N">Not Applicable</value>
+	<value code="U">Unavailable</value>
+</variable>
+
+<variable id="phv00088373.v1">
+	<name>dem8b</name>
+	<description>Divorced or widowed number of times</description>
+	<type>integer</type>
+	<unit>Frequency (Divorced/Widowed)</unit>
+	<value code="N">Not Applicable</value>
+	<value code="U">Unavailable</value>
+</variable>
+
+<variable id="phv00088374.v1">
+	<name>dem9</name>
+	<description>Birth trauma/serious neonatal illness</description>
+	<type>encoded value</type>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+	<value code="N">Not Applicable</value>
+	<value code="U">Unavailable</value>
+</variable>
+
+<variable id="phv00088375.v1">
+	<name>dem10</name>
+	<description>Childhood serious illness</description>
+	<type>encoded value</type>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+	<value code="N">Not Applicable</value>
+	<value code="U">Unavailable</value>
+</variable>
+
+<variable id="phv00088376.v1">
+	<name>dem11</name>
+	<description>Adolescent serious illness</description>
+	<type>encoded value</type>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+	<value code="N">Not Applicable</value>
+	<value code="U">Unavailable</value>
+</variable>
+
+<variable id="phv00088377.v1">
+	<name>dem12</name>
+	<description>Adult serious illness</description>
+	<type>encoded value</type>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+	<value code="N">Not Applicable</value>
+	<value code="U">Unavailable</value>
+</variable>
+
+<variable id="phv00088378.v1">
+	<name>dem13a</name>
+	<description>Major surgery requiring general anesthesia</description>
+	<type>encoded value</type>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+	<value code="N">Not Applicable</value>
+	<value code="U">Unavailable</value>
+</variable>
+
+<variable id="phv00088379.v1">
+	<name>dem13b</name>
+	<description>Head injury</description>
+	<type>encoded value</type>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+	<value code="N">Not Applicable</value>
+	<value code="U">Unavailable</value>
+</variable>
+
+<variable id="phv00088380.v1">
+	<name>dem13c</name>
+	<description>Number of head injuries/loss of consciousness</description>
+	<type>integer</type>
+	<unit>Injuries</unit>
+	<value code="N">Not Applicable</value>
+	<value code="U">Unavailable</value>
+</variable>
+
+<variable id="phv00088381.v1">
+	<name>dem13d</name>
+	<description>Duration/longest loss of consciousness</description>
+	<type>integer</type>
+	<unit>Minutes</unit>
+	<value code="N">Not Applicable</value>
+	<value code="U">Unavailable</value>
+</variable>
+
+<variable id="phv00088382.v1">
+	<name>dem14</name>
+	<description>History of alcohol abuse</description>
+	<type>encoded value</type>
+	<value code="1">Never</value>
+	<value code="2">Ex-user</value>
+	<value code="3">Current</value>
+	<value code="N">Not Applicable</value>
+	<value code="U">Unavailable</value>
+</variable>
+
+<variable id="phv00088383.v1">
+	<name>dem15</name>
+	<description>History of drug abuse</description>
+	<type>encoded value</type>
+	<value code="1">Never</value>
+	<value code="2">Ex-user</value>
+	<value code="3">Current</value>
+	<value code="N">Not Applicable</value>
+	<value code="U">Unavailable</value>
+</variable>
+
+<variable id="phv00088384.v1">
+	<name>dem16</name>
+	<description>History of smoking tobacco</description>
+	<type>encoded value</type>
+	<value code="1">Never</value>
+	<value code="2">Ex-user</value>
+	<value code="3">Current</value>
+	<value code="N">Not Applicable</value>
+	<value code="U">Unavailable</value>
+</variable>
+
+<variable id="phv00088385.v1">
+	<name>dem17</name>
+	<description>Naturally or surgically sterile</description>
+	<type>encoded value</type>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+	<value code="N">Not Applicable</value>
+	<value code="U">Unavailable</value>
+</variable>
+
+<variable id="phv00088386.v1">
+	<name>dem31a</name>
+	<description>Participant wears dentures</description>
+	<type>encoded value</type>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+	<value code="N">Not Applicable</value>
+	<value code="U">Unavailable</value>
+</variable>
+
+<variable id="phv00088387.v1">
+	<name>dem31b</name>
+	<description>Dentures fit properly/per participant</description>
+	<type>encoded value</type>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+	<value code="N">Not Applicable</value>
+	<value code="U">Unavailable</value>
+</variable>
+
+<variable id="phv00088388.v1">
+	<name>dem32</name>
+	<description>Depression</description>
+	<type>encoded value</type>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+	<value code="N">Not Applicable</value>
+	<value code="U">Unavailable</value>
+</variable>
+
+<variable id="phv00088389.v1">
+	<name>dem33</name>
+	<description>Obsessive/Compulsive Disorder</description>
+	<type>encoded value</type>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+	<value code="N">Not Applicable</value>
+	<value code="U">Unavailable</value>
+</variable>
+
+<variable id="phv00088390.v1">
+	<name>dem34</name>
+	<description>Psychosis</description>
+	<type>encoded value</type>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+	<value code="N">Not Applicable</value>
+	<value code="U">Unavailable</value>
+</variable>
+
+<variable id="phv00088391.v1">
+	<name>dem35</name>
+	<description>Suicidal ideation</description>
+	<type>encoded value</type>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+	<value code="N">Not Applicable</value>
+	<value code="U">Unavailable</value>
+</variable>
+
+<variable id="phv00088392.v1">
+	<name>dem36a</name>
+	<description>Suicide attempts</description>
+	<type>encoded value</type>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+	<value code="N">Not Applicable</value>
+	<value code="U">Unavailable</value>
+</variable>
+
+<variable id="phv00088393.v1">
+	<name>dem36b</name>
+	<description>Number times attempted suicide</description>
+	<type>integer, encoded value</type>
+	<unit>Frequency (Suicide Attempts)</unit>
+	<value code="N">Not Applicable</value>
+	<value code="U">Unavailable</value>
+</variable>
+
+<variable id="phv00088394.v1">
+	<name>dem37a</name>
+	<description>Mother affected by HD</description>
+	<type>encoded value</type>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+	<value code="N">Not Applicable</value>
+	<value code="U">Unavailable</value>
+</variable>
+
+<variable id="phv00088395.v1">
+	<name>dem37b</name>
+	<description>Mother&#39;s age at symptom onset</description>
+	<type>integer, encoded value</type>
+	<unit>Years</unit>
+	<value code="N">Not Applicable</value>
+	<value code="U">Unavailable</value>
+</variable>
+
+<variable id="phv00088396.v1">
+	<name>dem38a</name>
+	<description>Father affected by HD</description>
+	<type>encoded value</type>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+	<value code="N">Not Applicable</value>
+	<value code="U">Unavailable</value>
+</variable>
+
+<variable id="phv00088397.v1">
+	<name>dem38b</name>
+	<description>Father&#39;s age at symptom onset</description>
+	<type>integer, encoded value</type>
+	<unit>Years</unit>
+	<value code="N">Not Applicable</value>
+	<value code="U">Unavailable</value>
+</variable>
+
+<variable id="phv00088398.v1">
+	<name>dem18</name>
+	<description>Dermatologic Comorbid Condition</description>
+	<type>encoded value</type>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+	<value code="N">Not Applicable</value>
+	<value code="U">Unavailable</value>
+</variable>
+
+<variable id="phv00088399.v1">
+	<name>dem19</name>
+	<description>Ophthalmologic Comorbid Condition</description>
+	<type>encoded value</type>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+	<value code="N">Not Applicable</value>
+	<value code="U">Unavailable</value>
+</variable>
+
+<variable id="phv00088400.v1">
+	<name>dem20</name>
+	<description>Pulmonary Comorbid Condition</description>
+	<type>encoded value</type>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+	<value code="N">Not Applicable</value>
+	<value code="U">Unavailable</value>
+</variable>
+
+<variable id="phv00088401.v1">
+	<name>dem21</name>
+	<description>Cardiovascular Comorbid Condition</description>
+	<type>encoded value</type>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+	<value code="N">Not Applicable</value>
+	<value code="U">Unavailable</value>
+</variable>
+
+<variable id="phv00088402.v1">
+	<name>dem22</name>
+	<description>Gastrointestinal Comorbid Condition</description>
+	<type>encoded value</type>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+	<value code="N">Not Applicable</value>
+	<value code="U">Unavailable</value>
+</variable>
+
+<variable id="phv00088403.v1">
+	<name>dem23</name>
+	<description>Hepatic Comorbid Condition</description>
+	<type>encoded value</type>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+	<value code="N">Not Applicable</value>
+	<value code="U">Unavailable</value>
+</variable>
+
+<variable id="phv00088404.v1">
+	<name>dem24</name>
+	<description>Urologic Comorbid Condition</description>
+	<type>encoded value</type>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+	<value code="N">Not Applicable</value>
+	<value code="U">Unavailable</value>
+</variable>
+
+<variable id="phv00088405.v1">
+	<name>dem25</name>
+	<description>Gynecologic Comorbid Condition</description>
+	<type>encoded value</type>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+	<value code="N">Not Applicable</value>
+	<value code="U">Unavailable</value>
+</variable>
+
+<variable id="phv00088406.v1">
+	<name>dem26</name>
+	<description>Musculoskeletal Comorbid Condition</description>
+	<type>encoded value</type>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+	<value code="N">Not Applicable</value>
+	<value code="U">Unavailable</value>
+</variable>
+
+<variable id="phv00088407.v1">
+	<name>dem27</name>
+	<description>Neurologic Comorbid Condition, other than HD</description>
+	<type>encoded value</type>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+	<value code="N">Not Applicable</value>
+	<value code="U">Unavailable</value>
+</variable>
+
+<variable id="phv00088408.v1">
+	<name>dem28</name>
+	<description>Endocrine/Metabolic Comorbid Condition</description>
+	<type>encoded value</type>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+	<value code="N">Not Applicable</value>
+	<value code="U">Unavailable</value>
+</variable>
+
+<variable id="phv00088409.v1">
+	<name>dem29</name>
+	<description>Allergies Comorbid Condition</description>
+	<type>encoded value</type>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+	<value code="N">Not Applicable</value>
+	<value code="U">Unavailable</value>
+</variable>
+
+<variable id="phv00088410.v1">
+	<name>dem30</name>
+	<description>Other Comorbid Condition</description>
+	<type>encoded value</type>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+	<value code="N">Not Applicable</value>
+	<value code="U">Unavailable</value>
+</variable>
+
+</data_table>

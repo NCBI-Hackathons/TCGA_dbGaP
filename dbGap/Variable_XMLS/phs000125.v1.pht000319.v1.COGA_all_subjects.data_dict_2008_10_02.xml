@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./datadict_v2.xsl"?>
+<data_table id="pht000319.v1" study_id="phs000125.v1" participant_set="1" date_created="Thu Oct  2 11:28:35 2008">
+
+<variable id="phv00044656.v1">
+	<name>AAO_DX1</name>
+	<description>Age of onset for alcohol diagnosis 1 (ALDX1; no info = 0)   -   Note: See also &lt;a href=&quot;http://zork.wustl.edu/niaaa/coga_instruments/resources.html&quot; target=&quot;_blank&quot;&gt;COGA Instruments&lt;/a&gt;</description>
+	<type>integer</type>
+	<unit>YEARS</unit>
+	<value code="-9">Missing</value>
+</variable>
+
+<variable id="phv00044658.v1">
+	<name>AAO_DX2</name>
+	<description>Age of onset for alcohol diagnosis 2 (ALDX2; no info = 0)   -   Note: See also &lt;a href=&quot;http://zork.wustl.edu/niaaa/coga_instruments/resources.html&quot; target=&quot;_blank&quot;&gt;COGA Instruments&lt;/a&gt;</description>
+	<type>integer</type>
+	<unit>YEARS</unit>
+	<value code="-9">Missing</value>
+</variable>
+
+<variable id="phv00044660.v1">
+	<name>AAO_DX3</name>
+	<description>Age of onset for alcohol diagnosis 3 (ALDX3; no info = 0)   -   Note: See also &lt;a href=&quot;http://zork.wustl.edu/niaaa/coga_instruments/resources.html&quot; target=&quot;_blank&quot;&gt;COGA Instruments&lt;/a&gt;</description>
+	<type>integer</type>
+	<unit>YEARS</unit>
+	<value code="-9">Missing</value>
+</variable>
+
+<variable id="phv00044649.v1">
+	<name>age</name>
+	<description>Age at interview</description>
+	<type>integer</type>
+	<unit>YEARS</unit>
+</variable>
+
+<variable id="phv00044677.v1">
+	<name>age_test</name>
+	<description>Age at testing</description>
+	<type>float</type>
+	<unit>YEARS</unit>
+</variable>
+
+<variable id="phv00044655.v1">
+	<name>ALDX1</name>
+	<description>Alcohol diagnosis - DSM3R + Feighner   -   Note: See also &lt;a href=&quot;http://zork.wustl.edu/niaaa/coga_instruments/resources.html&quot; target=&quot;_blank&quot;&gt;COGA Instruments&lt;/a&gt;</description>
+	<type>integer</type>
+	<value code="0">No Info</value>
+	<value code="1">Pure unaffected</value>
+	<value code="2">Never drank</value>
+	<value code="3">Unaffected with some symptoms</value>
+	<value code="5">Affected</value>
+</variable>
+
+<variable id="phv00044657.v1">
+	<name>ALDX2</name>
+	<description>Alcohol diagnosis - DSM4   -   Note: See also &lt;a href=&quot;http://zork.wustl.edu/niaaa/coga_instruments/resources.html&quot; target=&quot;_blank&quot;&gt;COGA Instruments&lt;/a&gt;</description>
+	<type>integer</type>
+	<value code="0">No Info</value>
+	<value code="1">Pure unaffected</value>
+	<value code="2">Never drank</value>
+	<value code="3">Unaffected with some symptoms</value>
+	<value code="5">Affected</value>
+</variable>
+
+<variable id="phv00044659.v1">
+	<name>ALDX3</name>
+	<description>Alcohol diagnosis - ICD10   -   Note: See also &lt;a href=&quot;http://zork.wustl.edu/niaaa/coga_instruments/resources.html&quot; target=&quot;_blank&quot;&gt;COGA Instruments&lt;/a&gt;</description>
+	<type>integer</type>
+	<value code="0">No Info</value>
+	<value code="1">Pure unaffected</value>
+	<value code="2">Never drank</value>
+	<value code="3">Unaffected with some symptoms</value>
+	<value code="5">Affected</value>
+</variable>
+
+<variable id="phv00044665.v1">
+	<name>binge_drinking</name>
+	<description>Ever binge drink (No info = 0)</description>
+	<type>integer</type>
+	<value code="0">No information</value>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+</variable>
+
+<variable id="phv00044669.v1">
+	<name>blackouts</name>
+	<description>Three or more black-outs (No Info = 0)</description>
+	<type>integer</type>
+	<value code="0">No information</value>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+</variable>
+
+<variable id="phv00044664.v1">
+	<name>craving</name>
+	<description>(Alcohol) Craving (No Info = 0)</description>
+	<type>integer</type>
+	<value code="0">No information</value>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+</variable>
+
+<variable id="phv00044662.v1">
+	<name>desire_quit</name>
+	<description>Persistent desire to quit (drinking; no info = 0)</description>
+	<type>integer</type>
+	<value code="0">No information</value>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+</variable>
+
+<variable id="phv00044676.v1">
+	<name>ecb21</name>
+	<description>Eyes-closed-resting (ECR) EEG results - first component of SVD - Beta 2 band (16.5 to 20 Hz).  Note: Data were extracted from the Eyes Closed Resting EEG experiment.  The ecb21 variable corresponds to the first component of a trilinear SVD (Singular Value Decompositions) of Beta2 band (16.5 to 20 Hz) bipolar electrode data.</description>
+	<type>float</type>
+	<unit>MCV [before log-transformation]</unit>
+</variable>
+
+<variable id="phv00044652.v1">
+	<name>education</name>
+	<description>Level of education</description>
+	<type>integer</type>
+	<value code="0">No Info</value>
+	<value code="1">&lt; High School Grad</value>
+	<value code="2">High School Grad or GED</value>
+	<value code="3">Some College</value>
+	<value code="4">4 years College or more</value>
+</variable>
+
+<variable id="phv00044650.v1">
+	<name>ethnicity</name>
+	<description>Self-reported ethnicity</description>
+	<type>integer</type>
+	<value code="0">No Information</value>
+	<value code="1">American Indian</value>
+	<value code="2">Asian</value>
+	<value code="3">Pacific Islander</value>
+	<value code="4">Black non-Hispanic</value>
+	<value code="5">Black Hispanic</value>
+	<value code="6">White non-Hispanic</value>
+	<value code="7">White Hispanic</value>
+	<value code="8">Other</value>
+</variable>
+
+<variable id="phv00044654.v1">
+	<name>fam_history</name>
+	<description>Family&#39;s alcohol history</description>
+	<type>integer</type>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+</variable>
+
+<variable id="phv00044653.v1">
+	<name>Income</name>
+	<description>Annual income</description>
+	<type>integer</type>
+	<value code="0">No Info</value>
+	<value code="1">&lt; $10,000</value>
+	<value code="2">$10,000 - $29,999</value>
+	<value code="3">$30,000 - $49,999</value>
+	<value code="4">$50,000 or more</value>
+</variable>
+
+<variable id="phv00044666.v1">
+	<name>less_time</name>
+	<description>Spent so much time drinking, had little time for anything else (No info = 0)</description>
+	<type>integer</type>
+	<value code="0">No information</value>
+	<value code="1">No</value>
+	<value code="2">Yes - lasted &lt; 1 month</value>
+	<value code="3">Yes - lasted one month or longer</value>
+</variable>
+
+<variable id="phv00044651.v1">
+	<name>marital_status</name>
+	<description>Marital status</description>
+	<type>integer</type>
+	<value code="0">No Info</value>
+	<value code="1">Married</value>
+	<value code="2">Widowed</value>
+	<value code="3">Divorced or Separated</value>
+	<value code="4">Never Married</value>
+</variable>
+
+<variable id="phv00044661.v1">
+	<name>max_drinks</name>
+	<description>Maximum number of drinks in a 24 hour period (no info = -9)</description>
+	<type>integer</type>
+</variable>
+
+<variable id="phv00044663.v1">
+	<name>morning_drink</name>
+	<description>Morning drinking (No Info = 0)</description>
+	<type>integer</type>
+	<value code="0">No information</value>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+</variable>
+
+<variable id="phv00044667.v1">
+	<name>narrowing</name>
+	<description>Narrowing of drinking repertoire (No Info = 0)</description>
+	<type>integer</type>
+	<value code="0">No information</value>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+</variable>
+
+<variable id="phv00044672.v1">
+	<name>other_problems</name>
+	<description>Emotional/psychological problems resulting from drinking (No info = 0)</description>
+	<type>integer</type>
+	<value code="0">No information</value>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+</variable>
+
+<variable id="phv00044675.v1">
+	<name>p3amp_PZ</name>
+	<description><![CDATA[Visual oddball experiment (VO) - parietal midline channel P3 amplitude - baseline - 100 ms vs. largest peak 300 - 600 ms after stimulus.  Note: Data were extracted from the target case of the Visual Oddball experiment at the parietal midline channel (PZ).  The P3 amplitude was measured as the voltage (&#956;V) difference between the pre-stimulus baseline (100 ms pre-stimulus) and the largest positively deflected peak in the latency window, 300-600 ms after stimulus onset.]]></description>
+	<type>float</type>
+	<unit>MCV</unit>
+</variable>
+
+<variable id="phv00044671.v1">
+	<name>Physical_problems</name>
+	<description>Physical health problems resulting from drinking (No Info = 0)</description>
+	<type>integer</type>
+	<value code="0">No information</value>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+</variable>
+
+<variable id="phv00044647.v1">
+	<name>sex</name>
+	<description>Participant&#39;s gender</description>
+	<type>integer</type>
+	<value code="1">Male</value>
+	<value code="2">Female</value>
+</variable>
+
+<variable id="phv00044668.v1">
+	<name>stop_drinking</name>
+	<description>Gave up activities in order to drink (No Info = 0)</description>
+	<type>integer</type>
+	<value code="0">No information</value>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+</variable>
+
+<variable id="phv00044646.v1">
+	<name>subject_id</name>
+	<description>Unique random subject ID</description>
+	<type>integer</type>
+</variable>
+
+<variable id="phv00044674.v1">
+	<name>ttdt_PZ</name>
+	<description><![CDATA[Visual oddball experiment (VO) - parietal midline channel late time results; delta band power (1 to 3 Hz frequency; &#956;V&#178; [power]).  Note: Data were extracted from the target case of the Visual Oddball experiment at the parietal midline channel (PZ).  The extracted measures correspond to the &#39;late&#39; time window, which is set at 300 ms to 700 ms following stimulus presentation (bounding the visual P3 event) and the delta band power (1 to 3 Hz).]]></description>
+	<type>float</type>
+	<unit>MCV2 (POWER)</unit>
+</variable>
+
+<variable id="phv00044673.v1">
+	<name>ttth_FZ</name>
+	<description><![CDATA[Visual oddball experiment (VO) - frontal midline channel late time results; theta band power (4 to 7 Hz frequency; &#956;V&#178; [power]).  Note: Data were extracted from the target case of the Visual Oddball experiment at the frontal midline channel (FZ).  The extracted measures correspond to the &#39;late&#39; time window, which is set at 300 ms to 700 ms following stimulus presentation (bounding the visual P3 event) and the theta band power (3 to 7 Hz).]]></description>
+	<type>float</type>
+	<unit>MCV2 (POWER)</unit>
+</variable>
+
+<variable id="phv00044648.v1">
+	<name>type</name>
+	<description>Case or control status</description>
+	<type>string</type>
+	<value code="CA">Case</value>
+	<value code="CO">Control</value>
+</variable>
+
+<variable id="phv00044670.v1">
+	<name>withdrawal_SXs</name>
+	<description>Withdrawal symptoms (2 or more together; no info = 0)</description>
+	<type>integer</type>
+	<value code="0">No information</value>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+</variable>
+
+</data_table>

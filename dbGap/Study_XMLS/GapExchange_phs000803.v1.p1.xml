@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GaPExchange xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="./dbGaPEx2.1.5.xsd">
+
+<MetaVariables>
+	<Submitter/>
+	<Method/>
+</MetaVariables>
+<MetaLinks/>
+
+<Projects>
+	<Project/>
+</Projects>
+
+<Studies>
+
+<Study source="dbGaP" accession="phs000803.v1.p1" parentStudy="phs000803.v1.p1" createDate="2014-09-19" modDate="2014-09-19">
+
+<Configuration>
+	<Data_Provider><![CDATA[
+		<table border="1">
+		<tr><th>Title</th><th>Name</th><th>Institute</th></tr>
+		<tr><td>Principal Investigator</td><td>Levi A. Garraway</td><td>Department of Medical Oncology, Dana-Farber Cancer Institute, Boston, Massachusetts, USA and Broad Institute of Harvard and MIT, Cambridge, Massachusetts, USA</td></tr>
+		<tr><td>Co-Investigator</td><td>Ryan Corcoran</td><td>Massachusetts General Hospital Cancer Center, Boston, MA, USA</td></tr>
+		</table>
+	]]></Data_Provider>
+	<StudyNameEntrez>Colon Cancer Clinical Cohorts</StudyNameEntrez>
+	<StudyNameReportPage>Colon Cancer Treatment Responders</StudyNameReportPage>
+	<StudyTypes>
+		<StudyType>Longitudinal</StudyType>
+		<StudyType>Case-Control</StudyType>
+	</StudyTypes>
+	<Description><![CDATA[
+<p>Comprehensive genomic profiling of colon adenocarcinomas has revealed multiple recurrent alterations that may inform new treatment strategies. Clinical trials of these agents are ongoing, although the mechanisms of response and resistance to these agents are not well characterized. The goal of this study is to perform comprehensive profiling of pre-treatment and post-resistance tumor and germline samples obtained from patients with colon cancer who receive these agents by carrying out whole exome sequencing and RNA sequencing, and to use these data to identify mechanisms of response and resistance.</p>]]>
+	</Description>
+	<StudyInEx><![CDATA[
+<p>Samples were collected from patients in the IRB-approved studies. For inclusion, patients had to have a diagnosis of colon cancer and have suitable tissue for profiling.</p>]]>
+	</StudyInEx>
+	<StudyProjects>
+		<Project/>
+	</StudyProjects>
+	<Diseases>
+		<Disease vocab_source="MESH" vocab_term="Colonic Neoplasms"/>
+	</Diseases>
+	<Attributions>
+		<Header title="Principal Investigator">
+			<AttName>Levi A. Garraway</AttName>
+			<Institution>Department of Medical Oncology, Dana-Farber Cancer Institute, Boston, Massachusetts, USA and Broad Institute of Harvard and MIT, Cambridge, Massachusetts, USA</Institution>
+		</Header>
+		<Header title="Co-Investigator">
+			<AttName>Ryan Corcoran</AttName>
+			<Institution>Massachusetts General Hospital Cancer Center, Boston, MA, USA</Institution>
+		</Header>
+	</Attributions>
+	<DisplayPublicSummary>yes</DisplayPublicSummary>
+	<ConsentGroups>
+		<ConsentGroup groupNum="1" shortName="DS-MULT" longName="Disease-Specific (MULTIPLE)"/>
+		<ConsentGroup groupNum="2" shortName="DS-CA" longName="Disease-Specific (Cancer)"/>
+	</ConsentGroups>
+</Configuration>
+
+  <AuthorizedAccess>
+    <DacInfo ssDacId="0">
+      <DacName>NHGRI</DacName>
+      <DacFullName>National Human Genome Research Institute</DacFullName>
+      <DacEmail>0</DacEmail>
+      <DacPhone></DacPhone>
+      <DacUrl></DacUrl>
+    </DacInfo>
+    <Policy Policy_ID="phs000803.v1.p1_policy" ref_ssDacId="0">
+      <DisplayResearchStatement>yes</DisplayResearchStatement>
+      <DisplayPublicSummary>yes</DisplayPublicSummary>
+      <EmbargoLength>0</EmbargoLength>
+      <YearsUntilRenewal>1</YearsUntilRenewal>
+      <WeeksCancelRequest>8</WeeksCancelRequest>
+      <PdfSupplementReqired>no</PdfSupplementReqired>
+      <AcknowledgementText>
+        <para>
+          http://dbgap.ncbi.nlm.nih.gov/aa/wga.cgi?page=DUC&amp;view_pdf&amp;stacc=phs000803.v1.p1
+        </para>
+      </AcknowledgementText>
+      <DocumentSet>
+        <DataUseCertificate Label="Data Use Certificate" FilePath="https://dbgap.ncbi.nlm.nih.gov/aa/wga.cgi?page=DUC&amp;view_pdf&amp;stacc=phs000803.v1.p1" FileName="DUC_Colorectal_Cancer_Sept2014.pdf"/>
+      </DocumentSet>
+    </Policy>
+    <ConsentGroups>
+      <ParticipantSet groupNum-REF="1">
+        <ConsentName>Disease-Specific (MULTIPLE)</ConsentName>
+        <ConsentAbbrev>DS-MULT</ConsentAbbrev>
+        <UseLimitation>Use of the data must be related to MULTIPLE.
+Melanoma and colorectal cancers only</UseLimitation>
+        <IrbRequired>No</IrbRequired>
+      </ParticipantSet>
+      <ParticipantSet groupNum-REF="2">
+        <ConsentName>Disease-Specific (Cancer)</ConsentName>
+        <ConsentAbbrev>DS-CA</ConsentAbbrev>
+        <UseLimitation>Use of the data must be related to Cancer.</UseLimitation>
+        <IrbRequired>No</IrbRequired>
+      </ParticipantSet>
+    </ConsentGroups>
+  </AuthorizedAccess>
+
+
+</Study>
+
+</Studies>
+
+</GaPExchange>

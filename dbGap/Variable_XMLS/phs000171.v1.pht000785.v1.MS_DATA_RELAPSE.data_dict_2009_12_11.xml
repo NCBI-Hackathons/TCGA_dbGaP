@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./datadict_v2.xsl"?>
+<data_table id="pht000785.v1" study_id="phs000171.v1" participant_set="1" date_created="Fri Dec 11 14:12:53 2009">
+
+<unique_key phv="00073415" version="1">SUBJID</unique_key>
+<unique_key phv="00073422" version="1">REPEATSN</unique_key>
+
+<variable id="phv00073415.v1">
+	<name>SUBJID</name>
+	<description>Subject&#39;s ID</description>
+	<type>string</type>
+</variable>
+
+<variable id="phv00073416.v1">
+	<name>CASE_CONTROL</name>
+	<description>Type of subject</description>
+	<type>string, encoded values</type>
+	<value code="CASE">Affected subject per Protocol</value>
+	<value code="CNTL">Control subject per Protocol</value>
+</variable>
+
+<variable id="phv00073417.v1">
+	<name>STUDY</name>
+	<description>Study ID</description>
+	<type>string</type>
+	<comment>Always RES101833</comment>
+</variable>
+
+<variable id="phv00073418.v1">
+	<name>INVSITE</name>
+	<description>Investigator site ID</description>
+	<type>string</type>
+	<comment>Numeric code identifying the site (for internal use)</comment>
+</variable>
+
+<variable id="phv00073419.v1">
+	<name>INV</name>
+	<description>Investigator&#39;s ID</description>
+	<type>string</type>
+	<comment>Numeric code identifying the investigator (for internal use)</comment>
+</variable>
+
+<variable id="phv00073420.v1">
+	<name>VISIT</name>
+	<description>Visit name</description>
+	<type>string</type>
+	<value code="CSA">Common Subject Assessment</value>
+	<value code="ELIGIBILITY">Eligibility questionnaire</value>
+	<value code="BASELINE">Baseline assessment questionnaire</value>
+	<value code="LAB WBC">Lab results</value>
+	<value code="SELF REPORT">Subject completed self report questionnaire</value>
+</variable>
+
+<variable id="phv00073421.v1">
+	<name>VISIT_DATE</name>
+	<description>Visit date</description>
+	<type>date</type>
+	<comment>Truncated to YYYY</comment>
+</variable>
+
+<variable id="phv00073422.v1">
+	<name>REPEATSN</name>
+	<description>Repeat sequence number</description>
+	<type>Integer</type>
+	<comment>Composite primary key field 
+		Used to differentiate repeat Relapse rows. </comment>
+</variable>
+
+<variable id="phv00073423.v1">
+	<name>BLDBWL</name>
+	<description>RELAPSE - Functional system affected: Bladder/Bowel</description>
+	<type>Encoded Value</type>
+	<value code="Y">Yes</value>
+	<value code="N">No</value>
+</variable>
+
+<variable id="phv00073424.v1">
+	<name>BRNSTM</name>
+	<description>RELAPSE - Functional system affected: Brainstem/Cerebellar</description>
+	<type>Encoded Value</type>
+	<value code="Y">Yes</value>
+	<value code="N">No</value>
+</variable>
+
+<variable id="phv00073425.v1">
+	<name>CRBLR</name>
+	<description>RELAPSE - Functional system affected: Cerebellar</description>
+	<type>Encoded Value</type>
+	<value code="Y">Yes</value>
+	<value code="N">No</value>
+</variable>
+
+<variable id="phv00073426.v1">
+	<name>CRTRQ</name>
+	<description>RELAPSE - required corticotherapy</description>
+	<type>Encoded Value</type>
+	<value code="Y">Yes</value>
+	<value code="N">No</value>
+	<value code="K">Don&#39;t know</value>
+</variable>
+
+<variable id="phv00073427.v1">
+	<name>DTTYP</name>
+	<description>RELAPSE - Data type</description>
+	<type>String</type>
+	<comment>Where &quot;REPEATSN=1&quot; then &quot;Date of Onset&quot;.  Where &quot;REPEATSN=2&quot; then &quot;Date of First Relapse&quot;.  Where &quot;REPEATSN &gt; 2&quot; then &quot;Date of Relapse&quot;</comment>
+	<value code="1">Date of Onset</value>
+	<value code="2">Date of First Relapse</value>
+	<value code="&gt;2">Date of Relapse</value>
+</variable>
+
+<variable id="phv00073428.v1">
+	<name>EDSSC</name>
+	<description>RELAPSE - EDSS (Expanded Disability Status Scale) Score</description>
+	<type>Decimal</type>
+	<logical_min>0</logical_min>
+	<logical_max>7.5</logical_max>
+	<comment>Optional</comment>
+</variable>
+
+<variable id="phv00073429.v1">
+	<name>MENTAL</name>
+	<description>RELAPSE - Functional system affected: Mental</description>
+	<type>Encoded Value</type>
+	<value code="Y">Yes</value>
+	<value code="N">No</value>
+</variable>
+
+<variable id="phv00073430.v1">
+	<name>ONRLPDT_DATE</name>
+	<description>Date of onset/relapse</description>
+	<type>Date</type>
+	<comment>Truncated to YYYY</comment>
+</variable>
+
+<variable id="phv00073431.v1">
+	<name>PYRMDL</name>
+	<description>RELAPSE - Functional system affected: Pyramidal</description>
+	<type>Encoded Value</type>
+	<value code="Y">Yes</value>
+	<value code="N">No</value>
+</variable>
+
+<variable id="phv00073432.v1">
+	<name>RCVRD</name>
+	<description>RELAPSE - Fully recovered</description>
+	<type>Encoded Value</type>
+	<value code="Y">Yes</value>
+	<value code="N">No</value>
+	<value code="U">Unknown</value>
+</variable>
+
+<variable id="phv00073433.v1">
+	<name>SENSRY</name>
+	<description>RELAPSE - Functional system affected: Sensory</description>
+	<type>Encoded Value</type>
+	<value code="Y">Yes</value>
+	<value code="N">No</value>
+</variable>
+
+<variable id="phv00073434.v1">
+	<name>VISUAL</name>
+	<description>RELAPSE - Functional system affected: Visual</description>
+	<type>Encoded Value</type>
+	<value code="Y">Yes</value>
+	<value code="N">No</value>
+</variable>
+
+</data_table>

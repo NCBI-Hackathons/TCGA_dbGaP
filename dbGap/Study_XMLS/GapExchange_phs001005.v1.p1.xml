@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GaPExchange xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="./dbGaPEx2.1.5.xsd">
+
+<MetaVariables>
+	<Submitter/>
+	<Method/>
+</MetaVariables>
+<MetaLinks/>
+
+<Projects>
+	<Project/>
+</Projects>
+
+<Studies>
+
+<Study source="dbGaP" accession="phs001005.v1.p1" parentStudy="phs001005.v1.p1" createDate="2015-10-14" modDate="2015-10-27">
+
+<Configuration>
+	<Data_Provider><![CDATA[
+		<table border="1">
+		<tr><th>Title</th><th>Name</th><th>Institute</th></tr>
+		<tr><td>Principal Investigator</td><td>Richard Wilson</td><td>McDonnell Genome Institute, Washington University School of Medicine, St. Louis, MO, USA</td></tr>
+		<tr><td>Principal Investigator</td><td>Elaine Mardis</td><td>McDonnell Genome Institute, Washington University School of Medicine, St. Louis, MO, USA</td></tr>
+		<tr><td>Principal Investigator</td><td>Beatriz Carreno</td><td>Washington University School of Medicine, St. Louis, MO, USA</td></tr>
+		<tr><td>Funding Source</td><td>U54 HG003079</td><td>National Human Genome Research Institute, National Institutes of Health, Bethesda, MD, USA</td></tr>
+		<tr><td>Funding Source</td><td>P30 CA91842</td><td>National Cancer Institute, National Institutes of Health, Bethesda, MD USA</td></tr>
+		</table>
+	]]></Data_Provider>
+	<StudyNameEntrez>Antigen Discovery in Melanoma</StudyNameEntrez>
+	<StudyNameReportPage>Identification of Putative Neoantigens in Stage III Melanoma</StudyNameReportPage>
+	<StudyTypes>
+		<StudyType>Case Set</StudyType>
+	</StudyTypes>
+	<Description><![CDATA[
+<p>This study of three metastatic melanoma patients utilized exome sequencing and RNA sequencing to help identify putative neoantigen peptides that could be further validated by standard immunological assays before design of a personalized vaccine. For each set of neoantigens identified and verified by standard assays, we designed GMP peptides that correspond to the top neoantigens, then used these to condition dendritic cell isolates from each patient. The conditioned dendritic cells were used as the vaccine in three rounds of vaccination, followed by monitoring for T cell memory response to each of the neoantigens.</p>]]>
+	</Description>
+	<StudyProjects>
+		<Project/>
+	</StudyProjects>
+	<Publications>
+		<Publication>
+			<Pubmed pmid="25837513"/>
+		</Publication>
+	</Publications>
+	<Attributions>
+		<Header title="Principal Investigator">
+			<AttName>Richard Wilson</AttName>
+			<Institution>McDonnell Genome Institute, Washington University School of Medicine, St. Louis, MO, USA</Institution>
+		</Header>
+		<Header title="Principal Investigator">
+			<AttName>Elaine Mardis</AttName>
+			<Institution>McDonnell Genome Institute, Washington University School of Medicine, St. Louis, MO, USA</Institution>
+		</Header>
+		<Header title="Principal Investigator">
+			<AttName>Beatriz Carreno</AttName>
+			<Institution>Washington University School of Medicine, St. Louis, MO, USA</Institution>
+		</Header>
+		<Header title="Funding Source">
+			<AttName>U54 HG003079</AttName>
+			<Institution>National Human Genome Research Institute, National Institutes of Health, Bethesda, MD, USA</Institution>
+		</Header>
+		<Header title="Funding Source">
+			<AttName>P30 CA91842</AttName>
+			<Institution>National Cancer Institute, National Institutes of Health, Bethesda, MD USA</Institution>
+		</Header>
+		<Header title="Funding Source">
+			<AttName>R21 CA179695</AttName>
+			<Institution>National Cancer Institute, National Institutes of Health, Bethesda, MD USA</Institution>
+		</Header>
+	</Attributions>
+	<DisplayPublicSummary>yes</DisplayPublicSummary>
+	<ConsentGroups>
+		<ConsentGroup groupNum="1" shortName="DS-MSC" longName="Disease-Specific (Melanoma and Skin Cancer Research)"/>
+	</ConsentGroups>
+</Configuration>
+
+  <AuthorizedAccess>
+    <DacInfo ssDacId="0">
+      <DacName>NHGRI</DacName>
+      <DacFullName>National Human Genome Research Institute</DacFullName>
+      <DacEmail>0</DacEmail>
+      <DacPhone></DacPhone>
+      <DacUrl></DacUrl>
+    </DacInfo>
+    <Policy Policy_ID="phs001005.v1.p1_policy" ref_ssDacId="0">
+      <DisplayResearchStatement>yes</DisplayResearchStatement>
+      <DisplayPublicSummary>yes</DisplayPublicSummary>
+      <EmbargoLength>0</EmbargoLength>
+      <YearsUntilRenewal>1</YearsUntilRenewal>
+      <WeeksCancelRequest>8</WeeksCancelRequest>
+      <PdfSupplementReqired>no</PdfSupplementReqired>
+      <AcknowledgementText>
+        <para>
+          http://dbgap.ncbi.nlm.nih.gov/aa/wga.cgi?page=DUC&amp;view_pdf&amp;stacc=phs001005.v1.p1
+        </para>
+      </AcknowledgementText>
+      <DocumentSet>
+        <DataUseCertificate Label="Data Use Certificate" FilePath="https://dbgap.ncbi.nlm.nih.gov/aa/wga.cgi?page=DUC&amp;view_pdf&amp;stacc=phs001005.v1.p1" FileName=""/>
+      </DocumentSet>
+    </Policy>
+    <ConsentGroups>
+      <ParticipantSet groupNum-REF="1">
+        <ConsentName>Disease-Specific (Melanoma and Skin Cancer Research)</ConsentName>
+        <ConsentAbbrev>DS-MSC</ConsentAbbrev>
+        <UseLimitation>Use of the data must be related to Melanoma and Skin Cancer Research.</UseLimitation>
+        <IrbRequired>No</IrbRequired>
+      </ParticipantSet>
+    </ConsentGroups>
+  </AuthorizedAccess>
+
+
+</Study>
+
+</Studies>
+
+</GaPExchange>

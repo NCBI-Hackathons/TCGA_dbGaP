@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./datadict_v2.xsl"?>
+<data_table id="pht000796.v1" study_id="phs000182.v2" participant_set="1" date_created="Fri Aug  6 15:36:08 2010">
+
+<variable id="phv00073528.v1">
+	<name>Subject ID</name>
+	<description>Sample IDs of samples being genotyped</description>
+	<type>integer, string</type>
+	<comment>Deidentified ID</comment>
+</variable>
+
+<variable id="phv00073529.v1">
+	<name>Consent Form</name>
+	<description>Institution whose consent form was used</description>
+	<type>encoded value</type>
+	<value code="0">Coriell HapMap sample</value>
+	<value code="1">University of Michigan</value>
+	<value code="2">University of Pennsylvania</value>
+	<value code="3">AREDS study</value>
+	<value code="4">Mayo Clinic</value>
+</variable>
+
+<variable id="phv00073530.v1">
+	<name>Consent Type</name>
+	<description>Consent group based on specific informed consent document</description>
+	<type>encoded value</type>
+	<value code="1">General Research Use</value>
+	<value code="2">Eye Disease Research Use Only</value>
+</variable>
+
+<variable id="phv00073644.v1">
+	<name>Case_Control</name>
+	<description>AMD case or control patient status (including HapMap samples)</description>
+	<type>encoded value</type>
+	<value code="1">Case</value>
+	<value code="2">Control</value>
+	<value code="9999">Unknown (Coriell HapMap Sample)</value>
+</variable>
+
+<variable id="phv00073664.v1">
+	<name>Subject Source</name>
+	<description>Source of subject (Coriell HapMap sample)</description>
+</variable>
+
+<variable id="phv00073665.v1">
+	<name>Source Subject ID</name>
+	<description>Subject ID at source</description>
+</variable>
+
+</data_table>

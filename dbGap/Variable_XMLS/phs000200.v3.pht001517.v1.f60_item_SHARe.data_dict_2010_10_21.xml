@@ -1,0 +1,2294 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./datadict_v2.xsl"?>
+<data_table id="pht001517.v1" study_id="phs000200.v3" participant_set="1" date_created="Thu Oct 21 09:32:38 2010">
+
+<unique_key phv="00111654" version="1">SHAREID</unique_key>
+<unique_key phv="00111655" version="1">F60VTYP</unique_key>
+<unique_key phv="00111656" version="1">F60VY</unique_key>
+
+<variable id="phv00111654.v1">
+	<name>SHAREID</name>
+	<description>WHI SHARe ID</description>
+	<type>integer</type>
+</variable>
+
+<variable id="phv00111655.v1">
+	<name>F60VTYP</name>
+	<description>F60 Visit type</description>
+	<type>encoded value</type>
+	<value code="1">Screening Visit</value>
+	<value code="2">Semi-Annual Visit</value>
+	<value code="3">Annual Visit</value>
+	<value code="4">Non-Routine Visit</value>
+</variable>
+
+<variable id="phv00111656.v1">
+	<name>F60VY</name>
+	<description>F60 Visit year</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>10</logical_max>
+	<comment>Visit year for which this form was collected.</comment>
+</variable>
+
+<variable id="phv00111657.v1">
+	<name>F60DAYS</name>
+	<description>F60 Days since randomization/enrollment</description>
+	<type>integer</type>
+	<unit>days</unit>
+	<logical_min>-1518</logical_min>
+	<logical_max>3696</logical_max>
+</variable>
+
+<variable id="phv00111658.v1">
+	<name>STATUS</name>
+	<description>Analysis exclusion consideration status</description>
+	<type>encoded value</type>
+	<comment>May want to consider excluding participants with a status of 1 or 2 from analyses.  The FFQ is suspect in light of the very low or very high value for the Energy (kcal) result.</comment>
+	<value code="1">Energy &lt; 600 kcal consider excluding from analyses</value>
+	<value code="2">Energy &gt; 5000 kcal consider excluding from analyses</value>
+	<value code="3">600 kcal &lt;= Energy &lt;= 5000 kcal</value>
+</variable>
+
+<variable id="phv00111659.v1">
+	<name>CHICKEN</name>
+	<description>Q1: Chicken or turkey in last 3 months</description>
+	<type>encoded value</type>
+	<comment>Did you eat chicken or turkey during the last three months?</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00111660.v1">
+	<name>SKIN</name>
+	<description>Q1.1: Ate skin with chicken or turkey</description>
+	<type>encoded value</type>
+	<comment>When you ate chicken or turkey, how often did you eat the skin?
+		Sub-question of Q1 &#39;Eat chicken or turkey during last 3 months&#39; (skip pattern rule not applied). </comment>
+	<value code="1">Almost always</value>
+	<value code="2">Often</value>
+	<value code="3">Sometimes</value>
+	<value code="4">Rarely</value>
+	<value code="5">Never</value>
+</variable>
+
+<variable id="phv00111661.v1">
+	<name>LITEDARK</name>
+	<description>Q1.2: Light/Dark meat chicken or turkey</description>
+	<type>encoded value</type>
+	<comment>When you ate chicken or turkey, did you usually choose light or dark meat?
+		Sub-question of Q1 &#39;Eat chicken or turkey during last 3 months&#39; (skip pattern rule not applied). </comment>
+	<value code="1">Light Meat</value>
+	<value code="2">Dark Meat</value>
+	<value code="3">Both</value>
+</variable>
+
+<variable id="phv00111662.v1">
+	<name>BEEF</name>
+	<description>Q2: Beef, pork or lamb in last 3 months</description>
+	<type>encoded value</type>
+	<comment>Did you eat beef, pork, or lamb during the last three months?</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00111663.v1">
+	<name>BEEFFAT</name>
+	<description>Q2.1: Ate fat with beef, pork  or lamb</description>
+	<type>encoded value</type>
+	<comment>When ate beef, pork, or lamb, how often did you eat the fat?
+		Sub-question of Q2 &#39;Eat beef, pork, or lamb during last 3 months&#39; (skip pattern rule not applied). </comment>
+	<value code="1">Almost always</value>
+	<value code="2">Often</value>
+	<value code="3">Sometimes</value>
+	<value code="4">Rarely</value>
+	<value code="5">Never</value>
+</variable>
+
+<variable id="phv00111664.v1">
+	<name>HAMBURG</name>
+	<description>Q3: Hamburger or ground meat last 3 mths</description>
+	<type>encoded value</type>
+	<comment>Did you eat hamburger or other ground meat during last three months?</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00111665.v1">
+	<name>BURGLEAN</name>
+	<description>Q3.1: Leanness of ground meat</description>
+	<type>encoded value</type>
+	<comment>When you ate hamburger or ground meat what type was it usually?
+		Sub-question of Q3 &#39;Eat hamburger or ground meat during last 3 months&#39; (skip pattern rule not applied). </comment>
+	<value code="1">Regular</value>
+	<value code="2">Lean</value>
+	<value code="3">Extra lean</value>
+	<value code="4">Ground turkey</value>
+	<value code="5">Don&#39;t know</value>
+</variable>
+
+<variable id="phv00111666.v1">
+	<name>CANTUNA</name>
+	<description>Q4: Canned tuna in last 3 months</description>
+	<type>encoded value</type>
+	<comment>Did you eat canned tuna during the last three months?</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00111667.v1">
+	<name>TUNAPACK</name>
+	<description>Q4.1: Canned tuna packed in water/oil</description>
+	<type>encoded value</type>
+	<comment>When you ate canned tuna how was it usually packed?
+		Sub-question of Q4 &#39;Eat canned tuna during last 3 months&#39; (skip pattern rule not applied). </comment>
+	<value code="1">Water-packed</value>
+	<value code="2">Oil-packed</value>
+	<value code="3">Either one</value>
+	<value code="4">Don&#39;t know</value>
+</variable>
+
+<variable id="phv00111668.v1">
+	<name>TUNAPLN</name>
+	<description>Q4.2.1: Canned tuna prepared plain</description>
+	<type>encoded value</type>
+	<comment>When you ate canned tuna was it usually prepared plain?
+		Sub-question of Q4 &#39;Eat canned tuna during last 3 months&#39; (skip pattern rule not applied). </comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00111669.v1">
+	<name>TUNAMAYO</name>
+	<description>Q4.2.2: Canned tuna prepared w/mayo</description>
+	<type>encoded value</type>
+	<comment>When you ate canned tuna was it usually prepared as tuna salad with mayonnaise?
+		Sub-question of Q4 &#39;Eat canned tuna during last 3 months&#39; (skip pattern rule not applied). </comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00111670.v1">
+	<name>TUNACASS</name>
+	<description>Q4.2.3: Canned tuna noodle casserole</description>
+	<type>encoded value</type>
+	<comment>When you ate canned tuna was it usually prepared as tuna noodle casserole?
+		Sub-question of Q4 &#39;Eat canned tuna during last 3 months&#39; (skip pattern rule not applied). </comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00111671.v1">
+	<name>MILK</name>
+	<description>Q5: Drink Milk</description>
+	<type>encoded value</type>
+	<comment>Did you drink milk or milk beverages made with milk, such as hot chocolate, during the last three months? (Do not include milk used on cereal or in coffee or tea.)</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00111672.v1">
+	<name>MILKFAT</name>
+	<description>Q5.1: Fat in drinking milk</description>
+	<type>encoded value</type>
+	<comment>When you drank milk or milk beverages, what type was it usually?
+		Sub-question of Q5 &#39;Drink milk or milk beverages during last 3 months&#39; (skip pattern rule not applied). </comment>
+	<value code="1">Whole milk</value>
+	<value code="2">2% milk</value>
+	<value code="3">1% milk or buttermilk</value>
+	<value code="4">Non-fat or skim milk</value>
+	<value code="5">Evaporated or condensed milk</value>
+	<value code="6">Soy milk</value>
+	<value code="7">Don&#39;t know</value>
+</variable>
+
+<variable id="phv00111673.v1">
+	<name>MILKCER</name>
+	<description>Q6: Use milk, cream or creamer on cereal</description>
+	<type>encoded value</type>
+	<comment>Did you use milk, cream, or creamer on cereal during the last three months?</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00111674.v1">
+	<name>MLKCRM</name>
+	<description>Q6.1.1: Cream or half and half on cereal</description>
+	<type>encoded value</type>
+	<comment>When you used milk, cream, or creamer on cereal did you usually use cream or half and half?
+		Sub-question of Q6 &#39;Use milk or cream on cereal during last 3 months&#39; (skip pattern rule not applied). </comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00111675.v1">
+	<name>MLKWHOL</name>
+	<description>Q6.1.2: Whole milk on cereal</description>
+	<type>encoded value</type>
+	<comment>When you used milk, cream, or creamer on cereal did you usually use whole milk?
+		Sub-question of Q6 &#39;Use milk or cream on cereal during last 3 months&#39; (skip pattern rule not applied). </comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00111676.v1">
+	<name>MLK2</name>
+	<description>Q6.1.3: 2% milk on cereal</description>
+	<type>encoded value</type>
+	<comment>When you used milk, cream, or creamer on cereal did you usually use 2% milk?
+		Sub-question of Q6 &#39;Use milk or cream on cereal during last 3 months&#39; (skip pattern rule not applied). </comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00111677.v1">
+	<name>MLK1</name>
+	<description>Q6.1.4: 1% milk on cereal</description>
+	<type>encoded value</type>
+	<comment>When you used milk, cream, or creamer on cereal did you usually use 1% milk?
+		Sub-question of Q6 &#39;Use milk or cream on cereal during last 3 months&#39; (skip pattern rule not applied). </comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00111678.v1">
+	<name>MLKSKIM</name>
+	<description>Q6.1.5: Non-fat milk on cereal</description>
+	<type>encoded value</type>
+	<comment>When you used milk, cream, or creamer on cereal did you usually use non-fat or skim milk?
+		Sub-question of Q6 &#39;Use milk or cream on cereal during last 3 months&#39; (skip pattern rule not applied). </comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00111679.v1">
+	<name>MLKEVAP</name>
+	<description>Q6.1.6: Evaporated or condensed milk on cereal</description>
+	<type>encoded value</type>
+	<comment>When you used milk, cream, or creamer on cereal did you usually use evaporated or condensed milk?
+		Sub-question of Q6 &#39;Use milk or cream on cereal during last 3 months&#39; (skip pattern rule not applied). </comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00111680.v1">
+	<name>MLKSOY</name>
+	<description>Q6.1.7: Soy milk on cereal</description>
+	<type>encoded value</type>
+	<comment>When you used milk, cream, or creamer on cereal did you usually use soy milk?
+		Sub-question of Q6 &#39;Use milk or cream on cereal during last 3 months&#39; (skip pattern rule not applied). </comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00111681.v1">
+	<name>MLKNDCRM</name>
+	<description>Q6.1.8: Non-dairy creamer on cereal</description>
+	<type>encoded value</type>
+	<comment>When you used milk, cream, or creamer on cereal did you usually use non-dairy creamer?
+		Sub-question of Q6 &#39;Use milk or cream on cereal during last 3 months&#39; (skip pattern rule not applied). </comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00111682.v1">
+	<name>MLKDK</name>
+	<description>Q6.1.9: Don&#39;t know milk on cereal</description>
+	<type>encoded value</type>
+	<comment>When you used milk, cream, or creamer on cereal you don&#39;t know what you usually used?
+		Sub-question of Q6 &#39;Use milk or cream on cereal during last 3 months&#39; (skip pattern rule not applied). </comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00111683.v1">
+	<name>MLKCOFFE</name>
+	<description>Q7: Use milk, cream or creamer in coffee/tea</description>
+	<type>encoded value</type>
+	<comment>Did you use milk, cream, or creamer in coffee or tea during the last three months?</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00111684.v1">
+	<name>MLKCCRM</name>
+	<description>Q7.1.1: Cream or half and half in coffee/tea</description>
+	<type>encoded value</type>
+	<comment>When you used milk, cream, or creamer in coffee or tea, did you usually use cream or half and half?
+		Sub-question of Q7 &#39;Use milk/cream in coffee/tea during last 3 months&#39; (skip pattern rule not applied). </comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00111685.v1">
+	<name>MLKCWHOL</name>
+	<description>Q7.1.2: Whole milk in coffee/tea</description>
+	<type>encoded value</type>
+	<comment>When you used milk, cream, or creamer in coffee or tea, did you usually use whole milk?
+		Sub-question of Q7 &#39;Use milk/cream in coffee/tea during last 3 months&#39; (skip pattern rule not applied). </comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00111686.v1">
+	<name>MLKC2</name>
+	<description>Q7.1.3: 2% milk in coffee/tea</description>
+	<type>encoded value</type>
+	<comment>When you used milk, cream, or creamer in coffee or tea, did you usually use 2% milk?
+		Sub-question of Q7 &#39;Use milk/cream in coffee/tea during last 3 months&#39; (skip pattern rule not applied). </comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00111687.v1">
+	<name>MLKC1</name>
+	<description>Q7.1.4: 1% milk in coffee/tea</description>
+	<type>encoded value</type>
+	<comment>When you used milk, cream, or creamer in coffee or tea, did you usually use 1% milk?
+		Sub-question of Q7 &#39;Use milk/cream in coffee/tea during last 3 months&#39; (skip pattern rule not applied). </comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00111688.v1">
+	<name>MLKCSKIM</name>
+	<description>Q7.1.5: Non-fat milk in coffee/tea</description>
+	<type>encoded value</type>
+	<comment>When you used milk, cream, or creamer in coffee or tea, did you usually use non-fat or skim milk?
+		Sub-question of Q7 &#39;Use milk/cream in coffee/tea during last 3 months&#39; (skip pattern rule not applied). </comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00111689.v1">
+	<name>MLKCEVAP</name>
+	<description>Q7.1.6: Evap or condensed milk in coffee/tea</description>
+	<type>encoded value</type>
+	<comment>When you used milk, cream, or creamer in coffee or tea, did you usually use evaporated or condensed milk?
+		Sub-question of Q7 &#39;Use milk/cream in coffee/tea during last 3 months&#39; (skip pattern rule not applied). </comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00111690.v1">
+	<name>MLKCSOY</name>
+	<description>Q7.1.7: Soy milk in coffee/tea</description>
+	<type>encoded value</type>
+	<comment>When you used milk, cream, or creamer in coffee or tea, did you usually use soy milk?
+		Sub-question of Q7 &#39;Use milk/cream in coffee/tea during last 3 months&#39; (skip pattern rule not applied). </comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00111691.v1">
+	<name>MLKCNDCR</name>
+	<description>Q7.1.8: Non-dairy creamer in coffee/tea</description>
+	<type>encoded value</type>
+	<comment>When you used milk, cream, or creamer in coffee or tea, did you usually use non-dairy creamer?
+		Sub-question of Q7 &#39;Use milk/cream in coffee/tea during last 3 months&#39; (skip pattern rule not applied). </comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00111692.v1">
+	<name>MLKCDK</name>
+	<description>Q7.1.9: Don&#39;t know milk in coffee/tea</description>
+	<type>encoded value</type>
+	<comment>When you used milk, cream, or creamer in coffee or tea you don&#39;t know what you usually used?
+		Sub-question of Q7 &#39;Use milk/cream in coffee/tea during last 3 months&#39; (skip pattern rule not applied). </comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00111693.v1">
+	<name>COLDCER</name>
+	<description>Q8: Cold cereal in last 3 months</description>
+	<type>encoded value</type>
+	<comment>Did you eat cold cereals during the last three months?</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00111694.v1">
+	<name>CCGRAN</name>
+	<description>Q8.1.1: Cold cereal--granola</description>
+	<type>encoded value</type>
+	<comment>When you ate cold cereals did you usually eat granola cereals?
+		Sub-question of Q8 &#39;Eat cold cereals during last 3 months&#39; (skip pattern rule not applied). </comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00111695.v1">
+	<name>CCHIFIB</name>
+	<description>Q8.1.2: Cold cereal--High-fiber</description>
+	<type>encoded value</type>
+	<comment>When you ate cold cereals did you usually eat high-fiber or bran cereals, such as FiberOne, Raisin Bran?
+		Sub-question of Q8 &#39;Eat cold cereals during last 3 months&#39; (skip pattern rule not applied). </comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00111696.v1">
+	<name>CCWHOLGR</name>
+	<description>Q8.1.3: Cold cereal--Whole grain</description>
+	<type>encoded value</type>
+	<comment>When you ate cold cereals did you usually eat whole grain cereals such as Cheerios, Shredded Wheat?
+		Sub-question of Q8 &#39;Eat cold cereals during last 3 months&#39; (skip pattern rule not applied). </comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00111697.v1">
+	<name>CCFORTIF</name>
+	<description>Q8.1.4: Cold cereal--Fortified</description>
+	<type>encoded value</type>
+	<comment>When you ate cold cereals did you usually eat fortified cereals such as Total, Product 19?
+		Sub-question of Q8 &#39;Eat cold cereals during last 3 months&#39; (skip pattern rule not applied). </comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00111698.v1">
+	<name>CCOTHR</name>
+	<description>Q8.1.5: Cold cereal--other</description>
+	<type>encoded value</type>
+	<comment>When you ate cold cereals did you usually eat other cereals such as corn flakes, Frosted Flakes?
+		Sub-question of Q8 &#39;Eat cold cereals during last 3 months&#39; (skip pattern rule not applied). </comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00111699.v1">
+	<name>SQUASH</name>
+	<description>Q9: Okra, squash or yams in last 3 months</description>
+	<type>encoded value</type>
+	<comment>Did you eat okra, squash, or yams during the last three months</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00111700.v1">
+	<name>SQSHFRY</name>
+	<description>Q9.1: Fried okra, squash or yams</description>
+	<type>encoded value</type>
+	<comment>When you ate okra, squash or yams, how often were they fried? (Do not include potatoes.)
+		Sub-question of Q9 &#39;Eat okra, squash, or yams during last 3 months&#39; (skip pattern rule not applied). </comment>
+	<value code="1">Almost always</value>
+	<value code="2">Often</value>
+	<value code="3">Sometimes</value>
+	<value code="4">Rarely</value>
+	<value code="5">Never</value>
+</variable>
+
+<variable id="phv00111701.v1">
+	<name>FRYSMARG</name>
+	<description>Q10.1: Stick margarine used to fry foods</description>
+	<type>encoded value</type>
+	<comment>Did you usually use stick margarine to deep fry, pan fry, or saute foods?</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00111702.v1">
+	<name>FRYTMARG</name>
+	<description>Q10.2: Tub margarine used to fry foods</description>
+	<type>encoded value</type>
+	<comment>Did you usually use tub margarine to deep fry, pan fry, or saute foods?</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00111703.v1">
+	<name>FRYBUTT</name>
+	<description>Q10.3: Butter used to fry foods</description>
+	<type>encoded value</type>
+	<comment>Did you usually use butter to deep fry, pan fry, or saute foods?</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00111704.v1">
+	<name>FRYSHORT</name>
+	<description>Q10.4: Shortening used to fry foods</description>
+	<type>encoded value</type>
+	<comment>Did you usually use shortening (Crisco, lard, bacon fat or drippings, salt pork, ham hock) to deep fry, pan fry, or saute foods?</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00111705.v1">
+	<name>FRYOLIV</name>
+	<description>Q10.5: Olive or canola oil used to fry foods</description>
+	<type>encoded value</type>
+	<comment>Did you usually use olive or canola oil to deep fry, pan fry, or saute foods?</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00111706.v1">
+	<name>FRYOIL</name>
+	<description>Q10.6: Other oils used to fry foods</description>
+	<type>encoded value</type>
+	<comment>Did you usually use other oils (vegetable, corn, peanut, safflower) to deep fry, pan fry, or saute foods?</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00111707.v1">
+	<name>FRYPAM</name>
+	<description>Q10.7: Non-stick spray used to fry foods</description>
+	<type>encoded value</type>
+	<comment>Did you usually use non-stick spray (Pam) to deep fry, pan fry, or saute foods?</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00111708.v1">
+	<name>FRYNOFAT</name>
+	<description>Q10.8: No fat added to fry foods</description>
+	<type>encoded value</type>
+	<comment>Did you usually not add fat to deep fry, pan fry, or saute foods?</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00111709.v1">
+	<name>LMARGC</name>
+	<description>Q11.1: Low-cal/fat margarine used to cook foods</description>
+	<type>encoded value</type>
+	<comment>Did you usually add low calorie or low fat margarine when cooking beans, rice, vegetables and potatoes?</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00111710.v1">
+	<name>SMARGC</name>
+	<description>Q11.2: Stick margarine used to cook foods</description>
+	<type>encoded value</type>
+	<comment>Did you usually add stick margarine when cooking beans, rice, vegetables and potatoes?</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00111711.v1">
+	<name>TMARGC</name>
+	<description>Q11.3: Tub margarine used to cook foods</description>
+	<type>encoded value</type>
+	<comment>Did you usually add tub margarine when cooking beans, rice, vegetables and potatoes?</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00111712.v1">
+	<name>BUTTC</name>
+	<description>Q11.4: Butter used to cook foods</description>
+	<type>encoded value</type>
+	<comment>Did you usually add butter when cooking beans, rice, vegetables and potatoes?</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00111713.v1">
+	<name>SHORTC</name>
+	<description>Q11.5: Shortening used to cook foods</description>
+	<type>encoded value</type>
+	<comment>Did you usually add shortening (Crisco, lard, bacon fat or drippings, salt pork, ham hock) when cooking beans, rice, vegetables and potatoes?</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00111714.v1">
+	<name>OLIVC</name>
+	<description>Q11.6: Olive or canola oil used to cook foods</description>
+	<type>encoded value</type>
+	<comment>Did you usually add olive or canola oil when cooking beans, rice, vegetables and potatoes?</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00111715.v1">
+	<name>OILC</name>
+	<description>Q11.7: Other oils used to cook foods</description>
+	<type>encoded value</type>
+	<comment>Did you usually add other oils (vegetable, corn, peanut, safflower) when cooking beans, rice, vegetables and potatoes?</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00111716.v1">
+	<name>PAMC</name>
+	<description>Q11.8: Non-stick spray used to cook foods</description>
+	<type>encoded value</type>
+	<comment>Did you usually add non-stick spary (Pam) when cooking beans, rice, vegetables and potatoes?</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00111717.v1">
+	<name>NOFATC</name>
+	<description>Q11.9: Non-fat or No fat added to cook foods</description>
+	<type>encoded value</type>
+	<comment>Did you usually not add fat when cooking beans, rice, vegetables and potatoes?</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00111718.v1">
+	<name>LMARGA</name>
+	<description>Q12.1: Low-cal/fat marg added after cooking</description>
+	<type>encoded value</type>
+	<comment>Did you usually add low calorie or low fat margarine after cooking beans, rice, vegetables and potatoes?</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00111719.v1">
+	<name>SMARGA</name>
+	<description>Q12.2: Stick margarine added after cooking</description>
+	<type>encoded value</type>
+	<comment>Did you usually add stick margarine after cooking beans, rice, vegetables and potatoes?</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00111720.v1">
+	<name>TMARGA</name>
+	<description>Q12.3: Tub margarine added after cooking</description>
+	<type>encoded value</type>
+	<comment>Did you usually add tub margarine after cooking beans, rice, vegetables and potatoes?</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00111721.v1">
+	<name>BUTTA</name>
+	<description>&#39;Q12.4: Butter added after cooking</description>
+	<type>encoded value</type>
+	<comment>Did you usually add butter after cooking beans, rice, vegetables and potatoes?</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00111722.v1">
+	<name>SOURCRMA</name>
+	<description>Q12.5: Sour cream added after cooking</description>
+	<type>encoded value</type>
+	<comment>Did you usually add sour cream after cooking beans, rice, vegetables and potatoes?</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00111723.v1">
+	<name>OLIVA</name>
+	<description>Q12.6: Olive or canola oil added after cooking</description>
+	<type>encoded value</type>
+	<comment>Did you usually add olive or canola oil after cooking beans, rice, vegetables and potatoes?</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00111724.v1">
+	<name>OILA</name>
+	<description>Q12.7: Other oil added after cooking</description>
+	<type>encoded value</type>
+	<comment>Did you usually add other oils (vegetable, corn, peanut, safflower) after cooking beans, rice, vegetables and potatoes?</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00111725.v1">
+	<name>NOFATA</name>
+	<description>Q12.8: Non-fat or no fat added after cooking</description>
+	<type>encoded value</type>
+	<comment>Did you usually add non-fat margarine or not add fat after cooking beans, rice, vegetables and potatoes?</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00111726.v1">
+	<name>LMARGS</name>
+	<description>Q13.1: Low-cal/fat margarine spread on breads</description>
+	<type>encoded value</type>
+	<comment>Did you usually use low calorie or low fat margarine on breads, muffins, tortillas and rolls?</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00111727.v1">
+	<name>SMARGS</name>
+	<description>Q13.2: Stick margarine spread on breads</description>
+	<type>encoded value</type>
+	<comment>Did you usually use stick margarine on breads, muffins, tortillas and rolls?</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00111728.v1">
+	<name>TMARGS</name>
+	<description>Q13.3: Tub margarine spread on breads</description>
+	<type>encoded value</type>
+	<comment>Did you usually use tub margarine on breads, muffins, tortillas and rolls?</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00111729.v1">
+	<name>BUTTS</name>
+	<description>Q13.4: Butter spread on breads</description>
+	<type>encoded value</type>
+	<comment>Did you usually use butter on breads, muffins, tortillas and rolls?</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00111730.v1">
+	<name>OLIVS</name>
+	<description>Q13.5: Olive or canola oil spread on breads</description>
+	<type>encoded value</type>
+	<comment>Did you usually use olive or canola oil on breads, muffins, tortillas and rolls?</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00111731.v1">
+	<name>OILS</name>
+	<description>Q13.6: Other oil spread on breads</description>
+	<type>encoded value</type>
+	<comment>Did you usually use other oils (vegetable, corn, peanut, safflower) on breads, muffins, tortillas and rolls?</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00111732.v1">
+	<name>NOFATS</name>
+	<description>Q13.7: Non-fat or no fat spread on breads</description>
+	<type>encoded value</type>
+	<comment>Did you usually use non-fat margarine or did not use fat on breads, muffins, tortillas and rolls?</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00111733.v1">
+	<name>TORTILLA</name>
+	<description>Q14: Made own tortillas in last 3 months</description>
+	<type>encoded value</type>
+	<comment>Did you make your own tortillas during the last three months?</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00111734.v1">
+	<name>TORTFAT</name>
+	<description>Q14.1: Fat used when making tortillas</description>
+	<type>encoded value</type>
+	<comment>When you made tortillas, did you make them with lard, shortening, or other fat?
+		Sub-question of Q14 &#39;Did you make tortillas during last 3 months&#39; (skip pattern rule not applied). </comment>
+	<value code="1">Yes, made with fat</value>
+	<value code="2">No, made without fat</value>
+</variable>
+
+<variable id="phv00111735.v1">
+	<name>SALADRES</name>
+	<description>Q15: Type of salad dressing usually use</description>
+	<type>encoded value</type>
+	<comment>What type of salad dressing did you usually use?</comment>
+	<value code="1">Regular</value>
+	<value code="2">Low-fat</value>
+	<value code="3">Fat-free</value>
+	<value code="4">Didn&#39;t use salad dressing</value>
+</variable>
+
+<variable id="phv00111736.v1">
+	<name>MAYO</name>
+	<description>Q16: Type of mayonnaise usually use</description>
+	<type>encoded value</type>
+	<comment>What type of mayonnaise did you usually use?</comment>
+	<value code="1">Regular</value>
+	<value code="2">Low-fat</value>
+	<value code="3">Fat-free</value>
+	<value code="4">Didn&#39;t use mayonnaise</value>
+</variable>
+
+<variable id="phv00111737.v1">
+	<name>POPCORN</name>
+	<description>Q17: Ate popcorn in last 3 months</description>
+	<type>encoded value</type>
+	<comment>Did you eat popcorn during the last three months?</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00111738.v1">
+	<name>POPCTYP</name>
+	<description>Q17.1: Type of popcorn usually eat</description>
+	<type>encoded value</type>
+	<comment>What type of popcorn did you usually eat?
+		Sub-question of Q17 &#39;Eat popcorn during last 3 months&#39; (skip pattern rule not applied). </comment>
+	<value code="1">Popped in oil, pre-popped, or at movies</value>
+	<value code="2">Regular microwave</value>
+	<value code="3">Air-popped or special lite&quot; microwave&quot;</value>
+</variable>
+
+<variable id="phv00111739.v1">
+	<name>POPCFAT</name>
+	<description>Q17.2: Fat added to popcorn</description>
+	<type>encoded value</type>
+	<comment>When you ate popcorn, how often did you add butter or margarine?
+		Sub-question of Q17 &#39;Eat popcorn during last 3 months&#39; (skip pattern rule not applied). </comment>
+	<value code="1">Almost always</value>
+	<value code="2">Often</value>
+	<value code="3">Sometimes</value>
+	<value code="4">Rarely</value>
+	<value code="5">Never</value>
+</variable>
+
+<variable id="phv00111740.v1">
+	<name>COOKIE</name>
+	<description>Q18: Ate cookies in last 3 months</description>
+	<type>encoded value</type>
+	<comment>Did you eat cookies during the last three months?</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00111741.v1">
+	<name>COOKITYP</name>
+	<description>Q18.1: Low-fat cookies</description>
+	<type>encoded value</type>
+	<comment>When you ate cookies, how often were they graham crackers, vanilla wafers, fig bars, or special low-fat or no-fat cookies?
+		Sub-question of Q18 &#39;Eat cookies during the last 3 months&#39; (skip pattern rule not applied). </comment>
+	<value code="1">Almost always</value>
+	<value code="2">Often</value>
+	<value code="3">Sometimes</value>
+	<value code="4">Rarely</value>
+	<value code="5">Never</value>
+</variable>
+
+<variable id="phv00111742.v1">
+	<name>CAKE</name>
+	<description>Q19: Ate cakes/pastries in last 3 months</description>
+	<type>encoded value</type>
+	<comment>Did you eat cakes or other pastries during the last three months?</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00111743.v1">
+	<name>CAKETYP</name>
+	<description>Q19.1: Low-fat cakes/pastries</description>
+	<type>encoded value</type>
+	<comment>When you ate cakes or other pastries, how often were they angel food cakes, sponge cakes, or special low fat or no fat cakes or pastries?
+		Sub-question of Q19 &#39;Eat cakes or other pastries during last 3 months&#39; (skip pattern rule not applied). </comment>
+	<value code="1">Almost always</value>
+	<value code="2">Often</value>
+	<value code="3">Sometimes</value>
+	<value code="4">Rarely</value>
+	<value code="5">Never</value>
+</variable>
+
+<variable id="phv00111744.v1">
+	<name>APPLE</name>
+	<description>Item #1: Apples and pears, med serv/day</description>
+	<type>decimal</type>
+	<unit>servings</unit>
+	<logical_min>0</logical_min>
+	<logical_max>3</logical_max>
+	<comment>Apples and pears, medium servings/day</comment>
+</variable>
+
+<variable id="phv00111745.v1">
+	<name>BANANA</name>
+	<description>Item #2: Bananas, med serv/day</description>
+	<type>decimal</type>
+	<unit>servings</unit>
+	<logical_min>0</logical_min>
+	<logical_max>3</logical_max>
+	<comment>Bananas, medium servings/day</comment>
+</variable>
+
+<variable id="phv00111746.v1">
+	<name>PEACH</name>
+	<description>Item #3: Peaches, nectarines and plums, med serv/day</description>
+	<type>decimal</type>
+	<unit>servings</unit>
+	<logical_min>0</logical_min>
+	<logical_max>3</logical_max>
+	<comment>Peaches, nectarines, and plums (fresh or canned), medium servings/day</comment>
+</variable>
+
+<variable id="phv00111747.v1">
+	<name>CANTALOP</name>
+	<description>Item #4: Cantaloupe, orange melon, etc, med serv/day</description>
+	<type>decimal</type>
+	<unit>servings</unit>
+	<logical_min>0</logical_min>
+	<logical_max>3</logical_max>
+	<comment>Cantaloupe, orange melon, muskmelon, manga and papya, medium servings/day</comment>
+</variable>
+
+<variable id="phv00111748.v1">
+	<name>WATERMEL</name>
+	<description>&#39;Item #5: Watermelon and red melon, med serv/day</description>
+	<type>decimal</type>
+	<unit>servings</unit>
+	<logical_min>0</logical_min>
+	<logical_max>3</logical_max>
+	<comment>Watermelon and red melon, medium servings/day</comment>
+</variable>
+
+<variable id="phv00111749.v1">
+	<name>OTHMELON</name>
+	<description>Item #6: Other melons, med serv/day</description>
+	<type>decimal</type>
+	<unit>servings</unit>
+	<logical_min>0</logical_min>
+	<logical_max>3</logical_max>
+	<comment>All other melon, such as honeydew, medium servings/day</comment>
+</variable>
+
+<variable id="phv00111750.v1">
+	<name>APRICOT</name>
+	<description>Item #7: Apricots (fresh, canned or dried), med serv/day</description>
+	<type>decimal</type>
+	<unit>servings</unit>
+	<logical_min>0</logical_min>
+	<logical_max>3</logical_max>
+	<comment>Apricots (fresh, canned, or dried), medium servings/day</comment>
+</variable>
+
+<variable id="phv00111751.v1">
+	<name>DRYFRUIT</name>
+	<description>Item #8: Dried fruit, med serv/day</description>
+	<type>decimal</type>
+	<unit>servings</unit>
+	<logical_min>0</logical_min>
+	<logical_max>3</logical_max>
+	<comment>Other dried fruit, such as raisins and prunes, medium servings/day</comment>
+</variable>
+
+<variable id="phv00111752.v1">
+	<name>ORANGE</name>
+	<description>Item #9: Oranges, grapefruit and tangerines, med serv/day</description>
+	<type>decimal</type>
+	<unit>servings</unit>
+	<logical_min>0</logical_min>
+	<logical_max>3</logical_max>
+	<comment>Oranges, grapefruit and tangerines (not juice), medium servings/day</comment>
+</variable>
+
+<variable id="phv00111753.v1">
+	<name>STRAWBER</name>
+	<description>Item #10: Strawberries and kiwi, med serv/day</description>
+	<type>decimal</type>
+	<unit>servings</unit>
+	<logical_min>0</logical_min>
+	<logical_max>3</logical_max>
+	<comment>Strawberries and kiwi, medium servings/day</comment>
+</variable>
+
+<variable id="phv00111754.v1">
+	<name>OTHFRUIT</name>
+	<description>Item #11: Other fruit, med serv/day</description>
+	<type>decimal</type>
+	<unit>servings</unit>
+	<logical_min>0</logical_min>
+	<logical_max>3</logical_max>
+	<comment>Any other fruit, such as fruit cocktail, berries, grapes, applesauce, pineapple medium servings/day</comment>
+</variable>
+
+<variable id="phv00111755.v1">
+	<name>OJ</name>
+	<description>Item #12: Orange or grapefruit juice, med serv/day</description>
+	<type>decimal</type>
+	<unit>servings</unit>
+	<logical_min>0</logical_min>
+	<logical_max>3</logical_max>
+	<comment>Orange juice and grapefruit juice, medium servings/day</comment>
+</variable>
+
+<variable id="phv00111756.v1">
+	<name>KOOLAID</name>
+	<description>Item #13:Tang/Kool-Aid/Hi-C/other fruit drinks, med serv/day</description>
+	<type>decimal</type>
+	<unit>servings</unit>
+	<logical_min>0</logical_min>
+	<logical_max>3</logical_max>
+	<comment>Tang, Kool-Aid, Hi-C, and other fruit drinks, medium servings/day</comment>
+</variable>
+
+<variable id="phv00111757.v1">
+	<name>FRTJUICE</name>
+	<description>Item #14:Other fruit juices, med serv/day</description>
+	<type>decimal</type>
+	<unit>servings</unit>
+	<logical_min>0</logical_min>
+	<logical_max>3</logical_max>
+	<comment>Other fruit juices such as apple, grape, medium servings/day</comment>
+</variable>
+
+<variable id="phv00111758.v1">
+	<name>GRNBEAN</name>
+	<description>Item #15: Green or string beans, med serv/day</description>
+	<type>decimal</type>
+	<unit>servings</unit>
+	<logical_min>0</logical_min>
+	<logical_max>3</logical_max>
+	<comment>Green or string beans, medium servings/day</comment>
+</variable>
+
+<variable id="phv00111759.v1">
+	<name>GRNPEAS</name>
+	<description>Item #16: Green or English peas, med serv/day</description>
+	<type>decimal</type>
+	<unit>servings</unit>
+	<logical_min>0</logical_min>
+	<logical_max>3</logical_max>
+	<comment>Green or English peas, medium servings/day</comment>
+</variable>
+
+<variable id="phv00111760.v1">
+	<name>REFRIED</name>
+	<description>Item #17: Refried beans, med serv/day</description>
+	<type>decimal</type>
+	<unit>servings</unit>
+	<logical_min>0</logical_min>
+	<logical_max>3</logical_max>
+	<comment>Refried beans, medium servings/day</comment>
+</variable>
+
+<variable id="phv00111761.v1">
+	<name>BEANS</name>
+	<description>Item #18: Other beans (baked, lima, etc), med serv/day</description>
+	<type>decimal</type>
+	<unit>servings</unit>
+	<logical_min>0</logical_min>
+	<logical_max>3</logical_max>
+	<comment>All other beans such as baked beans, lima beans, black-eyed peas and chili without meat, medium servings/day</comment>
+</variable>
+
+<variable id="phv00111762.v1">
+	<name>TOFU</name>
+	<description>Item #19: Tofu and textured vegetable products, med serv/day</description>
+	<type>decimal</type>
+	<unit>servings</unit>
+	<logical_min>0</logical_min>
+	<logical_max>3</logical_max>
+	<comment>Tofu and textured vegetable products medium servings/day</comment>
+</variable>
+
+<variable id="phv00111763.v1">
+	<name>AVOCADO</name>
+	<description>Item #20: Avocado and guacamole, med serv/day</description>
+	<type>decimal</type>
+	<unit>servings</unit>
+	<logical_min>0</logical_min>
+	<logical_max>3</logical_max>
+	<comment>Avocado and guacamole, including added to mixed dishes, medium servings/day</comment>
+</variable>
+
+<variable id="phv00111764.v1">
+	<name>CORN</name>
+	<description>Item #21: Corn and hominy, med serv/day</description>
+	<type>decimal</type>
+	<unit>servings</unit>
+	<logical_min>0</logical_min>
+	<logical_max>3</logical_max>
+	<comment>Corn and hominy, medium servings/day</comment>
+</variable>
+
+<variable id="phv00111765.v1">
+	<name>TOMATO</name>
+	<description>Item #22: Tomatoes, fresh or juice, med serv/day</description>
+	<type>decimal</type>
+	<unit>servings</unit>
+	<logical_min>0</logical_min>
+	<logical_max>3</logical_max>
+	<comment>Tomatoes, fresh or juice, medium servings/day</comment>
+</variable>
+
+<variable id="phv00111766.v1">
+	<name>TOMATOC</name>
+	<description>Item #23: Tomatoes cooked, sauce/salsa/picante, med serv/day</description>
+	<type>decimal</type>
+	<unit>servings</unit>
+	<logical_min>0</logical_min>
+	<logical_max>3</logical_max>
+	<comment>Tomatoes cooked, tomato sauce, salsa and salsa picante, medium servings/day</comment>
+</variable>
+
+<variable id="phv00111767.v1">
+	<name>GRNPEPP</name>
+	<description>Item #24: Green peppers/chilies, jalapenos, med serv/day</description>
+	<type>decimal</type>
+	<unit>servings</unit>
+	<logical_min>0</logical_min>
+	<logical_max>3</logical_max>
+	<comment>Green peppers, green chilies, jalapenos, and green chili salsa, medium servings/day</comment>
+</variable>
+
+<variable id="phv00111768.v1">
+	<name>REDPEPP</name>
+	<description>Item #25: Red peppers/chilies, med serv/day</description>
+	<type>decimal</type>
+	<unit>servings</unit>
+	<logical_min>0</logical_min>
+	<logical_max>3</logical_max>
+	<comment>Red peppers and red chilies, medium servings/day</comment>
+</variable>
+
+<variable id="phv00111769.v1">
+	<name>BROCCOLI</name>
+	<description>Item #26: Broccoli, med serv/day</description>
+	<type>decimal</type>
+	<unit>servings</unit>
+	<logical_min>0</logical_min>
+	<logical_max>3</logical_max>
+	<comment>Broccoli, medium servings/day</comment>
+</variable>
+
+<variable id="phv00111770.v1">
+	<name>GREENS</name>
+	<description>Item #27: Cooked Greens (spinach, mustard, etc), med serv/day</description>
+	<type>decimal</type>
+	<unit>servings</unit>
+	<logical_min>0</logical_min>
+	<logical_max>3</logical_max>
+	<comment>Cooked greens, such as spinach, mustard greens, turnip greens, collards med servings/day</comment>
+</variable>
+
+<variable id="phv00111771.v1">
+	<name>CARROT</name>
+	<description>Item #28: Carrots, incl mixed dishes, med serv/day</description>
+	<type>decimal</type>
+	<unit>servings</unit>
+	<logical_min>0</logical_min>
+	<logical_max>3</logical_max>
+	<comment>Carrots, including mixed dishes with carrots, medium servings/day</comment>
+</variable>
+
+<variable id="phv00111772.v1">
+	<name>SUMSQASH</name>
+	<description>Item #29: Summer squash/zucchini/nopales/okra, med serv/day</description>
+	<type>decimal</type>
+	<unit>servings</unit>
+	<logical_min>0</logical_min>
+	<logical_max>3</logical_max>
+	<comment>Summer squash, zucchini, nopales, and okra, medium servs/day</comment>
+</variable>
+
+<variable id="phv00111773.v1">
+	<name>WINSQASH</name>
+	<description>Item #30: Winter squash (acorn/butternut/pumpkin), med serv/day</description>
+	<type>decimal</type>
+	<unit>servings</unit>
+	<logical_min>0</logical_min>
+	<logical_max>3</logical_max>
+	<comment>Winter squash, such as acorn, butternut, pumpkin, medium servings/day</comment>
+</variable>
+
+<variable id="phv00111774.v1">
+	<name>COLESLAW</name>
+	<description>Item #31: Coleslaw, med serv/day</description>
+	<type>decimal</type>
+	<unit>servings</unit>
+	<logical_min>0</logical_min>
+	<logical_max>3</logical_max>
+	<comment>Coleslaw, medium servings/day</comment>
+</variable>
+
+<variable id="phv00111775.v1">
+	<name>CAULIF</name>
+	<description>Item #32: Cauliflower/cabbg/skraut/Brussels sprout, med serv/day</description>
+	<type>decimal</type>
+	<unit>servings</unit>
+	<logical_min>0</logical_min>
+	<logical_max>3</logical_max>
+	<comment>Cauliflower, cabbage, sauerkraut and Brussels sprouts, medium servings/day</comment>
+</variable>
+
+<variable id="phv00111776.v1">
+	<name>ONION</name>
+	<description>Item #33: Onions and leeks, incl in cooking, med serv/day</description>
+	<type>decimal</type>
+	<unit>servings</unit>
+	<logical_min>0</logical_min>
+	<logical_max>3</logical_max>
+	<comment>Onions amd leeks, including in cooking, medium servings/day</comment>
+</variable>
+
+<variable id="phv00111777.v1">
+	<name>LETTUCE</name>
+	<description>Item #34: Lettuce and plain lettuce salad, med serv/day</description>
+	<type>decimal</type>
+	<unit>servings</unit>
+	<logical_min>0</logical_min>
+	<logical_max>3</logical_max>
+	<comment>Lettuce and plain lettuce salad, medium servings/day</comment>
+</variable>
+
+<variable id="phv00111778.v1">
+	<name>SALAD</name>
+	<description>Item #35: Mixed lettuce/spinach salad w/veg, med serv/day</description>
+	<type>decimal</type>
+	<unit>servings</unit>
+	<logical_min>0</logical_min>
+	<logical_max>3</logical_max>
+	<comment>Mixed lettuce or spinach salad with vegetables such as carrots or tomatoes, medium servings/day</comment>
+</variable>
+
+<variable id="phv00111779.v1">
+	<name>DRESSING</name>
+	<description>Item #36: Salad dressing (Italian/1000 Is/French), med serv/day</description>
+	<type>decimal</type>
+	<unit>servings</unit>
+	<logical_min>0</logical_min>
+	<logical_max>3</logical_max>
+	<comment>Salad dressing such as Italian, 1000-Island, French (include low-fat and fat-free dressings), medium servings/day</comment>
+</variable>
+
+<variable id="phv00111780.v1">
+	<name>PLANTAIN</name>
+	<description>Item #37: Plantains, fried, med serv/day</description>
+	<type>decimal</type>
+	<unit>servings</unit>
+	<logical_min>0</logical_min>
+	<logical_max>3</logical_max>
+	<comment>Plantains, fried, medium servings/day</comment>
+</variable>
+
+<variable id="phv00111781.v1">
+	<name>FRIES</name>
+	<description>Item #38: French fries/fried potatoes, etc, med serv/day</description>
+	<type>decimal</type>
+	<unit>servings</unit>
+	<logical_min>0</logical_min>
+	<logical_max>3</logical_max>
+	<comment>French fries, fried potatoes, fried rice, fried cassava and fritters, medium servings/day</comment>
+</variable>
+
+<variable id="phv00111782.v1">
+	<name>YAM</name>
+	<description>Item #39: Sweet potatoes and yams, med serv/day</description>
+	<type>decimal</type>
+	<unit>servings</unit>
+	<logical_min>0</logical_min>
+	<logical_max>3</logical_max>
+	<comment>Sweet potatoes and yams, medium servings/day</comment>
+</variable>
+
+<variable id="phv00111783.v1">
+	<name>POTATO</name>
+	<description>Item #40: Other potato/cassava/yucca, med serv/day</description>
+	<type>decimal</type>
+	<unit>servings</unit>
+	<logical_min>0</logical_min>
+	<logical_max>3</logical_max>
+	<comment>Other potatoes, cassava, and yucca (boiled, baked, or mashed), medium servings/day</comment>
+</variable>
+
+<variable id="phv00111784.v1">
+	<name>PSALAD</name>
+	<description>Item #41: Potato,macaroni,pasta salad w/mayo,oil, med serv/day</description>
+	<type>decimal</type>
+	<unit>servings</unit>
+	<logical_min>0</logical_min>
+	<logical_max>3</logical_max>
+	<comment>Potato, macaroni, or pasta salads made with mayonnaise or oil, medium servings/day</comment>
+</variable>
+
+<variable id="phv00111785.v1">
+	<name>RICE</name>
+	<description>Item #42: Rice, grains and plain noodles, med serv/day</description>
+	<type>decimal</type>
+	<unit>servings</unit>
+	<logical_min>0</logical_min>
+	<logical_max>3</logical_max>
+	<comment>Rice, grains and plain noodles, medium servings/day</comment>
+</variable>
+
+<variable id="phv00111786.v1">
+	<name>FAT</name>
+	<description>Item #43: Fats added after cooking, med serv/day</description>
+	<type>decimal</type>
+	<unit>servings</unit>
+	<logical_min>0</logical_min>
+	<logical_max>3</logical_max>
+	<comment>Butter, margarine, sour cream, oils, or other fat added to vegetables, beans, rice, and potatoes, after cooking medium servings/day</comment>
+</variable>
+
+<variable id="phv00111787.v1">
+	<name>GRNDMEAT</name>
+	<description>Item #44: Ground meat (hamburg/meatloaf/picadillo), med serv/day</description>
+	<type>decimal</type>
+	<unit>servings</unit>
+	<logical_min>0</logical_min>
+	<logical_max>3</logical_max>
+	<comment>Ground meat including hamburgers, meatloaf, and picadillo, medium servings/day</comment>
+</variable>
+
+<variable id="phv00111788.v1">
+	<name>STEAK</name>
+	<description>Item #45: Beef/pork/lamb m dish (steak/roast/ham), med serv/day</description>
+	<type>decimal</type>
+	<unit>servings</unit>
+	<logical_min>0</logical_min>
+	<logical_max>3</logical_max>
+	<comment>Beef, pork and lamb as a main dish, such as steak, roast and ham, medium servings/day</comment>
+</variable>
+
+<variable id="phv00111789.v1">
+	<name>BBQSAND</name>
+	<description>Item #46: Beef/pork/lamb as sandwich (steak/bbq), med serv/day</description>
+	<type>decimal</type>
+	<unit>servings</unit>
+	<logical_min>0</logical_min>
+	<logical_max>3</logical_max>
+	<comment>Beef, pork and lamb as a sandwich (steak sandwich, BBQ sandwich), medium servings/day</comment>
+</variable>
+
+<variable id="phv00111790.v1">
+	<name>STEW</name>
+	<description>Item #47: Stew/potpie/casserole w/meat or chicken, med serv/day</description>
+	<type>decimal</type>
+	<unit>servings</unit>
+	<logical_min>0</logical_min>
+	<logical_max>3</logical_max>
+	<comment>Stew, pot pie and casseroles with meat or chicken, medium servings/day</comment>
+</variable>
+
+<variable id="phv00111791.v1">
+	<name>CHILI</name>
+	<description>Item #48: Chili with meat and beans, med serv/day</description>
+	<type>decimal</type>
+	<unit>servings</unit>
+	<logical_min>0</logical_min>
+	<logical_max>3</logical_max>
+	<comment>Chili with meat and beans, medium servings/day</comment>
+</variable>
+
+<variable id="phv00111792.v1">
+	<name>LIVER</name>
+	<description>Item #49: Liver (chicken liver and oth organ meat), med serv/day</description>
+	<type>decimal</type>
+	<unit>servings</unit>
+	<logical_min>0</logical_min>
+	<logical_max>3</logical_max>
+	<comment>Liver, including chicken liver, and other organ meats, medium servings/day</comment>
+</variable>
+
+<variable id="phv00111793.v1">
+	<name>FRYCHICK</name>
+	<description>Item #50: Fried chicken, med serv/day</description>
+	<type>decimal</type>
+	<unit>servings</unit>
+	<logical_min>0</logical_min>
+	<logical_max>3</logical_max>
+	<comment>Fried chicken, medium servings/day</comment>
+</variable>
+
+<variable id="phv00111794.v1">
+	<name>ROSTCHIC</name>
+	<description>Item #51: Chicken and turkey (roast/stew/broil), med serv/day</description>
+	<type>decimal</type>
+	<unit>servings</unit>
+	<logical_min>0</logical_min>
+	<logical_max>3</logical_max>
+	<comment>Chicken and turkey (roasted, stewed, or broiled) medium servings/day</comment>
+</variable>
+
+<variable id="phv00111795.v1">
+	<name>GRAVY</name>
+	<description>Item #52: Gravy made w/meat dripping and wht sauce, med serv/day</description>
+	<type>decimal</type>
+	<unit>servings</unit>
+	<logical_min>0</logical_min>
+	<logical_max>3</logical_max>
+	<comment>Gravies made with meat drippings and white sauce, medium servings/day</comment>
+</variable>
+
+<variable id="phv00111796.v1">
+	<name>FRYFISH</name>
+	<description>Item #53: Fried fish/fish sandwich/fried shellfish, med serv/day</description>
+	<type>decimal</type>
+	<unit>servings</unit>
+	<logical_min>0</logical_min>
+	<logical_max>3</logical_max>
+	<comment>Fried fish, fish sandwich, and fried shellfish (shrimp, oysters) medium servings/day</comment>
+</variable>
+
+<variable id="phv00111797.v1">
+	<name>SHELFISH</name>
+	<description>Item #54: Shellfish(not fried)-shrimp/lobster etc, med serv/day</description>
+	<type>decimal</type>
+	<unit>servings</unit>
+	<logical_min>0</logical_min>
+	<logical_max>3</logical_max>
+	<comment>Shellfish, not fried (shrimp, lobster, crab and oysters), medium servings/day</comment>
+</variable>
+
+<variable id="phv00111798.v1">
+	<name>TUNA</name>
+	<description>Item #55: Canned tuna, tuna salad and tuna casserole, med serv/day</description>
+	<type>decimal</type>
+	<unit>servings</unit>
+	<logical_min>0</logical_min>
+	<logical_max>3</logical_max>
+	<comment>Canned tuna, tuna salad, and tuna casserole, medium servings/day</comment>
+</variable>
+
+<variable id="phv00111799.v1">
+	<name>WHITFISH</name>
+	<description>Item #56: White fish (broiled or baked), med serv/day</description>
+	<type>decimal</type>
+	<unit>servings</unit>
+	<logical_min>0</logical_min>
+	<logical_max>3</logical_max>
+	<comment>White fish (broiled or baked) such as sole, snapper, cod, medium servings/day</comment>
+</variable>
+
+<variable id="phv00111800.v1">
+	<name>DARKFISH</name>
+	<description>Item #57: Dark fish (broiled or baked), med serv/day</description>
+	<type>decimal</type>
+	<unit>servings</unit>
+	<logical_min>0</logical_min>
+	<logical_max>3</logical_max>
+	<comment>Dark fish (broiled or baked) such as salmon, mackerel, bluefish, medium servings/day</comment>
+</variable>
+
+<variable id="phv00111801.v1">
+	<name>MACCHEES</name>
+	<description>Item #58: Mac and cheese/lasagna/noodles w/cream sauce, med serv/day</description>
+	<type>decimal</type>
+	<unit>servings</unit>
+	<logical_min>0</logical_min>
+	<logical_max>3</logical_max>
+	<comment>Macaroni and cheese, lasagna, or noodles with a cream sauce, medium servings/day</comment>
+</variable>
+
+<variable id="phv00111802.v1">
+	<name>SPAGMEAT</name>
+	<description>Item #59: Spaghetti with meat sauce, med serv/day</description>
+	<type>decimal</type>
+	<unit>servings</unit>
+	<logical_min>0</logical_min>
+	<logical_max>3</logical_max>
+	<comment>Spaghetti or other noodles with meat sauce, medium servings/day</comment>
+</variable>
+
+<variable id="phv00111803.v1">
+	<name>SPAGTOM</name>
+	<description>Item #60: Spaghetti with tomato sauce, med serv/day</description>
+	<type>decimal</type>
+	<unit>servings</unit>
+	<logical_min>0</logical_min>
+	<logical_max>3</logical_max>
+	<comment>Spaghetti or other noodles with tomato sauce (and no meat), medium servings/day</comment>
+</variable>
+
+<variable id="phv00111804.v1">
+	<name>LOWPIZZA</name>
+	<description>Item #61: Low-fat pizza, med serv/day</description>
+	<type>decimal</type>
+	<unit>servings</unit>
+	<logical_min>0</logical_min>
+	<logical_max>1.08493</logical_max>
+	<comment>Low-fat pizza, medium servings/day</comment>
+</variable>
+
+<variable id="phv00111805.v1">
+	<name>PIZZA</name>
+	<description>Item #62: Pizza, med serv/day</description>
+	<type>decimal</type>
+	<unit>servings</unit>
+	<logical_min>0</logical_min>
+	<logical_max>3</logical_max>
+	<comment>Pizza, medium servings/day</comment>
+</variable>
+
+<variable id="phv00111806.v1">
+	<name>TAMALE</name>
+	<description>Item #63: Tamales, with or w/o meat, med serv/day</description>
+	<type>decimal</type>
+	<unit>servings</unit>
+	<logical_min>0</logical_min>
+	<logical_max>3</logical_max>
+	<comment>Tamales, with or without meat, medium servings/day</comment>
+</variable>
+
+<variable id="phv00111807.v1">
+	<name>CHILAQ</name>
+	<description>Item #64: Chilaquiles, med serv/day</description>
+	<type>decimal</type>
+	<unit>servings</unit>
+	<logical_min>0</logical_min>
+	<logical_max>2</logical_max>
+	<comment>Chilaquiles, medium servings/day</comment>
+</variable>
+
+<variable id="phv00111808.v1">
+	<name>QUESAS</name>
+	<description>Item #65: Soft quesadilla, med serv/day</description>
+	<type>decimal</type>
+	<unit>servings</unit>
+	<logical_min>0</logical_min>
+	<logical_max>2</logical_max>
+	<comment>Soft quesadilla, medium servings/day</comment>
+</variable>
+
+<variable id="phv00111809.v1">
+	<name>QUESAC</name>
+	<description>Item #66: Crispy quesadilla and chili relleno, med serv/day</description>
+	<type>decimal</type>
+	<unit>servings</unit>
+	<logical_min>0</logical_min>
+	<logical_max>2</logical_max>
+	<comment>Crispy quesadilla and chili relleno, medium servings/day</comment>
+</variable>
+
+<variable id="phv00111810.v1">
+	<name>TACOSFT</name>
+	<description>Item #67: Soft taco and enchilada baked w/o oil, med serv/day</description>
+	<type>decimal</type>
+	<unit>servings</unit>
+	<logical_min>0</logical_min>
+	<logical_max>3</logical_max>
+	<comment>Soft taco and enchilada baked without oil, medium servings/day</comment>
+</variable>
+
+<variable id="phv00111811.v1">
+	<name>FLAUTA</name>
+	<description>Item #68: Flauta and crispy rolled taco, med serv/day</description>
+	<type>decimal</type>
+	<unit>servings</unit>
+	<logical_min>0</logical_min>
+	<logical_max>3</logical_max>
+	<comment>Flauta and crispy rolled taco, medium servings/day</comment>
+</variable>
+
+<variable id="phv00111812.v1">
+	<name>BURRITO</name>
+	<description>Item #69: Regular burrito and enchilada, med serv/day</description>
+	<type>decimal</type>
+	<unit>servings</unit>
+	<logical_min>0</logical_min>
+	<logical_max>2</logical_max>
+	<comment>Regular burrito and enchilada, medium servings/day</comment>
+</variable>
+
+<variable id="phv00111813.v1">
+	<name>TACO</name>
+	<description>Item #70: Taco and tostada, med serv/day</description>
+	<type>decimal</type>
+	<unit>servings</unit>
+	<logical_min>0</logical_min>
+	<logical_max>3</logical_max>
+	<comment>Taco and tostada, medium servings/day</comment>
+</variable>
+
+<variable id="phv00111814.v1">
+	<name>LNCHHAM</name>
+	<description>Item #71: Lunch meat (ham/turkey/lean meat), med serv/day</description>
+	<type>decimal</type>
+	<unit>servings</unit>
+	<logical_min>0</logical_min>
+	<logical_max>3</logical_max>
+	<comment>Lunch meat such as ham, turkey and other special lean meats, medium servings/day</comment>
+</variable>
+
+<variable id="phv00111815.v1">
+	<name>LNCHBOL</name>
+	<description>Item #72: Other lunch meat (bologna/salami/spam), med serv/day</description>
+	<type>decimal</type>
+	<unit>servings</unit>
+	<logical_min>0</logical_min>
+	<logical_max>3</logical_max>
+	<comment>All other lunch meat such as bologna, salami, Spam, potted and canned meat, medium servings/day</comment>
+</variable>
+
+<variable id="phv00111816.v1">
+	<name>HOTDOG</name>
+	<description>Item #73: Hot dogs/chorizo/sausage/bratwurst, med serv/day</description>
+	<type>decimal</type>
+	<unit>servings</unit>
+	<logical_min>0</logical_min>
+	<logical_max>3</logical_max>
+	<comment>Hot dogs, chorizo, other sausage such as bratwurst, medium servings/day</comment>
+</variable>
+
+<variable id="phv00111817.v1">
+	<name>CRMSOUP</name>
+	<description>Item #74: Cream soups (chowder/potato/tomato etc), med serv/day</description>
+	<type>decimal</type>
+	<unit>servings</unit>
+	<logical_min>0</logical_min>
+	<logical_max>3</logical_max>
+	<comment>Cream soups such as chowders, potato, tomato, cheese, ajiaco, medium servings/day</comment>
+</variable>
+
+<variable id="phv00111818.v1">
+	<name>BEANSOUP</name>
+	<description>Item #75: Bean soup (pea/lentil/blk bean/potajes), med serv/day</description>
+	<type>decimal</type>
+	<unit>servings</unit>
+	<logical_min>0</logical_min>
+	<logical_max>3</logical_max>
+	<comment>Bean soups such as pea, lentil, black bean, potajes, medium servings/day</comment>
+</variable>
+
+<variable id="phv00111819.v1">
+	<name>VEGSOUP</name>
+	<description>Item #76: Vegetable soups, med serv/day</description>
+	<type>decimal</type>
+	<unit>servings</unit>
+	<logical_min>0</logical_min>
+	<logical_max>3</logical_max>
+	<comment>Vegetable soups, medium servings/day</comment>
+</variable>
+
+<variable id="phv00111820.v1">
+	<name>MENUDO</name>
+	<description>Item #77: Menudo and tortilla soup, med serv/day</description>
+	<type>decimal</type>
+	<unit>servings</unit>
+	<logical_min>0</logical_min>
+	<logical_max>3</logical_max>
+	<comment>Menudo and tortilla soup, medium servings/day</comment>
+</variable>
+
+<variable id="phv00111821.v1">
+	<name>OTHSOUP</name>
+	<description>Item #78: Other soups (e.g. chicken noodle), med serv/day</description>
+	<type>decimal</type>
+	<unit>servings</unit>
+	<logical_min>0</logical_min>
+	<logical_max>3</logical_max>
+	<comment>Other soups such as chicken noodle, medium servings/day</comment>
+</variable>
+
+<variable id="phv00111822.v1">
+	<name>BISCUIT</name>
+	<description>Item #79: Biscuit/muffin/scone/croissant, med serv/day</description>
+	<type>decimal</type>
+	<unit>servings</unit>
+	<logical_min>0</logical_min>
+	<logical_max>3</logical_max>
+	<comment>Biscuits, muffins, scones, and croissants medium servings/day</comment>
+</variable>
+
+<variable id="phv00111823.v1">
+	<name>WHITBRD</name>
+	<description>Item #80: White breads (bagel/roll/pita/Eng muff), med serv/day</description>
+	<type>decimal</type>
+	<unit>servings</unit>
+	<logical_min>0</logical_min>
+	<logical_max>3</logical_max>
+	<comment>White breads, including bagels, rolls, pita bread, and English muffins, medium servings/day</comment>
+</variable>
+
+<variable id="phv00111824.v1">
+	<name>DRKBRD</name>
+	<description>Item #81: Drk bread (drk bagel/roll/pita/Eng muff), med serv/day</description>
+	<type>decimal</type>
+	<unit>servings</unit>
+	<logical_min>0</logical_min>
+	<logical_max>3</logical_max>
+	<comment>Dark breads including dark bagels, rolls, pita bread, and English muffins, medium servings/day</comment>
+</variable>
+
+<variable id="phv00111825.v1">
+	<name>CORNBRD</name>
+	<description>Item #82: Cornbread/corn muffin/cornmeal mush, med serv/day</description>
+	<type>decimal</type>
+	<unit>servings</unit>
+	<logical_min>0</logical_min>
+	<logical_max>3</logical_max>
+	<comment>Corn bread, corn muffins, and cornmeal mush, medium servings/day</comment>
+</variable>
+
+<variable id="phv00111826.v1">
+	<name>TORTILC</name>
+	<description>Item #83: Tortillas, corn (not incl tacos), med serv/day</description>
+	<type>decimal</type>
+	<unit>servings</unit>
+	<logical_min>0</logical_min>
+	<logical_max>3</logical_max>
+	<comment>Tortillas, corn (not including tacos), medium servings/day</comment>
+</variable>
+
+<variable id="phv00111827.v1">
+	<name>TORTILF</name>
+	<description>Item #84: Tortillas, flour/wheat (not incl tacos), med serv/day</description>
+	<type>decimal</type>
+	<unit>servings</unit>
+	<logical_min>0</logical_min>
+	<logical_max>3</logical_max>
+	<comment>Tortillas, flour/wheat (not including tacos), medium servings/day</comment>
+</variable>
+
+<variable id="phv00111828.v1">
+	<name>FRYBRD</name>
+	<description>Item #85: Indian fry bread, med serv/day</description>
+	<type>decimal</type>
+	<unit>servings</unit>
+	<logical_min>0</logical_min>
+	<logical_max>2</logical_max>
+	<comment>Indian fry bread, medium servings/day</comment>
+</variable>
+
+<variable id="phv00111829.v1">
+	<name>CHIPS</name>
+	<description>Item #86: Snacks (chips/prkskins/Ritzandchees crack), med serv/day</description>
+	<type>decimal</type>
+	<unit>servings</unit>
+	<logical_min>0</logical_min>
+	<logical_max>3</logical_max>
+	<comment>Snacks such as potato chips, corn chips, tortilla chips, pork skins, Ritz and cheese crackers, medium servings/day</comment>
+</variable>
+
+<variable id="phv00111830.v1">
+	<name>SALTINE</name>
+	<description>Item #87: Saltines/SnackWell&#39;s/fat-free chips, med serv/day</description>
+	<type>decimal</type>
+	<unit>servings</unit>
+	<logical_min>0</logical_min>
+	<logical_max>3</logical_max>
+	<comment>Saltines, SnackWells, fat-free tortilla chips, and fat-free potato chips, medium servings/day</comment>
+</variable>
+
+<variable id="phv00111831.v1">
+	<name>SNKPOPC</name>
+	<description>Item #88: Popcorn, med serv/day</description>
+	<type>decimal</type>
+	<unit>servings</unit>
+	<logical_min>0</logical_min>
+	<logical_max>3</logical_max>
+	<comment>Popcorn, medium servings/day</comment>
+</variable>
+
+<variable id="phv00111832.v1">
+	<name>PEANUT</name>
+	<description>Item #89: Peanut butter/peanuts/oth nuts/seeds, med serv/day</description>
+	<type>decimal</type>
+	<unit>servings</unit>
+	<logical_min>0</logical_min>
+	<logical_max>3</logical_max>
+	<comment>Peanut butter, peanuts, other nuts and seeds, medium servings/day</comment>
+</variable>
+
+<variable id="phv00111833.v1">
+	<name>BUTTER</name>
+	<description>Item #90: Butter/marg/oil on bread or tortillas, med serv/day</description>
+	<type>decimal</type>
+	<unit>servings</unit>
+	<logical_min>0</logical_min>
+	<logical_max>3</logical_max>
+	<comment>Butter, margarine or oil, on bread or tortillas, medium servings/day</comment>
+</variable>
+
+<variable id="phv00111834.v1">
+	<name>MAYON</name>
+	<description>Item #91: Mayo and spreads on sandwiches and salads, med serv/day</description>
+	<type>decimal</type>
+	<unit>servings</unit>
+	<logical_min>0</logical_min>
+	<logical_max>3</logical_max>
+	<comment>Mayonnaise and mayonnaise type spreads on sandwiches and in salads, medium servings/day</comment>
+</variable>
+
+<variable id="phv00111835.v1">
+	<name>CLDCERL</name>
+	<description>Item #92: Cold cereal, med serv/day</description>
+	<type>decimal</type>
+	<unit>servings</unit>
+	<logical_min>0</logical_min>
+	<logical_max>3</logical_max>
+	<comment>Cold cereal, medium servings/day</comment>
+</variable>
+
+<variable id="phv00111836.v1">
+	<name>COOKCER</name>
+	<description>Item #93: Cooked cereals and grits, med serv/day</description>
+	<type>decimal</type>
+	<unit>servings</unit>
+	<logical_min>0</logical_min>
+	<logical_max>3</logical_max>
+	<comment>Cooked cereals and grits, medium servings/day</comment>
+</variable>
+
+<variable id="phv00111837.v1">
+	<name>MARGCER</name>
+	<description>Item #94: Marg/butter added to cooked cereal, med serv/day</description>
+	<type>decimal</type>
+	<unit>servings</unit>
+	<logical_min>0</logical_min>
+	<logical_max>3</logical_max>
+	<comment>Margarine or butter added to cooked cereal or grits, medium servings/day</comment>
+</variable>
+
+<variable id="phv00111838.v1">
+	<name>MLKCERL</name>
+	<description>Item #95: Milk on cereal (cold and cooked), med serv/day</description>
+	<type>decimal</type>
+	<unit>servings</unit>
+	<logical_min>0</logical_min>
+	<logical_max>3</logical_max>
+	<comment>Milk on cereal (cold and cooked), medium servings/day</comment>
+</variable>
+
+<variable id="phv00111839.v1">
+	<name>PANCAKE</name>
+	<description>Item #96: Pancakes and waffles, med serv/day</description>
+	<type>decimal</type>
+	<unit>servings</unit>
+	<logical_min>0</logical_min>
+	<logical_max>3</logical_max>
+	<comment>Pancakes and waffles, medium servings/day</comment>
+</variable>
+
+<variable id="phv00111840.v1">
+	<name>EGGS</name>
+	<description>Item #97: Eggs, med serv/day</description>
+	<type>decimal</type>
+	<unit>servings</unit>
+	<logical_min>0</logical_min>
+	<logical_max>3</logical_max>
+	<comment>Eggs, medium servings/day</comment>
+</variable>
+
+<variable id="phv00111841.v1">
+	<name>BACON</name>
+	<description>Item #98: Bacon/breakfast sausage/scrapple, med serv/day</description>
+	<type>decimal</type>
+	<unit>servings</unit>
+	<logical_min>0</logical_min>
+	<logical_max>3</logical_max>
+	<comment>Bacon, breakfast sausage, and scrapple, medium servings/day</comment>
+</variable>
+
+<variable id="phv00111842.v1">
+	<name>LFCOTCH</name>
+	<description>Item #99: Low-fat cottage cheese, med serv/day</description>
+	<type>decimal</type>
+	<unit>servings</unit>
+	<logical_min>0</logical_min>
+	<logical_max>3</logical_max>
+	<comment>Low-fat cottage cheese, medium servings/day</comment>
+</variable>
+
+<variable id="phv00111843.v1">
+	<name>COTCHEES</name>
+	<description>Item #100: Cottage and ricotta cheese, med serv/day</description>
+	<type>decimal</type>
+	<unit>servings</unit>
+	<logical_min>0</logical_min>
+	<logical_max>3</logical_max>
+	<comment>Cottage cheese and ricotta cheese, medium servings/day</comment>
+</variable>
+
+<variable id="phv00111844.v1">
+	<name>NFCHEES</name>
+	<description>Item #101: Non-fat cheeses (incl w/cooking), med serv/day</description>
+	<type>decimal</type>
+	<unit>servings</unit>
+	<logical_min>0</logical_min>
+	<logical_max>3</logical_max>
+	<comment>Non-fat cheeses. Include cheese added to foods and in cooking, medium servings/day</comment>
+</variable>
+
+<variable id="phv00111845.v1">
+	<name>LFCHEES</name>
+	<description>Item #102: Part-skim or reduced fat cheeses, med serv/day</description>
+	<type>decimal</type>
+	<unit>servings</unit>
+	<logical_min>0</logical_min>
+	<logical_max>3</logical_max>
+	<comment>Part-skim or reduced fat cheeses, such as Mexican-type cheeses or mozzarella. Include cheese added to foods and in cooking, medium servings/day.</comment>
+</variable>
+
+<variable id="phv00111846.v1">
+	<name>OTHCHEE</name>
+	<description>Item #103: Other cheese (cheddar/Swiss/crm cheese), med serv/day</description>
+	<type>decimal</type>
+	<unit>servings</unit>
+	<logical_min>0</logical_min>
+	<logical_max>3</logical_max>
+	<comment>All other cheeses, such as cheddar, Swiss, or cream cheese. Include cheese added to foods and in cooking, medium servings/day</comment>
+</variable>
+
+<variable id="phv00111847.v1">
+	<name>NFYOGUR</name>
+	<description>Item #104: Non-fat yogurt (not frozen), med serv/day</description>
+	<type>decimal</type>
+	<unit>servings</unit>
+	<logical_min>0</logical_min>
+	<logical_max>3</logical_max>
+	<comment>Non-fat yogurt (not frozen), medium servings/day</comment>
+</variable>
+
+<variable id="phv00111848.v1">
+	<name>OTHYOGU</name>
+	<description>Item #105: Other yogurt (not frozen), med serv/day</description>
+	<type>decimal</type>
+	<unit>servings</unit>
+	<logical_min>0</logical_min>
+	<logical_max>3</logical_max>
+	<comment>All other yogurt (not frozen), medium servings/day</comment>
+</variable>
+
+<variable id="phv00111849.v1">
+	<name>ICECRM</name>
+	<description>Item #106: Ice cream, med serv/day</description>
+	<type>decimal</type>
+	<unit>servings</unit>
+	<logical_min>0</logical_min>
+	<logical_max>3</logical_max>
+	<comment>Ice cream, medium servings/day</comment>
+</variable>
+
+<variable id="phv00111850.v1">
+	<name>PUDDING</name>
+	<description>Item #107: Pudding, custard and flan, med serv/day</description>
+	<type>decimal</type>
+	<unit>servings</unit>
+	<logical_min>0</logical_min>
+	<logical_max>3</logical_max>
+	<comment>Pudding, custard and flan, medium servings/day</comment>
+</variable>
+
+<variable id="phv00111851.v1">
+	<name>LFDESST</name>
+	<description>Item #108: Low-fat or non-fat frozen desserts, med serv/day</description>
+	<type>decimal</type>
+	<unit>servings</unit>
+	<logical_min>0</logical_min>
+	<logical_max>3</logical_max>
+	<comment>Low-fat or no-fat frozen desserts, such as frozen yogurt, sherbet, ice milk, and low-fat milkshakes, medium servings/day</comment>
+</variable>
+
+<variable id="phv00111852.v1">
+	<name>DOUGHNT</name>
+	<description>Item #109: Doughnut/cake/pastry/Pop-Tart/pan dulce, med serv/day</description>
+	<type>decimal</type>
+	<unit>servings</unit>
+	<logical_min>0</logical_min>
+	<logical_max>3</logical_max>
+	<comment>Doughnuts, cakes, pastries, Pop-Tarts, and pan dulce medium servings/day</comment>
+</variable>
+
+<variable id="phv00111853.v1">
+	<name>COOKIES</name>
+	<description>Item #110: Cookies, med serv/day</description>
+	<type>decimal</type>
+	<unit>servings</unit>
+	<logical_min>0</logical_min>
+	<logical_max>3</logical_max>
+	<comment>Cookies, medium servings/day</comment>
+</variable>
+
+<variable id="phv00111854.v1">
+	<name>PUMPPIE</name>
+	<description>Item #111: Pumpkin and sweet potato pie, med serv/day</description>
+	<type>decimal</type>
+	<unit>servings</unit>
+	<logical_min>0</logical_min>
+	<logical_max>3</logical_max>
+	<comment>Pumpkin and sweet potato pie, medium servings/day</comment>
+</variable>
+
+<variable id="phv00111855.v1">
+	<name>OTHPIE</name>
+	<description>Item #112: Other pies/fried pastries/pastelitos etc, med serv/day</description>
+	<type>decimal</type>
+	<unit>servings</unit>
+	<logical_min>0</logical_min>
+	<logical_max>3</logical_max>
+	<comment>All other pies, fried pastries, pastelitos and fruit empanadas, medium servings/day</comment>
+</variable>
+
+<variable id="phv00111856.v1">
+	<name>CHOCOLT</name>
+	<description>Item #113: Chocolate candy and candy bars, med serv/day</description>
+	<type>decimal</type>
+	<unit>servings</unit>
+	<logical_min>0</logical_min>
+	<logical_max>3</logical_max>
+	<comment>Chocolate candy and candy bars, medium servings/day</comment>
+</variable>
+
+<variable id="phv00111857.v1">
+	<name>CANDY</name>
+	<description>Item #114: Hard candy/jam/jelly/honey/syrup, med serv/day</description>
+	<type>decimal</type>
+	<unit>servings</unit>
+	<logical_min>0</logical_min>
+	<logical_max>3</logical_max>
+	<comment>Hard candy, jam, jelly, honey, or syrup, medium servings/day</comment>
+</variable>
+
+<variable id="phv00111858.v1">
+	<name>MLKDRNK</name>
+	<description>Item #115: Milk, all types, not on cereal, med serv/day</description>
+	<type>decimal</type>
+	<unit>servings</unit>
+	<logical_min>0</logical_min>
+	<logical_max>9</logical_max>
+	<comment>Milk, all types (including canned and soy) not on cereal, medium servings/day</comment>
+</variable>
+
+<variable id="phv00111859.v1">
+	<name>POP</name>
+	<description>Item #116: Regular soft drinks (not diet), med serv/day</description>
+	<type>decimal</type>
+	<unit>servings</unit>
+	<logical_min>0</logical_min>
+	<logical_max>9</logical_max>
+	<comment>Regular soft drinks (not diet), medium servings/day</comment>
+</variable>
+
+<variable id="phv00111860.v1">
+	<name>BEER</name>
+	<description>Item #117: Beer, med serv/day</description>
+	<type>decimal</type>
+	<unit>servings</unit>
+	<logical_min>0</logical_min>
+	<logical_max>9</logical_max>
+	<comment>Beer, medium servings/day</comment>
+</variable>
+
+<variable id="phv00111861.v1">
+	<name>WINE</name>
+	<description>Item #118: Wine, med serv/day</description>
+	<type>decimal</type>
+	<unit>servings</unit>
+	<logical_min>0</logical_min>
+	<logical_max>9</logical_max>
+	<comment>Wine, medium servings/day</comment>
+</variable>
+
+<variable id="phv00111862.v1">
+	<name>LIQUOR</name>
+	<description>Item #119: Liquor, med serv/day</description>
+	<type>decimal</type>
+	<unit>servings</unit>
+	<logical_min>0</logical_min>
+	<logical_max>9</logical_max>
+	<comment>Liquor, medium servings/day</comment>
+</variable>
+
+<variable id="phv00111863.v1">
+	<name>COFFEE</name>
+	<description>Item #120: Coffee or tea (all types), med serv/day</description>
+	<type>decimal</type>
+	<unit>servings</unit>
+	<logical_min>0</logical_min>
+	<logical_max>9</logical_max>
+	<comment>Coffee or tea (all types), medium servings/day</comment>
+</variable>
+
+<variable id="phv00111864.v1">
+	<name>CREAM</name>
+	<description>Item #121: Milk/cream/creamer in coffee or tea, med serv/day</description>
+	<type>decimal</type>
+	<unit>servings</unit>
+	<logical_min>0</logical_min>
+	<logical_max>9</logical_max>
+	<comment>Milk, cream, or creamer in coffee or tea, medium servings/day</comment>
+</variable>
+
+<variable id="phv00111865.v1">
+	<name>SUGCOFF</name>
+	<description>Item #122: Sugar in coffee/tea and on cereal, med serv/day&#39;</description>
+	<type>decimal</type>
+	<unit>servings</unit>
+	<logical_min>0</logical_min>
+	<logical_max>9</logical_max>
+	<comment>Sugar in coffee or tea and on cereal, medium servings/day</comment>
+</variable>
+
+<variable id="phv00111866.v1">
+	<name>FRYFREQ</name>
+	<description>Item #123: Frequency used fat to deep-fry/pan fry/saute</description>
+	<type>encoded value</type>
+	<comment>How often did you use fat to deep fry, pan fry, or saute? Count all fat such as margarine, oil, bacon drippings, or lard.</comment>
+	<value code="1">Less that one per week</value>
+	<value code="2">1-2 per week</value>
+	<value code="3">3-4 per week</value>
+	<value code="4">5-6 per week</value>
+	<value code="5">1 per day</value>
+	<value code="6">2 per day</value>
+	<value code="7">3 per day</value>
+	<value code="8">4 per day</value>
+	<value code="9">5+ per day</value>
+</variable>
+
+<variable id="phv00111867.v1">
+	<name>FATFREQ</name>
+	<description>Item #124: Frequency used fat when cooking</description>
+	<type>encoded value</type>
+	<comment>How often did you add fat when cooking beans, rice, vegetables, and potatoes? Count all fat such as margarine, oil, bacon drippings, or lard.</comment>
+	<value code="1">Less than one per week</value>
+	<value code="2">1-2 per wek</value>
+	<value code="3">3-4 per week</value>
+	<value code="4">5-6 per week</value>
+	<value code="5">1 per day</value>
+	<value code="6">2 per day</value>
+	<value code="7">3 per day</value>
+	<value code="8">4 per day</value>
+	<value code="9">5+ per day</value>
+</variable>
+
+<variable id="phv00111868.v1">
+	<name>VEGSUMM</name>
+	<description>Item #125: Vegetable summary</description>
+	<type>encoded value</type>
+	<comment>How often did you eat a serving of vegetables? Do not count salad, potatoes or dried beans or peas.</comment>
+	<value code="1">Less than one per week</value>
+	<value code="2">1-2 per week</value>
+	<value code="3">3-4 per week</value>
+	<value code="4">5-6 per week</value>
+	<value code="5">1 per day</value>
+	<value code="6">2 per day</value>
+	<value code="7">3 per day</value>
+	<value code="8">4 per day</value>
+	<value code="9">5+ per day</value>
+</variable>
+
+<variable id="phv00111869.v1">
+	<name>FRUTSUMM</name>
+	<description>Item #126: Fruit summary</description>
+	<type>encoded value</type>
+	<comment>How often did you eat a serving of fruit? Do not count juices.</comment>
+	<value code="1">Less than one per week</value>
+	<value code="2">1-2 per week</value>
+	<value code="3">3-4 per week</value>
+	<value code="4">5-6 per week</value>
+	<value code="5">1 per day</value>
+	<value code="6">2 per day</value>
+	<value code="7">3 per day</value>
+	<value code="8">4 per day</value>
+	<value code="9">5+ per day</value>
+</variable>
+
+<variable id="phv00111870.v1">
+	<name>FRUITS</name>
+	<description>Computed food group: Fruits, med serv/day</description>
+	<type>decimal</type>
+	<unit>servings</unit>
+	<logical_min>0.03288</logical_min>
+	<logical_max>11</logical_max>
+	<comment>Computed Food Group: Fruits, medium servings/day</comment>
+</variable>
+
+<variable id="phv00111871.v1">
+	<name>VEGTABLS</name>
+	<description>Computed food group: Vegetables, med serv/day</description>
+	<type>decimal</type>
+	<unit>servings</unit>
+	<logical_min>0.03288</logical_min>
+	<logical_max>14</logical_max>
+	<comment>Computed Food Group: Vegetables, medium servings/day</comment>
+</variable>
+
+<variable id="phv00111872.v1">
+	<name>FRUVEG</name>
+	<description>Computed food group: Combined Fruits / Veggies, med serv/day</description>
+	<type>decimal</type>
+	<unit>servings</unit>
+	<logical_min>0.06575</logical_min>
+	<logical_max>22.77808</logical_max>
+	<comment>Computed Food Group: Combined Fruits and Vegetables, medium servings/day</comment>
+</variable>
+
+<variable id="phv00111873.v1">
+	<name>FISH</name>
+	<description>Computed food group: Fish, med serv/day</description>
+	<type>decimal</type>
+	<unit>servings</unit>
+	<logical_min>0</logical_min>
+	<logical_max>9</logical_max>
+	<comment>Computed Food Group: Fish, medium servings/day</comment>
+</variable>
+
+<variable id="phv00111874.v1">
+	<name>REDMEAT</name>
+	<description>Computed food group: Red meat, med serv/day</description>
+	<type>decimal</type>
+	<unit>servings</unit>
+	<logical_min>0</logical_min>
+	<logical_max>14.83151</logical_max>
+	<comment>Computed Food Group: Red meat, medium servings/day</comment>
+</variable>
+
+<variable id="phv00111875.v1">
+	<name>POULTRY</name>
+	<description>Computed food group: Poultry, med serv/day</description>
+	<type>decimal</type>
+	<unit>servings</unit>
+	<logical_min>0</logical_min>
+	<logical_max>7.51644</logical_max>
+	<comment>Computed Food Group: Poultry, medium servings/day</comment>
+</variable>
+
+<variable id="phv00111876.v1">
+	<name>SOY</name>
+	<description>Computed food group: Soy, med serv/day</description>
+	<type>decimal</type>
+	<unit>servings</unit>
+	<logical_min>0</logical_min>
+	<logical_max>9.00822</logical_max>
+	<comment>Computed Food Group: Soy, medium servings/day</comment>
+</variable>
+
+<variable id="phv00111877.v1">
+	<name>NUTS</name>
+	<description>Computed food group: Nuts, med serv/day</description>
+	<type>decimal</type>
+	<unit>servings</unit>
+	<logical_min>0</logical_min>
+	<logical_max>3</logical_max>
+	<comment>Computed Food Group: Nuts, medium servings/day</comment>
+</variable>
+
+<variable id="phv00111878.v1">
+	<name>GRAINS</name>
+	<description>Computed food group: Grains, med serv/day</description>
+	<type>decimal</type>
+	<unit>servings</unit>
+	<logical_min>0</logical_min>
+	<logical_max>39.53836</logical_max>
+	<comment>Computed Food Group: Grains, medium servings/day</comment>
+</variable>
+
+<variable id="phv00111879.v1">
+	<name>WHLGRNS</name>
+	<description>Computed food group: Whole Grains, med serv/day</description>
+	<type>decimal</type>
+	<unit>servings</unit>
+	<logical_min>0</logical_min>
+	<logical_max>11.71233</logical_max>
+	<comment>Computed Food Group: Whole Grains, medium servings/day</comment>
+</variable>
+
+<variable id="phv00111880.v1">
+	<name>MILKS</name>
+	<description>Computed food group: Milks, med serv/day</description>
+	<type>decimal</type>
+	<unit>servings</unit>
+	<logical_min>0</logical_min>
+	<logical_max>10.0625</logical_max>
+	<comment>Computed Food Group: Milks, medium servings/day</comment>
+</variable>
+
+<variable id="phv00111881.v1">
+	<name>DAIRY</name>
+	<description>Computed food group: Dairy, med serv/day</description>
+	<type>decimal</type>
+	<unit>servings</unit>
+	<logical_min>0</logical_min>
+	<logical_max>21.55154</logical_max>
+	<comment>Computed Food Group: Dairy, medium servings/day</comment>
+</variable>
+
+</data_table>

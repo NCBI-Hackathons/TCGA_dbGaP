@@ -1,0 +1,420 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./datadict_v2.xsl"?>
+<data_table id="pht001096.v1" study_id="phs000219.v1" participant_set="1" date_created="Tue Jan 19 13:07:15 2010">
+
+<unique_key phv="00082242" version="1">SUBJID</unique_key>
+<unique_key phv="00082246" version="1">VISIT</unique_key>
+
+<variable id="phv00082242.v1">
+	<name>SUBJID</name>
+	<description>Subject&#39;s ID</description>
+	<type>String</type>
+</variable>
+
+<variable id="phv00082243.v1">
+	<name>CASE_CONTROL</name>
+	<description>Subject type</description>
+	<type>Encoded value</type>
+	<value code="ADP">AD Participant</value>
+	<value code="CASE">Case</value>
+	<value code="CCCS">Control with Change in Cognitive Status</value>
+	<value code="CNTL">Control</value>
+	<value code="FAM">Family member</value>
+	<value code="UASB">Unaffected Sibling</value>
+</variable>
+
+<variable id="phv00082244.v1">
+	<name>INV</name>
+	<description>Investigator&#39;s ID</description>
+	<type>String</type>
+</variable>
+
+<variable id="phv00082245.v1">
+	<name>INVSITE</name>
+	<description>Investigator site ID</description>
+	<type>String</type>
+</variable>
+
+<variable id="phv00082246.v1">
+	<name>VISIT</name>
+	<description>Visit name</description>
+	<type>String</type>
+	<comment>CCCS = Control with Change in Cognitive Status (this page recorded at visit 3
+		CCCS4 page recorded at visit 4) </comment>
+</variable>
+
+<variable id="phv00082247.v1">
+	<name>VISIT_DATE</name>
+	<description>Visit date</description>
+	<type>Date</type>
+	<comment>Truncated to YYYY</comment>
+</variable>
+
+<variable id="phv00082248.v1">
+	<name>ASDT</name>
+	<description>NPI-Q (Neuropsychiatric Inventory - Questionnaire) Assessment Date</description>
+	<type>Date</type>
+	<comment>Truncated to YYYY</comment>
+</variable>
+
+<variable id="phv00082249.v1">
+	<name>TOTSC</name>
+	<description>NPI-Q (Neuropsychiatric Inventory - Questionnaire) Total Score</description>
+	<type>Integer</type>
+</variable>
+
+<variable id="phv00082250.v1">
+	<name>TOTSCP</name>
+	<description>NPI-Q (Neuropsychiatric Inventory - Questionnaire) Total score Caregiver Distress</description>
+	<type>Integer</type>
+</variable>
+
+<variable id="phv00082251.v1">
+	<name>DEL_NA</name>
+	<description>Delusions -  N/A</description>
+	<type>Encoded Value</type>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00082252.v1">
+	<name>DEL_SEV</name>
+	<description>Delusions -  Severity</description>
+	<type>Encoded Value</type>
+	<value code="0">Absent</value>
+	<value code="1">Mild severity</value>
+	<value code="2">Moderate severity</value>
+	<value code="3">Severe</value>
+</variable>
+
+<variable id="phv00082253.v1">
+	<name>DEL_CD</name>
+	<description>Delusions -  Caregiver Distress</description>
+	<type>Encoded Value</type>
+	<value code="0">No distress</value>
+	<value code="1">Minimal</value>
+	<value code="2">Mild</value>
+	<value code="3">Moderate</value>
+	<value code="4">Moderately severe</value>
+	<value code="5">Very severe / extreme</value>
+</variable>
+
+<variable id="phv00082254.v1">
+	<name>HAL_NA</name>
+	<description>Hallucinations -  N/A</description>
+	<type>Encoded Value</type>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00082255.v1">
+	<name>HAL_SEV</name>
+	<description>Hallucinations -  Severity</description>
+	<type>Encoded Value</type>
+	<value code="0">Absent</value>
+	<value code="1">Mild severity</value>
+	<value code="2">Moderate severity</value>
+	<value code="3">Severe</value>
+</variable>
+
+<variable id="phv00082256.v1">
+	<name>HAL_CD</name>
+	<description>Hallucinations -  Caregiver Distress</description>
+	<type>Encoded Value</type>
+	<value code="0">No distress</value>
+	<value code="1">Minimal</value>
+	<value code="2">Mild</value>
+	<value code="3">Moderate</value>
+	<value code="4">Moderately severe</value>
+	<value code="5">Very severe / extreme</value>
+</variable>
+
+<variable id="phv00082257.v1">
+	<name>AGI_NA</name>
+	<description>Agitation/Aggression -  N/A</description>
+	<type>Encoded Value</type>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00082258.v1">
+	<name>AGI_SEV</name>
+	<description>Agitation/Aggression -  Severity</description>
+	<type>Encoded Value</type>
+	<value code="0">Absent</value>
+	<value code="1">Mild severity</value>
+	<value code="2">Moderate severity</value>
+	<value code="3">Severe</value>
+</variable>
+
+<variable id="phv00082259.v1">
+	<name>AGI_CD</name>
+	<description>Agitation/Aggression -  Caregiver Distress</description>
+	<type>Encoded Value</type>
+	<value code="0">No distress</value>
+	<value code="1">Minimal</value>
+	<value code="2">Mild</value>
+	<value code="3">Moderate</value>
+	<value code="4">Moderately severe</value>
+	<value code="5">Very severe / extreme</value>
+</variable>
+
+<variable id="phv00082260.v1">
+	<name>DEP_NA</name>
+	<description>Depression/Dysphoria -  N/A</description>
+	<type>Encoded Value</type>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00082261.v1">
+	<name>DEP_SEV</name>
+	<description>Depression/Dysphoria -  Severity</description>
+	<type>Encoded Value</type>
+	<value code="0">Absent</value>
+	<value code="1">Mild severity</value>
+	<value code="2">Moderate severity</value>
+	<value code="3">Severe</value>
+</variable>
+
+<variable id="phv00082262.v1">
+	<name>DEP_CD</name>
+	<description>Depression/Dysphoria -  Caregiver Distress</description>
+	<type>Encoded Value</type>
+	<value code="0">No distress</value>
+	<value code="1">Minimal</value>
+	<value code="2">Mild</value>
+	<value code="3">Moderate</value>
+	<value code="4">Moderately severe</value>
+	<value code="5">Very severe / extreme</value>
+</variable>
+
+<variable id="phv00082263.v1">
+	<name>ANX_NA</name>
+	<description>Anxiety -  N/A</description>
+	<type>Encoded Value</type>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00082264.v1">
+	<name>ANX_SEV</name>
+	<description>Anxiety -  Severity</description>
+	<type>Encoded Value</type>
+	<value code="0">Absent</value>
+	<value code="1">Mild severity</value>
+	<value code="2">Moderate severity</value>
+	<value code="3">Severe</value>
+</variable>
+
+<variable id="phv00082265.v1">
+	<name>ANX_CD</name>
+	<description>Anxiety -  Caregiver Distress</description>
+	<type>Encoded Value</type>
+	<value code="0">No distress</value>
+	<value code="1">Minimal</value>
+	<value code="2">Mild</value>
+	<value code="3">Moderate</value>
+	<value code="4">Moderately severe</value>
+	<value code="5">Very severe / extreme</value>
+</variable>
+
+<variable id="phv00082266.v1">
+	<name>ELA_NA</name>
+	<description>Elation/Euphoria -  N/A</description>
+	<type>Encoded Value</type>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00082267.v1">
+	<name>ELA_SEV</name>
+	<description>Elation/Euphoria -  Severity</description>
+	<type>Encoded Value</type>
+	<value code="0">Absent</value>
+	<value code="1">Mild severity</value>
+	<value code="2">Moderate severity</value>
+	<value code="3">Severe</value>
+</variable>
+
+<variable id="phv00082268.v1">
+	<name>ELA_CD</name>
+	<description>Elation/Euphoria -  Caregiver Distress</description>
+	<type>Encoded Value</type>
+	<value code="0">No distress</value>
+	<value code="1">Minimal</value>
+	<value code="2">Mild</value>
+	<value code="3">Moderate</value>
+	<value code="4">Moderately severe</value>
+	<value code="5">Very severe / extreme</value>
+</variable>
+
+<variable id="phv00082269.v1">
+	<name>APA_NA</name>
+	<description>Apathy/Indifference -  N/A</description>
+	<type>Encoded Value</type>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00082270.v1">
+	<name>APA_SEV</name>
+	<description>Apathy/Indifference -  Severity</description>
+	<type>Encoded Value</type>
+	<value code="0">Absent</value>
+	<value code="1">Mild severity</value>
+	<value code="2">Moderate severity</value>
+	<value code="3">Severe</value>
+</variable>
+
+<variable id="phv00082271.v1">
+	<name>APA_CD</name>
+	<description>Apathy/Indifference -  Caregiver Distress</description>
+	<type>Encoded Value</type>
+	<value code="0">No distress</value>
+	<value code="1">Minimal</value>
+	<value code="2">Mild</value>
+	<value code="3">Moderate</value>
+	<value code="4">Moderately severe</value>
+	<value code="5">Very severe / extreme</value>
+</variable>
+
+<variable id="phv00082272.v1">
+	<name>DIS_NA</name>
+	<description>Disinhibition -  N/A</description>
+	<type>Encoded Value</type>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00082273.v1">
+	<name>DIS_SEV</name>
+	<description>Disinhibition -  Severity</description>
+	<type>Encoded Value</type>
+	<value code="0">Absent</value>
+	<value code="1">Mild severity</value>
+	<value code="2">Moderate severity</value>
+	<value code="3">Severe</value>
+</variable>
+
+<variable id="phv00082274.v1">
+	<name>DIS_CD</name>
+	<description>Disinhibition -  Caregiver Distress</description>
+	<type>Encoded Value</type>
+	<value code="0">No distress</value>
+	<value code="1">Minimal</value>
+	<value code="2">Mild</value>
+	<value code="3">Moderate</value>
+	<value code="4">Moderately severe</value>
+	<value code="5">Very severe / extreme</value>
+</variable>
+
+<variable id="phv00082275.v1">
+	<name>IRR_NA</name>
+	<description>Irritability / Liability N/A</description>
+	<type>Encoded Value</type>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00082276.v1">
+	<name>IRR_SEV</name>
+	<description>Irritability / Liability Severity</description>
+	<type>Encoded Value</type>
+	<value code="0">Absent</value>
+	<value code="1">Mild severity</value>
+	<value code="2">Moderate severity</value>
+	<value code="3">Severe</value>
+</variable>
+
+<variable id="phv00082277.v1">
+	<name>IRR_CD</name>
+	<description>Irritability / Liability Caregiver Distress</description>
+	<type>Encoded Value</type>
+	<value code="0">No distress</value>
+	<value code="1">Minimal</value>
+	<value code="2">Mild</value>
+	<value code="3">Moderate</value>
+	<value code="4">Moderately severe</value>
+	<value code="5">Very severe / extreme</value>
+</variable>
+
+<variable id="phv00082278.v1">
+	<name>ABE_NA</name>
+	<description>Aberrant motor behaviour -  N/A</description>
+	<type>Encoded Value</type>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00082279.v1">
+	<name>ABE_SEV</name>
+	<description>Aberrant motor behaviour -  Severity</description>
+	<type>Encoded Value</type>
+	<value code="0">Absent</value>
+	<value code="1">Mild severity</value>
+	<value code="2">Moderate severity</value>
+	<value code="3">Severe</value>
+</variable>
+
+<variable id="phv00082280.v1">
+	<name>ABE_CD</name>
+	<description>Aberrant motor behaviour -  Caregiver Distress</description>
+	<type>Encoded Value</type>
+	<value code="0">No distress</value>
+	<value code="1">Minimal</value>
+	<value code="2">Mild</value>
+	<value code="3">Moderate</value>
+	<value code="4">Moderately severe</value>
+	<value code="5">Very severe / extreme</value>
+</variable>
+
+<variable id="phv00082281.v1">
+	<name>SLE_NA</name>
+	<description>Sleep and nighttime behaviour -  N/A</description>
+	<type>Encoded Value</type>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00082282.v1">
+	<name>SLE_SEV</name>
+	<description>Sleep and nighttime behaviour -  Severity</description>
+	<type>Encoded Value</type>
+	<value code="0">Absent</value>
+	<value code="1">Mild severity</value>
+	<value code="2">Moderate severity</value>
+	<value code="3">Severe</value>
+</variable>
+
+<variable id="phv00082283.v1">
+	<name>SLE_CD</name>
+	<description>Sleep and nighttime behaviour -  Caregiver Distress</description>
+	<type>Encoded Value</type>
+	<value code="0">No distress</value>
+	<value code="1">Minimal</value>
+	<value code="2">Mild</value>
+	<value code="3">Moderate</value>
+	<value code="4">Moderately severe</value>
+	<value code="5">Very severe / extreme</value>
+</variable>
+
+<variable id="phv00082284.v1">
+	<name>APP_NA</name>
+	<description>Appetite and eating  disorder -  N/A</description>
+	<type>Encoded Value</type>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00082285.v1">
+	<name>APP_SEV</name>
+	<description>Appetite and eating  disorder -  Severity</description>
+	<type>Encoded Value</type>
+	<value code="0">Absent</value>
+	<value code="1">Mild severity</value>
+	<value code="2">Moderate severity</value>
+	<value code="3">Severe</value>
+</variable>
+
+<variable id="phv00082286.v1">
+	<name>APP_CD</name>
+	<description>Appetite and eating  disorder -  Caregiver Distress</description>
+	<type>Encoded Value</type>
+	<value code="0">No distress</value>
+	<value code="1">Minimal</value>
+	<value code="2">Mild</value>
+	<value code="3">Moderate</value>
+	<value code="4">Moderately severe</value>
+	<value code="5">Very severe / extreme</value>
+</variable>
+
+</data_table>

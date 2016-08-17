@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./datadict_v2.xsl"?>
+<data_table id="pht000829.v1" study_id="phs000056.v9" participant_set="4" date_created="Tue Mar 16 16:41:26 2010">
+
+<variable id="phv00073804.v1">
+	<name>IDTYPE</name>
+	<description>Framingham Cohort Identifier</description>
+	<type>encoded</type>
+	<coll_interval>Through 2005</coll_interval>
+	<value code="0">Original Cohort</value>
+	<value code="1">Offspring Cohort</value>
+</variable>
+
+<variable id="phv00073805.v1">
+	<name>edgrp</name>
+	<description>Education level</description>
+	<type>encoded</type>
+	<coll_interval>Through 2005</coll_interval>
+	<value code="0">No high school</value>
+	<value code="1">HS degree</value>
+	<value code="2">Some college</value>
+	<value code="3">College degree</value>
+	<value code=".">Unknown</value>
+</variable>
+
+<variable id="phv00073806.v1">
+	<name>educ</name>
+	<description>Education</description>
+	<type>encoded</type>
+	<coll_interval>Through 2005</coll_interval>
+	<value code="0">None</value>
+	<value code="1">4th grade or less</value>
+	<value code="2">5th, 6th, or 7th grades</value>
+	<value code="3">Grade school graduate, no high school</value>
+	<value code="4">High school, did not graduate</value>
+	<value code="5">High school graduate</value>
+	<value code="6">College, did not graduate</value>
+	<value code="7">College graduate</value>
+	<value code="8">Postgraduate school</value>
+	<value code="9">Unknown</value>
+	<value code="10">High school and business college, nursing school, music school, or art school</value>
+</variable>
+
+<variable id="phv00073807.v1">
+	<name>np_date</name>
+	<description>Date of neuropsychological battery</description>
+	<type>integer, encoded</type>
+	<unit>days</unit>
+	<logical_min>8742</logical_min>
+	<logical_max>20356</logical_max>
+	<coll_interval>Through 2005</coll_interval>
+	<comment>Number of days since Exam 1</comment>
+	<value code=".">Unknown</value>
+</variable>
+
+<variable id="phv00073808.v1">
+	<name>shareid</name>
+	<description>SHARe ID number</description>
+	<coll_interval>Through 2005</coll_interval>
+</variable>
+
+</data_table>

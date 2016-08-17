@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./datadict_v2.xsl"?>
+<data_table id="pht000908.v2" study_id="phs000007.v13" participant_set="5" date_created="Mon Feb 28 17:27:33 2011">
+
+<unique_key phv="00076381" version="1">IDTYPE</unique_key>
+<unique_key phv="00076383" version="1">LINE</unique_key>
+<unique_key phv="00076384" version="1">LINE2</unique_key>
+<unique_key phv="00076387" version="1">ecgdate</unique_key>
+<unique_key phv="00076388" version="1">shareid</unique_key>
+
+<variable id="phv00076369.v1">
+	<name>TIMEH</name>
+	<description>Time when ECG was recorded</description>
+	<type>integer, encoded</type>
+	<unit>hours part of military time</unit>
+	<logical_min>1</logical_min>
+	<logical_max>24</logical_max>
+	<coll_interval>Reviewed through 2007</coll_interval>
+	<comment>Time is coded in military time - on 24 hours basis. If time was missing and there was more then one ECG per day, then TIMEH = 24 and TIMEM = 1 represents first ECG of that day, TIMEH = 24 and TIMEM = 2 represents second ECG of that same day and so on.</comment>
+	<value code=".">unknown</value>
+</variable>
+
+<variable id="phv00076370.v1">
+	<name>RHYTHM</name>
+	<description>ECG recorded rhythm</description>
+	<type>encoded</type>
+	<coll_interval>Reviewed through 2007</coll_interval>
+	<value code="0">normal sinus</value>
+	<value code="1">atrial fibrillation</value>
+	<value code="2">atrial flutter</value>
+	<value code="3">atrial fibrillation/flutter</value>
+	<value code="7">other or combination</value>
+	<value code=".">unknown</value>
+</variable>
+
+<variable id="phv00076371.v1">
+	<name>ECGLOC</name>
+	<description>Location where ECG was recorded</description>
+	<type>encoded</type>
+	<coll_interval>Reviewed through 2007</coll_interval>
+	<value code="1">hospital/er</value>
+	<value code="2">outside md</value>
+	<value code="3">FHS exam ECG</value>
+	<value code="4">outside holter</value>
+	<value code="5">FHS holter</value>
+	<value code="6">by history only, no ECG</value>
+	<value code=".">unknown</value>
+</variable>
+
+<variable id="phv00076372.v1">
+	<name>CARVER</name>
+	<description>Cardioversion attempted</description>
+	<type>encoded</type>
+	<coll_interval>Reviewed through 2007</coll_interval>
+	<value code="0">no</value>
+	<value code="1">spontaneous</value>
+	<value code="2">chemical</value>
+	<value code="3">electrical</value>
+	<value code="4">chemical and electrical</value>
+	<value code=".">unknown</value>
+</variable>
+
+<variable id="phv00076373.v1">
+	<name>CARVERRX</name>
+	<description>Medications used in chemical cardioversion</description>
+	<type>encoded</type>
+	<coll_interval>Reviewed through 2007</coll_interval>
+	<value code="1">quininidine</value>
+	<value code="2">procainamide</value>
+	<value code="3">disopyramide</value>
+	<value code="5">flecainide</value>
+	<value code="7">amiodarone</value>
+	<value code="10">moricizine</value>
+	<value code="11">sotalol</value>
+	<value code="12">other</value>
+	<value code=".">unknown</value>
+</variable>
+
+<variable id="phv00076374.v1">
+	<name>AARRHYTH</name>
+	<description>Antiarrythmics treatment</description>
+	<type>encoded</type>
+	<coll_interval>Reviewed through 2007</coll_interval>
+	<value code="0">no</value>
+	<value code="1">yes</value>
+	<value code=".">unknown</value>
+</variable>
+
+<variable id="phv00076375.v1">
+	<name>AARRHRX</name>
+	<description>Medications used for antiarrythmics treatment</description>
+	<type>encoded</type>
+	<coll_interval>Reviewed through 2007</coll_interval>
+	<value code="1">quininidine</value>
+	<value code="2">procainamide</value>
+	<value code="3">disopyramide</value>
+	<value code="4">tocainide</value>
+	<value code="5">flecainide</value>
+	<value code="6">mexiletime</value>
+	<value code="7">amiodarone</value>
+	<value code="8">encainide</value>
+	<value code="9">propafenone</value>
+	<value code="10">moricizine</value>
+	<value code="11">sotalol</value>
+	<value code="12">other</value>
+	<value code=".">unknown</value>
+</variable>
+
+<variable id="phv00076376.v1">
+	<name>ATHROMRX</name>
+	<description>Medications used for antithrombotic treatment</description>
+	<type>encoded</type>
+	<coll_interval>Reviewed through 2007</coll_interval>
+	<value code="0">no</value>
+	<value code="1">warfarin</value>
+	<value code="2">aspirin</value>
+	<value code="3">warfarin and aspirin</value>
+	<value code="4">other</value>
+	<value code=".">unknown</value>
+</variable>
+
+<variable id="phv00076377.v1">
+	<name>DIGITALI</name>
+	<description>Digitalis treatment</description>
+	<type>encoded</type>
+	<coll_interval>Reviewed through 2007</coll_interval>
+	<value code="0">no</value>
+	<value code="1">yes</value>
+	<value code=".">unknown</value>
+</variable>
+
+<variable id="phv00076378.v1">
+	<name>ECGSINUS</name>
+	<description>ECG normal sinus rhythm recorded</description>
+	<type>encoded</type>
+	<coll_interval>Reviewed through 2007</coll_interval>
+	<value code="0">no</value>
+	<value code="1">yes</value>
+	<value code="2">yes, tracking not available</value>
+	<value code=".">unknown</value>
+</variable>
+
+<variable id="phv00076379.v1">
+	<name>LAST_RHY</name>
+	<description>Last ECG recorded rhythm in the hospital</description>
+	<type>encoded</type>
+	<coll_interval>Reviewed through 2007</coll_interval>
+	<value code="0">normal sinus</value>
+	<value code="1">atrial fibrillation</value>
+	<value code="2">atrial flutter</value>
+	<value code="3">atrial fibrillation/flutter</value>
+	<value code="7">other or combination</value>
+	<value code=".">unknown</value>
+</variable>
+
+<variable id="phv00076380.v1">
+	<name>TYPEAF</name>
+	<description>AF type</description>
+	<type>encoded</type>
+	<coll_interval>Reviewed through 2007</coll_interval>
+	<value code="0">SR or not AF</value>
+	<value code="1">permanent</value>
+	<value code="2">persistent</value>
+	<value code="3">paroxysmal</value>
+	<value code="4">initial event</value>
+	<value code=".">unknown</value>
+</variable>
+
+<variable id="phv00076381.v1">
+	<name>IDTYPE</name>
+	<description>Framingham Cohort identifier</description>
+	<type>encoded</type>
+	<logical_min>0</logical_min>
+	<logical_max>1</logical_max>
+	<coll_interval>Reviewed through 2007</coll_interval>
+	<comment>There is unique combination for every record - IDTYPE, ID, ECGDATE and LINE or LINE2 per each particular ID.</comment>
+	<value code="0">original cohort</value>
+	<value code="1">offspring cohort</value>
+</variable>
+
+<variable id="phv00076382.v1">
+	<name>TIMEM</name>
+	<description>Time when ECG was recorded</description>
+	<type>integer, encoded</type>
+	<unit>minutes part of military time</unit>
+	<logical_min>1</logical_min>
+	<logical_max>59</logical_max>
+	<coll_interval>Reviewed through 2007</coll_interval>
+	<comment>Time is coded in military time - on 24 hours basis. If time was missing and there was more then one ECG per day, then TIMEH = 24 and TIMEM = 1 represents first ECG of that day, TIMEH = 24 and TIMEM = 2 represents second ECG of that same day and so on.</comment>
+	<value code=".">unknown</value>
+</variable>
+
+<variable id="phv00076383.v1">
+	<name>LINE</name>
+	<description>Record Indentifier</description>
+	<type>encoded</type>
+	<coll_interval>Reviewed through 2007</coll_interval>
+	<comment>There is unique combination for every record - IDTYPE, ID, ECGDATE and LINE or LINE2 per each particular ID.</comment>
+	<value code=".">unknown</value>
+</variable>
+
+<variable id="phv00076384.v1">
+	<name>LINE2</name>
+	<description>Record Identifier</description>
+	<type>encoded</type>
+	<coll_interval>Reviewed through 2007</coll_interval>
+	<comment>There is unique combination for every record - IDTYPE, ID, ECGDATE and LINE or LINE2 per each particular ID.</comment>
+	<value code=".">unknown</value>
+</variable>
+
+<variable id="phv00076385.v1">
+	<name>cardate</name>
+	<description>Cardioversion date</description>
+	<type>integer</type>
+	<unit>number of days since exam 1</unit>
+	<coll_interval>Reviewed through 2007</coll_interval>
+	<value code=".">unknown</value>
+</variable>
+
+<variable id="phv00076386.v1">
+	<name>ecgsdat</name>
+	<description>Date of ECG that recorded normal sinus rhythm</description>
+	<type>integer, encoded</type>
+	<unit>number of days since exam 1</unit>
+	<coll_interval>Reviewed through 2007</coll_interval>
+	<value code=".">unknown</value>
+</variable>
+
+<variable id="phv00076387.v1">
+	<name>ecgdate</name>
+	<description>Date of ECG follow up to first occurrence of AF</description>
+	<type>integer, encoded</type>
+	<unit>number of days since exam 1</unit>
+	<coll_interval>Reviewed through 2007</coll_interval>
+	<comment>There is unique combination for every record - IDTYPE, ID, ECGDATE and LINE or LINE2 per each particular ID.</comment>
+	<value code=".">unknown</value>
+</variable>
+
+<variable id="phv00076388.v1">
+	<name>shareid</name>
+	<description>SHARe ID number</description>
+	<type>integer</type>
+	<coll_interval>Reviewed through 2007</coll_interval>
+	<comment>There is unique combination for every record - IDTYPE, ID, ECGDATE and LINE or LINE2 per each particular ID.</comment>
+</variable>
+
+</data_table>

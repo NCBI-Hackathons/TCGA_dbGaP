@@ -1,0 +1,564 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./datadict_v2.xsl"?>
+<data_table id="pht001880.v1" study_id="phs000096.v3" participant_set="1" date_created="Tue Aug 10 13:54:55 2010">
+
+<unique_key phv="00121769" version="1">m_mom_geneva_id</unique_key>
+<unique_key phv="00121770" version="1">b_baby_geneva_id</unique_key>
+
+<variable id="phv00121769.v1">
+	<name>m_mom_geneva_id</name>
+	<description>Mother&#39;s GENEVA ID</description>
+	<type>Integer</type>
+</variable>
+
+<variable id="phv00121770.v1">
+	<name>b_baby_geneva_id</name>
+	<description>Baby&#39;s GENEVA ID</description>
+	<type>Integer</type>
+	<logical_min>161000047</logical_min>
+	<logical_max>161199979</logical_max>
+</variable>
+
+<variable id="phv00121771.v1">
+	<name>father_geneva_id</name>
+	<description>Father&#39;s GENEVA ID</description>
+	<type>Integer</type>
+	<logical_min>160000293</logical_min>
+	<logical_max>160199994</logical_max>
+</variable>
+
+<variable id="phv00121772.v1">
+	<name>m_Age_OGTT</name>
+	<description>Mother&#39;s age at OGTT</description>
+	<type>decimal, encoded string</type>
+	<unit>years</unit>
+	<logical_min>18.01643836</logical_min>
+	<logical_max>45.50136986</logical_max>
+	<comment>Calculated variable = OGTTvisit date-birthdate</comment>
+	<value code="NA">Not applicable</value>
+</variable>
+
+<variable id="phv00121773.v1">
+	<name>m_Alc_Drnks</name>
+	<description>Mother&#39;s alcoholic drinks per day this pregnancy</description>
+	<type>Encoded Integer, encoded string</type>
+	<logical_min>1</logical_min>
+	<logical_max>3</logical_max>
+	<value code="1">None</value>
+	<value code="2">&lt;1/day</value>
+	<value code="3">1-2/day</value>
+	<value code="NA">Not Applicable</value>
+</variable>
+
+<variable id="phv00121774.v1">
+	<name>b_C_Id</name>
+	<description>Baby&#39;s center ID</description>
+	<type>Encoded String</type>
+	<value code="K">Site K</value>
+	<value code="NA">Not applicable</value>
+</variable>
+
+<variable id="phv00121775.v1">
+	<name>b_CordCP_ug</name>
+	<description>Baby&#39;s cord C-peptide</description>
+	<type>decimal, encoded string</type>
+	<unit>ug/L</unit>
+	<logical_min>0.1</logical_min>
+	<logical_max>5.1</logical_max>
+	<value code="NA">Not applicable</value>
+</variable>
+
+<variable id="phv00121776.v1">
+	<name>b_CordPGC_mg</name>
+	<description>Baby&#39;s cord glucose</description>
+	<type>decimal, encoded string</type>
+	<unit>mg/dL</unit>
+	<logical_min>5.4</logical_min>
+	<logical_max>185.4</logical_max>
+	<value code="NA">Not applicable</value>
+</variable>
+
+<variable id="phv00121777.v1">
+	<name>m_DBPM_OGTT</name>
+	<description>Mother&#39;s mean OGTT diastolic blood pressure</description>
+	<type>decimal, encoded string</type>
+	<unit>mmHg</unit>
+	<logical_min>42.5</logical_min>
+	<logical_max>97</logical_max>
+	<value code="NA">Not applicable</value>
+</variable>
+
+<variable id="phv00121778.v1">
+	<name>m_Drinker</name>
+	<description>Is the mother a drinker?</description>
+	<type>Encoded Integer, encoded string</type>
+	<logical_min>0</logical_min>
+	<logical_max>1</logical_max>
+	<comment>Calculated variable, Alc_Drnks&gt;1</comment>
+	<value code="1">Yes</value>
+	<value code="0">No</value>
+	<value code="NA">Not Applicable</value>
+</variable>
+
+<variable id="phv00121779.v1">
+	<name>m_Educ</name>
+	<description>Mother&#39;s years of education</description>
+	<type>Integer, encoded string</type>
+	<unit>years</unit>
+	<logical_min>6</logical_min>
+	<logical_max>23</logical_max>
+	<value code="NA">Not applicable</value>
+</variable>
+
+<variable id="phv00121780.v1">
+	<name>m_Ethnicity_Grp5</name>
+	<description>Mother&#39;s ethnicity collapsed into 5 groups</description>
+	<type>encoded integer</type>
+	<logical_min>1</logical_min>
+	<logical_max>2</logical_max>
+	<comment>Calculated variable</comment>
+	<value code="2">Black</value>
+</variable>
+
+<variable id="phv00121781.v1">
+	<name>m_FCP_ug</name>
+	<description>Mother&#39;s fasting C-peptide at OGTT</description>
+	<type>decimal, encoded string</type>
+	<unit>ug/L</unit>
+	<logical_min>0.4</logical_min>
+	<logical_max>13.4</logical_max>
+	<value code="NA">Not applicable</value>
+</variable>
+
+<variable id="phv00121782.v1">
+	<name>m_FH_DM_Any</name>
+	<description>Mother&#39;s family history of diabetes</description>
+	<type>Encoded Integer, encoded string</type>
+	<logical_min>0</logical_min>
+	<logical_max>1</logical_max>
+	<value code="1">Yes</value>
+	<value code="0">No</value>
+	<value code="NA">Not Applicable</value>
+</variable>
+
+<variable id="phv00121783.v1">
+	<name>m_FH_HBP_Any</name>
+	<description>Mother&#39;s family History of hypertension</description>
+	<type>Encoded Integer, encoded string</type>
+	<logical_min>0</logical_min>
+	<logical_max>1</logical_max>
+	<value code="1">Yes</value>
+	<value code="0">No</value>
+	<value code="NA">Not Applicable</value>
+</variable>
+
+<variable id="phv00121784.v1">
+	<name>m_FPG_CLC_mg</name>
+	<description>Mother&#39;s fasting glucose at OGTT</description>
+	<type>decimal, encoded string</type>
+	<unit>mg/dL</unit>
+	<logical_min>61.2</logical_min>
+	<logical_max>127.8</logical_max>
+	<value code="NA">Not applicable</value>
+</variable>
+
+<variable id="phv00121785.v1">
+	<name>b_GA_OGTT</name>
+	<description>Baby&#39;s gestational age at OGTT</description>
+	<type>decimal, encoded string</type>
+	<unit>weeks</unit>
+	<logical_min>20.71428571</logical_min>
+	<logical_max>33.85714286</logical_max>
+	<comment>Calculated variable  (40-EDD-OGTT date)/7</comment>
+	<value code="NA">Not applicable</value>
+</variable>
+
+<variable id="phv00121786.v1">
+	<name>b_Gestage</name>
+	<description>Baby&#39;s gestational age at delivery</description>
+	<type>decimal, encoded string</type>
+	<unit>weeks</unit>
+	<logical_min>36.85714286</logical_min>
+	<logical_max>43</logical_max>
+	<comment>Calculated variable (40+(NN-Del/Date-EDD)/7</comment>
+	<value code="NA">Not applicable</value>
+</variable>
+
+<variable id="phv00121787.v1">
+	<name>m_HbA1c_percent</name>
+	<description>Mother&#39;s HbA1c percent</description>
+	<type>decimal, encoded string</type>
+	<unit>percent</unit>
+	<logical_min>2.9</logical_min>
+	<logical_max>7.4</logical_max>
+	<value code="NA">Not applicable</value>
+</variable>
+
+<variable id="phv00121788.v1">
+	<name>m_Hypertens</name>
+	<description>Mother&#39;s type of hypertension</description>
+	<type>Encoded Integer, encoded string</type>
+	<logical_min>0</logical_min>
+	<logical_max>6</logical_max>
+	<comment>Calculated variable</comment>
+	<value code="0">None</value>
+	<value code="1">Chronic</value>
+	<value code="2">Pre-eclampsia</value>
+	<value code="3">Severe pre-eclampsia</value>
+	<value code="4">Eclampsia</value>
+	<value code="5">Gestational</value>
+	<value code="6">Pre-eclampsia superimposed on chronic</value>
+	<value code="NA">Not applicable</value>
+</variable>
+
+<variable id="phv00121789.v1">
+	<name>m_HtM_OGTT</name>
+	<description>Mother&#39;s mean OGTT height</description>
+	<type>decimal, encoded string</type>
+	<unit>cm</unit>
+	<logical_min>132</logical_min>
+	<logical_max>198</logical_max>
+	<value code="NA">Not applicable</value>
+</variable>
+
+<variable id="phv00121790.v1">
+	<name>m_LD_DelType</name>
+	<description>Mother&#39;s type of delivery</description>
+	<type>Encoded Integer, encoded string</type>
+	<logical_min>1</logical_min>
+	<logical_max>4</logical_max>
+	<value code="1">Spontaneous vaginal</value>
+	<value code="2">Instrumental</value>
+	<value code="3">Primary C-section</value>
+	<value code="4">Repeat C-section</value>
+	<value code="NA">Not applicable</value>
+</variable>
+
+<variable id="phv00121791.v1">
+	<name>m_Mat_Drugs</name>
+	<description>Mother&#39;s illicit drug use</description>
+	<type>Encoded Integer, encoded string</type>
+	<logical_min>0</logical_min>
+	<logical_max>1</logical_max>
+	<value code="1">Yes</value>
+	<value code="0">No</value>
+	<value code="NA">Not applicable</value>
+</variable>
+
+<variable id="phv00121792.v1">
+	<name>b_NNA_BWMn</name>
+	<description>Baby&#39;s mean birthweight</description>
+	<type>decimal, encoded string</type>
+	<unit>grams</unit>
+	<logical_min>1820</logical_min>
+	<logical_max>5410</logical_max>
+	<value code="NA">Not applicable</value>
+</variable>
+
+<variable id="phv00121793.v1">
+	<name>b_NNA_FLMn</name>
+	<description>Baby&#39;s mean flank skinfold</description>
+	<type>decimal, encoded string</type>
+	<unit>mm</unit>
+	<logical_min>1.9</logical_min>
+	<logical_max>7.4</logical_max>
+	<value code="NA">Not applicable</value>
+</variable>
+
+<variable id="phv00121794.v1">
+	<name>b_NNA_HCMn</name>
+	<description>Baby&#39;s mean head circumference</description>
+	<type>decimal, encoded string</type>
+	<unit>cm</unit>
+	<logical_min>28</logical_min>
+	<logical_max>38</logical_max>
+	<value code="NA">Not applicable</value>
+</variable>
+
+<variable id="phv00121795.v1">
+	<name>b_NNA_LNGMn</name>
+	<description>Baby&#39;s mean length</description>
+	<type>decimal, encoded string</type>
+	<unit>cm</unit>
+	<logical_min>39</logical_min>
+	<logical_max>61</logical_max>
+	<value code="NA">Not applicable</value>
+</variable>
+
+<variable id="phv00121796.v1">
+	<name>b_NNA_SSMn</name>
+	<description>Baby&#39;s mean subscapular skinfold</description>
+	<type>decimal, encoded string</type>
+	<unit>mm</unit>
+	<logical_min>2</logical_min>
+	<logical_max>7.5</logical_max>
+	<value code="NA">Not applicable</value>
+</variable>
+
+<variable id="phv00121797.v1">
+	<name>b_NNA_TRMn</name>
+	<description>Baby&#39;s mean triceps skinfold</description>
+	<type>decimal, encoded string</type>
+	<unit>mm</unit>
+	<logical_min>1.7</logical_min>
+	<logical_max>6.9</logical_max>
+	<value code="NA">Not applicable</value>
+</variable>
+
+<variable id="phv00121798.v1">
+	<name>b_NN_Gender</name>
+	<description>Baby&#39;s gender</description>
+	<type>encoded integer</type>
+	<logical_min>1</logical_min>
+	<logical_max>2</logical_max>
+	<value code="1">Male</value>
+	<value code="2">Female</value>
+	<value code="NA">Not applicable</value>
+</variable>
+
+<variable id="phv00121799.v1">
+	<name>m_OH_PrDel20</name>
+	<description>Mother&#39;s number of prior pregnancies delivered at &gt;= 20 weeks</description>
+	<type>Integer, encoded string</type>
+	<logical_min>0</logical_min>
+	<logical_max>8</logical_max>
+	<value code="NA">Not applicable</value>
+</variable>
+
+<variable id="phv00121800.v1">
+	<name>m_OneHrPG_CLC_mg</name>
+	<description>Mother&#39;s one hour OGTT glucose</description>
+	<type>decimal, encoded string</type>
+	<unit>mg/dL</unit>
+	<logical_min>52.2</logical_min>
+	<logical_max>244.8</logical_max>
+	<value code="NA">Not applicable</value>
+</variable>
+
+<variable id="phv00121801.v1">
+	<name>m_Prot_Hst</name>
+	<description>Mother&#39;s highest urine dipstick result</description>
+	<type>Encoded Integer, encoded string</type>
+	<logical_min>0</logical_min>
+	<logical_max>4</logical_max>
+	<value code="0">None&gt;= 1+</value>
+	<value code="1">1+</value>
+	<value code="2">2+</value>
+	<value code="3">3+</value>
+	<value code="4">4+</value>
+	<value code="NA">Not Applicable</value>
+</variable>
+
+<variable id="phv00121802.v1">
+	<name>m_Proteinuria</name>
+	<description>Mother&#39;s highest urine dipstick result &gt;=3+</description>
+	<type>Encoded Integer, encoded string</type>
+	<logical_min>0</logical_min>
+	<logical_max>1</logical_max>
+	<comment>Calculated variable  Prot_Hst&gt;=3+</comment>
+	<value code="1">Yes</value>
+	<value code="0">No</value>
+	<value code="NA">Not applicable</value>
+</variable>
+
+<variable id="phv00121803.v1">
+	<name>m_SBPM_OGTT</name>
+	<description>Mother&#39;s mean OGTT systolic blood pressure</description>
+	<type>decimal, encoded string</type>
+	<unit>mmHg</unit>
+	<logical_min>74.5</logical_min>
+	<logical_max>149.5</logical_max>
+	<value code="NA">Not applicable</value>
+</variable>
+
+<variable id="phv00121804.v1">
+	<name>m_Smk_Ncigs</name>
+	<description>Mother&#39;s cigarettes/day this pregnancy</description>
+	<type>Encoded Integer, encoded string</type>
+	<logical_min>1</logical_min>
+	<logical_max>2</logical_max>
+	<value code="1">None</value>
+	<value code="2">1-10</value>
+	<value code="3">&gt;10</value>
+	<value code="NA">Not applicable</value>
+</variable>
+
+<variable id="phv00121805.v1">
+	<name>m_Smoker</name>
+	<description>Is the mother a smoker?</description>
+	<type>encoded integer, encoded string</type>
+	<logical_min>0</logical_min>
+	<logical_max>1</logical_max>
+	<comment>Calculated variable  Smk_Ncigs&gt;1</comment>
+	<value code="1">Yes</value>
+	<value code="0">No</value>
+	<value code="NA">Not applicable</value>
+</variable>
+
+<variable id="phv00121806.v1">
+	<name>m_TwoHrPG_CLC_mg</name>
+	<description>Mother&#39;s two hour OGTT glucose</description>
+	<type>decimal, encoded string</type>
+	<unit>mg/dL</unit>
+	<logical_min>54</logical_min>
+	<logical_max>225</logical_max>
+	<value code="NA">Not applicable</value>
+</variable>
+
+<variable id="phv00121807.v1">
+	<name>m_WtM_OGTT</name>
+	<description>Mother&#39;s mean OGTT weight</description>
+	<type>decimal, encoded string</type>
+	<unit>kg</unit>
+	<logical_min>41.6</logical_min>
+	<logical_max>161.1</logical_max>
+	<value code="NA">Not applicable</value>
+</variable>
+
+<variable id="phv00121808.v1">
+	<name>m_Wt_Prepreg</name>
+	<description>Mother&#39;s pre-pregnancy weight</description>
+	<type>decimal</type>
+	<unit>kg</unit>
+	<logical_min>36.32</logical_min>
+	<logical_max>140</logical_max>
+	<value code="NA">Not applicable</value>
+</variable>
+
+<variable id="phv00121809.v1">
+	<name>b_byear_baby</name>
+	<description>Year of baby&#39;s birth</description>
+	<type>Integer, encoded string</type>
+	<logical_min>2001</logical_min>
+	<logical_max>2006</logical_max>
+	<value code="NA">Not applicable</value>
+</variable>
+
+<variable id="phv00121810.v1">
+	<name>m_byear</name>
+	<description>Year of mother&#39;s birth</description>
+	<type>Integer, encoded string</type>
+	<logical_min>1957</logical_min>
+	<logical_max>1987</logical_max>
+	<value code="NA">Not applicable</value>
+</variable>
+
+<variable id="phv00121811.v1">
+	<name>m_ogtt_unblind</name>
+	<description>Mother unblinded at OGTT (glucose above threshold)</description>
+	<type>Encoded Integer, encoded string</type>
+	<logical_min>0</logical_min>
+	<logical_max>1</logical_max>
+	<value code="1">Yes</value>
+	<value code="0">No</value>
+	<value code="NA">Not Applicable</value>
+</variable>
+
+<variable id="phv00121812.v1">
+	<name>m_rpg_unblind</name>
+	<description>Mother unblinded at RPG (glucose above threshold)</description>
+	<type>Encoded Integer, encoded string</type>
+	<logical_min>0</logical_min>
+	<logical_max>1</logical_max>
+	<value code="1">Yes</value>
+	<value code="0">No</value>
+	<value code="NA">Not Applicable</value>
+</variable>
+
+<variable id="phv00121813.v1">
+	<name>m_geno.mom</name>
+	<description>Mom genotypes available, total posting</description>
+	<type>encoded integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>2</logical_max>
+	<value code="0">Genotypes not posted</value>
+	<value code="1">Genotypes in raw data only</value>
+	<value code="2">Genotypes posted</value>
+	<value code="NA">Not applicable</value>
+</variable>
+
+<variable id="phv00121814.v1">
+	<name>b_geno.baby</name>
+	<description>Baby genotypes available, total posting</description>
+	<type>encoded integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>2</logical_max>
+	<value code="0">Genotypes not posted</value>
+	<value code="1">Genotypes in raw data only</value>
+	<value code="2">Genotypes posted</value>
+	<value code="NA">Not applicable</value>
+</variable>
+
+<variable id="phv00121815.v1">
+	<name>m_geno.mom.Eur</name>
+	<description>Mom genotypes available, Caucasian posting</description>
+	<type>Encoded Integer, encoded string</type>
+	<logical_min>0</logical_min>
+	<logical_max>0</logical_max>
+	<value code="0">Genotypes not posted</value>
+	<value code="1">Genotypes in raw data only</value>
+	<value code="2">Genotypes posted</value>
+	<value code="NA">Not applicable</value>
+</variable>
+
+<variable id="phv00121816.v1">
+	<name>b_geno.baby.Eur</name>
+	<description>Baby genotypes available, Caucasian posting</description>
+	<type>Encoded Integer, encoded string</type>
+	<logical_min>0</logical_min>
+	<logical_max>0</logical_max>
+	<value code="0">Genotypes not posted</value>
+	<value code="1">Genotypes in raw data only</value>
+	<value code="2">Genotypes posted</value>
+	<value code="NA">Not applicable</value>
+</variable>
+
+<variable id="phv00121817.v1">
+	<name>m_geno.mom.Hisp</name>
+	<description>Mom genotypes available, Hispanic posting</description>
+	<type>encoded integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>0</logical_max>
+	<value code="0">Genotypes not posted</value>
+	<value code="1">Genotypes in raw data only</value>
+	<value code="2">Genotypes posted</value>
+	<value code="NA">Not applicable</value>
+</variable>
+
+<variable id="phv00121818.v1">
+	<name>b_geno.baby.Hisp</name>
+	<description>Baby genotypes available, Hispanic posting</description>
+	<type>encoded integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>0</logical_max>
+	<value code="0">Genotypes not posted</value>
+	<value code="1">Genotypes in raw data only</value>
+	<value code="2">Genotypes posted</value>
+	<value code="NA">Not applicable</value>
+</variable>
+
+<variable id="phv00121819.v1">
+	<name>m_geno.mom.AC</name>
+	<description>Mom genotypes available, Afro-Carib posting</description>
+	<type>encoded integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>2</logical_max>
+	<value code="0">Genotypes not posted</value>
+	<value code="1">Genotypes in raw data only</value>
+	<value code="2">Genotypes posted</value>
+	<value code="NA">Not applicable</value>
+</variable>
+
+<variable id="phv00121820.v1">
+	<name>b_geno.baby.AC</name>
+	<description>Baby genotypes available, Afro-Carib posting</description>
+	<type>encoded integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>2</logical_max>
+	<value code="0">Genotypes not posted</value>
+	<value code="1">Genotypes in raw data only</value>
+	<value code="2">Genotypes posted</value>
+	<value code="NA">Not applicable</value>
+</variable>
+
+</data_table>

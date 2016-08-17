@@ -1,0 +1,1582 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./datadict_v2.xsl"?>
+<data_table id="pht001006.v1" study_id="phs000200.v1" participant_set="1" date_created="Thu Dec 17 19:19:04 2009">
+
+<unique_key phv="00079085" version="1">SHAREID</unique_key>
+<unique_key phv="00079086" version="1">F38VTYP</unique_key>
+<unique_key phv="00079087" version="1">F38VY</unique_key>
+
+<variable id="phv00079085.v1">
+	<name>SHAREID</name>
+	<description>WHI SHARe ID</description>
+	<type>integer</type>
+</variable>
+
+<variable id="phv00079086.v1">
+	<name>F38VTYP</name>
+	<description>Visit type</description>
+	<type>encoded value</type>
+	<value code="1">Screening Visit</value>
+	<value code="2">Semi-Annual Visit</value>
+	<value code="3">Annual Visit</value>
+	<value code="4">Non-Routine Visit</value>
+</variable>
+
+<variable id="phv00079087.v1">
+	<name>F38VY</name>
+	<description>Visit year</description>
+	<type>integer</type>
+	<logical_min>1</logical_min>
+	<logical_max>9</logical_max>
+	<comment>Visit year for which this form was collected.</comment>
+</variable>
+
+<variable id="phv00079088.v1">
+	<name>F38DAYS</name>
+	<description>F38 Days since randomization/enrollment</description>
+	<type>integer</type>
+	<unit>days</unit>
+	<logical_min>177</logical_min>
+	<logical_max>3493</logical_max>
+</variable>
+
+<variable id="phv00079089.v1">
+	<name>LIFEQUAL</name>
+	<description>Rate quality of life</description>
+	<type>encoded value</type>
+	<comment>Overall, how you would rate your quality of life? (Mark one oval in the box below.)</comment>
+	<value code="0">Worst</value>
+	<value code="1">1</value>
+	<value code="2">2</value>
+	<value code="3">3</value>
+	<value code="4">4</value>
+	<value code="5">Halfway</value>
+	<value code="6">6</value>
+	<value code="7">7</value>
+	<value code="8">8</value>
+	<value code="9">9</value>
+	<value code="10">Best</value>
+</variable>
+
+<variable id="phv00079090.v1">
+	<name>SATLIFE</name>
+	<description>How satisfied with quality of life</description>
+	<type>encoded value</type>
+	<comment>How satisfied are you with your current quality of life? (Mark one oval in the box below.)</comment>
+	<value code="0">Dissatisfied</value>
+	<value code="1">1</value>
+	<value code="2">2</value>
+	<value code="3">3</value>
+	<value code="4">4</value>
+	<value code="5">Halfway</value>
+	<value code="6">6</value>
+	<value code="7">7</value>
+	<value code="8">8</value>
+	<value code="9">9</value>
+	<value code="10">Satisfied</value>
+</variable>
+
+<variable id="phv00079091.v1">
+	<name>GENHEL</name>
+	<description>In general, health is</description>
+	<type>encoded value</type>
+	<comment>In general, would you say your health is (Mark one oval.)</comment>
+	<value code="1">Excellent</value>
+	<value code="2">Very good</value>
+	<value code="3">Good</value>
+	<value code="4">Fair</value>
+	<value code="5">Poor</value>
+</variable>
+
+<variable id="phv00079092.v1">
+	<name>HLTHC1Y</name>
+	<description>Compare health to 1 year ago</description>
+	<type>encoded value</type>
+	<comment>Compared to one year ago, how would you rate your health in general now? (Mark one oval.)</comment>
+	<value code="1">Much better now than 1 year ago</value>
+	<value code="2">Somewhat better now than 1 year ago</value>
+	<value code="3">About the same time</value>
+	<value code="4">Somewhat worse now than 1 year ago</value>
+	<value code="5">Much worse than 1 year ago</value>
+</variable>
+
+<variable id="phv00079093.v1">
+	<name>VIGACT</name>
+	<description>Vigorous activities</description>
+	<type>encoded value</type>
+	<comment>The following are questions about a typical (or usual) day&#39;s activties. Does your health now limit you in these activities and, if so, how much? (Mark one oval for each question.) Vigorous activities, such as running, lifting heavy objects, or strenuous sports</comment>
+	<value code="1">Yes, limited a lot</value>
+	<value code="2">Yes, limited a little</value>
+	<value code="3">No, not limited at all</value>
+</variable>
+
+<variable id="phv00079094.v1">
+	<name>MODACT</name>
+	<description>Moderate activites</description>
+	<type>encoded value</type>
+	<comment>The following are questions about a typical (or usual) day&#39;s activties. Does your health now limit you in these activities and, if so, how much? (Mark one oval for each question.) Moderate activities, such as moving a table, vacuuming, bowling, or golfing</comment>
+	<value code="1">Yes, limited a lot</value>
+	<value code="2">Yes, limited a little</value>
+	<value code="3">No, not limited at all</value>
+</variable>
+
+<variable id="phv00079095.v1">
+	<name>LIFTGROC</name>
+	<description>Lifting or carrying groceries</description>
+	<type>encoded value</type>
+	<comment>The following are questions about a typical (or usual) day&#39;s activties. Does your health now limit you in these activities and, if so, how much? (Mark one oval for each question.) Lifting or carrying groceries</comment>
+	<value code="1">Yes, limited a lot</value>
+	<value code="2">Yes, limited a little</value>
+	<value code="3">No, not limited at all</value>
+</variable>
+
+<variable id="phv00079096.v1">
+	<name>STAIRS</name>
+	<description>Climbing several flights of stairs</description>
+	<type>encoded value</type>
+	<comment>The following are questions about a typical (or usual) day&#39;s activities. Does your health now limit you in these activities and, if so, how much? (Mark one oval for each question.) Climbing several flights of stairs</comment>
+	<value code="1">Yes, limited a lot</value>
+	<value code="2">Yes, limited a little</value>
+	<value code="3">No, not limited at all</value>
+</variable>
+
+<variable id="phv00079097.v1">
+	<name>STAIR</name>
+	<description>Climbing one flight of stairs</description>
+	<type>encoded value</type>
+	<comment>The following are questions about a typical (or usual) day&#39;s activities. Does your health now limit you in these activities and, if so, how much? (Mark one oval for each question.) Climbing one flight of stairs</comment>
+	<value code="1">Yes, limited a lot</value>
+	<value code="2">Yes, limited a little</value>
+	<value code="3">No, not limited at all</value>
+</variable>
+
+<variable id="phv00079098.v1">
+	<name>BENDING</name>
+	<description>Bending, kneeling, stooping</description>
+	<type>encoded value</type>
+	<comment>The following are questions about a typical (or usual) day&#39;s activities. Does your health now limit you in these activities and, if so, how much? (Mark one oval for each question.) Bending, kneeling, stooping</comment>
+	<value code="1">Yes, limited a lot</value>
+	<value code="2">Yes, limited a little</value>
+	<value code="3">No, not limited at all</value>
+</variable>
+
+<variable id="phv00079099.v1">
+	<name>WALK1M</name>
+	<description>Walking more than one mile</description>
+	<type>encoded value</type>
+	<comment>The following are questions about a typical (or usual) day&#39;s activities. Does your health now limit you in these activities and, if so, how much? (Mark one oval for each question.) Walking more than a mile</comment>
+	<value code="1">Yes, limited a lot</value>
+	<value code="2">Yes, limited a little</value>
+	<value code="3">No, not limited at all</value>
+</variable>
+
+<variable id="phv00079100.v1">
+	<name>WALKBLKS</name>
+	<description>Walking several blocks</description>
+	<type>encoded value</type>
+	<comment>The following are questions about a typical (or usual) day&#39;s activities. Does your health now limit you in these activities and, if so, how much? (Mark one oval for each question.) Walking several blocks</comment>
+	<value code="1">Yes, limited a lot</value>
+	<value code="2">Yes, limited a little</value>
+	<value code="3">No, not limited at all</value>
+</variable>
+
+<variable id="phv00079101.v1">
+	<name>WALK1BLK</name>
+	<description>Walking one block</description>
+	<type>encoded value</type>
+	<comment>The following are questions about a typical (or usual) day&#39;s activities. Does your health now limit you in these activities and, if so, how much? (Mark one oval for each question.) Walking one block</comment>
+	<value code="1">Yes, limited a lot</value>
+	<value code="2">Yes, limited a little</value>
+	<value code="3">No, not limited at all</value>
+</variable>
+
+<variable id="phv00079102.v1">
+	<name>BATHING</name>
+	<description>Bathing or dressing yourself</description>
+	<type>encoded value</type>
+	<comment>The following are questions about a typical (or usual) day&#39;s activities. Does your health now limit you in these activities and, if so, how much? (Mark one oval for each question.) Bathing or dressing yourself</comment>
+	<value code="1">Yes, limited a lot</value>
+	<value code="2">Yes, limited a little</value>
+	<value code="3">No, not limited at all</value>
+</variable>
+
+<variable id="phv00079103.v1">
+	<name>INTSOC</name>
+	<description>Extent phys or emotional probs interfere</description>
+	<type>encoded value</type>
+	<comment>During the past four weeks, to what extent have your physical health or emotional problems interfered with your normal social activities with family, neighbors, friends, or groups? (Mark one oval.)</comment>
+	<value code="1">Not at all</value>
+	<value code="2">Slightly</value>
+	<value code="3">Moderately</value>
+	<value code="4">Quite a bit</value>
+	<value code="5">Extremely</value>
+</variable>
+
+<variable id="phv00079104.v1">
+	<name>BODPAIN</name>
+	<description>How much bodily pain</description>
+	<type>encoded value</type>
+	<comment>During the past four weeks, how much bodily pain have you had? (Mark one oval.)</comment>
+	<value code="0">None</value>
+	<value code="2">Very mild</value>
+	<value code="3">Mild</value>
+	<value code="4">Moderate</value>
+	<value code="5">Severe</value>
+</variable>
+
+<variable id="phv00079105.v1">
+	<name>PAININT</name>
+	<description>How much did pain interfere</description>
+	<type>encoded value</type>
+	<comment>During the past four weeks, how much did pain interfere with your normal work (both outside your home and at home)? (Mark one oval.)</comment>
+	<value code="1">Not at all</value>
+	<value code="2">A little bit</value>
+	<value code="3">Moderately</value>
+	<value code="4">Quite a bit</value>
+	<value code="5">Extremely</value>
+</variable>
+
+<variable id="phv00079106.v1">
+	<name>LESSWRKP</name>
+	<description>Physical/Cut down on time spent</description>
+	<type>encoded value</type>
+	<comment>The next questions are about your regular daily activities like work, child care, or community activities.  As a result of you physical health, have any of the following problems occurred during the past 4 weeks?  You cut down on the amount of time you spent on work or other activities</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00079107.v1">
+	<name>LESSACCP</name>
+	<description>Physical/Accomplished less</description>
+	<type>encoded value</type>
+	<comment>The next questions are about your regular daily activities like work, child care, or community activities.  As a result of you physical health, have any of the following problems occurred during the past 4 weeks?  You accomplished less than you would have liked</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00079108.v1">
+	<name>LESSKNDP</name>
+	<description>Physical/Limited kind of work</description>
+	<type>encoded value</type>
+	<comment>The next questions are about your regular daily activities like work, child care, or community activities.  As a result of you physical health, have any of the following problems occurred during the past 4 weeks?  You were limited in the kind of work or other activities you did</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00079109.v1">
+	<name>WRKDIFFP</name>
+	<description>Physical/Difficulty performing work</description>
+	<type>encoded value</type>
+	<comment>The next questions are about your regular daily activities like work, child care, or community activities.  As a result of you physical health, have any of the following problems occurred during the past 4 weeks?  You had difficulty performing work or other activities (it took extra effort)</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00079110.v1">
+	<name>LESSWRKE</name>
+	<description>Emotional/Cut down on time spent</description>
+	<type>encoded value</type>
+	<comment>In the past four weeks, as a result of any emotional problem (feeling depressed or anxious), have any of the following occurred? You cut down on the amount of time spent on work or other activities</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00079111.v1">
+	<name>LESSACCE</name>
+	<description>Emotional/Accomplished less</description>
+	<type>encoded value</type>
+	<comment>In the past four weeks, as a result of any emotional problem (feeling depressed or anxious), have any of the following occurred? You accomplished less than you would have liked</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00079112.v1">
+	<name>LESSCARE</name>
+	<description>Emotional/Worked less carefully</description>
+	<type>encoded value</type>
+	<comment>In the past four weeks, as a result of any emotional problem (feeling depressed or anxious), have any of the following occurred? You did work or other things less carefully than usual</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00079113.v1">
+	<name>SICKEASY</name>
+	<description>I get sick easier than others</description>
+	<type>encoded value</type>
+	<comment>Of these statements, how true or false is each for you? I seem to get sick a little easier than other people.</comment>
+	<value code="1">Definitely true</value>
+	<value code="2">Mostly true</value>
+	<value code="3">Not sure</value>
+	<value code="4">Mostly false</value>
+	<value code="5">Definitely false</value>
+</variable>
+
+<variable id="phv00079114.v1">
+	<name>HLTHYANY</name>
+	<description>I am as healthy as anybody</description>
+	<type>encoded value</type>
+	<comment>Of these statements, how true or false is each for you? I am as healthy as anybody I know.</comment>
+	<value code="1">Definitely true</value>
+	<value code="2">Mostly true</value>
+	<value code="3">Not sure</value>
+	<value code="4">Mostly false</value>
+	<value code="5">Definitely false</value>
+</variable>
+
+<variable id="phv00079115.v1">
+	<name>HLTHWORS</name>
+	<description>I expect my health to get worse</description>
+	<type>encoded value</type>
+	<comment>Of these statements, how true or false is each for you? I expect my health to get worse.</comment>
+	<value code="1">Definitely true</value>
+	<value code="2">Mostly true</value>
+	<value code="3">Not sure</value>
+	<value code="4">Mostly false</value>
+	<value code="5">Definitely false</value>
+</variable>
+
+<variable id="phv00079116.v1">
+	<name>HLTHEXCL</name>
+	<description>My health is excellent</description>
+	<type>encoded value</type>
+	<comment>Of these statements, how true or false is each for you? My health is excellent.</comment>
+	<value code="1">Definitely true</value>
+	<value code="2">Mostly true</value>
+	<value code="3">Not sure</value>
+	<value code="4">Mostly false</value>
+	<value code="5">Definitely false</value>
+</variable>
+
+<variable id="phv00079117.v1">
+	<name>INTSOC2</name>
+	<description>Time physical/emotional probs interfere</description>
+	<type>encoded value</type>
+	<comment>During the past 4 weeks, how much of the time has your physical health or emotional problems interfered with your social activities (like visiting with friends and relatives)?</comment>
+	<value code="1">All of the time</value>
+	<value code="2">Most of the time</value>
+	<value code="3">Some of the time</value>
+	<value code="4">A little bit of the time</value>
+	<value code="5">None of the time</value>
+</variable>
+
+<variable id="phv00079118.v1">
+	<name>FULLPEP</name>
+	<description>Did you feel full of pep</description>
+	<type>encoded value</type>
+	<comment>These questions are about how you feel and how things have been during the past 4 weeks. Give the one answer that comes closet to the way you have been feeling. Did you feel full of pep?</comment>
+	<value code="1">All of the time</value>
+	<value code="2">Most of the time</value>
+	<value code="3">A good bit of the time</value>
+	<value code="4">Some of the time</value>
+	<value code="5">A little bit of the time</value>
+	<value code="6">None of the time</value>
+</variable>
+
+<variable id="phv00079119.v1">
+	<name>NERVOUS</name>
+	<description>Have you been a very nervous person</description>
+	<type>encoded value</type>
+	<comment>These questions are about how you feel and how things have been during the past 4 weeks. Give the one answer that comes closet to the way you have been feeling. Have you been a very nervous person?</comment>
+	<value code="1">All of the time</value>
+	<value code="2">Most of the time</value>
+	<value code="3">A good bit of the time</value>
+	<value code="4">Some of the time</value>
+	<value code="5">A little bit of the time</value>
+	<value code="6">None of the time</value>
+</variable>
+
+<variable id="phv00079120.v1">
+	<name>DWNDUMPS</name>
+	<description>Felt down in the dumps</description>
+	<type>encoded value</type>
+	<comment>These questions are about how you feel and how things have been during the past 4 weeks. Give the one answer that comes closet to the way you have been feeling. Have you felt so down in the dumps that nothing could cheer you up?</comment>
+	<value code="1">All of the time</value>
+	<value code="2">Most of the time</value>
+	<value code="3">A good bit of the time</value>
+	<value code="4">Some of the time</value>
+	<value code="5">A little bit of the time</value>
+	<value code="6">None of the time</value>
+</variable>
+
+<variable id="phv00079121.v1">
+	<name>CALM</name>
+	<description>Felt calm and peaceful</description>
+	<type>encoded value</type>
+	<comment>These questions are about how you feel and how things have been during the past 4 weeks. Give the one answer that comes closet to the way you have been feeling. Have you felt calm and peaceful?</comment>
+	<value code="1">All of the time</value>
+	<value code="2">Most of the time</value>
+	<value code="3">A good bit of the time</value>
+	<value code="4">Some of the time</value>
+	<value code="5">A little bit of the time</value>
+	<value code="6">None of the time</value>
+</variable>
+
+<variable id="phv00079122.v1">
+	<name>ENERGY</name>
+	<description>Did you have a lot of energy</description>
+	<type>encoded value</type>
+	<comment>These questions are about how you feel and how things have been during the past 4 weeks. Give the one answer that comes closet to the way you have been feeling. Did you have a lot of energy?</comment>
+	<value code="1">All of the time</value>
+	<value code="2">Most of the time</value>
+	<value code="3">A good bit of the time</value>
+	<value code="4">Some of the time</value>
+	<value code="5">A little bit of the time</value>
+	<value code="6">None of the time</value>
+</variable>
+
+<variable id="phv00079123.v1">
+	<name>FELTBLUE</name>
+	<description>Felt downhearted and blue</description>
+	<type>encoded value</type>
+	<comment>These questions are about how you feel and how things have been during the past 4 weeks. Give the one answer that comes closet to the way you have been feeling. Have you felt downhearted and blue?</comment>
+	<value code="1">All of the time</value>
+	<value code="2">Most of the time</value>
+	<value code="3">A good bit of the time</value>
+	<value code="4">Some of the time</value>
+	<value code="5">A little bit of the time</value>
+	<value code="6">None of the time</value>
+</variable>
+
+<variable id="phv00079124.v1">
+	<name>WORNOUT</name>
+	<description>Did you feel worn out</description>
+	<type>encoded value</type>
+	<comment>These questions are about how you feel and how things have been during the past 4 weeks. Give the one answer that comes closet to the way you have been feeling. Did you feel worn out?</comment>
+	<value code="1">All of the time</value>
+	<value code="2">Most of the time</value>
+	<value code="3">A good bit of the time</value>
+	<value code="4">Some of the time</value>
+	<value code="5">A little bit of the time</value>
+	<value code="6">None of the time</value>
+</variable>
+
+<variable id="phv00079125.v1">
+	<name>HAPPY</name>
+	<description>Have you been happy</description>
+	<type>encoded value</type>
+	<comment>These questions are about how you feel and how things have been during the past 4 weeks. Give the one answer that comes closet to the way you have been feeling. Have you been happy?</comment>
+	<value code="1">All of the time</value>
+	<value code="2">Most of the time</value>
+	<value code="3">A good bit of the time</value>
+	<value code="4">Some of the time</value>
+	<value code="5">A little bit of the time</value>
+	<value code="6">None of the time</value>
+</variable>
+
+<variable id="phv00079126.v1">
+	<name>TIRED</name>
+	<description>Did you feel tired</description>
+	<type>encoded value</type>
+	<comment>These questions are about how you feel and how things have been during the past 4 weeks. Give the one answer that comes closet to the way you have been feeling. Did you feel tired?</comment>
+	<value code="1">All of the time</value>
+	<value code="2">Most of the time</value>
+	<value code="3">A good bit of the time</value>
+	<value code="4">Some of the time</value>
+	<value code="5">A little bit of the time</value>
+	<value code="6">None of the time</value>
+</variable>
+
+<variable id="phv00079127.v1">
+	<name>EAT</name>
+	<description>Can you eat</description>
+	<type>encoded value</type>
+	<comment>Can you eat:
+		Not collected on all versions of Form 38. </comment>
+	<value code="1">Without help (can feed self completely)</value>
+	<value code="2">With some help (help cutting, etc.)</value>
+	<value code="3">Completely unable to feed self</value>
+</variable>
+
+<variable id="phv00079128.v1">
+	<name>DRESS</name>
+	<description>Can you dress and undress self</description>
+	<type>encoded value</type>
+	<comment>Can you dress and undress yourself:
+		Not collected on all versions of Form 38. </comment>
+	<value code="1">Without help (can pick clothes, dress)</value>
+	<value code="2">With some help</value>
+	<value code="3">Unable to dress and undress self</value>
+</variable>
+
+<variable id="phv00079129.v1">
+	<name>INOUTBED</name>
+	<description>Can you get in and out of bed</description>
+	<type>encoded value</type>
+	<comment>Can you get in and out of bed:
+		Not collected on all versions of Form 38. </comment>
+	<value code="1">Without any help or aids</value>
+	<value code="2">With some help (from a person or device)</value>
+	<value code="3">Totally dependent on someone else</value>
+</variable>
+
+<variable id="phv00079130.v1">
+	<name>SHOWER</name>
+	<description>Can you take a bath or shower</description>
+	<type>encoded value</type>
+	<comment>Can you take a bath or shower:
+		Not collected on all versions of Form 38. </comment>
+	<value code="1">Without help</value>
+	<value code="2">With some help (help in/out, tub attach)</value>
+	<value code="3">Completely unable to bathe self</value>
+</variable>
+
+<variable id="phv00079131.v1">
+	<name>BLOATING</name>
+	<description>Bloating or gas</description>
+	<type>encoded value</type>
+	<comment>Below is a list of symptoms people sometimes have. For each item, mark the one oval that best describes how bothersome the symptom was during the past 4 weeks for you. Be sure to mark one oval on each line. Bloating or gas
+		Not collected on all versions of Form 38. </comment>
+	<value code="0">Symptom did not occur</value>
+	<value code="1">Symptom was mild</value>
+	<value code="2">Symptom was moderate</value>
+	<value code="3">Symptom was severe</value>
+</variable>
+
+<variable id="phv00079132.v1">
+	<name>CONSTIP</name>
+	<description>Constipation</description>
+	<type>encoded value</type>
+	<comment>Below is a list of symptoms people sometimes have. For each item, mark the one oval that best describes how bothersome the symptom was during the past 4 weeks for you. Be sure to mark one oval on each line. Constipation (difficulty having bowel movements)</comment>
+	<value code="0">Symptom did not occur</value>
+	<value code="1">Symptom was mild</value>
+	<value code="2">Symptom was moderate</value>
+	<value code="3">Symptom was severe</value>
+</variable>
+
+<variable id="phv00079133.v1">
+	<name>NIGHTSWT</name>
+	<description>Night sweats</description>
+	<type>encoded value</type>
+	<comment>Below is a list of symptoms people sometimes have. For each item, mark the one oval that best describes how bothersome the symptom was during the past 4 weeks for you. Be sure to mark one oval on each line. Night sweats</comment>
+	<value code="0">Symptom did not occur</value>
+	<value code="1">Symptom was mild</value>
+	<value code="2">Symptom was moderate</value>
+	<value code="3">Symptom was severe</value>
+</variable>
+
+<variable id="phv00079134.v1">
+	<name>ACHES</name>
+	<description>General aches or pains</description>
+	<type>encoded value</type>
+	<comment>Below is a list of symptoms people sometimes have. For each item, mark the one oval that best describes how bothersome the symptom was during the past 4 weeks for you. Be sure to mark one oval on each line. General aches or pains</comment>
+	<value code="0">Symptom did not occur</value>
+	<value code="1">Symptom was mild</value>
+	<value code="2">Symptom was moderate</value>
+	<value code="3">Symptom was severe</value>
+</variable>
+
+<variable id="phv00079135.v1">
+	<name>BRSTTEN</name>
+	<description>Breast tenderness</description>
+	<type>encoded value</type>
+	<comment>Below is a list of symptoms people sometimes have. For each item, mark the one oval that best describes how bothersome the symptom was during the past 4 weeks for you. Be sure to mark one oval on each line. Breast tenderness</comment>
+	<value code="0">Symptom did not occur</value>
+	<value code="1">Symptom was mild</value>
+	<value code="2">Symptom was moderate</value>
+	<value code="3">Symptom was severe</value>
+</variable>
+
+<variable id="phv00079136.v1">
+	<name>HOTFLASH</name>
+	<description>Hot flashes</description>
+	<type>encoded value</type>
+	<comment>Below is a list of symptoms people sometimes have. For each item, mark the one oval that best describes how bothersome the symptom was during the past 4 weeks for you. Be sure to mark one oval on each line. Hot flashes</comment>
+	<value code="0">Symptom did not occur</value>
+	<value code="1">Symptom was mild</value>
+	<value code="2">Symptom was moderate</value>
+	<value code="3">Symptom was severe</value>
+</variable>
+
+<variable id="phv00079137.v1">
+	<name>DIARRHEA</name>
+	<description>Diarrhea</description>
+	<type>encoded value</type>
+	<comment>Below is a list of symptoms people sometimes have. For each item, mark the one oval that best describes how bothersome the symptom was during the past 4 weeks for you. Be sure to mark one oval on each line. Diarrhea</comment>
+	<value code="0">Symptom did not occur</value>
+	<value code="1">Symptom was mild</value>
+	<value code="2">Symptom was moderate</value>
+	<value code="3">Symptom was severe</value>
+</variable>
+
+<variable id="phv00079138.v1">
+	<name>MOODSWNG</name>
+	<description>Mood swings</description>
+	<type>encoded value</type>
+	<comment>Below is a list of symptoms people sometimes have. For each item, mark the one oval that best describes how bothersome the symptom was during the past 4 weeks for you. Be sure to mark one oval on each line. Mood swings</comment>
+	<value code="0">Symptom did not occur</value>
+	<value code="1">Symptom was mild</value>
+	<value code="2">Symptom was moderate</value>
+	<value code="3">Symptom was severe</value>
+</variable>
+
+<variable id="phv00079139.v1">
+	<name>NAUSEA</name>
+	<description>Nausea</description>
+	<type>encoded value</type>
+	<comment>Below is a list of symptoms people sometimes have. For each item, mark the one oval that best describes how bothersome the symptom was during the past 4 weeks for you. Be sure to mark one oval on each line. Nausea</comment>
+	<value code="0">Symptom did not occur</value>
+	<value code="1">Symptom was mild</value>
+	<value code="2">Symptom was moderate</value>
+	<value code="3">Symptom was severe</value>
+</variable>
+
+<variable id="phv00079140.v1">
+	<name>DIZZY</name>
+	<description>Dizziness</description>
+	<type>encoded value</type>
+	<comment>Below is a list of symptoms people sometimes have. For each item, mark the one oval that best describes how bothersome the symptom was during the past 4 weeks for you. Be sure to mark one oval on each line. Dizziness</comment>
+	<value code="0">Symptom did not occur</value>
+	<value code="1">Symptom was mild</value>
+	<value code="2">Symptom was moderate</value>
+	<value code="3">Symptom was severe</value>
+</variable>
+
+<variable id="phv00079141.v1">
+	<name>TIRED2</name>
+	<description>Feeling tired</description>
+	<type>encoded value</type>
+	<comment>Below is a list of symptoms people sometimes have. For each item, mark the one oval that best describes how bothersome the symptom was during the past 4 weeks for you. Be sure to mark one oval on each line. Feeling tired</comment>
+	<value code="0">Symptom did not occur</value>
+	<value code="1">Symptom was mild</value>
+	<value code="2">Symptom was moderate</value>
+	<value code="3">Symptom was severe</value>
+</variable>
+
+<variable id="phv00079142.v1">
+	<name>FORGET</name>
+	<description>Forgetfulness</description>
+	<type>encoded value</type>
+	<comment>Below is a list of symptoms people sometimes have. For each item, mark the one oval that best describes how bothersome the symptom was during the past 4 weeks for you. Be sure to mark one oval on each line. Forgetfulness</comment>
+	<value code="0">Symptom did not occur</value>
+	<value code="1">Symptom was mild</value>
+	<value code="2">Symptom was moderate</value>
+	<value code="3">Symptom was severe</value>
+</variable>
+
+<variable id="phv00079143.v1">
+	<name>HUNGRY</name>
+	<description>Increase appetite</description>
+	<type>encoded value</type>
+	<comment>Below is a list of symptoms people sometimes have. For each item, mark the one oval that best describes how bothersome the symptom was during the past 4 weeks for you. Be sure to mark one oval on each line. Increased appetite</comment>
+	<value code="0">Symptom did not occur</value>
+	<value code="1">Symptom was mild</value>
+	<value code="2">Symptom was moderate</value>
+	<value code="3">Symptom was severe</value>
+</variable>
+
+<variable id="phv00079144.v1">
+	<name>HEARTRAC</name>
+	<description>Heart racing or skipping beats</description>
+	<type>encoded value</type>
+	<comment>Below is a list of symptoms people sometimes have. For each item, mark the one oval that best describes how bothersome the symptom was during the past 4 weeks for you. Be sure to mark one oval on each line. Heart racing or skipping beats</comment>
+	<value code="0">Symptom did not occur</value>
+	<value code="1">Symptom was mild</value>
+	<value code="2">Symptom was moderate</value>
+	<value code="3">Symptom was severe</value>
+</variable>
+
+<variable id="phv00079145.v1">
+	<name>TREMORS</name>
+	<description>Tremors</description>
+	<type>encoded value</type>
+	<comment>Below is a list of symptoms people sometimes have. For each item, mark the one oval that best describes how bothersome the symptom was during the past 4 weeks for you. Be sure to mark one oval on each line. Tremors (shakes)</comment>
+	<value code="0">Symptom did not occur</value>
+	<value code="1">Symptom was mild</value>
+	<value code="2">Symptom was moderate</value>
+	<value code="3">Symptom was severe</value>
+</variable>
+
+<variable id="phv00079146.v1">
+	<name>HEARTBRN</name>
+	<description>Heartburn</description>
+	<type>encoded value</type>
+	<comment>Below is a list of symptoms people sometimes have. For each item, mark the one oval that best describes how bothersome the symptom was during the past 4 weeks for you. Be sure to mark one oval on each line. Heartburn</comment>
+	<value code="0">Symptom did not occur</value>
+	<value code="1">Symptom was mild</value>
+	<value code="2">Symptom was moderate</value>
+	<value code="3">Symptom was severe</value>
+</variable>
+
+<variable id="phv00079147.v1">
+	<name>RESTLESS</name>
+	<description>Restless and fidgety</description>
+	<type>encoded value</type>
+	<comment>Below is a list of symptoms people sometimes have. For each item, mark the one oval that best describes how bothersome the symptom was during the past 4 weeks for you. Be sure to mark one oval on each line. Restless or fidgety</comment>
+	<value code="0">Symptom did not occur</value>
+	<value code="1">Symptom was mild</value>
+	<value code="2">Symptom was moderate</value>
+	<value code="3">Symptom was severe</value>
+</variable>
+
+<variable id="phv00079148.v1">
+	<name>LOWBACKP</name>
+	<description>Low back pain</description>
+	<type>encoded value</type>
+	<comment>Below is a list of symptoms people sometimes have. For each item, mark the one oval that best describes how bothersome the symptom was during the past 4 weeks for you. Be sure to mark one oval on each line. Low back pain</comment>
+	<value code="0">Symptom did not occur</value>
+	<value code="1">Symptom was mild</value>
+	<value code="2">Symptom was moderate</value>
+	<value code="3">Symptom was severe</value>
+</variable>
+
+<variable id="phv00079149.v1">
+	<name>NECKPAIN</name>
+	<description>Neck pain</description>
+	<type>encoded value</type>
+	<comment>Below is a list of symptoms people sometimes have. For each item, mark the one oval that best describes how bothersome the symptom was during the past 4 weeks for you. Be sure to mark one oval on each line. Neck pain</comment>
+	<value code="0">Symptom did not occur</value>
+	<value code="1">Symptom was mild</value>
+	<value code="2">Symptom was moderate</value>
+	<value code="3">Symptom was severe</value>
+</variable>
+
+<variable id="phv00079150.v1">
+	<name>SKINDRY</name>
+	<description>Skin dryness or scaling</description>
+	<type>encoded value</type>
+	<comment>Below is a list of symptoms people sometimes have. For each item, mark the one oval that best describes how bothersome the symptom was during the past 4 weeks for you. Be sure to mark one oval on each line. Skin dryness or scaling</comment>
+	<value code="0">Symptom did not occur</value>
+	<value code="1">Symptom was mild</value>
+	<value code="2">Symptom was moderate</value>
+	<value code="3">Symptom was severe</value>
+</variable>
+
+<variable id="phv00079151.v1">
+	<name>HEADACHE</name>
+	<description>Headaches or migraines</description>
+	<type>encoded value</type>
+	<comment>Below is a list of symptoms people sometimes have. For each item, mark the one oval that best describes how bothersome the symptom was during the past 4 weeks for you. Be sure to mark one oval on each line. Headaches or migraines</comment>
+	<value code="0">Symptom did not occur</value>
+	<value code="1">Symptom was mild</value>
+	<value code="2">Symptom was moderate</value>
+	<value code="3">Symptom was severe</value>
+</variable>
+
+<variable id="phv00079152.v1">
+	<name>CLUMSY</name>
+	<description>Clumsiness</description>
+	<type>encoded value</type>
+	<comment>Below is a list of symptoms people sometimes have. For each item, mark the one oval that best describes how bothersome the symptom was during the past 4 weeks for you. Be sure to mark one oval on each line. Clumsiness</comment>
+	<value code="0">Symptom did not occur</value>
+	<value code="1">Symptom was mild</value>
+	<value code="2">Symptom was moderate</value>
+	<value code="3">Symptom was severe</value>
+</variable>
+
+<variable id="phv00079153.v1">
+	<name>TRBSEE</name>
+	<description>Trouble with vision</description>
+	<type>encoded value</type>
+	<comment>Below is a list of symptoms people sometimes have. For each item, mark the one oval that best describes how bothersome the symptom was during the past 4 weeks for you. Be sure to mark one oval on each line. Any trouble seeing that is uncorrected by lenses</comment>
+	<value code="0">Symptom did not occur</value>
+	<value code="1">Symptom was mild</value>
+	<value code="2">Symptom was moderate</value>
+	<value code="3">Symptom was severe</value>
+</variable>
+
+<variable id="phv00079154.v1">
+	<name>VAGITCH</name>
+	<description>Vaginal or genital irritation</description>
+	<type>encoded value</type>
+	<comment>Below is a list of symptoms people sometimes have. For each item, mark the one oval that best describes how bothersome the symptom was during the past 4 weeks for you. Be sure to mark one oval on each line. Vaginal or genital irritation or itching</comment>
+	<value code="0">Symptom did not occur</value>
+	<value code="1">Symptom was mild</value>
+	<value code="2">Symptom was moderate</value>
+	<value code="3">Symptom was severe</value>
+</variable>
+
+<variable id="phv00079155.v1">
+	<name>CONCEN</name>
+	<description>Difficulty concentrating</description>
+	<type>encoded value</type>
+	<comment>Below is a list of symptoms people sometimes have. For each item, mark the one oval that best describes how bothersome the symptom was during the past 4 weeks for you. Be sure to mark one oval on each line. Difficulty concentrating</comment>
+	<value code="0">Symptom did not occur</value>
+	<value code="1">Symptom was mild</value>
+	<value code="2">Symptom was moderate</value>
+	<value code="3">Symptom was severe</value>
+</variable>
+
+<variable id="phv00079156.v1">
+	<name>JNTPAIN</name>
+	<description>Joint pain or stiffness</description>
+	<type>encoded value</type>
+	<comment>Below is a list of symptoms people sometimes have. For each item, mark the one oval that best describes how bothersome the symptom was during the past 4 weeks for you... Be sure to mark one box on each line. Joint pain or stiffness</comment>
+	<value code="0">Symptom did not occur</value>
+	<value code="1">Symptom was mild</value>
+	<value code="2">Symptom was moderate</value>
+	<value code="3">Symptom was severe</value>
+</variable>
+
+<variable id="phv00079157.v1">
+	<name>NOHUNGER</name>
+	<description>Decreased appetite</description>
+	<type>encoded value</type>
+	<comment>Below is a list of symptoms people sometimes have. For each item, mark the one oval that best describes how bothersome the symptom was during the past 4 weeks for you. Be sure to mark one oval on each line. Decreased appetite</comment>
+	<value code="0">Symptom did not occur</value>
+	<value code="1">Symptom was mild</value>
+	<value code="2">Symptom was moderate</value>
+	<value code="3">Symptom was severe</value>
+</variable>
+
+<variable id="phv00079158.v1">
+	<name>HEARLOSS</name>
+	<description>Hearing loss</description>
+	<type>encoded value</type>
+	<comment>Below is a list of symptoms people sometimes have. For each item, mark the one oval that best describes how bothersome the symptom was during the past 4 weeks for you. Be sure to mark one oval on each line. Hearing loss</comment>
+	<value code="0">Symptom did not occur</value>
+	<value code="1">Symptom was mild</value>
+	<value code="2">Symptom was moderate</value>
+	<value code="3">Symptom was severe</value>
+</variable>
+
+<variable id="phv00079159.v1">
+	<name>SWELLHND</name>
+	<description>Swelling of hands or feet</description>
+	<type>encoded value</type>
+	<comment>Below is a list of symptoms people sometimes have. For each item, mark the one oval that best describes how bothersome the symptom was during the past 4 weeks for you. Be sure to mark one oval on each line. Swelling of hands or feet</comment>
+	<value code="0">Symptom did not occur</value>
+	<value code="1">Symptom was mild</value>
+	<value code="2">Symptom was moderate</value>
+	<value code="3">Symptom was severe</value>
+</variable>
+
+<variable id="phv00079160.v1">
+	<name>VAGDRY</name>
+	<description>Vaginal or genital dryness</description>
+	<type>encoded value</type>
+	<comment>Below is a list of symptoms people sometimes have. For each item, mark the one oval that best describes how bothersome the symptom was during the past 4 weeks for you. Be sure to mark one oval on each line. Vaginal or genital dryness</comment>
+	<value code="0">Symptom did not occur</value>
+	<value code="1">Symptom was mild</value>
+	<value code="2">Symptom was moderate</value>
+	<value code="3">Symptom was severe</value>
+</variable>
+
+<variable id="phv00079161.v1">
+	<name>UPSTOM</name>
+	<description>Upset stomach or belly pain</description>
+	<type>encoded value</type>
+	<comment>Below is a list of symptoms people sometimes have. For each item, mark the one oval that best describes how bothersome the symptom was during the past 4 weeks for you. Be sure to mark one oval on each line. Upset stomach or belly pain or discomfort</comment>
+	<value code="0">Symptom did not occur</value>
+	<value code="1">Symptom was mild</value>
+	<value code="2">Symptom was moderate</value>
+	<value code="3">Symptom was severe</value>
+</variable>
+
+<variable id="phv00079162.v1">
+	<name>URINPAIN</name>
+	<description>Pain or burning while urinating</description>
+	<type>encoded value</type>
+	<comment>Below is a list of symptoms people sometimes have. For each item, mark the one oval that best describes how bothersome the symptom was during the past 4 weeks for you. Be sure to mark one oval on each line. Pain or burning while urinating</comment>
+	<value code="0">Symptom did not occur</value>
+	<value code="1">Symptom was mild</value>
+	<value code="2">Symptom was moderate</value>
+	<value code="3">Symptom was severe</value>
+</variable>
+
+<variable id="phv00079163.v1">
+	<name>COUGH</name>
+	<description>Coughing or wheezing</description>
+	<type>encoded value</type>
+	<comment>Below is a list of symptoms people sometimes have. For each item, mark the one oval that best describes how bothersome the symptom was during the past 4 weeks for you. Be sure to mark one oval on each line. Cough or wheezing</comment>
+	<value code="0">Symptom did not occur</value>
+	<value code="1">Symptom was mild</value>
+	<value code="2">Symptom was moderate</value>
+	<value code="3">Symptom was severe</value>
+</variable>
+
+<variable id="phv00079164.v1">
+	<name>VAGDIS</name>
+	<description>Vaginal or genital discharge</description>
+	<type>encoded value</type>
+	<comment>Below is a list of symptoms people sometimes have. For each item, mark the one oval that best describes how bothersome the symptom was during the past 4 weeks for you. Be sure to mark one oval on each line. Vaginal or genital discharge</comment>
+	<value code="0">Symptom did not occur</value>
+	<value code="1">Symptom was mild</value>
+	<value code="2">Symptom was moderate</value>
+	<value code="3">Symptom was severe</value>
+</variable>
+
+<variable id="phv00079165.v1">
+	<name>SPOUSDIE</name>
+	<description>Did your spouse or partner die</description>
+	<type>encoded value</type>
+	<comment>Below are some hard things that sometimes happen to people. Please try to think back over the past year to remember if any of these things happened. Mark the answer that seems best. Over the past year: Did your spouse or partner die?
+		Not collected on all versions of Form 38. </comment>
+	<value code="0">No</value>
+	<value code="1">Yes and upset me: Not too much</value>
+	<value code="2">Yes and upset me: Moderately</value>
+	<value code="3">Yes and upset me: Very much</value>
+</variable>
+
+<variable id="phv00079166.v1">
+	<name>SPOUSILL</name>
+	<description>Did your spouse have a serious illness</description>
+	<type>encoded value</type>
+	<comment>Below are some hard things that sometimes happen to people. Please try to think back over the past year to remember if any of these things happened. Mark the answer that seems best. Over the past year: Did your spouse or partner have a serious illness?
+		Not collected on all versions of Form 38. </comment>
+	<value code="0">No</value>
+	<value code="1">Yes and upset me: Not too much</value>
+	<value code="2">Yes and upset me: Moderately</value>
+	<value code="3">Yes and upset me: Very much</value>
+</variable>
+
+<variable id="phv00079167.v1">
+	<name>FRIENDIE</name>
+	<description>Did a close friend die</description>
+	<type>encoded value</type>
+	<comment>Below are some hard things that sometimes happen to people. Please try to think back over the past year to remember if any of these things happened. Over the past year: Did a close friend or family member die or have a serious illness (other than your spouse or partner)?
+		Not collected on all versions of Form 38. </comment>
+	<value code="0">No</value>
+	<value code="1">Yes and upset me: Not too much</value>
+	<value code="2">Yes and upset me: Moderately</value>
+	<value code="3">Yes and upset me: Very much</value>
+</variable>
+
+<variable id="phv00079168.v1">
+	<name>MONPROB</name>
+	<description>Have major problems with money</description>
+	<type>encoded value</type>
+	<comment>Below are some hard things that sometimes happen to people. Please try to think back over the past year to remember if any of these things happened. Mark the answer that seems best. Over the past year: Did you have any major problems with money?
+		Not collected on all versions of Form 38. </comment>
+	<value code="0">No</value>
+	<value code="1">Yes and upset me: Not too much</value>
+	<value code="2">Yes and upset me: Moderately</value>
+	<value code="3">Yes and upset me: Very much</value>
+</variable>
+
+<variable id="phv00079169.v1">
+	<name>DIVORCE</name>
+	<description>Have a divorce or break-up</description>
+	<type>encoded value</type>
+	<comment>Below are some hard things that sometimes happen to people. Please try to think back over the past year to remember if any of these things happened. Mark the answer that seems best. Over the past year: Did you have a divorce or break-up with a spouse or partner?
+		Not collected on all versions of Form 38. </comment>
+	<value code="0">No</value>
+	<value code="1">Yes and upset me: Not too much</value>
+	<value code="2">Yes and upset me: Moderately</value>
+	<value code="3">Yes and upset me: Very much</value>
+</variable>
+
+<variable id="phv00079170.v1">
+	<name>FRNDIV</name>
+	<description>Close friend/family have a divorce</description>
+	<type>encoded value</type>
+	<comment>Below are some hard things that sometimes happen to people. Please try to think back over the past year to remember if any of these things happened. Mark the answer that seems best. Over the past year: Did a family member or close friend have a divorce or break-up?
+		Not collected on all versions of Form 38. </comment>
+	<value code="0">No</value>
+	<value code="1">Yes and upset me: Not too much</value>
+	<value code="2">Yes and upset me: Moderately</value>
+	<value code="3">Yes and upset me: Very much</value>
+</variable>
+
+<variable id="phv00079171.v1">
+	<name>CHILCON</name>
+	<description>Have major conflict with children</description>
+	<type>encoded value</type>
+	<comment>Below are some hard things that sometimes happen to people. Please try to think back over the past year to remember if any of these things happened. Mark the answer that seems best. Over the past year: Did you have a major conflict with children or grandchildren?
+		Not collected on all versions of Form 38. </comment>
+	<value code="0">No</value>
+	<value code="1">Yes and upset me: Not too much</value>
+	<value code="2">Yes and upset me: Moderately</value>
+	<value code="3">Yes and upset me: Very much</value>
+</variable>
+
+<variable id="phv00079172.v1">
+	<name>MAJACC</name>
+	<description>Have a major accident or disaster</description>
+	<type>encoded value</type>
+	<comment>Below are some hard things that sometimes happen to people. Pls try to think back over the past yr to remember if any of these things happened. Over the past year: Did you have any major accidents,disasters, muggings, unwanted sexual experiences, robberies or similar events?
+		Not collected on all versions of Form 38. </comment>
+	<value code="0">No</value>
+	<value code="1">Yes and upset me: Not too much</value>
+	<value code="2">Yes and upset me: Moderately</value>
+	<value code="3">Yes and upset me: Very much</value>
+</variable>
+
+<variable id="phv00079173.v1">
+	<name>FRNJOB</name>
+	<description>You, family, friend lose job or retire</description>
+	<type>encoded value</type>
+	<comment>Below are some hard things that sometimes happen to people. Please try to think back over the past year to remember if any of these things happened. Mark the answer that seems best. Over the past year: Did a family member or close friend lose their job or retire?
+		Not collected on all versions of Form 38. </comment>
+	<value code="0">No</value>
+	<value code="1">Yes and upset me: Not too much</value>
+	<value code="2">Yes and upset me: Moderately</value>
+	<value code="3">Yes and upset me: Very much</value>
+</variable>
+
+<variable id="phv00079174.v1">
+	<name>PETDIE</name>
+	<description>Did a pet die</description>
+	<type>encoded value</type>
+	<comment>Below are some hard things that sometimes happen to people. Please try to think back over the past year to remember if any of these things happened. Mark the answer that seems best. Over the past year: Did a pet die?
+		Not collected on all versions of Form 38. </comment>
+	<value code="0">No</value>
+	<value code="1">Yes and upset me: Not too much</value>
+	<value code="2">Yes and upset me: Moderately</value>
+	<value code="3">Yes and upset me: Very much</value>
+</variable>
+
+<variable id="phv00079175.v1">
+	<name>FELTDEP</name>
+	<description>You felt depressed</description>
+	<type>encoded value</type>
+	<comment>These are questions about your feelings during the past week. For each of the statements, please indicate the choice that tells how often you felt that way. You felt depressed (blue or down)
+		Not collected on all versions of Form 38. </comment>
+	<value code="0">Rarely or none of the time</value>
+	<value code="1">Some or a little of the time</value>
+	<value code="2">Occasionally or a moderate amount</value>
+	<value code="3">Most or all of the time</value>
+</variable>
+
+<variable id="phv00079176.v1">
+	<name>RESTSLP</name>
+	<description>Your sleep was restless</description>
+	<type>encoded value</type>
+	<comment>These are questions about your feelings during the past week. For each of the statements, please indicate the choice that tells how often you felt that way. Your sleep was restless
+		Not collected on all versions of Form 38. </comment>
+	<value code="0">Rarely or none of the time</value>
+	<value code="1">Some or a little of the time</value>
+	<value code="2">Occasionally or a moderate amount</value>
+	<value code="3">Most or all of the time</value>
+</variable>
+
+<variable id="phv00079177.v1">
+	<name>ENJLIF</name>
+	<description>You enjoyed life</description>
+	<type>encoded value</type>
+	<comment>These are questions about your feelings during the past week. For each of the statements, please indicate the choice that tells how often you felt that way. You enjoyed life
+		Not collected on all versions of Form 38. </comment>
+	<value code="0">Rarely or none of the time</value>
+	<value code="1">Some or a little of the time</value>
+	<value code="2">Occasionally or a moderate amount</value>
+	<value code="3">Most or all of the time</value>
+</variable>
+
+<variable id="phv00079178.v1">
+	<name>CRYSPELL</name>
+	<description>You had crying spells</description>
+	<type>encoded value</type>
+	<comment>These are questions about your feelings during the past week. For each of the statements, please indicate the choice that tells how often you felt that way. You had crying spells
+		Not collected on all versions of Form 38. </comment>
+	<value code="0">Rarely or none of the time</value>
+	<value code="1">Some or a little of the time</value>
+	<value code="2">Occasionally or a moderate amount</value>
+	<value code="3">Most or all of the time</value>
+</variable>
+
+<variable id="phv00079179.v1">
+	<name>FELTSAD</name>
+	<description>You felt sad</description>
+	<type>encoded value</type>
+	<comment>These are questions about your feelings during the past week. For each of the statements, please indicate the choice that tells how often you felt that way. You felt sad
+		Not collected on all versions of Form 38. </comment>
+	<value code="0">Rarely or none of the time</value>
+	<value code="1">Some or a little of the time</value>
+	<value code="2">Occasionally or a moderate amount</value>
+	<value code="3">Most or all of the time</value>
+</variable>
+
+<variable id="phv00079180.v1">
+	<name>PEOPDIS</name>
+	<description>You felt people disliked you</description>
+	<type>encoded value</type>
+	<comment>These are questions about your feelings during the past week. For each of the statements, please indicate the choice that tells how often you felt that way. You felt that people disliked you
+		Not collected on all versions of Form 38. </comment>
+	<value code="0">Rarely or none of the time</value>
+	<value code="1">Some or a little of the time</value>
+	<value code="2">Occasionally or a moderate amount</value>
+	<value code="3">Most or all of the time</value>
+</variable>
+
+<variable id="phv00079181.v1">
+	<name>SAD2WK</name>
+	<description>Felt sad for two weeks or more</description>
+	<type>encoded value</type>
+	<comment>In the past year, have you had two weeks or more during which you felt sad, blue, or depressed, or lost pleasure in things that you usually cared about or enjoyed?
+		Not collected on all versions of Form 38. </comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00079182.v1">
+	<name>SAD2YRS</name>
+	<description>Felt sad for two or more years</description>
+	<type>encoded value</type>
+	<comment>Have you had two years or more in your life when you felt depressed or sad on most days, even if you felt okay sometimes?
+		Not collected on all versions of Form 38. </comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00079183.v1">
+	<name>SADMUCH</name>
+	<description>Felt sad much of past year</description>
+	<type>encoded value</type>
+	<comment>Have you felt depressed or sad much of the time in the past year?
+		Sub-question of F38 V6 Q57 &#39;Felt sad two or more years&#39;.&lt;br/&gt;Not collected on all versions of Form 38. </comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00079184.v1">
+	<name>MEDSLEEP</name>
+	<description>Did you take medication for sleep</description>
+	<type>encoded value</type>
+	<comment>These next questions are about your sleep habits. Please mark one of the answers for each of the following questions. Pick the answer that best describes how often you experienced the situation in the past 4 weeks. Did you take any kind of medication or alcohol at bedtime to help you sleep?</comment>
+	<value code="1">No, not in past 4 weeks</value>
+	<value code="2">Yes, less than once a week</value>
+	<value code="3">Yes, 1 or 2 times a week</value>
+	<value code="4">Yes, 3 or 4 times a week</value>
+	<value code="5">Yes, 5 or more times a week</value>
+</variable>
+
+<variable id="phv00079185.v1">
+	<name>FALLSLP</name>
+	<description>Fall asleep during quiet activity</description>
+	<type>encoded value</type>
+	<comment>These next questions are about your sleep habits. Please mark one of the answers for each of the following questions. Pick the answer that best describes how often you experienced the situation in the past 4 weeks. Did you fall asleep during quiet activities like reading, watching TV, or riding in a car?</comment>
+	<value code="1">No, not in past 4 weeks</value>
+	<value code="2">Yes, less than once a week</value>
+	<value code="3">Yes, 1 or 2 times a week</value>
+	<value code="4">Yes, 3 or 4 times a week</value>
+	<value code="5">Yes, 5 or more times a week</value>
+</variable>
+
+<variable id="phv00079186.v1">
+	<name>NAP</name>
+	<description>Did you nap during the day</description>
+	<type>encoded value</type>
+	<comment>These next questions are about your sleep habits. Please mark one of the answers for each of the following questions. Pick the answer that best describes how often you experienced the situation in the past 4 weeks. Did you nap during the day?</comment>
+	<value code="1">No, not in past 4 weeks</value>
+	<value code="2">Yes, less than once a week</value>
+	<value code="3">Yes, 1 or 2 times a week</value>
+	<value code="4">Yes, 3 or 4 times a week</value>
+	<value code="5">Yes, 5 or more times a week</value>
+</variable>
+
+<variable id="phv00079187.v1">
+	<name>TRBSLEEP</name>
+	<description>Did you have trouble failling asleep</description>
+	<type>encoded value</type>
+	<comment>These next questions are about your sleep habits. Please mark one of the answers for each of the following questions. Pick the answer that best describes how often you experienced the situation in the past 4 weeks. Did you have trouble falling asleep?</comment>
+	<value code="1">No, not in past 4 weeks</value>
+	<value code="2">Yes, less than once a week</value>
+	<value code="3">Yes, 1 or 2 times a week</value>
+	<value code="4">Yes, 3 or 4 times a week</value>
+	<value code="5">Yes, 5 or more times a week</value>
+</variable>
+
+<variable id="phv00079188.v1">
+	<name>WAKENGHT</name>
+	<description>Did you wake up several times</description>
+	<type>encoded value</type>
+	<comment>These next questions are about your sleep habits. Please mark one of the answers for each of the following questions. Pick the answer that best describes how often you experienced the situation in the past 4 weeks. Did you wake up several times at night?</comment>
+	<value code="1">No, not in past 4 weeks</value>
+	<value code="2">Yes, less than once a week</value>
+	<value code="3">Yes, 1 or 2 times a week</value>
+	<value code="4">Yes, 3 or 4 times a week</value>
+	<value code="5">Yes, 5 or more times a week</value>
+</variable>
+
+<variable id="phv00079189.v1">
+	<name>UPEARLY</name>
+	<description>Did you wake up earlier than planned</description>
+	<type>encoded value</type>
+	<comment>These next questions are about your sleep habits. Please mark one of the answers for each of the following questions. Pick the answer that best describes how often you experienced the situation in the past 4 weeks. Did you wake up earlier than you planned</comment>
+	<value code="1">No, not in past 4 weeks</value>
+	<value code="2">Yes, less than once a week</value>
+	<value code="3">Yes, 1 or 2 times a week</value>
+	<value code="4">Yes, 3 or 4 times a week</value>
+	<value code="5">Yes, 5 or more times a week</value>
+</variable>
+
+<variable id="phv00079190.v1">
+	<name>BACKSLP</name>
+	<description>Have trouble getting back to sleep</description>
+	<type>encoded value</type>
+	<comment>These next questions are about your sleep habits. Please mark one of the answers for each of the following questions. Pick the answer that best describes how often you experienced the situation in the past 4 weeks. Did you have trouble getting back to sleep after you woke up too early?</comment>
+	<value code="1">No, not in past 4 weeks</value>
+	<value code="2">Yes, less than once a week</value>
+	<value code="3">Yes, 1 or 2 times a week</value>
+	<value code="4">Yes, 3 or 4 times a week</value>
+	<value code="5">Yes, 5 or more times a week</value>
+</variable>
+
+<variable id="phv00079191.v1">
+	<name>SNORE</name>
+	<description>Did you snore</description>
+	<type>encoded value</type>
+	<comment>These next questions are about your sleep habits. Please mark one of the answers for each of the following questions. Pick the answer that best describes how often you experienced the situation in the past 4 weeks. Did you snore?</comment>
+	<value code="1">No, not in past 4 weeks</value>
+	<value code="2">Yes, less than once a week</value>
+	<value code="3">Yes, 1 or 2 times a week</value>
+	<value code="4">Yes, 3 or 4 times a week</value>
+	<value code="5">Yes, 5 or more times a week</value>
+	<value code="9">Don&#39;t know</value>
+</variable>
+
+<variable id="phv00079192.v1">
+	<name>QUALSLP</name>
+	<description>Typical night&#39;s sleep</description>
+	<type>encoded value</type>
+	<comment>Overall, was your typical night&#39;s sleep during the past 4 weeks:</comment>
+	<value code="1">Very restless</value>
+	<value code="2">Restless</value>
+	<value code="3">Average quality</value>
+	<value code="4">Sound or restful</value>
+	<value code="5">Very sound or restful</value>
+</variable>
+
+<variable id="phv00079193.v1">
+	<name>HRSSLP</name>
+	<description>How many hours of sleep</description>
+	<type>encoded value</type>
+	<comment>About how many hours of sleep did you get on a typical night during the past 4 weeks?</comment>
+	<value code="1">5 or less hours</value>
+	<value code="2">6 hours</value>
+	<value code="3">7 hours</value>
+	<value code="4">8 hours</value>
+	<value code="5">9 hours</value>
+	<value code="6">10 or more hours</value>
+</variable>
+
+<variable id="phv00079194.v1">
+	<name>INCONT</name>
+	<description>Ever leaked urine</description>
+	<type>encoded value</type>
+	<comment>Have you ever leaked even a very small amount of urine involuntarily and you couldn&#39;t control it?</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00079195.v1">
+	<name>FRQINCON</name>
+	<description>How often leaked urine</description>
+	<type>encoded value</type>
+	<comment>How often does this leaking urine occur? (Mark one oval.)
+		Sub-question of F38 V6 Q68 &#39;Ever leaked urine&#39; (skip pattern rule not applied). </comment>
+	<value code="1">Not once during past year</value>
+	<value code="2">Less than once a month</value>
+	<value code="3">More than once a month</value>
+	<value code="4">One or more times a week</value>
+	<value code="5">Daily</value>
+</variable>
+
+<variable id="phv00079196.v1">
+	<name>NOINCON</name>
+	<description>No longer leak urine</description>
+	<type>encoded value</type>
+	<comment>When do you usually leak urine? (Mark all that apply.) No longer leak urine
+		Sub-question of F38 V6 Q68 &#39;Ever leaked urine&#39; (skip pattern rule not applied).&lt;br/&gt;Not collected on all versions of Form 38. </comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00079197.v1">
+	<name>CGHINCON</name>
+	<description>Leak urine when cough, laugh</description>
+	<type>encoded value</type>
+	<comment>When do you usually leak urine? (Mark all that apply.) When I cough, laugh, sneeze, lift, stand up. Or exercise
+		Sub-question of F38 V6 Q68 &#39;Ever leaked urine&#39; (skip pattern rule not applied).&lt;br/&gt;Sub-question of F38 V6 Q70 &#39;No longer leak urine&#39;  (skip pattern rule not applied).&lt;br/&gt;Not collected on all versions of Form 38. </comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00079198.v1">
+	<name>TOINCON</name>
+	<description>Leak urine when can&#39;t get to toilet</description>
+	<type>encoded value</type>
+	<comment>When do you usually leak urine? (Mark all that apply.) When I feel the need to urinate and can&#39;t get to a toilet fast enough
+		Sub-question of F38 V6 Q68 &#39;Ever leaked urine&#39; (skip pattern rule not applied).&lt;br/&gt;Sub-question of F38 V6 Q70 &#39;No longer leak urine&#39;  (skip pattern rule not applied).&lt;br/&gt;Not collected on all versions of Form 38. </comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00079199.v1">
+	<name>SLPINCON</name>
+	<description>Leak urine when I am sleeping</description>
+	<type>encoded value</type>
+	<comment>When do you usually leak urine? (Mark all that apply.) When I am sleeping
+		Sub-question of F38 V6 Q68 &#39;Ever leaked urine&#39; (skip pattern rule not applied).&lt;br/&gt;Sub-question of F38 V6 Q70 &#39;No longer leak urine&#39;  (skip pattern rule not applied).&lt;br/&gt;Not collected on all versions of Form 38. </comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00079200.v1">
+	<name>OTHINCON</name>
+	<description>When leak urine, Other</description>
+	<type>encoded value</type>
+	<comment>When do you usually leak urine? (Mark all that apply.) Other
+		Sub-question of F38 V6 Q68 &#39;Ever leaked urine&#39; (skip pattern rule not applied).&lt;br/&gt;Sub-question of F38 V6 Q70 &#39;No longer leak urine&#39;  (skip pattern rule not applied).&lt;br/&gt;Not collected on all versions of Form 38. </comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00079201.v1">
+	<name>LEAKAMT</name>
+	<description>How much urine do you lose</description>
+	<type>encoded value</type>
+	<comment>How much urine do you usually lose when it leaks? (Mark one oval.)
+		Sub-question of F38 V6 Q68 &#39;Ever leaked urine&#39; (skip pattern rule not applied).&lt;br/&gt;Sub-question of F38 V6 Q70 &#39;No longer leak urine&#39;  (skip pattern rule not applied). </comment>
+	<value code="1">None</value>
+	<value code="2">Barely noticeable on underpants</value>
+	<value code="3">Soaked underpants</value>
+	<value code="4">Soaked through to outer clothing</value>
+</variable>
+
+<variable id="phv00079202.v1">
+	<name>NOPRTCT</name>
+	<description>Leak Protect/No protection</description>
+	<type>encoded value</type>
+	<comment>What protection do you wear in case you leak urine? (Mark all that apply.) None
+		Sub-question of F38 V6 Q68 &#39;Ever leaked urine&#39; (skip pattern rule not applied).&lt;br/&gt;Sub-question of F38 V6 Q70 &#39;No longer leak urine&#39;  (skip pattern rule not applied). </comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00079203.v1">
+	<name>MINIPAD</name>
+	<description>Leak Protect/Mini-pad, tissue</description>
+	<type>encoded value</type>
+	<comment>What protection do you wear in case you leak urine? (Mark all that apply.) Mini-pad, tissue or towel
+		Sub-question of F38 V6 Q68 &#39;Ever leaked urine&#39; (skip pattern rule not applied).&lt;br/&gt;Sub-question of F38 V6 Q70 &#39;No longer leak urine&#39;  (skip pattern rule not applied). </comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00079204.v1">
+	<name>MENSPAD</name>
+	<description>Leak Protect/Menstrual pad</description>
+	<type>encoded value</type>
+	<comment>What protection do you wear in case you leak urine? (Mark all that apply.) Menstrual pad or shield
+		Sub-question of F38 V6 Q68 &#39;Ever leaked urine&#39; (skip pattern rule not applied).&lt;br/&gt;Sub-question of F38 V6 Q70 &#39;No longer leak urine&#39;  (skip pattern rule not applied). </comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00079205.v1">
+	<name>DIAPER</name>
+	<description>Leak Protect/Diaper, Attends</description>
+	<type>encoded value</type>
+	<comment>What protection do you wear in case you leak urine? (Mark all that apply.) Diaper, towel, Attends, Depends
+		Sub-question of F38 V6 Q68 &#39;Ever leaked urine&#39; (skip pattern rule not applied).&lt;br/&gt;Sub-question of F38 V6 Q70 &#39;No longer leak urine&#39;  (skip pattern rule not applied). </comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00079206.v1">
+	<name>OTHPRTCT</name>
+	<description>Leak Protect/Other</description>
+	<type>encoded value</type>
+	<comment>What protection do you wear in case you leak urine? (Mark all that apply.) Other
+		Sub-question of F38 V6 Q68 &#39;Ever leaked urine&#39; (skip pattern rule not applied).&lt;br/&gt;Sub-question of F38 V6 Q70 &#39;No longer leak urine&#39;  (skip pattern rule not applied). </comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00079207.v1">
+	<name>INCONLMT</name>
+	<description>How often does leakage limit activities</description>
+	<type>encoded value</type>
+	<comment>How often does the leakage of urine limit your daily activities? (Mark one oval.)
+		Sub-question of F38 V6 Q68 &#39;Ever leaked urine&#39; (skip pattern rule not applied).&lt;br/&gt;Sub-question of F38 V6 Q70 &#39;No longer leak urine&#39;  (skip pattern rule not applied). </comment>
+	<value code="1">Never</value>
+	<value code="2">Almost never</value>
+	<value code="3">Sometimes</value>
+	<value code="4">Fairly often</value>
+	<value code="5">Very often</value>
+</variable>
+
+<variable id="phv00079208.v1">
+	<name>INCONDIS</name>
+	<description>How much does leakage bother</description>
+	<type>encoded value</type>
+	<comment>How much does the leakage of urine bother or disturb you? (Mark one oval.)
+		Sub-question of F38 V6 Q68 &#39;Ever leaked urine&#39; (skip pattern rule not applied).&lt;br/&gt;Sub-question of F38 V6 Q70 &#39;No longer leak urine&#39;  (skip pattern rule not applied). </comment>
+	<value code="1">Not at all disturbing</value>
+	<value code="2">A little disturbing</value>
+	<value code="3">Somewhat disturbing</value>
+	<value code="4">Very disturbing</value>
+	<value code="5">Extremely disturbing</value>
+</variable>
+
+<variable id="phv00079209.v1">
+	<name>MARRIED</name>
+	<description>Currently married or intimate</description>
+	<type>encoded value</type>
+	<comment>Are you currently married or in an intimate relationship with at least one person?</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00079210.v1">
+	<name>SEXACTIV</name>
+	<description>Sexual activity in last year</description>
+	<type>encoded value</type>
+	<comment>Did you have any sexual activity with a partner in the last year?</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+	<value code="9">Don&#39;t want to answer</value>
+</variable>
+
+<variable id="phv00079211.v1">
+	<name>SATSEX</name>
+	<description>How satisfied sexually</description>
+	<type>encoded value</type>
+	<comment>How satisfied are you with your current sexual activities, either with a partner or alone? (Mark one oval.)</comment>
+	<value code="1">Very unsatisfied</value>
+	<value code="2">A little unsatisfied</value>
+	<value code="3">Somewhat satisfied</value>
+	<value code="4">Very satisfied</value>
+	<value code="9">Don&#39;t want to answer</value>
+</variable>
+
+<variable id="phv00079212.v1">
+	<name>SATFRQSX</name>
+	<description>Satisfied with sex frequency</description>
+	<type>encoded value</type>
+	<comment>Are you satisfied with the frequency of your sexual activity, or would you like to have sex more or less often? (Mark one oval.)</comment>
+	<value code="1">Less often</value>
+	<value code="2">Satisfied with current frequency</value>
+	<value code="3">More often</value>
+	<value code="9">Don&#39;t want to answer</value>
+</variable>
+
+<variable id="phv00079213.v1">
+	<name>SEXWORRY</name>
+	<description>Worried sex activity will affect healh</description>
+	<type>encoded value</type>
+	<comment>Are you worried that sexual activities will affect your health? (Mark one oval.)</comment>
+	<value code="1">Not at all worried</value>
+	<value code="2">A little worried</value>
+	<value code="3">Somewhat worried</value>
+	<value code="4">Very worried</value>
+	<value code="9">Don&#39;t want to answer</value>
+</variable>
+
+<variable id="phv00079214.v1">
+	<name>ACTDLY</name>
+	<description>Activities of Daily Living Construct</description>
+	<type>decimal</type>
+	<logical_min>4</logical_min>
+	<logical_max>12</logical_max>
+	<comment>Computed from Forms 36/38, questions 39-42.  Source: WHI BAC.  Four items describing basic activities (whether can eat, dress, get in and out of bed, and take a bath) each of which has three possible values (1=without help, 2=some help, 3=completely unable) are summed.  A lower score indicates greater ability to cope with daily living activities.  Missing if any of the four items are missing.</comment>
+</variable>
+
+<variable id="phv00079215.v1">
+	<name>EMOLIMIT</name>
+	<description>Role limitation due to emotional problem</description>
+	<type>decimal</type>
+	<logical_min>0</logical_min>
+	<logical_max>100</logical_max>
+	<comment>Computed from Form 36/38, questions 22, 23, and 24.  Source:  Rand 36-Item Health Survey (SF-36).  Quality of life subscale on role limitations due to emotional problems.  EMOLIMIT ranges from 0 to 100 with a higher score indicating a more favorable health state.</comment>
+</variable>
+
+<variable id="phv00079216.v1">
+	<name>EMOWELL</name>
+	<description>Emotional well-being</description>
+	<type>decimal</type>
+	<logical_min>0</logical_min>
+	<logical_max>100</logical_max>
+	<comment>Computed from Form 36/38, questions 31, 32, 33, 35, and 37.  Source:  Rand 36-Item Health Survey (SF-36).  Quality of life subscale on emotional well-being.  EMOWELL ranges from 0 to 100 with a higher score indicating a more favorable health state.</comment>
+</variable>
+
+<variable id="phv00079217.v1">
+	<name>ENERFAT</name>
+	<description>Energy/fatigue</description>
+	<type>decimal</type>
+	<logical_min>0</logical_min>
+	<logical_max>100</logical_max>
+	<comment>Computed from Form 36/38, questions 30, 34, 36, and 38.  Source:  Rand 36-Item Health Survey (SF-36).  Quality of life subscale on energy/fatigue.  ENERFAT ranges from 0 to 100 with a higher score indicating a more favorable health state.</comment>
+</variable>
+
+<variable id="phv00079218.v1">
+	<name>GENHLTH</name>
+	<description>General health construct</description>
+	<type>decimal</type>
+	<logical_min>0</logical_min>
+	<logical_max>100</logical_max>
+	<comment>Computed from Form 36/38, questions 3, 25, 26, 27, and 28.  Source:  Rand 36-Item Health Survey (SF-36).  Quality of life subscale on general health.  GENHLTH ranges from 0 to 100 with a higher score indicating a more favorable health state.</comment>
+</variable>
+
+<variable id="phv00079219.v1">
+	<name>LFEVENT1</name>
+	<description>Life event construct #1 (0,1 scoring)</description>
+	<type>decimal</type>
+	<logical_min>0</logical_min>
+	<logical_max>11</logical_max>
+	<comment>Computed from Form 36/38, questions 44.1, and 45-54.  Source:  WHI BAC; based on measures used in the Alameda County Study and BHAT.  The eleven items are recoded, setting original responses from 1-3 equal to 1, and then summed.  The construct has a range from 0 to 11 with a higher score indicating a greater number of life events. Missing if any of the eleven items are missing.</comment>
+</variable>
+
+<variable id="phv00079220.v1">
+	<name>LFEVENT2</name>
+	<description>Life event construct #2 (0-3 scoring)</description>
+	<type>decimal</type>
+	<logical_min>0</logical_min>
+	<logical_max>25</logical_max>
+	<comment>Computed from Form 36/38, question questions 44.1, and 45-54.   Source:  WHI BAC; based on measures used in the Alameda County Study and BHAT.  This construct is a sum of the eleven items that are coded from 0-3 resulting in  a range from 0 to 33 with a higher score indicating a greater number of life events. If any of the eleven items are missing, LFEVENT2 is set to missing.</comment>
+</variable>
+
+<variable id="phv00079221.v1">
+	<name>PAIN</name>
+	<description>Pain construct</description>
+	<type>decimal</type>
+	<logical_min>0</logical_min>
+	<logical_max>100</logical_max>
+	<comment>Computed from Form 36/38, questions 16 and 17.  Source:  Rand 36-Item Health Survey (SF-36).  Quality of life subscale on pain.  PAIN ranges from 0 to 100 with a higher score indicating a more favorable health state.</comment>
+</variable>
+
+<variable id="phv00079222.v1">
+	<name>PHYLIMIT</name>
+	<description>Role limitations due to physical health</description>
+	<type>decimal</type>
+	<logical_min>0</logical_min>
+	<logical_max>100</logical_max>
+	<comment>Computed from Form 36/38, questions 18-21.  Source:  Rand 36-Item Health Survey (SF-36).  Quality of life subscale on role limitations due to physical health.  PHYLIMIT ranges from 0 to 100 with a higher score indicating a more favorable health state.</comment>
+</variable>
+
+<variable id="phv00079223.v1">
+	<name>PHYSFUN</name>
+	<description>Physical functioning construct</description>
+	<type>decimal</type>
+	<logical_min>0</logical_min>
+	<logical_max>100</logical_max>
+	<comment>Computed from Form 36/38, questions 5-14.  Source:  Rand 36-Item Health Survey (SF-36).  Quality of life subscale on  physical functioning.  PHYSFUN ranges from 0 to 100 with a higher score indicating a more favorable health state.</comment>
+</variable>
+
+<variable id="phv00079224.v1">
+	<name>PSHTDEP</name>
+	<description>Shortened CES-D/DIS screening instrument</description>
+	<type>decimal</type>
+	<logical_min>0.00028</logical_min>
+	<logical_max>0.95895</logical_max>
+	<comment>Computed from Form 36/38, questions 55.1-55.6, 56, 57, and 57.1.  Source:  Center for Epidemiological Studies; depression scale (CES-D, short form).  PSHTDEP ranges from 0 to 1 with a higher score indicating a greater likelihood of depression.  Cutoff values of .06 and .009 have been used to indicate depression.</comment>
+</variable>
+
+<variable id="phv00079225.v1">
+	<name>SLPDSTRB</name>
+	<description>Sleep disturbance construct</description>
+	<type>decimal</type>
+	<logical_min>0</logical_min>
+	<logical_max>20</logical_max>
+	<comment>Computed from Form 36/38, questions 61-64 and 66.  Sum of five components.  Questions 61-64 range from 1-5 and question 66 is recoded and reverse coded resulting in a range from 0-4 before summing.  The summary score ranges from 0 to 20 where a higher score indicates greater sleep disturbance.  Missing if any of the five components is missing.</comment>
+</variable>
+
+<variable id="phv00079226.v1">
+	<name>SOCFUNC</name>
+	<description>Social functioning</description>
+	<type>decimal</type>
+	<logical_min>0</logical_min>
+	<logical_max>100</logical_max>
+	<comment>Computed from Form 36/38, questions 15 and 29.  Source:  Rand 36-Item Health Survey (SF-36).  Quality of life subscale on  social functioning.  SOCFUNC ranges from 0 to 100 with a higher score indicating a more favorable health state.</comment>
+</variable>
+
+<variable id="phv00079227.v1">
+	<name>SYMPTOM</name>
+	<description>Symptom construct</description>
+	<type>decimal</type>
+	<logical_min>0</logical_min>
+	<logical_max>2.76471</logical_max>
+	<comment>Computed from Form 36/38, questions 43.1-43.34.  Source:  PEPI, national and other surveys.  Average of 34 items measuring occurrence and severity of symptoms.  The summary score ranges from 0 to 3 where a higher score indicates more numerous and/or more severe symptoms.  Missing if any of the 34 items is missing.</comment>
+</variable>
+
+</data_table>

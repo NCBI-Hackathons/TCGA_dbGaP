@@ -1,0 +1,489 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./datadict_v2.xsl"?>
+<data_table id="pht000190.v1" study_id="phs000103.v1" participant_set="1" date_created="Mon Sep 27 13:15:24 2010">
+
+<variable id="phv00024328.v1">
+	<name>sex</name>
+	<description>Child&#39;s sex, from the Civil Registration System</description>
+	<type>encoded integer</type>
+	<logical_min>1</logical_min>
+	<logical_max>2</logical_max>
+	<value code="1">Male</value>
+	<value code="2">Female</value>
+</variable>
+
+<variable id="phv00024330.v1">
+	<name>respirator</name>
+	<description>Child admitted to the NICU after birth and placed on a respirator (from the Medical Birth Register)?</description>
+	<type>encoded integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>1</logical_max>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+	<value code=".">Missing</value>
+</variable>
+
+<variable id="phv00024331.v1">
+	<name>premie</name>
+	<description>Indicator of case/control status</description>
+	<type>Encoded integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>9</logical_max>
+	<value code="0">Term delivery (control)</value>
+	<value code="1">Preterm delivery (case)</value>
+	<value code="9">Neither case nor control</value>
+</variable>
+
+<variable id="phv00024334.v1">
+	<name>oral_herpes</name>
+	<description>Mother reported suffering from oral herpes in the period between conception and the 2nd interview?</description>
+	<type>Encoded integer, encoded string</type>
+	<logical_min>0</logical_min>
+	<logical_max>1</logical_max>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+	<value code=".">Missing</value>
+</variable>
+
+<variable id="phv00024335.v1">
+	<name>genital_herpes</name>
+	<description>Mother reported suffering from genital herpes in the period between conception and the 2nd interview?</description>
+	<type>Encoded integer, encoded string</type>
+	<logical_min>0</logical_min>
+	<logical_max>1</logical_max>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+	<value code=".">Missing</value>
+</variable>
+
+<variable id="phv00024336.v1">
+	<name>genital_warts</name>
+	<description>Mother reported suffering from genital warts in the period between conception and the 2nd interview?</description>
+	<type>Encoded integer, encoded string</type>
+	<logical_min>0</logical_min>
+	<logical_max>1</logical_max>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+	<value code=".">Missing</value>
+</variable>
+
+<variable id="phv00024340.v1">
+	<name>smoke_0to12w</name>
+	<description>Mother reported any smoking in the period between conception and the 1st interview?</description>
+	<type>Encoded integer, encoded string</type>
+	<logical_min>0</logical_min>
+	<logical_max>1</logical_max>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+	<value code=".">Missing</value>
+</variable>
+
+<variable id="phv00024341.v1">
+	<name>smoke_12to30w</name>
+	<description>Mother reported any smoking in the period between the 1st and 2nd interviews?</description>
+	<type>Encoded integer, encoded string</type>
+	<logical_min>0</logical_min>
+	<logical_max>1</logical_max>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+	<value code=".">Missing</value>
+</variable>
+
+<variable id="phv00024342.v1">
+	<name>smoke_after30w</name>
+	<description>Mother reported any smoking in the period between the 2nd interview and delivery?</description>
+	<type>Encoded integer, encoded string</type>
+	<logical_min>0</logical_min>
+	<logical_max>1</logical_max>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+	<value code=".">Missing</value>
+</variable>
+
+<variable id="phv00024343.v1">
+	<name>alcohol_0to12w</name>
+	<description>Mother reported any alcohol intake in the period between conception and the 1st interview?</description>
+	<type>Encoded integer, encoded string</type>
+	<logical_min>0</logical_min>
+	<logical_max>1</logical_max>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+	<value code=".">Missing</value>
+</variable>
+
+<variable id="phv00024344.v1">
+	<name>alcohol_12to30w</name>
+	<description>Mother reported any alcohol intake in the period between the 1st and 2nd interviews?</description>
+	<type>Encoded integer, encoded string</type>
+	<logical_min>0</logical_min>
+	<logical_max>1</logical_max>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+	<value code=".">Missing</value>
+</variable>
+
+<variable id="phv00024345.v1">
+	<name>alcohol_after30w</name>
+	<description>Mother reported any alcohol intake in the period between the 2nd interview and birth?</description>
+	<type>Encoded integer, encoded string</type>
+	<logical_min>0</logical_min>
+	<logical_max>1</logical_max>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+	<value code=".">Missing</value>
+</variable>
+
+<variable id="phv00024346.v1">
+	<name>vit_0to30w</name>
+	<description>Mother reported taking prenatal vitamins in the period between conception and the 2nd interview?</description>
+	<type>Encoded integer, encoded string</type>
+	<logical_min>0</logical_min>
+	<logical_max>1</logical_max>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+	<value code=".">Missing</value>
+</variable>
+
+<variable id="phv00024347.v1">
+	<name>vit_after30w</name>
+	<description>Mother reported taking prenatal vitamins in the period between the 2nd interview and delivery?</description>
+	<type>Encoded integer, encoded string</type>
+	<logical_min>0</logical_min>
+	<logical_max>1</logical_max>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+	<value code=".">Missing</value>
+</variable>
+
+<variable id="phv00024348.v1">
+	<name>prom_int</name>
+	<description>Mother reported &gt; 24 h elapsed between her waters breaking and delivery?</description>
+	<type>Encoded integer, encoded string</type>
+	<logical_min>0</logical_min>
+	<logical_max>1</logical_max>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+	<value code=".">Missing</value>
+</variable>
+
+<variable id="phv00024350.v1">
+	<name>prepreg_wt</name>
+	<description>Maternal weight before pregnancy, self-reported, 1st interview</description>
+	<type>Integer, encoded string</type>
+	<unit>Kg</unit>
+	<logical_min>36</logical_min>
+	<logical_max>135</logical_max>
+	<value code=".">Missing</value>
+</variable>
+
+<variable id="phv00024351.v1">
+	<name>maternal_height</name>
+	<description>Maternal height, self-reported, 1st interview</description>
+	<type>Integer, encoded string</type>
+	<unit>Cm</unit>
+	<logical_min>145</logical_min>
+	<logical_max>190</logical_max>
+	<value code=".">Missing</value>
+</variable>
+
+<variable id="phv00024352.v1">
+	<name>maternal_age</name>
+	<description>Maternal age at child&#39;s birth, from the Medical Birth Register</description>
+	<type>Integer, encoded string</type>
+	<unit>Years</unit>
+	<logical_min>16</logical_min>
+	<logical_max>44</logical_max>
+	<value code=".">Missing</value>
+</variable>
+
+<variable id="phv00024353.v1">
+	<name>birthweight</name>
+	<description>Child&#39;s birthweight, from the Medical Birth Register</description>
+	<type>Integer, encoded string</type>
+	<unit>G</unit>
+	<logical_min>250</logical_min>
+	<logical_max>5270</logical_max>
+	<value code=".">Missing</value>
+</variable>
+
+<variable id="phv00024354.v1">
+	<name>delivery</name>
+	<description>Mode of delivery, from the National Patient Register</description>
+	<type>Encoded integer, encoded string</type>
+	<logical_min>1</logical_min>
+	<logical_max>2</logical_max>
+	<value code="1">Vaginal delivery</value>
+	<value code="2">Caesarean section</value>
+	<value code=".">Missing</value>
+</variable>
+
+<variable id="phv00024355.v1">
+	<name>retinop_prem</name>
+	<description>Child ever registered in the National Patient Register with retinopathy of prematurity (ICD10 code H35.1  =  Retinopathy of prematurity)?</description>
+	<type>encoded integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>1</logical_max>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00024356.v1">
+	<name>intravent_hem</name>
+	<description>Child ever registered in the National Patient Register with intraventricular hemorrhage (ICD10 code P27.1, P52.0-P52.3 = Intraventricular (nontraumatic) haemorrhage, grade 1, of fetus and newborn; Intraventricular (nontraumatic) haemorrhage, grade 2, of fetus and newborn;  Intraventricular (nontraumatic) haemorrhage, grade 3, of fetus and newborn;  Unspecified intraventricular (nontraumatic) haemorrhage of fetus and newborn, respectively)?</description>
+	<type>encoded integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>1</logical_max>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00024357.v1">
+	<name>bronch_dysp</name>
+	<description>Child ever registered in the National Patient Register with broncho-pulmonary dysplasia (ICD10 code P27.1 = Bronchopulmonary dysplasia originating in the perinatal period)?</description>
+	<type>encoded integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>1</logical_max>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00121895.v1">
+	<name>m_genevaID</name>
+	<description>GENEVA ID, mother</description>
+	<type>Integer</type>
+	<logical_min>180001025</logical_min>
+	<logical_max>181199942</logical_max>
+</variable>
+
+<variable id="phv00121896.v1">
+	<name>c_genevaID</name>
+	<description>GENEVA ID, child</description>
+	<type>Integer</type>
+</variable>
+
+<variable id="phv00121897.v1">
+	<name>cohabiting</name>
+	<description>Mother married or living with partner at time of 1st interview?</description>
+	<type>Encoded integer, encoded string</type>
+	<logical_min>0</logical_min>
+	<logical_max>1</logical_max>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+	<value code=".">Missing</value>
+</variable>
+
+<variable id="phv00121898.v1">
+	<name>UTI_0to30w</name>
+	<description>Mother reported &gt;/= 1 urinary tract infections in the period between conception and the 2nd interview?</description>
+	<type>Encoded integer, encoded string</type>
+	<logical_min>0</logical_min>
+	<logical_max>1</logical_max>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+	<value code=".">Missing</value>
+</variable>
+
+<variable id="phv00121899.v1">
+	<name>UTI_after30w</name>
+	<description>Mother reported &gt;/= 1 urinary tract infections in the period between the 2nd interview and delivery?</description>
+	<type>Encoded integer, encoded string</type>
+	<logical_min>0</logical_min>
+	<logical_max>1</logical_max>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+	<value code=".">Missing</value>
+</variable>
+
+<variable id="phv00121900.v1">
+	<name>vaginf_0to30w</name>
+	<description>Mother reported &gt;/= 1 vaginal fungal infections in the period between conception and the 2nd interview?</description>
+	<type>Encoded integer, encoded string</type>
+	<logical_min>0</logical_min>
+	<logical_max>1</logical_max>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+	<value code=".">Missing</value>
+</variable>
+
+<variable id="phv00121901.v1">
+	<name>maternal_bmi</name>
+	<description>Maternal pre-pregnancy BMI</description>
+	<type>Decimal, encoded string</type>
+	<logical_min>15.2</logical_min>
+	<logical_max>47.8</logical_max>
+	<value code=".">Missing</value>
+</variable>
+
+<variable id="phv00121902.v1">
+	<name>c_birthyear</name>
+	<description>Child&#39;s year of birth, from the Civil Registration System</description>
+	<type>Integer</type>
+	<logical_min>1997</logical_min>
+	<logical_max>2003</logical_max>
+</variable>
+
+<variable id="phv00121903.v1">
+	<name>m_birthyear</name>
+	<description>Mother&#39;s year of birth, from the Civil Registration System</description>
+	<type>Integer</type>
+	<logical_min>1954</logical_min>
+	<logical_max>1984</logical_max>
+</variable>
+
+<variable id="phv00121904.v1">
+	<name>chorio_reg</name>
+	<description>Mother diagnosed with chorioamnionitis during pregnancy (registered in National Patient Register with ICD10 code O41.1 = Infection of amniotic sac and membranes)?</description>
+	<type>encoded integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>1</logical_max>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00121905.v1">
+	<name>c_birthdec</name>
+	<description>Child&#39;s decade of birth, from the Civil Registration System</description>
+	<type>String</type>
+</variable>
+
+<variable id="phv00121906.v1">
+	<name>c_birthqtr</name>
+	<description>Child&#39;s quarter of birth, from the Civil Registration System</description>
+	<type>Encoded value</type>
+	<logical_min>1</logical_min>
+	<logical_max>4</logical_max>
+	<value code="1">Jan-Mar</value>
+	<value code="2">Apr-Jun</value>
+	<value code="3">Jul-Sep</value>
+	<value code="4">Oct-Dec</value>
+</variable>
+
+<variable id="phv00121907.v1">
+	<name>c_race_ethn</name>
+	<description>Child&#39;s race/ethnicity</description>
+	<type>String</type>
+</variable>
+
+<variable id="phv00121908.v1">
+	<name>country</name>
+	<description>Country mother-child pair recruited in</description>
+	<type>String</type>
+</variable>
+
+<variable id="phv00121909.v1">
+	<name>m_birthdec</name>
+	<description>Mother&#39;s decade of birth, from the Civil Registration System</description>
+	<type>String</type>
+</variable>
+
+<variable id="phv00121910.v1">
+	<name>m_birthqtr</name>
+	<description>Mother&#39;s quarter of birth, from the Civil Registration System</description>
+	<type>encoded integer</type>
+	<logical_min>1</logical_min>
+	<logical_max>4</logical_max>
+	<value code="1">Jan-Mar</value>
+	<value code="2">Apr-Jun</value>
+	<value code="3">Jul-Sep</value>
+	<value code="4">Oct-Dec</value>
+</variable>
+
+<variable id="phv00121911.v1">
+	<name>m_race_ethn</name>
+	<description>Mother&#39;s race/ethnicity</description>
+	<type>String</type>
+</variable>
+
+<variable id="phv00121912.v1">
+	<name>m_sample</name>
+	<description>Mother&#39;s DNA submitted for genotyping?</description>
+	<type>encoded integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>1</logical_max>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00121913.v1">
+	<name>c_sample</name>
+	<description>Child&#39;s DNA submitted for genotyping?</description>
+	<type>encoded integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>1</logical_max>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00121914.v1">
+	<name>m_genotype</name>
+	<description>Maternal genotype available?</description>
+	<type>encoded integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>1</logical_max>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00121915.v1">
+	<name>c_genotype</name>
+	<description>Child&#39;s genotype available?</description>
+	<type>encoded integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>1</logical_max>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00121916.v1">
+	<name>c_comment</name>
+	<description>Reason for lack of child genotype (for children with DNA submitted for genotyping)</description>
+	<type>String</type>
+</variable>
+
+<variable id="phv00121917.v1">
+	<name>m_comment</name>
+	<description>Reason for lack of maternal genotype (for mothers with DNA submitted for genotyping)</description>
+	<type>String</type>
+</variable>
+
+<variable id="phv00121918.v1">
+	<name>c_flag</name>
+	<description>Child&#39;s DNA submitted for genotyping but no genotype in the final dataset?</description>
+	<type>Encoded integer, encoded string</type>
+	<logical_min>0</logical_min>
+	<logical_max>1</logical_max>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+	<value code=".">No sample submitted for genotyping</value>
+</variable>
+
+<variable id="phv00121919.v1">
+	<name>m_flag</name>
+	<description>Maternal DNA submitted for genotyping but no genotype in the final dataset?</description>
+	<type>Encoded integer, encoded string</type>
+	<logical_min>0</logical_min>
+	<logical_max>1</logical_max>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+	<value code=".">No sample submitted for genotyping</value>
+</variable>
+
+<variable id="phv00121920.v1">
+	<name>ga_days</name>
+	<description>Gestational age at birth in days, consensus variable</description>
+	<type>Integer</type>
+	<unit>Days</unit>
+	<logical_min>141</logical_min>
+	<logical_max>298</logical_max>
+</variable>
+
+<variable id="phv00121921.v1">
+	<name>ga_weeks</name>
+	<description>Gestational age at birth in completed weeks, consensus variable</description>
+	<type>Integer</type>
+	<unit>Weeks</unit>
+	<logical_min>20</logical_min>
+	<logical_max>42</logical_max>
+</variable>
+
+</data_table>

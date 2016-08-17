@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./datadict_v2.xsl"?>
+<data_table id="pht000910.v1" study_id="phs000040.v7" participant_set="4" date_created="Fri Sep 25 16:46:48 2009">
+
+<variable id="phv00076398.v1">
+	<name>idtype</name>
+	<description>Framingham Cohort Identifier</description>
+	<type>encoded</type>
+	<coll_interval>Exam 8</coll_interval>
+	<value code="1">Offspring</value>
+</variable>
+
+<variable id="phv00076399.v1">
+	<name>dsb1_8_1</name>
+	<description>Diffusion Capacity - 1st Acceptable Effort</description>
+	<type>decimal</type>
+	<unit>ml/min/mmHg, STPD</unit>
+	<logical_min>5.88</logical_min>
+	<logical_max>48</logical_max>
+	<coll_interval>Exam 8</coll_interval>
+	<comment>STPD in the units stands for: Standard Temperature and Pressure, Dry</comment>
+</variable>
+
+<variable id="phv00076400.v1">
+	<name>dsb2_8_1</name>
+	<description>Diffusion Capacity - 2nd Acceptable Effort</description>
+	<type>decimal, encoded</type>
+	<unit>ml/min/mmHg, STPD</unit>
+	<logical_min>4.74</logical_min>
+	<logical_max>52.85</logical_max>
+	<coll_interval>Exam 8</coll_interval>
+	<comment>STPD in the units stands for: Standard Temperature and Pressure, Dry</comment>
+	<value code=".">unknown or only had one acceptable effort</value>
+</variable>
+
+<variable id="phv00076401.v1">
+	<name>dsb3_8_1</name>
+	<description>Diffusion Capacity - 3rd Acceptable Effort</description>
+	<type>decimal, encoded</type>
+	<unit>ml/min/mmHg, STPD</unit>
+	<logical_min>10.58</logical_min>
+	<logical_max>35.98</logical_max>
+	<coll_interval>Exam 8</coll_interval>
+	<comment>STPD in the units stands for: Standard Temperature and Pressure, Dry</comment>
+	<value code=".">unknown or only had one or two acceptable efforts</value>
+</variable>
+
+<variable id="phv00076402.v1">
+	<name>dva1_8_1</name>
+	<description>Diffusion Capacity per Unit Alveolar Volume - 1st Acceptable Effort</description>
+	<type>decimal</type>
+	<unit>ml/min/mmHg/L, STPD</unit>
+	<logical_min>1.84</logical_min>
+	<logical_max>10.15</logical_max>
+	<coll_interval>Exam 8</coll_interval>
+	<comment>STPD in the units stands for: Standard Temperature and Pressure, Dry</comment>
+</variable>
+
+<variable id="phv00076403.v1">
+	<name>dva2_8_1</name>
+	<description>Diffusion Capacity per Unit Alveolar Volume - 2nd Acceptable Effort</description>
+	<type>decimal, encoded</type>
+	<unit>ml/min/mmHg/L, STPD</unit>
+	<logical_min>1.61</logical_min>
+	<logical_max>10.22</logical_max>
+	<coll_interval>Exam 8</coll_interval>
+	<comment>STPD in the units stands for: Standard Temperature and Pressure, Dry</comment>
+	<value code=".">unknown or only had one acceptable effort</value>
+</variable>
+
+<variable id="phv00076404.v1">
+	<name>dva3_8_1</name>
+	<description>Diffusion Capacity per Unit Alveolar Volume - 3rd Acceptable Effort</description>
+	<type>decimal, encoded</type>
+	<unit>ml/min/mmHg/L, STPD</unit>
+	<logical_min>2.95</logical_min>
+	<logical_max>7.99</logical_max>
+	<coll_interval>Exam 8</coll_interval>
+	<comment>STPD in the units stands for: Standard Temperature and Pressure, Dry</comment>
+	<value code=".">unknown or only had one or two acceptable efforts</value>
+</variable>
+
+<variable id="phv00076405.v1">
+	<name>va1_8_1</name>
+	<description>Alveolar Volume - 1st Acceptable Effort</description>
+	<type>decimal</type>
+	<unit>L, BTPS</unit>
+	<logical_min>1.72</logical_min>
+	<logical_max>7.42</logical_max>
+	<coll_interval>Exam 8</coll_interval>
+	<comment>BTPS in units stands for: Body Temperature and Ambient Pressure, Saturated with Water Vapor</comment>
+</variable>
+
+<variable id="phv00076406.v1">
+	<name>va2_8_1</name>
+	<description>Alveolar Volume - 2nd Acceptable Effort</description>
+	<type>decimal, encoded</type>
+	<unit>L, BTPS</unit>
+	<logical_min>1.9</logical_min>
+	<logical_max>6.96</logical_max>
+	<coll_interval>Exam 8</coll_interval>
+	<comment>BTPS in units stands for: Body Temperature and Ambient Pressure, Saturated with Water Vapor</comment>
+	<value code=".">unknown or only had one acceptable effort</value>
+</variable>
+
+<variable id="phv00076407.v1">
+	<name>va3_8_1</name>
+	<description>Alveolar Volume - 3rd Acceptable Effort</description>
+	<type>decimal, encoded</type>
+	<unit>L, BTPS</unit>
+	<logical_min>2.8</logical_min>
+	<logical_max>5.76</logical_max>
+	<coll_interval>Exam 8</coll_interval>
+	<comment>BTPS in units stands for: Body Temperature and Ambient Pressure, Saturated with Water Vapor</comment>
+	<value code=".">unknown or only had one or two acceptable efforts</value>
+</variable>
+
+<variable id="phv00076408.v1">
+	<name>vi1_8_1</name>
+	<description>Inspired Volume - 1st Acceptable Effort</description>
+	<type>decimal</type>
+	<unit>L</unit>
+	<logical_min>0.77</logical_min>
+	<logical_max>7.12</logical_max>
+	<coll_interval>Exam 8</coll_interval>
+</variable>
+
+<variable id="phv00076409.v1">
+	<name>vi2_8_1</name>
+	<description>Inspired Volume - 2nd Acceptable Effort</description>
+	<type>decimal, encoded</type>
+	<unit>L</unit>
+	<logical_min>0.82</logical_min>
+	<logical_max>7.18</logical_max>
+	<coll_interval>Exam 8</coll_interval>
+	<value code=".">unknown or only had one acceptable effort</value>
+</variable>
+
+<variable id="phv00076410.v1">
+	<name>vi3_8_1</name>
+	<description>Inspired Volume - 3rd Acceptable Effort</description>
+	<type>decimal, encoded</type>
+	<unit>L</unit>
+	<logical_min>1.51</logical_min>
+	<logical_max>4.98</logical_max>
+	<coll_interval>Exam 8</coll_interval>
+	<value code=".">unknown or only had one or two acceptable efforts</value>
+</variable>
+
+<variable id="phv00076411.v1">
+	<name>nad_8_1</name>
+	<description>Number of Acceptable Efforts for Diffusion</description>
+	<type>integer, encoded</type>
+	<logical_min>1</logical_min>
+	<logical_max>3</logical_max>
+	<coll_interval>Exam 8</coll_interval>
+	<value code=".">unknown</value>
+</variable>
+
+<variable id="phv00076412.v1">
+	<name>sdt_8_1</name>
+	<description>Study Date</description>
+	<type>integer</type>
+	<unit>days</unit>
+	<logical_min>10885</logical_min>
+	<logical_max>13148</logical_max>
+	<coll_interval>Exam 8</coll_interval>
+	<comment>Number of days since Exam 1</comment>
+</variable>
+
+<variable id="phv00076413.v1">
+	<name>shareid</name>
+	<description>SHARe ID Number</description>
+	<type>integer</type>
+	<coll_interval>Exam 8</coll_interval>
+</variable>
+
+</data_table>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./datadict_v2.xsl"?>
+<data_table id="pht001225.v1" study_id="phs000270.v2" participant_set="5" date_created="Sun Aug 22 19:12:44 2010">
+
+<variable id="phv00090347.v1">
+	<name>IDTYPE</name>
+	<description>Framingham Cohort Identifier</description>
+	<type>encoded</type>
+	<coll_interval>2002-2005</coll_interval>
+	<value code="3">Generation 3 Cohort</value>
+</variable>
+
+<variable id="phv00090348.v1">
+	<name>AAT_VOL</name>
+	<description>Abdominal Aortic Fat Volume</description>
+	<type>decimal, encoded</type>
+	<unit>cm3</unit>
+	<logical_min>0.008</logical_min>
+	<logical_max>18.89</logical_max>
+	<coll_interval>2002-2005</coll_interval>
+	<value code=".">Unknown</value>
+</variable>
+
+<variable id="phv00090349.v1">
+	<name>AAT_DIAM</name>
+	<description>Aortic Diameter</description>
+	<type>decimal, encoded</type>
+	<unit>mm</unit>
+	<logical_min>11.63</logical_min>
+	<logical_max>25.23</logical_max>
+	<coll_interval>2002-2005</coll_interval>
+	<value code=".">Unknown</value>
+</variable>
+
+<variable id="phv00090350.v1">
+	<name>TAT_VOL</name>
+	<description>Thoracic Aortic Fat Volume</description>
+	<type>decimal, encoded</type>
+	<unit>cm3</unit>
+	<logical_min>0.43</logical_min>
+	<logical_max>49.55</logical_max>
+	<coll_interval>2002-2005</coll_interval>
+	<value code=".">Unknown</value>
+</variable>
+
+<variable id="phv00090351.v1">
+	<name>ctdate</name>
+	<description>Date of CT Scan</description>
+	<type>integer</type>
+	<unit>days</unit>
+	<logical_min>-679</logical_min>
+	<logical_max>1089</logical_max>
+	<coll_interval>2002-2005</coll_interval>
+	<comment>Number of days since Exam 1</comment>
+</variable>
+
+<variable id="phv00090352.v1">
+	<name>shareid</name>
+	<description>SHARE ID Number</description>
+	<type>integer</type>
+	<coll_interval>2002-2005</coll_interval>
+</variable>
+
+</data_table>

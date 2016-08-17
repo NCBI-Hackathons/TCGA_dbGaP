@@ -1,0 +1,447 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./datadict_v2.xsl"?>
+<data_table id="pht001016.v1" study_id="phs000200.v1" participant_set="1" date_created="Thu Dec 17 19:19:22 2009">
+
+<unique_key phv="00079725" version="1">SHAREID</unique_key>
+<unique_key phv="00079726" version="1">F60VTYP</unique_key>
+<unique_key phv="00079727" version="1">F60VY</unique_key>
+
+<variable id="phv00079725.v1">
+	<name>SHAREID</name>
+	<description>WHI SHARe ID</description>
+	<type>integer</type>
+</variable>
+
+<variable id="phv00079726.v1">
+	<name>F60VTYP</name>
+	<description>Visit type</description>
+	<type>encoded value</type>
+	<value code="1">Screening Visit</value>
+	<value code="2">Semi-Annual Visit</value>
+	<value code="3">Annual Visit</value>
+	<value code="4">Non-Routine Visit</value>
+</variable>
+
+<variable id="phv00079727.v1">
+	<name>F60VY</name>
+	<description>Visit year</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>10</logical_max>
+	<comment>Visit year for which this form was collected.</comment>
+</variable>
+
+<variable id="phv00079728.v1">
+	<name>F60DAYS</name>
+	<description>F60 Days since randomization/enrollment</description>
+	<type>integer</type>
+	<unit>days</unit>
+	<logical_min>-1518</logical_min>
+	<logical_max>3696</logical_max>
+</variable>
+
+<variable id="phv00079729.v1">
+	<name>F60MONTH</name>
+	<description>F60 Month form received by clinic</description>
+	<type>encoded value</type>
+	<value code="1">January</value>
+	<value code="2">February</value>
+	<value code="3">March</value>
+	<value code="4">April</value>
+	<value code="5">May</value>
+	<value code="6">June</value>
+	<value code="7">July</value>
+	<value code="8">August</value>
+	<value code="9">September</value>
+	<value code="10">October</value>
+	<value code="11">November</value>
+	<value code="12">December</value>
+</variable>
+
+<variable id="phv00079730.v1">
+	<name>STATUS</name>
+	<description>Analysis exclusion consideration status</description>
+	<type>encoded value</type>
+	<comment>May want to consider excluding participants with a status of 1 or 2 from analyses.  The FFQ is suspect in light of the very low or very high value for the Energy (kcal) result.</comment>
+	<value code="1">Energy &lt; 600 kcal consider excluding from analyses</value>
+	<value code="2">Energy &gt; 5000 kcal consider excluding from analyses</value>
+	<value code="3">600 kcal &lt;= Energy &lt;= 5000 kcal</value>
+</variable>
+
+<variable id="phv00079731.v1">
+	<name>F60VITA</name>
+	<description>Dietary Vitamin A (RAE)</description>
+	<type>decimal</type>
+	<unit>RAE</unit>
+	<logical_min>1.77122</logical_min>
+	<logical_max>22496.02485</logical_max>
+	<comment>Vitamin A as retinol activity equivalents (RAE)
+		The 2001 Dietary Reference Intakes (DRI) from the Food and Nutrition Board, Institute of Medicine, National Academy of Sciences give the recommendations using the units Retinol Activity Equivalents (ï¿½g/day RAE).  Thus, when reporting total vitamin A (food + supplements) RAE is the preferred unit of measure.&lt;br/&gt;&lt;br/&gt;RAE Vitamin A = mcg retinol + (mcg beta-carotene equivalents/12)&lt;br/&gt;&lt;br/&gt;1 RAE (retinol activity equivalent):&lt;br/&gt;= 1 mcg all trans retinol&lt;br/&gt;= 2 mcg supplemental all trans beta-carotene&lt;br/&gt;= 12 mcg of dietary all trans beta-carotene&lt;br/&gt;= 24 mcg of other pro-vitamin A cartenoids (alpha-carotene and beta-cryptoxanthin)&lt;br/&gt;&lt;br/&gt;Note that beta-carotene equivalents = mcg beta-carotene + 1/2(mcg alpha-carotene + mcg beta-cryptoxanthin).  Alpha carotene and beta-cryptoxanthin have about half the activity as beta-carotene. </comment>
+</variable>
+
+<variable id="phv00079732.v1">
+	<name>F60VITAIU</name>
+	<description>Dietary Vitamin A (IU)</description>
+	<type>decimal</type>
+	<unit>IU</unit>
+	<logical_min>35.5619</logical_min>
+	<logical_max>101918.58108</logical_max>
+	<comment>Total Vitamin A in International Units
+		Historically, International Units were the first measure to combine retinol (preformed vitamin A) and vitamin A from carotenoids into a single measure.  While International Units is no longer the preferred unit for dietary assessment it is still included in the dataset because dietary supplement labels still use this terminology.&lt;br/&gt;&lt;br/&gt;IU vitamin A = (mcg retinol/0.3) + (mcg beta-carotene equivalents/0.6) </comment>
+</variable>
+
+<variable id="phv00079733.v1">
+	<name>F60VITARE</name>
+	<description>Dietary Vitamin A (mcg RE)</description>
+	<type>decimal</type>
+	<unit>mcg RE</unit>
+	<logical_min>3.54041</logical_min>
+	<logical_max>23256.2166</logical_max>
+	<comment>Total vitamin A in retinol equivalents (RE)
+		Retinol equivalents (RE) overestimate the amount of vitamin A activity from carotenoids.&lt;br/&gt;&lt;br/&gt;RE Vitamin A = mcg retinol + (mcg beta-carotene equivalents/6) </comment>
+</variable>
+
+<variable id="phv00079734.v1">
+	<name>F60RETIN</name>
+	<description>Dietary Retinol (mcg)</description>
+	<type>decimal</type>
+	<unit>mcg</unit>
+	<logical_min>0</logical_min>
+	<logical_max>21735.8171</logical_max>
+	<comment>Dietary Retinol (mcg) is preformed vitamin A found only in animal products as all-trans retinol.  1 mcg provides the equivalent of 1 mcg RE or RAE or 3.33 IU.  The Dietary Retinol (mcg) variable is acceptable to use if there is interest ONLY in all-trans retinol from animal products.</comment>
+</variable>
+
+<variable id="phv00079735.v1">
+	<name>F60THIAM</name>
+	<description>Dietary Thiamin (mg)</description>
+	<type>decimal</type>
+	<unit>mg</unit>
+	<logical_min>0.0101</logical_min>
+	<logical_max>10.85515</logical_max>
+</variable>
+
+<variable id="phv00079736.v1">
+	<name>F60RIBO</name>
+	<description>Dietary Riboflavin (mg)</description>
+	<type>decimal</type>
+	<unit>mg</unit>
+	<logical_min>0.01008</logical_min>
+	<logical_max>17.63966</logical_max>
+</variable>
+
+<variable id="phv00079737.v1">
+	<name>F60NIACN</name>
+	<description>Dietary Niacin (mg)</description>
+	<type>decimal</type>
+	<unit>mg</unit>
+	<logical_min>0.18569</logical_min>
+	<logical_max>179.72329</logical_max>
+</variable>
+
+<variable id="phv00079738.v1">
+	<name>F60NICNEQ</name>
+	<description>Dietary Niacin Equivalents (mg)</description>
+	<type>decimal</type>
+	<unit>mg</unit>
+	<logical_min>0.26329</logical_min>
+	<logical_max>294.58615</logical_max>
+</variable>
+
+<variable id="phv00079739.v1">
+	<name>F60PANTO</name>
+	<description>Dietary Pantothenic Acid (mg)</description>
+	<type>decimal</type>
+	<unit>mg</unit>
+	<logical_min>0.02962</logical_min>
+	<logical_max>51.20116</logical_max>
+</variable>
+
+<variable id="phv00079740.v1">
+	<name>F60VITB6</name>
+	<description>Dietary Vitamin B6 (mg)</description>
+	<type>decimal</type>
+	<unit>mg</unit>
+	<logical_min>0.02038</logical_min>
+	<logical_max>13.90617</logical_max>
+</variable>
+
+<variable id="phv00079741.v1">
+	<name>F60VB12</name>
+	<description>Dietary Vitamin B12 (mcg)</description>
+	<type>decimal</type>
+	<unit>mcg</unit>
+	<logical_min>0</logical_min>
+	<logical_max>187.90153</logical_max>
+</variable>
+
+<variable id="phv00079742.v1">
+	<name>F60FOLA</name>
+	<description>Dietary Folacin (mcg)</description>
+	<type>decimal</type>
+	<unit>mcg</unit>
+	<logical_min>1.799</logical_min>
+	<logical_max>2978.07327</logical_max>
+</variable>
+
+<variable id="phv00079743.v1">
+	<name>F60FLDEQ</name>
+	<description>Dietary Folate Equivalents (mcg)</description>
+	<type>decimal</type>
+	<unit>mcg</unit>
+	<logical_min>1.799</logical_min>
+	<logical_max>4194.57798</logical_max>
+</variable>
+
+<variable id="phv00079744.v1">
+	<name>F60FLNAT</name>
+	<description>Dietary Natural Folate (food folate) (mcg)</description>
+	<type>decimal</type>
+	<unit>mcg</unit>
+	<logical_min>1.799</logical_min>
+	<logical_max>2304.11084</logical_max>
+</variable>
+
+<variable id="phv00079745.v1">
+	<name>F60FLSYN</name>
+	<description>Dietary Synthetic Folate (folic acid) (mcg)</description>
+	<type>decimal</type>
+	<unit>mcg</unit>
+	<logical_min>0</logical_min>
+	<logical_max>1526.43189</logical_max>
+</variable>
+
+<variable id="phv00079746.v1">
+	<name>F60VITC</name>
+	<description>Dietary Vitamin C (mg)</description>
+	<type>decimal</type>
+	<unit>mg</unit>
+	<logical_min>0.50111</logical_min>
+	<logical_max>692.40388</logical_max>
+</variable>
+
+<variable id="phv00079747.v1">
+	<name>F60VITD</name>
+	<description>Dietary Vitamin D (mcg)</description>
+	<type>decimal</type>
+	<unit>mcg</unit>
+	<logical_min>0</logical_min>
+	<logical_max>41.93757</logical_max>
+</variable>
+
+<variable id="phv00079748.v1">
+	<name>F60VTEIU</name>
+	<description>Dietary Vitamin E (IU)</description>
+	<type>decimal</type>
+	<unit>IU</unit>
+	<logical_min>0.03008</logical_min>
+	<logical_max>110.24601</logical_max>
+</variable>
+
+<variable id="phv00079749.v1">
+	<name>F60ATOCO</name>
+	<description>Dietary Alpha-Tocopherol (mg)</description>
+	<type>decimal</type>
+	<unit>mg</unit>
+	<logical_min>0.02035</logical_min>
+	<logical_max>62.46268</logical_max>
+</variable>
+
+<variable id="phv00079750.v1">
+	<name>F60VITE</name>
+	<description>Dietary Total Alpha-Toc Eq (mg)</description>
+	<type>decimal</type>
+	<unit>mg</unit>
+	<logical_min>0.02382</logical_min>
+	<logical_max>104.13681</logical_max>
+</variable>
+
+<variable id="phv00079751.v1">
+	<name>F60NATOC</name>
+	<description>Dietary Natural Alpha-Tocopherol (mg)</description>
+	<type>decimal</type>
+	<unit>mg</unit>
+	<logical_min>0.02035</logical_min>
+	<logical_max>47.94497</logical_max>
+</variable>
+
+<variable id="phv00079752.v1">
+	<name>F60STOCO</name>
+	<description>Dietary Synthetic Alpha-Tocopherol (mg)</description>
+	<type>decimal</type>
+	<unit>mg</unit>
+	<logical_min>0</logical_min>
+	<logical_max>69.32</logical_max>
+</variable>
+
+<variable id="phv00079753.v1">
+	<name>F60BTOCO</name>
+	<description>Dietary Beta-Tocopherol (mg)</description>
+	<type>decimal</type>
+	<unit>mg</unit>
+	<logical_min>0</logical_min>
+	<logical_max>3.00344</logical_max>
+</variable>
+
+<variable id="phv00079754.v1">
+	<name>F60DTOCO</name>
+	<description>Dietary Delta-Tocopherol (mg)</description>
+	<type>decimal</type>
+	<unit>mg</unit>
+	<logical_min>0.01063</logical_min>
+	<logical_max>30.17431</logical_max>
+</variable>
+
+<variable id="phv00079755.v1">
+	<name>F60GTOCO</name>
+	<description>Dietary Gamma-Tocopherol (mg)</description>
+	<type>decimal</type>
+	<unit>mg</unit>
+	<logical_min>0.03401</logical_min>
+	<logical_max>175.95018</logical_max>
+</variable>
+
+<variable id="phv00079756.v1">
+	<name>F60VITK</name>
+	<description>Dietary Vitamin K (NDS Value) (mcg)</description>
+	<type>decimal</type>
+	<unit>mcg</unit>
+	<logical_min>0.5014</logical_min>
+	<logical_max>1487.58344</logical_max>
+</variable>
+
+<variable id="phv00079757.v1">
+	<name>F60CALC</name>
+	<description>Dietary Calcium (mg)</description>
+	<type>decimal</type>
+	<unit>mg</unit>
+	<logical_min>2.22663</logical_min>
+	<logical_max>7373.90574</logical_max>
+</variable>
+
+<variable id="phv00079758.v1">
+	<name>F60COPPR</name>
+	<description>Dietary Copper (mg)</description>
+	<type>decimal</type>
+	<unit>mg</unit>
+	<logical_min>0.0046</logical_min>
+	<logical_max>27.767</logical_max>
+</variable>
+
+<variable id="phv00079759.v1">
+	<name>F60IRON</name>
+	<description>Dietary Iron (mg)</description>
+	<type>decimal</type>
+	<unit>mg</unit>
+	<logical_min>0.04426</logical_min>
+	<logical_max>116.50426</logical_max>
+</variable>
+
+<variable id="phv00079760.v1">
+	<name>F60MAGN</name>
+	<description>Dietary Magnesium (mg)</description>
+	<type>decimal</type>
+	<unit>mg</unit>
+	<logical_min>2.02966</logical_min>
+	<logical_max>1416.42762</logical_max>
+</variable>
+
+<variable id="phv00079761.v1">
+	<name>F60MANGN</name>
+	<description>Dietary Manganese (mg)</description>
+	<type>decimal</type>
+	<unit>mg</unit>
+	<logical_min>0.00568</logical_min>
+	<logical_max>15.48617</logical_max>
+</variable>
+
+<variable id="phv00079762.v1">
+	<name>F60PHOS</name>
+	<description>Dietary Phosphorous (mg)</description>
+	<type>decimal</type>
+	<unit>mg</unit>
+	<logical_min>6.53574</logical_min>
+	<logical_max>10150.31604</logical_max>
+</variable>
+
+<variable id="phv00079763.v1">
+	<name>F60POTAS</name>
+	<description>Dietary Potassium (mg)</description>
+	<type>decimal</type>
+	<unit>mg</unit>
+	<logical_min>18.5948</logical_min>
+	<logical_max>15515.17566</logical_max>
+</variable>
+
+<variable id="phv00079764.v1">
+	<name>F60SELEN</name>
+	<description>Dietary Selenium (mcg)</description>
+	<type>decimal</type>
+	<unit>mcg</unit>
+	<logical_min>0.47085</logical_min>
+	<logical_max>988.7732</logical_max>
+</variable>
+
+<variable id="phv00079765.v1">
+	<name>F60SODUM</name>
+	<description>Dietary Sodium (mg)</description>
+	<type>decimal</type>
+	<unit>mg</unit>
+	<logical_min>10.68215</logical_min>
+	<logical_max>25886.64611</logical_max>
+</variable>
+
+<variable id="phv00079766.v1">
+	<name>F60ZINC</name>
+	<description>Dietary Zinc (mg)</description>
+	<type>decimal</type>
+	<unit>mg</unit>
+	<logical_min>0.05265</logical_min>
+	<logical_max>163.37785</logical_max>
+</variable>
+
+<variable id="phv00079767.v1">
+	<name>F60ACARO</name>
+	<description>Dietary Alpha-Carotene (mcg)</description>
+	<type>decimal</type>
+	<unit>mcg</unit>
+	<logical_min>0.00986</logical_min>
+	<logical_max>11815.6347</logical_max>
+</variable>
+
+<variable id="phv00079768.v1">
+	<name>F60BETA</name>
+	<description>Dietary Beta-Carotene (mcg)</description>
+	<type>decimal</type>
+	<unit>mcg</unit>
+	<logical_min>6.83538</logical_min>
+	<logical_max>54108.09198</logical_max>
+</variable>
+
+<variable id="phv00079769.v1">
+	<name>F60BCRYP</name>
+	<description>Dietary Beta-Cryptoxanthin (mcg)</description>
+	<type>decimal</type>
+	<unit>mcg</unit>
+	<logical_min>0.04253</logical_min>
+	<logical_max>1211.0424</logical_max>
+</variable>
+
+<variable id="phv00079770.v1">
+	<name>F60LYCO</name>
+	<description>Dietary Lycopene (mcg)</description>
+	<type>decimal</type>
+	<unit>mcg</unit>
+	<logical_min>0</logical_min>
+	<logical_max>61568.44293</logical_max>
+</variable>
+
+<variable id="phv00079771.v1">
+	<name>F60LUTZX</name>
+	<description>Dietary Lutein+Zeaxanthin (mcg)</description>
+	<type>decimal</type>
+	<unit>mcg</unit>
+	<logical_min>1.48542</logical_min>
+	<logical_max>38565.08886</logical_max>
+</variable>
+
+</data_table>

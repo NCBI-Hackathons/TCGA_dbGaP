@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GaPExchange xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="./dbGaPEx2.1.5.xsd">
+
+<MetaVariables>
+	<Submitter/>
+	<Method/>
+</MetaVariables>
+<MetaLinks/>
+
+<Projects>
+	<Project/>
+</Projects>
+
+<Studies>
+
+<Study source="dbGaP" accession="phs000841.v1.p1" parentStudy="phs000841.v1.p1" createDate="2014-11-26" modDate="2015-02-06">
+
+<Configuration>
+	<Data_Provider><![CDATA[
+		<table border="1">
+		<tr><th>Title</th><th>Name</th><th>Institute</th></tr>
+		<tr><td>Principal Investigator</td><td>Daphne W. Bell, PhD</td><td>National Human Genome Research Institute, National Institutes of Health, Bethesda, MD, USA</td></tr>
+		<tr><td>Funding Source</td><td>Z01 HG200338</td><td>Intramural Research Program of the National Human Genome Research Institute, National Institutes of Health, Bethesda, MD, USA</td></tr>
+		</table>
+	]]></Data_Provider>
+	<StudyNameEntrez>Tyrosine Kinase Mutations in Endometrial Cancer</StudyNameEntrez>
+	<StudyNameReportPage>Sanger sequencing of catalytic-domain encoding exons of tyrosine kinase genes from human endometrial tumor DNAs</StudyNameReportPage>
+	<StudyTypes>
+		<StudyType>Case Set</StudyType>
+	</StudyTypes>
+	<Description><![CDATA[
+<p>The purpose of the original study was to search for somatic mutations in the tyrosine kinome of serous and clear cell endometrial carcinomas (human). The study was conducted in two phases.</p> <p>Phase 1: A mutation discovery screen, in which ~577 exons encoding the catalytic domains of 86 tyrosine kinases were PCR-amplified and bidirectionally Sanger sequenced from 24 serous, 11 clear cell, and 5 mixed histology endometrial tumors. This was followed by alignment of sequence reads to the human reference sequence and subsequent nucleotide variant calling to identify potential somatic (tumor-specific) mutations. Potential somatic mutations were confirmed by re-amplification and sequencing of the relevant tumor DNA as well as matched non-tumor ("normal") DNA from the same case.</p> <p>Phase 2: A mutation prevalence screen, in which the non-catalytic regions two tyrosine kinase genes, TNK2 and DDR1, were PCR-amplified and sequenced from the 40 discovery screen tumors, and all coding exons of TNK2 and DDR1 were PCR-amplified and sequenced from another 10 clear cell, 21 serous, and 41 endometrioid endometrial tumors, in an effort to identify additional somatic mutations in each gene. Exons encoding the exonuclease domain of POLE were also sequenced to document somatic mutations.</p>]]>
+	</Description>
+	<StudyInEx><![CDATA[
+<p>Inclusion criteria: <ol> <li>Neoplastic cellularity of tumors estimated to be greater than or equal to 70%.</li> <li>Endometrioid, serous, clear cell, or mixed histology endometrial carcinomas.</li> <li>Primary tumors.</li> </ol> </p>]]>
+	</StudyInEx>
+	<StudyProjects>
+		<Project/>
+	</StudyProjects>
+	<Publications>
+		<Publication>
+			<Pubmed pmid="25427824"/>
+		</Publication>
+	</Publications>
+	<Diseases>
+		<Disease vocab_source="MESH" vocab_term="Endometrial Carcinomas"/>
+	</Diseases>
+	<Attributions>
+		<Header title="Principal Investigator">
+			<AttName>Daphne W. Bell, PhD</AttName>
+			<Institution>National Human Genome Research Institute, National Institutes of Health, Bethesda, MD, USA</Institution>
+		</Header>
+		<Header title="Funding Source">
+			<AttName>Z01 HG200338</AttName>
+			<Institution>Intramural Research Program of the National Human Genome Research Institute, National Institutes of Health, Bethesda, MD, USA</Institution>
+		</Header>
+	</Attributions>
+	<DisplayPublicSummary>yes</DisplayPublicSummary>
+	<ConsentGroups>
+		<ConsentGroup groupNum="1" shortName="DS-EC" longName="Disease-Specific (Endometrial Carcinoma)"/>
+	</ConsentGroups>
+</Configuration>
+
+  <AuthorizedAccess>
+    <DacInfo ssDacId="0">
+      <DacName>NHGRI</DacName>
+      <DacFullName>National Human Genome Research Institute</DacFullName>
+      <DacEmail>0</DacEmail>
+      <DacPhone></DacPhone>
+      <DacUrl></DacUrl>
+    </DacInfo>
+    <Policy Policy_ID="phs000841.v1.p1_policy" ref_ssDacId="0">
+      <DisplayResearchStatement>yes</DisplayResearchStatement>
+      <DisplayPublicSummary>yes</DisplayPublicSummary>
+      <EmbargoLength>12</EmbargoLength>
+      <YearsUntilRenewal>1</YearsUntilRenewal>
+      <WeeksCancelRequest>8</WeeksCancelRequest>
+      <PdfSupplementReqired>no</PdfSupplementReqired>
+      <AcknowledgementText>
+        <para>
+          http://dbgap.ncbi.nlm.nih.gov/aa/wga.cgi?page=DUC&amp;view_pdf&amp;stacc=phs000841.v1.p1
+        </para>
+      </AcknowledgementText>
+      <DocumentSet>
+        <DataUseCertificate Label="Data Use Certificate" FilePath="https://dbgap.ncbi.nlm.nih.gov/aa/wga.cgi?page=DUC&amp;view_pdf&amp;stacc=phs000841.v1.p1" FileName="Bell_Daphne_DUC_101614.pdf"/>
+      </DocumentSet>
+    </Policy>
+    <ConsentGroups>
+      <ParticipantSet groupNum-REF="1">
+        <ConsentName>Disease-Specific (Endometrial Carcinoma)</ConsentName>
+        <ConsentAbbrev>DS-EC</ConsentAbbrev>
+        <UseLimitation>Use of the data must be related to Endometrial Carcinoma.</UseLimitation>
+        <IrbRequired>No</IrbRequired>
+      </ParticipantSet>
+    </ConsentGroups>
+  </AuthorizedAccess>
+
+
+</Study>
+
+</Studies>
+
+</GaPExchange>

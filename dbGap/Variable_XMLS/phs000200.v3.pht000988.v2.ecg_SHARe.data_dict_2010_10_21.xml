@@ -1,0 +1,5511 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./datadict_v2.xsl"?>
+<data_table id="pht000988.v2" study_id="phs000200.v3" participant_set="1" date_created="Thu Oct 21 09:32:51 2010">
+
+<unique_key phv="00077398" version="2">SHAREID</unique_key>
+<unique_key phv="00077399" version="2">ECGVTYP</unique_key>
+<unique_key phv="00077400" version="2">ECGVY</unique_key>
+
+<variable id="phv00077398.v2">
+	<name>SHAREID</name>
+	<description>WHI SHARe ID</description>
+	<type>integer</type>
+</variable>
+
+<variable id="phv00077399.v2">
+	<name>ECGVTYP</name>
+	<description>ECG visit type</description>
+	<type>encoded value</type>
+	<value code="1">Screening Visit</value>
+	<value code="2">Semi-Annual Visit</value>
+	<value code="3">Annual Visit</value>
+	<value code="4">Non-Routine Visit</value>
+</variable>
+
+<variable id="phv00077400.v2">
+	<name>ECGVY</name>
+	<description>ECG visit year</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>11</logical_max>
+	<comment>Visit year for which this ECG was collected.</comment>
+</variable>
+
+<variable id="phv00077401.v2">
+	<name>ECGDAYS</name>
+	<description>ECG Days since randomization</description>
+	<type>integer</type>
+	<unit>days</unit>
+	<logical_min>-313</logical_min>
+	<logical_max>3774</logical_max>
+	<comment>Number of days from CT randomization date to ECG date</comment>
+</variable>
+
+<variable id="phv00128783.v1">
+	<name>ACEPT_RR</name>
+	<description>Acceptable Number of RR Intervals (n)</description>
+	<type>integer</type>
+	<logical_min>3</logical_min>
+	<logical_max>18</logical_max>
+</variable>
+
+<variable id="phv00128784.v1">
+	<name>ATR_FIBR</name>
+	<description>Atrial fibrillation</description>
+	<type>encoded value</type>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00128785.v1">
+	<name>ATR_FLUT</name>
+	<description>Atrial flutter</description>
+	<type>encoded value</type>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00128786.v1">
+	<name>BPA_AVF</name>
+	<description>P wave area, lead bpa_avf</description>
+	<type>integer</type>
+	<logical_min>-378</logical_min>
+	<logical_max>1521</logical_max>
+</variable>
+
+<variable id="phv00128787.v1">
+	<name>BPA_AVL</name>
+	<description>P wave area, lead bpa_avl</description>
+	<type>integer</type>
+	<logical_min>-991</logical_min>
+	<logical_max>646</logical_max>
+</variable>
+
+<variable id="phv00128788.v1">
+	<name>BPA_AVR</name>
+	<description>P wave area, lead bpa_avr</description>
+	<type>integer</type>
+	<logical_min>-866</logical_min>
+	<logical_max>415</logical_max>
+</variable>
+
+<variable id="phv00128789.v1">
+	<name>BPA_I</name>
+	<description>P wave area, lead bpa_i</description>
+	<type>integer</type>
+	<logical_min>-396</logical_min>
+	<logical_max>820</logical_max>
+</variable>
+
+<variable id="phv00128790.v1">
+	<name>BPA_II</name>
+	<description>P wave area, lead bpa_ii</description>
+	<type>integer</type>
+	<logical_min>-524</logical_min>
+	<logical_max>1398</logical_max>
+</variable>
+
+<variable id="phv00128791.v1">
+	<name>BPA_III</name>
+	<description>P wave area, lead bpa_iii</description>
+	<type>integer</type>
+	<logical_min>-671</logical_min>
+	<logical_max>1665</logical_max>
+</variable>
+
+<variable id="phv00128792.v1">
+	<name>BPA_V1</name>
+	<description>P wave area, lead bpa_v1</description>
+	<type>integer</type>
+	<logical_min>-605</logical_min>
+	<logical_max>450</logical_max>
+</variable>
+
+<variable id="phv00128793.v1">
+	<name>BPA_V2</name>
+	<description>P wave area, lead bpa_v2</description>
+	<type>integer</type>
+	<logical_min>-361</logical_min>
+	<logical_max>1109</logical_max>
+</variable>
+
+<variable id="phv00128794.v1">
+	<name>BPA_V3</name>
+	<description>P wave area, lead bpa_v3</description>
+	<type>integer</type>
+	<logical_min>-297</logical_min>
+	<logical_max>1765</logical_max>
+</variable>
+
+<variable id="phv00128795.v1">
+	<name>BPA_V4</name>
+	<description>P wave area, lead bpa_v4</description>
+	<type>integer</type>
+	<logical_min>-357</logical_min>
+	<logical_max>1577</logical_max>
+</variable>
+
+<variable id="phv00128796.v1">
+	<name>BPA_V5</name>
+	<description>P wave area, lead bpa_v5</description>
+	<type>integer</type>
+	<logical_min>-273</logical_min>
+	<logical_max>1325</logical_max>
+</variable>
+
+<variable id="phv00128797.v1">
+	<name>BPA_V6</name>
+	<description>P wave area, lead bpa_v6</description>
+	<type>integer</type>
+	<logical_min>-166</logical_min>
+	<logical_max>1360</logical_max>
+</variable>
+
+<variable id="phv00128798.v1">
+	<name>BPI_AVF</name>
+	<description>P intrisicoid (time from P onset to peak of P), lead bpi_avf</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>118</logical_max>
+	<comment>P intrisicoid (time from P onset to peak of P), lead bpi_avf</comment>
+</variable>
+
+<variable id="phv00128799.v1">
+	<name>BPI_AVL</name>
+	<description>P intrisicoid (time from P onset to peak of P), lead bpi_avl</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>146</logical_max>
+	<comment>P intrisicoid (time from P onset to peak of P), lead bpi_avl</comment>
+</variable>
+
+<variable id="phv00128800.v1">
+	<name>BPI_AVR</name>
+	<description>P intrisicoid (time from P onset to peak of P), lead bpi_avr</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>132</logical_max>
+	<comment>P intrisicoid (time from P onset to peak of P), lead bpi_avr</comment>
+</variable>
+
+<variable id="phv00128801.v1">
+	<name>BPI_I</name>
+	<description>P intrisicoid (time from P onset to peak of P), lead bpi_i</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>150</logical_max>
+	<comment>P intrisicoid (time from P onset to peak of P), lead bpi_i</comment>
+</variable>
+
+<variable id="phv00128802.v1">
+	<name>BPI_II</name>
+	<description>P intrisicoid (time from P onset to peak of P), lead bpi_ii</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>118</logical_max>
+	<comment>P intrisicoid (time from P onset to peak of P), lead bpi_ii</comment>
+</variable>
+
+<variable id="phv00128803.v1">
+	<name>BPI_III</name>
+	<description>P intrisicoid (time from P onset to peak of P), lead bpi_iii</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>124</logical_max>
+	<comment>P intrisicoid (time from P onset to peak of P), lead bpi_iii</comment>
+</variable>
+
+<variable id="phv00128804.v1">
+	<name>BPI_V1</name>
+	<description>P intrisicoid (time from P onset to peak of P), lead bpi_v1</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>114</logical_max>
+	<comment>P intrisicoid (time from P onset to peak of P), lead bpi_v1</comment>
+</variable>
+
+<variable id="phv00128805.v1">
+	<name>BPI_V2</name>
+	<description>P intrisicoid (time from P onset to peak of P), lead bpi_v2</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>118</logical_max>
+	<comment>P intrisicoid (time from P onset to peak of P), lead bpi_v2</comment>
+</variable>
+
+<variable id="phv00128806.v1">
+	<name>BPI_V3</name>
+	<description>P intrisicoid (time from P onset to peak of P), lead bpi_v3</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>126</logical_max>
+	<comment>P intrisicoid (time from P onset to peak of P), lead bpi_v3</comment>
+</variable>
+
+<variable id="phv00128807.v1">
+	<name>BPI_V4</name>
+	<description>P intrisicoid (time from P onset to peak of P), lead bpi_v4</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>130</logical_max>
+	<comment>P intrisicoid (time from P onset to peak of P), lead bpi_v4</comment>
+</variable>
+
+<variable id="phv00128808.v1">
+	<name>BPI_V5</name>
+	<description>P intrisicoid (time from P onset to peak of P), lead bpi_v5</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>130</logical_max>
+	<comment>P intrisicoid (time from P onset to peak of P), lead bpi_v5</comment>
+</variable>
+
+<variable id="phv00128809.v1">
+	<name>BPI_V6</name>
+	<description>P intrisicoid (time from P onset to peak of P), lead bpi_v6</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>154</logical_max>
+	<comment>P intrisicoid (time from P onset to peak of P), lead bpi_v6</comment>
+</variable>
+
+<variable id="phv00128810.v1">
+	<name>BPPA_AVF</name>
+	<description>P&#39; area, lead bppa_avf</description>
+	<type>integer</type>
+	<logical_min>-1058</logical_min>
+	<logical_max>593</logical_max>
+</variable>
+
+<variable id="phv00128811.v1">
+	<name>BPPA_AVL</name>
+	<description>P&#39; area, lead bppa_avl</description>
+	<type>integer</type>
+	<logical_min>-308</logical_min>
+	<logical_max>511</logical_max>
+</variable>
+
+<variable id="phv00128812.v1">
+	<name>BPPA_AVR</name>
+	<description>P&#39; area, lead bppa_avr</description>
+	<type>integer</type>
+	<logical_min>-1112</logical_min>
+	<logical_max>232</logical_max>
+</variable>
+
+<variable id="phv00128813.v1">
+	<name>BPPA_I</name>
+	<description>P&#39; area, lead bppa_i</description>
+	<type>integer</type>
+	<logical_min>-277</logical_min>
+	<logical_max>2181</logical_max>
+</variable>
+
+<variable id="phv00128814.v1">
+	<name>BPPA_II</name>
+	<description>P&#39; area, lead bppa_ii</description>
+	<type>integer</type>
+	<logical_min>-512</logical_min>
+	<logical_max>566</logical_max>
+</variable>
+
+<variable id="phv00128815.v1">
+	<name>BPPA_III</name>
+	<description>P&#39; area, lead bppa_iii</description>
+	<type>integer</type>
+	<logical_min>-914</logical_min>
+	<logical_max>1145</logical_max>
+</variable>
+
+<variable id="phv00128816.v1">
+	<name>BPPA_V1</name>
+	<description>P&#39; area, lead bppa_v1</description>
+	<type>integer</type>
+	<logical_min>-669</logical_min>
+	<logical_max>146</logical_max>
+</variable>
+
+<variable id="phv00128817.v1">
+	<name>BPPA_V2</name>
+	<description>P&#39; area, lead bppa_v2</description>
+	<type>integer</type>
+	<logical_min>-548</logical_min>
+	<logical_max>1887</logical_max>
+</variable>
+
+<variable id="phv00128818.v1">
+	<name>BPPA_V3</name>
+	<description>P&#39; area, lead bppa_v3</description>
+	<type>integer</type>
+	<logical_min>-684</logical_min>
+	<logical_max>1460</logical_max>
+</variable>
+
+<variable id="phv00128819.v1">
+	<name>BPPA_V4</name>
+	<description>P&#39; area, lead bppa_v4</description>
+	<type>integer</type>
+	<logical_min>-721</logical_min>
+	<logical_max>965</logical_max>
+</variable>
+
+<variable id="phv00128820.v1">
+	<name>BPPA_V5</name>
+	<description>P&#39; area, lead bppa_v5</description>
+	<type>integer</type>
+	<logical_min>-802</logical_min>
+	<logical_max>1861</logical_max>
+</variable>
+
+<variable id="phv00128821.v1">
+	<name>BPPA_V6</name>
+	<description>P&#39; area, lead bppa_v6</description>
+	<type>integer</type>
+	<logical_min>-270</logical_min>
+	<logical_max>659</logical_max>
+</variable>
+
+<variable id="phv00128822.v1">
+	<name>BPPI_AVF</name>
+	<description>P&#39; intrisicoid (time from P onset to peak of P&#39;), lead bppi_avf</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>162</logical_max>
+	<comment>P&#39; intrisicoid (time from P onset to peak of P&#39;), lead bppi_avf</comment>
+</variable>
+
+<variable id="phv00128823.v1">
+	<name>BPPI_AVL</name>
+	<description>P&#39; area, lead bppi_avl</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>162</logical_max>
+</variable>
+
+<variable id="phv00128824.v1">
+	<name>BPPI_AVR</name>
+	<description>P&#39; intrisicoid (time from P onset to peak of P&#39;), lead bppi_avr</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>168</logical_max>
+	<comment>P&#39; intrisicoid (time from P onset to peak of P&#39;), lead bppi_avr</comment>
+</variable>
+
+<variable id="phv00128825.v1">
+	<name>BPPI_I</name>
+	<description>P&#39; intrisicoid (time from P onset to peak of P&#39;), lead bppi_i</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>168</logical_max>
+	<comment>P&#39; intrisicoid (time from P onset to peak of P&#39;), lead bppi_i</comment>
+</variable>
+
+<variable id="phv00128826.v1">
+	<name>BPPI_II</name>
+	<description>P&#39; intrisicoid (time from P onset to peak of P&#39;), lead bppi_ii</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>154</logical_max>
+	<comment>P&#39; intrisicoid (time from P onset to peak of P&#39;), lead bppi_ii</comment>
+</variable>
+
+<variable id="phv00128827.v1">
+	<name>BPPI_III</name>
+	<description>P&#39; intrisicoid (time from P onset to peak of P&#39;), lead bppi_iii</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>158</logical_max>
+	<comment>P&#39; intrisicoid (time from P onset to peak of P&#39;), lead bppi_iii</comment>
+</variable>
+
+<variable id="phv00128828.v1">
+	<name>BPPI_V1</name>
+	<description>P&#39; intrisicoid (time from P onset to peak of P&#39;), lead bppi_v1</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>144</logical_max>
+	<comment>P&#39; intrisicoid (time from P onset to peak of P&#39;), lead bppi_v1</comment>
+</variable>
+
+<variable id="phv00128829.v1">
+	<name>BPPI_V2</name>
+	<description>P&#39; intrisicoid (time from P onset to peak of P&#39;), lead bppi_v2</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>174</logical_max>
+	<comment>P&#39; intrisicoid (time from P onset to peak of P&#39;), lead bppi_v2</comment>
+</variable>
+
+<variable id="phv00128830.v1">
+	<name>BPPI_V3</name>
+	<description>P&#39; intrisicoid (time from P onset to peak of P&#39;), lead bppi_v3</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>182</logical_max>
+	<comment>P&#39; intrisicoid (time from P onset to peak of P&#39;), lead bppi_v3</comment>
+</variable>
+
+<variable id="phv00128831.v1">
+	<name>BPPI_V4</name>
+	<description>P&#39; intrisicoid (time from P onset to peak of P&#39;), lead bppi_v4</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>162</logical_max>
+	<comment>P&#39; intrisicoid (time from P onset to peak of P&#39;), lead bppi_v4</comment>
+</variable>
+
+<variable id="phv00128832.v1">
+	<name>BPPI_V5</name>
+	<description>P&#39; intrisicoid (time from P onset to peak of P&#39;), lead bppi_v5</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>162</logical_max>
+	<comment>P&#39; intrisicoid (time from P onset to peak of P&#39;), lead bppi_v5</comment>
+</variable>
+
+<variable id="phv00128833.v1">
+	<name>BPPI_V6</name>
+	<description>P&#39; intrisicoid (time from P onset to peak of P&#39;), lead bppi_v6</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>162</logical_max>
+	<comment>P&#39; intrisicoid (time from P onset to peak of P&#39;), lead bppi_v6</comment>
+</variable>
+
+<variable id="phv00128834.v1">
+	<name>BQA_AVF</name>
+	<description>Q wave area, lead bqa_avf</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>10893</logical_max>
+</variable>
+
+<variable id="phv00128835.v1">
+	<name>BQA_AVL</name>
+	<description>Q wave area, lead bqa_avl</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>8344</logical_max>
+</variable>
+
+<variable id="phv00128836.v1">
+	<name>BQA_AVR</name>
+	<description>Q wave area, lead bqa_avr</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>7740</logical_max>
+</variable>
+
+<variable id="phv00128837.v1">
+	<name>BQA_I</name>
+	<description>Q wave area, lead bqa_i</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>4566</logical_max>
+</variable>
+
+<variable id="phv00128838.v1">
+	<name>BQA_II</name>
+	<description>Q wave area, lead bqa_ii</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>22025</logical_max>
+</variable>
+
+<variable id="phv00128839.v1">
+	<name>BQA_III</name>
+	<description>Q wave area, lead bqa_iii</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>9991</logical_max>
+</variable>
+
+<variable id="phv00128840.v1">
+	<name>BQA_V1</name>
+	<description>Q wave area, lead bqa_v1</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>13725</logical_max>
+</variable>
+
+<variable id="phv00128841.v1">
+	<name>BQA_V2</name>
+	<description>Q wave area, lead bqa_v2</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>11304</logical_max>
+</variable>
+
+<variable id="phv00128842.v1">
+	<name>BQA_V3</name>
+	<description>Q wave area, lead bqa_v3</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>8624</logical_max>
+</variable>
+
+<variable id="phv00128843.v1">
+	<name>BQA_V4</name>
+	<description>Q wave area, lead bqa_v4</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>7716</logical_max>
+</variable>
+
+<variable id="phv00128844.v1">
+	<name>BQA_V5</name>
+	<description>Q wave area, lead bqa_v5</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>7892</logical_max>
+</variable>
+
+<variable id="phv00128845.v1">
+	<name>BQA_V6</name>
+	<description>Q wave area, lead bqa_v6</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>7531</logical_max>
+</variable>
+
+<variable id="phv00128846.v1">
+	<name>BQI_AVF</name>
+	<description>Q intrisicoid (time from Q onset to peak of Q), lead bqi_avf</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>166</logical_max>
+	<comment>Q intrisicoid (time from Q onset to peak of Q), lead bqi_avf</comment>
+</variable>
+
+<variable id="phv00128847.v1">
+	<name>BQI_AVL</name>
+	<description>Q intrisicoid (time from Q onset to peak of Q), lead bqi_avl</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>156</logical_max>
+	<comment>Q intrisicoid (time from Q onset to peak of Q), lead bqi_avl</comment>
+</variable>
+
+<variable id="phv00128848.v1">
+	<name>BQI_AVR</name>
+	<description>Q intrisicoid (time from Q onset to peak of Q), lead bqi_avr</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>142</logical_max>
+	<comment>Q intrisicoid (time from Q onset to peak of Q), lead bqi_avr</comment>
+</variable>
+
+<variable id="phv00128849.v1">
+	<name>BQI_I</name>
+	<description>Q intrisicoid (time from Q onset to peak of Q), lead bqi_i</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>148</logical_max>
+	<comment>Q intrisicoid (time from Q onset to peak of Q), lead bqi_i</comment>
+</variable>
+
+<variable id="phv00128850.v1">
+	<name>BQI_II</name>
+	<description>Q intrisicoid (time from Q onset to peak of Q), lead bqi_ii</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>166</logical_max>
+	<comment>Q intrisicoid (time from Q onset to peak of Q), lead bqi_ii</comment>
+</variable>
+
+<variable id="phv00128851.v1">
+	<name>BQI_III</name>
+	<description>Q intrisicoid (time from Q onset to peak of Q), lead bqi_iii</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>140</logical_max>
+	<comment>Q intrisicoid (time from Q onset to peak of Q), lead bqi_iii</comment>
+</variable>
+
+<variable id="phv00128852.v1">
+	<name>BQI_V1</name>
+	<description>Q intrisicoid (time from Q onset to peak of Q), lead bqi_v1</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>172</logical_max>
+	<comment>Q intrisicoid (time from Q onset to peak of Q), lead bqi_v1</comment>
+</variable>
+
+<variable id="phv00128853.v1">
+	<name>BQI_V2</name>
+	<description>Q intrisicoid (time from Q onset to peak of Q), lead bqi_v2</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>172</logical_max>
+	<comment>Q intrisicoid (time from Q onset to peak of Q), lead bqi_v2</comment>
+</variable>
+
+<variable id="phv00128854.v1">
+	<name>BQI_V3</name>
+	<description>Q intrisicoid (time from Q onset to peak of Q), lead bqi_v3</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>166</logical_max>
+	<comment>Q intrisicoid (time from Q onset to peak of Q), lead bqi_v3</comment>
+</variable>
+
+<variable id="phv00128855.v1">
+	<name>BQI_V4</name>
+	<description>Q intrisicoid (time from Q onset to peak of Q), lead bqi_v4</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>166</logical_max>
+	<comment>Q intrisicoid (time from Q onset to peak of Q), lead bqi_v4</comment>
+</variable>
+
+<variable id="phv00128856.v1">
+	<name>BQI_V5</name>
+	<description>Q intrisicoid (time from Q onset to peak of Q), lead bqi_v5</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>166</logical_max>
+	<comment>Q intrisicoid (time from Q onset to peak of Q), lead bqi_v5</comment>
+</variable>
+
+<variable id="phv00128857.v1">
+	<name>BQI_V6</name>
+	<description>Q intrisicoid (time from Q onset to peak of Q), lead bqi_v6</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>166</logical_max>
+	<comment>Q intrisicoid (time from Q onset to peak of Q), lead bqi_v6</comment>
+</variable>
+
+<variable id="phv00128858.v1">
+	<name>BRADYCAR</name>
+	<description>Bradycardia</description>
+	<type>encoded value</type>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00128859.v1">
+	<name>BRA_AVF</name>
+	<description>R wave area, lead bra_avf</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>10176</logical_max>
+</variable>
+
+<variable id="phv00128860.v1">
+	<name>BRA_AVL</name>
+	<description>R wave area, lead bra_avl</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>7700</logical_max>
+</variable>
+
+<variable id="phv00128861.v1">
+	<name>BRA_AVR</name>
+	<description>R wave area, lead bra_avr</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>7288</logical_max>
+</variable>
+
+<variable id="phv00128862.v1">
+	<name>BRA_I</name>
+	<description>R wave area, lead bra_i</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>9742</logical_max>
+</variable>
+
+<variable id="phv00128863.v1">
+	<name>BRA_II</name>
+	<description>R wave area, lead bra_ii</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>8002</logical_max>
+</variable>
+
+<variable id="phv00128864.v1">
+	<name>BRA_III</name>
+	<description>R wave area, lead bra_iii</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>12354</logical_max>
+</variable>
+
+<variable id="phv00128865.v1">
+	<name>BRA_V1</name>
+	<description>R wave area, lead bra_v1</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>19612</logical_max>
+</variable>
+
+<variable id="phv00128866.v1">
+	<name>BRA_V2</name>
+	<description>R wave area, lead bra_v2</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>6958</logical_max>
+</variable>
+
+<variable id="phv00128867.v1">
+	<name>BRA_V3</name>
+	<description>R wave area, lead bra_v3</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>6201</logical_max>
+</variable>
+
+<variable id="phv00128868.v1">
+	<name>BRA_V4</name>
+	<description>R wave area, lead bra_v4</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>7176</logical_max>
+</variable>
+
+<variable id="phv00128869.v1">
+	<name>BRA_V5</name>
+	<description>R wave area, lead bra_v5</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>9716</logical_max>
+</variable>
+
+<variable id="phv00128870.v1">
+	<name>BRA_V6</name>
+	<description>R wave area, lead bra_v6</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>13601</logical_max>
+</variable>
+
+<variable id="phv00128871.v1">
+	<name>BRI_AVF</name>
+	<description>R intrisicoid (time from Q onset to peak of R), lead bri_avf</description>
+	<type>integer</type>
+	<logical_min>-20</logical_min>
+	<logical_max>142</logical_max>
+	<comment>R intrisicoid (time from Q onset to peak of R), lead bri_avf</comment>
+</variable>
+
+<variable id="phv00128872.v1">
+	<name>BRI_AVL</name>
+	<description>R intrisicoid (time from Q onset to peak of R), lead bri_avl</description>
+	<type>integer</type>
+	<logical_min>-16</logical_min>
+	<logical_max>138</logical_max>
+	<comment>R intrisicoid (time from Q onset to peak of R), lead bri_avl</comment>
+</variable>
+
+<variable id="phv00128873.v1">
+	<name>BRI_AVR</name>
+	<description>R intrisicoid (time from Q onset to peak of R), lead bri_avr</description>
+	<type>integer</type>
+	<logical_min>-20</logical_min>
+	<logical_max>162</logical_max>
+	<comment>R intrisicoid (time from Q onset to peak of R), lead bri_avr</comment>
+</variable>
+
+<variable id="phv00128874.v1">
+	<name>BRI_I</name>
+	<description>R intrisicoid (time from Q onset to peak of R), lead bri_i</description>
+	<type>integer</type>
+	<logical_min>-14</logical_min>
+	<logical_max>134</logical_max>
+	<comment>R intrisicoid (time from Q onset to peak of R), lead bri_i</comment>
+</variable>
+
+<variable id="phv00128875.v1">
+	<name>BRI_II</name>
+	<description>R intrisicoid (time from Q onset to peak of R), lead bri_ii</description>
+	<type>integer</type>
+	<logical_min>-20</logical_min>
+	<logical_max>142</logical_max>
+	<comment>R intrisicoid (time from Q onset to peak of R), lead bri_ii</comment>
+</variable>
+
+<variable id="phv00128876.v1">
+	<name>BRI_III</name>
+	<description>R intrisicoid (time from Q onset to peak of R), lead bri_iii</description>
+	<type>integer</type>
+	<logical_min>-20</logical_min>
+	<logical_max>142</logical_max>
+	<comment>R intrisicoid (time from Q onset to peak of R), lead bri_iii</comment>
+</variable>
+
+<variable id="phv00128877.v1">
+	<name>BRI_V1</name>
+	<description>R intrisicoid (time from Q onset to peak of R), lead bri_v1</description>
+	<type>integer</type>
+	<logical_min>-20</logical_min>
+	<logical_max>126</logical_max>
+	<comment>R intrisicoid (time from Q onset to peak of R), lead bri_v1</comment>
+</variable>
+
+<variable id="phv00128878.v1">
+	<name>BRI_V2</name>
+	<description>R intrisicoid (time from Q onset to peak of R), lead bri_v2</description>
+	<type>integer</type>
+	<logical_min>-20</logical_min>
+	<logical_max>114</logical_max>
+	<comment>R intrisicoid (time from Q onset to peak of R), lead bri_v2</comment>
+</variable>
+
+<variable id="phv00128879.v1">
+	<name>BRI_V3</name>
+	<description>R intrisicoid (time from Q onset to peak of R), lead bri_v3</description>
+	<type>integer</type>
+	<logical_min>-14</logical_min>
+	<logical_max>94</logical_max>
+	<comment>R intrisicoid (time from Q onset to peak of R), lead bri_v3</comment>
+</variable>
+
+<variable id="phv00128880.v1">
+	<name>BRI_V4</name>
+	<description>R intrisicoid (time from Q onset to peak of R), lead bri_v4</description>
+	<type>integer</type>
+	<logical_min>-12</logical_min>
+	<logical_max>100</logical_max>
+	<comment>R intrisicoid (time from Q onset to peak of R), lead bri_v4</comment>
+</variable>
+
+<variable id="phv00128881.v1">
+	<name>BRI_V5</name>
+	<description>R intrisicoid (time from Q onset to peak of R), lead bri_v5</description>
+	<type>integer</type>
+	<logical_min>-14</logical_min>
+	<logical_max>126</logical_max>
+	<comment>R intrisicoid (time from Q onset to peak of R), lead bri_v5</comment>
+</variable>
+
+<variable id="phv00128882.v1">
+	<name>BRI_V6</name>
+	<description>R intrisicoid (time from Q onset to peak of R), lead bri_v6</description>
+	<type>integer</type>
+	<logical_min>-18</logical_min>
+	<logical_max>142</logical_max>
+	<comment>R intrisicoid (time from Q onset to peak of R), lead bri_v6</comment>
+</variable>
+
+<variable id="phv00128883.v1">
+	<name>BRPA_AVF</name>
+	<description>R&#39; wave area, lead brpa_avf</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>2664</logical_max>
+</variable>
+
+<variable id="phv00128884.v1">
+	<name>BRPA_AVL</name>
+	<description>R&#39; wave amplitude, lead brpa_avl</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>6114</logical_max>
+</variable>
+
+<variable id="phv00128885.v1">
+	<name>BRPA_AVR</name>
+	<description>R&#39; wave area, lead brpa_avr</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>2748</logical_max>
+</variable>
+
+<variable id="phv00128886.v1">
+	<name>BRPA_I</name>
+	<description>R&#39; wave area, lead brpa_i</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>5647</logical_max>
+</variable>
+
+<variable id="phv00128887.v1">
+	<name>BRPA_II</name>
+	<description>R&#39; wave area, lead brpa_ii</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>1441</logical_max>
+</variable>
+
+<variable id="phv00128888.v1">
+	<name>BRPA_III</name>
+	<description>R&#39; wave area, lead brpa_iii</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>3815</logical_max>
+</variable>
+
+<variable id="phv00128889.v1">
+	<name>BRPA_V1</name>
+	<description>R&#39; wave area, lead brpa_v1</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>3973</logical_max>
+</variable>
+
+<variable id="phv00128890.v1">
+	<name>BRPA_V2</name>
+	<description>R&#39; wave area, lead brpa_v2</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>3598</logical_max>
+</variable>
+
+<variable id="phv00128891.v1">
+	<name>BRPA_V3</name>
+	<description>R&#39; wave area, lead brpa_v3</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>3113</logical_max>
+</variable>
+
+<variable id="phv00128892.v1">
+	<name>BRPA_V4</name>
+	<description>R&#39; wave area, lead brpa_v4</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>4123</logical_max>
+</variable>
+
+<variable id="phv00128893.v1">
+	<name>BRPA_V5</name>
+	<description>R&#39; wave area, lead brpa_v5</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>4517</logical_max>
+</variable>
+
+<variable id="phv00128894.v1">
+	<name>BRPA_V6</name>
+	<description>R&#39; wave area, lead brpa_v6</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>4199</logical_max>
+</variable>
+
+<variable id="phv00128895.v1">
+	<name>BRPI_AVF</name>
+	<description>R&#39; intrisicoid (time from Q onset to peak of R&#39;), lead brpi_avf</description>
+	<type>integer</type>
+	<logical_min>-16</logical_min>
+	<logical_max>168</logical_max>
+	<comment>R&#39; intrisicoid (time from Q onset to peak of R&#39;), lead brpi_avf</comment>
+</variable>
+
+<variable id="phv00128896.v1">
+	<name>BRPI_AVL</name>
+	<description>R&#39; intrisicoid (time from Q onset to peak of R&#39;), lead brpi_avl</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>180</logical_max>
+	<comment>R&#39; intrisicoid (time from Q onset to peak of R&#39;), lead brpi_avl</comment>
+</variable>
+
+<variable id="phv00128897.v1">
+	<name>BRPI_AVR</name>
+	<description>R&#39; intrisicoid (time from Q onset to peak of R&#39;), lead brpi_avr</description>
+	<type>integer</type>
+	<logical_min>-20</logical_min>
+	<logical_max>188</logical_max>
+	<comment>R&#39; intrisicoid (time from Q onset to peak of R&#39;), lead brpi_avr</comment>
+</variable>
+
+<variable id="phv00128898.v1">
+	<name>BRPI_I</name>
+	<description>R&#39; intrisicoid (time from Q onset to peak of R&#39;), lead brpi_i</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>208</logical_max>
+	<comment>R&#39; intrisicoid (time from Q onset to peak of R&#39;), lead brpi_i</comment>
+</variable>
+
+<variable id="phv00128899.v1">
+	<name>BRPI_II</name>
+	<description>R&#39; intrisicoid (time from Q onset to peak of R&#39;), lead brpi_ii</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>178</logical_max>
+	<comment>R&#39; intrisicoid (time from Q onset to peak of R&#39;), lead brpi_ii</comment>
+</variable>
+
+<variable id="phv00128900.v1">
+	<name>BRPI_III</name>
+	<description>R&#39; intrisicoid (time from Q onset to peak of R&#39;), lead brpi_iii</description>
+	<type>integer</type>
+	<logical_min>-20</logical_min>
+	<logical_max>156</logical_max>
+	<comment>R&#39; intrisicoid (time from Q onset to peak of R&#39;), lead brpi_iii</comment>
+</variable>
+
+<variable id="phv00128901.v1">
+	<name>BRPI_V1</name>
+	<description>R&#39; intrisicoid (time from Q onset to peak of R&#39;), lead brpi_v1</description>
+	<type>integer</type>
+	<logical_min>-16</logical_min>
+	<logical_max>134</logical_max>
+	<comment>R&#39; intrisicoid (time from Q onset to peak of R&#39;), lead brpi_v1</comment>
+</variable>
+
+<variable id="phv00128902.v1">
+	<name>BRPI_V2</name>
+	<description>R&#39; intrisicoid (time from Q onset to peak of R&#39;), lead brpi_v2</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>158</logical_max>
+	<comment>R&#39; intrisicoid (time from Q onset to peak of R&#39;), lead brpi_v2</comment>
+</variable>
+
+<variable id="phv00128903.v1">
+	<name>BRPI_V3</name>
+	<description>R&#39; intrisicoid (time from Q onset to peak of R&#39;), lead brpi_v3</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>180</logical_max>
+	<comment>R&#39; intrisicoid (time from Q onset to peak of R&#39;), lead brpi_v3</comment>
+</variable>
+
+<variable id="phv00128904.v1">
+	<name>BRPI_V4</name>
+	<description>R&#39; intrisicoid (time from Q onset to peak of R&#39;), lead brpi_v4</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>158</logical_max>
+	<comment>R&#39; intrisicoid (time from Q onset to peak of R&#39;), lead brpi_v4</comment>
+</variable>
+
+<variable id="phv00128905.v1">
+	<name>BRPI_V5</name>
+	<description>R&#39; intrisicoid (time from Q onset to peak of R&#39;), lead brpi_v5</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>204</logical_max>
+	<comment>R&#39; intrisicoid (time from Q onset to peak of R&#39;), lead brpi_v5</comment>
+</variable>
+
+<variable id="phv00128906.v1">
+	<name>BRPI_V6</name>
+	<description>R&#39; intrisicoid (time from Q onset to peak of R&#39;), lead brpi_v6</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>204</logical_max>
+	<comment>R&#39; intrisicoid (time from Q onset to peak of R&#39;), lead brpi_v6</comment>
+</variable>
+
+<variable id="phv00128907.v1">
+	<name>BSA_AVF</name>
+	<description>S wave area, lead bsa_avf</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>8848</logical_max>
+</variable>
+
+<variable id="phv00128908.v1">
+	<name>BSA_AVL</name>
+	<description>S wave area, lead bsa_avl</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>5348</logical_max>
+</variable>
+
+<variable id="phv00128909.v1">
+	<name>BSA_AVR</name>
+	<description>S wave area, lead bsa_avr</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>20621</logical_max>
+</variable>
+
+<variable id="phv00128910.v1">
+	<name>BSA_I</name>
+	<description>S wave area, lead bsa_i</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>5622</logical_max>
+</variable>
+
+<variable id="phv00128911.v1">
+	<name>BSA_II</name>
+	<description>S wave area, lead bsa_ii</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>7736</logical_max>
+</variable>
+
+<variable id="phv00128912.v1">
+	<name>BSA_III</name>
+	<description>S wave area, lead bsa_iii</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>10916</logical_max>
+</variable>
+
+<variable id="phv00128913.v1">
+	<name>BSA_V1</name>
+	<description>S wave area, lead bsa_v1</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>24625</logical_max>
+</variable>
+
+<variable id="phv00128914.v1">
+	<name>BSA_V2</name>
+	<description>S wave area, lead bsa_v2</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>24622</logical_max>
+</variable>
+
+<variable id="phv00128915.v1">
+	<name>BSA_V3</name>
+	<description>S wave area, lead bsa_v3</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>15229</logical_max>
+</variable>
+
+<variable id="phv00128916.v1">
+	<name>BSA_V4</name>
+	<description>S wave area, lead bsa_v4</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>12530</logical_max>
+</variable>
+
+<variable id="phv00128917.v1">
+	<name>BSA_V5</name>
+	<description>S wave area, lead bsa_v5</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>6212</logical_max>
+</variable>
+
+<variable id="phv00128918.v1">
+	<name>BSA_V6</name>
+	<description>S wave area, lead bsa_v6</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>3608</logical_max>
+</variable>
+
+<variable id="phv00128919.v1">
+	<name>BSI_AVF</name>
+	<description>S intrisicoid (time from Q onset to peak of S), lead bsi_avf</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>204</logical_max>
+	<comment>S intrisicoid (time from Q onset to peak of S), lead bsi_avf</comment>
+</variable>
+
+<variable id="phv00128920.v1">
+	<name>BSI_AVL</name>
+	<description>S intrisicoid (time from Q onset to peak of S), lead bsi_avl</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>150</logical_max>
+	<comment>S intrisicoid (time from Q onset to peak of S), lead bsi_avl</comment>
+</variable>
+
+<variable id="phv00128921.v1">
+	<name>BSI_AVR</name>
+	<description>S intrisicoid (time from Q onset to peak of S), lead bsi_avr</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>172</logical_max>
+	<comment>S intrisicoid (time from Q onset to peak of S), lead bsi_avr</comment>
+</variable>
+
+<variable id="phv00128922.v1">
+	<name>BSI_I</name>
+	<description>S intrisicoid (time from Q onset to peak of S), lead bsi_i</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>186</logical_max>
+	<comment>S intrisicoid (time from Q onset to peak of S), lead bsi_i</comment>
+</variable>
+
+<variable id="phv00128923.v1">
+	<name>BSI_II</name>
+	<description>S intrisicoid (time from Q onset to peak of S), lead bsi_ii</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>206</logical_max>
+	<comment>S intrisicoid (time from Q onset to peak of S), lead bsi_ii</comment>
+</variable>
+
+<variable id="phv00128924.v1">
+	<name>BSI_III</name>
+	<description>S intrisicoid (time from Q onset to peak of S), lead bsi_iii</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>162</logical_max>
+	<comment>S intrisicoid (time from Q onset to peak of S), lead bsi_iii</comment>
+</variable>
+
+<variable id="phv00128925.v1">
+	<name>BSI_V1</name>
+	<description>S intrisicoid (time from Q onset to peak of S), lead bsi_v1</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>174</logical_max>
+	<comment>S intrisicoid (time from Q onset to peak of S), lead bsi_v1</comment>
+</variable>
+
+<variable id="phv00128926.v1">
+	<name>BSI_V2</name>
+	<description>S intrisicoid (time from Q onset to peak of S), lead bsi_v2</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>152</logical_max>
+	<comment>S intrisicoid (time from Q onset to peak of S), lead bsi_v2</comment>
+</variable>
+
+<variable id="phv00128927.v1">
+	<name>BSI_V3</name>
+	<description>S intrisicoid (time from Q onset to peak of S), lead bsi_v3</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>152</logical_max>
+	<comment>S intrisicoid (time from Q onset to peak of S), lead bsi_v3</comment>
+</variable>
+
+<variable id="phv00128928.v1">
+	<name>BSI_V4</name>
+	<description>S intrisicoid (time from Q onset to peak of S), lead bsi_v4</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>158</logical_max>
+	<comment>S intrisicoid (time from Q onset to peak of S), lead bsi_v4</comment>
+</variable>
+
+<variable id="phv00128929.v1">
+	<name>BSI_V5</name>
+	<description>S intrisicoid (time from Q onset to peak of S), lead bsi_v5</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>172</logical_max>
+	<comment>S intrisicoid (time from Q onset to peak of S), lead bsi_v5</comment>
+</variable>
+
+<variable id="phv00128930.v1">
+	<name>BSI_V6</name>
+	<description>S intrisicoid (time from Q onset to peak of S), lead bsi_v6</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>174</logical_max>
+	<comment>S intrisicoid (time from Q onset to peak of S), lead bsi_v6</comment>
+</variable>
+
+<variable id="phv00128931.v1">
+	<name>BSPA_AVF</name>
+	<description>S&#39; wave area, lead bspa_avf</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>10255</logical_max>
+</variable>
+
+<variable id="phv00128932.v1">
+	<name>BSPA_AVL</name>
+	<description>S&#39; wave area, lead bspa_avl</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>1591</logical_max>
+</variable>
+
+<variable id="phv00128933.v1">
+	<name>BSPA_AVR</name>
+	<description>S&#39; wave area, lead bspa_avr</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>666</logical_max>
+</variable>
+
+<variable id="phv00128934.v1">
+	<name>BSPA_I</name>
+	<description>S&#39; wave area, lead bspa_i</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>3062</logical_max>
+</variable>
+
+<variable id="phv00128935.v1">
+	<name>BSPA_II</name>
+	<description>S&#39; wave area, lead bspa_ii</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>5248</logical_max>
+</variable>
+
+<variable id="phv00128936.v1">
+	<name>BSPA_III</name>
+	<description>S&#39; wave area, lead bspa_iii</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>13078</logical_max>
+</variable>
+
+<variable id="phv00128937.v1">
+	<name>BSPA_V1</name>
+	<description>S&#39; wave area, lead bspa_v1</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>3330</logical_max>
+</variable>
+
+<variable id="phv00128938.v1">
+	<name>BSPA_V2</name>
+	<description>S&#39; wave area, lead bspa_v2</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>5546</logical_max>
+</variable>
+
+<variable id="phv00128939.v1">
+	<name>BSPA_V3</name>
+	<description>S&#39; wave area, lead bspa_v3</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>6856</logical_max>
+</variable>
+
+<variable id="phv00128940.v1">
+	<name>BSPA_V4</name>
+	<description>S&#39; wave area, lead bspa_v4</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>5787</logical_max>
+</variable>
+
+<variable id="phv00128941.v1">
+	<name>BSPA_V5</name>
+	<description>S&#39; wave area, lead bspa_v5</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>3699</logical_max>
+</variable>
+
+<variable id="phv00128942.v1">
+	<name>BSPA_V6</name>
+	<description>S&#39; wave area, lead bspa_v6</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>2335</logical_max>
+</variable>
+
+<variable id="phv00128943.v1">
+	<name>BSPI_AVF</name>
+	<description>S&#39; intrisicoid (time from Q onset to peak of S&#39;), lead bspi_avf</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>174</logical_max>
+	<comment>S&#39; intrisicoid (time from Q onset to peak of S&#39;), lead bspi_avf</comment>
+</variable>
+
+<variable id="phv00128944.v1">
+	<name>BSPI_AVL</name>
+	<description>S&#39; intrisicoid (time from Q onset to peak of S&#39;), lead bspi_avl</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>208</logical_max>
+	<comment>S&#39; intrisicoid (time from Q onset to peak of S&#39;), lead bspi_avl</comment>
+</variable>
+
+<variable id="phv00128945.v1">
+	<name>BSPI_AVR</name>
+	<description>S&#39; intrisicoid (time from Q onset to peak of S&#39;), lead bspi_avr</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>174</logical_max>
+	<comment>S&#39; intrisicoid (time from Q onset to peak of S&#39;), lead bspi_avr</comment>
+</variable>
+
+<variable id="phv00128946.v1">
+	<name>BSPI_I</name>
+	<description>S&#39; intrisicoid (time from Q onset to peak of S&#39;), lead bspi_i</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>168</logical_max>
+	<comment>S&#39; intrisicoid (time from Q onset to peak of S&#39;), lead bspi_i</comment>
+</variable>
+
+<variable id="phv00128947.v1">
+	<name>BSPI_II</name>
+	<description>S&#39; intrisicoid (time from Q onset to peak of S&#39;), lead bspi_ii</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>168</logical_max>
+	<comment>S&#39; intrisicoid (time from Q onset to peak of S&#39;), lead bspi_ii</comment>
+</variable>
+
+<variable id="phv00128948.v1">
+	<name>BSPI_III</name>
+	<description>S&#39; intrisicoid (time from Q onset to peak of S&#39;), lead bspi_iii</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>200</logical_max>
+	<comment>S&#39; intrisicoid (time from Q onset to peak of S&#39;), lead bspi_iii</comment>
+</variable>
+
+<variable id="phv00128949.v1">
+	<name>BSPI_V1</name>
+	<description>S&#39; intrisicoid (time from Q onset to peak of S&#39;), lead bspi_v1</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>134</logical_max>
+	<comment>S&#39; intrisicoid (time from Q onset to peak of S&#39;), lead bspi_v1</comment>
+</variable>
+
+<variable id="phv00128950.v1">
+	<name>BSPI_V2</name>
+	<description>S&#39; intrisicoid (time from Q onset to peak of S&#39;), lead bspi_v2</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>166</logical_max>
+	<comment>S&#39; intrisicoid (time from Q onset to peak of S&#39;), lead bspi_v2</comment>
+</variable>
+
+<variable id="phv00128951.v1">
+	<name>BSPI_V3</name>
+	<description>S&#39; intrisicoid (time from Q onset to peak of S&#39;), lead bspi_v3</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>164</logical_max>
+	<comment>S&#39; intrisicoid (time from Q onset to peak of S&#39;), lead bspi_v3</comment>
+</variable>
+
+<variable id="phv00128952.v1">
+	<name>BSPI_V4</name>
+	<description>S&#39; intrisicoid (time from Q onset to peak of S&#39;), lead bspi_v4</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>174</logical_max>
+	<comment>S&#39; intrisicoid (time from Q onset to peak of S&#39;), lead bspi_v4</comment>
+</variable>
+
+<variable id="phv00128953.v1">
+	<name>BSPI_V5</name>
+	<description>S&#39; intrisicoid (time from Q onset to peak of S&#39;), lead bspi_v5</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>172</logical_max>
+	<comment>S&#39; intrisicoid (time from Q onset to peak of S&#39;), lead bspi_v5</comment>
+</variable>
+
+<variable id="phv00128954.v1">
+	<name>BSPI_V6</name>
+	<description>S&#39; intrisicoid (time from Q onset to peak of S&#39;), lead bspi_v6</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>232</logical_max>
+	<comment>S&#39; intrisicoid (time from Q onset to peak of S&#39;), lead bspi_v6</comment>
+</variable>
+
+<variable id="phv00128955.v1">
+	<name>BTA_AVF</name>
+	<description>T wave area, lead bta_avf</description>
+	<type>integer</type>
+	<logical_min>-7917</logical_min>
+	<logical_max>19008</logical_max>
+</variable>
+
+<variable id="phv00128956.v1">
+	<name>BTA_AVL</name>
+	<description>T wave area, lead bta_avl</description>
+	<type>integer</type>
+	<logical_min>-5501</logical_min>
+	<logical_max>4759</logical_max>
+</variable>
+
+<variable id="phv00128957.v1">
+	<name>BTA_AVR</name>
+	<description>T wave area, lead bta_avr</description>
+	<type>integer</type>
+	<logical_min>-11020</logical_min>
+	<logical_max>3906</logical_max>
+</variable>
+
+<variable id="phv00128958.v1">
+	<name>BTA_I</name>
+	<description>T wave area, lead bta_i</description>
+	<type>integer</type>
+	<logical_min>-9040</logical_min>
+	<logical_max>4210</logical_max>
+</variable>
+
+<variable id="phv00128959.v1">
+	<name>BTA_II</name>
+	<description>T wave area, lead bta_ii</description>
+	<type>integer</type>
+	<logical_min>-7783</logical_min>
+	<logical_max>20012</logical_max>
+</variable>
+
+<variable id="phv00128960.v1">
+	<name>BTA_III</name>
+	<description>T wave area, lead bta_iii</description>
+	<type>integer</type>
+	<logical_min>-7701</logical_min>
+	<logical_max>7473</logical_max>
+</variable>
+
+<variable id="phv00128961.v1">
+	<name>BTA_V1</name>
+	<description>T wave area, lead bta_v1</description>
+	<type>integer</type>
+	<logical_min>-9138</logical_min>
+	<logical_max>18380</logical_max>
+</variable>
+
+<variable id="phv00128962.v1">
+	<name>BTA_V2</name>
+	<description>T wave area, lead bta_v2</description>
+	<type>integer</type>
+	<logical_min>-4083</logical_min>
+	<logical_max>14477</logical_max>
+</variable>
+
+<variable id="phv00128963.v1">
+	<name>BTA_V3</name>
+	<description>T wave area, lead bta_v3</description>
+	<type>integer</type>
+	<logical_min>-6305</logical_min>
+	<logical_max>11402</logical_max>
+</variable>
+
+<variable id="phv00128964.v1">
+	<name>BTA_V4</name>
+	<description>T wave area, lead bta_v4</description>
+	<type>integer</type>
+	<logical_min>-7437</logical_min>
+	<logical_max>10342</logical_max>
+</variable>
+
+<variable id="phv00128965.v1">
+	<name>BTA_V5</name>
+	<description>T wave area, lead bta_v5</description>
+	<type>integer</type>
+	<logical_min>-7111</logical_min>
+	<logical_max>8573</logical_max>
+</variable>
+
+<variable id="phv00128966.v1">
+	<name>BTA_V6</name>
+	<description>T wave area, lead bta_v6</description>
+	<type>integer</type>
+	<logical_min>-6951</logical_min>
+	<logical_max>5676</logical_max>
+</variable>
+
+<variable id="phv00128967.v1">
+	<name>BTI_AVF</name>
+	<description>T intrisicoid (time from STE onset to peak of T), lead bti_avf</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>282</logical_max>
+	<comment>T intrisicoid (time from STE onset to peak of T), lead bti_avf</comment>
+</variable>
+
+<variable id="phv00128968.v1">
+	<name>BTI_AVL</name>
+	<description>T intrisicoid (time from STE onset to peak of T), lead bti_avl</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>264</logical_max>
+	<comment>T intrisicoid (time from STE onset to peak of T), lead bti_avl</comment>
+</variable>
+
+<variable id="phv00128969.v1">
+	<name>BTI_AVR</name>
+	<description>T intrisicoid (time from STE onset to peak of T), lead bti_avr</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>320</logical_max>
+	<comment>T intrisicoid (time from STE onset to peak of T), lead bti_avr</comment>
+</variable>
+
+<variable id="phv00128970.v1">
+	<name>BTI_I</name>
+	<description>T intrisicoid (time from STE onset to peak of T), lead bti_i</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>250</logical_max>
+	<comment>T intrisicoid (time from STE onset to peak of T), lead bti_i</comment>
+</variable>
+
+<variable id="phv00128971.v1">
+	<name>BTI_II</name>
+	<description>T intrisicoid (time from STE onset to peak of T), lead bti_ii</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>282</logical_max>
+	<comment>T intrisicoid (time from STE onset to peak of T), lead bti_ii</comment>
+</variable>
+
+<variable id="phv00128972.v1">
+	<name>BTI_III</name>
+	<description>T intrisicoid (time from STE onset to peak of T), lead bti_iii</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>226</logical_max>
+	<comment>T intrisicoid (time from STE onset to peak of T), lead bti_iii</comment>
+</variable>
+
+<variable id="phv00128973.v1">
+	<name>BTI_V1</name>
+	<description>T intrisicoid (time from STE onset to peak of T), lead bti_v1</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>218</logical_max>
+	<comment>T intrisicoid (time from STE onset to peak of T), lead bti_v1</comment>
+</variable>
+
+<variable id="phv00128974.v1">
+	<name>BTI_V2</name>
+	<description>T intrisicoid (time from STE onset to peak of T), lead bti_v2</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>310</logical_max>
+	<comment>T intrisicoid (time from STE onset to peak of T), lead bti_v2</comment>
+</variable>
+
+<variable id="phv00128975.v1">
+	<name>BTI_V3</name>
+	<description>T intrisicoid (time from STE onset to peak of T), lead bti_v3</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>328</logical_max>
+	<comment>T intrisicoid (time from STE onset to peak of T), lead bti_v3</comment>
+</variable>
+
+<variable id="phv00128976.v1">
+	<name>BTI_V4</name>
+	<description>T intrisicoid (time from STE onset to peak of T), lead bti_v4</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>256</logical_max>
+	<comment>T intrisicoid (time from STE onset to peak of T), lead bti_v4</comment>
+</variable>
+
+<variable id="phv00128977.v1">
+	<name>BTI_V5</name>
+	<description>T intrisicoid (time from STE onset to peak of T), lead bti_v5</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>350</logical_max>
+	<comment>T intrisicoid (time from STE onset to peak of T), lead bti_v5</comment>
+</variable>
+
+<variable id="phv00128978.v1">
+	<name>BTI_V6</name>
+	<description>T intrisicoid (time from STE onset to peak of T), lead bti_v6</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>268</logical_max>
+	<comment>T intrisicoid (time from STE onset to peak of T), lead bti_v6</comment>
+</variable>
+
+<variable id="phv00128979.v1">
+	<name>BTPA_AVF</name>
+	<description>T&#39; area, lead btpa_avf</description>
+	<type>integer</type>
+	<logical_min>-587</logical_min>
+	<logical_max>1141</logical_max>
+</variable>
+
+<variable id="phv00128980.v1">
+	<name>BTPA_AVL</name>
+	<description>T&#39; area, lead btpa_avl</description>
+	<type>integer</type>
+	<logical_min>-633</logical_min>
+	<logical_max>1275</logical_max>
+</variable>
+
+<variable id="phv00128981.v1">
+	<name>BTPA_AVR</name>
+	<description>T&#39; area, lead btpa_avr</description>
+	<type>integer</type>
+	<logical_min>-1235</logical_min>
+	<logical_max>551</logical_max>
+</variable>
+
+<variable id="phv00128982.v1">
+	<name>BTPA_I</name>
+	<description>T&#39; area, lead btpa_i</description>
+	<type>integer</type>
+	<logical_min>-1053</logical_min>
+	<logical_max>1475</logical_max>
+</variable>
+
+<variable id="phv00128983.v1">
+	<name>BTPA_II</name>
+	<description>T&#39; area, lead btpa_ii</description>
+	<type>integer</type>
+	<logical_min>-980</logical_min>
+	<logical_max>1652</logical_max>
+</variable>
+
+<variable id="phv00128984.v1">
+	<name>BTPA_III</name>
+	<description>T&#39; area, lead btpa_iii</description>
+	<type>integer</type>
+	<logical_min>-1373</logical_min>
+	<logical_max>1163</logical_max>
+</variable>
+
+<variable id="phv00128985.v1">
+	<name>BTPA_V1</name>
+	<description>T&#39; area, lead btpa_v1</description>
+	<type>integer</type>
+	<logical_min>-1596</logical_min>
+	<logical_max>1313</logical_max>
+</variable>
+
+<variable id="phv00128986.v1">
+	<name>BTPA_V2</name>
+	<description>T&#39; area, lead btpa_v2</description>
+	<type>integer</type>
+	<logical_min>-3318</logical_min>
+	<logical_max>4045</logical_max>
+</variable>
+
+<variable id="phv00128987.v1">
+	<name>BTPA_V3</name>
+	<description>T&#39; area, lead btpa_v3</description>
+	<type>integer</type>
+	<logical_min>-1959</logical_min>
+	<logical_max>1551</logical_max>
+</variable>
+
+<variable id="phv00128988.v1">
+	<name>BTPA_V4</name>
+	<description>T&#39; area, lead btpa_v4</description>
+	<type>integer</type>
+	<logical_min>-1600</logical_min>
+	<logical_max>1740</logical_max>
+</variable>
+
+<variable id="phv00128989.v1">
+	<name>BTPA_V5</name>
+	<description>T&#39; area, lead btpa_v5</description>
+	<type>integer</type>
+	<logical_min>-1115</logical_min>
+	<logical_max>1998</logical_max>
+</variable>
+
+<variable id="phv00128990.v1">
+	<name>BTPA_V6</name>
+	<description>T&#39; area, lead btpa_v6</description>
+	<type>integer</type>
+	<logical_min>-912</logical_min>
+	<logical_max>1366</logical_max>
+</variable>
+
+<variable id="phv00128991.v1">
+	<name>BTPI_AVF</name>
+	<description>T&#39; intrisicoid (time from STE onset to peak of T&#39;), lead btpi_avf</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>278</logical_max>
+	<comment>T&#39; intrisicoid (time from STE onset to peak of T&#39;), lead btpi_avf</comment>
+</variable>
+
+<variable id="phv00128992.v1">
+	<name>BTPI_AVL</name>
+	<description>T&#39; intrisicoid (time from STE onset to peak of T&#39;), lead btpi_avl</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>268</logical_max>
+	<comment>T&#39; intrisicoid (time from STE onset to peak of T&#39;), lead btpi_avl</comment>
+</variable>
+
+<variable id="phv00128993.v1">
+	<name>BTPI_AVR</name>
+	<description>T&#39; intrisicoid (time from STE onset to peak of T&#39;), lead btpi_avr</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>264</logical_max>
+	<comment>T&#39; intrisicoid (time from STE onset to peak of T&#39;), lead btpi_avr</comment>
+</variable>
+
+<variable id="phv00128994.v1">
+	<name>BTPI_I</name>
+	<description>T&#39; intrisicoid (time from STE onset to peak of T&#39;), lead btpi_i</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>250</logical_max>
+	<comment>T&#39; intrisicoid (time from STE onset to peak of T&#39;), lead btpi_i</comment>
+</variable>
+
+<variable id="phv00128995.v1">
+	<name>BTPI_II</name>
+	<description>T&#39; intrisicoid (time from STE onset to peak of T&#39;), lead btpi_ii</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>264</logical_max>
+	<comment>T&#39; intrisicoid (time from STE onset to peak of T&#39;), lead btpi_ii</comment>
+</variable>
+
+<variable id="phv00128996.v1">
+	<name>BTPI_III</name>
+	<description>T&#39; intrisicoid (time from STE onset to peak of T&#39;), lead btpi_iii</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>278</logical_max>
+	<comment>T&#39; intrisicoid (time from STE onset to peak of T&#39;), lead btpi_iii</comment>
+</variable>
+
+<variable id="phv00128997.v1">
+	<name>BTPI_V1</name>
+	<description>T&#39; intrisicoid (time from STE onset to peak of T&#39;), lead btpi_v1</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>276</logical_max>
+	<comment>T&#39; intrisicoid (time from STE onset to peak of T&#39;), lead btpi_v1</comment>
+</variable>
+
+<variable id="phv00128998.v1">
+	<name>BTPI_V2</name>
+	<description>T&#39; intrisicoid (time from STE onset to peak of T&#39;), lead btpi_v2</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>282</logical_max>
+	<comment>T&#39; intrisicoid (time from STE onset to peak of T&#39;), lead btpi_v2</comment>
+</variable>
+
+<variable id="phv00128999.v1">
+	<name>BTPI_V3</name>
+	<description>T&#39; intrisicoid (time from STE onset to peak of T&#39;), lead btpi_v3</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>292</logical_max>
+	<comment>T&#39; intrisicoid (time from STE onset to peak of T&#39;), lead btpi_v3</comment>
+</variable>
+
+<variable id="phv00129000.v1">
+	<name>BTPI_V4</name>
+	<description>T&#39; intrisicoid (time from STE onset to peak of T&#39;), lead btpi_v4</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>266</logical_max>
+	<comment>T&#39; intrisicoid (time from STE onset to peak of T&#39;), lead btpi_v4</comment>
+</variable>
+
+<variable id="phv00129001.v1">
+	<name>BTPI_V5</name>
+	<description>T&#39; intrisicoid (time from STE onset to peak of T&#39;), lead btpi_v5</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>356</logical_max>
+	<comment>T&#39; intrisicoid (time from STE onset to peak of T&#39;), lead btpi_v5</comment>
+</variable>
+
+<variable id="phv00129002.v1">
+	<name>BTPI_V6</name>
+	<description>T&#39; intrisicoid (time from STE onset to peak of T&#39;), lead btpi_v6</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>238</logical_max>
+	<comment>T&#39; intrisicoid (time from STE onset to peak of T&#39;), lead btpi_v6</comment>
+</variable>
+
+<variable id="phv00129003.v1">
+	<name>CV</name>
+	<description>Cornell Voltage (uV)</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>6283</logical_max>
+	<comment>Cornell Voltage (uV) = R Wave Amplitude, Lead aVL + S Wave Amplitude, Lead V3 (uV)</comment>
+</variable>
+
+<variable id="phv00129004.v1">
+	<name>CV_QRS</name>
+	<description>Cornell Voltage Production (uV)</description>
+	<type>decimal</type>
+	<logical_min>0</logical_min>
+	<logical_max>1052.568</logical_max>
+	<comment>Cornell Voltage Production (uV), (Cornell Voltage x QRS Duration / 1000)</comment>
+</variable>
+
+<variable id="phv00129005.v1">
+	<name>ECGDOW</name>
+	<description>Day of Week of ECG (6 = Sat or Sun; 1 = Mon; etc.)</description>
+	<type>integer</type>
+	<logical_min>1</logical_min>
+	<logical_max>6</logical_max>
+	<comment>Day of Week of ECG (6 = Sat or Sun; 1 = Mon; etc.)</comment>
+</variable>
+
+<variable id="phv00129006.v1">
+	<name>ECGSEA</name>
+	<description>Season of ECG (1 = Mar, Apr or May; 2 = Jun, Jul or Aug; etc.)</description>
+	<type>integer</type>
+	<logical_min>1</logical_min>
+	<logical_max>4</logical_max>
+	<comment>Season of ECG (1 = Mar, Apr or May; 2 = Jun, Jul or Aug; etc.)</comment>
+</variable>
+
+<variable id="phv00129007.v1">
+	<name>ECGTIM</name>
+	<description>Time of ECG (Minutes, Where 12:00 AM = 0)</description>
+	<type>integer</type>
+	<logical_min>7</logical_min>
+	<logical_max>1439</logical_max>
+	<comment>Time of ECG (Minutes, Where 12:00 AM = 0)</comment>
+</variable>
+
+<variable id="phv00129008.v1">
+	<name>HEART_RT</name>
+	<description>Heart rate (beats/minute)</description>
+	<type>integer</type>
+	<logical_min>33</logical_min>
+	<logical_max>168</logical_max>
+</variable>
+
+<variable id="phv00077412.v2">
+	<name>JT_IND</name>
+	<description>JT Index</description>
+	<type>integer</type>
+	<logical_min>80</logical_min>
+	<logical_max>140</logical_max>
+</variable>
+
+<variable id="phv00077411.v2">
+	<name>JT_INT</name>
+	<description>JT Interval (msec)</description>
+	<type>integer</type>
+	<unit>msec</unit>
+	<logical_min>100</logical_min>
+	<logical_max>524</logical_max>
+</variable>
+
+<variable id="phv00129009.v1">
+	<name>LAMBDA</name>
+	<description><![CDATA[T Wave Axis Deviation (&#176;)]]></description>
+	<type>decimal</type>
+	<logical_min>0.170283988740104</logical_min>
+	<logical_max>169.026591103522</logical_max>
+</variable>
+
+<variable id="phv00129010.v1">
+	<name>LRF_AVF</name>
+	<description>Lead reject flag AVF</description>
+	<type>encoded value</type>
+	<value code="0">False</value>
+	<value code="1">True</value>
+</variable>
+
+<variable id="phv00129011.v1">
+	<name>LRF_AVL</name>
+	<description>Lead reject flag AVL</description>
+	<type>encoded value</type>
+	<value code="0">False</value>
+	<value code="1">True</value>
+</variable>
+
+<variable id="phv00129012.v1">
+	<name>LRF_AVR</name>
+	<description>Lead reject flag AVR</description>
+	<type>encoded value</type>
+	<value code="0">False</value>
+	<value code="1">True</value>
+</variable>
+
+<variable id="phv00129013.v1">
+	<name>LRF_I</name>
+	<description>Lead reject flag I</description>
+	<type>encoded value</type>
+	<value code="0">False</value>
+	<value code="1">True</value>
+</variable>
+
+<variable id="phv00129014.v1">
+	<name>LRF_II</name>
+	<description>Lead reject flag II</description>
+	<type>encoded value</type>
+	<value code="0">False</value>
+	<value code="1">True</value>
+</variable>
+
+<variable id="phv00129015.v1">
+	<name>LRF_III</name>
+	<description>Lead reject flag III</description>
+	<type>encoded value</type>
+	<value code="0">False</value>
+	<value code="1">True</value>
+</variable>
+
+<variable id="phv00129016.v1">
+	<name>LRF_V1</name>
+	<description>Lead reject flag V1</description>
+	<type>encoded value</type>
+	<value code="0">False</value>
+	<value code="1">True</value>
+</variable>
+
+<variable id="phv00129017.v1">
+	<name>LRF_V2</name>
+	<description>Lead reject flag V2</description>
+	<type>encoded value</type>
+	<value code="0">False</value>
+	<value code="1">True</value>
+</variable>
+
+<variable id="phv00129018.v1">
+	<name>LRF_V3</name>
+	<description>Lead reject flag V3</description>
+	<type>encoded value</type>
+	<value code="0">False</value>
+	<value code="1">True</value>
+</variable>
+
+<variable id="phv00129019.v1">
+	<name>LRF_V4</name>
+	<description>Lead reject flag V4</description>
+	<type>encoded value</type>
+	<value code="0">False</value>
+	<value code="1">True</value>
+</variable>
+
+<variable id="phv00129020.v1">
+	<name>LRF_V5</name>
+	<description>Lead reject flag V5</description>
+	<type>encoded value</type>
+	<value code="0">False</value>
+	<value code="1">True</value>
+</variable>
+
+<variable id="phv00129021.v1">
+	<name>LRF_V6</name>
+	<description>Lead reject flag V6</description>
+	<type>encoded value</type>
+	<value code="0">False</value>
+	<value code="1">True</value>
+</variable>
+
+<variable id="phv00129022.v1">
+	<name>LVHI</name>
+	<description>Left Ventricular Hypertrophy Index</description>
+	<type>integer</type>
+	<logical_min>65</logical_min>
+	<logical_max>193</logical_max>
+</variable>
+
+<variable id="phv00129023.v1">
+	<name>LVHI_CAT</name>
+	<description>Left Ventricular Hypertrophy Index &gt; 120 (1,0)</description>
+	<type>encoded value</type>
+</variable>
+
+<variable id="phv00129024.v1">
+	<name>LVH_MINN</name>
+	<description>LVH by Minnesota Code</description>
+	<type>encoded value</type>
+	<value code="0">Minnesota Code 3.0</value>
+	<value code="1">Minnesota Code 3.1 or 3.3</value>
+</variable>
+
+<variable id="phv00129025.v1">
+	<name>LVMI_IVCD</name>
+	<description>Left Ventricular Mass Index (%), For Intra-ventricular Conduction Delay</description>
+	<type>decimal</type>
+	<logical_min>126.892731765638</logical_min>
+	<logical_max>236.524423800539</logical_max>
+	<comment>Left Ventricular Mass Index (%), For Intra-ventricular Conduction Delay</comment>
+</variable>
+
+<variable id="phv00129026.v1">
+	<name>LVMI_LBBB</name>
+	<description>Left Ventr Mass Index (%), For Left Bundle Block</description>
+	<type>decimal</type>
+	<logical_min>17.0216274994247</logical_min>
+	<logical_max>496.373865253009</logical_max>
+</variable>
+
+<variable id="phv00129027.v1">
+	<name>LVMI_MCMI</name>
+	<description>Left Ventricular Mass Index (%), For Minn-Coded MI</description>
+	<type>decimal</type>
+	<logical_min>85.116944663668</logical_min>
+	<logical_max>301.08806105057</logical_max>
+	<comment>Left Ventricular Mass Index (%), For Minnesota-Coded Myocardial Infarction</comment>
+</variable>
+
+<variable id="phv00129028.v1">
+	<name>LVMI_NORM</name>
+	<description>Left Ventricular Mass Index (%)</description>
+	<type>decimal</type>
+	<logical_min>84.4687400126152</logical_min>
+	<logical_max>257.821138512045</logical_max>
+</variable>
+
+<variable id="phv00129029.v1">
+	<name>LVMI_RBBB</name>
+	<description>Left Ventricular Mass Index (%), For Right Bundle Branch Block</description>
+	<type>decimal</type>
+	<logical_min>73.9134350124552</logical_min>
+	<logical_max>315.867582909001</logical_max>
+	<comment>Left Ventricular Mass Index (%), For Right Bundle Branch Block</comment>
+</variable>
+
+<variable id="phv00129030.v1">
+	<name>LVM_IVCD</name>
+	<description>Left Ventricular Mass (g), For Intra-ventricular Conduction Delay</description>
+	<type>decimal</type>
+	<logical_min>50.5365382741535</logical_min>
+	<logical_max>95.9570058828105</logical_max>
+	<comment>Left Ventricular Mass (g), For Intra-ventricular Conduction Delay</comment>
+</variable>
+
+<variable id="phv00129031.v1">
+	<name>LVM_LBBB</name>
+	<description>Left Ventricular Mass (g), For Left Bundle Branch Block</description>
+	<type>decimal</type>
+	<logical_min>6.25220477481166</logical_min>
+	<logical_max>175.869425047126</logical_max>
+	<comment>Left Ventricular Mass (g), For Left Bundle Branch Block</comment>
+</variable>
+
+<variable id="phv00129032.v1">
+	<name>LVM_MCMI</name>
+	<description>Left Ventricular Mass (g), For Minn-Coded MI</description>
+	<type>decimal</type>
+	<logical_min>33.668345660246</logical_min>
+	<logical_max>116.392240247417</logical_max>
+	<comment>Left Ventricular Mass (g), For Minnesota-Coded Myocardial Infarction</comment>
+</variable>
+
+<variable id="phv00129033.v1">
+	<name>LVM_NORM</name>
+	<description>Left Ventricular Mass (g)</description>
+	<type>decimal</type>
+	<logical_min>32.4006320311808</logical_min>
+	<logical_max>185.445075941398</logical_max>
+	<comment>Left Ventricular Mass (g), 1996 Formula, For Normals</comment>
+</variable>
+
+<variable id="phv00129034.v1">
+	<name>LVM_RBBB</name>
+	<description>Left Ventricular Mass (g), For Right Bundle Branch Block</description>
+	<type>decimal</type>
+	<logical_min>32.2634491595017</logical_min>
+	<logical_max>119.183198100183</logical_max>
+	<comment>Left Ventricular Mass (g), For Right Bundle Branch Block</comment>
+</variable>
+
+<variable id="phv00129035.v1">
+	<name>MAJOR_CD</name>
+	<description>Major Ventricular Conduction Defect / Minnesota Code 7.1, 7.2, 7.4 or 7.8 (0-4)</description>
+	<type>encoded value</type>
+	<comment>Major Ventricular Conduction Defect / Minnesota Code 7.1, 7.2, 7.4 or 7.8 (0-4)</comment>
+</variable>
+
+<variable id="phv00129036.v1">
+	<name>MC_81</name>
+	<description>Atrial, Junctional or Ventricular Premature Beats or Wandering Atrial Pacemaker / Minnesota Code 8.1 (0-5)</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>4</logical_max>
+	<comment>Atrial, Junctional or Ventricular Premature Beats or Wandering Atrial Pacemaker / Minnesota Code 8.1 (0-5)</comment>
+</variable>
+
+<variable id="phv00129037.v1">
+	<name>MC_MI</name>
+	<description>MI by Minnesota Code</description>
+	<type>encoded value</type>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00077439.v2">
+	<name>MINVENT</name>
+	<description>Minor Ventricular Conduction Defect / Minnesota Code 7.3, 7.6 or 7.7 (0-2)</description>
+	<type>encoded value</type>
+	<comment>Minor Ventricular Conduction Defect / Minnesota Code 7.3, 7.6 or 7.7 (0-2)</comment>
+	<value code="0">Minnesota code 7.0</value>
+	<value code="1">Minnesota code 7.3</value>
+	<value code="2">Minnesota code 7.6</value>
+</variable>
+
+<variable id="phv00077430.v2">
+	<name>MNF1</name>
+	<description>Minnesota code F1</description>
+	<type>encoded value</type>
+	<value code="0">MC F1.0</value>
+	<value code="11">MC F1.1.1</value>
+	<value code="12">MC F1.1.2</value>
+	<value code="13">MC F1.1.3</value>
+	<value code="14">MC F1.1.4</value>
+	<value code="15">MC F1.1.5</value>
+	<value code="16">MC F1.1.6</value>
+	<value code="17">MC F1.1.7</value>
+	<value code="21">MC F1.2.1</value>
+	<value code="22">MC F1.2.2</value>
+	<value code="23">MC F1.2.3</value>
+	<value code="24">MC F1.2.4</value>
+	<value code="25">MC F1.2.5</value>
+	<value code="26">MC F1.2.6</value>
+	<value code="27">MC F1.2.7</value>
+	<value code="28">MC F1.2.8</value>
+	<value code="31">MC F1.3.1</value>
+	<value code="32">MC F1.3.2</value>
+	<value code="33">MC F1.3.3</value>
+	<value code="34">MC F1.3.4</value>
+	<value code="35">MC F1.3.5</value>
+	<value code="36">MC F1.3.6</value>
+</variable>
+
+<variable id="phv00129038.v1">
+	<name>MC_F4</name>
+	<description>STJ Depression, Posterior (Inferior) / Minnesota Code 4.x (0,11,12,2,3,4)*</description>
+	<type>encoded value</type>
+	<comment>STJ Depression, Posterior (Inferior) / Minnesota Code 4.x (0,11,12,2,3,4)</comment>
+	<value code="0">MC F4.0</value>
+	<value code="2">MC F4.2</value>
+	<value code="3">MC F4.3</value>
+	<value code="4">MC F4.4</value>
+	<value code="11">MC F4.1.1</value>
+	<value code="12">MC F4.1.2</value>
+</variable>
+
+<variable id="phv00129039.v1">
+	<name>MC_F5</name>
+	<description>Minnesota code F5</description>
+	<type>encoded value</type>
+	<value code="0">MC F5.0</value>
+	<value code="1">MC F5.1</value>
+	<value code="2">MC F5.2</value>
+	<value code="3">MC F5.3</value>
+	<value code="4">MC F5.4</value>
+</variable>
+
+<variable id="phv00129040.v1">
+	<name>MC_L1</name>
+	<description>Minnesota code L1</description>
+	<type>encoded value</type>
+	<value code="0">MC L1.0</value>
+	<value code="11">MC L1.1.1</value>
+	<value code="12">MC L1.1.2</value>
+	<value code="13">MC L1.1.3</value>
+	<value code="14">MC L1.1.4</value>
+	<value code="15">MC L1.1.5</value>
+	<value code="16">MC L1.1.6</value>
+	<value code="17">MC L1.1.7</value>
+	<value code="21">MC L1.2.1</value>
+	<value code="22">MC L1.2.2</value>
+	<value code="23">MC L1.2.3</value>
+	<value code="24">MC L1.2.4</value>
+	<value code="25">MC L1.2.5</value>
+	<value code="26">MC L1.2.6</value>
+	<value code="27">MC L1.2.7</value>
+	<value code="28">MC L1.2.8</value>
+	<value code="31">MC L1.3.1</value>
+	<value code="32">MC L1.3.2</value>
+	<value code="33">MC L1.3.3</value>
+	<value code="34">MC L1.3.4</value>
+	<value code="35">MC L1.3.5</value>
+	<value code="38">MC L1.3.8</value>
+</variable>
+
+<variable id="phv00129041.v1">
+	<name>MC_L4</name>
+	<description>Minnesota code L4</description>
+	<type>encoded value</type>
+	<value code="0">MC L4.0</value>
+	<value code="2">MC L4.2</value>
+	<value code="3">MC L4.3</value>
+	<value code="4">MC L4.4</value>
+	<value code="11">MC L4.1.1</value>
+	<value code="12">MC L4.1.2</value>
+</variable>
+
+<variable id="phv00129042.v1">
+	<name>MC_L5</name>
+	<description>Minnesota code L5</description>
+	<type>encoded value</type>
+	<value code="0">MC L5.0</value>
+	<value code="1">MC L5.1</value>
+	<value code="2">MC L5.2</value>
+	<value code="3">MC L5.3</value>
+	<value code="4">MC L5.4</value>
+</variable>
+
+<variable id="phv00129043.v1">
+	<name>MC_V1</name>
+	<description>Minnesota code V1</description>
+	<type>encoded value</type>
+	<value code="0">MC V1.0</value>
+	<value code="11">MC V1.1.1</value>
+	<value code="12">MC V1.1.2</value>
+	<value code="13">MC V1.1.3</value>
+	<value code="14">MC V1.1.4</value>
+	<value code="15">MC V1.1.5</value>
+	<value code="16">MC V1.1.6</value>
+	<value code="17">MC V1.1.7</value>
+	<value code="21">MC V1.2.1</value>
+	<value code="22">MC V1.2.2</value>
+	<value code="23">MC V1.2.3</value>
+	<value code="24">MC V1.2.4</value>
+	<value code="25">MC V1.2.5</value>
+	<value code="26">MC V1.2.6</value>
+	<value code="27">MC V1.2.7</value>
+	<value code="28">MC V1.2.8</value>
+	<value code="31">MC V1.3.1</value>
+	<value code="32">MC V1.3.2</value>
+	<value code="33">MC V1.3.3</value>
+	<value code="34">MC V1.3.4</value>
+	<value code="35">MC V1.3.5</value>
+	<value code="36">MC V1.3.6</value>
+	<value code="38">MC V1.3.8</value>
+</variable>
+
+<variable id="phv00129044.v1">
+	<name>MC_V4</name>
+	<description>STJ Depression, Anterior / Minnesota Code 4.x (0,11,12,2,3,4)</description>
+	<type>encoded value</type>
+	<comment>STJ Depression, Anterior / Minnesota Code 4.x (0,11,12,2,3,4)</comment>
+	<value code="0">MC V4.0</value>
+	<value code="2">MC V4.2</value>
+	<value code="3">MC V4.3</value>
+	<value code="4">MC V4.4</value>
+	<value code="11">MC V4.1.1</value>
+	<value code="12">MC V4.1.2</value>
+</variable>
+
+<variable id="phv00129045.v1">
+	<name>MC_V5</name>
+	<description>T Wave Items, Anterior / Minnesota Code 5.x (0-4)</description>
+	<type>encoded value</type>
+	<comment>T Wave Items, Anterior / Minnesota Code 5.x (0-4)&lt;br/&gt;</comment>
+	<value code="0">MC V5.0</value>
+	<value code="1">MC V5.1</value>
+	<value code="2">MC V5.2</value>
+	<value code="3">MC V5.3</value>
+	<value code="4">MC V5.4</value>
+</variable>
+
+<variable id="phv00129046.v1">
+	<name>MNST_AVF</name>
+	<description>Minimum of STJ, STM, STE amplitudes, lead mnst_avf</description>
+	<type>integer</type>
+	<logical_min>-269</logical_min>
+	<logical_max>317</logical_max>
+</variable>
+
+<variable id="phv00129047.v1">
+	<name>MNST_AVL</name>
+	<description>Minimum of STJ, STM, STE amplitudes, lead mnst_avl</description>
+	<type>integer</type>
+	<logical_min>-289</logical_min>
+	<logical_max>180</logical_max>
+</variable>
+
+<variable id="phv00129048.v1">
+	<name>MNST_AVR</name>
+	<description>Minimum of STJ, STM, STE amplitudes, lead mnst_avr</description>
+	<type>integer</type>
+	<logical_min>-171</logical_min>
+	<logical_max>214</logical_max>
+</variable>
+
+<variable id="phv00129049.v1">
+	<name>MNST_I</name>
+	<description>Minimum of STJ, STM, STE amplitudes, lead mnst_i</description>
+	<type>integer</type>
+	<logical_min>-323</logical_min>
+	<logical_max>122</logical_max>
+</variable>
+
+<variable id="phv00129050.v1">
+	<name>MNST_II</name>
+	<description>Minimum of STJ, STM, STE amplitudes, lead mnst_ii</description>
+	<type>integer</type>
+	<logical_min>-308</logical_min>
+	<logical_max>297</logical_max>
+</variable>
+
+<variable id="phv00129051.v1">
+	<name>MNST_III</name>
+	<description>Minimum of STJ, STM, STE amplitudes, lead mnst_iii</description>
+	<type>integer</type>
+	<logical_min>-298</logical_min>
+	<logical_max>341</logical_max>
+</variable>
+
+<variable id="phv00129052.v1">
+	<name>MNST_V1</name>
+	<description>Minimum of STJ, STM, STE amplitudes, lead mnst_v1</description>
+	<type>integer</type>
+	<logical_min>-186</logical_min>
+	<logical_max>820</logical_max>
+</variable>
+
+<variable id="phv00129053.v1">
+	<name>MNST_V2</name>
+	<description>Minimum of STJ, STM, STE amplitudes, lead mnst_v2</description>
+	<type>integer</type>
+	<logical_min>-196</logical_min>
+	<logical_max>991</logical_max>
+</variable>
+
+<variable id="phv00129054.v1">
+	<name>MNST_V3</name>
+	<description>Minimum of STJ, STM, STE amplitudes, lead mnst_v3</description>
+	<type>integer</type>
+	<logical_min>-196</logical_min>
+	<logical_max>668</logical_max>
+</variable>
+
+<variable id="phv00129055.v1">
+	<name>MNST_V4</name>
+	<description>Minimum of STJ, STM, STE amplitudes, lead mnst_v4</description>
+	<type>integer</type>
+	<logical_min>-284</logical_min>
+	<logical_max>332</logical_max>
+</variable>
+
+<variable id="phv00129056.v1">
+	<name>MNST_V5</name>
+	<description>Minimum of STJ, STM, STE amplitudes, lead mnst_v5</description>
+	<type>integer</type>
+	<logical_min>-264</logical_min>
+	<logical_max>205</logical_max>
+</variable>
+
+<variable id="phv00129057.v1">
+	<name>MNST_V6</name>
+	<description>Minimum of STJ, STM, STE amplitudes, lead mnst_v6</description>
+	<type>integer</type>
+	<logical_min>-367</logical_min>
+	<logical_max>141</logical_max>
+</variable>
+
+<variable id="phv00129058.v1">
+	<name>MOBITZII</name>
+	<description>Mobitz Type II / Minnesota Code 6.2.1 (1,0)</description>
+	<type>encoded value</type>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00129059.v1">
+	<name>MXST_AVF</name>
+	<description>Maximum of STJ, STM, STE amplitudes, lead mxst_avf</description>
+	<type>integer</type>
+	<logical_min>-162</logical_min>
+	<logical_max>600</logical_max>
+</variable>
+
+<variable id="phv00129060.v1">
+	<name>MXST_AVL</name>
+	<description>Maximum of STJ, STM, STE amplitudes, lead mxst_avl</description>
+	<type>integer</type>
+	<logical_min>-191</logical_min>
+	<logical_max>375</logical_max>
+</variable>
+
+<variable id="phv00129061.v1">
+	<name>MXST_AVR</name>
+	<description>Maximum of STJ, STM, STE amplitudes, lead mxst_avr</description>
+	<type>integer</type>
+	<logical_min>-127</logical_min>
+	<logical_max>439</logical_max>
+</variable>
+
+<variable id="phv00129062.v1">
+	<name>MXST_I</name>
+	<description>Maximum of STJ, STM, STE amplitudes, lead mxst_i</description>
+	<type>integer</type>
+	<logical_min>-215</logical_min>
+	<logical_max>439</logical_max>
+</variable>
+
+<variable id="phv00129063.v1">
+	<name>MXST_II</name>
+	<description>Maximum of STJ, STM, STE amplitudes, lead mxst_ii</description>
+	<type>integer</type>
+	<logical_min>-220</logical_min>
+	<logical_max>541</logical_max>
+</variable>
+
+<variable id="phv00129064.v1">
+	<name>MXST_III</name>
+	<description>Maximum of STJ, STM, STE amplitudes, lead mxst_iii</description>
+	<type>integer</type>
+	<logical_min>-250</logical_min>
+	<logical_max>659</logical_max>
+</variable>
+
+<variable id="phv00129065.v1">
+	<name>MXST_V1</name>
+	<description>Maximum of STJ, STM, STE amplitudes, lead mxst_v1</description>
+	<type>integer</type>
+	<logical_min>-123</logical_min>
+	<logical_max>1279</logical_max>
+</variable>
+
+<variable id="phv00129066.v1">
+	<name>MXST_V2</name>
+	<description>Maximum of STJ, STM, STE amplitudes, lead mxst_v2</description>
+	<type>integer</type>
+	<logical_min>-88</logical_min>
+	<logical_max>2197</logical_max>
+</variable>
+
+<variable id="phv00129067.v1">
+	<name>MXST_V3</name>
+	<description>Maximum of STJ, STM, STE amplitudes, lead mxst_v3</description>
+	<type>integer</type>
+	<logical_min>-147</logical_min>
+	<logical_max>1787</logical_max>
+</variable>
+
+<variable id="phv00129068.v1">
+	<name>MXST_V4</name>
+	<description>Maximum of STJ, STM, STE amplitudes, lead mxst_v4</description>
+	<type>integer</type>
+	<logical_min>-284</logical_min>
+	<logical_max>1264</logical_max>
+</variable>
+
+<variable id="phv00129069.v1">
+	<name>MXST_V5</name>
+	<description>Maximum of STJ, STM, STE amplitudes, lead mxst_v5</description>
+	<type>integer</type>
+	<logical_min>-206</logical_min>
+	<logical_max>576</logical_max>
+</variable>
+
+<variable id="phv00129070.v1">
+	<name>MXST_V6</name>
+	<description>Maximum of STJ, STM, STE amplitudes, lead mxst_v6</description>
+	<type>integer</type>
+	<logical_min>-245</logical_min>
+	<logical_max>356</logical_max>
+</variable>
+
+<variable id="phv00129071.v1">
+	<name>NOISE_HRV</name>
+	<description>Percent of RR Intervals That Are Acceptable &lt; 0.8 (0,1))</description>
+	<type>encoded value</type>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00129072.v1">
+	<name>NOVA5</name>
+	<description>Novacode 5 for Myocardial Infarction / Ischemia, i.e. Q_ST abnormalities (0-8)</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>8</logical_max>
+	<comment>Novacode 5 for Myocardial Infarction / Ischemia, i.e. Q_ST abnormalities (0-8)</comment>
+</variable>
+
+<variable id="phv00129073.v1">
+	<name>ELE_PACE</name>
+	<description>Electronic pacemaker</description>
+	<type>encoded value</type>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00129074.v1">
+	<name>PAM_AVF</name>
+	<description>P wave amplitude, lead pam_avf</description>
+	<type>integer</type>
+	<logical_min>-932</logical_min>
+	<logical_max>419</logical_max>
+</variable>
+
+<variable id="phv00129075.v1">
+	<name>PAM_AVL</name>
+	<description>P wave amplitude, lead pam_avl</description>
+	<type>integer</type>
+	<logical_min>-175</logical_min>
+	<logical_max>1679</logical_max>
+</variable>
+
+<variable id="phv00129076.v1">
+	<name>PAM_AVR</name>
+	<description>P wave amplitude, lead pam_avr</description>
+	<type>integer</type>
+	<logical_min>-747</logical_min>
+	<logical_max>253</logical_max>
+</variable>
+
+<variable id="phv00129077.v1">
+	<name>PAM_I</name>
+	<description>P wave amplitude, lead pam_i</description>
+	<type>integer</type>
+	<logical_min>-268</logical_min>
+	<logical_max>1616</logical_max>
+</variable>
+
+<variable id="phv00129078.v1">
+	<name>PAM_II</name>
+	<description>P wave amplitude, lead pam_ii</description>
+	<type>integer</type>
+	<logical_min>-249</logical_min>
+	<logical_max>439</logical_max>
+</variable>
+
+<variable id="phv00129079.v1">
+	<name>PAM_III</name>
+	<description>P wave amplitude, lead pam_iii</description>
+	<type>integer</type>
+	<logical_min>-1743</logical_min>
+	<logical_max>395</logical_max>
+</variable>
+
+<variable id="phv00129080.v1">
+	<name>PAM_V1</name>
+	<description>P wave amplitude, lead pam_v1</description>
+	<type>integer</type>
+	<logical_min>-454</logical_min>
+	<logical_max>278</logical_max>
+</variable>
+
+<variable id="phv00129081.v1">
+	<name>PAM_V2</name>
+	<description>P wave amplitude, lead pam_v2</description>
+	<type>integer</type>
+	<logical_min>-156</logical_min>
+	<logical_max>214</logical_max>
+</variable>
+
+<variable id="phv00129082.v1">
+	<name>PAM_V3</name>
+	<description>P wave amplitude, lead pam_v3</description>
+	<type>integer</type>
+	<logical_min>-419</logical_min>
+	<logical_max>341</logical_max>
+</variable>
+
+<variable id="phv00129083.v1">
+	<name>PAM_V4</name>
+	<description>P wave amplitude, lead pam_v4</description>
+	<type>integer</type>
+	<logical_min>-390</logical_min>
+	<logical_max>249</logical_max>
+</variable>
+
+<variable id="phv00129084.v1">
+	<name>PAM_V5</name>
+	<description>P wave amplitude, lead pam_v5</description>
+	<type>integer</type>
+	<logical_min>-405</logical_min>
+	<logical_max>239</logical_max>
+</variable>
+
+<variable id="phv00129085.v1">
+	<name>PAM_V6</name>
+	<description>P wave amplitude, lead pam_v6</description>
+	<type>integer</type>
+	<logical_min>-410</logical_min>
+	<logical_max>205</logical_max>
+</variable>
+
+<variable id="phv00129086.v1">
+	<name>PAR_AVF</name>
+	<description>P wave area (includes P and P&#39;), lead par_avf</description>
+	<type>integer</type>
+	<logical_min>-377</logical_min>
+	<logical_max>1194</logical_max>
+</variable>
+
+<variable id="phv00129087.v1">
+	<name>PAR_AVL</name>
+	<description>P wave area (includes P and P&#39;), lead par_avl</description>
+	<type>integer</type>
+	<logical_min>-484</logical_min>
+	<logical_max>514</logical_max>
+</variable>
+
+<variable id="phv00129088.v1">
+	<name>PAR_AVR</name>
+	<description>P wave area (includes P and P&#39;), lead par_avr</description>
+	<type>integer</type>
+	<logical_min>-858</logical_min>
+	<logical_max>377</logical_max>
+</variable>
+
+<variable id="phv00129089.v1">
+	<name>PAR_I</name>
+	<description>P wave area (includes P and P&#39;), lead par_i</description>
+	<type>integer</type>
+	<logical_min>-328</logical_min>
+	<logical_max>819</logical_max>
+</variable>
+
+<variable id="phv00129090.v1">
+	<name>PAR_II</name>
+	<description>P wave area (includes P and P&#39;), lead par_ii</description>
+	<type>integer</type>
+	<logical_min>-497</logical_min>
+	<logical_max>1269</logical_max>
+</variable>
+
+<variable id="phv00129091.v1">
+	<name>PAR_III</name>
+	<description>P wave area (includes P and P&#39;), lead par_iii</description>
+	<type>integer</type>
+	<logical_min>-491</logical_min>
+	<logical_max>1119</logical_max>
+</variable>
+
+<variable id="phv00129092.v1">
+	<name>PAR_V1</name>
+	<description>P wave area (includes P and P&#39;), lead par_v1</description>
+	<type>integer</type>
+	<logical_min>-609</logical_min>
+	<logical_max>415</logical_max>
+</variable>
+
+<variable id="phv00129093.v1">
+	<name>PAR_V2</name>
+	<description>P wave area (includes P and P&#39;), lead par_v2</description>
+	<type>integer</type>
+	<logical_min>-357</logical_min>
+	<logical_max>471</logical_max>
+</variable>
+
+<variable id="phv00129094.v1">
+	<name>PAR_V3</name>
+	<description>P wave area (includes P and P&#39;), lead par_v3</description>
+	<type>integer</type>
+	<logical_min>-293</logical_min>
+	<logical_max>1274</logical_max>
+</variable>
+
+<variable id="phv00129095.v1">
+	<name>PAR_V4</name>
+	<description>P wave area (includes P and P&#39;), lead par_v4</description>
+	<type>integer</type>
+	<logical_min>-356</logical_min>
+	<logical_max>850</logical_max>
+</variable>
+
+<variable id="phv00129096.v1">
+	<name>PAR_V5</name>
+	<description>P wave area (includes P and P&#39;), lead par_v5</description>
+	<type>integer</type>
+	<logical_min>-272</logical_min>
+	<logical_max>611</logical_max>
+</variable>
+
+<variable id="phv00129097.v1">
+	<name>PAR_V6</name>
+	<description>P wave area (includes P and P&#39;), lead par_v6</description>
+	<type>integer</type>
+	<logical_min>-138</logical_min>
+	<logical_max>538</logical_max>
+</variable>
+
+<variable id="phv00077425.v2">
+	<name>PAUSE</name>
+	<description>Pause</description>
+	<type>encoded value</type>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00129098.v1">
+	<name>PDU_AVF</name>
+	<description>P wave duration, lead pdu_avf</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>182</logical_max>
+</variable>
+
+<variable id="phv00129099.v1">
+	<name>PDU_AVL</name>
+	<description>P wave duration, lead pdu_avl</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>176</logical_max>
+</variable>
+
+<variable id="phv00129100.v1">
+	<name>PDU_AVR</name>
+	<description>P wave duration, lead pdu_avr</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>182</logical_max>
+</variable>
+
+<variable id="phv00129101.v1">
+	<name>PDU_I</name>
+	<description>P wave duration, lead pdu_i</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>202</logical_max>
+</variable>
+
+<variable id="phv00129102.v1">
+	<name>PDU_II</name>
+	<description>P wave duration, lead pdu_ii</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>182</logical_max>
+</variable>
+
+<variable id="phv00129103.v1">
+	<name>PDU_III</name>
+	<description>P wave duration, lead pdu_iii</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>182</logical_max>
+</variable>
+
+<variable id="phv00129104.v1">
+	<name>PDU_V1</name>
+	<description>P wave duration, lead pdu_v1</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>170</logical_max>
+</variable>
+
+<variable id="phv00129105.v1">
+	<name>PDU_V2</name>
+	<description>P wave duration, lead pdu_v2</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>172</logical_max>
+</variable>
+
+<variable id="phv00129106.v1">
+	<name>PDU_V3</name>
+	<description>P wave duration, lead pdu_v3</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>182</logical_max>
+</variable>
+
+<variable id="phv00129107.v1">
+	<name>PDU_V4</name>
+	<description>P wave duration, lead pdu_v4</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>182</logical_max>
+</variable>
+
+<variable id="phv00129108.v1">
+	<name>PDU_V5</name>
+	<description>P wave duration, lead pdu_v5</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>182</logical_max>
+</variable>
+
+<variable id="phv00129109.v1">
+	<name>PDU_V6</name>
+	<description>P wave duration, lead pdu_v6</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>182</logical_max>
+</variable>
+
+<variable id="phv00129110.v1">
+	<name>PPAM_AVF</name>
+	<description>P&#39; wave amplitude, lead ppam_avf</description>
+	<type>integer</type>
+	<logical_min>-97</logical_min>
+	<logical_max>502</logical_max>
+</variable>
+
+<variable id="phv00129111.v1">
+	<name>PPAM_AVL</name>
+	<description>P&#39; wave amplitude, lead ppam_avl</description>
+	<type>integer</type>
+	<logical_min>-795</logical_min>
+	<logical_max>136</logical_max>
+</variable>
+
+<variable id="phv00129112.v1">
+	<name>PPAM_AVR</name>
+	<description>P&#39; wave amplitude, lead ppam_avr</description>
+	<type>integer</type>
+	<logical_min>-170</logical_min>
+	<logical_max>292</logical_max>
+</variable>
+
+<variable id="phv00129113.v1">
+	<name>PPAM_I</name>
+	<description>P&#39; wave amplitude, lead ppam_i</description>
+	<type>integer</type>
+	<logical_min>-727</logical_min>
+	<logical_max>161</logical_max>
+</variable>
+
+<variable id="phv00129114.v1">
+	<name>PPAM_II</name>
+	<description>P&#39; wave amplitude, lead ppam_ii</description>
+	<type>integer</type>
+	<logical_min>-73</logical_min>
+	<logical_max>263</logical_max>
+</variable>
+
+<variable id="phv00129115.v1">
+	<name>PPAM_III</name>
+	<description>P&#39; wave amplitude, lead ppam_iii</description>
+	<type>integer</type>
+	<logical_min>-141</logical_min>
+	<logical_max>864</logical_max>
+</variable>
+
+<variable id="phv00129116.v1">
+	<name>PPAM_V1</name>
+	<description>P&#39; wave amplitude, lead ppam_v1</description>
+	<type>integer</type>
+	<logical_min>-205</logical_min>
+	<logical_max>219</logical_max>
+</variable>
+
+<variable id="phv00129117.v1">
+	<name>PPAM_V2</name>
+	<description>P&#39; wave amplitude, lead ppam_v2</description>
+	<type>integer</type>
+	<logical_min>-175</logical_min>
+	<logical_max>122</logical_max>
+</variable>
+
+<variable id="phv00129118.v1">
+	<name>PPAM_V3</name>
+	<description>P&#39; wave amplitude, lead ppam_v3</description>
+	<type>integer</type>
+	<logical_min>-151</logical_min>
+	<logical_max>268</logical_max>
+</variable>
+
+<variable id="phv00129119.v1">
+	<name>PPAM_V4</name>
+	<description>P&#39; wave amplitude, lead ppam_v4</description>
+	<type>integer</type>
+	<logical_min>-156</logical_min>
+	<logical_max>253</logical_max>
+</variable>
+
+<variable id="phv00129120.v1">
+	<name>PPAM_V5</name>
+	<description>P&#39; wave amplitude, lead ppam_v5</description>
+	<type>integer</type>
+	<logical_min>-151</logical_min>
+	<logical_max>244</logical_max>
+</variable>
+
+<variable id="phv00129121.v1">
+	<name>PPAM_V6</name>
+	<description>P&#39; wave amplitude, lead ppam_v6</description>
+	<type>integer</type>
+	<logical_min>-156</logical_min>
+	<logical_max>234</logical_max>
+</variable>
+
+<variable id="phv00129122.v1">
+	<name>PPDU_AVF</name>
+	<description>P&#39; wave duration, lead ppdu_avf</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>135</logical_max>
+</variable>
+
+<variable id="phv00129123.v1">
+	<name>PPDU_AVL</name>
+	<description>P&#39; wave duration, lead ppdu_avl</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>146</logical_max>
+</variable>
+
+<variable id="phv00129124.v1">
+	<name>PPDU_AVR</name>
+	<description>P&#39; wave duration, lead ppdu_avr</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>113</logical_max>
+</variable>
+
+<variable id="phv00129125.v1">
+	<name>PPDU_I</name>
+	<description>P&#39; wave duration, lead ppdu_i</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>123</logical_max>
+</variable>
+
+<variable id="phv00129126.v1">
+	<name>PPDU_II</name>
+	<description>P&#39; wave duration, lead ppdu_ii</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>131</logical_max>
+</variable>
+
+<variable id="phv00129127.v1">
+	<name>PPDU_III</name>
+	<description>P&#39; wave duration, lead ppdu_iii</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>137</logical_max>
+</variable>
+
+<variable id="phv00129128.v1">
+	<name>PPDU_V1</name>
+	<description>P&#39; wave duration, lead ppdu_v1</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>144</logical_max>
+</variable>
+
+<variable id="phv00129129.v1">
+	<name>PPDU_V2</name>
+	<description>P&#39; wave duration, lead ppdu_v2</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>137</logical_max>
+</variable>
+
+<variable id="phv00129130.v1">
+	<name>PPDU_V3</name>
+	<description>P&#39; wave duration, lead ppdu_v3</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>134</logical_max>
+</variable>
+
+<variable id="phv00129131.v1">
+	<name>PPDU_V4</name>
+	<description>P&#39; wave duration, lead ppdu_v4</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>132</logical_max>
+</variable>
+
+<variable id="phv00129132.v1">
+	<name>PPDU_V5</name>
+	<description>P&#39; wave duration, lead ppdu_v5</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>130</logical_max>
+</variable>
+
+<variable id="phv00129133.v1">
+	<name>PPDU_V6</name>
+	<description>P&#39; wave duration, lead ppdu_v6</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>108</logical_max>
+</variable>
+
+<variable id="phv00129134.v1">
+	<name>PROLO_PR</name>
+	<description>Prolonged PR interval</description>
+	<type>encoded value</type>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00129135.v1">
+	<name>PR_DUR</name>
+	<description>PR Interval (msec)</description>
+	<type>integer</type>
+	<unit>msec</unit>
+	<logical_min>0</logical_min>
+	<logical_max>422</logical_max>
+</variable>
+
+<variable id="phv00129136.v1">
+	<name>PWAVUN</name>
+	<description>P Wave detection uncertain</description>
+	<type>encoded value</type>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00129137.v1">
+	<name>P_ACCEPT</name>
+	<description>Percent of RR Intervals That Are Acceptable (%)</description>
+	<type>decimal</type>
+	<logical_min>0.5</logical_min>
+	<logical_max>1</logical_max>
+</variable>
+
+<variable id="phv00077404.v2">
+	<name>P_AXIS</name>
+	<description>P Axis (degrees)</description>
+	<type>integer</type>
+	<unit>degrees</unit>
+	<logical_min>-87</logical_min>
+	<logical_max>999</logical_max>
+</variable>
+
+<variable id="phv00129138.v1">
+	<name>QAM_AVF</name>
+	<description>Q wave amplitude, lead qam_avf</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>3271</logical_max>
+</variable>
+
+<variable id="phv00129139.v1">
+	<name>QAM_AVL</name>
+	<description>Q wave amplitude, lead qam_avl</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>1489</logical_max>
+</variable>
+
+<variable id="phv00129140.v1">
+	<name>QAM_AVR</name>
+	<description>Q wave amplitude, lead qam_avr</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>2641</logical_max>
+</variable>
+
+<variable id="phv00129141.v1">
+	<name>QAM_I</name>
+	<description>Q wave amplitude, lead qam_i</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>1694</logical_max>
+</variable>
+
+<variable id="phv00129142.v1">
+	<name>QAM_II</name>
+	<description>Q wave amplitude, lead qam_ii</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>1875</logical_max>
+</variable>
+
+<variable id="phv00129143.v1">
+	<name>QAM_III</name>
+	<description>Q wave amplitude, lead qam_iii</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>5493</logical_max>
+</variable>
+
+<variable id="phv00129144.v1">
+	<name>QAM_V1</name>
+	<description>Q wave amplitude, lead qam_v1</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>4443</logical_max>
+</variable>
+
+<variable id="phv00129145.v1">
+	<name>QAM_V2</name>
+	<description>Q wave amplitude, lead qam_v2</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>3300</logical_max>
+</variable>
+
+<variable id="phv00129146.v1">
+	<name>QAM_V3</name>
+	<description>Q wave amplitude, lead qam_v3</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>2495</logical_max>
+</variable>
+
+<variable id="phv00129147.v1">
+	<name>QAM_V4</name>
+	<description>Q wave amplitude, lead qam_v4</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>1694</logical_max>
+</variable>
+
+<variable id="phv00129148.v1">
+	<name>QAM_V5</name>
+	<description>Q wave amplitude, lead qam_v5</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>1713</logical_max>
+</variable>
+
+<variable id="phv00129149.v1">
+	<name>QAM_V6</name>
+	<description>Q wave amplitude, lead qam_v6</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>1694</logical_max>
+</variable>
+
+<variable id="phv00129150.v1">
+	<name>QDU_AVF</name>
+	<description>Q wave duration, lead qdu_avf</description>
+	<type>integer</type>
+	<logical_min>-5</logical_min>
+	<logical_max>186</logical_max>
+</variable>
+
+<variable id="phv00129151.v1">
+	<name>QDU_AVL</name>
+	<description>Q wave duration, lead qdu_avl</description>
+	<type>integer</type>
+	<logical_min>-5</logical_min>
+	<logical_max>146</logical_max>
+</variable>
+
+<variable id="phv00129152.v1">
+	<name>QDU_AVR</name>
+	<description>Q wave duration, lead qdu_avr</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>212</logical_max>
+</variable>
+
+<variable id="phv00129153.v1">
+	<name>QDU_I</name>
+	<description>Q wave duration, lead qdu_i</description>
+	<type>integer</type>
+	<logical_min>-5</logical_min>
+	<logical_max>146</logical_max>
+</variable>
+
+<variable id="phv00129154.v1">
+	<name>QDU_II</name>
+	<description>Q wave duration, lead qdu_ii</description>
+	<type>integer</type>
+	<logical_min>-5</logical_min>
+	<logical_max>208</logical_max>
+</variable>
+
+<variable id="phv00129155.v1">
+	<name>QDU_III</name>
+	<description>Q wave duration, lead qdu_iii</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>184</logical_max>
+</variable>
+
+<variable id="phv00129156.v1">
+	<name>QDU_V1</name>
+	<description>Q wave duration, lead qdu_v1</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>180</logical_max>
+</variable>
+
+<variable id="phv00129157.v1">
+	<name>QDU_V2</name>
+	<description>Q wave duration, lead qdu_v2</description>
+	<type>integer</type>
+	<logical_min>-4</logical_min>
+	<logical_max>180</logical_max>
+</variable>
+
+<variable id="phv00129158.v1">
+	<name>QDU_V3</name>
+	<description>Q wave duration, lead qdu_v3</description>
+	<type>integer</type>
+	<logical_min>-17</logical_min>
+	<logical_max>126</logical_max>
+</variable>
+
+<variable id="phv00129159.v1">
+	<name>QDU_V4</name>
+	<description>Q wave duration, lead qdu_v4</description>
+	<type>integer</type>
+	<logical_min>-5</logical_min>
+	<logical_max>195</logical_max>
+</variable>
+
+<variable id="phv00129160.v1">
+	<name>QDU_V5</name>
+	<description>Q wave duration, lead qdu_v5</description>
+	<type>integer</type>
+	<logical_min>-22</logical_min>
+	<logical_max>192</logical_max>
+</variable>
+
+<variable id="phv00129161.v1">
+	<name>QDU_V6</name>
+	<description>Q wave duration, lead qdu_v6</description>
+	<type>integer</type>
+	<logical_min>-5</logical_min>
+	<logical_max>200</logical_max>
+</variable>
+
+<variable id="phv00129162.v1">
+	<name>QRS120</name>
+	<description>QRS Interval Duration &gt; 120 ms (1,0)</description>
+	<type>encoded value</type>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00129163.v1">
+	<name>QRSA_AVF</name>
+	<description>QRS balance (maximum of R or R&#39;) - (maximum of QAMP, SAMP, or S&#39;AMP), lead qrsa_avf</description>
+	<type>integer</type>
+	<logical_min>-2906</logical_min>
+	<logical_max>2911</logical_max>
+	<comment>QRS balance (maximum of R or R&#39;) - (maximum of QAMP, SAMP, or S&#39;AMP), lead qrsa_avf</comment>
+</variable>
+
+<variable id="phv00129164.v1">
+	<name>QRSA_AVL</name>
+	<description>QRS balance (maximum of R or R&#39;) - (maximum of QAMP, SAMP, or S&#39;AMP), lead qrsa_avl</description>
+	<type>integer</type>
+	<logical_min>-2168</logical_min>
+	<logical_max>2719</logical_max>
+	<comment>QRS balance (maximum of R or R&#39;) - (maximum of QAMP, SAMP, or S&#39;AMP), lead qrsa_avl</comment>
+</variable>
+
+<variable id="phv00129165.v1">
+	<name>QRSA_AVR</name>
+	<description>QRS balance (maximum of R or R&#39;) - (maximum of QAMP, SAMP, or S&#39;AMP), lead qrsa_avr</description>
+	<type>integer</type>
+	<logical_min>-2641</logical_min>
+	<logical_max>1074</logical_max>
+	<comment>QRS balance (maximum of R or R&#39;) - (maximum of QAMP, SAMP, or S&#39;AMP), lead qrsa_avr</comment>
+</variable>
+
+<variable id="phv00129166.v1">
+	<name>QRSA_I</name>
+	<description>QRS balance (maximum of R or R&#39;) - (maximum of QAMP, SAMP, or S&#39;AMP), lead qrsa_i</description>
+	<type>integer</type>
+	<logical_min>-1914</logical_min>
+	<logical_max>3062</logical_max>
+	<comment>QRS balance (maximum of R or R&#39;) - (maximum of QAMP, SAMP, or S&#39;AMP), lead qrsa_i</comment>
+</variable>
+
+<variable id="phv00129167.v1">
+	<name>QRSA_II</name>
+	<description>QRS balance (maximum of R or R&#39;) - (maximum of QAMP, SAMP, or S&#39;AMP), lead qrsa_ii</description>
+	<type>integer</type>
+	<logical_min>-2291</logical_min>
+	<logical_max>3696</logical_max>
+	<comment>QRS balance (maximum of R or R&#39;) - (maximum of QAMP, SAMP, or S&#39;AMP), lead qrsa_ii</comment>
+</variable>
+
+<variable id="phv00129168.v1">
+	<name>QRSA_III</name>
+	<description>QRS balance (maximum of R or R&#39;) - (maximum of QAMP, SAMP, or S&#39;AMP), lead qrsa_iii</description>
+	<type>integer</type>
+	<logical_min>-3520</logical_min>
+	<logical_max>2422</logical_max>
+	<comment>QRS balance (maximum of R or R&#39;) - (maximum of QAMP, SAMP, or S&#39;AMP), lead qrsa_iii</comment>
+</variable>
+
+<variable id="phv00129169.v1">
+	<name>QRSA_V1</name>
+	<description>QRS balance (maximum of R or R&#39;) - (maximum of QAMP, SAMP, or S&#39;AMP), lead qrsa_v1</description>
+	<type>integer</type>
+	<logical_min>-4443</logical_min>
+	<logical_max>3008</logical_max>
+	<comment>QRS balance (maximum of R or R&#39;) - (maximum of QAMP, SAMP, or S&#39;AMP), lead qrsa_v1</comment>
+</variable>
+
+<variable id="phv00129170.v1">
+	<name>QRSA_V2</name>
+	<description>QRS balance (maximum of R or R&#39;) - (maximum of QAMP, SAMP, or S&#39;AMP), lead qrsa_v2</description>
+	<type>integer</type>
+	<logical_min>-5761</logical_min>
+	<logical_max>3384</logical_max>
+	<comment>QRS balance (maximum of R or R&#39;) - (maximum of QAMP, SAMP, or S&#39;AMP), lead qrsa_v2</comment>
+</variable>
+
+<variable id="phv00129171.v1">
+	<name>QRSA_V3</name>
+	<description>QRS balance (maximum of R or R&#39;) - (maximum of QAMP, SAMP, or S&#39;AMP), lead qrsa_v3</description>
+	<type>integer</type>
+	<logical_min>-5000</logical_min>
+	<logical_max>4546</logical_max>
+	<comment>QRS balance (maximum of R or R&#39;) - (maximum of QAMP, SAMP, or S&#39;AMP), lead qrsa_v3</comment>
+</variable>
+
+<variable id="phv00129172.v1">
+	<name>QRSA_V4</name>
+	<description>QRS balance (maximum of R or R&#39;) - (maximum of QAMP, SAMP, or S&#39;AMP), lead qrsa_v4</description>
+	<type>integer</type>
+	<logical_min>-3135</logical_min>
+	<logical_max>4370</logical_max>
+	<comment>QRS balance (maximum of R or R&#39;) - (maximum of QAMP, SAMP, or S&#39;AMP), lead qrsa_v4</comment>
+</variable>
+
+<variable id="phv00129173.v1">
+	<name>QRSA_V5</name>
+	<description>QRS balance (maximum of R or R&#39;) - (maximum of QAMP, SAMP, or S&#39;AMP), lead qrsa_v5</description>
+	<type>integer</type>
+	<logical_min>-1734</logical_min>
+	<logical_max>5239</logical_max>
+	<comment>QRS balance (maximum of R or R&#39;) - (maximum of QAMP, SAMP, or S&#39;AMP), lead qrsa_v5</comment>
+</variable>
+
+<variable id="phv00129174.v1">
+	<name>QRSA_V6</name>
+	<description>QRS balance (maximum of R or R&#39;) - (maximum of QAMP, SAMP, or S&#39;AMP), lead qrsa_v6</description>
+	<type>integer</type>
+	<logical_min>-1040</logical_min>
+	<logical_max>4443</logical_max>
+	<comment>QRS balance (maximum of R or R&#39;) - (maximum of QAMP, SAMP, or S&#39;AMP), lead qrsa_v6</comment>
+</variable>
+
+<variable id="phv00129175.v1">
+	<name>QRSD_AVF</name>
+	<description>QRS deflection balance (maximum of R or R&#39;) + (maximum of QAMP, SAMP, or S&#39;AMP), lead qrsd_avf</description>
+	<type>integer</type>
+	<logical_min>1</logical_min>
+	<logical_max>8012</logical_max>
+	<comment>QRS deflection balance (maximum of R or R&#39;) + (maximum of QAMP, SAMP, or S&#39;AMP), lead qrsd_avf</comment>
+</variable>
+
+<variable id="phv00129176.v1">
+	<name>QRSD_AVL</name>
+	<description>QRS deflection balance (maximum of R or R&#39;) + (maximum of QAMP, SAMP, or S&#39;AMP), lead qrsd_avl</description>
+	<type>integer</type>
+	<logical_min>1</logical_min>
+	<logical_max>12098</logical_max>
+	<comment>QRS deflection balance (maximum of R or R&#39;) + (maximum of QAMP, SAMP, or S&#39;AMP), lead qrsd_avl</comment>
+</variable>
+
+<variable id="phv00129177.v1">
+	<name>QRSD_AVR</name>
+	<description>QRS deflection balance (maximum of R or R&#39;) + (maximum of QAMP, SAMP, or S&#39;AMP), lead qrsd_avr</description>
+	<type>integer</type>
+	<logical_min>1</logical_min>
+	<logical_max>4086</logical_max>
+	<comment>QRS deflection balance (maximum of R or R&#39;) + (maximum of QAMP, SAMP, or S&#39;AMP), lead qrsd_avr</comment>
+</variable>
+
+<variable id="phv00129178.v1">
+	<name>QRSD_I</name>
+	<description>QRS deflection balance (maximum of R or R&#39;) + (maximum of QAMP, SAMP, or S&#39;AMP), lead qrsd_i</description>
+	<type>integer</type>
+	<logical_min>1</logical_min>
+	<logical_max>10790</logical_max>
+	<comment>QRS deflection balance (maximum of R or R&#39;) + (maximum of QAMP, SAMP, or S&#39;AMP), lead qrsd_i</comment>
+</variable>
+
+<variable id="phv00129179.v1">
+	<name>QRSD_II</name>
+	<description>QRS deflection balance (maximum of R or R&#39;) + (maximum of QAMP, SAMP, or S&#39;AMP), lead qrsd_ii</description>
+	<type>integer</type>
+	<logical_min>1</logical_min>
+	<logical_max>3779</logical_max>
+	<comment>QRS deflection balance (maximum of R or R&#39;) + (maximum of QAMP, SAMP, or S&#39;AMP), lead qrsd_ii</comment>
+</variable>
+
+<variable id="phv00129180.v1">
+	<name>QRSD_III</name>
+	<description>QRS deflection balance (maximum of R or R&#39;) + (maximum of QAMP, SAMP, or S&#39;AMP), lead qrsd_iii</description>
+	<type>integer</type>
+	<logical_min>1</logical_min>
+	<logical_max>13408</logical_max>
+	<comment>QRS deflection balance (maximum of R or R&#39;) + (maximum of QAMP, SAMP, or S&#39;AMP), lead qrsd_iii</comment>
+</variable>
+
+<variable id="phv00129181.v1">
+	<name>QRSD_V1</name>
+	<description>QRS deflection balance (maximum of R or R&#39;) + (maximum of QAMP, SAMP, or S&#39;AMP), lead qrsd_v1</description>
+	<type>integer</type>
+	<logical_min>151</logical_min>
+	<logical_max>4984</logical_max>
+	<comment>QRS deflection balance (maximum of R or R&#39;) + (maximum of QAMP, SAMP, or S&#39;AMP), lead qrsd_v1</comment>
+</variable>
+
+<variable id="phv00129182.v1">
+	<name>QRSD_V2</name>
+	<description>QRS deflection balance (maximum of R or R&#39;) + (maximum of QAMP, SAMP, or S&#39;AMP), lead qrsd_v2</description>
+	<type>integer</type>
+	<logical_min>126</logical_min>
+	<logical_max>6161</logical_max>
+	<comment>QRS deflection balance (maximum of R or R&#39;) + (maximum of QAMP, SAMP, or S&#39;AMP), lead qrsd_v2</comment>
+</variable>
+
+<variable id="phv00129183.v1">
+	<name>QRSD_V3</name>
+	<description>QRS deflection balance (maximum of R or R&#39;) + (maximum of QAMP, SAMP, or S&#39;AMP), lead qrsd_v3</description>
+	<type>integer</type>
+	<logical_min>1</logical_min>
+	<logical_max>6082</logical_max>
+	<comment>QRS deflection balance (maximum of R or R&#39;) + (maximum of QAMP, SAMP, or S&#39;AMP), lead qrsd_v3</comment>
+</variable>
+
+<variable id="phv00129184.v1">
+	<name>QRSD_V4</name>
+	<description>QRS deflection balance (maximum of R or R&#39;) + (maximum of QAMP, SAMP, or S&#39;AMP), lead qrsd_v4</description>
+	<type>integer</type>
+	<logical_min>190</logical_min>
+	<logical_max>5814</logical_max>
+	<comment>QRS deflection balance (maximum of R or R&#39;) + (maximum of QAMP, SAMP, or S&#39;AMP), lead qrsd_v4</comment>
+</variable>
+
+<variable id="phv00129185.v1">
+	<name>QRSD_V5</name>
+	<description>QRS deflection balance (maximum of R or R&#39;) + (maximum of QAMP, SAMP, or S&#39;AMP), lead qrsd_v5</description>
+	<type>integer</type>
+	<logical_min>146</logical_min>
+	<logical_max>6210</logical_max>
+	<comment>QRS deflection balance (maximum of R or R&#39;) + (maximum of QAMP, SAMP, or S&#39;AMP), lead qrsd_v5</comment>
+</variable>
+
+<variable id="phv00129186.v1">
+	<name>QRSD_V6</name>
+	<description>QRS deflection balance (maximum of R or R&#39;) + (maximum of QAMP, SAMP, or S&#39;AMP), lead qrsd_v6</description>
+	<type>integer</type>
+	<logical_min>1</logical_min>
+	<logical_max>5399</logical_max>
+	<comment>QRS deflection balance (maximum of R or R&#39;) + (maximum of QAMP, SAMP, or S&#39;AMP), lead qrsd_v6</comment>
+</variable>
+
+<variable id="phv00129187.v1">
+	<name>QRSI_AVF</name>
+	<description>QRS intrisicoid (time from onset of QQRS complex to middle of QRS complex, the alignment point or detection point of the QRS complex), lead qrsi_avf</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>204</logical_max>
+	<comment>QRS intrisicoid (time from onset of QQRS complex to middle of QRS complex, the alignment point or detection point of the QRS complex), lead qrsi_avf</comment>
+</variable>
+
+<variable id="phv00129188.v1">
+	<name>QRSI_AVL</name>
+	<description>QRS intrisicoid (time from onset of QQRS complex to middle of QRS complex, the alignment point or detection point of the QRS complex), lead qrsi_avl</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>142</logical_max>
+	<comment>QRS intrisicoid (time from onset of QQRS complex to middle of QRS complex, the alignment point or detection point of the QRS complex), lead qrsi_avl</comment>
+</variable>
+
+<variable id="phv00129189.v1">
+	<name>QRSI_AVR</name>
+	<description>QRS intrisicoid (time from onset of QQRS complex to middle of QRS complex, the alignment point or detection point of the QRS complex), lead qrsi_avr</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>152</logical_max>
+	<comment>QRS intrisicoid (time from onset of QQRS complex to middle of QRS complex, the alignment point or detection point of the QRS complex), lead qrsi_avr</comment>
+</variable>
+
+<variable id="phv00129190.v1">
+	<name>QRSI_I</name>
+	<description>QRS intrisicoid (time from onset of QQRS complex to middle of QRS complex, the alignment point or detection point of the QRS complex), lead qrsi_i</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>134</logical_max>
+	<comment>QRS intrisicoid (time from onset of QQRS complex to middle of QRS complex, the alignment point or detection point of the QRS complex), lead qrsi_i</comment>
+</variable>
+
+<variable id="phv00129191.v1">
+	<name>QRSI_II</name>
+	<description>QRS intrisicoid (time from onset of QQRS complex to middle of QRS complex, the alignment point or detection point of the QRS complex), lead qrsi_ii</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>142</logical_max>
+	<comment>QRS intrisicoid (time from onset of QQRS complex to middle of QRS complex, the alignment point or detection point of the QRS complex), lead qrsi_ii</comment>
+</variable>
+
+<variable id="phv00129192.v1">
+	<name>QRSI_III</name>
+	<description>QRS intrisicoid (time from onset of QQRS complex to middle of QRS complex, the alignment point or detection point of the QRS complex), lead qrsi_iii</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>142</logical_max>
+	<comment>QRS intrisicoid (time from onset of QQRS complex to middle of QRS complex, the alignment point or detection point of the QRS complex), lead qrsi_iii</comment>
+</variable>
+
+<variable id="phv00129193.v1">
+	<name>QRSI_V1</name>
+	<description>QRS intrisicoid (time from onset of QQRS complex to middle of QRS complex, the alignment point or detection point of the QRS complex), lead qrsi_v1</description>
+	<type>integer</type>
+	<logical_min>8</logical_min>
+	<logical_max>144</logical_max>
+	<comment>QRS intrisicoid (time from onset of QQRS complex to middle of QRS complex, the alignment point or detection point of the QRS complex), lead qrsi_v1</comment>
+</variable>
+
+<variable id="phv00129194.v1">
+	<name>QRSI_V2</name>
+	<description>QRS intrisicoid (time from onset of QQRS complex to middle of QRS complex, the alignment point or detection point of the QRS complex), lead qrsi_v2</description>
+	<type>integer</type>
+	<logical_min>12</logical_min>
+	<logical_max>148</logical_max>
+	<comment>QRS intrisicoid (time from onset of QQRS complex to middle of QRS complex, the alignment point or detection point of the QRS complex), lead qrsi_v2</comment>
+</variable>
+
+<variable id="phv00129195.v1">
+	<name>QRSI_V3</name>
+	<description>QRS intrisicoid (time from onset of QQRS complex to middle of QRS complex, the alignment point or detection point of the QRS complex), lead qrsi_v3</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>136</logical_max>
+	<comment>QRS intrisicoid (time from onset of QQRS complex to middle of QRS complex, the alignment point or detection point of the QRS complex), lead qrsi_v3</comment>
+</variable>
+
+<variable id="phv00129196.v1">
+	<name>QRSI_V4</name>
+	<description>QRS intrisicoid (time from onset of QQRS complex to middle of QRS complex, the alignment point or detection point of the QRS complex), lead qrsi_v4</description>
+	<type>integer</type>
+	<logical_min>12</logical_min>
+	<logical_max>158</logical_max>
+	<comment>QRS intrisicoid (time from onset of QQRS complex to middle of QRS complex, the alignment point or detection point of the QRS complex), lead qrsi_v4</comment>
+</variable>
+
+<variable id="phv00129197.v1">
+	<name>QRSI_V5</name>
+	<description>QRS intrisicoid (time from onset of QQRS complex to middle of QRS complex, the alignment point or detection point of the QRS complex), lead qrsi_v5</description>
+	<type>integer</type>
+	<logical_min>14</logical_min>
+	<logical_max>150</logical_max>
+	<comment>QRS intrisicoid (time from onset of QQRS complex to middle of QRS complex, the alignment point or detection point of the QRS complex), lead qrsi_v5</comment>
+</variable>
+
+<variable id="phv00129198.v1">
+	<name>QRSI_V6</name>
+	<description>QRS intrisicoid (time from onset of QQRS complex to middle of QRS complex, the alignment point or detection point of the QRS complex), lead qrsi_v6</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>156</logical_max>
+	<comment>QRS intrisicoid (time from onset of QQRS complex to middle of QRS complex, the alignment point or detection point of the QRS complex), lead qrsi_v6</comment>
+</variable>
+
+<variable id="phv00129199.v1">
+	<name>QRSR_AVF</name>
+	<description>Total QRS area, lead qrsr_avf</description>
+	<type>integer</type>
+	<logical_min>-10329</logical_min>
+	<logical_max>10178</logical_max>
+</variable>
+
+<variable id="phv00129200.v1">
+	<name>QRSR_AVL</name>
+	<description>Total QRS area, lead qrsr_avl</description>
+	<type>integer</type>
+	<logical_min>-8353</logical_min>
+	<logical_max>9415</logical_max>
+</variable>
+
+<variable id="phv00129201.v1">
+	<name>QRSR_AVR</name>
+	<description>Total QRS area, lead qrsr_avr</description>
+	<type>integer</type>
+	<logical_min>-7693</logical_min>
+	<logical_max>2755</logical_max>
+</variable>
+
+<variable id="phv00129202.v1">
+	<name>QRSR_I</name>
+	<description>Total QRS area, lead qrsr_i</description>
+	<type>integer</type>
+	<logical_min>-4352</logical_min>
+	<logical_max>9662</logical_max>
+</variable>
+
+<variable id="phv00129203.v1">
+	<name>QRSR_II</name>
+	<description>Total QRS area, lead qrsr_ii</description>
+	<type>integer</type>
+	<logical_min>-7931</logical_min>
+	<logical_max>8002</logical_max>
+</variable>
+
+<variable id="phv00129204.v1">
+	<name>QRSR_III</name>
+	<description>Total QRS area, lead qrsr_iii</description>
+	<type>integer</type>
+	<logical_min>-13163</logical_min>
+	<logical_max>12354</logical_max>
+</variable>
+
+<variable id="phv00129205.v1">
+	<name>QRSR_V1</name>
+	<description>Total QRS area, lead qrsr_v1</description>
+	<type>integer</type>
+	<logical_min>-16329</logical_min>
+	<logical_max>9136</logical_max>
+</variable>
+
+<variable id="phv00129206.v1">
+	<name>QRSR_V2</name>
+	<description>Total QRS area, lead qrsr_v2</description>
+	<type>integer</type>
+	<logical_min>-16005</logical_min>
+	<logical_max>16258</logical_max>
+</variable>
+
+<variable id="phv00129207.v1">
+	<name>QRSR_V3</name>
+	<description>Total QRS area, lead qrsr_v3</description>
+	<type>integer</type>
+	<logical_min>-14696</logical_min>
+	<logical_max>6148</logical_max>
+</variable>
+
+<variable id="phv00129208.v1">
+	<name>QRSR_V4</name>
+	<description>Total QRS area, lead qrsr_v4</description>
+	<type>integer</type>
+	<logical_min>-12121</logical_min>
+	<logical_max>6789</logical_max>
+</variable>
+
+<variable id="phv00129209.v1">
+	<name>QRSR_V5</name>
+	<description>Total QRS area, lead qrsr_v5</description>
+	<type>integer</type>
+	<logical_min>-6465</logical_min>
+	<logical_max>9695</logical_max>
+</variable>
+
+<variable id="phv00129210.v1">
+	<name>QRSR_V6</name>
+	<description>Total QRS area, lead qrsr_v6</description>
+	<type>integer</type>
+	<logical_min>-3851</logical_min>
+	<logical_max>13605</logical_max>
+</variable>
+
+<variable id="phv00077405.v2">
+	<name>QRS_AXIS</name>
+	<description>QRS Axis (degrees)</description>
+	<type>integer</type>
+	<unit>degrees</unit>
+	<logical_min>-88</logical_min>
+	<logical_max>267</logical_max>
+</variable>
+
+<variable id="phv00129211.v1">
+	<name>QRS_DUR</name>
+	<description>QRS Interval Duration (ms)</description>
+	<type>decimal</type>
+	<logical_min>52</logical_min>
+	<logical_max>238</logical_max>
+</variable>
+
+<variable id="phv00129212.v1">
+	<name>QTC_DUR</name>
+	<description>Bazett&#39;s Heart Rate-Corrected QT Interval (ms)</description>
+	<type>integer</type>
+	<logical_min>237.611447535677</logical_min>
+	<logical_max>730</logical_max>
+</variable>
+
+<variable id="phv00129213.v1">
+	<name>QT_DUR</name>
+	<description>QT Interval Duration (ms)</description>
+	<type>decimal</type>
+	<logical_min>142</logical_min>
+	<logical_max>714</logical_max>
+</variable>
+
+<variable id="phv00077410.v2">
+	<name>QT_IND</name>
+	<description>Rautaharju&#39;s QT Prolongation Index (%)</description>
+	<type>integer</type>
+	<logical_min>58</logical_min>
+	<logical_max>177</logical_max>
+</variable>
+
+<variable id="phv00077402.v2">
+	<name>GRADE</name>
+	<description>Quality grade</description>
+	<type>encoded value</type>
+	<value code="1">Grade 1</value>
+	<value code="2">Grade 2</value>
+	<value code="3">Grade 3</value>
+	<value code="4">Grade 4</value>
+	<value code="5">Grade 5</value>
+</variable>
+
+<variable id="phv00129214.v1">
+	<name>RAM_AVF</name>
+	<description>R wave amplitude, lead ram_avf</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>4741</logical_max>
+</variable>
+
+<variable id="phv00129215.v1">
+	<name>RAM_AVL</name>
+	<description>R wave amplitude, lead ram_avl</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>4965</logical_max>
+</variable>
+
+<variable id="phv00129216.v1">
+	<name>RAM_AVR</name>
+	<description>R wave amplitude, lead ram_avr</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>2392</logical_max>
+</variable>
+
+<variable id="phv00129217.v1">
+	<name>RAM_I</name>
+	<description>R wave amplitude, lead ram_i</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>4438</logical_max>
+</variable>
+
+<variable id="phv00129218.v1">
+	<name>RAM_II</name>
+	<description>R wave amplitude, lead ram_ii</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>3735</logical_max>
+</variable>
+
+<variable id="phv00129219.v1">
+	<name>RAM_III</name>
+	<description>R wave amplitude, lead ram_iii</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>7915</logical_max>
+</variable>
+
+<variable id="phv00129220.v1">
+	<name>RAM_V1</name>
+	<description>R wave amplitude, lead ram_v1</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>3432</logical_max>
+</variable>
+
+<variable id="phv00129221.v1">
+	<name>RAM_V2</name>
+	<description>R wave amplitude, lead ram_v2</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>3491</logical_max>
+</variable>
+
+<variable id="phv00129222.v1">
+	<name>RAM_V3</name>
+	<description>R wave amplitude, lead ram_v3</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>4633</logical_max>
+</variable>
+
+<variable id="phv00129223.v1">
+	<name>RAM_V4</name>
+	<description>R wave amplitude, lead ram_v4</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>4970</logical_max>
+</variable>
+
+<variable id="phv00129224.v1">
+	<name>RAM_V5</name>
+	<description>R wave amplitude, lead ram_v5</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>5239</logical_max>
+</variable>
+
+<variable id="phv00129225.v1">
+	<name>RAM_V6</name>
+	<description>R wave amplitude, lead ram_v6</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>4814</logical_max>
+</variable>
+
+<variable id="phv00129226.v1">
+	<name>RDU_AVF</name>
+	<description>R wave duration, lead rdu_avf</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>168</logical_max>
+</variable>
+
+<variable id="phv00129227.v1">
+	<name>RDU_AVL</name>
+	<description>R wave duration, lead rdu_avl</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>227</logical_max>
+</variable>
+
+<variable id="phv00129228.v1">
+	<name>RDU_AVR</name>
+	<description>R wave duration, lead rdu_avr</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>196</logical_max>
+</variable>
+
+<variable id="phv00129229.v1">
+	<name>RDU_I</name>
+	<description>R wave duration, lead rdu_i</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>225</logical_max>
+</variable>
+
+<variable id="phv00129230.v1">
+	<name>RDU_II</name>
+	<description>R wave duration, lead rdu_ii</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>194</logical_max>
+</variable>
+
+<variable id="phv00129231.v1">
+	<name>RDU_III</name>
+	<description>R wave duration, lead rdu_iii</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>146</logical_max>
+</variable>
+
+<variable id="phv00129232.v1">
+	<name>RDU_V1</name>
+	<description>R wave duration, lead rdu_v1</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>158</logical_max>
+</variable>
+
+<variable id="phv00129233.v1">
+	<name>RDU_V2</name>
+	<description>R wave duration, lead rdu_v2</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>172</logical_max>
+</variable>
+
+<variable id="phv00129234.v1">
+	<name>RDU_V3</name>
+	<description>R wave duration, lead rdu_v3</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>172</logical_max>
+</variable>
+
+<variable id="phv00129235.v1">
+	<name>RDU_V4</name>
+	<description>R wave duration, lead rdu_v4</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>154</logical_max>
+</variable>
+
+<variable id="phv00129236.v1">
+	<name>RDU_V5</name>
+	<description>R wave duration, lead rdu_v5</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>220</logical_max>
+</variable>
+
+<variable id="phv00129237.v1">
+	<name>RDU_V6</name>
+	<description>R wave duration, lead rdu_v6</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>225</logical_max>
+</variable>
+
+<variable id="phv00129238.v1">
+	<name>RMSSD</name>
+	<description>Root Mean Square of Successive Differences in Normal-to-Normal RR Intervals (ms)</description>
+	<type>decimal</type>
+	<logical_min>1.15470053837925</logical_min>
+	<logical_max>359.205472436837</logical_max>
+	<comment>Root Mean Square of Successive Differences in Normal-to-Normal RR Intervals (ms)</comment>
+</variable>
+
+<variable id="phv00129239.v1">
+	<name>RPAM_AVF</name>
+	<description>R&#39; wave amplitude, lead rpam_avf</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>1938</logical_max>
+</variable>
+
+<variable id="phv00129240.v1">
+	<name>RPAM_AVL</name>
+	<description>R&#39; wave amplitude, lead rpam_avl</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>1542</logical_max>
+</variable>
+
+<variable id="phv00129241.v1">
+	<name>RPAM_AVR</name>
+	<description>R&#39; wave amplitude, lead rpam_avr</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>825</logical_max>
+</variable>
+
+<variable id="phv00129242.v1">
+	<name>RPAM_I</name>
+	<description>R&#39; wave amplitude, lead rpam_i</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>2011</logical_max>
+</variable>
+
+<variable id="phv00129243.v1">
+	<name>RPAM_II</name>
+	<description>R&#39; wave amplitude, lead rpam_ii</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>1821</logical_max>
+</variable>
+
+<variable id="phv00129244.v1">
+	<name>RPAM_III</name>
+	<description>R&#39; wave amplitude, lead rpam_iii</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>1752</logical_max>
+</variable>
+
+<variable id="phv00129245.v1">
+	<name>RPAM_V1</name>
+	<description>R&#39; wave amplitude, lead rpam_v1</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>1665</logical_max>
+</variable>
+
+<variable id="phv00129246.v1">
+	<name>RPAM_V2</name>
+	<description>R&#39; wave amplitude, lead rpam_v2</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>1445</logical_max>
+</variable>
+
+<variable id="phv00129247.v1">
+	<name>RPAM_V3</name>
+	<description>R&#39; wave amplitude, lead rpam_v3</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>1396</logical_max>
+</variable>
+
+<variable id="phv00129248.v1">
+	<name>RPAM_V4</name>
+	<description>R&#39; wave amplitude, lead rpam_v4</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>2924</logical_max>
+</variable>
+
+<variable id="phv00129249.v1">
+	<name>RPAM_V5</name>
+	<description>R&#39; wave amplitude, lead rpam_v5</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>3271</logical_max>
+</variable>
+
+<variable id="phv00129250.v1">
+	<name>RPAM_V6</name>
+	<description>R&#39; wave amplitude, lead rpam_v6</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>2919</logical_max>
+</variable>
+
+<variable id="phv00129251.v1">
+	<name>RPDU_AVF</name>
+	<description>R&#39; wave amplitude, lead rpdu_avf</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>109</logical_max>
+</variable>
+
+<variable id="phv00129252.v1">
+	<name>RPDU_AVL</name>
+	<description>R&#39; wave duration, lead rpdu_avl</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>174</logical_max>
+</variable>
+
+<variable id="phv00129253.v1">
+	<name>RPDU_AVR</name>
+	<description>R&#39; wave amplitude, lead rpdu_avr</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>158</logical_max>
+</variable>
+
+<variable id="phv00129254.v1">
+	<name>RPDU_I</name>
+	<description>R&#39; wave amplitude, lead rpdu_i</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>174</logical_max>
+</variable>
+
+<variable id="phv00129255.v1">
+	<name>RPDU_II</name>
+	<description>R&#39; wave amplitude, lead rpdu_ii</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>74</logical_max>
+</variable>
+
+<variable id="phv00129256.v1">
+	<name>RPDU_III</name>
+	<description>R&#39; wave amplitude, lead rpdu_iii</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>118</logical_max>
+</variable>
+
+<variable id="phv00129257.v1">
+	<name>RPDU_V1</name>
+	<description>R&#39; wave amplitude, lead rpdu_v1</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>115</logical_max>
+</variable>
+
+<variable id="phv00129258.v1">
+	<name>RPDU_V2</name>
+	<description>R&#39; wave amplitude, lead rpdu_v2</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>96</logical_max>
+</variable>
+
+<variable id="phv00129259.v1">
+	<name>RPDU_V3</name>
+	<description>R&#39; wave amplitude, lead rpdu_v3</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>93</logical_max>
+</variable>
+
+<variable id="phv00129260.v1">
+	<name>RPDU_V4</name>
+	<description>R&#39; wave amplitude, lead rpdu_v4</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>90</logical_max>
+</variable>
+
+<variable id="phv00129261.v1">
+	<name>RPDU_V5</name>
+	<description>R&#39; wave amplitude, lead rpdu_v5</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>114</logical_max>
+</variable>
+
+<variable id="phv00129262.v1">
+	<name>RPDU_V6</name>
+	<description>R&#39; wave amplitude, lead rpdu_v6</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>73</logical_max>
+</variable>
+
+<variable id="phv00129263.v1">
+	<name>SAM_AVF</name>
+	<description>S wave amplitude, lead sam_avf</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>3125</logical_max>
+</variable>
+
+<variable id="phv00129264.v1">
+	<name>SAM_AVL</name>
+	<description>S wave amplitude, lead sam_avl</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>7133</logical_max>
+</variable>
+
+<variable id="phv00129265.v1">
+	<name>SAM_AVR</name>
+	<description>S wave amplitude, lead sam_avr</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>2065</logical_max>
+</variable>
+
+<variable id="phv00129266.v1">
+	<name>SAM_I</name>
+	<description>S wave amplitude, lead sam_i</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>6352</logical_max>
+</variable>
+
+<variable id="phv00129267.v1">
+	<name>SAM_II</name>
+	<description>S wave amplitude, lead sam_ii</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>2500</logical_max>
+</variable>
+
+<variable id="phv00129268.v1">
+	<name>SAM_III</name>
+	<description>S wave amplitude, lead sam_iii</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>3769</logical_max>
+</variable>
+
+<variable id="phv00129269.v1">
+	<name>SAM_V1</name>
+	<description>S wave amplitude, lead sam_v1</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>4399</logical_max>
+</variable>
+
+<variable id="phv00129270.v1">
+	<name>SAM_V2</name>
+	<description>S wave amplitude, lead sam_v2</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>5961</logical_max>
+</variable>
+
+<variable id="phv00129271.v1">
+	<name>SAM_V3</name>
+	<description>S wave amplitude, lead sam_v3</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>5541</logical_max>
+</variable>
+
+<variable id="phv00129272.v1">
+	<name>SAM_V4</name>
+	<description>S wave amplitude, lead sam_v4</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>3525</logical_max>
+</variable>
+
+<variable id="phv00129273.v1">
+	<name>SAM_V5</name>
+	<description>S wave amplitude, lead sam_v5</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>2036</logical_max>
+</variable>
+
+<variable id="phv00129274.v1">
+	<name>SAM_V6</name>
+	<description>S wave amplitude, lead sam_v6</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>1411</logical_max>
+</variable>
+
+<variable id="phv00129275.v1">
+	<name>SDNN</name>
+	<description>Standard Deviation of Normal-to-Normal RR Intervals (ms)</description>
+	<type>decimal</type>
+	<logical_min>0.979795897113271</logical_min>
+	<logical_max>261.795602522273</logical_max>
+</variable>
+
+<variable id="phv00129276.v1">
+	<name>SDU_AVF</name>
+	<description>S wave duration, lead sdu_avf</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>164</logical_max>
+</variable>
+
+<variable id="phv00129277.v1">
+	<name>SDU_AVL</name>
+	<description>S wave duration, lead sdu_avl</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>114</logical_max>
+</variable>
+
+<variable id="phv00129278.v1">
+	<name>SDU_AVR</name>
+	<description>S wave duration, lead sdu_avr</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>132</logical_max>
+</variable>
+
+<variable id="phv00129279.v1">
+	<name>SDU_I</name>
+	<description>S wave duration, lead sdu_i</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>112</logical_max>
+</variable>
+
+<variable id="phv00129280.v1">
+	<name>SDU_II</name>
+	<description>S wave duration, lead sdu_ii</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>162</logical_max>
+</variable>
+
+<variable id="phv00129281.v1">
+	<name>SDU_III</name>
+	<description>S wave duration, lead sdu_iii</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>186</logical_max>
+</variable>
+
+<variable id="phv00129282.v1">
+	<name>SDU_V1</name>
+	<description>S wave duration, lead sdu_v1</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>182</logical_max>
+</variable>
+
+<variable id="phv00129283.v1">
+	<name>SDU_V2</name>
+	<description>S wave duration, lead sdu_v2</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>174</logical_max>
+</variable>
+
+<variable id="phv00129284.v1">
+	<name>SDU_V3</name>
+	<description>S wave duration, lead sdu_v3</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>176</logical_max>
+</variable>
+
+<variable id="phv00129285.v1">
+	<name>SDU_V4</name>
+	<description>S wave duration, lead sdu_v4</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>162</logical_max>
+</variable>
+
+<variable id="phv00129286.v1">
+	<name>SDU_V5</name>
+	<description>S wave duration, lead sdu_v5</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>158</logical_max>
+</variable>
+
+<variable id="phv00129287.v1">
+	<name>SDU_V6</name>
+	<description>S wave duration, lead sdu_v6</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>158</logical_max>
+</variable>
+
+<variable id="phv00129288.v1">
+	<name>SE_AVBLK</name>
+	<description><![CDATA[Partial 2&#176; Atrioventricular Block / Minnesota Code 6.2.2 (1,0)]]></description>
+	<type>encoded value</type>
+	<comment><![CDATA[Partial 2&#176; Atrioventricular Block / Minnesota Code 6.2.2 (1,0)]]></comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00077420.v2">
+	<name>SHPRINT</name>
+	<description>Short PR interval</description>
+	<type>encoded value</type>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00129289.v1">
+	<name>SPAM_AVF</name>
+	<description>S&#39; wave amplitude, lead spam_avf</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>2827</logical_max>
+</variable>
+
+<variable id="phv00129290.v1">
+	<name>SPAM_AVL</name>
+	<description>S&#39; wave amplitude, lead spam_avl</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>698</logical_max>
+</variable>
+
+<variable id="phv00129291.v1">
+	<name>SPAM_AVR</name>
+	<description>S&#39; wave amplitude, lead spam_avr</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>527</logical_max>
+</variable>
+
+<variable id="phv00129292.v1">
+	<name>SPAM_I</name>
+	<description>S&#39; wave amplitude, lead spam_i</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>576</logical_max>
+</variable>
+
+<variable id="phv00129293.v1">
+	<name>SPAM_II</name>
+	<description>S&#39; wave amplitude, lead spam_ii</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>1489</logical_max>
+</variable>
+
+<variable id="phv00129294.v1">
+	<name>SPAM_III</name>
+	<description>S&#39; wave amplitude, lead spam_iii</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>3627</logical_max>
+</variable>
+
+<variable id="phv00129295.v1">
+	<name>SPAM_V1</name>
+	<description>S&#39; wave amplitude, lead spam_v1</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>1083</logical_max>
+</variable>
+
+<variable id="phv00129296.v1">
+	<name>SPAM_V2</name>
+	<description>S&#39; wave amplitude, lead spam_v2</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>1191</logical_max>
+</variable>
+
+<variable id="phv00129297.v1">
+	<name>SPAM_V3</name>
+	<description>S&#39; wave amplitude, lead spam_v3</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>1845</logical_max>
+</variable>
+
+<variable id="phv00129298.v1">
+	<name>SPAM_V4</name>
+	<description>S&#39; wave amplitude, lead spam_v4</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>1606</logical_max>
+</variable>
+
+<variable id="phv00129299.v1">
+	<name>SPAM_V5</name>
+	<description>S&#39; wave amplitude, lead spam_v5</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>1137</logical_max>
+</variable>
+
+<variable id="phv00129300.v1">
+	<name>SPAM_V6</name>
+	<description>S&#39; wave amplitude, lead spam_v6</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>1079</logical_max>
+</variable>
+
+<variable id="phv00129301.v1">
+	<name>SPATIAL_RT</name>
+	<description><![CDATA[Spatial QRS/T angle (&#176;)]]></description>
+	<type>decimal</type>
+	<logical_min>0.353546940467469</logical_min>
+	<logical_max>178.048932725367</logical_max>
+</variable>
+
+<variable id="phv00129302.v1">
+	<name>SPDU_AVF</name>
+	<description>S&#39; wave duration, lead spdu_avf</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>154</logical_max>
+</variable>
+
+<variable id="phv00129303.v1">
+	<name>SPDU_AVL</name>
+	<description>S&#39; wave duration, lead spdu_avl</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>63</logical_max>
+</variable>
+
+<variable id="phv00129304.v1">
+	<name>SPDU_AVR</name>
+	<description>S&#39; wave duration, lead spdu_avr</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>51</logical_max>
+</variable>
+
+<variable id="phv00129305.v1">
+	<name>SPDU_I</name>
+	<description>S&#39; wave duration, lead spdu_i</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>42</logical_max>
+</variable>
+
+<variable id="phv00129306.v1">
+	<name>SPDU_II</name>
+	<description>S&#39; wave duration, lead spdu_ii</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>140</logical_max>
+</variable>
+
+<variable id="phv00129307.v1">
+	<name>SPDU_III</name>
+	<description>S&#39; wave duration, lead spdu_iii</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>154</logical_max>
+</variable>
+
+<variable id="phv00129308.v1">
+	<name>SPDU_V1</name>
+	<description>S&#39; wave duration, lead spdu_v1</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>154</logical_max>
+</variable>
+
+<variable id="phv00129309.v1">
+	<name>SPDU_V2</name>
+	<description>S&#39; wave duration, lead spdu_v2</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>70</logical_max>
+</variable>
+
+<variable id="phv00129310.v1">
+	<name>SPDU_V3</name>
+	<description>S&#39; wave duration, lead spdu_v3</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>154</logical_max>
+</variable>
+
+<variable id="phv00129311.v1">
+	<name>SPDU_V4</name>
+	<description>S&#39; wave duration, lead spdu_v4</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>149</logical_max>
+</variable>
+
+<variable id="phv00129312.v1">
+	<name>SPDU_V5</name>
+	<description>S&#39; wave duration, lead spdu_v5</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>146</logical_max>
+</variable>
+
+<variable id="phv00129313.v1">
+	<name>SPDU_V6</name>
+	<description>S&#39; wave duration, lead spdu_v6</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>146</logical_max>
+</variable>
+
+<variable id="phv00129314.v1">
+	<name>SPTA_AVF</name>
+	<description>Special T wave amplitude = the Minimum of either T amplitude or the T amplitude - STE, lead spta_avf</description>
+	<type>integer</type>
+	<logical_min>-478</logical_min>
+	<logical_max>595</logical_max>
+	<comment>Special T wave amplitude = the Minimum of either T amplitude or the T amplitude - STE, lead spta_avf</comment>
+</variable>
+
+<variable id="phv00129315.v1">
+	<name>SPTA_AVL</name>
+	<description>Special T wave amplitude = the Minimum of either T amplitude or the T amplitude - STE, lead spta_avl</description>
+	<type>integer</type>
+	<logical_min>-634</logical_min>
+	<logical_max>547</logical_max>
+	<comment>Special T wave amplitude = the Minimum of either T amplitude or the T amplitude - STE, lead spta_avl</comment>
+</variable>
+
+<variable id="phv00129316.v1">
+	<name>SPTA_AVR</name>
+	<description>Special T wave amplitude = the Minimum of either T amplitude or the T amplitude - STE, lead spta_avr</description>
+	<type>integer</type>
+	<logical_min>-625</logical_min>
+	<logical_max>362</logical_max>
+	<comment>Special T wave amplitude = the Minimum of either T amplitude or the T amplitude - STE, lead spta_avr</comment>
+</variable>
+
+<variable id="phv00129317.v1">
+	<name>SPTA_I</name>
+	<description>Special T wave amplitude = the Minimum of either T amplitude or the T amplitude - STE, lead spta_i</description>
+	<type>integer</type>
+	<logical_min>-790</logical_min>
+	<logical_max>591</logical_max>
+	<comment>Special T wave amplitude = the Minimum of either T amplitude or the T amplitude - STE, lead spta_i</comment>
+</variable>
+
+<variable id="phv00129318.v1">
+	<name>SPTA_II</name>
+	<description>Special T wave amplitude = the Minimum of either T amplitude or the T amplitude - STE, lead spta_ii</description>
+	<type>integer</type>
+	<logical_min>-731</logical_min>
+	<logical_max>669</logical_max>
+	<comment>Special T wave amplitude = the Minimum of either T amplitude or the T amplitude - STE, lead spta_ii</comment>
+</variable>
+
+<variable id="phv00129319.v1">
+	<name>SPTA_III</name>
+	<description>Special T wave amplitude = the Minimum of either T amplitude or the T amplitude - STE, lead spta_iii</description>
+	<type>integer</type>
+	<logical_min>-683</logical_min>
+	<logical_max>581</logical_max>
+	<comment>Special T wave amplitude = the Minimum of either T amplitude or the T amplitude - STE, lead spta_iii</comment>
+</variable>
+
+<variable id="phv00129320.v1">
+	<name>SPTA_V1</name>
+	<description>Special T wave amplitude = the Minimum of either T amplitude or the T amplitude - STE, lead spta_v1</description>
+	<type>integer</type>
+	<logical_min>-668</logical_min>
+	<logical_max>767</logical_max>
+	<comment>Special T wave amplitude = the Minimum of either T amplitude or the T amplitude - STE, lead spta_v1</comment>
+</variable>
+
+<variable id="phv00129321.v1">
+	<name>SPTA_V2</name>
+	<description>Special T wave amplitude = the Minimum of either T amplitude or the T amplitude - STE, lead spta_v2</description>
+	<type>integer</type>
+	<logical_min>-771</logical_min>
+	<logical_max>1235</logical_max>
+	<comment>Special T wave amplitude = the Minimum of either T amplitude or the T amplitude - STE, lead spta_v2</comment>
+</variable>
+
+<variable id="phv00129322.v1">
+	<name>SPTA_V3</name>
+	<description>Special T wave amplitude = the Minimum of either T amplitude or the T amplitude - STE, lead spta_v3</description>
+	<type>integer</type>
+	<logical_min>-932</logical_min>
+	<logical_max>1163</logical_max>
+	<comment>Special T wave amplitude = the Minimum of either T amplitude or the T amplitude - STE, lead spta_v3</comment>
+</variable>
+
+<variable id="phv00129323.v1">
+	<name>SPTA_V4</name>
+	<description>Special T wave amplitude = the Minimum of either T amplitude or the T amplitude - STE, lead spta_v4</description>
+	<type>integer</type>
+	<logical_min>-1103</logical_min>
+	<logical_max>1089</logical_max>
+	<comment>Special T wave amplitude = the Minimum of either T amplitude or the T amplitude - STE, lead spta_v4</comment>
+</variable>
+
+<variable id="phv00129324.v1">
+	<name>SPTA_V5</name>
+	<description>Special T wave amplitude = the Minimum of either T amplitude or the T amplitude - STE, lead spta_v5</description>
+	<type>integer</type>
+	<logical_min>-1142</logical_min>
+	<logical_max>1059</logical_max>
+	<comment>Special T wave amplitude = the Minimum of either T amplitude or the T amplitude - STE, lead spta_v5</comment>
+</variable>
+
+<variable id="phv00129325.v1">
+	<name>SPTA_V6</name>
+	<description>Special T wave amplitude = the Minimum of either T amplitude or the T amplitude - STE, lead spta_v6</description>
+	<type>integer</type>
+	<logical_min>-825</logical_min>
+	<logical_max>796</logical_max>
+	<comment>Special T wave amplitude = the Minimum of either T amplitude or the T amplitude - STE, lead spta_v6</comment>
+</variable>
+
+<variable id="phv00129326.v1">
+	<name>ST60_AVF</name>
+	<description>ST Amplitude 60 ms after J Point, Lead aVF (uV)</description>
+	<type>integer</type>
+	<logical_min>-195</logical_min>
+	<logical_max>458</logical_max>
+</variable>
+
+<variable id="phv00129327.v1">
+	<name>ST60_AVL</name>
+	<description>ST Amplitude 60 ms After the J Point, Lead aVL (uV)</description>
+	<type>integer</type>
+	<logical_min>-299</logical_min>
+	<logical_max>225</logical_max>
+</variable>
+
+<variable id="phv00129328.v1">
+	<name>ST60_AVR</name>
+	<description>ST Amplitude 60 ms after J Point, Lead aVR (uV)</description>
+	<type>integer</type>
+	<logical_min>-189</logical_min>
+	<logical_max>337</logical_max>
+</variable>
+
+<variable id="phv00129329.v1">
+	<name>ST60_I</name>
+	<description>ST Amplitude 60 ms after J Point, Lead I (uV)</description>
+	<type>integer</type>
+	<logical_min>-342</logical_min>
+	<logical_max>235</logical_max>
+</variable>
+
+<variable id="phv00129330.v1">
+	<name>ST60_II</name>
+	<description>ST Amplitude 60 ms after J Point, Lead II (uV)</description>
+	<type>integer</type>
+	<logical_min>-332</logical_min>
+	<logical_max>411</logical_max>
+</variable>
+
+<variable id="phv00129331.v1">
+	<name>ST60_III</name>
+	<description>ST Amplitude 60 ms after J Point, Lead III (uV)</description>
+	<type>integer</type>
+	<logical_min>-271</logical_min>
+	<logical_max>505</logical_max>
+</variable>
+
+<variable id="phv00129332.v1">
+	<name>ST60_V1</name>
+	<description>ST Amplitude 60 ms after J Point, Lead V1 (uV)</description>
+	<type>integer</type>
+	<logical_min>-229</logical_min>
+	<logical_max>1197</logical_max>
+</variable>
+
+<variable id="phv00129333.v1">
+	<name>ST60_V2</name>
+	<description>ST Amplitude 60 ms after J Point, Lead V2 (uV)</description>
+	<type>integer</type>
+	<logical_min>-190</logical_min>
+	<logical_max>1856</logical_max>
+</variable>
+
+<variable id="phv00129334.v1">
+	<name>ST60_V3</name>
+	<description>ST Amplitude 60 ms after J Point, Lead V3 (uV)</description>
+	<type>integer</type>
+	<logical_min>-190</logical_min>
+	<logical_max>1381</logical_max>
+</variable>
+
+<variable id="phv00129335.v1">
+	<name>ST60_V4</name>
+	<description>ST Amplitude 60 ms after J Point, Lead V4 (uV)</description>
+	<type>integer</type>
+	<logical_min>-281</logical_min>
+	<logical_max>837</logical_max>
+</variable>
+
+<variable id="phv00129336.v1">
+	<name>ST60_V5</name>
+	<description>ST Amplitude 60 ms after J Point, Lead V5 (uV)</description>
+	<type>integer</type>
+	<logical_min>-249</logical_min>
+	<logical_max>393</logical_max>
+</variable>
+
+<variable id="phv00129337.v1">
+	<name>ST60_V6</name>
+	<description>ST Amplitude 60 ms after J Point, Lead V6 (uV)</description>
+	<type>integer</type>
+	<logical_min>-305</logical_min>
+	<logical_max>195</logical_max>
+</variable>
+
+<variable id="phv00129338.v1">
+	<name>STE_AVF</name>
+	<description>E (end of ST segment/beginning of T wave) amplitude, lead ste_avf</description>
+	<type>integer</type>
+	<logical_min>-250</logical_min>
+	<logical_max>600</logical_max>
+	<comment>E (end of ST segment/beginning of T wave) amplitude, lead ste_avf</comment>
+</variable>
+
+<variable id="phv00129339.v1">
+	<name>STE_AVL</name>
+	<description>E (end of ST segment/beginning of T wave) amplitude, lead ste_avl</description>
+	<type>integer</type>
+	<logical_min>-416</logical_min>
+	<logical_max>375</logical_max>
+	<comment>E (end of ST segment/beginning of T wave) amplitude, lead ste_avl</comment>
+</variable>
+
+<variable id="phv00129340.v1">
+	<name>STE_AVR</name>
+	<description>E (end of ST segment/beginning of T wave) amplitude, lead ste_avr</description>
+	<type>integer</type>
+	<logical_min>-342</logical_min>
+	<logical_max>439</logical_max>
+	<comment>E (end of ST segment/beginning of T wave) amplitude, lead ste_avr</comment>
+</variable>
+
+<variable id="phv00129341.v1">
+	<name>STE_I</name>
+	<description>E (end of ST segment/beginning of T wave) amplitude, lead ste_i</description>
+	<type>integer</type>
+	<logical_min>-445</logical_min>
+	<logical_max>439</logical_max>
+	<comment>E (end of ST segment/beginning of T wave) amplitude, lead ste_i</comment>
+</variable>
+
+<variable id="phv00129342.v1">
+	<name>STE_II</name>
+	<description>E (end of ST segment/beginning of T wave) amplitude, lead ste_ii</description>
+	<type>integer</type>
+	<logical_min>-435</logical_min>
+	<logical_max>541</logical_max>
+	<comment>E (end of ST segment/beginning of T wave) amplitude, lead ste_ii</comment>
+</variable>
+
+<variable id="phv00129343.v1">
+	<name>STE_III</name>
+	<description>E (end of ST segment/beginning of T wave) amplitude, lead ste_iii</description>
+	<type>integer</type>
+	<logical_min>-347</logical_min>
+	<logical_max>659</logical_max>
+	<comment>E (end of ST segment/beginning of T wave) amplitude, lead ste_iii</comment>
+</variable>
+
+<variable id="phv00129344.v1">
+	<name>STE_V1</name>
+	<description>E (end of ST segment/beginning of T wave) amplitude, lead ste_v1</description>
+	<type>integer</type>
+	<logical_min>-313</logical_min>
+	<logical_max>1279</logical_max>
+	<comment>E (end of ST segment/beginning of T wave) amplitude, lead ste_v1</comment>
+</variable>
+
+<variable id="phv00129345.v1">
+	<name>STE_V2</name>
+	<description>E (end of ST segment/beginning of T wave) amplitude, lead ste_v2</description>
+	<type>integer</type>
+	<logical_min>-289</logical_min>
+	<logical_max>2197</logical_max>
+	<comment>E (end of ST segment/beginning of T wave) amplitude, lead ste_v2</comment>
+</variable>
+
+<variable id="phv00129346.v1">
+	<name>STE_V3</name>
+	<description>E (end of ST segment/beginning of T wave) amplitude, lead ste_v3</description>
+	<type>integer</type>
+	<logical_min>-235</logical_min>
+	<logical_max>1787</logical_max>
+	<comment>E (end of ST segment/beginning of T wave) amplitude, lead ste_v3</comment>
+</variable>
+
+<variable id="phv00129347.v1">
+	<name>STE_V4</name>
+	<description>E (end of ST segment/beginning of T wave) amplitude, lead ste_v4</description>
+	<type>integer</type>
+	<logical_min>-342</logical_min>
+	<logical_max>1264</logical_max>
+	<comment>E (end of ST segment/beginning of T wave) amplitude, lead ste_v4</comment>
+</variable>
+
+<variable id="phv00129348.v1">
+	<name>STE_V5</name>
+	<description>E (end of ST segment/beginning of T wave) amplitude, lead ste_v5</description>
+	<type>integer</type>
+	<logical_min>-333</logical_min>
+	<logical_max>576</logical_max>
+	<comment>E (end of ST segment/beginning of T wave) amplitude, lead ste_v5</comment>
+</variable>
+
+<variable id="phv00129349.v1">
+	<name>STE_V6</name>
+	<description>E (end of ST segment/beginning of T wave) amplitude, lead ste_v6</description>
+	<type>integer</type>
+	<logical_min>-494</logical_min>
+	<logical_max>356</logical_max>
+	<comment>E (end of ST segment/beginning of T wave) amplitude, lead ste_v6</comment>
+</variable>
+
+<variable id="phv00129350.v1">
+	<name>STJ_AVF</name>
+	<description>J (end of QRS) point amplitude, lead stj_avf</description>
+	<type>integer</type>
+	<logical_min>-269</logical_min>
+	<logical_max>317</logical_max>
+</variable>
+
+<variable id="phv00129351.v1">
+	<name>STJ_AVL</name>
+	<description>J (end of QRS) point amplitude, lead stj_avl</description>
+	<type>integer</type>
+	<logical_min>-191</logical_min>
+	<logical_max>209</logical_max>
+</variable>
+
+<variable id="phv00129352.v1">
+	<name>STJ_AVR</name>
+	<description>J (end of QRS) point amplitude, lead stj_avr</description>
+	<type>integer</type>
+	<logical_min>-137</logical_min>
+	<logical_max>214</logical_max>
+</variable>
+
+<variable id="phv00129353.v1">
+	<name>STJ_I</name>
+	<description>J (end of QRS) point amplitude, lead stj_i</description>
+	<type>integer</type>
+	<logical_min>-225</logical_min>
+	<logical_max>205</logical_max>
+</variable>
+
+<variable id="phv00129354.v1">
+	<name>STJ_II</name>
+	<description>J (end of QRS) point amplitude, lead stj_ii</description>
+	<type>integer</type>
+	<logical_min>-240</logical_min>
+	<logical_max>297</logical_max>
+</variable>
+
+<variable id="phv00129355.v1">
+	<name>STJ_III</name>
+	<description>J (end of QRS) point amplitude, lead stj_iii</description>
+	<type>integer</type>
+	<logical_min>-298</logical_min>
+	<logical_max>341</logical_max>
+</variable>
+
+<variable id="phv00129356.v1">
+	<name>STJ_V1</name>
+	<description>J (end of QRS) point amplitude, lead stj_v1</description>
+	<type>integer</type>
+	<logical_min>-186</logical_min>
+	<logical_max>820</logical_max>
+</variable>
+
+<variable id="phv00129357.v1">
+	<name>STJ_V2</name>
+	<description>J (end of QRS) point amplitude, lead stj_v2</description>
+	<type>integer</type>
+	<logical_min>-196</logical_min>
+	<logical_max>991</logical_max>
+</variable>
+
+<variable id="phv00129358.v1">
+	<name>STJ_V3</name>
+	<description>J (end of QRS) point amplitude, lead stj_v3</description>
+	<type>integer</type>
+	<logical_min>-196</logical_min>
+	<logical_max>668</logical_max>
+</variable>
+
+<variable id="phv00129359.v1">
+	<name>STJ_V4</name>
+	<description>J (end of QRS) point amplitude, lead stj_v4</description>
+	<type>integer</type>
+	<logical_min>-284</logical_min>
+	<logical_max>332</logical_max>
+</variable>
+
+<variable id="phv00129360.v1">
+	<name>STJ_V5</name>
+	<description>J (end of QRS) point amplitude, lead stj_v5</description>
+	<type>integer</type>
+	<logical_min>-245</logical_min>
+	<logical_max>205</logical_max>
+</variable>
+
+<variable id="phv00129361.v1">
+	<name>STJ_V6</name>
+	<description>J (end of QRS) point amplitude, lead stj_v6</description>
+	<type>integer</type>
+	<logical_min>-259</logical_min>
+	<logical_max>170</logical_max>
+</variable>
+
+<variable id="phv00129362.v1">
+	<name>STM_AVF</name>
+	<description>M (middle of ST segment) amplitude, lead stm_avf</description>
+	<type>integer</type>
+	<logical_min>-196</logical_min>
+	<logical_max>449</logical_max>
+</variable>
+
+<variable id="phv00129363.v1">
+	<name>STM_AVL</name>
+	<description>M (middle of ST segment) amplitude, lead stm_avl</description>
+	<type>integer</type>
+	<logical_min>-289</logical_min>
+	<logical_max>219</logical_max>
+</variable>
+
+<variable id="phv00129364.v1">
+	<name>STM_AVR</name>
+	<description>M (middle of ST segment) amplitude, lead stm_avr</description>
+	<type>integer</type>
+	<logical_min>-171</logical_min>
+	<logical_max>312</logical_max>
+</variable>
+
+<variable id="phv00129365.v1">
+	<name>STM_I</name>
+	<description>M (middle of ST segment) amplitude, lead stm_i</description>
+	<type>integer</type>
+	<logical_min>-323</logical_min>
+	<logical_max>195</logical_max>
+</variable>
+
+<variable id="phv00129366.v1">
+	<name>STM_II</name>
+	<description>M (middle of ST segment) amplitude, lead stm_ii</description>
+	<type>integer</type>
+	<logical_min>-308</logical_min>
+	<logical_max>405</logical_max>
+</variable>
+
+<variable id="phv00129367.v1">
+	<name>STM_III</name>
+	<description>M (middle of ST segment) amplitude, lead stm_iii</description>
+	<type>integer</type>
+	<logical_min>-279</logical_min>
+	<logical_max>493</logical_max>
+</variable>
+
+<variable id="phv00129368.v1">
+	<name>STM_V1</name>
+	<description>M (middle of ST segment) amplitude, lead stm_v1</description>
+	<type>integer</type>
+	<logical_min>-176</logical_min>
+	<logical_max>1201</logical_max>
+</variable>
+
+<variable id="phv00129369.v1">
+	<name>STM_V2</name>
+	<description>M (middle of ST segment) amplitude, lead stm_v2</description>
+	<type>integer</type>
+	<logical_min>-152</logical_min>
+	<logical_max>1865</logical_max>
+</variable>
+
+<variable id="phv00129370.v1">
+	<name>STM_V3</name>
+	<description>M (middle of ST segment) amplitude, lead stm_v3</description>
+	<type>integer</type>
+	<logical_min>-171</logical_min>
+	<logical_max>1391</logical_max>
+</variable>
+
+<variable id="phv00129371.v1">
+	<name>STM_V4</name>
+	<description>M (middle of ST segment) amplitude, lead stm_v4</description>
+	<type>integer</type>
+	<logical_min>-284</logical_min>
+	<logical_max>844</logical_max>
+</variable>
+
+<variable id="phv00129372.v1">
+	<name>STM_V5</name>
+	<description>M (middle of ST segment) amplitude, lead stm_v5</description>
+	<type>integer</type>
+	<logical_min>-264</logical_min>
+	<logical_max>541</logical_max>
+</variable>
+
+<variable id="phv00129373.v1">
+	<name>STM_V6</name>
+	<description>M (middle of ST segment) amplitude, lead stm_v6</description>
+	<type>integer</type>
+	<logical_min>-367</logical_min>
+	<logical_max>288</logical_max>
+</variable>
+
+<variable id="phv00129374.v1">
+	<name>SUPRAVTA</name>
+	<description>Supraventricular Tachycardia / Minnesota Code 8.4.2 (1,0)</description>
+	<type>encoded value</type>
+	<comment>Supraventricular Tachycardia / Minnesota Code 8.4.2 (1,0)&lt;br/&gt;</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00129375.v1">
+	<name>SVE_N</name>
+	<description>Supraventricular ectopic beats (n)</description>
+	<type>integer</type>
+	<logical_min>1</logical_min>
+	<logical_max>7</logical_max>
+</variable>
+
+<variable id="phv00129376.v1">
+	<name>TAM_AVF</name>
+	<description>T wave amplitude, lead tam_avf</description>
+	<type>integer</type>
+	<logical_min>-478</logical_min>
+	<logical_max>917</logical_max>
+</variable>
+
+<variable id="phv00129377.v1">
+	<name>TAM_AVR</name>
+	<description>T wave amplitude, lead tam_avr</description>
+	<type>integer</type>
+	<logical_min>-625</logical_min>
+	<logical_max>737</logical_max>
+</variable>
+
+<variable id="phv00129378.v1">
+	<name>TAM_III</name>
+	<description>T wave amplitude, lead tam_iii</description>
+	<type>integer</type>
+	<logical_min>-683</logical_min>
+	<logical_max>986</logical_max>
+</variable>
+
+<variable id="phv00129379.v1">
+	<name>TAR_AVF</name>
+	<description>T wave area (T + T&#39;), lead tar_avf</description>
+	<type>integer</type>
+	<logical_min>-2474</logical_min>
+	<logical_max>5912</logical_max>
+</variable>
+
+<variable id="phv00129380.v1">
+	<name>TAR_AVL</name>
+	<description>T wave area (T + T&#39;), lead tar_avl</description>
+	<type>integer</type>
+	<logical_min>-3775</logical_min>
+	<logical_max>3621</logical_max>
+</variable>
+
+<variable id="phv00129381.v1">
+	<name>TAR_AVR</name>
+	<description>T wave area (T + T&#39;), lead tar_avr</description>
+	<type>integer</type>
+	<logical_min>-4047</logical_min>
+	<logical_max>3917</logical_max>
+</variable>
+
+<variable id="phv00129382.v1">
+	<name>TAR_I</name>
+	<description>T wave area (T + T&#39;), lead tar_i</description>
+	<type>integer</type>
+	<logical_min>-4145</logical_min>
+	<logical_max>4202</logical_max>
+</variable>
+
+<variable id="phv00129383.v1">
+	<name>TAR_II</name>
+	<description>T wave area (T + T&#39;), lead tar_ii</description>
+	<type>integer</type>
+	<logical_min>-3690</logical_min>
+	<logical_max>6639</logical_max>
+</variable>
+
+<variable id="phv00129384.v1">
+	<name>TAR_III</name>
+	<description>T wave area (T + T&#39;), lead tar_iii</description>
+	<type>integer</type>
+	<logical_min>-3560</logical_min>
+	<logical_max>6107</logical_max>
+</variable>
+
+<variable id="phv00129385.v1">
+	<name>TAR_V1</name>
+	<description>T wave area (T + T&#39;), lead tar_v1</description>
+	<type>integer</type>
+	<logical_min>-4312</logical_min>
+	<logical_max>8789</logical_max>
+</variable>
+
+<variable id="phv00129386.v1">
+	<name>TAR_V2</name>
+	<description>T wave area (T + T&#39;), lead tar_v2</description>
+	<type>integer</type>
+	<logical_min>-4084</logical_min>
+	<logical_max>14431</logical_max>
+</variable>
+
+<variable id="phv00129387.v1">
+	<name>TAR_V3</name>
+	<description>T wave area (T + T&#39;), lead tar_v3</description>
+	<type>integer</type>
+	<logical_min>-6291</logical_min>
+	<logical_max>11372</logical_max>
+</variable>
+
+<variable id="phv00129388.v1">
+	<name>TAR_V4</name>
+	<description>T wave area (T + T&#39;), lead tar_v4</description>
+	<type>integer</type>
+	<logical_min>-7422</logical_min>
+	<logical_max>10326</logical_max>
+</variable>
+
+<variable id="phv00129389.v1">
+	<name>TAR_V5</name>
+	<description>T wave area (T + T&#39;), lead tar_v5</description>
+	<type>integer</type>
+	<logical_min>-7015</logical_min>
+	<logical_max>8558</logical_max>
+</variable>
+
+<variable id="phv00129390.v1">
+	<name>TAR_V6</name>
+	<description>T wave area (T + T&#39;), lead tar_v6</description>
+	<type>integer</type>
+	<logical_min>-4907</logical_min>
+	<logical_max>5666</logical_max>
+</variable>
+
+<variable id="phv00129391.v1">
+	<name>TH_AVBLK</name>
+	<description><![CDATA[Complete 3&#176; Atrioventricular Block / Minnesota Code 6.1 (1,0)]]></description>
+	<type>encoded value</type>
+	<comment><![CDATA[Complete 3&#176; Atrioventricular Block / Minnesota Code 6.1 (1,0)<br/>]]></comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00129392.v1">
+	<name>TOTAL_RR</name>
+	<description>Total Number of RR Intervals (n)</description>
+	<type>integer</type>
+	<logical_min>3</logical_min>
+	<logical_max>18</logical_max>
+</variable>
+
+<variable id="phv00129393.v1">
+	<name>TPAM_AVF</name>
+	<description>T&#39; wave amplitude byu lead</description>
+	<type>integer</type>
+	<logical_min>-175</logical_min>
+	<logical_max>263</logical_max>
+</variable>
+
+<variable id="phv00129394.v1">
+	<name>TPAM_AVL</name>
+	<description>T&#39; wave amplitude byu lead</description>
+	<type>integer</type>
+	<logical_min>-146</logical_min>
+	<logical_max>229</logical_max>
+</variable>
+
+<variable id="phv00129395.v1">
+	<name>TPAM_AVR</name>
+	<description>T&#39; wave amplitude byu lead</description>
+	<type>integer</type>
+	<logical_min>-273</logical_min>
+	<logical_max>170</logical_max>
+</variable>
+
+<variable id="phv00129396.v1">
+	<name>TPAM_I</name>
+	<description>T&#39; wave amplitude byu lead</description>
+	<type>integer</type>
+	<logical_min>-253</logical_min>
+	<logical_max>292</logical_max>
+</variable>
+
+<variable id="phv00129397.v1">
+	<name>TPAM_II</name>
+	<description>T&#39; wave amplitude byu lead</description>
+	<type>integer</type>
+	<logical_min>-268</logical_min>
+	<logical_max>351</logical_max>
+</variable>
+
+<variable id="phv00129398.v1">
+	<name>TPAM_III</name>
+	<description>T&#39; wave amplitude byu lead</description>
+	<type>integer</type>
+	<logical_min>-327</logical_min>
+	<logical_max>283</logical_max>
+</variable>
+
+<variable id="phv00129399.v1">
+	<name>TPAM_V1</name>
+	<description>T&#39; wave amplitude byu lead</description>
+	<type>integer</type>
+	<logical_min>-229</logical_min>
+	<logical_max>175</logical_max>
+</variable>
+
+<variable id="phv00129400.v1">
+	<name>TPAM_V2</name>
+	<description>T&#39; wave amplitude byu lead</description>
+	<type>integer</type>
+	<logical_min>-527</logical_min>
+	<logical_max>263</logical_max>
+</variable>
+
+<variable id="phv00129401.v1">
+	<name>TPAM_V3</name>
+	<description>T&#39; wave amplitude byu lead</description>
+	<type>integer</type>
+	<logical_min>-517</logical_min>
+	<logical_max>229</logical_max>
+</variable>
+
+<variable id="phv00129402.v1">
+	<name>TPAM_V4</name>
+	<description>T&#39; wave amplitude byu lead</description>
+	<type>integer</type>
+	<logical_min>-454</logical_min>
+	<logical_max>410</logical_max>
+</variable>
+
+<variable id="phv00129403.v1">
+	<name>TPAM_V5</name>
+	<description>T&#39; wave amplitude byu lead</description>
+	<type>integer</type>
+	<logical_min>-292</logical_min>
+	<logical_max>366</logical_max>
+</variable>
+
+<variable id="phv00129404.v1">
+	<name>TPAM_V6</name>
+	<description>T&#39; wave amplitude byu lead</description>
+	<type>integer</type>
+	<logical_min>-239</logical_min>
+	<logical_max>322</logical_max>
+</variable>
+
+<variable id="phv00129405.v1">
+	<name>T_AVL</name>
+	<description>T Wave Amplitude, Lead aVL (uV)</description>
+	<type>integer</type>
+	<logical_min>-620</logical_min>
+	<logical_max>654</logical_max>
+</variable>
+
+<variable id="phv00077406.v2">
+	<name>T_AXIS</name>
+	<description>T Axis (degrees)</description>
+	<type>integer</type>
+	<unit>degrees</unit>
+	<logical_min>-89</logical_min>
+	<logical_max>270</logical_max>
+</variable>
+
+<variable id="phv00129406.v1">
+	<name>T_I</name>
+	<description>T Wave Amplitude, Lead I (uV)</description>
+	<type>integer</type>
+	<logical_min>-771</logical_min>
+	<logical_max>732</logical_max>
+</variable>
+
+<variable id="phv00129407.v1">
+	<name>T_II</name>
+	<description>T Wave Amplitude, Lead II (uV)</description>
+	<type>integer</type>
+	<logical_min>-712</logical_min>
+	<logical_max>1025</logical_max>
+</variable>
+
+<variable id="phv00129408.v1">
+	<name>T_V1</name>
+	<description>T Wave Amplitude, Lead V1 (uV)</description>
+	<type>integer</type>
+	<logical_min>-668</logical_min>
+	<logical_max>1596</logical_max>
+</variable>
+
+<variable id="phv00129409.v1">
+	<name>T_V2</name>
+	<description>T Wave Amplitude, Lead V2 (uV)</description>
+	<type>integer</type>
+	<logical_min>-771</logical_min>
+	<logical_max>2197</logical_max>
+</variable>
+
+<variable id="phv00129410.v1">
+	<name>T_V3</name>
+	<description>T Wave Amplitude, Lead V3 (uV)</description>
+	<type>integer</type>
+	<logical_min>-932</logical_min>
+	<logical_max>1787</logical_max>
+</variable>
+
+<variable id="phv00129411.v1">
+	<name>T_V4</name>
+	<description>T Wave Amplitude, Lead V4 (uV)</description>
+	<type>integer</type>
+	<logical_min>-1074</logical_min>
+	<logical_max>1655</logical_max>
+</variable>
+
+<variable id="phv00129412.v1">
+	<name>T_V5</name>
+	<description>T Wave Amplitude, Lead V5 (uV)</description>
+	<type>integer</type>
+	<logical_min>-1142</logical_min>
+	<logical_max>1372</logical_max>
+</variable>
+
+<variable id="phv00129413.v1">
+	<name>T_V6</name>
+	<description>T Wave Amplitude, Lead V6 (uV)</description>
+	<type>integer</type>
+	<logical_min>-825</logical_min>
+	<logical_max>937</logical_max>
+</variable>
+
+<variable id="phv00129414.v1">
+	<name>UC_RHYCL</name>
+	<description>Supraventricular Rhythm / Minnesota Code 8.4.1 (1,0)</description>
+	<type>encoded value</type>
+	<comment>Supraventricular Rhythm / Minnesota Code 8.4.1 (1,0)</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00129415.v1">
+	<name>VE_N</name>
+	<description>Ventricular etopic beats</description>
+	<type>integer</type>
+	<logical_min>1</logical_min>
+	<logical_max>8</logical_max>
+</variable>
+
+<variable id="phv00129416.v1">
+	<name>VEN_TACH</name>
+	<description>Ventricular Tachycardia / Minnesota Code 8.2 (1,0)</description>
+	<type>encoded value</type>
+	<comment>Ventricular Tachycardia / Minnesota Code 8.2 (1,0)&lt;br/&gt;</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00077427.v2">
+	<name>WANDER</name>
+	<description>Wandering Atrial Pacemaker / Minnesota Code 8.14 (1,0)</description>
+	<type>encoded value</type>
+	<comment>Wandering Atrial Pacemaker / Minnesota Code 8.14 (1,0)&lt;br/&gt;</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00129417.v1">
+	<name>WENKBACH</name>
+	<description>Wenckebach Phenomenon / Minnesota Code 6.2.3 (1,0)</description>
+	<type>encoded value</type>
+	<comment>Wenckebach Phenomenon / Minnesota Code 6.2.3 (1,0)</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00077414.v2">
+	<name>WPW</name>
+	<description>Wolff-Parkinson-White Pattern / Minnesota Code 6.4 (1,0)</description>
+	<type>encoded value</type>
+	<comment>Wolf-Parkinson-White Pattern / Minnesota Code 6.4 (1,0)</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+</data_table>

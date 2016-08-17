@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./datadict_v2.xsl"?>
+<data_table id="pht001103.v1" study_id="phs000219.v1" participant_set="1" date_created="Tue Jan 19 13:07:11 2010">
+
+<unique_key phv="00082561" version="1">SUBJID</unique_key>
+<unique_key phv="00082565" version="1">VISIT</unique_key>
+
+<variable id="phv00082561.v1">
+	<name>SUBJID</name>
+	<description>Subject&#39;s ID</description>
+	<type>String</type>
+</variable>
+
+<variable id="phv00082562.v1">
+	<name>CASE_CONTROL</name>
+	<description>Subject type</description>
+	<type>Encoded value</type>
+	<value code="ADP">AD Participant</value>
+	<value code="CASE">Case</value>
+	<value code="CCCS">Control with Change in Cognitive Status</value>
+	<value code="CNTL">Control</value>
+	<value code="FAM">Family member</value>
+	<value code="UASB">Unaffected Sibling</value>
+</variable>
+
+<variable id="phv00082563.v1">
+	<name>INV</name>
+	<description>Investigator&#39;s ID</description>
+	<type>String</type>
+</variable>
+
+<variable id="phv00082564.v1">
+	<name>INVSITE</name>
+	<description>Investigator site ID</description>
+	<type>String</type>
+</variable>
+
+<variable id="phv00082565.v1">
+	<name>VISIT</name>
+	<description>Visit name</description>
+	<type>String</type>
+</variable>
+
+<variable id="phv00082566.v1">
+	<name>VISIT_DATE</name>
+	<description>Visit date</description>
+	<type>Date</type>
+	<comment>Truncated to YYYY</comment>
+</variable>
+
+<variable id="phv00082567.v1">
+	<name>ARRHYTHMIAS_TERFRES</name>
+	<description>CARDIAC ARRHYTHMIAS: Risk factor</description>
+	<type>Encoded Value</type>
+	<value code="K">Don&#39;t Know</value>
+	<value code="N">No</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00082568.v1">
+	<name>ARRHYTHMIAS_TERFTX</name>
+	<description>CARDIAC ARRHYTHMIAS: Risk factor - text</description>
+	<type>String</type>
+</variable>
+
+<variable id="phv00082569.v1">
+	<name>SURGERY_TERFRES</name>
+	<description>CARDIAC SURGERY OR CABG (Coronary Artery Bypass Graft): Risk factor</description>
+	<type>Encoded Value</type>
+	<value code="K">Don&#39;t Know</value>
+	<value code="N">No</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00082570.v1">
+	<name>SURGERY_TERFTX</name>
+	<description>CARDIAC SURGERY OR CABG: Risk factor text -</description>
+	<type>String</type>
+</variable>
+
+<variable id="phv00082571.v1">
+	<name>FEVER_TERFRES</name>
+	<description>HISTORY OF RHEUMATIC FEVER / RHEUMATIC HEART DISEASE: Risk factor</description>
+	<type>Encoded Value</type>
+	<value code="K">Don&#39;t Know</value>
+	<value code="N">No</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00082572.v1">
+	<name>FEVER_TERFTX</name>
+	<description>HISTORY OF RHEUMATIC FEVER / RHEUMATIC HEART DISEASE: Risk factor - text</description>
+	<type>String</type>
+</variable>
+
+<variable id="phv00082573.v1">
+	<name>ENDOCARDITIS_TERFRES</name>
+	<description>HISTORY OF SUBACUTE OR ACUTE INFECTIVE ENDOCARDITIS: Risk factor</description>
+	<type>Encoded Value</type>
+	<value code="K">Don&#39;t Know</value>
+	<value code="N">No</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00082574.v1">
+	<name>ENDOCARDITIS_TERFTX</name>
+	<description>HISTORY OF SUBACUTE OR ACUTE INFECTIVE ENDOCARDITIS: Risk factor - text</description>
+	<type>String</type>
+</variable>
+
+<variable id="phv00082575.v1">
+	<name>VASCULITIS_TERFRES</name>
+	<description>HISTORY OF VASCULITIS: Risk factor</description>
+	<type>Encoded Value</type>
+	<value code="K">Don&#39;t Know</value>
+	<value code="N">No</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00082576.v1">
+	<name>VASCULITIS_TERFTX</name>
+	<description>HISTORY OF VASCULITIS: Risk factor - text</description>
+	<type>String</type>
+</variable>
+
+<variable id="phv00082577.v1">
+	<name>AUTO_IMMUNE_TERFRES</name>
+	<description>OTHER AUTO-IMMUNE CONDITIONS: Risk factor</description>
+	<type>Encoded Value</type>
+	<value code="K">Don&#39;t Know</value>
+	<value code="N">No</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00082578.v1">
+	<name>AUTO_IMMUNE_TERFTX</name>
+	<description>OTHER AUTO-IMMUNE CONDITIONS: Risk factor - text</description>
+	<type>String</type>
+</variable>
+
+<variable id="phv00082579.v1">
+	<name>VALVES_TERFRES</name>
+	<description>PROSTHETIC HEART VALVES: Risk factor</description>
+	<type>Encoded Value</type>
+	<value code="K">Don&#39;t Know</value>
+	<value code="N">No</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00082580.v1">
+	<name>VALVES_TERFTX</name>
+	<description>PROSTHETIC HEART VALVES: Risk factor - text</description>
+	<type>String</type>
+</variable>
+
+<variable id="phv00082581.v1">
+	<name>PROTHROMBOTIC_TERFRES</name>
+	<description>PROTHROMBOTIC CONDITIONS: Risk factor</description>
+	<type>Encoded Value</type>
+	<value code="K">Don&#39;t Know</value>
+	<value code="N">No</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00082582.v1">
+	<name>PROTHROMBOTIC_TERFTX</name>
+	<description>PROTHROMBOTIC CONDITIONS: Risk factor - text</description>
+	<type>String</type>
+</variable>
+
+<variable id="phv00082583.v1">
+	<name>HEART_DISEASE_TERFRES</name>
+	<description>VALVULAR HEART DISEASE: Risk factor</description>
+	<type>Encoded Value</type>
+	<value code="K">Don&#39;t Know</value>
+	<value code="N">No</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00082584.v1">
+	<name>HEART_DISEASE_TERFTX</name>
+	<description>VALVULAR HEART DISEASE: Risk factor - text</description>
+	<type>String</type>
+</variable>
+
+</data_table>

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GaPExchange xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="./dbGaPEx2.1.5.xsd">
+
+<MetaVariables>
+	<Submitter/>
+	<Method/>
+</MetaVariables>
+<MetaLinks/>
+
+<Projects>
+	<Project/>
+</Projects>
+
+<Studies>
+
+<Study source="dbGaP" accession="phs000870.v1.p1" parentStudy="phs000870.v1.p1" createDate="2015-02-20" modDate="2015-10-13">
+
+<Configuration>
+	<Data_Provider><![CDATA[
+		<table border="1">
+		<tr><th>Title</th><th>Name</th><th>Institute</th></tr>
+		<tr><td>Principal Investigator</td><td>Graziano Pesole, Prof</td><td>IBBE-CNR and University of Bari, Italy</td></tr>
+		<tr><td>Co-Investigator</td><td>Ernesto Picardi, PhD</td><td>IBBE-CNR and University of Bari, Italy</td></tr>
+		<tr><td>Co-Investigator</td><td>Annamaria D&#39;Erchia, PhD</td><td>IBBE-CNR and University of Bari, Italy</td></tr>
+		<tr><td>Funding Source</td><td>MIUR-PRIN2009</td><td>Italian Ministry of Education, University and Research, Italy</td></tr>
+		</table>
+	]]></Data_Provider>
+	<StudyNameEntrez>Characterization of Human Transcriptome by Computational and HTS Approaches</StudyNameEntrez>
+	<StudyNameReportPage>Characterization of Human Transcriptome by Computational and HTS Approaches</StudyNameReportPage>
+	<StudyTypes>
+		<StudyType>Control Set</StudyType>
+	</StudyTypes>
+	<Description><![CDATA[
+<p>We have deeply sequenced total RNA and whole exome of six different post-mortem human snap-frozen tissues (brain, liver, lung, striated muscle, kidney, heart) from three unrelated healthy Caucasian individuals (males, aged 47-54) with the aim to characterize post-transcriptional events due to alternative splicing and RNA editing. In addition, to facilitate the detection of RNA editing sites we have also resequenced the entire genome of each individual. Data are also used to investigate tissue-specific abundance of mitochondrial DNA from exomes and its correlation with mitochondrial transcription, mass and respiratory activity.</p> <p>Tissues were obtained from Cureline (South San Francisco, CA, USA). DNA and RNA were purified using the DNeasy Blood and Tissue Kit (Qiagen, Hilden, Germany) and the RNeasy Plus Mini Kit (Qiagen, Hilden, Germany), respectively.</p> <p>Exome capture was performed using the TruSeq Exome Enrichment Kit (Illumina, San Diego, CA) and the sequencing was carried out at IGA Technology Services in Udine (Italy) on Illumina HiSeq 2000 (generating for each tissue approximately 40 millions of 100bp paired-end reads). </p> <p>Strand-oriented RNA reads (2x100bp) were generated using the TruSeq Stranded Total RNA Sample Prep Kit (Illumina, San Diego, CA, USA) and sequenced at IGA Technology Services in Udine (Italy) on Illumina HiSeq 2000 platform.</p> <p>Whole genome resequencing was performed at Personal Genomics in Italy on an Illumina HiSeq 2000 platform (2x100bp) with a mean coverage of 30X.</p> <p>MiRNA-Seq was instead performed at IBBE Institute (Italy) using the TruSeq Small RNA Sample Prep Kit on Illumina MiSeq platform.</p> <p>Preliminary bioinformatics analyses have been performed to check quality using FASTQC software and inconsistent read regions have been trimmed using trim_galore. All reads were mapped onto the human reference genome (version hg19) using GSNAP.</p>]]>
+	</Description>
+	<StudyInEx><![CDATA[
+<p>We collected age- and sex- matched (males, aged 47-54) post-autopsy samples of six snap-frozen tissues (brain, liver, lung, striated muscle, kidney, heart) from three unrelated healthy Caucasian individuals.</p> <p>Samples were obtained from Cureline (South San Francisco, CA, USA). Age was in the range 47-54 years old. Gender was male in all cases. Post-mortem delay was less than 10 hours. Race was Caucasian.</p>]]>
+	</StudyInEx>
+	<StudyProjects>
+		<Project/>
+	</StudyProjects>
+	<Publications>
+		<Publication>
+			<Pubmed pmid="25446395"/>
+		</Publication>
+		<Publication>
+			<Pubmed pmid="26449202"/>
+		</Publication>
+	</Publications>
+	<Attributions>
+		<Header title="Principal Investigator">
+			<AttName>Graziano Pesole, Prof</AttName>
+			<Institution>IBBE-CNR and University of Bari, Italy</Institution>
+		</Header>
+		<Header title="Co-Investigator">
+			<AttName>Ernesto Picardi, PhD</AttName>
+			<Institution>IBBE-CNR and University of Bari, Italy</Institution>
+		</Header>
+		<Header title="Co-Investigator">
+			<AttName>Annamaria D&#39;Erchia, PhD</AttName>
+			<Institution>IBBE-CNR and University of Bari, Italy</Institution>
+		</Header>
+		<Header title="Funding Source">
+			<AttName>MIUR-PRIN2009</AttName>
+			<Institution>Italian Ministry of Education, University and Research, Italy</Institution>
+		</Header>
+	</Attributions>
+	<DisplayPublicSummary>yes</DisplayPublicSummary>
+	<StudyURLs>
+		<Url name="" url="http://pesolelab.ibbe.cnr.it/"/>
+	</StudyURLs>
+	<ConsentGroups>
+		<ConsentGroup groupNum="1" shortName="GRU" longName="General Research Use"/>
+	</ConsentGroups>
+</Configuration>
+
+  <AuthorizedAccess>
+    <DacInfo ssDacId="0">
+      <DacName>NHGRI</DacName>
+      <DacFullName>National Human Genome Research Institute</DacFullName>
+      <DacEmail>0</DacEmail>
+      <DacPhone></DacPhone>
+      <DacUrl></DacUrl>
+    </DacInfo>
+    <Policy Policy_ID="phs000870.v1.p1_policy" ref_ssDacId="0">
+      <DisplayResearchStatement>yes</DisplayResearchStatement>
+      <DisplayPublicSummary>yes</DisplayPublicSummary>
+      <EmbargoLength>12</EmbargoLength>
+      <YearsUntilRenewal>1</YearsUntilRenewal>
+      <WeeksCancelRequest>8</WeeksCancelRequest>
+      <PdfSupplementReqired>no</PdfSupplementReqired>
+      <AcknowledgementText>
+        <para>
+          http://dbgap.ncbi.nlm.nih.gov/aa/wga.cgi?page=DUC&amp;view_pdf&amp;stacc=phs000870.v1.p1
+        </para>
+      </AcknowledgementText>
+      <DocumentSet>
+        <DataUseCertificate Label="Data Use Certificate" FilePath="https://dbgap.ncbi.nlm.nih.gov/aa/wga.cgi?page=DUC&amp;view_pdf&amp;stacc=phs000870.v1.p1" FileName=""/>
+      </DocumentSet>
+    </Policy>
+    <ConsentGroups>
+      <ParticipantSet groupNum-REF="1">
+        <ConsentName>General Research Use</ConsentName>
+        <ConsentAbbrev>GRU</ConsentAbbrev>
+        <UseLimitation>Use of the data is limited only by the terms of the model Data Use Certification.</UseLimitation>
+        <IrbRequired>No</IrbRequired>
+      </ParticipantSet>
+    </ConsentGroups>
+  </AuthorizedAccess>
+
+
+</Study>
+
+</Studies>
+
+</GaPExchange>

@@ -1,0 +1,519 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./datadict_v2.xsl"?>
+<data_table id="pht000817.v2" study_id="phs000159.v2" participant_set="1" date_created="Fri Aug 14 12:05:14 2009">
+
+<variable id="phv00073668.v2">
+	<name>SUBJID</name>
+	<description>Deidentified Subject ID</description>
+	<type>integer</type>
+</variable>
+
+<variable id="phv00073669.v2">
+	<name>AgeDx</name>
+	<description>Age at Diagnosis</description>
+	<type>integer</type>
+	<unit>years</unit>
+	<value code="1000">Not assessed</value>
+	<value code="9999">Missing</value>
+</variable>
+
+<variable id="phv00073670.v2">
+	<name>Sex</name>
+	<description>Gender of participant</description>
+	<type>encoded value</type>
+	<value code="F">Female</value>
+	<value code="M">Male</value>
+	<value code="NA">Not applicable</value>
+	<value code="UNK">Unknown</value>
+</variable>
+
+<variable id="phv00073671.v2">
+	<name>Diagnosis</name>
+	<description>Medical Diagnosis</description>
+	<type>string</type>
+	<value code="AML">AML</value>
+	<value code="MDS">MDS</value>
+	<value code="Other">Other</value>
+</variable>
+
+<variable id="phv00073672.v2">
+	<name>HeightCM</name>
+	<description>Subject&#39;s height in cetimeters</description>
+	<type>integer</type>
+	<unit>centimeters</unit>
+</variable>
+
+<variable id="phv00073673.v2">
+	<name>WeightKG</name>
+	<description>Subject&#39;s weight in kilograms</description>
+	<type>decimal, encoded value</type>
+	<unit>kilograms</unit>
+	<value code="1000">Not assessed</value>
+	<value code="9999">Unknown</value>
+</variable>
+
+<variable id="phv00073674.v2">
+	<name>Ethnicity</name>
+	<description>Subject&#39;s Ethnicity</description>
+	<type>encoded value</type>
+	<value code="0">Not Hispanic or Latino</value>
+	<value code="1">Hispanic or Latino</value>
+</variable>
+
+<variable id="phv00073675.v2">
+	<name>Race</name>
+	<description>Subject&#39;s Race</description>
+	<type>string</type>
+	<value code="African American">African American</value>
+	<value code="Asian">Asian</value>
+	<value code="Caucasian">Caucasian</value>
+	<value code="Hispanic">Hispanic</value>
+	<value code="Non-hispanic">Non-hispanic</value>
+</variable>
+
+<variable id="phv00073676.v2">
+	<name>PrevExposure</name>
+	<description>Previous Exposure to Non-Medicinal, Potentially Leukemogenic Agents</description>
+	<type>string</type>
+	<value code="NONE">NONE</value>
+	<value code="UNKNOWN">UNKNOWN</value>
+	<value code="BENZENE">BENZENE</value>
+	<value code="RADIATION">RADIATION</value>
+	<value code="PESTICIDES">PESTICIDES</value>
+	<value code="OTHER CHEMICALS">OTHER CHEMICALS</value>
+</variable>
+
+<variable id="phv00073677.v2">
+	<name>HematologicDisorder</name>
+	<description>Any preceding (to study entry) hematologic disorder</description>
+	<type>string</type>
+	<value code="1">Yes</value>
+	<value code="2">No</value>
+	<value code="UNK">Unknown</value>
+</variable>
+
+<variable id="phv00073678.v2">
+	<name>Malignancy</name>
+	<description>Any preceding (to study entry) malignancy</description>
+	<type>string</type>
+	<value code="1">Yes</value>
+	<value code="2">No</value>
+	<value code="UNK">Unknown</value>
+</variable>
+
+<variable id="phv00073679.v2">
+	<name>HematologicMalignancyCondition</name>
+	<description>Hematologic disorder and malignancy condition</description>
+	<type>string</type>
+	<value code="Unknown">Unknown</value>
+	<value code="None">None</value>
+	<value code="RA (Refractory Anemia)">RA (Refractory Anemia)</value>
+	<value code="RARS (Refractory Anemia w/Ringed Sideroblasts)">RARS (Refractory Anemia w/Ringed Sideroblasts)</value>
+	<value code="RAEB (Refractory Anemia w/Excess Blasts)">RAEB (Refractory Anemia w/Excess Blasts)</value>
+	<value code="RAEB-T (Refractory Anemia w/Excess Blasts in Trans">RAEB-T (Refractory Anemia w/Excess Blasts in Transformation)</value>
+	<value code="Primary Thrombocythemia (Essential Thrombocythemia">Primary Thrombocythemia (Essential Thrombocythemia)</value>
+	<value code="Myelofibrosis (Agnogenic Myeloid Metaplasia)">Myelofibrosis (Agnogenic Myeloid Metaplasia)</value>
+	<value code="Polycythemia Vera">Polycythemia Vera</value>
+	<value code="Chronic Myelogenous Leukemia (CML)">Chronic Myelogenous Leukemia (CML)</value>
+	<value code="Aplastic Anemia">Aplastic Anemia</value>
+	<value code="Hodgins disease">Hodgins disease</value>
+	<value code="Other Hematologic Disorders">Other Hematologic Disorders</value>
+	<value code="Anus">Anus</value>
+	<value code="Bones and Joints">Bones and Joints</value>
+	<value code="Brain and Nervous System">Brain and Nervous System</value>
+	<value code="Breast (Female)">Breast (Female)</value>
+	<value code="Breast (Male)">Breast (Male)</value>
+	<value code="Buccal Cavity and Pharnyx">Buccal Cavity and Pharnyx</value>
+	<value code="Cervix">Cervix</value>
+	<value code="Colon">Colon</value>
+	<value code="Corpus">Corpus</value>
+	<value code="Donor">Donor</value>
+	<value code="Esophagus">Esophagus</value>
+	<value code="Eye and Orbit">Eye and Orbit</value>
+	<value code="Hodgkins Lymphoma">Hodgkins Lymphoma</value>
+	<value code="Kaposis Sarcoma">Kaposis Sarcoma</value>
+	<value code="Kidney">Kidney</value>
+	<value code="Larynx">Larynx</value>
+	<value code="Leukemia, NOS">Leukemia, NOS</value>
+	<value code="Liver">Liver</value>
+	<value code="Lung">Lung</value>
+	<value code="Lymphoid Leukemia">Lymphoid Leukemia</value>
+	<value code="Melanoma, skin">Melanoma, skin</value>
+	<value code="Monocytic Leukemia">Monocytic Leukemia</value>
+	<value code="Multiple Myeloma">Multiple Myeloma</value>
+	<value code="Mycosis Fungoides">Mycosis Fungoides</value>
+	<value code="Myeloid Leukemia">Myeloid Leukemia</value>
+	<value code="Non-Hodgins Lymphoma">Non-Hodgins Lymphoma</value>
+	<value code="Other Digestive Organ">Other Digestive Organ</value>
+	<value code="Other Endocrine System">Other Endocrine System</value>
+	<value code="Other Female Genital">Other Female Genital</value>
+	<value code="Other Hematopoietic">Other Hematopoietic</value>
+	<value code="Other Male Genital">Other Male Genital</value>
+	<value code="Other Urinary">Other Urinary</value>
+	<value code="Other Malignancies">Other Malignancies</value>
+	<value code="Ovary">Ovary</value>
+	<value code="Pancreas">Pancreas</value>
+	<value code="Prostate">Prostate</value>
+	<value code="Rectum">Rectum</value>
+	<value code="Small Intestine">Small Intestine</value>
+	<value code="Soft Tissue">Soft Tissue</value>
+	<value code="Stomach">Stomach</value>
+	<value code="Thyroid">Thyroid</value>
+	<value code="Urinary Bladder">Urinary Bladder</value>
+</variable>
+
+<variable id="phv00073680.v2">
+	<name>HematologicMalignancyTreatment</name>
+	<description>Hematologic disorder and malignancy treatment</description>
+	<type>string</type>
+	<value code="None">None</value>
+	<value code="Unknown">Unknown</value>
+	<value code="Chemotherapy">Chemotherapy</value>
+	<value code="Radiation Therapy">Radiation Therapy</value>
+	<value code="Hormone Therapy">Hormone Therapy</value>
+	<value code="Surgery">Surgery</value>
+	<value code="Monoclonal Antibodies">Monoclonal Antibodies</value>
+	<value code="MUD Transplant">MUD Transplant</value>
+	<value code="Allogeneic Transplant">Allogeneic Transplant</value>
+	<value code="Total Body Irradiation (TBI)">Total Body Irradiation (TBI)</value>
+	<value code="Other Hematologic Disorder Treatment">Other Hematologic Disorder Treatment</value>
+	<value code="Antibody">Antibody</value>
+	<value code="Antibody - Radioconjugate">Antibody - Radioconjugate</value>
+	<value code="7/3 or Variant (DAT, 7/3/3)">7/3 or Variant (DAT, 7/3/3)</value>
+	<value code="HDAC or Variant">HDAC or Variant</value>
+	<value code="VP/Mitoxantrone">VP/Mitoxantrone</value>
+	<value code="Investigational Chemotherapy">Investigational Chemotherapy</value>
+	<value code="Other Chemotherapy">Other Chemotherapy</value>
+	<value code="Mylotarg">Mylotarg</value>
+	<value code="Other Antibody">Other Antibody</value>
+	<value code="Decitabine">Decitabine</value>
+	<value code="Anti-Thymocyte Globulin">Anti-Thymocyte Globulin</value>
+	<value code="Low Dose Ara C">Low Dose Ara C</value>
+	<value code="Steroids">Steroids</value>
+	<value code="Arsenic">Arsenic</value>
+	<value code="ATRA">ATRA</value>
+	<value code="Ext. Beam Radiation">Ext. Beam Radiation</value>
+	<value code="Intrathecal">Intrathecal</value>
+	<value code="Matched Sibling Allo Transplant">Matched Sibling Allo Transplant</value>
+	<value code="Matched Unrelated Donor Transplant">Matched Unrelated Donor Transplant</value>
+	<value code="Autologous Transplant">Autologous Transplant</value>
+	<value code="Other">Other</value>
+</variable>
+
+<variable id="phv00073681.v2">
+	<name>DiseaseStatus</name>
+	<description>Disease status at initial encounter</description>
+	<type>string</type>
+	<value code="Unknown">Unknown</value>
+	<value code="New Diagnosis">New Diagnosis</value>
+	<value code="Refractory/Persistent Disease">Refractory/Persistent Disease</value>
+	<value code="Complete Remission 1">Complete Remission 1</value>
+	<value code="Complete Remission 2">Complete Remission 2</value>
+	<value code="Complete Remission 3">Complete Remission 3</value>
+	<value code="Complete Remission &gt;">4</value>
+	<value code="Relapse 1">Relapse 1</value>
+	<value code="Relapse 2">Relapse 2</value>
+	<value code="Relapse 3">Relapse 3</value>
+	<value code="Relapse &gt;">4</value>
+</variable>
+
+<variable id="phv00073682.v2">
+	<name>DiseaseBoneMarrow</name>
+	<description>Disease status based on bone marrow</description>
+	<type>string</type>
+	<value code="No evident leukemia">No evident leukemia</value>
+	<value code="No evident MDS">No evident MDS</value>
+	<value code="Active AML (Indicate FAB Below)">Active AML (Indicate FAB Below)</value>
+	<value code="Active MDS (Indicate FAB Below)">Active MDS (Indicate FAB Below)</value>
+	<value code="Aplastic following therapy">Aplastic following therapy</value>
+	<value code="Other">Other</value>
+	<value code="Suspicious for persistent disease">Suspicious for persistent disease</value>
+</variable>
+
+<variable id="phv00073683.v2">
+	<name>FAB</name>
+	<description>French-American-British (FAB) category for bone marrow</description>
+	<type>string</type>
+	<value code="Unknown">Unknown</value>
+	<value code="Unchanged from prior report">Unchanged from prior report</value>
+	<value code="Not classified">Not classified</value>
+	<value code="M1">M1</value>
+	<value code="M2">M2</value>
+	<value code="M3">M3</value>
+	<value code="M3V">M3V</value>
+	<value code="M4">M4</value>
+	<value code="M4EOS">M4EOS</value>
+	<value code="M5">M5</value>
+	<value code="M6">M6</value>
+	<value code="M7">M7</value>
+	<value code="M0 Undifferentiated">M0 Undifferentiated</value>
+	<value code="Biphenotypic">Biphenotypic</value>
+	<value code="Other acute leukemia">Other acute leukemia</value>
+	<value code="RA">RA</value>
+	<value code="RARS">RARS</value>
+	<value code="RAEB">RAEB</value>
+	<value code="RAEB-T">RAEB-T</value>
+	<value code="Other MDS">Other MDS</value>
+	<value code="Extramedullary">Extramedullary</value>
+</variable>
+
+<variable id="phv00073684.v2">
+	<name>NA</name>
+	<description>Immunophenotype and cytochemistry: NA</description>
+	<type>string</type>
+	<value code="1">Positive</value>
+	<value code="2">Negative</value>
+	<value code="3">Not done</value>
+</variable>
+
+<variable id="phv00073685.v2">
+	<name>MPX</name>
+	<description>Immunophenotype and cytochemistry: MPX</description>
+	<type>string</type>
+	<value code="1">Positive</value>
+	<value code="2">Negative</value>
+	<value code="3">Not done</value>
+</variable>
+
+<variable id="phv00073686.v2">
+	<name>NSE</name>
+	<description>Immunophenotype and cytochemistry: NSE</description>
+	<type>string</type>
+	<value code="1">Positive</value>
+	<value code="2">Negative</value>
+	<value code="3">Not done</value>
+</variable>
+
+<variable id="phv00073687.v2">
+	<name>TDT</name>
+	<description>Immunophenotype and cytochemistry: TDT</description>
+	<type>string</type>
+	<value code="1">Positive</value>
+	<value code="2">Negative</value>
+	<value code="3">Not done</value>
+</variable>
+
+<variable id="phv00073688.v2">
+	<name>CD3</name>
+	<description>Immunophenotype and cytochemistry: CD3</description>
+	<type>string</type>
+	<value code="1">Positive</value>
+	<value code="2">Negative</value>
+	<value code="3">Not done</value>
+</variable>
+
+<variable id="phv00073689.v2">
+	<name>CD5</name>
+	<description>Immunophenotype and cytochemistry: CD5</description>
+	<type>string</type>
+	<value code="1">Positive</value>
+	<value code="2">Negative</value>
+	<value code="3">Not done</value>
+</variable>
+
+<variable id="phv00073690.v2">
+	<name>CD7</name>
+	<description>Immunophenotype and cytochemistry: CD7</description>
+	<type>string</type>
+	<value code="1">Positive</value>
+	<value code="2">Negative</value>
+	<value code="3">Not done</value>
+</variable>
+
+<variable id="phv00073691.v2">
+	<name>CD10</name>
+	<description>Immunophenotype and cytochemistry: CD10</description>
+	<type>string</type>
+	<value code="1">Positive</value>
+	<value code="2">Negative</value>
+	<value code="3">Not done</value>
+</variable>
+
+<variable id="phv00073692.v2">
+	<name>CD13</name>
+	<description>Immunophenotype and cytochemistry: CD13</description>
+	<type>string</type>
+	<value code="1">Positive</value>
+	<value code="2">Negative</value>
+	<value code="3">Not done</value>
+</variable>
+
+<variable id="phv00073693.v2">
+	<name>CD14</name>
+	<description>Immunophenotype and cytochemistry: CD14</description>
+	<type>string</type>
+	<value code="1">Positive</value>
+	<value code="2">Negative</value>
+	<value code="3">Not done</value>
+</variable>
+
+<variable id="phv00073694.v2">
+	<name>CD15</name>
+	<description>Immunophenotype and cytochemistry: CD15</description>
+	<type>string</type>
+	<value code="1">Positive</value>
+	<value code="2">Negative</value>
+	<value code="3">Not done</value>
+</variable>
+
+<variable id="phv00073695.v2">
+	<name>CD19</name>
+	<description>Immunophenotype and cytochemistry: CD19</description>
+	<type>string</type>
+	<value code="1">Positive</value>
+	<value code="2">Negative</value>
+	<value code="3">Not done</value>
+</variable>
+
+<variable id="phv00073696.v2">
+	<name>CD20</name>
+	<description>Immunophenotype and cytochemistry: CD20</description>
+	<type>string</type>
+	<value code="1">Positive</value>
+	<value code="2">Negative</value>
+	<value code="3">Not done</value>
+</variable>
+
+<variable id="phv00073697.v2">
+	<name>CD23</name>
+	<description>Immunophenotype and cytochemistry: CD23</description>
+	<type>string</type>
+	<value code="1">Positive</value>
+	<value code="2">Negative</value>
+	<value code="3">Not done</value>
+</variable>
+
+<variable id="phv00073698.v2">
+	<name>CD25</name>
+	<description>Immunophenotype and cytochemistry: CD25</description>
+	<type>string</type>
+	<value code="1">Positive</value>
+	<value code="2">Negative</value>
+	<value code="3">Not done</value>
+</variable>
+
+<variable id="phv00073699.v2">
+	<name>CD33</name>
+	<description>Immunophenotype and cytochemistry: CD33</description>
+	<type>string</type>
+	<value code="1">Positive</value>
+	<value code="2">Negative</value>
+	<value code="3">Not done</value>
+</variable>
+
+<variable id="phv00073700.v2">
+	<name>CD34</name>
+	<description>Immunophenotype and cytochemistry: CD34</description>
+	<type>string</type>
+	<value code="1">Positive</value>
+	<value code="2">Negative</value>
+	<value code="3">Not done</value>
+</variable>
+
+<variable id="phv00073701.v2">
+	<name>CD45</name>
+	<description>Immunophenotype and cytochemistry: CD45</description>
+	<type>string</type>
+	<value code="1">Positive</value>
+	<value code="2">Negative</value>
+	<value code="3">Not done</value>
+</variable>
+
+<variable id="phv00073702.v2">
+	<name>CD56</name>
+	<description>Immunophenotype and cytochemistry: CD56</description>
+	<type>string</type>
+	<value code="1">Positive</value>
+	<value code="2">Negative</value>
+	<value code="3">Not done</value>
+</variable>
+
+<variable id="phv00073703.v2">
+	<name>CD117</name>
+	<description>Immunophenotype and cytochemistry: CD117</description>
+	<type>string</type>
+	<value code="1">Positive</value>
+	<value code="2">Negative</value>
+	<value code="3">Not done</value>
+</variable>
+
+<variable id="phv00073704.v2">
+	<name>other CD</name>
+	<description>Immunophenotype and cytochemistry: other CD</description>
+	<type>string</type>
+	<value code="1">Positive</value>
+	<value code="2">Negative</value>
+	<value code="3">Not done</value>
+</variable>
+
+<variable id="phv00073705.v2">
+	<name>HLA-DR</name>
+	<description>Immunophenotype and cytochemistry: HLA-DR</description>
+	<type>string</type>
+	<value code="1">Positive</value>
+	<value code="2">Negative</value>
+	<value code="3">Not done</value>
+</variable>
+
+<variable id="phv00073706.v2">
+	<name>CytogeneticAbnormalities</name>
+	<description>Cytogenetic abnormalities</description>
+	<type>string</type>
+	<value code="None - Normal">None - Normal</value>
+	<value code="Not Tested">Not Tested</value>
+	<value code="Complex (3 or More Abnormalities)">Complex (3 or More Abnormalities)</value>
+	<value code="3q-">3q-</value>
+	<value code="-5">-5</value>
+	<value code="5q-">5q-</value>
+	<value code="-7">-7</value>
+	<value code="7q-">7q-</value>
+	<value code="8">8</value>
+	<value code="21">21</value>
+	<value code="inv16">inv16</value>
+	<value code="t(4,11)">t(4,11)</value>
+	<value code="t(6,9)">t(6,9)</value>
+	<value code="t(8,21)">t(8,21)</value>
+	<value code="t(9,11)">t(9,11)</value>
+	<value code="t(9,22)">t(9,22)</value>
+	<value code="t(12,21)">t(12,21)</value>
+	<value code="t(15,17)">t(15,17)</value>
+	<value code="Other">Other</value>
+</variable>
+
+<variable id="phv00073707.v2">
+	<name>BCR-ABL</name>
+	<description>Molecular study abnormality: BCR-ABL (breakpoint cluster region-Abelson murine leukemia viral oncogene homolog 1)</description>
+	<type>string</type>
+	<value code="1">Positive</value>
+	<value code="2">Negative</value>
+	<value code="3">Not done</value>
+</variable>
+
+<variable id="phv00073708.v2">
+	<name>PML-RAR</name>
+	<description>Molecular study abnormality: PML-RAR (promyelocytic leukemia-retinoic acid receptor alpha)</description>
+	<type>string</type>
+	<value code="1">Positive</value>
+	<value code="2">Negative</value>
+	<value code="3">Not done</value>
+</variable>
+
+<variable id="phv00073709.v2">
+	<name>FLT3</name>
+	<description>Molecular study abnormality: FLT3 (FMS-like tyrosine kinase 3)</description>
+	<type>string</type>
+	<value code="1">Positive</value>
+	<value code="2">Negative</value>
+	<value code="3">Not done</value>
+</variable>
+
+<variable id="phv00073710.v2">
+	<name>Other</name>
+	<description>Molecular study abnormality: Other</description>
+	<type>string</type>
+	<value code="1">Positive</value>
+	<value code="2">Negative</value>
+	<value code="3">Not done</value>
+</variable>
+
+</data_table>

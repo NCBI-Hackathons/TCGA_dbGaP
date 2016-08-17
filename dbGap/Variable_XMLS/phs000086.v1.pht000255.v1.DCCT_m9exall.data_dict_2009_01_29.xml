@@ -1,0 +1,1001 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./datadict_v2.xsl"?>
+<data_table id="pht000255.v1" study_id="phs000086.v1" participant_set="1" date_created="Thu Jan 29 15:38:17 2009">
+
+<variable id="phv00030791.v1">
+	<name>accd</name>
+	<description>Major accident morbidity</description>
+	<type>byte</type>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00030760.v1">
+	<name>adult</name>
+	<description>Patient is an adult &gt;=18 years</description>
+	<type>byte</type>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00030755.v1">
+	<name>age</name>
+	<description>Patient&#39;s age (form 001)</description>
+	<type>byte</type>
+	<unit>YEARS</unit>
+</variable>
+
+<variable id="phv00030757.v1">
+	<name>attemptn</name>
+	<description>Number of attempted suicide(s)</description>
+	<type>byte</type>
+	<unit>ATTEMPTED SUICIDES</unit>
+</variable>
+
+<variable id="phv00030756.v1">
+	<name>attempts</name>
+	<description>Patient attempted suicide</description>
+	<type>byte</type>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00030764.v1">
+	<name>bmi</name>
+	<description><![CDATA[Patient's body mass index (kg/m&#178;)]]></description>
+	<type>float</type>
+	<unit>KG/M2</unit>
+</variable>
+
+<variable id="phv00030776.v1">
+	<name>cboverwt</name>
+	<description>Cumulative index: baseline overweight</description>
+	<type>byte</type>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00030775.v1">
+	<name>cdoverwt</name>
+	<description>Cumulative index: quarterly visit date of overweight report</description>
+	<type>byte</type>
+</variable>
+
+<variable id="phv00030774.v1">
+	<name>cioverwt</name>
+	<description>Cumulative index: overweight</description>
+	<type>byte</type>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00030790.v1">
+	<name>dth</name>
+	<description>Death occurred</description>
+	<type>byte</type>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00030780.v1">
+	<name>exp</name>
+	<description>Experimental/intensive treatment group</description>
+	<type>byte</type>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00030761.v1">
+	<name>famht</name>
+	<description>Patient has a family history of hypertension</description>
+	<type>byte</type>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00030762.v1">
+	<name>fammi</name>
+	<description>Patient has a family history of MI</description>
+	<type>byte</type>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00030759.v1">
+	<name>female</name>
+	<description>Patient is female</description>
+	<type>byte</type>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00030786.v1">
+	<name>fuday</name>
+	<description>Total days of follow-up</description>
+	<type>int</type>
+	<unit>DAYS</unit>
+</variable>
+
+<variable id="phv00030753.v1">
+	<name>group</name>
+	<description>Randomization group</description>
+	<type>str12</type>
+	<value code="EXPERIMENTAL">INTENSIVE TREATMENT</value>
+	<value code="STANDARD">CONVENTIONAL TREATMENT</value>
+</variable>
+
+<variable id="phv00030773.v1">
+	<name>hbael</name>
+	<description>Hemoglobin A1c level at eligibility</description>
+	<type>float</type>
+	<unit>PERCENT</unit>
+</variable>
+
+<variable id="phv00030778.v1">
+	<name>htflg</name>
+	<description>Hypertension ever (0=no,1=yes)</description>
+	<type>byte</type>
+	<value code="0">NON-OCCURRENCE/NEVER</value>
+	<value code="1">FIRST OCCURRENCE/EVER</value>
+</variable>
+
+<variable id="phv00030779.v1">
+	<name>htvis</name>
+	<description>Hypertension: if present,  first occurrence (visit number); if not present, last follow-up visit number</description>
+	<type>byte</type>
+	<unit>VISIT NUMBER</unit>
+</variable>
+
+<variable id="phv00030794.v1">
+	<name>hypov6</name>
+	<description>Coma/seizure during first 18 months</description>
+	<type>byte</type>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00030796.v1">
+	<name>iaccd</name>
+	<description>Indicator of major accidents requiring hospitalization</description>
+	<type>byte</type>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00030838.v1">
+	<name>iainf</name>
+	<description>Indicator of all infections, excluding vaginitis</description>
+	<type>byte</type>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00030805.v1">
+	<name>icat</name>
+	<description>Indicator of catastrophic hypoglycemic events</description>
+	<type>byte</type>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00030808.v1">
+	<name>icinf</name>
+	<description>Indicator of catheter infections</description>
+	<type>byte</type>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00030784.v1">
+	<name>idef1</name>
+	<description>Indicator of hypoglycemic events - definition r (requiring assistance)</description>
+	<type>byte</type>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00030785.v1">
+	<name>idef2</name>
+	<description>Indicator of hypoglycemic events - definition c (w/coma or seizure)</description>
+	<type>byte</type>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00030868.v1">
+	<name>idka</name>
+	<description>Indicator of ketoacidosis events</description>
+	<type>byte</type>
+	<unit>KETOACIDOSIS EVENTS</unit>
+</variable>
+
+<variable id="phv00030856.v1">
+	<name>iftin</name>
+	<description>Indicator of foot infections (pe)</description>
+	<type>byte</type>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00030859.v1">
+	<name>iftul</name>
+	<description>Indicator of foot ulcers (pe)</description>
+	<type>byte</type>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00030817.v1">
+	<name>igang</name>
+	<description>Indicator of gangrene occurrences</description>
+	<type>byte</type>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00030820.v1">
+	<name>igast</name>
+	<description>Indicator of gastroenteritis occurrences</description>
+	<type>byte</type>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00030872.v1">
+	<name>ihbstd</name>
+	<description>Indicator of HbA1c (standard treatment patient) alerts</description>
+	<type>byte</type>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00030874.v1">
+	<name>iher</name>
+	<description>Indicator of emergency room visits</description>
+	<type>byte</type>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00030873.v1">
+	<name>ihhosp</name>
+	<description>Indicator of hospitalizations due to hypoglycemia</description>
+	<type>byte</type>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00030870.v1">
+	<name>ihosp</name>
+	<description>Indicator of overnight hospitalizations</description>
+	<type>byte</type>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00030871.v1">
+	<name>ihyp</name>
+	<description>Indicator of hypoglycemia alerts</description>
+	<type>byte</type>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00030802.v1">
+	<name>iinj</name>
+	<description>Indicator of hospitalizations because of injury due to hypoglycemia</description>
+	<type>byte</type>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00030869.v1">
+	<name>imajor</name>
+	<description>Indicator of major accidents requiring hospitalization</description>
+	<type>byte</type>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00030841.v1">
+	<name>imrb1</name>
+	<description>Indicator of accidental morbidity events</description>
+	<type>byte</type>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00030844.v1">
+	<name>imrb2</name>
+	<description>Indicator of accidental morbidity, excluding death</description>
+	<type>byte</type>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00030847.v1">
+	<name>imva</name>
+	<description>Indicator of motor vehicle accident</description>
+	<type>byte</type>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00030777.v1">
+	<name>instudy</name>
+	<description>Total possible follow-up time (months)</description>
+	<type>float</type>
+	<unit>MONTHS</unit>
+</variable>
+
+<variable id="phv00030853.v1">
+	<name>iohsp</name>
+	<description>Indicator of overnight hospitalizations, excluding treatment</description>
+	<type>byte</type>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00030823.v1">
+	<name>ioinf</name>
+	<description>Indicator of other infections</description>
+	<type>byte</type>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00030811.v1">
+	<name>ipdam</name>
+	<description>Indicator of hypoglycemia events resulting in property damage</description>
+	<type>byte</type>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00030799.v1">
+	<name>iphot</name>
+	<description>Indicator of photocoagulation treatments</description>
+	<type>byte</type>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00030826.v1">
+	<name>ipostop</name>
+	<description>Indicator of post operative infections</description>
+	<type>byte</type>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00030850.v1">
+	<name>ipsyh</name>
+	<description>Indicator of hospitalizations for psychiatric treatment</description>
+	<type>byte</type>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00030829.v1">
+	<name>iresp</name>
+	<description>Indicator of respiratory infections</description>
+	<type>byte</type>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00030814.v1">
+	<name>itraf</name>
+	<description>Indicator of traffic violations (hyperglycemic events)</description>
+	<type>byte</type>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00030832.v1">
+	<name>iuti</name>
+	<description>Indicator of urinary infections</description>
+	<type>byte</type>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00030835.v1">
+	<name>ivagi</name>
+	<description>Indicator of vaginitis occurrences</description>
+	<type>byte</type>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00030888.v1">
+	<name>mask_pat</name>
+	<description>Patient ID number</description>
+	<type>int</type>
+</variable>
+
+<variable id="phv00030795.v1">
+	<name>naccd</name>
+	<description>Number of major accidents requiring hospitalization</description>
+	<type>byte</type>
+	<unit>MAJOR ACCIDENTS (W/HOSPITALIZATION)</unit>
+</variable>
+
+<variable id="phv00030837.v1">
+	<name>nainf</name>
+	<description>Number of all infections, excluding vaginitis</description>
+	<type>byte</type>
+	<unit>INFECTIONS (ALL)</unit>
+</variable>
+
+<variable id="phv00030804.v1">
+	<name>ncat</name>
+	<description>Number of catastrophic hypoglycemic events</description>
+	<type>byte</type>
+	<unit>HYPOGLYCEMIC EVENTS (CATASTROPHIC)</unit>
+</variable>
+
+<variable id="phv00030807.v1">
+	<name>ncinf</name>
+	<description>Number of catheter infections</description>
+	<type>byte</type>
+	<unit>CATHETER INFECTIONS</unit>
+</variable>
+
+<variable id="phv00030782.v1">
+	<name>ndef1</name>
+	<description>Number of hypoglycemic events - definition c (w/coma or seizure)</description>
+	<type>byte</type>
+	<unit>HYPOGLYCEMIC EVENTS (W/COMA OR SEIZURE)</unit>
+</variable>
+
+<variable id="phv00030783.v1">
+	<name>ndef2</name>
+	<description>Number of hypoglycemic events - definition r (requiring assistance)</description>
+	<type>byte</type>
+	<unit>HYPOGLYCEMIC EVENTS (REQUIRING ASSISTANCE)</unit>
+</variable>
+
+<variable id="phv00030861.v1">
+	<name>ndka</name>
+	<description>Number of ketoacidosis events</description>
+	<type>byte</type>
+	<unit>KETOACIDOSIS EVENTS</unit>
+</variable>
+
+<variable id="phv00030855.v1">
+	<name>nftin</name>
+	<description>Number of foot infections (pe)</description>
+	<type>byte</type>
+	<unit>FOOT INFECTIONS</unit>
+</variable>
+
+<variable id="phv00030858.v1">
+	<name>nftul</name>
+	<description>Number of foot ulcers (pe)</description>
+	<type>byte</type>
+	<unit>FOOT ULCERS</unit>
+</variable>
+
+<variable id="phv00030816.v1">
+	<name>ngang</name>
+	<description>Number of gangrene occurrences</description>
+	<type>byte</type>
+	<unit>GANGRENE OCCURRENCES</unit>
+</variable>
+
+<variable id="phv00030819.v1">
+	<name>ngast</name>
+	<description>Number of gastroenteritis occurrences</description>
+	<type>byte</type>
+	<unit>GASTROENTERITIS OCCURRENCES</unit>
+</variable>
+
+<variable id="phv00030865.v1">
+	<name>nhbstd</name>
+	<description>Number of HbA1c (standard treatment patient) alerts</description>
+	<type>byte</type>
+	<unit>HBA1C ALERTS</unit>
+</variable>
+
+<variable id="phv00030867.v1">
+	<name>nher</name>
+	<description>Number of emergency room visits</description>
+	<type>byte</type>
+	<unit>ER VISITS</unit>
+</variable>
+
+<variable id="phv00030866.v1">
+	<name>nhhosp</name>
+	<description>Number of hospitalizations due to hypoglycemia</description>
+	<type>byte</type>
+	<unit>HOSPITALIZATIONS (HYPOGLYCEMIA)</unit>
+</variable>
+
+<variable id="phv00030863.v1">
+	<name>nhosp</name>
+	<description>Number of overnight hospitalizations</description>
+	<type>byte</type>
+	<unit>HOSPITALIZATIONS (OVERNIGHT)</unit>
+</variable>
+
+<variable id="phv00030864.v1">
+	<name>nhyp</name>
+	<description>Number of hypoglycemia alerts</description>
+	<type>byte</type>
+	<unit>HYPOGLYCEMIA ALERTS</unit>
+</variable>
+
+<variable id="phv00030801.v1">
+	<name>ninj</name>
+	<description>Number of hospitalizations because of injury due to hypoglycemia</description>
+	<type>byte</type>
+	<unit>HOSPITALIZATIONS</unit>
+</variable>
+
+<variable id="phv00030862.v1">
+	<name>nmajor</name>
+	<description>Number of major accidents requiring hospitalizations</description>
+	<type>byte</type>
+	<unit>MAJOR ACCIDENTS (W/HOSPITALIZATION)</unit>
+</variable>
+
+<variable id="phv00030840.v1">
+	<name>nmrb1</name>
+	<description>Number of accidental morbidity events</description>
+	<type>byte</type>
+	<unit>ACCIDENTAL MORBIDITY</unit>
+</variable>
+
+<variable id="phv00030843.v1">
+	<name>nmrb2</name>
+	<description>Number of accidental morbidity, excluding death</description>
+	<type>byte</type>
+	<unit>ACCIDENTAL MORBIDITY (EXCLUDING DEATH)</unit>
+</variable>
+
+<variable id="phv00030846.v1">
+	<name>nmva</name>
+	<description>Number of motor vehicle accidents</description>
+	<type>byte</type>
+	<unit>MOTOR VEHICLE ACCIDENTS</unit>
+</variable>
+
+<variable id="phv00030852.v1">
+	<name>nohsp</name>
+	<description>Number of overnight hospitalizations, excluding treatment</description>
+	<type>byte</type>
+	<unit>HOSPITALIZATIONS (OVERNIGHT)</unit>
+</variable>
+
+<variable id="phv00030822.v1">
+	<name>noinf</name>
+	<description>Number of other infections</description>
+	<type>byte</type>
+	<unit>INFECTIONS (OTHER)</unit>
+</variable>
+
+<variable id="phv00030810.v1">
+	<name>npdam</name>
+	<description>Number of hypoglycemia events resulting in property damage</description>
+	<type>byte</type>
+	<unit>ADVERSE EVENTS (PROPERTY DAMAGE)</unit>
+</variable>
+
+<variable id="phv00030798.v1">
+	<name>nphot</name>
+	<description>Number of  photocoagulation treatments</description>
+	<type>byte</type>
+	<unit>PHOTOCOAGULATION TREATMENT</unit>
+</variable>
+
+<variable id="phv00030825.v1">
+	<name>npostop</name>
+	<description>Number of post operative infections</description>
+	<type>byte</type>
+	<unit>INFECTIONS (POST OPERATIVE)</unit>
+</variable>
+
+<variable id="phv00030849.v1">
+	<name>npsyh</name>
+	<description>Number of hospitalizations for psychiatric treatment</description>
+	<type>byte</type>
+	<unit>HOSPITALIZATIONS (PSYCHIATRIC TREATMENT)</unit>
+</variable>
+
+<variable id="phv00030828.v1">
+	<name>nresp</name>
+	<description>Number of respiratory infections</description>
+	<type>byte</type>
+	<unit>INFECTIONS (RESPIRATORY)</unit>
+</variable>
+
+<variable id="phv00030813.v1">
+	<name>ntraf</name>
+	<description>Number of traffic violations (hyperglycemic events)</description>
+	<type>byte</type>
+	<unit>TRAFFIC VIOLATIONS</unit>
+</variable>
+
+<variable id="phv00030831.v1">
+	<name>nuti</name>
+	<description>Number of urinary infections</description>
+	<type>byte</type>
+	<unit>INFECTIONS (URINARY)</unit>
+</variable>
+
+<variable id="phv00030834.v1">
+	<name>nvagi</name>
+	<description>Number of vaginitis occurrences</description>
+	<type>byte</type>
+	<unit>INFECTIONS (VAGINITIS)</unit>
+</variable>
+
+<variable id="phv00030770.v1">
+	<name>obc8a</name>
+	<description>Lost consciousness without seizure</description>
+	<type>byte</type>
+	<unit>L.O.C.</unit>
+</variable>
+
+<variable id="phv00030771.v1">
+	<name>obc8b</name>
+	<description>Lost consciousness with seizure</description>
+	<type>byte</type>
+	<unit>L.O.C.W/SEIZURE</unit>
+</variable>
+
+<variable id="phv00030765.v1">
+	<name>obdbp1</name>
+	<description>Diastolic blood pressure (mmhg, form 002)</description>
+	<type>byte</type>
+	<unit>MMHG</unit>
+</variable>
+
+<variable id="phv00030769.v1">
+	<name>obdkahsp</name>
+	<description>Number of hospitalizations for DKA in past year</description>
+	<type>byte</type>
+	<unit>HOSPITALIZATIONS</unit>
+</variable>
+
+<variable id="phv00030768.v1">
+	<name>obrace</name>
+	<description>Patient&#39;s race</description>
+	<type>byte</type>
+	<value code="1">WHITE</value>
+	<value code="2">BLACK</value>
+	<value code="3">HISPANIC</value>
+	<value code="4">ASIAN</value>
+	<value code="5">AMERICAN INDIAN</value>
+</variable>
+
+<variable id="phv00030766.v1">
+	<name>obsbp1</name>
+	<description>Systolic blood pressure (mmhg, form 002)</description>
+	<type>int</type>
+	<unit>MMHG</unit>
+</variable>
+
+<variable id="phv00030767.v1">
+	<name>obsmok2</name>
+	<description>Patient currently smokes cigarettes</description>
+	<type>byte</type>
+	<value code="1">NO</value>
+	<value code="2">YES</value>
+</variable>
+
+<variable id="phv00030754.v1">
+	<name>phase</name>
+	<description>Patient&#39;s randomization phase (2, 3)</description>
+	<type>byte</type>
+	<value code="2">FEASIBILITY</value>
+	<value code="3">FULL-SCALE</value>
+</variable>
+
+<variable id="phv00030763.v1">
+	<name>pidw120</name>
+	<description>Percent of ideal body weight is  &gt;=120</description>
+	<type>byte</type>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00030797.v1">
+	<name>raccd</name>
+	<description>Rate/100 patient years: major accident hospitalization</description>
+	<type>float</type>
+	<unit>MAJOR ACCIDENTS (W/HOSPITALIZATION; RATE)</unit>
+</variable>
+
+<variable id="phv00030839.v1">
+	<name>rainf</name>
+	<description>Rate/100 patient years: all infections, excluding vaginitis</description>
+	<type>float</type>
+	<unit>INFECTIONS (ALL; RATE)</unit>
+</variable>
+
+<variable id="phv00030806.v1">
+	<name>rcat</name>
+	<description>Rate/100 patient years: catastrophic hypoglycemic events</description>
+	<type>float</type>
+	<unit>HYPOGLYCEMIC EVENTS (CATASTROPHIC; RATE)</unit>
+</variable>
+
+<variable id="phv00030809.v1">
+	<name>rcinf</name>
+	<description>Rate/100 patient years: catheter infections</description>
+	<type>float</type>
+	<unit>CATHETER INFECTIONS (RATE)</unit>
+</variable>
+
+<variable id="phv00030787.v1">
+	<name>rdef1</name>
+	<description>Rate/100 patient years: hypoglycemia definition c (w/coma or seizure)</description>
+	<type>float</type>
+	<unit>HYPOGLYCEMIC EVENTS (C) (RATE)</unit>
+</variable>
+
+<variable id="phv00030788.v1">
+	<name>rdef2</name>
+	<description>Rate/100 patient years: hypoglycemia definition r (requiring assistance)</description>
+	<type>float</type>
+	<unit>HYPOGLYCEMIC EVENTS (R) (RATE)</unit>
+</variable>
+
+<variable id="phv00030875.v1">
+	<name>rdka</name>
+	<description>Rate/100 patient years: ketoacidosis events</description>
+	<type>float</type>
+	<unit>KETOACIDOSIS EVENTS (RATE)</unit>
+</variable>
+
+<variable id="phv00030758.v1">
+	<name>retbase</name>
+	<description>Baseline retinopathy stratum (prim, scnd)</description>
+	<type>str4</type>
+	<value code="PRIM">PRIMARY RETINOPATHY</value>
+	<value code="SCDN">SECONDARY RETINOPATHY</value>
+</variable>
+
+<variable id="phv00030857.v1">
+	<name>rftin</name>
+	<description>Rate/100 patient years: foot infections (pe)</description>
+	<type>float</type>
+	<unit>FOOT INFECTIONS (RATE)</unit>
+</variable>
+
+<variable id="phv00030860.v1">
+	<name>rftul</name>
+	<description>Rate/100 patient years: foot ulcer (pe)</description>
+	<type>float</type>
+	<unit>FOOT ULCERS (RATE)</unit>
+</variable>
+
+<variable id="phv00030818.v1">
+	<name>rgang</name>
+	<description>Rate/100 patient years: gangrene</description>
+	<type>float</type>
+	<unit>GANGRENE (RATE)</unit>
+</variable>
+
+<variable id="phv00030821.v1">
+	<name>rgast</name>
+	<description>Rate/100 patient years: gastroenteritis</description>
+	<type>float</type>
+	<unit>GASTROENTERITIS (RATE)</unit>
+</variable>
+
+<variable id="phv00030887.v1">
+	<name>rglass</name>
+	<description>Rate/100 patient years: number of 8 oz glasses of fluid per day (ounces, rate)</description>
+	<type>float</type>
+	<unit>8-OZ GLASES OF FLUID/DAY (RATE)</unit>
+</variable>
+
+<variable id="phv00030879.v1">
+	<name>rhbstd</name>
+	<description>Rate/100 patient years: HbA1c (standard treatment patient) alerts</description>
+	<type>float</type>
+	<unit>HBA1C ALERTS (RATE)</unit>
+</variable>
+
+<variable id="phv00030881.v1">
+	<name>rher</name>
+	<description>Rate/100 patient years: emergency room visits</description>
+	<type>float</type>
+	<unit>ER VISITS (RATE)</unit>
+</variable>
+
+<variable id="phv00030880.v1">
+	<name>rhhosp</name>
+	<description>Rate/100 patient years: hospitalizations due to hypoglycemia</description>
+	<type>float</type>
+	<unit>HOSPITALIZATIONS - HYPOGLYCEMIA  (RATE)</unit>
+</variable>
+
+<variable id="phv00030877.v1">
+	<name>rhosp</name>
+	<description>Rate/100 patient years: overnight hospitalization.</description>
+	<type>float</type>
+	<unit>HOSPITALIZATIONS - OVERNIGHT (RATE)</unit>
+</variable>
+
+<variable id="phv00030878.v1">
+	<name>rhyp</name>
+	<description>Rate/100 patient years: hypoglycemia alert</description>
+	<type>float</type>
+	<unit>HYPOGLYCEMIA ALERTS (RATE)</unit>
+</variable>
+
+<variable id="phv00030803.v1">
+	<name>rinj</name>
+	<description>Rate/100 patient years: hospitalizations because of injury due to hypoglycemia</description>
+	<type>float</type>
+	<unit>HOSPITALIZATIONS (RATE)</unit>
+</variable>
+
+<variable id="phv00030876.v1">
+	<name>rmajor</name>
+	<description>Rate/100 patient years: major accidents</description>
+	<type>float</type>
+	<unit>ACCIDENTS W/HOSPITALIZATION (RATE)</unit>
+</variable>
+
+<variable id="phv00030842.v1">
+	<name>rmrb1</name>
+	<description>Rate/100 patient years: accidental morbidity</description>
+	<type>float</type>
+	<unit>ACCIDENTAL MORBIDITY (RATE)</unit>
+</variable>
+
+<variable id="phv00030845.v1">
+	<name>rmrb2</name>
+	<description>Rate/100 patient years: accident morbidity excluding death</description>
+	<type>float</type>
+	<unit>ACCIDENTAL MORBIDITY (EXCLUDING DEATH; RATE)</unit>
+</variable>
+
+<variable id="phv00030848.v1">
+	<name>rmva</name>
+	<description>Rate/100 patient years: motor vehicle accident</description>
+	<type>float</type>
+	<unit>MOTOR VEHICLE ACCIDENTS (RATE)</unit>
+</variable>
+
+<variable id="phv00030885.v1">
+	<name>rnight1</name>
+	<description>Rate/100 patient years: number of nights patient wakes up once to urinate</description>
+	<type>float</type>
+	<unit>NIGHTS (RATE)</unit>
+</variable>
+
+<variable id="phv00030886.v1">
+	<name>rnight2</name>
+	<description>Rate/100 patient years: number of nights patient wakes up two or more times to urinate</description>
+	<type>float</type>
+	<unit>NIGHTS (RATE)</unit>
+</variable>
+
+<variable id="phv00030854.v1">
+	<name>rohsp</name>
+	<description>Rate/100 patient years: overnight hospitalizations excluding treatment</description>
+	<type>float</type>
+	<unit>HOSPITALIZATIONS (OVERNIGHT)</unit>
+</variable>
+
+<variable id="phv00030824.v1">
+	<name>roinf</name>
+	<description>Rate/100 patient years: other infection(s)</description>
+	<type>float</type>
+	<unit>INFECTIONS (OTHER; RATE)</unit>
+</variable>
+
+<variable id="phv00030812.v1">
+	<name>rpdam</name>
+	<description>Rate/100 patient years: property damage (hypoglycemia related)</description>
+	<type>float</type>
+	<unit>ADVERSE EVENTS (PROPERTY DAMAGE; RATE)</unit>
+</variable>
+
+<variable id="phv00030800.v1">
+	<name>rphot</name>
+	<description>Rate/100 patient years: photocoagulation treatment</description>
+	<type>float</type>
+	<unit>PHOTOCOAGULATION TREATMENT (RATE)</unit>
+</variable>
+
+<variable id="phv00030827.v1">
+	<name>rpostop</name>
+	<description>Rate/100 patient years: post-operative infections</description>
+	<type>float</type>
+	<unit>INFECTIONS (POST OPERATIVE; RATE)</unit>
+</variable>
+
+<variable id="phv00030851.v1">
+	<name>rpsyh</name>
+	<description>Rate/100 patient years: hospitalization for psychiatric treatment</description>
+	<type>float</type>
+	<unit>HOSPITALIZATIONS (PSYCHIATRIC TREATMENT; RATE)</unit>
+</variable>
+
+<variable id="phv00030830.v1">
+	<name>rresp</name>
+	<description>Rate/100 patient years: respiratory infections</description>
+	<type>float</type>
+	<unit>INFECTIONS (RESPIRATORY; RATE)</unit>
+</variable>
+
+<variable id="phv00030815.v1">
+	<name>rtraf</name>
+	<description>Rate/100 patient years: traffic violations (hyperglycemia related)</description>
+	<type>float</type>
+	<unit>TRAFFIC VIOLATIONS (RATE)</unit>
+</variable>
+
+<variable id="phv00030833.v1">
+	<name>ruti</name>
+	<description>Rate/100 patient years: urinary infections</description>
+	<type>float</type>
+	<unit>INFECTIONS (URINARY; RATE)</unit>
+</variable>
+
+<variable id="phv00030836.v1">
+	<name>rvagi</name>
+	<description>Rate/100 patient years: vaginitis</description>
+	<type>float</type>
+	<unit>INFECTIONS (VAGINITIS; RATE)</unit>
+</variable>
+
+<variable id="phv00030793.v1">
+	<name>scnd</name>
+	<description>Indicator: secondary intervention patient</description>
+	<type>byte</type>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00030781.v1">
+	<name>std</name>
+	<description>Standard treatment group</description>
+	<type>byte</type>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+</variable>
+
+<variable id="phv00030882.v1">
+	<name>sumnght1</name>
+	<description>Number of nights patient wakes up once to urinate</description>
+	<type>int</type>
+	<unit>NIGHTS</unit>
+</variable>
+
+<variable id="phv00030883.v1">
+	<name>sumnght2</name>
+	<description>Number of nights patient wakes up two or more times to urinate</description>
+	<type>int</type>
+	<unit>NIGHTS</unit>
+</variable>
+
+<variable id="phv00030792.v1">
+	<name>t_accd</name>
+	<description>Time to major accident morbidity</description>
+	<type>int</type>
+	<unit>DAYS</unit>
+</variable>
+
+<variable id="phv00030789.v1">
+	<name>t_dth</name>
+	<description>Time to occurrence of death</description>
+	<type>int</type>
+	<unit>DAYS</unit>
+</variable>
+
+<variable id="phv00030772.v1">
+	<name>wpmean</name>
+	<description>Within-profile mean blood glucose (mg/dl)</description>
+	<type>float</type>
+	<unit>MG/DL</unit>
+</variable>
+
+</data_table>

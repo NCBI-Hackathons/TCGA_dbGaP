@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./datadict_v2.xsl"?>
+<data_table id="pht001294.v1" study_id="phs000280.v1" participant_set="1" date_created="Fri Jul  9 11:27:05 2010">
+
+<variable id="phv00091461.v1">
+	<name>Individual_ID</name>
+	<description>Subject Identifier</description>
+	<type>string</type>
+</variable>
+
+<variable id="phv00091462.v1">
+	<name>ANTC5</name>
+	<description>METHOD OF DATA COLLECTION         Q5</description>
+	<type>encoded</type>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002925.1">Exam 3 Anthropometry.pdf</a>.]]></comment>
+	<value code="C">Computer</value>
+	<value code="P">Paper form</value>
+</variable>
+
+<variable id="phv00091463.v1">
+	<name>ANTCFLAG</name>
+	<description>Indicator for presence of form</description>
+	<type>encoded</type>
+	<value code="1">Presence of form</value>
+	<value code=".">Missing</value>
+</variable>
+
+<variable id="phv00091464.v1">
+	<name>ANTCCY</name>
+	<description>CONTACT YEAR [7]</description>
+	<type>integer</type>
+	<unit>Year</unit>
+	<value code=".">Missing</value>
+</variable>
+
+<variable id="phv00091465.v1">
+	<name>ANTC1</name>
+	<description>STANDING HEIGHT TO NEAREST CM     Q1</description>
+	<type>integer</type>
+	<unit>cm</unit>
+	<logical_min>125</logical_min>
+	<logical_max>200</logical_max>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002925.1">Exam 3 Anthropometry.pdf</a>.]]></comment>
+</variable>
+
+<variable id="phv00091466.v1">
+	<name>ANTC2</name>
+	<description>WEIGHT TO NEAREST LB              Q2</description>
+	<type>integer</type>
+	<unit>LB</unit>
+	<logical_min>74</logical_min>
+	<logical_max>416</logical_max>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002925.1">Exam 3 Anthropometry.pdf</a>.]]></comment>
+</variable>
+
+<variable id="phv00091467.v1">
+	<name>ANTC3A</name>
+	<description>WAIST GIRTH (NEAREST cm)          Q3A</description>
+	<type>integer</type>
+	<unit>cm</unit>
+	<logical_min>52</logical_min>
+	<logical_max>175</logical_max>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002925.1">Exam 3 Anthropometry.pdf</a>.]]></comment>
+</variable>
+
+<variable id="phv00091468.v1">
+	<name>ANTC3B</name>
+	<description>HIP GIRTH (NEAREST cm)            Q3B</description>
+	<type>integer</type>
+	<unit>cm</unit>
+	<logical_min>51</logical_min>
+	<logical_max>186</logical_max>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002925.1">Exam 3 Anthropometry.pdf</a>.]]></comment>
+</variable>
+
+</data_table>

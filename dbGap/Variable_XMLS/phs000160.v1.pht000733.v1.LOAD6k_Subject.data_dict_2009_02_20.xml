@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./datadict_v2.xsl"?>
+<data_table id="pht000733.v1" study_id="phs000160.v1" participant_set="1" date_created="Fri Feb 20 11:44:41 2009">
+
+<variable id="phv00071854.v1">
+	<name>CONSENT</name>
+	<description>Consent group of subject</description>
+	<value code="0">Subjects did not participate in the study, did not complete a consent document and are included only for the pedigree structure and/or genotype controls, such as HapMap subjects.</value>
+	<value code="1">Subject consented to Alzheimer disease research conducted by non-profit and for-profit (pharmaceutical and biotechnology companies) organizations. Consented to genetic research of any human diseases conducted by non-profit and for-profit (pharmaceutical and biotechnology companies) organizations (GRU - General Research Use)</value>
+	<value code="2">Subject consented to Alzheimer disease research and genetic research of any human disease at non-profit organizations only (NPU - Non-Profit Organization Use)</value>
+	<value code="3">Subject consented to Alzheimer disease research only at non-profit and for-profit (pharmaceutical and biotechnology companies) organizations (Alz_only - Alzheimer Only)</value>
+	<value code="4">Consented to Alzheimer disease research only at non-profit organizations (Alz_NPU - Alzheimer_Non-Profit Organization Use)</value>
+</variable>
+
+<variable id="phv00071855.v1">
+	<name>SOURCE</name>
+	<description>Subject source</description>
+	<value code="NCRAD">the National Cell Repository for Alzheimer&#39;s Disease</value>
+</variable>
+
+<variable id="phv00071856.v1">
+	<name>Source_SubjectID</name>
+	<description>Source subject ID</description>
+</variable>
+
+<variable id="phv00071853.v1">
+	<name>SubjectID</name>
+	<description>Subject ID</description>
+	<comment>
+		De-identified ID, unique subject ID for dbGaP
+	</comment>
+	<type>integer</type>
+</variable>
+
+</data_table>

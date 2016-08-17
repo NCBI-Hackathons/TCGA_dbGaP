@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./datadict_v2.xsl"?>
+<data_table id="pht001498.v1" study_id="phs000269.v1" participant_set="1" date_created="Thu Aug  5 16:10:30 2010">
+
+<variable id="phv00110715.v1">
+	<name>SAMPID</name>
+	<description>Sample ID</description>
+	<type>string</type>
+</variable>
+
+<variable id="phv00110716.v1">
+	<name>SEX</name>
+	<description>Gender of participant</description>
+	<type>encoded value</type>
+	<value code="1">Male</value>
+	<value code="2">Female</value>
+	<value code="3">Ambiguous Gender</value>
+</variable>
+
+<variable id="phv00110717.v1">
+	<name>AGE</name>
+	<description>Age at time of sample collection</description>
+	<type>integer</type>
+	<logical_min>1</logical_min>
+	<logical_max>65</logical_max>
+	<comment>Samples with the same SAMPID may have been collected from the individual at different ages and submitted to the repository independently</comment>
+</variable>
+
+<variable id="phv00110718.v1">
+	<name>AGE_UNIT</name>
+	<description>Age units</description>
+	<type>encoded value</type>
+	<value code="DA">Days</value>
+	<value code="FW">Fetal Weeks</value>
+	<value code="MO">Months</value>
+	<value code="WK">Weeks</value>
+	<value code="YR">Years</value>
+</variable>
+
+<variable id="phv00110719.v1">
+	<name>COLLECTION</name>
+	<description>NIGMS source collection for sample [chromosomal aberrations, inherited disorders]</description>
+	<type>string</type>
+</variable>
+
+<variable id="phv00110720.v1">
+	<name>DESCRIPTION</name>
+	<description>Name of diagnosed disease or category of aberration</description>
+	<type>string</type>
+</variable>
+
+<variable id="phv00110721.v1">
+	<name>ISCN</name>
+	<description>International System for Human Cytogenetic Nomenclature description; the majority do not contain the array results</description>
+	<type>string</type>
+	<comment>The cytogenetic characterization of samples were performed using a variety of techniques at various times. The ISCN descriptions for samples with the same SAMPID may not be identical due to when they were characterized as well as the fact that they are derived from independent cell lines</comment>
+</variable>
+
+</data_table>

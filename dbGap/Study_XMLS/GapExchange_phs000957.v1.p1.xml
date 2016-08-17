@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GaPExchange xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="./dbGaPEx2.1.5.xsd">
+
+<MetaVariables>
+	<Submitter/>
+	<Method/>
+</MetaVariables>
+<MetaLinks/>
+
+<Projects>
+	<Project/>
+</Projects>
+
+<Studies>
+
+<Study source="dbGaP" accession="phs000957.v1.p1" parentStudy="phs000957.v1.p1" createDate="2015-07-16" modDate="2015-07-16">
+
+<Configuration>
+	<Data_Provider><![CDATA[
+		<table border="1">
+		<tr><th>Title</th><th>Name</th><th>Institute</th></tr>
+		<tr><td>Co-Principal Investigators</td><td>David J. Carey</td><td>Geisinger Clinic, Danville, PA, USA</td></tr>
+		<tr><td>Co-Principal Investigators</td><td>Marc S. Williams</td><td>Geisinger Clinic, Danville, PA, USA</td></tr>
+		</table>
+	]]></Data_Provider>
+	<StudyNameEntrez>Geisinger Health System - MyCode, eMERGE III Exome Chip</StudyNameEntrez>
+	<StudyNameReportPage>Geisinger Health System - MyCode, eMERGE III Exome Chip</StudyNameReportPage>
+	<StudyTypes>
+		<StudyType>Case-Control</StudyType>
+	</StudyTypes>
+	<Description><![CDATA[
+<p>DNA samples were obtained from participants of the Geisinger MyCode biobank. Phenotype data to determine case or control status for abdominal aortic aneurysm or extreme obesity were derived from Geisinger electronic medical record data through an enterprise data warehouse. Samples were genotyped using the Illumina Human CoreExome-12 v1.0 Array. Genotype data were filtered using standard quality control measures.</p>]]>
+	</Description>
+	<StudyInEx><![CDATA[
+<p>All data to identify cases and controls and exclusions were obtained from Geisinger electronic health record data. The algorithms used to identify phenotypes for Abdominal Aortic Aneurysm (AAA) and extreme obesity are described below.</p> <p>AAA cases were defined as meeting one of the following criteria: a procedure code for a AAA repair procedure, at least one vascular clinic encounter with a diagnosis of ruptured AAA, or at least two vascular clinic encounters with a diagnosis of unruptured AAA. AAA controls had an encounter within the past 5 years, with no record of diagnosis code for ruptured or unruptured AAA, or unspecified aortic aneurysm. Patients were excluded if they were younger than 40 or older than 89 years, did not have an encounter within the past 5 years, or had a diagnosis of Marfans, Ehlers Danlos Syndrome, thoracic aneurysm, aortic dissection, or fibormuscular dysplasia.</p> <p>Cases of extreme obesity were defined as follows: super obese (all recorded BMI measures &#62;/= 50 kg/m2), likely super obese (&#62;/= 75% of BMI measures &#62;/= 50 kg/m2), morbid obese (all BMI measures 40-50 kg/m2), and likely morbid obese (&#62;/=&#62;/= 75% of BMI measures 40-50 kg/m2). Two control types were identified: definite normal/overweight (all BMI measures 20-30 kg/m2), and likely normal/overweight (&#62;/= 75% of BMI measures 20-30 kg/m2). Patients are excluded as cases if there is a record of medications associated with weight gain (e.g., oral steroids) and as controls if there is a record of a cause of unintentional weight loss (malnutrition diagnosis, anorexia).</p>]]>
+	</StudyInEx>
+	<StudyProjects>
+		<Project/>
+	</StudyProjects>
+	<Diseases>
+		<Disease vocab_source="MESH" vocab_term="Abdominal aortic aneurysm"/>
+		<Disease vocab_source="MESH" vocab_term="Body Mass Index"/>
+	</Diseases>
+	<Attributions>
+		<Header title="Co-Principal Investigators">
+			<AttName>David J. Carey</AttName>
+			<Institution>Geisinger Clinic, Danville, PA, USA</Institution>
+		</Header>
+		<Header title="Co-Principal Investigators">
+			<AttName>Marc S. Williams</AttName>
+			<Institution>Geisinger Clinic, Danville, PA, USA</Institution>
+		</Header>
+	</Attributions>
+	<DisplayPublicSummary>yes</DisplayPublicSummary>
+	<ConsentGroups>
+		<ConsentGroup groupNum="1" shortName="GRU" longName="General Research Use"/>
+	</ConsentGroups>
+</Configuration>
+
+  <AuthorizedAccess>
+    <DacInfo ssDacId="0">
+      <DacName>NHGRI</DacName>
+      <DacFullName>National Human Genome Research Institute</DacFullName>
+      <DacEmail>0</DacEmail>
+      <DacPhone></DacPhone>
+      <DacUrl></DacUrl>
+    </DacInfo>
+    <Policy Policy_ID="phs000957.v1.p1_policy" ref_ssDacId="0">
+      <DisplayResearchStatement>yes</DisplayResearchStatement>
+      <DisplayPublicSummary>yes</DisplayPublicSummary>
+      <EmbargoLength>0</EmbargoLength>
+      <YearsUntilRenewal>1</YearsUntilRenewal>
+      <WeeksCancelRequest>8</WeeksCancelRequest>
+      <PdfSupplementReqired>no</PdfSupplementReqired>
+      <AcknowledgementText>
+        <para>
+          http://dbgap.ncbi.nlm.nih.gov/aa/wga.cgi?page=DUC&amp;view_pdf&amp;stacc=phs000957.v1.p1
+        </para>
+      </AcknowledgementText>
+      <DocumentSet>
+        <DataUseCertificate Label="Data Use Certificate" FilePath="https://dbgap.ncbi.nlm.nih.gov/aa/wga.cgi?page=DUC&amp;view_pdf&amp;stacc=phs000957.v1.p1" FileName=""/>
+      </DocumentSet>
+    </Policy>
+    <ConsentGroups>
+      <ParticipantSet groupNum-REF="1">
+        <ConsentName>General Research Use</ConsentName>
+        <ConsentAbbrev>GRU</ConsentAbbrev>
+        <UseLimitation>Use of the data is limited only by the terms of the model Data Use Certification.</UseLimitation>
+        <IrbRequired>No</IrbRequired>
+      </ParticipantSet>
+    </ConsentGroups>
+  </AuthorizedAccess>
+
+
+</Study>
+
+</Studies>
+
+</GaPExchange>

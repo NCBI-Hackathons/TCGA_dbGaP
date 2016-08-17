@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GaPExchange xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="./dbGaPEx2.1.5.xsd">
+
+<MetaVariables>
+	<Submitter/>
+	<Method/>
+</MetaVariables>
+<MetaLinks/>
+
+<Projects>
+	<Project/>
+</Projects>
+
+<Studies>
+
+<Study source="dbGaP" accession="phs000938.v1.p1" parentStudy="phs000938.v1.p1" createDate="2015-06-16" modDate="2015-07-21">
+
+<Configuration>
+	<Data_Provider><![CDATA[
+		<table border="1">
+		<tr><th>Title</th><th>Name</th><th>Institute</th></tr>
+		<tr><td>Principal Investigator</td><td>Sameek Roychowdhury, MD, PhD</td><td>Ohio State University, USA</td></tr>
+		<tr><td>Funding Source</td><td>American Cancer Society (MRSG-12-194-01-TBG)</td><td>Ohio State University, USA</td></tr>
+		<tr><td>Funding Source</td><td>Prostate Cancer Foundation Young Investigator Award, NHGRI UM1HG006508-01A1, Fore Cancer Research, Pelotonia</td><td>Ohio State University, USA</td></tr>
+		</table>
+	]]></Data_Provider>
+	<StudyNameEntrez>Appraisal of Whole Exome Sequencing Methods</StudyNameEntrez>
+	<StudyNameReportPage>Evaluation of Hybridization Capture versus Amplicon-based Methods for Whole Exome Sequencing</StudyNameReportPage>
+	<StudyTypes>
+		<StudyType>Control Set</StudyType>
+	</StudyTypes>
+	<Description><![CDATA[
+<p>Next generation sequencing has aided characterization of genomic variation. While whole genome sequencing may capture all possible mutations, whole exome sequencing is more cost-effective and captures most phenotype-altering mutations. Initial strategies for exome enrichment utilized a hybridization-based capture approach. Recently, amplicon-based methods were designed to simplify preparation and utilize smaller DNA inputs. We appraised two hybridization capture-based and two amplicon-based whole exome sequencing methods, utilizing both Illumina and Ion Torrent sequencers, comparing on-target alignment, uniformity, and variant calling. While the amplicon methods had higher on-target rates, the hybridization capture-based approaches showed better uniformity. All methods identified many of the same single nucleotide variants, but each amplicon-based method missed variants detected by the other three methods and reported additional variants discordant with all three other technologies. Many of these potential false positives or negatives appear to result from limited coverage, low variant frequency, vicinity to read starts/ends, or the need for platform-specific variant calling algorithms. All methods demonstrated effective copy number variant calling when compared against a single nucleotide polymorphism array. This study illustrates some differences between various whole exome sequencing approaches, highlights the need for selecting appropriate variant calling based on capture method, and will aid laboratories in selecting their preferred approach.</p>]]>
+	</Description>
+	<StudyInEx><![CDATA[
+<p>We used one well-characterized breast cancer cell line and its matched normal B-lymphoblastoid cell line. We also used two other well-characterized breast cancer cell lines.</p>]]>
+	</StudyInEx>
+	<StudyProjects>
+		<Project/>
+	</StudyProjects>
+	<Publications>
+		<Publication>
+			<Pubmed pmid="26110913"/>
+		</Publication>
+	</Publications>
+	<Attributions>
+		<Header title="Principal Investigator">
+			<AttName>Sameek Roychowdhury, MD, PhD</AttName>
+			<Institution>Ohio State University, USA</Institution>
+		</Header>
+		<Header title="Funding Source">
+			<AttName>American Cancer Society (MRSG-12-194-01-TBG)</AttName>
+			<Institution>Ohio State University, USA</Institution>
+		</Header>
+		<Header title="Funding Source">
+			<AttName>Prostate Cancer Foundation Young Investigator Award, NHGRI UM1HG006508-01A1, Fore Cancer Research, Pelotonia</AttName>
+			<Institution>Ohio State University, USA</Institution>
+		</Header>
+	</Attributions>
+	<DisplayPublicSummary>yes</DisplayPublicSummary>
+	<ConsentGroups>
+		<ConsentGroup groupNum="1" shortName="GRU-PUB" longName="General Research Use (PUB)"/>
+	</ConsentGroups>
+</Configuration>
+
+  <AuthorizedAccess>
+    <DacInfo ssDacId="0">
+      <DacName>NHGRI</DacName>
+      <DacFullName>National Human Genome Research Institute</DacFullName>
+      <DacEmail>0</DacEmail>
+      <DacPhone></DacPhone>
+      <DacUrl></DacUrl>
+    </DacInfo>
+    <Policy Policy_ID="phs000938.v1.p1_policy" ref_ssDacId="0">
+      <DisplayResearchStatement>yes</DisplayResearchStatement>
+      <DisplayPublicSummary>yes</DisplayPublicSummary>
+      <EmbargoLength>0</EmbargoLength>
+      <YearsUntilRenewal>1</YearsUntilRenewal>
+      <WeeksCancelRequest>8</WeeksCancelRequest>
+      <PdfSupplementReqired>no</PdfSupplementReqired>
+      <AcknowledgementText>
+        <para>
+          http://dbgap.ncbi.nlm.nih.gov/aa/wga.cgi?page=DUC&amp;view_pdf&amp;stacc=phs000938.v1.p1
+        </para>
+      </AcknowledgementText>
+      <DocumentSet>
+        <DataUseCertificate Label="Data Use Certificate" FilePath="https://dbgap.ncbi.nlm.nih.gov/aa/wga.cgi?page=DUC&amp;view_pdf&amp;stacc=phs000938.v1.p1" FileName=""/>
+      </DocumentSet>
+    </Policy>
+    <ConsentGroups>
+      <ParticipantSet groupNum-REF="1">
+        <ConsentName>General Research Use (PUB)</ConsentName>
+        <ConsentAbbrev>GRU-PUB</ConsentAbbrev>
+        <UseLimitation>Use of the data is limited only by the terms of the model Data Use Certification. Requestor agrees to make results of studies using the data available to the larger scientific community.</UseLimitation>
+        <IrbRequired>No</IrbRequired>
+      </ParticipantSet>
+    </ConsentGroups>
+  </AuthorizedAccess>
+
+
+</Study>
+
+</Studies>
+
+</GaPExchange>

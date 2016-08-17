@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GaPExchange xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="./dbGaPEx2.1.5.xsd">
+
+<MetaVariables>
+	<Submitter/>
+	<Method/>
+</MetaVariables>
+<MetaLinks/>
+
+<Projects>
+	<Project/>
+</Projects>
+
+<Studies>
+
+<Study source="dbGaP" accession="phs000348.v2.p1" parentStudy="phs000348.v2.p1" createDate="2014-02-20" modDate="2014-12-19">
+
+<Configuration>
+	<Data_Provider><![CDATA[
+		<table border="1">
+		<tr><th>Title</th><th>Name</th><th>Institute</th></tr>
+		<tr><td>Principal Investigator</td><td>Todd Golub</td><td>Broad Institute of MIT and Harvard Dana Farber Cancer Institute, Boston, MA, USA</td></tr>
+		</table>
+	]]></Data_Provider>
+	<StudyNameEntrez>Towards a Genomic Understanding of Myeloma</StudyNameEntrez>
+	<StudyNameReportPage>Towards a Genomic Understanding of Myeloma</StudyNameReportPage>
+	<StudyTypes>
+		<StudyType>Tumor</StudyType>
+		<StudyType>Cohort</StudyType>
+	</StudyTypes>
+	<Description><![CDATA[
+<p>This project was designed to describe genetic abnormalities in primary samples from patients with multiple myeloma by next generation sequencing.</p> <p>We generated sequence data from multiple myeloma (MM) patients analyzing DNA both from tumor cells (purified from bone marrow using CD138 selection as a marker of plasma cells) and from normal peripheral blood cells (either whole blood or Ficoll-purified mononuclear cells). Using massively parallel sequencing technology (Illumina GA-2 or HiSeq)), we performed whole-genome sequencing (WGS) and/or whole-exome sequencing (WES). The initial set currently deposited contains data from 38 MM patients (23 patients surveyed by WGS and 16 patients by WES, with one patient analyzed by both approaches).</p> <p>Genomes were sampled to high depth, obtaining an average of 33X coverage and 104X coverage for WGS and WES tumors, respectively. The normal samples had similar coverage. Our goal is to help researchers understand the complex genetic landscape of multiple myeloma and provide a resource for the generation of biological hypotheses.</p>]]>
+	</Description>
+	<StudyInEx><![CDATA[
+<p>The sequencing data deposited are the results of an ongoing collaborative effort between The Broad Institute and the Multiple Myeloma Research Consortium (MMRC) to uncover the molecular changes underlying multiple myeloma (MM) by genome sequencing of individual patient tumors.</p> <p>Only samples appropriately consented for this study were used.</p> <p>High quality DNA from myeloma frozen pellets with &gt; 90% CD138+ cells after immunomagnetic enrichment were utilized for the sequencing effort.</p>]]>
+	</StudyInEx>
+	<StudyProjects>
+		<Project/>
+	</StudyProjects>
+	<Diseases>
+		<Disease vocab_source="MESH" vocab_term="Multiple Myeloma"/>
+	</Diseases>
+	<Attributions>
+		<Header title="Principal Investigator">
+			<AttName>Todd Golub</AttName>
+			<Institution>Broad Institute of MIT and Harvard Dana Farber Cancer Institute, Boston, MA, USA</Institution>
+		</Header>
+	</Attributions>
+	<DisplayPublicSummary>yes</DisplayPublicSummary>
+	<StudyURLs>
+		<Url name="MMRF" url="http://www.themmrf.org/"/>
+	</StudyURLs>
+	<StudyHistory><![CDATA[
+<p><a href="http://www.themmrf.org/" target="_blank">http://www.themmrf.org/</a></p>]]>
+	</StudyHistory>
+	<ConsentGroups>
+		<ConsentGroup groupNum="1" shortName="GRU-MDS" longName="General Research Use (MDS)"/>
+		<ConsentGroup groupNum="2" shortName="DS-CCRD-MDS" longName="Disease-Specific (Cancer and Cancer-Related Disorders, MDS)"/>
+	</ConsentGroups>
+</Configuration>
+
+  <AuthorizedAccess>
+    <DacInfo ssDacId="0">
+      <DacName>NCI</DacName>
+      <DacFullName>NCI</DacFullName>
+      <DacEmail>0</DacEmail>
+      <DacPhone></DacPhone>
+      <DacUrl></DacUrl>
+    </DacInfo>
+    <Policy Policy_ID="phs000348.v2.p1_policy" ref_ssDacId="0">
+      <DisplayResearchStatement>yes</DisplayResearchStatement>
+      <DisplayPublicSummary>yes</DisplayPublicSummary>
+      <EmbargoLength>0</EmbargoLength>
+      <YearsUntilRenewal>1</YearsUntilRenewal>
+      <WeeksCancelRequest>8</WeeksCancelRequest>
+      <PdfSupplementReqired>no</PdfSupplementReqired>
+      <AcknowledgementText>
+        <para>
+          http://dbgap.ncbi.nlm.nih.gov/aa/wga.cgi?page=DUC&amp;view_pdf&amp;stacc=phs000348.v2.p1
+        </para>
+      </AcknowledgementText>
+      <DocumentSet>
+        <DataUseCertificate Label="Data Use Certificate" FilePath="https://dbgap.ncbi.nlm.nih.gov/aa/wga.cgi?page=DUC&amp;view_pdf&amp;stacc=phs000348.v2.p1" FileName="DUC-Towards_a_Genomic_Understanding_of_Myeloma-Updated_3.22.11.pdf"/>
+      </DocumentSet>
+    </Policy>
+    <ConsentGroups>
+      <ParticipantSet groupNum-REF="1">
+        <ConsentName>General Research Use (MDS)</ConsentName>
+        <ConsentAbbrev>GRU-MDS</ConsentAbbrev>
+        <UseLimitation>Use of the data is limited only by the terms of the model Data Use Certification.
+Use of the data includes methods development research (e.g., development of software or algorithms).</UseLimitation>
+        <IrbRequired>No</IrbRequired>
+      </ParticipantSet>
+      <ParticipantSet groupNum-REF="2">
+        <ConsentName>Disease-Specific (Cancer and Cancer-Related Disorders, MDS)</ConsentName>
+        <ConsentAbbrev>DS-CCRD-MDS</ConsentAbbrev>
+        <UseLimitation>Use of the data must be related to Cancer and Cancer-Related Disorders.
+Use of the data includes methods development research (e.g., development of software or algorithms).</UseLimitation>
+        <IrbRequired>No</IrbRequired>
+      </ParticipantSet>
+    </ConsentGroups>
+  </AuthorizedAccess>
+
+
+</Study>
+
+</Studies>
+
+</GaPExchange>

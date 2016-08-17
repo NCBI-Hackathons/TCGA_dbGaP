@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./datadict_v2.xsl"?>
+<data_table id="pht000039.v3" study_id="phs000010.v7" participant_set="4" date_created="Fri Sep 25 16:40:56 2009">
+
+<unique_key phv="00010770" version="3">TOPO</unique_key>
+<unique_key phv="00010771" version="3">LOCATION</unique_key>
+<unique_key phv="00010772" version="3">HIST</unique_key>
+<unique_key phv="00010774" version="3">GRADE</unique_key>
+<unique_key phv="00010776" version="3">diagtime</unique_key>
+<unique_key phv="00010777" version="3">shareid</unique_key>
+
+<variable id="phv00010767.v3">
+	<name>IDTYPE</name>
+	<description>COHORT IDENTIFIER</description>
+	<value code="0">ORIGINAL COHORT GROUP</value>
+	<value code="1">OFFSPRING GROUP</value>
+	<value code="3">GENERATION 3</value>
+</variable>
+
+<variable id="phv00010768.v3">
+	<name>DIAG_TYP</name>
+	<description>METHOD OF DIAGNOSIS. REPRESENTS THE BASIS OF DIAGNOSIS.</description>
+	<value code="1">microscopically confirmed</value>
+	<value code="2">clinically diagnosed</value>
+	<value code="3">death certificate only</value>
+</variable>
+
+<variable id="phv00010769.v3">
+	<name>EXACT</name>
+	<description>DIAGNOSIS DATE QUALIFIER. INDICATES THE QUALITY OF D_DATE.</description>
+	<value code="0">Month, day and year of diagnosis date taken from pathology report or other test report.</value>
+	<value code="1">Estimated diagnosis date as described above.</value>
+</variable>
+
+<variable id="phv00010770.v3">
+	<name>TOPO</name>
+	<description>TOPOGRAPHY.  DESCRIBES SITE. CORRESPONDS TO FIRST THREE DIGITS OF TOPOGRAPHY CODE WHO ICD-O-3, 2001.</description>
+	<value code="140">lip</value>
+	<value code="141">tongue</value>
+	<value code="142">major salivary gland</value>
+	<value code="143">gum</value>
+	<value code="144">floor of mouth</value>
+	<value code="145">other and unspecified parts of mouth</value>
+	<value code="146">oropharynx</value>
+	<value code="147">nasopharynx</value>
+	<value code="148">hypopharynx</value>
+	<value code="149">pharynx and ill-defined sites in lip, oral cavity and pharynx</value>
+	<value code="150">esophagus</value>
+	<value code="151">stomach</value>
+	<value code="152">small intestine</value>
+	<value code="153">colon</value>
+	<value code="154">rectum, rectosigmoid junction, anal canal and anus, not otherwise specified</value>
+	<value code="155">liver and intrahepatic bile ducts</value>
+	<value code="156">gallbladder and extrahepatic bile ducts</value>
+	<value code="157">pancreas</value>
+	<value code="158">retroperitoneum and peritoneum</value>
+	<value code="159">other and ill-defined sites within digestive organs and peritoneum</value>
+	<value code="160">nasal cavities, accessory sinuses, middle ear and inner ear</value>
+	<value code="161">larynx</value>
+	<value code="162">trachea bronchus, and lung</value>
+	<value code="163">pleura</value>
+	<value code="164">thymus, heart and mediastinum</value>
+	<value code="165">other and ill-defined sites within respiratory system and intrathoracic organs</value>
+	<value code="169">hematopoietic and reticuloendothelial systems</value>
+	<value code="170">bones, joints and atricular cartilage</value>
+	<value code="171">connective, subcutaneous and other soft tissues</value>
+	<value code="173">skin (excludes skin of labia majora, skin of vulva, skin of penis and skin of scrotum)</value>
+	<value code="174">female breast (excludes skin of breast)</value>
+	<value code="175">male breast (excludes skin of breast)</value>
+	<value code="179">uterus, not otherwise specified</value>
+	<value code="180">cervix uteri</value>
+	<value code="181">placenta</value>
+	<value code="182">corpus uteri or endometrium</value>
+	<value code="183">ovary, fallopian tube and broad ligament</value>
+	<value code="184">other and unspecified female genital organs</value>
+	<value code="185">prostate gland</value>
+	<value code="186">testis</value>
+	<value code="187">penis and other male genital organs</value>
+	<value code="188">urinary bladder</value>
+	<value code="189">kidney and other urinary organs</value>
+	<value code="190">eye and lacrimal gland</value>
+	<value code="191">brain</value>
+	<value code="192">other and unspecified parts of the nervous system (excludes peripheral nerves, sympathetic and parasympathetic nerves and ganglia)</value>
+	<value code="193">thyroid gland</value>
+	<value code="194">other endocrine glands</value>
+	<value code="195">other ill-defined sites</value>
+	<value code="196">lymph nodes</value>
+	<value code="199">unknown primary site</value>
+</variable>
+
+<variable id="phv00010771.v3">
+	<name>LOCATION</name>
+	<description>LOCATION.  DESCRIBES SUBDIVISION OF SITE OR LOCATION. CORRESPONDS TO FOURTH DIGIT OF TOPOGRAPHY CODE WHO ICD-O-3, 2001.</description>
+</variable>
+
+<variable id="phv00010772.v3">
+	<name>HIST</name>
+	<description>HISTOLOGY OR MORPHOLOGY. DESCRIBES CELL HISTOPATHOLOGY. CORRESPONDS TO FOUR DIGIT MORPHOLOGY CODE WHO ICD-O-3, 2001.</description>
+</variable>
+
+<variable id="phv00010773.v3">
+	<name>BEHAVIOR</name>
+	<description>BEHAVIOR.  DESCRIBES THE DEGREE OF MALIGNANCY. CORRESPONDS TO 5TH DIGIT BEHAVIOR CODE WHO ICD-O-3, 2001.</description>
+	<value code="0">benign</value>
+	<value code="1">uncertain, borderline</value>
+	<value code="2">carcinoma in situ, non-invasive</value>
+	<value code="3">malignant, primary site</value>
+	<value code="6">malignant, metastatic site</value>
+	<value code="9">malignant, uncertain whether primary or metastatic site</value>
+</variable>
+
+<variable id="phv00010774.v3">
+	<name>GRADE</name>
+	<description>GRADE. CORRESPONDS TO CODE FOR HISTOLOGIC GRADING AND DIFERENTIATION WHO ICD-O-3, 2001.</description>
+	<value code="1">Grade I - well-differentiated, differentiated</value>
+	<value code="2">Grade II - moderately well-differentiated, moderately differentiated</value>
+	<value code="3">Grade III - poorly differentiated</value>
+	<value code="4">Grade IV - undifferentiated, anaplastic</value>
+	<value code="9">Grade or differentiation not determined, stated, or applicable</value>
+</variable>
+
+<variable id="phv00010775.v3">
+	<name>ICD</name>
+	<description>INDICATIONS EDITION NUMBER OF INTERNATIONAL CLASSIFICATION OF DISEASE FOR ONCOLOGY.</description>
+	<value code="1">Cases from FHS cancer update data set cancer99. This update uses code book ICD-O-1, 1976 for TOPO, LOCATION, HIST, BEHAVIOR, GRADE with the exception of a few codes for HIST for some types of Leukemia, etc. which did not appear in ICD-O-1, 1976. For those cases ICD-O-2, 1991 codes were used.</value>
+	<value code="2">Cases reviewed after Nov 1999.  This update used the code books ICD-O-2,1991 and ICD-O-3, 2001.</value>
+</variable>
+
+<variable id="phv00010776.v3">
+	<name>diagtime</name>
+	<description>NUMBER OF DAYS BETWEEN EXAM 1 DATE AND D_DATE, D_DATE IS DEFINED BELOW. NOTE THAT FOR D_DATE BEFORE EXAM 1, NUMBER OF DAYS IS A NEGATIVE VALUE.</description>
+	<unit>DAYS</unit>
+</variable>
+
+<variable id="phv00010777.v3">
+	<name>shareid</name>
+	<description>UNIQUE PARTICIPANT ID</description>
+</variable>
+
+</data_table>

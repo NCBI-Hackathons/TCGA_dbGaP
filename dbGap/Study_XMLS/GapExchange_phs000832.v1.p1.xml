@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GaPExchange xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="./dbGaPEx2.1.5.xsd">
+
+<MetaVariables>
+	<Submitter/>
+	<Method/>
+</MetaVariables>
+<MetaLinks/>
+
+<Projects>
+	<Project/>
+</Projects>
+
+<Studies>
+
+<Study source="dbGaP" accession="phs000832.v1.p1" parentStudy="phs000832.v1.p1" createDate="2014-11-13" modDate="2015-04-01">
+
+<Configuration>
+	<Data_Provider><![CDATA[
+		<table border="1">
+		<tr><th>Title</th><th>Name</th><th>Institute</th></tr>
+		<tr><td>Principal Investigator</td><td>Abraham A. Palmer, PhD</td><td>University of Chicago, Chicago, IL, USA</td></tr>
+		<tr><td>Funding Sources</td><td>R03</td><td>National Institutes of Health, Bethesda, MD, USA</td></tr>
+		<tr><td>Funding Sources</td><td>DA021336</td><td>National Institute on Drug Abuse, National Institutes of Health, Bethesda, MD, USA</td></tr>
+		</table>
+	]]></Data_Provider>
+	<StudyNameEntrez>Sensitivity to the subjective effects of amphetamine</StudyNameEntrez>
+	<StudyNameReportPage>Sensitivity to the Subjective Effects of Amphetamine</StudyNameReportPage>
+	<StudyTypes>
+		<StudyType>Cohort</StudyType>
+	</StudyTypes>
+	<Description><![CDATA[
+<p>The goal of this study was to identify SNPs associated with subjective, physiological, and behavioral responses to <i>d</i>-amphetamine. The study was double-blind and placebo-controlled. 381 healthy volunteers aged 18-35 years old received oral doses of <i>d</i>-amphetamine (10 and 20 mg) and placebo over the course of three different phenotyping sessions. A subset of subjects received a fourth dose of <i>d</i>-amphetamine (5 mg). Measures of subjective, cardiovascular and behavioral responses were obtained at regular intervals (pre-drug administration and 30, 60, 90, 150, and 180 minutes post-drug administration). The subjective measures included in the study were the Profile of Mood States (POMS), Drug Effects Questionnaire (DEQ) and Addiction Research Center Inventory (ARCI). Tasks included were the Digit Symbol Substitution (DSST) and Stop Task.</p>]]>
+	</Description>
+	<StudyInEx><![CDATA[
+<p><b>Exclusion Criteria</b></p> <p>Past year Axis I Disorder, history of mania or psychosis, less than a high-school level education, smoking more than ten cigarettes per week, drinking more than three cups of coffee per day, lack of English fluency, a body mass index out of the range of 19-26 kg/m2, any regular prescription medication except oral contraceptive or medical contraindication to amphetamine administration. Women not taking oral contraceptives were only tested in the follicular phase of their menstrual cycle.</p>]]>
+	</StudyInEx>
+	<StudyProjects>
+		<Project/>
+	</StudyProjects>
+	<Publications>
+		<Publication>
+			<Pubmed pmid="22952603"/>
+		</Publication>
+		<Publication>
+			<Pubmed pmid="23303064"/>
+		</Publication>
+		<Publication>
+			<Pubmed pmid="24711425"/>
+		</Publication>
+	</Publications>
+	<Diseases>
+		<Disease vocab_source="MESH" vocab_term="Dextroamphetamine"/>
+		<Disease vocab_source="MESH" vocab_term="Amphetamine"/>
+	</Diseases>
+	<Attributions>
+		<Header title="Principal Investigator">
+			<AttName>Abraham A. Palmer, PhD</AttName>
+			<Institution>University of Chicago, Chicago, IL, USA</Institution>
+		</Header>
+		<Header title="Funding Sources">
+			<AttName>R03</AttName>
+			<Institution>National Institutes of Health, Bethesda, MD, USA</Institution>
+		</Header>
+		<Header title="Funding Sources">
+			<AttName>DA021336</AttName>
+			<Institution>National Institute on Drug Abuse, National Institutes of Health, Bethesda, MD, USA</Institution>
+		</Header>
+	</Attributions>
+	<DisplayPublicSummary>yes</DisplayPublicSummary>
+	<StudyURLs>
+		<Url name="Palmer Laboratory, The University of Chicago" url="http://www.palmerlab.org/"/>
+	</StudyURLs>
+	<ConsentGroups>
+		<ConsentGroup groupNum="1" shortName="GRU" longName="General Research Use"/>
+	</ConsentGroups>
+</Configuration>
+
+
+<Analyses>
+	<Analysis pha="3865" genomeBuild="38" snpBuild="141" analysisType="">
+		<Description><![CDATA[
+We recruited a sample of 381 healthy volunteers (age 18-35). Here we report association with the &#8220;10 mg response to amphetamine&#8221; factor score. Association results provided derived are from imputed genotypes (imputed with IMPUTE2 using the 1000 Genomes phase 1 reference. The sample size is 381. The factor phenotypes provided in the phenotype data for this study have already had age, sex, and the first two ancestry prinicipal components regressed.
+		]]></Description>
+		<Method>Quantitative trait analysis</Method>
+		<GtyPlatform probeNum="934940" snpBatchId="52074">
+			<Vendor>Affy</Vendor>
+			<VendorURL>http://www.ncbi.nlm.nih.gov/SNP/snp_viewBatch.cgi?sbid=52074</VendorURL>
+			<Platform>Affy1M</Platform>
+		</GtyPlatform>
+		<Comment></Comment>
+	</Analysis>
+	<Analysis pha="3866" genomeBuild="38" snpBuild="141" analysisType="">
+		<Description><![CDATA[
+We recruited a sample of 381 healthy volunteers (age 18-35). Here we report association with the &#8220;baseline positive affect&#8221; factor score. Association results provided derived are from imputed genotypes (imputed with IMPUTE2 using the 1000 Genomes phase 1 reference. The sample size is 381. The factor phenotypes provided in the phenotype data for this study have already had age, sex, and the first two ancestry prinicipal components regressed.
+		]]></Description>
+		<Method>Quantitative trait analysis</Method>
+		<GtyPlatform probeNum="934940" snpBatchId="52074">
+			<Vendor>Affy</Vendor>
+			<VendorURL>http://www.ncbi.nlm.nih.gov/SNP/snp_viewBatch.cgi?sbid=52074</VendorURL>
+			<Platform>Affy1M</Platform>
+		</GtyPlatform>
+		<Comment></Comment>
+	</Analysis>
+</Analyses>
+
+</Study>
+
+</Studies>
+
+</GaPExchange>

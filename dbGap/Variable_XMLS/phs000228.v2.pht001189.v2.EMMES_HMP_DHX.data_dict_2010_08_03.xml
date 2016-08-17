@@ -1,0 +1,417 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./datadict_v2.xsl"?>
+<data_table id="pht001189.v2" study_id="phs000228.v2" participant_set="1" date_created="Tue Aug  3 17:16:46 2010">
+
+<unique_key phv="00089478" version="2">PROT</unique_key>
+<unique_key phv="00089479" version="2">RANDSID</unique_key>
+<unique_key phv="00089480" version="2">PROTSEG</unique_key>
+<unique_key phv="00089481" version="2">VISNO</unique_key>
+<unique_key phv="00089483" version="2">SITE</unique_key>
+
+<variable id="phv00089478.v2">
+	<name>PROT</name>
+	<description>Protocol</description>
+	<type>Encoded</type>
+	<value code="7001">7001</value>
+</variable>
+
+<variable id="phv00089479.v2">
+	<name>RANDSID</name>
+	<description>Random ID for Patid</description>
+	<type>Integer</type>
+</variable>
+
+<variable id="phv00089480.v2">
+	<name>PROTSEG</name>
+	<description>Protocol Segment</description>
+	<type>Encoded</type>
+	<value code="A">A</value>
+</variable>
+
+<variable id="phv00089481.v2">
+	<name>VISNO</name>
+	<description>Visit Number</description>
+	<type>Encoded</type>
+	<value code="00">00</value>
+	<value code="01">01</value>
+	<value code="01S">01S</value>
+	<value code="01T">01T</value>
+	<value code="02">02</value>
+	<value code="02S">02S</value>
+	<value code="02T">02T</value>
+	<value code="03">03</value>
+	<value code="03S">03S</value>
+	<value code="03T">03T</value>
+</variable>
+
+<variable id="phv00089482.v2">
+	<name>STUDY_DAY</name>
+	<description>Calculated field based on number of days pre or post subject&#39;s day of enrollment/first sampling</description>
+	<type>Integer</type>
+	<unit>days</unit>
+	<logical_min>-9999999999</logical_min>
+	<logical_max>9999999999</logical_max>
+</variable>
+
+<variable id="phv00089483.v2">
+	<name>SITE</name>
+	<description>Site</description>
+	<type>Encoded</type>
+	<value code="11BAY">11BAY</value>
+	<value code="92WAU">92WAU</value>
+</variable>
+
+<variable id="phv00089484.v2">
+	<name>DHXHEENT</name>
+	<description>HEENT</description>
+	<type>Integer, encoded value</type>
+	<logical_min>0</logical_min>
+	<logical_max>1</logical_max>
+	<comment>&#39;Gated field&#39;, defined as a data that will not be released to dbGaP until all subjects have been enrolled, and data is reviewed to confirm that there is no possibility of subject identification.</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00089485.v2">
+	<name>DHXHNTSP</name>
+	<description>HEENT specify</description>
+	<type>String</type>
+	<comment>&#39;Gated field&#39;, defined as a data that will not be released to dbGaP until all subjects have been enrolled, and data is reviewed to confirm that there is no possibility of subject identification.</comment>
+</variable>
+
+<variable id="phv00089486.v2">
+	<name>DHXCARD</name>
+	<description>Cardiovascular</description>
+	<type>Integer, encoded value</type>
+	<logical_min>0</logical_min>
+	<logical_max>1</logical_max>
+	<comment>&#39;Gated field&#39;, defined as a data that will not be released to dbGaP until all subjects have been enrolled, and data is reviewed to confirm that there is no possibility of subject identification.</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00089487.v2">
+	<name>DHXCRDSP</name>
+	<description>Cardio specify</description>
+	<type>String</type>
+	<comment>&#39;Gated field&#39;, defined as a data that will not be released to dbGaP until all subjects have been enrolled, and data is reviewed to confirm that there is no possibility of subject identification.</comment>
+</variable>
+
+<variable id="phv00089488.v2">
+	<name>DHXPULM</name>
+	<description>Pulmonary</description>
+	<type>Integer, encoded value</type>
+	<logical_min>0</logical_min>
+	<logical_max>1</logical_max>
+	<comment>&#39;Gated field&#39;, defined as a data that will not be released to dbGaP until all subjects have been enrolled, and data is reviewed to confirm that there is no possibility of subject identification.</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00089489.v2">
+	<name>DHXPLMSP</name>
+	<description>Pulmonary specify</description>
+	<type>String</type>
+	<comment>&#39;Gated field&#39;, defined as a data that will not be released to dbGaP until all subjects have been enrolled, and data is reviewed to confirm that there is no possibility of subject identification.</comment>
+</variable>
+
+<variable id="phv00089490.v2">
+	<name>DHXGI</name>
+	<description>GI</description>
+	<type>Integer, encoded value</type>
+	<logical_min>0</logical_min>
+	<logical_max>1</logical_max>
+	<comment>&#39;Gated field&#39;, defined as a data that will not be released to dbGaP until all subjects have been enrolled, and data is reviewed to confirm that there is no possibility of subject identification.</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00089658.v2">
+	<name>DHXGISP</name>
+	<description>GI specify</description>
+	<type>String</type>
+	<comment>&#39;Gated field&#39;, defined as a data that will not be released to dbGaP until all subjects have been enrolled, and data is reviewed to confirm that there is no possibility of subject identification.</comment>
+</variable>
+
+<variable id="phv00089491.v2">
+	<name>DHXHEPAT</name>
+	<description>Hepatobiliary</description>
+	<type>Integer, encoded value</type>
+	<logical_min>0</logical_min>
+	<logical_max>1</logical_max>
+	<comment>&#39;Gated field&#39;, defined as a data that will not be released to dbGaP until all subjects have been enrolled, and data is reviewed to confirm that there is no possibility of subject identification.</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00089492.v2">
+	<name>DHXHPSP</name>
+	<description>Hepatobiliary specify</description>
+	<type>String</type>
+	<comment>&#39;Gated field&#39;, defined as a data that will not be released to dbGaP until all subjects have been enrolled, and data is reviewed to confirm that there is no possibility of subject identification.</comment>
+</variable>
+
+<variable id="phv00089493.v2">
+	<name>DHXRENAL</name>
+	<description>Renal</description>
+	<type>Integer, encoded value</type>
+	<logical_min>0</logical_min>
+	<logical_max>1</logical_max>
+	<comment>&#39;Gated field&#39;, defined as a data that will not be released to dbGaP until all subjects have been enrolled, and data is reviewed to confirm that there is no possibility of subject identification.</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00089494.v2">
+	<name>DHXRNLSP</name>
+	<description>Renal specify</description>
+	<type>String</type>
+	<comment>&#39;Gated field&#39;, defined as a data that will not be released to dbGaP until all subjects have been enrolled, and data is reviewed to confirm that there is no possibility of subject identification.</comment>
+</variable>
+
+<variable id="phv00089495.v2">
+	<name>DHXNEUR</name>
+	<description>Neurologic</description>
+	<type>Integer, encoded value</type>
+	<logical_min>0</logical_min>
+	<logical_max>1</logical_max>
+	<comment>&#39;Gated field&#39;, defined as a data that will not be released to dbGaP until all subjects have been enrolled, and data is reviewed to confirm that there is no possibility of subject identification.</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00089496.v2">
+	<name>DHXNRSP</name>
+	<description>Neurologic spec</description>
+	<type>String</type>
+	<comment>&#39;Gated field&#39;, defined as a data that will not be released to dbGaP until all subjects have been enrolled, and data is reviewed to confirm that there is no possibility of subject identification.</comment>
+</variable>
+
+<variable id="phv00089497.v2">
+	<name>DHXBLD</name>
+	<description>Blood lymphatic</description>
+	<type>Integer, encoded value</type>
+	<logical_min>0</logical_min>
+	<logical_max>1</logical_max>
+	<comment>&#39;Gated field&#39;, defined as a data that will not be released to dbGaP until all subjects have been enrolled, and data is reviewed to confirm that there is no possibility of subject identification.</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00089498.v2">
+	<name>DHXBLSP</name>
+	<description>Blood lymph spec</description>
+	<type>String</type>
+	<comment>&#39;Gated field&#39;, defined as a data that will not be released to dbGaP until all subjects have been enrolled, and data is reviewed to confirm that there is no possibility of subject identification.</comment>
+</variable>
+
+<variable id="phv00089499.v2">
+	<name>DHXENM</name>
+	<description>Endo metabolic</description>
+	<type>Integer, encoded value</type>
+	<logical_min>0</logical_min>
+	<logical_max>1</logical_max>
+	<comment>&#39;Gated field&#39;, defined as a data that will not be released to dbGaP until all subjects have been enrolled, and data is reviewed to confirm that there is no possibility of subject identification.</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00089500.v2">
+	<name>DHXENMSP</name>
+	<description>Endo metabol spec</description>
+	<type>String</type>
+	<comment>&#39;Gated field&#39;, defined as a data that will not be released to dbGaP until all subjects have been enrolled, and data is reviewed to confirm that there is no possibility of subject identification.</comment>
+</variable>
+
+<variable id="phv00089501.v2">
+	<name>DHXMUSCK</name>
+	<description>Musculoskeletal</description>
+	<type>Integer, encoded value</type>
+	<logical_min>0</logical_min>
+	<logical_max>1</logical_max>
+	<comment>&#39;Gated field&#39;, defined as a data that will not be released to dbGaP until all subjects have been enrolled, and data is reviewed to confirm that there is no possibility of subject identification.</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00089502.v2">
+	<name>DHXMUCSP</name>
+	<description>Musculoskeletal specify</description>
+	<type>String</type>
+	<comment>&#39;Gated field&#39;, defined as a data that will not be released to dbGaP until all subjects have been enrolled, and data is reviewed to confirm that there is no possibility of subject identification.</comment>
+</variable>
+
+<variable id="phv00089503.v2">
+	<name>DHXGENRP</name>
+	<description>Genital reproductive</description>
+	<type>Integer, encoded value</type>
+	<logical_min>0</logical_min>
+	<logical_max>1</logical_max>
+	<comment>&#39;Gated field&#39;, defined as a data that will not be released to dbGaP until all subjects have been enrolled, and data is reviewed to confirm that there is no possibility of subject identification.</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00089504.v2">
+	<name>DHXGNRSP</name>
+	<description>Genital reprod specify</description>
+	<type>String</type>
+	<comment>&#39;Gated field&#39;, defined as a data that will not be released to dbGaP until all subjects have been enrolled, and data is reviewed to confirm that there is no possibility of subject identification.</comment>
+</variable>
+
+<variable id="phv00089505.v2">
+	<name>DHXDERM</name>
+	<description>Dermatology</description>
+	<type>Integer, encoded value</type>
+	<logical_min>0</logical_min>
+	<logical_max>1</logical_max>
+	<comment>&#39;Gated field&#39;, defined as a data that will not be released to dbGaP until all subjects have been enrolled, and data is reviewed to confirm that there is no possibility of subject identification.</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00089506.v2">
+	<name>DHXDRMSP</name>
+	<description>Dermatology specify</description>
+	<type>String</type>
+	<comment>&#39;Gated field&#39;, defined as a data that will not be released to dbGaP until all subjects have been enrolled, and data is reviewed to confirm that there is no possibility of subject identification.</comment>
+</variable>
+
+<variable id="phv00089507.v2">
+	<name>DHXALRGS</name>
+	<description>Allergies</description>
+	<type>Integer, encoded value</type>
+	<logical_min>0</logical_min>
+	<logical_max>1</logical_max>
+	<comment>&#39;Gated field&#39;, defined as a data that will not be released to dbGaP until all subjects have been enrolled, and data is reviewed to confirm that there is no possibility of subject identification.</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00089508.v2">
+	<name>DHXALRSP</name>
+	<description>Allergies specify</description>
+	<type>String</type>
+	<comment>&#39;Gated field&#39;, defined as a data that will not be released to dbGaP until all subjects have been enrolled, and data is reviewed to confirm that there is no possibility of subject identification.</comment>
+</variable>
+
+<variable id="phv00089509.v2">
+	<name>DHXCANCR</name>
+	<description>Cancer</description>
+	<type>Integer, encoded value</type>
+	<logical_min>0</logical_min>
+	<logical_max>1</logical_max>
+	<comment>&#39;Gated field&#39;, defined as a data that will not be released to dbGaP until all subjects have been enrolled, and data is reviewed to confirm that there is no possibility of subject identification.</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00089510.v2">
+	<name>DHXCNRSP</name>
+	<description>Cancer specify</description>
+	<type>String</type>
+	<comment>&#39;Gated field&#39;, defined as a data that will not be released to dbGaP until all subjects have been enrolled, and data is reviewed to confirm that there is no possibility of subject identification.</comment>
+</variable>
+
+<variable id="phv00089511.v2">
+	<name>DHXIMMUN</name>
+	<description>Immunodeficiency</description>
+	<type>Integer, encoded value</type>
+	<logical_min>0</logical_min>
+	<logical_max>1</logical_max>
+	<comment>&#39;Gated field&#39;, defined as a data that will not be released to dbGaP until all subjects have been enrolled, and data is reviewed to confirm that there is no possibility of subject identification.</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00089512.v2">
+	<name>DHXIMMSP</name>
+	<description>Immunodeficiency specify</description>
+	<type>String</type>
+	<comment>&#39;Gated field&#39;, defined as a data that will not be released to dbGaP until all subjects have been enrolled, and data is reviewed to confirm that there is no possibility of subject identification.</comment>
+</variable>
+
+<variable id="phv00089513.v2">
+	<name>DHXALCHL</name>
+	<description>Drug alcohol dependance</description>
+	<type>Integer, encoded value</type>
+	<logical_min>0</logical_min>
+	<logical_max>1</logical_max>
+	<comment>&#39;Gated field&#39;, defined as a data that will not be released to dbGaP until all subjects have been enrolled, and data is reviewed to confirm that there is no possibility of subject identification.</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00089514.v2">
+	<name>DHXALCSP</name>
+	<description>Drug alcohol specify</description>
+	<type>String</type>
+	<comment>&#39;Gated field&#39;, defined as a data that will not be released to dbGaP until all subjects have been enrolled, and data is reviewed to confirm that there is no possibility of subject identification.</comment>
+</variable>
+
+<variable id="phv00089515.v2">
+	<name>DHXATIMM</name>
+	<description>Autoimmune</description>
+	<type>Integer, encoded value</type>
+	<logical_min>0</logical_min>
+	<logical_max>1</logical_max>
+	<comment>&#39;Gated field&#39;, defined as a data that will not be released to dbGaP until all subjects have been enrolled, and data is reviewed to confirm that there is no possibility of subject identification.</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00089516.v2">
+	<name>DHXATMSP</name>
+	<description>Autoimmune specify</description>
+	<type>String</type>
+	<comment>&#39;Gated field&#39;, defined as a data that will not be released to dbGaP until all subjects have been enrolled, and data is reviewed to confirm that there is no possibility of subject identification.</comment>
+</variable>
+
+<variable id="phv00089517.v2">
+	<name>DHXSURG</name>
+	<description>Medical surgical hx</description>
+	<type>Integer, encoded value</type>
+	<logical_min>0</logical_min>
+	<logical_max>1</logical_max>
+	<comment>&#39;Gated field&#39;, defined as a data that will not be released to dbGaP until all subjects have been enrolled, and data is reviewed to confirm that there is no possibility of subject identification.</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00089518.v2">
+	<name>DHXSRGSP</name>
+	<description>Medical surgic hx specify</description>
+	<type>String</type>
+	<comment>&#39;Gated field&#39;, defined as a data that will not be released to dbGaP until all subjects have been enrolled, and data is reviewed to confirm that there is no possibility of subject identification.</comment>
+</variable>
+
+<variable id="phv00089519.v2">
+	<name>DHXMEDAB</name>
+	<description>Unresolved med abnormalty</description>
+	<type>Integer, encoded value</type>
+	<logical_min>0</logical_min>
+	<logical_max>1</logical_max>
+	<comment>&#39;Gated field&#39;, defined as a data that will not be released to dbGaP until all subjects have been enrolled, and data is reviewed to confirm that there is no possibility of subject identification.</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00089520.v2">
+	<name>DHXACTDS</name>
+	<description>Acute disease</description>
+	<type>Integer, encoded value</type>
+	<logical_min>0</logical_min>
+	<logical_max>1</logical_max>
+	<comment>&#39;Gated field&#39;, defined as a data that will not be released to dbGaP until all subjects have been enrolled, and data is reviewed to confirm that there is no possibility of subject identification.</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00089521.v2">
+	<name>DHXCOMM</name>
+	<description>Comments</description>
+	<type>String</type>
+	<comment>&#39;Gated field&#39;, defined as a data that will not be released to dbGaP until all subjects have been enrolled, and data is reviewed to confirm that there is no possibility of subject identification.</comment>
+</variable>
+
+</data_table>

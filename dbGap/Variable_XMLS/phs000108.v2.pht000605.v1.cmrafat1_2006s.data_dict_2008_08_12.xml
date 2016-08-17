@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./datadict_v2.xsl"?>
+<data_table id="pht000605.v1" study_id="phs000108.v2" participant_set="2" date_created="Tue Aug 12 14:29:23 2008">
+
+<variable id="phv00064606.v1">
+	<name>DATE</name>
+	<description>CARDIAC MRI SCAN DATE, NUMBER OF DAYS SINCE EXAM 1</description>
+	<unit>DAYS</unit>
+</variable>
+
+<variable id="phv00064602.v1">
+	<name>IDTYPE</name>
+	<description>COHORT IDENTIFIER</description>
+	<value code="0">ORIGINAL COHORT GROUP</value>
+	<value code="1">OFFSPRING GROUP</value>
+	<value code="3">GENERATION 3</value>
+</variable>
+
+<variable id="phv00064607.v1">
+	<name>shareid</name>
+	<description>UNIQUE PARTICIPANT ID</description>
+</variable>
+
+<variable id="phv00064604.v1">
+	<name>SLICE</name>
+	<description>SLICE NUMBER AT WHICH THE MEASUREMENT WAS TAKEN</description>
+	<value code="B">MEASUREMENT TOO BIG (N = 49)</value>
+	<value code="M">MISSING (N = 85)</value>
+</variable>
+
+<variable id="phv00064603.v1">
+	<name>SUBCF</name>
+	<description>UMBILICAL LEVEL WHICH IS LANDMARK AND MEASUREMENT WAS TAKEN (CONSTANT)</description>
+</variable>
+
+<variable id="phv00064605.v1">
+	<name>THICK</name>
+	<description>SUBCUTANEOUS FAT THICKNESS (MM), ANTEROPOSTERIOR MEASUREMENT OF SUBCUTANEOUS FAT MEASURED FROM SKIN TO RECTUS ABDOMINIS AT THE LEVEL OF UMBILICUS MEASURED AT THE LEFT SIDE WHERE THE SUBCUTANEOUS FAT LOOKS THICKEST.  IF THE EDGE IS NOT CLEAR, THEN MEASURE THE OTHER SIDE.</description>
+	<unit>MM</unit>
+	<value code="B">MEASUREMENT TOO BIG (N = 51)</value>
+	<value code="M">MISSING (N = 89)</value>
+</variable>
+
+</data_table>

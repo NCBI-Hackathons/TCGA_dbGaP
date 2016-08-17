@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./datadict_v2.xsl"?>
+<data_table id="pht001543.v1" study_id="phs000178.v4" participant_set="4" date_created="Fri Jan 21 12:55:24 2011">
+
+<variable id="phv00112254.v1">
+	<name>BCRALIQUOTBARCODE</name>
+	<description>Aliquot of an analyte extracted from a portion of a sample</description>
+	<type>string</type>
+</variable>
+
+<variable id="phv00112255.v1">
+	<name>A260A280RATIO</name>
+	<description>Ratio of absorbance at 260nm to absorbance at 280nm of analyte extracted from a sample portion</description>
+	<type>string</type>
+</variable>
+
+<variable id="phv00112256.v1">
+	<name>GELIMAGEFILE</name>
+	<description>The name of the file containing the gel image of the analyte</description>
+	<type>string</type>
+</variable>
+
+<variable id="phv00112257.v1">
+	<name>INTERMEDIATEDIMENSION</name>
+	<description>The second longest dimension, in cm, of the tumor</description>
+	<type>string</type>
+	<unit>cm</unit>
+</variable>
+
+<variable id="phv00112258.v1">
+	<name>LONGESTDIMENSION</name>
+	<description>The longest dimension, in cm, of the tumor</description>
+	<type>string</type>
+	<unit>cm</unit>
+</variable>
+
+<variable id="phv00112259.v1">
+	<name>NORMALTUMORGENOTYPEMATCH</name>
+	<description>Did the tumor and normal tissue genotypes agree</description>
+	<type>string</type>
+</variable>
+
+<variable id="phv00112260.v1">
+	<name>PCRAMPLIFICATIONSUCCESSFUL</name>
+	<description>Did the PCR reaction amplify the correct bands</description>
+	<type>decimal</type>
+</variable>
+
+<variable id="phv00112261.v1">
+	<name>RATIO28S18S</name>
+	<description>Ratio of intensity of the 28S and 18S rRNA bands</description>
+	<type>string</type>
+</variable>
+
+<variable id="phv00112262.v1">
+	<name>RINVALUE</name>
+	<description>RNA integrity number from Agilent bioanalyzer</description>
+	<type>string</type>
+</variable>
+
+<variable id="phv00112263.v1">
+	<name>SAMPLETYPE</name>
+	<description>Type of tissue collected</description>
+	<type>string</type>
+	<value code="Blood Derived Normal">Blood Derived Normal</value>
+	<value code="Buccal Cell Normal">Buccal Cell Normal</value>
+	<value code="Cell Line Control">Cell Line Control</value>
+	<value code="DNA">DNA</value>
+	<value code="EBV Immortalized Normal">EBV Immortalized Normal</value>
+	<value code="GenomePlex (Rubicon) Amplified DNA">GenomePlex (Rubicon) Amplified DNA</value>
+	<value code="Primary Blood Derived Cancer">Primary Blood Derived Cancer</value>
+	<value code="Primary Tumor">Primary Tumor</value>
+	<value code="RNA">RNA</value>
+	<value code="Recurrent Blood Derived Cancer">Recurrent Blood Derived Cancer</value>
+	<value code="Recurrent Tumor">Recurrent Tumor</value>
+	<value code="Repli-G (Qiagen) DNA">Repli-G (Qiagen) DNA</value>
+	<value code="Slides">Slides</value>
+	<value code="Solid Tissue Normal">Solid Tissue Normal</value>
+	<value code="Total RNA">Total RNA</value>
+	<value code="null">null</value>
+</variable>
+
+<variable id="phv00112264.v1">
+	<name>SHIPPINGDATE</name>
+	<description>The day on which the aliquot was shipped to the sequencing or characterization center for analysis</description>
+	<type>string</type>
+</variable>
+
+<variable id="phv00112265.v1">
+	<name>SHORTESTDIMENSION</name>
+	<description>The shortest dimension, in cm, of the tumor</description>
+	<type>string</type>
+	<unit>cm</unit>
+</variable>
+
+<variable id="phv00112266.v1">
+	<name>TYPE</name>
+	<description>Type of analyte extracted from sample portion</description>
+	<type>string</type>
+	<value code="DNA">DNA</value>
+	<value code="EBV Immortalized Normal">EBV Immortalized Normal</value>
+	<value code="GenomePlex (Rubicon) Amplified DNA">GenomePlex (Rubicon) Amplified DNA</value>
+	<value code="RNA">RNA</value>
+	<value code="Repli-G (Qiagen) DNA">Repli-G (Qiagen) DNA</value>
+	<value code="Total RNA">Total RNA</value>
+</variable>
+
+<variable id="phv00112267.v1">
+	<name>VERIFICATIONBYBCR</name>
+	<description>Indicates if the pathology determination from the tissue center agrees with that of the BCR</description>
+	<type>string</type>
+</variable>
+
+<variable id="phv00112268.v1">
+	<name>WEIGHT</name>
+	<description>The weight of the portion taken from the tissue sample</description>
+	<type>decimal</type>
+	<unit>grams</unit>
+</variable>
+
+</data_table>

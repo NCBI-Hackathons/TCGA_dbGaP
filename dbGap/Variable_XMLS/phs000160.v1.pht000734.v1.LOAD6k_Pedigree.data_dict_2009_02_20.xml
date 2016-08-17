@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./datadict_v2.xsl"?>
+<data_table id="pht000734.v1" study_id="phs000160.v1" participant_set="1" date_created="Fri Feb 20 11:44:41 2009">
+
+<variable id="phv00071857.v1">
+	<name>cidrFam</name>
+	<description>Family ID</description>
+	<comment>
+		De-identified ID
+	</comment>
+	<type>integer</type>
+</variable>
+
+<variable id="phv00071859.v1">
+	<name>FATHID</name>
+	<description>Father ID</description>
+	<comment>
+		De-identified ID
+	</comment>
+	<type>integer</type>
+</variable>
+
+<variable id="phv00071860.v1">
+	<name>MOTHID</name>
+	<description>Mother ID</description>
+	<comment>
+		De-identified ID
+	</comment>
+	<type>integer</type>
+</variable>
+
+<variable id="phv00071861.v1">
+	<name>Sex</name>
+	<description>Gender: male, female, or null children for pedigree structure</description>
+	<type>encoded value</type>
+	<value code="1">Male</value>
+	<value code="2">Female</value>
+	<value code="3">Null children for pedigree structure</value>
+</variable>
+
+<variable id="phv00071858.v1">
+	<name>SubjectID</name>
+	<description>Subject ID</description>
+	<comment>
+		De-identified ID, unique subject ID for dbGaP
+	</comment>
+	<type>integer</type>
+</variable>
+
+</data_table>

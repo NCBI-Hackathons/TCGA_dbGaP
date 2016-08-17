@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./datadict_v2.xsl"?>
+<data_table id="pht001062.v1" study_id="phs000219.v1" participant_set="1" date_created="Tue Jan 19 13:07:08 2010">
+
+<unique_key phv="00081305" version="1">SUBJID</unique_key>
+<unique_key phv="00081309" version="1">VISIT</unique_key>
+<unique_key phv="00081310" version="1">VISIT_DATE</unique_key>
+
+<variable id="phv00081305.v1">
+	<name>SUBJID</name>
+	<description>Subject&#39;s ID</description>
+	<type>String</type>
+</variable>
+
+<variable id="phv00081306.v1">
+	<name>CASE_CONTROL</name>
+	<description>Subject type</description>
+	<type>Encoded value</type>
+	<value code="ADP">AD Participant</value>
+	<value code="CASE">Case</value>
+	<value code="CCCS">Control with Change in Cognitive Status</value>
+	<value code="CNTL">Control</value>
+	<value code="FAM">Family member</value>
+	<value code="UASB">Unaffected Sibling</value>
+</variable>
+
+<variable id="phv00081307.v1">
+	<name>INVSITE</name>
+	<description>Investigator site ID</description>
+	<type>String</type>
+</variable>
+
+<variable id="phv00081308.v1">
+	<name>INV</name>
+	<description>Investigator&#39;s ID</description>
+	<type>String</type>
+</variable>
+
+<variable id="phv00081309.v1">
+	<name>VISIT</name>
+	<description>Visit name</description>
+	<type>String</type>
+</variable>
+
+<variable id="phv00081310.v1">
+	<name>VISIT_DATE</name>
+	<description>Visit date</description>
+	<type>Date</type>
+	<comment>Truncated to YYYY</comment>
+</variable>
+
+<variable id="phv00081311.v1">
+	<name>STUDY_CONSENT</name>
+	<description>Has the participant given his/her consent to participate in the study?</description>
+	<type>Encoded Value</type>
+	<value code="N">No</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00081312.v1">
+	<name>STUDY_CONSENT_DATE</name>
+	<description>Date of study consent</description>
+	<type>Date</type>
+	<comment>Truncated to YYYY</comment>
+</variable>
+
+<variable id="phv00081313.v1">
+	<name>PROXY_CONSENT</name>
+	<description>Has proxy consent been obtained?</description>
+	<type>Encoded Value</type>
+	<value code="N">No</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00081314.v1">
+	<name>PROXY_CONSENT_DATE</name>
+	<description>Date of proxy consent</description>
+	<type>Date</type>
+	<comment>Truncated to YYYY</comment>
+</variable>
+
+<variable id="phv00081315.v1">
+	<name>BRAIN_AUTOPSY_CONSENT</name>
+	<description>Has this participant/proxy given consent for future brain autopsy?</description>
+	<type>Encoded Value</type>
+	<value code="N">No</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00081316.v1">
+	<name>BRAIN_AUTOPSY_CONSENT_DATE</name>
+	<description>Date of future brain autopsy consent</description>
+	<type>Date</type>
+	<comment>Truncated to YYYY</comment>
+</variable>
+
+<variable id="phv00081317.v1">
+	<name>AUTOPSY_RELEASE_CONSENT</name>
+	<description>Has a relative consented to the release of the autopsy information?</description>
+	<type>Encoded Value</type>
+	<value code="N">No</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00081318.v1">
+	<name>AUTOPSY_RELEASE_CONSENT_DATE</name>
+	<description>Date of autopsy information consent</description>
+	<type>Date</type>
+	<comment>Truncated to YYYY</comment>
+</variable>
+
+<variable id="phv00081319.v1">
+	<name>FOLLOW_UP_STUDY_CONSENT</name>
+	<description>Has the participant given his/her consent to participate in this follow-up study?</description>
+	<type>Encoded Value</type>
+	<value code="N">No</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00081320.v1">
+	<name>FOLLOW_UP_STUDY_CONSENT_DATE</name>
+	<description>Date of follow-up study consent</description>
+	<type>Date</type>
+	<comment>Truncated to YYYY</comment>
+</variable>
+
+<variable id="phv00081321.v1">
+	<name>BLD_URN_CONSENT</name>
+	<description>Has the participant agreed to give a blood and urine sample?</description>
+	<type>Encoded Value</type>
+	<value code="N">No</value>
+	<value code="Y">Yes</value>
+</variable>
+
+</data_table>

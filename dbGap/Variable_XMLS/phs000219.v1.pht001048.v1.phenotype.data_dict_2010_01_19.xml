@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./datadict_v2.xsl"?>
+<data_table id="pht001048.v1" study_id="phs000219.v1" participant_set="1" date_created="Tue Jan 19 13:07:22 2010">
+
+<variable id="phv00081061.v1">
+	<name>SUBJID</name>
+	<description>Subject&#39;s ID</description>
+	<type>integer</type>
+	<comment>Deidentified ID</comment>
+</variable>
+
+<variable id="phv00081062.v1">
+	<name>case_control</name>
+	<description>Case or control?</description>
+	<type>encoded value</type>
+	<value code="0">Control</value>
+	<value code="1">Case</value>
+</variable>
+
+<variable id="phv00081063.v1">
+	<name>gender</name>
+	<description>Reported gender of participant</description>
+	<type>encoded value</type>
+	<value code="F">Female</value>
+	<value code="M">Male</value>
+</variable>
+
+<variable id="phv00081064.v1">
+	<name>invsite</name>
+	<description>Investigator site</description>
+	<type>integer, encoded value</type>
+	<comment>Deidentified ID</comment>
+</variable>
+
+<variable id="phv00081065.v1">
+	<name>age</name>
+	<description>Age of subject at blood draw</description>
+	<type>decimal, encoded value</type>
+	<unit>Years</unit>
+	<logical_min>42.6</logical_min>
+	<logical_max>100</logical_max>
+</variable>
+
+<variable id="phv00081066.v1">
+	<name>ageon</name>
+	<description>Disease onset age</description>
+	<type>integer, encoded value</type>
+	<unit>Years</unit>
+	<logical_min>40</logical_min>
+	<logical_max>97</logical_max>
+	<value code="?">Missing</value>
+</variable>
+
+<variable id="phv00081067.v1">
+	<name>drop</name>
+	<description>Indicator for dropping from analysis</description>
+	<type>encoded value</type>
+	<value code="0">Keep for analysis</value>
+	<value code="1">Subject missing either NSP or STY file</value>
+	<value code="2">Subject fails QC measures</value>
+</variable>
+
+</data_table>

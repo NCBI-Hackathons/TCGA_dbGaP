@@ -1,0 +1,2606 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./datadict_v2.xsl"?>
+<data_table id="pht001954.v1" study_id="phs000286.v1" participant_set="1" date_created="Fri Feb  4 19:57:17 2011">
+
+<variable id="phv00127120.v1">
+	<name>Individual_ID</name>
+	<description>Subject Identifier</description>
+	<type>string</type>
+</variable>
+
+<variable id="phv00127121.v1">
+	<name>VISIT</name>
+	<description>CONTACT OCCASION</description>
+	<type>encoded</type>
+	<comment>Please find encoded value descriptions in associated documents. Some of the values might be encoded and code descriptions have not been submitted at this time.</comment>
+</variable>
+
+<variable id="phv00127122.v1">
+	<name>ECGA2</name>
+	<description>Record line number</description>
+	<type>string</type>
+</variable>
+
+<variable id="phv00127123.v1">
+	<name>ECGA5</name>
+	<description>Reporting FLAG(1=normal, 2=minimal abnormal, 3=important abnormal)</description>
+	<type>encoded</type>
+	<comment>Please find encoded value descriptions in associated documents. Some of the values might be encoded and code descriptions have not been submitted at this time.</comment>
+	<value code="1">Normal</value>
+	<value code="2">Minimal abnormal</value>
+	<value code="3">Important abnormal</value>
+</variable>
+
+<variable id="phv00127124.v1">
+	<name>ECGA4</name>
+	<description>Time the ECG was taken</description>
+	<type>string</type>
+</variable>
+
+<variable id="phv00127125.v1">
+	<name>ECGA9</name>
+	<description>Technician ID number</description>
+	<type>string</type>
+</variable>
+
+<variable id="phv00127126.v1">
+	<name>ECGAflag</name>
+	<description>ECGAflag</description>
+	<type>encoded</type>
+	<comment>Please find encoded value descriptions in associated documents. Some of the values might be encoded and code descriptions have not been submitted at this time.</comment>
+</variable>
+
+<variable id="phv00127127.v1">
+	<name>Pduration</name>
+	<description>Pduration</description>
+	<type>string</type>
+</variable>
+
+<variable id="phv00127128.v1">
+	<name>QRSduration</name>
+	<description>QRSduration</description>
+	<type>string</type>
+</variable>
+
+<variable id="phv00127129.v1">
+	<name>ecga10</name>
+	<description>HRVSDNN - heart rate variability</description>
+	<type>decimal</type>
+	<logical_min>1</logical_min>
+	<logical_max>584.9</logical_max>
+</variable>
+
+<variable id="phv00127130.v1">
+	<name>ecga11</name>
+	<description>HRVCVOLT - cornell voltage criteria</description>
+	<type>integer</type>
+	<logical_min>1</logical_min>
+	<logical_max>1563</logical_max>
+</variable>
+
+<variable id="phv00127131.v1">
+	<name>ecga12</name>
+	<description>SUPP8 - Ventricular (fibrillation, asystole), persistent ventricular, and supraventricular rhythm (the preceding 8 is not shown when a code is present).</description>
+	<type>encoded</type>
+	<comment>Please find encoded value descriptions in associated documents. Some of the values might be encoded and code descriptions have not been submitted at this time.</comment>
+</variable>
+
+<variable id="phv00127132.v1">
+	<name>ecga13</name>
+	<description>AR81X - Arrhythmias (81X codes, the preceding 8 and 1 are not shown when a code is present).</description>
+	<type>encoded</type>
+	<comment>Please find encoded value descriptions in associated documents. Some of the values might be encoded and code descriptions have not been submitted at this time.</comment>
+</variable>
+
+<variable id="phv00127133.v1">
+	<name>ecga14</name>
+	<description>AR82X - Arrhythmias (82X codes, the preceding 8 and 2 are not shown when a code is present).</description>
+	<type>encoded</type>
+	<comment>Please find encoded value descriptions in associated documents. Some of the values might be encoded and code descriptions have not been submitted at this time.</comment>
+</variable>
+
+<variable id="phv00127134.v1">
+	<name>ecga15</name>
+	<description>AR83X - Arrhythmias (83X codes, the preceding 8 and 3 are not shown when a code is present).</description>
+	<type>encoded</type>
+	<comment>Please find encoded value descriptions in associated documents. Some of the values might be encoded and code descriptions have not been submitted at this time.</comment>
+</variable>
+
+<variable id="phv00127135.v1">
+	<name>ecga16</name>
+	<description>AR84X - Arrhythmias (84X codes, the preceding 8 and 4 are not shown when a code is present).</description>
+	<type>encoded</type>
+	<comment>Please find encoded value descriptions in associated documents. Some of the values might be encoded and code descriptions have not been submitted at this time.</comment>
+</variable>
+
+<variable id="phv00127136.v1">
+	<name>ecga17</name>
+	<description>AR85X - Arrhythmias (85X codes, the preceding 8 and 5 are not shown when a code is present).</description>
+	<type>encoded</type>
+	<comment>Please find encoded value descriptions in associated documents. Some of the values might be encoded and code descriptions have not been submitted at this time.</comment>
+</variable>
+
+<variable id="phv00127137.v1">
+	<name>ecga18</name>
+	<description>AR86X - Arrhythmias (86X codes, the preceding 8 and 6 are not shown when a code is present).</description>
+	<type>encoded</type>
+</variable>
+
+<variable id="phv00127138.v1">
+	<name>ecga19</name>
+	<description>AR87X - Arrhythmias (87X codes, the preceding 8 and 7 are not shown when a code is present).</description>
+	<type>encoded</type>
+	<comment>Please find encoded value descriptions in associated documents. Some of the values might be encoded and code descriptions have not been submitted at this time.</comment>
+</variable>
+
+<variable id="phv00127139.v1">
+	<name>ecga20</name>
+	<description>AR88X - Arrhythmias (88X codes, the preceding 8 and 8 are not shown when a code is present).</description>
+	<type>encoded</type>
+	<comment>Please find encoded value descriptions in associated documents. Some of the values might be encoded and code descriptions have not been submitted at this time.</comment>
+</variable>
+
+<variable id="phv00127140.v1">
+	<name>ecga21</name>
+	<description>AR89X - Arrhythmias (89X codes, the preceding 8 and 9 are not shown when a code is present).</description>
+	<type>encoded</type>
+	<comment>Please find encoded value descriptions in associated documents. Some of the values might be encoded and code descriptions have not been submitted at this time.</comment>
+</variable>
+
+<variable id="phv00127141.v1">
+	<name>ecga22</name>
+	<description>VCD7XX - Intraventricular conduction defect (7 codes, the preceding 7 is not shown when a code is present).</description>
+	<type>encoded</type>
+	<comment>Please find encoded value descriptions in associated documents. Some of the values might be encoded and code descriptions have not been submitted at this time.</comment>
+</variable>
+
+<variable id="phv00127142.v1">
+	<name>ecga23</name>
+	<description>AVD6XX - Atrioventricular (A-V) conduction defects (6 codes, the preceding 6 is not shown when a code is present)</description>
+	<type>encoded</type>
+	<comment>Please find encoded value descriptions in associated documents. Some of the values might be encoded and code descriptions have not been submitted at this time.</comment>
+</variable>
+
+<variable id="phv00127143.v1">
+	<name>ecga24</name>
+	<description>QS1XX1 - Q and QS patterns in the anterolateral site (Q codes, the preceding 1 is not shown when a code is present)</description>
+	<type>encoded</type>
+	<comment>Please find encoded value descriptions in associated documents. Some of the values might be encoded and code descriptions have not been submitted at this time.</comment>
+</variable>
+
+<variable id="phv00127144.v1">
+	<name>ecga25</name>
+	<description>QS1XX2 - Q and QS patterns in the posterior(inferior) site (Q codes, the preceding 1 is not shown when a code is present)</description>
+	<type>integer</type>
+	<logical_min>11</logical_min>
+	<logical_max>36</logical_max>
+</variable>
+
+<variable id="phv00127145.v1">
+	<name>ecga26</name>
+	<description>QS1XX3 - Q and QS patterns in the anterior site (Q codes, the preceding 1 is not shown when a code is present)</description>
+	<type>encoded</type>
+	<comment>Please find encoded value descriptions in associated documents. Some of the values might be encoded and code descriptions have not been submitted at this time.</comment>
+</variable>
+
+<variable id="phv00127146.v1">
+	<name>ecga27</name>
+	<description>ST4XX1 - ST junction (J) and segment depression in the anterolateral site (4 codes, the preceding 4 is not shown when a code is present)</description>
+	<type>encoded</type>
+	<comment>Please find encoded value descriptions in associated documents. Some of the values might be encoded and code descriptions have not been submitted at this time.</comment>
+</variable>
+
+<variable id="phv00127147.v1">
+	<name>ecga28</name>
+	<description>TW5X1 - T-wave items in the anterolateral site (5 codes, the preceding 5 is not shown when a code is present)</description>
+	<type>encoded</type>
+	<comment>Please find encoded value descriptions in associated documents. Some of the values might be encoded and code descriptions have not been submitted at this time.</comment>
+</variable>
+
+<variable id="phv00127148.v1">
+	<name>ecga29</name>
+	<description>ST4XX2 - ST junction (J) and segment depression in the posterior(inferior) site (4 codes, the preceding 4 is not shown when a code is present)</description>
+	<type>encoded</type>
+	<comment>Please find encoded value descriptions in associated documents. Some of the values might be encoded and code descriptions have not been submitted at this time.</comment>
+</variable>
+
+<variable id="phv00127149.v1">
+	<name>ecga30</name>
+	<description>TW5X2 - T-wave items in the posterior(inferior) site (5 codes, the preceding 5 is not shown when a code is present)</description>
+	<type>encoded</type>
+	<comment>Please find encoded value descriptions in associated documents. Some of the values might be encoded and code descriptions have not been submitted at this time.</comment>
+</variable>
+
+<variable id="phv00127150.v1">
+	<name>ecga31</name>
+	<description>ST4XX3 - ST junction (J) and segment depression in the anterior site (4 codes, the preceding 4 is not shown when a code is present)</description>
+	<type>encoded</type>
+	<comment>Please find encoded value descriptions in associated documents. Some of the values might be encoded and code descriptions have not been submitted at this time.</comment>
+</variable>
+
+<variable id="phv00127151.v1">
+	<name>ecga32</name>
+	<description>TW5X3 - T-wave items in the anterior site (5 codes, the preceding 5 is not shown when a code is present)</description>
+	<type>encoded</type>
+	<comment>Please find encoded value descriptions in associated documents. Some of the values might be encoded and code descriptions have not been submitted at this time.</comment>
+</variable>
+
+<variable id="phv00127152.v1">
+	<name>ecga33</name>
+	<description>STV6 - ST segment elevation in the anterolateral site (9-2 codes, the preceding 9 is not shown when a code is present)</description>
+	<type>encoded</type>
+	<comment>Please find encoded value descriptions in associated documents. Some of the values might be encoded and code descriptions have not been submitted at this time.</comment>
+</variable>
+
+<variable id="phv00127153.v1">
+	<name>ecga34</name>
+	<description>STF - ST segment elevation in the posterior(inferior) site (9-2 codes, the preceding 9 is not shown when a code is present)</description>
+	<type>encoded</type>
+	<comment>Please find encoded value descriptions in associated documents. Some of the values might be encoded and code descriptions have not been submitted at this time.</comment>
+</variable>
+
+<variable id="phv00127154.v1">
+	<name>ecga35</name>
+	<description>STV5 - ST segment elevation in the anterior site (9-2 codes, the preceding 9 is not shown when a code is present)</description>
+	<type>encoded</type>
+	<comment>Please find encoded value descriptions in associated documents. Some of the values might be encoded and code descriptions have not been submitted at this time.</comment>
+</variable>
+
+<variable id="phv00127155.v1">
+	<name>ecga36</name>
+	<description>R3X - High amplitude R waves (3 codes, the preceding 3 is not shown when a code is present).</description>
+	<type>encoded</type>
+	<comment>Please find encoded value descriptions in associated documents. Some of the values might be encoded and code descriptions have not been submitted at this time.</comment>
+</variable>
+
+<variable id="phv00127156.v1">
+	<name>ecga37</name>
+	<description>M9X1 - Low QRS amplitude (91X codes, the preceding 9 and 1 are not shown when a code is present)</description>
+	<type>encoded</type>
+	<comment>Please find encoded value descriptions in associated documents. Some of the values might be encoded and code descriptions have not been submitted at this time.</comment>
+</variable>
+
+<variable id="phv00127157.v1">
+	<name>ecga38</name>
+	<description>M9X3 - Low QRS amplitude (93X codes, the preceding 9 and 3 are not shown when a code is present)</description>
+	<type>encoded</type>
+	<comment>Please find encoded value descriptions in associated documents. Some of the values might be encoded and code descriptions have not been submitted at this time.</comment>
+</variable>
+
+<variable id="phv00127158.v1">
+	<name>ecga39</name>
+	<description>M9X4 - Low QRS amplitude (94X codes, the preceding 9 and 4 are not shown when a code is present)</description>
+	<type>encoded</type>
+	<comment>Please find encoded value descriptions in associated documents. Some of the values might be encoded and code descriptions have not been submitted at this time.</comment>
+</variable>
+
+<variable id="phv00127159.v1">
+	<name>ecga40</name>
+	<description>M9X5 - Low QRS amplitude (95X codes, the preceding 9 and 5 are not shown when a code is present)</description>
+	<type>encoded</type>
+	<comment>Please find encoded value descriptions in associated documents. Some of the values might be encoded and code descriptions have not been submitted at this time.</comment>
+</variable>
+
+<variable id="phv00127160.v1">
+	<name>ecga41</name>
+	<description>PDUR - P Duration</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>192</logical_max>
+</variable>
+
+<variable id="phv00127161.v1">
+	<name>ecga42</name>
+	<description>PAXIS - P Axis</description>
+	<type>integer</type>
+	<logical_min>-136</logical_min>
+	<logical_max>9999</logical_max>
+</variable>
+
+<variable id="phv00127162.v1">
+	<name>ecga43</name>
+	<description>QRSDUR - QRS Duration</description>
+	<type>integer</type>
+	<logical_min>64</logical_min>
+	<logical_max>208</logical_max>
+</variable>
+
+<variable id="phv00127163.v1">
+	<name>ecga44</name>
+	<description>QRSAXIS - QRS Axis</description>
+	<type>decimal</type>
+	<logical_min>-162</logical_min>
+	<logical_max>9999</logical_max>
+</variable>
+
+<variable id="phv00127164.v1">
+	<name>ecga45</name>
+	<description>TDUR - T Duration</description>
+	<type>integer</type>
+	<logical_min>168</logical_min>
+	<logical_max>440</logical_max>
+</variable>
+
+<variable id="phv00127165.v1">
+	<name>ecga46</name>
+	<description>TAXIS - T Axis</description>
+	<type>integer</type>
+	<logical_min>-179</logical_min>
+	<logical_max>9999</logical_max>
+</variable>
+
+<variable id="phv00127166.v1">
+	<name>ecga47</name>
+	<description>QTDUR - QT Duration</description>
+	<type>integer</type>
+	<logical_min>290</logical_min>
+	<logical_max>580</logical_max>
+</variable>
+
+<variable id="phv00127167.v1">
+	<name>ecga48</name>
+	<description>QTCDUR - QTC Duration</description>
+	<type>integer</type>
+	<logical_min>318</logical_min>
+	<logical_max>594</logical_max>
+</variable>
+
+<variable id="phv00127168.v1">
+	<name>ecga49</name>
+	<description>VRATE - V Rate</description>
+	<type>integer</type>
+	<logical_min>30</logical_min>
+	<logical_max>118</logical_max>
+</variable>
+
+<variable id="phv00127169.v1">
+	<name>ecga50</name>
+	<description>QAMP1 - Q Amplitude in lead I</description>
+	<type>integer</type>
+	<logical_min>-285</logical_min>
+	<logical_max>0</logical_max>
+</variable>
+
+<variable id="phv00127170.v1">
+	<name>ecga51</name>
+	<description>QAMP2 - Q Amplitude in lead II</description>
+	<type>integer</type>
+	<logical_min>-1559</logical_min>
+	<logical_max>0</logical_max>
+</variable>
+
+<variable id="phv00127171.v1">
+	<name>ecga52</name>
+	<description>QAMP3 - Q Amplitude in lead III</description>
+	<type>integer</type>
+	<logical_min>-2238</logical_min>
+	<logical_max>0</logical_max>
+</variable>
+
+<variable id="phv00127172.v1">
+	<name>ecga53</name>
+	<description>QAMP4 - Q Amplitude in lead AVR</description>
+	<type>integer</type>
+	<logical_min>-2205</logical_min>
+	<logical_max>0</logical_max>
+</variable>
+
+<variable id="phv00127173.v1">
+	<name>ecga54</name>
+	<description>QAMP5 - Q Amplitude in lead AVL</description>
+	<type>integer</type>
+	<logical_min>-855</logical_min>
+	<logical_max>0</logical_max>
+</variable>
+
+<variable id="phv00127174.v1">
+	<name>ecga55</name>
+	<description>QAMP6 - Q Amplitude in lead AVF</description>
+	<type>integer</type>
+	<logical_min>-1444</logical_min>
+	<logical_max>0</logical_max>
+</variable>
+
+<variable id="phv00127175.v1">
+	<name>ecga56</name>
+	<description>QAMP7 - Q Amplitude in lead V1</description>
+	<type>integer</type>
+	<logical_min>-3860</logical_min>
+	<logical_max>0</logical_max>
+</variable>
+
+<variable id="phv00127176.v1">
+	<name>ecga57</name>
+	<description>QAMP8 - Q Amplitude in lead V2</description>
+	<type>integer</type>
+	<logical_min>-6274</logical_min>
+	<logical_max>0</logical_max>
+</variable>
+
+<variable id="phv00127177.v1">
+	<name>ecga58</name>
+	<description>QAMP9 - Q Amplitude in lead V3</description>
+	<type>integer</type>
+	<logical_min>-3076</logical_min>
+	<logical_max>0</logical_max>
+</variable>
+
+<variable id="phv00127178.v1">
+	<name>ecga59</name>
+	<description>QAMP10 - Q Amplitude in lead V4</description>
+	<type>integer</type>
+	<logical_min>-1738</logical_min>
+	<logical_max>0</logical_max>
+</variable>
+
+<variable id="phv00127179.v1">
+	<name>ecga60</name>
+	<description>QAMP11 - Q Amplitude in lead V5</description>
+	<type>integer</type>
+	<logical_min>-1068</logical_min>
+	<logical_max>0</logical_max>
+</variable>
+
+<variable id="phv00127180.v1">
+	<name>ecga61</name>
+	<description>QAMP12 - Q Amplitude in lead V6</description>
+	<type>integer</type>
+	<logical_min>-650</logical_min>
+	<logical_max>0</logical_max>
+</variable>
+
+<variable id="phv00127181.v1">
+	<name>ecga62</name>
+	<description>RAMPI - R Amplitude in lead I</description>
+	<type>integer</type>
+	<logical_min>5</logical_min>
+	<logical_max>2840</logical_max>
+</variable>
+
+<variable id="phv00127182.v1">
+	<name>ecga63</name>
+	<description>RAMPII - R Amplitude in lead II</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>3143</logical_max>
+</variable>
+
+<variable id="phv00127183.v1">
+	<name>ecga64</name>
+	<description>RAMPIII - R Amplitude in lead III</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>1944</logical_max>
+</variable>
+
+<variable id="phv00127184.v1">
+	<name>ecga65</name>
+	<description>RAMPAVR - R Amplitude in lead AVR</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>768</logical_max>
+</variable>
+
+<variable id="phv00127185.v1">
+	<name>ecga66</name>
+	<description>RAMPAVL - R Amplitude in lead AVL</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>2640</logical_max>
+</variable>
+
+<variable id="phv00127186.v1">
+	<name>ecga67</name>
+	<description>RAMPAVF - R Amplitude in lead AVF</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>2132</logical_max>
+</variable>
+
+<variable id="phv00127187.v1">
+	<name>ecga68</name>
+	<description>RAMPV1 - R Amplitude in lead V1</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>1568</logical_max>
+</variable>
+
+<variable id="phv00127188.v1">
+	<name>ecga69</name>
+	<description>RAMPV2 - R Amplitude in lead V2</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>4258</logical_max>
+</variable>
+
+<variable id="phv00127189.v1">
+	<name>ecga70</name>
+	<description>RAMPV3 - R Amplitude in lead V3</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>4064</logical_max>
+</variable>
+
+<variable id="phv00127190.v1">
+	<name>ecga71</name>
+	<description>RAMPV4 - R Amplitude in lead V4</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>5402</logical_max>
+</variable>
+
+<variable id="phv00127191.v1">
+	<name>ecga72</name>
+	<description>RAMPV5 - R Amplitude in lead V5</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>4966</logical_max>
+</variable>
+
+<variable id="phv00127192.v1">
+	<name>ecga73</name>
+	<description>RAMPV6 - R Amplitude in lead V6</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>3898</logical_max>
+</variable>
+
+<variable id="phv00127193.v1">
+	<name>ecga74</name>
+	<description>SAMPI - S Amplitude in lead I</description>
+	<type>integer</type>
+	<logical_min>-1069</logical_min>
+	<logical_max>3</logical_max>
+</variable>
+
+<variable id="phv00127194.v1">
+	<name>ecga75</name>
+	<description>SAMPII - S Amplitude in lead II</description>
+	<type>integer</type>
+	<logical_min>-1652</logical_min>
+	<logical_max>1</logical_max>
+</variable>
+
+<variable id="phv00127195.v1">
+	<name>ecga76</name>
+	<description>SAMPIII - S Amplitude in lead III</description>
+	<type>integer</type>
+	<logical_min>-2718</logical_min>
+	<logical_max>14</logical_max>
+</variable>
+
+<variable id="phv00127196.v1">
+	<name>ecga77</name>
+	<description>SAMPAVR - S Amplitude in lead AVR</description>
+	<type>integer</type>
+	<logical_min>-2582</logical_min>
+	<logical_max>0</logical_max>
+</variable>
+
+<variable id="phv00127197.v1">
+	<name>ecga78</name>
+	<description>SAMPAVL - S Amplitude in lead AVL</description>
+	<type>integer</type>
+	<logical_min>-1383</logical_min>
+	<logical_max>0</logical_max>
+</variable>
+
+<variable id="phv00127198.v1">
+	<name>ecga79</name>
+	<description>SAMPAVF - S Amplitude in lead AVF</description>
+	<type>integer</type>
+	<logical_min>-2049</logical_min>
+	<logical_max>0</logical_max>
+</variable>
+
+<variable id="phv00127199.v1">
+	<name>ecga80</name>
+	<description>SAMPV1 - S Amplitude in lead V1</description>
+	<type>integer</type>
+	<logical_min>-3463</logical_min>
+	<logical_max>0</logical_max>
+</variable>
+
+<variable id="phv00127200.v1">
+	<name>ecga81</name>
+	<description>SAMPV2 - S Amplitude in lead V2</description>
+	<type>integer</type>
+	<logical_min>-5475</logical_min>
+	<logical_max>0</logical_max>
+</variable>
+
+<variable id="phv00127201.v1">
+	<name>ecga82</name>
+	<description>SAMPV3 - S Amplitude in lead V3</description>
+	<type>integer</type>
+	<logical_min>-4640</logical_min>
+	<logical_max>23</logical_max>
+</variable>
+
+<variable id="phv00127202.v1">
+	<name>ecga83</name>
+	<description>SAMPV4 - S Amplitude in lead V4</description>
+	<type>integer</type>
+	<logical_min>-3635</logical_min>
+	<logical_max>0</logical_max>
+</variable>
+
+<variable id="phv00127203.v1">
+	<name>ecga84</name>
+	<description>SAMPV5 - S Amplitude in lead V5</description>
+	<type>integer</type>
+	<logical_min>-2773</logical_min>
+	<logical_max>0</logical_max>
+</variable>
+
+<variable id="phv00127204.v1">
+	<name>ecga85</name>
+	<description>SAMPV6 - S Amplitude in lead V6</description>
+	<type>integer</type>
+	<logical_min>-1427</logical_min>
+	<logical_max>0</logical_max>
+</variable>
+
+<variable id="phv00127205.v1">
+	<name>ecga86</name>
+	<description>R1AMPI - R&#39; Amplitude in lead I</description>
+	<type>integer</type>
+</variable>
+
+<variable id="phv00127206.v1">
+	<name>ecga87</name>
+	<description>R1AMPII - R&#39; Amplitude in lead II</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>214</logical_max>
+</variable>
+
+<variable id="phv00127207.v1">
+	<name>ecga88</name>
+	<description>R1AMPIII - R&#39; Amplitude in lead III</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>1383</logical_max>
+</variable>
+
+<variable id="phv00127208.v1">
+	<name>ecga89</name>
+	<description>R1AMPAVR - R&#39; Amplitude in lead AVR</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>466</logical_max>
+</variable>
+
+<variable id="phv00127209.v1">
+	<name>ecga90</name>
+	<description>R1AMPAVL - R&#39; Amplitude in lead AVL</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>1460</logical_max>
+</variable>
+
+<variable id="phv00127210.v1">
+	<name>ecga91</name>
+	<description>R1AMPAVF - R&#39; Amplitude in lead AVF</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>1578</logical_max>
+</variable>
+
+<variable id="phv00127211.v1">
+	<name>ecga92</name>
+	<description>R1AMPV1 - R&#39; Amplitude in lead V1</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>1644</logical_max>
+</variable>
+
+<variable id="phv00127212.v1">
+	<name>ecga93</name>
+	<description>R1AMPV2 - R&#39; Amplitude in lead V2</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>1255</logical_max>
+</variable>
+
+<variable id="phv00127213.v1">
+	<name>ecga94</name>
+	<description>R1AMPV3 - R&#39; Amplitude in lead V3</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>2255</logical_max>
+</variable>
+
+<variable id="phv00127214.v1">
+	<name>ecga95</name>
+	<description>R1AMPV4 - R&#39; Amplitude in lead V4</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>879</logical_max>
+</variable>
+
+<variable id="phv00127215.v1">
+	<name>ecga96</name>
+	<description>R1AMPV5 - R&#39; Amplitude in lead V5</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>727</logical_max>
+</variable>
+
+<variable id="phv00127216.v1">
+	<name>ecga97</name>
+	<description>R1AMPV6 - R&#39; Amplitude in lead V6</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>1351</logical_max>
+</variable>
+
+<variable id="phv00127217.v1">
+	<name>ecga98</name>
+	<description>S1AMPI - S&#39; Amplitude in lead I</description>
+	<type>integer</type>
+</variable>
+
+<variable id="phv00127218.v1">
+	<name>ecga99</name>
+	<description>S1AMPII - S&#39; Amplitude in lead II</description>
+	<type>integer</type>
+</variable>
+
+<variable id="phv00127219.v1">
+	<name>ecga100</name>
+	<description>S1AMPIII - S&#39; Amplitude in lead III</description>
+	<type>integer</type>
+	<logical_min>-1105</logical_min>
+	<logical_max>0</logical_max>
+</variable>
+
+<variable id="phv00127220.v1">
+	<name>ecga101</name>
+	<description>S1AMPAVR - S&#39; Amplitude in lead AVR</description>
+	<type>integer</type>
+</variable>
+
+<variable id="phv00127221.v1">
+	<name>ecga102</name>
+	<description>S1AMPAVL - S&#39; Amplitude in lead AVL</description>
+	<type>integer</type>
+</variable>
+
+<variable id="phv00127222.v1">
+	<name>ecga103</name>
+	<description>S1AMPAVF - S&#39; Amplitude in lead AVF</description>
+	<type>integer</type>
+	<logical_min>-470</logical_min>
+	<logical_max>0</logical_max>
+</variable>
+
+<variable id="phv00127223.v1">
+	<name>ecga104</name>
+	<description>S1AMPV1 - S&#39; Amplitude in lead V1</description>
+	<type>integer</type>
+	<logical_min>-854</logical_min>
+	<logical_max>0</logical_max>
+</variable>
+
+<variable id="phv00127224.v1">
+	<name>ecga105</name>
+	<description>S1AMPV2 - S&#39; Amplitude in lead V2</description>
+	<type>integer</type>
+	<logical_min>-666</logical_min>
+	<logical_max>0</logical_max>
+</variable>
+
+<variable id="phv00127225.v1">
+	<name>ecga106</name>
+	<description>S1AMPV3 - S&#39; Amplitude in lead V3</description>
+	<type>integer</type>
+	<logical_min>-797</logical_min>
+	<logical_max>0</logical_max>
+</variable>
+
+<variable id="phv00127226.v1">
+	<name>ecga107</name>
+	<description>S1AMPV4 - S&#39; Amplitude in lead V4</description>
+	<type>integer</type>
+</variable>
+
+<variable id="phv00127227.v1">
+	<name>ecga108</name>
+	<description>S1AMPV5 - S&#39; Amplitude in lead V5</description>
+	<type>integer</type>
+</variable>
+
+<variable id="phv00127228.v1">
+	<name>ecga109</name>
+	<description>S1AMPV6 - S&#39; Amplitude in lead V6</description>
+	<type>encoded</type>
+	<comment>Please find encoded value descriptions in associated documents. Some of the values might be encoded and code descriptions have not been submitted at this time.</comment>
+</variable>
+
+<variable id="phv00127229.v1">
+	<name>ecga110</name>
+	<description>R11AMPI - R&#39;&#39; Amplitude in lead I</description>
+	<type>encoded</type>
+	<comment>Please find encoded value descriptions in associated documents. Some of the values might be encoded and code descriptions have not been submitted at this time.</comment>
+</variable>
+
+<variable id="phv00127230.v1">
+	<name>ecga111</name>
+	<description>R11AMPII - R&#39;&#39; Amplitude in lead II</description>
+	<type>encoded</type>
+	<comment>Please find encoded value descriptions in associated documents. Some of the values might be encoded and code descriptions have not been submitted at this time.</comment>
+</variable>
+
+<variable id="phv00127231.v1">
+	<name>ecga112</name>
+	<description>R11AMPII - R&#39;&#39; Amplitude in lead III</description>
+	<type>integer</type>
+</variable>
+
+<variable id="phv00127232.v1">
+	<name>ecga113</name>
+	<description>R11AMPAV - R&#39;&#39; Amplitude in lead AVR</description>
+	<type>encoded</type>
+	<comment>Please find encoded value descriptions in associated documents. Some of the values might be encoded and code descriptions have not been submitted at this time.</comment>
+</variable>
+
+<variable id="phv00127233.v1">
+	<name>ecga114</name>
+	<description>R11AMPAV - R&#39;&#39; Amplitude in lead AVL</description>
+	<type>encoded</type>
+	<comment>Please find encoded value descriptions in associated documents. Some of the values might be encoded and code descriptions have not been submitted at this time.</comment>
+</variable>
+
+<variable id="phv00127234.v1">
+	<name>ecga115</name>
+	<description>R11AMPAV - R&#39;&#39; Amplitude in lead AVF</description>
+	<type>integer</type>
+</variable>
+
+<variable id="phv00127235.v1">
+	<name>ecga116</name>
+	<description>R11AMPV1 - R&#39;&#39; Amplitude in lead V1</description>
+	<type>encoded</type>
+	<comment>Please find encoded value descriptions in associated documents. Some of the values might be encoded and code descriptions have not been submitted at this time.</comment>
+</variable>
+
+<variable id="phv00127236.v1">
+	<name>ecga117</name>
+	<description>R11AMPV2 - R&#39;&#39; Amplitude in lead V2</description>
+	<type>encoded</type>
+	<comment>Please find encoded value descriptions in associated documents. Some of the values might be encoded and code descriptions have not been submitted at this time.</comment>
+</variable>
+
+<variable id="phv00127237.v1">
+	<name>ecga118</name>
+	<description>R11AMPV3 - R&#39;&#39; Amplitude in lead V3</description>
+	<type>encoded</type>
+	<comment>Please find encoded value descriptions in associated documents. Some of the values might be encoded and code descriptions have not been submitted at this time.</comment>
+</variable>
+
+<variable id="phv00127238.v1">
+	<name>ecga119</name>
+	<description>R11AMPV4 - R&#39;&#39; Amplitude in lead V4</description>
+	<type>integer</type>
+</variable>
+
+<variable id="phv00127239.v1">
+	<name>ecga120</name>
+	<description>R11AMPV5 - R&#39;&#39; Amplitude in lead V5</description>
+	<type>encoded</type>
+	<comment>Please find encoded value descriptions in associated documents. Some of the values might be encoded and code descriptions have not been submitted at this time.</comment>
+</variable>
+
+<variable id="phv00127240.v1">
+	<name>ecga121</name>
+	<description>R11AMPV6 - R&#39;&#39; Amplitude in lead V6</description>
+	<type>encoded</type>
+	<comment>Please find encoded value descriptions in associated documents. Some of the values might be encoded and code descriptions have not been submitted at this time.</comment>
+</variable>
+
+<variable id="phv00127241.v1">
+	<name>ecga122</name>
+	<description>QRRATI - QR ratio in lead I</description>
+	<type>integer</type>
+	<logical_min>-44</logical_min>
+	<logical_max>0</logical_max>
+</variable>
+
+<variable id="phv00127242.v1">
+	<name>ecga123</name>
+	<description>QRRATII - QR ratio in lead II</description>
+	<type>integer</type>
+	<logical_min>-317</logical_min>
+	<logical_max>9999</logical_max>
+</variable>
+
+<variable id="phv00127243.v1">
+	<name>ecga124</name>
+	<description>QRRATIII - QR ratio in lead III</description>
+	<type>integer</type>
+	<logical_min>-1294</logical_min>
+	<logical_max>9999</logical_max>
+</variable>
+
+<variable id="phv00127244.v1">
+	<name>ecga125</name>
+	<description>QRRATAVR - QR ratio in lead AVR</description>
+	<type>integer</type>
+	<logical_min>-1250</logical_min>
+	<logical_max>9999</logical_max>
+</variable>
+
+<variable id="phv00127245.v1">
+	<name>ecga126</name>
+	<description>QRRATAVL - QR ratio in lead AVL</description>
+	<type>integer</type>
+	<logical_min>-253</logical_min>
+	<logical_max>9999</logical_max>
+</variable>
+
+<variable id="phv00127246.v1">
+	<name>ecga127</name>
+	<description>QRRATAVF - QR ratio in lead AVF</description>
+	<type>integer</type>
+	<logical_min>-658</logical_min>
+	<logical_max>9999</logical_max>
+</variable>
+
+<variable id="phv00127247.v1">
+	<name>ecga128</name>
+	<description>QRRATV1 - QR ratio in lead V1</description>
+	<type>integer</type>
+	<logical_min>-849</logical_min>
+	<logical_max>9999</logical_max>
+</variable>
+
+<variable id="phv00127248.v1">
+	<name>ecga129</name>
+	<description>QRRATV2 - QR ratio in lead V2</description>
+	<type>integer</type>
+	<logical_min>-832</logical_min>
+	<logical_max>9999</logical_max>
+</variable>
+
+<variable id="phv00127249.v1">
+	<name>ecga130</name>
+	<description>QRRATV3 - QR ratio in lead V3</description>
+	<type>integer</type>
+	<logical_min>-144</logical_min>
+	<logical_max>9999</logical_max>
+</variable>
+
+<variable id="phv00127250.v1">
+	<name>ecga131</name>
+	<description>QRRATV4 - QR ratio in lead V4</description>
+	<type>integer</type>
+	<logical_min>-212</logical_min>
+	<logical_max>9999</logical_max>
+</variable>
+
+<variable id="phv00127251.v1">
+	<name>ecga132</name>
+	<description>QRRATV5 - QR ratio in lead V5</description>
+	<type>integer</type>
+	<logical_min>-162</logical_min>
+	<logical_max>9999</logical_max>
+</variable>
+
+<variable id="phv00127252.v1">
+	<name>ecga133</name>
+	<description>QRRATV6 - QR ratio in lead V6</description>
+	<type>integer</type>
+	<logical_min>-103</logical_min>
+	<logical_max>9999</logical_max>
+</variable>
+
+<variable id="phv00127253.v1">
+	<name>ecga134</name>
+	<description>RSRATI - RS Ratio in lead I</description>
+	<type>integer</type>
+	<logical_min>-1973</logical_min>
+	<logical_max>9999</logical_max>
+</variable>
+
+<variable id="phv00127254.v1">
+	<name>ecga135</name>
+	<description>RSRATII - RS Ratio in lead II</description>
+	<type>integer</type>
+	<logical_min>-1864</logical_min>
+	<logical_max>9999</logical_max>
+</variable>
+
+<variable id="phv00127255.v1">
+	<name>ecga136</name>
+	<description>RSRATIII - RS Ratio in lead III</description>
+	<type>integer</type>
+	<logical_min>-1371</logical_min>
+	<logical_max>9999</logical_max>
+</variable>
+
+<variable id="phv00127256.v1">
+	<name>ecga137</name>
+	<description>RSRATAVR - RS Ratio in lead AVR</description>
+	<type>integer</type>
+	<logical_min>-163</logical_min>
+	<logical_max>9999</logical_max>
+</variable>
+
+<variable id="phv00127257.v1">
+	<name>ecga138</name>
+	<description>RSRATAVL - RS Ratio in lead AVL</description>
+	<type>integer</type>
+	<logical_min>-1759</logical_min>
+	<logical_max>9999</logical_max>
+</variable>
+
+<variable id="phv00127258.v1">
+	<name>ecga139</name>
+	<description>RSRATAVF - RS Ratio in lead AVF</description>
+	<type>integer</type>
+	<logical_min>-1445</logical_min>
+	<logical_max>9999</logical_max>
+</variable>
+
+<variable id="phv00127259.v1">
+	<name>ecga140</name>
+	<description>RSRATV1 - RS Ratio in lead V1</description>
+	<type>integer</type>
+	<logical_min>-1383</logical_min>
+	<logical_max>9999</logical_max>
+</variable>
+
+<variable id="phv00127260.v1">
+	<name>ecga141</name>
+	<description>RSRATV2 - RS Ratio in lead V2</description>
+	<type>integer</type>
+	<logical_min>-3631</logical_min>
+	<logical_max>9999</logical_max>
+</variable>
+
+<variable id="phv00127261.v1">
+	<name>ecga142</name>
+	<description>RSRATV3 - RS Ratio in lead V3</description>
+	<type>integer</type>
+	<logical_min>-2327</logical_min>
+	<logical_max>9999</logical_max>
+</variable>
+
+<variable id="phv00127262.v1">
+	<name>ecga143</name>
+	<description>RSRATV4 - RS Ratio in lead V4</description>
+	<type>integer</type>
+	<logical_min>-3011</logical_min>
+	<logical_max>9999</logical_max>
+</variable>
+
+<variable id="phv00127263.v1">
+	<name>ecga144</name>
+	<description>RSRATV5 - RS Ratio in lead V5</description>
+	<type>integer</type>
+	<logical_min>-3734</logical_min>
+	<logical_max>9999</logical_max>
+</variable>
+
+<variable id="phv00127264.v1">
+	<name>ecga145</name>
+	<description>RSRATV6 - RS Ratio in lead V6</description>
+	<type>integer</type>
+	<logical_min>-2229</logical_min>
+	<logical_max>9999</logical_max>
+</variable>
+
+<variable id="phv00127265.v1">
+	<name>ecga146</name>
+	<description>TRANGI - T Range in lead I</description>
+	<type>integer</type>
+	<logical_min>23</logical_min>
+	<logical_max>829</logical_max>
+</variable>
+
+<variable id="phv00127266.v1">
+	<name>ecga147</name>
+	<description>TRANGII - T Range in lead II</description>
+	<type>integer</type>
+	<logical_min>17</logical_min>
+	<logical_max>740</logical_max>
+</variable>
+
+<variable id="phv00127267.v1">
+	<name>ecga148</name>
+	<description>TRANGIII - T Range in lead III</description>
+	<type>integer</type>
+	<logical_min>16</logical_min>
+	<logical_max>961</logical_max>
+</variable>
+
+<variable id="phv00127268.v1">
+	<name>ecga149</name>
+	<description>TRANGAVR - T Range in lead AVR</description>
+	<type>integer</type>
+	<logical_min>19</logical_min>
+	<logical_max>636</logical_max>
+</variable>
+
+<variable id="phv00127269.v1">
+	<name>ecga150</name>
+	<description>TRANGAVL - T Range in lead AVL</description>
+	<type>integer</type>
+	<logical_min>12</logical_min>
+	<logical_max>606</logical_max>
+</variable>
+
+<variable id="phv00127270.v1">
+	<name>ecga151</name>
+	<description>TRANGAVF - T Range in lead AVF</description>
+	<type>integer</type>
+	<logical_min>13</logical_min>
+	<logical_max>850</logical_max>
+</variable>
+
+<variable id="phv00127271.v1">
+	<name>ecga152</name>
+	<description>TRANGV1 - T Range in lead V1</description>
+	<type>integer</type>
+	<logical_min>16</logical_min>
+	<logical_max>1100</logical_max>
+</variable>
+
+<variable id="phv00127272.v1">
+	<name>ecga153</name>
+	<description>TRANGV2 - T Range in lead V2</description>
+	<type>integer</type>
+	<logical_min>33</logical_min>
+	<logical_max>1471</logical_max>
+</variable>
+
+<variable id="phv00127273.v1">
+	<name>ecga154</name>
+	<description>TRANGV3 - T Range in lead V3</description>
+	<type>integer</type>
+	<logical_min>34</logical_min>
+	<logical_max>1740</logical_max>
+</variable>
+
+<variable id="phv00127274.v1">
+	<name>ecga155</name>
+	<description>TRANGV4 - T Range in lead V4</description>
+	<type>integer</type>
+	<logical_min>27</logical_min>
+	<logical_max>1443</logical_max>
+</variable>
+
+<variable id="phv00127275.v1">
+	<name>ecga156</name>
+	<description>TRANGV5 - T Range in lead V5</description>
+	<type>integer</type>
+	<logical_min>26</logical_min>
+	<logical_max>1574</logical_max>
+</variable>
+
+<variable id="phv00127276.v1">
+	<name>ecga157</name>
+	<description>TRANGV6 - T Range in lead V6</description>
+	<type>integer</type>
+	<logical_min>20</logical_min>
+	<logical_max>1215</logical_max>
+</variable>
+
+<variable id="phv00127277.v1">
+	<name>ecga158</name>
+	<description>PxAMPI - P+ Amplitude in lead I</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>215</logical_max>
+</variable>
+
+<variable id="phv00127278.v1">
+	<name>ecga159</name>
+	<description>PxAMPII - P+ Amplitude in lead II</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>312</logical_max>
+</variable>
+
+<variable id="phv00127279.v1">
+	<name>ecga160</name>
+	<description>PxAMPIII - P+ Amplitude in lead III</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>246</logical_max>
+</variable>
+
+<variable id="phv00127280.v1">
+	<name>ecga161</name>
+	<description>PxAMPAVR - P+ Amplitude in lead AVR</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>131</logical_max>
+</variable>
+
+<variable id="phv00127281.v1">
+	<name>ecga162</name>
+	<description>PxAMPAVL - P+ Amplitude in lead AVL</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>203</logical_max>
+</variable>
+
+<variable id="phv00127282.v1">
+	<name>ecga163</name>
+	<description>PxAMPAVF - P+ Amplitude in lead AVF</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>264</logical_max>
+</variable>
+
+<variable id="phv00127283.v1">
+	<name>ecga164</name>
+	<description>PxAMPV1 - P+ Amplitude in lead V1</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>302</logical_max>
+</variable>
+
+<variable id="phv00127284.v1">
+	<name>ecga165</name>
+	<description>PxAMPV2 - P+ Amplitude in lead V2</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>227</logical_max>
+</variable>
+
+<variable id="phv00127285.v1">
+	<name>ecga166</name>
+	<description>PxAMPV3 - P+ Amplitude in lead V3</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>191</logical_max>
+</variable>
+
+<variable id="phv00127286.v1">
+	<name>ecga167</name>
+	<description>PxAMPV4 - P+ Amplitude in lead V4</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>220</logical_max>
+</variable>
+
+<variable id="phv00127287.v1">
+	<name>ecga168</name>
+	<description>PxAMPV5 - P+ Amplitude in lead V5</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>352</logical_max>
+</variable>
+
+<variable id="phv00127288.v1">
+	<name>ecga169</name>
+	<description>PxAMPV6 - P+ Amplitude in lead V6</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>151</logical_max>
+</variable>
+
+<variable id="phv00127289.v1">
+	<name>ecga170</name>
+	<description>PRDURI - PR Duration in lead I</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>338</logical_max>
+</variable>
+
+<variable id="phv00127290.v1">
+	<name>ecga171</name>
+	<description>PRDURII - PR Duration in lead II</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>338</logical_max>
+</variable>
+
+<variable id="phv00127291.v1">
+	<name>ecga172</name>
+	<description>PRDURIII - PR Duration in lead III</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>324</logical_max>
+</variable>
+
+<variable id="phv00127292.v1">
+	<name>ecga173</name>
+	<description>PRDURAVR - PR Duration in lead AVR</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>338</logical_max>
+</variable>
+
+<variable id="phv00127293.v1">
+	<name>ecga174</name>
+	<description>PRDURAVL - PR Duration in lead AVL</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>330</logical_max>
+</variable>
+
+<variable id="phv00127294.v1">
+	<name>ecga175</name>
+	<description>PRDURAVF - PR Duration in lead AVF</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>334</logical_max>
+</variable>
+
+<variable id="phv00127295.v1">
+	<name>ecga176</name>
+	<description>PRDURV1 - PR Duration in lead V1</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>338</logical_max>
+</variable>
+
+<variable id="phv00127296.v1">
+	<name>ecga177</name>
+	<description>PRDURV2 - PR Duration in lead V2</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>342</logical_max>
+</variable>
+
+<variable id="phv00127297.v1">
+	<name>ecga178</name>
+	<description>PRDURV3 - PR Duration in lead V3</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>332</logical_max>
+</variable>
+
+<variable id="phv00127298.v1">
+	<name>ecga179</name>
+	<description>PRDURV4 - PR Duration in lead V4</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>330</logical_max>
+</variable>
+
+<variable id="phv00127299.v1">
+	<name>ecga180</name>
+	<description>PRDURV5 - PR Duration in lead V5</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>330</logical_max>
+</variable>
+
+<variable id="phv00127300.v1">
+	<name>ecga181</name>
+	<description>PRDURV6 - PR Duration in lead V6</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>336</logical_max>
+</variable>
+
+<variable id="phv00127301.v1">
+	<name>ecga182</name>
+	<description>QRS_I - QRS- Amplitude in lead I</description>
+	<type>integer</type>
+	<logical_min>-1069</logical_min>
+	<logical_max>0</logical_max>
+</variable>
+
+<variable id="phv00127302.v1">
+	<name>ecga183</name>
+	<description>QRS_II - QRS- Amplitude in lead II</description>
+	<type>integer</type>
+	<logical_min>-1652</logical_min>
+	<logical_max>0</logical_max>
+</variable>
+
+<variable id="phv00127303.v1">
+	<name>ecga184</name>
+	<description>QRS_III - QRS- Amplitude in lead III</description>
+	<type>integer</type>
+	<logical_min>-2718</logical_min>
+	<logical_max>0</logical_max>
+</variable>
+
+<variable id="phv00127304.v1">
+	<name>ecga185</name>
+	<description>QRS_AVR - QRS- Amplitude in lead AVR</description>
+	<type>integer</type>
+	<logical_min>-2582</logical_min>
+	<logical_max>0</logical_max>
+</variable>
+
+<variable id="phv00127305.v1">
+	<name>ecga186</name>
+	<description>QRS_AVL - QRS- Amplitude in lead AVL</description>
+	<type>integer</type>
+	<logical_min>-1383</logical_min>
+	<logical_max>0</logical_max>
+</variable>
+
+<variable id="phv00127306.v1">
+	<name>ecga187</name>
+	<description>QRS_AVF - QRS- Amplitude in lead AVF</description>
+	<type>integer</type>
+	<logical_min>-2049</logical_min>
+	<logical_max>0</logical_max>
+</variable>
+
+<variable id="phv00127307.v1">
+	<name>ecga188</name>
+	<description>QRS_V1 - QRS- Amplitude in lead V1</description>
+	<type>integer</type>
+	<logical_min>-3860</logical_min>
+	<logical_max>0</logical_max>
+</variable>
+
+<variable id="phv00127308.v1">
+	<name>ecga189</name>
+	<description>QRS_V2 - QRS- Amplitude in lead V2</description>
+	<type>integer</type>
+	<logical_min>-6274</logical_min>
+	<logical_max>0</logical_max>
+</variable>
+
+<variable id="phv00127309.v1">
+	<name>ecga190</name>
+	<description>QRS_V3 - QRS- Amplitude in lead V3</description>
+	<type>integer</type>
+	<logical_min>-4640</logical_min>
+	<logical_max>0</logical_max>
+</variable>
+
+<variable id="phv00127310.v1">
+	<name>ecga191</name>
+	<description>QRS_V4 - QRS- Amplitude in lead V4</description>
+	<type>integer</type>
+	<logical_min>-3635</logical_min>
+	<logical_max>0</logical_max>
+</variable>
+
+<variable id="phv00127311.v1">
+	<name>ecga192</name>
+	<description>QRS_V5 - QRS- Amplitude in lead V5</description>
+	<type>integer</type>
+	<logical_min>-2773</logical_min>
+	<logical_max>0</logical_max>
+</variable>
+
+<variable id="phv00127312.v1">
+	<name>ecga193</name>
+	<description>QRS_V6 - QRS- Amplitude in lead V6</description>
+	<type>integer</type>
+	<logical_min>-1427</logical_min>
+	<logical_max>0</logical_max>
+</variable>
+
+<variable id="phv00127313.v1">
+	<name>ecga194</name>
+	<description>QRSxI - QRS+ Amplitude in lead I</description>
+	<type>integer</type>
+	<logical_min>89</logical_min>
+	<logical_max>2840</logical_max>
+</variable>
+
+<variable id="phv00127314.v1">
+	<name>ecga195</name>
+	<description>QRSxII - QRS+ Amplitude in lead II</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>3143</logical_max>
+</variable>
+
+<variable id="phv00127315.v1">
+	<name>ecga196</name>
+	<description>QRSxIII - QRS+ Amplitude in lead III</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>1944</logical_max>
+</variable>
+
+<variable id="phv00127316.v1">
+	<name>ecga197</name>
+	<description>QRSxAVR - QRS+ Amplitude in lead AVR</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>768</logical_max>
+</variable>
+
+<variable id="phv00127317.v1">
+	<name>ecga198</name>
+	<description>QRSxAVL - QRS+ Amplitude in lead AVL</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>2640</logical_max>
+</variable>
+
+<variable id="phv00127318.v1">
+	<name>ecga199</name>
+	<description>QRSxAVF - QRS+ Amplitude in lead AVF</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>2132</logical_max>
+</variable>
+
+<variable id="phv00127319.v1">
+	<name>ecga200</name>
+	<description>QRSxV1 - QRS+ Amplitude in lead V1</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>1644</logical_max>
+</variable>
+
+<variable id="phv00127320.v1">
+	<name>ecga201</name>
+	<description>QRSxV2 - QRS+ Amplitude in lead V2</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>4258</logical_max>
+</variable>
+
+<variable id="phv00127321.v1">
+	<name>ecga202</name>
+	<description>QRSxV3 - QRS+ Amplitude in lead V3</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>4064</logical_max>
+</variable>
+
+<variable id="phv00127322.v1">
+	<name>ecga203</name>
+	<description>QRSxV4 - QRS+ Amplitude in lead V4</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>5402</logical_max>
+</variable>
+
+<variable id="phv00127323.v1">
+	<name>ecga204</name>
+	<description>QRSxV5 - QRS+ Amplitude in lead V5</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>4966</logical_max>
+</variable>
+
+<variable id="phv00127324.v1">
+	<name>ecga205</name>
+	<description>QRSxV6 - QRS+ Amplitude in lead V6</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>3898</logical_max>
+</variable>
+
+<variable id="phv00127325.v1">
+	<name>ecga206</name>
+	<description>JAMPI - J Amplitude in lead I</description>
+	<type>integer</type>
+	<logical_min>-207</logical_min>
+	<logical_max>252</logical_max>
+</variable>
+
+<variable id="phv00127326.v1">
+	<name>ecga207</name>
+	<description>JAMPII - J Amplitude in lead II</description>
+	<type>integer</type>
+	<logical_min>-335</logical_min>
+	<logical_max>129</logical_max>
+</variable>
+
+<variable id="phv00127327.v1">
+	<name>ecga208</name>
+	<description>JAMPIII - J Amplitude in lead III</description>
+	<type>integer</type>
+	<logical_min>-586</logical_min>
+	<logical_max>179</logical_max>
+</variable>
+
+<variable id="phv00127328.v1">
+	<name>ecga209</name>
+	<description>JAMPAVR - J Amplitude in lead AVR</description>
+	<type>integer</type>
+	<logical_min>-110</logical_min>
+	<logical_max>130</logical_max>
+</variable>
+
+<variable id="phv00127329.v1">
+	<name>ecga210</name>
+	<description>JAMPAVL - J Amplitude in lead AVL</description>
+	<type>integer</type>
+	<logical_min>-197</logical_min>
+	<logical_max>419</logical_max>
+</variable>
+
+<variable id="phv00127330.v1">
+	<name>ecga211</name>
+	<description>JAMPAVF - J Amplitude in lead AVF</description>
+	<type>integer</type>
+	<logical_min>-460</logical_min>
+	<logical_max>132</logical_max>
+</variable>
+
+<variable id="phv00127331.v1">
+	<name>ecga212</name>
+	<description>JAMPV1 - J Amplitude in lead V1</description>
+	<type>integer</type>
+	<logical_min>-259</logical_min>
+	<logical_max>410</logical_max>
+</variable>
+
+<variable id="phv00127332.v1">
+	<name>ecga213</name>
+	<description>JAMPV2 - J Amplitude in lead V2</description>
+	<type>integer</type>
+	<logical_min>-374</logical_min>
+	<logical_max>737</logical_max>
+</variable>
+
+<variable id="phv00127333.v1">
+	<name>ecga214</name>
+	<description>JAMPV3 - J Amplitude in lead V3</description>
+	<type>integer</type>
+	<logical_min>-343</logical_min>
+	<logical_max>649</logical_max>
+</variable>
+
+<variable id="phv00127334.v1">
+	<name>ecga215</name>
+	<description>JAMPV4 - J Amplitude in lead V4</description>
+	<type>integer</type>
+	<logical_min>-286</logical_min>
+	<logical_max>512</logical_max>
+</variable>
+
+<variable id="phv00127335.v1">
+	<name>ecga216</name>
+	<description>JAMPV5 - J Amplitude in lead V5</description>
+	<type>integer</type>
+	<logical_min>-261</logical_min>
+	<logical_max>355</logical_max>
+</variable>
+
+<variable id="phv00127336.v1">
+	<name>ecga217</name>
+	<description>JAMPV6 - J Amplitude in lead V6</description>
+	<type>integer</type>
+	<logical_min>-181</logical_min>
+	<logical_max>214</logical_max>
+</variable>
+
+<variable id="phv00127337.v1">
+	<name>ecga218</name>
+	<description>TxAMPI - T+ Amplitude in lead I</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>885</logical_max>
+</variable>
+
+<variable id="phv00127338.v1">
+	<name>ecga219</name>
+	<description>TxAMPII - T+ Amplitude in lead II</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>710</logical_max>
+</variable>
+
+<variable id="phv00127339.v1">
+	<name>ecga220</name>
+	<description>TxAMPIII - T+ Amplitude in lead III</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>728</logical_max>
+</variable>
+
+<variable id="phv00127340.v1">
+	<name>ecga221</name>
+	<description>TxAMPAVR - T+ Amplitude in lead AVR</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>501</logical_max>
+</variable>
+
+<variable id="phv00127341.v1">
+	<name>ecga222</name>
+	<description>TxAMPAVL - T+ Amplitude in lead AVL</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>638</logical_max>
+</variable>
+
+<variable id="phv00127342.v1">
+	<name>ecga223</name>
+	<description>TxAMPAVF - T+ Amplitude in lead AVF</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>704</logical_max>
+</variable>
+
+<variable id="phv00127343.v1">
+	<name>ecga224</name>
+	<description>TxAMPV1 - T+ Amplitude in lead V1</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>1140</logical_max>
+</variable>
+
+<variable id="phv00127344.v1">
+	<name>ecga225</name>
+	<description>TxAMPV2 - T+ Amplitude in lead V2</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>1566</logical_max>
+</variable>
+
+<variable id="phv00127345.v1">
+	<name>ecga226</name>
+	<description>TxAMPV3 - T+ Amplitude in lead V3</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>1701</logical_max>
+</variable>
+
+<variable id="phv00127346.v1">
+	<name>ecga227</name>
+	<description>TxAMPV4 - T+ Amplitude in lead V4</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>1488</logical_max>
+</variable>
+
+<variable id="phv00127347.v1">
+	<name>ecga228</name>
+	<description>TxAMPV5 - T+ Amplitude in lead V5</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>1404</logical_max>
+</variable>
+
+<variable id="phv00127348.v1">
+	<name>ecga229</name>
+	<description>TxAMPV6 - T+ Amplitude in lead V6</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>1058</logical_max>
+</variable>
+
+<variable id="phv00127349.v1">
+	<name>ecga230</name>
+	<description>T_AMPI - T- Amplitude in lead I</description>
+	<type>integer</type>
+	<logical_min>-697</logical_min>
+	<logical_max>0</logical_max>
+</variable>
+
+<variable id="phv00127350.v1">
+	<name>ecga231</name>
+	<description>T_AMPII - T- Amplitude in lead II</description>
+	<type>integer</type>
+	<logical_min>-457</logical_min>
+	<logical_max>0</logical_max>
+</variable>
+
+<variable id="phv00127351.v1">
+	<name>ecga232</name>
+	<description>T_AMPIII - T- Amplitude in lead III</description>
+	<type>integer</type>
+	<logical_min>-479</logical_min>
+	<logical_max>0</logical_max>
+</variable>
+
+<variable id="phv00127352.v1">
+	<name>ecga233</name>
+	<description>T_AMPAVR - T- Amplitude in lead AVR</description>
+	<type>integer</type>
+	<logical_min>-688</logical_min>
+	<logical_max>0</logical_max>
+</variable>
+
+<variable id="phv00127353.v1">
+	<name>ecga234</name>
+	<description>T_AMPAVL - T- Amplitude in lead AVL</description>
+	<type>integer</type>
+	<logical_min>-577</logical_min>
+	<logical_max>0</logical_max>
+</variable>
+
+<variable id="phv00127354.v1">
+	<name>ecga235</name>
+	<description>T_AMPAVF - T- Amplitude in lead AVF</description>
+	<type>integer</type>
+	<logical_min>-314</logical_min>
+	<logical_max>0</logical_max>
+</variable>
+
+<variable id="phv00127355.v1">
+	<name>ecga236</name>
+	<description>T_AMPV1 - T- Amplitude in lead V1</description>
+	<type>integer</type>
+	<logical_min>-732</logical_min>
+	<logical_max>0</logical_max>
+</variable>
+
+<variable id="phv00127356.v1">
+	<name>ecga237</name>
+	<description>T_AMPV2 - T- Amplitude in lead V2</description>
+	<type>integer</type>
+	<logical_min>-1201</logical_min>
+	<logical_max>0</logical_max>
+</variable>
+
+<variable id="phv00127357.v1">
+	<name>ecga238</name>
+	<description>T_AMPV3 - T- Amplitude in lead V3</description>
+	<type>integer</type>
+	<logical_min>-1736</logical_min>
+	<logical_max>0</logical_max>
+</variable>
+
+<variable id="phv00127358.v1">
+	<name>ecga239</name>
+	<description>T_AMPV4 - T- Amplitude in lead V4</description>
+	<type>integer</type>
+	<logical_min>-1446</logical_min>
+	<logical_max>0</logical_max>
+</variable>
+
+<variable id="phv00127359.v1">
+	<name>ecga240</name>
+	<description>T_AMPV5 - T- Amplitude in lead V5</description>
+	<type>integer</type>
+	<logical_min>-1603</logical_min>
+	<logical_max>0</logical_max>
+</variable>
+
+<variable id="phv00127360.v1">
+	<name>ecga241</name>
+	<description>T_AMPV6 - T- Amplitude in lead V6</description>
+	<type>integer</type>
+	<logical_min>-1228</logical_min>
+	<logical_max>0</logical_max>
+</variable>
+
+<variable id="phv00127361.v1">
+	<name>ecga242</name>
+	<description>T_xI - T-+ in lead I</description>
+	<type>encoded</type>
+	<comment>Please find encoded value descriptions in associated documents. Some of the values might be encoded and code descriptions have not been submitted at this time.</comment>
+</variable>
+
+<variable id="phv00127362.v1">
+	<name>ecga243</name>
+	<description>T_xII - T-+ in lead II</description>
+	<type>encoded</type>
+	<comment>Please find encoded value descriptions in associated documents. Some of the values might be encoded and code descriptions have not been submitted at this time.</comment>
+</variable>
+
+<variable id="phv00127363.v1">
+	<name>ecga244</name>
+	<description>T_xIII - T-+ in lead III</description>
+	<type>encoded</type>
+	<comment>Please find encoded value descriptions in associated documents. Some of the values might be encoded and code descriptions have not been submitted at this time.</comment>
+</variable>
+
+<variable id="phv00127364.v1">
+	<name>ecga245</name>
+	<description>T_xAVR - T-+  in lead AVR</description>
+	<type>encoded</type>
+	<comment>Please find encoded value descriptions in associated documents. Some of the values might be encoded and code descriptions have not been submitted at this time.</comment>
+</variable>
+
+<variable id="phv00127365.v1">
+	<name>ecga246</name>
+	<description>T_xAVL - T-+  in lead AVL</description>
+	<type>encoded</type>
+	<comment>Please find encoded value descriptions in associated documents. Some of the values might be encoded and code descriptions have not been submitted at this time.</comment>
+</variable>
+
+<variable id="phv00127366.v1">
+	<name>ecga247</name>
+	<description>T_xAVF - T-+ in lead AVF</description>
+	<type>encoded</type>
+	<comment>Please find encoded value descriptions in associated documents. Some of the values might be encoded and code descriptions have not been submitted at this time.</comment>
+</variable>
+
+<variable id="phv00127367.v1">
+	<name>ecga248</name>
+	<description>T_xV1 - T-+ in lead V1</description>
+	<type>encoded</type>
+	<comment>Please find encoded value descriptions in associated documents. Some of the values might be encoded and code descriptions have not been submitted at this time.</comment>
+</variable>
+
+<variable id="phv00127368.v1">
+	<name>ecga249</name>
+	<description>T_xV2 - T-+ in lead V2</description>
+	<type>encoded</type>
+	<comment>Please find encoded value descriptions in associated documents. Some of the values might be encoded and code descriptions have not been submitted at this time.</comment>
+</variable>
+
+<variable id="phv00127369.v1">
+	<name>ecga250</name>
+	<description>T_xV3 - T-+ in lead V3</description>
+	<type>encoded</type>
+	<comment>Please find encoded value descriptions in associated documents. Some of the values might be encoded and code descriptions have not been submitted at this time.</comment>
+</variable>
+
+<variable id="phv00127370.v1">
+	<name>ecga251</name>
+	<description>T_xV4 - T-+ in lead V4</description>
+	<type>encoded</type>
+	<comment>Please find encoded value descriptions in associated documents. Some of the values might be encoded and code descriptions have not been submitted at this time.</comment>
+</variable>
+
+<variable id="phv00127371.v1">
+	<name>ecga252</name>
+	<description>T_xV5 - T-+ in lead V5</description>
+	<type>encoded</type>
+	<comment>Please find encoded value descriptions in associated documents. Some of the values might be encoded and code descriptions have not been submitted at this time.</comment>
+</variable>
+
+<variable id="phv00127372.v1">
+	<name>ecga253</name>
+	<description>T_xV6 - T-+ in lead V6</description>
+	<type>encoded</type>
+	<comment>Please find encoded value descriptions in associated documents. Some of the values might be encoded and code descriptions have not been submitted at this time.</comment>
+</variable>
+
+<variable id="phv00127373.v1">
+	<name>ecga254</name>
+	<description>QDURI - Q Duration in lead I</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>78</logical_max>
+</variable>
+
+<variable id="phv00127374.v1">
+	<name>ecga255</name>
+	<description>QDURII - Q Duration in lead II</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>186</logical_max>
+</variable>
+
+<variable id="phv00127375.v1">
+	<name>ecga256</name>
+	<description>QDURIII - Q Duration in lead III</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>180</logical_max>
+</variable>
+
+<variable id="phv00127376.v1">
+	<name>ecga257</name>
+	<description>QDURAVR - Q Duration in lead AVR</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>162</logical_max>
+</variable>
+
+<variable id="phv00127377.v1">
+	<name>ecga258</name>
+	<description>QDURAVL - Q Duration in lead AVL</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>86</logical_max>
+</variable>
+
+<variable id="phv00127378.v1">
+	<name>ecga259</name>
+	<description>QDURAVF - Q Duration in lead AVF</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>180</logical_max>
+</variable>
+
+<variable id="phv00127379.v1">
+	<name>ecga260</name>
+	<description>QDURV1 - Q Duration in lead V1</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>168</logical_max>
+</variable>
+
+<variable id="phv00127380.v1">
+	<name>ecga261</name>
+	<description>QDURV2 - Q Duration in lead V2</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>168</logical_max>
+</variable>
+
+<variable id="phv00127381.v1">
+	<name>ecga262</name>
+	<description>QDURV3 - Q Duration in lead V3</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>174</logical_max>
+</variable>
+
+<variable id="phv00127382.v1">
+	<name>ecga263</name>
+	<description>QDURV4 - Q Duration in lead V4</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>182</logical_max>
+</variable>
+
+<variable id="phv00127383.v1">
+	<name>ecga264</name>
+	<description>QDURV5 - Q Duration in lead V5</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>182</logical_max>
+</variable>
+
+<variable id="phv00127384.v1">
+	<name>ecga265</name>
+	<description>QDURV6 - Q Duration in lead V6</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>176</logical_max>
+</variable>
+
+<variable id="phv00127385.v1">
+	<name>ecga266</name>
+	<description>RPKDI - R Peak Duration in lead I</description>
+	<type>integer</type>
+	<logical_min>6</logical_min>
+	<logical_max>126</logical_max>
+</variable>
+
+<variable id="phv00127386.v1">
+	<name>ecga267</name>
+	<description>RPKDII - R Peak Duration in lead II</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>90</logical_max>
+</variable>
+
+<variable id="phv00127387.v1">
+	<name>ecga268</name>
+	<description>RPKDIII - R Peak Duration in lead III</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>94</logical_max>
+</variable>
+
+<variable id="phv00127388.v1">
+	<name>ecga269</name>
+	<description>RPKDAVR - R Peak Duration in lead AVR</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>130</logical_max>
+</variable>
+
+<variable id="phv00127389.v1">
+	<name>ecga270</name>
+	<description>RPKDAVL - R Peak Duration in lead AVL</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>128</logical_max>
+</variable>
+
+<variable id="phv00127390.v1">
+	<name>ecga271</name>
+	<description>RPKDAVF - R Peak Duration in lead AVF</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>90</logical_max>
+</variable>
+
+<variable id="phv00127391.v1">
+	<name>ecga272</name>
+	<description>RPKDV1 - R Peak Duration in lead V1</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>100</logical_max>
+</variable>
+
+<variable id="phv00127392.v1">
+	<name>ecga273</name>
+	<description>RPKDV2 - R Peak Duration in lead V2</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>124</logical_max>
+</variable>
+
+<variable id="phv00127393.v1">
+	<name>ecga274</name>
+	<description>RPKDV3 - R Peak Duration in lead V3</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>116</logical_max>
+</variable>
+
+<variable id="phv00127394.v1">
+	<name>ecga275</name>
+	<description>RPKDV4 - R Peak Duration in lead V4</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>104</logical_max>
+</variable>
+
+<variable id="phv00127395.v1">
+	<name>ecga276</name>
+	<description>RPKDV5 - R Peak Duration in lead V5</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>98</logical_max>
+</variable>
+
+<variable id="phv00127396.v1">
+	<name>ecga277</name>
+	<description>RPKDV6 - R Peak Duration in lead V6</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>112</logical_max>
+</variable>
+
+<variable id="phv00127397.v1">
+	<name>ecga278</name>
+	<description>MXRDI - Maximum R Duration in lead I</description>
+	<type>integer</type>
+	<logical_min>8</logical_min>
+	<logical_max>184</logical_max>
+</variable>
+
+<variable id="phv00127398.v1">
+	<name>ecga279</name>
+	<description>MXRDII - Maximum R Duration in lead II</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>162</logical_max>
+</variable>
+
+<variable id="phv00127399.v1">
+	<name>ecga280</name>
+	<description>MXRDIII - Maximum R Duration in lead III</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>134</logical_max>
+</variable>
+
+<variable id="phv00127400.v1">
+	<name>ecga281</name>
+	<description>MXRDAVR - Maximum R Duration in lead AVR</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>186</logical_max>
+</variable>
+
+<variable id="phv00127401.v1">
+	<name>ecga282</name>
+	<description>MXRDAVL - Maximum R Duration in lead AVL</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>184</logical_max>
+</variable>
+
+<variable id="phv00127402.v1">
+	<name>ecga283</name>
+	<description>MXRDAVF - Maximum R Duration in lead AVF</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>154</logical_max>
+</variable>
+
+<variable id="phv00127403.v1">
+	<name>ecga284</name>
+	<description>MXRDV1 - Maximum R Duration in lead V1</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>146</logical_max>
+</variable>
+
+<variable id="phv00127404.v1">
+	<name>ecga285</name>
+	<description>MXRDV2 - Maximum R Duration in lead V2</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>166</logical_max>
+</variable>
+
+<variable id="phv00127405.v1">
+	<name>ecga286</name>
+	<description>MXRDV3 - Maximum R Duration in lead V3</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>172</logical_max>
+</variable>
+
+<variable id="phv00127406.v1">
+	<name>ecga287</name>
+	<description>MXRDV4 - Maximum R Duration in lead V4</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>156</logical_max>
+</variable>
+
+<variable id="phv00127407.v1">
+	<name>ecga288</name>
+	<description>MXRDV5 - Maximum R Duration in lead V5</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>162</logical_max>
+</variable>
+
+<variable id="phv00127408.v1">
+	<name>ecga289</name>
+	<description>MXRDV6 - Maximum R Duration in lead V6</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>172</logical_max>
+</variable>
+
+<variable id="phv00127409.v1">
+	<name>ecga290</name>
+	<description>MXSDI - Maximum S Duration in lead I</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>126</logical_max>
+</variable>
+
+<variable id="phv00127410.v1">
+	<name>ecga291</name>
+	<description>MXSDII - Maximum S Duration in lead II</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>180</logical_max>
+</variable>
+
+<variable id="phv00127411.v1">
+	<name>ecga292</name>
+	<description>MXSDIII - Maximum S Duration in lead III</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>156</logical_max>
+</variable>
+
+<variable id="phv00127412.v1">
+	<name>ecga293</name>
+	<description>MXSDAVR - Maximum S Duration in lead AVR</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>140</logical_max>
+</variable>
+
+<variable id="phv00127413.v1">
+	<name>ecga294</name>
+	<description>MXSDAVL - Maximum S Duration in lead AVL</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>118</logical_max>
+</variable>
+
+<variable id="phv00127414.v1">
+	<name>ecga295</name>
+	<description>MXSDAVF - Maximum S Duration in lead AVF</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>160</logical_max>
+</variable>
+
+<variable id="phv00127415.v1">
+	<name>ecga296</name>
+	<description>MXSDV1 - Maximum S Duration in lead V1</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>156</logical_max>
+</variable>
+
+<variable id="phv00127416.v1">
+	<name>ecga297</name>
+	<description>MXSDV2 - Maximum S Duration in lead V2</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>176</logical_max>
+</variable>
+
+<variable id="phv00127417.v1">
+	<name>ecga298</name>
+	<description>MXSDV3 - Maximum S Duration in lead V3</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>174</logical_max>
+</variable>
+
+<variable id="phv00127418.v1">
+	<name>ecga299</name>
+	<description>MXSDV4 - Maximum S Duration in lead V4</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>174</logical_max>
+</variable>
+
+<variable id="phv00127419.v1">
+	<name>ecga300</name>
+	<description>MXSDV5 - Maximum S Duration in lead V5</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>174</logical_max>
+</variable>
+
+<variable id="phv00127420.v1">
+	<name>ecga301</name>
+	<description>MXSDV6 - Maximum S Duration in lead V6</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>170</logical_max>
+</variable>
+
+<variable id="phv00127421.v1">
+	<name>ecga302</name>
+	<description>QRSDI - QRS Duration in lead I</description>
+	<type>integer</type>
+	<logical_min>28</logical_min>
+	<logical_max>198</logical_max>
+</variable>
+
+<variable id="phv00127422.v1">
+	<name>ecga303</name>
+	<description>QRSDII - QRS Duration in lead II</description>
+	<type>integer</type>
+	<logical_min>26</logical_min>
+	<logical_max>204</logical_max>
+</variable>
+
+<variable id="phv00127423.v1">
+	<name>ecga304</name>
+	<description>QRSDIII - QRS Duration in lead III</description>
+	<type>integer</type>
+	<logical_min>32</logical_min>
+	<logical_max>208</logical_max>
+</variable>
+
+<variable id="phv00127424.v1">
+	<name>ecga305</name>
+	<description>QRSDAVR - QRS Duration in lead AVR</description>
+	<type>integer</type>
+	<logical_min>34</logical_min>
+	<logical_max>188</logical_max>
+</variable>
+
+<variable id="phv00127425.v1">
+	<name>ecga306</name>
+	<description>QRSDAVL - QRS Duration in lead AVL</description>
+	<type>integer</type>
+	<logical_min>32</logical_min>
+	<logical_max>204</logical_max>
+</variable>
+
+<variable id="phv00127426.v1">
+	<name>ecga307</name>
+	<description>QRSDAVF - QRS Duration in lead AVF</description>
+	<type>integer</type>
+	<logical_min>22</logical_min>
+	<logical_max>208</logical_max>
+</variable>
+
+<variable id="phv00127427.v1">
+	<name>ecga308</name>
+	<description>QRSDV1 - QRS Duration in lead V1</description>
+	<type>integer</type>
+	<logical_min>44</logical_min>
+	<logical_max>192</logical_max>
+</variable>
+
+<variable id="phv00127428.v1">
+	<name>ecga309</name>
+	<description>QRSDV2 - QRS Duration in lead V2</description>
+	<type>integer</type>
+	<logical_min>52</logical_min>
+	<logical_max>194</logical_max>
+</variable>
+
+<variable id="phv00127429.v1">
+	<name>ecga310</name>
+	<description>QRSDV3 - QRS Duration in lead V3</description>
+	<type>integer</type>
+	<logical_min>52</logical_min>
+	<logical_max>192</logical_max>
+</variable>
+
+<variable id="phv00127430.v1">
+	<name>ecga311</name>
+	<description>QRSDV4 - QRS Duration in lead V4</description>
+	<type>integer</type>
+	<logical_min>50</logical_min>
+	<logical_max>192</logical_max>
+</variable>
+
+<variable id="phv00127431.v1">
+	<name>ecga312</name>
+	<description>QRSDV5 - QRS Duration in lead V5</description>
+	<type>integer</type>
+	<logical_min>40</logical_min>
+	<logical_max>196</logical_max>
+</variable>
+
+<variable id="phv00127432.v1">
+	<name>ecga313</name>
+	<description>QRSDV6 - QRS Duration in lead V6</description>
+	<type>integer</type>
+	<logical_min>36</logical_min>
+	<logical_max>190</logical_max>
+</variable>
+
+<variable id="phv00127433.v1">
+	<name>ecga314</name>
+	<description>QSPTI - QS Pattern in lead I</description>
+	<type>encoded</type>
+	<comment>Please find encoded value descriptions in associated documents. Some of the values might be encoded and code descriptions have not been submitted at this time.</comment>
+</variable>
+
+<variable id="phv00127434.v1">
+	<name>ecga315</name>
+	<description>QSPTII - QS Pattern in lead II</description>
+	<type>encoded</type>
+	<comment>Please find encoded value descriptions in associated documents. Some of the values might be encoded and code descriptions have not been submitted at this time.</comment>
+</variable>
+
+<variable id="phv00127435.v1">
+	<name>ecga316</name>
+	<description>QSPTIII - QS Pattern in lead III</description>
+	<type>encoded</type>
+	<comment>Please find encoded value descriptions in associated documents. Some of the values might be encoded and code descriptions have not been submitted at this time.</comment>
+</variable>
+
+<variable id="phv00127436.v1">
+	<name>ecga317</name>
+	<description>QSPTAVR - QS Pattern in lead AVR</description>
+	<type>encoded</type>
+	<comment>Please find encoded value descriptions in associated documents. Some of the values might be encoded and code descriptions have not been submitted at this time.</comment>
+</variable>
+
+<variable id="phv00127437.v1">
+	<name>ecga318</name>
+	<description>QSPTAVL - QS Pattern in lead AVL</description>
+	<type>encoded</type>
+	<comment>Please find encoded value descriptions in associated documents. Some of the values might be encoded and code descriptions have not been submitted at this time.</comment>
+</variable>
+
+<variable id="phv00127438.v1">
+	<name>ecga319</name>
+	<description>QSPTAVF - QS Pattern in lead AVF</description>
+	<type>encoded</type>
+	<comment>Please find encoded value descriptions in associated documents. Some of the values might be encoded and code descriptions have not been submitted at this time.</comment>
+</variable>
+
+<variable id="phv00127439.v1">
+	<name>ecga320</name>
+	<description>QSPTV1 - QS Pattern in lead V1</description>
+	<type>encoded</type>
+	<comment>Please find encoded value descriptions in associated documents. Some of the values might be encoded and code descriptions have not been submitted at this time.</comment>
+</variable>
+
+<variable id="phv00127440.v1">
+	<name>ecga321</name>
+	<description>QSPTV2 - QS Pattern in lead V2</description>
+	<type>encoded</type>
+	<comment>Please find encoded value descriptions in associated documents. Some of the values might be encoded and code descriptions have not been submitted at this time.</comment>
+</variable>
+
+<variable id="phv00127441.v1">
+	<name>ecga322</name>
+	<description>QSPTV3 - QS Pattern in lead V3</description>
+	<type>encoded</type>
+	<comment>Please find encoded value descriptions in associated documents. Some of the values might be encoded and code descriptions have not been submitted at this time.</comment>
+</variable>
+
+<variable id="phv00127442.v1">
+	<name>ecga323</name>
+	<description>QSPTV4 - QS Pattern in lead V4</description>
+	<type>encoded</type>
+	<comment>Please find encoded value descriptions in associated documents. Some of the values might be encoded and code descriptions have not been submitted at this time.</comment>
+</variable>
+
+<variable id="phv00127443.v1">
+	<name>ecga324</name>
+	<description>QSPTV5 - QS Pattern in lead V5</description>
+	<type>encoded</type>
+	<comment>Please find encoded value descriptions in associated documents. Some of the values might be encoded and code descriptions have not been submitted at this time.</comment>
+</variable>
+
+<variable id="phv00127444.v1">
+	<name>ecga325</name>
+	<description>QSPTV6 - QS Pattern in lead V6</description>
+	<type>encoded</type>
+	<comment>Please find encoded value descriptions in associated documents. Some of the values might be encoded and code descriptions have not been submitted at this time.</comment>
+</variable>
+
+<variable id="phv00127445.v1">
+	<name>ecga326</name>
+	<description>STSLI - ST Slope in lead I</description>
+	<type>integer</type>
+	<logical_min>-423</logical_min>
+	<logical_max>254</logical_max>
+</variable>
+
+<variable id="phv00127446.v1">
+	<name>ecga327</name>
+	<description>STSLII - ST Slope in lead II</description>
+	<type>integer</type>
+	<logical_min>-100</logical_min>
+	<logical_max>506</logical_max>
+</variable>
+
+<variable id="phv00127447.v1">
+	<name>ecga328</name>
+	<description>STSLIII - ST Slope in lead III</description>
+	<type>integer</type>
+	<logical_min>-230</logical_min>
+	<logical_max>496</logical_max>
+</variable>
+
+<variable id="phv00127448.v1">
+	<name>ecga329</name>
+	<description>STSLAVR - ST Slope in lead AVR</description>
+	<type>integer</type>
+	<logical_min>-293</logical_min>
+	<logical_max>174</logical_max>
+</variable>
+
+<variable id="phv00127449.v1">
+	<name>ecga330</name>
+	<description>STSLAVL - ST Slope in lead AVL</description>
+	<type>integer</type>
+	<logical_min>-458</logical_min>
+	<logical_max>204</logical_max>
+</variable>
+
+<variable id="phv00127450.v1">
+	<name>ecga331</name>
+	<description>STSLAVF - ST Slope in lead AVF</description>
+	<type>integer</type>
+	<logical_min>-140</logical_min>
+	<logical_max>463</logical_max>
+</variable>
+
+<variable id="phv00127451.v1">
+	<name>ecga332</name>
+	<description>STSLV1 - ST Slope in lead V1</description>
+	<type>integer</type>
+	<logical_min>-658</logical_min>
+	<logical_max>318</logical_max>
+</variable>
+
+<variable id="phv00127452.v1">
+	<name>ecga333</name>
+	<description>STSLV2 - ST Slope in lead V2</description>
+	<type>integer</type>
+	<logical_min>-277</logical_min>
+	<logical_max>565</logical_max>
+</variable>
+
+<variable id="phv00127453.v1">
+	<name>ecga334</name>
+	<description>STSLV3 - ST Slope in lead V3</description>
+	<type>integer</type>
+	<logical_min>-188</logical_min>
+	<logical_max>676</logical_max>
+</variable>
+
+<variable id="phv00127454.v1">
+	<name>ecga335</name>
+	<description>STSLV4 - ST Slope in lead V4</description>
+	<type>integer</type>
+	<logical_min>-319</logical_min>
+	<logical_max>639</logical_max>
+</variable>
+
+<variable id="phv00127455.v1">
+	<name>ecga336</name>
+	<description>STSLV5 - ST Slope in lead V5</description>
+	<type>integer</type>
+	<logical_min>-143</logical_min>
+	<logical_max>544</logical_max>
+</variable>
+
+<variable id="phv00127456.v1">
+	<name>ecga337</name>
+	<description>STSLV6 - ST Slope in lead V6</description>
+	<type>integer</type>
+	<logical_min>-195</logical_min>
+	<logical_max>378</logical_max>
+</variable>
+
+</data_table>

@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GaPExchange xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="./dbGaPEx2.1.5.xsd">
+
+<MetaVariables>
+	<Submitter/>
+	<Method/>
+</MetaVariables>
+<MetaLinks/>
+
+<Projects>
+	<Project/>
+</Projects>
+
+<Studies>
+
+<Study source="dbGaP" accession="phs000601.v1.p1" parentStudy="phs000601.v1.p1" createDate="2013-02-15" modDate="2013-09-24">
+
+<Configuration>
+	<Data_Provider><![CDATA[
+		<table border="1">
+		<tr><th>Title</th><th>Name</th><th>Institute</th></tr>
+		<tr><td>Principal Investigator</td><td>Melissa Southey, PhD</td><td>The University of Melbourne, Melbourne, Australia</td></tr>
+		<tr><td>Co-investigator</td><td>Daniel Park, PhD</td><td>The University of Melbourne, Melbourne, Australia</td></tr>
+		<tr><td>Co-investigator</td><td>Bernard Pope, PhD</td><td>The University of Melbourne, Melbourne, Australia</td></tr>
+		<tr><td>Co-investigator</td><td>Tu Nguyen-Dumont, PhD</td><td>The University of Melbourne, Melbourne, Australia</td></tr>
+		<tr><td>Funding Source</td><td>R01CA155767</td><td>National Institutes of Health, Bethesda, MD, USA</td></tr>
+		</table>
+	]]></Data_Provider>
+	<StudyNameEntrez>Identifying the Genetic Explanation for Heritable Breast Cancer</StudyNameEntrez>
+	<StudyNameReportPage>Filtering and Annotation of Variants That Are Rare (FAVR)</StudyNameReportPage>
+	<StudyTypes>
+		<StudyType>Family</StudyType>
+	</StudyTypes>
+	<Description><![CDATA[
+<p>The project developed a suite of new methods (FAVR) designed to assist the shortlisting of genetic variants under a rare variant-phenotype/disease model. The methods were designed to work with commonly used massively parallel sequencing analysis pipelines, such as the GATK or ANNOVAR, and have been made publically available as a suite of software tools (<a href="https://github.com/bjpop/favr" target="_blank">https://github.com/bjpop/favr</a>). The FAVR methods use signatures in comparator sequence alignment files to facilitate the filtering of mapping artifacts and common genetic variants, and annotation of genetic variants based on evidence of co-occurrence in individuals. As relevant, FAVR methods can also be used to filter out artifacts derived from imbalanced paired-end sequencing.</p> <p>Pope et al., BMC Bioinformatics, accepted Dec 2012.</p>]]>
+	</Description>
+	<StudyInEx><![CDATA[
+<p>Multiple-case breast cancer families.</p>]]>
+	</StudyInEx>
+	<StudyProjects>
+		<Project/>
+	</StudyProjects>
+	<Publications>
+		<Publication>
+			<Pubmed pmid="23441864"/>
+		</Publication>
+	</Publications>
+	<Diseases>
+		<Disease vocab_source="MESH" vocab_term="Breast Neoplasms"/>
+	</Diseases>
+	<Attributions>
+		<Header title="Principal Investigator">
+			<AttName>Melissa Southey, PhD</AttName>
+			<Institution>The University of Melbourne, Melbourne, Australia</Institution>
+		</Header>
+		<Header title="Co-investigator">
+			<AttName>Daniel Park, PhD</AttName>
+			<Institution>The University of Melbourne, Melbourne, Australia</Institution>
+		</Header>
+		<Header title="Co-investigator">
+			<AttName>Bernard Pope, PhD</AttName>
+			<Institution>The University of Melbourne, Melbourne, Australia</Institution>
+		</Header>
+		<Header title="Co-investigator">
+			<AttName>Tu Nguyen-Dumont, PhD</AttName>
+			<Institution>The University of Melbourne, Melbourne, Australia</Institution>
+		</Header>
+		<Header title="Funding Source">
+			<AttName>R01CA155767</AttName>
+			<Institution>National Institutes of Health, Bethesda, MD, USA</Institution>
+		</Header>
+		<Header title="Funding Source">
+			<AttName>APP1025145</AttName>
+			<Institution>National Health and Medical Research Council, Australia</Institution>
+		</Header>
+	</Attributions>
+	<DisplayPublicSummary>yes</DisplayPublicSummary>
+	<StudyHistory><![CDATA[
+<p>See above.</p>]]>
+	</StudyHistory>
+	<ConsentGroups>
+		<ConsentGroup groupNum="0" shortName="NRUP" longName="Subjects did not participate in the study, did not complete a consent document and are included only for the pedigree structure and/or genotype controls, such as HapMap subjects"/>
+		<ConsentGroup groupNum="1" shortName="DS-CA-MDS" longName="Disease-Specific (Cancer, MDS)"/>
+	</ConsentGroups>
+</Configuration>
+
+  <AuthorizedAccess>
+    <DacInfo ssDacId="0">
+      <DacName>NCI</DacName>
+      <DacFullName>NCI</DacFullName>
+      <DacEmail>0</DacEmail>
+      <DacPhone></DacPhone>
+      <DacUrl></DacUrl>
+    </DacInfo>
+    <Policy Policy_ID="phs000601.v1.p1_policy" ref_ssDacId="0">
+      <DisplayResearchStatement>yes</DisplayResearchStatement>
+      <DisplayPublicSummary>yes</DisplayPublicSummary>
+      <EmbargoLength>0</EmbargoLength>
+      <YearsUntilRenewal>1</YearsUntilRenewal>
+      <WeeksCancelRequest>8</WeeksCancelRequest>
+      <PdfSupplementReqired>no</PdfSupplementReqired>
+      <AcknowledgementText>
+        <para>
+          http://dbgap.ncbi.nlm.nih.gov/aa/wga.cgi?page=DUC&amp;view_pdf&amp;stacc=phs000601.v1.p1
+        </para>
+      </AcknowledgementText>
+      <DocumentSet>
+        <DataUseCertificate Label="Data Use Certificate" FilePath="https://dbgap.ncbi.nlm.nih.gov/aa/wga.cgi?page=DUC&amp;view_pdf&amp;stacc=phs000601.v1.p1" FileName="eNCI_0164_DUC_2.7.2013.pdf"/>
+      </DocumentSet>
+    </Policy>
+    <ConsentGroups>
+      <ParticipantSet groupNum-REF="1">
+        <ConsentName>Disease-Specific (Cancer, MDS)</ConsentName>
+        <ConsentAbbrev>DS-CA-MDS</ConsentAbbrev>
+        <UseLimitation>Use of the data must be related to Cancer.
+Use of the data includes methods development research (e.g., development of software or algorithms).</UseLimitation>
+        <IrbRequired>No</IrbRequired>
+      </ParticipantSet>
+    </ConsentGroups>
+  </AuthorizedAccess>
+
+
+</Study>
+
+</Studies>
+
+</GaPExchange>

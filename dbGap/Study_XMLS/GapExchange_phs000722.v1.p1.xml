@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GaPExchange xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="./dbGaPEx2.1.5.xsd">
+
+<MetaVariables>
+	<Submitter/>
+	<Method/>
+</MetaVariables>
+<MetaLinks/>
+
+<Projects>
+	<Project/>
+</Projects>
+
+<Studies>
+
+<Study source="dbGaP" accession="phs000722.v1.p1" parentStudy="phs000722.v1.p1" createDate="2014-02-26" modDate="2014-02-26">
+
+<Configuration>
+	<Data_Provider><![CDATA[
+		<table border="1">
+		<tr><th>Title</th><th>Name</th><th>Institute</th></tr>
+		<tr><td>Principal Investigator</td><td>Levi A. Garraway</td><td>Department of Medical Oncology, Dana-Farber Cancer Institute, Boston, MA, USA and Broad Institute of Harvard and MIT, Cambridge, MA, USA</td></tr>
+		<tr><td>Co-Investigator</td><td>Charles S. Fuchs</td><td>Department of Medical Oncology, Dana-Farber Cancer Institute, Boston, MA, USA and Channing Division of Network Medicine Department of Medicine, Brigham and Women&#39;s Hospital, Boston, MA, USA</td></tr>
+		</table>
+	]]></Data_Provider>
+	<StudyNameEntrez>DFCI Colorectal Cancer Cohorts</StudyNameEntrez>
+	<StudyNameReportPage>Whole exome sequencing of colorectal cancer patients from the Nurses&#39; Health Study (NHS) and Health Professionals Follow-up Study (HPFS)</StudyNameReportPage>
+	<StudyTypes>
+		<StudyType>Case Set</StudyType>
+		<StudyType>Tumor vs. Matched-Normal</StudyType>
+	</StudyTypes>
+	<Description><![CDATA[
+<p>Colorectal cancer is a molecularly heterogeneous disease. Whole Exome Sequencing from patients diagnosed with colorectal cancer in the NHS and HPFS cohorts will extend our understanding of the genetic changes occurring in specific clinical contexts in the disease. This effort has the potential to discover novel recurrently mutated genes and pathways in colorectal cancer that can be functionally validated and give further insights to colorectal cancer pathogenesis. All exome sequencing was performed at the Broad Institute of Harvard and MIT; samples sequence capture was performed using Agilent SureSelect Human All Exon Kit v2 and sequencing was performed on an Illumina HiSeq 2000.</p>]]>
+	</Description>
+	<StudyInEx><![CDATA[
+<p>Samples were collected from patients in the IRB-approved NHS and HPFS studies.</p>]]>
+	</StudyInEx>
+	<StudyProjects>
+		<Project/>
+	</StudyProjects>
+	<Diseases>
+		<Disease vocab_source="MESH" vocab_term="Colorectal Neoplasms"/>
+	</Diseases>
+	<Attributions>
+		<Header title="Principal Investigator">
+			<AttName>Levi A. Garraway</AttName>
+			<Institution>Department of Medical Oncology, Dana-Farber Cancer Institute, Boston, MA, USA and Broad Institute of Harvard and MIT, Cambridge, MA, USA</Institution>
+		</Header>
+		<Header title="Co-Investigator">
+			<AttName>Charles S. Fuchs</AttName>
+			<Institution>Department of Medical Oncology, Dana-Farber Cancer Institute, Boston, MA, USA and Channing Division of Network Medicine Department of Medicine, Brigham and Women&#39;s Hospital, Boston, MA, USA</Institution>
+		</Header>
+	</Attributions>
+	<DisplayPublicSummary>yes</DisplayPublicSummary>
+	<ConsentGroups>
+		<ConsentGroup groupNum="1" shortName="GRU" longName="General Research Use"/>
+		<ConsentGroup groupNum="2" shortName="DS-MH" longName="Disease-Specific (Men&#39;s Health)"/>
+	</ConsentGroups>
+</Configuration>
+
+  <AuthorizedAccess>
+    <DacInfo ssDacId="0">
+      <DacName>NHGRI</DacName>
+      <DacFullName>National Human Genome Research Institute</DacFullName>
+      <DacEmail>0</DacEmail>
+      <DacPhone></DacPhone>
+      <DacUrl></DacUrl>
+    </DacInfo>
+    <Policy Policy_ID="phs000722.v1.p1_policy" ref_ssDacId="0">
+      <DisplayResearchStatement>yes</DisplayResearchStatement>
+      <DisplayPublicSummary>yes</DisplayPublicSummary>
+      <EmbargoLength>0</EmbargoLength>
+      <YearsUntilRenewal>1</YearsUntilRenewal>
+      <WeeksCancelRequest>8</WeeksCancelRequest>
+      <PdfSupplementReqired>no</PdfSupplementReqired>
+      <AcknowledgementText>
+        <para>
+          http://dbgap.ncbi.nlm.nih.gov/aa/wga.cgi?page=DUC&amp;view_pdf&amp;stacc=phs000722.v1.p1
+        </para>
+      </AcknowledgementText>
+      <DocumentSet>
+        <DataUseCertificate Label="Data Use Certificate" FilePath="https://dbgap.ncbi.nlm.nih.gov/aa/wga.cgi?page=DUC&amp;view_pdf&amp;stacc=phs000722.v1.p1" FileName="DUC_Colon_Cancer_Dec2013-1.pdf"/>
+      </DocumentSet>
+    </Policy>
+    <ConsentGroups>
+      <ParticipantSet groupNum-REF="1">
+        <ConsentName>General Research Use</ConsentName>
+        <ConsentAbbrev>GRU</ConsentAbbrev>
+        <UseLimitation>Use of the data is limited only by the terms of the model Data Use Certification.</UseLimitation>
+        <IrbRequired>No</IrbRequired>
+      </ParticipantSet>
+      <ParticipantSet groupNum-REF="2">
+        <ConsentName>Disease-Specific (Men''s Health)</ConsentName>
+        <ConsentAbbrev>DS-MH</ConsentAbbrev>
+        <UseLimitation>Use of the data must be related to Men''s Health.</UseLimitation>
+        <IrbRequired>No</IrbRequired>
+      </ParticipantSet>
+    </ConsentGroups>
+  </AuthorizedAccess>
+
+
+</Study>
+
+</Studies>
+
+</GaPExchange>

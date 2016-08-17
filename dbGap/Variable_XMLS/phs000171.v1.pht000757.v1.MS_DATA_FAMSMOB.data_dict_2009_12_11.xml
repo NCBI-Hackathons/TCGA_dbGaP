@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./datadict_v2.xsl"?>
+<data_table id="pht000757.v1" study_id="phs000171.v1" participant_set="1" date_created="Fri Dec 11 14:12:54 2009">
+
+<variable id="phv00072840.v1">
+	<name>SUBJID</name>
+	<description>Subject&#39;s ID</description>
+	<type>integer</type>
+</variable>
+
+<variable id="phv00072841.v1">
+	<name>CASE_CONTROL</name>
+	<description>Type of subject</description>
+	<type>string, encoded values</type>
+	<value code="CASE">Affected subject per Protocol</value>
+	<value code="CNTL">Control subject per Protocol</value>
+</variable>
+
+<variable id="phv00072842.v1">
+	<name>STUDY</name>
+	<description>Study Identifier</description>
+	<type>string</type>
+	<comment>Always RES101833</comment>
+</variable>
+
+<variable id="phv00072843.v1">
+	<name>INVSITE</name>
+	<description>Investigator site ID</description>
+	<type>string</type>
+	<comment>Numeric code identifying the site (for internal use)</comment>
+</variable>
+
+<variable id="phv00072844.v1">
+	<name>INV</name>
+	<description>Investigator&#39;s ID</description>
+	<type>string</type>
+	<comment>Numeric code identifying the investigator (for internal use)</comment>
+</variable>
+
+<variable id="phv00072845.v1">
+	<name>VISIT</name>
+	<description>Visit name</description>
+	<type>string, encoded values</type>
+	<value code="CSA">Common Subject Assessment</value>
+	<value code="ELIGIBILITY">Eligibility questionnaire</value>
+	<value code="BASELINE">Baseline assessment questionnaire</value>
+	<value code="LAB WBC">Lab results</value>
+	<value code="SELF REPORT">Subject completed self report questionnaire</value>
+</variable>
+
+<variable id="phv00072846.v1">
+	<name>VISIT_DATE</name>
+	<description>Visit date</description>
+	<type>date</type>
+	<unit>Year</unit>
+	<comment>Truncated to YYYY</comment>
+</variable>
+
+<variable id="phv00072847.v1">
+	<name>GP3</name>
+	<description>Because of my physical condition, I have trouble meeting the needs of my family</description>
+	<type>integer, encoded values</type>
+	<comment>FAMS - MOBILITY 
+		By selecting one (1) per line, please indicate how true each statement has been for you during the past 7 days. </comment>
+	<value code="0">Not at all</value>
+	<value code="1">A little bit</value>
+	<value code="2">Somewhat</value>
+	<value code="3">Quite a bit</value>
+	<value code="4">Very much</value>
+</variable>
+
+<variable id="phv00072848.v1">
+	<name>GF1</name>
+	<description>I am able to work (include work at home)</description>
+	<type>integer, encoded values</type>
+	<comment>FAMS - MOBILITY 
+		By selecting one (1) per line, please indicate how true each statement has been for you during the past 7 days. </comment>
+	<value code="0">Not at all</value>
+	<value code="1">A little bit</value>
+	<value code="2">Somewhat</value>
+	<value code="3">Quite a bit</value>
+	<value code="4">Very much</value>
+</variable>
+
+<variable id="phv00072849.v1">
+	<name>AN6</name>
+	<description>I have trouble walking</description>
+	<type>integer, encoded values</type>
+	<comment>FAMS - MOBILITY 
+		By selecting one (1) per line, please indicate how true each statement has been for you during the past 7 days. </comment>
+	<value code="0">Not at all</value>
+	<value code="1">A little bit</value>
+	<value code="2">Somewhat</value>
+	<value code="3">Quite a bit</value>
+	<value code="4">Very much</value>
+</variable>
+
+<variable id="phv00072850.v1">
+	<name>ITU3</name>
+	<description>I have to limit my social activity because of my condition</description>
+	<type>integer, encoded values</type>
+	<comment>FAMS - MOBILITY 
+		By selecting one (1) per line, please indicate how true each statement has been for you during the past 7 days. </comment>
+	<value code="0">Not at all</value>
+	<value code="1">A little bit</value>
+	<value code="2">Somewhat</value>
+	<value code="3">Quite a bit</value>
+	<value code="4">Very much</value>
+</variable>
+
+<variable id="phv00072851.v1">
+	<name>CNS5</name>
+	<description>I have strength in my legs</description>
+	<type>integer, encoded values</type>
+	<comment>FAMS - MOBILITY 
+		By selecting one (1) per line, please indicate how true each statement has been for you during the past 7 days. </comment>
+	<value code="0">Not at all</value>
+	<value code="1">A little bit</value>
+	<value code="2">Somewhat</value>
+	<value code="3">Quite a bit</value>
+	<value code="4">Very much</value>
+</variable>
+
+<variable id="phv00072852.v1">
+	<name>MS1</name>
+	<description>I have trouble getting around in public places</description>
+	<type>integer, encoded values</type>
+	<comment>FAMS - MOBILITY 
+		By selecting one (1) per line, please indicate how true each statement has been for you during the past 7 days. </comment>
+	<value code="0">Not at all</value>
+	<value code="1">A little bit</value>
+	<value code="2">Somewhat</value>
+	<value code="3">Quite a bit</value>
+	<value code="4">Very much</value>
+</variable>
+
+<variable id="phv00072853.v1">
+	<name>MS2</name>
+	<description>I have to take my condition into account when making plans</description>
+	<type>integer, encoded values</type>
+	<comment>FAMS - MOBILITY 
+		By selecting one (1) per line, please indicate how true each statement has been for you during the past 7 days. </comment>
+	<value code="0">Not at all</value>
+	<value code="1">A little bit</value>
+	<value code="2">Somewhat</value>
+	<value code="3">Quite a bit</value>
+	<value code="4">Very much</value>
+</variable>
+
+</data_table>

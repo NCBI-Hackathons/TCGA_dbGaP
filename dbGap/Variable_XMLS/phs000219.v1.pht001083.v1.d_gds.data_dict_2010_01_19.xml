@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./datadict_v2.xsl"?>
+<data_table id="pht001083.v1" study_id="phs000219.v1" participant_set="1" date_created="Tue Jan 19 13:07:19 2010">
+
+<unique_key phv="00082011" version="1">SUBJID</unique_key>
+<unique_key phv="00082015" version="1">VISIT</unique_key>
+
+<variable id="phv00082011.v1">
+	<name>SUBJID</name>
+	<description>Subject&#39;s ID</description>
+	<type>String</type>
+</variable>
+
+<variable id="phv00082012.v1">
+	<name>CASE_CONTROL</name>
+	<description>Subject type</description>
+	<type>Encoded value</type>
+	<value code="ADP">AD Participant</value>
+	<value code="CASE">Case</value>
+	<value code="CCCS">Control with Change in Cognitive Status</value>
+	<value code="CNTL">Control</value>
+	<value code="FAM">Family member</value>
+	<value code="UASB">Unaffected Sibling</value>
+</variable>
+
+<variable id="phv00082013.v1">
+	<name>INV</name>
+	<description>Investigator&#39;s ID</description>
+	<type>String</type>
+</variable>
+
+<variable id="phv00082014.v1">
+	<name>INVSITE</name>
+	<description>Investigator site ID</description>
+	<type>String</type>
+</variable>
+
+<variable id="phv00082015.v1">
+	<name>VISIT</name>
+	<description>Visit name</description>
+	<type>String</type>
+</variable>
+
+<variable id="phv00082016.v1">
+	<name>VISIT_DATE</name>
+	<description>Visit date</description>
+	<type>Date</type>
+	<comment>Truncated to YYYY</comment>
+</variable>
+
+<variable id="phv00082017.v1">
+	<name>ASDT</name>
+	<description>GDS - Assessment date</description>
+	<type>Date</type>
+	<comment>Truncated to YYYY</comment>
+</variable>
+
+<variable id="phv00082018.v1">
+	<name>STG</name>
+	<description>GDS - Please tick the appropriate stage:</description>
+	<type>Encoded Value</type>
+	<value code="1">No cognitive decline</value>
+	<value code="2">Very mild cognitive decline</value>
+	<value code="3">Mild cognitive decline</value>
+	<value code="4">Moderate cognitive decline</value>
+	<value code="5">Moderately severe cognitive decline</value>
+	<value code="6">Severe cognitive decline</value>
+	<value code="7">Very severe cognitive decline</value>
+</variable>
+
+<variable id="phv00082019.v1">
+	<name>TSTRE</name>
+	<description>GDS (Global Deterioration Scale) Score</description>
+	<type>String</type>
+</variable>
+
+</data_table>

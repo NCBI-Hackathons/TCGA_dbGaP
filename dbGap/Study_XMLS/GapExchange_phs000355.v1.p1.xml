@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GaPExchange xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="dbGaPEx2.1.5.xsd">
+
+<MetaVariables>
+	<Submitter/>
+	<Method/>
+</MetaVariables>
+<MetaLinks/>
+
+<Projects>
+	<Project/>
+</Projects>
+
+<Studies>
+
+<Study source="dbGaP" accession="phs000355.v1.p1" parentStudy="phs000355.v1.p1" createDate="2011-04-04" modDate="2011-10-26">
+
+<Configuration>
+	<Data_Provider><![CDATA[
+		<table border="1">
+		<tr><th>Title</th><th>Name</th><th>Institute</th></tr>
+		<tr><td>Principal Investigator</td><td>Deborah A. Meyers, PhD</td><td>Wake Forest School of Medicine, Winston-Salem, NC, USA</td></tr>
+		<tr><td>Funding Source</td><td>R01 HL087665</td><td>National  Heart, Lung and Blood Institute, National Institutes of Health, Bethesda, MD, USA</td></tr>
+		</table>
+	]]></Data_Provider>
+	<StudyNameEntrez>Genome Wide Association for Asthma and Lung Function</StudyNameEntrez>
+	<StudyNameReportPage>Genome Wide Association for Asthma and Lung Function</StudyNameReportPage>
+	<StudyTypes>
+		<StudyType>Case-Control</StudyType>
+	</StudyTypes>
+	<Description><![CDATA[
+<p>The SNP Typing for Association with Multiple Phenotypes from Existing Epidemiologic (STAMPEED) asthma project includes subjects      with asthma and controls from the Chicago Asthma Genetics Study (CAG), NHLBI multicenter Severe Asthma Research Program (SARP)      and NHLBI Collaborative Studies on the Genetics of Asthma CSGA (Wake Forest). All studies included European American and      African American children and adults with asthma ranging from mild to severe and adult controls. CAG participants were      collected at the University of Chicago. SARP participants were recruited at the NHLBI SARP sites with an emphasis on recruiting      severe asthmatics (Moore et al, Am J Respir Crit Care Med, 2010, PMID:       <a href="http://www.ncbi.nlm.nih.gov/pubmed/19892860" target="_blank">19892860</a>).      CSGA cases and controls collected by the Wake Forest investigators      were also included. Asthma status was based on both a physician&#39;s diagnosis and either bronchodilator reversibility or      hyper-responsiveness to methacholine as well as less than 5 pack years of smoking. Genotyping was performed on the      Illumina 1Mv1 platform, with individual genotypes called using clustering algorithms as implemented in the BeadStudio software      by Illumina. The total number of markers following standard QC was 1,025,129. Imputation was performed using the HapMap phase 2,      release 21 SNPs using MACH with the phased HapMap CEU and YRI haplotypes as a reference. Case/control association tests for      asthma status were performed using logistic regression in R      (<a href="http://CRAN.R-project.org/" target="_blank">http://CRAN.R-project.org/</a>)      on genotype dosages, and adjusting for the first principal component from EIGENSTRAT.</p>]]>
+	</Description>
+	<StudyInEx><![CDATA[
+<p>Cases with asthma were excluded if they did not meet inclusion criteria or had a diagnosis of a respiratory disease besides asthma.      Controls were excluded if they had a history of asthma.</p>]]>
+	</StudyInEx>
+	<StudyProjects>
+		<Project/>
+	</StudyProjects>
+	<Publications>
+		<Publication>
+			<Pubmed pmid="21804549"/>
+		</Publication>
+	</Publications>
+	<Diseases>
+		<Disease vocab_source="MESH" vocab_term="Asthma"/>
+		<Disease vocab_source="MESH" vocab_term="Respiratory Function Tests"/>
+	</Diseases>
+	<Attributions>
+		<Header title="Principal Investigator">
+			<AttName>Deborah A. Meyers, PhD</AttName>
+			<Institution>Wake Forest School of Medicine, Winston-Salem, NC, USA</Institution>
+		</Header>
+		<Header title="Funding Source">
+			<AttName>R01 HL087665</AttName>
+			<Institution>National  Heart, Lung and Blood Institute, National Institutes of Health, Bethesda, MD, USA</Institution>
+		</Header>
+	</Attributions>
+	<DisplayPublicSummary>no</DisplayPublicSummary>
+	<StudyHistory><![CDATA[
+<p>This is part of NHLBI&#39;s STAMPEED program (RFA-HL-06-012).</p>]]>
+	</StudyHistory>
+	<ConsentGroups>
+		<ConsentGroup groupNum="100" shortName="Analysis" longName="Analysis only"/>
+	</ConsentGroups>
+</Configuration>
+
+  <AuthorizedAccess>
+    <DacInfo ssDacId="0">
+      <DacName>NHLBI</DacName>
+      <DacFullName>National Heart, Lung, and Blood Institute DAC</DacFullName>
+      <DacEmail>nhlbigeneticdata@nhlbi.nih.gov</DacEmail>
+      <DacPhone></DacPhone>
+      <DacFax>(301) 480-1455</DacFax>
+      <DacUrl>http://grants.nih.gov/grants/gwas</DacUrl>
+    </DacInfo>
+    <Policy Policy_ID="phs000355.v1.p1_policy" ref_ssDacId="0">
+      <DisplayResearchStatement>yes</DisplayResearchStatement>
+      <DisplayPublicSummary>yes</DisplayPublicSummary>
+      <EmbargoLength>0</EmbargoLength>
+      <YearsUntilRenewal>1</YearsUntilRenewal>
+      <WeeksCancelRequest>8</WeeksCancelRequest>
+      <PdfSupplementReqired>no</PdfSupplementReqired>
+      <AcknowledgementText>
+        <para>
+               http://dbgap.ncbi.nlm.nih.gov/aa/wga.cgi?page=DUC&amp;view_pdf&amp;stacc=phs000355.v1.p1
+            </para>
+      </AcknowledgementText>
+      <DocumentSet>
+        <DataUseCertificate Label="Data Use Certificate" FilePath="https://dbgap.ncbi.nlm.nih.gov/aa/wga.cgi?page=DUC&amp;view_pdf&amp;stacc=phs000355.v1.p1" FileName="Meyers-STAMPEED-data_use_agreement.pdf"/>
+      </DocumentSet>
+    </Policy>
+    <ConsentGroups>
+      <ParticipantSet groupNum-REF="1">
+        <ConsentName>General Research Use</ConsentName>
+        <ConsentAbbrev>GRU</ConsentAbbrev>
+        <UseLimitation>The informed consent document signed by the Study Participants allows use of these data results by investigators employed by non-profit and for-profit organizations. These data results may be used by private companies in the development of diagnostics and therapeutics under the current consent. This consent group does not require IRB approval.</UseLimitation>
+        <IrbRequired>No</IrbRequired>
+      </ParticipantSet>
+    </ConsentGroups>
+  </AuthorizedAccess>
+
+<Analyses>
+	<Analysis pha="3127" genomeBuild="37.1" snpBuild="132" analysisType="">
+		<Description>A case/control genome-wide association study for asthma was performed in 843 cases and 580 controls of European American ethnicity.  Subjects were from the United States and were participants in the Chicago Asthma Genetics Study (CAG), the NHLBI Collaborative Studies on the Genetics of Asthma (CSGA), and the Severe Asthma Research Program (SARP).  Samples were genotyped on the Illumina 1Mv1 chip.</Description>
+		<Method>categorical analysis</Method>
+		<GtyPlatform probeNum="1069796" snpBatchId="52075">
+			<Vendor>Illumina</Vendor>
+			<VendorURL>Illumina 1M chip part 1</VendorURL>
+			<Platform>ILMN1M_1</Platform>
+		</GtyPlatform>
+		<GtyPlatform probeNum="1062" snpBatchId="856524">
+			<Vendor>Illumina</Vendor>
+			<VendorURL>Illumina 1M chip part 2</VendorURL>
+			<Platform>ILMN1M_2</Platform>
+		</GtyPlatform>
+		<Comment></Comment>
+	</Analysis>
+	<Analysis pha="3128" genomeBuild="37.1" snpBuild="132" analysisType="">
+		<Description>A case/control genome-wide association studies for asthma was performed in 541 cases and 451 controls of self-reported African American ethnicity.  Subjects were from the United States and were participants in the Chicago Asthma Genetics Study (CAG), the NHLBI Collaborative Studies on the Genetics of Asthma (CSGA), and the Severe Asthma Research Program (SARP).  Samples were genotyped on the Illumina 1Mv1 chip.</Description>
+		<Method>categorical analysis</Method>
+		<GtyPlatform probeNum="1069796" snpBatchId="52075">
+			<Vendor>Illumina</Vendor>
+			<VendorURL>Illumina 1M chip part 1</VendorURL>
+			<Platform>ILMN1M_1</Platform>
+		</GtyPlatform>
+		<GtyPlatform probeNum="1062" snpBatchId="856524">
+			<Vendor>Illumina</Vendor>
+			<VendorURL>Illumina 1M chip part 2</VendorURL>
+			<Platform>ILMN1M_2</Platform>
+		</GtyPlatform>
+		<Comment></Comment>
+	</Analysis>
+</Analyses>
+
+</Study>
+
+</Studies>
+
+</GaPExchange>

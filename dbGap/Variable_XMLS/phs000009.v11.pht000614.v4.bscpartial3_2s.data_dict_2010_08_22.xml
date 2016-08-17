@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./datadict_v2.xsl"?>
+<data_table id="pht000614.v4" study_id="phs000009.v11" participant_set="5" date_created="Sun Aug 22 19:04:53 2010">
+
+<variable id="phv00065468.v3">
+	<name>IDTYPE</name>
+	<description>Framingham Cohort Identifier</description>
+	<type>encoded</type>
+	<coll_interval>Through Exam 2 (partial set)</coll_interval>
+	<value code="3">Generation 3 Cohort</value>
+</variable>
+
+<variable id="phv00065469.v3">
+	<name>SEX</name>
+	<description>Sex of Gen 3 Participant</description>
+	<type>encoded</type>
+	<coll_interval>Through Exam 2 (partial set)</coll_interval>
+	<value code="1">Male</value>
+	<value code="2">Female</value>
+</variable>
+
+<variable id="phv00065470.v3">
+	<name>AGE1</name>
+	<description>Age of Participant at Exam 1</description>
+	<type>integer</type>
+	<unit>years</unit>
+	<logical_min>19</logical_min>
+	<logical_max>72</logical_max>
+	<coll_interval>Through Exam 2 (partial set)</coll_interval>
+	<comment>The formula used to calculate age at the nth exam: agen = int((daten - dob)/365.25) where daten is the date of the nth exam.</comment>
+</variable>
+
+<variable id="phv00089335.v2">
+	<name>age2</name>
+	<description>Age of Participant at Exam 1</description>
+	<type>integer</type>
+	<unit>years</unit>
+	<logical_min>24</logical_min>
+	<logical_max>78</logical_max>
+	<coll_interval>Through Exam 2 (partial set)</coll_interval>
+	<comment>The formula used to calculate age at the nth exam: agen = int((daten - dob)/365.25) where daten is the date of the nth exam.</comment>
+</variable>
+
+<variable id="phv00089336.v2">
+	<name>days1_2</name>
+	<description>Number of days between Gen 3 Exam 1 and Exam 2</description>
+	<type>integer</type>
+	<unit>days</unit>
+	<logical_min>1092</logical_min>
+	<logical_max>2759</logical_max>
+	<coll_interval>Through Exam 2 (partial set)</coll_interval>
+	<comment>Number of days since Exam 1</comment>
+</variable>
+
+<variable id="phv00065471.v3">
+	<name>shareid</name>
+	<description>SHARE ID Number</description>
+	<type>integer</type>
+	<coll_interval>Through Exam 2 (partial set)</coll_interval>
+</variable>
+
+</data_table>

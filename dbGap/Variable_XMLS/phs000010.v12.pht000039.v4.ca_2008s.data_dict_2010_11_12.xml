@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./datadict_v2.xsl"?>
+<data_table id="pht000039.v4" study_id="phs000010.v12" participant_set="5" date_created="Fri Nov 12 08:02:56 2010">
+
+<unique_key phv="00010770" version="4">TOPO</unique_key>
+<unique_key phv="00010771" version="4">LOCATION</unique_key>
+<unique_key phv="00010772" version="4">HIST</unique_key>
+<unique_key phv="00010774" version="4">GRADE</unique_key>
+<unique_key phv="00080780" version="1">d_date</unique_key>
+<unique_key phv="00010777" version="4">shareid</unique_key>
+
+<variable id="phv00010767.v4">
+	<name>IDTYPE</name>
+	<description>Framingham Cohort Identifier</description>
+	<type>encoded</type>
+	<coll_interval>Cancer Cases Reviewed through 2008</coll_interval>
+	<value code="0">Original Cohort</value>
+	<value code="1">Offspring Cohort</value>
+	<value code="2">New Offspring Spouse Cohort</value>
+	<value code="3">Generation 3 Cohort</value>
+</variable>
+
+<variable id="phv00010768.v4">
+	<name>DIAG_TYP</name>
+	<description>Method of diagnosis - Represents the basis of diagnosis</description>
+	<type>encoded</type>
+	<coll_interval>Cancer Cases Reviewed through 2008</coll_interval>
+	<value code="1">microscopically confirmed</value>
+	<value code="2">clinically diagnosed</value>
+	<value code="3">death certificate only</value>
+</variable>
+
+<variable id="phv00010769.v4">
+	<name>EXACT</name>
+	<description>Type of Date - Diagnosis date qualifier. Indicates the quality of D_DATE.</description>
+	<type>encoded</type>
+	<coll_interval>Cancer Cases Reviewed through 2008</coll_interval>
+	<value code="0">Month, date and year of diagnosis date taken from pathology report or other test report.</value>
+	<value code="1">Estimated diagnosis date as described in variable D_DATE</value>
+</variable>
+
+<variable id="phv00010770.v4">
+	<name>TOPO</name>
+	<description>Topography - Describes site - Corresponds to first three digits of Topography code WHO ICD-O</description>
+	<type>encoded</type>
+	<coll_interval>Cancer Cases Reviewed through 2008</coll_interval>
+	<value code="140">lip</value>
+	<value code="141">tongue</value>
+	<value code="142">major salivary gland</value>
+	<value code="143">gum</value>
+	<value code="144">floor of mouth</value>
+	<value code="145">other and unspecified parts of mouth</value>
+	<value code="146">oropharynx</value>
+	<value code="147">nasopharynx</value>
+	<value code="148">hypopharynx</value>
+	<value code="149">pharynx and ill-defined sites in lip, oral cavity and pharynx</value>
+	<value code="150">esophagus</value>
+	<value code="151">stomach</value>
+	<value code="152">small intestine</value>
+	<value code="153">colon</value>
+	<value code="154">rectum, rectosigmoid junction, anal canal and anus, not otherwise specified</value>
+	<value code="155">liver and intrahepatic bile ducts</value>
+	<value code="156">gallbladder and extrahepatic bile ducts</value>
+	<value code="157">pancreas</value>
+	<value code="158">retroperitoneum and peritoneum</value>
+	<value code="159">other and ill-defined sites within digestive organs and peritoneum</value>
+	<value code="160">nasal cavities, accessory sinuses, middle ear and inner ear</value>
+	<value code="161">larynx</value>
+	<value code="162">trachea bronchus, and lung</value>
+	<value code="163">pleura</value>
+	<value code="164">thymus, heart and mediastinum</value>
+	<value code="165">other and ill-defined sites within respiratory system and intrathoracic organs</value>
+	<value code="169">hematopoietic and reticuloendothelial systems</value>
+	<value code="170">bones, joints and atricular cartilage</value>
+	<value code="171">connective, subcutaneous and other soft tissues</value>
+	<value code="173">skin (excludes skin of labia majora, skin of vulva, skin of penis and skin of sctotum)</value>
+	<value code="174">female breast (excludes skin of breast)</value>
+	<value code="175">male breast (excludes skin of breast)</value>
+	<value code="179">uterus, not otherwise specified</value>
+	<value code="180">cervix uteri</value>
+	<value code="181">placenta</value>
+	<value code="182">corpus uteri or endometrium</value>
+	<value code="183">ovary, fallopian tube and broad ligament</value>
+	<value code="184">other and unspecified femal genital organs</value>
+	<value code="185">prostate gland</value>
+	<value code="186">testis</value>
+</variable>
+
+<variable id="phv00010771.v4">
+	<name>LOCATION</name>
+	<description>Location - Describes subdivision of site or location - Corresponds to fourth digit of Topography code WHO ICD-O</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>9</logical_max>
+	<coll_interval>Cancer Cases Reviewed through 2008</coll_interval>
+</variable>
+
+<variable id="phv00010772.v4">
+	<name>HIST</name>
+	<description>Histology or morphology - Descibes cell histopathology - Corresponds to four digit Morphology code WHO ICD-O</description>
+	<type>integer</type>
+	<logical_min>8000</logical_min>
+	<logical_max>9990</logical_max>
+	<coll_interval>Cancer Cases Reviewed through 2008</coll_interval>
+	<comment>The histology code of 9680 = &#39;Malignant lymphoma&quot; from ICD-0-2</comment>
+</variable>
+
+<variable id="phv00010773.v4">
+	<name>BEHAVIOR</name>
+	<description>Behavior - Decribes the degree of malignancy - Corresponds to the fifth digit Behavior code WHO ICD-O</description>
+	<type>encoded</type>
+	<coll_interval>Cancer Cases Reviewed through 2008</coll_interval>
+	<comment>This set contains only cases where BEHAVIOR = 2 or BEHAVIOR = 3. Metastatic code (BEHAVIOR = 6) was not used; rather the 199 topography code (unknown primary site) was used, along with BEHAVIOR = 3.</comment>
+	<value code="0">benign</value>
+	<value code="1">uncertain, borderline</value>
+	<value code="2">carcinoma in situ, non-invasive</value>
+	<value code="3">malignant, primary site</value>
+	<value code="6">malignant, metastatic site</value>
+	<value code="9">malignant, uncertain whether primary or metastatic site</value>
+</variable>
+
+<variable id="phv00010774.v4">
+	<name>GRADE</name>
+	<description>Grade - Correspnds to Code for Histologic Grading and Differentiation WHO ICD-O</description>
+	<type>encoded</type>
+	<coll_interval>Cancer Cases Reviewed through 2008</coll_interval>
+	<value code="1">Grade I - well-differentiated, differentiated</value>
+	<value code="2">Grade II - moderately well-differentiated, moderately differentiated</value>
+	<value code="3">Grade III - poorly differentiated</value>
+	<value code="4">Grade IV - undifferentiated, anaplastic</value>
+	<value code="9">Grade or differentiation not determined, stated, or applicable</value>
+</variable>
+
+<variable id="phv00080773.v1">
+	<name>ESTRGN</name>
+	<description>Estrogen Receptors</description>
+	<type>encoded</type>
+	<coll_interval>Cancer Cases Reviewed through 2008</coll_interval>
+	<comment>This variable was added to the cancer data collection sheet October 10, 2007</comment>
+	<value code="0">negative</value>
+	<value code="1">wealky positive</value>
+	<value code="2">positive</value>
+	<value code="8">not done</value>
+	<value code=".">unknown or collected on a form that did not contain this variable</value>
+</variable>
+
+<variable id="phv00080774.v1">
+	<name>PRGSTRN</name>
+	<description>Progesterone Receptors</description>
+	<type>encoded</type>
+	<coll_interval>Cancer Cases Reviewed through 2008</coll_interval>
+	<comment>This variable was added to the cancer data collection sheet October 10, 2007</comment>
+	<value code="0">negative</value>
+	<value code="1">wealky positive</value>
+	<value code="2">positive</value>
+	<value code="8">not done</value>
+	<value code=".">unknown or collected on a form that did not contain this variable</value>
+</variable>
+
+<variable id="phv00080775.v1">
+	<name>H2NI</name>
+	<description>HER2NEU (Human Epidermal growth factor Receptor 2) by IHC (immunohistochemistry)</description>
+	<type>encoded</type>
+	<coll_interval>Cancer Cases Reviewed through 2008</coll_interval>
+	<comment>This variable was added to the cancer data collection sheet October 10, 2007</comment>
+	<value code="0">negative, 0 or 1+</value>
+	<value code="1">weakly positive, 2+</value>
+	<value code="2">positive, 3+</value>
+	<value code="8">not done</value>
+	<value code=".">unknown or collected on a form that did not contain this variable</value>
+</variable>
+
+<variable id="phv00080776.v1">
+	<name>H2NF</name>
+	<description>HER2NEU (Human Epidermal growth factor Receptor 2) by FISH (Fluorescence in situ hybridization)</description>
+	<type>encoded</type>
+	<coll_interval>Cancer Cases Reviewed through 2008</coll_interval>
+	<comment>This variable was added to the cancer data collection sheet October 10, 2007</comment>
+	<value code="0">unamplified</value>
+	<value code="1">amplified by FISH</value>
+	<value code="8">not done</value>
+	<value code=".">unknown or collected on a form that did not contain this variable</value>
+</variable>
+
+<variable id="phv00080777.v1">
+	<name>TISSUE_1</name>
+	<description>Tissue #1 related to Gleason score</description>
+	<type>integer</type>
+	<logical_min>1</logical_min>
+	<logical_max>5</logical_max>
+	<coll_interval>Cancer Cases Reviewed through 2008</coll_interval>
+	<comment>This variable was added to the cancer data collection sheet October 10, 2007</comment>
+	<value code=".">unknown or collected on a form that did not contain this variable</value>
+</variable>
+
+<variable id="phv00080778.v1">
+	<name>TISSUE_2</name>
+	<description>Tissue #2  related to Gleason score</description>
+	<type>integer</type>
+	<logical_min>1</logical_min>
+	<logical_max>5</logical_max>
+	<coll_interval>Cancer Cases Reviewed through 2008</coll_interval>
+	<comment>This variable was added to the cancer data collection sheet October 10, 2007</comment>
+	<value code=".">unknown or collected on a form that did not contain this variable</value>
+</variable>
+
+<variable id="phv00080779.v1">
+	<name>GLEASON</name>
+	<description>Gleason Score</description>
+	<type>integer</type>
+	<logical_min>2</logical_min>
+	<logical_max>10</logical_max>
+	<coll_interval>Cancer Cases Reviewed through 2008</coll_interval>
+	<comment>This variable was added to the cancer data collection sheet October 10, 2007</comment>
+	<value code=".">unknown or collected on a form that did not contain this variable</value>
+</variable>
+
+<variable id="phv00080780.v1">
+	<name>d_date</name>
+	<description>Diagnosis date of tumor or cancer</description>
+	<type>integer</type>
+	<logical_min>-10243</logical_min>
+	<logical_max>21158</logical_max>
+	<coll_interval>Cancer Cases Reviewed through 2008</coll_interval>
+	<comment>Date was taken from pathology reports if available. Date was taken from other records if pathology report was not available or if diagnosis was made before the biopsy. 
+		If month and year were available, but not day, the 15th was used as the day, and the variable EXACT = 1. If only the year was available, JULY 4 was used as the month and day, and the variable EXACT = 1.  
+		Number of days since exam 1. </comment>
+</variable>
+
+<variable id="phv00010777.v4">
+	<name>shareid</name>
+	<description>SHARe ID number</description>
+	<type>integer</type>
+	<coll_interval>Cancer Cases Reviewed through 2008</coll_interval>
+</variable>
+
+</data_table>

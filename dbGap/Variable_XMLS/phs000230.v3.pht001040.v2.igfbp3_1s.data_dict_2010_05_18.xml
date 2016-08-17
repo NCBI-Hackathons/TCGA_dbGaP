@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./datadict_v2.xsl"?>
+<data_table id="pht001040.v2" study_id="phs000230.v3" participant_set="5" date_created="Tue May 18 22:33:30 2010">
+
+<variable id="phv00080762.v1">
+	<name>idtype</name>
+	<description>Framingham Cohort Identifier</description>
+	<type>encoded</type>
+	<coll_interval>Exam 1</coll_interval>
+	<value code="3">Generation 3 cohort</value>
+</variable>
+
+<variable id="phv00080760.v2">
+	<name>igf1</name>
+	<description>Insulin-like growth factor 1 (IGF-1)</description>
+	<type>decimal</type>
+	<unit>ng/ml</unit>
+	<logical_min>9</logical_min>
+	<logical_max>580.34</logical_max>
+	<coll_interval>Exam 1</coll_interval>
+	<comment>Cases which measured below the lowest detectable assay limit of 9.4 ng/ml were set to 9.00 ng/ml (n=10)</comment>
+	<value code=".">missing (insufficient sample n=2)</value>
+</variable>
+
+<variable id="phv00080761.v2">
+	<name>igfbp3</name>
+	<description>Insulin-like growth factor binding protein 3 (IGFBP-3)</description>
+	<type>decimal</type>
+	<unit>ng/ml</unit>
+	<logical_min>75</logical_min>
+	<logical_max>5001</logical_max>
+	<coll_interval>Exam 1</coll_interval>
+	<comment>Cases which measured below the lowest detectable assay limit of 75.99 ng/ml were set to 75.00 ng/ml (n=3). Cases above measurable limit of 5000 ng/ml were set to 5001 ng/ml (n=319). The user should determine how to handle these cases.</comment>
+	<value code=".">missing (insufficient sample n=3)</value>
+</variable>
+
+<variable id="phv00080763.v2">
+	<name>shareid</name>
+	<description>SHARe ID Number</description>
+	<type>integer</type>
+	<coll_interval>Exam 1</coll_interval>
+</variable>
+
+</data_table>

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GaPExchange xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="./dbGaPEx2.1.5.xsd">
+
+<MetaVariables>
+	<Submitter/>
+	<Method/>
+</MetaVariables>
+<MetaLinks/>
+
+<Projects>
+	<Project/>
+</Projects>
+
+<Studies>
+
+<Study source="dbGaP" accession="phs000771.v1.p1" parentStudy="phs000771.v1.p1" createDate="2014-06-30" modDate="2014-06-30">
+
+<Configuration>
+	<Data_Provider><![CDATA[
+		<table border="1">
+		<tr><th>Title</th><th>Name</th><th>Institute</th></tr>
+		<tr><td>Principal Investigator</td><td>Levi A. Garraway</td><td>Department of Medical Oncology, Dana-Farber Cancer Institute, Boston, Massachusetts, Broad Institute of Harvard and MIT, Cambridge, Massachusetts, USA</td></tr>
+		<tr><td>Co-Investigator</td><td>Jonathan Rosenberg</td><td>Genitourinary Oncology Service, Department of Medicine, Memorial Sloan-Kettering Cancer Center, New York, NY, USA</td></tr>
+		</table>
+	]]></Data_Provider>
+	<StudyNameEntrez>Bladder Cancer Clinical Cohorts</StudyNameEntrez>
+	<StudyNameReportPage>Bladder Chemotherapy Responders</StudyNameReportPage>
+	<StudyTypes>
+		<StudyType>Case-Control</StudyType>
+	</StudyTypes>
+	<Description><![CDATA[
+<p>Cisplatin-based chemotherapy is the standard of care for patients with muscle invasive urothelial carcinoma. Pathologic downstaging to pT0/pTis after neoadjuvant cisplatin-based chemotherapy is associated with improved survival, and some patients with metastatic disease achieve complete responses to these therapies. However, the molecular determinants of cisplatin response are incompletely understood. We performed whole exome sequencing on tumor and germline DNA from patients with muscle invasive or metastatic urothelial carcinoma who received cisplatin-based chemotherapy to identify somatic mutations that occurred preferentially in cisplatin responders.</p>]]>
+	</Description>
+	<StudyInEx><![CDATA[
+<p>Samples were collected from patients in the IRB-approved studies. For inclusion, patients had to have received complete course of a neoadjuvant or metastatic cisplatin-based chemotherapy regimen as per standard clinical practice.</p>]]>
+	</StudyInEx>
+	<StudyProjects>
+		<Project/>
+	</StudyProjects>
+	<Diseases>
+		<Disease vocab_source="MESH" vocab_term="Urinary Bladder Neoplasms"/>
+	</Diseases>
+	<Attributions>
+		<Header title="Principal Investigator">
+			<AttName>Levi A. Garraway</AttName>
+			<Institution>Department of Medical Oncology, Dana-Farber Cancer Institute, Boston, Massachusetts, Broad Institute of Harvard and MIT, Cambridge, Massachusetts, USA</Institution>
+		</Header>
+		<Header title="Co-Investigator">
+			<AttName>Jonathan Rosenberg</AttName>
+			<Institution>Genitourinary Oncology Service, Department of Medicine, Memorial Sloan-Kettering Cancer Center, New York, NY, USA</Institution>
+		</Header>
+	</Attributions>
+	<DisplayPublicSummary>yes</DisplayPublicSummary>
+	<ConsentGroups>
+		<ConsentGroup groupNum="1" shortName="DS-BLADDERCA" longName="Disease-Specific (Bladder Cancer)"/>
+		<ConsentGroup groupNum="2" shortName="DS-GEN-URI-CA" longName="Disease-Specific (Genitourinary Cancer)"/>
+	</ConsentGroups>
+</Configuration>
+
+  <AuthorizedAccess>
+    <DacInfo ssDacId="0">
+      <DacName>NHGRI</DacName>
+      <DacFullName>National Human Genome Research Institute</DacFullName>
+      <DacEmail>0</DacEmail>
+      <DacPhone></DacPhone>
+      <DacUrl></DacUrl>
+    </DacInfo>
+    <Policy Policy_ID="phs000771.v1.p1_policy" ref_ssDacId="0">
+      <DisplayResearchStatement>yes</DisplayResearchStatement>
+      <DisplayPublicSummary>yes</DisplayPublicSummary>
+      <EmbargoLength>0</EmbargoLength>
+      <YearsUntilRenewal>1</YearsUntilRenewal>
+      <WeeksCancelRequest>8</WeeksCancelRequest>
+      <PdfSupplementReqired>no</PdfSupplementReqired>
+      <AcknowledgementText>
+        <para>
+          http://dbgap.ncbi.nlm.nih.gov/aa/wga.cgi?page=DUC&amp;view_pdf&amp;stacc=phs000771.v1.p1
+        </para>
+      </AcknowledgementText>
+      <DocumentSet>
+        <DataUseCertificate Label="Data Use Certificate" FilePath="https://dbgap.ncbi.nlm.nih.gov/aa/wga.cgi?page=DUC&amp;view_pdf&amp;stacc=phs000771.v1.p1" FileName="DUC_NeoAdjuvantjBladder_June2014.pdf"/>
+      </DocumentSet>
+    </Policy>
+    <ConsentGroups>
+      <ParticipantSet groupNum-REF="1">
+        <ConsentName>Disease-Specific (Bladder Cancer)</ConsentName>
+        <ConsentAbbrev>DS-BLADDERCA</ConsentAbbrev>
+        <UseLimitation>Use of the data must be related to Bladder Cancer.</UseLimitation>
+        <IrbRequired>No</IrbRequired>
+      </ParticipantSet>
+      <ParticipantSet groupNum-REF="2">
+        <ConsentName>Disease-Specific (Genitourinary Cancer)</ConsentName>
+        <ConsentAbbrev>DS-GEN-URI-CA</ConsentAbbrev>
+        <UseLimitation>Use of the data must be related to Genitourinary Cancer.</UseLimitation>
+        <IrbRequired>No</IrbRequired>
+      </ParticipantSet>
+    </ConsentGroups>
+  </AuthorizedAccess>
+
+
+</Study>
+
+</Studies>
+
+</GaPExchange>

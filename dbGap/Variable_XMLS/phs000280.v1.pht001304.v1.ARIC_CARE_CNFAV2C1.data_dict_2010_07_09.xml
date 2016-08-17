@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./datadict_v2.xsl"?>
+<data_table id="pht001304.v1" study_id="phs000280.v1" participant_set="1" date_created="Fri Jul  9 11:27:22 2010">
+
+<variable id="phv00092632.v1">
+	<name>Individual_ID</name>
+	<description>Subject Identifier</description>
+	<type>string</type>
+</variable>
+
+<variable id="phv00092633.v1">
+	<name>CNFAFLAG</name>
+	<description>=1 if form is present</description>
+	<type>integer</type>
+	<value code="1">Presence of form</value>
+	<value code=".">Missing</value>
+</variable>
+
+<variable id="phv00092634.v1">
+	<name>CNFACY</name>
+	<description>CONTACT YEAR [4]</description>
+	<type>integer</type>
+	<unit>Year</unit>
+	<value code=".">Missing</value>
+</variable>
+
+<variable id="phv00092635.v1">
+	<name>CNFA01</name>
+	<description>TOTAL WORDS RECALLED - DELAYED    Q1</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>10</logical_max>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002906.1">Exam 2 Cognitive Function.pdf</a>.]]></comment>
+	<value code="A">DELAYED WORD RECALL</value>
+</variable>
+
+<variable id="phv00092636.v1">
+	<name>CNFA02</name>
+	<description>TOTAL CORRECT SYMBOLS             Q2</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>93</logical_max>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002906.1">Exam 2 Cognitive Function.pdf</a>.]]></comment>
+	<value code="A">DELAYED WORD RECALL</value>
+</variable>
+
+<variable id="phv00092637.v1">
+	<name>CNFA03</name>
+	<description>TOTAL INCORRECT SYMBOLS           Q3</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>68</logical_max>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002906.1">Exam 2 Cognitive Function.pdf</a>.]]></comment>
+	<value code="A">DELAYED WORD RECALL</value>
+</variable>
+
+<variable id="phv00092638.v1">
+	<name>CNFA04</name>
+	<description>TOTAL WORDS LISTED                Q4</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>99</logical_max>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002906.1">Exam 2 Cognitive Function.pdf</a>.]]></comment>
+	<value code="A">DELAYED WORD RECALL</value>
+</variable>
+
+</data_table>

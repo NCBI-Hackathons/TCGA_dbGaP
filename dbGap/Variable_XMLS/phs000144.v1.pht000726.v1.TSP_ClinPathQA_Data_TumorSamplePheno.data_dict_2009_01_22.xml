@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./datadict_v2.xsl"?>
+<data_table id="pht000726.v1" study_id="phs000144.v1" participant_set="1" date_created="Thu Jan 22 09:25:48 2009">
+
+<variable id="phv00071799.v1">
+	<name>Acinar</name>
+	<description>% of this cell component (acinar) in tissue</description>
+	<type>integer</type>
+	<unit>%</unit>
+	<logical_min>0</logical_min>
+	<logical_max>100</logical_max>
+</variable>
+
+<variable id="phv00071802.v1">
+	<name>BAC</name>
+	<description>% of this cell component (bronchioloalveolar carcinoma) in tissue</description>
+	<type>integer</type>
+	<unit>%</unit>
+	<logical_min>0</logical_min>
+	<logical_max>90</logical_max>
+</variable>
+
+<variable id="phv00071803.v1">
+	<name>BAC_Type</name>
+	<description>Type of BAC (bronchioloalveolar carcinoma), if present</description>
+	<type>encoded value</type>
+	<value code="Muc">Mucinous</value>
+	<value code="NonMuc">Non-mucinous</value>
+</variable>
+
+<variable id="phv00071806.v1">
+	<name>Clear_Cell</name>
+	<description>% of this cell component (clear cell) in tissue</description>
+	<type>integer</type>
+	<unit>%</unit>
+	<logical_min>0</logical_min>
+	<logical_max>80</logical_max>
+</variable>
+
+<variable id="phv00071805.v1">
+	<name>Colloid</name>
+	<description>% of this cell component (colloid) in tissue</description>
+	<type>integer</type>
+	<unit>%</unit>
+	<logical_min>0</logical_min>
+	<logical_max>60</logical_max>
+</variable>
+
+<variable id="phv00071810.v1">
+	<name>Frozen_Acinar</name>
+	<description>Presence or absence of this cell component (acinar) in fixed tissue</description>
+	<type>encoded value</type>
+	<value code="N">No</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00071813.v1">
+	<name>Frozen_BAC</name>
+	<description>Presence or absence of this cell component (bronchioloalveolar carcinoma) in fixed tissue</description>
+	<type>encoded value</type>
+	<value code="N">No</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00071809.v1">
+	<name>Frozen_Comment</name>
+	<description>Histopathology, if frozen is discordant</description>
+	<type>encoded value</type>
+	<value code="Adeno">Adenocarcinoma</value>
+	<value code="Adenosq">Adenosquamous cell carcinoma</value>
+	<value code="LCNEC">Neuroendocrine Lung Tumors</value>
+	<value code="Pleiomorphic">Multiple pathological types</value>
+	<value code="SCC">Squamous Cell Carcinoma</value>
+	<value code="Squamous">Squamous Cell Carcinoma</value>
+</variable>
+
+<variable id="phv00071808.v1">
+	<name>Frozen_Concordant</name>
+	<description>Is frozen tissue representative of diagnosis?</description>
+	<type>encoded value</type>
+	<value code="N">No</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00071812.v1">
+	<name>Frozen_Micropapillary</name>
+	<description>Presence or absence of this cell component (micropapillary) in fixed tissue</description>
+	<type>encoded value</type>
+	<value code="N">No</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00071811.v1">
+	<name>Frozen_Papillary</name>
+	<description>Presence or absence of this cell component (papillary) in fixed tissue</description>
+	<type>encoded value</type>
+	<value code="N">No</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00071814.v1">
+	<name>Frozen_Solid</name>
+	<description>Presence or absence of this cell component (solid) in fixed tissue</description>
+	<type>encoded value</type>
+	<value code="N">No</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00071798.v1">
+	<name>Grade</name>
+	<description>Grade of tumor</description>
+	<type>integer</type>
+	<logical_min>1</logical_min>
+	<logical_max>4</logical_max>
+	<value code="1">Well-differentiated (low grade)</value>
+	<value code="2">Moderately differentiated (intermediate grade)</value>
+	<value code="3">Poorly differentiated (high grade)</value>
+	<value code="4">Undifferentiated (high grade)</value>
+</variable>
+
+<variable id="phv00071791.v1">
+	<name>Max_Size</name>
+	<description>Maximum size of tumor</description>
+	<type>integer</type>
+	<unit>cm</unit>
+	<logical_min>0.5</logical_min>
+	<logical_max>10</logical_max>
+</variable>
+
+<variable id="phv00071801.v1">
+	<name>Micropapillary</name>
+	<description>% of this cell component (micropapillary) in tissue</description>
+	<type>integer</type>
+	<unit>%</unit>
+	<logical_min>0</logical_min>
+	<logical_max>40</logical_max>
+</variable>
+
+<variable id="phv00071794.v1">
+	<name>M_Stage</name>
+	<description>Metastatic involvement</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>1</logical_max>
+	<value code="0">No metastases</value>
+	<value code="1">Metastases present</value>
+</variable>
+
+<variable id="phv00071793.v1">
+	<name>N_Stage</name>
+	<description>Regional lymph node involvement</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>3</logical_max>
+	<value code="&gt;1">Lymph node involvement; degree undetermined</value>
+	<value code="0">No lymph nodes involved</value>
+	<value code="1">Ipsilateral bronchopulmonary or hilar nodes involved</value>
+	<value code="2">Ipsilateral mediastinal nodes or ligament involved a) Upper paratracheal and lower paratracheal nodes, b) Pretracheal and retrotracheal nodes, c) Aortic and aortic window nodes, d) Para-aortic nodes, e) Para-esophageal nodes, f) Pulmonary ligament, g) Subcarinal nodesm</value>
+	<value code="3">Contralateral mediastinal or hilar nodes involved or any scalene or supraclavicular nodes involved</value>
+</variable>
+
+<variable id="phv00071800.v1">
+	<name>Papillary</name>
+	<description>% of this cell component (papillary) in tissue</description>
+	<type>integer</type>
+	<unit>%</unit>
+	<logical_min>0</logical_min>
+	<logical_max>100</logical_max>
+</variable>
+
+<variable id="phv00071797.v1">
+	<name>Pathology_DX</name>
+	<description>Histopathology</description>
+	<type>encoded value</type>
+	<value code="Adeno">Adenocarcinoma</value>
+	<value code="Adenosq">Adenosquamous cell carcinoma</value>
+	<value code="LCNEC">Neuroendocrine Lung Tumors</value>
+	<value code="Pleiomorphic">Pleiomorphic Carcinomas of the Lung -- cells in the tumor have all different size and shapes</value>
+	<value code="Squamous">Squamous Cell Carcinoma</value>
+</variable>
+
+<variable id="phv00071796.v1">
+	<name>Path_Review</name>
+	<description>Source of pathology review</description>
+	<type>encoded value</type>
+	<value code="Central">Pathology done at different hospital</value>
+	<value code="Local">Pathology done at local hospital</value>
+</variable>
+
+<variable id="phv00071815.v1">
+	<name>Percent_Tumor</name>
+	<description>% tumor cells in frozen tissue</description>
+	<type>integer</type>
+	<unit>%</unit>
+	<logical_min>0</logical_min>
+	<logical_max>100</logical_max>
+</variable>
+
+<variable id="phv00071807.v1">
+	<name>Signet_Ring</name>
+	<description>% of this cell component (signet ring) in tissue</description>
+	<type>integer</type>
+	<unit>%</unit>
+	<logical_min>0</logical_min>
+	<logical_max>50</logical_max>
+</variable>
+
+<variable id="phv00071790.v1">
+	<name>Site</name>
+	<description>Anatomic site of tumor</description>
+	<type>encoded value</type>
+	<value code="L">Left Lung</value>
+	<value code="LLL">Left Lower Lobe</value>
+	<value code="LML">Left Middle Lobe</value>
+	<value code="LUL">Left Upper Lobe</value>
+	<value code="R">Right Lung</value>
+	<value code="RLL">Right Lower Lobe</value>
+	<value code="RML">Right Middle Lobe</value>
+	<value code="RUL">Right Upper Lobe</value>
+</variable>
+
+<variable id="phv00071804.v1">
+	<name>Solid</name>
+	<description>% of this cell component (solid) in tissue</description>
+	<type>integer</type>
+	<unit>%</unit>
+	<logical_min>0</logical_min>
+	<logical_max>100</logical_max>
+</variable>
+
+<variable id="phv00071795.v1">
+	<name>Stage</name>
+	<description>Stage grouping including T, N, M (Tumor size, Regional lymph node involvement, and Metastasis)</description>
+	<type>encoded value</type>
+	<value code="1">1A or 1B</value>
+	<value code="1A">T1N0M0 (where T1=&lt;3cm, N0=no lymph nodes, M0=no metastasis)</value>
+	<value code="1B">T2N0M0 (where T2=&gt;3cm (but does not occupy entire lung), N0=no lymph nodes, M0=no metastasis)</value>
+	<value code="2">2A or 2B</value>
+	<value code="2A">T1N1M0</value>
+	<value code="2B">T2N1M0 or T3N0M0</value>
+	<value code="3A">T1-3N2M0 or T3N1M0</value>
+	<value code="3B">Any T4 or any N3M0</value>
+	<value code="4">Any M1</value>
+</variable>
+
+<variable id="phv00071789.v1">
+	<name>TSP_Tumor_DNA_ID</name>
+	<description>Unique tumor DNA code number</description>
+	<type>integer</type>
+</variable>
+
+<variable id="phv00071792.v1">
+	<name>T_Stage</name>
+	<description>Primary tumor staging</description>
+	<type>integer</type>
+	<logical_min>1</logical_min>
+	<logical_max>4</logical_max>
+	<value code="1">Diameter of 3 cm or smaller and surrounded by lung or visceral pleura or endobronchial tumor distal to the lobar bronchus</value>
+	<value code="2">Diameter greater than 3 cm; extension to the visceral pleura, atelectasis, or obstructive pneumopathy involving less than 1 lung; lobar endobronchial tumor; or tumor of a main bronchus more than 2 cm from the carina</value>
+	<value code="3">Tumor at the apex; total atelectasis of 1 lung; endobronchial tumor of main bronchus within 2 cm of the carina but not invading it; or tumor of any size with direct extension to the adjacent structures such as the chest wall mediastinal pleura diaphragm, pericardium parietal layer, or mediastinal fat of the phrenic nerve</value>
+	<value code="4">Invasion of the mediastinal organs, including the esophagus, trachea, carina great vessels, and/or heart; obstruction of the superior vena cava; involvement of a vertebral body; recurrent nerve involvement; malignant pleural or pericardial effusion; or satellite pulmonary nodules within the same lobe as the primary tumor</value>
+</variable>
+
+</data_table>

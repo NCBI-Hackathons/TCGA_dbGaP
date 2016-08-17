@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./datadict_v2.xsl"?>
+<data_table id="pht000358.v1" study_id="phs000086.v2" participant_set="1" date_created="Wed Feb  3 09:19:18 2010">
+
+<variable id="phv00051626.v1">
+	<name>FORM</name>
+	<description>EDIC form number</description>
+	<type>int</type>
+</variable>
+
+<variable id="phv00051627.v1">
+	<name>CLINIC</name>
+	<description>A1. Identifying information. Deidentified EDIC clinic number</description>
+	<type>byte</type>
+</variable>
+
+<variable id="phv00051628.v1">
+	<name>NBB1</name>
+	<description>B1. Arrangement for patient transfer or move. Deidentified reason for clinic transfer</description>
+	<type>byte</type>
+	<value code="1">Patient is changing residence</value>
+	<value code="2">Patient wishes to attend another EDIC clinic near his home</value>
+	<value code="3">Other reasons, specify</value>
+	<value code="20">Other reasons, specify</value>
+	<value code="23">Patient will make visits to another clinic temporarily</value>
+	<value code="25">Patient wishes to attend another EDIC clinic near his home</value>
+	<value code="28">Patient is changing residence</value>
+</variable>
+
+<variable id="phv00051629.v1">
+	<name>NBB3B</name>
+	<description>B3b. Arrangement for patient transfer or move. On which EDIC follow-up year will the patient first visit the new follow-up center?</description>
+	<type>byte</type>
+	<unit>Years</unit>
+</variable>
+
+<variable id="phv00051630.v1">
+	<name>NBB4</name>
+	<description>B4. Arrangement for patient transfer or move. Deidentified clinic to which patient will transfer</description>
+	<type>byte</type>
+</variable>
+
+<variable id="phv00051631.v1">
+	<name>FSASDATE</name>
+	<description>A4. Identifying information. Deidentified date form completed</description>
+	<type>int</type>
+</variable>
+
+<variable id="phv00051632.v1">
+	<name>MASK_PAT</name>
+	<description>A2. Identifying information. Deidentified patient ID</description>
+	<type>int</type>
+</variable>
+
+<variable id="phv00051633.v1">
+	<name>NBB2DAT</name>
+	<description>B2. Arrangement for patient transfer or move. Deidentified date medical records will send to new clinic</description>
+	<type>int</type>
+</variable>
+
+<variable id="phv00051634.v1">
+	<name>NBB3ADAT</name>
+	<description>B3a. Arrangement for patient transfer or move. Deidentified date first visit-new treatment center</description>
+	<type>int</type>
+</variable>
+
+<variable id="phv00051635.v1">
+	<name>NBB3CDAT</name>
+	<description>B3c. Arrangement for patient transfer or move. Deidentified temporary move: date patients which stop visits, move to the new follow-up center</description>
+	<type>int</type>
+</variable>
+
+</data_table>

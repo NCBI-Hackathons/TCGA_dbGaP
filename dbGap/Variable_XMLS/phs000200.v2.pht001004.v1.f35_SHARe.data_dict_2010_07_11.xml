@@ -1,0 +1,435 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./datadict_v2.xsl"?>
+<data_table id="pht001004.v1" study_id="phs000200.v2" participant_set="1" date_created="Sun Jul 11 18:40:23 2010">
+
+<unique_key phv="00078828" version="1">SHAREID</unique_key>
+<unique_key phv="00078829" version="1">F35VTYP</unique_key>
+<unique_key phv="00078830" version="1">F35VY</unique_key>
+
+<variable id="phv00078828.v1">
+	<name>SHAREID</name>
+	<description>WHI SHARe ID</description>
+	<type>integer</type>
+</variable>
+
+<variable id="phv00078829.v1">
+	<name>F35VTYP</name>
+	<description>Visit type</description>
+	<type>encoded value</type>
+	<value code="2">Semi-annual Visit</value>
+	<value code="3">Annual Visit</value>
+	<value code="4">Non-Routine Visit</value>
+</variable>
+
+<variable id="phv00078830.v1">
+	<name>F35VY</name>
+	<description>Visit year</description>
+	<type>integer</type>
+	<logical_min>1</logical_min>
+	<logical_max>9</logical_max>
+	<comment>Visit year for which this form was collected.</comment>
+</variable>
+
+<variable id="phv00078831.v1">
+	<name>F35DAYS</name>
+	<description>F35 Days since randomization</description>
+	<type>integer</type>
+	<unit>days</unit>
+	<logical_min>177</logical_min>
+	<logical_max>3499</logical_max>
+</variable>
+
+<variable id="phv00078832.v1">
+	<name>WALK</name>
+	<description>Times walk for &gt; 10 min</description>
+	<type>encoded value</type>
+	<comment>Think about the walking you do outside the home. How often do you walk outside the home for more than 10 minutes without stopping? (Mark only one.)</comment>
+	<value code="0">Rarely or never</value>
+	<value code="1">1-3 times each month</value>
+	<value code="2">1 time each week</value>
+	<value code="3">2-3 times each week</value>
+	<value code="4">4-6 times each week</value>
+	<value code="5">7 or more times each week</value>
+</variable>
+
+<variable id="phv00078833.v1">
+	<name>WALKMIN</name>
+	<description>Duration of walks when &gt;10 min</description>
+	<type>encoded value</type>
+	<comment>When you walk outside the home for more than 10 minutes without stopping, for how many minutes do you usually walk?
+		Sub-question of F35 V1 Q1  &#39; How often walk 10+ minutes&#39; (skip pattern rule not applied). </comment>
+	<value code="1">Less than 20 min.</value>
+	<value code="2">20-39 min.</value>
+	<value code="3">40-59 min.</value>
+	<value code="4">1 hour or more</value>
+</variable>
+
+<variable id="phv00078834.v1">
+	<name>WALKSPD</name>
+	<description>Walking speed when walking for &gt;10 min</description>
+	<type>encoded value</type>
+	<comment>When you walk outside the home for more than 10 minutes without stopping, what is your usual speed?
+		Sub-question of F35 V1 Q1  &#39; How often walk 10+ minutes&#39; (skip pattern rule not applied). </comment>
+	<value code="2">Casual strolling or walking</value>
+	<value code="3">Average or normal</value>
+	<value code="4">Fairly fast</value>
+	<value code="5">Very fast</value>
+	<value code="9">Don&#39;t know</value>
+</variable>
+
+<variable id="phv00078835.v1">
+	<name>HRDEX</name>
+	<description>Times per week of very hard exercise</description>
+	<type>encoded value</type>
+	<comment>Not including walking outside the home, how often each week (7 days) do you usually do the exercises below? STRENUOUS OR VERY HARD EXERCISE (You work up a sweat and your heart beats fast.) For example aerobics, aerobic dancing, jogging, tennis, swimming laps</comment>
+	<value code="0">None</value>
+	<value code="1">1 day per week</value>
+	<value code="2">2 days per week</value>
+	<value code="3">3 days per week</value>
+	<value code="4">4 days per week</value>
+	<value code="5">5 or more days per week</value>
+</variable>
+
+<variable id="phv00078836.v1">
+	<name>HRDEXMIN</name>
+	<description>Duration per time of very hard exercise</description>
+	<type>encoded value</type>
+	<comment>How long do you usually exercise like this at one time? STRENUOUS OR VERY HARD EXERCISE (You work up a sweat and your heart beats fast.) For example aerobics, aerobic dancing, jogging, tennis, swimming laps
+		Sub-question of F35 V1 Q2.1 &#39;Strenuous exercise - how often&#39;. </comment>
+	<value code="1">Less than 20 min.</value>
+	<value code="2">20-39 min.</value>
+	<value code="3">40-59 min.</value>
+	<value code="4">1 hour or more</value>
+</variable>
+
+<variable id="phv00078837.v1">
+	<name>MODEX</name>
+	<description>Times per week of moderate exercise</description>
+	<type>encoded value</type>
+	<comment>Not including walking outside the home, how often each week (7 days) do you usually do the exercises below? MODERATE EXERCISE (Not exhausting). For example, biking outdoors, using an exercise machine (like a stationary bike or treadmill), calisthenics, easy swimming, popular or folk dancing.</comment>
+	<value code="0">None</value>
+	<value code="1">1 day per week</value>
+	<value code="2">2 days per week</value>
+	<value code="3">3 days per week</value>
+	<value code="4">4 days per week</value>
+	<value code="5">5 or more days per week</value>
+</variable>
+
+<variable id="phv00078838.v1">
+	<name>MODEXMIN</name>
+	<description>Duration per time of moderate exercise</description>
+	<type>encoded value</type>
+	<comment>How long to you usually exercise like this at one time? MODERATE EXERCISE (Not exhausting). For example, biking outdoors, using an exercise machine (like a stationary bike or treadmill), calisthenics, easy swimming, popular or folk dancing.
+		Sub-question of F35 V1 Q2.3 &#39;Moderate exercise - how often&#39;. </comment>
+	<value code="1">Less than 20 min.</value>
+	<value code="2">20-39 min.</value>
+	<value code="3">40-59 min.</value>
+	<value code="4">1 hour or more</value>
+</variable>
+
+<variable id="phv00078839.v1">
+	<name>MLDEX</name>
+	<description>Times per week of mild exercise</description>
+	<type>encoded value</type>
+	<comment>Not including walking outside the home, how often each week (7 days) do you usually do the exercises below? MILD EXERCISE. For example, slow dancing, bowling, golf.</comment>
+	<value code="0">None</value>
+	<value code="1">1 day per week</value>
+	<value code="2">2 days per week</value>
+	<value code="3">3 days per week</value>
+	<value code="4">4 days per week</value>
+	<value code="5">5 or more days per week</value>
+</variable>
+
+<variable id="phv00078840.v1">
+	<name>MLDEXMIN</name>
+	<description>Duration per time of mild exercise</description>
+	<type>encoded value</type>
+	<comment>How long do you usually exercise like this at one time? MILD EXERCISE. For example, slow dancing, bowling, golf.
+		Sub-question of F35 V1 Q2.5 &#39;Mild exercise - how often&#39;. </comment>
+	<value code="1">Less than 20 min.</value>
+	<value code="2">20-39 min.</value>
+	<value code="3">40-59 min.</value>
+	<value code="4">1 hour or more</value>
+</variable>
+
+<variable id="phv00078841.v1">
+	<name>BEERFREQ</name>
+	<description>Beer - frequency</description>
+	<type>encoded value</type>
+	<comment>In the last three months, how often, on average, did you drink beer?</comment>
+	<value code="0">Never or less than once per month</value>
+	<value code="1">1-3 per month</value>
+	<value code="2">1 per week</value>
+	<value code="3">2-4 per week</value>
+	<value code="4">5-6 per week</value>
+	<value code="5">1 per day</value>
+	<value code="6">2-3 per day</value>
+	<value code="7">4-5 per day</value>
+	<value code="8">6+ per day</value>
+</variable>
+
+<variable id="phv00078842.v1">
+	<name>BEERSERV</name>
+	<description>Beer - serving size</description>
+	<type>encoded value</type>
+	<comment>In the last three months, what was your usual serving size of beer?</comment>
+	<value code="1">Small</value>
+	<value code="2">Medium</value>
+	<value code="3">Large</value>
+</variable>
+
+<variable id="phv00078843.v1">
+	<name>WINEFREQ</name>
+	<description>Wine - frequency</description>
+	<type>encoded value</type>
+	<comment>In the last three months, how often, on average, did you drink wine?</comment>
+	<value code="0">Never or less than once per month</value>
+	<value code="1">1-3 per month</value>
+	<value code="2">1 per week</value>
+	<value code="3">2-4 per week</value>
+	<value code="4">5-6 per week</value>
+	<value code="5">1 per day</value>
+	<value code="6">2-3 per day</value>
+	<value code="7">4-5 per day</value>
+	<value code="8">6+ per day</value>
+</variable>
+
+<variable id="phv00078844.v1">
+	<name>WINESERV</name>
+	<description>Wine - serving size</description>
+	<type>encoded value</type>
+	<comment>In the last three months, what was your usual serving size of wine?</comment>
+	<value code="1">Small</value>
+	<value code="2">Medium</value>
+	<value code="3">Large</value>
+</variable>
+
+<variable id="phv00078845.v1">
+	<name>LIQRFREQ</name>
+	<description>Liquor - frequency</description>
+	<type>encoded value</type>
+	<comment>In the last three months, how often, on average, did you drink liquor?</comment>
+	<value code="0">Never or less than once per month</value>
+	<value code="1">1-3 per month</value>
+	<value code="2">1 per week</value>
+	<value code="3">2-4 per week</value>
+	<value code="4">5-6 per week</value>
+	<value code="5">1 per day</value>
+	<value code="6">2-3 per day</value>
+	<value code="7">4-5 per day</value>
+	<value code="8">6+ per day</value>
+</variable>
+
+<variable id="phv00078846.v1">
+	<name>LIQRSERV</name>
+	<description>Liquor - serving size</description>
+	<type>encoded value</type>
+	<comment>In the last three months, what was your usual serving size of liquor?</comment>
+	<value code="1">Small</value>
+	<value code="2">Medium</value>
+	<value code="3">Large</value>
+</variable>
+
+<variable id="phv00078847.v1">
+	<name>SMOKNOW</name>
+	<description>Do you smoke cigarettes now</description>
+	<type>encoded value</type>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00078848.v1">
+	<name>CIGSDAY</name>
+	<description>How many cigarettes per day</description>
+	<type>encoded value</type>
+	<comment>How many cigarettes do you usually smoke each day?
+		Sub-question of F35 V1 Q4 &#39;Do you smoke cigarettes now&#39;. </comment>
+	<value code="1">Less than 1</value>
+	<value code="2">1-4</value>
+	<value code="3">5-14</value>
+	<value code="4">15-24</value>
+	<value code="5">25-34</value>
+	<value code="6">35-44</value>
+	<value code="7">45 or more</value>
+</variable>
+
+<variable id="phv00078849.v1">
+	<name>TEPIWK</name>
+	<description>Episodes recreational phys activity per week</description>
+	<type>decimal</type>
+	<logical_min>0</logical_min>
+	<logical_max>25</logical_max>
+	<comment>Computed from Form 35, questions 1, 2.1, 2.3, and 2.5.  Total number of  episodes per week of recreational physical activity (includes walking, mild, moderate and strenuous physical activity).</comment>
+</variable>
+
+<variable id="phv00078850.v1">
+	<name>LEPITOT</name>
+	<description>Episodes recreational phys activity per week &gt;= 20 Min</description>
+	<type>decimal</type>
+	<logical_min>0</logical_min>
+	<logical_max>25</logical_max>
+	<comment>Computed from Form 35, questions 1, 1.1, 2.1, 2.2, 2.3, 2.4, 2.5 and 2.6.  Episodes per week of recreational physical activity of &gt;=20 minutes duration (includes walking, mild, moderate and strenuous physical activity).</comment>
+</variable>
+
+<variable id="phv00078851.v1">
+	<name>MSEPIWK</name>
+	<description>Episodes moderate to strenuous phys activity per week</description>
+	<type>decimal</type>
+	<logical_min>0</logical_min>
+	<logical_max>19</logical_max>
+	<comment>Computed from Form 35, questions 1.2, 2.1, and 2.3.  Episodes per week of moderate and strenuous recreational physical activity (includes walking fairly fast or very fast, moderate physical activity and strenuous physical activity).</comment>
+</variable>
+
+<variable id="phv00078852.v1">
+	<name>XLMSEPI</name>
+	<description>Episodes moderate to strenuous activity &gt;= 20 min/week</description>
+	<type>decimal</type>
+	<logical_min>0</logical_min>
+	<logical_max>19</logical_max>
+	<comment>Computed from Form 35, questions 1, 1.1, 1.2, 2.1, 2.2, 2.3 and 2.4.  Episodes per week of moderate and strenuous recreational physical activity of &gt;=20 minutes duration (includes walking fairly fast or very fast, moderate physical activity and strenuous physical activity).</comment>
+</variable>
+
+<variable id="phv00078853.v1">
+	<name>LMSEPI</name>
+	<description>Episodes moderate to strenuous activity &gt;=20 min/week (categ)</description>
+	<type>encoded value</type>
+	<comment>Computed from Form 35, questions 1, 1.1, 1.2, 2.1, 2.2, 2.3, and 2.4.  Categorical variable of episodes per week of moderate and strenuous recreational physical activity of &gt;= 20 minutes duration (includes walking fairly fast or very fast, moderate physical activity and strenuous physical activity).  Computed from XLMSEPI and TEPIWK.</comment>
+	<value code="1">No activity</value>
+	<value code="2">Some activity of limited duration</value>
+	<value code="3">2 - &lt;4 episodes per week</value>
+	<value code="4">4 episodes per week</value>
+</variable>
+
+<variable id="phv00078854.v1">
+	<name>SEPIWK</name>
+	<description>Strenuous activity episodes per week</description>
+	<type>encoded value</type>
+	<comment>Computed from Form 35, question 2.1.  Episodes per week of strenuous recreational physical activity.</comment>
+	<value code="0">0</value>
+	<value code="1">1</value>
+	<value code="2">2</value>
+	<value code="3">3</value>
+	<value code="4">4</value>
+	<value code="6">5 or more</value>
+</variable>
+
+<variable id="phv00078855.v1">
+	<name>TMINWK</name>
+	<description>Minutes of recreational phys activity per week</description>
+	<type>decimal</type>
+	<unit>minutes</unit>
+	<logical_min>0</logical_min>
+	<logical_max>1750</logical_max>
+	<comment>Computed from Form 35, questions 1, 1.1, 2.1, 2.2, 2.3, 2.4, 2.5, and 2.6.  Total minutes per week of recreational physical activity (includes walking, mild, moderate and strenuous physical activity).</comment>
+</variable>
+
+<variable id="phv00078856.v1">
+	<name>MSMINWK</name>
+	<description>Minutes of moderate to strenuous activity per week</description>
+	<type>decimal</type>
+	<unit>minutes</unit>
+	<logical_min>0</logical_min>
+	<logical_max>1330</logical_max>
+	<comment>Computed from Form 35, questions 1, 1.2, 2.1, and 2.3.  Minutes per week of moderate and strenuous recreational physical activity (includes walking fairly fast or very fast, moderate physical activity and strenuous physical activity).</comment>
+</variable>
+
+<variable id="phv00078857.v1">
+	<name>SMINWK</name>
+	<description>Minutes of strenuous phys activity per week</description>
+	<type>decimal</type>
+	<unit>minutes</unit>
+	<logical_min>0</logical_min>
+	<logical_max>420</logical_max>
+	<comment>Computed from Form 35, questions 2.1 and 2.2.  Minutes per week of strenuous recreational physical activity).</comment>
+</variable>
+
+<variable id="phv00078858.v1">
+	<name>TEXPWK</name>
+	<description>Total energy expend from recreational phys activity (MET-hours/week)</description>
+	<type>decimal</type>
+	<unit>MET-hours</unit>
+	<logical_min>0</logical_min>
+	<logical_max>142.33333</logical_max>
+	<comment>Computed from Form 35, questions 1, 1.1, 1.2, 2.1, 2.2, 2.3, 2.4, 2.5, and 2.6.  Total MET-hours per week.  Expenditure of energy from recreational physical activity (includes walking, mild, moderate and strenuous physical activity in kcal/week/kg).</comment>
+</variable>
+
+<variable id="phv00078859.v1">
+	<name>WALKEXP</name>
+	<description>MET-hours per week from walking</description>
+	<type>decimal</type>
+	<unit>MET-hours</unit>
+	<logical_min>0</logical_min>
+	<logical_max>40.83333</logical_max>
+	<comment>Computed from Form 35, questions 1, 1.1, and 1.2.  Expenditure of energy from physical activity from walking in kcal/week/kg (MET-hours per week).</comment>
+</variable>
+
+<variable id="phv00078860.v1">
+	<name>AVWKEXP</name>
+	<description>Energy expend from average walking (MET-hours/week)</description>
+	<type>decimal</type>
+	<unit>MET-hours</unit>
+	<logical_min>0</logical_min>
+	<logical_max>24.5</logical_max>
+	<comment>Computed from Form 35, questions 1, 1.1 and 1.2.  Energy expenditure from average walking (2-3 mph) in MET-hours per week.  If question 1.2 (speed of walking) was marked as don&#39;t know or was missing, the speed was assumed to be 2-3 mph.</comment>
+</variable>
+
+<variable id="phv00078861.v1">
+	<name>FFWKEXP</name>
+	<description>Energy expend from walking fairly fast (MET-hours/week)</description>
+	<type>decimal</type>
+	<unit>MET-hours</unit>
+	<logical_min>0</logical_min>
+	<logical_max>32.66667</logical_max>
+	<comment>Computed from Form 35, questions 1, 1.1 and 1.2. Energy expenditure from walking fairly fast (3-4 mph) in MET-hours per week.</comment>
+</variable>
+
+<variable id="phv00078862.v1">
+	<name>VFWKEXP</name>
+	<description>Energy expend from walking very fast (MET-hours/week)</description>
+	<type>decimal</type>
+	<unit>MET-hours</unit>
+	<logical_min>0</logical_min>
+	<logical_max>40.83333</logical_max>
+	<comment>Computed from Form 35, questions 1, 1.1, and 1.2.  Energy expenditure from walking very fast (&gt; 4 mph) in MET-hours per week.</comment>
+</variable>
+
+<variable id="phv00078863.v1">
+	<name>HARDEXP</name>
+	<description>Energy expenditure from hard exercise (MET-hours/week)</description>
+	<type>decimal</type>
+	<unit>MET-hours</unit>
+	<logical_min>0</logical_min>
+	<logical_max>49</logical_max>
+	<comment>Computed from Form 35, questions 2.1 and 2.2.  Energy expenditure from strenuous or very hard exercise (for example, aerobics, aerobic dancing, jogging, tennis, swimming laps) in MET-hours per week.</comment>
+</variable>
+
+<variable id="phv00078864.v1">
+	<name>MODEXP</name>
+	<description>Energy expend from moderate exercise (MET-hours/week)</description>
+	<type>decimal</type>
+	<unit>MET-hours</unit>
+	<logical_min>0</logical_min>
+	<logical_max>31.5</logical_max>
+	<comment>Computed from Form 35, questions 2.3 and 2.4.  Energy expenditure from moderate exercise (for example, biking outdoors, using an exercise machine, calisthenics, easy swimming, popular or folk dancing) in MET-hours per week.</comment>
+</variable>
+
+<variable id="phv00078865.v1">
+	<name>MILDEXP</name>
+	<description>Energy expenditure from mild exercise (MET-hours/week)</description>
+	<type>decimal</type>
+	<unit>MET-hours</unit>
+	<logical_min>0</logical_min>
+	<logical_max>21</logical_max>
+	<comment>Computed from Form 35, questions 2.5 and 2.6.  Energy expenditure from mild exercise (for example, slow dancing, bowling, golf) in MET-hours per week.</comment>
+</variable>
+
+<variable id="phv00078866.v1">
+	<name>ALCSWK</name>
+	<description>Alcohol servings per week</description>
+	<type>decimal</type>
+	<logical_min>0</logical_min>
+	<logical_max>46.92308</logical_max>
+	<comment>Computed from Form 35, questions 3.1, 3.2, and 3.3.  Number of servings per week of beer, wine and/or liquor based on a medium serving size which is 12 oz of beer, 6oz of wine and 1 1/2 oz of liquor.  If all three variables are missing, set to missing.</comment>
+</variable>
+
+</data_table>

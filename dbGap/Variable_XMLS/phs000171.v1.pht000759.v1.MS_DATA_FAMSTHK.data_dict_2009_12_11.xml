@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./datadict_v2.xsl"?>
+<data_table id="pht000759.v1" study_id="phs000171.v1" participant_set="1" date_created="Fri Dec 11 14:12:51 2009">
+
+<variable id="phv00072868.v1">
+	<name>SUBJID</name>
+	<description>Subject&#39;s ID</description>
+	<type>integer</type>
+</variable>
+
+<variable id="phv00072869.v1">
+	<name>CASE_CONTROL</name>
+	<description>Type of subject</description>
+	<type>string, encoded values</type>
+	<value code="CASE">Affected subject per Protocol</value>
+	<value code="CNTL">Control subject per Protocol</value>
+</variable>
+
+<variable id="phv00072870.v1">
+	<name>STUDY</name>
+	<description>Study Identifier</description>
+	<type>string</type>
+	<comment>Always RES101833</comment>
+</variable>
+
+<variable id="phv00072871.v1">
+	<name>INVSITE</name>
+	<description>Investigator site ID</description>
+	<type>string</type>
+	<comment>Numeric code identifying the site (for internal use)</comment>
+</variable>
+
+<variable id="phv00072872.v1">
+	<name>INV</name>
+	<description>Investigator&#39;s ID</description>
+	<type>string</type>
+	<comment>Numeric code identifying the investigator (for internal use)</comment>
+</variable>
+
+<variable id="phv00072873.v1">
+	<name>VISIT</name>
+	<description>Visit name</description>
+	<type>string, encoded values</type>
+	<value code="CSA">Common Subject Assessment</value>
+	<value code="ELIGIBILITY">Eligibility questionnaire</value>
+	<value code="BASELINE">Baseline assessment questionnaire</value>
+	<value code="LAB WBC">Lab results</value>
+	<value code="SELF REPORT">Subject completed self report questionnaire</value>
+</variable>
+
+<variable id="phv00072874.v1">
+	<name>VISIT_DATE</name>
+	<description>Visit date</description>
+	<type>date</type>
+	<unit>Year</unit>
+	<comment>Truncated to YYYY</comment>
+</variable>
+
+<variable id="phv00072875.v1">
+	<name>GP1</name>
+	<description>I have a lack of energy</description>
+	<type>integer, encoded values</type>
+	<comment>FAMS - THINKING AND FATIGUE 
+		By selecting one (1) per line, please indicate how true each statement has been for you during the past 7 days. </comment>
+	<value code="0">Not at all</value>
+	<value code="1">A little bit</value>
+	<value code="2">Somewhat</value>
+	<value code="3">Quite a bit</value>
+	<value code="4">Very much</value>
+</variable>
+
+<variable id="phv00072876.v1">
+	<name>AN2</name>
+	<description>I feel tired</description>
+	<type>integer, encoded values</type>
+	<comment>FAMS - THINKING AND FATIGUE 
+		By selecting one (1) per line, please indicate how true each statement has been for you during the past 7 days. </comment>
+	<value code="0">Not at all</value>
+	<value code="1">A little bit</value>
+	<value code="2">Somewhat</value>
+	<value code="3">Quite a bit</value>
+	<value code="4">Very much</value>
+</variable>
+
+<variable id="phv00072877.v1">
+	<name>AN3</name>
+	<description>I have trouble starting things because I am tired</description>
+	<type>integer, encoded values</type>
+	<comment>FAMS - THINKING AND FATIGUE 
+		By selecting one (1) per line, please indicate how true each statement has been for you during the past 7 days. </comment>
+	<value code="0">Not at all</value>
+	<value code="1">A little bit</value>
+	<value code="2">Somewhat</value>
+	<value code="3">Quite a bit</value>
+	<value code="4">Very much</value>
+</variable>
+
+<variable id="phv00072878.v1">
+	<name>AN4</name>
+	<description>I have trouble finishing things because I am tired</description>
+	<type>integer, encoded values</type>
+	<comment>FAMS - THINKING AND FATIGUE 
+		By selecting one (1) per line, please indicate how true each statement has been for you during the past 7 days. </comment>
+	<value code="0">Not at all</value>
+	<value code="1">A little bit</value>
+	<value code="2">Somewhat</value>
+	<value code="3">Quite a bit</value>
+	<value code="4">Very much</value>
+</variable>
+
+<variable id="phv00072879.v1">
+	<name>MS10</name>
+	<description>I need to rest during the day</description>
+	<type>integer, encoded values</type>
+	<comment>FAMS - THINKING AND FATIGUE 
+		By selecting one (1) per line, please indicate how true each statement has been for you during the past 7 days. </comment>
+	<value code="0">Not at all</value>
+	<value code="1">A little bit</value>
+	<value code="2">Somewhat</value>
+	<value code="3">Quite a bit</value>
+	<value code="4">Very much</value>
+</variable>
+
+<variable id="phv00072880.v1">
+	<name>HI9</name>
+	<description>I have trouble remembering things</description>
+	<type>integer, encoded values</type>
+	<comment>FAMS - THINKING AND FATIGUE 
+		By selecting one (1) per line, please indicate how true each statement has been for you during the past 7 days. </comment>
+	<value code="0">Not at all</value>
+	<value code="1">A little bit</value>
+	<value code="2">Somewhat</value>
+	<value code="3">Quite a bit</value>
+	<value code="4">Very much</value>
+</variable>
+
+<variable id="phv00072881.v1">
+	<name>HI8</name>
+	<description>I have trouble concentrating</description>
+	<type>integer, encoded values</type>
+	<comment>FAMS - THINKING AND FATIGUE 
+		By selecting one (1) per line, please indicate how true each statement has been for you during the past 7 days. </comment>
+	<value code="0">Not at all</value>
+	<value code="1">A little bit</value>
+	<value code="2">Somewhat</value>
+	<value code="3">Quite a bit</value>
+	<value code="4">Very much</value>
+</variable>
+
+<variable id="phv00072882.v1">
+	<name>MS11</name>
+	<description>My thinking is slower than before</description>
+	<type>integer, encoded values</type>
+	<comment>FAMS - THINKING AND FATIGUE 
+		By selecting one (1) per line, please indicate how true each statement has been for you during the past 7 days. </comment>
+	<value code="0">Not at all</value>
+	<value code="1">A little bit</value>
+	<value code="2">Somewhat</value>
+	<value code="3">Quite a bit</value>
+	<value code="4">Very much</value>
+</variable>
+
+<variable id="phv00072883.v1">
+	<name>MS12</name>
+	<description>I have trouble learning new tasks or directions</description>
+	<type>integer, encoded values</type>
+	<comment>FAMS - THINKING AND FATIGUE 
+		By selecting one (1) per line, please indicate how true each statement has been for you during the past 7 days. </comment>
+	<value code="0">Not at all</value>
+	<value code="1">A little bit</value>
+	<value code="2">Somewhat</value>
+	<value code="3">Quite a bit</value>
+	<value code="4">Very much</value>
+</variable>
+
+</data_table>

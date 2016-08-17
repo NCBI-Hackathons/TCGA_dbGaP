@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./datadict_v2.xsl"?>
+<data_table id="pht001903.v1" study_id="phs000284.v1" participant_set="1" date_created="Mon Feb  7 17:18:09 2011">
+
+<variable id="phv00124329.v1">
+	<name>Individual_ID</name>
+	<description>Subject Identifier</description>
+	<type>string</type>
+</variable>
+
+<variable id="phv00124330.v1">
+	<name>rectype</name>
+	<description>Visit</description>
+	<type>encoded</type>
+	<value code="0">Dummy record</value>
+	<value code="1">Original study</value>
+	<value code="1.5">Pilot study</value>
+	<value code="2">2nd study</value>
+	<value code="3">3rd study</value>
+	<value code="4">Minority supplement</value>
+	<value code="5">Gcrc visit</value>
+	<value code="9">Pilot study</value>
+</variable>
+
+<variable id="phv00124331.v1">
+	<name>lfc</name>
+	<description>Low frequency coupling</description>
+	<type>decimal</type>
+	<logical_min>0</logical_min>
+	<logical_max>0.93</logical_max>
+</variable>
+
+<variable id="phv00124332.v1">
+	<name>hfc</name>
+	<description>High frequency coupling</description>
+	<type>decimal</type>
+	<logical_min>0</logical_min>
+	<logical_max>0.98</logical_max>
+</variable>
+
+<variable id="phv00124333.v1">
+	<name>deltahfccorr</name>
+	<description>Delta power high - frequency coupling power correlation</description>
+	<type>decimal</type>
+	<logical_min>-0.345</logical_min>
+	<logical_max>0.642</logical_max>
+</variable>
+
+<variable id="phv00124334.v1">
+	<name>elfcnb3</name>
+	<description>Low threshold narrow band coupling</description>
+	<type>decimal</type>
+	<logical_min>0</logical_min>
+	<logical_max>0.48</logical_max>
+</variable>
+
+</data_table>

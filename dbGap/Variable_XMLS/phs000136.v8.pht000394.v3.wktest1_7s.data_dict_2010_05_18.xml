@@ -1,0 +1,727 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./datadict_v2.xsl"?>
+<data_table id="pht000394.v3" study_id="phs000136.v8" participant_set="5" date_created="Tue May 18 22:31:29 2010">
+
+<variable id="phv00055164.v1">
+	<name>IDTYPE</name>
+	<description>COHORT IDENTIFIER</description>
+	<value code="0">ORIGINAL COHORT GROUP</value>
+	<value code="1">OFFSPRING GROUP</value>
+	<value code="2">NEW OFFSPRING SPOUSE</value>
+	<value code="3">GENERATION 3</value>
+</variable>
+
+<variable id="phv00055165.v1">
+	<name>EXAM</name>
+	<description>EXAM CYCLE 7</description>
+</variable>
+
+<variable id="phv00055166.v1">
+	<name>TECHID</name>
+	<description>TECHNICIAN ID</description>
+	<value code="19">OR 601</value>
+</variable>
+
+<variable id="phv00055167.v1">
+	<name>STUDY_TY</name>
+	<description>STUDY TYPE</description>
+	<value code="0">EXAM</value>
+	<value code="1">REPEAT STUDY</value>
+	<value code="2">REPRODUCIBILITY</value>
+	<value code="3">OTHER</value>
+</variable>
+
+<variable id="phv00055168.v1">
+	<name>WT001</name>
+	<description>TEST DONE</description>
+	<value code="1">YES</value>
+	<value code="2">NO</value>
+</variable>
+
+<variable id="phv00055169.v1">
+	<name>WT002</name>
+	<description>IF TEST NOT DONE, REASON FOR EXCLUSION</description>
+	<value code="1">CAD</value>
+	<value code="2">MI</value>
+	<value code="3">CABG</value>
+	<value code="4">PTCA</value>
+	<value code="5">ANGINA</value>
+	<value code="6">CHF</value>
+	<value code="7">ARRHYTHMIA</value>
+	<value code="8">OTHER HEART SURGERY</value>
+	<value code="9">ORTHOPEDIC CONDITION</value>
+	<value code="10">SUBJECT REFUSAL</value>
+	<value code="11">CARDIAC MEDS (DIGITALIS/NITROGLYCERINE)</value>
+	<value code="12">PACEMAKER</value>
+	<value code="13">OTHER REASON</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00055171.v1">
+	<name>WT004</name>
+	<description>TEST COMPLETED</description>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+	<value code=".">UNKNOWN OR TEST NOT DONE</value>
+</variable>
+
+<variable id="phv00055172.v1">
+	<name>WT005</name>
+	<description>IF TEST NOT COMPLETED, REASON FOR ABORTING TEST</description>
+	<value code="1">CHEST PAIN</value>
+	<value code="2">DYSPNEA</value>
+	<value code="3">FATIGUE</value>
+	<value code="4">LIGHTHEADEDNESS</value>
+	<value code="5">ARRHYTHMIA</value>
+	<value code="6">CLAUDICATION</value>
+	<value code="7">LEG DISCOMFORT</value>
+	<value code="8">FALL IN BP</value>
+	<value code="9">ST SEGMENT CHANGES</value>
+	<value code="10">SIGNIFICANT HTN</value>
+	<value code="11">OTHER REASON</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00055175.v1">
+	<name>WT009</name>
+	<description>EXCERCISE TIME - MINUTES</description>
+	<unit>MINUTES</unit>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00055176.v1">
+	<name>WT009_1</name>
+	<description>EXCERCISE TIME - SECONDS</description>
+	<unit>SECONDS</unit>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00055177.v1">
+	<name>WT010</name>
+	<description>TARGET HEART RATE ACHIEVED</description>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00055179.v1">
+	<name>WT012</name>
+	<description>MAXIMAL RPP ACHIEVED (TIMES 1000)</description>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00055181.v1">
+	<name>WT014</name>
+	<description>ARRHYTHMIA NOTED</description>
+	<value code="0">NO</value>
+	<value code="1">YES</value>
+	<value code="2">MAYBE/UNSURE</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00055182.v1">
+	<name>WT018</name>
+	<description>SUPINE SBP</description>
+	<unit>mmHG</unit>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00055183.v1">
+	<name>WT019</name>
+	<description>SUPINE DBP</description>
+	<unit>mmHG</unit>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00055184.v1">
+	<name>WT020</name>
+	<description>SUPINE HEART RATE</description>
+	<unit>BEATS PER MINUTE</unit>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00055185.v1">
+	<name>WT021</name>
+	<description>SUPINE ST DEPRESSION (2, 3, AVF)</description>
+	<value code="0">(&lt; 1 mm)</value>
+	<value code="1">(&gt; OR = 1, &lt;2 mm)</value>
+	<value code="2">(&gt; OR = 2)</value>
+	<value code="3">ELEVATION</value>
+	<value code=".">UNKNOWN OR ARTIFACT OR TEST STOPPED</value>
+</variable>
+
+<variable id="phv00055186.v1">
+	<name>WT022</name>
+	<description>SUPINE ST DEPRESSION (1, AVL)</description>
+	<value code="0">(&lt; 1 mm)</value>
+	<value code="1">(&gt; OR = 1, &lt;2 mm)</value>
+	<value code="2">(&gt; OR = 2)</value>
+	<value code="3">ELEVATION</value>
+	<value code=".">UNKNOWN OR ARTIFACT OR TEST STOPPED</value>
+</variable>
+
+<variable id="phv00055187.v1">
+	<name>WT023</name>
+	<description>SUPINE ST DEPRESSION (V1 - V4)</description>
+	<value code="0">(&lt; 1 mm)</value>
+	<value code="1">(&gt; OR = 1, &lt;2 mm)</value>
+	<value code="2">(&gt; OR = 2)</value>
+	<value code="3">ELEVATION</value>
+	<value code=".">UNKNOWN OR ARTIFACT OR TEST STOPPED</value>
+</variable>
+
+<variable id="phv00055188.v1">
+	<name>WT024</name>
+	<description>SUPINE ST DEPRESSION (V5, V6)</description>
+	<value code="0">(&lt; 1 mm)</value>
+	<value code="1">(&gt; OR = 1, &lt;2 mm)</value>
+	<value code="2">(&gt; OR = 2)</value>
+	<value code="3">ELEVATION</value>
+	<value code=".">UNKNOWN OR ARTIFACT OR TEST STOPPED</value>
+</variable>
+
+<variable id="phv00055189.v1">
+	<name>WT025</name>
+	<description>STANDING SBP</description>
+	<unit>mmHG</unit>
+	<value code=".">UNKNOWN OR ARTIFACT OR TEST STOPPED</value>
+</variable>
+
+<variable id="phv00055190.v1">
+	<name>WT026</name>
+	<description>STANDING DBP</description>
+	<unit>mmHG</unit>
+	<value code=".">UNKNOWN OR ARTIFACT OR TEST STOPPED</value>
+</variable>
+
+<variable id="phv00055191.v1">
+	<name>WT027</name>
+	<description>STANDING HEART RATE</description>
+	<unit>BEATS PER MINUTE</unit>
+	<value code=".">UNKNOWN OR ARTIFACT OR TEST STOPPED</value>
+</variable>
+
+<variable id="phv00055192.v1">
+	<name>WT028</name>
+	<description>STANDING ST DEPRESSION (2, 3, AVF)</description>
+	<value code="0">(&lt; 1 mm)</value>
+	<value code="1">(&gt; OR = 1, &lt;2 mm)</value>
+	<value code="2">(&gt; OR = 2)</value>
+	<value code="3">ELEVATION</value>
+	<value code=".">UNKNOWN OR ARTIFACT OR TEST STOPPED</value>
+</variable>
+
+<variable id="phv00055193.v1">
+	<name>WT029</name>
+	<description>STANDING ST DEPRESSION (1, AVL)</description>
+	<value code="0">(&lt; 1 mm)</value>
+	<value code="1">(&gt; OR = 1, &lt;2 mm)</value>
+	<value code="2">(&gt; OR = 2)</value>
+	<value code="3">ELEVATION</value>
+	<value code=".">UNKNOWN OR ARTIFACT OR TEST STOPPED</value>
+</variable>
+
+<variable id="phv00055194.v1">
+	<name>WT030</name>
+	<description>STANDING ST DEPRESSION (V1 - V4)</description>
+	<value code="0">(&lt; 1 mm)</value>
+	<value code="1">(&gt; OR = 1, &lt;2 mm)</value>
+	<value code="2">(&gt; OR = 2)</value>
+	<value code="3">ELEVATION</value>
+	<value code=".">UNKNOWN OR ARTIFACT OR TEST STOPPED</value>
+</variable>
+
+<variable id="phv00055195.v1">
+	<name>WT031</name>
+	<description>STANDING ST DEPRESSION (V5, V6)</description>
+	<value code="0">(&lt; 1 mm)</value>
+	<value code="1">(&gt; OR = 1, &lt;2 mm)</value>
+	<value code="2">(&gt; OR = 2)</value>
+	<value code="3">ELEVATION</value>
+	<value code=".">UNKNOWN OR ARTIFACT OR TEST STOPPED</value>
+</variable>
+
+<variable id="phv00055196.v1">
+	<name>WT032</name>
+	<description>RHYTHM OF SUPINE AND STANDING - NORMAL</description>
+	<value code="0">NOT CIRCLED</value>
+	<value code="1">CIRCLED</value>
+	<value code=".">UNKNOWN OR ARTIFACT OR TEST STOPPED</value>
+</variable>
+
+<variable id="phv00055197.v1">
+	<name>WT032_1</name>
+	<description>RHYTHM OF SUPINE AND STANDING - VBPS</description>
+	<value code="0">NOT CIRCLED</value>
+	<value code="1">CIRCLED</value>
+	<value code=".">UNKNOWN OR ARTIFACT OR TEST STOPPED</value>
+</variable>
+
+<variable id="phv00055198.v1">
+	<name>WT032_2</name>
+	<description>RHYTHM OF SUPINE AND STANDING - VT</description>
+	<value code="0">NOT CIRCLED</value>
+	<value code="1">CIRCLED</value>
+	<value code=".">UNKNOWN OR ARTIFACT OR TEST STOPPED</value>
+</variable>
+
+<variable id="phv00055199.v1">
+	<name>WT032_3</name>
+	<description>RHYTHM OF SUPINE AND STANDING - APCS</description>
+	<value code="0">NOT CIRCLED</value>
+	<value code="1">CIRCLED</value>
+	<value code=".">UNKNOWN OR ARTIFACT OR TEST STOPPED</value>
+</variable>
+
+<variable id="phv00055200.v1">
+	<name>WT032_4</name>
+	<description>RHYTHM OF SUPINE AND STANDING - BBB</description>
+	<value code="0">NOT CIRCLED</value>
+	<value code="1">CIRCLED</value>
+	<value code=".">UNKNOWN OR ARTIFACT OR TEST STOPPED</value>
+</variable>
+
+<variable id="phv00055201.v1">
+	<name>WT033</name>
+	<description>STAGE 1 SBP</description>
+	<unit>mmHG</unit>
+	<value code=".">UNKNOWN OR ARTIFACT OR TEST STOPPED</value>
+</variable>
+
+<variable id="phv00055202.v1">
+	<name>WT034</name>
+	<description>STAGE 1 DBP</description>
+	<unit>mmHG</unit>
+	<value code=".">UNKNOWN OR ARTIFACT OR TEST STOPPED</value>
+</variable>
+
+<variable id="phv00055203.v1">
+	<name>WT035</name>
+	<description>STAGE 1 HEART RATE</description>
+	<unit>BEATS PER MINUTE</unit>
+	<value code=".">UNKNOWN OR ARTIFACT OR TEST STOPPED</value>
+</variable>
+
+<variable id="phv00055204.v1">
+	<name>WT036</name>
+	<description>STAGE 1 ST DEPRESSION (2, 3, AVF)</description>
+	<value code="0">(&lt; 1 mm)</value>
+	<value code="1">(&gt; OR = 1, &lt;2 mm)</value>
+	<value code="2">(&gt; OR = 2)</value>
+	<value code="3">ELEVATION</value>
+	<value code=".">UNKNOWN OR ARTIFACT OR TEST STOPPED</value>
+</variable>
+
+<variable id="phv00055205.v1">
+	<name>WT037</name>
+	<description>STAGE 1 ST DEPRESSION (1, AVL)</description>
+	<value code="0">(&lt; 1 mm)</value>
+	<value code="1">(&gt; OR = 1, &lt;2 mm)</value>
+	<value code="2">(&gt; OR = 2)</value>
+	<value code="3">ELEVATION</value>
+	<value code=".">UNKNOWN OR ARTIFACT OR TEST STOPPED</value>
+</variable>
+
+<variable id="phv00055206.v1">
+	<name>WT038</name>
+	<description>STAGE 1 ST DEPRESSION (V1 - V4)</description>
+	<value code="0">(&lt; 1 mm)</value>
+	<value code="1">(&gt; OR = 1, &lt;2 mm)</value>
+	<value code="2">(&gt; OR = 2)</value>
+	<value code="3">ELEVATION</value>
+	<value code=".">UNKNOWN OR ARTIFACT OR TEST STOPPED</value>
+</variable>
+
+<variable id="phv00055207.v1">
+	<name>WT039</name>
+	<description>STAGE 1 ST DEPRESSION (V5, V6)</description>
+	<value code="0">(&lt; 1 mm)</value>
+	<value code="1">(&gt; OR = 1, &lt;2 mm)</value>
+	<value code="2">(&gt; OR = 2)</value>
+	<value code="3">ELEVATION</value>
+	<value code=".">UNKNOWN OR ARTIFACT OR TEST STOPPED</value>
+</variable>
+
+<variable id="phv00055208.v1">
+	<name>WT040</name>
+	<description>STAGE 2 / PEAK EXERCISE SBP</description>
+	<unit>mmHG</unit>
+</variable>
+
+<variable id="phv00055209.v1">
+	<name>WT041</name>
+	<description>STAGE 2 / PEAK EXERCISE DBP</description>
+	<unit>mmHG</unit>
+	<value code=".">UNKNOWN OR ARTIFACT OR TEST STOPPED</value>
+</variable>
+
+<variable id="phv00055210.v1">
+	<name>WT042</name>
+	<description>STAGE 2 / PEAK EXERCISE HEART RATE</description>
+	<unit>BEATS PER MINUTE</unit>
+	<value code=".">UNKNOWN OR ARTIFACT OR TEST STOPPED</value>
+</variable>
+
+<variable id="phv00055211.v1">
+	<name>WT043</name>
+	<description>STAGE 2 / PEAK EXERCISE ST DEPRESSION (2, 3, AVF)</description>
+	<value code="0">(&lt; 1 mm)</value>
+	<value code="1">(&gt; OR = 1, &lt;2 mm)</value>
+	<value code="2">(&gt; OR = 2)</value>
+	<value code="3">ELEVATION</value>
+	<value code=".">UNKNOWN OR ARTIFACT OR TEST STOPPED</value>
+</variable>
+
+<variable id="phv00055212.v1">
+	<name>WT044</name>
+	<description>STAGE 2 / PEAK EXERCISE ST DEPRESSION (1, AVL)</description>
+	<value code="0">(&lt; 1 mm)</value>
+	<value code="1">(&gt; OR = 1, &lt;2 mm)</value>
+	<value code="2">(&gt; OR = 2)</value>
+	<value code="3">ELEVATION</value>
+	<value code=".">UNKNOWN OR ARTIFACT OR TEST STOPPED</value>
+</variable>
+
+<variable id="phv00055213.v1">
+	<name>WT045</name>
+	<description>STAGE 2 / PEAK EXCERCISE ST DEPRESSION (V1 - V4)</description>
+	<value code="0">(&lt; 1 mm)</value>
+	<value code="1">(&gt; OR = 1, &lt;2 mm)</value>
+	<value code="2">(&gt; OR = 2)</value>
+	<value code="3">ELEVATION</value>
+	<value code=".">UNKNOWN OR ARTIFACT OR TEST STOPPED</value>
+</variable>
+
+<variable id="phv00055214.v1">
+	<name>WT046</name>
+	<description>STAGE 2 / PEAK EXERCISE ST DEPRESSION (V5, V6)</description>
+	<value code="0">(&lt; 1 mm)</value>
+	<value code="1">(&gt; OR = 1, &lt;2 mm)</value>
+	<value code="2">(&gt; OR = 2)</value>
+	<value code="3">ELEVATION</value>
+	<value code=".">UNKNOWN OR ARTIFACT OR TEST STOPPED</value>
+</variable>
+
+<variable id="phv00055215.v1">
+	<name>WT047</name>
+	<description>RHYTHM OF STAGE 1 AND STAGE 2 (PEAK EXERCISE) - NORMAL</description>
+	<value code="0">NOT CIRCLED</value>
+	<value code="1">CIRCLED</value>
+	<value code=".">UNKNOWN OR ARTIFACT OR TEST STOPPED</value>
+</variable>
+
+<variable id="phv00055216.v1">
+	<name>WT047_1</name>
+	<description>RHYTHM OF STAGE 1 AND STAGE 2 (PEAK EXERCISE)  - VBPS</description>
+	<value code="0">NOT CIRCLED</value>
+	<value code="1">CIRCLED</value>
+	<value code=".">UNKNOWN OR ARTIFACT OR TEST STOPPED</value>
+</variable>
+
+<variable id="phv00055217.v1">
+	<name>WT047_2</name>
+	<description>RHYTHM OF STAGE 1 AND STAGE 2 (PEAK EXERCISE) - VT</description>
+	<value code="0">NOT CIRCLED</value>
+	<value code="1">CIRCLED</value>
+	<value code=".">UNKNOWN OR ARTIFACT OR TEST STOPPED</value>
+</variable>
+
+<variable id="phv00055218.v1">
+	<name>WT047_3</name>
+	<description>RHYTHM OF STAGE 1 AND STAGE 2 (PEAK EXERCISE) - APCS</description>
+	<value code="0">NOT CIRCLED</value>
+	<value code="1">CIRCLED</value>
+	<value code=".">UNKNOWN OR ARTIFACT OR TEST STOPPED</value>
+</variable>
+
+<variable id="phv00055219.v1">
+	<name>WT047_4</name>
+	<description>RHYTHM OF STAGE 1 AND STAGE 2 (PEAK EXERCISE) - BBB</description>
+	<value code="0">NOT CIRCLED</value>
+	<value code="1">CIRCLED</value>
+	<value code=".">UNKNOWN OR ARTIFACT OR TEST STOPPED</value>
+</variable>
+
+<variable id="phv00055220.v1">
+	<name>WT048</name>
+	<description>RECOVERY IMMEDIATE SBP</description>
+	<unit>mmHG</unit>
+	<value code=".">UNKNOWN OR ARTIFACT OR TEST STOPPED</value>
+</variable>
+
+<variable id="phv00055221.v1">
+	<name>WT049</name>
+	<description>RECOVERY IMMEDIATE DBP</description>
+	<unit>mmHG</unit>
+	<value code=".">UNKNOWN OR ARTIFACT OR TEST STOPPED</value>
+</variable>
+
+<variable id="phv00055222.v1">
+	<name>WT050</name>
+	<description>RECOVERY IMMEDIATE HEART RATE</description>
+	<unit>BEATS PER MINUTE</unit>
+	<value code=".">UNKNOWN OR ARTIFACT OR TEST STOPPED</value>
+</variable>
+
+<variable id="phv00055223.v1">
+	<name>WT051</name>
+	<description>RECOVERY IMMEDIATE ST DEPRESSION (2, 3, AVF)</description>
+	<value code="0">(&lt; 1 mm)</value>
+	<value code="1">(&gt; OR = 1, &lt;2 mm)</value>
+	<value code="2">(&gt; OR = 2)</value>
+	<value code="3">ELEVATION</value>
+	<value code=".">UNKNOWN OR ARTIFACT OR TEST STOPPED</value>
+</variable>
+
+<variable id="phv00055224.v1">
+	<name>WT052</name>
+	<description>RECOVERY IMMEDIATE ST DEPRESSION (1, AVL)</description>
+	<value code="0">(&lt; 1 mm)</value>
+	<value code="1">(&gt; OR = 1, &lt;2 mm)</value>
+	<value code="2">(&gt; OR = 2)</value>
+	<value code="3">ELEVATION</value>
+	<value code=".">UNKNOWN OR ARTIFACT OR TEST STOPPED</value>
+</variable>
+
+<variable id="phv00055225.v1">
+	<name>WT053</name>
+	<description>RECOVERY IMMEDIATE ST DEPRESSION (V1 - V4)</description>
+	<value code="0">(&lt; 1 mm)</value>
+	<value code="1">(&gt; OR = 1, &lt;2 mm)</value>
+	<value code="2">(&gt; OR = 2)</value>
+	<value code="3">ELEVATION</value>
+	<value code=".">UNKNOWN OR ARTIFACT OR TEST STOPPED</value>
+</variable>
+
+<variable id="phv00055226.v1">
+	<name>WT054</name>
+	<description>RECOVERY IMMEDIATE ST DEPRESSION (V5, V6)</description>
+	<value code="0">(&lt; 1 mm)</value>
+	<value code="1">(&gt; OR = 1, &lt;2 mm)</value>
+	<value code="2">(&gt; OR = 2)</value>
+	<value code="3">ELEVATION</value>
+	<value code=".">UNKNOWN OR ARTIFACT OR TEST STOPPED</value>
+</variable>
+
+<variable id="phv00055227.v1">
+	<name>WT055</name>
+	<description>RECOVERY 3 MINUTES SBP</description>
+	<unit>mmHG</unit>
+	<value code=".">UNKNOWN OR ARTIFACT OR TEST STOPPED</value>
+</variable>
+
+<variable id="phv00055228.v1">
+	<name>WT056</name>
+	<description>RECOVERY 3 MINUTES DBP</description>
+	<unit>mmHG</unit>
+	<value code=".">UNKNOWN OR ARTIFACT OR TEST STOPPED</value>
+</variable>
+
+<variable id="phv00055229.v1">
+	<name>WT057</name>
+	<description>RECOVERY 3 MINUTES HEART RATE</description>
+	<value code=".">UNKNOWN OR ARTIFACT OR TEST STOPPED</value>
+</variable>
+
+<variable id="phv00055230.v1">
+	<name>WT058</name>
+	<description>RECOVERY 3 MINUTES ST DEPRESSION (2, 3, AVF)</description>
+	<value code="0">(&lt; 1 mm)</value>
+	<value code="1">(&gt; OR = 1, &lt;2 mm)</value>
+	<value code="2">(&gt; OR = 2)</value>
+	<value code="3">ELEVATION</value>
+	<value code=".">UNKNOWN OR ARTIFACT OR TEST STOPPED</value>
+</variable>
+
+<variable id="phv00055231.v1">
+	<name>WT059</name>
+	<description>RECOVERY 3 MINUTES ST DEPRESSION (1, AVL)</description>
+	<value code="0">(&lt; 1 mm)</value>
+	<value code="1">(&gt; OR = 1, &lt;2 mm)</value>
+	<value code="2">(&gt; OR = 2)</value>
+	<value code="3">ELEVATION</value>
+	<value code=".">UNKNOWN OR ARTIFACT OR TEST STOPPED</value>
+</variable>
+
+<variable id="phv00055232.v1">
+	<name>WT060</name>
+	<description>RECOVERY 3 MINUTES ST DEPRESSION (V1 - V4)</description>
+	<value code="0">(&lt; 1 mm)</value>
+	<value code="1">(&gt; OR = 1, &lt;2 mm)</value>
+	<value code="2">(&gt; OR = 2)</value>
+	<value code="3">ELEVATION</value>
+	<value code=".">UNKNOWN OR ARTIFACT OR TEST STOPPED</value>
+</variable>
+
+<variable id="phv00055233.v1">
+	<name>WT061</name>
+	<description>RECOVERY 3 MINUTES ST DEPRESSION (V5, V6)</description>
+	<value code="0">(&lt; 1 mm)</value>
+	<value code="1">(&gt; OR = 1, &lt;2 mm)</value>
+	<value code="2">(&gt; OR = 2)</value>
+	<value code="3">ELEVATION</value>
+	<value code=".">UNKNOWN OR ARTIFACT OR TEST STOPPED</value>
+</variable>
+
+<variable id="phv00055234.v1">
+	<name>WT062</name>
+	<description>RECOVERY 5 MINUTES SBP</description>
+	<unit>mmHG</unit>
+	<value code=".">UNKNOWN OR ARTIFACT OR TEST STOPPED</value>
+</variable>
+
+<variable id="phv00055235.v1">
+	<name>WT063</name>
+	<description>RECOVERY 5 MINUTES DBP</description>
+	<unit>mmHG</unit>
+	<value code=".">UNKNOWN OR ARTIFACT OR TEST STOPPED</value>
+</variable>
+
+<variable id="phv00055236.v1">
+	<name>WT064</name>
+	<description>RECOVERY 5 MINUTES HEART RATE</description>
+	<value code=".">UNKNOWN OR ARTIFACT OR TEST STOPPED</value>
+</variable>
+
+<variable id="phv00055237.v1">
+	<name>WT065</name>
+	<description>RECOVERY 5 MINUTES ST DEPRESSION (2, 3, AVF)</description>
+	<value code="0">(&lt; 1 mm)</value>
+	<value code="1">(&gt; OR = 1, &lt;2 mm)</value>
+	<value code="2">(&gt; OR = 2)</value>
+	<value code="3">ELEVATION</value>
+	<value code=".">UNKNOWN OR ARTIFACT OR TEST STOPPED</value>
+</variable>
+
+<variable id="phv00055238.v1">
+	<name>WT066</name>
+	<description>RECOVERY 5 MINUTES ST DEPRESSION (1, AVL)</description>
+	<value code="0">(&lt; 1 mm)</value>
+	<value code="1">(&gt; OR = 1, &lt;2 mm)</value>
+	<value code="2">(&gt; OR = 2)</value>
+	<value code="3">ELEVATION</value>
+	<value code=".">UNKNOWN OR ARTIFACT OR TEST STOPPED</value>
+</variable>
+
+<variable id="phv00055239.v1">
+	<name>WT067</name>
+	<description>RECOVERY 5 MINUTES ST DEPRESSION (V1 - V4)</description>
+	<value code="0">(&lt; 1 mm)</value>
+	<value code="1">(&gt; OR = 1, &lt;2 mm)</value>
+	<value code="2">(&gt; OR = 2)</value>
+	<value code="3">ELEVATION</value>
+	<value code=".">UNKNOWN OR ARTIFACT OR TEST STOPPED</value>
+</variable>
+
+<variable id="phv00055240.v1">
+	<name>WT068</name>
+	<description>RECOVERY 5 MINUTES ST DEPRESSION (V5, V6)</description>
+	<value code="0">(&lt; 1 mm)</value>
+	<value code="1">(&gt; OR = 1, &lt;2 mm)</value>
+	<value code="2">(&gt; OR = 2)</value>
+	<value code="3">ELEVATION</value>
+	<value code=".">UNKNOWN OR ARTIFACT OR TEST STOPPED</value>
+</variable>
+
+<variable id="phv00055241.v1">
+	<name>WT069</name>
+	<description>RHYTHM OF RECOVERY IMMEDIATE AND RECOVERY 3 MINUTES AND 
+ RECOVERY 5 MINUTES - NORMAL</description>
+	<value code="0">NOT CIRCLED</value>
+	<value code="1">CIRCLED</value>
+	<value code=".">UNKNOWN OR ARTIFACT OR TEST STOPPED</value>
+</variable>
+
+<variable id="phv00055242.v1">
+	<name>WT069_1</name>
+	<description>RHYTHM OF RECOVERY IMMEDIATE AND RECOVERY 3 MINUTES AND 
+ RECOVERY 5 MINUTES - VBPS</description>
+	<value code="0">NOT CIRCLED</value>
+	<value code="1">CIRCLED</value>
+	<value code=".">UNKNOWN OR ARTIFACT OR TEST STOPPED</value>
+</variable>
+
+<variable id="phv00055243.v1">
+	<name>WT069_2</name>
+	<description>RHYTHM OF RECOVERY IMMEDIATE AND RECOVERY 3 MINUTES AND 
+ RECOVERY 5 MINUTES - VT</description>
+	<value code="0">NOT CIRCLED</value>
+	<value code="1">CIRCLED</value>
+	<value code=".">UNKNOWN OR ARTIFACT OR TEST STOPPED</value>
+</variable>
+
+<variable id="phv00055244.v1">
+	<name>WT069_3</name>
+	<description>RHYTHM OF RECOVERY IMMEDIATE AND RECOVERY 3 MINUTES AND 
+ RECOVERY 5 MINUTES - APCS</description>
+	<value code="0">NOT CIRCLED</value>
+	<value code="1">CIRCLED</value>
+	<value code=".">UNKNOWN OR ARTIFACT OR TEST STOPPED</value>
+</variable>
+
+<variable id="phv00055245.v1">
+	<name>WT069_4</name>
+	<description>RHYTHM OF RECOVERY IMMEDIATE AND RECOVERY 3 MINUTES AND 
+ RECOVERY 5 MINUTES - BBB</description>
+	<value code="0">NOT CIRCLED</value>
+	<value code="1">CIRCLED</value>
+	<value code=".">UNKNOWN OR ARTIFACT OF TEST STOPPED</value>
+</variable>
+
+<variable id="phv00055246.v1">
+	<name>WT070</name>
+	<description>TEST INTERPRETATION</description>
+	<value code="1">POSITIVE</value>
+	<value code="2">BORDERLINE</value>
+	<value code="3">NEGATIVE</value>
+	<value code="4">INCONCLUSIVE</value>
+	<value code=".">UNKNOWN OR TEST STOPPED</value>
+</variable>
+
+<variable id="phv00055247.v1">
+	<name>WT008</name>
+	<description>TARGET HEART RATE - BPM</description>
+	<unit>BEATS PER MINUTE</unit>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00055248.v1">
+	<name>study_da</name>
+	<description>DATE WALKTEST COMPLETED, NUMBER OF DAYS SINCE EXAM 1</description>
+	<unit>DAYS</unit>
+</variable>
+
+<variable id="phv00055249.v1">
+	<name>shareid</name>
+	<description>UNIQUE PARTICIPANT ID</description>
+</variable>
+
+<variable id="phv00055170.v3">
+	<name>WT003</name>
+	<description>COMMENTS FOR TEST NOT DONE</description>
+</variable>
+
+<variable id="phv00055173.v3">
+	<name>WT006</name>
+	<description>COMMENT 1 FOR TEST NOT COMPLETED</description>
+</variable>
+
+<variable id="phv00055174.v3">
+	<name>WT007</name>
+	<description>COMMENT 2 FOR TEST NOT COMPLETED</description>
+</variable>
+
+<variable id="phv00055178.v3">
+	<name>WT011</name>
+	<description>METS ACHIEVED</description>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00055180.v3">
+	<name>WT013</name>
+	<description>MAXIMAL ST / HR SLOPE (MICROVOLTS/MINUTE)</description>
+	<unit>MICROVOLTS/MINUTE</unit>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+</data_table>

@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./datadict_v2.xsl"?>
+<data_table id="pht000364.v2" study_id="phs000128.v3" participant_set="3" date_created="Thu Jul 22 09:17:55 2010">
+
+<variable id="phv00051837.v2">
+	<name>shareid</name>
+	<description>SUBJECT ID</description>
+	<type>integer</type>
+</variable>
+
+<variable id="phv00051838.v2">
+	<name>idtype</name>
+	<description>COHORT GROUP IDENTIFIER (0=ORIGINAL,1=OFFSPRING,3=GEN3)</description>
+	<type>encoded value</type>
+	<logical_min>3</logical_min>
+	<logical_max>3</logical_max>
+	<value code="3">Gen3 Cohort</value>
+</variable>
+
+<variable id="phv00051839.v2">
+	<name>sex</name>
+	<description>GENDER:1=MALE,2=FEMALE</description>
+	<type>integer</type>
+	<logical_min>1</logical_min>
+	<logical_max>2</logical_max>
+	<value code="1">Male</value>
+	<value code="2">Female</value>
+</variable>
+
+<variable id="phv00051840.v2">
+	<name>age1</name>
+	<description>AGE AT ORIGINAL COHORT EXAM 1</description>
+	<type>integer</type>
+	<unit>years</unit>
+	<logical_min>19</logical_min>
+	<logical_max>72</logical_max>
+	<value code=".">missing</value>
+</variable>
+
+<variable id="phv00051841.v2">
+	<name>sbp1</name>
+	<description>SYSTOLIC BLOOD PRESSURE mmHg EXAM 1</description>
+	<type>integer</type>
+	<unit>mm Hg</unit>
+	<logical_min>70</logical_min>
+	<logical_max>188</logical_max>
+	<value code=".">missing</value>
+</variable>
+
+<variable id="phv00051842.v2">
+	<name>dbp1</name>
+	<description>DIASTOLIC BLOOD PRESSURE mmHg EXAM 1</description>
+	<type>integer</type>
+	<unit>mm Hg</unit>
+	<logical_min>30</logical_min>
+	<logical_max>118</logical_max>
+	<value code=".">missing</value>
+</variable>
+
+<variable id="phv00051843.v2">
+	<name>htnrx1</name>
+	<description>TREATMENT FOR BLOOD PRESSURE, EXAM 1</description>
+	<type>encoded value</type>
+	<logical_min>0</logical_min>
+	<logical_max>1</logical_max>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00051844.v2">
+	<name>chol1</name>
+	<description>FASTING CHOLESTEROL mg/dl EXAM 1</description>
+	<type>integer</type>
+	<unit>mg/dl</unit>
+	<logical_min>76</logical_min>
+	<logical_max>647</logical_max>
+	<value code=".">missing</value>
+</variable>
+
+<variable id="phv00051845.v2">
+	<name>hdl1</name>
+	<description>FASTING HDL CHOLESTEROL mg/dl EXAM 1</description>
+	<type>integer</type>
+	<unit>mg/dl</unit>
+	<logical_min>20</logical_min>
+	<logical_max>206</logical_max>
+	<value code=".">missing</value>
+</variable>
+
+<variable id="phv00051846.v2">
+	<name>tg1</name>
+	<description>FASTING TRIGLYCERIDES mg/dl EXAM 1</description>
+	<type>integer</type>
+	<unit>mg/dl</unit>
+	<logical_min>21</logical_min>
+	<logical_max>1499</logical_max>
+	<value code=".">missing</value>
+</variable>
+
+<variable id="phv00051847.v2">
+	<name>cholrx1</name>
+	<description>TREATMENT FOR LIPIDS (0=No,1=Yes) EXAM 1</description>
+	<type>encoded value</type>
+	<logical_min>0</logical_min>
+	<logical_max>1</logical_max>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00051848.v2">
+	<name>wgt1</name>
+	<description>WEIGHT IN POUNDS EXAM 1</description>
+	<type>integer</type>
+	<unit>pounds</unit>
+	<logical_min>88</logical_min>
+	<logical_max>391</logical_max>
+	<value code=".">missing</value>
+</variable>
+
+<variable id="phv00051849.v2">
+	<name>hgt1</name>
+	<description>HEIGHT IN INCHES EXAM 1</description>
+	<type>integer</type>
+	<unit>inches</unit>
+	<logical_min>53</logical_min>
+	<logical_max>79</logical_max>
+	<value code=".">missing</value>
+</variable>
+
+<variable id="phv00051850.v2">
+	<name>smoke1</name>
+	<description>CIGARETTE SMOKING STATUS (0=Never,1=Former,2=Current) EXAM 1</description>
+	<type>encoded value</type>
+	<logical_min>0</logical_min>
+	<logical_max>2</logical_max>
+	<value code="0">Never</value>
+	<value code="1">Former</value>
+	<value code="2">Current</value>
+</variable>
+
+<variable id="phv00051851.v2">
+	<name>cigs1</name>
+	<description>CIGARETTES/DAY, EXAM 1</description>
+	<type>integer</type>
+	<unit>number</unit>
+	<logical_min>0</logical_min>
+	<logical_max>50</logical_max>
+	<value code=".">missing</value>
+</variable>
+
+<variable id="phv00051852.v2">
+	<name>alc1</name>
+	<description>EQUIVALENT ALCOHOL OZ (PER WEEK), EXAM1</description>
+	<type>integer</type>
+	<unit>ounces</unit>
+	<logical_min>0</logical_min>
+	<logical_max>44</logical_max>
+	<value code=".">missing</value>
+</variable>
+
+<variable id="phv00051853.v2">
+	<name>blsug1</name>
+	<description>BLOOD SUGAR mg/dl, EXAM 1</description>
+	<type>integer</type>
+	<unit>mg/dl</unit>
+	<logical_min>54</logical_min>
+	<logical_max>404</logical_max>
+	<value code=".">missing</value>
+</variable>
+
+<variable id="phv00051854.v2">
+	<name>diabetes</name>
+	<description>DIABETES AT ANYTIME DURING STUDY (0=NO,1=YES)</description>
+	<type>encoded value</type>
+	<logical_min>0</logical_min>
+	<logical_max>1</logical_max>
+	<value code="0">not diabetic</value>
+	<value code="1">diabetic by end of follow up</value>
+</variable>
+
+<variable id="phv00051855.v2">
+	<name>agediab</name>
+	<description>AGE OF FIRST EXAM AT WHICH DIABETES WAS NOTED</description>
+	<type>integer</type>
+	<unit>years</unit>
+	<logical_min>20</logical_min>
+	<logical_max>62</logical_max>
+	<value code=".">missing</value>
+</variable>
+
+<variable id="phv00051856.v2">
+	<name>hardchd</name>
+	<description>HARD CHD (Recognized MI,Coronary Insufficiency, Death from CHD)</description>
+	<type>encoded value</type>
+	<logical_min>0</logical_min>
+	<logical_max>2</logical_max>
+	<value code="0">never</value>
+	<value code="1">incident during study</value>
+	<value code="2">prevalent exam 1</value>
+</variable>
+
+<variable id="phv00051857.v2">
+	<name>agehardchd</name>
+	<description>AGE AT HARD CHD EVENT</description>
+	<type>integer</type>
+	<unit>years</unit>
+	<logical_min>36</logical_min>
+	<logical_max>58</logical_max>
+	<value code=".">missing</value>
+</variable>
+
+<variable id="phv00051858.v2">
+	<name>agedeath</name>
+	<description>AGE AT DEATH</description>
+	<type>integer</type>
+	<unit>years</unit>
+	<logical_min>46</logical_min>
+	<logical_max>54</logical_max>
+	<value code=".">missing</value>
+</variable>
+
+</data_table>

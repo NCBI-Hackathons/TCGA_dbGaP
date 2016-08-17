@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./datadict_v2.xsl"?>
+<data_table id="pht000360.v1" study_id="phs000086.v2" participant_set="1" date_created="Wed Feb  3 09:15:47 2010">
+
+<variable id="phv00051649.v1">
+	<name>FORM</name>
+	<description>EDIC form number</description>
+	<type>int</type>
+</variable>
+
+<variable id="phv00051650.v1">
+	<name>CLINIC</name>
+	<description>A1. Identifying information. Deidentified EDIC clinic number</description>
+	<type>byte</type>
+</variable>
+
+<variable id="phv00051651.v1">
+	<name>NDB1A</name>
+	<description>B1a. Information on transfer to inactive status. Catastrophic injury or illness leading to coma, dementia, or inability to participate in EDIC testing procedure</description>
+	<type>byte</type>
+	<value code="1">Catastrophic injury or illness leading to coma, dementia, or inability to participate in EDIC testing procedure</value>
+</variable>
+
+<variable id="phv00051652.v1">
+	<name>NDB1B</name>
+	<description>B1b. Information on transfer to inactive status.  Inaccessibility to monitoring of outcomes</description>
+	<type>byte</type>
+	<value code="1">Inaccessibility to monitoring of outcomes</value>
+</variable>
+
+<variable id="phv00051653.v1">
+	<name>NDB1C</name>
+	<description>B1c. Information on transfer to inactive status.  Patient has withdrawn consent</description>
+	<type>byte</type>
+	<value code="1">Patient has withdrawn consent</value>
+</variable>
+
+<variable id="phv00051654.v1">
+	<name>NDB1D</name>
+	<description>B1d. Information on transfer to inactive status.  Patient has agreed to participate</description>
+	<type>byte</type>
+	<value code="1">Patient has agreed to participate</value>
+</variable>
+
+<variable id="phv00051655.v1">
+	<name>NDB1E</name>
+	<description>B1e. Information on transfer to inactive status.  Information on transfer to inactive status: other</description>
+	<type>byte</type>
+	<value code="1">Other</value>
+</variable>
+
+<variable id="phv00051656.v1">
+	<name>NDB3A</name>
+	<description>B3a. Information on transfer to inactive status.  On what date would the proposed transfer to inactive status. If uncertain, check here</description>
+	<type>byte</type>
+	<value code="1">Uncertain</value>
+</variable>
+
+<variable id="phv00051657.v1">
+	<name>NDC1</name>
+	<description>C1. Plans for future contact. Deidentified will clinic attempt to contact patient</description>
+	<type>byte</type>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+	<value code="3">Uncertain</value>
+	<value code="20">Uncertain</value>
+	<value code="25">Yes</value>
+	<value code="28">No</value>
+</variable>
+
+<variable id="phv00051658.v1">
+	<name>NDC2</name>
+	<description>C2. Plans for future contact.  Deidentified willing to return to clinic</description>
+	<type>byte</type>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+	<value code="3">Uncertain</value>
+	<value code="20">Uncertain</value>
+	<value code="25">Yes</value>
+	<value code="28">No</value>
+</variable>
+
+<variable id="phv00051659.v1">
+	<name>FSASDATE</name>
+	<description>A4. Identifying information.  Deidentified date form completed</description>
+	<type>int</type>
+</variable>
+
+<variable id="phv00051660.v1">
+	<name>MASK_PAT</name>
+	<description>A2. Identifying information. Deidentified patient ID</description>
+	<type>int</type>
+</variable>
+
+<variable id="phv00051661.v1">
+	<name>NDB3DAT</name>
+	<description>Deidentified date inactive status to become effective</description>
+	<type>int</type>
+</variable>
+
+</data_table>

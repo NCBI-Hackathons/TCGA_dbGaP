@@ -1,0 +1,383 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./datadict_v2.xsl"?>
+<data_table id="pht001020.v1" study_id="phs000200.v3" participant_set="1" date_created="Thu Oct 21 09:31:44 2010">
+
+<unique_key phv="00079870" version="1">SHAREID</unique_key>
+<unique_key phv="00079871" version="1">F81VTYP</unique_key>
+<unique_key phv="00079872" version="1">F81VY</unique_key>
+<unique_key phv="00079873" version="1">F81DAYS</unique_key>
+<unique_key phv="00079874" version="1">PELVICDY</unique_key>
+
+<variable id="phv00079870.v1">
+	<name>SHAREID</name>
+	<description>WHI SHARe ID</description>
+	<type>integer</type>
+</variable>
+
+<variable id="phv00079871.v1">
+	<name>F81VTYP</name>
+	<description>Visit type</description>
+	<type>encoded value</type>
+	<value code="1">Screening Visit</value>
+	<value code="2">Semi-annual Visit</value>
+	<value code="3">Annual Visit</value>
+	<value code="4">Non-Routine Visit</value>
+</variable>
+
+<variable id="phv00079872.v1">
+	<name>F81VY</name>
+	<description>Visit year</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>10</logical_max>
+	<comment>Visit year for which this form was collected.</comment>
+</variable>
+
+<variable id="phv00079873.v1">
+	<name>F81DAYS</name>
+	<description>F81 Days since randomization</description>
+	<type>integer</type>
+	<unit>days</unit>
+	<logical_min>-275</logical_min>
+	<logical_max>3720</logical_max>
+	<comment>Days between randomization and the date the form was initiated</comment>
+</variable>
+
+<variable id="phv00079874.v1">
+	<name>PELVICDY</name>
+	<description>Days from randomization to pelvic exam</description>
+	<type>integer</type>
+	<unit>days</unit>
+	<logical_min>-275</logical_min>
+	<logical_max>3720</logical_max>
+</variable>
+
+<variable id="phv00079875.v1">
+	<name>PELVICBY</name>
+	<description>Pelvic exam performed by</description>
+	<type>encoded value</type>
+	<value code="1">CC staff</value>
+	<value code="2">Other</value>
+</variable>
+
+<variable id="phv00079876.v1">
+	<name>PLVABNRM</name>
+	<description>Doctor found anything wrong</description>
+	<type>encoded value</type>
+	<comment>Were there any abnormal findings found during the pelvic exam?
+		Sub-question of F81 V6 Q6 &#39;Pelvic exam performed by&#39;.&lt;br/&gt;Not collected on all versions of Form 81. </comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00079877.v1">
+	<name>ADIPOSE</name>
+	<description>Loss of adipose tissue</description>
+	<type>encoded value</type>
+	<comment>External genitalia (vulva): loss of adipose tissue
+		Not collected on all versions of Form 81.&lt;br/&gt;Not required if &#39;Pelvic exam performed by&#39; is &#39;Other&#39;. </comment>
+	<value code="0">No</value>
+	<value code="1">Yes, probably benign</value>
+	<value code="2">Yes, possibly malignant</value>
+</variable>
+
+<variable id="phv00079878.v1">
+	<name>PLVHAIR</name>
+	<description>Thinning of hair</description>
+	<type>encoded value</type>
+	<comment>External genitalia (vulva): thinning of hair
+		Not collected on all versions of Form 81.&lt;br/&gt;Not required if &#39;Pelvic exam performed by&#39; is &#39;Other&#39;. </comment>
+	<value code="0">No</value>
+	<value code="1">Yes, probably benign</value>
+	<value code="2">Yes, possibly malignant</value>
+</variable>
+
+<variable id="phv00079879.v1">
+	<name>DISCVLVA</name>
+	<description>Genitalia - Abnormal discoloration</description>
+	<type>encoded value</type>
+	<comment>External genitalia (vulva): abnormal discoloration
+		Not collected on all versions of Form 81.&lt;br/&gt;Not required if &#39;Pelvic exam performed by&#39; is &#39;Other&#39;. </comment>
+	<value code="0">No</value>
+	<value code="1">Yes, probably benign</value>
+	<value code="2">Yes, possibly malignant</value>
+</variable>
+
+<variable id="phv00079880.v1">
+	<name>ULCERVLV</name>
+	<description>Genitalia - Ulceration</description>
+	<type>encoded value</type>
+	<comment>External genitalia (vulva): ulceration
+		Not collected on all versions of Form 81.&lt;br/&gt;Not required if &#39;Pelvic exam performed by&#39; is &#39;Other&#39;. </comment>
+	<value code="0">No</value>
+	<value code="1">Yes, probably benign</value>
+	<value code="2">Yes, possibly malignant</value>
+</variable>
+
+<variable id="phv00079881.v1">
+	<name>GROWVLVA</name>
+	<description>Genitalia - Growth</description>
+	<type>encoded value</type>
+	<comment>External genitalia (vulva): growth
+		Not collected on all versions of Form 81.&lt;br/&gt;Not required if &#39;Pelvic exam performed by&#39; is &#39;Other&#39;. </comment>
+	<value code="0">No</value>
+	<value code="1">Yes, probably benign</value>
+	<value code="2">Yes, possibly malignant</value>
+</variable>
+
+<variable id="phv00079882.v1">
+	<name>ATROPHY</name>
+	<description>Atrophy</description>
+	<type>encoded value</type>
+	<comment>Not collected on all versions of Form 81.&lt;br/&gt;Not required if &#39;Pelvic exam performed by&#39; is &#39;Other&#39;.</comment>
+	<value code="0">No</value>
+	<value code="1">Yes, probably benign</value>
+	<value code="2">Yes, possibly malignant</value>
+</variable>
+
+<variable id="phv00079883.v1">
+	<name>PLVSMTH</name>
+	<description>Smooth</description>
+	<type>encoded value</type>
+	<comment>Not collected on all versions of Form 81.&lt;br/&gt;Not required if &#39;Pelvic exam performed by&#39; is &#39;Other&#39;.</comment>
+	<value code="0">No</value>
+	<value code="1">Yes, probably benign</value>
+	<value code="2">Yes, possibly malignant</value>
+</variable>
+
+<variable id="phv00079884.v1">
+	<name>PLVPALE</name>
+	<description>Pale</description>
+	<type>encoded value</type>
+	<comment>Not collected on all versions of Form 81.&lt;br/&gt;Not required if &#39;Pelvic exam performed by&#39; is &#39;Other&#39;.</comment>
+	<value code="0">No</value>
+	<value code="1">Yes, probably benign</value>
+	<value code="2">Yes, possibly malignant</value>
+</variable>
+
+<variable id="phv00079885.v1">
+	<name>FRIABVAG</name>
+	<description>Vagina - Friable with contact</description>
+	<type>encoded value</type>
+	<comment>Not collected on all versions of Form 81.&lt;br/&gt;Not required if &#39;Pelvic exam performed by&#39; is &#39;Other&#39;.</comment>
+	<value code="0">No</value>
+	<value code="1">Yes, probably benign</value>
+	<value code="2">Yes, possibly malignant</value>
+</variable>
+
+<variable id="phv00079886.v1">
+	<name>BLOODVAG</name>
+	<description>Blood present</description>
+	<type>encoded value</type>
+	<comment>Not collected on all versions of Form 81.&lt;br/&gt;Not required if &#39;Pelvic exam performed by&#39; is &#39;Other&#39;.</comment>
+	<value code="0">No</value>
+	<value code="1">Yes, probably benign</value>
+	<value code="2">Yes, possibly malignant</value>
+</variable>
+
+<variable id="phv00079887.v1">
+	<name>DISCVAG</name>
+	<description>Vagina - Abnormal discoloration</description>
+	<type>encoded value</type>
+	<comment>Not collected on all versions of Form 81.&lt;br/&gt;Not required if &#39;Pelvic exam performed by&#39; is &#39;Other&#39;.</comment>
+	<value code="0">No</value>
+	<value code="1">Yes, probably benign</value>
+	<value code="2">Yes, possibly malignant</value>
+</variable>
+
+<variable id="phv00079888.v1">
+	<name>ULCERVAG</name>
+	<description>Vagina - Ulceration</description>
+	<type>encoded value</type>
+	<comment>Not collected on all versions of Form 81.&lt;br/&gt;Not required if &#39;Pelvic exam performed by&#39; is &#39;Other&#39;.</comment>
+	<value code="0">No</value>
+	<value code="1">Yes, probably benign</value>
+	<value code="2">Yes, possibly malignant</value>
+</variable>
+
+<variable id="phv00079889.v1">
+	<name>GROWVAG</name>
+	<description>Vagina - Growth</description>
+	<type>encoded value</type>
+	<comment>Not collected on all versions of Form 81.&lt;br/&gt;Not required if &#39;Pelvic exam performed by&#39; is &#39;Other&#39;.</comment>
+	<value code="0">No</value>
+	<value code="1">Yes, probably benign</value>
+	<value code="2">Yes, possibly malignant</value>
+</variable>
+
+<variable id="phv00079890.v1">
+	<name>CYSTOCEL</name>
+	<description>Cystocele</description>
+	<type>encoded value</type>
+	<comment>Not required if &#39;Pelvic exam performed by&#39; is &#39;Other&#39;.</comment>
+	<value code="0">None</value>
+	<value code="1">Grade 1 (in vagina)</value>
+	<value code="2">Grade 2 (to introitus)</value>
+	<value code="3">Grade 3 (outside vagina)</value>
+</variable>
+
+<variable id="phv00079891.v1">
+	<name>RECTOCEL</name>
+	<description>Rectocele</description>
+	<type>encoded value</type>
+	<comment>Not required if &#39;Pelvic exam performed by&#39; is &#39;Other&#39;.</comment>
+	<value code="0">None</value>
+	<value code="1">Grade 1 (in vagina)</value>
+	<value code="2">Grade 2 (to introitus)</value>
+	<value code="3">Grade 3 (outside vagina)</value>
+</variable>
+
+<variable id="phv00079892.v1">
+	<name>PLVCERVX</name>
+	<description>Cervix</description>
+	<type>encoded value</type>
+	<comment>Not required if &#39;Pelvic exam performed by&#39; is &#39;Other&#39;.</comment>
+	<value code="0">Absent</value>
+	<value code="1">Present</value>
+</variable>
+
+<variable id="phv00079893.v1">
+	<name>CRVFLUSH</name>
+	<description>Flush with vaginal vault</description>
+	<type>encoded value</type>
+	<comment>Sub-question of F81 V6 Q9 &#39;Cervix&#39;.&lt;br/&gt;Not collected on all versions of Form 81.&lt;br/&gt;Not required if &#39;Pelvic exam performed by&#39; is &#39;Other&#39;.</comment>
+	<value code="0">No</value>
+	<value code="1">Yes, probably benign</value>
+	<value code="2">Yes, possibly malignant</value>
+</variable>
+
+<variable id="phv00079894.v1">
+	<name>FRIABCRV</name>
+	<description>Cervix - Friable with contact</description>
+	<type>encoded value</type>
+	<comment>Sub-question of F81 V6 Q9 &#39;Cervix&#39;.&lt;br/&gt;Not collected on all versions of Form 81.&lt;br/&gt;Not required if &#39;Pelvic exam performed by&#39; is &#39;Other&#39;.</comment>
+	<value code="0">No</value>
+	<value code="1">Yes, probably benign</value>
+	<value code="2">Yes, possibly malignant</value>
+</variable>
+
+<variable id="phv00079895.v1">
+	<name>LESION</name>
+	<description>Surface lesion/growth</description>
+	<type>encoded value</type>
+	<comment>Cervix: surface lesion/growth (other than ectopy, Nabothian cyst)
+		Sub-question of F81 V6 Q9 &#39;Cervix&#39;.&lt;br/&gt;Not collected on all versions of Form 81.&lt;br/&gt;Not required if &#39;Pelvic exam performed by&#39; is &#39;Other&#39;. </comment>
+	<value code="0">No</value>
+	<value code="1">Yes, probably benign</value>
+	<value code="2">Yes, possibly malignant</value>
+</variable>
+
+<variable id="phv00079896.v1">
+	<name>POLYP</name>
+	<description>Polyp</description>
+	<type>encoded value</type>
+	<comment>Sub-question of F81 V6 Q9 &#39;Cervix&#39;.&lt;br/&gt;Not collected on all versions of Form 81.&lt;br/&gt;Not required if &#39;Pelvic exam performed by&#39; is &#39;Other&#39;.</comment>
+	<value code="0">No</value>
+	<value code="1">Yes, probably benign</value>
+	<value code="2">Yes, possibly malignant</value>
+</variable>
+
+<variable id="phv00079897.v1">
+	<name>PLVUTER</name>
+	<description>Uterus</description>
+	<type>encoded value</type>
+	<comment>Uterus (absent/present/unable to palpate)
+		Not collected on all versions of Form 81.&lt;br/&gt;Not required if &#39;Pelvic exam performed by&#39; is &#39;Other&#39;. </comment>
+	<value code="0">Absent</value>
+	<value code="1">Present</value>
+	<value code="9">Unable to palpate</value>
+</variable>
+
+<variable id="phv00079898.v1">
+	<name>PROLAPSE</name>
+	<description>Prolapse</description>
+	<type>encoded value</type>
+	<comment>Sub-question of F81 V6 Q10 &#39;Uterus&#39;.&lt;br/&gt;Not required if &#39;Pelvic exam performed by&#39; is &#39;Other&#39;.</comment>
+	<value code="0">None</value>
+	<value code="1">Grade 1 (in vagina)</value>
+	<value code="2">Grade 2 (to introitus)</value>
+	<value code="3">Grade 3 (outside vagina)</value>
+</variable>
+
+<variable id="phv00079899.v1">
+	<name>UTERSIZE</name>
+	<description>Uterine size (weeks)</description>
+	<type>integer</type>
+	<unit>weeks</unit>
+	<logical_min>0</logical_min>
+	<logical_max>40</logical_max>
+	<comment>Sub-question of F81 V6 Q10 &#39;Uterus&#39;.&lt;br/&gt;Not required if &#39;Pelvic exam performed by&#39; is &#39;Other&#39;.</comment>
+</variable>
+
+<variable id="phv00079900.v1">
+	<name>UTERENLR</name>
+	<description>Enlarged since last exam</description>
+	<type>encoded value</type>
+	<comment>Sub-question of F81 V6 Q10 &#39;Uterus&#39;.&lt;br/&gt;Not required if &#39;Pelvic exam performed by&#39; is &#39;Other&#39;.</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00079901.v1">
+	<name>ADNEXAE</name>
+	<description>Adnexae</description>
+	<type>encoded value</type>
+	<comment>Adnexae (normal/mass present/unable to palpate)
+		Not collected on all versions of Form 81.&lt;br/&gt;Not required if &#39;Pelvic exam performed by&#39; is &#39;Other&#39;. </comment>
+	<value code="0">Normal</value>
+	<value code="1">Mass present</value>
+	<value code="9">Unable to palpate/absent</value>
+</variable>
+
+<variable id="phv00079902.v1">
+	<name>MASSLOC</name>
+	<description>Mass present</description>
+	<type>encoded value</type>
+	<comment>Adnexae:  location of mass
+		Sub-question of F81 V6 Q11 &#39;Adnexae&#39;.&lt;br/&gt;Not collected on all versions of Form 81.&lt;br/&gt;Not required if &#39;Pelvic exam performed by&#39; is &#39;Other&#39;. </comment>
+	<value code="1">Right</value>
+	<value code="2">Left</value>
+	<value code="3">Both</value>
+</variable>
+
+<variable id="phv00079903.v1">
+	<name>PAPSMEAR</name>
+	<description>Pap smear obtained</description>
+	<type>encoded value</type>
+	<comment>Not collected on all versions of Form 81.</comment>
+	<value code="0">No, not done</value>
+	<value code="1">No, send for outside report</value>
+	<value code="2">Yes, vaginal smear</value>
+	<value code="3">Yes, Pap smear</value>
+</variable>
+
+<variable id="phv00079904.v1">
+	<name>PLVREFER</name>
+	<description>Referral made for follow-up</description>
+	<type>encoded value</type>
+	<comment>Was a referral made for follow-up care (pelvic exam)?</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00079905.v1">
+	<name>PLVREFDY</name>
+	<description>Days from randomization to pelvic exam referral</description>
+	<type>integer</type>
+	<unit>days</unit>
+	<logical_min>-167</logical_min>
+	<logical_max>3580</logical_max>
+	<comment>Sub-question of F81 V6 Q13 &#39;Referral made for follow-up&#39;.</comment>
+</variable>
+
+<variable id="phv00079906.v1">
+	<name>PLVFURES</name>
+	<description>Pelvic follow-up results</description>
+	<type>encoded value</type>
+	<comment>Sub-question of F81 V6 Q13 &#39;Referral made for follow-up&#39;.&lt;br/&gt;Not collected on all versions of Form 81.</comment>
+	<value code="0">Normal</value>
+	<value code="1">Benign changes</value>
+	<value code="2">Possibly malignant</value>
+</variable>
+
+</data_table>

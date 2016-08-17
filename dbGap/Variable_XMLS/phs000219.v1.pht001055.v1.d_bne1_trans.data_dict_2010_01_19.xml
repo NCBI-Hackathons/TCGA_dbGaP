@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./datadict_v2.xsl"?>
+<data_table id="pht001055.v1" study_id="phs000219.v1" participant_set="1" date_created="Tue Jan 19 13:07:22 2010">
+
+<unique_key phv="00081155" version="1">SUBJID</unique_key>
+<unique_key phv="00081159" version="1">VISIT</unique_key>
+
+<variable id="phv00081155.v1">
+	<name>SUBJID</name>
+	<description>Subject&#39;s ID</description>
+	<type>String</type>
+</variable>
+
+<variable id="phv00081156.v1">
+	<name>CASE_CONTROL</name>
+	<description>Subject type</description>
+	<type>Encoded value</type>
+	<value code="ADP">AD Participant</value>
+	<value code="CASE">Case</value>
+	<value code="CCCS">Control with Change in Cognitive Status</value>
+	<value code="CNTL">Control</value>
+	<value code="FAM">Family member</value>
+	<value code="UASB">Unaffected Sibling</value>
+</variable>
+
+<variable id="phv00081157.v1">
+	<name>INV</name>
+	<description>Investigator&#39;s ID</description>
+	<type>String</type>
+</variable>
+
+<variable id="phv00081158.v1">
+	<name>INVSITE</name>
+	<description>Investigator site ID</description>
+	<type>String</type>
+</variable>
+
+<variable id="phv00081159.v1">
+	<name>VISIT</name>
+	<description>Visit name</description>
+	<type>String</type>
+</variable>
+
+<variable id="phv00081160.v1">
+	<name>VISIT_DATE</name>
+	<description>Visit date</description>
+	<type>Date</type>
+	<comment>Truncated to YYYY</comment>
+</variable>
+
+<variable id="phv00081161.v1">
+	<name>EXMDT</name>
+	<description>Examination date</description>
+	<type>Date</type>
+	<comment>Truncated to YYYY</comment>
+</variable>
+
+<variable id="phv00081162.v1">
+	<name>CB_NEUEV</name>
+	<description>CAROTID BRUITS: Neurological examination</description>
+	<type>Encoded Value</type>
+	<value code="A">Absent</value>
+	<value code="P">Present</value>
+</variable>
+
+<variable id="phv00081163.v1">
+	<name>CB_NEURTX</name>
+	<description>CAROTID BRUITS: Neurological Changes</description>
+	<type>String</type>
+</variable>
+
+<variable id="phv00081164.v1">
+	<name>DTR_NEUEV</name>
+	<description>DEEP TENDON REFLEXES: Neurological examination</description>
+	<type>Encoded Value</type>
+	<value code="A">Abnormal</value>
+	<value code="N">Normal</value>
+</variable>
+
+<variable id="phv00081165.v1">
+	<name>DTR_NEURTX</name>
+	<description>DEEP TENDON REFLEXES: Neurological Changes</description>
+	<type>String</type>
+</variable>
+
+<variable id="phv00081166.v1">
+	<name>FG_NEUEV</name>
+	<description>FRONTAL GAIT: Neurological examination</description>
+	<type>Encoded Value</type>
+	<value code="A">Absent</value>
+	<value code="P">Present</value>
+</variable>
+
+<variable id="phv00081167.v1">
+	<name>FG_NEURTX</name>
+	<description>FRONTAL GAIT: Neurological Changes</description>
+	<type>String</type>
+</variable>
+
+<variable id="phv00081168.v1">
+	<name>FRSG_NEUEV</name>
+	<description>TREMOR OTHER: Neurological examination</description>
+	<type>Encoded Value</type>
+	<value code="A">Absent</value>
+	<value code="P">Present</value>
+</variable>
+
+<variable id="phv00081169.v1">
+	<name>FRSG_NEURTX</name>
+	<description>TREMOR OTHER: Neurological Changes</description>
+	<type>String</type>
+</variable>
+
+<variable id="phv00081170.v1">
+	<name>FRSO_NEUEV</name>
+	<description>GRASP: Neurological examination</description>
+	<type>Encoded Value</type>
+	<value code="A">Absent</value>
+	<value code="P">Present</value>
+</variable>
+
+<variable id="phv00081171.v1">
+	<name>FRSO_NEURTX</name>
+	<description>GRASP: Neurological Changes</description>
+	<type>String</type>
+</variable>
+
+<variable id="phv00081172.v1">
+	<name>GOTH_NEUEV</name>
+	<description>AMBULATORY: Neurological examination</description>
+	<type>Encoded Value</type>
+	<value code="A">Absent</value>
+	<value code="P">Present</value>
+</variable>
+
+<variable id="phv00081173.v1">
+	<name>GOTH_NEURTX</name>
+	<description>AMBULATORY: Neurological Changes</description>
+	<type>String</type>
+</variable>
+
+<variable id="phv00081174.v1">
+	<name>MYOC_NEUEV</name>
+	<description>MYOCLONUS, BRADYKINESIA: Neurological examination</description>
+	<type>Encoded Value</type>
+	<value code="A">Absent</value>
+	<value code="P">Present</value>
+</variable>
+
+<variable id="phv00081175.v1">
+	<name>MYOC_NEURTX</name>
+	<description>MYOCLONUS, BRADYKINESIA: Neurological Changes</description>
+	<type>String</type>
+</variable>
+
+<variable id="phv00081176.v1">
+	<name>OTH_NEUEV</name>
+	<description>FRONTAL RELEASE OTHER: Neurological examination</description>
+	<type>Encoded Value</type>
+	<value code="A">Absent</value>
+	<value code="P">Present</value>
+</variable>
+
+<variable id="phv00081177.v1">
+	<name>OTH_NEURTX</name>
+	<description>FRONTAL RELEASE OTHER: Neurological Changes</description>
+	<type>String</type>
+</variable>
+
+<variable id="phv00081178.v1">
+	<name>PLR_NEUEV</name>
+	<description>PLANTAR RESPONSES: Neurological examination</description>
+	<type>Encoded Value</type>
+	<value code="A">Abnormal</value>
+	<value code="N">Normal</value>
+</variable>
+
+<variable id="phv00081179.v1">
+	<name>PLR_NEURTX</name>
+	<description>PLANTAR RESPONSES: Neurological Changes</description>
+	<type>String</type>
+</variable>
+
+<variable id="phv00081180.v1">
+	<name>PRK_NEUEV</name>
+	<description>PARKINSONISM: Neurological examination</description>
+	<type>Encoded Value</type>
+	<value code="A">Absent</value>
+	<value code="P">Present</value>
+</variable>
+
+<variable id="phv00081181.v1">
+	<name>PRK_NEURTX</name>
+	<description>PARKINSONISM: Neurological Changes</description>
+	<type>String</type>
+</variable>
+
+<variable id="phv00081182.v1">
+	<name>RILO_NEUEV</name>
+	<description>LIMB RIGIDITY OTHER: Neurological examination</description>
+	<type>Encoded Value</type>
+	<value code="A">Absent</value>
+	<value code="P">Present</value>
+</variable>
+
+<variable id="phv00081183.v1">
+	<name>RILO_NEURTX</name>
+	<description>LIMB RIGIDITY OTHER: Neurological Changes</description>
+	<type>String</type>
+</variable>
+
+<variable id="phv00081184.v1">
+	<name>RILP_NEUEV</name>
+	<description>PARATONIA: Neurological examination</description>
+	<type>Encoded Value</type>
+	<value code="A">Absent</value>
+	<value code="P">Present</value>
+</variable>
+
+<variable id="phv00081185.v1">
+	<name>RILP_NEURTX</name>
+	<description>PARATONIA: Neurological Changes</description>
+	<type>String</type>
+</variable>
+
+<variable id="phv00081186.v1">
+	<name>TRO_NEUEV</name>
+	<description>RESTING: Neurological examination</description>
+	<type>Encoded Value</type>
+	<value code="A">Absent</value>
+	<value code="P">Present</value>
+</variable>
+
+<variable id="phv00081187.v1">
+	<name>TRO_NEURTX</name>
+	<description>RESTING: Neurological Changes</description>
+	<type>String</type>
+</variable>
+
+<variable id="phv00081188.v1">
+	<name>TRP_NEUEV</name>
+	<description>GAIT OTHER: Neurological examination</description>
+	<type>Encoded Value</type>
+	<value code="A">Absent</value>
+	<value code="P">Present</value>
+</variable>
+
+<variable id="phv00081189.v1">
+	<name>TRP_NEURTX</name>
+	<description>GAIT OTHER: Neurological Changes</description>
+	<type>String</type>
+</variable>
+
+<variable id="phv00081190.v1">
+	<name>TRR_NEUEV</name>
+	<description>POSTURAL: Neurological examination</description>
+	<type>Encoded Value</type>
+	<value code="A">Absent</value>
+	<value code="P">Present</value>
+</variable>
+
+<variable id="phv00081191.v1">
+	<name>TRR_NEURTX</name>
+	<description>POSTURAL: Neurological Changes</description>
+	<type>String</type>
+</variable>
+
+</data_table>

@@ -1,0 +1,420 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./datadict_v2.xsl"?>
+<data_table id="pht001886.v1" study_id="phs000289.v1" participant_set="1" date_created="Mon Sep 13 14:02:12 2010">
+
+<variable id="phv00121843.v1">
+	<name>geneva_id</name>
+	<description>ID assigned by Coordinating Center for GENEVA consortium</description>
+	<type>integer</type>
+</variable>
+
+<variable id="phv00121844.v1">
+	<name>phenotype</name>
+	<description>Patient VTE case status</description>
+	<type>encoded integer</type>
+	<logical_min>-9</logical_min>
+	<logical_max>2</logical_max>
+	<value code="1">control</value>
+	<value code="2">case</value>
+	<value code="-9">neither</value>
+</variable>
+
+<variable id="phv00121845.v1">
+	<name>gender</name>
+	<description>Gender</description>
+	<type>encoded string</type>
+	<value code="M">male</value>
+	<value code="F">female</value>
+</variable>
+
+<variable id="phv00121846.v1">
+	<name>enrollage</name>
+	<description>Age at Time of Enrollment</description>
+	<type>integer</type>
+	<unit>years</unit>
+	<logical_min>18</logical_min>
+</variable>
+
+<variable id="phv00121847.v1">
+	<name>state_enroll</name>
+	<description>State of residence at current appt date</description>
+	<type>encoded string</type>
+	<value code="AK">Alaska</value>
+	<value code="AL">Alabama</value>
+	<value code="AR">Arkansas</value>
+	<value code="CA">California</value>
+	<value code="CO">Colorado</value>
+	<value code="CT">Connecticut</value>
+	<value code="FL">Florida</value>
+	<value code="GA">Georgia</value>
+	<value code="HI">Hawaii</value>
+	<value code="IA">Iowa</value>
+	<value code="IL">Illinois</value>
+	<value code="IN">Indiana</value>
+	<value code="KS">Kansas</value>
+	<value code="KY">Kentucky</value>
+	<value code="LA">Louisiana</value>
+	<value code="MA">Massachusetts</value>
+	<value code="MI">Michigan</value>
+	<value code="MN">Minnesota</value>
+	<value code="MO">Missouri</value>
+	<value code="MT">Montana</value>
+	<value code="NC">North Carolina</value>
+	<value code="ND">North Dakota</value>
+	<value code="NE">Nebraska</value>
+	<value code="NJ">New Jersey</value>
+	<value code="NM">New Mexico</value>
+	<value code="NOT US">Not residing in the US</value>
+	<value code="NV">Nevada</value>
+	<value code="NY">New York</value>
+	<value code="OH">Ohio</value>
+	<value code="OK">Oklahoma</value>
+	<value code="PA">Pennsylvania</value>
+	<value code="SD">South Dakota</value>
+	<value code="TN">Tennesee</value>
+	<value code="TX">Texas</value>
+	<value code="VA">Virginia</value>
+	<value code="WA">Washington</value>
+	<value code="WI">Wisconsin</value>
+	<value code="WV">West Virginia</value>
+	<value code="WY">Wyoming</value>
+</variable>
+
+<variable id="phv00121848.v1">
+	<name>stroke</name>
+	<description>Ever had a stroke</description>
+	<type>encoded integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>1</logical_max>
+	<value code="0">no</value>
+	<value code="1">yes</value>
+</variable>
+
+<variable id="phv00121849.v1">
+	<name>legparesis</name>
+	<description>Ever had leg paresis due to any cause</description>
+	<type>encoded integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>1</logical_max>
+	<value code="0">no</value>
+	<value code="1">yes</value>
+</variable>
+
+<variable id="phv00121850.v1">
+	<name>MI</name>
+	<description>Ever had a heart attack (mi)</description>
+	<type>encoded integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>1</logical_max>
+	<value code="0">no</value>
+	<value code="1">yes</value>
+</variable>
+
+<variable id="phv00121851.v1">
+	<name>cancer</name>
+	<description>Ever had cancer (excluding non-melanoma skin cancer)</description>
+	<type>encoded integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>1</logical_max>
+	<value code="0">no</value>
+	<value code="1">yes</value>
+</variable>
+
+<variable id="phv00121852.v1">
+	<name>breast_cancer</name>
+	<description>Type of cancer - breast</description>
+	<type>encoded integer, encoded string</type>
+	<logical_min>1</logical_min>
+	<logical_max>1</logical_max>
+	<value code=".">implied no</value>
+	<value code="1">yes</value>
+</variable>
+
+<variable id="phv00121853.v1">
+	<name>colon_cancer</name>
+	<description>Type of cancer - colon</description>
+	<type>encoded integer, encoded string</type>
+	<logical_min>1</logical_min>
+	<logical_max>1</logical_max>
+	<value code=".">implied no</value>
+	<value code="1">yes</value>
+</variable>
+
+<variable id="phv00121854.v1">
+	<name>lung_cancer</name>
+	<description>Type of cancer - lung</description>
+	<type>encoded integer, encoded string</type>
+	<logical_min>1</logical_min>
+	<logical_max>1</logical_max>
+	<value code=".">implied no</value>
+	<value code="1">yes</value>
+</variable>
+
+<variable id="phv00121855.v1">
+	<name>prostate_cancer</name>
+	<description>Type of cancer - prostate</description>
+	<type>encoded integer, encoded string</type>
+	<logical_min>1</logical_min>
+	<logical_max>1</logical_max>
+	<value code=".">implied no</value>
+	<value code="1">yes</value>
+</variable>
+
+<variable id="phv00121856.v1">
+	<name>other_cancer</name>
+	<description>Type of cancer - other</description>
+	<type>encoded integer, encoded string</type>
+	<logical_min>1</logical_min>
+	<logical_max>1</logical_max>
+	<value code=".">implied no</value>
+	<value code="1">yes</value>
+</variable>
+
+<variable id="phv00121857.v1">
+	<name>liver_disease</name>
+	<description>Ever had chronic liver disease</description>
+	<type>encoded integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>1</logical_max>
+	<value code="0">no</value>
+	<value code="1">yes</value>
+</variable>
+
+<variable id="phv00121858.v1">
+	<name>hospital_nosurgery</name>
+	<description>Ever been hospitalized, not for surgery</description>
+	<type>encoded integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>1</logical_max>
+	<value code="0">no</value>
+	<value code="1">yes</value>
+</variable>
+
+<variable id="phv00121859.v1">
+	<name>surgery</name>
+	<description>Ever had surgery</description>
+	<type>encoded integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>1</logical_max>
+	<value code="0">no</value>
+	<value code="1">yes</value>
+</variable>
+
+<variable id="phv00121860.v1">
+	<name>VTE</name>
+	<description>Ever had a blood clot in your vein</description>
+	<type>encoded integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>1</logical_max>
+	<value code="0">no</value>
+	<value code="1">yes</value>
+	<value code=".">neither (ineligible)</value>
+</variable>
+
+<variable id="phv00121861.v1">
+	<name>age_clot</name>
+	<description>Age at time of blood clot</description>
+	<type>integer</type>
+	<unit>years</unit>
+	<logical_min>0</logical_min>
+</variable>
+
+<variable id="phv00121862.v1">
+	<name>warfarin_clot</name>
+	<description>Blood clot treated with warfarin</description>
+	<type>encoded integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>1</logical_max>
+	<value code="0">no</value>
+	<value code="1">yes</value>
+	<value code=".">unknown or not applicable</value>
+</variable>
+
+<variable id="phv00121863.v1">
+	<name>OC_clot</name>
+	<description>Taking oral contraceptives in the three months prior to first clot</description>
+	<type>encoded integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>1</logical_max>
+	<value code="0">no</value>
+	<value code="1">yes</value>
+	<value code=".">unknown or not applicable</value>
+</variable>
+
+<variable id="phv00121864.v1">
+	<name>pregnant_clot</name>
+	<description>Pregnant in the three months prior to first clot</description>
+	<type>encoded integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>1</logical_max>
+	<value code="0">no</value>
+	<value code="1">yes</value>
+	<value code=".">unknown or not applicable</value>
+</variable>
+
+<variable id="phv00121865.v1">
+	<name>postpartum_clot</name>
+	<description>Postpartum in the three months prior to first clot</description>
+	<type>encoded integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>1</logical_max>
+	<value code="0">no</value>
+	<value code="1">yes</value>
+	<value code=".">unknown or not applicable</value>
+</variable>
+
+<variable id="phv00121866.v1">
+	<name>HRT_clot</name>
+	<description>Taking hormone replacement therapy in the three months prior to first clot</description>
+	<type>encoded integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>1</logical_max>
+	<value code="0">no</value>
+	<value code="1">yes</value>
+	<value code=".">unknown or not applicable</value>
+</variable>
+
+<variable id="phv00121867.v1">
+	<name>times_pregnant</name>
+	<description>Number of pregnancies</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>16</logical_max>
+</variable>
+
+<variable id="phv00121868.v1">
+	<name>pregnant_complete</name>
+	<description>Number of completed pregnancies</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+</variable>
+
+<variable id="phv00121869.v1">
+	<name>pregnant_livebirth</name>
+	<description>Number of pregnancies that resulted in live birth(s)</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+</variable>
+
+<variable id="phv00121870.v1">
+	<name>clotht_cms</name>
+	<description>Height at time of blood clot</description>
+	<type>integer</type>
+	<unit>centimeters</unit>
+	<logical_min>142</logical_min>
+	<logical_max>216</logical_max>
+	<comment>For retrospectively collected samples, if height and weight at clot and appointment were not asked in the questionnaire, then information was abstracted from procedure described in Abstraction_Form_Heit_GWAS_083010.pdf Q11 and Q12.</comment>
+</variable>
+
+<variable id="phv00121871.v1">
+	<name>clotwt_kgs</name>
+	<description>Weight at time of blood clot</description>
+	<type>integer</type>
+	<unit>kilograms</unit>
+	<logical_min>38</logical_min>
+	<comment>For retrospectively collected samples, if height and weight at clot and appointment were not asked in the questionnaire, then information was abstracted from procedure described in Abstraction_Form_Heit_GWAS_083010.pdf Q11 and Q12.</comment>
+</variable>
+
+<variable id="phv00121872.v1">
+	<name>apptht_cms</name>
+	<description>Height at current appt date</description>
+	<type>integer</type>
+	<unit>centimeters</unit>
+	<logical_min>144</logical_min>
+	<logical_max>218</logical_max>
+	<comment>For retrospectively collected samples, if height and weight at clot and appointment were not asked in the questionnaire, then information was abstracted from procedure described in Abstraction_Form_Heit_GWAS_083010.pdf Q11 and Q12.</comment>
+</variable>
+
+<variable id="phv00121873.v1">
+	<name>apptwt_kgs</name>
+	<description>Weight at current appt date</description>
+	<type>integer</type>
+	<unit>kilograms</unit>
+	<logical_min>41</logical_min>
+	<comment>For retrospectively collected samples, if height and weight at clot and appointment were not asked in the questionnaire, then information was abstracted from procedure described in Abstraction_Form_Heit_GWAS_083010.pdf Q11 and Q12.</comment>
+</variable>
+
+<variable id="phv00121874.v1">
+	<name>smoking</name>
+	<description>Ever smoked (never, former, current)</description>
+	<type>encoded integer, encoded string</type>
+	<logical_min>0</logical_min>
+	<logical_max>2</logical_max>
+	<value code="0">never</value>
+	<value code="1">current</value>
+	<value code="2">former</value>
+	<value code=".">unknown</value>
+</variable>
+
+<variable id="phv00121875.v1">
+	<name>Hispanic</name>
+	<description>Hispanic or Latino</description>
+	<type>encoded integer, encoded string</type>
+	<logical_min>0</logical_min>
+	<logical_max>1</logical_max>
+	<value code="0">no</value>
+	<value code="1">yes</value>
+	<value code=".">unknown</value>
+</variable>
+
+<variable id="phv00121876.v1">
+	<name>race_afram</name>
+	<description>Race - black or african american</description>
+	<type>encoded integer, encoded string</type>
+	<logical_min>1</logical_min>
+	<logical_max>1</logical_max>
+	<value code=".">implied no</value>
+	<value code="1">yes</value>
+</variable>
+
+<variable id="phv00121877.v1">
+	<name>race_amind</name>
+	<description>Race - american indian/alaska native</description>
+	<type>encoded integer, encoded string</type>
+	<logical_min>1</logical_min>
+	<logical_max>1</logical_max>
+	<value code=".">implied no</value>
+	<value code="1">yes</value>
+</variable>
+
+<variable id="phv00121878.v1">
+	<name>race_asian</name>
+	<description>Race - asian</description>
+	<type>encoded integer, encoded string</type>
+	<logical_min>1</logical_min>
+	<logical_max>1</logical_max>
+	<value code=".">implied no</value>
+	<value code="1">yes</value>
+</variable>
+
+<variable id="phv00121879.v1">
+	<name>race_other</name>
+	<description>Race - other</description>
+	<type>encoded integer, encoded string</type>
+	<logical_min>1</logical_min>
+	<logical_max>1</logical_max>
+	<value code=".">implied no</value>
+	<value code="1">yes</value>
+</variable>
+
+<variable id="phv00121880.v1">
+	<name>race_pacisl</name>
+	<description>Race - native hawaiian or other pacific islander</description>
+	<type>encoded integer, encoded string</type>
+	<logical_min>1</logical_min>
+	<logical_max>1</logical_max>
+	<value code=".">implied no</value>
+	<value code="1">yes</value>
+</variable>
+
+<variable id="phv00121881.v1">
+	<name>race_white</name>
+	<description>Race - white</description>
+	<type>encoded integer, encoded string</type>
+	<logical_min>1</logical_min>
+	<logical_max>1</logical_max>
+	<value code=".">implied no</value>
+	<value code="1">yes</value>
+</variable>
+
+</data_table>

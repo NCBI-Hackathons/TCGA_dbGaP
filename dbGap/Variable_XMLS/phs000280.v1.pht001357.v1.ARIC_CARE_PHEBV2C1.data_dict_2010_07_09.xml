@@ -1,0 +1,507 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./datadict_v2.xsl"?>
+<data_table id="pht001357.v1" study_id="phs000280.v1" participant_set="1" date_created="Fri Jul  9 11:26:41 2010">
+
+<variable id="phv00095753.v1">
+	<name>Individual_ID</name>
+	<description>Subject Identifier</description>
+	<type>string</type>
+</variable>
+
+<variable id="phv00095754.v1">
+	<name>PHEBFLAG</name>
+	<description>=1 if form is present</description>
+	<type>encoded</type>
+	<value code="1">Presence of form</value>
+	<value code=".">Missing</value>
+</variable>
+
+<variable id="phv00095755.v1">
+	<name>PHEBCY</name>
+	<description>CONTACT YEAR [4]</description>
+	<type>integer</type>
+	<unit>Year</unit>
+	<value code=".">Missing</value>
+</variable>
+
+<variable id="phv00095756.v1">
+	<name>PHEB01</name>
+	<description>AFU CHEST PAIN CONFIRMATION       Q1</description>
+	<type>encoded</type>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002914.1">Exam 2 Physical Examination.pdf</a>.]]></comment>
+	<value code="N">No</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00095757.v1">
+	<name>PHEB02</name>
+	<description>LOCATION OF PAIN                  Q2</description>
+	<type>encoded</type>
+	<comment><![CDATA[The encoded value descriptions were not submitted at this time. If you have any questions, please visit http://www.cscc.unc.edu/ARIC/pubuse/.
+		For further information, consult the document <a href="GetPdf.cgi?id=phd002914.1">Exam 2 Physical Examination.pdf</a>. ]]></comment>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00095758.v1">
+	<name>PHEB02A</name>
+	<description>UPPER OR MIDDLE STERNUM           Q2A</description>
+	<type>encoded</type>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002914.1">Exam 2 Physical Examination.pdf</a>.]]></comment>
+	<value code="N">No</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00095759.v1">
+	<name>PHEB02B</name>
+	<description>LOWER STERNUM                     Q2B</description>
+	<type>encoded</type>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002914.1">Exam 2 Physical Examination.pdf</a>.]]></comment>
+	<value code="N">No</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00095760.v1">
+	<name>PHEB02C</name>
+	<description>LEFT ANTERIOR CHEST               Q2C</description>
+	<type>encoded</type>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002914.1">Exam 2 Physical Examination.pdf</a>.]]></comment>
+	<value code="N">No</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00095761.v1">
+	<name>PHEB02D</name>
+	<description>LEFT ARM                          Q2D</description>
+	<type>encoded</type>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002914.1">Exam 2 Physical Examination.pdf</a>.]]></comment>
+	<value code="N">No</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00095762.v1">
+	<name>PHEB02E</name>
+	<description>OTHER LOCATION                    Q2E</description>
+	<type>encoded</type>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002914.1">Exam 2 Physical Examination.pdf</a>.]]></comment>
+	<value code="N">No</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00095763.v1">
+	<name>PHEB03</name>
+	<description>CHEST PAIN STATUS IN PAST 2 MONS? Q3</description>
+	<type>encoded</type>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002914.1">Exam 2 Physical Examination.pdf</a>.]]></comment>
+	<value code="N">No</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00095764.v1">
+	<name>PHEB04</name>
+	<description>HRT, NECK OR LEG ARTERY SURGERY?  Q4</description>
+	<type>encoded</type>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002914.1">Exam 2 Physical Examination.pdf</a>.]]></comment>
+	<value code="N">No</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00095765.v1">
+	<name>PHEB05A</name>
+	<description>CORONARY BYPASS                   Q5A</description>
+	<type>encoded</type>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002914.1">Exam 2 Physical Examination.pdf</a>.]]></comment>
+	<value code="N">No</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00095766.v1">
+	<name>PHEB05B</name>
+	<description>OTHER HEART PROCEDURE             Q5B</description>
+	<type>encoded</type>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002914.1">Exam 2 Physical Examination.pdf</a>.]]></comment>
+	<value code="N">No</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00095767.v1">
+	<name>PHEB05C</name>
+	<description>CAROTID ENDARTERECTOMY            Q5C</description>
+	<type>encoded</type>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002914.1">Exam 2 Physical Examination.pdf</a>.]]></comment>
+	<value code="N">No</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00095768.v1">
+	<name>PHEB05D</name>
+	<description>SITE: LEFT, RIGHT, OR BOTH        Q5D</description>
+	<type>encoded</type>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002914.1">Exam 2 Physical Examination.pdf</a>.]]></comment>
+	<value code="B">Both</value>
+	<value code="L">Left</value>
+	<value code="R">Right</value>
+</variable>
+
+<variable id="phv00095769.v1">
+	<name>PHEB05E</name>
+	<description>OTHER ARTERIAL REVASCULARIZATION  Q5E</description>
+	<type>encoded</type>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002914.1">Exam 2 Physical Examination.pdf</a>.]]></comment>
+	<value code="N">No</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00095770.v1">
+	<name>PHEB05F</name>
+	<description>OTHER TYPE OF INVASIVE PROCEDURE  Q5F</description>
+	<type>encoded</type>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002914.1">Exam 2 Physical Examination.pdf</a>.]]></comment>
+	<value code="N">No</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00095771.v1">
+	<name>PHEB06</name>
+	<description>BALLOON ANGIOPLASTY ON HRT OR LGS Q6</description>
+	<type>encoded</type>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002914.1">Exam 2 Physical Examination.pdf</a>.]]></comment>
+	<value code="N">No</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00095772.v1">
+	<name>PHEB07A</name>
+	<description>ANGIOPLASTY OF CORONARY ARTERY(S) Q7A</description>
+	<type>encoded</type>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002914.1">Exam 2 Physical Examination.pdf</a>.]]></comment>
+	<value code="N">No</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00095773.v1">
+	<name>PHEB07B</name>
+	<description>ANGIOPLASTY OF LEG ARTERIES       Q7B</description>
+	<type>encoded</type>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002914.1">Exam 2 Physical Examination.pdf</a>.]]></comment>
+	<value code="N">No</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00095774.v1">
+	<name>PHEB08A</name>
+	<description>HEART CATHETERIZATION             Q8A</description>
+	<type>encoded</type>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002914.1">Exam 2 Physical Examination.pdf</a>.]]></comment>
+	<value code="N">No</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00095775.v1">
+	<name>PHEB08B</name>
+	<description>OTHER ARTERIAL CATHETERIZATION    Q8B</description>
+	<type>encoded</type>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002914.1">Exam 2 Physical Examination.pdf</a>.]]></comment>
+	<value code="N">No</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00095776.v1">
+	<name>PHEB09A</name>
+	<description>ECHOCARDIOGRAM                    Q9A</description>
+	<type>encoded</type>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002914.1">Exam 2 Physical Examination.pdf</a>.]]></comment>
+	<value code="N">No</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00095777.v1">
+	<name>PHEB09B</name>
+	<description>ELECTROCARDIOGRAM                 Q9B</description>
+	<type>encoded</type>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002914.1">Exam 2 Physical Examination.pdf</a>.]]></comment>
+	<value code="N">No</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00095778.v1">
+	<name>PHEB09C</name>
+	<description>TREADMILL OR CARDIAC STRESS TEST  Q9C</description>
+	<type>encoded</type>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002914.1">Exam 2 Physical Examination.pdf</a>.]]></comment>
+	<value code="N">No</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00095779.v1">
+	<name>PHEB09D</name>
+	<description>CAROTID ULTRASOUND STUDIES        Q9D</description>
+	<type>encoded</type>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002914.1">Exam 2 Physical Examination.pdf</a>.]]></comment>
+	<value code="N">No</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00095780.v1">
+	<name>PHEB09E</name>
+	<description>HEART CATHETERIZATION             Q9E</description>
+	<type>encoded</type>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002914.1">Exam 2 Physical Examination.pdf</a>.]]></comment>
+	<value code="N">No</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00095781.v1">
+	<name>PHEB12</name>
+	<description>GAIT DESCRIPTION                  Q12</description>
+	<type>encoded</type>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002914.1">Exam 2 Physical Examination.pdf</a>.]]></comment>
+	<value code="A">Abnormal</value>
+	<value code="N">Normal</value>
+</variable>
+
+<variable id="phv00095782.v1">
+	<name>PHEB12A</name>
+	<description>DYSTAXIC GAIT?                    Q12A</description>
+	<type>encoded</type>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002914.1">Exam 2 Physical Examination.pdf</a>.]]></comment>
+	<value code="N">No</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00095783.v1">
+	<name>PHEB12B</name>
+	<description>HEMIPLEGIC OR HEMIPARETIC GAIT?   Q12B</description>
+	<type>encoded</type>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002914.1">Exam 2 Physical Examination.pdf</a>.]]></comment>
+	<value code="L">Left</value>
+	<value code="N">No</value>
+	<value code="R">Right</value>
+</variable>
+
+<variable id="phv00095784.v1">
+	<name>PHEB13</name>
+	<description>IS THERE ARM WEAKNESS?            Q13</description>
+	<type>encoded</type>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002914.1">Exam 2 Physical Examination.pdf</a>.]]></comment>
+	<value code="B">Both</value>
+	<value code="L">Left</value>
+	<value code="N">No</value>
+	<value code="R">Right</value>
+</variable>
+
+<variable id="phv00095785.v1">
+	<name>PHEB14</name>
+	<description>RHOMBERG?                         Q14</description>
+	<type>encoded</type>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002914.1">Exam 2 Physical Examination.pdf</a>.]]></comment>
+	<value code="C">Can not balance</value>
+	<value code="N">Negative</value>
+	<value code="P">Positive</value>
+</variable>
+
+<variable id="phv00095786.v1">
+	<name>PHEB15</name>
+	<description>CAROTID BRUITS?                   Q15</description>
+	<type>encoded</type>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002914.1">Exam 2 Physical Examination.pdf</a>.]]></comment>
+	<value code="B">Both</value>
+	<value code="L">Left</value>
+	<value code="N">No</value>
+	<value code="R">Right</value>
+</variable>
+
+<variable id="phv00095787.v1">
+	<name>PHEB16</name>
+	<description>OTHER HEAD OR NECK FINDINGS?      Q16</description>
+	<type>encoded</type>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002914.1">Exam 2 Physical Examination.pdf</a>.]]></comment>
+	<value code="N">No</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00095788.v1">
+	<name>PHEB17</name>
+	<description>RHONCHI?                          Q17</description>
+	<type>encoded</type>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002914.1">Exam 2 Physical Examination.pdf</a>.]]></comment>
+	<value code="B">Both</value>
+	<value code="L">Left</value>
+	<value code="N">No</value>
+	<value code="R">Right</value>
+</variable>
+
+<variable id="phv00095789.v1">
+	<name>PHEB18</name>
+	<description>RALES?                            Q18</description>
+	<type>encoded</type>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002914.1">Exam 2 Physical Examination.pdf</a>.]]></comment>
+	<value code="B">Both</value>
+	<value code="L">Left</value>
+	<value code="N">No</value>
+	<value code="R">Right</value>
+</variable>
+
+<variable id="phv00095790.v1">
+	<name>PHEB19</name>
+	<description>OTHER CHEST FINDINGS?             Q19</description>
+	<type>encoded</type>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002914.1">Exam 2 Physical Examination.pdf</a>.]]></comment>
+	<value code="N">No</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00095791.v1">
+	<name>PHEB20</name>
+	<description>SYSTOLIC MURMUR?                  Q20</description>
+	<type>encoded</type>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002914.1">Exam 2 Physical Examination.pdf</a>.]]></comment>
+	<value code="D">Don&#39;t know</value>
+	<value code="N">No</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00095792.v1">
+	<name>PHEB20A</name>
+	<description>SYSTOLIC MURMUR GRADE             Q20A</description>
+	<type>encoded</type>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002914.1">Exam 2 Physical Examination.pdf</a>.]]></comment>
+	<value code="1">Grade 1</value>
+	<value code="2">Grade 2</value>
+	<value code="3">Grade 3</value>
+	<value code="4">Grade 4</value>
+	<value code="5">Grade 5</value>
+</variable>
+
+<variable id="phv00095793.v1">
+	<name>PHEB20B</name>
+	<description>SYSTOLIC MURMUR LOCATION          Q20B</description>
+	<type>encoded</type>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002914.1">Exam 2 Physical Examination.pdf</a>.]]></comment>
+	<value code="A">Apex</value>
+	<value code="L">2nd left interspace</value>
+	<value code="O">Other</value>
+	<value code="R">2nd right interspace</value>
+	<value code="S">Left lower sternal border</value>
+</variable>
+
+<variable id="phv00095794.v1">
+	<name>PHEB21</name>
+	<description>DIASTOLIC MURMUR?                 Q21</description>
+	<type>encoded</type>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002914.1">Exam 2 Physical Examination.pdf</a>.]]></comment>
+	<value code="D">Don&#39;t know</value>
+	<value code="N">No</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00095795.v1">
+	<name>PHEB21A</name>
+	<description>DIASTOLIC MURMUR GRADE            Q21A</description>
+	<type>encoded</type>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002914.1">Exam 2 Physical Examination.pdf</a>.]]></comment>
+	<value code="1">Grade 1</value>
+	<value code="2">Grade 2</value>
+	<value code="3">Grade 3</value>
+	<value code="4">Grade 4</value>
+</variable>
+
+<variable id="phv00095796.v1">
+	<name>PHEB21B</name>
+	<description>DIASTOLIC MURMUR LOCATION         Q21B</description>
+	<type>encoded</type>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002914.1">Exam 2 Physical Examination.pdf</a>.]]></comment>
+	<value code="A">Apex</value>
+	<value code="L">2nd left interspace</value>
+	<value code="O">Other</value>
+	<value code="R">2nd right interspace</value>
+	<value code="S">Left lower sternal border</value>
+</variable>
+
+<variable id="phv00095797.v1">
+	<name>PHEB22</name>
+	<description>OTHER HEART FINDINGS?             Q22</description>
+	<type>encoded</type>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002914.1">Exam 2 Physical Examination.pdf</a>.]]></comment>
+	<value code="N">No</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00095798.v1">
+	<name>PHEB23</name>
+	<description>ANKLE EDEMA?                      Q23</description>
+	<type>encoded</type>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002914.1">Exam 2 Physical Examination.pdf</a>.]]></comment>
+	<value code="N">No</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00095799.v1">
+	<name>PHEB23A</name>
+	<description>RIGHT ANKLE EDEMA?                Q23A</description>
+	<type>encoded</type>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002914.1">Exam 2 Physical Examination.pdf</a>.]]></comment>
+	<value code="L">Mild</value>
+	<value code="N">No</value>
+	<value code="R">Marked</value>
+</variable>
+
+<variable id="phv00095800.v1">
+	<name>PHEB23B</name>
+	<description>LEFT ANKLE EDEMA?                 Q23B</description>
+	<type>encoded</type>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002914.1">Exam 2 Physical Examination.pdf</a>.]]></comment>
+	<value code="L">Mild</value>
+	<value code="N">No</value>
+	<value code="R">Marked</value>
+</variable>
+
+<variable id="phv00095801.v1">
+	<name>PHEB24</name>
+	<description>POSTERIOR TIBIAL PULSE?           Q24</description>
+	<type>encoded</type>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002914.1">Exam 2 Physical Examination.pdf</a>.]]></comment>
+	<value code="A">Absent bilaterally</value>
+	<value code="L">Present left only</value>
+	<value code="P">Present bilaterally</value>
+	<value code="R">Present right only</value>
+</variable>
+
+<variable id="phv00095802.v1">
+	<name>PHEB25</name>
+	<description>OTHER EXTREMITY FINDINGS?         Q25</description>
+	<type>encoded</type>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002914.1">Exam 2 Physical Examination.pdf</a>.]]></comment>
+	<value code="N">No</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00095803.v1">
+	<name>PHEB26</name>
+	<description>BABINSKI?                         Q26</description>
+	<type>encoded</type>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002914.1">Exam 2 Physical Examination.pdf</a>.]]></comment>
+	<value code="B">Both</value>
+	<value code="L">Left</value>
+	<value code="N">No</value>
+	<value code="R">Right</value>
+</variable>
+
+<variable id="phv00095804.v1">
+	<name>PHEB27</name>
+	<description>OTHER SIGNIFICANT PHYS FINDINGS?  Q27</description>
+	<type>encoded</type>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002914.1">Exam 2 Physical Examination.pdf</a>.]]></comment>
+	<value code="N">No</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00095805.v1">
+	<name>PHEB29</name>
+	<description>METHOD OF DATA COLLECTION         Q29</description>
+	<type>encoded</type>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002914.1">Exam 2 Physical Examination.pdf</a>.]]></comment>
+	<value code="C">Computer</value>
+	<value code="P">Paper form</value>
+</variable>
+
+</data_table>

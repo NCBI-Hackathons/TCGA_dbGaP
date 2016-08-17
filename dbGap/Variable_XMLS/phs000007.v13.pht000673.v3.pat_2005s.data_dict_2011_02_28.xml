@@ -1,0 +1,534 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./datadict_v2.xsl"?>
+<data_table id="pht000673.v3" study_id="phs000007.v13" participant_set="5" date_created="Mon Feb 28 17:32:17 2011">
+
+<variable id="phv00066694.v2">
+	<name>BEGOCC</name>
+	<description>START TIME OF OCCLUSION (MIN:SEC) (TIME8.)</description>
+	<type> </type>
+</variable>
+
+<variable id="phv00066695.v2">
+	<name>ENDOCC</name>
+	<description>END TIME OF OCCLUSION (MIN:SEC) (TIME8.)</description>
+	<type> </type>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00066696.v2">
+	<name>OCCDUR</name>
+	<description>OCCLUSION DURATION (SHOULD BE 5 MINUTES, ACCEPTABLE TO 5 MINUTES 30 SECONDS) (MIN:SEC) (TIME8.)</description>
+	<type> </type>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00066697.v2">
+	<name>BLDUR</name>
+	<description>DURATION OF THE RECORDED BASELINE (MIN:SEC) (TIME8.)</description>
+	<type> </type>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00066698.v2">
+	<name>BLROI</name>
+	<description>DURATION OF THE BASELINE SEGMENT TAKEN FOR CALCULATION OF MEAN BASELINE AMPLITUDE (ROI=REGION OF INTEREST)(MIN:SEC) (TIME8.)</description>
+	<type> </type>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00066699.v2">
+	<name>SIGDUR</name>
+	<description>DURATION OF WHOLE STUDY (MIN:SEC) (TIME8.)</description>
+	<type> </type>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00066700.v2">
+	<name>WARNERR</name>
+	<description>WARNINGS/ERRORS</description>
+	<type> </type>
+</variable>
+
+<variable id="phv00066701.v2">
+	<name>REMARK1</name>
+	<description>REMARK 1 (FINGERNAIL CONDITION)</description>
+	<type> </type>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00066702.v2">
+	<name>ERROR</name>
+	<description>ERROR</description>
+	<type> </type>
+</variable>
+
+<variable id="phv00066703.v2">
+	<name>WARNING</name>
+	<description>WARNINGS</description>
+	<type> </type>
+</variable>
+
+<variable id="phv00066704.v2">
+	<name>RESULT</name>
+	<description>PAT RESULT/RH INDEX (RATIO)</description>
+	<type> </type>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00066705.v2">
+	<name>HR</name>
+	<description>BASELINE HEART RATE, BPM</description>
+	<type> </type>
+	<unit>mmHG</unit>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00066706.v2">
+	<name>AI</name>
+	<description>AUGMENTATION INDEX (CALCULATED AS THE PERCENT DIFFERENCE BETWEEN FIRST AND SECOND PEAKS OF THE SIGNAL WAVEFORM)</description>
+	<type> </type>
+	<unit>PERCENT</unit>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00066707.v2">
+	<name>AI_N</name>
+	<description>AUGMENTATION INDEX PULSES (NUMBER OF PULSES FROM WHICH THE AVERAGE WAVEFORM THAT IS USED IN THE AI CALCULATION WAS DRIVEN)</description>
+	<type> </type>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00066708.v2">
+	<name>AI_T1</name>
+	<description>AI_T1 (POINT OF TIME AT WHICH THE FIRST PEAK OCCURS AS MEASURED FROM THE INITIATION OF THE AVERAGED WAVEFORM) (MILLISECONDS)</description>
+	<type> </type>
+	<unit>MILLISECONDS</unit>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00066709.v2">
+	<name>AI_T2</name>
+	<description>AI_T2 (POINT OF TIME AT WHICH THE SECOND PEAK OCCURS AS MEASURED FROM THE INITIATION OF THE AVERAGED WAVEFORM) (MILLISECONDS)</description>
+	<type> </type>
+	<unit>MILLISECONDS</unit>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00066710.v2">
+	<name>VALIDBL</name>
+	<description>PERCENT VALID SIGNALS DURING BASELINE (USED TO CALCULATE SCORE)</description>
+	<type> </type>
+	<unit>PERCENT</unit>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00066711.v2">
+	<name>VALIDSIG</name>
+	<description>PERCENT VALID SIGNALS DURING POST OCCLUSION (USED TO CALCULATE SCORE)</description>
+	<type> </type>
+	<unit>PERCENT</unit>
+	<value code=".">UNKNONW</value>
+</variable>
+
+<variable id="phv00066712.v2">
+	<name>OCCBORD</name>
+	<description>OCCLUSION BORDERS - SHOWS WHERE OCCLUSION BORDER IS MANUALLY CORRECTED IN CASES WHERE THE AUTOMATIC ANALYSIS DID NOT DETECT CORRECT BORDERS (AUTOMATIC OR MANUAL)</description>
+	<type> </type>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00066713.v2">
+	<name>DBP</name>
+	<description>DIASTOLIC BLOOD PRESSURE ENTERED BY TECHNICIAN, MMHG</description>
+	<type> </type>
+	<unit>MMHG</unit>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00066714.v2">
+	<name>MEANBLO</name>
+	<description>BASELINE AVERAGE AMPLITUDE OF THE OCCLUDED SIDE</description>
+	<type> </type>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00066715.v2">
+	<name>O0_30</name>
+	<description>RATIO BETWEEN MEAN AMPLITUDE OF SEGMENT 0 TO 30 SECONDS POST OCCLUSION TO THE BASELINE AMPLITUDE ON THE OCCLUDED SIDE</description>
+	<type> </type>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00066716.v2">
+	<name>O30_60</name>
+	<description>RATIO BETWEEN MEAN AMPLITUDE OF SEGMENT 30 TO 60 SECONDS POST OCCLUSION TO THE BASELINE AMPLITUDE ON THE OCCLUDED SIDE</description>
+	<type> </type>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00066717.v2">
+	<name>O60_90</name>
+	<description>RATIO BETWEEN MEAN AMPLITUDE OF SEGMENT 60 TO 90 SECONDS POST OCCLUSION TO THE BASELINE AMPLITUDE ON THE OCCLUDED SIDE</description>
+	<type> </type>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00066718.v2">
+	<name>O90_120</name>
+	<description>RATIO BETWEEN MEAN AMPLITUDE OF SEGMENT 90 TO 120 SECONDS POST OCCLUSION TO THE BASELINE AMPLITUDE ON THE OCCLUDED SIDE</description>
+	<type> </type>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00066719.v2">
+	<name>O120_150</name>
+	<description>RATIO BETWEEN MEAN AMPLITUDE OF SEGMENT 120 TO 150 SECONDS POST OCCLUSION TO THE BASELINE AMPLITUDE ON THE OCCLUDED SIDE</description>
+	<type> </type>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00066720.v2">
+	<name>O150_180</name>
+	<description>RATIO BETWEEN MEAN AMPLITUDE OF SEGMENT 150 TO 180 SECONDS POST OCCLUSION TO THE BASELINE AMPLITUDE ON THE OCCLUDED SIDE</description>
+	<type> </type>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00066721.v2">
+	<name>O180_210</name>
+	<description>RATIO BETWEEN MEAN AMPLITUDE OF SEGMENT 180 TO 210 SECONDS POST OCCLUSION TO THE BASELINE AMPLITUDE ON THE OCCLUDED SIDE</description>
+	<type> </type>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00066722.v2">
+	<name>O210_240</name>
+	<description>RATIO BETWEEN MEAN AMPLITUDE OF SEGMENT 210 TO 240 SECONDS POST OCCLUSION TO THE BASELINE AMPLITUDE ON THE OCCLUDED SIDE</description>
+	<type> </type>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00066723.v2">
+	<name>O240_270</name>
+	<description>RATIO BETWEEN MEAN AMPLITUDE OF SEGMENT 240 TO 270 SECONDS POST OCCLUSION TO THE BASELINE AMPLITUDE ON THE OCCLUDED SIDE</description>
+	<type> </type>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00066724.v2">
+	<name>O270_300</name>
+	<description>RATIO BETWEEN MEAN AMPLITUDE OF SEGMENT 270 TO 300 SECONDS POST OCCLUSION TO THE BASELINE AMPLITUDE ON THE OCCLUDED SIDE</description>
+	<type> </type>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00066725.v2">
+	<name>O300_330</name>
+	<description>RATIO BETWEEN MEAN AMPLITUDE OF SEGMENT 300 TO 330 SECONDS POST OCCLUSION TO THE BASELINE AMPLITUDE ON THE OCCLUDED SIDE</description>
+	<type> </type>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00066726.v2">
+	<name>O330_360</name>
+	<description>RATIO BETWEEN MEAN AMPLITUDE OF SEGMENT 330 TO 360 SECONDS POST OCCLUSION TO THE BASELINE AMPLITUDE ON THE OCCLUDED SIDE</description>
+	<type> </type>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00066727.v2">
+	<name>O360_390</name>
+	<description>RATIO BETWEEN MEAN AMPLITUDE OF SEGMENT 360 TO 390 SECONDS POST OCCLUSION TO THE BASELINE AMPLITUDE ON THE OCCLUDED SIDE</description>
+	<type> </type>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00066728.v2">
+	<name>O390_420</name>
+	<description>RATIO BETWEEN MEAN AMPLITUDE OF SEGMENT 390 TO 420 SECONDS POST OCCLUSION TO THE BASELINE AMPLITUDE ON THE OCCLUDED SIDE</description>
+	<type> </type>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00066729.v2">
+	<name>MEANBLC</name>
+	<description>BASELINE AVERAGE AMPLITUDE OF THE CONTROL SIDE</description>
+	<type> </type>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00066730.v2">
+	<name>C0_30</name>
+	<description>RATIO BETWEEN MEAN AMPLITUDE OF SEGMENT 0 TO 30 SECONDS POST OCCLUSION TO THE BASELINE AMPLITUDE ON THE CONTROL SIDE</description>
+	<type> </type>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00066731.v2">
+	<name>C30_60</name>
+	<description>RATIO BETWEEN MEAN AMPLITUDE OF SEGMENT 30 TO 60 SECONDS POST OCCLUSION TO THE BASELINE AMPLITUDE ON THE CONTROL SIDE</description>
+	<type> </type>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00066732.v2">
+	<name>C60_90</name>
+	<description>RATIO BETWEEN MEAN AMPLITUDE OF SEGMENT 60 TO 90 SECONDS POST OCCLUSION TO THE BASELINE AMPLITUDE ON THE CONTROL SIDE</description>
+	<type> </type>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00066733.v2">
+	<name>C90_120</name>
+	<description>RATIO BETWEEN MEAN AMPLITUDE OF SEGMENT 90 TO 120 SECONDS POST OCCLUSION TO THE BASELINE AMPLITUDE ON THE CONTROL SIDE</description>
+	<type> </type>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00066734.v2">
+	<name>C120_150</name>
+	<description>RATIO BETWEEN MEAN AMPLITUDE OF SEGMENT 120 TO 150 SECONDS POST OCCLUSION TO THE BASELINE AMPLITUDE ON THE CONTROL SIDE</description>
+	<type> </type>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00066735.v2">
+	<name>C150_180</name>
+	<description>RATIO BETWEEN MEAN AMPLITUDE OF SEGMENT 150 TO 180 SECONDS POST OCCLUSION TO THE BASELINE AMPLITUDE ON THE CONTROL SIDE</description>
+	<type> </type>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00066736.v2">
+	<name>C180_210</name>
+	<description>RATIO BETWEEN MEAN AMPLITUDE OF SEGMENT 180 TO 210 SECONDS POST OCCLUSION TO THE BASELINE AMPLITUDE ON THE CONTROL SIDE</description>
+	<type> </type>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00066737.v2">
+	<name>C210_240</name>
+	<description>RATIO BETWEEN MEAN AMPLITUDE OF SEGMENT 210 TO 240 SECONDS POST OCCLUSION TO THE BASELINE AMPLITUDE ON THE CONTROL SIDE</description>
+	<type> </type>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00066738.v2">
+	<name>C240_270</name>
+	<description>RATIO BETWEEN MEAN AMPLITUDE OF SEGMENT 240 TO 270 SECONDS POST OCCLUSION TO THE BASELINE AMPLITUDE ON THE CONTROL SIDE</description>
+	<type> </type>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00066739.v2">
+	<name>C270_300</name>
+	<description>RATIO BETWEEN MEAN AMPLITUDE OF SEGMENT 270 TO 300 SECONDS POST OCCLUSION TO THE BASELINE AMPLITUDE ON THE CONTROL SIDE</description>
+	<type> </type>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00066740.v2">
+	<name>C300_330</name>
+	<description>RATIO BETWEEN MEAN AMPLITUDE OF SEGMENT 300 TO 330 SECONDS POST OCCLUSION TO THE BASELINE AMPLITUDE ON THE CONTROL SIDE</description>
+	<type> </type>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00066741.v2">
+	<name>C330_360</name>
+	<description>RATIO BETWEEN MEAN AMPLITUDE OF SEGMENT 330 TO 360 SECONDS POST OCCLUSION TO THE BASELINE AMPLITUDE ON THE CONTROL SIDE</description>
+	<type> </type>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00066742.v2">
+	<name>C360_390</name>
+	<description>RATIO BETWEEN MEAN AMPLITUDE OF SEGMENT 360 TO 390 SECONDS POST OCCLUSION TO THE BASELINE AMPLITUDE ON THE CONTROL SIDE</description>
+	<type> </type>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00066743.v2">
+	<name>C390_420</name>
+	<description>RATIO BETWEEN MEAN AMPLITUDE OF SEGMENT 390 TO 420 SECONDS POST OCCLUSION TO THE BASELINE AMPLITUDE ON THE CONTROL SIDE</description>
+	<type> </type>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00066744.v2">
+	<name>RECVERS</name>
+	<description>SOFTWARE VERSION OF RECORDING</description>
+	<type> </type>
+</variable>
+
+<variable id="phv00066745.v2">
+	<name>ANVERS</name>
+	<description>SOFTWARE VERSION OF ANALYSIS 3.0.3</description>
+	<type> </type>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00066746.v2">
+	<name>WARNNO</name>
+	<description>NUMBER OF WARNINGS</description>
+	<type> </type>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00066747.v2">
+	<name>TESTQUAL</name>
+	<description>TEST QUALITY</description>
+	<type> </type>
+	<value code="1">INADEQUATE STUDY</value>
+	<value code="2">POOR STUDY (SOME CONCERN INVOLVED)</value>
+	<value code="3">GOOD STUDY</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00066748.v2">
+	<name>OCCQUAL</name>
+	<description>OCCLUSION QUALITY</description>
+	<type> </type>
+	<value code="1">INADEQUATE OCCLUSION</value>
+	<value code="2">SOME BREAKTHROUGH IDENTIFIED</value>
+	<value code="3">GOOD OCCLUSION QUALITY</value>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00066749.v2">
+	<name>IDTYPE</name>
+	<description>COHORT IDENTIFIER</description>
+	<type> </type>
+	<value code="0">ORIGINAL COHORT GROUP</value>
+	<value code="1">OFFSPRING GROUP</value>
+	<value code="2">NEW OFFSPRING SPOUSE</value>
+	<value code="3">GENERATION 3</value>
+</variable>
+
+<variable id="phv00066750.v2">
+	<name>hr0_30</name>
+	<description>HEART RATE OF SEGMENT 0 TO 30, BPM</description>
+	<type> </type>
+	<unit>mmHG</unit>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00066751.v2">
+	<name>hr30_60</name>
+	<description>HEART RATE OF SEGMENT 30 TO 60, BPM</description>
+	<type> </type>
+	<unit>mmHG</unit>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00066752.v2">
+	<name>hr60_90</name>
+	<description>HEART RATE OF SEGMENT 60 TO 90, BPM</description>
+	<type> </type>
+	<unit>mmHG</unit>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00066753.v2">
+	<name>hr90_120</name>
+	<description>HEART RATE OF SEGMENT 90 TO 120, BPM</description>
+	<type> </type>
+	<unit>mmHG</unit>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00066754.v2">
+	<name>hr120_150</name>
+	<description>HEART RATE OF SEGMENT 120 TO 150, BPM</description>
+	<type> </type>
+	<unit>mmHG</unit>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00066755.v2">
+	<name>hr150_180</name>
+	<description>HEART RATE OF SEGMENT 150 TO 180, BPM</description>
+	<type> </type>
+	<unit>mmHG</unit>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00066756.v2">
+	<name>hr180_210</name>
+	<description>HEART RATE OF SEGMENT 180 TO 210, BPM</description>
+	<type> </type>
+	<unit>mmHG</unit>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00066757.v2">
+	<name>hr210_240</name>
+	<description>HEART RATE OF SEGMENT 210 TO 240, BPM</description>
+	<type> </type>
+	<unit>mmHG</unit>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00066758.v2">
+	<name>hr240_270</name>
+	<description>HEART RATE OF SEGMENT 240 TO 270, BPM</description>
+	<type> </type>
+	<unit>mmHG</unit>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00066759.v2">
+	<name>hr270_300</name>
+	<description>HEART RATE OF SEGMENT 270 TO 300, BPM</description>
+	<type> </type>
+	<unit>mmHG</unit>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00066760.v2">
+	<name>hr300_330</name>
+	<description>HEART RATE OF SEGMENT 300 TO 330, BPM</description>
+	<type> </type>
+	<unit>mmHG</unit>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00066761.v2">
+	<name>hr330_360</name>
+	<description>HEART RATE OF SEGMENT 330 TO 360, BPM</description>
+	<type> </type>
+	<unit>mmHG</unit>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00066762.v2">
+	<name>hr360_390</name>
+	<description>HEART RATE OF SEGMENT 360 TO 390, BPM</description>
+	<type> </type>
+	<unit>mmHG</unit>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00066763.v2">
+	<name>hr390_420</name>
+	<description>HEART RATE OF SEGMENT 390 TO 420, BPM</description>
+	<type> </type>
+	<unit>mmHG</unit>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00066764.v2">
+	<name>sdate</name>
+	<description>STUDY DATE, NUMBER OF DAYS SINCE EXAM 1</description>
+	<type> </type>
+	<unit>DAYS</unit>
+	<value code=".">UNKNOWN</value>
+</variable>
+
+<variable id="phv00066765.v2">
+	<name>shareid</name>
+	<description>UNIQUE PARTICIPANT ID</description>
+	<type> </type>
+</variable>
+
+</data_table>

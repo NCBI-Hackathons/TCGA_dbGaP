@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GaPExchange xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="./dbGaPEx2.1.5.xsd">
+
+<MetaVariables>
+	<Submitter/>
+	<Method/>
+</MetaVariables>
+<MetaLinks/>
+
+<Projects>
+	<Project/>
+</Projects>
+
+<Studies>
+
+<Study source="dbGaP" accession="phs000597.v1.p1" parentStudy="phs000597.v1.p1" createDate="2013-02-01" modDate="2013-02-01">
+
+<Configuration>
+	<Data_Provider><![CDATA[
+		<table border="1">
+		<tr><th>Title</th><th>Name</th><th>Institute</th></tr>
+		<tr><td>Principal Investigator</td><td>Dr. Arul M. Chinnaiyan, MD,PhD</td><td>University of Michigan, Ann Arbor, MI, USA</td></tr>
+		<tr><td>Funding Source</td><td>U54 DA021519 			(National Center for Integrative Biomedical Informatics Grant)</td><td>University of Michigan, Ann Arbor, MI, USA</td></tr>
+		</table>
+	]]></Data_Provider>
+	<StudyNameEntrez>DNA Methylation Analysis of Prostate Cancer</StudyNameEntrez>
+	<StudyNameReportPage>DNA Methylation Analysis of Prostate Cancer Cell Lines and Tissues Using Next Generation Sequencing</StudyNameReportPage>
+	<StudyTypes>
+		<StudyType>Case-Control</StudyType>
+	</StudyTypes>
+	<Description><![CDATA[
+<p>Aberrant DNA methylation changes are known to occur during prostate cancer progression beginning with precursor lesions. Utilizing fifty nanograms of genomic DNA in Methylplex-Next Generation Sequencing (M-NGS) we mapped the global DNA methylation patterns in prostate tissues (n=17) and cells (n=2). Peaks were located from mapped reads obtained in each sequencing run using a Hidden Markov Model (HMM)-based algorithm previously used for Chip-Seq data analysis(<a href="http://www.sph.umich.edu/csg/qin/HPeak">http://www.sph.umich.edu/csg/qin/HPeak</a>). The total methylation events in intergenic/intronic regions between benign adjacent and cancer tissues were comparable. Promoter CGI methylation gradually increased from -12.6% in benign samples to 19.3% and 21.8% in localized and metastatic cancer tissues and approximately 20% of all CpG islands (CGIs) (68,508) were methylated in tissues. We observed distinct patterns in promoter methylation around transcription start sites, where methylation occurred directly on the CGIs, flanking regions and on CGI sparse promoters. Among the 6,691 methylated promoters in prostate tissues, 2481 differentially methylated regions (DMRs) are cancer specific and several previously studied targets were among them. A novel cancer specific DMR in WFDC2 promoter showed 77% methylation in cancer (17/22), 100% methylation in transformed prostate cell lines (6/6), none in the benign tissues (0/10) and normal PrEC cells. Integration of LNCaP DNA methylation and H3K4me3 data suggested a role for DNA methylation in alternate transcription start site utilization. While methylated promoters containing CGIs had mutually exclusive H3K4me3 modification, the histone mark was absent in CGI sparse promoters. Finally, we observed difference in methylation of LINE-1 elements between transcription factor ERG positive and negative cancers. The comprehensive methylome map presented here will further our understanding of epigenetic regulation of the prostate cancer genome. Overall Design: We mapped the global DNA methylation patterns in prostate tissues (n=17) and cells (n=2) from fifty nanograms of genomic DNA using Methylplex-Next Generation Sequencing (M-NGS). For replicate analysis in cell lines, a total of 4 runs were completed for PrEC prostate normal cell line, and 5 runs were completed for LNCaP prostate cancer cell line. For tissue samples, 2 benign prostate samples were sequenced twice on Illumina next generation sequencing platform to access overall repeatability of M-NGS.</p>]]>
+	</Description>
+	<StudyInEx><![CDATA[
+<p>We included a total of 17 tissue samples where high quality genomic DNA was available for this analysis. No specific exclusion criteria were employed.</p>]]>
+	</StudyInEx>
+	<StudyProjects>
+		<Project/>
+	</StudyProjects>
+	<Publications>
+		<Publication>
+			<Pubmed pmid="21724842"/>
+		</Publication>
+	</Publications>
+	<Diseases>
+		<Disease vocab_source="MESH" vocab_term="Prostatic Neoplasms"/>
+	</Diseases>
+	<Attributions>
+		<Header title="Principal Investigator">
+			<AttName>Dr. Arul M. Chinnaiyan, MD,PhD</AttName>
+			<Institution>University of Michigan, Ann Arbor, MI, USA</Institution>
+		</Header>
+		<Header title="Funding Source">
+			<AttName>U54 DA021519 			(National Center for Integrative Biomedical Informatics Grant)</AttName>
+			<Institution>University of Michigan, Ann Arbor, MI, USA</Institution>
+		</Header>
+	</Attributions>
+	<DisplayPublicSummary>yes</DisplayPublicSummary>
+	<ConsentGroups>
+		<ConsentGroup groupNum="1" shortName="DS-CA-MDS" longName="Disease-Specific (Cancer, MDS)"/>
+	</ConsentGroups>
+</Configuration>
+
+  <AuthorizedAccess>
+    <DacInfo ssDacId="0">
+      <DacName>NCI</DacName>
+      <DacFullName>NCI</DacFullName>
+      <DacEmail>0</DacEmail>
+      <DacPhone></DacPhone>
+      <DacUrl></DacUrl>
+    </DacInfo>
+    <Policy Policy_ID="phs000597.v1.p1_policy" ref_ssDacId="0">
+      <DisplayResearchStatement>yes</DisplayResearchStatement>
+      <DisplayPublicSummary>yes</DisplayPublicSummary>
+      <EmbargoLength>0</EmbargoLength>
+      <YearsUntilRenewal>1</YearsUntilRenewal>
+      <WeeksCancelRequest>8</WeeksCancelRequest>
+      <PdfSupplementReqired>no</PdfSupplementReqired>
+      <AcknowledgementText>
+        <para>
+          http://dbgap.ncbi.nlm.nih.gov/aa/wga.cgi?page=DUC&amp;view_pdf&amp;stacc=phs000597.v1.p1
+        </para>
+      </AcknowledgementText>
+      <DocumentSet>
+        <DataUseCertificate Label="Data Use Certificate" FilePath="https://dbgap.ncbi.nlm.nih.gov/aa/wga.cgi?page=DUC&amp;view_pdf&amp;stacc=phs000597.v1.p1" FileName="DUC_Deep_SequencingProstate.pdf"/>
+      </DocumentSet>
+    </Policy>
+    <ConsentGroups>
+      <ParticipantSet groupNum-REF="1">
+        <ConsentName>Disease-Specific (Cancer, MDS)</ConsentName>
+        <ConsentAbbrev>DS-CA-MDS</ConsentAbbrev>
+        <UseLimitation>Use of the data must be related to Cancer.
+Use of the data includes methods development research (e.g., development of software or algorithms).</UseLimitation>
+        <IrbRequired>No</IrbRequired>
+      </ParticipantSet>
+    </ConsentGroups>
+  </AuthorizedAccess>
+
+
+</Study>
+
+</Studies>
+
+</GaPExchange>

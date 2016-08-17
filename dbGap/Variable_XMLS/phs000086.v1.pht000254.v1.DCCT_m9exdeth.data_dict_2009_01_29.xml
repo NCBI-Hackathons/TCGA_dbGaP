@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./datadict_v2.xsl"?>
+<data_table id="pht000254.v1" study_id="phs000086.v1" participant_set="1" date_created="Thu Jan 29 15:39:26 2009">
+
+<variable id="phv00030752.v1">
+	<name>age</name>
+	<description>Age at death</description>
+	<type>byte</type>
+	<unit>YEARS</unit>
+</variable>
+
+<variable id="phv00030748.v1">
+	<name>cause</name>
+	<description>Cause of death</description>
+	<type>str25</type>
+</variable>
+
+<variable id="phv00030749.v1">
+	<name>group</name>
+	<description>Randomization group</description>
+	<type>str12</type>
+	<value code="EXPERIMENTAL">INTENSIVE TREATMENT</value>
+	<value code="STANDARD">CONVENTIONAL TREATMENT</value>
+</variable>
+
+<variable id="phv00030747.v1">
+	<name>hyp</name>
+	<description>Hypoglycemia as cause of death</description>
+	<type>str3</type>
+	<value code="0">NOT A CAUSE</value>
+	<value code="1">POSSIBLE CAUSE</value>
+	<value code="2">PROBABLE CAUSE</value>
+	<value code="3">PRINCIPLE CAUSE</value>
+	<value code="4">NOT REVIEWED</value>
+	<value code="5">NOT REVIEWED</value>
+</variable>
+
+<variable id="phv00030744.v1">
+	<name>mask_pat</name>
+	<description>Patient ID number</description>
+	<type>int</type>
+</variable>
+
+<variable id="phv00030746.v1">
+	<name>mva</name>
+	<description>Motor vehicle accident occurred</description>
+	<type>str3</type>
+	<value code="0">NONE</value>
+	<value code="1">DRIVER</value>
+	<value code="2">PASSENGER</value>
+</variable>
+
+<variable id="phv00030745.v1">
+	<name>role</name>
+	<description>Role of diabetes (minor; none; principal)</description>
+	<type>str9</type>
+</variable>
+
+<variable id="phv00030750.v1">
+	<name>sex</name>
+	<description>Patient&#39;s gender (form 001)</description>
+	<type>str1</type>
+	<value code="F">FEMALE</value>
+	<value code="M">MALE</value>
+</variable>
+
+<variable id="phv00030751.v1">
+	<name>stime</name>
+	<description>Study time</description>
+	<type>float</type>
+	<unit>YEARS</unit>
+</variable>
+
+</data_table>

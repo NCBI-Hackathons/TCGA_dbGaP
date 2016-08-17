@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./datadict_v2.xsl"?>
+<data_table id="pht000778.v1" study_id="phs000171.v1" participant_set="1" date_created="Fri Dec 11 14:12:41 2009">
+
+<variable id="phv00073287.v1">
+	<name>SUBJID</name>
+	<description>Subject&#39;s ID</description>
+	<type>string</type>
+</variable>
+
+<variable id="phv00073288.v1">
+	<name>CASE_CONTROL</name>
+	<description>Type of subject</description>
+	<type>string, encoded values</type>
+	<value code="CASE">Affected subject per Protocol</value>
+	<value code="CNTL">Control subject per Protocol</value>
+</variable>
+
+<variable id="phv00073289.v1">
+	<name>STUDY</name>
+	<description>Study ID</description>
+	<type>string</type>
+	<comment>Always RES101833</comment>
+</variable>
+
+<variable id="phv00073290.v1">
+	<name>INVSITE</name>
+	<description>Investigator site ID</description>
+	<type>string</type>
+	<comment>Numeric code identifying the site (for internal use)</comment>
+</variable>
+
+<variable id="phv00073291.v1">
+	<name>INV</name>
+	<description>Investigator&#39;s ID</description>
+	<type>string</type>
+	<comment>Numeric code identifying the investigator (for internal use)</comment>
+</variable>
+
+<variable id="phv00073292.v1">
+	<name>VISIT</name>
+	<description>Visit name</description>
+	<type>string</type>
+	<value code="CSA">Common Subject Assessment</value>
+	<value code="ELIGIBILITY">Eligibility questionnaire</value>
+	<value code="BASELINE">Baseline assessment questionnaire</value>
+	<value code="LAB WBC">Lab results</value>
+	<value code="SELF REPORT">Subject completed self report questionnaire</value>
+</variable>
+
+<variable id="phv00073293.v1">
+	<name>VISIT_DATE</name>
+	<description>Visit date</description>
+	<type>date</type>
+	<comment>Truncated to YYYY</comment>
+</variable>
+
+<variable id="phv00073294.v1">
+	<name>ATMYL</name>
+	<description>Ever experienced: Acute Transverse Myelopathy</description>
+	<type>Encoded Value</type>
+	<value code="RC">Recurrent</value>
+	<value code="NRC">Nonrecurrent</value>
+	<value code="NV">Never</value>
+</variable>
+
+<variable id="phv00073295.v1">
+	<name>BIOPNEU</name>
+	<description>Intial presentation: Bilateral Optic Neuritis</description>
+	<type>Encoded Value</type>
+	<value code="Y">Yes</value>
+	<value code="N">No</value>
+</variable>
+
+<variable id="phv00073296.v1">
+	<name>BLADDER</name>
+	<description>Intial presentation: Bladder</description>
+	<type>Encoded Value</type>
+	<value code="Y">Yes</value>
+	<value code="N">No</value>
+</variable>
+
+<variable id="phv00073297.v1">
+	<name>BOWEL</name>
+	<description>Intial presentation: Bowel ability</description>
+	<type>Encoded Value</type>
+	<value code="Y">Yes</value>
+	<value code="N">No</value>
+</variable>
+
+<variable id="phv00073298.v1">
+	<name>BRNSTM</name>
+	<description>Intial presentation: Brainstem/Cerebellar</description>
+	<type>Encoded Value</type>
+	<value code="Y">Yes</value>
+	<value code="N">No</value>
+</variable>
+
+<variable id="phv00073299.v1">
+	<name>COGNTV</name>
+	<description>Intial presentation: Cognitive</description>
+	<type>Encoded Value</type>
+	<value code="Y">Yes</value>
+	<value code="N">No</value>
+</variable>
+
+<variable id="phv00073300.v1">
+	<name>DIAGYR</name>
+	<description>Year of diagnosis of disease</description>
+	<type>Date</type>
+</variable>
+
+<variable id="phv00073301.v1">
+	<name>DIAGYRK</name>
+	<description>Year of diagnosis of disease - Not Known</description>
+	<type>Encoded Value</type>
+	<value code="Y">Yes</value>
+	<value code="N">No</value>
+</variable>
+
+<variable id="phv00073302.v1">
+	<name>DISCRS</name>
+	<description>Disease course</description>
+	<type>Encoded Value</type>
+	<value code="CIS">Clinically Isolated Syndrome</value>
+	<value code="RLRM">Relapsing-Remitting</value>
+	<value code="SCP">Secondard Progressive</value>
+	<value code="PRP">Primary Progressive</value>
+	<value code="PRL">Progressive-Relapsing</value>
+	<value code="X">Other</value>
+</variable>
+
+<variable id="phv00073303.v1">
+	<name>EPINT</name>
+	<description>Interval between first and second episode</description>
+	<type>Integer</type>
+	<unit>Months</unit>
+</variable>
+
+<variable id="phv00073304.v1">
+	<name>EPINTNA</name>
+	<description>Interval between first and second episode - Not Applicable</description>
+	<type>Encoded Value</type>
+	<value code="Y">Yes</value>
+	<value code="N">No</value>
+</variable>
+
+<variable id="phv00073305.v1">
+	<name>EXMDT</name>
+	<description>Examination date</description>
+	<type>Date</type>
+	<comment>Truncated to YYYY</comment>
+</variable>
+
+<variable id="phv00073306.v1">
+	<name>LNGMTR</name>
+	<description>Intial presentation: Long Tract Motor</description>
+	<type>Encoded Value</type>
+	<value code="Y">Yes</value>
+	<value code="N">No</value>
+</variable>
+
+<variable id="phv00073307.v1">
+	<name>LNGSEN</name>
+	<description>Intial presentation: Long Tract Sensory</description>
+	<type>Encoded Value</type>
+	<value code="Y">Yes</value>
+	<value code="N">No</value>
+</variable>
+
+<variable id="phv00073308.v1">
+	<name>OPNEU</name>
+	<description>Ever experienced: Optic Neuritis</description>
+	<type>Encoded Value</type>
+	<value code="UL">Unilateral</value>
+	<value code="BL">Bilateral</value>
+	<value code="BLS">Bilateral simultaneous</value>
+	<value code="NV">Never</value>
+</variable>
+
+<variable id="phv00073309.v1">
+	<name>OTHTX</name>
+	<description>Other (disease course) - specify</description>
+	<type>String</type>
+</variable>
+
+<variable id="phv00073310.v1">
+	<name>RRSPYR</name>
+	<description>Year of transition from RR to SP</description>
+	<type>Date</type>
+</variable>
+
+<variable id="phv00073311.v1">
+	<name>RRSPYRNA</name>
+	<description>Year of transition from RR to SP - Not Applicable</description>
+	<type>Encoded Value</type>
+	<value code="Y">Yes</value>
+	<value code="N">No</value>
+</variable>
+
+<variable id="phv00073312.v1">
+	<name>SPNCRD</name>
+	<description>Intial presentation: Spinal Cord</description>
+	<type>Encoded Value</type>
+	<value code="Y">Yes</value>
+	<value code="N">No</value>
+</variable>
+
+<variable id="phv00073313.v1">
+	<name>SYONYR</name>
+	<description>Symptoms - year of onset</description>
+	<type>Date</type>
+</variable>
+
+<variable id="phv00073314.v1">
+	<name>ULOPNEU</name>
+	<description>Intial presentation: Unilateral Optic Neuritis</description>
+	<type>Encoded Value</type>
+	<value code="Y">Yes</value>
+	<value code="N">No</value>
+</variable>
+
+<variable id="phv00073315.v1">
+	<name>UNK</name>
+	<description>Intial presentation: Undetermined/Unknown</description>
+	<type>Encoded Value</type>
+	<value code="Y">Yes</value>
+	<value code="N">No</value>
+</variable>
+
+</data_table>

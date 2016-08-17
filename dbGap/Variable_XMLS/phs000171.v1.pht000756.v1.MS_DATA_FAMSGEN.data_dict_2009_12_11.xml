@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./datadict_v2.xsl"?>
+<data_table id="pht000756.v1" study_id="phs000171.v1" participant_set="1" date_created="Fri Dec 11 14:12:41 2009">
+
+<variable id="phv00072826.v1">
+	<name>SUBJID</name>
+	<description>Subject&#39;s ID</description>
+	<type>integer</type>
+</variable>
+
+<variable id="phv00072827.v1">
+	<name>CASE_CONTROL</name>
+	<description>Type of subject</description>
+	<type>string, encoded values</type>
+	<value code="CASE">Affected subject per Protocol</value>
+	<value code="CNTL">Control subject per Protocol</value>
+</variable>
+
+<variable id="phv00072828.v1">
+	<name>STUDY</name>
+	<description>Study Identifier</description>
+	<type>string</type>
+	<comment>Always RES101833</comment>
+</variable>
+
+<variable id="phv00072829.v1">
+	<name>INVSITE</name>
+	<description>Investigator site ID</description>
+	<type>string</type>
+	<comment>Numeric code identifying the site (for internal use)</comment>
+</variable>
+
+<variable id="phv00072830.v1">
+	<name>INV</name>
+	<description>Investigator&#39;s ID</description>
+	<type>string</type>
+	<comment>Numeric code identifying the investigator (for internal use)</comment>
+</variable>
+
+<variable id="phv00072831.v1">
+	<name>VISIT</name>
+	<description>Visit name</description>
+	<type>string, encoded values</type>
+	<value code="CSA">Common Subject Assessment</value>
+	<value code="ELIGIBILITY">Eligibility questionnaire</value>
+	<value code="BASELINE">Baseline assessment questionnaire</value>
+	<value code="LAB WBC">Lab results</value>
+	<value code="SELF REPORT">Subject completed self report questionnaire</value>
+</variable>
+
+<variable id="phv00072832.v1">
+	<name>VISIT_DATE</name>
+	<description>Visit date</description>
+	<type>date</type>
+	<unit>Year</unit>
+	<comment>Truncated to YYYY</comment>
+</variable>
+
+<variable id="phv00072833.v1">
+	<name>GF2</name>
+	<description>My work (include work at home) is fulfilling</description>
+	<type>integer, encoded values</type>
+	<comment>FAMS - GENERAL CONTENTMENT 
+		By selecting one (1) per line, please indicate how true each statement has been for you during the past 7 days. </comment>
+	<value code="0">Not at all</value>
+	<value code="1">A little bit</value>
+	<value code="2">Somewhat</value>
+	<value code="3">Quite a bit</value>
+	<value code="4">Very much</value>
+</variable>
+
+<variable id="phv00072834.v1">
+	<name>GF4</name>
+	<description>I have accepted my illness</description>
+	<type>integer, encoded values</type>
+	<comment>FAMS - GENERAL CONTENTMENT 
+		By selecting one (1) per line, please indicate how true each statement has been for you during the past 7 days. </comment>
+	<value code="0">Not at all</value>
+	<value code="1">A little bit</value>
+	<value code="2">Somewhat</value>
+	<value code="3">Quite a bit</value>
+	<value code="4">Very much</value>
+</variable>
+
+<variable id="phv00072835.v1">
+	<name>GF5</name>
+	<description>I am enjoying the things I usually do for fun</description>
+	<type>integer, encoded values</type>
+	<comment>FAMS - GENERAL CONTENTMENT 
+		By selecting one (1) per line, please indicate how true each statement has been for you during the past 7 days. </comment>
+	<value code="0">Not at all</value>
+	<value code="1">A little bit</value>
+	<value code="2">Somewhat</value>
+	<value code="3">Quite a bit</value>
+	<value code="4">Very much</value>
+</variable>
+
+<variable id="phv00072836.v1">
+	<name>GF7</name>
+	<description>I am content with the quality of my life right now</description>
+	<type>integer, encoded values</type>
+	<comment>FAMS - GENERAL CONTENTMENT 
+		By selecting one (1) per line, please indicate how true each statement has been for you during the past 7 days. </comment>
+	<value code="0">Not at all</value>
+	<value code="1">A little bit</value>
+	<value code="2">Somewhat</value>
+	<value code="3">Quite a bit</value>
+	<value code="4">Very much</value>
+</variable>
+
+<variable id="phv00072837.v1">
+	<name>MS9</name>
+	<description>I am frustrated by my condition</description>
+	<type>integer, encoded values</type>
+	<comment>FAMS - GENERAL CONTENTMENT 
+		By selecting one (1) per line, please indicate how true each statement has been for you during the past 7 days. </comment>
+	<value code="0">Not at all</value>
+	<value code="1">A little bit</value>
+	<value code="2">Somewhat</value>
+	<value code="3">Quite a bit</value>
+	<value code="4">Very much</value>
+</variable>
+
+<variable id="phv00072838.v1">
+	<name>SP5</name>
+	<description>I feel a sense of purpose in my life</description>
+	<type>integer, encoded values</type>
+	<comment>FAMS - GENERAL CONTENTMENT 
+		By selecting one (1) per line, please indicate how true each statement has been for you during the past 7 days. </comment>
+	<value code="0">Not at all</value>
+	<value code="1">A little bit</value>
+	<value code="2">Somewhat</value>
+	<value code="3">Quite a bit</value>
+	<value code="4">Very much</value>
+</variable>
+
+<variable id="phv00072839.v1">
+	<name>HI6</name>
+	<description>I feel motivated to do things</description>
+	<type>integer, encoded values</type>
+	<comment>FAMS - GENERAL CONTENTMENT 
+		By selecting one (1) per line, please indicate how true each statement has been for you during the past 7 days. </comment>
+	<value code="0">Not at all</value>
+	<value code="1">A little bit</value>
+	<value code="2">Somewhat</value>
+	<value code="3">Quite a bit</value>
+	<value code="4">Very much</value>
+</variable>
+
+</data_table>

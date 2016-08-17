@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./datadict_v2.xsl"?>
+<data_table id="pht000984.v1" study_id="phs000200.v1" participant_set="1" date_created="Thu Dec 17 19:18:58 2009">
+
+<unique_key phv="00077329" version="1">SHAREID</unique_key>
+<unique_key phv="00077330" version="1">SPNVTYP</unique_key>
+<unique_key phv="00077331" version="1">SPNVY</unique_key>
+
+<variable id="phv00077329.v1">
+	<name>SHAREID</name>
+	<description>WHI SHARe ID</description>
+	<type>integer</type>
+</variable>
+
+<variable id="phv00077330.v1">
+	<name>SPNVTYP</name>
+	<description>Spine scan visit type</description>
+	<type>encoded value</type>
+	<value code="1">Screening</value>
+	<value code="2">Semi-Annual</value>
+	<value code="3">Annual</value>
+	<value code="4">Non-Routine</value>
+</variable>
+
+<variable id="phv00077331.v1">
+	<name>SPNVY</name>
+	<description>Spine scan visit year</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>11</logical_max>
+	<comment>Visit year for which this BMD scan was collected.</comment>
+</variable>
+
+<variable id="phv00077332.v1">
+	<name>SPNDAYS</name>
+	<description>Spine scan days from randomization/enrollment</description>
+	<type>integer</type>
+	<unit>days</unit>
+	<logical_min>-791</logical_min>
+	<logical_max>4003</logical_max>
+</variable>
+
+<variable id="phv00077333.v1">
+	<name>SPNAREA</name>
+	<description>Area of the Total Spine (cm squared)</description>
+	<type>decimal</type>
+	<unit>cm squared</unit>
+	<logical_min>9.84</logical_min>
+	<logical_max>63.51</logical_max>
+	<comment>Total spine includes all valid vertebrae from L2, L3 and L4.</comment>
+</variable>
+
+<variable id="phv00077334.v1">
+	<name>SPNBMC</name>
+	<description>BMC of the Total Spine (grams)</description>
+	<type>decimal</type>
+	<unit>g</unit>
+	<logical_min>8.08</logical_min>
+	<logical_max>95.65</logical_max>
+	<comment>Total spine includes all valid vertebrae from L2, L3 and L4.</comment>
+</variable>
+
+<variable id="phv00077335.v1">
+	<name>SPNBMDCOR</name>
+	<description>BMD of the Total Spine (corrected) (g/cm sq)</description>
+	<type>decimal</type>
+	<unit>g/cm squared</unit>
+	<logical_min>0.448</logical_min>
+	<logical_max>1.857</logical_max>
+	<comment>Corrected BMD value is based on recommendations from the UCSF quality assurance report.  For details see the Data Preparation document. Total spine includes all valid vertebrae from L2, L3 and L4 but may not include all three.</comment>
+</variable>
+
+<variable id="phv00077336.v1">
+	<name>SPNBMDL2L4</name>
+	<description>Total spine BMD (L2,L3,L4 BMD values are known) (g/cm sq)</description>
+	<type>decimal</type>
+	<unit>g/cm squared</unit>
+	<logical_min>0.448</logical_min>
+	<logical_max>1.857</logical_max>
+	<comment>Corrected BMD value for scans where L2, L3 and L4 BMD are all known. Otherwise set to missing. Corrections are based on recommendations from the UCSF quality assurance report. For details see the Data Preparation document.</comment>
+</variable>
+
+<variable id="phv00077337.v1">
+	<name>SPNSID</name>
+	<description>Spine scanner ID</description>
+	<type>encoded value</type>
+	<value code="1">Scanner 1</value>
+	<value code="2">Scanner 2</value>
+	<value code="3">Scanner 3</value>
+	<value code="4">Scanner 4</value>
+	<value code="5">Scanner 5</value>
+	<value code="6">Scanner 6</value>
+	<value code="7">Scanner 7</value>
+</variable>
+
+</data_table>

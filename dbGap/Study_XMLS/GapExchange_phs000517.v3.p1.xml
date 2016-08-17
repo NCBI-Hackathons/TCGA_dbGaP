@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GaPExchange xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="./dbGaPEx2.1.5.xsd">
+
+<MetaVariables>
+	<Submitter/>
+	<Method/>
+</MetaVariables>
+<MetaLinks/>
+
+<Projects>
+	<Project/>
+</Projects>
+
+<Studies>
+
+<Study source="dbGaP" accession="phs000517.v3.p1" parentStudy="phs000517.v3.p1" createDate="2015-05-01" modDate="2015-05-08">
+
+<Configuration>
+	<Data_Provider><![CDATA[
+		<table border="1">
+		<tr><th>Title</th><th>Name</th><th>Institute</th></tr>
+		<tr><td>Principal Investigator</td><td>Chris Haiman, ScD</td><td>University of Southern California, Los Angeles, CA, USA</td></tr>
+		<tr><td>Funding Source</td><td>R01 CA132839</td><td>National Institutes of Health, Bethesda, MD, USA</td></tr>
+		<tr><td>Funding Source</td><td>W81XWH-08-1-0383</td><td>Department of Defense Breast Cancer Research Program</td></tr>
+		</table>
+	]]></Data_Provider>
+	<StudyNameEntrez>Multiethnic Cohort (MEC) Breast Cancer Genetics</StudyNameEntrez>
+	<StudyNameReportPage>GWAS in African Americans, Latinos and Japanese</StudyNameReportPage>
+	<StudyTypes>
+		<StudyType>Case-Control</StudyType>
+	</StudyTypes>
+	<Description><![CDATA[
+<p>The Multiethnic Cohort Study is a population-based prospective cohort study (n=215,251) that was initiated between 1993 and 1996 and includes subjects from various ethnic groups - African Americans and Latinos primarily from Californian (great Los Angeles area) and Native Hawaiians, Japanese-Americans, and European Americans primarily from Hawaii. State drivers&#39; license files were the primary sources used to identify study subjects in Hawaii and California. Additionally, in Hawaii, state voter&#39;s registration files were used, and, in California, Health Care Financing Administration (HCFA) files were used to identify additional African American study subjects. In the cohort, incident cancer cases are identified annually through cohort linkage to population-based cancer Surveillance, Epidemiology, and End Results (SEER) registries in Hawaii and Los Angeles County as well as to the California State cancer registry. Information on estrogen receptor status is also obtained through these registries. Blood sample collection in the MEC began in 1994 and targeted incident breast cancer cases and a random sample of study participants to serve as controls for genetic analyses. Subjects are frequency matched on age at blood draw and ethnicity. The following number of breast cancer cases and controls were genome-wide scanned as part of this study: African Americans, 473 cases and 464 controls; Japanese: 885 cases and 822 controls; Latinos, 520 cases and 544 controls.</p>]]>
+	</Description>
+	<StudyInEx><![CDATA[
+<p>Inclusion/Exclusion: Women between ages of 45 and 75 when MEC was initiated between 1993-1996. Self-report of African American, Japanese and Latino.</p>]]>
+	</StudyInEx>
+	<StudyProjects>
+		<Project/>
+	</StudyProjects>
+	<Publications>
+		<Publication>
+			<Pubmed pmid="10695593"/>
+		</Publication>
+	</Publications>
+	<Diseases>
+		<Disease vocab_source="MESH" vocab_term="Breast Neoplasms"/>
+	</Diseases>
+	<Attributions>
+		<Header title="Principal Investigator">
+			<AttName>Chris Haiman, ScD</AttName>
+			<Institution>University of Southern California, Los Angeles, CA, USA</Institution>
+		</Header>
+		<Header title="Funding Source">
+			<AttName>R01 CA132839</AttName>
+			<Institution>National Institutes of Health, Bethesda, MD, USA</Institution>
+		</Header>
+		<Header title="Funding Source">
+			<AttName>W81XWH-08-1-0383</AttName>
+			<Institution>Department of Defense Breast Cancer Research Program</Institution>
+		</Header>
+	</Attributions>
+	<DisplayPublicSummary>yes</DisplayPublicSummary>
+	<ConsentGroups>
+		<ConsentGroup groupNum="1" shortName="DS-CA" longName="Disease-Specific (Cancer)"/>
+		<ConsentGroup groupNum="2" shortName="GRU-MDS" longName="General Research Use (MDS)"/>
+		<ConsentGroup groupNum="5" shortName="HMB-MDS" longName="Health/Medical/Biomedical (MDS)"/>
+	</ConsentGroups>
+</Configuration>
+
+  <AuthorizedAccess>
+    <DacInfo ssDacId="0">
+      <DacName>NCI</DacName>
+      <DacFullName>NCI</DacFullName>
+      <DacEmail>0</DacEmail>
+      <DacPhone></DacPhone>
+      <DacUrl></DacUrl>
+    </DacInfo>
+    <Policy Policy_ID="phs000517.v3.p1_policy" ref_ssDacId="0">
+      <DisplayResearchStatement>yes</DisplayResearchStatement>
+      <DisplayPublicSummary>yes</DisplayPublicSummary>
+      <EmbargoLength>12</EmbargoLength>
+      <YearsUntilRenewal>1</YearsUntilRenewal>
+      <WeeksCancelRequest>8</WeeksCancelRequest>
+      <PdfSupplementReqired>no</PdfSupplementReqired>
+      <AcknowledgementText>
+        <para>
+          http://dbgap.ncbi.nlm.nih.gov/aa/wga.cgi?page=DUC&amp;view_pdf&amp;stacc=phs000517.v3.p1
+        </para>
+      </AcknowledgementText>
+      <DocumentSet>
+        <DataUseCertificate Label="Data Use Certificate" FilePath="https://dbgap.ncbi.nlm.nih.gov/aa/wga.cgi?page=DUC&amp;view_pdf&amp;stacc=phs000517.v3.p1" FileName="GWASofBCinMEC_DUC.pdf"/>
+      </DocumentSet>
+    </Policy>
+    <ConsentGroups>
+      <ParticipantSet groupNum-REF="1">
+        <ConsentName>Disease-Specific (Cancer)</ConsentName>
+        <ConsentAbbrev>DS-CA</ConsentAbbrev>
+        <UseLimitation>Use of the data must be related to Cancer.
+Data can NOT be used for general methods development research.</UseLimitation>
+        <IrbRequired>No</IrbRequired>
+      </ParticipantSet>
+      <ParticipantSet groupNum-REF="2">
+        <ConsentName>General Research Use (MDS)</ConsentName>
+        <ConsentAbbrev>GRU-MDS</ConsentAbbrev>
+        <UseLimitation>Use of the data is limited only by the terms of the model Data Use Certification.
+Use of the data includes methods development research (e.g., development of software or algorithms).</UseLimitation>
+        <IrbRequired>No</IrbRequired>
+      </ParticipantSet>
+      <ParticipantSet groupNum-REF="5">
+        <ConsentName>Health/Medical/Biomedical (MDS)</ConsentName>
+        <ConsentAbbrev>HMB-MDS</ConsentAbbrev>
+        <UseLimitation>Use of this data is limited to health/medical/biomedical purposes, does not include the study of population origins or ancestry.
+Use of the data includes methods development research (e.g., development of software or algorithms).</UseLimitation>
+        <IrbRequired>No</IrbRequired>
+      </ParticipantSet>
+      <ParticipantSet groupNum-REF="999">
+        <ConsentName>Exchange Area</ConsentName>
+        <ConsentAbbrev>EA</ConsentAbbrev>
+        <UseLimitation>Pre-release exchange area for use by study investigators only.</UseLimitation>
+        <IrbRequired>No</IrbRequired>
+      </ParticipantSet>
+    </ConsentGroups>
+  </AuthorizedAccess>
+  <Documents>
+    <Document phd="phd004112.2" type="protocol" createDate="2015-05-08" modDate="2015-05-08" urlToXml="http://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/GetDocumentXml.cgi?document_id=phd004112.2" urlToHtml="http://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/document.cgi?study_id=phs000517.v3.p1&amp;phd=4112">
+      <OrigName>GWAS_of_Breast_Cancer_in_the_Multiethnic_Cohort_data_QC_summary_41715.doc</OrigName>
+      <DisplayName>QC and Cleaning Procedures</DisplayName>
+      <Description>QC and Cleaning Procedures</Description>
+      <displayStatus>public</displayStatus>
+      <xmlStatus>public</xmlStatus>
+    </Document>
+  </Documents>
+
+
+
+</Study>
+
+</Studies>
+
+</GaPExchange>

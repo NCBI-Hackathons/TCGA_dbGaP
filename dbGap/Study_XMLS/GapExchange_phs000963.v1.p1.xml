@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GaPExchange xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="./dbGaPEx2.1.5.xsd">
+
+<MetaVariables>
+	<Submitter/>
+	<Method/>
+</MetaVariables>
+<MetaLinks/>
+
+<Projects>
+	<Project/>
+</Projects>
+
+<Studies>
+
+<Study source="dbGaP" accession="phs000963.v1.p1" parentStudy="phs000963.v1.p1" createDate="2015-07-23" modDate="2016-05-11">
+
+<Configuration>
+	<Data_Provider><![CDATA[
+		<table border="1">
+		<tr><th>Title</th><th>Name</th><th>Institute</th></tr>
+		<tr><td>Principal Investigator</td><td>Dan M. Roden, MD</td><td>Vanderbilt University, Nashville, TN, USA</td></tr>
+		<tr><td>Funding Source</td><td>UL1TR000445</td><td>National Institutes of Health, Bethesda, MD, USA</td></tr>
+		<tr><td>Funding Source</td><td>U19HL065962</td><td>Vanderbilt University, Nashville, TN, USA</td></tr>
+		<tr><td>Funding Source</td><td>U01HL069757</td><td>National Institutes of Health, Bethesda, MD, USA</td></tr>
+		<tr><td>Funding Source</td><td>Pharmacogenomics Research Network (PGRN)-RIKEN Global Alliance</td><td>National Institutes of Health, Bethesda, MD, USA and Yokohama City, Japan</td></tr>
+		</table>
+	]]></Data_Provider>
+	<StudyNameEntrez>PGRN-RIKEN:Genetic Determinants of Cardiovascular Events while on Statins</StudyNameEntrez>
+	<StudyNameReportPage>PGRN-RIKEN: Genetic Determinants of Clinical Cardiovascular Events in Patients Receiving Statins</StudyNameReportPage>
+	<StudyTypes>
+		<StudyType>Case-Control</StudyType>
+	</StudyTypes>
+	<Description><![CDATA[
+<p>Coronary heart disease (CHD) is an important public health problem in developed countries. Statins are effective in the prevention and treatment of CHD; nevertheless, many patients receiving statins still suffer cardiovascular events (CV) such as heart attack. Identifying genetic variants responsible for differential clinical responses to statins will not only allow individual patients at high residual risk to be targeted for additional therapies, but also will define new biologic pathways contributing to statin response, and thus new targets for future therapies. Accordingly, the goal of this study is to identify genetic variants associated with clinical CV in patients receiving statins.</p> <p>Subjects identified for study are of European descent and include 1718 subjects with CV while on statins (cases) and 4172 subjects without CV while on statins (controls). Key research resources utilized in this effort include VanderbiltD&#39;s BioVU DNA databank and associated Synthetic Derivative database of clinical information, and software tools developed to identify drugs and clinical events using Electronic Health Record-derived structured and unstructured (&#34;free text&#34;) data. Most cases and controls identified include three data types: ICD-9 codes, medication regimens, and medical test results. Genotyping, using IlluminaD&#39;s Infinium HumanOmniExpressExome BeadChip (OmniExpressExome), was performed by the RIKEN Integrative Medical Sciences Center (IMS) and supported by the Pharmacogenomics Research Network (PGRN)-RIKEN IMS Global Alliance.</p>]]>
+	</Description>
+	<StudyInEx><![CDATA[
+<p><b>Case Inclusion:</b></p> <p><b><u>AMI on statins: Case definition</u></b> (all three conditions required):</p> <p><ul><li>At least two ICD9 code for AMI or other acute and subacute forms of ischemic heart disease within a five-day window </li> <li>Confirmed lab within the same time window </li> <li>Statin prescribed prior to the AMI event in medical records at least 180 days</li></ul></p> <p><b><u>Revascularization while on statin: Case definition</u></b> (both conditions required): <ul><li>At least one revascularization CPT code</li> <li>Statin prescribed prior to the revascularization event in medical records at least 180 days</li></ul></p> <p><b>Case Exclusion:</b> <ul><li>No diagnosis code for AMI, other acute and subacute forms of ischemic heart , or historical AMI assigned previously </li> <li>No revascularization CPT codes assigned previously</li> <li>No MACE (Major Adverse Cardiovascular Events) found in previous problem list by NLP</li></ul></p> <p><b><u>Control definition</u></b> <ul><li>Statin prescribed </li> <li>No diagnosis code for AMI, other acute and subacute forms of ischemic heart, or historical AMI assigned previously</li> <li>No revascularization CPT codes assigned previously</li> <li>No MACE found in previous problem list by NLP</li> <li>Controls match cases by age, gender, statin type (e.g. simvastatin), and statin exposure.</li></ul></p>]]>
+	</StudyInEx>
+	<StudyProjects>
+		<Project/>
+	</StudyProjects>
+	<Diseases>
+		<Disease vocab_source="MESH" vocab_term="Myocardial Revascularization"/>
+		<Disease vocab_source="MESH" vocab_term="Myocardial Infarction"/>
+	</Diseases>
+	<Attributions>
+		<Header title="Principal Investigator">
+			<AttName>Dan M. Roden, MD</AttName>
+			<Institution>Vanderbilt University, Nashville, TN, USA</Institution>
+		</Header>
+		<Header title="Funding Source">
+			<AttName>UL1TR000445</AttName>
+			<Institution>National Institutes of Health, Bethesda, MD, USA</Institution>
+		</Header>
+		<Header title="Funding Source">
+			<AttName>U19HL065962</AttName>
+			<Institution>Vanderbilt University, Nashville, TN, USA</Institution>
+		</Header>
+		<Header title="Funding Source">
+			<AttName>U01HL069757</AttName>
+			<Institution>National Institutes of Health, Bethesda, MD, USA</Institution>
+		</Header>
+		<Header title="Funding Source">
+			<AttName>Pharmacogenomics Research Network (PGRN)-RIKEN Global Alliance</AttName>
+			<Institution>National Institutes of Health, Bethesda, MD, USA and Yokohama City, Japan</Institution>
+		</Header>
+	</Attributions>
+	<DisplayPublicSummary>yes</DisplayPublicSummary>
+	<ConsentGroups>
+		<ConsentGroup groupNum="1" shortName="HMB" longName="Health/Medical/Biomedical"/>
+	</ConsentGroups>
+</Configuration>
+
+  <AuthorizedAccess>
+    <DacInfo ssDacId="0">
+      <DacName>NHLBI</DacName>
+      <DacFullName>National Heart, Lung, and Blood Institute DAC</DacFullName>
+      <DacEmail>0</DacEmail>
+      <DacPhone></DacPhone>
+      <DacUrl></DacUrl>
+    </DacInfo>
+    <Policy Policy_ID="phs000963.v1.p1_policy" ref_ssDacId="0">
+      <DisplayResearchStatement>yes</DisplayResearchStatement>
+      <DisplayPublicSummary>yes</DisplayPublicSummary>
+      <EmbargoLength>12</EmbargoLength>
+      <YearsUntilRenewal>1</YearsUntilRenewal>
+      <WeeksCancelRequest>8</WeeksCancelRequest>
+      <PdfSupplementReqired>no</PdfSupplementReqired>
+      <AcknowledgementText>
+        <para>
+          http://dbgap.ncbi.nlm.nih.gov/aa/wga.cgi?page=DUC&amp;view_pdf&amp;stacc=phs000963.v1.p1
+        </para>
+      </AcknowledgementText>
+      <DocumentSet>
+        <DataUseCertificate Label="Data Use Certificate" FilePath="https://dbgap.ncbi.nlm.nih.gov/aa/wga.cgi?page=DUC&amp;view_pdf&amp;stacc=phs000963.v1.p1" FileName=""/>
+      </DocumentSet>
+    </Policy>
+    <ConsentGroups>
+      <ParticipantSet groupNum-REF="1">
+        <ConsentName>Health/Medical/Biomedical</ConsentName>
+        <ConsentAbbrev>HMB</ConsentAbbrev>
+        <UseLimitation>Use of this data is limited to health/medical/biomedical purposes, does not include the study of population origins or ancestry.</UseLimitation>
+        <IrbRequired>No</IrbRequired>
+      </ParticipantSet>
+    </ConsentGroups>
+  </AuthorizedAccess>
+  <Documents>
+    <Document phd="phd005129.1" type="protocol" createDate="2015-07-27" modDate="2015-07-31" urlToXml="http://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/GetDocumentXml.cgi?document_id=phd005129.1" urlToHtml="http://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/document.cgi?study_id=phs000963.v1.p1&amp;phd=5129">
+      <OrigName>AMI_ALGORITHMS_wq_jd_0724.docx</OrigName>
+      <DisplayName>Major Adverse Cardiac Events while on statins&amp;#8211; Phenotype Definition</DisplayName>
+      <Description>Major Adverse Cardiac Events while on statins&amp;#8211; Phenotype Definition</Description>
+      <displayStatus>public</displayStatus>
+      <xmlStatus>public</xmlStatus>
+    </Document>
+  </Documents>
+
+
+
+</Study>
+
+</Studies>
+
+</GaPExchange>

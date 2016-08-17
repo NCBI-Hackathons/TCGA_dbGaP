@@ -1,0 +1,1294 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./datadict_v2.xsl"?>
+<data_table id="pht000875.v1" study_id="phs000196.v1" participant_set="1" date_created="Thu Jul 22 18:09:32 2010">
+
+<variable id="phv00075990.v1">
+	<name>subject_ID</name>
+	<description>Unique individual coded ID.</description>
+	<type>integer</type>
+</variable>
+
+<variable id="phv00075991.v1">
+	<name>case_control</name>
+	<description>Indicates whether the participant has Parkinson&#39;s disease (case) or (control).</description>
+	<type>encoded value</type>
+	<value code="1">Control</value>
+	<value code="2">Case</value>
+</variable>
+
+<variable id="phv00075992.v1">
+	<name>site</name>
+	<description>Recruitment site.</description>
+	<type>encoded value</type>
+	<value code="1">Oregon</value>
+	<value code="2">Washington</value>
+	<value code="3">New York</value>
+	<value code="4">Georgia</value>
+</variable>
+
+<variable id="phv00075993.v1">
+	<name>gender</name>
+	<description>Self reported male or female.</description>
+	<type>encoded value</type>
+	<value code="1">Male</value>
+	<value code="2">Female</value>
+</variable>
+
+<variable id="phv00075994.v1">
+	<name>age_blood_draw</name>
+	<description>Participant&#39;s age when blood was drawn for DNA extraction.</description>
+	<type>integer</type>
+	<unit>Years</unit>
+	<logical_min>21</logical_min>
+	<logical_max>90</logical_max>
+	<comment>To protect identity, participants who were 90 years or older at blood draw are coded as 90.</comment>
+</variable>
+
+<variable id="phv00075995.v1">
+	<name>age_onset</name>
+	<description>Age at PD onset.</description>
+	<type>integer</type>
+	<unit>Years</unit>
+	<logical_min>8</logical_min>
+	<logical_max>90</logical_max>
+	<comment>To protect identity, participants who were 90 years or older at onset are coded as 90.</comment>
+</variable>
+
+<variable id="phv00075996.v1">
+	<name>age_dx</name>
+	<description>Age at PD diagnosis.</description>
+	<type>integer</type>
+	<unit>Years</unit>
+	<logical_min>25</logical_min>
+	<logical_max>90</logical_max>
+	<comment>To protect identity, participants who were 90 years or older at diagnosis are coded as 90.</comment>
+</variable>
+
+<variable id="phv00075997.v1">
+	<name>source_of_DNA</name>
+	<description>Biological source of DNA.</description>
+	<type>encoded value</type>
+	<value code="1">Whole blood</value>
+</variable>
+
+<variable id="phv00075998.v1">
+	<name>ethnicity_NIH</name>
+	<description>Self report of ethnicity, per NIH classification.</description>
+	<type>encoded value</type>
+	<value code="1">Non-Hispanic</value>
+	<value code="2">Hispanic</value>
+</variable>
+
+<variable id="phv00075999.v1">
+	<name>race_NIH</name>
+	<description>Self report of race, per NIH classification.</description>
+	<type>encoded value</type>
+	<value code="1">American-Indian or Alaska Native</value>
+	<value code="2">Asian</value>
+	<value code="3">Native Hawaiian or Other Pacific Islander</value>
+	<value code="4">Black or African American</value>
+	<value code="5">White</value>
+	<value code="6">More than one race</value>
+	<value code="9">Unknown or not reported</value>
+</variable>
+
+<variable id="phv00076000.v1">
+	<name>family_history</name>
+	<description>Family history of PD.</description>
+	<type>encoded value</type>
+	<value code="1">No family history of PD</value>
+	<value code="2">PD in first degree relative</value>
+	<value code="3">PD in second (but not first) degree relative</value>
+	<value code="4">PD in third (but not first or second) degree relative</value>
+	<value code="5">PD in fourth (but not first, second or third) degree relative</value>
+	<value code="9">Unknown</value>
+</variable>
+
+<variable id="phv00076001.v1">
+	<name>ancestry_father</name>
+	<description>Country or continent from which participant&#39;s paternal ancestors immigrated to the United States.</description>
+	<type>string</type>
+</variable>
+
+<variable id="phv00076002.v1">
+	<name>ancestry_mother</name>
+	<description>Country or continent from which participant&#39;s maternal ancestors immigrated to United States.</description>
+	<type>string</type>
+</variable>
+
+<variable id="phv00076003.v1">
+	<name>age_death</name>
+	<description>Age at death.</description>
+	<type>integer</type>
+	<unit>Years</unit>
+	<logical_min>24</logical_min>
+	<logical_max>90</logical_max>
+	<comment>To protect identity, participants who were 90 years or older at death are coded as 90.</comment>
+</variable>
+
+<variable id="phv00076004.v1">
+	<name>autopsy_dx</name>
+	<description>Diagnosis after brain autopsy.</description>
+	<type>string</type>
+	<value code="1">Parkinson disease</value>
+	<value code="2">Parkinson disease/Alzheimer&#39;s disease</value>
+	<value code="3">Lewy body variant of AD; final consensus diagnosis is PD</value>
+</variable>
+
+<variable id="phv00076005.v1">
+	<name>Environmental_Exposure_Data</name>
+	<description>Does participant have smoking, caffeine and/or (non-aspirin) non-steroidal anti-inflammatory drug data.</description>
+	<type>encoded value</type>
+	<value code="1">No</value>
+	<value code="2">Yes</value>
+</variable>
+
+<variable id="phv00076006.v1">
+	<name>Age_at_Environmental_Data_Collection</name>
+	<description>Participant&#39;s age when smoking, caffeine, and/or (non-aspirin) non-steroidal anti-inflammatory drug data were collected.</description>
+	<type>integer</type>
+	<unit>Years</unit>
+	<logical_min>24.1</logical_min>
+	<logical_max>90</logical_max>
+	<comment>To protect identity, participants who were 90 years or older when data were collected are coded as 90.</comment>
+</variable>
+
+<variable id="phv00076007.v1">
+	<name>smoking_ever_never</name>
+	<description>Did participant smoke 100 or more cigarettes in lifetime?</description>
+	<type>encoded value</type>
+	<comment>Ever/never smoking was collected either by NGRC_EEQ, a different questionnaire or by interview.</comment>
+	<value code="1">Did not smoke at least 100 cigarettes in the lifetime (Never)</value>
+	<value code="2">Did smoke at least 100 cigarettes in the lifetime (Ever)</value>
+	<value code="9">Unknown</value>
+</variable>
+
+<variable id="phv00076008.v1">
+	<name>smoking_load</name>
+	<description>Lifetime cigarette use.</description>
+	<type>decimal</type>
+	<unit>Pack/years</unit>
+	<logical_min>0</logical_min>
+	<logical_max>100</logical_max>
+</variable>
+
+<variable id="phv00076009.v1">
+	<name>smoking_status</name>
+	<description>Participant&#39;s smoking history.</description>
+	<type>encoded value</type>
+	<value code="1">Never Smoked 100 cigarettes</value>
+	<value code="2">Past Smoker</value>
+	<value code="3">Current Smoker</value>
+	<value code="9">Unknown</value>
+</variable>
+
+<variable id="phv00076010.v1">
+	<name>coffee_ever_never</name>
+	<description>Did participant ever consume caffeinated coffee?</description>
+	<type>encoded value</type>
+	<comment>Ever/never coffee was collected either by NGRC_EEQ, a different questionnaire or by interview.</comment>
+	<value code="1">Never drank caffeinated coffee</value>
+	<value code="2">Ever drank caffeinated coffee</value>
+	<value code="9">Unknown</value>
+</variable>
+
+<variable id="phv00076011.v1">
+	<name>coffee_load</name>
+	<description>Lifetime caffeinated coffee consumption.</description>
+	<type>decimal</type>
+	<unit>Coffee cup/years</unit>
+	<logical_min>0</logical_min>
+	<logical_max>432</logical_max>
+</variable>
+
+<variable id="phv00076012.v1">
+	<name>coffee_low_high</name>
+	<description>Is participant&#39;s lifetime caffeinated coffee consumption low or high?</description>
+	<type>encoded value</type>
+	<comment>Low or High split at 67.5 coffee cup-years (median of controls).</comment>
+	<value code="1">Consumed less than or equal to median (Low Coffee)</value>
+	<value code="2">Consumed more than median  (High Coffee)</value>
+	<value code="9">Unknown</value>
+</variable>
+
+<variable id="phv00076013.v1">
+	<name>tea_ever_never</name>
+	<description>Did participant ever consume caffeinated tea?</description>
+	<type>encoded value</type>
+	<value code="1">Never drank tea</value>
+	<value code="2">Ever drank tea</value>
+	<value code="9">Unknown</value>
+</variable>
+
+<variable id="phv00076014.v1">
+	<name>soda_ever_never</name>
+	<description>Did participant ever consume caffeinated soda?</description>
+	<type>encoded value</type>
+	<value code="1">Never drank soda</value>
+	<value code="2">Ever drank soda</value>
+	<value code="9">Unknown</value>
+</variable>
+
+<variable id="phv00076015.v1">
+	<name>NSAIDs_OTC_ever_never</name>
+	<description>Did participant ever consume over the counter (non-aspirin) non-steroidal anti-inflammatory drugs?</description>
+	<type>encoded value</type>
+	<value code="1">Never used over the counter (non-aspirin) non-steroidal anti-inflammatory drugs</value>
+	<value code="2">Ever used over the counter (non-aspirin) non-steroidal anti-inflammatory drugs</value>
+	<value code="9">Unknown</value>
+</variable>
+
+<variable id="phv00076016.v1">
+	<name>NSAIDs_OTC_load</name>
+	<description>Lifetime over the counter (non-aspirin) non-steroidal anti-inflammatory drug consumption.</description>
+	<type>decimal</type>
+	<unit>Times/ day x years</unit>
+	<logical_min>0</logical_min>
+	<logical_max>62.7</logical_max>
+</variable>
+
+<variable id="phv00076017.v1">
+	<name>NSAIDs_Rx_ever_never</name>
+	<description>Did participant ever consume prescription (non-aspirin) non-steroidal anti-inflammatory drugs?</description>
+	<type>encoded value</type>
+	<value code="1">Never used prescription (non-aspirin) non-steroidal anti-inflammatory drugs</value>
+	<value code="2">Ever used prescription (non-aspirin) non-steroidal anti-inflammatory drugs</value>
+	<value code="9">Unknown</value>
+</variable>
+
+<variable id="phv00076018.v1">
+	<name>NSAIDs_Rx_load</name>
+	<description>Lifetime prescription (non-aspirin) non-steroidal anti-inflammatory drug consumption.</description>
+	<type>decimal</type>
+	<unit>Times/ day x years</unit>
+	<logical_min>0</logical_min>
+	<logical_max>63</logical_max>
+</variable>
+
+<variable id="phv00076019.v1">
+	<name>LRRK2_G2019S</name>
+	<description>LRRK2 G2019S genotype.</description>
+	<type>string</type>
+	<value code="AA">AA</value>
+	<value code="GA">GA</value>
+	<value code="GG">GG</value>
+</variable>
+
+<variable id="phv00076020.v1">
+	<name>APOE_e2e3e4</name>
+	<description>APOE e2e3e4 genotype.</description>
+	<type>string</type>
+	<value code="e2e2">e2e2</value>
+	<value code="e2e3">e2e3</value>
+	<value code="e2e4">e2e4</value>
+	<value code="e3e3">e3e3</value>
+	<value code="e3e4">e3e4</value>
+	<value code="e4e4">e4e4</value>
+</variable>
+
+<variable id="phv00076021.v1">
+	<name>MAPT_H1H2</name>
+	<description>MAPT H1H2 diplotype.</description>
+	<type>string</type>
+	<comment>H1H2 diplotypes determined from MAPT IVS3+9 genotypes.</comment>
+	<value code="H1H1">H1H1</value>
+	<value code="H1H2">H1H2</value>
+	<value code="H2H2">H2H2</value>
+</variable>
+
+<variable id="phv00076022.v1">
+	<name>SNCA_REP1</name>
+	<description>SNCA REP1 repeat length genotype.</description>
+	<type>string</type>
+	<unit>Base pairs</unit>
+	<logical_min>255</logical_min>
+	<logical_max>265</logical_max>
+	<value code="255_259">255_259</value>
+	<value code="255_261">255_261</value>
+	<value code="257_257">257_257</value>
+	<value code="257_259">257_259</value>
+	<value code="257_261">257_261</value>
+	<value code="257_263">257_263</value>
+	<value code="259_259">259_259</value>
+	<value code="259_261">259_261</value>
+	<value code="259_263">259_263</value>
+	<value code="259_265">259_265</value>
+	<value code="261_261">261_261</value>
+	<value code="261_263">261_263</value>
+</variable>
+
+<variable id="phv00076023.v1">
+	<name>CYP2D6*4</name>
+	<description>CYP2D6 *4 carrier status.</description>
+	<type>encoded value</type>
+	<value code="0">No *4</value>
+	<value code="1">Heterozygous *4</value>
+	<value code="2">Homozygous *4</value>
+</variable>
+
+<variable id="phv00076024.v1">
+	<name>MMSE</name>
+	<description>Participants with a Mini Mental State Exam score.</description>
+	<type>encoded value</type>
+	<value code="1">Mini Mental State Exam not administered</value>
+	<value code="2">Mini Mental State Exam administered</value>
+</variable>
+
+<variable id="phv00076025.v1">
+	<name>MMSE_age</name>
+	<description>Age at Mini Mental State Exam.</description>
+	<type>integer</type>
+	<unit>Years</unit>
+	<logical_min>35</logical_min>
+	<logical_max>90</logical_max>
+	<comment>To protect identity, participants who were 90 years or older at exam are coded as 90.</comment>
+</variable>
+
+<variable id="phv00076026.v1">
+	<name>MMSE_in-person</name>
+	<description>Mini Mental State Exam score administered in-person.</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>30</logical_max>
+	<comment>The most recent in-person administered Mini Mental State Exam is reported.</comment>
+</variable>
+
+<variable id="phv00076027.v1">
+	<name>MMSE_telephone</name>
+	<description>Mini Mental State Exam score administered by telephone.</description>
+	<type>integer</type>
+	<logical_min>4</logical_min>
+	<logical_max>22</logical_max>
+	<comment>Telephone administered Mini Mental State Exam is reported only if no in-person exam was ever administered. If more than one telephone exam, the most recent is reported.</comment>
+</variable>
+
+<variable id="phv00076028.v1">
+	<name>UPDRS</name>
+	<description>Participants with a Unified Parkinson&#39;s Disease Rating Scale score.</description>
+	<type>encoded value</type>
+	<value code="1">Unified Parkinson&#39;s Disease Rating Scale not administered</value>
+	<value code="2">Unified Parkinson&#39;s Disease Rating Scale administered</value>
+</variable>
+
+<variable id="phv00076029.v1">
+	<name>UPDRS_age</name>
+	<description>Age when Unified Parkinson&#39;s Disease Rating Scale was administered.</description>
+	<type>integer</type>
+	<unit>Years</unit>
+	<logical_min>35</logical_min>
+	<logical_max>90</logical_max>
+	<comment>To protect identity, participants who were 90 years or older at exam are coded as 90.</comment>
+</variable>
+
+<variable id="phv00076030.v1">
+	<name>Intellectual_Impairment</name>
+	<description>Participant&#39;s response to interview, indicating level of intellectual impairment during the past week.</description>
+	<type>encoded value</type>
+	<logical_min>0</logical_min>
+	<logical_max>4</logical_max>
+	<comment>Unified Parkinson&#39;s Disease Rating Scale Part I.</comment>
+	<value code="0">None.</value>
+	<value code="1">Mild. Consistent forgetfulness with partial recollection of events and no other difficulties.</value>
+	<value code="2">Moderate memory loss, with disorientation and moderate difficulty handling complex problems.  Mild but definite impairment of function at home with need of occasional prompting.</value>
+	<value code="3">Severe memory loss with disorientation for time and often place.  Severe impairment in handling problems.</value>
+	<value code="4">Severe memory loss with orientation preserved to person only.  Unable to make judgments or solve problems.  Requires much help or personal care.  Cannot be left alone at all.</value>
+</variable>
+
+<variable id="phv00076031.v1">
+	<name>Thought_Disorder</name>
+	<description>Participant&#39;s response to interview, indicating level of thought disorders during the past week.</description>
+	<type>encoded value</type>
+	<logical_min>0</logical_min>
+	<logical_max>4</logical_max>
+	<comment>Unified Parkinson&#39;s Disease Rating Scale Part I.</comment>
+	<value code="0">None.</value>
+	<value code="1">Vivid dreaming.</value>
+	<value code="2">&quot;Benign&quot; hallucinations with insight retained.</value>
+	<value code="3">Occasional to frequent hallucinations or delusions; without insight; could interfere with daily activities</value>
+	<value code="4">Persistent hallucinations, delusions, or florid psychosis; not able to care for self.</value>
+</variable>
+
+<variable id="phv00076032.v1">
+	<name>Depression</name>
+	<description>Participant&#39;s response to interview, indicating level of depression during the past week.</description>
+	<type>encoded value</type>
+	<logical_min>0</logical_min>
+	<logical_max>4</logical_max>
+	<comment>Unified Parkinson&#39;s Disease Rating Scale Part I.</comment>
+	<value code="0">Not present.</value>
+	<value code="1">Periods of sadness or guilt greater than normal, never sustained for days or weeks.</value>
+	<value code="2">Sustained depression (1 week or more).</value>
+	<value code="3">Sustained depression with vegetative symptoms (insomnia, anorexia, weight loss, loss of interest).</value>
+	<value code="4">Sustained depression with vegetative symptoms and suicidal thoughts or intent.</value>
+</variable>
+
+<variable id="phv00076033.v1">
+	<name>Motivation_Initiative</name>
+	<description>Participant&#39;s response to interview, indicating level of motivation/initiative during the past week.</description>
+	<type>encoded value</type>
+	<logical_min>0</logical_min>
+	<logical_max>4</logical_max>
+	<comment>Unified Parkinson&#39;s Disease Rating Scale Part I.</comment>
+	<value code="0">Normal.</value>
+	<value code="1">Less assertive than usual; more passive.</value>
+	<value code="2">Loss of initiative or disinterest in elective (non-routine) activities.</value>
+	<value code="3">Loss of initiative or disinterest in day-to-day routine activities.</value>
+	<value code="4">Withdrawn; complete loss of motivation.</value>
+</variable>
+
+<variable id="phv00076034.v1">
+	<name>Speech</name>
+	<description>Participant&#39;s response to interview, indicating level of speech function during the past week.</description>
+	<type>encoded value</type>
+	<logical_min>0</logical_min>
+	<logical_max>4</logical_max>
+	<comment>Unified Parkinson&#39;s Disease Rating Scale Part II.</comment>
+	<value code="0">Normal.</value>
+	<value code="1">Mildly affected.  No difficulty being understood.</value>
+	<value code="2">Moderately affected.  Sometimes asked to repeat statements.</value>
+	<value code="3">Severely affected.  Frequently asked to repeat statements.</value>
+	<value code="4">Unintelligible most of the time.</value>
+</variable>
+
+<variable id="phv00076035.v1">
+	<name>Salivation</name>
+	<description>Participant&#39;s response to interview, indicating level of salivation during the past week.</description>
+	<type>encoded value</type>
+	<logical_min>0</logical_min>
+	<logical_max>4</logical_max>
+	<comment>Unified Parkinson&#39;s Disease Rating Scale Part II.</comment>
+	<value code="0">Normal.</value>
+	<value code="1">Slight but definite excess of saliva in mouth; may have nighttime drooling.</value>
+	<value code="2">Moderately excessive saliva; may have minimal drooling.</value>
+	<value code="3">Marked excessive saliva with some drooling.</value>
+	<value code="4">Marked drooling, requires constant tissue or handkerchief.</value>
+</variable>
+
+<variable id="phv00076036.v1">
+	<name>Swallowing</name>
+	<description>Participant&#39;s response to interview, indicating level of swallowing function during the past week.</description>
+	<type>encoded value</type>
+	<logical_min>0</logical_min>
+	<logical_max>4</logical_max>
+	<comment>Unified Parkinson&#39;s Disease Rating Scale Part II.</comment>
+	<value code="0">Normal.</value>
+	<value code="1">Rare choking.</value>
+	<value code="2">Occasional choking.</value>
+	<value code="3">Requires soft food.</value>
+	<value code="4">Requires nasogastric tube or gastrostomy feeding.</value>
+</variable>
+
+<variable id="phv00076037.v1">
+	<name>Handwriting</name>
+	<description>Participant&#39;s response to interview, indicating level of handwriting function during the past week.</description>
+	<type>encoded value</type>
+	<logical_min>0</logical_min>
+	<logical_max>4</logical_max>
+	<comment>Unified Parkinson&#39;s Disease Rating Scale Part II.</comment>
+	<value code="0">Normal.</value>
+	<value code="1">Slightly slow or small.</value>
+	<value code="2">Moderately slow or small; all words legible.</value>
+	<value code="3">Severely affected; not all words legible.</value>
+	<value code="4">The majority of words not legible.</value>
+</variable>
+
+<variable id="phv00076038.v1">
+	<name>Cutting_Food_and_Handling_Utensils</name>
+	<description>Participant&#39;s response to interview, indicating level of food cutting and utensil handling function during the past week.</description>
+	<type>encoded value</type>
+	<logical_min>0</logical_min>
+	<logical_max>4</logical_max>
+	<comment>Unified Parkinson&#39;s Disease Rating Scale Part II.</comment>
+	<value code="0">Normal.</value>
+	<value code="1">Somewhat slow and clumsy, but no help needed.</value>
+	<value code="2">Can cut most foods although clumsy and slow; some help needed.</value>
+	<value code="3">Food must be cut by someone, but can still feed slowly.</value>
+	<value code="4">Needs to be fed.</value>
+</variable>
+
+<variable id="phv00076039.v1">
+	<name>Dressing</name>
+	<description>Participant&#39;s response to interview, indicating level of dressing function during the past week.</description>
+	<type>encoded value</type>
+	<logical_min>0</logical_min>
+	<logical_max>4</logical_max>
+	<comment>Unified Parkinson&#39;s Disease Rating Scale Part II.</comment>
+	<value code="0">Normal.</value>
+	<value code="1">Somewhat slow, but no help needed.</value>
+	<value code="2">Occasional assistance with buttoning, getting arms in sleeves.</value>
+	<value code="3">Considerable help required, but can do some things alone.</value>
+	<value code="4">Helpless.</value>
+</variable>
+
+<variable id="phv00076040.v1">
+	<name>Hygiene</name>
+	<description>Participant&#39;s response to interview, indicating level of hygienic function during the past week.</description>
+	<type>encoded value</type>
+	<logical_min>0</logical_min>
+	<logical_max>4</logical_max>
+	<comment>Unified Parkinson&#39;s Disease Rating Scale Part II.</comment>
+	<value code="0">Normal.</value>
+	<value code="1">Somewhat slow, but no help needed.</value>
+	<value code="2">Needs help to shower or bathe; or very slow in hygienic care.</value>
+	<value code="3">Requires assistance for washing, brushing teeth, combing hair, going to the bathroom.</value>
+	<value code="4">Foley catheter or other mechanical aids.</value>
+</variable>
+
+<variable id="phv00076041.v1">
+	<name>Turning_in_Bed_and_Adjusting_Bedclothes</name>
+	<description>Participant&#39;s response to interview, indicating level of ability to turn in bed during the past week.</description>
+	<type>encoded value</type>
+	<logical_min>0</logical_min>
+	<logical_max>4</logical_max>
+	<comment>Unified Parkinson&#39;s Disease Rating Scale Part II.</comment>
+	<value code="0">Normal.</value>
+	<value code="1">Somewhat slow and clumsy, but no help needed.</value>
+	<value code="2">Can turn or adjust sheets, but with great difficulty.</value>
+	<value code="3">Can initiate, but not turn or adjust sheets alone.</value>
+	<value code="4">Helpless.</value>
+</variable>
+
+<variable id="phv00076042.v1">
+	<name>Falling_Unrelated_to_Freezing</name>
+	<description>Participant&#39;s response to interview, indicating frequency of falling (not related to freezing) during the past week.</description>
+	<type>encoded value</type>
+	<logical_min>0</logical_min>
+	<logical_max>4</logical_max>
+	<comment>Unified Parkinson&#39;s Disease Rating Scale Part II.</comment>
+	<value code="0">None.</value>
+	<value code="1">Rare falling.</value>
+	<value code="2">Occasional falls, less than once per day.</value>
+	<value code="3">Falls on average of once daily.</value>
+	<value code="4">Falls more than once daily.</value>
+</variable>
+
+<variable id="phv00076043.v1">
+	<name>Freezing_when_Walking</name>
+	<description>Participant&#39;s response to interview, indicating frequency of freezing during the past week.</description>
+	<type>encoded value</type>
+	<logical_min>0</logical_min>
+	<logical_max>4</logical_max>
+	<comment>Unified Parkinson&#39;s Disease Rating Scale Part II.</comment>
+	<value code="0">None.</value>
+	<value code="1">Rare freezing when walking; may have start hesitation.</value>
+	<value code="2">Occasional freezing when walking.</value>
+	<value code="3">Frequent freezing. Occasional falls from freezing.</value>
+	<value code="4">Frequent falls from freezing.</value>
+</variable>
+
+<variable id="phv00076044.v1">
+	<name>Walking</name>
+	<description>Participant&#39;s response to interview, indicating walking ability during the past week.</description>
+	<type>encoded value</type>
+	<logical_min>0</logical_min>
+	<logical_max>4</logical_max>
+	<comment>Unified Parkinson&#39;s Disease Rating Scale Part II.</comment>
+	<value code="0">Normal.</value>
+	<value code="1">Mild difficulty.  May not swing arms or may tend to drag leg.</value>
+	<value code="2">Moderate difficulty, but requires little or no assistance.</value>
+	<value code="3">Severe disturbance of walking, requiring assistance.</value>
+	<value code="4">Cannot walk at all, even with assistance.</value>
+</variable>
+
+<variable id="phv00076045.v1">
+	<name>Tremor</name>
+	<description>Participant&#39;s response to interview, indicating presence of tremors during the past week.</description>
+	<type>encoded value</type>
+	<logical_min>0</logical_min>
+	<logical_max>4</logical_max>
+	<comment>Unified Parkinson&#39;s Disease Rating Scale Part II.</comment>
+	<value code="0">Absent.</value>
+	<value code="1">Slight and infrequently present.</value>
+	<value code="2">Moderate; bothersome to participant.</value>
+	<value code="3">Severe; interferes with many activities.</value>
+	<value code="4">Marked; interferes with most activities.</value>
+</variable>
+
+<variable id="phv00076046.v1">
+	<name>Sensory_Complaints_Related_to_Parkinsonism</name>
+	<description>Participant&#39;s response to interview, indicating sensory symptoms due to PD during the past week.</description>
+	<type>encoded value</type>
+	<logical_min>0</logical_min>
+	<logical_max>4</logical_max>
+	<comment>Unified Parkinson&#39;s Disease Rating Scale Part II.</comment>
+	<value code="0">None.</value>
+	<value code="1">Occasionally has numbness, tingling, or mild aching.</value>
+	<value code="2">Frequently has numbness, tinging, or aching; not distressing.</value>
+	<value code="3">Frequent painful sensations.</value>
+	<value code="4">Excruciating pain.</value>
+</variable>
+
+<variable id="phv00076047.v1">
+	<name>PD_state_during_UPDRS_Part_III_motor_exam</name>
+	<description>Was participant &quot;On&quot; or &quot;Off&quot;  during part III UPDRS exam?</description>
+	<type>encoded value</type>
+	<comment>Unified Parkinson&#39;s Disease Rating Scale Part III.</comment>
+	<value code="1">Off</value>
+	<value code="2">On</value>
+</variable>
+
+<variable id="phv00076048.v1">
+	<name>Speech_Observed</name>
+	<description>Participant&#39;s score determined by examiner for speech ability while participant is in &quot;on&quot; or &quot;off&quot; state.</description>
+	<type>encoded value</type>
+	<logical_min>0</logical_min>
+	<logical_max>4</logical_max>
+	<comment>Unified Parkinson&#39;s Disease Rating Scale Part III.</comment>
+	<value code="0">Normal.</value>
+	<value code="1">Slight loss of expression, diction, and/or volume</value>
+	<value code="2">Monotone, slurred but understandable, moderately impaired.</value>
+	<value code="3">Marked impairment; difficult to understand.</value>
+	<value code="4">Unintelligible.</value>
+</variable>
+
+<variable id="phv00076049.v1">
+	<name>Facial_Expression</name>
+	<description>Participant&#39;s score determined by examiner for facial expression while participant is in &quot;on&quot; or &quot;off&quot; state.</description>
+	<type>encoded value</type>
+	<logical_min>0</logical_min>
+	<logical_max>4</logical_max>
+	<comment>Unified Parkinson&#39;s Disease Rating Scale Part III.</comment>
+	<value code="0">Normal.</value>
+	<value code="1">Minimal hypomimia, could be normal &quot;Poker Face&quot;.</value>
+	<value code="2">Slight but definitely abnormal diminution of facial expression.</value>
+	<value code="3">Moderate hypomimia; lips parted some of the time.</value>
+	<value code="4">Masked or fixed facies with severe or complete loss of expression; lips parted 1/4&#39; inch or more.</value>
+</variable>
+
+<variable id="phv00076050.v1">
+	<name>Tremor_at_Rest_Face_Lips_Chin</name>
+	<description>Participant&#39;s score determined by examiner for resting tremor in face, lips, and chin while participant is in &quot;on&quot; or &quot;off&quot; state.</description>
+	<type>encoded value</type>
+	<logical_min>0</logical_min>
+	<logical_max>4</logical_max>
+	<comment>Unified Parkinson&#39;s Disease Rating Scale Part III.</comment>
+	<value code="0">Absent.</value>
+	<value code="1">Slight and infrequently present.</value>
+	<value code="2">Mild in amplitude and persistent.  Or moderate in amplitude, but only intermittently present.</value>
+	<value code="3">Moderate in amplitude and present most of the time.</value>
+	<value code="4">Marked in amplitude and present most of the time.</value>
+</variable>
+
+<variable id="phv00076051.v1">
+	<name>Tremor_at_Rest_Right_Hand</name>
+	<description>Participant&#39;s score determined by examiner for resting tremor in right hand while participant is in &quot;on&quot; or &quot;off&quot; state.</description>
+	<type>encoded value</type>
+	<logical_min>0</logical_min>
+	<logical_max>4</logical_max>
+	<comment>Unified Parkinson&#39;s Disease Rating Scale Part III.</comment>
+	<value code="0">Absent.</value>
+	<value code="1">Slight and infrequently present.</value>
+	<value code="2">Mild in amplitude and persistent.  Or moderate in amplitude, but only intermittently present.</value>
+	<value code="3">Moderate in amplitude and present most of the time.</value>
+	<value code="4">Marked in amplitude and present most of the time.</value>
+</variable>
+
+<variable id="phv00076052.v1">
+	<name>Tremor_at_Rest_Left_Hand</name>
+	<description>Participant&#39;s score determined by examiner for resting tremor in left hand while participant is in &quot;on&quot; or &quot;off&quot; state.</description>
+	<type>encoded value</type>
+	<logical_min>0</logical_min>
+	<logical_max>4</logical_max>
+	<comment>Unified Parkinson&#39;s Disease Rating Scale Part III.</comment>
+	<value code="0">Absent.</value>
+	<value code="1">Slight and infrequently present.</value>
+	<value code="2">Mild in amplitude and persistent.  Or moderate in amplitude, but only intermittently present.</value>
+	<value code="3">Moderate in amplitude and present most of the time.</value>
+	<value code="4">Marked in amplitude and present most of the time.</value>
+</variable>
+
+<variable id="phv00076053.v1">
+	<name>Tremor_at_Rest_Right_Foot</name>
+	<description>Participant&#39;s score determined by examiner for resting tremor in right foot while participant is in &quot;on&quot; or &quot;off&quot; state.</description>
+	<type>encoded value</type>
+	<logical_min>0</logical_min>
+	<logical_max>4</logical_max>
+	<comment>Unified Parkinson&#39;s Disease Rating Scale Part III.</comment>
+	<value code="0">Absent.</value>
+	<value code="1">Slight and infrequently present.</value>
+	<value code="2">Mild in amplitude and persistent.  Or moderate in amplitude, but only intermittently present.</value>
+	<value code="3">Moderate in amplitude and present most of the time.</value>
+	<value code="4">Marked in amplitude and present most of the time.</value>
+</variable>
+
+<variable id="phv00076054.v1">
+	<name>Tremor_at_Rest_Left_Foot</name>
+	<description>Participant&#39;s score determined by examiner for resting tremor in left foot while participant is in &quot;on&quot; or &quot;off&quot; state.</description>
+	<type>encoded value</type>
+	<logical_min>0</logical_min>
+	<logical_max>4</logical_max>
+	<comment>Unified Parkinson&#39;s Disease Rating Scale Part III.</comment>
+	<value code="0">Absent.</value>
+	<value code="1">Slight and infrequently present.</value>
+	<value code="2">Mild in amplitude and persistent.  Or moderate in amplitude, but only intermittently present.</value>
+	<value code="3">Moderate in amplitude and present most of the time.</value>
+	<value code="4">Marked in amplitude and present most of the time.</value>
+</variable>
+
+<variable id="phv00076055.v1">
+	<name>Action_or_Postural_Tremor_of_Right_Hand</name>
+	<description>Participant&#39;s score determined by examiner for action tremor in right hand while participant is in &quot;on&quot; or &quot;off&quot; state.</description>
+	<type>encoded value</type>
+	<logical_min>0</logical_min>
+	<logical_max>4</logical_max>
+	<comment>Unified Parkinson&#39;s Disease Rating Scale Part III.</comment>
+	<value code="0">Absent.</value>
+	<value code="1">Slight; present with action.</value>
+	<value code="2">Moderate in amplitude; present with action.</value>
+	<value code="3">Moderate in amplitude with posture holding as well as action.</value>
+	<value code="4">Marked in amplitude; interferes with feeding.</value>
+</variable>
+
+<variable id="phv00076056.v1">
+	<name>Action_or_Postural_Tremor_of_Left_Hand</name>
+	<description>Participant&#39;s score determined by examiner for action tremor in left hand while participant is in &quot;on&quot; or &quot;off&quot; state.</description>
+	<type>encoded value</type>
+	<logical_min>0</logical_min>
+	<logical_max>4</logical_max>
+	<comment>Unified Parkinson&#39;s Disease Rating Scale Part III.</comment>
+	<value code="0">Absent.</value>
+	<value code="1">Slight; present with action.</value>
+	<value code="2">Moderate in amplitude; present with action.</value>
+	<value code="3">Moderate in amplitude with posture holding as well as action.</value>
+	<value code="4">Marked in amplitude; interferes with feeding.</value>
+</variable>
+
+<variable id="phv00076057.v1">
+	<name>Rigidity_Neck</name>
+	<description>Participant&#39;s score determined by examiner for rigidity in passive movement of neck with participant relaxed in sitting position while participant is in &quot;on&quot; or &quot;off&quot; state.</description>
+	<type>encoded value</type>
+	<logical_min>0</logical_min>
+	<logical_max>4</logical_max>
+	<comment>Unified Parkinson&#39;s Disease Rating Scale Part III.</comment>
+	<value code="0">Absent.</value>
+	<value code="1">Slight or detectable only when activated by other movements.</value>
+	<value code="2">Mild to moderate.</value>
+	<value code="3">Marked, but full range of motion easily achieved.</value>
+	<value code="4">Severe, range of motion achieved with difficulty.</value>
+</variable>
+
+<variable id="phv00076058.v1">
+	<name>Rigidity_RUE</name>
+	<description>Participant&#39;s score determined by examiner for rigidity in passive movement of upper right extremity with participant relaxed in sitting position while participant is in &quot;on&quot; or &quot;off&quot; state.</description>
+	<type>encoded value</type>
+	<logical_min>0</logical_min>
+	<logical_max>4</logical_max>
+	<comment>Unified Parkinson&#39;s Disease Rating Scale Part III.</comment>
+	<value code="0">Absent.</value>
+	<value code="1">Slight or detectable only when activated by other movements.</value>
+	<value code="2">Mild to moderate.</value>
+	<value code="3">Marked, but full range of motion easily achieved.</value>
+	<value code="4">Severe, range of motion achieved with difficulty.</value>
+</variable>
+
+<variable id="phv00076059.v1">
+	<name>Rigidity_LUE</name>
+	<description>Participant&#39;s score determined by examiner for rigidity in passive movement of upper left extremity with participant relaxed in sitting position while participant is in &quot;on&quot; or &quot;off&quot; state.</description>
+	<type>encoded value</type>
+	<logical_min>0</logical_min>
+	<logical_max>4</logical_max>
+	<comment>Unified Parkinson&#39;s Disease Rating Scale Part III.</comment>
+	<value code="0">Absent.</value>
+	<value code="1">Slight or detectable only when activated by other movements.</value>
+	<value code="2">Mild to moderate.</value>
+	<value code="3">Marked, but full range of motion easily achieved.</value>
+	<value code="4">Severe, range of motion achieved with difficulty.</value>
+</variable>
+
+<variable id="phv00076060.v1">
+	<name>Rigidity_RLE</name>
+	<description>Participant&#39;s score determined by examiner for rigidity in passive movement of lower right extremity with participant relaxed in sitting position while participant is in &quot;on&quot; or &quot;off&quot; state.</description>
+	<type>encoded value</type>
+	<logical_min>0</logical_min>
+	<logical_max>4</logical_max>
+	<comment>Unified Parkinson&#39;s Disease Rating Scale Part III.</comment>
+	<value code="0">Absent.</value>
+	<value code="1">Slight or detectable only when activated by other movements.</value>
+	<value code="2">Mild to moderate.</value>
+	<value code="3">Marked, but full range of motion easily achieved.</value>
+	<value code="4">Severe, range of motion achieved with difficulty.</value>
+</variable>
+
+<variable id="phv00076061.v1">
+	<name>Rigidity_LLE</name>
+	<description>Participant&#39;s score determined by examiner for rigidity in passive movement of lower left extremity with participant relaxed in sitting position while participant is in &quot;on&quot; or &quot;off&quot; state.</description>
+	<type>encoded value</type>
+	<logical_min>0</logical_min>
+	<logical_max>4</logical_max>
+	<comment>Unified Parkinson&#39;s Disease Rating Scale Part III.</comment>
+	<value code="0">Absent.</value>
+	<value code="1">Slight or detectable only when activated by other movements.</value>
+	<value code="2">Mild to moderate.</value>
+	<value code="3">Marked, but full range of motion easily achieved.</value>
+	<value code="4">Severe, range of motion achieved with difficulty.</value>
+</variable>
+
+<variable id="phv00076062.v1">
+	<name>Finger_Taps_Right_Hand</name>
+	<description>Participant&#39;s score determined by examiner for tapping of right thumb with index finger in rapid succession with widest amplitude possible while participant is in &quot;on&quot; or &quot;off&quot; state.</description>
+	<type>encoded value</type>
+	<logical_min>0</logical_min>
+	<logical_max>4</logical_max>
+	<comment>Unified Parkinson&#39;s Disease Rating Scale Part III.</comment>
+	<value code="0">Normal.</value>
+	<value code="1">Mild slowing and/or reduction in amplitude.</value>
+	<value code="2">Moderately impaired.  Definite and early fatiguing.  May have occasional arrests in movement.</value>
+	<value code="3">Severely impaired.  Frequent hesitation in initiating movements or arrests in ongoing movement.</value>
+	<value code="4">Can barely perform the task.</value>
+</variable>
+
+<variable id="phv00076063.v1">
+	<name>Finger_Taps_Left_Hand</name>
+	<description>Participant&#39;s score as determined by examiner for tapping of left thumb with index finger in rapid succession with widest amplitude possible while participant is in &quot;on&quot; or &quot;off&quot; state.</description>
+	<type>encoded value</type>
+	<logical_min>0</logical_min>
+	<logical_max>4</logical_max>
+	<comment>Unified Parkinson&#39;s Disease Rating Scale Part III.</comment>
+	<value code="0">Normal.</value>
+	<value code="1">Mild slowing and/or reduction in amplitude.</value>
+	<value code="2">Moderately impaired.  Definite and early fatiguing.  May have occasional arrests in movement.</value>
+	<value code="3">Severely impaired.  Frequent hesitation in initiating movements or arrests in ongoing movement.</value>
+	<value code="4">Can barely perform the task.</value>
+</variable>
+
+<variable id="phv00076064.v1">
+	<name>Hand_Movements_Right_Hand</name>
+	<description>Participant&#39;s score determined by examiner for opening and closing right hand in rapid succession with widest amplitude possible while participant is in &quot;on&quot; or &quot;off&quot; state.</description>
+	<type>encoded value</type>
+	<logical_min>0</logical_min>
+	<logical_max>4</logical_max>
+	<comment>Unified Parkinson&#39;s Disease Rating Scale Part III.</comment>
+	<value code="0">Normal.</value>
+	<value code="1">Mild slowing and/or reduction in amplitude.</value>
+	<value code="2">Moderately impaired.  Definite and early fatiguing.  May have occasional arrests in movement.</value>
+	<value code="3">Severely impaired.  Frequent hesitation in initiating movements or arrests in ongoing movement.</value>
+	<value code="4">Can barely perform the task.</value>
+</variable>
+
+<variable id="phv00076065.v1">
+	<name>Hand_Movements_Left_Hand</name>
+	<description>Participant&#39;s score determined by examiner for opening and closing left hand in rapid succession with widest amplitude possible while participant is in &quot;on&quot; or &quot;off&quot; state.</description>
+	<type>encoded value</type>
+	<logical_min>0</logical_min>
+	<logical_max>4</logical_max>
+	<comment>Unified Parkinson&#39;s Disease Rating Scale Part III.</comment>
+	<value code="0">Normal.</value>
+	<value code="1">Mild slowing and/or reduction in amplitude.</value>
+	<value code="2">Moderately impaired.  Definite and early fatiguing.  May have occasional arrests in movement.</value>
+	<value code="3">Severely impaired.  Frequent hesitation in initiating movements or arrests in ongoing movement.</value>
+	<value code="4">Can barely perform the task.</value>
+</variable>
+
+<variable id="phv00076066.v1">
+	<name>Rapid_Alternating_Movements_of_Right_Hand</name>
+	<description>Participant&#39;s score determined by examiner for right hand pronation-supination movements, vertically or horizontally, with as large an amplitude as possible, both hands moving simultaneously while participant is in &quot;on&quot; or &quot;off&quot; state.</description>
+	<type>encoded value</type>
+	<logical_min>0</logical_min>
+	<logical_max>4</logical_max>
+	<comment>Unified Parkinson&#39;s Disease Rating Scale Part III.</comment>
+	<value code="0">Normal.</value>
+	<value code="1">Mild slowing and/or reduction in amplitude.</value>
+	<value code="2">Moderately impaired.  Definite and early fatiguing.  May have occasional arrests in movement.</value>
+	<value code="3">Severely impaired.  Frequent hesitation in initiating movements or arrests in ongoing movement.</value>
+	<value code="4">Can barely perform the task.</value>
+</variable>
+
+<variable id="phv00076067.v1">
+	<name>Rapid_Alternating_Movements_of_Left_Hand</name>
+	<description>Participant&#39;s score determined by examiner for left hand pronation-supination movements, largest amplitude possible, both hands simultaneously while participant is in &quot;on&quot; or &quot;off&quot; state.</description>
+	<type>encoded value</type>
+	<logical_min>0</logical_min>
+	<logical_max>4</logical_max>
+	<comment>Unified Parkinson&#39;s Disease Rating Scale Part III.</comment>
+	<value code="0">Normal.</value>
+	<value code="1">Mild slowing and/or reduction in amplitude.</value>
+	<value code="2">Moderately impaired.  Definite and early fatiguing.  May have occasional arrests in movement.</value>
+	<value code="3">Severely impaired.  Frequent hesitation in initiating movements or arrests in ongoing movement.</value>
+	<value code="4">Can barely perform the task.</value>
+</variable>
+
+<variable id="phv00076068.v1">
+	<name>Right_Leg_Agility</name>
+	<description>Participant&#39;s score determined by examiner for tapping right heel on ground in rapid succession by lifting entire leg while participant is in &quot;on&quot; or &quot;off&quot; state.</description>
+	<type>encoded value</type>
+	<logical_min>0</logical_min>
+	<logical_max>4</logical_max>
+	<comment>Unified Parkinson&#39;s Disease Rating Scale Part III.</comment>
+	<value code="0">Normal.</value>
+	<value code="1">Mild slowing and/or reduction in amplitude.</value>
+	<value code="2">Moderately impaired.  Definite and early fatiguing.  May have occasional arrests in movement.</value>
+	<value code="3">Severely impaired.  Frequent hesitation in initiating movements or arrests in ongoing movement.</value>
+	<value code="4">Can barely perform the task.</value>
+</variable>
+
+<variable id="phv00076069.v1">
+	<name>Left_Leg_Agility</name>
+	<description>Participant&#39;s score determined by examiner for tapping left heel on ground in rapid succession by lifting entire leg while participant is in &quot;on&quot; or &quot;off&quot; state.</description>
+	<type>encoded value</type>
+	<logical_min>0</logical_min>
+	<logical_max>4</logical_max>
+	<comment>Unified Parkinson&#39;s Disease Rating Scale Part III.</comment>
+	<value code="0">Normal.</value>
+	<value code="1">Mild slowing and/or reduction in amplitude.</value>
+	<value code="2">Moderately impaired.  Definite and early fatiguing.  May have occasional arrests in movement.</value>
+	<value code="3">Severely impaired.  Frequent hesitation in initiating movements or arrests in ongoing movement.</value>
+	<value code="4">Can barely perform the task.</value>
+</variable>
+
+<variable id="phv00076070.v1">
+	<name>Arising_from_Chair</name>
+	<description>Participant&#39;s score determined by examiner for attempting to rise from straight-back wood or metal chair with arms folded across chest while participant is in &quot;on&quot; or &quot;off&quot; state.</description>
+	<type>encoded value</type>
+	<logical_min>0</logical_min>
+	<logical_max>4</logical_max>
+	<comment>Unified Parkinson&#39;s Disease Rating Scale Part III.</comment>
+	<value code="0">Normal.</value>
+	<value code="1">Slow; or may need more than one attempt.</value>
+	<value code="2">Pushes self up from arms of seat.</value>
+	<value code="3">Tends to fall back and may have to try more than one time, but can get up without help.</value>
+	<value code="4">Unable to arise without help.</value>
+</variable>
+
+<variable id="phv00076071.v1">
+	<name>Posture</name>
+	<description>Participant&#39;s score determined by examiner for posture while participant is in &quot;on&quot; or &quot;off&quot; state.</description>
+	<type>encoded value</type>
+	<logical_min>0</logical_min>
+	<logical_max>4</logical_max>
+	<comment>Unified Parkinson&#39;s Disease Rating Scale Part III.</comment>
+	<value code="0">Normal erect.</value>
+	<value code="1">Not quite erect, slightly stooped posture; could be normal for older person.</value>
+	<value code="2">Moderately stooped posture; definitely abnormal; can be slightly leaning to one side.</value>
+	<value code="3">Severely stooped posture with kyphosis; can be moderately leaning to one side.</value>
+	<value code="4">Marked flexion with extreme abnormality of posture.</value>
+</variable>
+
+<variable id="phv00076072.v1">
+	<name>Gait</name>
+	<description>Participant&#39;s score determined by examiner for gait while participant is in &quot;on&quot; or &quot;off&quot; state.</description>
+	<type>encoded value</type>
+	<logical_min>0</logical_min>
+	<logical_max>4</logical_max>
+	<comment>Unified Parkinson&#39;s Disease Rating Scale Part III.</comment>
+	<value code="0">Normal.</value>
+	<value code="1">Walks slowly, may shuffle with short steps, but no festination or propulsion.</value>
+	<value code="2">Walks with difficulty, but requires little or no assistance; may have some festination, short steps, or propulsion.</value>
+	<value code="3">Severe disturbance of gait, requiring assistance.</value>
+	<value code="4">Cannot walk at all, even with assistance.</value>
+</variable>
+
+<variable id="phv00076073.v1">
+	<name>Postural_Stability</name>
+	<description>Participant&#39;s score determined by examiner for response to sudden posterior displacement produced by pull on shoulders when participant is erect, with eyes open and feet slightly apart (subject is prepared) while participant is in &quot;on&quot; or &quot;off&quot; state.</description>
+	<type>encoded value</type>
+	<logical_min>0</logical_min>
+	<logical_max>4</logical_max>
+	<comment>Unified Parkinson&#39;s Disease Rating Scale Part III.</comment>
+	<value code="0">Normal.</value>
+	<value code="1">Retropulsion, but recovers unaided.</value>
+	<value code="2">Absence of postural response; would fall if not caught by examiner.</value>
+	<value code="3">Very unstable, tends to lose balance spontaneously.</value>
+	<value code="4">Unable to stand without assistance.</value>
+</variable>
+
+<variable id="phv00076074.v1">
+	<name>Body_Bradykinesia_and_Hypokinesia</name>
+	<description>Participant&#39;s score determined by examiner for combining slowness, hesitancy, decreased arm swing, small amplitude, and poverty of movement in general while participant is in &quot;on&quot; or &quot;off&quot; state.</description>
+	<type>encoded value</type>
+	<logical_min>0</logical_min>
+	<logical_max>4</logical_max>
+	<comment>Unified Parkinson&#39;s Disease Rating Scale Part III.</comment>
+	<value code="0">None.</value>
+	<value code="1">Minimal slowness, giving movement a deliberate character; could be normal for some persons.  Possibly reduced amplitude.</value>
+	<value code="2">Mild degree of slowness and poverty of movement which is definitely abnormal.  Alternatively, some reduced amplitude.</value>
+	<value code="3">Moderate slowness, poverty, or small amplitude of movement.</value>
+	<value code="4">Marked slowness, poverty, or small amplitude of movement.</value>
+</variable>
+
+<variable id="phv00076075.v1">
+	<name>Dyskinesia_Duration</name>
+	<description>Participant&#39;s response to examiner&#39;s question: &quot;What proportion of the waking day are dyskinesias present?&quot;, in the past week.</description>
+	<type>encoded value</type>
+	<logical_min>0</logical_min>
+	<logical_max>4</logical_max>
+	<comment>Unified Parkinson&#39;s Disease Rating Scale Part IV.</comment>
+	<value code="0">None.</value>
+	<value code="1">1-25%</value>
+	<value code="2">26-50%</value>
+	<value code="3">51-75%</value>
+	<value code="4">76-100%</value>
+</variable>
+
+<variable id="phv00076076.v1">
+	<name>Dyskinesia_Disability</name>
+	<description>Participant&#39;s response to examiner&#39;s question, &quot;How disabling are the dyskinesias?&quot;, in the past week.</description>
+	<type>encoded value</type>
+	<logical_min>0</logical_min>
+	<logical_max>4</logical_max>
+	<comment>Unified Parkinson&#39;s Disease Rating Scale Part IV.</comment>
+	<value code="0">Not disabling.</value>
+	<value code="1">Mildly disabling.</value>
+	<value code="2">Moderately disabling.</value>
+	<value code="3">Severely disabling.</value>
+	<value code="4">Completely disabled.</value>
+</variable>
+
+<variable id="phv00076077.v1">
+	<name>Dyskinesia_Pain</name>
+	<description>Participant&#39;s response to question, &quot;How painful are the dyskinesias?&quot;, in the past week.</description>
+	<type>encoded value</type>
+	<logical_min>0</logical_min>
+	<logical_max>4</logical_max>
+	<comment>Unified Parkinson&#39;s Disease Rating Scale Part IV.</comment>
+	<value code="0">No painful dyskinesias.</value>
+	<value code="1">Slight.</value>
+	<value code="2">Moderate.</value>
+	<value code="3">Severe.</value>
+	<value code="4">Marked.</value>
+</variable>
+
+<variable id="phv00076078.v1">
+	<name>Presence_of_early_morning_dystonia</name>
+	<description>Participant&#39;s response to the examiner&#39;s question about the presence or absence of early morning dystonia in the past week.</description>
+	<type>encoded value</type>
+	<logical_min>0</logical_min>
+	<logical_max>1</logical_max>
+	<comment>Unified Parkinson&#39;s Disease Rating Scale Part IV.</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00076079.v1">
+	<name>Clinical_Fluctuations_Predictable</name>
+	<description>Participant&#39;s response to examiner&#39;s question, &quot;Are any &quot;off&quot; periods predictable as to timing after a dose of medication?&quot;, in the past week.</description>
+	<type>encoded value</type>
+	<logical_min>0</logical_min>
+	<logical_max>1</logical_max>
+	<comment>Unified Parkinson&#39;s Disease Rating Scale Part IV.</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00076080.v1">
+	<name>Clinical_Fluctuations_Unpredictable</name>
+	<description>Participant&#39;s response to examiner&#39;s question, &quot;Are any &quot;off&quot; periods unpredictable as to timing after a dose of medication?&quot;, in the past week.</description>
+	<type>encoded value</type>
+	<logical_min>0</logical_min>
+	<logical_max>1</logical_max>
+	<comment>Unified Parkinson&#39;s Disease Rating Scale Part IV.</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00076081.v1">
+	<name>Clinical_Fluctuations_Sudden</name>
+	<description>Participant&#39;s response to examiner&#39;s question, &quot;Do any of the &quot;off&quot; periods come on suddenly?&quot;, in the past week.</description>
+	<type>encoded value</type>
+	<logical_min>0</logical_min>
+	<logical_max>1</logical_max>
+	<comment>Unified Parkinson&#39;s Disease Rating Scale Part IV.</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00076082.v1">
+	<name>Clinical_Fluctuations_Duration</name>
+	<description>Participant&#39;s response to examiner&#39;s question of what portion of the waking day participant is &quot;off&quot; on average in the past week.</description>
+	<type>encoded value</type>
+	<logical_min>0</logical_min>
+	<logical_max>4</logical_max>
+	<comment>Unified Parkinson&#39;s Disease Rating Scale Part IV.</comment>
+	<value code="0">None</value>
+	<value code="1">1-25%</value>
+	<value code="2">26-50%</value>
+	<value code="3">51-75%</value>
+	<value code="4">76-100%</value>
+</variable>
+
+<variable id="phv00076083.v1">
+	<name>Anorexia_Nausea_Vomiting</name>
+	<description>Participant&#39;s response to examiner&#39;s question of whether or not the participant had anorexia, nausea, or vomiting in the past week.</description>
+	<type>encoded value</type>
+	<logical_min>0</logical_min>
+	<logical_max>1</logical_max>
+	<comment>Unified Parkinson&#39;s Disease Rating Scale Part IV.</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00076084.v1">
+	<name>Sleep_Disturbances</name>
+	<description>Participant&#39;s response to examiner&#39;s question of whether or not the participant had sleep disturbances in the past week.</description>
+	<type>encoded value</type>
+	<logical_min>0</logical_min>
+	<logical_max>1</logical_max>
+	<comment>Unified Parkinson&#39;s Disease Rating Scale Part IV.</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00076085.v1">
+	<name>Symptomatic_Orthostasis</name>
+	<description>Participant&#39;s response to examiner&#39;s question of whether or not the participant had symptomatic orthostasis in the past week.</description>
+	<type>encoded value</type>
+	<logical_min>0</logical_min>
+	<logical_max>1</logical_max>
+	<comment>Unified Parkinson&#39;s Disease Rating Scale Part IV.</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00076417.v1">
+	<name>Dx_by_UKBB_criteria</name>
+	<description>Was subject diagnosed as having PD according to modified UK-Brain Bank criteria? (Modified only not to exclude based on positive family history.)</description>
+	<type>encoded value</type>
+	<logical_min>0</logical_min>
+	<logical_max>1</logical_max>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00076418.v1">
+	<name>UKBB_individual_criteria</name>
+	<description>Subjects with individual UK Brain Bank criteria</description>
+	<type>encoded value</type>
+	<logical_min>0</logical_min>
+	<logical_max>1</logical_max>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00076419.v1">
+	<name>UKBB_Bradykinesia</name>
+	<description>Bradykinesia (slowness of initiation of voluntary movement with progressive reduction in speed and amplitude of repetitive actions)</description>
+	<type>encoded value</type>
+	<logical_min>1</logical_min>
+	<comment>UKBB clinical diagnostic criteria Step 1:  Diagnosis of Parkinsonian Syndrome</comment>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00076420.v1">
+	<name>UKBB_Rigidity</name>
+	<description>Muscular rigidity</description>
+	<type>encoded value</type>
+	<logical_min>0</logical_min>
+	<logical_max>1</logical_max>
+	<comment>UKBB clinical diagnostic criteria Step 1:  Diagnosis of Parkinsonian Syndrome</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00076421.v1">
+	<name>UKBB_Resting_Tremor</name>
+	<description>4-6 Hz rest tremor</description>
+	<type>encoded value</type>
+	<logical_min>0</logical_min>
+	<logical_max>1</logical_max>
+	<comment>UKBB clinical diagnostic criteria Step 1:  Diagnosis of Parkinsonian Syndrome</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00076422.v1">
+	<name>UKBB_Postural_Instability</name>
+	<description>Postural instability not caused by primary visual, vestibular, cerebellar, or proprioceptive dysfunction</description>
+	<type>encoded value</type>
+	<logical_min>0</logical_min>
+	<logical_max>2</logical_max>
+	<comment>UKBB clinical diagnostic criteria Step 1:  Diagnosis of Parkinsonian Syndrome</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+	<value code="2">Unknown - the physician did not have enough information to definitively check yes or no.</value>
+</variable>
+
+<variable id="phv00076423.v1">
+	<name>UKBB_Exclusion_Criteria</name>
+	<description>Subject has any of the following exclusion criteria for Parkinson&#39;s disease: history of repeated strokes with stepwise progression of parkinsonian features; history of repeated head injury; history of definite encephalitis; oculogyric crises; neuroleptic treatment at onset of symptoms; sustained remission; strictly unilateral features after 3 years; Supranuclear gaze palsy; cerebellar signs; early severe autonomic involvement; Early severe dementia with disturbances of memory, language, and praxis; babinski sign; Presence of cerebral tumor or communication hydrocephalus on CT scan; negative response to large doses of levodopa (if malabsorption excluded); MPTP exposure</description>
+	<type>encoded value</type>
+	<logical_min>0</logical_min>
+	<comment>UK Brain Bank clinical diagnostic criteria Step 2:  Exclusion criteria for Parkinson&#39;s disease</comment>
+	<value code="0">No</value>
+</variable>
+
+<variable id="phv00076424.v1">
+	<name>UKBB_Unilateral_Onset</name>
+	<description>Unilateral onset</description>
+	<type>encoded value</type>
+	<logical_min>0</logical_min>
+	<logical_max>2</logical_max>
+	<comment>UK Brain Bank clinical diagnostic criteria Step 3: supportive prospective positive criteria for Parkinson&#39;s disease</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+	<value code="2">Unknown - the physician did not have enough information to definitively check yes or no.</value>
+</variable>
+
+<variable id="phv00076425.v1">
+	<name>UKBB_Progressive_disorder</name>
+	<description>Progressive disorder</description>
+	<type>encoded value</type>
+	<logical_min>1</logical_min>
+	<comment>UK Brain Bank clinical diagnostic criteria Step 3: supportive prospective positive criteria for Parkinson&#39;s disease</comment>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00076426.v1">
+	<name>UKBB_Persistent_asymetry_affecting_side_of_onset_most</name>
+	<description>Persistent asymmetry affecting side of onset most</description>
+	<type>encoded value</type>
+	<logical_min>0</logical_min>
+	<logical_max>2</logical_max>
+	<comment>UK Brain Bank clinical diagnostic criteria Step 3: supportive prospective positive criteria for Parkinson&#39;s disease</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+	<value code="2">Unknown - the physician did not have enough information to definitively check yes or no.</value>
+</variable>
+
+<variable id="phv00076427.v1">
+	<name>UKBB_Excellent_response_(70_100%)_to_levodopa_or_dopamine_agonist</name>
+	<description>Excellent response (70-100%) to levodopa or dopamine agonist</description>
+	<type>encoded value</type>
+	<logical_min>0</logical_min>
+	<logical_max>2</logical_max>
+	<comment>UK Brain Bank clinical diagnostic criteria Step 3: supportive prospective positive criteria for Parkinson&#39;s disease</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+	<value code="2">Unknown - the physician did not have enough information to definitively check yes or no.</value>
+</variable>
+
+<variable id="phv00076428.v1">
+	<name>UKBB_Severe_levodopa_induced_chorea</name>
+	<description>Severe levodopa-induced chorea</description>
+	<type>encoded value</type>
+	<logical_min>0</logical_min>
+	<logical_max>1</logical_max>
+	<comment>UK Brain Bank clinical diagnostic criteria Step 3: supportive prospective positive criteria for Parkinson&#39;s disease</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+	<value code="2">Unknown - the physician did not have enough information to definitively check yes or no.</value>
+</variable>
+
+<variable id="phv00076429.v1">
+	<name>UKBB_Levodopa_response_for_5_years_or_more</name>
+	<description>Levodopa or dopamine agonist response for 5 years or more</description>
+	<type>encoded value</type>
+	<logical_min>0</logical_min>
+	<logical_max>2</logical_max>
+	<comment>UK Brain Bank clinical diagnostic criteria Step 3: supportive prospective positive criteria for Parkinson&#39;s disease</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+	<value code="2">Unknown - the physician did not have enough information to definitively check yes or no.</value>
+</variable>
+
+<variable id="phv00076430.v1">
+	<name>UKBB_Clinical_course_of_10_years_or_more</name>
+	<description>Clinical course of 10 years or more</description>
+	<type>encoded value</type>
+	<logical_min>0</logical_min>
+	<logical_max>2</logical_max>
+	<comment>UK Brain Bank clinical diagnostic criteria Step 3: supportive prospective positive criteria for Parkinson&#39;s disease</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+	<value code="2">Unknown - the physician did not have enough information to definitively check yes or no.</value>
+</variable>
+
+</data_table>

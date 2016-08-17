@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./datadict_v2.xsl"?>
+<data_table id="pht001089.v1" study_id="phs000219.v1" participant_set="1" date_created="Tue Jan 19 13:07:31 2010">
+
+<unique_key phv="00082096" version="1">SUBJID</unique_key>
+<unique_key phv="00082100" version="1">VISIT</unique_key>
+<unique_key phv="00082102" version="1">SUBSETSN</unique_key>
+
+<variable id="phv00082096.v1">
+	<name>SUBJID</name>
+	<description>Subject&#39;s ID</description>
+	<type>String</type>
+</variable>
+
+<variable id="phv00082097.v1">
+	<name>CASE_CONTROL</name>
+	<description>Subject type</description>
+	<type>Encoded value</type>
+	<value code="ADP">AD Participant</value>
+	<value code="CASE">Case</value>
+	<value code="CCCS">Control with Change in Cognitive Status</value>
+	<value code="CNTL">Control</value>
+	<value code="FAM">Family member</value>
+	<value code="UASB">Unaffected Sibling</value>
+</variable>
+
+<variable id="phv00082098.v1">
+	<name>INV</name>
+	<description>Investigator&#39;s ID</description>
+	<type>String</type>
+</variable>
+
+<variable id="phv00082099.v1">
+	<name>INVSITE</name>
+	<description>Investigator site ID</description>
+	<type>String</type>
+</variable>
+
+<variable id="phv00082100.v1">
+	<name>VISIT</name>
+	<description>Visit name</description>
+	<type>String</type>
+</variable>
+
+<variable id="phv00082101.v1">
+	<name>VISIT_DATE</name>
+	<description>Visit date</description>
+	<type>Date</type>
+	<comment>Truncated to YYYY</comment>
+</variable>
+
+<variable id="phv00082102.v1">
+	<name>SUBSETSN</name>
+	<description>Sequence number per module</description>
+	<type>Encoded value</type>
+	<comment>Additional Primary Key field</comment>
+	<value code="1">Logical Memory Test 1</value>
+	<value code="2">Logical Memory Test 2</value>
+</variable>
+
+<variable id="phv00082103.v1">
+	<name>ASDT</name>
+	<description>Assessment Date</description>
+	<type>Date</type>
+	<comment>Truncated to YYYY</comment>
+</variable>
+
+<variable id="phv00082104.v1">
+	<name>RECALL1_TOTAL_SCORE_LOGIMEM</name>
+	<description>1ST RECALL TOTAL SCORE</description>
+	<type>Integer</type>
+</variable>
+
+<variable id="phv00082105.v1">
+	<name>LEARNING_SLOPE_LOGIMEM</name>
+	<description>LEARNING SLOPE CALCULATION</description>
+	<type>Integer</type>
+</variable>
+
+<variable id="phv00082106.v1">
+	<name>PERCENT_RETENTION_LOGIMEM</name>
+	<description>PERCENT RETENTION</description>
+	<type>Integer</type>
+</variable>
+
+<variable id="phv00082107.v1">
+	<name>RECALL_TOTAL_SCORE_LOGIMEM</name>
+	<description>RECALL TOTAL SCORE</description>
+	<type>Integer</type>
+</variable>
+
+<variable id="phv00082108.v1">
+	<name>STORYA_RECALL_SCORE_LOGIMEM</name>
+	<description>STORY A RECALL UNIT SCORE</description>
+	<type>Integer</type>
+</variable>
+
+<variable id="phv00082109.v1">
+	<name>STORYA_THEMATIC_SCORE_LOGIMEM</name>
+	<description>STORY A THEMATIC UNIT SCORE</description>
+	<type>Integer</type>
+</variable>
+
+<variable id="phv00082110.v1">
+	<name>STORYB_1THEMATIC_SCORE_LOGIMEM</name>
+	<description>STORY B 1ST RECALL THEMATIC UNIT SCORE</description>
+	<type>Integer</type>
+</variable>
+
+<variable id="phv00082111.v1">
+	<name>STORYB_1RECALL_SCORE_LOGIMEM</name>
+	<description>STORY B 1ST RECALL UNIT SCORE</description>
+	<type>Integer</type>
+</variable>
+
+<variable id="phv00082112.v1">
+	<name>STORYB_2THEMATIC_SCORE_LOGIMEM</name>
+	<description>STORY B 2ND RECALL THEMATIC UNIT SCORE</description>
+	<type>Integer</type>
+</variable>
+
+<variable id="phv00082113.v1">
+	<name>STORYB_2RECALL_SCORE_LOGIMEM</name>
+	<description>STORY B 2ND RECALL UNIT SCORE</description>
+	<type>Integer</type>
+</variable>
+
+<variable id="phv00082114.v1">
+	<name>STORYB_RECALL_SCORE_LOGIMEM</name>
+	<description>STORY B RECALL UNIT SCORE</description>
+	<type>Integer</type>
+</variable>
+
+<variable id="phv00082115.v1">
+	<name>STORYB_THEMATIC_SCORE_LOGIMEM</name>
+	<description>STORY B THEMATIC UNIT SCORE</description>
+	<type>Integer</type>
+</variable>
+
+<variable id="phv00082116.v1">
+	<name>THEMATIC_TOTAL_SCORE_LOGIMEM</name>
+	<description>THEMATIC TOTAL SCORE</description>
+	<type>Integer</type>
+</variable>
+
+</data_table>

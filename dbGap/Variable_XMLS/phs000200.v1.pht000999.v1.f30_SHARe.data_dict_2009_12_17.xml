@@ -1,0 +1,992 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./datadict_v2.xsl"?>
+<data_table id="pht000999.v1" study_id="phs000200.v1" participant_set="1" date_created="Thu Dec 17 19:19:24 2009">
+
+<variable id="phv00078506.v1">
+	<name>SHAREID</name>
+	<description>WHI SHARe ID</description>
+	<type>integer</type>
+</variable>
+
+<variable id="phv00078507.v1">
+	<name>F30DAYS</name>
+	<description>F30 Days since randomization/enrollment</description>
+	<type>integer</type>
+	<unit>days</unit>
+	<logical_min>-361</logical_min>
+	<logical_max>949</logical_max>
+</variable>
+
+<variable id="phv00078508.v1">
+	<name>HOSP2Y</name>
+	<description>Hospitalized overnight last two years</description>
+	<type>encoded value</type>
+	<comment>Have you been hospitalized overnight at any time during the past two years?
+		Not collected on all versions of Form 30. </comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00078509.v1">
+	<name>GLAUCOMA</name>
+	<description>Glaucoma ever</description>
+	<type>encoded value</type>
+	<comment>Has a doctor told you that you have any of the following conditions or have you had any of the following procedures? (Please mark all that apply.) Glaucoma
+		Not collected on all versions of Form 30. </comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00078510.v1">
+	<name>CATARACT</name>
+	<description>Cataract ever</description>
+	<type>encoded value</type>
+	<comment>Has a doctor told you that you have any of the following conditions or have you had any of the following procedures? (Please mark all that apply.) Cataract(s)
+		Not collected on all versions of Form 30. </comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00078511.v1">
+	<name>HICHOLRP</name>
+	<description>High cholesterol requiring pills ever</description>
+	<type>encoded value</type>
+	<comment>Has a doctor told you that you have any of the following conditions or have you had any of the following procedures? (Please mark all that apply.) High cholesterol requiring pills
+		Not collected on all versions of Form 30. </comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00078512.v1">
+	<name>ASTHMA</name>
+	<description>Asthma ever</description>
+	<type>encoded value</type>
+	<comment>Has a doctor told you that you have any of the following conditions or have you had any of the following procedures? (Please mark all that apply.) Asthma</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00078513.v1">
+	<name>EMPHYSEM</name>
+	<description>Emphysema ever</description>
+	<type>encoded value</type>
+	<comment>Has a doctor told you that you have any of the following conditions or have you had any of the following procedures? (Please mark all that apply.) Emphysema or chronic bronchitis
+		Not collected on all versions of Form 30. </comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00078514.v1">
+	<name>KIDNEYST</name>
+	<description>Kidney or bladder stones ever</description>
+	<type>encoded value</type>
+	<comment>Has a doctor told you that you have any of the following conditions or have you had any of the following procedures? (Please mark all that apply.) Kidney or bladder stones (renal or urinary calculi)
+		Not collected on all versions of Form 30. </comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00078515.v1">
+	<name>HIBLDCA</name>
+	<description>High blood calcium</description>
+	<type>encoded value</type>
+	<comment>Has a doctor told you that you have any of the following conditions or have you had any of the following procedures? (Please mark all that apply.) High blood calcium
+		Not collected on all versions of Form 30. </comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00078516.v1">
+	<name>STOMULCR</name>
+	<description>Stomach of duodenal ulcer ever</description>
+	<type>encoded value</type>
+	<comment>Has a doctor told you that you have any of the following conditions or have you had any of the following procedures? (Please mark all that apply.) Stomach or duodenal ulcer</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00078517.v1">
+	<name>DIVERTIC</name>
+	<description>Diverticulitis ever</description>
+	<type>encoded value</type>
+	<comment>Has a doctor told you that you have any of the following conditions or have you had any of the following procedures? (Please mark all that apply.) Diverticulitis
+		Not collected on all versions of Form 30. </comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00078518.v1">
+	<name>COLITIS</name>
+	<description>Ulcerative colitis ever</description>
+	<type>encoded value</type>
+	<comment>Has a doctor told you that you have any of the following conditions or have you had any of the following procedures? (Please mark all that apply.) Ulcerative colitis or Crohn&#39;s disease</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00078519.v1">
+	<name>LUPUS</name>
+	<description>Lupus ever</description>
+	<type>encoded value</type>
+	<comment>Has a doctor told you that you have any of the following conditions or have you had any of the following procedures? (Please mark all that apply.) Systemic erythematosus (&#39;lupus&#39; or SLE)</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00078520.v1">
+	<name>PANCREAT</name>
+	<description>Pancreatitis ever</description>
+	<type>encoded value</type>
+	<comment>Has a doctor told you that you have any of the following conditions or have you had any of the following procedures? (Please mark all that apply.) Pancreatitis (inflamed pancreas)</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00078521.v1">
+	<name>OSTEOPOR</name>
+	<description>Osteoporosis ever</description>
+	<type>encoded value</type>
+	<comment>Has a doctor told you that you have any of the following conditions or have you had any of the following procedures? (Please mark all that apply.) Osteoporosis (weak, thin, or brittle bones)</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00078522.v1">
+	<name>HIPREP</name>
+	<description>Hip replacement ever</description>
+	<type>encoded value</type>
+	<comment>Has a doctor told you that you have any of the following conditions or have you had any of the following procedures? (Please mark all that apply.) Hip replacement
+		Not collected on all versions of Form 30. </comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00078523.v1">
+	<name>OTHJREP</name>
+	<description>Other joint replacement ever</description>
+	<type>encoded value</type>
+	<comment>Has a doctor told you that you have any of the following conditions or have you had any of the following procedures? (Please mark all that apply.) Other joint replacement
+		Not collected on all versions of Form 30. </comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00078524.v1">
+	<name>INTESTRM</name>
+	<description>Part of intestines removed ever</description>
+	<type>encoded value</type>
+	<comment>Has a doctor told you that you have any of the following conditions or have you had any of the following procedures? (Please mark all that apply.) Part of intestines taken out</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00078525.v1">
+	<name>MIGRAINE</name>
+	<description>Migraine headaches ever</description>
+	<type>encoded value</type>
+	<comment>Has a doctor told you that you have any of the following conditions or have you had any of the following procedures? (Please mark all that apply.) Migraine headaches
+		Not collected on all versions of Form 30. </comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00078526.v1">
+	<name>ALZHEIM</name>
+	<description>Alzheimer&#39;s disease ever</description>
+	<type>encoded value</type>
+	<comment>Has a doctor told you that you have any of the following conditions or have you had any of the following procedures? (Please mark all that apply.) Alzheimer&#39;s disease
+		Not collected on all versions of Form 30. </comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00078527.v1">
+	<name>MS</name>
+	<description>MS ever</description>
+	<type>encoded value</type>
+	<comment>Has a doctor told you that you have any of the following conditions or have you had any of the following procedures? (Please mark all that apply.) Multiple sclerosis
+		Not collected on all versions of Form 30. </comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00078528.v1">
+	<name>PARKINS</name>
+	<description>Parkinson&#39;s disease ever</description>
+	<type>encoded value</type>
+	<comment>Has a doctor told you that you have any of the following conditions or have you had any of the following procedures? (Please mark all that apply.) Parkinson&#39;s disease
+		Not collected on all versions of Form 30. </comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00078529.v1">
+	<name>ALS</name>
+	<description>ALS ever</description>
+	<type>encoded value</type>
+	<comment>Has a doctor told you that you have any of the following conditions or have you had any of the following procedures? (Please mark all that apply.) Amyotropic Lateral Sclerosis (ALS, motor neuron disease, or Lou Gehrig&#39;s disease)
+		Not collected on all versions of Form 30. </comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00078530.v1">
+	<name>NACOND</name>
+	<description>None of listed medical conditions ever</description>
+	<type>encoded value</type>
+	<comment>Has a doctor told you that you have any of the following conditions or have you had any of the following procedures? (Please mark all that apply.) None of the above
+		Not collected on all versions of Form 30. </comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00078531.v1">
+	<name>CVD</name>
+	<description>Cardiovascular disease ever</description>
+	<type>encoded value</type>
+	<comment>Has a doctor ever told you that you had heart problems, problems with your blood circulation, or blood clots?
+		Not collected on all versions of Form 30. </comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00078532.v1">
+	<name>CARDREST</name>
+	<description>Cardiac arrest ever</description>
+	<type>encoded value</type>
+	<comment>Please mark the conditions or procedures below that a doctor said you had. Cardiac arrest (where your heart stopped and needed to be restarted)
+		Sub-question of F30 V3 Q3 &#39;Heart or circulation problems&#39;. </comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00078533.v1">
+	<name>CHF_F30</name>
+	<description>Congestive heart failure ever</description>
+	<type>encoded value</type>
+	<comment>Please mark the conditions or procedures below that a doctor said you had. Heart failure or congestive heart failure
+		Sub-question of F30 V3 Q3 &#39;Heart or circulation problems&#39;.&lt;br/&gt;Not collected on all versions of Form 30. </comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00078534.v1">
+	<name>CARDCATH</name>
+	<description>Cardiac catheterization ever</description>
+	<type>encoded value</type>
+	<comment>Please mark the conditions or procedures below that a doctor said you had. Cardiac catheterization (heart catheterization or coronary angiogram)
+		Sub-question of F30 V3 Q3 &#39;Heart or circulation problems&#39;. </comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00078535.v1">
+	<name>CABG</name>
+	<description>Coronary bypass surgery ever</description>
+	<type>encoded value</type>
+	<comment>Please mark the conditions or procedures below that a doctor said you had. Heart bypass operation or coronary bypass surgery for blocked or clogged arteries in you heart
+		Sub-question of F30 V3 Q3 &#39;Heart or circulation problems&#39;. </comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00078536.v1">
+	<name>PTCA</name>
+	<description>Angioplasty of coronary arteries ever</description>
+	<type>encoded value</type>
+	<comment>Please mark the conditions or procedures below that a doctor said you had. Angioplasty of the coronary arteries (opening the arteries of the heart with a balloon or other device, sometimes called a PTCA)
+		Sub-question of F30 V3 Q3 &#39;Heart or circulation problems&#39;. </comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00078537.v1">
+	<name>CAROTID</name>
+	<description>Carotid endarterectomy/angioplasty ever</description>
+	<type>encoded value</type>
+	<comment>Please mark the conditions or procedures below that a doctor said you had. Carotid endarterectomy or carotid angioplasty (operation for blockage or narrowing of the arteries in your neck)
+		Sub-question of F30 V3 Q3 &#39;Heart or circulation problems&#39;. </comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00078538.v1">
+	<name>ATRIALFB</name>
+	<description>Atrial fibrillation ever</description>
+	<type>encoded value</type>
+	<comment>Please mark the conditions or procedures below that a doctor said you had. Atrial fibrillation (a type of irregular heart beat)
+		Sub-question of F30 V3 Q3 &#39;Heart or circulation problems&#39;. </comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00078539.v1">
+	<name>AORTICAN</name>
+	<description>Aortic aneurysm ever</description>
+	<type>encoded value</type>
+	<comment>Please mark the conditions or procedures below that a doctor said you had. Aortic aneurysm
+		Sub-question of F30 V3 Q3 &#39;Heart or circulation problems&#39;. </comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00078540.v1">
+	<name>NACVD</name>
+	<description>None of the listed CVD conditions ever</description>
+	<type>encoded value</type>
+	<comment>Please mark the conditions or procedures below that a doctor said you had. None of the above
+		Sub-question of F30 V3 Q3 &#39;Heart or circulation problems&#39;.&lt;br/&gt;Not collected on all versions of Form 30. </comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00078541.v1">
+	<name>ARTHRIT</name>
+	<description>Arthritis ever</description>
+	<type>encoded value</type>
+	<comment>Did your doctor ever say that you had arthritis?</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00078542.v1">
+	<name>RHEUMAT</name>
+	<description>Rheumatoid arthritis ever</description>
+	<type>encoded value</type>
+	<comment>What type of arthritis do you have?
+		Sub-question of F30 V3 Q4 &#39;Arthritis ever&#39;.&lt;br/&gt;Not collected on all versions of Form 30. </comment>
+	<value code="1">Rheumatoid Arthritis</value>
+	<value code="8">Other/Don&#39;t Know</value>
+</variable>
+
+<variable id="phv00078543.v1">
+	<name>GALLBS</name>
+	<description>Gallbladder disease or gallstones ever</description>
+	<type>encoded value</type>
+	<comment>Did a doctor ever say that you had gallbladder disease or gallstones?</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00078544.v1">
+	<name>GALLBSNW</name>
+	<description>Gallbladder disease or gallstones now</description>
+	<type>encoded value</type>
+	<comment>Do you now have gallbladder disease or gallstones?
+		Sub-question of F30 V3 Q5 &#39;Gallbladder disease/gallstones&#39;. </comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00078545.v1">
+	<name>GALLSTRM</name>
+	<description>Gallstones removed</description>
+	<type>encoded value</type>
+	<comment>Did you ever have a procedure to remove gallstones?
+		Sub-question of F30 V3 Q5 &#39;Gallbladder disease/gallstones&#39;. </comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00078546.v1">
+	<name>GALLBLRM</name>
+	<description>Gallbladder removed</description>
+	<type>encoded value</type>
+	<comment>Did you have your gallbladder removed?
+		Sub-question of F30 V3 Q5 &#39;Gallbladder disease/gallstones&#39;. </comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00078547.v1">
+	<name>THYROID</name>
+	<description>Thyroid gland problem ever</description>
+	<type>encoded value</type>
+	<comment>Did a doctor ever say that you had a thyroid gland problem (not including thyroid cancer)?</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00078548.v1">
+	<name>GOITER</name>
+	<description>Goiter ever</description>
+	<type>encoded value</type>
+	<comment>Do you have any of the following conditions? (Please mark &#39;No&#39; or &#39;Yes&#39; for each condition.) Goiter (large thyroid gland)
+		Sub-question of F30 V3 Q6 &#39;Thyroid gland problem ever&#39;.&lt;br/&gt;Not collected on all versions of Form 30. </comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+	<value code="9">Don&#39;t know</value>
+</variable>
+
+<variable id="phv00078549.v1">
+	<name>GOITERNW</name>
+	<description>Goiter now</description>
+	<type>encoded value</type>
+	<comment>If yes do you now have this problem? Goiter (large thyroid gland)
+		Sub-question of F30 V3 Q6 &#39;Thyroid gland problem ever&#39;.&lt;br/&gt;Sub-question of F30 V3 Q6.1.1 &#39;Goiter ever&#39;.&lt;br/&gt;Not collected on all versions of Form 30. </comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00078550.v1">
+	<name>NODULE</name>
+	<description>Thyroid nodule ever</description>
+	<type>encoded value</type>
+	<comment>Do you have any of the following conditions? (Please mark &#39;No&#39; or &#39;Yes&#39; for each condition.) Nodule (lumps in the thyroid gland)
+		Sub-question of F30 V3 Q6 &#39;Thyroid gland problem ever&#39;.&lt;br/&gt;Not collected on all versions of Form 30. </comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+	<value code="9">Don&#39;t know</value>
+</variable>
+
+<variable id="phv00078551.v1">
+	<name>NODULENW</name>
+	<description>Thyroid nodule now</description>
+	<type>encoded value</type>
+	<comment>If yes do you now have this problem?  Nodule (lumps in the thyroid gland)
+		Sub-question of F30 V3 Q6 &#39;Thyroid gland problem ever&#39;.&lt;br/&gt;Sub-question of F30 V3 Q6.1.2 &#39;Nodule ever&#39;.&lt;br/&gt;Not collected on all versions of Form 30. </comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00078552.v1">
+	<name>OVRTHY</name>
+	<description>Overactive thyroid ever</description>
+	<type>encoded value</type>
+	<comment>Do you have any of the following conditions? (Please mark &#39;No&#39; or &#39;Yes&#39; for each condition.) Overactive thyroid
+		Sub-question of F30 V3 Q6 &#39;Thyroid gland problem ever&#39;.&lt;br/&gt;Not collected on all versions of Form 30. </comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+	<value code="9">Don&#39;t know</value>
+</variable>
+
+<variable id="phv00078553.v1">
+	<name>OVRTHYNW</name>
+	<description>Overactive thyroid now</description>
+	<type>encoded value</type>
+	<comment>If yes do you now have this problem? Overactive thyroid
+		Sub-question of F30 V3 Q6 &#39;Thyroid gland problem ever&#39;.&lt;br/&gt;Sub-question of F30 V3 Q6.1.3 &#39;Overactive thyroid ever&#39;.&lt;br/&gt;Not collected on all versions of Form 30. </comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00078554.v1">
+	<name>UNDTHY</name>
+	<description>Underactive thyroid ever</description>
+	<type>encoded value</type>
+	<comment>Do you have any of the following conditions? (Please mark &#39;No&#39; or &#39;Yes&#39; for each condition.) Underactive thyroid
+		Sub-question of F30 V3 Q6 &#39;Thyroid gland problem ever&#39;.&lt;br/&gt;Not collected on all versions of Form 30. </comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+	<value code="9">Don&#39;t know</value>
+</variable>
+
+<variable id="phv00078555.v1">
+	<name>UNDTHYNW</name>
+	<description>Underactive thyroid now</description>
+	<type>encoded value</type>
+	<comment>If yes do you now have this problem? Underactive thyroid
+		Sub-question of F30 V3 Q6 &#39;Thyroid gland problem ever&#39;.&lt;br/&gt;Sub-question of F30 V3 Q6.1.4 &#39;Underactive thyroid ever&#39;.&lt;br/&gt;Not collected on all versions of Form 30. </comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00078556.v1">
+	<name>HYPT</name>
+	<description>Hypertension ever</description>
+	<type>encoded value</type>
+	<comment>Did a doctor ever say that you had hypertension or high blood pressure? (Do not include high blood pressure that you had only when you were pregnant.)</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00078557.v1">
+	<name>HYPTAGE</name>
+	<description>Age told of hypertension</description>
+	<type>encoded value</type>
+	<comment>How old were you when you were told you had high blood pressure? (Give your best guess.)
+		Sub-question of F30 V3 Q7 &#39;Hypertension&#39;. </comment>
+	<value code="1">Less than 20</value>
+	<value code="2">20-29</value>
+	<value code="3">30-39</value>
+	<value code="4">40-49</value>
+	<value code="5">50-59</value>
+	<value code="6">60-69</value>
+	<value code="7">70 or older</value>
+</variable>
+
+<variable id="phv00078558.v1">
+	<name>HYPTPILL</name>
+	<description>Pills for hypertension ever</description>
+	<type>encoded value</type>
+	<comment>Did you ever take pills for high blood pressure?</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00078559.v1">
+	<name>HYPTPILN</name>
+	<description>Pills for hypertension now</description>
+	<type>encoded value</type>
+	<comment>Do you now take pills for high blood pressure?
+		Sub-question of F30 V3 Q7 &#39;Hypertension&#39;.&lt;br/&gt;Not collected on all versions of Form 30. </comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00078560.v1">
+	<name>ANGINA</name>
+	<description>Angina ever</description>
+	<type>encoded value</type>
+	<comment>Did a doctor ever say that you had angina (chest pains from a heart problem)?</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00078561.v1">
+	<name>ANGNPILN</name>
+	<description>Pills for angina now</description>
+	<type>encoded value</type>
+	<comment>Do you now take pills for angina?
+		Sub-question of F30 V3 Q8 &#39;Angina&#39;. </comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00078562.v1">
+	<name>PAD</name>
+	<description>Peripheral arterial disease ever</description>
+	<type>encoded value</type>
+	<comment>Did a doctor ever say that you had claudication or peripheral arterial disease (poor blood flow to the legs or blocked or narrowed arteries to the legs)? Do not include varicose veins or phlebitis.</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00078563.v1">
+	<name>PADANGGR</name>
+	<description>Angiography for PAD ever</description>
+	<type>encoded value</type>
+	<comment>For the above condition, have you ever had: Angiography (dye in the arteries of the legs)?
+		Sub-question of F30 V3 Q9 &#39;Peripheral arterial disease&#39;.&lt;br/&gt;Not collected on all versions of Form 30. </comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00078564.v1">
+	<name>PADANGP</name>
+	<description>Angioplasty for PAD ever</description>
+	<type>encoded value</type>
+	<comment>For the above condition, have you ever had: Angioplasty (balloon catheter to open blockage)?
+		Sub-question of F30 V3 Q9 &#39;Peripheral arterial disease&#39;.&lt;br/&gt;Not collected on all versions of Form 30. </comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00078565.v1">
+	<name>PADSURG</name>
+	<description>Surgery to improve flow to legs for PAD</description>
+	<type>encoded value</type>
+	<comment>For the above condition, have you ever had: Surgery to improve blood flow in your legs (do not include surgery for varicose veins)?
+		Sub-question of F30 V3 Q9 &#39;Peripheral arterial disease&#39;.&lt;br/&gt;Not collected on all versions of Form 30. </comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00078566.v1">
+	<name>COLNSCPY</name>
+	<description>Colonoscopy ever</description>
+	<type>encoded value</type>
+	<comment>Have you ever had a colonoscopy or sigmoidoscopy or flex sig (where a doctor inserts a tube in the rectum to check for bowel problems)?
+		Not collected on all versions of Form 30. </comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00078567.v1">
+	<name>COLNSCDT</name>
+	<description>Date of last colonoscopy</description>
+	<type>encoded value</type>
+	<comment>When was the last test?
+		Sub-question of F30 V3 Q10 &#39;Colonscopy or sigmoidoscopy&#39;.&lt;br/&gt;Not collected on all versions of Form 30. </comment>
+	<value code="1">Less than 5 years ago</value>
+	<value code="2">5 or more years ago</value>
+</variable>
+
+<variable id="phv00078568.v1">
+	<name>PCOLONRM</name>
+	<description>Polyps of colon removed</description>
+	<type>encoded value</type>
+	<comment>Did you ever have any polyps of the colon, intestine, bowel, or rectum removed?
+		Sub-question of F30 V3 Q10 &#39;Colonscopy or sigmoidoscopy&#39;.&lt;br/&gt;Not collected on all versions of Form 30. </comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00078569.v1">
+	<name>HEMOCCUL</name>
+	<description>Hemoccult test ever</description>
+	<type>encoded value</type>
+	<comment>Have you ever given a sample of your stool (BM, bowel movement, or feces) to be checked or had a rectal stool exam by a doctor or nurse? This is sometimes called a stool guaiac or hemoccult test.
+		Not collected on all versions of Form 30. </comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00078570.v1">
+	<name>HEMOCCDT</name>
+	<description>Date of last hemoccult test</description>
+	<type>encoded value</type>
+	<comment>When was the last test?
+		Sub-question of F30 V3 Q11 &#39;Rectal stool exam ever&#39;.&lt;br/&gt;Not collected on all versions of Form 30. </comment>
+	<value code="1">Less than 5 years ago</value>
+	<value code="2">5 or more years ago</value>
+</variable>
+
+<variable id="phv00078571.v1">
+	<name>CANC_F30</name>
+	<description>Cancer ever</description>
+	<type>encoded value</type>
+	<comment>Did a doctor ever say that you had cancer, a malignant growth, or tumor? (This does not include &#39;fibroids&#39; of the uterus.)</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00078572.v1">
+	<name>BRCA_F30</name>
+	<description>Breast cancer ever</description>
+	<type>encoded value</type>
+	<comment>What kind of cancer did you have? (Mark &#39;No&#39; or &#39;Yes&#39; for each type of cancer.) Breast
+		Sub-question of F30 V3 Q12 &#39;Cancer ever&#39;  (skip pattern rule not applied). </comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00078573.v1">
+	<name>BRCA55</name>
+	<description>Breast cancer 55 or older</description>
+	<type>encoded value</type>
+	<comment>How old were you when a doctor first told you that you had this cancer. Breast
+		Sub-question of F30 V3 Q12 &#39;Cancer ever&#39;  (skip pattern rule not applied).&lt;br/&gt;Sub-question of F30 V3 Q12.1.1 &#39;Cancer - breast&#39;.&lt;br/&gt;Not collected on all versions of form 30. </comment>
+	<value code="1">Less than 55</value>
+	<value code="2">55 or older</value>
+</variable>
+
+<variable id="phv00078574.v1">
+	<name>COLN_F30</name>
+	<description>Colorectal cancer ever</description>
+	<type>encoded value</type>
+	<comment>What kind of cancer did you have? (Mark &#39;No&#39; or &#39;Yes&#39; for each type of cancer.) Colon, rectum, bowel or intestine
+		Sub-question of F30 V3 Q12 &#39;Cancer ever&#39;  (skip pattern rule not applied). </comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00078575.v1">
+	<name>COLOCA55</name>
+	<description>Colorectal cancer 55 or older</description>
+	<type>encoded value</type>
+	<comment>How old were you when a doctor first told you that you had this cancer? Colon, rectum, bowel, or intestine
+		Sub-question of F30 V3 Q12 &#39;Cancer ever&#39;  (skip pattern rule not applied).&lt;br/&gt;Sub-question of F30 V3 Q12.1.4 &#39;Cancer - colon, rectum&#39;.&lt;br/&gt;Not collected on all versions of Form 30. </comment>
+	<value code="1">Less than 55</value>
+	<value code="2">55 or older</value>
+</variable>
+
+<variable id="phv00078576.v1">
+	<name>THYRCA</name>
+	<description>Thyroid cancer ever</description>
+	<type>encoded value</type>
+	<comment>What kind of cancer did you have? (Mark &#39;No&#39; or &#39;Yes&#39; for each type of cancer.) Thyroid
+		Sub-question of F30 V3 Q12 &#39;Cancer ever&#39;  (skip pattern rule not applied). </comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00078577.v1">
+	<name>THYRCA55</name>
+	<description>Thyroid cancer 55 or older</description>
+	<type>encoded value</type>
+	<comment>How old were you when a doctor first told you that you had this cancer? Thyroid
+		Sub-question of F30 V3 Q12 &#39;Cancer ever&#39;  (skip pattern rule not applied).&lt;br/&gt;Sub-question of F30 V3 Q12.1.5 &#39;Cancer - thyroid&#39;.&lt;br/&gt;Not collected on all versions of Form 30. </comment>
+	<value code="1">Less than 55</value>
+	<value code="2">55 or older</value>
+</variable>
+
+<variable id="phv00078578.v1">
+	<name>CERVCA</name>
+	<description>Cervix cancer ever</description>
+	<type>encoded value</type>
+	<comment>What kind of cancer did you have? (Mark &#39;No&#39; or &#39;Yes&#39; for each type of cancer.) Cervix (opening to the uterus or womb)
+		Sub-question of F30 V3 Q12 &#39;Cancer ever&#39;  (skip pattern rule not applied). </comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00078579.v1">
+	<name>SKINCA</name>
+	<description>Skin cancer (not melanoma) ever</description>
+	<type>encoded value</type>
+	<comment>What kind of cancer did you have? (Mark &#39;No&#39; or &#39;Yes&#39; for each type of cancer.)  Skin cancer (not melanoma)
+		Sub-question of F30 V3 Q12 &#39;Cancer ever&#39;  (skip pattern rule not applied). </comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00078580.v1">
+	<name>MELN_F30</name>
+	<description>Melanoma cancer ever</description>
+	<type>encoded value</type>
+	<comment>What kind of cancer did you have? (Mark &#39;No&#39; or &#39;Yes&#39; for each type of cancer.) Melanoma
+		Sub-question of F30 V3 Q12 &#39;Cancer ever&#39;  (skip pattern rule not applied). </comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00078581.v1">
+	<name>BLADCA</name>
+	<description>Bladder cancer ever</description>
+	<type>encoded value</type>
+	<comment>What kind of cancer did you have? (Mark &#39;No&#39; or &#39;Yes&#39; for each type of cancer.) Bladder
+		Sub-question of F30 V3 Q12 &#39;Cancer ever&#39;  (skip pattern rule not applied). </comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00078582.v1">
+	<name>OTHERCA</name>
+	<description>Other cancers ever</description>
+	<type>encoded value</type>
+	<comment>Had other cancer ever (e.g. ovarian, endometrial, brain, liver, lung, bone, stomach, blood, lymphoma, Hodgkins, or other).
+		Sub-questions of F30 V3 Q12 &#39;Cancer ever&#39;  (skip pattern rule not applied). </comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00078583.v1">
+	<name>NUMFALLS</name>
+	<description>Times fell down last 12 months</description>
+	<type>encoded value</type>
+	<comment>During the past 12 months, how many times did you fall and land on the floor or ground?</comment>
+	<value code="0">None</value>
+	<value code="1">1 time</value>
+	<value code="2">2 times</value>
+	<value code="3">3 or more times</value>
+</variable>
+
+<variable id="phv00078584.v1">
+	<name>FAINTED</name>
+	<description>Fainted last 12 months</description>
+	<type>encoded value</type>
+	<comment>During the past 12 months, have you fainted, blacked out, passed out, or lost consciousness?
+		Not collected on all versions of Form 30. </comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00078585.v1">
+	<name>BKBONE</name>
+	<description>Broke bone ever</description>
+	<type>encoded value</type>
+	<comment>Did a doctor, nurse, or physician assistant ever say you had a broken, fractured, or crushed bone?
+		Not collected on all versions of Form 30. </comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00078586.v1">
+	<name>BKHIP</name>
+	<description>Broke hip ever</description>
+	<type>encoded value</type>
+	<comment>Which bone(s) did you break and how old were you when the bone(s) first broke? (Please mark all that apply. If you don&#39;t know the exact age, please guess as close as you can.) Hip
+		Sub-question of F30 V3 Q15 &#39;Broke bone ever&#39; (skip pattern rule not applied).&lt;br/&gt;Not collected on all versions of Form 30. </comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00078587.v1">
+	<name>BKHIP55</name>
+	<description>Broke hip first time 55 or older</description>
+	<type>encoded value</type>
+	<comment>How old were you when you first broke this bone? Hip
+		Sub-question of F30 V3 Q15 &#39;Broke bone ever&#39; (skip pattern rule not applied).&lt;br/&gt;Sub-question of F30 V3 Q15.1.1 &#39;Broke hip&#39;.&lt;br/&gt;Not collected on all versions of Form 30. </comment>
+	<value code="1">Less than 55</value>
+	<value code="2">55 or older</value>
+</variable>
+
+<variable id="phv00078588.v1">
+	<name>BKBACK</name>
+	<description>Broke spine ever</description>
+	<type>encoded value</type>
+	<comment>Which bone(s) did you break and how old were you when the bone(s) first broke? (Please mark all that apply. If you don&#39;t know the exact age, please guess as close as you can.) Spine or back (vertebra)
+		Sub-question of F30 V3 Q15 &#39;Broke bone ever&#39; (skip pattern rule not applied).&lt;br/&gt;Not collected on all versions of Form 30. </comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00078589.v1">
+	<name>BKBACK55</name>
+	<description>Broke spine first time 55 or older</description>
+	<type>encoded value</type>
+	<comment>How old were you when you first broke this bone? Spine or back (vertebra)
+		Sub-question of F30 V3 Q15 &#39;Broke bone ever&#39; (skip pattern rule not applied).&lt;br/&gt;Sub-question of F30 V3 Q15.1.2 &#39;Broke back or spine&#39;.&lt;br/&gt;Not collected on all versions of Form 30. </comment>
+	<value code="1">Less than 55</value>
+	<value code="2">55 or older</value>
+</variable>
+
+<variable id="phv00078590.v1">
+	<name>BKUARM</name>
+	<description>Broke upper arm ever</description>
+	<type>encoded value</type>
+	<comment>Which bone(s) did you break and how old were you when the bone(s) first broke? (Please mark all that apply. If you don&#39;t know the exact age, please guess as close as you can.) Upper arm (humerus)
+		Sub-question of F30 V3 Q15 &#39;Broke bone ever&#39; (skip pattern rule not applied).&lt;br/&gt;Not collected on all versions of Form 30. </comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00078591.v1">
+	<name>BKUARM55</name>
+	<description>Broke upper arm first time 55 or older</description>
+	<type>encoded value</type>
+	<comment>How old were you when you first broke this bone? Upper arm (humerus)
+		Sub-question of F30 V3 Q15 &#39;Broke bone ever&#39; (skip pattern rule not applied).&lt;br/&gt;Sub-question of F30 V3 Q15.1.3 &#39;Broke upper arm&#39;.&lt;br/&gt;Not collected on all versions of Form 30. </comment>
+	<value code="1">Less than 55</value>
+	<value code="2">55 or older</value>
+</variable>
+
+<variable id="phv00078592.v1">
+	<name>BKLARM</name>
+	<description>Broke lower arm ever</description>
+	<type>encoded value</type>
+	<comment>Which bone(s) did you break and how old were you when the bone(s) first broke? (Please mark all that apply. If you don&#39;t know the exact age, please guess as close as you can.) Lower arm or wrist
+		Sub-question of F30 V3 Q15 &#39;Broke bone ever&#39; (skip pattern rule not applied).&lt;br/&gt;Not collected on all versions of Form 30. </comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00078593.v1">
+	<name>BKLARM55</name>
+	<description>Broke lower arm first time 55 or older</description>
+	<type>encoded value</type>
+	<comment>How old were you when you first broke this bone? Lower arm or wrist
+		Sub-question of F30 V3 Q15 &#39;Broke bone ever&#39; (skip pattern rule not applied).&lt;br/&gt;Sub-question of F30 V3 Q15.1.4 &#39;Broke lower arm or wrist&#39;.&lt;br/&gt;Not collected on all versions of Form 30. </comment>
+	<value code="1">Less than 55</value>
+	<value code="2">55 or older</value>
+</variable>
+
+<variable id="phv00078594.v1">
+	<name>BKHAND</name>
+	<description>Broke hand ever</description>
+	<type>encoded value</type>
+	<comment>Which bone(s) did you break and how old were you when the bone(s) first broke? (Please mark all that apply. If you don&#39;t know the exact age, please guess as close as you can.) Hand (not finger)
+		Sub-question of F30 V3 Q15 &#39;Broke bone ever&#39; (skip pattern rule not applied).&lt;br/&gt;Not collected on all versions of Form 30. </comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00078595.v1">
+	<name>BKHAND55</name>
+	<description>Broke hand first time 55 or older</description>
+	<type>encoded value</type>
+	<comment>How old were you when you first broke this bone? Hand (not finger)
+		Sub-question of F30 V3 Q15 &#39;Broke bone ever&#39; (skip pattern rule not applied).&lt;br/&gt;Sub-question of F30 V3 Q15.1.5 &#39;Broke hand&#39;.&lt;br/&gt;Not collected on all versions of Form 30. </comment>
+	<value code="1">Less than 55</value>
+	<value code="2">55 or older</value>
+</variable>
+
+<variable id="phv00078596.v1">
+	<name>BKLLEG</name>
+	<description>Broke lower leg ever</description>
+	<type>encoded value</type>
+	<comment>Which bone(s) did you break and how old were you when the bone(s) first broke? (Please mark all that apply. If you don&#39;t know the exact age, please guess as close as you can.) Lower leg or ankle
+		Sub-question of F30 V3 Q15 &#39;Broke bone ever&#39; (skip pattern rule not applied).&lt;br/&gt;Not collected on all versions of Form 30. </comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00078597.v1">
+	<name>BKLLEG55</name>
+	<description>Broke lower leg first time 55 or older</description>
+	<type>encoded value</type>
+	<comment>How old were you when you first broke this bone? Lower leg or ankle
+		Sub-question of F30 V3 Q15 &#39;Broke bone ever&#39; (skip pattern rule not applied).&lt;br/&gt;Sub-question of F30 V3 Q15.1.6 &#39;Broke lower leg or ankle&#39;.&lt;br/&gt;Not collected on all versions of Form 30. </comment>
+	<value code="1">Less than 55</value>
+	<value code="2">55 or older</value>
+</variable>
+
+<variable id="phv00078598.v1">
+	<name>BKFOOT</name>
+	<description>Broke foot ever</description>
+	<type>encoded value</type>
+	<comment>Which bone(s) did you break and how old were you when the bone(s) first broke? (Please mark all that apply. If you don&#39;t know the exact age, please guess as close as you can.) Foot (not toe)
+		Sub-question of F30 V3 Q15 &#39;Broke bone ever&#39; (skip pattern rule not applied).&lt;br/&gt;Not collected on all versions of Form 30. </comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00078599.v1">
+	<name>BKFOOT55</name>
+	<description>Broke foot first time 55 or older</description>
+	<type>encoded value</type>
+	<comment>How old were you when you first broke this bone? Foot (not toe)
+		Sub-question of F30 V3 Q15 &#39;Broke bone ever&#39; (skip pattern rule not applied).&lt;br/&gt;Sub-question of F30 V3 Q15.1.7 &#39;Broke foot&#39;.&lt;br/&gt;Not collected on all versions of Form 30. </comment>
+	<value code="1">Less than 55</value>
+	<value code="2">55 or older</value>
+</variable>
+
+<variable id="phv00078600.v1">
+	<name>BKOTHB</name>
+	<description>Broke other bone ever</description>
+	<type>encoded value</type>
+	<comment>Which bone(s) did you break and how old were you when the bone(s) first broke? (Please mark all that apply. If you don&#39;t know the exact age, please guess as close as you can.) Other (Specify):
+		Sub-question of F30 V3 Q15 &#39;Broke bone ever&#39; (skip pattern rule not applied).&lt;br/&gt;Not collected on all versions of Form 30. </comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00078601.v1">
+	<name>BKOTHB55</name>
+	<description>Broke other bone first time 55 or older</description>
+	<type>encoded value</type>
+	<comment>How old were you when you first broke this bone? Other (Specify):
+		Sub-question of F30 V3 Q15 &#39;Broke bone ever&#39; (skip pattern rule not applied).&lt;br/&gt;Sub-question of F30 V3 Q15.1.8 &#39;Broke other bone&#39; (skip pattern rule not applied).&lt;br/&gt;Not collected on all versions of Form 30. </comment>
+	<value code="1">Less than 55</value>
+	<value code="2">55 or older</value>
+</variable>
+
+<variable id="phv00078602.v1">
+	<name>HTNTRT</name>
+	<description>Hypertension</description>
+	<type>encoded value</type>
+	<comment>Computed from Form 30, questions 7, 7.2, and 7.3.  Three category variable on history of hypertension including information on current treatment.  The three groups are never, currently untreated and currently treated hypertensive.</comment>
+	<value code="0">Never hypertensive</value>
+	<value code="1">Untreated hypertensive</value>
+	<value code="2">Treated hypertensive</value>
+</variable>
+
+<variable id="phv00078603.v1">
+	<name>HIP55</name>
+	<description>Hip fracture age 55 or older</description>
+	<type>encoded value</type>
+	<comment>Computed from Form 30, questions 15.1 and 15.2.  Indicator of whether participant has had a hip fracture at age 55 or older.  Set to missing if age at screening is less than 55.</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00078604.v1">
+	<name>FRACT55</name>
+	<description>Fracture at Age 55+</description>
+	<type>encoded value</type>
+	<comment>Computed from Form 30, questions 15, 15.1 and 15.2.  Indicator of whether the participant has ever broken a bone for the first time at age 55 or older.</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+<variable id="phv00078605.v1">
+	<name>REVASC</name>
+	<description>CABG/PTCA Ever</description>
+	<type>encoded value</type>
+	<comment>Computed from Form 30, questions 3.1.4 and 3.1.5.  Indicator for whether the participant has a history of either CABG or PTCA.</comment>
+	<value code="0">No</value>
+	<value code="1">Yes</value>
+</variable>
+
+</data_table>

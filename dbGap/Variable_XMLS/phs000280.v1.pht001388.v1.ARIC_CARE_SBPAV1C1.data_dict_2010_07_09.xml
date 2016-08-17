@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./datadict_v2.xsl"?>
+<data_table id="pht001388.v1" study_id="phs000280.v1" participant_set="1" date_created="Fri Jul  9 11:28:02 2010">
+
+<variable id="phv00096764.v1">
+	<name>Individual_ID</name>
+	<description>Subject Identifier</description>
+	<type>string</type>
+</variable>
+
+<variable id="phv00096765.v1">
+	<name>SBPAFLAG</name>
+	<description>FLAG INDICATING PRESENCE OF FORM</description>
+	<type>encoded</type>
+	<value code="1">PRESENCE OF FORM</value>
+	<value code=".">Missing</value>
+</variable>
+
+<variable id="phv00096766.v1">
+	<name>SBPACY</name>
+	<description>CONTACT YEAR [1]</description>
+	<type>integer</type>
+	<unit>Year</unit>
+	<value code=".">Missing</value>
+</variable>
+
+<variable id="phv00096767.v1">
+	<name>SBPA01</name>
+	<description>ROOM TEMPERATURE IN CELSIUS       Q1</description>
+	<type>integer</type>
+	<logical_min>13</logical_min>
+	<logical_max>32</logical_max>
+	<comment><![CDATA[The encoded value descriptions were not submitted at this time. If you have any questions, please visit http://www.cscc.unc.edu/ARIC/pubuse/.
+		For further information, consult the document <a href="GetPdf.cgi?id=phd002901.1">Exam 1 Sitting Blood Pressure.pdf</a>. ]]></comment>
+</variable>
+
+<variable id="phv00096768.v1">
+	<name>SBPA02</name>
+	<description>ANY TOBACCO IN LAST 4 HOURS?      Q2</description>
+	<type>encoded</type>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002901.1">Exam 1 Sitting Blood Pressure.pdf</a>.]]></comment>
+	<value code="N">No</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00096769.v1">
+	<name>SBPA03H</name>
+	<description>HOUR TIME SINCE LAST TOBACCO USE  Q3</description>
+	<type>integer</type>
+	<unit>Hours</unit>
+	<comment><![CDATA[The encoded value descriptions were not submitted at this time. If you have any questions, please visit http://www.cscc.unc.edu/ARIC/pubuse/.
+		For further information, consult the document <a href="GetPdf.cgi?id=phd002901.1">Exam 1 Sitting Blood Pressure.pdf</a>. ]]></comment>
+	<value code=".">Missing</value>
+</variable>
+
+<variable id="phv00096770.v1">
+	<name>SBPA03M</name>
+	<description>MINUTE TIME SINCE LAST TOBACO USE Q3</description>
+	<type>integer</type>
+	<logical_min>-4.66e-10</logical_min>
+	<logical_max>55</logical_max>
+	<comment><![CDATA[The encoded value descriptions were not submitted at this time. If you have any questions, please visit http://www.cscc.unc.edu/ARIC/pubuse/.
+		For further information, consult the document <a href="GetPdf.cgi?id=phd002901.1">Exam 1 Sitting Blood Pressure.pdf</a>. ]]></comment>
+</variable>
+
+<variable id="phv00096771.v1">
+	<name>SBPA04</name>
+	<description>ANY CAFFEINE IN LAST 4 HOURS?     Q4</description>
+	<type>encoded</type>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002901.1">Exam 1 Sitting Blood Pressure.pdf</a>.]]></comment>
+	<value code="N">No</value>
+	<value code="Y">Yes</value>
+</variable>
+
+<variable id="phv00096772.v1">
+	<name>SBPA05H</name>
+	<description>HOUR TIME SINCE LAST CAFFEINE USE Q5</description>
+	<type>integer</type>
+	<unit>Hours</unit>
+	<comment><![CDATA[The encoded value descriptions were not submitted at this time. If you have any questions, please visit http://www.cscc.unc.edu/ARIC/pubuse/.
+		For further information, consult the document <a href="GetPdf.cgi?id=phd002901.1">Exam 1 Sitting Blood Pressure.pdf</a>. ]]></comment>
+	<value code=".">Missing</value>
+</variable>
+
+<variable id="phv00096773.v1">
+	<name>SBPA05M</name>
+	<description>MINUTE TIME SNCE LST CAFFEINE USE Q5</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>55</logical_max>
+	<comment><![CDATA[The encoded value descriptions were not submitted at this time. If you have any questions, please visit http://www.cscc.unc.edu/ARIC/pubuse/.
+		For further information, consult the document <a href="GetPdf.cgi?id=phd002901.1">Exam 1 Sitting Blood Pressure.pdf</a>. ]]></comment>
+</variable>
+
+<variable id="phv00096774.v1">
+	<name>SBPA06</name>
+	<description>RIGHT ARM CIRCUMFERENCE IN CM     Q6</description>
+	<type>integer</type>
+	<logical_min>19</logical_min>
+	<logical_max>61</logical_max>
+	<comment><![CDATA[The encoded value descriptions were not submitted at this time. If you have any questions, please visit http://www.cscc.unc.edu/ARIC/pubuse/.
+		For further information, consult the document <a href="GetPdf.cgi?id=phd002901.1">Exam 1 Sitting Blood Pressure.pdf</a>. ]]></comment>
+</variable>
+
+<variable id="phv00096775.v1">
+	<name>SBPA07</name>
+	<description>CUFF SIZE                         Q7</description>
+	<type>encoded</type>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002901.1">Exam 1 Sitting Blood Pressure.pdf</a>.]]></comment>
+	<value code="L">Large arm [33-41 cm]</value>
+	<value code="O">Other</value>
+	<value code="P">Pediatric [under 24 cm]</value>
+	<value code="R">Regular arm [24-32]</value>
+</variable>
+
+<variable id="phv00096776.v1">
+	<name>SBPA08AH</name>
+	<description>HOUR TIME OF DAY                  Q8A</description>
+	<type>integer</type>
+	<unit>Hours</unit>
+	<comment><![CDATA[The encoded value descriptions were not submitted at this time. If you have any questions, please visit http://www.cscc.unc.edu/ARIC/pubuse/.
+		For further information, consult the document <a href="GetPdf.cgi?id=phd002901.1">Exam 1 Sitting Blood Pressure.pdf</a>. ]]></comment>
+	<value code=".">Missing</value>
+</variable>
+
+<variable id="phv00096777.v1">
+	<name>SBPA08AM</name>
+	<description>MINUTE TIME OF DAY                Q8A</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>59</logical_max>
+	<comment><![CDATA[The encoded value descriptions were not submitted at this time. If you have any questions, please visit http://www.cscc.unc.edu/ARIC/pubuse/.
+		For further information, consult the document <a href="GetPdf.cgi?id=phd002901.1">Exam 1 Sitting Blood Pressure.pdf</a>. ]]></comment>
+</variable>
+
+<variable id="phv00096778.v1">
+	<name>SBPA08B</name>
+	<description>AM OR PM INDICATOR                Q8B</description>
+	<type>encoded</type>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002901.1">Exam 1 Sitting Blood Pressure.pdf</a>.]]></comment>
+	<value code="A">AM</value>
+	<value code="P">PM</value>
+</variable>
+
+<variable id="phv00096779.v1">
+	<name>SBPA09</name>
+	<description>PULSE OBLITERATION PRESSURE       Q9</description>
+	<type>integer</type>
+	<logical_min>80</logical_min>
+	<logical_max>242</logical_max>
+	<comment><![CDATA[The encoded value descriptions were not submitted at this time. If you have any questions, please visit http://www.cscc.unc.edu/ARIC/pubuse/.
+		For further information, consult the document <a href="GetPdf.cgi?id=phd002901.1">Exam 1 Sitting Blood Pressure.pdf</a>. ]]></comment>
+</variable>
+
+<variable id="phv00096780.v1">
+	<name>SBPA10</name>
+	<description>MAXIMUM ZERO                      Q10</description>
+	<type>integer</type>
+	<comment><![CDATA[The encoded value descriptions were not submitted at this time. If you have any questions, please visit http://www.cscc.unc.edu/ARIC/pubuse/.
+		For further information, consult the document <a href="GetPdf.cgi?id=phd002901.1">Exam 1 Sitting Blood Pressure.pdf</a>. ]]></comment>
+	<value code=".">Missing</value>
+</variable>
+
+<variable id="phv00096781.v1">
+	<name>SBPA11</name>
+	<description>PEAK INFLATION LEVEL              Q11</description>
+	<type>integer</type>
+	<logical_min>134</logical_min>
+	<logical_max>294</logical_max>
+	<comment><![CDATA[The encoded value descriptions were not submitted at this time. If you have any questions, please visit http://www.cscc.unc.edu/ARIC/pubuse/.
+		For further information, consult the document <a href="GetPdf.cgi?id=phd002901.1">Exam 1 Sitting Blood Pressure.pdf</a>. ]]></comment>
+</variable>
+
+<variable id="phv00096782.v1">
+	<name>SBPA12</name>
+	<description>1ST SYSTOLIC BP MEASUREMENT       Q12</description>
+	<type>integer</type>
+	<logical_min>82</logical_min>
+	<logical_max>304</logical_max>
+	<comment><![CDATA[The encoded value descriptions were not submitted at this time. If you have any questions, please visit http://www.cscc.unc.edu/ARIC/pubuse/.
+		For further information, consult the document <a href="GetPdf.cgi?id=phd002901.1">Exam 1 Sitting Blood Pressure.pdf</a>. ]]></comment>
+</variable>
+
+<variable id="phv00096783.v1">
+	<name>SBPA13</name>
+	<description>1ST DIASTOLIC BP MEASUREMENT      Q13</description>
+	<type>integer</type>
+	<logical_min>10</logical_min>
+	<logical_max>164</logical_max>
+	<comment><![CDATA[The encoded value descriptions were not submitted at this time. If you have any questions, please visit http://www.cscc.unc.edu/ARIC/pubuse/.
+		For further information, consult the document <a href="GetPdf.cgi?id=phd002901.1">Exam 1 Sitting Blood Pressure.pdf</a>. ]]></comment>
+</variable>
+
+<variable id="phv00096784.v1">
+	<name>SBPA14</name>
+	<description>1ST BP MEASUREMENT ZERO READING   Q14</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>40</logical_max>
+	<comment><![CDATA[The encoded value descriptions were not submitted at this time. If you have any questions, please visit http://www.cscc.unc.edu/ARIC/pubuse/.
+		For further information, consult the document <a href="GetPdf.cgi?id=phd002901.1">Exam 1 Sitting Blood Pressure.pdf</a>. ]]></comment>
+</variable>
+
+<variable id="phv00096785.v1">
+	<name>SBPA15</name>
+	<description>2ND SYSTOLIC BP MEASUREMENT       Q15</description>
+	<type>integer</type>
+	<logical_min>74</logical_min>
+	<logical_max>262</logical_max>
+	<comment><![CDATA[The encoded value descriptions were not submitted at this time. If you have any questions, please visit http://www.cscc.unc.edu/ARIC/pubuse/.
+		For further information, consult the document <a href="GetPdf.cgi?id=phd002901.1">Exam 1 Sitting Blood Pressure.pdf</a>. ]]></comment>
+</variable>
+
+<variable id="phv00096786.v1">
+	<name>SBPA16</name>
+	<description>2ND DIASTOLIC BP MEASUREMENT      Q16</description>
+	<type>integer</type>
+	<logical_min>14</logical_min>
+	<logical_max>158</logical_max>
+	<comment><![CDATA[The encoded value descriptions were not submitted at this time. If you have any questions, please visit http://www.cscc.unc.edu/ARIC/pubuse/.
+		For further information, consult the document <a href="GetPdf.cgi?id=phd002901.1">Exam 1 Sitting Blood Pressure.pdf</a>. ]]></comment>
+</variable>
+
+<variable id="phv00096787.v1">
+	<name>SBPA17</name>
+	<description>2ND BP MEASUREMENT ZERO READING   Q17</description>
+	<type>integer</type>
+	<logical_min>2</logical_min>
+	<logical_max>40</logical_max>
+	<comment><![CDATA[The encoded value descriptions were not submitted at this time. If you have any questions, please visit http://www.cscc.unc.edu/ARIC/pubuse/.
+		For further information, consult the document <a href="GetPdf.cgi?id=phd002901.1">Exam 1 Sitting Blood Pressure.pdf</a>. ]]></comment>
+</variable>
+
+<variable id="phv00096788.v1">
+	<name>SBPA18</name>
+	<description>3RD SYSTOLIC BP MEASUREMENT       Q18</description>
+	<type>integer</type>
+	<logical_min>82</logical_min>
+	<logical_max>260</logical_max>
+	<comment><![CDATA[The encoded value descriptions were not submitted at this time. If you have any questions, please visit http://www.cscc.unc.edu/ARIC/pubuse/.
+		For further information, consult the document <a href="GetPdf.cgi?id=phd002901.1">Exam 1 Sitting Blood Pressure.pdf</a>. ]]></comment>
+</variable>
+
+<variable id="phv00096789.v1">
+	<name>SBPA19</name>
+	<description>3RD DIASTOLIC BP MEASUREMENT      Q19</description>
+	<type>integer</type>
+	<logical_min>14</logical_min>
+	<logical_max>158</logical_max>
+	<comment><![CDATA[The encoded value descriptions were not submitted at this time. If you have any questions, please visit http://www.cscc.unc.edu/ARIC/pubuse/.
+		For further information, consult the document <a href="GetPdf.cgi?id=phd002901.1">Exam 1 Sitting Blood Pressure.pdf</a>. ]]></comment>
+</variable>
+
+<variable id="phv00096790.v1">
+	<name>SBPA20</name>
+	<description>3RD BP MEASUREMENT ZERO READING   Q20</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>40</logical_max>
+	<comment><![CDATA[The encoded value descriptions were not submitted at this time. If you have any questions, please visit http://www.cscc.unc.edu/ARIC/pubuse/.
+		For further information, consult the document <a href="GetPdf.cgi?id=phd002901.1">Exam 1 Sitting Blood Pressure.pdf</a>. ]]></comment>
+</variable>
+
+<variable id="phv00096791.v1">
+	<name>SBPA21</name>
+	<description>2ND AND 3RD SYSTOLIC BP AVERAGE   Q21</description>
+	<type>integer</type>
+	<logical_min>61</logical_min>
+	<logical_max>246</logical_max>
+	<comment><![CDATA[The encoded value descriptions were not submitted at this time. If you have any questions, please visit http://www.cscc.unc.edu/ARIC/pubuse/.
+		For further information, consult the document <a href="GetPdf.cgi?id=phd002901.1">Exam 1 Sitting Blood Pressure.pdf</a>. ]]></comment>
+</variable>
+
+<variable id="phv00096792.v1">
+	<name>SBPA22</name>
+	<description>2ND AND 3RD DIASTOLIC BP AVERAGE  Q22</description>
+	<type>integer</type>
+	<logical_min>0</logical_min>
+	<logical_max>144</logical_max>
+	<comment><![CDATA[The encoded value descriptions were not submitted at this time. If you have any questions, please visit http://www.cscc.unc.edu/ARIC/pubuse/.
+		For further information, consult the document <a href="GetPdf.cgi?id=phd002901.1">Exam 1 Sitting Blood Pressure.pdf</a>. ]]></comment>
+</variable>
+
+<variable id="phv00096793.v1">
+	<name>SBPA24</name>
+	<description>METHOD OF DATA COLLECTION         Q24</description>
+	<type>encoded</type>
+	<comment><![CDATA[For further information, consult the document <a href="GetPdf.cgi?id=phd002901.1">Exam 1 Sitting Blood Pressure.pdf</a>.]]></comment>
+	<value code="C">Computer</value>
+	<value code="P">Paper form</value>
+</variable>
+
+</data_table>

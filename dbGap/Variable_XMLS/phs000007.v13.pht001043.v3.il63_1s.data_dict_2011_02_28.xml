@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./datadict_v2.xsl"?>
+<data_table id="pht001043.v3" study_id="phs000007.v13" participant_set="5" date_created="Mon Feb 28 17:26:55 2011">
+
+<unique_key phv="00081000" version="2">flag</unique_key>
+<unique_key phv="00081001" version="2">shareid</unique_key>
+
+<variable id="phv00080998.v1">
+	<name>idtype</name>
+	<description>Framingham Cohort Identifier</description>
+	<type>encoded</type>
+	<coll_interval>Exam 1</coll_interval>
+	<value code="3">Generation 3</value>
+</variable>
+
+<variable id="phv00080991.v2">
+	<name>raw1</name>
+	<description>Interleukin-6 raw OD reading for first well</description>
+	<type>decimal, encoded</type>
+	<logical_min>0.07</logical_min>
+	<logical_max>3.275</logical_max>
+	<coll_interval>Exam 1</coll_interval>
+	<value code=".">Unknown</value>
+</variable>
+
+<variable id="phv00080992.v2">
+	<name>blcor1</name>
+	<description>Interleukin-6 baseline corrected OD reading for first well</description>
+	<type>decimal, encoded</type>
+	<logical_min>0.022</logical_min>
+	<logical_max>3.21</logical_max>
+	<coll_interval>Exam 1</coll_interval>
+	<value code=".">Unknown</value>
+</variable>
+
+<variable id="phv00080993.v2">
+	<name>conc1</name>
+	<description>Interleukin-6 concentration for first well</description>
+	<type>decimal, encoded</type>
+	<unit>pg/mL</unit>
+	<logical_min>0.15</logical_min>
+	<logical_max>101.476</logical_max>
+	<coll_interval>Exam 1</coll_interval>
+	<comment>If CONC1 was less than or equal to the lowest detectable limit of 0.15 pg/ml, then CONC1 was set to 0.15 pg/ml.</comment>
+	<value code=".">Unknown</value>
+</variable>
+
+<variable id="phv00080994.v2">
+	<name>raw2</name>
+	<description>Interleukin-6 raw OD reading for second well</description>
+	<type>decimal, encoded</type>
+	<logical_min>0.134</logical_min>
+	<logical_max>2.903</logical_max>
+	<coll_interval>Exam 1</coll_interval>
+	<value code=".">Unknown</value>
+</variable>
+
+<variable id="phv00080995.v2">
+	<name>blcor2</name>
+	<description>Interleukin-6 baseline corrected OD reading for second well</description>
+	<type>decimal, encoded</type>
+	<logical_min>0.067</logical_min>
+	<logical_max>2.84</logical_max>
+	<coll_interval>Exam 1</coll_interval>
+	<value code=".">Unknown</value>
+</variable>
+
+<variable id="phv00080996.v2">
+	<name>conc2</name>
+	<description>Interleukin-6 concentration for second well</description>
+	<type>decimal, encoded</type>
+	<unit>pg/mL</unit>
+	<logical_min>0.295</logical_min>
+	<logical_max>90.673</logical_max>
+	<coll_interval>Exam 1</coll_interval>
+	<comment>If CONC2 was less than or equal to the lowest detectable limit of 0.15 pg/ml, then CONC2 was set to 0.15 pg/ml.</comment>
+	<value code=".">Unknown</value>
+</variable>
+
+<variable id="phv00080997.v2">
+	<name>mresult</name>
+	<description>Interleukin-6 mean concentration</description>
+	<type>decimal, encoded</type>
+	<unit>pg/mL</unit>
+	<logical_min>0.312</logical_min>
+	<logical_max>96.075</logical_max>
+	<coll_interval>Exam 1</coll_interval>
+	<comment>The mean result was only calculated if the sample was done in duplicate.  To keep results consistent, the first concentration was used as the final IL6 reading for all samples (Variable IL6).</comment>
+</variable>
+
+<variable id="phv00080999.v2">
+	<name>il6</name>
+	<description>Interleukin-6 concentration</description>
+	<type>decimal, encoded</type>
+	<unit>pg/mL</unit>
+	<logical_min>0.15</logical_min>
+	<logical_max>101.476</logical_max>
+	<coll_interval>Exam 1</coll_interval>
+	<comment>For flag = 1, 2 or 3, IL6 is the same as CONC1 regardless of whether the sample was done in duplicate or not.
+		If IL6 was less than or equal to the lowest detectable limit of 0.15 pg/ml, then IL6 was set to 0.15 pg/ml. </comment>
+	<value code=".">Unknown</value>
+</variable>
+
+<variable id="phv00081000.v2">
+	<name>flag</name>
+	<description>Data type indicator</description>
+	<type>encoded</type>
+	<coll_interval>Exam 1</coll_interval>
+	<comment>When doing analysis, use the variable IL6 where flag = 1 and 2.  Phantoms have their FHS ID number listed under IDTYPE and ID, with their phantom id number listed under PHANTOM_ID.
+		When looking at phantom samples, use flag = 3 records as well as their corresponding FHS ID numbers in either flag = 1 or 2. </comment>
+	<value code="1">FHS samples that can be used for analysis, done in singleton</value>
+	<value code="2">FHS samples that can be used for analysis, done in duplicate</value>
+	<value code="3">Phantom samples</value>
+</variable>
+
+<variable id="phv00081001.v2">
+	<name>shareid</name>
+	<description>SHARE ID Number</description>
+	<type>integer</type>
+	<coll_interval>Exam 1</coll_interval>
+</variable>
+
+</data_table>
