@@ -251,7 +251,7 @@ def xmlParse(terms, stringency, studyType):
             with open('OUTPUT.csv','wb') as f:
                 f.write(','.join(['dbGaP_accession_no']) + '\n')
                 for value in harmony.values():
-                    f.write(','.join([value]) + '\n')
+                    f.write(','.join([value,'http://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=' + value]) + '\n')
             f.close()
         except IOError:
             print "Could not open file for writing"
@@ -271,26 +271,36 @@ def main():
             if args.idSearch is not None:
                 # Search by projectID
                 if args.searchType.lower() == 'project':
-                    response = project(tcga.query_by_project(args.idSearch)['data'])
-                    disease = [response.disease_type]
-                    studyType = None # Projects contain multiple study types, so will not query dbGaP with study type
-                    outString = "project_id,web_address,disease,experimental_strategy\n"+response.project_id+",https://gdc-portal.nci.nih.gov/projects/"+response.project_id+","+response.disease_type+","+"\\".join([s.strategy for s in response.strategies_list])+"\n"
-                    with open("tcga_results.csv", "w") as outFile:
-                        outFile.write(outString)
-                    
+                    try:
+                     response = project(tcga.query_by_project(args.idSearch)['data'])
+                     disease = [response.disease_type]
+                     studyType = None # Projects contain multiple study types, so will not query dbGaP with study type
+                     outString = "project_id,web_address,disease,experimental_strategy\n"+response.project_id+",https://gdc-portal.nci.nih.gov/projects/"+response.project_id+","+response.disease_type+","+"\\".join([s.strategy  for s in response.strategies_list])+"\n"
+                     with open("tcga_results.csv", "w") as outFile:
+                       outFile.write(outString)
+                    except KeyError:
+                        print "NO RESULT"
+                        sys.exit(0)
                 # Search by fileID
                 elif args.searchType.lower() == 'file':
-                    response = tcgaFile(tcga.query_by_file(args.idSearch)['data'])
-                    for p in response.projects:
+                    try: 
+                     response = tcgaFile(tcga.query_by_file(args.idSearch)['data'])
+                     for p in response.projects:
                         disease += [p.disease_type]
-                    studyType = response.exp_stg
-                    
+                     studyType = response.exp_stg
+                    except KeyError:
+                        print "NO RESULT"
+                        sys.exit(0)
 
                 # Search by CaseID
                 elif args.searchType.lower() == 'case' or args.searchType.lower() == 'sample':
-                    response = case(tcga.query_by_sample(args.idSearch)['data'])
-                    disease = response.project.disease_type
-                    studyType = response.exp_stg
+                    try:
+                     response = case(tcga.query_by_sample(args.idSearch)['data'])
+                     disease = response.project.disease_type
+                     studyType = response.exp_stg
+                    except KeyError:
+                        print "NO RESULT"
+                        sys.exit(0)
             else:
                 response = None
                 # Search by both disease and studyType
