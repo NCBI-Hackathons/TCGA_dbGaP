@@ -39,5 +39,6 @@ List of SRRs found for the entered phs'
 "sra_query_tool.sh"
 INPUT:
 File containing list of SRRs
+Takes the region of interest as argument
 OUTPUT:
 SAM files
