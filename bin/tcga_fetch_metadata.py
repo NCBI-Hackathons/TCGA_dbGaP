@@ -153,173 +153,189 @@ class Query_TCGA:
         return response
 
 class project(object):
-	def __init__(self,jsonObj):
-		summary = jsonObj['summary'] 
-		self.strategies_list = [expt_strategy(i) for i in summary['experimental_strategies']]
-		self.data_categories = [data_category(i) for i in summary['data_categories']]
-		self.project_id = jsonObj['project_id']
-		self.name = jsonObj['project_id']
-		self.released = jsonObj['released']
-		self.state = jsonObj['state']
-		self.primary_site = jsonObj['primary_site']
-		self.dbgap = jsonObj['dbgap_accession_number']
-		self.disease_type = jsonObj['disease_type']
+    def __init__(self,jsonObj):
+        summary = jsonObj['summary'] 
+        self.strategies_list = [expt_strategy(i) for i in summary['experimental_strategies']]
+        self.data_categories = [data_category(i) for i in summary['data_categories']]
+        self.project_id = jsonObj['project_id']
+        self.name = jsonObj['project_id']
+        self.released = jsonObj['released']
+        self.state = jsonObj['state']
+        self.primary_site = jsonObj['primary_site']
+        self.dbgap = jsonObj['dbgap_accession_number']
+        self.disease_type = jsonObj['disease_type']
 class strategy(object):
-	def __init__(self,Dictitem):
-		self.case_count= Dictitem['case_count']
-		self.file_count= Dictitem['file_count']
-		self.strategy= ''
-		print self.file_count	
+    def __init__(self,Dictitem):
+        self.case_count= Dictitem['case_count']
+        self.file_count= Dictitem['file_count']
+        self.strategy= ''
+        print self.file_count   
 class expt_strategy(strategy):
-	def __init__(self,item):
-		self.strategy  = item['experimental_strategy']
+    def __init__(self,item):
+        self.strategy  = item['experimental_strategy']
 class data_category(strategy):
-	def __init__(self,item):
-		self.strategy  = item['data_category']
+    def __init__(self,item):
+        self.strategy  = item['data_category']
 class project_details(object):
-	def __init__(self,item):
-		self.accn = item['dbgap_accession_number']
-		self.disease_type = item['disease_type']
-		self.released = item['released']
-		self.state = item['state']
-		self.primary_site = item['primary_site']
-		self.project_id = item['project_id']
-		self.name = item['name']
+    def __init__(self,item):
+        self.accn = item['dbgap_accession_number']
+        self.disease_type = item['disease_type']
+        self.released = item['released']
+        self.state = item['state']
+        self.primary_site = item['primary_site']
+        self.project_id = item['project_id']
+        self.name = item['name']
 class tcgaFile(object):
-	def __init__(self,item):
-		self.data_type = item['data_type']
-		#self.updated_datetime = item['updated_datetime']
-		#self.created_datetime = item['created_datetime']
-		#self.file_name = item['file_name']
-		#self.md5sum = item['md5sum']
-		#self.data_format = item['data_format']
-		#self.acl = item['acl']
-		#self.access = item['access']
-		#self.state = item['state']
-		#self.file_id = item['file_id']
-		#self.data_category = item['data_category']
-		#self.file_size = item['file_size']
-		#self.submitter_id = item['submitter_id']
-		#self.type = item['type']
-		#self.file_state = item['file_state']
-		#self.exp_stg = item['experimental_strategy']
-		#self.data_ctg = item['data_category']
-		try:
-			self.projects = [project_details(i['project']) for i in item['cases']]
-		except KeyError:
-			self.projects = None
+    def __init__(self,item):
+        self.data_type = item['data_type']
+        #self.updated_datetime = item['updated_datetime']
+        #self.created_datetime = item['created_datetime']
+        #self.file_name = item['file_name']
+        #self.md5sum = item['md5sum']
+        #self.data_format = item['data_format']
+        #self.acl = item['acl']
+        #self.access = item['access']
+        #self.state = item['state']
+        #self.file_id = item['file_id']
+        #self.data_category = item['data_category']
+        #self.file_size = item['file_size']
+        #self.submitter_id = item['submitter_id']
+        #self.type = item['type']
+        #self.file_state = item['file_state']
+        #self.exp_stg = item['experimental_strategy']
+        #self.data_ctg = item['data_category']
+        try:
+            self.projects = [project_details(i['project']) for i in item['cases']]
+        except KeyError:
+            self.projects = None
 class case(object):
-	def __init__(self,jsonObj):
-		self.case_id = jsonObj['case_id']
-		try:
-			self.sample_ids = jsonObj['sample_ids']
-		except KeyError:
-			self.sample_ids = None
-		try:
-			self.project = project_details(jsonObj['project'])
-		except KeyError:
-			self.project = None
+    def __init__(self,jsonObj):
+        self.case_id = jsonObj['case_id']
+        try:
+            self.sample_ids = jsonObj['sample_ids']
+        except KeyError:
+            self.sample_ids = None
+        try:
+            self.project = project_details(jsonObj['project'])
+        except KeyError:
+            self.project = None
 def xmlParse(terms, stringency, studyType):
-	mapObj = Mapping()
-	diseaseDict, studyDict = mapObj.main(stringency)
-	dbGaPTerms = []
-	for dis in terms:
-		dbGaPTerms += diseaseDict[dis.lower()]
-	strTerms = "[Disease]OR".join(dbGaPTerms)+"[Disease]"
-	if studyType != None:
-		dbGaPType = studyDict[studyType]
-		dbGaPStr = "[Molecular Data Type]OR".join(dbGaPType) 
-		strTerms = "("+strTerms+")AND("+dbGaPStr+"[Molecular Data Type])"
-	response = requests.get('https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=gap&term=1[s_discriminator]&' + strTerms)
-	entrezIds = list()
-	phsIds = list()
-	harmony = dict()
-	for ele in response.content.split('\n'):
-		if '<Id>' in ele:
-			id = ele.replace('<Id>','').replace('</Id>','')
-			entrezIds.append(id)
-			res = requests.get('https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=gap&id=' + id + '&version=2.0')
-			type(res.content)
-			m=re.search("<d_study_id>(.{2,})</d_study_id>",res.content,re.MULTILINE)
-			if m is not None:
-				phsIds.append(m.group(1))
-				harmony[id] = m.group(1)
-	if len(phsIds)==0:
-		print "dbGaP result is null"
-	else:
-		try:
-			with open('OUTPUT.csv','wb') as f:
-				f.write(','.join(['dbGaP_accession_no']) + '\n')
-				for value in harmony.values():
-					f.write(','.join([value]) + '\n')
-			f.close()
-		except IOError:
-			print "Could not open file for writing"
-			sys.exit(0)
-		
+    mapObj = Mapping()
+    diseaseDict, studyDict = mapObj.main(stringency)
+    dbGaPTerms = []
+    for dis in terms:
+        dbGaPTerms += diseaseDict[dis.lower()]
+    strTerms = "[Disease]OR".join(dbGaPTerms)+"[Disease]"
+    if studyType != None:
+        dbGaPType = studyDict[studyType]
+        dbGaPStr = "[Molecular Data Type]OR".join(dbGaPType) 
+        strTerms = "("+strTerms+")AND("+dbGaPStr+"[Molecular Data Type])"
+    response = requests.get('https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=gap&term=1[s_discriminator]&' + strTerms)
+    entrezIds = list()
+    phsIds = list()
+    harmony = dict()
+    for ele in response.content.split('\n'):
+        if '<Id>' in ele:
+            id = ele.replace('<Id>','').replace('</Id>','')
+            entrezIds.append(id)
+            res = requests.get('https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=gap&id=' + id + '&version=2.0')
+            type(res.content)
+            m=re.search("<d_study_id>(.{2,})</d_study_id>",res.content,re.MULTILINE)
+            if m is not None:
+                phsIds.append(m.group(1))
+                harmony[id] = m.group(1)
+    if len(phsIds)==0:
+        print "dbGaP result is null"
+    else:
+        try:
+            with open('OUTPUT.csv','wb') as f:
+                f.write(','.join(['dbGaP_accession_no']) + '\n')
+                for value in harmony.values():
+                    f.write(','.join([value]) + '\n')
+            f.close()
+        except IOError:
+            print "Could not open file for writing"
+            sys.exit(0)
+        
 # main function
 
 def main():
-	# parse the command line args
-	args = get_args()
-	tcga = Query_TCGA()
-	
-	if args.searchType is not None:
-		if tcga.check_tcga():
-			disease = []
-			if args.idSearch is not None:
-				if args.searchType.lower() == 'project':
-					response = project(tcga.query_by_project(args.idSearch)['data'])
-					disease = [response.disease_type]
-					studyType = None # Projects contain multiple study types, so will not query dbGaP with study type
-				elif args.searchType.lower() == 'file':
-					response = tcgaFile(tcga.query_by_file(args.idSearch)['data'])
-					for p in response.projects:
-						disease += [p.disease_type]
-						studyType = response.exp_stg
+    # parse the command line args
+    args = get_args()
+    tcga = Query_TCGA()
+    
+    if args.searchType is not None:
+        if tcga.check_tcga():
+            disease = []
 
-				elif args.searchType.lower() == 'case' or args.searchType.lower() == 'sample':
-					response = case(tcga.query_by_sample(args.idSearch)['data'])
-					disease = response.project.disease_type
-					studyType = response.exp_stg
-			else:
-				response = None
-				if args.disease != None and args.studyType!=None:
-					response = tcga.query_by_filter([args.disease, args.studyType], ["disease", "studyType"], args.searchType)['data']
-					studyType = args.studyType
-					#print response
-				elif args.disease !=None:
-					response = tcga.query_by_filter([args.disease], ["disease"], args.searchType)['data']
-					studyType = None
-					#print response
-				elif args.studyType !=None:
-					response = tcga.query_by_filter([args.studyType], ["studyType"], args.searchType)['data']
-					studyType = args.studyType
-				else:
-					print "Enter either disease or studyType for search"
-					sys.exit(1)
-				if response != None or len(response['hits']) != 0:
-					ls = response['hits']
-					if args.searchType.lower() == 'project':
-						for item in ls:
-							res = project(item)
-							disease += [res.disease_type]
-					elif args.searchType.lower() == 'file':
-						for item in ls:
-							res = tcgaFile(item)
-							for p in res.projects:
+            if args.idSearch is not None:
+                # Search by projectID
+                if args.searchType.lower() == 'project':
+                    response = project(tcga.query_by_project(args.idSearch)['data'])
+                    disease = [response.disease_type]
+                    studyType = None # Projects contain multiple study types, so will not query dbGaP with study type
+                    outString = "project_id,web_address,disease,experimental_strategy\n"+response.project_id+",https://gdc-portal.nci.nih.gov/projects/"+response.project_id+","+response.disease_type+","+"\\".join([s.strategy for s in response.strategies_list])+"\n"
+                    with open("tcga_results.csv", "w") as outFile:
+                        outFile.write(outString)
+                    
+                # Search by fileID
+                elif args.searchType.lower() == 'file':
+                    response = tcgaFile(tcga.query_by_file(args.idSearch)['data'])
+                    for p in response.projects:
+                        disease += [p.disease_type]
+                    studyType = response.exp_stg
+                    
+
+                # Search by CaseID
+                elif args.searchType.lower() == 'case' or args.searchType.lower() == 'sample':
+                    response = case(tcga.query_by_sample(args.idSearch)['data'])
+                    disease = response.project.disease_type
+                    studyType = response.exp_stg
+            else:
+                response = None
+                # Search by both disease and studyType
+                if args.disease != None and args.studyType!=None:
+                    response = tcga.query_by_filter([args.disease, args.studyType], ["disease", "studyType"], args.searchType)['data']
+                    studyType = args.studyType
+                    #print response
+                # Search by disease
+                elif args.disease !=None:
+                    response = tcga.query_by_filter([args.disease], ["disease"], args.searchType)['data']
+                    studyType = None
+                    #print response
+                # Search by studyType
+                elif args.studyType !=None:
+                    response = tcga.query_by_filter([args.studyType], ["studyType"], args.searchType)['data']
+                    studyType = args.studyType
+                    
+                else:
+                    print "Enter either disease or studyType for search"
+                    sys.exit(1)
+
+                # If there is a response 
+                if response != None or len(response['hits']) != 0:
+                    ls = response['hits']
+                    if args.searchType.lower() == 'project':
+                        for item in ls:
+                            res = project(item)
+                            disease += [res.disease_type]
+                    elif args.searchType.lower() == 'file':
+                        for item in ls:
+                            res = tcgaFile(item)
+                            for p in res.projects:
                                                             disease += [p.disease_type]
-					elif args.searchType.lower() == 'case' or args.searchType.lower() == 'sample':
-						for item in ls:
-							res = case(item)
-							disease += [res.project.disease_type]
-				else:
-					print "No Result"
-					sys.exit(1)
-			xmlParse(disease, args.stringencyLevel, studyType)	
-		else:
-			print "TCGA is not responding"
-		
+                    elif args.searchType.lower() == 'case' or args.searchType.lower() == 'sample':
+                        for item in ls:
+                            res = case(item)
+                            disease += [res.project.disease_type]
+                else:
+                    print "No Result"
+                    sys.exit(1)
+
+            xmlParse(disease, args.stringencyLevel, studyType)  
+        else:
+            print "TCGA is not responding"
+        
 # initialize the script
 if __name__ == '__main__':
     try:
@@ -327,4 +343,3 @@ if __name__ == '__main__':
     except IOError, e:
         if e.errno != 32: # ignore SIGPIPE
             raise 
-
