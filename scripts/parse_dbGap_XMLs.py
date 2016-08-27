@@ -13,8 +13,6 @@ from xml.parsers.expat import ExpatError
 import glob
 import re
 
-os.chdir('C://Users//Yingquan Li//Desktop//NIH//dbGaP xml')
-
 # Master data structure
 master = []
 name_list = glob.glob('*.xml')
