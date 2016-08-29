@@ -15,7 +15,7 @@ SRA Toolkit -> For details check https://trace.ncbi.nlm.nih.gov/Traces/sra/sra.c
 
 ##Program descriptions
 
-###"fetch_dbGaP_and_TCGA.py"
+###"fetch_dbGaP_with_TCGA.py"
 INPUT:
 
 This function will take an input of TCGA project ID, file ID, case ID.
