@@ -15,7 +15,7 @@ SRA Toolkit -> For details check https://trace.ncbi.nlm.nih.gov/Traces/sra/sra.c
 
 ##Program descriptions
 
-###"tcga_fetch_metadata.py"
+###"fetch_dbGaP_and_TCGA.py"
 INPUT:
 
 This function will take an input of TCGA project ID, file ID, case ID.
@@ -33,8 +33,8 @@ Allowable arguments are:
 
 OUTPUT:
 
-The output is a csv file containing dbGAP accession numbers and associated url for related studies.
-The default name of the file "OUTPUT.csv"
+The output is two csv files, one containing the ids, urls, and other TCGA information. The other contains dbGAP accession numbers, associated url and other study information for related studies.
+The default name of the TCGA file is "tcga_output.csv" and dbGaP file is "dbGAP_output.csv"
 
 ###"fetch_SRRs.py"
 INPUT:
