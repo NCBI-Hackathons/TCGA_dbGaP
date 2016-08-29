@@ -44,11 +44,11 @@ Allowable arguments are:
     '-f', '--file', type=str, default=None, help=' <path to file containing dbGap Ids>'
     '-id', '--dbGapIds', type=str, default=None, help='<comma separated list of phs'>'
 
-The file input can be the output from "query_tcga"
+The file input can directly be the output file "dbGAP_output.csv" from "fetch_dbGaP_with_TCGA.py"
 
 OUTPUT:
 
-List of SRRs found for the entered phs'
+List of SRRs found for the entered dbGaP study (accession) numbers
 
 ###"sra_query_tool.sh"
 INPUT:
