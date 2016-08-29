@@ -25,7 +25,8 @@ Additionally the input can also be a TCGA disease type or experiment stategy.
 Allowable arguments are:
 
     '-i', '--idSearch', type=str, default=None, help=' project/case/file id'
-    '-s', '--searchType', required = True, type=str, default='case', help='View results by project/file/case'
+    '-r', '--returnType', type=str, default='case', help='View TCGA results by project/file/case'
+    '-s', '--searchType', required = True, type=str, default='case', help='Search type for search by id project/file/case'
     '-d', '--disease', type=str, default=None, help='disease param'
     '-n', '--studyType', type=str, default=None, help='study type param wgs/wxs/rnaseq/etc'
     '-l', '--stringencyLevel', type=str, default="high", help='stringency level of dbGaP term match'
