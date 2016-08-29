@@ -1,6 +1,10 @@
 #TCGA_dbGaP
 
-TCGA --> dbGAP pipeline
+The repository contains scripts to automatically fetch related dbGaP studies and subsequently the specific sequence files for given TCGA data.
+
+To use download the entire contents of the "bin" folder.
+
+The description for the required scripts is provided below
 
 ##Platform requriements:
 Python 2.7 -> For installing and configuring python refer to https://www.python.org/download/releases/2.7/
