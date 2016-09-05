@@ -1,7 +1,7 @@
 #!/bin/bash
 base= ./sratoolkit.2.7.0-centos_linux64 #path to the sra toolkit folder <default assumes current folder>
 #path to input file with list of SRR IDs
-input= ./SRRlist.txt #add the inout path here <default is the current folder>
+input= ./SRRlist.txt #add the input path here <default is the current folder>
 #path to output folder
 results= ./output #add the output path here <default is the current folder>
 
