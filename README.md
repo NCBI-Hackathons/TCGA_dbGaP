@@ -6,10 +6,10 @@ To use download the entire contents of the "bin" folder.
 
 The description for the required scripts is provided below
 
-##Platform requriements:
+##Platform requirements:
 Python 2.7 -> For installing and configuring python refer to https://www.python.org/download/releases/2.7/
 
-SRA Toolkit -> For details check https://trace.ncbi.nlm.nih.gov/Traces/sra/sra.cgi?view=toolkit_doc&f=std
+SRA Toolkit -> For details follow the instructions at https://trace.ncbi.nlm.nih.gov/Traces/sra/sra.cgi?view=toolkit_doc&f=std
 
 ##Required python packages
 ###To install a package type pip install <package_name> at the commond line
@@ -22,7 +22,7 @@ SRA Toolkit -> For details check https://trace.ncbi.nlm.nih.gov/Traces/sra/sra.c
 ###"fetch_dbGaP_with_TCGA.py"
 INPUT:
 
-This function will take an input of TCGA project ID, file ID, case ID.
+This function will take an input of TCGA project ID, file ID, or case ID.
 
 Additionally the input can also be a TCGA disease type or experiment stategy.
 
@@ -37,7 +37,7 @@ Allowable arguments are:
 
 OUTPUT:
 
-The output is two csv files, one containing the ids, urls, and other TCGA information. The other contains dbGAP accession numbers, associated url and other study information for related studies.
+The output is two .csv files, one containing the ids, urls, and other TCGA information. The other contains dbGAP accession numbers, associated url, and other study information for related studies.
 The default name of the TCGA file is "tcga_output.csv" and dbGaP file is "dbGAP_output.csv"
 
 ###"fetch_SRRs.py"
@@ -57,10 +57,15 @@ List of SRRs found for the entered dbGaP study (accession) numbers
 ###"sra_query_tool.sh"
 INPUT:
 
-File containing list of SRRs
+File containing list of SRRs.  Default input file name and path is ./SRRlist.txt
 
 Takes the region of interest as argument
 
 OUTPUT:
 
-SAM files
+SAM files containing 
+
+USE EXAMPLE:
+
+
+
