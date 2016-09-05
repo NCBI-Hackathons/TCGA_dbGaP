@@ -1,18 +1,9 @@
 #!/bin/bash
-base= ./sratoolkit.2.7.0-centos_linux64 #path to the sra toolkit folder <default assumes current folder>
-#path to input file with list of SRR IDs
-input= ./SRRlist.txt #add the input path here <default is the current folder>
-#path to output folder
-results= ./output #add the output path here <default is the current folder>
-
-#gene region to search
-#genregion=4:1723150-1810650
-
-SRA=base + /bin
-
-genregion=$1
+input=$1 #file with list of SRR IDs
+output=$2 #output path
+genregion=$3 #gene region of interest in the format of chr:fromposition-toposition (e.g.  4:1723150-1810650)
 
 while IFS= read -r sample;
 do
-	$SRA/sam-dump --aligned-region $genregion --output-file $results/$sample-$genregion.sam $sample
+	sam-dump --aligned-region $genregion --output-file $output/$sample-$genregion.sam $sample
 done < $input
