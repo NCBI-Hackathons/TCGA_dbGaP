@@ -65,6 +65,7 @@ SAM files, one per SRR, each containing reads from your genomic region of intere
 
 USE EXAMPLE:
 1. install SRA toolkit and add the directory containing the toolkit executables to your path (e.g., PATH=$PATH:[download_location]/sratoolkit[version]/bin
-3. type sh /path/to/sra_query_tool.sh /path/to/SRRlist.txt /path/to/output/ 4:1723150-1810650
+2. type sh /path/to/sra_query_tool.sh /path/to/SRRlist.txt /path/to/output/ 4:1723150-1810650
 
+NOTE: You may need to have permission to access certain SRR files.  For testing purposes, SRR390728 is publicly available, and can be used as an example SRR for the sra_query_tool.
 
