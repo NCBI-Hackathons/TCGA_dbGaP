@@ -1,15 +1,13 @@
 #!/usr/bin/env python
-import argparse, sys, re
-import requests,time
-import json
-
-from tcga_to_dbGaB_mapping_dictionary import Mapping
+import argparse, sys, re, time, json
+import requests
 
 from argparse import RawTextHelpFormatter
+from tcga_to_dbGaB_mapping_dictionary import Mapping
 
 __author__ = " Abhijit Badve and Jessica Kurata"
-__version__ = "$Revision: 0.0.2 $"
-__date__ = "$Date: 2016-08-28$"
+__version__ = "Revision: 0.0.3 "
+__date__ = "Date: 2016-09-07"
 
 # --------------------------------------
 # define functions
@@ -19,12 +17,20 @@ def get_args():
  author: " + __author__ + "\n\
  version: " + __version__ + "\n\
  description: Search tcga by project/study/file/samples/customSearch")
-    parser.add_argument('-i', '--idSearch', type=str, default=None, help=' project/case/file id')
-    parser.add_argument('-r', '--returnType', type=str, default='case', help='View TCGA results by project/file/case')
-    parser.add_argument('-s', '--searchType',  type=str, default='case', help='Search type for search by id project/file/case')
-    parser.add_argument('-d', '--disease', type=str, default=None, help='disease param')
-    parser.add_argument('-n', '--studyType', type=str, default=None, help='study type param wgs/wxs/rnaseq/etc')
-    parser.add_argument('-l', '--stringencyLevel', type=str, default="high", help='stringency level of dbGaP term match')
+    subparsers = parser.add_subparsers(help="use commands 'id' or 'term' to query by GDC id or by disease/experimental strategy")
+
+    parser_id = subparsers.add_parser("id", help="query using GDC project, case or file  id")
+    parser_id.add_argument('-i', '--idSearch', required=True, type=str, default=None, help=' project/case/file id')
+    parser_id.add_argument('-s', '--searchType',required=True, type=str, choices=["project", "case", "file"], help="type of id used")
+    parser_id.add_argument('-l', '--stringencyLevel', type=str, default='high', choices=['high', 'medium', 'low'],
+                           help='level of stringency to use when mapping between GDC and dbGaP terms')
+    
+    parser_term = subparsers.add_parser("term", help="query using disease(s) and/or study type(s)")
+    parser_term.add_argument('-r', '--returnType', type=str, default='case', help='View TCGA results by project/file/case')
+    parser_term.add_argument('-d', '--disease', type=str, default=None, help='disease param')
+    parser_term.add_argument('-n', '--studyType', type=str, default=None, help='study type param wgs/wxs/rnaseq/etc')
+    parser_term.add_argument('-l', '--stringencyLevel', type=str, default='high', choices=['high', 'medium', 'low'],
+                           help='level of stringency to use when mapping between GDC and dbGaP terms')
     # parse the arguments
     args = parser.parse_args()
     # if no input,exit
