@@ -17,7 +17,7 @@ def get_args():
  author: " + __author__ + "\n\
  version: " + __version__ + "\n\
  description: Search tcga by project/study/file/samples/customSearch")
-    subparsers = parser.add_subparsers(help="use commands 'id' or 'term' to query by GDC id or by disease/experimental strategy")
+    subparsers = parser.add_subparsers(help="use commands 'id' or 'term' to query by GDC id or by disease/experimental strategy", dest='subparser_name')
 
     parser_id = subparsers.add_parser("id", help="query using GDC project, case or file  id")
     parser_id.add_argument('-i', '--idSearch', required=True, type=str, default=None, help=' project/case/file id')
@@ -31,6 +31,7 @@ def get_args():
     parser_term.add_argument('-n', '--studyType', type=str, default=None, help='study type param wgs/wxs/rnaseq/etc')
     parser_term.add_argument('-l', '--stringencyLevel', type=str, default='high', choices=['high', 'medium', 'low'],
                            help='level of stringency to use when mapping between GDC and dbGaP terms')
+
     # parse the arguments
     args = parser.parse_args()
     # if no input,exit
@@ -59,6 +60,7 @@ def query_by_id(submittedID, searchType):
         Queries the TCGA API by project name, file ID or case ID
         Returns the json response (needs to include disease and 
     """
+
     # Fields to return based on return type
     returnDict = {"project":"disease_type,project_id,released,state,primary_site,dbgap_accession_number,summary.experimental_strategies.experimental_strategy,summary.data_categories.data_category",
                   "file":"file_id,experimental_strategy,data_type,cases.summary.data_categories.data_category,cases.project.dbgap_accession_number,cases.project.disease_type,cases.project.released,cases.project.state,cases.project.primary_site,cases.project.project_id,cases.project.name,cases.case_id",
@@ -87,9 +89,6 @@ def query_by_filter(searchDict, returnType):
     returnDict = {"project":"disease_type,project_id,released,state,primary_site,dbgap_accession_number,summary.experimental_strategies.experimental_strategy,summary.data_categories.data_category",
                   "file":"file_id,experimental_strategy,data_type,cases.summary.data_categories.data_category,cases.project.dbgap_accession_number,cases.project.disease_type,cases.project.released,cases.project.state,cases.project.primary_site,cases.project.project_id,cases.project.name,cases.case_id",
                   "case": "project.dbgap_accession_number,project.disease_type,project.released,project.state,project.primary_site,project.project_id,project.name,case_id,sample_ids,files.experimental_strategy"}
-
-    if returnType not in ["project", "file", "case"]:
-        return "Please enter a valid return type: project, file or case"
 
     if searchDict["disease"] != []:
         # Finds the field based on the return type asked for
@@ -169,27 +168,36 @@ def query_dbGaP(stringency, diseases=[], studyTypes=[], terms={}):
     mapObj = Mapping()
     diseaseDict, studyDict = mapObj.main(stringency)
     strTerms = ""
+    outputStr = ""
     
     if diseases != []:
         dbGaPTerms = []
         dbTerms = []
         for dis in diseases:
             dbGaPTerms += diseaseDict[dis.lower()]
+        
+        # To remove replicates
+        dbGaPTerms = list(set(dbGaPTerms))
         for term in dbGaPTerms:
             term = term.replace(" ","+")
             dbTerms += [term]
         diseaseTerms = "%22"+"%22[Disease]+OR+%22".join(dbTerms)+"%22[Disease]"
         strTerms += diseaseTerms
+        outputStr += "[disease]: "+", ".join(dbGaPTerms)
 
     if studyTypes != []:
         dbGaPTypes = []
         dbTypes = []
         for study in studyTypes:
             dbGaPTypes += studyDict[study]
+        
+        # To remove replicates
+        dbGaPTypes = list(set(dbGaPTypes))
         for types in dbGaPTypes:
-            term = term.replace(" ","+")
+            types = types.replace(" ","+")
             dbTypes += [types]
         studyTerms = "%22"+"%22[Molecular+Data+Type]+OR+%22".join(dbTypes)+"%22[Molecular+Data+Type]"
+        outputStr += " [molecular data type]: "+", ".join(dbGaPTypes)
         if strTerms == "":
             strTerms = studyTerms
         else:
@@ -199,7 +207,7 @@ def query_dbGaP(stringency, diseases=[], studyTypes=[], terms={}):
     resultCount = re.search("<eSearchResult><Count>([0-9]+)</Count>", response.content)
     count = int(resultCount.group(1))
     if count < 100000:
-        print str(count)+" matches found in dbGaP for the terms "+strTerms
+        print str(count)+" matches found in dbGaP for the terms "+ outputStr
         response = requests.get('https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=gap&retmax='+str(count)+'&term=' + strTerms)
     else:
         return "Over 100,000 records in dbGaP match your search terms, please increase the specificity of your search"
@@ -260,14 +268,14 @@ def main():
     response_func = {"project": project, "file": tcgaFile, "case": case}
     
     # If search by id is used
-    if args.idSearch is not None and args.searchType is not None:
+    if args.subparser_name == "id":
         searchType = args.searchType.lower()
         responseRAW = query_by_id(args.idSearch, searchType) # Queries GDC by id
 
         returnType = searchType # Will return the type matching the id search
     
     # If search by disease and/or study type is used
-    elif args.disease != None or args.studyType!=None:
+    elif args.subparser_name == "term":
         if args.disease == None:
             diseases = []
         else:
