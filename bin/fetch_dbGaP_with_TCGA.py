@@ -28,7 +28,7 @@ def get_args():
     parser_term = subparsers.add_parser("term", help="query using disease(s) and/or study type(s)")
     parser_term.add_argument('-r', '--returnType', type=str, default='case', help='View TCGA results by project/file/case')
     parser_term.add_argument('-d', '--disease', type=str, default=None, help='disease param')
-    parser_term.add_argument('-n', '--studyType', type=str, default=None, help='study type param wgs/wxs/rnaseq/etc')
+    parser_term.add_argument('-n', '--studyType', type=str, default=None, help='GDC experimental strategy to search by')
     parser_term.add_argument('-l', '--stringencyLevel', type=str, default='high', choices=['high', 'medium', 'low'],
                            help='level of stringency to use when mapping between GDC and dbGaP terms')
 
@@ -177,22 +177,24 @@ def query_dbGaP(stringency, diseases=[], studyTypes=[], terms={}):
             dbGaPTerms += diseaseDict[dis.lower()]
         
         # To remove replicates
-        dbGaPTerms = list(set(dbGaPTerms))
         for term in dbGaPTerms:
             term = term.replace(" ","+")
             dbTerms += [term]
-        diseaseTerms = "%22"+"%22[Disease]+OR+%22".join(dbTerms)+"%22[Disease]"
+        diseaseTerms = "%22"+"%22[Disease]+OR+%22".join(dbTerms)+"%22[Disease]OR%22"+"%22[Diseases]+OR+%22".join(dbTerms)+"%22[Diseases]"
         strTerms += diseaseTerms
+        print strTerms
         outputStr += "[disease]: "+", ".join(dbGaPTerms)
 
     if studyTypes != []:
         dbGaPTypes = []
         dbTypes = []
         for study in studyTypes:
+            if study not in ["RNA-Seq", "WXS", "miRNA-Seq", "Genotyping Array"]:
+                print "Error: invalid study type, please choose from RNA-Seq, WXS, miRNA-Seq, Genotyping Array"
+                sys.exit(0)
             dbGaPTypes += studyDict[study]
         
         # To remove replicates
-        dbGaPTypes = list(set(dbGaPTypes))
         for types in dbGaPTypes:
             types = types.replace(" ","+")
             dbTypes += [types]
@@ -273,6 +275,8 @@ def main():
         responseRAW = query_by_id(args.idSearch, searchType) # Queries GDC by id
 
         returnType = searchType # Will return the type matching the id search
+        diseases = []
+        types = []
     
     # If search by disease and/or study type is used
     elif args.subparser_name == "term":
@@ -288,9 +292,6 @@ def main():
         returnType = args.returnType.lower()
         responseRAW = query_by_filter(searchDict, returnType)
 
-    else:
-        return "Please enter eiter an id and search type, a disease or a study type to search"
-
     response = responseRAW["data"]["hits"]
     if response == []:
         return "No matches were found using the submitted search terms"
@@ -302,21 +303,28 @@ def main():
                  "file": ["file_id","file_id","disease_type","strategies_list","primary_site"],
                  "case":["case_id","case_id","disease_type","strategies_list","primary_site"]}
     tcgaOutStr = header_row[returnType]
-    diseases = []
+    diseaseType = []
     studyType = []
     tcga_count = 0
     for dic in response:
         tcga_count += 1
         outDict = response_func[returnType](dic) # processes output
-        diseases += [outDict["disease_type"]]
-        studyType += outDict["strategies_list"]
+        # If not querying by disease/type, get diseases from returned TCGA
+        if diseases == []:
+            diseaseType += [outDict["disease_type"]]
+        else:
+            diseaseType = diseases
+        if types == []:
+            studyType += outDict["strategies_list"]
+        else:
+            studyType = types
         tcgaOutStr += outDict[outStringKeys[returnType][0]]+",https://gdc-portal.nci.nih.gov/"+returnType+"s/"+outDict[outStringKeys[returnType][1]]+","\
                       +outDict[outStringKeys[returnType][2]]+","+"\\".join(outDict[outStringKeys[returnType][3]])+","+outDict[outStringKeys[returnType][4]]+"\n"
     print str(tcga_count)+ " matches found in TCGA"
     with open("tcag_output.csv", "w") as outFile:
         outFile.write(tcgaOutStr)
 
-    query_dbGaP(args.stringencyLevel, diseases=diseases, studyTypes=list(set(studyType)))
+    query_dbGaP(args.stringencyLevel, diseases=list(set(diseaseType)), studyTypes=list(set(studyType)))
 
 # initialize the script
 if __name__ == '__main__':
