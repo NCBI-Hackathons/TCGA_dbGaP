@@ -6,8 +6,8 @@ from argparse import RawTextHelpFormatter
 from tcga_to_dbGaB_mapping_dictionary import Mapping
 
 __author__ = " Abhijit Badve and Jessica Kurata"
-__version__ = "Revision: 0.0.3 "
-__date__ = "Date: 2016-09-07"
+__version__ = "Revision: 0.0.4 "
+__date__ = "Date: 2016-10-04"
 
 # --------------------------------------
 # define functions
@@ -321,7 +321,7 @@ def main():
         tcgaOutStr += outDict[outStringKeys[returnType][0]]+",https://gdc-portal.nci.nih.gov/"+returnType+"s/"+outDict[outStringKeys[returnType][1]]+","\
                       +outDict[outStringKeys[returnType][2]]+","+"\\".join(outDict[outStringKeys[returnType][3]])+","+outDict[outStringKeys[returnType][4]]+"\n"
     print str(tcga_count)+ " matches found in TCGA"
-    with open("tcag_output.csv", "w") as outFile:
+    with open("tcga_output.csv", "w") as outFile:
         outFile.write(tcgaOutStr)
 
     query_dbGaP(args.stringencyLevel, diseases=list(set(diseaseType)), studyTypes=list(set(studyType)))
